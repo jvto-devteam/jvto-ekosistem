@@ -1,0 +1,10 @@
+{
+  "id": "commercial-rule-id",
+  "type": "pricing | deposit | cancellation | credit | luggage | pax | addon",
+  "status": "draft",
+  "statement": "",
+  "appliesToProductIds": [],
+  "effectiveFrom": null,
+  "owner": "commercial",
+  "lastReviewed": null
+}

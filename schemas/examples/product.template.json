@@ -1,0 +1,19 @@
+{
+  "id": "tour-product-id",
+  "name": "Tour product name",
+  "version": "v1",
+  "status": "draft",
+  "route": [],
+  "durationDays": null,
+  "startLocations": [],
+  "endLocations": [],
+  "inclusions": [],
+  "exclusions": [],
+  "pricingRuleRef": null,
+  "depositRuleRef": null,
+  "policyRefs": [],
+  "healthRequirementRefs": [],
+  "channelAvailability": [],
+  "effectiveFrom": null,
+  "lastReviewed": null
+}

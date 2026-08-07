@@ -1,0 +1,35 @@
+{
+  "id": "package-BALI-4D3N-001-channel-availability",
+  "packageId": "package-BALI-4D3N-001",
+  "slug": "tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
+  "channelMetadata": {
+    "internalPackageId": "package-BALI-4D3N-001",
+    "orderChannelEnabled": {
+      "JVTO": true,
+      "KLOOK": false,
+      "TRAVELOKA": false,
+      "TIKETCOM": false,
+      "OTHERS": false
+    },
+    "externalPackageIds": {
+      "klook": "",
+      "traveloka": "",
+      "tiketcom": ""
+    },
+    "isFreesale": true,
+    "requiresAvailabilityCheck": false,
+    "supportedPickupCities": [
+      "Bali"
+    ],
+    "supportedDropoffCities": [
+      "Surabaya"
+    ],
+    "languageOffered": [
+      "en"
+    ],
+    "status": "active",
+    "minLeadTimeHours": 24,
+    "maxPaxRecommended": 100,
+    "minPaxOperational": 1
+  }
+}

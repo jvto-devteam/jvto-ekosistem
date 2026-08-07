@@ -1,0 +1,1573 @@
+{
+  "privacy": "Payment links, receipts, references, expense, and profit are excluded.",
+  "records": [
+    {
+      "bookingId": 3390,
+      "bookingCode": "JVTO-3390",
+      "orderChannel": "JVTO",
+      "packageId": 29,
+      "invoiceTotal": 17800000,
+      "paid": 20400000,
+      "balance": -2600000,
+      "balanceStatus": "overpaid_or_adjustment",
+      "paymentMethod": "cc",
+      "paymentCount": 2,
+      "payments": [
+        {
+          "id": 626,
+          "amount": 3990000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "12 May 26 12:37"
+        },
+        {
+          "id": 772,
+          "amount": 16410000,
+          "methodId": 6,
+          "method": "Bank Transfer",
+          "description": "Full Payment",
+          "date": "22 Jul 26 19:56"
+        }
+      ]
+    },
+    {
+      "bookingId": 3418,
+      "bookingCode": "JVTO-3418",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "invoiceTotal": 8402000,
+      "paid": 8402000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": "cc",
+      "paymentCount": 3,
+      "payments": [
+        {
+          "id": 650,
+          "amount": 1608000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "24 May 26 20:10"
+        },
+        {
+          "id": 767,
+          "amount": 5532000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "21 Jul 26 19:26"
+        },
+        {
+          "id": 768,
+          "amount": 1262000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment Add On",
+          "date": "21 Jul 26 19:26"
+        }
+      ]
+    },
+    {
+      "bookingId": 3401,
+      "bookingCode": "JVTO-3401",
+      "orderChannel": "JVTO",
+      "packageId": 34,
+      "invoiceTotal": 9100000,
+      "paid": 9100000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": null,
+      "paymentCount": 2,
+      "payments": [
+        {
+          "id": 633,
+          "amount": 1820000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "15 May 26 05:44"
+        },
+        {
+          "id": 785,
+          "amount": 7280000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "25 Jul 26 15:48"
+        }
+      ]
+    },
+    {
+      "bookingId": 3692,
+      "bookingCode": "JVTO-3692",
+      "orderChannel": "JVTO",
+      "packageId": 33,
+      "invoiceTotal": 9100000,
+      "paid": 9100000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": null,
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 805,
+          "amount": 9100000,
+          "methodId": 6,
+          "method": "Bank Transfer",
+          "description": "Down Payment (Full Payment)",
+          "date": "31 Jul 26 13:34"
+        }
+      ]
+    },
+    {
+      "bookingId": 3561,
+      "bookingCode": "JVTO-3561",
+      "orderChannel": "JVTO",
+      "packageId": 80,
+      "invoiceTotal": 18950000,
+      "paid": 18950000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": "cc",
+      "paymentCount": 3,
+      "payments": [
+        {
+          "id": 713,
+          "amount": 3790000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "28 Jun 26 01:54"
+        },
+        {
+          "id": 714,
+          "amount": 13960000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "28 Jun 26 02:05"
+        },
+        {
+          "id": 715,
+          "amount": 1200000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment Add On",
+          "date": "28 Jun 26 02:06"
+        }
+      ]
+    },
+    {
+      "bookingId": 3510,
+      "bookingCode": "KLOOK-3510",
+      "orderChannel": "KLOOK",
+      "packageId": 83,
+      "invoiceTotal": 10080000,
+      "paid": 0,
+      "balance": 10080000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 1566,
+      "bookingCode": "JVTO-1566",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "invoiceTotal": 8040000,
+      "paid": 8040000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": "cc",
+      "paymentCount": 4,
+      "payments": [
+        {
+          "id": 535,
+          "amount": 1428000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "06 Jan 26 19:59"
+        },
+        {
+          "id": 693,
+          "amount": 5712000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "18 Jun 26 23:35"
+        },
+        {
+          "id": 694,
+          "amount": 0,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "19 Jun 26 22:45"
+        },
+        {
+          "id": 695,
+          "amount": 900000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment Add On",
+          "date": "19 Jun 26 22:45"
+        }
+      ]
+    },
+    {
+      "bookingId": 3478,
+      "bookingCode": "JVTO-3478",
+      "orderChannel": "JVTO",
+      "packageId": 29,
+      "invoiceTotal": 20400000,
+      "paid": 20400000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": "cc",
+      "paymentCount": 2,
+      "payments": [
+        {
+          "id": 680,
+          "amount": 4080000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "10 Jun 26 22:07"
+        },
+        {
+          "id": 796,
+          "amount": 16320000,
+          "methodId": 5,
+          "method": "WISE",
+          "description": "Full Payment",
+          "date": "28 Jul 26 16:07"
+        }
+      ]
+    },
+    {
+      "bookingId": 3459,
+      "bookingCode": "JVTO-3459",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "invoiceTotal": 7640000,
+      "paid": 7640000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": null,
+      "paymentCount": 3,
+      "payments": [
+        {
+          "id": 670,
+          "amount": 1528000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "05 Jun 26 19:03"
+        },
+        {
+          "id": 797,
+          "amount": 5612000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "28 Jul 26 16:46"
+        },
+        {
+          "id": 798,
+          "amount": 500000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment Add On",
+          "date": "28 Jul 26 16:46"
+        }
+      ]
+    },
+    {
+      "bookingId": 3370,
+      "bookingCode": "JVTO-3370",
+      "orderChannel": "JVTO",
+      "packageId": 48,
+      "invoiceTotal": 9400000,
+      "paid": 9400000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": "cc",
+      "paymentCount": 2,
+      "payments": [
+        {
+          "id": 617,
+          "amount": 1880000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "05 May 26 23:50"
+        },
+        {
+          "id": 801,
+          "amount": 7520000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "29 Jul 26 03:56"
+        }
+      ]
+    },
+    {
+      "bookingId": 3571,
+      "bookingCode": "JVTO-3571",
+      "orderChannel": "JVTO",
+      "packageId": 48,
+      "invoiceTotal": 5600000,
+      "paid": 5600000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": "cc",
+      "paymentCount": 2,
+      "payments": [
+        {
+          "id": 722,
+          "amount": 1120000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "02 Jul 26 03:18"
+        },
+        {
+          "id": 810,
+          "amount": 4480000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "01 Aug 26 11:46"
+        }
+      ]
+    },
+    {
+      "bookingId": 3696,
+      "bookingCode": "TWT-3696",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "invoiceTotal": 12410000,
+      "paid": 0,
+      "balance": 12410000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3715,
+      "bookingCode": "JVTO-3715",
+      "orderChannel": "JVTO",
+      "packageId": 34,
+      "invoiceTotal": 8050000,
+      "paid": 8050000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": null,
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 830,
+          "amount": 8050000,
+          "methodId": 6,
+          "method": "Bank Transfer",
+          "description": "Down Payment (Full Payment)",
+          "date": "04 Aug 26 10:25"
+        }
+      ]
+    },
+    {
+      "bookingId": 3710,
+      "bookingCode": "JVTO-3710",
+      "orderChannel": "JVTO",
+      "packageId": 73,
+      "invoiceTotal": 6250000,
+      "paid": 6250000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": null,
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 824,
+          "amount": 6250000,
+          "methodId": 6,
+          "method": "Bank Transfer",
+          "description": "Down Payment (Full Payment)",
+          "date": "03 Aug 26 13:44"
+        }
+      ]
+    },
+    {
+      "bookingId": 3684,
+      "bookingCode": "KLOOK-3684",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "invoiceTotal": 7740000,
+      "paid": 0,
+      "balance": 7740000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 1676,
+      "bookingCode": "KLOOK-1676",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "invoiceTotal": 7500000,
+      "paid": 0,
+      "balance": 7500000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3352,
+      "bookingCode": "KLOOK-3352",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "invoiceTotal": 23220000,
+      "paid": 0,
+      "balance": 23220000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3622,
+      "bookingCode": "JVTO-3622",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "invoiceTotal": 7140000,
+      "paid": 7140000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": "cc",
+      "paymentCount": 2,
+      "payments": [
+        {
+          "id": 746,
+          "amount": 1428000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "14 Jul 26 02:01"
+        },
+        {
+          "id": 790,
+          "amount": 5712000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "27 Jul 26 00:18"
+        }
+      ]
+    },
+    {
+      "bookingId": 3255,
+      "bookingCode": "JVTO-3255",
+      "orderChannel": "JVTO",
+      "packageId": 33,
+      "invoiceTotal": 17480000,
+      "paid": 17480000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": null,
+      "paymentCount": 3,
+      "payments": [
+        {
+          "id": 590,
+          "amount": 1820000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "13 Apr 26 02:19"
+        },
+        {
+          "id": 806,
+          "amount": 14380000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "31 Jul 26 17:30"
+        },
+        {
+          "id": 807,
+          "amount": 1280000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment Add On",
+          "date": "31 Jul 26 17:30"
+        }
+      ]
+    },
+    {
+      "bookingId": 3658,
+      "bookingCode": "KLOOK-3658",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "invoiceTotal": 11000000,
+      "paid": 0,
+      "balance": 11000000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3619,
+      "bookingCode": "TWT-3619",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "invoiceTotal": 18814000,
+      "paid": 0,
+      "balance": 18814000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3438,
+      "bookingCode": "KLOOK-3438",
+      "orderChannel": "KLOOK",
+      "packageId": 94,
+      "invoiceTotal": 2800000,
+      "paid": 0,
+      "balance": 2800000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3714,
+      "bookingCode": "JVTO-3714",
+      "orderChannel": "JVTO",
+      "packageId": null,
+      "invoiceTotal": 1260000,
+      "paid": 0,
+      "balance": 1260000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3709,
+      "bookingCode": "KLOOK-3709",
+      "orderChannel": "KLOOK",
+      "packageId": 94,
+      "invoiceTotal": 4200000,
+      "paid": 0,
+      "balance": 4200000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3445,
+      "bookingCode": "JVTO-3445",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "invoiceTotal": 13200000,
+      "paid": 13200000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": "cash",
+      "paymentCount": 3,
+      "payments": [
+        {
+          "id": 663,
+          "amount": 2640000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "02 Jun 26 01:40"
+        },
+        {
+          "id": 821,
+          "amount": 9560000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "02 Aug 26 19:54"
+        },
+        {
+          "id": 822,
+          "amount": 1000000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment Add On",
+          "date": "02 Aug 26 19:54"
+        }
+      ]
+    },
+    {
+      "bookingId": 3508,
+      "bookingCode": "KLOOK-3508",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "invoiceTotal": 9804000,
+      "paid": 0,
+      "balance": 9804000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3563,
+      "bookingCode": "KLOOK-3563",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "invoiceTotal": 6200000,
+      "paid": 0,
+      "balance": 6200000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3632,
+      "bookingCode": "JVTO-3632",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "invoiceTotal": 9040000,
+      "paid": 1608000,
+      "balance": 7432000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 755,
+          "amount": 1608000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "17 Jul 26 18:24"
+        }
+      ]
+    },
+    {
+      "bookingId": 3671,
+      "bookingCode": "JVTO-3671",
+      "orderChannel": "JVTO",
+      "packageId": 29,
+      "invoiceTotal": 7140000,
+      "paid": 7140000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": null,
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 787,
+          "amount": 7140000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment (Full Payment)",
+          "date": "26 Jul 26 23:03"
+        }
+      ]
+    },
+    {
+      "bookingId": 3572,
+      "bookingCode": "JVTO-3572",
+      "orderChannel": "JVTO",
+      "packageId": 33,
+      "invoiceTotal": 9500000,
+      "paid": 9500000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": null,
+      "paymentCount": 3,
+      "payments": [
+        {
+          "id": 723,
+          "amount": 1900000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "02 Jul 26 13:25"
+        },
+        {
+          "id": 814,
+          "amount": 7200000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "01 Aug 26 15:19"
+        },
+        {
+          "id": 815,
+          "amount": 400000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment Add On",
+          "date": "01 Aug 26 15:19"
+        }
+      ]
+    },
+    {
+      "bookingId": 3596,
+      "bookingCode": "JVTO-3596",
+      "orderChannel": "JVTO",
+      "packageId": 73,
+      "invoiceTotal": 3500000,
+      "paid": 3500000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": "cc",
+      "paymentCount": 3,
+      "payments": [
+        {
+          "id": 735,
+          "amount": 700000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "10 Jul 26 12:09"
+        },
+        {
+          "id": 799,
+          "amount": 2400000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "28 Jul 26 21:00"
+        },
+        {
+          "id": 800,
+          "amount": 400000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment Add On",
+          "date": "28 Jul 26 21:00"
+        }
+      ]
+    },
+    {
+      "bookingId": 3425,
+      "bookingCode": "KLOOK-3425",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "invoiceTotal": 7125000,
+      "paid": 0,
+      "balance": 7125000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3604,
+      "bookingCode": "JVTO-3604",
+      "orderChannel": "JVTO",
+      "packageId": 29,
+      "invoiceTotal": 5723000,
+      "paid": 5723000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": "wise",
+      "paymentCount": 2,
+      "payments": [
+        {
+          "id": 739,
+          "amount": 1428000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "12 Jul 26 08:26"
+        },
+        {
+          "id": 776,
+          "amount": 4295000,
+          "methodId": 5,
+          "method": "WISE",
+          "description": "Full Payment",
+          "date": "23 Jul 26 18:50"
+        }
+      ]
+    },
+    {
+      "bookingId": 3211,
+      "bookingCode": "KLOOK-3211",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "invoiceTotal": 12384000,
+      "paid": 0,
+      "balance": 12384000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3285,
+      "bookingCode": "JVTO-3285",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "invoiceTotal": 20950000,
+      "paid": 20950000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": "cc",
+      "paymentCount": 3,
+      "payments": [
+        {
+          "id": 599,
+          "amount": 4190000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "19 Apr 26 22:24"
+        },
+        {
+          "id": 762,
+          "amount": 15760000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "20 Jul 26 16:23"
+        },
+        {
+          "id": 763,
+          "amount": 1000000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment Add On",
+          "date": "20 Jul 26 16:23"
+        }
+      ]
+    },
+    {
+      "bookingId": 3453,
+      "bookingCode": "JVTO-3453",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "invoiceTotal": 22950000,
+      "paid": 4590000,
+      "balance": 18360000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 665,
+          "amount": 4590000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "03 Jun 26 16:26"
+        }
+      ]
+    },
+    {
+      "bookingId": 3515,
+      "bookingCode": "TWT-3515",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "invoiceTotal": 14675000,
+      "paid": 0,
+      "balance": 14675000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 1681,
+      "bookingCode": "JVTO-1681",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "invoiceTotal": 7940000,
+      "paid": 1588000,
+      "balance": 6352000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 564,
+          "amount": 1588000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "23 Feb 26 04:36"
+        }
+      ]
+    },
+    {
+      "bookingId": 3595,
+      "bookingCode": "KLOOK-3595",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "invoiceTotal": 6200000,
+      "paid": 0,
+      "balance": 6200000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3559,
+      "bookingCode": "KLOOK-3559",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "invoiceTotal": 10320000,
+      "paid": 0,
+      "balance": 10320000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3672,
+      "bookingCode": "JVTO-3672",
+      "orderChannel": "JVTO",
+      "packageId": 54,
+      "invoiceTotal": 9800000,
+      "paid": 9800000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": "cc",
+      "paymentCount": 2,
+      "payments": [
+        {
+          "id": 788,
+          "amount": 1960000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "26 Jul 26 23:12"
+        },
+        {
+          "id": 789,
+          "amount": 7840000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "26 Jul 26 23:29"
+        }
+      ]
+    },
+    {
+      "bookingId": 3254,
+      "bookingCode": "TWT-3254",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "invoiceTotal": 20084000,
+      "paid": 0,
+      "balance": 20084000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3717,
+      "bookingCode": "JVTO-3717",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "invoiceTotal": 8040000,
+      "paid": 8040000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": null,
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 827,
+          "amount": 8040000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment (Full Payment)",
+          "date": "03 Aug 26 18:20"
+        }
+      ]
+    },
+    {
+      "bookingId": 3654,
+      "bookingCode": "JVTO-3654",
+      "orderChannel": "JVTO",
+      "packageId": 34,
+      "invoiceTotal": 10000000,
+      "paid": 2000000,
+      "balance": 8000000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 784,
+          "amount": 2000000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "25 Jul 26 07:58"
+        }
+      ]
+    },
+    {
+      "bookingId": 3687,
+      "bookingCode": "KLOOK-3687",
+      "orderChannel": "KLOOK",
+      "packageId": 83,
+      "invoiceTotal": 7500000,
+      "paid": 0,
+      "balance": 7500000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3488,
+      "bookingCode": "KLOOK-3488",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "invoiceTotal": 5187000,
+      "paid": 0,
+      "balance": 5187000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3577,
+      "bookingCode": "KLOOK-3577",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "invoiceTotal": 13760000,
+      "paid": 0,
+      "balance": 13760000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 1588,
+      "bookingCode": "JVTO-1588",
+      "orderChannel": "JVTO",
+      "packageId": 34,
+      "invoiceTotal": 9900000,
+      "paid": 9900000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": "cc",
+      "paymentCount": 3,
+      "payments": [
+        {
+          "id": 542,
+          "amount": 1980000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "26 Jan 26 11:08"
+        },
+        {
+          "id": 545,
+          "amount": 7120000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "31 Jan 26 23:47"
+        },
+        {
+          "id": 546,
+          "amount": 800000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment Add On",
+          "date": "31 Jan 26 23:47"
+        }
+      ]
+    },
+    {
+      "bookingId": 3220,
+      "bookingCode": "KLOOK-3220",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "invoiceTotal": 6750000,
+      "paid": 0,
+      "balance": 6750000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3613,
+      "bookingCode": "KLOOK-3613",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "invoiceTotal": 6200000,
+      "paid": 0,
+      "balance": 6200000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3679,
+      "bookingCode": "JVTO-3679",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "invoiceTotal": 12200000,
+      "paid": 2440000,
+      "balance": 9760000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 793,
+          "amount": 2440000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "28 Jul 26 02:34"
+        }
+      ]
+    },
+    {
+      "bookingId": 1584,
+      "bookingCode": "KLOOK-1584",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "invoiceTotal": 13760000,
+      "paid": 0,
+      "balance": 13760000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3675,
+      "bookingCode": "JVTO-3675",
+      "orderChannel": "JVTO",
+      "packageId": 33,
+      "invoiceTotal": 9100000,
+      "paid": 1820000,
+      "balance": 7280000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 792,
+          "amount": 1820000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "27 Jul 26 20:18"
+        }
+      ]
+    },
+    {
+      "bookingId": 3730,
+      "bookingCode": "KLOOK-3730",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "invoiceTotal": 7500000,
+      "paid": 0,
+      "balance": 7500000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3616,
+      "bookingCode": "KLOOK-3616",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "invoiceTotal": 6200000,
+      "paid": 0,
+      "balance": 6200000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3660,
+      "bookingCode": "KLOOK-3660",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "invoiceTotal": 7500000,
+      "paid": 0,
+      "balance": 7500000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3718,
+      "bookingCode": "JVTO-3718",
+      "orderChannel": "JVTO",
+      "packageId": 34,
+      "invoiceTotal": 10000000,
+      "paid": 2000000,
+      "balance": 8000000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 828,
+          "amount": 2000000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "03 Aug 26 20:29"
+        }
+      ]
+    },
+    {
+      "bookingId": 3674,
+      "bookingCode": "TWT-3674",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "invoiceTotal": 12165000,
+      "paid": 0,
+      "balance": 12165000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3605,
+      "bookingCode": "JVTO-3605",
+      "orderChannel": "JVTO",
+      "packageId": 34,
+      "invoiceTotal": 9500000,
+      "paid": 1900000,
+      "balance": 7600000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 740,
+          "amount": 1900000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "12 Jul 26 12:22"
+        }
+      ]
+    },
+    {
+      "bookingId": 3716,
+      "bookingCode": "JVTO-3716",
+      "orderChannel": "JVTO",
+      "packageId": 54,
+      "invoiceTotal": 14700000,
+      "paid": 2940000,
+      "balance": 11760000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": "cc",
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 826,
+          "amount": 2940000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "03 Aug 26 16:21"
+        }
+      ]
+    },
+    {
+      "bookingId": 3340,
+      "bookingCode": "JVTO-3340",
+      "orderChannel": "JVTO",
+      "packageId": 29,
+      "invoiceTotal": 12200000,
+      "paid": 2440000,
+      "balance": 9760000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 612,
+          "amount": 2440000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "30 Apr 26 09:52"
+        }
+      ]
+    },
+    {
+      "bookingId": 3242,
+      "bookingCode": "KLOOK-3242",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "invoiceTotal": 7500000,
+      "paid": 0,
+      "balance": 7500000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 1709,
+      "bookingCode": "JVTO-1709",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "invoiceTotal": 26700000,
+      "paid": 26700000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": "cc",
+      "paymentCount": 3,
+      "payments": [
+        {
+          "id": 569,
+          "amount": 5340000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "11 Mar 26 04:12"
+        },
+        {
+          "id": 691,
+          "amount": 20160000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "18 Jun 26 13:58"
+        },
+        {
+          "id": 692,
+          "amount": 1200000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment Add On",
+          "date": "18 Jun 26 13:58"
+        }
+      ]
+    },
+    {
+      "bookingId": 3700,
+      "bookingCode": "JVTO-3700",
+      "orderChannel": "JVTO",
+      "packageId": 48,
+      "invoiceTotal": 5600000,
+      "paid": 1120000,
+      "balance": 4480000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 808,
+          "amount": 1120000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "31 Jul 26 23:23"
+        }
+      ]
+    },
+    {
+      "bookingId": 3574,
+      "bookingCode": "KLOOK-3574",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "invoiceTotal": 6200000,
+      "paid": 0,
+      "balance": 6200000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3403,
+      "bookingCode": "TWT-3403",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "invoiceTotal": 20004000,
+      "paid": 0,
+      "balance": 20004000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3569,
+      "bookingCode": "KLOOK-3569",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "invoiceTotal": 7500000,
+      "paid": 0,
+      "balance": 7500000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3644,
+      "bookingCode": "JVTO-3644",
+      "orderChannel": "JVTO",
+      "packageId": 34,
+      "invoiceTotal": 9500000,
+      "paid": 9500000,
+      "balance": 0,
+      "balanceStatus": "settled",
+      "paymentMethod": "cc",
+      "paymentCount": 3,
+      "payments": [
+        {
+          "id": 773,
+          "amount": 1900000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "22 Jul 26 21:34"
+        },
+        {
+          "id": 812,
+          "amount": 7200000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment (Paid in Full)",
+          "date": "01 Aug 26 15:09"
+        },
+        {
+          "id": 813,
+          "amount": 400000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Payment Add On",
+          "date": "01 Aug 26 15:10"
+        }
+      ]
+    },
+    {
+      "bookingId": 3492,
+      "bookingCode": "JVTO-3492",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "invoiceTotal": 7640000,
+      "paid": 1528000,
+      "balance": 6112000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": "cc",
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 685,
+          "amount": 1528000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "13 Jun 26 22:59"
+        }
+      ]
+    },
+    {
+      "bookingId": 3693,
+      "bookingCode": "TWT-3693",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "invoiceTotal": 8839000,
+      "paid": 0,
+      "balance": 8839000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3708,
+      "bookingCode": "JVTO-3708",
+      "orderChannel": "JVTO",
+      "packageId": 34,
+      "invoiceTotal": 9900000,
+      "paid": 1900000,
+      "balance": 8000000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 1,
+      "payments": [
+        {
+          "id": 820,
+          "amount": 1900000,
+          "methodId": 3,
+          "method": "Debit/Credit Card",
+          "description": "Down Payment",
+          "date": "01 Aug 26 22:21"
+        }
+      ]
+    },
+    {
+      "bookingId": 3721,
+      "bookingCode": "KLOOK-3721",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "invoiceTotal": 6200000,
+      "paid": 0,
+      "balance": 6200000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3452,
+      "bookingCode": "TWT-3452",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "invoiceTotal": 23805000,
+      "paid": 0,
+      "balance": 23805000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    },
+    {
+      "bookingId": 3553,
+      "bookingCode": "TWT-3553",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "invoiceTotal": 26291000,
+      "paid": 0,
+      "balance": 26291000,
+      "balanceStatus": "balance_due",
+      "paymentMethod": null,
+      "paymentCount": 0,
+      "payments": []
+    }
+  ]
+}

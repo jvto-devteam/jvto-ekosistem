@@ -1,0 +1,146 @@
+{
+  "slug": "f02578369a5e0d597bbb592a71b4e915",
+  "url": "https://legacy.javavolcano-touroperator.com/bookings/details/f02578369a5e0d597bbb592a71b4e915?json=true",
+  "statusCode": 200,
+  "ok": true,
+  "json": {
+    "success": true,
+    "booking": {
+      "id": 3709,
+      "booking_code": "JVR/070/08/26",
+      "booking_id": "JVTO-3709",
+      "url": "f02578369a5e0d597bbb592a71b4e915",
+      "status": "booked",
+      "customer_id": 4051,
+      "customer_name": "Seng Thai goh",
+      "package_name": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
+      "channel": "KLOOK",
+      "package_link": "https://klook.com/activity/99790-3-day-mount-bromo-sunrise-ijen-madakaripura-trekking-trip-surabaya/",
+      "duration": "1D 1N",
+      "travel_date_start": "2026-08-08",
+      "travel_date_end": "2026-08-08",
+      "total_pax": 4,
+      "pickup": "Surabaya Hotel  Hotel Majapahit",
+      "pickup_time": "00:01:00",
+      "drop": "",
+      "drop_time": null,
+      "special_requirements": null,
+      "media_link": "https://drive.google.com/drive/folders/1DXJPFC8AARRNC-_6JFCTi3u1X9pFiYPF",
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "crews": {
+        "guides": [],
+        "drivers": []
+      },
+      "vehicle_specs": [
+        {
+          "name": "Hiace Commuter",
+          "capacity": "4 - 0 pax",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/cars/hiace.png",
+          "interior": [
+            "https://legacy.javavolcano-touroperator.com/assets/img/cars/interior-hiace.webp"
+          ]
+        }
+      ],
+      "itineraries": [
+        {
+          "day": 1,
+          "title": "Day 1",
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Hotel",
+          "activity": "Pickup from Surabaya hotel at 00.01 AM, and depart to Bromo Area - Arrive at transit location and switch vehicle to Jeep - depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim- Whispering Sands) - short break - continue to Madakaripura waterfall - drop to hotel. End of program"
+        }
+      ],
+      "accommodations": [],
+      "addons": [],
+      "finance": {
+        "grand_total": 4200000,
+        "total_addons": 0,
+        "dp_amount": 0,
+        "balance": 4200000,
+        "paid_amount": 0,
+        "due_date": "1970-01-01 00:00:00",
+        "initial_payment_method": "pay later",
+        "balance_payment_method": null,
+        "payment_link": null,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof": null,
+        "payment_history": []
+      },
+      "faq": {
+        "Pre-Tour Information": {
+          "What is included and NOT included in my tour package?": "Included: Private AC transport, English-speaking guide, hotel accommodation with breakfast, all entrance fees in the itinerary, 4x4 Jeep for Bromo, mineral water, and some meals as specified. Not Included: Flights, travel insurance, most dinners and some lunches, tips, and optional activities like horse riding at Bromo (IDR 250,000-350,000). Please check the \"Booking & Financials\" tab for specifics.",
+          "What mandatory requirements do I need for Ijen trekking?": "A doctor\\'s health certificate is required by Ijen authorities. Our team will help you get this locally for a small fee (approx. IDR 30,000-50,000). You just need to bring your passport for the check-up.",
+          "What kind of clothing and footwear should I pack?": "Pack warm layers (thermal jacket, hat, gloves) for Bromo and Ijen, where temperatures can drop to 2-5°C. Sturdy hiking boots are essential. For waterfalls, bring quick-dry clothes and water shoes/sandals with good grip."
+        },
+        "During Tour Information": {
+          "How will I receive my daily schedule?": "Your full, detailed itinerary is always available on the \"Itinerary\" tab of this portal. Your guide will also brief you each day on the schedule for the following day, including timings and tips.",
+          "What are the typical start times for volcano tours?": "Be prepared for very early starts! The Mount Bromo sunrise tour departs around 2:30 AM, and the Ijen Crater trek begins around 1:00 AM from your hotel.",
+          "Who will be my driver and guide?": "Your assigned crew details are listed in the \"Overview\" tab. For groups of 4 or more, you will have a dedicated driver and a separate local guide at each main destination. For smaller groups, you will have an experienced driver-guide.",
+          "What if I have an emergency during the tour?": "For any immediate assistance, you can contact the JVTO Emergency line at +62 822-447-888-33. Your safety is our top priority."
+        },
+        "Activity-Based Information": {
+          "Is the Ijen trek difficult?": "The trek is considered moderate. It requires a healthy physical condition to hike for about 1.5-2 hours one way on an incline. The optional descent into the crater is more challenging and rocky. Due to sulfur fumes, it is not recommended for those with respiratory issues.",
+          "Will I be able to see the Milky Way at Mount Bromo?": "Yes, if weather conditions are clear, you can definitely view and photograph the Milky Way before the sunrise at Mount Bromo. It's a spectacular sight!",
+          "What is the trek like at Tumpak Sewu and Madakaripura waterfalls?": "Both treks involve steep, wet, and slippery terrain. You will need to cross rivers and walk under cascading water at Madakaripura. It is mandatory to go with a local guide at both locations for safety. Water trekking shoes are highly recommended."
+        }
+      },
+      "packing_recommendations": {
+        "Travel Documents": [
+          "Valid ID/Passport and travel insurance."
+        ],
+        "Clothing for Varied Climates": [
+          "Light, breathable attire for day.",
+          "Warm layers for chilly evenings.",
+          "Rain gear for weather changes."
+        ],
+        "Footwear Essentials": [
+          "Sturdy hiking boots for treks.",
+          "Comfortable walking shoes.",
+          "Sandals/flip-flops for beach and leisure."
+        ],
+        "Health & Safety Priorities": [
+          "Personal medication.",
+          "First aid kits (supplemented by JVTO).",
+          "High SPF sunscreen and hats.",
+          "Insect repellent.",
+          "Masks for sulfur gases (JVTO provides gas masks; personal ones advisable)."
+        ],
+        "Must-Have Gear": [
+          "Flashlights/headlamps.",
+          "Waterproof bags for waterfall visits."
+        ],
+        "Photography Gear": [
+          "Camera with spare batteries and memory cards.",
+          "Protective gear against sulfur gases at Ijen."
+        ],
+        "New Medical Check-Up Requirement": [
+          "Good physical & mental condition.",
+          "Passport."
+        ],
+        "Personal Expenses": [
+          "Recommend carrying at least IDR 500,000 per person."
+        ]
+      },
+      "essential_checklist": [
+        {
+          "item": "Valid passport with 6+ months validity",
+          "checked": false
+        },
+        {
+          "item": "Travel insurance purchased",
+          "checked": false
+        },
+        {
+          "item": "Warm clothing for mountain weather (2-5°C)",
+          "checked": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": "SUB-3D2N-005-itinerary",
+  "packageId": "SUB-3D2N-005",
+  "slug": "tours/from-surabaya/tumpak-sewu-bromo-3d2n",
+  "name": "3 Day Tumpak Sewu Waterfall & Bromo Explorer from Surabaya",
+  "duration": {
+    "days": 3,
+    "nights": 2,
+    "label": "3D2N"
+  },
+  "route": [
+    "Mount Bromo",
+    "Tumpak Sewu Waterfall"
+  ],
+  "itineraryDays": [
+    {
+      "day": 1,
+      "title": "Arrival in Surabaya and Transfer to Tumpak Sewu Hotel",
+      "summary": "Arrival in Surabaya and Transfer to Lumajang\nThe first day positions the route in Lumajang so the Tumpak Sewu exploration can begin comfortably the next morning. Pickup time in Surabaya is flexible and can be adjusted to match your flight or train arrival schedule—it does not have to be at 12:00. After pickup, the journey continues to Lumajang with a lunch stop along the way.",
+      "activities": [
+        {
+          "type": "TravelAction",
+          "name": "Pickup and Transfer to Tumpak Sewu",
+          "description": "Pickup at your location in Surabaya and begin the transfer to the Tumpak Sewu area (Lumajang). This segment is the overland journey from the city to the waterfall area accommodation zone.",
+          "fromLocation": "Surabaya City",
+          "toLocation": "Tumpak Sewu Area",
+          "timeWindow": "12:00",
+          "durationMinutes": 210
+        },
+        {
+          "type": "CheckInAction",
+          "name": "Check-in at Tumpak Sewu Homestay",
+          "description": "Arrive at the Tumpak Sewu area and check in at the homestay/cottage. This is the scheduled arrival and check-in process so you can settle at the accommodation near the Tumpak Sewu area.",
+          "location": "Tumpak Sewu Hotel",
+          "timeWindow": "15:30",
+          "durationMinutes": 30
+        }
+      ],
+      "mealsPlan": {
+        "breakfast": "own expense",
+        "lunch": "own expense",
+        "dinner": "own expense"
+      },
+      "mealsNotes": "",
+      "overnight": "Tumpak Sewu Hotel"
+    },
+    {
+      "day": 2,
+      "title": "Tumpak Sewu Exploration and Transfer Toward the Bromo Side",
+      "summary": "Tumpak Sewu Exploration and Transfer Toward the Bromo Side\nThe day begins with a guided descent into the Tumpak Sewu valley to explore the main waterfall and surrounding river area. After completing the waterfall sequence, the route continues toward the Bromo side for the next morning’s early volcanic exploration.",
+      "activities": [
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Tumpak Sewu Trekking",
+          "description": "Starting the Tumpak Sewu trekking. Begin the scheduled trekking session at Tumpak Sewu Waterfall, following the planned route on-site to experience the waterfall area during the allocated activity block.",
+          "location": "Tumpak Sewu Waterfall",
+          "timeWindow": "07:30",
+          "durationMinutes": 240
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Lunch",
+          "description": "Lunch at a local restaurant (included). Take the planned lunch break after the trekking session, with time to sit down and eat before the long afternoon transfer.",
+          "location": "Local Restaurant",
+          "timeWindow": "11:30",
+          "durationMinutes": 60
+        },
+        {
+          "type": "TravelAction",
+          "name": "Transfer to Mount Bromo Area",
+          "description": "Starting the journey to the Mount Bromo area. Depart from the Tumpak Sewu area and begin the overland transfer to the Mount Bromo accommodation zone as scheduled.",
+          "fromLocation": "Tumpak Sewu Area",
+          "toLocation": "Bromo Area",
+          "timeWindow": "12:30",
+          "durationMinutes": 270
+        },
+        {
+          "type": "CheckInAction",
+          "name": "Check-in at Bromo Hotel",
+          "description": "Arrive at Bromo area and check-in hotel. Reach the Bromo area and complete hotel check-in, concluding the day’s relocation and preparing for the next morning’s Bromo program.",
+          "location": "Bromo Hotel",
+          "timeWindow": "16:30",
+          "durationMinutes": 10
+        }
+      ],
+      "mealsPlan": {
+        "breakfast": "included",
+        "lunch": "included",
+        "dinner": "own expense"
+      },
+      "mealsNotes": "",
+      "overnight": "Bromo Area"
+    },
+    {
+      "day": 3,
+      "title": "Bromo Sunrise Exploration and Return to Surabaya",
+      "summary": "Bromo Sunrise Exploration and Return to Surabaya\nAn early departure leads into the Bromo caldera for sunrise, the Sea of Sand, and the walk to the crater rim. After completing the Bromo sequence, return to the hotel for breakfast and check-out before continuing to Surabaya Airport or your Surabaya hotel, marking the end of the program.",
+      "activities": [
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Bromo Jeep Tour Experience",
+          "description": "Starting the Bromo Jeep tour. Begin the sunrise tour sequence by Jeep in the Mount Bromo area, following the planned route flow for the morning program.",
+          "location": "Sea of Sand & Bromo Crater",
+          "timeWindow": "02:00",
+          "durationMinutes": 420
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Hotel Breakfast",
+          "description": "Back to the hotel for breakfast. Return from the Bromo morning program to the hotel and take a short breakfast break before check-out and departure.",
+          "location": "Bromo Hotel",
+          "timeWindow": "09:00",
+          "durationMinutes": 30
+        },
+        {
+          "type": "CheckOutAction",
+          "name": "Bromo Hotel Check-out",
+          "description": "Check-out from the hotel. Complete the hotel check-out process and prepare for the overland transfer to Surabaya.",
+          "location": "Bromo Hotel",
+          "timeWindow": "12:00",
+          "durationMinutes": 10
+        },
+        {
+          "type": "TravelAction",
+          "name": "Transfer to Surabaya",
+          "description": "Journey to Surabaya. Start the road transfer from the Bromo area to Surabaya as scheduled, concluding the Bromo segment for the day.",
+          "fromLocation": "Bromo Area",
+          "toLocation": "Surabaya City",
+          "timeWindow": "12:00",
+          "durationMinutes": 180
+        },
+        {
+          "type": "TravelAction",
+          "name": "Finish at Surabaya City",
+          "description": "Arrive in Surabaya and proceed with the final transfer to your requested drop-off (hotel/airport). Tour ends after drop-off completion.",
+          "fromLocation": "Surabaya City",
+          "toLocation": "Accommodation",
+          "timeWindow": "15:00",
+          "durationMinutes": 30
+        }
+      ],
+      "mealsPlan": {
+        "breakfast": "included",
+        "lunch": "own expense",
+        "dinner": "own expense"
+      },
+      "mealsNotes": "",
+      "overnight": null
+    }
+  ],
+  "accommodationPlan": [
+    {
+      "night": 1,
+      "name": "Artha Cottage",
+      "area": "Tumpak Sewu Waterfall",
+      "image": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/artha-cottages.webp"
+    },
+    {
+      "night": 2,
+      "name": "Joglo Kecombrang Bromo",
+      "area": "Mount Bromo",
+      "image": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/kecombrang.jpg"
+    }
+  ]
+}

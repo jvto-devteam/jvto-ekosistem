@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "route": "/destinations",
+    "title": "East Java Destinations",
+    "browserTitle": "East Java Destinations | Bromo, Ijen & More | JVTO",
+    "description": "Explore breathtaking destinations in East Java with JVTO: Kawah Ijen, Mount Bromo, Tumpak Sewu, Madakaripura, and Papuma Beach — each reached by dedicated private vehicle with BBKSDA park clearance in hand.",
+    "section": "destinations",
+    "status": "published",
+    "owner": "editorial",
+    "lastReviewed": "2026-08-06",
+    "schemaTypes": [
+      "CollectionPage"
+    ],
+    "faqKey": "destinations",
+    "summary": "The five East Java sites on JVTO's private circuit — volcano craters, canyon waterfalls, and a coastal headland."
+  },
+  "lede": [
+    "Every site on JVTO's East Java circuit — volcano craters, canyon waterfalls, a coastal headland — reached by dedicated private vehicle, BBKSDA park clearance already in hand."
+  ],
+  "sections": [
+    {
+      "id": "hero",
+      "title": "Destinations",
+      "eyebrow_pill": "East Java Destinations",
+      "eyebrow_meta": "File 003 / Destinations",
+      "heading": "Five destinations.",
+      "heading_accent": "One operator.",
+      "blocks": [
+        {
+          "type": "grid",
+          "role": "stat-labels",
+          "items": [
+            {
+              "key": "total",
+              "label": "Destinations"
+            },
+            {
+              "key": "volcano",
+              "label": "Active volcanoes"
+            },
+            {
+              "key": "waterfall",
+              "label": "Waterfalls"
+            },
+            {
+              "key": "coastal",
+              "label": "Coastal stop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "destination-feature-copy",
+      "title": "The Circuit",
+      "explore_prefix": "Explore",
+      "provenance_note": "Per-destination narrative for the alternating feature rows, keyed by slug so the page degrades gracefully to live DB fields if a destination is added or removed. Elevation values for Ijen and Bromo are the CANONICAL_FACTS.md-locked figures (Kawah Ijen 2,386 m; Bromo 2,329 m) and intentionally do not match the DB geo.altitude for Ijen (2,769 m, a different summit/trailhead reference point).",
+      "blocks": [
+        {
+          "type": "grid",
+          "role": "feature-copy",
+          "items": [
+            {
+              "slug": "ijen-crater",
+              "category": "volcano",
+              "regionLabel": "Banyuwangi",
+              "diffLine": "Active stratovolcano · Moderate–High",
+              "elevation": "2,386 m",
+              "description": "The world's highest-volume acidic crater lake sits inside an active stratovolcano. Pre-dawn, sulfuric gases ignite at the crater floor — a blue-fire phenomenon visible in suitable weather, subject to weather and gas activity and never guaranteed. You share the trail with sulfur miners carrying 70–90 kg loads.",
+              "chips": [
+                "Blue fire (weather permitting)",
+                "Acidic crater lake",
+                "Sulfur miners",
+                "Night hike"
+              ],
+              "warm": true
+            },
+            {
+              "slug": "mount-bromo",
+              "category": "volcano",
+              "regionLabel": "Probolinggo",
+              "diffLine": "Tengger caldera · Easy–Moderate",
+              "elevation": "2,329 m",
+              "description": "Bromo sits inside the vast Tengger caldera — a volcanic sea of sand framed by sheer walls. The Penanjakan viewpoint at 2,770 m is one of Southeast Asia's most photographed scenes. Access is by 4WD jeep across the caldera floor at 03:00.",
+              "chips": [
+                "Penanjakan sunrise",
+                "Sea of sand",
+                "4WD jeep traverse",
+                "Smoking crater"
+              ],
+              "warm": false
+            },
+            {
+              "slug": "tumpak-sewu-waterfall",
+              "category": "waterfall",
+              "regionLabel": "Lumajang",
+              "diffLine": "Multi-tiered curtain · Moderate",
+              "elevation": "~120 m",
+              "description": "A curved cliff face sends dozens of streams over its edge in a continuous curtain drop — Java's Niagara. Most visitors stand at the rim. Those who descend the ~300 steps stand at the base, surrounded by mist. Guides assess fitness before the descent begins.",
+              "chips": [
+                "Java's Niagara",
+                "Rim viewpoint",
+                "Canyon descent",
+                "Fitness-assessed"
+              ],
+              "warm": false
+            },
+            {
+              "slug": "madakaripura-waterfall",
+              "category": "waterfall",
+              "regionLabel": "Probolinggo",
+              "diffLine": "Tallest in Java · Easy–Moderate",
+              "elevation": "~100 m",
+              "description": "A narrow canyon walls you in for ~1.5 km before the gorge opens into a horseshoe of falling water. Bring a raincoat — the spray reaches everywhere. The site is said to be where Gajah Mada, the 14th-century Majapahit prime minister, spent his final days.",
+              "chips": [
+                "Tallest waterfall in Java",
+                "Canyon walk",
+                "Horseshoe curtain",
+                "Gajah Mada heritage"
+              ],
+              "warm": true
+            },
+            {
+              "slug": "papuma-beach",
+              "category": "coastal",
+              "regionLabel": "Jember",
+              "diffLine": "Coastal headland · Easy",
+              "elevation": "~86 m cape",
+              "description": "The only coastal stop on a JVTO East Java circuit. After Ijen's night hike, Papuma resets the pace — white sand, offshore rock formations, and a short headland walk rising to ~86 m with views along the coast. Positioned between the volcano and waterfall legs on Papuma-family packages.",
+              "chips": [
+                "White-sand beach",
+                "Cape headland",
+                "Offshore rock formations",
+                "Coastal contrast"
+              ],
+              "warm": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transport-note",
+      "title": "Your vehicle. Your driver. Your schedule.",
+      "eyebrow": "Transport Note",
+      "heading": "Your vehicle. Your driver.",
+      "heading_accent": "Your schedule.",
+      "body_text": "Every destination on this list is reached by dedicated private vehicle — AC MPV for smaller groups, Toyota Hiace for larger ones. No public buses. No shared transfers.",
+      "blocks": [
+        {
+          "type": "grid",
+          "role": "transport-spec",
+          "items": [
+            {
+              "key": "small-groups",
+              "label": "Small groups",
+              "value": "AC MPV · 2–3 guests"
+            },
+            {
+              "key": "larger-groups",
+              "label": "Larger groups",
+              "value": "Toyota Hiace · 4–9"
+            },
+            {
+              "key": "park-access",
+              "label": "Park access",
+              "value": "BBKSDA clearance in hand"
+            },
+            {
+              "key": "shared-transfers",
+              "label": "Shared transfers",
+              "value": "Never"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Ready for your expedition?",
+      "heading": "Ready for your",
+      "heading_accent": "expedition?",
+      "blocks": [
+        {
+          "type": "grid",
+          "role": "cta-links",
+          "items": [
+            {
+              "key": "tours",
+              "href": "/tours",
+              "label": "View all tours",
+              "variant": "primary"
+            },
+            {
+              "key": "contact",
+              "href": "/contact",
+              "label": "Custom inquiry",
+              "variant": "ghost"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

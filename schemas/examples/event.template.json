@@ -1,0 +1,8 @@
+{
+  "id": "event-id",
+  "type": "deposit.paid",
+  "bookingId": "booking-id",
+  "occurredAt": null,
+  "actor": "system | staff | customer | partner",
+  "payload": {}
+}

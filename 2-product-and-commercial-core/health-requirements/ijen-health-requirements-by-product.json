@@ -1,0 +1,160 @@
+{
+  "requirement": "Ijen health screening is required for products that include Ijen Crater.",
+  "products": [
+    {
+      "productId": 80,
+      "packageId": "package-BALI-3D2N-001",
+      "slug": "tours/from-bali/bromo-ijen-3d2n",
+      "name": "3 Day Bromo & Ijen Volcano Discovery from Bali",
+      "route": [
+        "Ijen Crater",
+        "Mount Bromo",
+        "Madakaripura Waterfall"
+      ],
+      "requirement": "Ijen health screening required before crater-zone access"
+    },
+    {
+      "productId": 63,
+      "packageId": "package-BALI-3D2N-003",
+      "slug": "tours/from-bali/ijen-bromo-madakaripura-3d2n",
+      "name": "3 Day Ijen, Bromo & Madakaripura Waterfall Journey from Bali to Surabaya",
+      "route": [
+        "Ijen Crater",
+        "Mount Bromo",
+        "Madakaripura Waterfall"
+      ],
+      "requirement": "Ijen health screening required before crater-zone access"
+    },
+    {
+      "productId": 54,
+      "packageId": "package-BALI-4D3N-001",
+      "slug": "tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
+      "name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+      "route": [
+        "Ijen Crater",
+        "Mount Bromo",
+        "Papuma Beach"
+      ],
+      "requirement": "Ijen health screening required before crater-zone access"
+    },
+    {
+      "productId": 55,
+      "packageId": "package-BALI-5D4N-001",
+      "slug": "tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n",
+      "name": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Discovery from Bali to Surabaya",
+      "route": [
+        "Ijen Crater",
+        "Mount Bromo",
+        "Papuma Beach"
+      ],
+      "requirement": "Ijen health screening required before crater-zone access"
+    },
+    {
+      "productId": 28,
+      "packageId": "package-SUB-3D2N-003",
+      "slug": "tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
+      "name": "3 Day Bromo, Madakaripura & Ijen Overland from Surabaya to Bali",
+      "route": [
+        "Ijen Crater",
+        "Mount Bromo",
+        "Madakaripura Waterfall"
+      ],
+      "requirement": "Ijen health screening required before crater-zone access"
+    },
+    {
+      "productId": 47,
+      "packageId": "package-SUB-2D1N-001",
+      "slug": "tours/from-surabaya/ijen-2d1n",
+      "name": "2 Day Kawah Ijen Expedition from Surabaya",
+      "route": [
+        "Ijen Crater"
+      ],
+      "requirement": "Ijen health screening required before crater-zone access"
+    },
+    {
+      "productId": 29,
+      "packageId": "package-SUB-3D2N-002",
+      "slug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
+      "name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+      "route": [
+        "Ijen Crater",
+        "Mount Bromo",
+        "Madakaripura Waterfall"
+      ],
+      "requirement": "Ijen health screening required before crater-zone access"
+    },
+    {
+      "productId": 32,
+      "packageId": "package-SUB-4D3N-001",
+      "slug": "tours/from-surabaya/ijen-bromo-madakaripura-4d3n",
+      "name": "4 Day Ijen, Bromo & Madakaripura Waterfall Expedition from Surabaya",
+      "route": [
+        "Ijen Crater",
+        "Mount Bromo",
+        "Madakaripura Waterfall"
+      ],
+      "requirement": "Ijen health screening required before crater-zone access"
+    },
+    {
+      "productId": 43,
+      "packageId": "package-SUB-5D4N-002",
+      "slug": "tours/from-surabaya/ijen-bromo-madakaripura-malang-5d4n",
+      "name": "5 Day Ijen, Bromo, Madakaripura & Malang City Adventure from Surabaya",
+      "route": [
+        "Ijen Crater",
+        "Mount Bromo",
+        "Madakaripura Waterfall"
+      ],
+      "requirement": "Ijen health screening required before crater-zone access"
+    },
+    {
+      "productId": 33,
+      "packageId": "package-SUB-4D3N-002",
+      "slug": "tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
+      "name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+      "route": [
+        "Ijen Crater",
+        "Mount Bromo",
+        "Papuma Beach"
+      ],
+      "requirement": "Ijen health screening required before crater-zone access"
+    },
+    {
+      "productId": 56,
+      "packageId": "package-SUB-5D4N-001",
+      "slug": "tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n",
+      "name": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Nature Trip from Surabaya",
+      "route": [
+        "Ijen Crater",
+        "Mount Bromo",
+        "Papuma Beach"
+      ],
+      "requirement": "Ijen health screening required before crater-zone access"
+    },
+    {
+      "productId": 74,
+      "packageId": "package-SUB-6D5N-001",
+      "slug": "tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-malang-6d5n",
+      "name": "6 Day Ijen, Papuma Beach, Tumpak Sewu, Bromo & Malang City Discovery from Surabaya",
+      "route": [
+        "Ijen Crater",
+        "Mount Bromo",
+        "Malang City",
+        "Papuma Beach"
+      ],
+      "requirement": "Ijen health screening required before crater-zone access"
+    },
+    {
+      "productId": 34,
+      "packageId": "package-SUB-4D3N-003",
+      "slug": "tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+      "name": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "route": [
+        "Mount Bromo",
+        "Tumpak Sewu Waterfall",
+        "Ijen Crater"
+      ],
+      "requirement": "Ijen health screening required before crater-zone access"
+    }
+  ]
+}

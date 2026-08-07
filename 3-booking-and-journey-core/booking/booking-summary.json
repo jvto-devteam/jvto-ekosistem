@@ -1,0 +1,57 @@
+{
+  "bookingCount": 74,
+  "channels": {
+    "JVTO": 39,
+    "KLOOK": 26,
+    "TWT": 9
+  },
+  "packages": {
+    "28": 13,
+    "29": 5,
+    "33": 4,
+    "34": 8,
+    "48": 3,
+    "54": 2,
+    "73": 2,
+    "80": 1,
+    "82": 9,
+    "83": 2,
+    "84": 13,
+    "94": 2,
+    "(null)": 10
+  },
+  "durations": {
+    "3D 2N": 30,
+    "4D 3N": 30,
+    "2D 1N": 3,
+    "1D 1N": 4,
+    "5D 4N": 5,
+    "1D 0N": 1,
+    "6D 5N": 1
+  },
+  "startMonths": {
+    "2026-08": 74
+  },
+  "paxDistribution": {
+    "1": 2,
+    "2": 43,
+    "3": 4,
+    "4": 13,
+    "5": 4,
+    "6": 2,
+    "7": 1,
+    "8": 2,
+    "9": 1,
+    "10": 2
+  },
+  "readiness": {
+    "missingPickup": 5,
+    "missingDropoff": 19,
+    "missingVehicle": 1,
+    "missingDriver": 1,
+    "missingGuide": 5,
+    "balanceDue": 49,
+    "overpaidOrAdjustment": 1,
+    "withNotes": 26
+  }
+}

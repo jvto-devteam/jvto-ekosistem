@@ -1,0 +1,241 @@
+{
+  "id": "package-SUB-3D2N-006-itinerary",
+  "packageId": "package-SUB-3D2N-006",
+  "slug": "tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n",
+  "name": "3 Day Taman Safari Prigen, Bromo & Madakaripura Family Tour from Surabaya",
+  "duration": {
+    "days": 3,
+    "nights": 2,
+    "label": "3D2N"
+  },
+  "route": [
+    "Taman Safari Prigen",
+    "Mount Bromo",
+    "Madakaripura Waterfall"
+  ],
+  "itineraryDays": [
+    {
+      "day": 1,
+      "title": "Surabaya to Taman Safari Prigen and Continue Toward Bromo",
+      "summary": "The first day begins with the safari segment before the route continues toward the Bromo side for overnight staging. It gives the itinerary a broader entry point than a volcano-only route while keeping the next day's timing stable.",
+      "activities": [
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Breakfast at Accommodation",
+          "description": "Enjoy breakfast at the accommodation (included). This is the scheduled morning meal time before departure, allowing you to start the day with breakfast at your accommodation.",
+          "location": "Accommodation",
+          "timeWindow": "08:00",
+          "durationMinutes": 60
+        },
+        {
+          "type": "TravelAction",
+          "name": "Pick up and Transfer to Prigen Safari",
+          "description": "Pick up at your hotel in Surabaya and depart for Prigen Safari Park. This is the transfer segment from Surabaya to the safari destination to begin the day’s planned visit.",
+          "fromLocation": "Surabaya Hotel",
+          "toLocation": "Prigen Safari Park",
+          "timeWindow": "09:00",
+          "durationMinutes": 90
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Safari Adventure at Prigen",
+          "description": "Arrive at Prigen Safari Park and start the Safari Adventure. This is the main safari visit window, allocated for entering the park and following the planned safari activities during your time on-site.",
+          "location": "Prigen Safari Park",
+          "timeWindow": "10:30",
+          "durationMinutes": 150
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Lunch at Safari Area",
+          "description": "Lunch inside the safari area (fees not included). This is the scheduled lunch break within the park area, allowing time to order and dine before continuing the day’s onward travel.",
+          "location": "Local Restaurant",
+          "timeWindow": "13:00",
+          "durationMinutes": 120
+        },
+        {
+          "type": "TravelAction",
+          "name": "Transfer to Bromo Area",
+          "description": "Finish at Taman Safari and begin the journey to the Bromo area. This segment marks the transition from the safari visit to the overland transfer toward your Bromo-area accommodation.",
+          "fromLocation": "Prigen Safari Park",
+          "toLocation": "Bromo Area",
+          "timeWindow": "15:00",
+          "durationMinutes": 120
+        },
+        {
+          "type": "CheckInAction",
+          "name": "Check-in at Bromo Hotel",
+          "description": "Arrive in the Bromo area and check in at the hotel. This is the scheduled arrival and check-in process at your accommodation in the Bromo area after the transfer.",
+          "location": "Bromo Hotel",
+          "timeWindow": "17:00",
+          "durationMinutes": 30
+        }
+      ],
+      "mealsPlan": {
+        "breakfast": "included",
+        "lunch": "own expense",
+        "dinner": "own expense"
+      },
+      "mealsNotes": "",
+      "overnight": "Bromo Area"
+    },
+    {
+      "day": 2,
+      "title": "Bromo-side Overnight and Final Sunrise Preparation",
+      "summary": "The second day holds the route on the Bromo side so the sunrise sequence can be handled well the next morning. This middle section keeps the trip paced for families and mixed-interest groups rather than forcing unnecessary compression.",
+      "activities": [
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Breakfast at Accommodation",
+          "description": "Enjoy breakfast at the accommodation (included). This is the scheduled morning meal time before departure, allowing you to start the day with breakfast at your accommodation.",
+          "location": "Accommodation",
+          "timeWindow": "08:00",
+          "durationMinutes": 60
+        },
+        {
+          "type": "TravelAction",
+          "name": "Pick up and Transfer to Prigen Safari",
+          "description": "Pick up at your hotel in Surabaya and depart for Prigen Safari Park. This is the transfer segment from Surabaya to the safari destination to begin the day’s planned visit.",
+          "fromLocation": "Surabaya Hotel",
+          "toLocation": "Prigen Safari Park",
+          "timeWindow": "09:00",
+          "durationMinutes": 90
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Safari Adventure at Prigen",
+          "description": "Arrive at Prigen Safari Park and start the Safari Adventure. This is the main safari visit window, allocated for entering the park and following the planned safari activities during your time on-site.",
+          "location": "Prigen Safari Park",
+          "timeWindow": "10:30",
+          "durationMinutes": 150
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Lunch at Safari Area",
+          "description": "Lunch inside the safari area (fees not included). This is the scheduled lunch break within the park area, allowing time to order and dine before continuing the day’s onward travel.",
+          "location": "Local Restaurant",
+          "timeWindow": "13:00",
+          "durationMinutes": 120
+        },
+        {
+          "type": "TravelAction",
+          "name": "Transfer to Bromo Area",
+          "description": "Finish at Taman Safari and begin the journey to the Bromo area. This segment marks the transition from the safari visit to the overland transfer toward your Bromo-area accommodation.",
+          "fromLocation": "Prigen Safari Park",
+          "toLocation": "Bromo Area",
+          "timeWindow": "15:00",
+          "durationMinutes": 120
+        },
+        {
+          "type": "CheckInAction",
+          "name": "Check-in at Bromo Hotel",
+          "description": "Arrive in the Bromo area and check in at the hotel. This is the scheduled arrival and check-in process at your accommodation in the Bromo area after the transfer.",
+          "location": "Bromo Hotel",
+          "timeWindow": "17:00",
+          "durationMinutes": 30
+        }
+      ],
+      "mealsPlan": {
+        "breakfast": "included",
+        "lunch": "own expense",
+        "dinner": "own expense"
+      },
+      "mealsNotes": "",
+      "overnight": "Bromo Area"
+    },
+    {
+      "day": 3,
+      "title": "Bromo Sunrise, Madakaripura, and Return to Surabaya",
+      "summary": "The final day combines the Bromo sunrise sequence with the Madakaripura stop before returning to Surabaya. It gives the route a strong East Java finish while staying more accessible than the harder volcanic combinations.",
+      "activities": [
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Bromo Jeep Tour Experience",
+          "description": "Starting the Bromo Jeep tour. Begin the scheduled Mount Bromo sunrise tour sequence by Jeep, completing the morning program within the allocated time block.",
+          "location": "Sea of Sand & Bromo Crater",
+          "timeWindow": "02:30",
+          "durationMinutes": 390
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Hotel Breakfast",
+          "description": "Back to the hotel for breakfast. Return to the Bromo hotel after the morning Jeep tour and take a short breakfast break before the mid-day transition.",
+          "location": "Bromo Hotel",
+          "timeWindow": "09:00",
+          "durationMinutes": 30
+        },
+        {
+          "type": "CheckOutAction",
+          "name": "Bromo Hotel Check-out",
+          "description": "Check-out, travel to Madakaripura. Complete hotel check-out and begin the transfer toward Madakaripura Waterfall to continue the day’s itinerary sequence.",
+          "location": "Bromo Hotel",
+          "timeWindow": "11:00",
+          "durationMinutes": 10
+        },
+        {
+          "type": "TravelAction",
+          "name": "Check-out and Transfer to Madakaripura",
+          "description": "Depart from the Bromo hotel after check-out and continue the overland transfer to Madakaripura Waterfall.",
+          "fromLocation": "Bromo Hotel",
+          "toLocation": "Madakaripura Waterfall",
+          "timeWindow": "11:10",
+          "durationMinutes": 20
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Madakaripura Trekking",
+          "description": "Arrive at Madakaripura and start trekking. This is the main on-site activity window at Madakaripura Waterfall, dedicated to the trek segment as listed in the schedule.",
+          "location": "Madakaripura Waterfall",
+          "timeWindow": "11:30",
+          "durationMinutes": 180
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Lunch After Trek (Own Expense)",
+          "description": "After trekking, have lunch (fees not included). This is the planned meal break after the Madakaripura trekking segment, with dining costs handled personally.",
+          "location": "Madakaripura Waterfall",
+          "timeWindow": "13:30",
+          "durationMinutes": 60
+        },
+        {
+          "type": "TravelAction",
+          "name": "Transfer to Surabaya",
+          "description": "Journey to Surabaya. Begin the return transfer from the Madakaripura area to Surabaya, closing the day tour route.",
+          "fromLocation": "Madakaripura Waterfall",
+          "toLocation": "Surabaya City",
+          "timeWindow": "14:30",
+          "durationMinutes": 120
+        },
+        {
+          "type": "TravelAction",
+          "name": "Arrival in Surabaya",
+          "description": "Arrived in Surabaya. Complete arrival procedures and proceed to the final drop-off point as applicable.",
+          "fromLocation": "Surabaya City",
+          "toLocation": "Surabaya City",
+          "timeWindow": "16:30",
+          "durationMinutes": 0
+        }
+      ],
+      "mealsPlan": {
+        "breakfast": "included",
+        "lunch": "own expense",
+        "dinner": "own expense"
+      },
+      "mealsNotes": "",
+      "overnight": null
+    }
+  ],
+  "accommodationPlan": [
+    {
+      "night": 1,
+      "name": "Baobab Safari Resort",
+      "area": "Taman Safari Prigen",
+      "image": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/baobab.jpg"
+    },
+    {
+      "night": 2,
+      "name": "Joglo Kecombrang Bromo",
+      "area": "Mount Bromo",
+      "image": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/kecombrang.jpg"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "static-route-groups",
+  "routeGroups": {
+    "destinations": [
+      "/destinations",
+      "/destinations/ijen-crater",
+      "/destinations/madakaripura-waterfall",
+      "/destinations/mount-bromo",
+      "/destinations/papuma-beach",
+      "/destinations/tumpak-sewu-waterfall"
+    ],
+    "policy": [
+      "/policy",
+      "/policy/booking-payment-cancellation",
+      "/policy/inclusions-exclusions",
+      "/policy/privacy"
+    ],
+    "travelGuide": [
+      "/travel-guide",
+      "/travel-guide/best-time-to-visit",
+      "/travel-guide/blue-fire-and-sunrise",
+      "/travel-guide/booking-information",
+      "/travel-guide/booking-safety",
+      "/travel-guide/bromo-sunrise",
+      "/travel-guide/cancellation-travel-credit",
+      "/travel-guide/faq",
+      "/travel-guide/finish-in-bali",
+      "/travel-guide/how-booking-works",
+      "/travel-guide/ijen-health-screening",
+      "/travel-guide/malang-batu",
+      "/travel-guide/packing-and-fitness",
+      "/travel-guide/payment-and-deposit",
+      "/travel-guide/police-escort-for-groups",
+      "/travel-guide/private-tour",
+      "/travel-guide/rijik-monthly-closure",
+      "/travel-guide/rooming-and-accommodation",
+      "/travel-guide/safety-on-tours",
+      "/travel-guide/vehicle-and-luggage",
+      "/travel-guide/weather-and-closures",
+      "/travel-guide/what-is-included",
+      "/travel-guide/why-stay-near-ijen"
+    ],
+    "verifyJvto": [
+      "/verify-jvto",
+      "/verify-jvto/history-artifacts",
+      "/verify-jvto/legal",
+      "/verify-jvto/police-safety",
+      "/verify-jvto/press-recognition"
+    ],
+    "whyJvto": [
+      "/why-jvto",
+      "/why-jvto/community-standards",
+      "/why-jvto/our-story",
+      "/why-jvto/our-team",
+      "/why-jvto/reviews",
+      "/why-jvto/the-jvto-difference"
+    ]
+  },
+  "totalRoutes": 44,
+  "dataStatus": "extracted",
+  "reviewStatus": "ready"
+}

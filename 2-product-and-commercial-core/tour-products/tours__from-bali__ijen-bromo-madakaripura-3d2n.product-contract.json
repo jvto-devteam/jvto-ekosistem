@@ -1,0 +1,151 @@
+{
+  "id": "63",
+  "packageId": "package-BALI-3D2N-003",
+  "slug": "tours/from-bali/ijen-bromo-madakaripura-3d2n",
+  "name": "3 Day Ijen, Bromo & Madakaripura Waterfall Journey from Bali to Surabaya",
+  "shortLabel": "3D2N Ijen-Bromo-Madakaripura (BALI-SUB)",
+  "status": "active",
+  "version": "1.0.0",
+  "category": {
+    "id": "reluger",
+    "name": "Reguler Package"
+  },
+  "originCity": "Bali",
+  "endCity": "Surabaya",
+  "duration": {
+    "days": 3,
+    "nights": 2,
+    "label": "3D2N",
+    "durationId": "2"
+  },
+  "route": [
+    "Ijen Crater",
+    "Mount Bromo",
+    "Madakaripura Waterfall"
+  ],
+  "keyExperiences": [
+    {
+      "name": "Ijen Crater",
+      "highlight": "Acidic crater lake"
+    },
+    {
+      "name": "Mount Bromo",
+      "highlight": "Sunrise over Tengger Caldera and sacred Hindu ceremonies"
+    },
+    {
+      "name": "Madakaripura Waterfall",
+      "highlight": "Sacred 200-meter canyon waterfall and Gajah Mada's meditation site"
+    }
+  ],
+  "physicalDifficulty": "moderate",
+  "description": "This route adds waterfall contrast to the core Bali-origin volcano sequence while keeping a forward finish into Surabaya. It is a strong option for guests who want a richer cross-island route without looping back into Bali.",
+  "inclusions": [
+    "Private Transport: Air-conditioned private vehicles (MPV for 1-3 guests, Minibus for 4-11 guests) with a dedicated driver. This includes fuel, tolls, and parking fees.",
+    "Tour Guides: Experienced English-speaking guides. For 1-3 guests, a driver-guide. For 4+ guests, a separate local guide will be provided at each main destination (Bromo, Ijen, Madakaripura).",
+    "Mineral Water: Daily supply.",
+    "JVTO Travel T-Shirt: One complimentary JVTO branded T-shirt per person on every confirmed booking. Available in sizes XXS–XXL. Groups of 10+ pax receive a custom-designed group T-shirt.",
+    "Full Assistance: From your arrival to your final drop-off.",
+    "Quality Hotel Accommodation: including daily breakfast.",
+    "All Entrance Fees & Permits: to attractions",
+    "Meals: As mention in the itinerary",
+    "Private 4WD Jeep: For the Mount Bromo sunrise tour.",
+    "Health Screening: Ijen authorities require a doctor's health certificate. This will be conducted the evening before your trek. You only need your passport.",
+    "Gas Mask: Professional volcanic-grade gas mask provided for Ijen Crater routes. Mandatory during descent to crater floor due to H₂S/SO₂ gas.",
+    "Ferry Tickets: From Ketapang Harbour to Gilimanuk Harbour, Bali."
+  ],
+  "exclusions": [
+    "International/Domestic Air Tickets: To and from your tour's starting and ending points.",
+    "Indonesian VISA: (If applicable).",
+    "Travel Insurance: Optional but highly recommended for peace of mind, covering trip interruptions, medical emergencies, and lost luggage.",
+    "Meals Not Stated in Itinerary: Specific lunches and additional dinners are at your own expense.",
+    "Personal Expenses: Such as snacks, souvenirs, beverages, laundry, etc. It is recommended to carry at least IDR 500,000 per person for these.",
+    "Tips: For drivers and guides (at your discretion)."
+  ],
+  "travelerRequirements": [
+    "Moderate fitness for trekking",
+    "Printed passport copy for Ijen permit",
+    "Warm clothing (5–15°C)",
+    "Sturdy hiking shoes and water shoes",
+    "Small daypack for essentials",
+    "Pre-hike health screening for Ijen trekking"
+  ],
+  "accommodationPlan": [
+    {
+      "night": 1,
+      "name": "Luminor Hotel",
+      "area": "Ijen Crater",
+      "image": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/luminor-bwi.jpeg"
+    },
+    {
+      "night": 2,
+      "name": "Joglo Kecombrang Bromo",
+      "area": "Mount Bromo",
+      "image": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/kecombrang.jpg"
+    }
+  ],
+  "gear": {
+    "provided": [
+      "Gas masks (Ijen)",
+      "Headlamps",
+      "Trekking poles",
+      "Helmet"
+    ],
+    "recommended": [
+      "Warm layers (5–15°C)",
+      "Sturdy hiking shoes & water shoes",
+      "Waterproof bag",
+      "Rain jacket",
+      "Beachwear",
+      "Sunscreen",
+      "Personal medications"
+    ]
+  },
+  "marketing": {
+    "perfectFor": [
+      "Couples seeking adventure",
+      "Bali-based travelers",
+      "Cross-island explorers",
+      "Romantic getaway seekers"
+    ],
+    "highlightsBullets": [
+      "Private Bali-origin route combining Ijen, Bromo, and Madakaripura with a Surabaya finish",
+      "Adds waterfall contrast to the core two-volcano sequence without stretching into a longer expedition",
+      "Best for Bali-based travelers who want East Java highlights and a clean forward handoff into Surabaya",
+      "Private handling keeps ferry, screening, sunrise timing, and final transfer logic coherent"
+    ],
+    "safetyPositioning": "sanitized gas masks, health screening for Ijen, ferry safety protocols, strong safety track record with professional guides and strict protocols",
+    "uniqueSellingPoints": [
+      "Bali departure convenience",
+      "Cross-island adventure",
+      "Ferry inclusion",
+      "Romantic couple-focused experience"
+    ]
+  },
+  "aggregateRating": {
+    "ratingValue": 0,
+    "reviewCount": 0
+  },
+  "provider": {
+    "brand": "Java Volcano Tour Operator (JVTO)",
+    "legalEntity": "PT Java Volcano Rendezvous",
+    "nib": "1102230032918",
+    "tdup": "1102230032918",
+    "official": {
+      "website": "https://javavolcano-touroperator.com",
+      "whatsapp": "+62 822-4478-8833",
+      "email": "hello@javavolcano-touroperator.com"
+    },
+    "policyRef": {
+      "booking": "/policy/booking.json",
+      "inclusions": "/policy/inclusions_exclusions.json"
+    },
+    "policyVersion": "2025-11-09"
+  },
+  "compliance": {
+    "destinationsWhitelist": true,
+    "itineraryTablesGenerated": true,
+    "healthScreeningIncluded": true,
+    "touristPoliceSupport": true
+  },
+  "operationalComplexityNote": "Cross-island handoff, Ijen screening, and a packed final day make this a compact but high-coordination route with a cleaner Surabaya finish than the Bali round-trip option."
+}

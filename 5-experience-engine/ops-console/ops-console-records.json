@@ -1,0 +1,6802 @@
+{
+  "privacy": "Ops projection excludes customer PII, raw payment links, receipts, references, expense, profit, and internal notes text.",
+  "records": [
+    {
+      "bookingId": 3390,
+      "bookingCode": "JVTO-3390",
+      "orderChannel": "JVTO",
+      "packageId": 29,
+      "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+      "totalPax": 8,
+      "tripDate": {
+        "start_ymd": "2026-08-01",
+        "end_ymd": "2026-08-03",
+        "start": "01 Aug 26",
+        "end": "03 Aug 26",
+        "days": "Sat - Mon"
+      },
+      "ijenDate": "02 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Hiace Commuter"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 4,
+          "role": "Escort",
+          "name": "Taufik",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 3
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "01 Aug 2026",
+          "hotelId": 17,
+          "hotel": "Jiwa Jawa Bromo",
+          "rooms": [],
+          "meals": []
+        },
+        {
+          "day": 2,
+          "checkIn": "02 Aug 2026",
+          "hotelId": 50,
+          "hotel": "ARTOTEL Cabin Bromo",
+          "rooms": [],
+          "meals": []
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 17800000,
+        "paid": 20400000,
+        "balance": -2600000,
+        "balanceStatus": "overpaid_or_adjustment"
+      },
+      "exceptions": [
+        "missing_dropoff",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3418,
+      "bookingCode": "JVTO-3418",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-01",
+        "end_ymd": "2026-08-03",
+        "start": "01 Aug 26",
+        "end": "03 Aug 26",
+        "days": "Sat - Mon"
+      },
+      "ijenDate": "03 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 7,
+          "name": "Fredi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 8
+        }
+      ],
+      "guides": [
+        {
+          "id": 46,
+          "role": "Ijen",
+          "name": "Fauzi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 2,
+          "monthlyIjenCount": 8
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "01 Aug 2026",
+          "hotelId": 60,
+          "hotel": "Manis Ae Cabin & Resto Bromo",
+          "rooms": [
+            {
+              "roomId": 252,
+              "roomName": "Superior Double - Weekday",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "02 Aug 2026",
+          "hotelId": 69,
+          "hotel": "Ijen Resort and Villas",
+          "rooms": [
+            {
+              "roomId": 268,
+              "roomName": "By Client",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 8402000,
+        "paid": 8402000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3401,
+      "bookingCode": "JVTO-3401",
+      "orderChannel": "JVTO",
+      "packageId": 34,
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-01",
+        "end_ymd": "2026-08-04",
+        "start": "01 Aug 26",
+        "end": "04 Aug 26",
+        "days": "Sat - Tue"
+      },
+      "ijenDate": "04 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Daihatsu Sigra"
+      ],
+      "drivers": [
+        {
+          "id": 28,
+          "name": "Holili",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6
+        }
+      ],
+      "guides": [
+        {
+          "id": 39,
+          "role": "Escort",
+          "name": "Gufron",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 2
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "01 Aug 2026",
+          "hotelId": 38,
+          "hotel": "Artha Cottage",
+          "rooms": [
+            {
+              "roomId": 77,
+              "roomName": "Twin",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "02 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "03 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 9100000,
+        "paid": 9100000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3692,
+      "bookingCode": "JVTO-3692",
+      "orderChannel": "JVTO",
+      "packageId": 33,
+      "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-01",
+        "end_ymd": "2026-08-04",
+        "start": "01 Aug 26",
+        "end": "04 Aug 26",
+        "days": "Sat - Tue"
+      },
+      "ijenDate": "02 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 79,
+          "name": "Edi",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 3
+        }
+      ],
+      "guides": [
+        {
+          "id": 2,
+          "role": "Ijen",
+          "name": "Juan",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 10
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "01 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "02 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "03 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 9100000,
+        "paid": 9100000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "missing_dropoff",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3561,
+      "bookingCode": "JVTO-3561",
+      "orderChannel": "JVTO",
+      "packageId": 80,
+      "packageName": "3 Day Bromo & Ijen Volcano Discovery from Bali",
+      "totalPax": 5,
+      "tripDate": {
+        "start_ymd": "2026-08-02",
+        "end_ymd": "2026-08-04",
+        "start": "02 Aug 26",
+        "end": "04 Aug 26",
+        "days": "Sun - Tue"
+      },
+      "ijenDate": "04 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Hiace Commuter"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 17,
+          "role": "Escort",
+          "name": "Kiki",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "02 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            },
+            {
+              "roomId": 109,
+              "roomName": "Family",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "03 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            },
+            {
+              "roomId": 101,
+              "roomName": "Family",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 18950000,
+        "paid": 18950000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3510,
+      "bookingCode": "KLOOK-3510",
+      "orderChannel": "KLOOK",
+      "packageId": 83,
+      "packageName": "4D3N Mount Bromo, Ijen Crater & Surabaya Night Market from Surabaya",
+      "totalPax": 3,
+      "tripDate": {
+        "start_ymd": "2026-08-02",
+        "end_ymd": "2026-08-05",
+        "start": "02 Aug 26",
+        "end": "05 Aug 26",
+        "days": "Sun - Wed"
+      },
+      "ijenDate": "03 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 80,
+          "name": "Sahril",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 4
+        }
+      ],
+      "guides": [
+        {
+          "id": 68,
+          "role": "Ijen",
+          "name": "Boy",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "02 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 43,
+              "roomName": "Apartment",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "03 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 109,
+              "roomName": "Family",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "04 Aug 2026",
+          "hotelId": 6,
+          "hotel": "Holiday Inn Express Surabaya Centerpoint, an IHG Hotel",
+          "rooms": [],
+          "meals": []
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 10080000,
+        "paid": 0,
+        "balance": 10080000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 1566,
+      "bookingCode": "JVTO-1566",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-03",
+        "end_ymd": "2026-08-05",
+        "start": "03 Aug 26",
+        "end": "05 Aug 26",
+        "days": "Mon - Wed"
+      },
+      "ijenDate": "05 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Toyota Calya"
+      ],
+      "drivers": [
+        {
+          "id": 1,
+          "name": "Yandi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6
+        }
+      ],
+      "guides": [
+        {
+          "id": 2,
+          "role": "Ijen",
+          "name": "Juan",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 10
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "03 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "04 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 8040000,
+        "paid": 8040000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3478,
+      "bookingCode": "JVTO-3478",
+      "orderChannel": "JVTO",
+      "packageId": 29,
+      "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+      "totalPax": 8,
+      "tripDate": {
+        "start_ymd": "2026-08-03",
+        "end_ymd": "2026-08-05",
+        "start": "03 Aug 26",
+        "end": "05 Aug 26",
+        "days": "Mon - Wed"
+      },
+      "ijenDate": "04 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Hiace Commuter"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 13,
+          "role": "Escort",
+          "name": "Rendi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6,
+          "monthlyIjenCount": 2
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "03 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 2
+            },
+            {
+              "roomId": 178,
+              "roomName": "Emerald Twin",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "04 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 2
+            },
+            {
+              "roomId": 23,
+              "roomName": "Twin",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 20400000,
+        "paid": 20400000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3459,
+      "bookingCode": "JVTO-3459",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-04",
+        "end_ymd": "2026-08-06",
+        "start": "04 Aug 26",
+        "end": "06 Aug 26",
+        "days": "Tue - Thu"
+      },
+      "ijenDate": "06 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 7,
+          "name": "Fredi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 8
+        }
+      ],
+      "guides": [
+        {
+          "id": 46,
+          "role": "Ijen",
+          "name": "Fauzi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 2,
+          "monthlyIjenCount": 8
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "04 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "05 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 7640000,
+        "paid": 7640000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3370,
+      "bookingCode": "JVTO-3370",
+      "orderChannel": "JVTO",
+      "packageId": 48,
+      "packageName": "2 Day Bromo Sunrise Adventure from Surabaya",
+      "totalPax": 4,
+      "tripDate": {
+        "start_ymd": "2026-08-05",
+        "end_ymd": "2026-08-06",
+        "start": "05 Aug 26",
+        "end": "06 Aug 26",
+        "days": "Wed - Thu"
+      },
+      "ijenDate": null,
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Hiace Commuter"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 17,
+          "role": "Escort",
+          "name": "Kiki",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "05 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 9400000,
+        "paid": 9400000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": []
+    },
+    {
+      "bookingId": 3571,
+      "bookingCode": "JVTO-3571",
+      "orderChannel": "JVTO",
+      "packageId": 48,
+      "packageName": "2 Day Bromo Sunrise Adventure from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-05",
+        "end_ymd": "2026-08-06",
+        "start": "05 Aug 26",
+        "end": "06 Aug 26",
+        "days": "Wed - Thu"
+      },
+      "ijenDate": null,
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Boy"
+      ],
+      "drivers": [
+        {
+          "id": 28,
+          "name": "Holili",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6
+        }
+      ],
+      "guides": [
+        {
+          "id": 39,
+          "role": "Escort",
+          "name": "Gufron",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 2
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "05 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 5600000,
+        "paid": 5600000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": []
+    },
+    {
+      "bookingId": 3696,
+      "bookingCode": "TWT-3696",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "packageName": "3D 2N Package",
+      "totalPax": 5,
+      "tripDate": {
+        "start_ymd": "2026-08-05",
+        "end_ymd": "2026-08-07",
+        "start": "05 Aug 26",
+        "end": "07 Aug 26",
+        "days": "Wed - Fri"
+      },
+      "ijenDate": "07 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Premio"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 68,
+          "role": "Escort",
+          "name": "Boy",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "05 Aug 2026",
+          "hotelId": 60,
+          "hotel": "Manis Ae Cabin & Resto Bromo",
+          "rooms": [
+            {
+              "roomId": 251,
+              "roomName": "Superior Twin - Weekday",
+              "quantity": 1
+            },
+            {
+              "roomId": 180,
+              "roomName": "Single Cabin Twin - Weekday",
+              "quantity": 1
+            },
+            {
+              "roomId": 221,
+              "roomName": "Extra Bed",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "06 Aug 2026",
+          "hotelId": 68,
+          "hotel": "Lintang Luku Tent",
+          "rooms": [
+            {
+              "roomId": 267,
+              "roomName": "By Client",
+              "quantity": 2
+            }
+          ],
+          "meals": []
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 12410000,
+        "paid": 0,
+        "balance": 12410000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3715,
+      "bookingCode": "JVTO-3715",
+      "orderChannel": "JVTO",
+      "packageId": 34,
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "totalPax": 1,
+      "tripDate": {
+        "start_ymd": "2026-08-05",
+        "end_ymd": "2026-08-08",
+        "start": "05 Aug 26",
+        "end": "08 Aug 26",
+        "days": "Wed - Sat"
+      },
+      "ijenDate": "08 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 2,
+          "role": "Ijen",
+          "name": "Juan",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 10
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "05 Aug 2026",
+          "hotelId": 57,
+          "hotel": "Yanto Homestay Anugerah Tumpak Sewu",
+          "rooms": [
+            {
+              "roomId": 156,
+              "roomName": "Cottage",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "06 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "07 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 118,
+              "roomName": "Deluxe Twin",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 8050000,
+        "paid": 8050000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3710,
+      "bookingCode": "JVTO-3710",
+      "orderChannel": "JVTO",
+      "packageId": 73,
+      "packageName": "1 Day Bromo Midnight Experience from Surabaya",
+      "totalPax": 5,
+      "tripDate": {
+        "start_ymd": "2026-08-06",
+        "end_ymd": "2026-08-06",
+        "start": "06 Aug 26",
+        "end": "06 Aug 26",
+        "days": "Thu - Thu"
+      },
+      "ijenDate": null,
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Hiace Commuter"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 13,
+          "role": "Escort",
+          "name": "Rendi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6,
+          "monthlyIjenCount": 2
+        }
+      ],
+      "hotels": [],
+      "payment": {
+        "invoiceTotal": 6250000,
+        "paid": 6250000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": []
+    },
+    {
+      "bookingId": 3684,
+      "bookingCode": "KLOOK-3684",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+      "totalPax": 3,
+      "tripDate": {
+        "start_ymd": "2026-08-06",
+        "end_ymd": "2026-08-08",
+        "start": "06 Aug 26",
+        "end": "08 Aug 26",
+        "days": "Thu - Sat"
+      },
+      "ijenDate": "08 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 56,
+          "role": "Ijen",
+          "name": "Local Ijen",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 12
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "06 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 109,
+              "roomName": "Family",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "07 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 43,
+              "roomName": "Apartment",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 7740000,
+        "paid": 0,
+        "balance": 7740000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 1676,
+      "bookingCode": "KLOOK-1676",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-06",
+        "end_ymd": "2026-08-09",
+        "start": "06 Aug 26",
+        "end": "09 Aug 26",
+        "days": "Thu - Sun"
+      },
+      "ijenDate": "08 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 81,
+          "name": "Romi",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 3
+        }
+      ],
+      "guides": [
+        {
+          "id": 56,
+          "role": "Ijen",
+          "name": "Local Ijen",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 12
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "06 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "07 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "08 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 7500000,
+        "paid": 0,
+        "balance": 7500000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3352,
+      "bookingCode": "KLOOK-3352",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "totalPax": 10,
+      "tripDate": {
+        "start_ymd": "2026-08-06",
+        "end_ymd": "2026-08-09",
+        "start": "06 Aug 26",
+        "end": "09 Aug 26",
+        "days": "Thu - Sun"
+      },
+      "ijenDate": "08 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Hiace Commuter",
+        "Daihatsu Sigra"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        },
+        {
+          "id": 73,
+          "name": "Joyo",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5
+        }
+      ],
+      "guides": [
+        {
+          "id": 3,
+          "role": "Escort",
+          "name": "Anjas",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 3
+        },
+        {
+          "id": 56,
+          "role": "Ijen",
+          "name": "Local Ijen",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 12
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "06 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 5
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "07 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 43,
+              "roomName": "Apartment",
+              "quantity": 2
+            },
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "08 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 5
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 23220000,
+        "paid": 0,
+        "balance": 23220000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3622,
+      "bookingCode": "JVTO-3622",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-07",
+        "end_ymd": "2026-08-09",
+        "start": "07 Aug 26",
+        "end": "09 Aug 26",
+        "days": "Fri - Sun"
+      },
+      "ijenDate": "09 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 62,
+          "name": "Yusuf",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 5
+        }
+      ],
+      "guides": [
+        {
+          "id": 56,
+          "role": "Ijen",
+          "name": "Local Ijen",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 12
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "07 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "08 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 88,
+              "roomName": "Platinum Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 7140000,
+        "paid": 7140000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3255,
+      "bookingCode": "JVTO-3255",
+      "orderChannel": "JVTO",
+      "packageId": 33,
+      "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+      "totalPax": 4,
+      "tripDate": {
+        "start_ymd": "2026-08-07",
+        "end_ymd": "2026-08-10",
+        "start": "07 Aug 26",
+        "end": "10 Aug 26",
+        "days": "Fri - Mon"
+      },
+      "ijenDate": "08 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Hiace Commuter"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 4,
+          "role": "Escort",
+          "name": "Taufik",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 3
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "07 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            },
+            {
+              "roomId": 88,
+              "roomName": "Platinum Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "08 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "09 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 17480000,
+        "paid": 17480000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3658,
+      "bookingCode": "KLOOK-3658",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-07",
+        "end_ymd": "2026-08-10",
+        "start": "07 Aug 26",
+        "end": "10 Aug 26",
+        "days": "Fri - Mon"
+      },
+      "ijenDate": "08 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Innova Zenix"
+      ],
+      "drivers": [
+        {
+          "id": 1,
+          "name": "Yandi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6
+        }
+      ],
+      "guides": [
+        {
+          "id": 56,
+          "role": "Ijen",
+          "name": "Local Ijen",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 12
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "07 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "08 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "09 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 11000000,
+        "paid": 0,
+        "balance": 11000000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3619,
+      "bookingCode": "TWT-3619",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "packageName": "5D 4N Package",
+      "totalPax": 4,
+      "tripDate": {
+        "start_ymd": "2026-08-07",
+        "end_ymd": "2026-08-11",
+        "start": "07 Aug 26",
+        "end": "11 Aug 26",
+        "days": "Fri - Tue"
+      },
+      "ijenDate": "10 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Hiace Premio"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 13,
+          "role": "Escort",
+          "name": "Rendi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6,
+          "monthlyIjenCount": 2
+        },
+        {
+          "id": 56,
+          "role": "Ijen",
+          "name": "Local Ijen",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 12
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "07 Aug 2026",
+          "hotelId": 66,
+          "hotel": "HARRIS Hotel & Conventions Malang",
+          "rooms": [
+            {
+              "roomId": 231,
+              "roomName": "Harris Room - Twin",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "08 Aug 2026",
+          "hotelId": 60,
+          "hotel": "Manis Ae Cabin & Resto Bromo",
+          "rooms": [
+            {
+              "roomId": 180,
+              "roomName": "Single Cabin Twin - Weekday",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "09 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 179,
+              "roomName": "Platinum Twin",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 4,
+          "checkIn": "10 Aug 2026",
+          "hotelId": 70,
+          "hotel": "DoubleTree by Hilton",
+          "rooms": [
+            {
+              "roomId": 269,
+              "roomName": "By Client",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 18814000,
+        "paid": 0,
+        "balance": 18814000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3438,
+      "bookingCode": "KLOOK-3438",
+      "orderChannel": "KLOOK",
+      "packageId": 94,
+      "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-08",
+        "end_ymd": "2026-08-08",
+        "start": "08 Aug 26",
+        "end": "08 Aug 26",
+        "days": "Sat - Sat"
+      },
+      "ijenDate": null,
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [],
+      "hotels": [],
+      "payment": {
+        "invoiceTotal": 2800000,
+        "paid": 0,
+        "balance": 2800000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_guide",
+        "balance_due"
+      ]
+    },
+    {
+      "bookingId": 3714,
+      "bookingCode": "JVTO-3714",
+      "orderChannel": "JVTO",
+      "packageId": null,
+      "packageName": "1D 0N Package",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-08",
+        "end_ymd": "2026-08-08",
+        "start": "08 Aug 26",
+        "end": "08 Aug 26",
+        "days": "Sat - Sat"
+      },
+      "ijenDate": "08 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Yus 2"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 56,
+          "role": "Ijen",
+          "name": "Local Ijen",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 12
+        }
+      ],
+      "hotels": [],
+      "payment": {
+        "invoiceTotal": 1260000,
+        "paid": 0,
+        "balance": 1260000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3709,
+      "bookingCode": "KLOOK-3709",
+      "orderChannel": "KLOOK",
+      "packageId": 94,
+      "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
+      "totalPax": 4,
+      "tripDate": {
+        "start_ymd": "2026-08-08",
+        "end_ymd": "2026-08-08",
+        "start": "08 Aug 26",
+        "end": "08 Aug 26",
+        "days": "Sat - Sat"
+      },
+      "ijenDate": null,
+      "pickupComplete": true,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Innova Reborn"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [],
+      "hotels": [],
+      "payment": {
+        "invoiceTotal": 4200000,
+        "paid": 0,
+        "balance": 4200000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_dropoff",
+        "missing_guide",
+        "balance_due"
+      ]
+    },
+    {
+      "bookingId": 3445,
+      "bookingCode": "JVTO-3445",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "totalPax": 4,
+      "tripDate": {
+        "start_ymd": "2026-08-08",
+        "end_ymd": "2026-08-10",
+        "start": "08 Aug 26",
+        "end": "10 Aug 26",
+        "days": "Sat - Mon"
+      },
+      "ijenDate": "10 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Hiace Commuter"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 17,
+          "role": "Escort",
+          "name": "Kiki",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "08 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "09 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 13200000,
+        "paid": 13200000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3508,
+      "bookingCode": "KLOOK-3508",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+      "totalPax": 4,
+      "tripDate": {
+        "start_ymd": "2026-08-08",
+        "end_ymd": "2026-08-10",
+        "start": "08 Aug 26",
+        "end": "10 Aug 26",
+        "days": "Sat - Mon"
+      },
+      "ijenDate": "09 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Innova Reborn"
+      ],
+      "drivers": [
+        {
+          "id": 80,
+          "name": "Sahril",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 4
+        }
+      ],
+      "guides": [
+        {
+          "id": 46,
+          "role": "Ijen",
+          "name": "Fauzi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 2,
+          "monthlyIjenCount": 8
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "08 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 43,
+              "roomName": "Apartment",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "09 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 9804000,
+        "paid": 0,
+        "balance": 9804000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3563,
+      "bookingCode": "KLOOK-3563",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-08",
+        "end_ymd": "2026-08-10",
+        "start": "08 Aug 26",
+        "end": "10 Aug 26",
+        "days": "Sat - Mon"
+      },
+      "ijenDate": "09 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 79,
+          "name": "Edi",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 3
+        }
+      ],
+      "guides": [
+        {
+          "id": 2,
+          "role": "Ijen",
+          "name": "Juan",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 10
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "08 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "09 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 6200000,
+        "paid": 0,
+        "balance": 6200000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_dropoff",
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3632,
+      "bookingCode": "JVTO-3632",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-08",
+        "end_ymd": "2026-08-10",
+        "start": "08 Aug 26",
+        "end": "10 Aug 26",
+        "days": "Sat - Mon"
+      },
+      "ijenDate": "10 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 2,
+          "role": "Ijen",
+          "name": "Juan",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 10
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "08 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "09 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 88,
+              "roomName": "Platinum Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 9040000,
+        "paid": 1608000,
+        "balance": 7432000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3671,
+      "bookingCode": "JVTO-3671",
+      "orderChannel": "JVTO",
+      "packageId": 29,
+      "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-08",
+        "end_ymd": "2026-08-10",
+        "start": "08 Aug 26",
+        "end": "10 Aug 26",
+        "days": "Sat - Mon"
+      },
+      "ijenDate": "09 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Toyota Calya"
+      ],
+      "drivers": [
+        {
+          "id": 75,
+          "name": "Didin",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4
+        }
+      ],
+      "guides": [
+        {
+          "id": 68,
+          "role": "Escort",
+          "name": "Boy",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "08 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 88,
+              "roomName": "Platinum Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "09 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 7140000,
+        "paid": 7140000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3572,
+      "bookingCode": "JVTO-3572",
+      "orderChannel": "JVTO",
+      "packageId": 33,
+      "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-08",
+        "end_ymd": "2026-08-11",
+        "start": "08 Aug 26",
+        "end": "11 Aug 26",
+        "days": "Sat - Tue"
+      },
+      "ijenDate": "09 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 28,
+          "name": "Holili",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6
+        }
+      ],
+      "guides": [
+        {
+          "id": 39,
+          "role": "Escort",
+          "name": "Gufron",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 2
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "08 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 97,
+              "roomName": "Executive Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "09 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "10 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 9500000,
+        "paid": 9500000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3596,
+      "bookingCode": "JVTO-3596",
+      "orderChannel": "JVTO",
+      "packageId": 73,
+      "packageName": "1 Day Bromo Midnight Experience from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-09",
+        "end_ymd": "2026-08-09",
+        "start": "09 Aug 26",
+        "end": "09 Aug 26",
+        "days": "Sun - Sun"
+      },
+      "ijenDate": null,
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [],
+      "hotels": [],
+      "payment": {
+        "invoiceTotal": 3500000,
+        "paid": 3500000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "missing_guide"
+      ]
+    },
+    {
+      "bookingId": 3425,
+      "bookingCode": "KLOOK-3425",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-09",
+        "end_ymd": "2026-08-12",
+        "start": "09 Aug 26",
+        "end": "12 Aug 26",
+        "days": "Sun - Wed"
+      },
+      "ijenDate": "10 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 68,
+          "role": "Ijen",
+          "name": "Boy",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "09 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 161,
+              "roomName": "Superior Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "10 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "11 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 7125000,
+        "paid": 0,
+        "balance": 7125000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3604,
+      "bookingCode": "JVTO-3604",
+      "orderChannel": "JVTO",
+      "packageId": 29,
+      "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-10",
+        "end_ymd": "2026-08-12",
+        "start": "10 Aug 26",
+        "end": "12 Aug 26",
+        "days": "Mon - Wed"
+      },
+      "ijenDate": "12 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Boy"
+      ],
+      "drivers": [
+        {
+          "id": 7,
+          "name": "Fredi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 8
+        }
+      ],
+      "guides": [
+        {
+          "id": 46,
+          "role": "Ijen",
+          "name": "Fauzi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 2,
+          "monthlyIjenCount": 8
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "10 Aug 2026",
+          "hotelId": 17,
+          "hotel": "Jiwa Jawa Bromo",
+          "rooms": [],
+          "meals": []
+        },
+        {
+          "day": 2,
+          "checkIn": "11 Aug 2026",
+          "hotelId": 68,
+          "hotel": "Lintang Luku Tent",
+          "rooms": [
+            {
+              "roomId": 267,
+              "roomName": "By Client",
+              "quantity": 1
+            }
+          ],
+          "meals": []
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 5723000,
+        "paid": 5723000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3211,
+      "bookingCode": "KLOOK-3211",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "totalPax": 4,
+      "tripDate": {
+        "start_ymd": "2026-08-10",
+        "end_ymd": "2026-08-13",
+        "start": "10 Aug 26",
+        "end": "13 Aug 26",
+        "days": "Mon - Thu"
+      },
+      "ijenDate": "11 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Innova Reborn"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 17,
+          "role": "Ijen",
+          "name": "Kiki",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "10 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 43,
+              "roomName": "Apartment",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "11 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "12 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 12384000,
+        "paid": 0,
+        "balance": 12384000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3285,
+      "bookingCode": "JVTO-3285",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "totalPax": 7,
+      "tripDate": {
+        "start_ymd": "2026-08-11",
+        "end_ymd": "2026-08-13",
+        "start": "11 Aug 26",
+        "end": "13 Aug 26",
+        "days": "Tue - Thu"
+      },
+      "ijenDate": "13 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Hiace Commuter"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 13,
+          "role": "Escort",
+          "name": "Rendi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6,
+          "monthlyIjenCount": 2
+        },
+        {
+          "id": 56,
+          "role": "Ijen",
+          "name": "Local Ijen",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 12
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "11 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 2
+            },
+            {
+              "roomId": 109,
+              "roomName": "Family",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "12 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 2
+            },
+            {
+              "roomId": 101,
+              "roomName": "Family",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 20950000,
+        "paid": 20950000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3453,
+      "bookingCode": "JVTO-3453",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "totalPax": 9,
+      "tripDate": {
+        "start_ymd": "2026-08-11",
+        "end_ymd": "2026-08-13",
+        "start": "11 Aug 26",
+        "end": "13 Aug 26",
+        "days": "Tue - Thu"
+      },
+      "ijenDate": "13 Aug 26",
+      "pickupComplete": false,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Hiace Commuter"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 4,
+          "role": "Escort",
+          "name": "Taufik",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 3
+        },
+        {
+          "id": 2,
+          "role": "Ijen",
+          "name": "Juan",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 10
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "11 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 3
+            },
+            {
+              "roomId": 109,
+              "roomName": "Family",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "12 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 118,
+              "roomName": "Deluxe Twin",
+              "quantity": 3
+            },
+            {
+              "roomId": 178,
+              "roomName": "Emerald Twin",
+              "quantity": 1
+            },
+            {
+              "roomId": 95,
+              "roomName": "Extra Bed",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 22950000,
+        "paid": 4590000,
+        "balance": 18360000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_pickup",
+        "missing_dropoff",
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3515,
+      "bookingCode": "TWT-3515",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "packageName": "3D 2N Package",
+      "totalPax": 6,
+      "tripDate": {
+        "start_ymd": "2026-08-11",
+        "end_ymd": "2026-08-13",
+        "start": "11 Aug 26",
+        "end": "13 Aug 26",
+        "days": "Tue - Thu"
+      },
+      "ijenDate": "12 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Premio"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 3,
+          "role": "Escort",
+          "name": "Anjas",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 3
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "11 Aug 2026",
+          "hotelId": 60,
+          "hotel": "Manis Ae Cabin & Resto Bromo",
+          "rooms": [
+            {
+              "roomId": 180,
+              "roomName": "Single Cabin Twin - Weekday",
+              "quantity": 3
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "12 Aug 2026",
+          "hotelId": 56,
+          "hotel": "Harris Hotel Satelit",
+          "rooms": [
+            {
+              "roomId": 190,
+              "roomName": "Twin Room",
+              "quantity": 3
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 14675000,
+        "paid": 0,
+        "balance": 14675000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 1681,
+      "bookingCode": "JVTO-1681",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-13",
+        "end_ymd": "2026-08-15",
+        "start": "13 Aug 26",
+        "end": "15 Aug 26",
+        "days": "Thu - Sat"
+      },
+      "ijenDate": "15 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Daihatsu Sigra"
+      ],
+      "drivers": [
+        {
+          "id": 28,
+          "name": "Holili",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6
+        }
+      ],
+      "guides": [
+        {
+          "id": 46,
+          "role": "Escort",
+          "name": "Fauzi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 2,
+          "monthlyIjenCount": 8
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "13 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "14 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 7940000,
+        "paid": 1588000,
+        "balance": 6352000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_dropoff",
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3595,
+      "bookingCode": "KLOOK-3595",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-13",
+        "end_ymd": "2026-08-15",
+        "start": "13 Aug 26",
+        "end": "15 Aug 26",
+        "days": "Thu - Sat"
+      },
+      "ijenDate": "14 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 62,
+          "name": "Yusuf",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 5
+        }
+      ],
+      "guides": [
+        {
+          "id": 13,
+          "role": "Ijen",
+          "name": "Rendi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6,
+          "monthlyIjenCount": 2
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "13 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "14 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 6200000,
+        "paid": 0,
+        "balance": 6200000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_dropoff",
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3559,
+      "bookingCode": "KLOOK-3559",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "totalPax": 3,
+      "tripDate": {
+        "start_ymd": "2026-08-13",
+        "end_ymd": "2026-08-16",
+        "start": "13 Aug 26",
+        "end": "16 Aug 26",
+        "days": "Thu - Sun"
+      },
+      "ijenDate": "14 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Toyota Calya"
+      ],
+      "drivers": [
+        {
+          "id": 1,
+          "name": "Yandi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6
+        }
+      ],
+      "guides": [
+        {
+          "id": 39,
+          "role": "Ijen",
+          "name": "Gufron",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 2
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "13 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 43,
+              "roomName": "Apartment",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "14 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 81,
+              "roomName": "Family",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "15 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 109,
+              "roomName": "Family",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 10320000,
+        "paid": 0,
+        "balance": 10320000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3672,
+      "bookingCode": "JVTO-3672",
+      "orderChannel": "JVTO",
+      "packageId": 54,
+      "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-13",
+        "end_ymd": "2026-08-16",
+        "start": "13 Aug 26",
+        "end": "16 Aug 26",
+        "days": "Thu - Sun"
+      },
+      "ijenDate": "14 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Avanza Boy"
+      ],
+      "drivers": [
+        {
+          "id": 73,
+          "name": "Joyo",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5
+        }
+      ],
+      "guides": [
+        {
+          "id": 68,
+          "role": "Escort",
+          "name": "Boy",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "13 Aug 2026",
+          "hotelId": 32,
+          "hotel": "Luminor Hotel",
+          "rooms": [
+            {
+              "roomId": 107,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "14 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "15 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 9800000,
+        "paid": 9800000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "missing_dropoff",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3254,
+      "bookingCode": "TWT-3254",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "packageName": "5D 4N Package",
+      "totalPax": 4,
+      "tripDate": {
+        "start_ymd": "2026-08-13",
+        "end_ymd": "2026-08-17",
+        "start": "13 Aug 26",
+        "end": "17 Aug 26",
+        "days": "Thu - Mon"
+      },
+      "ijenDate": "16 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Premio"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 17,
+          "role": "Escort",
+          "name": "Kiki",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "13 Aug 2026",
+          "hotelId": 66,
+          "hotel": "HARRIS Hotel & Conventions Malang",
+          "rooms": [
+            {
+              "roomId": 231,
+              "roomName": "Harris Room - Twin",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "14 Aug 2026",
+          "hotelId": 60,
+          "hotel": "Manis Ae Cabin & Resto Bromo",
+          "rooms": [
+            {
+              "roomId": 247,
+              "roomName": "Standart With Balcony Twin - Weekend",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "15 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 178,
+              "roomName": "Emerald Twin",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 4,
+          "checkIn": "16 Aug 2026",
+          "hotelId": 56,
+          "hotel": "Harris Hotel Satelit",
+          "rooms": [
+            {
+              "roomId": 190,
+              "roomName": "Twin Room",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 20084000,
+        "paid": 0,
+        "balance": 20084000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3717,
+      "bookingCode": "JVTO-3717",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-14",
+        "end_ymd": "2026-08-16",
+        "start": "14 Aug 26",
+        "end": "16 Aug 26",
+        "days": "Fri - Sun"
+      },
+      "ijenDate": "16 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 7,
+          "name": "Fredi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 8
+        }
+      ],
+      "guides": [
+        {
+          "id": 4,
+          "role": "Ijen",
+          "name": "Taufik",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 3
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "14 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "15 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 94,
+              "roomName": "Emerald Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 8040000,
+        "paid": 8040000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3654,
+      "bookingCode": "JVTO-3654",
+      "orderChannel": "JVTO",
+      "packageId": 34,
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-14",
+        "end_ymd": "2026-08-17",
+        "start": "14 Aug 26",
+        "end": "17 Aug 26",
+        "days": "Fri - Mon"
+      },
+      "ijenDate": "17 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Yus"
+      ],
+      "drivers": [
+        {
+          "id": 75,
+          "name": "Didin",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4
+        }
+      ],
+      "guides": [
+        {
+          "id": 3,
+          "role": "Escort",
+          "name": "Anjas",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 3
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "14 Aug 2026",
+          "hotelId": 57,
+          "hotel": "Yanto Homestay Anugerah Tumpak Sewu",
+          "rooms": [
+            {
+              "roomId": 156,
+              "roomName": "Cottage",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "15 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "16 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 10000000,
+        "paid": 2000000,
+        "balance": 8000000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3687,
+      "bookingCode": "KLOOK-3687",
+      "orderChannel": "KLOOK",
+      "packageId": 83,
+      "packageName": "4D3N Mount Bromo, Ijen Crater & Surabaya Night Market from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-17",
+        "end_ymd": "2026-08-20",
+        "start": "17 Aug 26",
+        "end": "20 Aug 26",
+        "days": "Mon - Thu"
+      },
+      "ijenDate": "18 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Toyota Calya"
+      ],
+      "drivers": [
+        {
+          "id": 1,
+          "name": "Yandi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6
+        }
+      ],
+      "guides": [
+        {
+          "id": 3,
+          "role": "Ijen",
+          "name": "Anjas",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 3
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "17 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "18 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "19 Aug 2026",
+          "hotelId": 6,
+          "hotel": "Holiday Inn Express Surabaya Centerpoint, an IHG Hotel",
+          "rooms": [
+            {
+              "roomId": 29,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 7500000,
+        "paid": 0,
+        "balance": 7500000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3488,
+      "bookingCode": "KLOOK-3488",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+      "totalPax": 1,
+      "tripDate": {
+        "start_ymd": "2026-08-18",
+        "end_ymd": "2026-08-20",
+        "start": "18 Aug 26",
+        "end": "20 Aug 26",
+        "days": "Tue - Thu"
+      },
+      "ijenDate": "19 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 7,
+          "name": "Fredi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 8
+        }
+      ],
+      "guides": [
+        {
+          "id": 4,
+          "role": "Ijen",
+          "name": "Taufik",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 3
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "18 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "19 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 5187000,
+        "paid": 0,
+        "balance": 5187000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_dropoff",
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3577,
+      "bookingCode": "KLOOK-3577",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "totalPax": 4,
+      "tripDate": {
+        "start_ymd": "2026-08-18",
+        "end_ymd": "2026-08-21",
+        "start": "18 Aug 26",
+        "end": "21 Aug 26",
+        "days": "Tue - Fri"
+      },
+      "ijenDate": "19 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Innova Reborn"
+      ],
+      "drivers": [
+        {
+          "id": 62,
+          "name": "Yusuf",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 5
+        }
+      ],
+      "guides": [
+        {
+          "id": 13,
+          "role": "Ijen",
+          "name": "Rendi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6,
+          "monthlyIjenCount": 2
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "18 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 43,
+              "roomName": "Apartment",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "19 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "20 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 13760000,
+        "paid": 0,
+        "balance": 13760000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_dropoff",
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 1588,
+      "bookingCode": "JVTO-1588",
+      "orderChannel": "JVTO",
+      "packageId": 34,
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-19",
+        "end_ymd": "2026-08-22",
+        "start": "19 Aug 26",
+        "end": "22 Aug 26",
+        "days": "Wed - Sat"
+      },
+      "ijenDate": "22 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Daihatsu Sigra"
+      ],
+      "drivers": [
+        {
+          "id": 73,
+          "name": "Joyo",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5
+        }
+      ],
+      "guides": [
+        {
+          "id": 68,
+          "role": "Escort",
+          "name": "Boy",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "19 Aug 2026",
+          "hotelId": 38,
+          "hotel": "Artha Cottage",
+          "rooms": [
+            {
+              "roomId": 76,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "20 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "21 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 9900000,
+        "paid": 9900000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3220,
+      "bookingCode": "KLOOK-3220",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-19",
+        "end_ymd": "2026-08-22",
+        "start": "19 Aug 26",
+        "end": "22 Aug 26",
+        "days": "Wed - Sat"
+      },
+      "ijenDate": "20 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 81,
+          "name": "Romi",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 3
+        }
+      ],
+      "guides": [
+        {
+          "id": 17,
+          "role": "Ijen",
+          "name": "Kiki",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "19 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "20 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "21 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 6750000,
+        "paid": 0,
+        "balance": 6750000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3613,
+      "bookingCode": "KLOOK-3613",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-21",
+        "end_ymd": "2026-08-23",
+        "start": "21 Aug 26",
+        "end": "23 Aug 26",
+        "days": "Fri - Sun"
+      },
+      "ijenDate": "22 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 7,
+          "name": "Fredi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 8
+        }
+      ],
+      "guides": [
+        {
+          "id": 4,
+          "role": "Ijen",
+          "name": "Taufik",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 3
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "21 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "22 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 6200000,
+        "paid": 0,
+        "balance": 6200000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3679,
+      "bookingCode": "JVTO-3679",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "totalPax": 4,
+      "tripDate": {
+        "start_ymd": "2026-08-21",
+        "end_ymd": "2026-08-23",
+        "start": "21 Aug 26",
+        "end": "23 Aug 26",
+        "days": "Fri - Sun"
+      },
+      "ijenDate": "23 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Hiace Commuter"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 3,
+          "role": "Escort",
+          "name": "Anjas",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 3
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "21 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "22 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 12200000,
+        "paid": 2440000,
+        "balance": 9760000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 1584,
+      "bookingCode": "KLOOK-1584",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "totalPax": 4,
+      "tripDate": {
+        "start_ymd": "2026-08-21",
+        "end_ymd": "2026-08-24",
+        "start": "21 Aug 26",
+        "end": "24 Aug 26",
+        "days": "Fri - Mon"
+      },
+      "ijenDate": "23 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Innova Reborn"
+      ],
+      "drivers": [
+        {
+          "id": 80,
+          "name": "Sahril",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 4
+        }
+      ],
+      "guides": [
+        {
+          "id": 2,
+          "role": "Ijen",
+          "name": "Juan",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 10
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "21 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "22 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 43,
+              "roomName": "Apartment",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "23 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 13760000,
+        "paid": 0,
+        "balance": 13760000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3675,
+      "bookingCode": "JVTO-3675",
+      "orderChannel": "JVTO",
+      "packageId": 33,
+      "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-21",
+        "end_ymd": "2026-08-24",
+        "start": "21 Aug 26",
+        "end": "24 Aug 26",
+        "days": "Fri - Mon"
+      },
+      "ijenDate": "23 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Toyota Calya"
+      ],
+      "drivers": [
+        {
+          "id": 1,
+          "name": "Yandi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6
+        }
+      ],
+      "guides": [
+        {
+          "id": 46,
+          "role": "Ijen",
+          "name": "Fauzi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 2,
+          "monthlyIjenCount": 8
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "21 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "22 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 97,
+              "roomName": "Executive Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "23 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 9100000,
+        "paid": 1820000,
+        "balance": 7280000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3730,
+      "bookingCode": "KLOOK-3730",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-21",
+        "end_ymd": "2026-08-24",
+        "start": "21 Aug 26",
+        "end": "24 Aug 26",
+        "days": "Fri - Mon"
+      },
+      "ijenDate": "22 Aug 26",
+      "pickupComplete": false,
+      "dropoffComplete": true,
+      "vehicles": [],
+      "drivers": [],
+      "guides": [],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "21 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "22 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "23 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 7500000,
+        "paid": 0,
+        "balance": 7500000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_pickup",
+        "missing_vehicle",
+        "missing_driver",
+        "missing_guide",
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3616,
+      "bookingCode": "KLOOK-3616",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-22",
+        "end_ymd": "2026-08-24",
+        "start": "22 Aug 26",
+        "end": "24 Aug 26",
+        "days": "Sat - Mon"
+      },
+      "ijenDate": "24 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 3,
+          "role": "Ijen",
+          "name": "Anjas",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 3
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "22 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "23 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 6200000,
+        "paid": 0,
+        "balance": 6200000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_dropoff",
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3660,
+      "bookingCode": "KLOOK-3660",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-22",
+        "end_ymd": "2026-08-25",
+        "start": "22 Aug 26",
+        "end": "25 Aug 26",
+        "days": "Sat - Tue"
+      },
+      "ijenDate": "23 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 79,
+          "name": "Edi",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 3
+        }
+      ],
+      "guides": [
+        {
+          "id": 17,
+          "role": "Ijen",
+          "name": "Kiki",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "22 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "23 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "24 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 7500000,
+        "paid": 0,
+        "balance": 7500000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3718,
+      "bookingCode": "JVTO-3718",
+      "orderChannel": "JVTO",
+      "packageId": 34,
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-22",
+        "end_ymd": "2026-08-25",
+        "start": "22 Aug 26",
+        "end": "25 Aug 26",
+        "days": "Sat - Tue"
+      },
+      "ijenDate": "25 Aug 26",
+      "pickupComplete": false,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 62,
+          "name": "Yusuf",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 5
+        }
+      ],
+      "guides": [
+        {
+          "id": 46,
+          "role": "Ijen",
+          "name": "Fauzi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 2,
+          "monthlyIjenCount": 8
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "22 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "23 Aug 2026",
+          "hotelId": 38,
+          "hotel": "Artha Cottage",
+          "rooms": [
+            {
+              "roomId": 207,
+              "roomName": "VIP Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "24 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 94,
+              "roomName": "Emerald Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 10000000,
+        "paid": 2000000,
+        "balance": 8000000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_pickup",
+        "missing_dropoff",
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3674,
+      "bookingCode": "TWT-3674",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "packageName": "6D 5N Package",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-22",
+        "end_ymd": "2026-08-27",
+        "start": "22 Aug 26",
+        "end": "27 Aug 26",
+        "days": "Sat - Thu"
+      },
+      "ijenDate": "26 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Yus"
+      ],
+      "drivers": [
+        {
+          "id": 28,
+          "name": "Holili",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6
+        }
+      ],
+      "guides": [
+        {
+          "id": 13,
+          "role": "Escort",
+          "name": "Rendi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6,
+          "monthlyIjenCount": 2
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "22 Aug 2026",
+          "hotelId": 66,
+          "hotel": "HARRIS Hotel & Conventions Malang",
+          "rooms": [
+            {
+              "roomId": 231,
+              "roomName": "Harris Room - Twin",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "23 Aug 2026",
+          "hotelId": 63,
+          "hotel": "ARTOTEL Cabin Bromo",
+          "rooms": [
+            {
+              "roomId": 201,
+              "roomName": "Cabin King",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "24 Aug 2026",
+          "hotelId": 60,
+          "hotel": "Manis Ae Cabin & Resto Bromo",
+          "rooms": [
+            {
+              "roomId": 180,
+              "roomName": "Single Cabin Twin - Weekday",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 4,
+          "checkIn": "25 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 178,
+              "roomName": "Emerald Twin",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 5,
+          "checkIn": "26 Aug 2026",
+          "hotelId": 56,
+          "hotel": "Harris Hotel Satelit",
+          "rooms": [
+            {
+              "roomId": 190,
+              "roomName": "Twin Room",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 12165000,
+        "paid": 0,
+        "balance": 12165000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3605,
+      "bookingCode": "JVTO-3605",
+      "orderChannel": "JVTO",
+      "packageId": 34,
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-23",
+        "end_ymd": "2026-08-26",
+        "start": "23 Aug 26",
+        "end": "26 Aug 26",
+        "days": "Sun - Wed"
+      },
+      "ijenDate": "26 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Boy"
+      ],
+      "drivers": [
+        {
+          "id": 73,
+          "name": "Joyo",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5
+        }
+      ],
+      "guides": [
+        {
+          "id": 68,
+          "role": "Escort",
+          "name": "Boy",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "23 Aug 2026",
+          "hotelId": 38,
+          "hotel": "Artha Cottage",
+          "rooms": [
+            {
+              "roomId": 76,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "24 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "25 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 9500000,
+        "paid": 1900000,
+        "balance": 7600000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3716,
+      "bookingCode": "JVTO-3716",
+      "orderChannel": "JVTO",
+      "packageId": 54,
+      "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+      "totalPax": 3,
+      "tripDate": {
+        "start_ymd": "2026-08-23",
+        "end_ymd": "2026-08-26",
+        "start": "23 Aug 26",
+        "end": "26 Aug 26",
+        "days": "Sun - Wed"
+      },
+      "ijenDate": "26 Aug 26",
+      "pickupComplete": false,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 17,
+          "role": "Ijen",
+          "name": "Kiki",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "23 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 81,
+              "roomName": "Family",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "24 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 109,
+              "roomName": "Family",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "25 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 178,
+              "roomName": "Emerald Twin",
+              "quantity": 1
+            },
+            {
+              "roomId": 95,
+              "roomName": "Extra Bed",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 14700000,
+        "paid": 2940000,
+        "balance": 11760000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_pickup",
+        "missing_dropoff",
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3340,
+      "bookingCode": "JVTO-3340",
+      "orderChannel": "JVTO",
+      "packageId": 29,
+      "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+      "totalPax": 4,
+      "tripDate": {
+        "start_ymd": "2026-08-24",
+        "end_ymd": "2026-08-26",
+        "start": "24 Aug 26",
+        "end": "26 Aug 26",
+        "days": "Mon - Wed"
+      },
+      "ijenDate": "25 Aug 26",
+      "pickupComplete": false,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Hiace Commuter"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 39,
+          "role": "Escort",
+          "name": "Gufron",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 2
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "24 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "25 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 12200000,
+        "paid": 2440000,
+        "balance": 9760000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_pickup",
+        "missing_dropoff",
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3242,
+      "bookingCode": "KLOOK-3242",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-24",
+        "end_ymd": "2026-08-27",
+        "start": "24 Aug 26",
+        "end": "27 Aug 26",
+        "days": "Mon - Thu"
+      },
+      "ijenDate": "25 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 81,
+          "name": "Romi",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 3
+        }
+      ],
+      "guides": [
+        {
+          "id": 2,
+          "role": "Ijen",
+          "name": "Juan",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 10
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "24 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "25 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "26 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 7500000,
+        "paid": 0,
+        "balance": 7500000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 1709,
+      "bookingCode": "JVTO-1709",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "totalPax": 10,
+      "tripDate": {
+        "start_ymd": "2026-08-25",
+        "end_ymd": "2026-08-27",
+        "start": "25 Aug 26",
+        "end": "27 Aug 26",
+        "days": "Tue - Thu"
+      },
+      "ijenDate": "27 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Hiace Commuter",
+        "Daihatsu Sigra"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        },
+        {
+          "id": 75,
+          "name": "Didin",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4
+        }
+      ],
+      "guides": [
+        {
+          "id": 4,
+          "role": "Escort",
+          "name": "Taufik",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 3
+        },
+        {
+          "id": 46,
+          "role": "Ijen",
+          "name": "Fauzi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 2,
+          "monthlyIjenCount": 8
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "25 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 5
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "26 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 5
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 26700000,
+        "paid": 26700000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "missing_dropoff",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3700,
+      "bookingCode": "JVTO-3700",
+      "orderChannel": "JVTO",
+      "packageId": 48,
+      "packageName": "2 Day Bromo Sunrise Adventure from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-26",
+        "end_ymd": "2026-08-27",
+        "start": "26 Aug 26",
+        "end": "27 Aug 26",
+        "days": "Wed - Thu"
+      },
+      "ijenDate": null,
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 80,
+          "name": "Sahril",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 4
+        }
+      ],
+      "guides": [],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "26 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 5600000,
+        "paid": 1120000,
+        "balance": 4480000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_guide",
+        "balance_due"
+      ]
+    },
+    {
+      "bookingId": 3574,
+      "bookingCode": "KLOOK-3574",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-26",
+        "end_ymd": "2026-08-28",
+        "start": "26 Aug 26",
+        "end": "28 Aug 26",
+        "days": "Wed - Fri"
+      },
+      "ijenDate": "27 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 7,
+          "name": "Fredi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 8
+        }
+      ],
+      "guides": [
+        {
+          "id": 68,
+          "role": "Ijen",
+          "name": "Boy",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "26 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "27 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 6200000,
+        "paid": 0,
+        "balance": 6200000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3403,
+      "bookingCode": "TWT-3403",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "packageName": "5D 4N Package",
+      "totalPax": 4,
+      "tripDate": {
+        "start_ymd": "2026-08-27",
+        "end_ymd": "2026-08-31",
+        "start": "27 Aug 26",
+        "end": "31 Aug 26",
+        "days": "Thu - Mon"
+      },
+      "ijenDate": "30 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Hiace Premio"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 39,
+          "role": "Escort",
+          "name": "Gufron",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 2
+        },
+        {
+          "id": 46,
+          "role": "Ijen",
+          "name": "Fauzi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 2,
+          "monthlyIjenCount": 8
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "27 Aug 2026",
+          "hotelId": 66,
+          "hotel": "HARRIS Hotel & Conventions Malang",
+          "rooms": [
+            {
+              "roomId": 231,
+              "roomName": "Harris Room - Twin",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "28 Aug 2026",
+          "hotelId": 60,
+          "hotel": "Manis Ae Cabin & Resto Bromo",
+          "rooms": [
+            {
+              "roomId": 245,
+              "roomName": "Standart With Balcony Twin - Weekday",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "29 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 178,
+              "roomName": "Emerald Twin",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 4,
+          "checkIn": "30 Aug 2026",
+          "hotelId": 56,
+          "hotel": "Harris Hotel Satelit",
+          "rooms": [
+            {
+              "roomId": 190,
+              "roomName": "Twin Room",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 20004000,
+        "paid": 0,
+        "balance": 20004000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3569,
+      "bookingCode": "KLOOK-3569",
+      "orderChannel": "KLOOK",
+      "packageId": 84,
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-28",
+        "end_ymd": "2026-08-31",
+        "start": "28 Aug 26",
+        "end": "31 Aug 26",
+        "days": "Fri - Mon"
+      },
+      "ijenDate": "29 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 62,
+          "name": "Yusuf",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 5
+        }
+      ],
+      "guides": [
+        {
+          "id": 3,
+          "role": "Ijen",
+          "name": "Anjas",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 3
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "28 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "29 Aug 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "30 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 7500000,
+        "paid": 0,
+        "balance": 7500000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_dropoff",
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3644,
+      "bookingCode": "JVTO-3644",
+      "orderChannel": "JVTO",
+      "packageId": 34,
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-28",
+        "end_ymd": "2026-08-31",
+        "start": "28 Aug 26",
+        "end": "31 Aug 26",
+        "days": "Fri - Mon"
+      },
+      "ijenDate": "31 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Toyota Calya"
+      ],
+      "drivers": [
+        {
+          "id": 73,
+          "name": "Joyo",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5
+        }
+      ],
+      "guides": [
+        {
+          "id": 46,
+          "role": "Escort",
+          "name": "Fauzi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 2,
+          "monthlyIjenCount": 8
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "28 Aug 2026",
+          "hotelId": 38,
+          "hotel": "Artha Cottage",
+          "rooms": [
+            {
+              "roomId": 76,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "29 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "30 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 88,
+              "roomName": "Platinum Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 9500000,
+        "paid": 9500000,
+        "balance": 0,
+        "balanceStatus": "settled"
+      },
+      "exceptions": [
+        "missing_dropoff",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3492,
+      "bookingCode": "JVTO-3492",
+      "orderChannel": "JVTO",
+      "packageId": 28,
+      "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-29",
+        "end_ymd": "2026-08-31",
+        "start": "29 Aug 26",
+        "end": "31 Aug 26",
+        "days": "Sat - Mon"
+      },
+      "ijenDate": "31 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Daihatsu Sigra"
+      ],
+      "drivers": [
+        {
+          "id": 28,
+          "name": "Holili",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6
+        }
+      ],
+      "guides": [
+        {
+          "id": 4,
+          "role": "Escort",
+          "name": "Taufik",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 3
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "29 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "30 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 7640000,
+        "paid": 1528000,
+        "balance": 6112000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_dropoff",
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3693,
+      "bookingCode": "TWT-3693",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "packageName": "4D 3N Package",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-29",
+        "end_ymd": "2026-09-01",
+        "start": "29 Aug 26",
+        "end": "01 Sep 26",
+        "days": "Sat - Tue"
+      },
+      "ijenDate": "31 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Avanza Boy"
+      ],
+      "drivers": [
+        {
+          "id": 75,
+          "name": "Didin",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4
+        }
+      ],
+      "guides": [
+        {
+          "id": 13,
+          "role": "Escort",
+          "name": "Rendi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6,
+          "monthlyIjenCount": 2
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "29 Aug 2026",
+          "hotelId": 60,
+          "hotel": "Manis Ae Cabin & Resto Bromo",
+          "rooms": [
+            {
+              "roomId": 180,
+              "roomName": "Single Cabin Twin - Weekday",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "30 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 88,
+              "roomName": "Platinum Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "31 Aug 2026",
+          "hotelId": 56,
+          "hotel": "Harris Hotel Satelit",
+          "rooms": [
+            {
+              "roomId": 190,
+              "roomName": "Twin Room",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 8839000,
+        "paid": 0,
+        "balance": 8839000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3708,
+      "bookingCode": "JVTO-3708",
+      "orderChannel": "JVTO",
+      "packageId": 34,
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-29",
+        "end_ymd": "2026-09-01",
+        "start": "29 Aug 26",
+        "end": "01 Sep 26",
+        "days": "Sat - Tue"
+      },
+      "ijenDate": "01 Sep 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 7,
+          "name": "Fredi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 8
+        }
+      ],
+      "guides": [
+        {
+          "id": 2,
+          "role": "Ijen",
+          "name": "Juan",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 10
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "29 Aug 2026",
+          "hotelId": 60,
+          "hotel": "Manis Ae Cabin & Resto Bromo",
+          "rooms": [
+            {
+              "roomId": 181,
+              "roomName": "Single Cabin Double - Weekday",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "30 Aug 2026",
+          "hotelId": 38,
+          "hotel": "Artha Cottage",
+          "rooms": [
+            {
+              "roomId": 76,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "31 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 94,
+              "roomName": "Emerald Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 9900000,
+        "paid": 1900000,
+        "balance": 8000000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3721,
+      "bookingCode": "KLOOK-3721",
+      "orderChannel": "KLOOK",
+      "packageId": 82,
+      "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+      "totalPax": 2,
+      "tripDate": {
+        "start_ymd": "2026-08-30",
+        "end_ymd": "2026-09-01",
+        "start": "30 Aug 26",
+        "end": "01 Sep 26",
+        "days": "Sun - Tue"
+      },
+      "ijenDate": "31 Aug 26",
+      "pickupComplete": true,
+      "dropoffComplete": false,
+      "vehicles": [
+        "Avanza Yus"
+      ],
+      "drivers": [
+        {
+          "id": 1,
+          "name": "Yandi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6
+        }
+      ],
+      "guides": [
+        {
+          "id": 39,
+          "role": "Ijen",
+          "name": "Gufron",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 2
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "30 Aug 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "31 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 6200000,
+        "paid": 0,
+        "balance": 6200000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "missing_dropoff",
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3452,
+      "bookingCode": "TWT-3452",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "packageName": "5D 4N Package",
+      "totalPax": 5,
+      "tripDate": {
+        "start_ymd": "2026-08-30",
+        "end_ymd": "2026-09-03",
+        "start": "30 Aug 26",
+        "end": "03 Sep 26",
+        "days": "Sun - Thu"
+      },
+      "ijenDate": "02 Sep 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Premio"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 3,
+          "role": "Escort",
+          "name": "Anjas",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 3
+        },
+        {
+          "id": 13,
+          "role": "Ijen",
+          "name": "Rendi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 6,
+          "monthlyIjenCount": 2
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "30 Aug 2026",
+          "hotelId": 66,
+          "hotel": "HARRIS Hotel & Conventions Malang",
+          "rooms": [
+            {
+              "roomId": 232,
+              "roomName": "Harris Room - Double",
+              "quantity": 2
+            },
+            {
+              "roomId": 231,
+              "roomName": "Harris Room - Twin",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "31 Aug 2026",
+          "hotelId": 60,
+          "hotel": "Manis Ae Cabin & Resto Bromo",
+          "rooms": [
+            {
+              "roomId": 246,
+              "roomName": "Standart With Balcony Double - Weekday",
+              "quantity": 1
+            },
+            {
+              "roomId": 245,
+              "roomName": "Standart With Balcony Twin - Weekday",
+              "quantity": 1
+            },
+            {
+              "roomId": 221,
+              "roomName": "Extra Bed",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "01 Sep 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 94,
+              "roomName": "Emerald Double",
+              "quantity": 1
+            },
+            {
+              "roomId": 178,
+              "roomName": "Emerald Twin",
+              "quantity": 1
+            },
+            {
+              "roomId": 95,
+              "roomName": "Extra Bed",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 4,
+          "checkIn": "02 Sep 2026",
+          "hotelId": 56,
+          "hotel": "Harris Hotel Satelit",
+          "rooms": [
+            {
+              "roomId": 154,
+              "roomName": "Double Room",
+              "quantity": 2
+            },
+            {
+              "roomId": 190,
+              "roomName": "Twin Room",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 23805000,
+        "paid": 0,
+        "balance": 23805000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    },
+    {
+      "bookingId": 3553,
+      "bookingCode": "TWT-3553",
+      "orderChannel": "TWT",
+      "packageId": null,
+      "packageName": "5D 4N Package",
+      "totalPax": 6,
+      "tripDate": {
+        "start_ymd": "2026-08-31",
+        "end_ymd": "2026-09-04",
+        "start": "31 Aug 26",
+        "end": "04 Sep 26",
+        "days": "Mon - Fri"
+      },
+      "ijenDate": "03 Sep 26",
+      "pickupComplete": true,
+      "dropoffComplete": true,
+      "vehicles": [
+        "Premio"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 31
+        }
+      ],
+      "guides": [
+        {
+          "id": 17,
+          "role": "Escort",
+          "name": "Kiki",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 4
+        },
+        {
+          "id": 46,
+          "role": "Ijen",
+          "name": "Fauzi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 2,
+          "monthlyIjenCount": 8
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "31 Aug 2026",
+          "hotelId": 66,
+          "hotel": "HARRIS Hotel & Conventions Malang",
+          "rooms": [
+            {
+              "roomId": 232,
+              "roomName": "Harris Room - Double",
+              "quantity": 1
+            },
+            {
+              "roomId": 231,
+              "roomName": "Harris Room - Twin",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "01 Sep 2026",
+          "hotelId": 60,
+          "hotel": "Manis Ae Cabin & Resto Bromo",
+          "rooms": [
+            {
+              "roomId": 181,
+              "roomName": "Single Cabin Double - Weekday",
+              "quantity": 1
+            },
+            {
+              "roomId": 180,
+              "roomName": "Single Cabin Twin - Weekday",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "02 Sep 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 94,
+              "roomName": "Emerald Double",
+              "quantity": 1
+            },
+            {
+              "roomId": 178,
+              "roomName": "Emerald Twin",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 4,
+          "checkIn": "03 Sep 2026",
+          "hotelId": 56,
+          "hotel": "Harris Hotel Satelit",
+          "rooms": [
+            {
+              "roomId": 154,
+              "roomName": "Double Room",
+              "quantity": 1
+            },
+            {
+              "roomId": 190,
+              "roomName": "Twin Room",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Lunch"
+          ]
+        }
+      ],
+      "payment": {
+        "invoiceTotal": 26291000,
+        "paid": 0,
+        "balance": 26291000,
+        "balanceStatus": "balance_due"
+      },
+      "exceptions": [
+        "balance_due",
+        "ijen_health_required"
+      ]
+    }
+  ]
+}

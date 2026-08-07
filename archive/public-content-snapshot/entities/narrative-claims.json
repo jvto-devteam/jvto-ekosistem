@@ -1,0 +1,15 @@
+{
+  "_comment": "Hub JSON-LD ItemList source (C1-C9). pillar + primary_page exported 2026-08-04 from the jvto_dev narrative_claims table (Adminer read-only query). The full claim bodies (core_claim, mechanism, evidence_hooks) stay DB-owned for the tour pages and the FAQ resolver tier-1; this entity carries only what the hub ItemList renders (AD-02/AD-10).",
+  "claims": [
+    { "id": "C1", "pillar": "Safety-led operations", "primary_page": "/why-jvto/community-standards" },
+    { "id": "C2", "pillar": "Private tours (execution control)", "primary_page": "/why-jvto/community-standards" },
+    { "id": "C3", "pillar": "All-inclusive clarity (reduce surprises)", "primary_page": "/policy/booking-payment-cancellation" },
+    { "id": "C4", "pillar": "Ijen Health Screening — BBKSDA SE.1658/KSA.9/2024 protocol", "primary_page": "/travel-guide/ijen-health-screening" },
+    { "id": "C5", "pillar": "Proof-first trust (verification layer)", "primary_page": "/verify-jvto" },
+    { "id": "C6", "pillar": "Reviews registry (independent validation)", "primary_page": "/why-jvto/reviews" },
+    { "id": "C7", "pillar": "Our Team (personality economy + operational credibility)", "primary_page": "/why-jvto/our-team" },
+    { "id": "C8", "pillar": "Partners (HPWKI / INDECON / ISIC) as context", "primary_page": "/verify-jvto" },
+    { "id": "C9", "pillar": "Press & Recognition (third-party context)", "primary_page": "/verify-jvto/press-recognition" }
+  ],
+  "lastReviewed": "2026-08-04"
+}

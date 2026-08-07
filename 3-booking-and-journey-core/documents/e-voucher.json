@@ -1,0 +1,19 @@
+{
+  "id": "e-voucher",
+  "documentType": "Official E-Voucher / Invoice PDF",
+  "issuedWhen": "After deposit payment.",
+  "role": "Primary booking reference and contractual precedence record.",
+  "fieldsMentioned": [
+    "tour dates",
+    "package inclusions",
+    "pickup time",
+    "pickup location",
+    "contact details for WhatsApp and email",
+    "payment status",
+    "full trip details",
+    "pre-trip guide"
+  ],
+  "precedenceRule": "In disputes, the E-Voucher takes precedence over verbal confirmations or informal messages.",
+  "dataStatus": "extracted",
+  "reviewStatus": "ready"
+}

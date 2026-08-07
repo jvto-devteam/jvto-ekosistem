@@ -1,0 +1,197 @@
+{
+  "schema_version": "jvto-experience-output/customer-portal-v1",
+  "generated_at": "2026-08-07T00:53:25.738Z",
+  "route_pattern": "https://javavolcano-touroperator.com/my-booking/{{booking_url}}",
+  "data_source_pattern": "{{legacy_domain}}/bookings/details/{{booking_url}}?json=true",
+  "privacy_note": "This file documents portal fields and actions only. It does not store real customer records.",
+  "source_files": [
+    "/Users/macbook/Code/jvto-web/src/app/(website)/my-booking/[slug]/types.ts",
+    "/Users/macbook/Code/jvto-web/src/app/(website)/my-booking/[slug]/page.tsx",
+    "/Users/macbook/Code/jvto-web/src/app/(website)/my-booking/[slug]/BookingPaymentAction.tsx",
+    "/Users/macbook/Code/jvto-web/src/app/(website)/my-booking/[slug]/BookingInformation.tsx",
+    "/Users/macbook/Code/jvto-web/src/app/(website)/my-booking/[slug]/ItineraryAccordion.tsx",
+    "/Users/macbook/Code/jvto-web/src/app/(website)/my-booking/[slug]/CrewTransportCards.tsx",
+    "/Users/macbook/Code/jvto-web/src/app/(website)/my-booking/[slug]/bank-transfer/page.tsx"
+  ],
+  "booking_data_fields": {
+    "identity": [
+      "id",
+      "booking_code",
+      "url",
+      "status",
+      "customer_name",
+      "customer_id",
+      "channel"
+    ],
+    "product": [
+      "package_name",
+      "package_link",
+      "duration",
+      "travel_date_start",
+      "travel_date_end",
+      "total_pax"
+    ],
+    "logistics": [
+      "pickup",
+      "pickup_time",
+      "drop",
+      "drop_time",
+      "special_requirements"
+    ],
+    "tshirt_sizes": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl",
+      "xxl"
+    ],
+    "crew": [
+      "guides.id",
+      "guides.name",
+      "guides.photo",
+      "guides.role",
+      "drivers.id",
+      "drivers.name",
+      "drivers.photo",
+      "drivers.role"
+    ],
+    "vehicles": [
+      "name",
+      "capacity",
+      "banner",
+      "interior"
+    ],
+    "itinerary": [
+      "day",
+      "title",
+      "itinerary",
+      "activity_html"
+    ],
+    "accommodations": [
+      "day",
+      "name",
+      "banner",
+      "rooms"
+    ],
+    "addons": [
+      "id",
+      "name",
+      "qty",
+      "price",
+      "subtotal"
+    ],
+    "finance": [
+      "grand_total",
+      "total_addons",
+      "dp_amount",
+      "balance",
+      "paid_amount",
+      "due_date",
+      "initial_payment_method",
+      "balance_payment_method",
+      "payment_link",
+      "pending_upload_proof",
+      "uploaded_payment_proof",
+      "payment_history"
+    ],
+    "static_content": [
+      "faq",
+      "packing_recommendations",
+      "essential_checklist"
+    ],
+    "media": [
+      "media_link"
+    ]
+  },
+  "status_logic": [
+    {
+      "condition": "finance.balance <= 0",
+      "label": "Confirmed & Paid"
+    },
+    {
+      "condition": "status == booked and finance.balance > 0",
+      "label": "Confirmed (Balance Due)"
+    },
+    {
+      "condition": "pending_upload_proof == true",
+      "label": "Payment Under Review"
+    },
+    {
+      "condition": "otherwise unpaid non-canceled JVTO booking",
+      "label": "Awaiting Payment"
+    }
+  ],
+  "sections": [
+    "sticky booking ref and payment status",
+    "payment action card",
+    "trip details summary",
+    "purchased add-ons",
+    "daily itinerary with accommodation",
+    "crew and transport cards",
+    "edit booking/logistics/t-shirt data",
+    "information and FAQ",
+    "packing list",
+    "trip media and review links",
+    "operator contact",
+    "document downloads",
+    "grand total",
+    "payment history",
+    "chat with us button"
+  ],
+  "payment_actions": [
+    {
+      "state": "balance unpaid and payment_link exists",
+      "action_label": "Pay Balance",
+      "behavior": "redirect customer to existing payment link"
+    },
+    {
+      "state": "balance unpaid and no balance payment method selected",
+      "action_label": "Select Payment Method",
+      "options": [
+        {
+          "type": "cc",
+          "label": "Credit / Debit Card",
+          "note": "Instant via Xendit; fee applies"
+        },
+        {
+          "type": "wise",
+          "label": "Wise / Bank Transfer",
+          "note": "Manual transfer instructions"
+        },
+        {
+          "type": "cash",
+          "label": "Cash on Arrival",
+          "note": "Pay directly to JVTO team"
+        }
+      ],
+      "api": "POST /api/booking/pay-balance",
+      "request_fields": [
+        "url",
+        "type"
+      ]
+    },
+    {
+      "state": "bank transfer proof upload",
+      "route": "/my-booking/{{booking_url}}/bank-transfer",
+      "fields": [
+        "sender_name",
+        "proof_file"
+      ],
+      "accepted_file_types": [
+        "PNG",
+        "JPG",
+        "PDF"
+      ],
+      "success_behavior": "show success message and redirect to portal"
+    }
+  ],
+  "external_links": [
+    "https://chat.javavolcano-touroperator.com/chat/{{booking_url}}",
+    "https://www.trustpilot.com/review/javavolcano-touroperator.com",
+    "https://g.page/r/Cb3i9Eu0K5MREB0/review",
+    "{{legacy_domain}}/bookings/invoice/{{booking_url}}",
+    "{{legacy_domain}}/bookings/receipt/{{booking_url}}",
+    "{{legacy_domain}}/bookings/invoice-addon/{{booking_url}}"
+  ]
+}

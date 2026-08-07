@@ -1,0 +1,162 @@
+{
+  "id": "55",
+  "packageId": "package-BALI-5D4N-001",
+  "slug": "tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n",
+  "name": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Discovery from Bali to Surabaya",
+  "shortLabel": "5D4N Ijen,Papuma,TumpakSewu,Bromo (BALI)",
+  "status": "active",
+  "version": "1.0.0",
+  "category": {
+    "id": "reluger",
+    "name": "Reguler Package"
+  },
+  "originCity": "Bali",
+  "endCity": "Surabaya",
+  "duration": {
+    "days": 5,
+    "nights": 4,
+    "label": "5D4N",
+    "durationId": "4"
+  },
+  "route": [
+    "Ijen Crater",
+    "Mount Bromo",
+    "Papuma Beach"
+  ],
+  "keyExperiences": [
+    {
+      "name": "Ijen Crater",
+      "highlight": "Acidic crater lake"
+    },
+    {
+      "name": "Mount Bromo",
+      "highlight": "Sunrise over Tengger Caldera and sacred Hindu ceremonies"
+    },
+    {
+      "name": "Papuma Beach",
+      "highlight": "White sand beach with turquoise waters and unique rock formations. Cape headland Tanjung Papuma ~86m. The only coastal stop on a JVTO East Java circuit — between Ijen night hike and Tumpak Sewu canyon descent."
+    }
+  ],
+  "physicalDifficulty": "moderate",
+  "description": "This longer Bali-origin overland route is for travelers who want East Java to unfold as a broad regional journey rather than as a compressed volcano trip. It keeps Ijen, Papuma, Tumpak Sewu, and Bromo inside one forward sequence before the Surabaya finish.",
+  "inclusions": [
+    "Private Transport: Air-conditioned private vehicles (MPV for 1-3 guests, Minibus for 4-11 guests) with a dedicated driver. This includes fuel, tolls, and parking fees.",
+    "Tour Guides: Experienced English-speaking guides. For 1-3 guests, a driver-guide. For 4+ guests, a separate local guide will be provided at each main destination (Bromo, Ijen, Madakaripura).",
+    "Mineral Water: Daily supply.",
+    "JVTO Travel T-Shirt: One complimentary JVTO branded T-shirt per person on every confirmed booking. Available in sizes XXS–XXL. Groups of 10+ pax receive a custom-designed group T-shirt.",
+    "Full Assistance: From your arrival to your final drop-off.",
+    "Quality Hotel Accommodation: including daily breakfast.",
+    "All Entrance Fees & Permits: to attractions",
+    "Meals: As mention in the itinerary",
+    "Private 4WD Jeep: For the Mount Bromo sunrise tour.",
+    "Health Screening: Ijen authorities require a doctor's health certificate. This will be conducted the evening before your trek. You only need your passport.",
+    "Gas Mask: Professional volcanic-grade gas mask provided for Ijen Crater routes. Mandatory during descent to crater floor due to H₂S/SO₂ gas.",
+    "Ferry Tickets: From Ketapang Harbour to Gilimanuk Harbour, Bali."
+  ],
+  "exclusions": [
+    "International/Domestic Air Tickets: To and from your tour's starting and ending points.",
+    "Indonesian VISA: (If applicable).",
+    "Travel Insurance: Optional but highly recommended for peace of mind, covering trip interruptions, medical emergencies, and lost luggage.",
+    "Meals Not Stated in Itinerary: Specific lunches and additional dinners are at your own expense.",
+    "Personal Expenses: Such as snacks, souvenirs, beverages, laundry, etc. It is recommended to carry at least IDR 500,000 per person for these.",
+    "Tips: For drivers and guides (at your discretion)."
+  ],
+  "travelerRequirements": [
+    "Moderate to good fitness level for challenging treks",
+    "Printed passport for Ijen permit",
+    "Warm clothing (5–15°C)",
+    "Sturdy hiking shoes & water shoes",
+    "Small daypack for essentials",
+    "Rain jacket/poncho for waterfalls"
+  ],
+  "accommodationPlan": [
+    {
+      "night": 1,
+      "name": "Luminor Hotel",
+      "area": "Ijen Crater",
+      "image": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/luminor-bwi.jpeg"
+    },
+    {
+      "night": 2,
+      "name": "Doho Homestay",
+      "area": "Papuma Beach",
+      "image": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/1722678237_getlstd-property-photo.jpg"
+    },
+    {
+      "night": 3,
+      "name": "Joglo Kecombrang Bromo",
+      "area": "Mount Bromo",
+      "image": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/kecombrang.jpg"
+    },
+    {
+      "night": 4,
+      "name": "Holiday Inn Express Surabaya Centerpoint, an IHG Hotel",
+      "area": "Surabaya",
+      "image": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/holiday-inn.jfif"
+    }
+  ],
+  "gear": {
+    "provided": [
+      "Gas masks (Ijen)",
+      "Headlamps",
+      "Trekking poles"
+    ],
+    "recommended": [
+      "Warm layers (5–15°C)",
+      "Sturdy hiking shoes & water shoes",
+      "Waterproof bag",
+      "Rain jacket",
+      "Beachwear",
+      "Sunscreen",
+      "Personal medications"
+    ]
+  },
+  "marketing": {
+    "perfectFor": [
+      "Adventure seekers",
+      "Nature lovers",
+      "Photography enthusiasts",
+      "Active travelers"
+    ],
+    "highlightsBullets": [
+      "Extended private Bali-origin overland route across Ijen, Papuma, Tumpak Sewu, and Bromo",
+      "Designed for travelers who want East Java breadth, contrast, and a cleaner progression into Surabaya",
+      "Best for guests who want more than a short volcano pairing and can benefit from the added room in the route",
+      "Private handling keeps ferry, screening, long overland segments, and multi-terrain logistics coordinated"
+    ],
+    "safetyPositioning": "sanitized gas masks, health screening for Ijen, route decisions driven by safety",
+    "uniqueSellingPoints": [
+      "Cross-island adventure",
+      "Private 4WD experience",
+      "Health safety protocols",
+      "Complimentary travel T-shirt"
+    ]
+  },
+  "aggregateRating": {
+    "ratingValue": 0,
+    "reviewCount": 0
+  },
+  "provider": {
+    "brand": "Java Volcano Tour Operator (JVTO)",
+    "legalEntity": "PT Java Volcano Rendezvous",
+    "nib": "1102230032918",
+    "tdup": "1102230032918",
+    "official": {
+      "website": "https://javavolcano-touroperator.com",
+      "whatsapp": "+62 822-4478-8833",
+      "email": "hello@javavolcano-touroperator.com"
+    },
+    "policyRef": {
+      "booking": "/policy/booking.json",
+      "inclusions": "/policy/inclusions_exclusions.json"
+    },
+    "policyVersion": "2025-11-09"
+  },
+  "compliance": {
+    "destinationsWhitelist": true,
+    "itineraryTablesGenerated": true,
+    "healthScreeningIncluded": true,
+    "touristPoliceSupport": true
+  },
+  "operationalComplexityNote": "This is a broad multi-day route with cross-island start, Ijen screening, waterfall terrain, and several long transfer segments that still require disciplined pacing."
+}

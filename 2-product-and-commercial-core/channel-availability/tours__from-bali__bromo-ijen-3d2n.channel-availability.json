@@ -1,0 +1,35 @@
+{
+  "id": "package-BALI-3D2N-001-channel-availability",
+  "packageId": "package-BALI-3D2N-001",
+  "slug": "tours/from-bali/bromo-ijen-3d2n",
+  "channelMetadata": {
+    "internalPackageId": "package-BALI-3D2N-001",
+    "orderChannelEnabled": {
+      "JVTO": true,
+      "KLOOK": false,
+      "TRAVELOKA": false,
+      "TIKETCOM": false,
+      "OTHERS": false
+    },
+    "externalPackageIds": {
+      "klook": "",
+      "traveloka": "",
+      "tiketcom": ""
+    },
+    "isFreesale": true,
+    "requiresAvailabilityCheck": false,
+    "supportedPickupCities": [
+      "Bali"
+    ],
+    "supportedDropoffCities": [
+      "Bali"
+    ],
+    "languageOffered": [
+      "en"
+    ],
+    "status": "active",
+    "minLeadTimeHours": 24,
+    "maxPaxRecommended": 100,
+    "minPaxOperational": 1
+  }
+}

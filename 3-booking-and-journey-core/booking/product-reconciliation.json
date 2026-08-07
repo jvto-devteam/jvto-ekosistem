@@ -1,0 +1,53 @@
+{
+  "bookingPackageIdsMissingFromProductCore": [
+    {
+      "packageId": 82,
+      "bookingCount": 9,
+      "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya"
+    },
+    {
+      "packageId": 83,
+      "bookingCount": 2,
+      "packageName": "4D3N Mount Bromo, Ijen Crater & Surabaya Night Market from Surabaya"
+    },
+    {
+      "packageId": 84,
+      "bookingCount": 13,
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya"
+    },
+    {
+      "packageId": 94,
+      "bookingCount": 2,
+      "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya"
+    }
+  ],
+  "genericOrCustomPackageRecords": [
+    {
+      "packageId": null,
+      "bookingCount": 5,
+      "packageName": "5D 4N Package"
+    },
+    {
+      "packageId": null,
+      "bookingCount": 2,
+      "packageName": "3D 2N Package"
+    },
+    {
+      "packageId": null,
+      "bookingCount": 1,
+      "packageName": "1D 0N Package"
+    },
+    {
+      "packageId": null,
+      "bookingCount": 1,
+      "packageName": "6D 5N Package"
+    },
+    {
+      "packageId": null,
+      "bookingCount": 1,
+      "packageName": "4D 3N Package"
+    }
+  ],
+  "decisionNeeded": "Decide whether these are retired, channel-only, custom, or missing product contracts."
+}
+

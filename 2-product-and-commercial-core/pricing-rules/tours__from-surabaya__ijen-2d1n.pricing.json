@@ -1,0 +1,50 @@
+{
+  "id": "package-SUB-2D1N-001-pricing",
+  "packageId": "package-SUB-2D1N-001",
+  "slug": "tours/from-surabaya/ijen-2d1n",
+  "currency": "IDR",
+  "aggregateOffer": {
+    "lowPrice": 1550000,
+    "highPrice": 2300000
+  },
+  "tiers": [
+    {
+      "sku": "package-SUB-2D1N-001-1",
+      "paxMin": 11,
+      "paxMax": 0,
+      "pricePerPerson": 1550000
+    },
+    {
+      "sku": "package-SUB-2D1N-001-2",
+      "paxMin": 8,
+      "paxMax": 10,
+      "pricePerPerson": 1650000
+    },
+    {
+      "sku": "package-SUB-2D1N-001-3",
+      "paxMin": 6,
+      "paxMax": 7,
+      "pricePerPerson": 1850000
+    },
+    {
+      "sku": "package-SUB-2D1N-001-4",
+      "paxMin": 4,
+      "paxMax": 5,
+      "pricePerPerson": 2050000
+    },
+    {
+      "sku": "package-SUB-2D1N-001-5",
+      "paxMin": 3,
+      "paxMax": 3,
+      "pricePerPerson": 2200000
+    },
+    {
+      "sku": "package-SUB-2D1N-001-6",
+      "paxMin": 2,
+      "paxMax": 2,
+      "pricePerPerson": 2300000
+    }
+  ],
+  "startFrom": 1550000,
+  "highPrice": 2300000
+}

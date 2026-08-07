@@ -1,0 +1,56 @@
+{
+  "id": "package-SUB-5D4N-001-pricing",
+  "packageId": "package-SUB-5D4N-001",
+  "slug": "tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n",
+  "currency": "IDR",
+  "aggregateOffer": {
+    "lowPrice": 3650000,
+    "highPrice": 9050000
+  },
+  "tiers": [
+    {
+      "sku": "package-SUB-5D4N-001-1",
+      "paxMin": 11,
+      "paxMax": 0,
+      "pricePerPerson": 3650000
+    },
+    {
+      "sku": "package-SUB-5D4N-001-2",
+      "paxMin": 8,
+      "paxMax": 10,
+      "pricePerPerson": 3850000
+    },
+    {
+      "sku": "package-SUB-5D4N-001-3",
+      "paxMin": 6,
+      "paxMax": 7,
+      "pricePerPerson": 4250000
+    },
+    {
+      "sku": "package-SUB-5D4N-001-4",
+      "paxMin": 4,
+      "paxMax": 5,
+      "pricePerPerson": 4550000
+    },
+    {
+      "sku": "package-SUB-5D4N-001-5",
+      "paxMin": 3,
+      "paxMax": 3,
+      "pricePerPerson": 4850000
+    },
+    {
+      "sku": "package-SUB-5D4N-001-6",
+      "paxMin": 2,
+      "paxMax": 2,
+      "pricePerPerson": 5050000
+    },
+    {
+      "sku": "package-SUB-5D4N-001-7",
+      "paxMin": 1,
+      "paxMax": 1,
+      "pricePerPerson": 9050000
+    }
+  ],
+  "startFrom": 3650000,
+  "highPrice": 9050000
+}

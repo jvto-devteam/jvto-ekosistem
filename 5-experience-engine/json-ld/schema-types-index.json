@@ -1,0 +1,414 @@
+{
+  "dataStatus": "extracted",
+  "pageCount": 44,
+  "schemaByType": {
+    "CollectionPage": [
+      "/destinations",
+      "/policy",
+      "/travel-guide"
+    ],
+    "TouristAttraction": [
+      "/destinations/ijen-crater",
+      "/destinations/madakaripura-waterfall",
+      "/destinations/mount-bromo",
+      "/destinations/papuma-beach",
+      "/destinations/tumpak-sewu-waterfall"
+    ],
+    "WebPage": [
+      "/policy/booking-payment-cancellation",
+      "/policy/inclusions-exclusions",
+      "/policy/privacy",
+      "/travel-guide/best-time-to-visit",
+      "/travel-guide/blue-fire-and-sunrise",
+      "/travel-guide/booking-information",
+      "/travel-guide/booking-safety",
+      "/travel-guide/bromo-sunrise",
+      "/travel-guide/cancellation-travel-credit",
+      "/travel-guide/faq",
+      "/travel-guide/finish-in-bali",
+      "/travel-guide/how-booking-works",
+      "/travel-guide/ijen-health-screening",
+      "/travel-guide/malang-batu",
+      "/travel-guide/packing-and-fitness",
+      "/travel-guide/payment-and-deposit",
+      "/travel-guide/police-escort-for-groups",
+      "/travel-guide/private-tour",
+      "/travel-guide/rijik-monthly-closure",
+      "/travel-guide/rooming-and-accommodation",
+      "/travel-guide/safety-on-tours",
+      "/travel-guide/vehicle-and-luggage",
+      "/travel-guide/weather-and-closures",
+      "/travel-guide/what-is-included",
+      "/travel-guide/why-stay-near-ijen",
+      "/verify-jvto",
+      "/verify-jvto/history-artifacts",
+      "/verify-jvto/legal",
+      "/verify-jvto/police-safety",
+      "/verify-jvto/press-recognition",
+      "/why-jvto",
+      "/why-jvto/community-standards",
+      "/why-jvto/our-story",
+      "/why-jvto/our-team",
+      "/why-jvto/reviews",
+      "/why-jvto/the-jvto-difference"
+    ],
+    "FAQPage": [
+      "/travel-guide/faq"
+    ]
+  },
+  "pages": [
+    {
+      "route": "/destinations",
+      "title": "East Java Destinations",
+      "schemaTypes": [
+        "CollectionPage"
+      ],
+      "faqKey": "destinations"
+    },
+    {
+      "route": "/destinations/ijen-crater",
+      "title": "Mount Ijen Blue Fire Tour Guide — Permits, Health, Hike | JVTO",
+      "schemaTypes": [
+        "TouristAttraction"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/destinations/madakaripura-waterfall",
+      "title": "Madakaripura Waterfall — Tour, Canyon Hike, Tips | JVTO",
+      "schemaTypes": [
+        "TouristAttraction"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/destinations/mount-bromo",
+      "title": "Mount Bromo Sunrise Guide — Tours, Tickets & Tips | JVTO",
+      "schemaTypes": [
+        "TouristAttraction"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/destinations/papuma-beach",
+      "title": "Papuma Beach Jember — Coastal Tour, Rock Formations | JVTO",
+      "schemaTypes": [
+        "TouristAttraction"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/destinations/tumpak-sewu-waterfall",
+      "title": "Tumpak Sewu Waterfall — Tour, Trail & Tips | JVTO",
+      "schemaTypes": [
+        "TouristAttraction"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/policy",
+      "title": "JVTO Policy Hub",
+      "schemaTypes": [
+        "CollectionPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/policy/booking-payment-cancellation",
+      "title": "JVTO Booking, Payment & Cancellation Policy",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/policy/inclusions-exclusions",
+      "title": "JVTO Inclusions & Exclusions Policy",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/policy/privacy",
+      "title": "JVTO Privacy & Data Protection Policy",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/travel-guide",
+      "title": "Travel Guide – Safety, Health & Practical Information",
+      "schemaTypes": [
+        "CollectionPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/travel-guide/best-time-to-visit",
+      "title": "Best Time to Visit East Java: Bromo, Ijen & Tumpak Sewu",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "travel-guide-best-time-to-visit"
+    },
+    {
+      "route": "/travel-guide/blue-fire-and-sunrise",
+      "title": "Blue Fire & Sunrise: Why They Cannot Be Guaranteed",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/travel-guide/booking-information",
+      "title": "Booking Information – How JVTO Private Tours Work",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "travel-guide-booking-information"
+    },
+    {
+      "route": "/travel-guide/booking-safety",
+      "title": "Booking Safety & Anti-Fraud",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/travel-guide/bromo-sunrise",
+      "title": "Bromo Sunrise: How It Works",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/travel-guide/cancellation-travel-credit",
+      "title": "Cancellation & Lifetime Package Credit",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/travel-guide/faq",
+      "title": "Frequently Asked Questions",
+      "schemaTypes": [
+        "WebPage",
+        "FAQPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/travel-guide/finish-in-bali",
+      "title": "Finishing in Bali",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/travel-guide/how-booking-works",
+      "title": "How Booking Works",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/travel-guide/ijen-health-screening",
+      "title": "Ijen Health Screening – Real Checks, Digital Proof",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "travel-guide-ijen-health-screening"
+    },
+    {
+      "route": "/travel-guide/malang-batu",
+      "title": "Malang & Batu City Stop",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/travel-guide/packing-and-fitness",
+      "title": "Packing & Fitness for Bromo, Ijen & Tumpak Sewu",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "travel-guide-packing-and-fitness"
+    },
+    {
+      "route": "/travel-guide/payment-and-deposit",
+      "title": "Payment & Deposit",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/travel-guide/police-escort-for-groups",
+      "title": "Traffic Police Escort for Tourist Groups in East Java",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/travel-guide/private-tour",
+      "title": "What a Private Tour Means at JVTO",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/travel-guide/rijik-monthly-closure",
+      "title": "Ijen Rijik: The Monthly Closure Day at Kawah Ijen",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "travel-guide-rijik-monthly-closure"
+    },
+    {
+      "route": "/travel-guide/rooming-and-accommodation",
+      "title": "Rooming & Accommodation",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/travel-guide/safety-on-tours",
+      "title": "Safety on JVTO Tours",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "travel-guide-safety-on-tours"
+    },
+    {
+      "route": "/travel-guide/vehicle-and-luggage",
+      "title": "Vehicle & Luggage",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/travel-guide/weather-and-closures",
+      "title": "Weather, Volcano Alerts & Closures",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "travel-guide-weather-and-closures"
+    },
+    {
+      "route": "/travel-guide/what-is-included",
+      "title": "What's Included in a JVTO Tour",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/travel-guide/why-stay-near-ijen",
+      "title": "Why We Stay Near Ijen Before the Hike",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/verify-jvto",
+      "title": "Verify JVTO: A Proof Library You Can Check",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "verify-jvto"
+    },
+    {
+      "route": "/verify-jvto/history-artifacts",
+      "title": "History Artifacts: Documented Origins Since 2015",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "verify-jvto-history-artifacts"
+    },
+    {
+      "route": "/verify-jvto/legal",
+      "title": "JVTO Legal Licenses & Verifiable Credentials",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "verify-jvto-legal"
+    },
+    {
+      "route": "/verify-jvto/police-safety",
+      "title": "JVTO Police Integration & Safety Authority",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "verify-jvto-police-safety"
+    },
+    {
+      "route": "/verify-jvto/press-recognition",
+      "title": "JVTO Press & Media Recognition",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "verify-jvto-press-recognition"
+    },
+    {
+      "route": "/why-jvto",
+      "title": "Why Travel with Java Volcano Tour Operator (JVTO)",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "why-jvto-hub"
+    },
+    {
+      "route": "/why-jvto/community-standards",
+      "title": "Community Standards: Partners, Ethics & Operational Rules",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "why-jvto-community-standards"
+    },
+    {
+      "route": "/why-jvto/our-story",
+      "title": "Our Story: Roots & Continuity Since 2015",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "why-jvto-our-story"
+    },
+    {
+      "route": "/why-jvto/our-team",
+      "title": "Local Team, Daily Execution",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "why-jvto-our-team"
+    },
+    {
+      "route": "/why-jvto/reviews",
+      "title": "Guest Voices: Real Experiences, Independently Verified",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "why-jvto-reviews"
+    },
+    {
+      "route": "/why-jvto/the-jvto-difference",
+      "title": "The JVTO Difference: Safety Leadership and Verified Proof",
+      "schemaTypes": [
+        "WebPage"
+      ],
+      "faqKey": "why-jvto-the-jvto-difference"
+    }
+  ]
+}

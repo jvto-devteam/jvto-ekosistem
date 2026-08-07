@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jvto.local/schemas/operations.schema.json",
+  "title": "Trip Operations",
+  "type": "object",
+  "required": ["bookingId", "readinessStatus"],
+  "properties": {
+    "bookingId": { "type": "string" },
+    "readinessStatus": {
+      "enum": ["not_ready", "attention_needed", "ready", "in_progress", "completed"]
+    },
+    "missingItems": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "crewAssignments": {
+      "type": "array",
+      "items": { "type": "object" }
+    },
+    "vehicleAssignments": {
+      "type": "array",
+      "items": { "type": "object" }
+    },
+    "healthCertificateStatus": { "type": "string" },
+    "planBStatus": { "type": "string" },
+    "eventIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": true
+}
+

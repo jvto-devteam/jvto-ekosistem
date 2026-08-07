@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "route": "/travel-guide/police-escort-for-groups",
+    "title": "Traffic Police Escort for Tourist Groups in East Java",
+    "browserTitle": "Traffic Police Escort for Tourist Groups in East Java | JVTO",
+    "description": "For large groups — typically around 18 guests or more — JVTO can coordinate an official traffic police escort on certain road segments, when approved by the relevant Traffic Police (Ditlantas) unit. A formal request process, not a marketing add-on — approval is never guaranteed.",
+    "section": "travel-guide",
+    "status": "published",
+    "owner": "operations",
+    "lastReviewed": "2026-08-06",
+    "schemaTypes": ["WebPage"],
+    "summary": "How JVTO coordinates an official traffic police escort for large tourist groups in East Java — a formal request process through the Traffic Police (Ditlantas), qualifying group size, and what approval does and does not mean."
+  },
+  "sections": [
+    {
+      "id": "what-is",
+      "title": "What a Traffic Police Escort Is",
+      "body_md": "A traffic police escort in East Java is a formal arrangement between JVTO and the relevant Traffic Police unit (**Ditlantas**). When approved, uniformed traffic police travel in official police vehicles, under written orders (SPRIN documentation), to help manage road flow on specific segments — particularly high-traffic junctions and toll-road exits — for large vehicle convoys.\n\nJVTO does not provide escort vehicles itself. The escort, when it occurs, is provided by the Indonesian National Police under a formal request process — it is not a security detail in the personal-protection sense, and it does not bypass speed limits, road rules, or grant preferential access to national parks or restricted sites.\n\nThe escort operates under official police authority, not JVTO instruction. Its role ends at the handoff point — for Ijen or Bromo itineraries, BBKSDA jurisdiction begins at the crater gate, where the JVTO guide takes over for the hiking section."
+    },
+    {
+      "id": "how-it-works",
+      "title": "How It Works",
+      "body_md": "1. JVTO submits a formal request to the competent Traffic Police unit — including group size, vehicle count, route, and date.\n2. The request is reviewed against current regulations, unit availability, and route specifications.\n3. If approved, the escort is issued with written orders (SPRIN documentation). JVTO has existing police-cooperation framework documents on file.\n4. On the day, uniformed traffic police in official vehicles accompany the convoy on designated road segments — for example, from a toll exit to Bondowoso.\n\nJVTO's founder, Mr. Sam (Agung Sambuko), is an active officer of the Indonesian National Police, assigned to Ditpamobvit (Directorate of Vital Object Security), East Java. This credential — verifiable on the [Police Safety verification page](/verify-jvto/police-safety) — gives JVTO an established institutional relationship with police coordination frameworks most private operators do not have. It is not a shortcut around regulations, but an established protocol within them.\n\nNo unofficial on-road payments are associated with a JVTO-coordinated escort. If anyone requests payment on the road during an escort, report it to JVTO immediately."
+    },
+    {
+      "id": "who-qualifies",
+      "title": "Who Qualifies",
+      "body_md": "The escort is a coordination service for large vehicle convoys that meet the qualifying group size — **typically around 18 guests or more**. It is not a default inclusion for smaller groups, and not part of any standard JVTO package unless it is written on your E-Voucher.\n\nWhether a specific route and date are approved depends on regulations, Traffic Police unit availability, and route definitions at the time of request. **Approval is not guaranteed.** If your group meets the qualifying size, raise the escort request when you contact JVTO for your initial quotation — include group size, vehicle count, proposed route, and travel dates. If approved, escort costs are listed explicitly in your programme and invoice — no post-booking additions."
+    },
+    {
+      "id": "key-facts",
+      "title": "Key Facts",
+      "blocks": [
+        {
+          "type": "grid",
+          "role": "key-facts",
+          "items": [
+            { "text": "Available on request for large groups — not automatically included in standard packages." },
+            { "text": "Coordinated through official channels with the Traffic Police (Ditlantas) unit; JVTO's founder holds an active police commission (Ditpamobvit)." },
+            { "text": "Escort covers designated road segments — typically from a toll exit or the departure point to the hotel or crater gate." },
+            { "text": "Qualifying size is typically around 18 guests or more; approval is not guaranteed and depends on unit availability and route." },
+            { "text": "Escort costs, if approved, are listed explicitly on the programme and invoice — no unofficial on-road payments." }
+          ]
+        }
+      ]
+    }
+  ]
+}

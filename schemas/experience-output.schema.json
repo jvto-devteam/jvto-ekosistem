@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jvto.local/schemas/experience-output.schema.json",
+  "title": "Experience Output",
+  "type": "object",
+  "required": ["id", "channel", "dataRefs"],
+  "properties": {
+    "id": { "type": "string" },
+    "channel": {
+      "enum": [
+        "website",
+        "seo",
+        "json_ld",
+        "knowledge_feed",
+        "whatsapp",
+        "email",
+        "quotation",
+        "invoice",
+        "guest_portal",
+        "ops_console",
+        "partner_feed",
+        "ai_answer"
+      ]
+    },
+    "dataRefs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "templateRef": { "type": "string" },
+    "outputPath": { "type": "string" }
+  },
+  "additionalProperties": true
+}

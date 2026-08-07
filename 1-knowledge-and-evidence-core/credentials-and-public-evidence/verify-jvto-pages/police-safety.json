@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "route": "/verify-jvto/police-safety",
+    "title": "JVTO Police Integration & Safety Authority",
+    "browserTitle": "Police & Safety — Tourist Police Authority | JVTO",
+    "description": "JVTO's Tourist Police authority: SPRIN POLPAR documents, health screening coordination, and safety protocols for Bromo and Ijen volcano tours.",
+    "section": "verify-jvto",
+    "status": "published",
+    "owner": "legal",
+    "lastReviewed": "2026-08-06",
+    "schemaTypes": [
+      "WebPage"
+    ],
+    "faqKey": "verify-jvto-police-safety",
+    "summary": "The founder's active Tourist Police commission — assignment orders, rank, and independent press confirmation — and what police-standard discipline means for your tour."
+  },
+  "lede": [
+    "JVTO's safety model is built around its founder's active Tourist Police (Ditpamobvit) commission. This page publishes the government-issued assignment orders and the independent press coverage that confirms the role."
+  ],
+  "sections": [
+    {
+      "id": "official-police-assignment-documents-0",
+      "title": "Official Police Assignment Documents",
+      "blocks": [
+        {
+          "type": "markdown",
+          "body_md": "Two documents, both issued by the Indonesian National Police (POLRI) and both carrying SHA-256 hashes for forensic verification:\n\n- **SPRIN-POLPAR — Tourist Police Assignment Letter.** Surat Perintah, Ditpamobvit. Issuer: Indonesian National Police (POLRI). SHA-256 `03c8578dc22956faa366d957badecfe38868d4760359cd8059fb2d6b145dfeab`.\n- **SPRIN-WAL-TRAVEL — Active Travel Order.** February 2024, Surat Perintah Perjalanan. Issuer: Indonesian National Police (POLRI). SHA-256 `179b061eae558943fdccc51d2ea3c8233a704b61f03ca3d212433f3e8d6f3bd3`.\n\nScanned copies are in the evidence locker above.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "founder-active-tourist-police-officer-1",
+      "title": "Founder — Active Tourist Police Officer",
+      "blocks": [
+        {
+          "type": "markdown",
+          "body_md": "**Bripka Agung Sambuko (Mr. Sam)**\n\n- **Rank:** Bripka (Brigadir Polisi Kepala)\n- **Unit:** Ditpamobvit — Directorate of Vital Object Security\n- **Jurisdiction:** Kepolisian Daerah Jawa Timur (East Java)\n- **Status:** Active duty (SPRIN-WAL-TRAVEL Feb 2024)\n- **Role:** Tourist Police operational safety oversight at Ijen Crater and East Java volcanic sites\n\nThe SPRIN POLPAR (Tourist Police Assignment Letter) and SPRIN WAL-TRAVEL (Active Travel Order) together establish that Agung Sambuko holds an active, government-issued police commission. Both documents are issued by the Indonesian National Police (POLRI) and carry SHA-256 hashes for forensic verification.\n\nJVTO (PT Java Volcano Rendezvous) is a private tour operator. References to the founder's role as an active Tourist Police officer describe his personal professional background only; they do not represent or imply endorsement by the Indonesian National Police or any government body.\n\n→ [Founder background & JVTO history](/why-jvto/our-story)\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "what-this-means-for-your-tour-2",
+      "title": "What This Means for Your Tour",
+      "blocks": [
+        {
+          "type": "markdown",
+          "body_md": "- **Police-standard discipline.** Ditpamobvit officers are trained in risk assessment, crisis response, and operational safety protocols — disciplines that transfer directly to managing tours in high-risk volcanic environments.\n- **Authority, not just experience.** The Tourist Police commission is a government-issued operational authority. This is not a certification purchased from a private body — it is an assignment letter from the state.\n- **Police escort available.** For large groups, a traffic police escort can be arranged via official channels. This is available on request — approval is not guaranteed and it is not automatically included in all tours.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "independent-press-confirmation-3",
+      "title": "Independent Press Confirmation",
+      "blocks": [
+        {
+          "type": "markdown",
+          "body_md": "These press articles independently identify the founder in his Tourist Police capacity — editorial, third-party confirmation that is separate from any JVTO marketing material.\n\n**Detik.com · 14 March 2021**\n\n> \"Suka Duka Polisi Pariwisata Bondowoso: Tegakkan Prokes Sambil Lawan Dingin\"\n\nNational-reach article identifying the founder by rank (Bripka Agung Sambuko) in his Tourist Police operational context at Ijen crater. Written and published independently of JVTO. [Read on Detik.com](https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin)\n\n**Radar Jember (Jawa Pos) · 24 March 2021**\n\n> \"Polpar Dibentuk untuk Mendukung Ijen Geopark\"\n\nRegional press coverage of the Tourist Police (Polpar) unit formation, explicitly framing its role within the Ijen UNESCO Geopark initiative — context for the police role JVTO's founder holds. [Read on Radar Jember](https://radarjember.jawapos.com/bondowoso/791102263/polpar-dibentuk-untuk-mendukung-ijen-geopark)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "statuses": [
+    "inquiry",
+    "qualified",
+    "quoted",
+    "deposit_pending",
+    "deposit_paid",
+    "details_incomplete",
+    "operationally_ready",
+    "in_progress",
+    "completed",
+    "review_requested"
+  ],
+  "eventsThatMayAdvanceStatus": [
+    "quote.sent",
+    "deposit.requested",
+    "deposit.paid",
+    "traveler_details.completed",
+    "pickup.confirmed",
+    "health.screening.completed",
+    "ops.trip_ready",
+    "trip.started",
+    "trip.completed",
+    "review.requested"
+  ]
+}

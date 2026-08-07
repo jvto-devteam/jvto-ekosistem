@@ -1,0 +1,56 @@
+{
+  "id": "SUB-3D2N-005-pricing",
+  "packageId": "SUB-3D2N-005",
+  "slug": "tours/from-surabaya/tumpak-sewu-bromo-3d2n",
+  "currency": "IDR",
+  "aggregateOffer": {
+    "lowPrice": 2450000,
+    "highPrice": 6300000
+  },
+  "tiers": [
+    {
+      "sku": "SUB-3D2N-005-1",
+      "paxMin": 11,
+      "paxMax": 0,
+      "pricePerPerson": 2450000
+    },
+    {
+      "sku": "SUB-3D2N-005-2",
+      "paxMin": 8,
+      "paxMax": 10,
+      "pricePerPerson": 2550000
+    },
+    {
+      "sku": "SUB-3D2N-005-3",
+      "paxMin": 6,
+      "paxMax": 7,
+      "pricePerPerson": 2850000
+    },
+    {
+      "sku": "SUB-3D2N-005-4",
+      "paxMin": 4,
+      "paxMax": 5,
+      "pricePerPerson": 3050000
+    },
+    {
+      "sku": "SUB-3D2N-005-5",
+      "paxMin": 3,
+      "paxMax": 3,
+      "pricePerPerson": 3275000
+    },
+    {
+      "sku": "SUB-3D2N-005-6",
+      "paxMin": 2,
+      "paxMax": 2,
+      "pricePerPerson": 3570000
+    },
+    {
+      "sku": "SUB-3D2N-005-7",
+      "paxMin": 1,
+      "paxMax": 1,
+      "pricePerPerson": 6300000
+    }
+  ],
+  "startFrom": 2450000,
+  "highPrice": 6300000
+}

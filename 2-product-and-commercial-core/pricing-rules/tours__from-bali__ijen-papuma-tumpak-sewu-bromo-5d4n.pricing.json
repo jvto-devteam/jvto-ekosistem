@@ -1,0 +1,56 @@
+{
+  "id": "package-BALI-5D4N-001-pricing",
+  "packageId": "package-BALI-5D4N-001",
+  "slug": "tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n",
+  "currency": "IDR",
+  "aggregateOffer": {
+    "lowPrice": 4050000,
+    "highPrice": 10000000
+  },
+  "tiers": [
+    {
+      "sku": "package-BALI-5D4N-001-1",
+      "paxMin": 11,
+      "paxMax": 0,
+      "pricePerPerson": 4050000
+    },
+    {
+      "sku": "package-BALI-5D4N-001-2",
+      "paxMin": 8,
+      "paxMax": 10,
+      "pricePerPerson": 4250000
+    },
+    {
+      "sku": "package-BALI-5D4N-001-3",
+      "paxMin": 6,
+      "paxMax": 7,
+      "pricePerPerson": 4650000
+    },
+    {
+      "sku": "package-BALI-5D4N-001-4",
+      "paxMin": 4,
+      "paxMax": 5,
+      "pricePerPerson": 4950000
+    },
+    {
+      "sku": "package-BALI-5D4N-001-5",
+      "paxMin": 3,
+      "paxMax": 3,
+      "pricePerPerson": 5250000
+    },
+    {
+      "sku": "package-BALI-5D4N-001-6",
+      "paxMin": 2,
+      "paxMax": 2,
+      "pricePerPerson": 5450000
+    },
+    {
+      "sku": "package-BALI-5D4N-001-7",
+      "paxMin": 1,
+      "paxMax": 1,
+      "pricePerPerson": 10000000
+    }
+  ],
+  "startFrom": 4050000,
+  "highPrice": 10000000
+}

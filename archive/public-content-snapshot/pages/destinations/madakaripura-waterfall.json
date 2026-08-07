@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "route": "/destinations/madakaripura-waterfall",
+    "title": "Madakaripura Waterfall — Tour, Canyon Hike, Tips | JVTO",
+    "description": "Private Madakaripura waterfall tour from Surabaya — canyon hike, river crossing, all-inclusive crew. No shared groups. Tourist Police-led. 4.8★ Trustpilot.",
+    "section": "destinations",
+    "status": "published",
+    "owner": "editorial",
+    "lastReviewed": "2026-08-06",
+    "schemaTypes": [
+      "TouristAttraction"
+    ],
+    "summary": "Madakaripura — Java's tallest waterfall, reached through a narrow canyon gorge in Probolinggo, and held in tradition to be Gajah Mada's final retreat."
+  },
+  "lede": [
+    "A narrow canyon walls you in for ~1.5 km before the gorge opens into a horseshoe of falling water — the tallest waterfall in Java. Bring a raincoat; the spray reaches everywhere."
+  ],
+  "sections": [
+    {
+      "id": "chrome",
+      "eyebrow": "Probolinggo · Tallest in Java",
+      "location_label": "Probolinggo",
+      "blocks": [
+        {
+          "type": "grid",
+          "role": "quick-facts",
+          "items": [
+            { "icon": "star", "k": "Distinction", "v": "Tallest waterfall in Java" },
+            { "icon": "waves", "k": "Main curtain", "v": "~100 m", "sub": "Estimate (SSOT §9_4)" },
+            { "icon": "trendingup", "k": "Total height", "v": "~200 m", "sub": "Incl. upper tiers (estimate)" },
+            { "icon": "mappin", "k": "Location", "v": "Probolinggo Regency", "sub": "East Java, Indonesia" },
+            { "icon": "footprints", "k": "Approach", "v": "~1.5 km · ~20 min", "sub": "Canyon walk from parking; horse option available" },
+            { "icon": "cloudrain", "k": "Type", "v": "Horseshoe curtain", "sub": "In a narrow canyon" }
+          ]
+        },
+        {
+          "type": "grid",
+          "role": "elevation-stat",
+          "items": [
+            { "label": "Height", "value": "~100 m" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "attraction",
+      "attraction_name": "Madakaripura Waterfall",
+      "alternate_names": ["Air Terjun Madakaripura"],
+      "body_md": "Java's tallest waterfall, set in a narrow canyon gorge in Probolinggo. A 45-minute river-crossing trek through the gorge leads to the main fall. Guests get wet — a rain poncho is recommended."
+    },
+    {
+      "id": "signature",
+      "blocks": [
+        {
+          "type": "markdown",
+          "body_md": "## The approach — a gorge that builds the anticipation\n\nThe walk in is part of the experience. For about 1.5 km the canyon walls close in around you, the path narrows and turns wet and slippery, and the sound of water grows — until the gorge opens into the horseshoe and the full curtain reveals itself.\n\nA horse is available for guests who prefer not to walk the canyon stretch.\n\n> **You will get wet — bring a raincoat.** Spray reaches everywhere inside the canyon. A raincoat is strongly recommended; JVTO guides brief guests before entry.\n\n> **Helmets — provided on site.** Helmets at the canyon entrance are provided by the local waterfall site-management team, not by JVTO equipment."
+        },
+        {
+          "type": "markdown",
+          "body_md": "## Historical context — Gajah Mada's final days\n\nThe site is held in local tradition to be where Gajah Mada — the 14th-century prime minister of the Majapahit empire, the figure behind its greatest territorial expansion — spent his final days.\n\nThat association gives Madakaripura a spiritual significance in East Javanese culture that goes beyond its scale. For many visitors, the walled-in canyon and the curtain of water at its end carry a quiet, contemplative weight."
+        }
+      ]
+    },
+    {
+      "id": "handoff",
+      "travel_guide": { "href": "/travel-guide/packing-and-fitness", "label": "Packing & Fitness" },
+      "blocks": [
+        {
+          "type": "grid",
+          "role": "related",
+          "items": [
+            { "slug": "tumpak-sewu-waterfall", "name": "Tumpak Sewu Waterfall" },
+            { "slug": "mount-bromo", "name": "Mount Bromo" }
+          ]
+        }
+      ]
+    }
+  ]
+}

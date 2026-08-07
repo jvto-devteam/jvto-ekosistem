@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jvto.local/schemas/evidence.schema.json",
+  "title": "Evidence Record",
+  "type": "object",
+  "required": ["id", "title", "evidenceType", "owner", "status", "lastReviewed"],
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "evidenceType": {
+      "enum": ["credential", "registry", "press", "policy", "photo", "document", "review", "internal-record"]
+    },
+    "issuer": { "type": "string" },
+    "url": { "type": "string" },
+    "documentUrl": { "type": "string" },
+    "sha256": { "type": "string" },
+    "owner": { "type": "string" },
+    "status": { "enum": ["draft", "verified", "published", "retired"] },
+    "lastReviewed": { "type": "string", "format": "date" }
+  },
+  "additionalProperties": true
+}
+

@@ -1,0 +1,35 @@
+{
+  "id": "SUB-3D2N-005-channel-availability",
+  "packageId": "SUB-3D2N-005",
+  "slug": "tours/from-surabaya/tumpak-sewu-bromo-3d2n",
+  "channelMetadata": {
+    "internalPackageId": "SUB-3D2N-005",
+    "orderChannelEnabled": {
+      "JVTO": true,
+      "KLOOK": false,
+      "TRAVELOKA": false,
+      "TIKETCOM": false,
+      "OTHERS": false
+    },
+    "externalPackageIds": {
+      "klook": "",
+      "traveloka": "",
+      "tiketcom": ""
+    },
+    "isFreesale": true,
+    "requiresAvailabilityCheck": false,
+    "supportedPickupCities": [
+      "Surabaya"
+    ],
+    "supportedDropoffCities": [
+      "Surabaya"
+    ],
+    "languageOffered": [
+      "en"
+    ],
+    "status": "active",
+    "minLeadTimeHours": 24,
+    "maxPaxRecommended": 100,
+    "minPaxOperational": 1
+  }
+}

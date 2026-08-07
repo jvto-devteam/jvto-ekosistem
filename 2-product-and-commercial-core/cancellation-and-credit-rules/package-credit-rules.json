@@ -1,0 +1,48 @@
+{
+  "id": "package-credit-rules",
+  "rules": [
+    {
+      "id": "full-cancellation-48h-plus",
+      "type": "full_cancellation",
+      "condition": "Complete booking cancelled 48 hours or more before Day 1.",
+      "outcome": "100% Lifetime Package Credit",
+      "cashRefund": false,
+      "creditExpiry": "never",
+      "transferability": "transferable once"
+    },
+    {
+      "id": "full-cancellation-under-48h",
+      "type": "full_cancellation",
+      "condition": "Complete booking cancelled less than 48 hours before Day 1 or no-show.",
+      "outcome": "Booking forfeited; no Package Credit issued."
+    },
+    {
+      "id": "partial-cancellation",
+      "type": "partial_cancellation",
+      "condition": "One or more travellers cancel but at least 2 paying travellers remain.",
+      "refundSchedule": [
+        {
+          "condition": "48 hours or more before Day 1",
+          "cashRefundPercent": 100
+        },
+        {
+          "condition": "less than 48 hours before Day 1",
+          "cashRefundPercent": 50
+        },
+        {
+          "condition": "after Day 1 / tour started",
+          "cashRefundPercent": 0
+        }
+      ]
+    },
+    {
+      "id": "flight-disruption-recovery-fee",
+      "type": "flight_disruption",
+      "condition": "Verified natural transport disruption or airline cancellation/reschedule with no workable alternative.",
+      "recoveryFeePercent": 50,
+      "outcome": "Package can be reactivated once; remainder converts to Lifetime Package Credit."
+    }
+  ],
+  "dataStatus": "extracted",
+  "reviewStatus": "ready"
+}

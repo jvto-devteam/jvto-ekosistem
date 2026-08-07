@@ -1,0 +1,125 @@
+{
+  "id": "47",
+  "packageId": "package-SUB-2D1N-001",
+  "slug": "tours/from-surabaya/ijen-2d1n",
+  "name": "2 Day Kawah Ijen Expedition from Surabaya",
+  "shortLabel": "2D1N Kawah Ijen (SUB)",
+  "status": "active",
+  "version": "1.0.0",
+  "category": {
+    "id": "reluger",
+    "name": "Reguler Package"
+  },
+  "originCity": "Surabaya",
+  "endCity": "Surabaya",
+  "duration": {
+    "days": 2,
+    "nights": 1,
+    "label": "2D1N",
+    "durationId": "1"
+  },
+  "route": [
+    "Ijen Crater"
+  ],
+  "keyExperiences": [
+    {
+      "name": "Ijen Crater",
+      "highlight": "Acidic crater lake"
+    }
+  ],
+  "physicalDifficulty": "moderate",
+  "description": "Private 2-day Kawah Ijen tour from Surabaya. Midnight trek, crater lake, sulfur miners. All-inclusive. Tourist Police-led operator.",
+  "inclusions": [
+    "Private Transport: Air-conditioned private vehicles (MPV for 1-3 guests, Minibus for 4-11 guests) with a dedicated driver. This includes fuel, tolls, and parking fees.",
+    "Tour Guides: Experienced English-speaking guides. For 1-3 guests, a driver-guide. For 4+ guests, a separate local guide will be provided at each main destination (Bromo, Ijen, Madakaripura).",
+    "Mineral Water: Daily supply.",
+    "JVTO Travel T-Shirt: One complimentary JVTO branded T-shirt per person on every confirmed booking. Available in sizes XXS–XXL. Groups of 10+ pax receive a custom-designed group T-shirt.",
+    "Full Assistance: From your arrival to your final drop-off.",
+    "Quality Hotel Accommodation: including daily breakfast.",
+    "All Entrance Fees & Permits: to attractions",
+    "Meals: As mention in the itinerary",
+    "Health Screening: Ijen authorities require a doctor's health certificate. This will be conducted the evening before your trek. You only need your passport.",
+    "Gas Mask: Professional volcanic-grade gas mask provided for Ijen Crater routes. Mandatory during descent to crater floor due to H₂S/SO₂ gas."
+  ],
+  "exclusions": [
+    "International/Domestic Air Tickets: To and from your tour's starting and ending points.",
+    "Indonesian VISA: (If applicable).",
+    "Travel Insurance: Optional but highly recommended for peace of mind, covering trip interruptions, medical emergencies, and lost luggage.",
+    "Meals Not Stated in Itinerary: Specific lunches and additional dinners are at your own expense.",
+    "Personal Expenses: Such as snacks, souvenirs, beverages, laundry, etc. It is recommended to carry at least IDR 500,000 per person for these.",
+    "Tips: For drivers and guides (at your discretion)."
+  ],
+  "travelerRequirements": [],
+  "accommodationPlan": [
+    {
+      "night": 1,
+      "name": "Riverside Homestay",
+      "area": "Ijen Crater",
+      "image": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/riverside.png"
+    }
+  ],
+  "gear": {
+    "provided": [
+      "Gas masks (Ijen)",
+      "Headlamps",
+      "Trekking poles"
+    ],
+    "recommended": [
+      "Warm layers (5–15°C)",
+      "Sturdy hiking shoes & water shoes",
+      "Waterproof bag",
+      "Rain jacket",
+      "Beachwear",
+      "Sunscreen",
+      "Personal medications"
+    ]
+  },
+  "marketing": {
+    "perfectFor": [
+      "Adventure seekers",
+      "Nature lovers",
+      "Photography enthusiasts",
+      "Geology enthusiasts",
+      "Active travelers"
+    ],
+    "highlightsBullets": [
+      "Witness the stunning Kawah Ijen crater lake before sunrise",
+      "See the stunning turquoise sulfuric crater lake at dawn",
+      "Observe local sulfur miners at work in extreme conditions",
+      "Visit Malabar Coffee Plantation for authentic Arabica coffee"
+    ],
+    "safetyPositioning": "Standard JVTO Police-Led Safety",
+    "uniqueSellingPoints": [
+      "Witness the stunning Kawah Ijen crater lake before sunrise",
+      "See the stunning turquoise sulfuric crater lake at dawn",
+      "Observe local sulfur miners at work in extreme conditions"
+    ]
+  },
+  "aggregateRating": {
+    "ratingValue": 0,
+    "reviewCount": 0
+  },
+  "provider": {
+    "brand": "Java Volcano Tour Operator (JVTO)",
+    "legalEntity": "PT Java Volcano Rendezvous",
+    "nib": "1102230032918",
+    "tdup": "1102230032918",
+    "official": {
+      "website": "https://javavolcano-touroperator.com",
+      "whatsapp": "+62 822-4478-8833",
+      "email": "hello@javavolcano-touroperator.com"
+    },
+    "policyRef": {
+      "booking": "/policy/booking.json",
+      "inclusions": "/policy/inclusions_exclusions.json"
+    },
+    "policyVersion": "2025-11-09"
+  },
+  "compliance": {
+    "destinationsWhitelist": true,
+    "itineraryTablesGenerated": true,
+    "healthScreeningIncluded": true,
+    "touristPoliceSupport": true
+  },
+  "operationalComplexityNote": "Long Surabaya-to-Bondowoso transfer, mandatory screening, and night-ascent timing make Ijen the defining constraint of this route."
+}

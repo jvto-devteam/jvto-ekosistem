@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "route": "/destinations/papuma-beach",
+    "title": "Papuma Beach Jember — Coastal Tour, Rock Formations | JVTO",
+    "description": "Papuma Beach Jember — dramatic rock formations and white sand coastline. Add-on to Bromo or Ijen private tours from Surabaya or Bali.",
+    "section": "destinations",
+    "status": "published",
+    "owner": "editorial",
+    "lastReviewed": "2026-08-06",
+    "schemaTypes": [
+      "TouristAttraction"
+    ],
+    "summary": "Papuma Beach — white sand, offshore rock formations, and a cape headland in Jember; the only coastal stop on a JVTO East Java circuit."
+  },
+  "lede": [
+    "The only coastal stop on a JVTO East Java circuit. After Ijen's night hike, Papuma resets the pace — white sand, offshore rock formations, and a short headland walk with views along the coast."
+  ],
+  "sections": [
+    {
+      "id": "chrome",
+      "eyebrow": "Jember · Coastal headland",
+      "location_label": "Jember",
+      "blocks": [
+        {
+          "type": "grid",
+          "role": "quick-facts",
+          "items": [
+            { "icon": "mappin", "k": "Location", "v": "Jember Regency", "sub": "East Java, Indonesia" },
+            { "icon": "waves", "k": "Type", "v": "White-sand beach", "sub": "Rocky cape headland — Tanjung Papuma" },
+            { "icon": "mountain", "k": "Cape headland", "v": "~86 m" },
+            { "icon": "compass", "k": "Role in itinerary", "v": "Coastal contrast", "sub": "Between Ijen & Tumpak Sewu legs · 4D+ packages" }
+          ]
+        },
+        {
+          "type": "grid",
+          "role": "elevation-stat",
+          "items": [
+            { "label": "Cape height", "value": "~86 m" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "attraction",
+      "attraction_name": "Papuma Beach",
+      "alternate_names": ["Tanjung Papuma"],
+      "body_md": "White-sand beach with dramatic coastal rock formations and a headland viewpoint in Jember, East Java. Relatively uncrowded, and included in extended Bali-origin itineraries."
+    },
+    {
+      "id": "signature",
+      "blocks": [
+        {
+          "type": "markdown",
+          "body_md": "## What to expect — the beach and the cape\n\n**The Beach** — white sand, calm dry-season water. *Dry-season calm · offshore rocks.* A broad white-sand beach with generally calm conditions during the dry season. Dramatic offshore rock formations rise from the water, visible directly from the shoreline.\n\n**The Cape** — a short climb to ~86 m. *Short headland walk · coastal views.* A short walk rises to the Tanjung Papuma headland at roughly 86 m above sea level — elevated coastal views with the rock formations laid out below.\n\n> **Why it's on the circuit.** Papuma is the only coastal stop on a JVTO East Java circuit — positioned between the Ijen night hike and the Tumpak Sewu canyon descent to shift pace, scenery, and physicality."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "2D1N-channel-availability",
+  "packageId": "2D1N",
+  "slug": "tours/from-surabaya/bromo-2d1n",
+  "channelMetadata": {
+    "internalPackageId": "2D1N",
+    "orderChannelEnabled": {
+      "JVTO": true,
+      "KLOOK": false,
+      "TRAVELOKA": false,
+      "TIKETCOM": false,
+      "OTHERS": false
+    },
+    "externalPackageIds": {
+      "klook": "",
+      "traveloka": "",
+      "tiketcom": ""
+    },
+    "isFreesale": true,
+    "requiresAvailabilityCheck": false,
+    "supportedPickupCities": [
+      "Surabaya"
+    ],
+    "supportedDropoffCities": [
+      "Surabaya"
+    ],
+    "languageOffered": [
+      "en"
+    ],
+    "status": "active",
+    "minLeadTimeHours": 24,
+    "maxPaxRecommended": 100,
+    "minPaxOperational": 1
+  }
+}

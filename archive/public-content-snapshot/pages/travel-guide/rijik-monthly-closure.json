@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "route": "/travel-guide/rijik-monthly-closure",
+    "title": "Ijen Rijik: The Monthly Closure Day at Kawah Ijen",
+    "browserTitle": "Ijen Rijik: The Monthly Closure Day at Kawah Ijen | JVTO",
+    "description": "TWA Ijen closes to all visitors on the first Friday of every month, since March 2019, for \"Rijik\" — a volunteer cleanup that removes an estimated 100–150 kg of trash from the crater. JVTO schedules every Ijen-inclusive itinerary around it.",
+    "section": "travel-guide",
+    "status": "published",
+    "owner": "operations",
+    "lastReviewed": "2026-08-06",
+    "schemaTypes": ["WebPage"],
+    "faqKey": "travel-guide-rijik-monthly-closure",
+    "summary": "Why Kawah Ijen closes on the first Friday of every month (the Rijik conservation cleanup, since March 2019) and how JVTO schedules Ijen itineraries around it."
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "body_md": "Kawah Ijen closes to **all** visitors — not just JVTO guests — on the first Friday of every month. It has run this way since **March 2019**, for a volunteer conservation program called **\"Rijik\"** (Javanese for \"tidy\" / \"clean\"), during which park staff and volunteers descend into the crater area to remove an estimated **100–150 kg of trash** accumulated from tourism and mining traffic.\n\nIt is a small, easily-missed fact — most independent travelers and even some tour operators don't track it — but arriving on a Rijik day means being turned away at the gate after a 01:00 AM wake-up call and a night trek to the crater rim. JVTO checks this calendar before confirming any Ijen-inclusive itinerary, so it never becomes a guest's problem."
+    },
+    {
+      "id": "what-is-rijik",
+      "title": "What Is the Rijik Cleanup Program?",
+      "body_md": "Rijik is a scheduled ecosystem-cleaning day at TWA Ijen (the Ijen Nature Tourism Park). On the first Friday of every month, the park closes to tourism and mining traffic so park staff and community volunteers can clear trash from the crater rim, the descent trail, and the shoreline of the sulfur lake — waste that accumulates from the steady flow of tourists and traditional sulfur miners between cleanups.\n\nEach session typically collects an estimated **100–150 kg of trash**. The program has run on this fixed monthly cadence since **March 2019**, making it a predictable, recurring closure rather than an emergency or unplanned event."
+    },
+    {
+      "id": "why-it-matters",
+      "title": "Why It Matters for Travelers",
+      "body_md": "Ijen night hikes are logistically unforgiving: guests are typically picked up from Bondowoso-area hotels around midnight to reach the crater rim in time for the blue-fire window before dawn. If a self-planned or unlicensed itinerary lands on a Rijik closure day, the outcome is a wasted pre-dawn wake-up and a turned-away group at the gate — with no advance warning, because the closure is a park operations detail, not something advertised on ticket-booking pages.\n\nNo competitor operator publishes this fact in a dedicated guide. It is exactly the kind of operational detail that separates a licensed operator who tracks park administration from an itinerary assembled purely from generic travel-blog research."
+    },
+    {
+      "id": "how-jvto-handles",
+      "title": "How JVTO Handles It",
+      "body_md": "- **Checked before confirmation.** JVTO checks the TWA Ijen closure calendar before confirming any Ijen-inclusive itinerary against a guest's requested travel dates.\n- **Rerouted, not cancelled.** If a preferred travel window falls on the first Friday of the month, JVTO reorders the itinerary — for example, visiting Bromo or Madakaripura first — so the Rijik closure day never disrupts a confirmed booking. This follows the same alternative-route approach used for PVMBG-driven closures; see [Weather & Closures](/travel-guide/weather-and-closures).\n- **Not the same as a safety closure.** Rijik is a fixed conservation closure, unrelated to PVMBG (volcanology) alert-status closures, which are unscheduled and driven by real-time gas and seismic monitoring.\n- **Covered by the same cancellation terms.** In the rare case a closure makes a program genuinely unworkable, the standard JVTO Lifetime Package Credit terms apply — see [Booking, Payment & Cancellation Policy](/policy/booking-payment-cancellation)."
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "91",
+  "packageId": "package-SUB-3D2N-006",
+  "slug": "tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n",
+  "name": "3 Day Taman Safari Prigen, Bromo & Madakaripura Family Tour from Surabaya",
+  "shortLabel": "3D2N Safari, Bromo & Madakaripura (SUB)",
+  "status": "active",
+  "version": "1.0.0",
+  "category": {
+    "id": "reluger",
+    "name": "Reguler Package"
+  },
+  "originCity": "Surabaya",
+  "endCity": "Surabaya",
+  "duration": {
+    "days": 3,
+    "nights": 2,
+    "label": "3D2N",
+    "durationId": "2"
+  },
+  "route": [
+    "Taman Safari Prigen",
+    "Mount Bromo",
+    "Madakaripura Waterfall"
+  ],
+  "keyExperiences": [
+    {
+      "name": "Taman Safari Prigen",
+      "highlight": ""
+    },
+    {
+      "name": "Mount Bromo",
+      "highlight": "Sunrise over Tengger Caldera and sacred Hindu ceremonies"
+    },
+    {
+      "name": "Madakaripura Waterfall",
+      "highlight": "Sacred 200-meter canyon waterfall and Gajah Mada's meditation site"
+    }
+  ],
+  "physicalDifficulty": "easy",
+  "description": "Private 3-day family tour from Surabaya: Taman Safari Prigen, Mount Bromo sunrise, Madakaripura Waterfall. All-inclusive. Best for families with children.",
+  "inclusions": [
+    "Private Transport: Air-conditioned private vehicles (MPV for 1-3 guests, Minibus for 4-11 guests) with a dedicated driver. This includes fuel, tolls, and parking fees.",
+    "Tour Guides: Experienced English-speaking guides. For 1-3 guests, a driver-guide. For 4+ guests, a separate local guide will be provided at each main destination (Bromo, Ijen, Madakaripura).",
+    "Mineral Water: Daily supply.",
+    "JVTO Travel T-Shirt: One complimentary JVTO branded T-shirt per person on every confirmed booking. Available in sizes XXS–XXL. Groups of 10+ pax receive a custom-designed group T-shirt.",
+    "Full Assistance: From your arrival to your final drop-off.",
+    "Quality Hotel Accommodation: including daily breakfast.",
+    "All Entrance Fees & Permits: to attractions",
+    "Meals: As mention in the itinerary",
+    "Private 4WD Jeep: For the Mount Bromo sunrise tour.",
+    "Gas Mask: Professional volcanic-grade gas mask provided for Ijen Crater routes. Mandatory during descent to crater floor due to H₂S/SO₂ gas."
+  ],
+  "exclusions": [
+    "International/Domestic Air Tickets: To and from your tour's starting and ending points.",
+    "Indonesian VISA: (If applicable).",
+    "Travel Insurance: Optional but highly recommended for peace of mind, covering trip interruptions, medical emergencies, and lost luggage.",
+    "Meals Not Stated in Itinerary: Specific lunches and additional dinners are at your own expense.",
+    "Personal Expenses: Such as snacks, souvenirs, beverages, laundry, etc. It is recommended to carry at least IDR 500,000 per person for these.",
+    "Tips: For drivers and guides (at your discretion)."
+  ],
+  "travelerRequirements": [],
+  "accommodationPlan": [
+    {
+      "night": 1,
+      "name": "Baobab Safari Resort",
+      "area": "Taman Safari Prigen",
+      "image": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/baobab.jpg"
+    },
+    {
+      "night": 2,
+      "name": "Joglo Kecombrang Bromo",
+      "area": "Mount Bromo",
+      "image": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/kecombrang.jpg"
+    }
+  ],
+  "gear": {
+    "provided": [
+      "Helmet"
+    ],
+    "recommended": [
+      "Warm layers (5–15°C)",
+      "Sturdy hiking shoes & water shoes",
+      "Waterproof bag",
+      "Rain jacket",
+      "Beachwear",
+      "Sunscreen",
+      "Personal medications"
+    ]
+  },
+  "marketing": {
+    "perfectFor": [
+      "Families with children",
+      "Wildlife enthusiasts",
+      "Nature lovers",
+      "First-time Java visitors",
+      "Multi-generational travel"
+    ],
+    "highlightsBullets": [
+      "Guided safari at Taman Safari Prigen",
+      "Iconic Bromo sunrise with Milky Way stargazing",
+      "Madakaripura waterfall — Java's highest — in mystical canyon",
+      "Family-friendly activities for all ages"
+    ],
+    "safetyPositioning": "Standard JVTO Police-Led Safety",
+    "uniqueSellingPoints": [
+      "Guided safari at Taman Safari Prigen",
+      "Iconic Bromo sunrise with Milky Way stargazing",
+      "Madakaripura waterfall — Java's highest — in mystical canyon"
+    ]
+  },
+  "aggregateRating": {
+    "ratingValue": 0,
+    "reviewCount": 0
+  },
+  "provider": {
+    "brand": "Java Volcano Tour Operator (JVTO)",
+    "legalEntity": "PT Java Volcano Rendezvous",
+    "nib": "1102230032918",
+    "tdup": "1102230032918",
+    "official": {
+      "website": "https://javavolcano-touroperator.com",
+      "whatsapp": "+62 822-4478-8833",
+      "email": "hello@javavolcano-touroperator.com"
+    },
+    "policyRef": {
+      "booking": "/policy/booking.json",
+      "inclusions": "/policy/inclusions_exclusions.json"
+    },
+    "policyVersion": "2025-11-09"
+  },
+  "compliance": {
+    "destinationsWhitelist": true,
+    "itineraryTablesGenerated": true,
+    "healthScreeningIncluded": false,
+    "touristPoliceSupport": true
+  },
+  "operationalComplexityNote": "This route is easier than the more volcanic packages, but it still depends on early Bromo timing, multiple transfers, and realistic handling for families or mixed-age groups."
+}

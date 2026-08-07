@@ -1,0 +1,50 @@
+{
+  "id": "package-SUB-5D4N-002-pricing",
+  "packageId": "package-SUB-5D4N-002",
+  "slug": "tours/from-surabaya/ijen-bromo-madakaripura-malang-5d4n",
+  "currency": "IDR",
+  "aggregateOffer": {
+    "lowPrice": 3850000,
+    "highPrice": 5250000
+  },
+  "tiers": [
+    {
+      "sku": "package-SUB-5D4N-002-1",
+      "paxMin": 11,
+      "paxMax": 0,
+      "pricePerPerson": 3850000
+    },
+    {
+      "sku": "package-SUB-5D4N-002-2",
+      "paxMin": 8,
+      "paxMax": 10,
+      "pricePerPerson": 4050000
+    },
+    {
+      "sku": "package-SUB-5D4N-002-3",
+      "paxMin": 6,
+      "paxMax": 7,
+      "pricePerPerson": 4450000
+    },
+    {
+      "sku": "package-SUB-5D4N-002-4",
+      "paxMin": 4,
+      "paxMax": 5,
+      "pricePerPerson": 4750000
+    },
+    {
+      "sku": "package-SUB-5D4N-002-5",
+      "paxMin": 3,
+      "paxMax": 3,
+      "pricePerPerson": 5050000
+    },
+    {
+      "sku": "package-SUB-5D4N-002-6",
+      "paxMin": 2,
+      "paxMax": 2,
+      "pricePerPerson": 5250000
+    }
+  ],
+  "startFrom": 3850000,
+  "highPrice": 5250000
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jvto.local/schemas/booking.schema.json",
+  "title": "Booking Journey",
+  "type": "object",
+  "required": ["id", "status", "productId", "createdAt"],
+  "properties": {
+    "id": { "type": "string" },
+    "status": {
+      "enum": [
+        "inquiry",
+        "qualified",
+        "quoted",
+        "deposit_pending",
+        "deposit_paid",
+        "details_incomplete",
+        "operationally_ready",
+        "in_progress",
+        "completed",
+        "review_requested"
+      ]
+    },
+    "productId": { "type": "string" },
+    "productVersion": { "type": "string" },
+    "customerId": { "type": "string" },
+    "travelerIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "paymentIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "createdAt": { "type": "string" },
+    "updatedAt": { "type": "string" }
+  },
+  "additionalProperties": true
+}
+

@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "route": "/policy/booking-payment-cancellation",
+    "title": "JVTO Booking, Payment & Cancellation Policy",
+    "browserTitle": "Booking, Payment & Cancellation",
+    "description": "How to book, pay, and cancel with JVTO: website-only booking, 20% deposit, and the Lifetime Package Guarantee — cancel your whole booking 48h+ before Day 1 for 100% Lifetime Package Credit (never expires, not cash).",
+    "section": "policy",
+    "status": "published",
+    "owner": "legal",
+    "lastReviewed": "2026-08-04",
+    "schemaTypes": [
+      "WebPage"
+    ],
+    "summary": "Booking is website-only with a 20% deposit; full cancellation 48h+ before Day 1 converts to 100% Lifetime Package Credit."
+  },
+  "sections": [
+    {
+      "id": "how-booking-works",
+      "title": "How booking works",
+      "blocks": [
+        {
+          "type": "markdown",
+          "body_md": "**Website-only booking.** JVTO accepts bookings exclusively through the official website checkout under a valid JVTO Booking ID. WhatsApp/email are support channels only — they never create, confirm, modify, cancel, or transfer a booking."
+        }
+      ]
+    },
+    {
+      "id": "deposit-and-payment",
+      "title": "Deposit & payment",
+      "blocks": [
+        {
+          "type": "markdown",
+          "body_md": "- **Standard deposit**: 20% of total booking value (card via secure JVTO link)\n- **Close-departure rule**: if Day 1 is within 14 days, JVTO may require up to 100% full payment\n- **Card balance deadline**: no later than 5 days before Day 1\n- **Bank wire / Wise balance deadline**: no later than 3 days before Day 1\n- **Cash at JVTO office**: only if approved in writing in advance"
+        }
+      ]
+    },
+    {
+      "id": "lifetime-package-guarantee",
+      "title": "Lifetime Package Guarantee — the rules in plain language",
+      "blocks": [
+        {
+          "type": "grid",
+          "items": [
+            {
+              "title": "Lifetime Package Guarantee",
+              "text": "Your confirmed package does not disappear when plans change early. Cancel your entire booking at least 48 hours before Day 1 and the same package, your original number of travellers, and your original confirmed package price remain available for future use as Lifetime Package Credit."
+            },
+            {
+              "title": "Cancel your booking 48h+ before Day 1",
+              "text": "Cancel the complete booking 48 hours or more before Day 1: you receive Lifetime Package Credit. It never expires and preserves the same package, original pax entitlement, and original confirmed price, and can be transferred once. Package Credit is not cash and cannot be exchanged for cash."
+            },
+            {
+              "title": "Cancel within 48h of Day 1",
+              "text": "Cancel the complete booking less than 48 hours before Day 1: the booking is forfeited and no Package Credit is created."
+            },
+            {
+              "title": "One traveller cancels (booking continues)",
+              "text": "If one or more travellers cancel but the tour continues, the cancelled travellers receive a cash refund of their confirmed price: 100% at 48 hours or more before Day 1, 50% within 48 hours, and 0% after Day 1. At least 2 paying travellers must remain, otherwise it is treated as a full cancellation."
+            },
+            {
+              "title": "Flight disruption",
+              "text": "If a verified natural transport disruption (for example volcanic ash) cancels your flight, your package can be reactivated once for a 50% Recovery Fee of the original confirmed package price."
+            },
+            {
+              "title": "Destination force majeure",
+              "text": "If a verified official event affects your destination and the whole tour is impossible, you can choose Lifetime Package Credit or a cash refund less any non-recoverable vendor cost. If only part is affected, JVTO first offers an alternative route, then a refund of the affected component."
+            },
+            {
+              "title": "Transferring Package Credit",
+              "text": "Package Credit may be transferred once to another person. The old credit code is closed and a new one is issued to the recipient. A second transfer is not permitted."
+            },
+            {
+              "title": "Using Package Credit",
+              "text": "To use Package Credit, choose a new date for the same package. Your original pax entitlement appears automatically; fewer travellers yields no refund, and more travellers are charged the incremental website price."
+            }
+          ]
+        },
+        {
+          "type": "markdown",
+          "body_md": "These summaries are generated from JVTO’s canonical policy source and take precedence. The detailed policy sections follow below."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ijen-health-screening-workflow",
+  "requirement": "A recent health certificate is mandatory for every guest before Kawah Ijen crater entry, per BBKSDA SE.1658/KSA.9/2024.",
+  "workflow": [
+    "Nurse or medical staff visits the guest hotel before the Ijen hike.",
+    "Vitals are checked at the accommodation.",
+    "BSrE-signed digital certificate is issued for cleared guests.",
+    "Certificate is checked at Paltuding trailhead before crater-zone access."
+  ],
+  "vitalsMentioned": [
+    "SpO2",
+    "blood pressure",
+    "heart rate",
+    "respiratory history"
+  ],
+  "screeningLocations": [
+    "Klinik Bakti Husada, Bondowoso",
+    "Puskesmas Licin, Banyuwangi",
+    "hotel or JVTO office mobile session"
+  ],
+  "notClearedOutcome": "The climb is cancelled for that individual, not the group; alternatives include base camp or safe viewpoint waiting.",
+  "riskBoundary": "Screening is a pre-hike assessment, not a guarantee of safe hike conditions.",
+  "dataStatus": "extracted",
+  "reviewStatus": "ready"
+}

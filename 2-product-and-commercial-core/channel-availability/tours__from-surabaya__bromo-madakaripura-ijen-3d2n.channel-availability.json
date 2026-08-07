@@ -1,0 +1,35 @@
+{
+  "id": "package-SUB-3D2N-003-channel-availability",
+  "packageId": "package-SUB-3D2N-003",
+  "slug": "tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
+  "channelMetadata": {
+    "internalPackageId": "package-SUB-3D2N-003",
+    "orderChannelEnabled": {
+      "JVTO": true,
+      "KLOOK": false,
+      "TRAVELOKA": false,
+      "TIKETCOM": false,
+      "OTHERS": false
+    },
+    "externalPackageIds": {
+      "klook": "",
+      "traveloka": "",
+      "tiketcom": ""
+    },
+    "isFreesale": true,
+    "requiresAvailabilityCheck": false,
+    "supportedPickupCities": [
+      "Surabaya"
+    ],
+    "supportedDropoffCities": [
+      "Bali"
+    ],
+    "languageOffered": [
+      "en"
+    ],
+    "status": "active",
+    "minLeadTimeHours": 24,
+    "maxPaxRecommended": 100,
+    "minPaxOperational": 1
+  }
+}

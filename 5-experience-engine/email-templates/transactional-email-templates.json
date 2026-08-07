@@ -1,0 +1,61 @@
+{
+  "schema_version": "jvto-experience-output/email-template-v1",
+  "generated_at": "2026-08-07T00:54:36.767Z",
+  "privacy_note": "Template records use placeholders only; runtime customer data is not stored here.",
+  "source_files": [
+    "/Users/macbook/Code/javavolcano-touroperator/resources/views/Backoffice/email-template/new-reservation.blade.php",
+    "/Users/macbook/Code/javavolcano-touroperator/resources/views/Backoffice/email-template/new-receipt-attach.blade.php"
+  ],
+  "templates": [
+    {
+      "id": "reservation_invoice_email",
+      "template_file": "new-reservation.blade.php",
+      "audience": "customer",
+      "lifecycle_stage": "checkout_created_pending_payment",
+      "subject_pattern": "INVOICE {{customer_name_uppercase}}",
+      "purpose": "Send booking summary and ask customer to complete deposit/full payment using the secure payment link.",
+      "fields": [
+        "customer_name",
+        "package_name",
+        "package_url",
+        "tour_date_start",
+        "tour_date_end",
+        "total_pax",
+        "pickup_or_tbc",
+        "total_price_idr",
+        "deposit_due_idr",
+        "due_date",
+        "payment_link"
+      ],
+      "attachments_or_related_outputs": [
+        "detailed invoice PDF"
+      ],
+      "primary_cta": "Pay Your Deposit Securely"
+    },
+    {
+      "id": "payment_receipt_attach_html",
+      "template_file": "new-receipt-attach.blade.php",
+      "audience": "customer",
+      "lifecycle_stage": "payment_received",
+      "subject_or_title_pattern": "Payment Receipt {{booking_code}}",
+      "purpose": "Render payment receipt with paid stamp, bill-to details, package line item, add-on line items, discount handling, total price, and amount paid.",
+      "fields": [
+        "booking_code",
+        "payment_sequence_number",
+        "customer_name",
+        "customer_email",
+        "customer_phone",
+        "package_name",
+        "travel_dates",
+        "total_pax",
+        "unit_price_idr",
+        "package_amount_idr",
+        "addons",
+        "discount",
+        "grand_total",
+        "amount_paid"
+      ],
+      "status_badge": "PAID"
+    }
+  ]
+}

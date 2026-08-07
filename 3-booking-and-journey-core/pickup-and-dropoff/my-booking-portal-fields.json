@@ -1,0 +1,24 @@
+{
+  "id": "my-booking-portal-fields",
+  "portalShows": [
+    "tour dates and package summary",
+    "pickup details",
+    "vehicle assignment",
+    "crew assignment",
+    "accommodation plan",
+    "daily itinerary",
+    "notes from JVTO",
+    "E-Voucher download link"
+  ],
+  "portalAllowsCustomerToSubmit": [
+    "guest list",
+    "pickup address",
+    "drop-off address",
+    "rooming preferences",
+    "dietary requirements",
+    "pre-trip checklist"
+  ],
+  "accessKey": "lead traveller email",
+  "dataStatus": "extracted",
+  "reviewStatus": "needs_portal_confirmation"
+}

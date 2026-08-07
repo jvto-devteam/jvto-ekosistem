@@ -1,0 +1,26 @@
+{
+  "key": "travel-guide-weather-and-closures",
+  "items": [
+    {
+      "question": "Why can plans change?",
+      "answer": "Routes may change due to volcanic activity, sulfur gas exposure levels, extreme weather/heavy rain, unsafe terrain, national park closures, or road/traffic constraints."
+    },
+    {
+      "question": "Can blue fire or sunrise views be guaranteed?",
+      "answer": "No. Visibility is natural-condition dependent and cannot be guaranteed. JVTO prioritizes safety and legal access.",
+      "note": "drift-ok: canonical negation — quotes the forbidden phrase in question form; the answer is 'No' (facts-lock compliant)"
+    },
+    {
+      "question": "If a destination closes, what happens?",
+      "answer": "JVTO may adjust timing, change viewpoints/segments, or substitute a safer alternative where feasible. Remedies follow the force majeure/change rules in /policy/booking-payment-cancellation."
+    },
+    {
+      "question": "Do you operate during bad weather?",
+      "answer": "Operations depend on safety and local conditions. If conditions are unsafe, the plan may be adjusted or stopped."
+    },
+    {
+      "question": "What is the binding reference if there is a discrepancy?",
+      "answer": "Your Official E-Voucher / Invoice (PDF) and the policy pages take precedence over non-binding summaries."
+    }
+  ]
+}

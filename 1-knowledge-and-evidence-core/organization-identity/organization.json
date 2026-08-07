@@ -1,0 +1,39 @@
+{
+  "_comment": "Stable organization facts (AD-03). Values copied verbatim from the approved sources (docs/CANONICAL_FACTS.md + src/lib/schemas/entityGraph.ts). No PT incorporation year is asserted (owner decision 2026-08-03) — foundingDate 2015 is the brand/guesthouse era; 2023 is TDUP formalization.",
+  "legalName": "PT Java Volcano Rendezvous",
+  "brandName": "Java Volcano Tour Operator",
+  "shortName": "JVTO",
+  "websiteUrl": "https://javavolcano-touroperator.com",
+  "telephone": "+6282244788833",
+  "email": "hello@javavolcano-touroperator.com",
+  "foundingDate": "2015",
+  "slogan": "Private volcano tours with police-led safety. Ijen, Bromo, Tumpak Sewu.",
+  "address": {
+    "streetAddress": "Jl. Khairil Anwar No.102 A",
+    "addressLocality": "Bondowoso",
+    "addressRegion": "Jawa Timur",
+    "postalCode": "68214",
+    "addressCountry": "ID"
+  },
+  "geo": {
+    "latitude": -7.9151,
+    "longitude": 113.8232
+  },
+  "identifiers": [
+    {
+      "type": "NIB",
+      "value": "1102230032918"
+    },
+    {
+      "type": "TDUP",
+      "value": "1102230032918",
+      "dateIssued": "2023-02-11"
+    },
+    {
+      "type": "AHU",
+      "value": "AHU-0023020"
+    }
+  ],
+  "bookingChannel": "Website only — bookings are created, confirmed, modified, cancelled, and transferred only on javavolcano-touroperator.com; WhatsApp and email are support channels.",
+  "lastReviewed": "2026-08-04"
+}

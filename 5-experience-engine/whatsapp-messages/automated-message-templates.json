@@ -1,0 +1,350 @@
+{
+  "schema_version": "jvto-experience-output/whatsapp-template-v1",
+  "generated_at": "2026-08-07T00:53:25.738Z",
+  "privacy_note": "Templates contain placeholders only. Runtime names, phones, payment links, booking IDs, portal slugs, hotel groups, and crew contacts are not stored as real customer records.",
+  "source_files": [
+    "/Users/macbook/Code/javavolcano-touroperator/app/Http/Controllers/Api/Web/CheckoutController.php",
+    "/Users/macbook/Code/javavolcano-touroperator/app/Http/Controllers/thirdParty/XenditController.php",
+    "/Users/macbook/Code/javavolcano-touroperator/app/Console/Commands/ReminderPayment.php",
+    "/Users/macbook/Code/javavolcano-touroperator/app/Console/Commands/TripInformation.php",
+    "/Users/macbook/Code/javavolcano-touroperator/app/Console/Commands/TripMedia.php",
+    "/Users/macbook/Code/javavolcano-touroperator/app/Console/Commands/ReminderBali.php",
+    "/Users/macbook/Code/javavolcano-touroperator/app/Console/Commands/TripReminderCrew.php"
+  ],
+  "templates": [
+    {
+      "id": "customer_booking_pending_payment",
+      "source_function": "CheckoutController::sendWaCheckout",
+      "trigger": "checkout succeeds and booking is created with pending payment",
+      "channel": "whatsapp_direct",
+      "audience": "customer",
+      "endpoint_type": "send_message",
+      "title": "[JVTO] Booking Pending - Payment Required",
+      "variables": [
+        "customer_name",
+        "booking_id",
+        "tour_package",
+        "travel_dates",
+        "pax",
+        "amount_due",
+        "payment_type",
+        "payment_method",
+        "payment_link",
+        "payment_deadline",
+        "phone_no"
+      ],
+      "sections": [
+        "booking summary",
+        "amount due",
+        "official payment link",
+        "payment deadline",
+        "notes",
+        "support contact",
+        "security reminder"
+      ],
+      "links": [
+        "{{payment_link}}"
+      ],
+      "security_message": "JVTO will never ask for OTP/PIN; customer should pay only via the official link."
+    },
+    {
+      "id": "customer_booking_confirmed_deposit_or_full_payment",
+      "source_function": "XenditController::invoiceSuccess",
+      "trigger": "first successful payment webhook; booking status becomes booked",
+      "channel": "whatsapp_direct_with_image",
+      "audience": "customer",
+      "endpoint_type": "send_image_url",
+      "image_url": "https://legacy.javavolcano-touroperator.com/assets/img/message-template/booking-confirmed.jpg",
+      "title": "[JVTO] Booking Confirmed - Payment Received",
+      "variables": [
+        "customer_name",
+        "booking_code",
+        "package_name",
+        "travel_date_start",
+        "travel_date_end",
+        "pickup",
+        "total_pax",
+        "payment_received",
+        "payment_type",
+        "payment_status",
+        "booking_url"
+      ],
+      "sections": [
+        "booking details",
+        "payment summary",
+        "trip dashboard",
+        "notes",
+        "support contact",
+        "security reminder"
+      ],
+      "links": [
+        "https://javavolcano-touroperator.com/my-booking/{{booking_url}}"
+      ]
+    },
+    {
+      "id": "customer_balance_payment_confirmed",
+      "source_function": "XenditController::invoiceSuccess",
+      "trigger": "successful outstanding/balance payment webhook",
+      "channel": "whatsapp_direct_with_image",
+      "audience": "customer",
+      "endpoint_type": "send_image_url",
+      "image_url": "https://legacy.javavolcano-touroperator.com/assets/img/message-template/payment-confirmed.jpg",
+      "title": "[JVTO] Booking Confirmed - Payment Received",
+      "variables": [
+        "customer_name",
+        "booking_code",
+        "package_name",
+        "travel_date_start",
+        "travel_date_end",
+        "pickup",
+        "total_pax",
+        "outstanding_payment_amount",
+        "payment_type",
+        "payment_status",
+        "booking_url"
+      ],
+      "sections": [
+        "booking details",
+        "payment summary",
+        "trip dashboard",
+        "notes",
+        "support contact",
+        "security reminder"
+      ],
+      "links": [
+        "https://javavolcano-touroperator.com/my-booking/{{booking_url}}"
+      ]
+    },
+    {
+      "id": "customer_balance_payment_reminder",
+      "source_command": "my:reminder-payment",
+      "trigger": "15:00 server time, 7 days before travel_date_start, booked JVTO booking with unpaid balance",
+      "channel": "whatsapp_direct",
+      "audience": "customer",
+      "endpoint_type": "send_message",
+      "title": "[JVTO] Payment Reminder - Balance Payment Required",
+      "variables": [
+        "customer_name",
+        "booking_code",
+        "package_name",
+        "travel_dates",
+        "trip_day_1",
+        "pickup",
+        "total_pax",
+        "grand_total",
+        "deposit_paid",
+        "outstanding_balance",
+        "card_due_date",
+        "transfer_due_date",
+        "invoice_url",
+        "booking_url"
+      ],
+      "deadline_rules": {
+        "card": "no later than 5 days before Day 1",
+        "bank_transfer_or_wise": "no later than 3 days before Day 1"
+      },
+      "links": [
+        "{{invoice_url}}",
+        "https://javavolcano-touroperator.com/my-booking/{{booking_url}}"
+      ],
+      "notes": [
+        "Full payment is required before trip operations are finalized.",
+        "Customer should pay before the deadline to avoid disruption."
+      ]
+    },
+    {
+      "id": "customer_trip_information_reminder",
+      "source_command": "my:trip-information",
+      "trigger": "scheduled datetime in wa_schedule_trip_information for bookings with is_send_wa=1",
+      "channel": "whatsapp_direct_with_image",
+      "audience": "customer",
+      "endpoint_type": "send_image_url",
+      "image_url": "https://legacy.javavolcano-touroperator.com/assets/img/message-template/trip-reminder.jpg",
+      "title": "Let's Explore!",
+      "variables": [
+        "customer_name",
+        "pickup_time",
+        "pickup",
+        "booking_url"
+      ],
+      "sections": [
+        "logistical details",
+        "important reminders",
+        "portal link",
+        "support contact"
+      ],
+      "reminders": [
+        "Arrive 10 minutes prior to pickup time.",
+        "Bring necessary documents and gear."
+      ],
+      "links": [
+        "https://javavolcano-touroperator.com/my-booking/{{booking_url}}"
+      ]
+    },
+    {
+      "id": "customer_custom_payment_arrangement",
+      "source_command": "my:trip-information",
+      "trigger": "same trip-information run when wa_schedule_payment_content is present",
+      "channel": "whatsapp_direct_with_image",
+      "audience": "customer",
+      "endpoint_type": "send_image_url",
+      "image_url": "https://legacy.javavolcano-touroperator.com/assets/img/payment.png",
+      "variables": [
+        "customer_name",
+        "grand_total",
+        "wa_schedule_payment_content"
+      ],
+      "purpose": "Send custom payment arrangement text prepared in booking record.",
+      "support_contact": [
+        "+62 822-4478-8833",
+        "https://maps.app.goo.gl/TLgNey9iqSCM3QYh7"
+      ]
+    },
+    {
+      "id": "customer_trip_media_and_review_request",
+      "source_command": "my:trip-media",
+      "trigger": "scheduled datetime in wa_schedule_trip_media for bookings with is_send_wa=1",
+      "channel": "whatsapp_direct",
+      "audience": "customer",
+      "endpoint_type": "send_message",
+      "variables": [
+        "customer_name",
+        "booking_url"
+      ],
+      "purpose": "Thank customer after trip, share media dashboard, and request Google/Trustpilot review.",
+      "links": [
+        "https://javavolcano-touroperator.com/my-booking/{{booking_url}}"
+      ],
+      "related_followup": "Gift card generation exists in command but WhatsApp gift-card send block is commented out."
+    },
+    {
+      "id": "ops_new_booking_from_website",
+      "source_function": "XenditController::sendWaNotif",
+      "trigger": "first successful payment webhook after booking confirmation",
+      "channel": "whatsapp_group",
+      "audience": "internal_ops",
+      "endpoint_type": "send_message_group",
+      "variables": [
+        "customer_name",
+        "package_url",
+        "total_pax",
+        "trip_date",
+        "pickup",
+        "drop_if_any",
+        "special_requirements_if_any",
+        "payment_method"
+      ],
+      "sections": [
+        "name",
+        "package",
+        "participants",
+        "trip date",
+        "pickup",
+        "drop",
+        "special requirements",
+        "payment method"
+      ],
+      "pii_classification": "internal operational message; do not expose to public/customer surfaces"
+    },
+    {
+      "id": "partner_room_reservation",
+      "source_function": "XenditController::invoiceSuccess hotel notification block",
+      "trigger": "hotel booking rows are generated after first successful payment and hotel has group WA id",
+      "channel": "whatsapp_group",
+      "audience": "hotel_partner",
+      "endpoint_type": "send_message_group",
+      "variables": [
+        "hotel_name",
+        "check_in_date",
+        "check_out_date",
+        "customer_name",
+        "total_pax",
+        "room_names_and_quantities",
+        "included_meals_if_any",
+        "hotel_slug"
+      ],
+      "links": [
+        "https://partner.javavolcano-touroperator.com/reservation/{{hotel_slug}}"
+      ],
+      "pii_classification": "partner operational message; contains guest name and room reservation details at runtime"
+    },
+    {
+      "id": "ops_bali_transport_service",
+      "source_function": "XenditController::sendBaliNotif",
+      "trigger": "Bali transport notification after booking/payment flow",
+      "channel": "whatsapp_group",
+      "audience": "internal_ops_or_transport",
+      "endpoint_type": "send_message_group",
+      "variables": [
+        "date",
+        "pickup_time",
+        "customer_name",
+        "pax",
+        "unit",
+        "pickup",
+        "drop",
+        "others"
+      ],
+      "purpose": "Notify transport operations about Bali transfer service details."
+    },
+    {
+      "id": "ops_bali_transport_reminder",
+      "source_command": "my:reminder-bali",
+      "trigger": "15:15 server time, one day before Bali-origin tour start or one day before transport add-on at trip end",
+      "channel": "whatsapp_group",
+      "audience": "internal_ops_or_transport",
+      "endpoint_type": "send_message_group",
+      "variables": [
+        "date",
+        "pickup_time",
+        "customer_name",
+        "pax",
+        "unit",
+        "pickup",
+        "drop",
+        "others"
+      ],
+      "unit_rule": "Avanza for <=3 pax; Elf Short for 4-9 pax or medium add-on; Elf Long for larger/large add-on.",
+      "default_values": [
+        "pickup_time TO BE CONFIRMED when absent",
+        "pickup TO BE CONFIRMED when absent"
+      ]
+    },
+    {
+      "id": "crew_individual_trip_reminder",
+      "source_command": "my:trip-reminder-crew",
+      "trigger": "scheduled datetime in wa_schedule_reminder_crew for crew with phone number",
+      "channel": "whatsapp_direct_ops_number",
+      "audience": "crew_member",
+      "endpoint_type": "send_message",
+      "variables": [
+        "crew_name",
+        "customer_name",
+        "pickup",
+        "pickup_time"
+      ],
+      "links": [
+        "https://crew-portal.javavolcano-touroperator.com/"
+      ],
+      "pii_classification": "internal crew message; contains guest name and logistics at runtime"
+    },
+    {
+      "id": "crew_group_trip_reminder",
+      "source_command": "my:trip-reminder-crew",
+      "trigger": "scheduled datetime in wa_schedule_reminder_crew when booking agent_id=1",
+      "channel": "whatsapp_group",
+      "audience": "internal_crew_group",
+      "endpoint_type": "send_message_group",
+      "variables": [
+        "customer_name",
+        "pickup",
+        "pickup_time",
+        "crew_names"
+      ],
+      "links": [
+        "https://crew-portal.javavolcano-touroperator.com/"
+      ],
+      "pii_classification": "internal crew message; contains guest name and logistics at runtime"
+    }
+  ]
+}

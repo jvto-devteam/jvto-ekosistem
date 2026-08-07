@@ -1,0 +1,41 @@
+{
+  "id": "inclusions-exclusions-baseline",
+  "contractRule": {
+    "id": "write-it-to-bind-it",
+    "statement": "Only inclusions written on the official package page and/or the Official E-Voucher / Invoice are legally binding package components."
+  },
+  "baselineInclusions": [
+    "private air-conditioned land transport for confirmed itinerary sectors",
+    "fuel, tolls, and standard parking fees as per itinerary",
+    "hotel or homestay accommodation for listed overnight stays",
+    "licensed/vetted crew adjusted by group size and route",
+    "listed entrance tickets and environmental/park permits",
+    "professional gas mask for Ijen-relevant packages",
+    "Ijen medical check and clearance workflow when Ijen is included",
+    "daily bottled mineral water in the vehicle",
+    "hotel breakfasts for included overnight stays",
+    "Java-Bali ferry tickets when listed and specified as included",
+    "pre-trip assistance via official WhatsApp/email",
+    "clear pickup instructions and emergency contacts on voucher"
+  ],
+  "standardExclusions": [
+    "international flights",
+    "domestic flights",
+    "entry visas",
+    "travel insurance",
+    "meals not specified",
+    "alcohol",
+    "tips or gratuities",
+    "personal expenses"
+  ],
+  "conditionalInclusions": [
+    "custom JVTO group T-shirts",
+    "additional hosted meals",
+    "Bali hotel or airport transfers beyond standard ferry crossing",
+    "early check-in or late check-out",
+    "photographer or videographer services",
+    "police escort or special convoy arrangements"
+  ],
+  "dataStatus": "extracted",
+  "reviewStatus": "needs_canonical_review"
+}

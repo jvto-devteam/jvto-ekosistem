@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "route": "/travel-guide/best-time-to-visit",
+    "title": "Best Time to Visit East Java: Bromo, Ijen & Tumpak Sewu",
+    "browserTitle": "Best Time to Visit Bromo, Ijen & Tumpak Sewu | JVTO",
+    "description": "Dry season (May–Oct) is optimal for Bromo, Ijen blue fire, and Tumpak Sewu. JVTO private tours run year-round — monthly conditions guide for each destination.",
+    "section": "travel-guide",
+    "status": "published",
+    "owner": "operations",
+    "lastReviewed": "2026-08-06",
+    "schemaTypes": [
+      "WebPage"
+    ],
+    "faqKey": "travel-guide-best-time-to-visit",
+    "summary": "Month-by-month guide to the best time to visit Mount Bromo, Ijen blue fire, and Tumpak Sewu — the dry-season vs wet-season trade-offs for each destination."
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "body_md": "JVTO operates year-round private tours to Bromo, Ijen, and Tumpak Sewu. The best month depends on which destination is your priority — there is no single perfect season for all three at once.\n\nThe short answer: **dry season (May–October)** gives the clearest Bromo sunrises and safest Ijen night hikes. **Wet season (November–April)** peaks Tumpak Sewu waterfall volume. **May and September** hit the sweet spot — dry conditions with fewer crowds than July–August peak."
+    },
+    {
+      "id": "season-verdict",
+      "blocks": [
+        {
+          "type": "grid",
+          "role": "season-cards",
+          "items": [
+            {
+              "kind": "dry",
+              "label": "Dry Season",
+              "range": "May – October",
+              "points": [
+                {
+                  "positive": true,
+                  "text": "Clearest Bromo sunrises"
+                },
+                {
+                  "positive": true,
+                  "text": "Best Ijen blue fire visibility"
+                },
+                {
+                  "positive": true,
+                  "text": "Drier, safer Tumpak Sewu trail"
+                },
+                {
+                  "positive": false,
+                  "text": "July–Aug peak crowds — book 3–4 weeks ahead"
+                }
+              ]
+            },
+            {
+              "kind": "wet",
+              "label": "Wet Season",
+              "range": "November – April",
+              "points": [
+                {
+                  "positive": true,
+                  "text": "Tumpak Sewu at maximum volume"
+                },
+                {
+                  "positive": true,
+                  "text": "Lowest crowds and best accommodation rates"
+                },
+                {
+                  "positive": false,
+                  "text": "Cloudier Bromo dawns (still possible)"
+                },
+                {
+                  "positive": false,
+                  "text": "Slippery trail descent at Tumpak Sewu"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "month-reference",
+      "title": "Month-by-Month Quick Reference",
+      "blocks": [
+        {
+          "type": "grid",
+          "role": "month-table",
+          "items": [
+            {
+              "month": "January",
+              "bromo": "Variable",
+              "ijen": "Accessible",
+              "tumpak": "Peak",
+              "crowd": "Low",
+              "sweet": false
+            },
+            {
+              "month": "February",
+              "bromo": "Variable",
+              "ijen": "Accessible",
+              "tumpak": "Peak",
+              "crowd": "Low",
+              "sweet": false
+            },
+            {
+              "month": "March",
+              "bromo": "Improving",
+              "ijen": "Good",
+              "tumpak": "Excellent",
+              "crowd": "Low",
+              "sweet": false
+            },
+            {
+              "month": "April",
+              "bromo": "Good",
+              "ijen": "Good",
+              "tumpak": "Excellent",
+              "crowd": "Low",
+              "sweet": false
+            },
+            {
+              "month": "May",
+              "bromo": "Excellent",
+              "ijen": "Excellent",
+              "tumpak": "Good",
+              "crowd": "Medium",
+              "sweet": true
+            },
+            {
+              "month": "June",
+              "bromo": "Excellent",
+              "ijen": "Excellent",
+              "tumpak": "Good",
+              "crowd": "Medium",
+              "sweet": false
+            },
+            {
+              "month": "July",
+              "bromo": "Excellent",
+              "ijen": "Excellent",
+              "tumpak": "Good",
+              "crowd": "High",
+              "sweet": false
+            },
+            {
+              "month": "August",
+              "bromo": "Excellent",
+              "ijen": "Excellent",
+              "tumpak": "Good",
+              "crowd": "High",
+              "sweet": false
+            },
+            {
+              "month": "September",
+              "bromo": "Excellent",
+              "ijen": "Excellent",
+              "tumpak": "Good",
+              "crowd": "Medium",
+              "sweet": true
+            },
+            {
+              "month": "October",
+              "bromo": "Good",
+              "ijen": "Good",
+              "tumpak": "Good",
+              "crowd": "Low",
+              "sweet": false
+            },
+            {
+              "month": "November",
+              "bromo": "Variable",
+              "ijen": "Variable",
+              "tumpak": "Building",
+              "crowd": "Low",
+              "sweet": false
+            },
+            {
+              "month": "December",
+              "bromo": "Variable",
+              "ijen": "Accessible",
+              "tumpak": "Building",
+              "crowd": "Low",
+              "sweet": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "per-destination",
+      "title": "Per-Destination Breakdown",
+      "body_md": "### Mount Bromo\n\nThe classic Bromo sunrise requires cloud-free skies at Penanjakan viewpoint (2,770 m) at around 05:00 AM. This is most reliable **May through September**, when dry south-east trade winds clear the caldera overnight. July and August have the best weather reliability but also the highest visitor numbers — expect 50+ jeeps at the viewpoint in peak months.\n\nThe **April and October shoulder months** offer nearly identical conditions with noticeably fewer tourists and lower jeep rates. In the wet season (November–March), clear mornings still occur — roughly 50–60% of departures based on JVTO operational records. We monitor BMKG forecasts the evening before each tour.\n\n### Ijen Crater & Blue Fire\n\nIjen blue fire — burning sulfur gases at the active crater lake — is visible **year-round** on JVTO night hikes. The seasonal difference is visibility inside the crater: **May to October** provides the lowest humidity and clearest conditions for photographing blue flames. Pre-dawn temperatures at the crater rim drop to **5–8°C in July–August** — bring a warm jacket regardless of departure month.\n\nJVTO includes a gas mask for all Ijen guests as standard. Sulfur gas is a daily operational reality regardless of season — our guides monitor PVMBG volcanic activity levels before each tour. See: [Ijen Health Screening (SE.1658 protocol)](/travel-guide/ijen-health-screening).\n\n### Tumpak Sewu Waterfall\n\nTumpak Sewu is genuinely more spectacular in the wet season. **January through April** brings peak water volume — the curtain of 120+ individual falls is at its widest and most powerful. If maximum waterfall impact is your goal, plan for this window. The trade-off is that the 1.5 km descent trail through Glidih Canyon becomes slippery, with rope-assisted sections requiring care.\n\nFrom **May to October**, the trail is drier and safer. The waterfall flow remains impressive (rivers are fed by mountain springs, not only rain). JVTO guides carry the necessary ropes and assess trail safety on arrival before starting the descent."
+    },
+    {
+      "id": "operating-notes",
+      "title": "JVTO Operating Notes",
+      "body_md": "- **We operate year-round.** Rainy season is not an automatic cancellation trigger. We make go/no-go decisions based on real-time BMKG (weather) and PVMBG (volcanic activity) data the evening before each tour.\n- **Weather risk is covered by Package Credit.** If a tour must be modified or cut short due to weather or volcanic closure, guests receive JVTO Package Credit (non-expiring) for the affected portion. Read: [Weather & Closures policy](/travel-guide/weather-and-closures).\n- **Peak season booking advice.** For July and August departures, book at least 3–4 weeks in advance. Accommodation in the Tengger Caldera area and Banyuwangi fills quickly during European summer holidays and Indonesian National Day week."
+    }
+  ]
+}

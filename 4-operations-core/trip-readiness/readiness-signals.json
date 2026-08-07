@@ -1,0 +1,19 @@
+{
+  "id": "readiness-signals",
+  "readinessChecks": [
+    "required payment processed",
+    "Official E-Voucher issued",
+    "guest list submitted",
+    "pickup and drop-off addresses confirmed",
+    "rooming preferences captured",
+    "dietary requirements captured",
+    "vehicle assigned according to group size",
+    "crew assigned",
+    "Ijen health screening scheduled/completed where relevant",
+    "Ijen gas masks prepared where relevant",
+    "weather/closure conditions checked before Day 1",
+    "safety briefing required before each activity"
+  ],
+  "dataStatus": "derived_from_booking_records",
+  "reviewStatus": "needs_ops_confirmation"
+}

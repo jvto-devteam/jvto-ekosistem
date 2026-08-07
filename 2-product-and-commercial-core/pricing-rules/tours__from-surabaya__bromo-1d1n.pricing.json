@@ -1,0 +1,44 @@
+{
+  "id": "1D1N-pricing",
+  "packageId": "1D1N",
+  "slug": "tours/from-surabaya/bromo-1d1n",
+  "currency": "IDR",
+  "aggregateOffer": {
+    "lowPrice": 1000000,
+    "highPrice": 1550000
+  },
+  "tiers": [
+    {
+      "sku": "1D1N-1",
+      "paxMin": 11,
+      "paxMax": 0,
+      "pricePerPerson": 1000000
+    },
+    {
+      "sku": "1D1N-2",
+      "paxMin": 8,
+      "paxMax": 10,
+      "pricePerPerson": 1050000
+    },
+    {
+      "sku": "1D1N-3",
+      "paxMin": 5,
+      "paxMax": 7,
+      "pricePerPerson": 1250000
+    },
+    {
+      "sku": "1D1N-4",
+      "paxMin": 3,
+      "paxMax": 4,
+      "pricePerPerson": 1400000
+    },
+    {
+      "sku": "1D1N-5",
+      "paxMin": 2,
+      "paxMax": 2,
+      "pricePerPerson": 1550000
+    }
+  ],
+  "startFrom": 1000000,
+  "highPrice": 1550000
+}

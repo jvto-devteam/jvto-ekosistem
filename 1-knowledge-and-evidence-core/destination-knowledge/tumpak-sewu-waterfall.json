@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "route": "/destinations/tumpak-sewu-waterfall",
+    "title": "Tumpak Sewu Waterfall — Tour, Trail & Tips | JVTO",
+    "description": "Private Tumpak Sewu waterfall tour — jungle trail, canyon descent, all-inclusive. Combinable with Bromo & Ijen. Tourist Police-led. 4.8★ Trustpilot.",
+    "section": "destinations",
+    "status": "published",
+    "owner": "editorial",
+    "lastReviewed": "2026-08-06",
+    "schemaTypes": [
+      "TouristAttraction"
+    ],
+    "summary": "Tumpak Sewu — a multi-tiered curtain waterfall known as Java's Niagara, seen from the rim or from its misted base, in Lumajang, East Java."
+  },
+  "lede": [
+    "A curved cliff face sends dozens of streams over its edge in one continuous curtain — Java's Niagara. See it from the rim, or descend ~300 steps to stand at its misted base."
+  ],
+  "sections": [
+    {
+      "id": "chrome",
+      "eyebrow": "Lumajang · Java's Niagara",
+      "location_label": "Lumajang",
+      "blocks": [
+        {
+          "type": "grid",
+          "role": "quick-facts",
+          "items": [
+            {
+              "icon": "waves",
+              "k": "Height",
+              "v": "~120 m",
+              "sub": "Multi-tiered curtain"
+            },
+            {
+              "icon": "mappin",
+              "k": "Location",
+              "v": "Lumajang Regency",
+              "sub": "East Java, Indonesia"
+            },
+            {
+              "icon": "star",
+              "k": "Nickname",
+              "v": "Java's Niagara"
+            },
+            {
+              "icon": "waves",
+              "k": "Type",
+              "v": "Multi-tiered curtain"
+            },
+            {
+              "icon": "footprints",
+              "k": "Access",
+              "v": "Rim viewpoint — short walk from parking",
+              "sub": "Canyon descent: ~300 steps, moderate–challenging fitness",
+              "span2": true
+            }
+          ]
+        },
+        {
+          "type": "grid",
+          "role": "elevation-stat",
+          "items": [
+            {
+              "label": "Height",
+              "value": "~120 m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "attraction",
+      "attraction_name": "Tumpak Sewu Waterfall",
+      "alternate_names": [
+        "Coban Sewu",
+        "Tumpak Sewu"
+      ],
+      "body_md": "Multi-tiered curtain waterfall (~120 m) in Lumajang, East Java. Accessible via a jungle trail descending into the canyon, with an optional swim at the base. Often combined with Ijen and Bromo tours."
+    },
+    {
+      "id": "signature",
+      "blocks": [
+        {
+          "type": "markdown",
+          "body_md": "## Two ways to see it — rim or canyon base\n\n**The Rim Viewpoint** — the full curtain, in one frame. *Short walk · all fitness levels.* A short walk from the parking area brings you to the panoramic rim — the classic view of the entire horseshoe curtain falling into the canyon. No descent required.\n\n**The Canyon Descent** — at the base, inside the mist. *~300 steps · ropes in places.* A steep descent of ~300 steps, with ropes in places, drops into the canyon to stand at the foot of the falls, surrounded by spray and noise. Guides assess conditions and fitness on the day and brief the route before starting.\n\n> **The decision stays with you.** The choice to descend stays with the guest. Guides assess conditions on the day and brief the route before starting — there is no pressure to go down."
+        },
+        {
+          "type": "markdown",
+          "body_md": "## Conditions on the ground — wet year-round, plan footwear\n\nTrails are wet year-round and the canyon approach involves ropes in places. Guides assess fitness before any descent. Closed-toe, non-slip footwear is strongly recommended.\n\n> **Helmets — provided on site.** Helmets for the canyon section are provided by the local Tumpak Sewu site management, not by JVTO. Your guide briefs the route and conditions before you start the descent."
+        }
+      ]
+    },
+    {
+      "id": "handoff",
+      "travel_guide": {
+        "href": "/travel-guide/packing-and-fitness",
+        "label": "Packing & Fitness"
+      },
+      "blocks": [
+        {
+          "type": "grid",
+          "role": "related",
+          "items": [
+            {
+              "slug": "ijen-crater",
+              "name": "Ijen Crater"
+            },
+            {
+              "slug": "mount-bromo",
+              "name": "Mount Bromo"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

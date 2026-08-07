@@ -1,0 +1,50 @@
+{
+  "id": "package-SUB-3D2N-006-pricing",
+  "packageId": "package-SUB-3D2N-006",
+  "slug": "tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n",
+  "currency": "IDR",
+  "aggregateOffer": {
+    "lowPrice": 3700000,
+    "highPrice": 4700000
+  },
+  "tiers": [
+    {
+      "sku": "package-SUB-3D2N-006-1",
+      "paxMin": 11,
+      "paxMax": 0,
+      "pricePerPerson": 3700000
+    },
+    {
+      "sku": "package-SUB-3D2N-006-2",
+      "paxMin": 8,
+      "paxMax": 10,
+      "pricePerPerson": 3900000
+    },
+    {
+      "sku": "package-SUB-3D2N-006-3",
+      "paxMin": 6,
+      "paxMax": 7,
+      "pricePerPerson": 4100000
+    },
+    {
+      "sku": "package-SUB-3D2N-006-4",
+      "paxMin": 4,
+      "paxMax": 5,
+      "pricePerPerson": 4300000
+    },
+    {
+      "sku": "package-SUB-3D2N-006-5",
+      "paxMin": 3,
+      "paxMax": 3,
+      "pricePerPerson": 4500000
+    },
+    {
+      "sku": "package-SUB-3D2N-006-6",
+      "paxMin": 2,
+      "paxMax": 2,
+      "pricePerPerson": 4700000
+    }
+  ],
+  "startFrom": 3700000,
+  "highPrice": 4700000
+}

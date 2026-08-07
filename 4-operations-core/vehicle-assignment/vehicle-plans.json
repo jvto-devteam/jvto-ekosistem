@@ -1,0 +1,64 @@
+{
+  "uniqueVehiclePlans": 1,
+  "vehiclePlans": [
+    {
+      "vehiclePlan": {
+        "primary": [
+          {
+            "type": "MPV",
+            "model": "Toyota Avanza/Innova",
+            "banner": "https://legacy.javavolcano-touroperator.com/assets/img/cars/avanza.png",
+            "maxPax": 3,
+            "baggageCapacity": "3 medium bags",
+            "features": [
+              "AC",
+              "Charging ports"
+            ]
+          },
+          {
+            "type": "Hiace",
+            "model": "Toyota Hiace",
+            "banner": "https://legacy.javavolcano-touroperator.com/assets/img/cars/hiace.png",
+            "maxPax": 11,
+            "baggageCapacity": "11 medium bags",
+            "features": [
+              "AC",
+              "Spacious legroom"
+            ]
+          }
+        ],
+        "jeepRequiredAt": [
+          "mount-bromo"
+        ],
+        "jeepSpecs": {
+          "type": "4WD Jeep",
+          "capacity": "4-6 pax",
+          "inclusions": [
+            "Experienced driver",
+            "Kingkong Hill access",
+            "Vintage Jeep experience"
+          ]
+        }
+      },
+      "packageSlugs": [
+        "tours/from-bali/bromo-ijen-3d2n",
+        "tours/from-bali/ijen-bromo-madakaripura-3d2n",
+        "tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
+        "tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n",
+        "tours/from-surabaya/bromo-1d1n",
+        "tours/from-surabaya/bromo-2d1n",
+        "tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
+        "tours/from-surabaya/ijen-2d1n",
+        "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
+        "tours/from-surabaya/ijen-bromo-madakaripura-4d3n",
+        "tours/from-surabaya/ijen-bromo-madakaripura-malang-5d4n",
+        "tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
+        "tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n",
+        "tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-malang-6d5n",
+        "tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n",
+        "tours/from-surabaya/tumpak-sewu-bromo-3d2n",
+        "tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n"
+      ]
+    }
+  ]
+}

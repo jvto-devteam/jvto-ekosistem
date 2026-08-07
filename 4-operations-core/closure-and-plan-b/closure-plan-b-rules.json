@@ -1,0 +1,20 @@
+{
+  "id": "closure-plan-b-rules",
+  "watchedConditions": [
+    "Bromo volcanic alert levels and national park restrictions",
+    "Kasada festival restriction/crowding window",
+    "Ijen first-Friday Rijik monthly closure",
+    "Ijen gas and BBKSDA safety closures",
+    "Tumpak Sewu rainfall and canyon descent safety",
+    "Madakaripura rainfall and stream levels"
+  ],
+  "planBSteps": [
+    "Contact guest in advance where possible.",
+    "Explain what changed and why.",
+    "Propose reasonable alternatives such as different viewpoints, adjusted timing, replacement destinations, or route reorder.",
+    "Apply Package Credit to unused portions where a key itinerary element cannot operate, per booking terms."
+  ],
+  "restrictionBoundary": "JVTO does not bypass official restrictions from BBKSDA, BBTNBTS, BNPB, park management, or safety authorities.",
+  "dataStatus": "extracted",
+  "reviewStatus": "ready"
+}

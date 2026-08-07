@@ -1,0 +1,33 @@
+{
+  "key": "travel-guide-booking-information",
+  "items": [
+    {
+      "question": "How does a JVTO booking work?",
+      "answer": "Choose a tour, submit lead guest details at checkout, pay the required amount (deposit or full payment), then receive your Official E-Voucher / Invoice (PDF) as formal confirmation."
+    },
+    {
+      "question": "How much is the deposit?",
+      "answer": "Standard deposit is 20% of the total booking value."
+    },
+    {
+      "question": "When can full payment be required at checkout?",
+      "answer": "If Day 1 is within 14 days, JVTO may require up to 100% full payment at checkout."
+    },
+    {
+      "question": "When is the balance due if I paid deposit?",
+      "answer": "By card: no later than 5 days before Day 1. By bank transfer/Wise: no later than 3 days before Day 1. Cash (IDR) is only if approved in writing and settled at the JVTO office before departure."
+    },
+    {
+      "question": "What happens if I cancel 48 hours or more before Day 1?",
+      "answer": "Guest-initiated cancellations at ≥48 hours convert 100% of payments received into JVTO Package Credit (not cash refund)."
+    },
+    {
+      "question": "What happens if I cancel less than 48 hours before Day 1 or no-show?",
+      "answer": "Late cancellations/no-shows may be forfeited up to 100%, with no Package Credit or cash refund normally provided."
+    },
+    {
+      "question": "Where do I find the binding rules?",
+      "answer": "Use /policy/booking-payment-cancellation and your Official E-Voucher / Invoice (PDF). If anything differs, the voucher/policies take precedence."
+    }
+  ]
+}

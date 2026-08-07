@@ -1,0 +1,1268 @@
+{
+  "channels": {
+    "JVTO": [
+      {
+        "bookingId": 3390,
+        "bookingCode": "JVTO-3390",
+        "packageId": 29,
+        "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-01",
+          "end_ymd": "2026-08-03",
+          "start": "01 Aug 26",
+          "end": "03 Aug 26",
+          "days": "Sat - Mon"
+        },
+        "totalPax": 8,
+        "pickupComplete": true,
+        "dropoffComplete": false,
+        "balanceStatus": "overpaid_or_adjustment"
+      },
+      {
+        "bookingId": 3418,
+        "bookingCode": "JVTO-3418",
+        "packageId": 28,
+        "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-01",
+          "end_ymd": "2026-08-03",
+          "start": "01 Aug 26",
+          "end": "03 Aug 26",
+          "days": "Sat - Mon"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3401,
+        "bookingCode": "JVTO-3401",
+        "packageId": 34,
+        "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-01",
+          "end_ymd": "2026-08-04",
+          "start": "01 Aug 26",
+          "end": "04 Aug 26",
+          "days": "Sat - Tue"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3692,
+        "bookingCode": "JVTO-3692",
+        "packageId": 33,
+        "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-01",
+          "end_ymd": "2026-08-04",
+          "start": "01 Aug 26",
+          "end": "04 Aug 26",
+          "days": "Sat - Tue"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": false,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3561,
+        "bookingCode": "JVTO-3561",
+        "packageId": 80,
+        "packageName": "3 Day Bromo & Ijen Volcano Discovery from Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-02",
+          "end_ymd": "2026-08-04",
+          "start": "02 Aug 26",
+          "end": "04 Aug 26",
+          "days": "Sun - Tue"
+        },
+        "totalPax": 5,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 1566,
+        "bookingCode": "JVTO-1566",
+        "packageId": 28,
+        "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-03",
+          "end_ymd": "2026-08-05",
+          "start": "03 Aug 26",
+          "end": "05 Aug 26",
+          "days": "Mon - Wed"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3478,
+        "bookingCode": "JVTO-3478",
+        "packageId": 29,
+        "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-03",
+          "end_ymd": "2026-08-05",
+          "start": "03 Aug 26",
+          "end": "05 Aug 26",
+          "days": "Mon - Wed"
+        },
+        "totalPax": 8,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3459,
+        "bookingCode": "JVTO-3459",
+        "packageId": 28,
+        "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-04",
+          "end_ymd": "2026-08-06",
+          "start": "04 Aug 26",
+          "end": "06 Aug 26",
+          "days": "Tue - Thu"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3370,
+        "bookingCode": "JVTO-3370",
+        "packageId": 48,
+        "packageName": "2 Day Bromo Sunrise Adventure from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-05",
+          "end_ymd": "2026-08-06",
+          "start": "05 Aug 26",
+          "end": "06 Aug 26",
+          "days": "Wed - Thu"
+        },
+        "totalPax": 4,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3571,
+        "bookingCode": "JVTO-3571",
+        "packageId": 48,
+        "packageName": "2 Day Bromo Sunrise Adventure from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-05",
+          "end_ymd": "2026-08-06",
+          "start": "05 Aug 26",
+          "end": "06 Aug 26",
+          "days": "Wed - Thu"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3715,
+        "bookingCode": "JVTO-3715",
+        "packageId": 34,
+        "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-05",
+          "end_ymd": "2026-08-08",
+          "start": "05 Aug 26",
+          "end": "08 Aug 26",
+          "days": "Wed - Sat"
+        },
+        "totalPax": 1,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3710,
+        "bookingCode": "JVTO-3710",
+        "packageId": 73,
+        "packageName": "1 Day Bromo Midnight Experience from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-06",
+          "end_ymd": "2026-08-06",
+          "start": "06 Aug 26",
+          "end": "06 Aug 26",
+          "days": "Thu - Thu"
+        },
+        "totalPax": 5,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3622,
+        "bookingCode": "JVTO-3622",
+        "packageId": 28,
+        "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-07",
+          "end_ymd": "2026-08-09",
+          "start": "07 Aug 26",
+          "end": "09 Aug 26",
+          "days": "Fri - Sun"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3255,
+        "bookingCode": "JVTO-3255",
+        "packageId": 33,
+        "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-07",
+          "end_ymd": "2026-08-10",
+          "start": "07 Aug 26",
+          "end": "10 Aug 26",
+          "days": "Fri - Mon"
+        },
+        "totalPax": 4,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3714,
+        "bookingCode": "JVTO-3714",
+        "packageId": null,
+        "packageName": "1D 0N Package",
+        "tripDate": {
+          "start_ymd": "2026-08-08",
+          "end_ymd": "2026-08-08",
+          "start": "08 Aug 26",
+          "end": "08 Aug 26",
+          "days": "Sat - Sat"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3445,
+        "bookingCode": "JVTO-3445",
+        "packageId": 28,
+        "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-08",
+          "end_ymd": "2026-08-10",
+          "start": "08 Aug 26",
+          "end": "10 Aug 26",
+          "days": "Sat - Mon"
+        },
+        "totalPax": 4,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3632,
+        "bookingCode": "JVTO-3632",
+        "packageId": 28,
+        "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-08",
+          "end_ymd": "2026-08-10",
+          "start": "08 Aug 26",
+          "end": "10 Aug 26",
+          "days": "Sat - Mon"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3671,
+        "bookingCode": "JVTO-3671",
+        "packageId": 29,
+        "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-08",
+          "end_ymd": "2026-08-10",
+          "start": "08 Aug 26",
+          "end": "10 Aug 26",
+          "days": "Sat - Mon"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3572,
+        "bookingCode": "JVTO-3572",
+        "packageId": 33,
+        "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-08",
+          "end_ymd": "2026-08-11",
+          "start": "08 Aug 26",
+          "end": "11 Aug 26",
+          "days": "Sat - Tue"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3596,
+        "bookingCode": "JVTO-3596",
+        "packageId": 73,
+        "packageName": "1 Day Bromo Midnight Experience from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-09",
+          "end_ymd": "2026-08-09",
+          "start": "09 Aug 26",
+          "end": "09 Aug 26",
+          "days": "Sun - Sun"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3604,
+        "bookingCode": "JVTO-3604",
+        "packageId": 29,
+        "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-10",
+          "end_ymd": "2026-08-12",
+          "start": "10 Aug 26",
+          "end": "12 Aug 26",
+          "days": "Mon - Wed"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3285,
+        "bookingCode": "JVTO-3285",
+        "packageId": 28,
+        "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-11",
+          "end_ymd": "2026-08-13",
+          "start": "11 Aug 26",
+          "end": "13 Aug 26",
+          "days": "Tue - Thu"
+        },
+        "totalPax": 7,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3453,
+        "bookingCode": "JVTO-3453",
+        "packageId": 28,
+        "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-11",
+          "end_ymd": "2026-08-13",
+          "start": "11 Aug 26",
+          "end": "13 Aug 26",
+          "days": "Tue - Thu"
+        },
+        "totalPax": 9,
+        "pickupComplete": false,
+        "dropoffComplete": false,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 1681,
+        "bookingCode": "JVTO-1681",
+        "packageId": 28,
+        "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-13",
+          "end_ymd": "2026-08-15",
+          "start": "13 Aug 26",
+          "end": "15 Aug 26",
+          "days": "Thu - Sat"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": false,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3672,
+        "bookingCode": "JVTO-3672",
+        "packageId": 54,
+        "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-13",
+          "end_ymd": "2026-08-16",
+          "start": "13 Aug 26",
+          "end": "16 Aug 26",
+          "days": "Thu - Sun"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": false,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3717,
+        "bookingCode": "JVTO-3717",
+        "packageId": 28,
+        "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-14",
+          "end_ymd": "2026-08-16",
+          "start": "14 Aug 26",
+          "end": "16 Aug 26",
+          "days": "Fri - Sun"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3654,
+        "bookingCode": "JVTO-3654",
+        "packageId": 34,
+        "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-14",
+          "end_ymd": "2026-08-17",
+          "start": "14 Aug 26",
+          "end": "17 Aug 26",
+          "days": "Fri - Mon"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 1588,
+        "bookingCode": "JVTO-1588",
+        "packageId": 34,
+        "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-19",
+          "end_ymd": "2026-08-22",
+          "start": "19 Aug 26",
+          "end": "22 Aug 26",
+          "days": "Wed - Sat"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3679,
+        "bookingCode": "JVTO-3679",
+        "packageId": 28,
+        "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-21",
+          "end_ymd": "2026-08-23",
+          "start": "21 Aug 26",
+          "end": "23 Aug 26",
+          "days": "Fri - Sun"
+        },
+        "totalPax": 4,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3675,
+        "bookingCode": "JVTO-3675",
+        "packageId": 33,
+        "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-21",
+          "end_ymd": "2026-08-24",
+          "start": "21 Aug 26",
+          "end": "24 Aug 26",
+          "days": "Fri - Mon"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3718,
+        "bookingCode": "JVTO-3718",
+        "packageId": 34,
+        "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-22",
+          "end_ymd": "2026-08-25",
+          "start": "22 Aug 26",
+          "end": "25 Aug 26",
+          "days": "Sat - Tue"
+        },
+        "totalPax": 2,
+        "pickupComplete": false,
+        "dropoffComplete": false,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3605,
+        "bookingCode": "JVTO-3605",
+        "packageId": 34,
+        "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-23",
+          "end_ymd": "2026-08-26",
+          "start": "23 Aug 26",
+          "end": "26 Aug 26",
+          "days": "Sun - Wed"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3716,
+        "bookingCode": "JVTO-3716",
+        "packageId": 54,
+        "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-23",
+          "end_ymd": "2026-08-26",
+          "start": "23 Aug 26",
+          "end": "26 Aug 26",
+          "days": "Sun - Wed"
+        },
+        "totalPax": 3,
+        "pickupComplete": false,
+        "dropoffComplete": false,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3340,
+        "bookingCode": "JVTO-3340",
+        "packageId": 29,
+        "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-24",
+          "end_ymd": "2026-08-26",
+          "start": "24 Aug 26",
+          "end": "26 Aug 26",
+          "days": "Mon - Wed"
+        },
+        "totalPax": 4,
+        "pickupComplete": false,
+        "dropoffComplete": false,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 1709,
+        "bookingCode": "JVTO-1709",
+        "packageId": 28,
+        "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-25",
+          "end_ymd": "2026-08-27",
+          "start": "25 Aug 26",
+          "end": "27 Aug 26",
+          "days": "Tue - Thu"
+        },
+        "totalPax": 10,
+        "pickupComplete": true,
+        "dropoffComplete": false,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3700,
+        "bookingCode": "JVTO-3700",
+        "packageId": 48,
+        "packageName": "2 Day Bromo Sunrise Adventure from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-26",
+          "end_ymd": "2026-08-27",
+          "start": "26 Aug 26",
+          "end": "27 Aug 26",
+          "days": "Wed - Thu"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3644,
+        "bookingCode": "JVTO-3644",
+        "packageId": 34,
+        "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-28",
+          "end_ymd": "2026-08-31",
+          "start": "28 Aug 26",
+          "end": "31 Aug 26",
+          "days": "Fri - Mon"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": false,
+        "balanceStatus": "settled"
+      },
+      {
+        "bookingId": 3492,
+        "bookingCode": "JVTO-3492",
+        "packageId": 28,
+        "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-29",
+          "end_ymd": "2026-08-31",
+          "start": "29 Aug 26",
+          "end": "31 Aug 26",
+          "days": "Sat - Mon"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": false,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3708,
+        "bookingCode": "JVTO-3708",
+        "packageId": 34,
+        "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+        "tripDate": {
+          "start_ymd": "2026-08-29",
+          "end_ymd": "2026-09-01",
+          "start": "29 Aug 26",
+          "end": "01 Sep 26",
+          "days": "Sat - Tue"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      }
+    ],
+    "KLOOK": [
+      {
+        "bookingId": 3510,
+        "bookingCode": "KLOOK-3510",
+        "packageId": 83,
+        "packageName": "4D3N Mount Bromo, Ijen Crater & Surabaya Night Market from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-02",
+          "end_ymd": "2026-08-05",
+          "start": "02 Aug 26",
+          "end": "05 Aug 26",
+          "days": "Sun - Wed"
+        },
+        "totalPax": 3,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3684,
+        "bookingCode": "KLOOK-3684",
+        "packageId": 82,
+        "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-06",
+          "end_ymd": "2026-08-08",
+          "start": "06 Aug 26",
+          "end": "08 Aug 26",
+          "days": "Thu - Sat"
+        },
+        "totalPax": 3,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 1676,
+        "bookingCode": "KLOOK-1676",
+        "packageId": 84,
+        "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-06",
+          "end_ymd": "2026-08-09",
+          "start": "06 Aug 26",
+          "end": "09 Aug 26",
+          "days": "Thu - Sun"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3352,
+        "bookingCode": "KLOOK-3352",
+        "packageId": 84,
+        "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-06",
+          "end_ymd": "2026-08-09",
+          "start": "06 Aug 26",
+          "end": "09 Aug 26",
+          "days": "Thu - Sun"
+        },
+        "totalPax": 10,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3658,
+        "bookingCode": "KLOOK-3658",
+        "packageId": 84,
+        "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-07",
+          "end_ymd": "2026-08-10",
+          "start": "07 Aug 26",
+          "end": "10 Aug 26",
+          "days": "Fri - Mon"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3438,
+        "bookingCode": "KLOOK-3438",
+        "packageId": 94,
+        "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-08",
+          "end_ymd": "2026-08-08",
+          "start": "08 Aug 26",
+          "end": "08 Aug 26",
+          "days": "Sat - Sat"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3709,
+        "bookingCode": "KLOOK-3709",
+        "packageId": 94,
+        "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-08",
+          "end_ymd": "2026-08-08",
+          "start": "08 Aug 26",
+          "end": "08 Aug 26",
+          "days": "Sat - Sat"
+        },
+        "totalPax": 4,
+        "pickupComplete": true,
+        "dropoffComplete": false,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3508,
+        "bookingCode": "KLOOK-3508",
+        "packageId": 82,
+        "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-08",
+          "end_ymd": "2026-08-10",
+          "start": "08 Aug 26",
+          "end": "10 Aug 26",
+          "days": "Sat - Mon"
+        },
+        "totalPax": 4,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3563,
+        "bookingCode": "KLOOK-3563",
+        "packageId": 82,
+        "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-08",
+          "end_ymd": "2026-08-10",
+          "start": "08 Aug 26",
+          "end": "10 Aug 26",
+          "days": "Sat - Mon"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": false,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3425,
+        "bookingCode": "KLOOK-3425",
+        "packageId": 84,
+        "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-09",
+          "end_ymd": "2026-08-12",
+          "start": "09 Aug 26",
+          "end": "12 Aug 26",
+          "days": "Sun - Wed"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3211,
+        "bookingCode": "KLOOK-3211",
+        "packageId": 84,
+        "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-10",
+          "end_ymd": "2026-08-13",
+          "start": "10 Aug 26",
+          "end": "13 Aug 26",
+          "days": "Mon - Thu"
+        },
+        "totalPax": 4,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3595,
+        "bookingCode": "KLOOK-3595",
+        "packageId": 82,
+        "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-13",
+          "end_ymd": "2026-08-15",
+          "start": "13 Aug 26",
+          "end": "15 Aug 26",
+          "days": "Thu - Sat"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": false,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3559,
+        "bookingCode": "KLOOK-3559",
+        "packageId": 84,
+        "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-13",
+          "end_ymd": "2026-08-16",
+          "start": "13 Aug 26",
+          "end": "16 Aug 26",
+          "days": "Thu - Sun"
+        },
+        "totalPax": 3,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3687,
+        "bookingCode": "KLOOK-3687",
+        "packageId": 83,
+        "packageName": "4D3N Mount Bromo, Ijen Crater & Surabaya Night Market from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-17",
+          "end_ymd": "2026-08-20",
+          "start": "17 Aug 26",
+          "end": "20 Aug 26",
+          "days": "Mon - Thu"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3488,
+        "bookingCode": "KLOOK-3488",
+        "packageId": 82,
+        "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-18",
+          "end_ymd": "2026-08-20",
+          "start": "18 Aug 26",
+          "end": "20 Aug 26",
+          "days": "Tue - Thu"
+        },
+        "totalPax": 1,
+        "pickupComplete": true,
+        "dropoffComplete": false,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3577,
+        "bookingCode": "KLOOK-3577",
+        "packageId": 84,
+        "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-18",
+          "end_ymd": "2026-08-21",
+          "start": "18 Aug 26",
+          "end": "21 Aug 26",
+          "days": "Tue - Fri"
+        },
+        "totalPax": 4,
+        "pickupComplete": true,
+        "dropoffComplete": false,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3220,
+        "bookingCode": "KLOOK-3220",
+        "packageId": 84,
+        "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-19",
+          "end_ymd": "2026-08-22",
+          "start": "19 Aug 26",
+          "end": "22 Aug 26",
+          "days": "Wed - Sat"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3613,
+        "bookingCode": "KLOOK-3613",
+        "packageId": 82,
+        "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-21",
+          "end_ymd": "2026-08-23",
+          "start": "21 Aug 26",
+          "end": "23 Aug 26",
+          "days": "Fri - Sun"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 1584,
+        "bookingCode": "KLOOK-1584",
+        "packageId": 84,
+        "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-21",
+          "end_ymd": "2026-08-24",
+          "start": "21 Aug 26",
+          "end": "24 Aug 26",
+          "days": "Fri - Mon"
+        },
+        "totalPax": 4,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3730,
+        "bookingCode": "KLOOK-3730",
+        "packageId": 84,
+        "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-21",
+          "end_ymd": "2026-08-24",
+          "start": "21 Aug 26",
+          "end": "24 Aug 26",
+          "days": "Fri - Mon"
+        },
+        "totalPax": 2,
+        "pickupComplete": false,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3616,
+        "bookingCode": "KLOOK-3616",
+        "packageId": 82,
+        "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-22",
+          "end_ymd": "2026-08-24",
+          "start": "22 Aug 26",
+          "end": "24 Aug 26",
+          "days": "Sat - Mon"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": false,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3660,
+        "bookingCode": "KLOOK-3660",
+        "packageId": 84,
+        "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-22",
+          "end_ymd": "2026-08-25",
+          "start": "22 Aug 26",
+          "end": "25 Aug 26",
+          "days": "Sat - Tue"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3242,
+        "bookingCode": "KLOOK-3242",
+        "packageId": 84,
+        "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-24",
+          "end_ymd": "2026-08-27",
+          "start": "24 Aug 26",
+          "end": "27 Aug 26",
+          "days": "Mon - Thu"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3574,
+        "bookingCode": "KLOOK-3574",
+        "packageId": 82,
+        "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-26",
+          "end_ymd": "2026-08-28",
+          "start": "26 Aug 26",
+          "end": "28 Aug 26",
+          "days": "Wed - Fri"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3569,
+        "bookingCode": "KLOOK-3569",
+        "packageId": 84,
+        "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-28",
+          "end_ymd": "2026-08-31",
+          "start": "28 Aug 26",
+          "end": "31 Aug 26",
+          "days": "Fri - Mon"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": false,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3721,
+        "bookingCode": "KLOOK-3721",
+        "packageId": 82,
+        "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+        "tripDate": {
+          "start_ymd": "2026-08-30",
+          "end_ymd": "2026-09-01",
+          "start": "30 Aug 26",
+          "end": "01 Sep 26",
+          "days": "Sun - Tue"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": false,
+        "balanceStatus": "balance_due"
+      }
+    ],
+    "TWT": [
+      {
+        "bookingId": 3696,
+        "bookingCode": "TWT-3696",
+        "packageId": null,
+        "packageName": "3D 2N Package",
+        "tripDate": {
+          "start_ymd": "2026-08-05",
+          "end_ymd": "2026-08-07",
+          "start": "05 Aug 26",
+          "end": "07 Aug 26",
+          "days": "Wed - Fri"
+        },
+        "totalPax": 5,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3619,
+        "bookingCode": "TWT-3619",
+        "packageId": null,
+        "packageName": "5D 4N Package",
+        "tripDate": {
+          "start_ymd": "2026-08-07",
+          "end_ymd": "2026-08-11",
+          "start": "07 Aug 26",
+          "end": "11 Aug 26",
+          "days": "Fri - Tue"
+        },
+        "totalPax": 4,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3515,
+        "bookingCode": "TWT-3515",
+        "packageId": null,
+        "packageName": "3D 2N Package",
+        "tripDate": {
+          "start_ymd": "2026-08-11",
+          "end_ymd": "2026-08-13",
+          "start": "11 Aug 26",
+          "end": "13 Aug 26",
+          "days": "Tue - Thu"
+        },
+        "totalPax": 6,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3254,
+        "bookingCode": "TWT-3254",
+        "packageId": null,
+        "packageName": "5D 4N Package",
+        "tripDate": {
+          "start_ymd": "2026-08-13",
+          "end_ymd": "2026-08-17",
+          "start": "13 Aug 26",
+          "end": "17 Aug 26",
+          "days": "Thu - Mon"
+        },
+        "totalPax": 4,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3674,
+        "bookingCode": "TWT-3674",
+        "packageId": null,
+        "packageName": "6D 5N Package",
+        "tripDate": {
+          "start_ymd": "2026-08-22",
+          "end_ymd": "2026-08-27",
+          "start": "22 Aug 26",
+          "end": "27 Aug 26",
+          "days": "Sat - Thu"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3403,
+        "bookingCode": "TWT-3403",
+        "packageId": null,
+        "packageName": "5D 4N Package",
+        "tripDate": {
+          "start_ymd": "2026-08-27",
+          "end_ymd": "2026-08-31",
+          "start": "27 Aug 26",
+          "end": "31 Aug 26",
+          "days": "Thu - Mon"
+        },
+        "totalPax": 4,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3693,
+        "bookingCode": "TWT-3693",
+        "packageId": null,
+        "packageName": "4D 3N Package",
+        "tripDate": {
+          "start_ymd": "2026-08-29",
+          "end_ymd": "2026-09-01",
+          "start": "29 Aug 26",
+          "end": "01 Sep 26",
+          "days": "Sat - Tue"
+        },
+        "totalPax": 2,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3452,
+        "bookingCode": "TWT-3452",
+        "packageId": null,
+        "packageName": "5D 4N Package",
+        "tripDate": {
+          "start_ymd": "2026-08-30",
+          "end_ymd": "2026-09-03",
+          "start": "30 Aug 26",
+          "end": "03 Sep 26",
+          "days": "Sun - Thu"
+        },
+        "totalPax": 5,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      },
+      {
+        "bookingId": 3553,
+        "bookingCode": "TWT-3553",
+        "packageId": null,
+        "packageName": "5D 4N Package",
+        "tripDate": {
+          "start_ymd": "2026-08-31",
+          "end_ymd": "2026-09-04",
+          "start": "31 Aug 26",
+          "end": "04 Sep 26",
+          "days": "Mon - Fri"
+        },
+        "totalPax": 6,
+        "pickupComplete": true,
+        "dropoffComplete": true,
+        "balanceStatus": "balance_due"
+      }
+    ]
+  }
+}

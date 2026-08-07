@@ -1,0 +1,132 @@
+{
+  "schema_version": "jvto-experience/portal-knowledge-feed-v1",
+  "generated_at": "2026-08-07T01:05:44.948Z",
+  "source": "compiled from customer portal detail payloads",
+  "faq_count": 10,
+  "packing_category_count": 8,
+  "checklist_item_count": 3,
+  "faqs": [
+    {
+      "category": "Activity-Based Information",
+      "question": "Is the Ijen trek difficult?",
+      "answer": "The trek is considered moderate. It requires a healthy physical condition to hike for about 1.5-2 hours one way on an incline. The optional descent into the crater is more challenging and rocky. Due to sulfur fumes, it is not recommended for those with respiratory issues."
+    },
+    {
+      "category": "Activity-Based Information",
+      "question": "What is the trek like at Tumpak Sewu and Madakaripura waterfalls?",
+      "answer": "Both treks involve steep, wet, and slippery terrain. You will need to cross rivers and walk under cascading water at Madakaripura. It is mandatory to go with a local guide at both locations for safety. Water trekking shoes are highly recommended."
+    },
+    {
+      "category": "Activity-Based Information",
+      "question": "Will I be able to see the Milky Way at Mount Bromo?",
+      "answer": "Yes, if weather conditions are clear, you can definitely view and photograph the Milky Way before the sunrise at Mount Bromo. It's a spectacular sight!"
+    },
+    {
+      "category": "During Tour Information",
+      "question": "How will I receive my daily schedule?",
+      "answer": "Your full, detailed itinerary is always available on the \"Itinerary\" tab of this portal. Your guide will also brief you each day on the schedule for the following day, including timings and tips."
+    },
+    {
+      "category": "During Tour Information",
+      "question": "What are the typical start times for volcano tours?",
+      "answer": "Be prepared for very early starts! The Mount Bromo sunrise tour departs around 2:30 AM, and the Ijen Crater trek begins around 1:00 AM from your hotel."
+    },
+    {
+      "category": "During Tour Information",
+      "question": "What if I have an emergency during the tour?",
+      "answer": "For any immediate assistance, you can contact the JVTO Emergency line at +62 822-447-888-33. Your safety is our top priority."
+    },
+    {
+      "category": "During Tour Information",
+      "question": "Who will be my driver and guide?",
+      "answer": "Your assigned crew details are listed in the \"Overview\" tab. For groups of 4 or more, you will have a dedicated driver and a separate local guide at each main destination. For smaller groups, you will have an experienced driver-guide."
+    },
+    {
+      "category": "Pre-Tour Information",
+      "question": "What is included and NOT included in my tour package?",
+      "answer": "Included: Private AC transport, English-speaking guide, hotel accommodation with breakfast, all entrance fees in the itinerary, 4x4 Jeep for Bromo, mineral water, and some meals as specified. Not Included: Flights, travel insurance, most dinners and some lunches, tips, and optional activities like horse riding at Bromo (IDR 250,000-350,000). Please check the \"Booking & Financials\" tab for specifics."
+    },
+    {
+      "category": "Pre-Tour Information",
+      "question": "What kind of clothing and footwear should I pack?",
+      "answer": "Pack warm layers (thermal jacket, hat, gloves) for Bromo and Ijen, where temperatures can drop to 2-5°C. Sturdy hiking boots are essential. For waterfalls, bring quick-dry clothes and water shoes/sandals with good grip."
+    },
+    {
+      "category": "Pre-Tour Information",
+      "question": "What mandatory requirements do I need for Ijen trekking?",
+      "answer": "A doctor's health certificate is required by Ijen authorities and this is included on your trip. You just need to bring your passport for the check-up."
+    }
+  ],
+  "packing_recommendations": [
+    {
+      "category": "Clothing for Varied Climates",
+      "items": [
+        "Light, breathable attire for day.",
+        "Warm layers for chilly evenings.",
+        "Rain gear for weather changes."
+      ]
+    },
+    {
+      "category": "Footwear Essentials",
+      "items": [
+        "Sturdy hiking boots for treks.",
+        "Comfortable walking shoes.",
+        "Sandals/flip-flops for beach and leisure."
+      ]
+    },
+    {
+      "category": "Health & Safety Priorities",
+      "items": [
+        "Personal medication.",
+        "First aid kits (supplemented by JVTO).",
+        "High SPF sunscreen and hats.",
+        "Insect repellent.",
+        "Masks for sulfur gases (JVTO provides gas masks; personal ones advisable)."
+      ]
+    },
+    {
+      "category": "Must-Have Gear",
+      "items": [
+        "Flashlights/headlamps.",
+        "Waterproof bags for waterfall visits."
+      ]
+    },
+    {
+      "category": "New Medical Check-Up Requirement",
+      "items": [
+        "Good physical & mental condition.",
+        "Passport."
+      ]
+    },
+    {
+      "category": "Personal Expenses",
+      "items": [
+        "Recommend carrying at least IDR 500,000 per person."
+      ]
+    },
+    {
+      "category": "Photography Gear",
+      "items": [
+        "Camera with spare batteries and memory cards.",
+        "Protective gear against sulfur gases at Ijen."
+      ]
+    },
+    {
+      "category": "Travel Documents",
+      "items": [
+        "Valid ID/Passport and travel insurance."
+      ]
+    }
+  ],
+  "essential_checklist": [
+    {
+      "item": "Travel insurance purchased"
+    },
+    {
+      "item": "Valid passport with 6+ months validity"
+    },
+    {
+      "item": "Warm clothing for mountain weather (2-5°C)"
+    }
+  ]
+}

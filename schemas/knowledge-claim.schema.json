@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jvto.local/schemas/knowledge-claim.schema.json",
+  "title": "Knowledge Claim",
+  "type": "object",
+  "required": ["id", "statement", "owner", "status", "lastReviewed"],
+  "properties": {
+    "id": { "type": "string" },
+    "statement": { "type": "string" },
+    "shortAnswer": { "type": "string" },
+    "detail": { "type": "string" },
+    "owner": { "type": "string" },
+    "evidenceRefs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "primaryPage": { "type": "string" },
+    "status": { "enum": ["draft", "review", "published", "retired"] },
+    "lastReviewed": { "type": "string", "format": "date" }
+  },
+  "additionalProperties": true
+}
+

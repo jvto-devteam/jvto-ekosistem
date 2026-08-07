@@ -1,0 +1,20 @@
+{
+  "id": "booking-channel-policy",
+  "rules": [
+    {
+      "id": "website-only-booking",
+      "statement": "JVTO accepts bookings exclusively through the official website checkout under a valid JVTO Booking ID.",
+      "supportChannels": [
+        "WhatsApp",
+        "email"
+      ],
+      "supportChannelBoundary": "WhatsApp and email are support channels only; they never create, confirm, modify, cancel, or transfer a booking."
+    },
+    {
+      "id": "official-payment-boundary",
+      "statement": "Payments not made through official checkout or listed JVTO bank accounts are not valid JVTO transactions."
+    }
+  ],
+  "dataStatus": "extracted",
+  "reviewStatus": "ready"
+}

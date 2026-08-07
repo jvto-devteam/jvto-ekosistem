@@ -1,0 +1,20 @@
+{
+  "id": "police-escort-large-groups",
+  "service": {
+    "name": "Traffic police escort for large tourist groups",
+    "type": "conditional_add_on_or_written_inclusion",
+    "qualifyingGroupSize": "typically around 18 guests or more",
+    "approvalGuaranteed": false,
+    "approvalAuthority": "Traffic Police / Ditlantas",
+    "requestInputs": [
+      "group size",
+      "vehicle count",
+      "route",
+      "date"
+    ],
+    "billingRule": "If approved, escort costs must be listed explicitly on the programme and invoice.",
+    "boundary": "Not a default inclusion for smaller groups and does not bypass road rules, speed limits, national park access rules, or restricted sites."
+  },
+  "dataStatus": "extracted",
+  "reviewStatus": "ready"
+}

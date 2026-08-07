@@ -1,0 +1,178 @@
+{
+  "slug": "769af9d2b5469bc4816479c2b8c2ed62",
+  "url": "https://legacy.javavolcano-touroperator.com/bookings/details/769af9d2b5469bc4816479c2b8c2ed62?json=true",
+  "statusCode": 200,
+  "ok": true,
+  "json": {
+    "success": true,
+    "booking": {
+      "id": 3696,
+      "booking_code": "JVR/010/08/26",
+      "booking_id": "JVTO-3696",
+      "url": "769af9d2b5469bc4816479c2b8c2ed62",
+      "status": "booked",
+      "customer_id": 4039,
+      "customer_name": "Chui Chi Kin",
+      "package_name": "3 Days 2 Nights Package",
+      "channel": "JVTO",
+      "package_link": "https://javavolcano-touroperator.com/",
+      "duration": "3D 2N",
+      "travel_date_start": "2026-08-05",
+      "travel_date_end": "2026-08-07",
+      "total_pax": 5,
+      "pickup": "Surabaya Airport Terminal 2 MH873",
+      "pickup_time": "14:50:00",
+      "drop": "Banyuwangi",
+      "drop_time": null,
+      "special_requirements": null,
+      "media_link": "https://drive.google.com/drive/folders/1zBszEsHxpUuonu3mXNpT7GzZro-hbhk2",
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 2,
+        "xl": 2,
+        "xxl": 0
+      },
+      "crews": {
+        "guides": [
+          {
+            "id": 68,
+            "name": "Boy",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528760_BOY.JPG",
+            "role": "Escort Guide"
+          }
+        ],
+        "drivers": []
+      },
+      "vehicle_specs": [
+        {
+          "name": "Hiace Commuter",
+          "capacity": "4 - 0 pax",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/cars/hiace.png",
+          "interior": [
+            "https://legacy.javavolcano-touroperator.com/assets/img/cars/interior-hiace.webp"
+          ]
+        }
+      ],
+      "itineraries": [
+        {
+          "day": 1,
+          "title": "Day 1",
+          "itinerary": "Surabaya Airport - Bromo Area",
+          "activity": "Pick up from Surabaya airport - transfer to hotel\nFlight details: MH873 (1315hr KUL - 1450hr SUB)"
+        },
+        {
+          "day": 2,
+          "title": "Day 2",
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Banyuwangi",
+          "activity": "2.30am to Mt. Bromo by private jeep (stargazing, sunrise, crater rim, whispering sands) - back to hotel for breakfast & shower - 12pm check out - Madakaripura Falls - to the next hotel\n*May skipped if too tired/ bad weather (Refund IDR90k/pax + IDR100k guide fares)"
+        },
+        {
+          "day": 3,
+          "title": "Day 3",
+          "itinerary": "Bangsring Underwater - Banyuwangi",
+          "activity": "Check out latest by 12pm - Bangsring Underwater (Activities cost by clients) - Drop off Banyuwangi hotel"
+        }
+      ],
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Manis Ae Cabin & Resto Bromo",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/1728394039_2024-05-05.jpg",
+          "rooms": "Superior Twin - Weekday (1), Single Cabin Twin - Weekday (1), Extra Bed (1)"
+        },
+        {
+          "day": 2,
+          "name": "Lintang Luku Tent",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/1779123213_1be9ed4c-0e3f-4490-acce-2baa756c376f-1653448532481-212bc0cefdd9d8c065d1efbc7ed1b7bc.webp",
+          "rooms": "By Client (2)"
+        }
+      ],
+      "addons": [],
+      "finance": {
+        "grand_total": 12410000,
+        "total_addons": 0,
+        "dp_amount": 0,
+        "balance": 12410000,
+        "paid_amount": 0,
+        "due_date": "1970-01-01 00:00:00",
+        "initial_payment_method": "pay later",
+        "balance_payment_method": null,
+        "payment_link": null,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof": null,
+        "payment_history": []
+      },
+      "faq": {
+        "Pre-Tour Information": {
+          "What is included and NOT included in my tour package?": "Included: Private AC transport, English-speaking guide, hotel accommodation with breakfast, all entrance fees in the itinerary, 4x4 Jeep for Bromo, mineral water, and some meals as specified. Not Included: Flights, travel insurance, most dinners and some lunches, tips, and optional activities like horse riding at Bromo (IDR 250,000-350,000). Please check the \"Booking & Financials\" tab for specifics.",
+          "What mandatory requirements do I need for Ijen trekking?": "A doctor's health certificate is required by Ijen authorities and this is included on your trip. You just need to bring your passport for the check-up.",
+          "What kind of clothing and footwear should I pack?": "Pack warm layers (thermal jacket, hat, gloves) for Bromo and Ijen, where temperatures can drop to 2-5°C. Sturdy hiking boots are essential. For waterfalls, bring quick-dry clothes and water shoes/sandals with good grip."
+        },
+        "During Tour Information": {
+          "How will I receive my daily schedule?": "Your full, detailed itinerary is always available on the \"Itinerary\" tab of this portal. Your guide will also brief you each day on the schedule for the following day, including timings and tips.",
+          "What are the typical start times for volcano tours?": "Be prepared for very early starts! The Mount Bromo sunrise tour departs around 2:30 AM, and the Ijen Crater trek begins around 1:00 AM from your hotel.",
+          "Who will be my driver and guide?": "Your assigned crew details are listed in the \"Overview\" tab. For groups of 4 or more, you will have a dedicated driver and a separate local guide at each main destination. For smaller groups, you will have an experienced driver-guide.",
+          "What if I have an emergency during the tour?": "For any immediate assistance, you can contact the JVTO Emergency line at +62 822-447-888-33. Your safety is our top priority."
+        },
+        "Activity-Based Information": {
+          "Is the Ijen trek difficult?": "The trek is considered moderate. It requires a healthy physical condition to hike for about 1.5-2 hours one way on an incline. The optional descent into the crater is more challenging and rocky. Due to sulfur fumes, it is not recommended for those with respiratory issues.",
+          "Will I be able to see the Milky Way at Mount Bromo?": "Yes, if weather conditions are clear, you can definitely view and photograph the Milky Way before the sunrise at Mount Bromo. It's a spectacular sight!",
+          "What is the trek like at Tumpak Sewu and Madakaripura waterfalls?": "Both treks involve steep, wet, and slippery terrain. You will need to cross rivers and walk under cascading water at Madakaripura. It is mandatory to go with a local guide at both locations for safety. Water trekking shoes are highly recommended."
+        }
+      },
+      "packing_recommendations": {
+        "Travel Documents": [
+          "Valid ID/Passport and travel insurance."
+        ],
+        "Clothing for Varied Climates": [
+          "Light, breathable attire for day.",
+          "Warm layers for chilly evenings.",
+          "Rain gear for weather changes."
+        ],
+        "Footwear Essentials": [
+          "Sturdy hiking boots for treks.",
+          "Comfortable walking shoes.",
+          "Sandals/flip-flops for beach and leisure."
+        ],
+        "Health & Safety Priorities": [
+          "Personal medication.",
+          "First aid kits (supplemented by JVTO).",
+          "High SPF sunscreen and hats.",
+          "Insect repellent.",
+          "Masks for sulfur gases (JVTO provides gas masks; personal ones advisable)."
+        ],
+        "Must-Have Gear": [
+          "Flashlights/headlamps.",
+          "Waterproof bags for waterfall visits."
+        ],
+        "Photography Gear": [
+          "Camera with spare batteries and memory cards.",
+          "Protective gear against sulfur gases at Ijen."
+        ],
+        "New Medical Check-Up Requirement": [
+          "Good physical & mental condition.",
+          "Passport."
+        ],
+        "Personal Expenses": [
+          "Recommend carrying at least IDR 500,000 per person."
+        ]
+      },
+      "essential_checklist": [
+        {
+          "item": "Valid passport with 6+ months validity",
+          "checked": false
+        },
+        {
+          "item": "Travel insurance purchased",
+          "checked": false
+        },
+        {
+          "item": "Warm clothing for mountain weather (2-5°C)",
+          "checked": false
+        }
+      ]
+    }
+  }
+}

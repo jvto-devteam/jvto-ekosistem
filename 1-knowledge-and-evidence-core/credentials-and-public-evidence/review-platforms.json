@@ -1,0 +1,44 @@
+{
+  "_comment": "SINGLE SOURCE OF TRUTH for the public review aggregate (relocated from src/data/reviewStats.canonical.json, PACKAGE 02). These are the authoritative PLATFORM totals shown on the Google Maps / Trustpilot / TripAdvisor pages (per docs/CANONICAL_FACTS.md), NOT `SELECT COUNT(*) FROM reviews` (the DB holds only the ingested subset). Consumed by BOTH src/lib/jvtoReviews.ts (runtime REVIEW_PLATFORMS + AGGREGATE_RATING) and scripts/export-public-review-api-snapshots.mjs (generated snapshot). Update counts HERE only — both paths pick them up, so the snapshot and runtime can never diverge. A rating is never presented without its verifiedAt.",
+  "platforms": {
+    "trustpilot": 51,
+    "google": 123,
+    "tripadvisor": 21
+  },
+  "average_rating": 4.8,
+  "profiles": [
+    {
+      "platform": "Trustpilot",
+      "rating": 4.8,
+      "reviewCount": 51,
+      "profileUrl": "https://trustpilot.com/review/javavolcano-touroperator.com",
+      "verifiedAt": "2026-05-09",
+      "isPrimary": true
+    },
+    {
+      "platform": "Google Maps",
+      "rating": 4.9,
+      "reviewCount": 123,
+      "profileUrl": "https://www.google.com/maps?cid=1266403973589689021",
+      "verifiedAt": "2026-05-26",
+      "isPrimary": false
+    },
+    {
+      "platform": "TripAdvisor",
+      "rating": 4.95,
+      "reviewCount": 21,
+      "profileUrl": "https://www.tripadvisor.com/Attraction_Review-g297715-d19983165-Reviews-Java_Volcano_Tour_Operator-Surabaya_East_Java_Java.html",
+      "verifiedAt": "2026-04-22",
+      "isPrimary": false
+    },
+    {
+      "platform": "GetYourGuide",
+      "rating": null,
+      "reviewCount": null,
+      "profileUrl": "https://www.getyourguide.com/java-volcano-tour-operator-s260697/",
+      "verifiedAt": null,
+      "isPrimary": false
+    }
+  ],
+  "lastReviewed": "2026-08-04"
+}

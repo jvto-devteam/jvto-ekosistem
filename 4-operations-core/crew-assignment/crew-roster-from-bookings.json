@@ -1,0 +1,138 @@
+{
+  "drivers": [
+    {
+      "id": 75,
+      "name": "Didin",
+      "tags": "JVTO,KLOOK,TWT",
+      "monthlyEscortCount": 4
+    },
+    {
+      "id": 79,
+      "name": "Edi",
+      "tags": "JVTO,KLOOK",
+      "monthlyEscortCount": 3
+    },
+    {
+      "id": 7,
+      "name": "Fredi",
+      "tags": "JVTO,KLOOK,TWT",
+      "monthlyEscortCount": 8
+    },
+    {
+      "id": 9,
+      "name": "GARAGE",
+      "tags": "TWT,JVTO,KLOOK",
+      "monthlyEscortCount": 31
+    },
+    {
+      "id": 28,
+      "name": "Holili",
+      "tags": "JVTO,KLOOK,TWT",
+      "monthlyEscortCount": 6
+    },
+    {
+      "id": 73,
+      "name": "Joyo",
+      "tags": "JVTO,KLOOK,TWT",
+      "monthlyEscortCount": 5
+    },
+    {
+      "id": 81,
+      "name": "Romi",
+      "tags": "JVTO,KLOOK",
+      "monthlyEscortCount": 3
+    },
+    {
+      "id": 80,
+      "name": "Sahril",
+      "tags": "JVTO,KLOOK",
+      "monthlyEscortCount": 4
+    },
+    {
+      "id": 1,
+      "name": "Yandi",
+      "tags": "JVTO,KLOOK,TWT",
+      "monthlyEscortCount": 6
+    },
+    {
+      "id": 62,
+      "name": "Yusuf",
+      "tags": "JVTO,KLOOK",
+      "monthlyEscortCount": 5
+    }
+  ],
+  "guides": [
+    {
+      "id": 3,
+      "name": "Anjas",
+      "role": "Escort",
+      "tags": "JVTO,KLOOK,TWT",
+      "monthlyEscortCount": 5,
+      "monthlyIjenCount": 3
+    },
+    {
+      "id": 68,
+      "name": "Boy",
+      "role": "Ijen",
+      "tags": "JVTO,KLOOK,TWT",
+      "monthlyEscortCount": 5,
+      "monthlyIjenCount": 4
+    },
+    {
+      "id": 46,
+      "name": "Fauzi",
+      "role": "Ijen",
+      "tags": "JVTO,KLOOK,TWT",
+      "monthlyEscortCount": 2,
+      "monthlyIjenCount": 8
+    },
+    {
+      "id": 39,
+      "name": "Gufron",
+      "role": "Ijen",
+      "tags": "JVTO,KLOOK,TWT",
+      "monthlyEscortCount": 5,
+      "monthlyIjenCount": 2
+    },
+    {
+      "id": 2,
+      "name": "Juan",
+      "role": "Ijen",
+      "tags": "JVTO,KLOOK,TWT",
+      "monthlyEscortCount": 0,
+      "monthlyIjenCount": 10
+    },
+    {
+      "id": 17,
+      "name": "Kiki",
+      "role": "Escort",
+      "tags": "JVTO,KLOOK,TWT",
+      "monthlyEscortCount": 5,
+      "monthlyIjenCount": 4
+    },
+    {
+      "id": 56,
+      "name": "Local Ijen",
+      "role": "Ijen",
+      "tags": "TWT,JVTO,KLOOK",
+      "monthlyEscortCount": 0,
+      "monthlyIjenCount": 12
+    },
+    {
+      "id": 13,
+      "name": "Rendi",
+      "role": "Ijen",
+      "tags": "JVTO,KLOOK,TWT",
+      "monthlyEscortCount": 6,
+      "monthlyIjenCount": 2
+    },
+    {
+      "id": 4,
+      "name": "Taufik",
+      "role": "Escort",
+      "tags": "JVTO,KLOOK,TWT",
+      "monthlyEscortCount": 5,
+      "monthlyIjenCount": 3
+    }
+  ]
+}

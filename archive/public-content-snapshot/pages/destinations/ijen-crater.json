@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "route": "/destinations/ijen-crater",
+    "title": "Mount Ijen Blue Fire Tour Guide — Permits, Health, Hike | JVTO",
+    "description": "Private Ijen blue fire hike from Surabaya or Bali. Gas mask, BBKSDA permit & health certificate coordinated. Tourist Police-led. 4.8★ Trustpilot.",
+    "section": "destinations",
+    "status": "published",
+    "owner": "editorial",
+    "lastReviewed": "2026-08-06",
+    "schemaTypes": [
+      "TouristAttraction"
+    ],
+    "summary": "Kawah Ijen — the world's highest-volume acidic crater lake, a pre-dawn blue-fire phenomenon, and a working sulfur-miner trail in Banyuwangi, East Java."
+  },
+  "lede": [
+    "The world's highest-volume acidic crater lake, a pre-dawn blue-fire phenomenon, and a working sulfur-miner trail — there is no other experience like it in Java."
+  ],
+  "sections": [
+    {
+      "id": "chrome",
+      "eyebrow": "Banyuwangi · Active stratovolcano",
+      "location_label": "Banyuwangi",
+      "blocks": [
+        {
+          "type": "grid",
+          "role": "quick-facts",
+          "items": [
+            { "icon": "mountain", "k": "Elevation", "v": "2,386 m" },
+            { "icon": "mappin", "k": "Location", "v": "Banyuwangi", "sub": "Bondowoso Regency, East Java" },
+            { "icon": "flame", "k": "Type", "v": "Active stratovolcano" },
+            { "icon": "calendar", "k": "Best season", "v": "Dry: Apr–Oct" },
+            { "icon": "footprints", "k": "Access", "v": "Night hike", "sub": "Paltuding trailhead · ~3 km, ~90 min ascent" },
+            { "icon": "shieldalert", "k": "Regulatory authority", "v": "BBKSDA Jawa Timur" }
+          ]
+        },
+        {
+          "type": "grid",
+          "role": "elevation-stat",
+          "items": [
+            { "label": "Elevation", "value": "2,386 m" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "attraction",
+      "attraction_name": "Kawah Ijen",
+      "alternate_names": ["Ijen Crater", "Kawah Ijen Volcano"],
+      "additional_properties": [
+        { "name": "Crater rim elevation", "value": "2386", "unitText": "m" },
+        { "name": "Trail distance (one-way)", "value": "3", "unitText": "km" },
+        { "name": "Ascent time", "value": "90", "unitText": "min" },
+        { "name": "Difficulty level", "value": "Strenuous — steep rocky night hike from Paltuding trailhead" },
+        { "name": "Crater lake acidity", "value": "≈ pH 0 (highest-volume acidic crater lake on Earth)" },
+        { "name": "Blue fire", "value": "Pre-dawn sulfuric-gas phenomenon; weather- and gas-dependent, not guaranteed" },
+        { "name": "Health certificate", "value": "Mandatory for every guest before crater entry (BBKSDA SE.1658/KSA.9/2024)" },
+        { "name": "Best time to visit", "value": "Dry season (April–October); midnight departure for the blue-fire window" }
+      ],
+      "amenity_features": [
+        { "name": "Gas masks provided", "value": true },
+        { "name": "Trekking poles provided", "value": true },
+        { "name": "Health screening coordination", "value": true }
+      ],
+      "body_md": "Active stratovolcano at 2,386 m with the world's largest acidic crater lake and the pre-dawn blue fire phenomenon. Night hike from the Paltuding trailhead (~3 km). BBKSDA East Java is the regulatory authority. Health-certificate coordination is mandatory for every guest under BBKSDA SE.1658/KSA.9/2024."
+    },
+    {
+      "id": "signature",
+      "blocks": [
+        {
+          "type": "markdown",
+          "body_md": "## The Blue Fire\n\nInside Ijen's crater, sulfuric gases emerge from vents under pressure and ignite on contact with the air, burning an electric blue. The flames are visible only in darkness — which is why JVTO groups depart for the rim around midnight and descend toward the crater floor before first light.\n\nIt is one of only a handful of places on earth where the effect occurs at this scale. The reward at sunrise — a turquoise acidic lake filling the crater — is extraordinary in its own right.\n\n> **Weather & gas conditions apply.** The blue fire is a natural phenomenon, subject to weather and volcanic gas activity. It is not guaranteed on any given night. We plan around the optimal viewing window — we do not promise an outcome we cannot control."
+        },
+        {
+          "type": "markdown",
+          "body_md": "## The Hike — Paltuding to the crater rim\n\n1. **Departure timing** — 00:00 for the blue-fire window; 03:00 for sunrise only. Your guide confirms the plan based on conditions.\n2. **The ascent** — ~3 km one-way from the Paltuding trailhead, roughly 90 minutes of steady switchbacks to the crater rim.\n3. **Optional crater descent** — a steeper ~700 m path drops to the crater floor for the closest blue-fire view. Optional, and only when conditions and your guide allow.\n\n| | |\n|---|---|\n| Distance (one-way) | ~3 km |\n| Ascent time | ~90 min |\n| Trailhead | Paltuding |\n| Crater descent | ~700 m (optional) |\n\nEquipment provided by JVTO: **gas masks** · **headlamps**."
+        },
+        {
+          "type": "markdown",
+          "body_md": "## Health Certificate Coordination\n\n**Mandatory · BBKSDA SE.1658/KSA.9/2024.** A recent health certificate is mandatory for every guest before Kawah Ijen crater entry. JVTO coordinates the clinic workflow — there is nothing for you to arrange separately. The BSrE-signed surat sehat is issued through Dr. Ahmad Irwandanu (SIP, Kemenkes RI) and is checked at the crater access gate.\n\n> **Coordinated for every guest.** This is a regulatory step under BBKSDA, not a JVTO-imposed formality. Oxygen saturation, blood pressure, heart rate and respiratory history are recorded before crater access, at the guest's hotel. No valid health certificate, no crater entry — that requirement is BBKSDA's.\n\n→ [How Ijen health screening works](/travel-guide/ijen-health-screening)"
+        },
+        {
+          "type": "markdown",
+          "body_md": "## Sulfur Miners — a shared working path\n\nThe trail you climb is a working route. Local miners carry 70–90 kg loads of sulfur blocks from the crater floor by hand — daily, at the same pre-dawn hours visitors are ascending. JVTO guides brief every group before departure: move aside for load-carriers, and never photograph a miner without first asking.\n\nThe mining operation is part of the reality of Ijen — a human one, not a photographic attraction. The briefing is standard on every Ijen route, not optional."
+        }
+      ]
+    },
+    {
+      "id": "handoff",
+      "travel_guide": { "href": "/travel-guide/ijen-health-screening", "label": "Ijen Health Screening" },
+      "blocks": [
+        {
+          "type": "grid",
+          "role": "related",
+          "items": [
+            { "slug": "mount-bromo", "name": "Mount Bromo" },
+            { "slug": "tumpak-sewu-waterfall", "name": "Tumpak Sewu Waterfall" }
+          ]
+        }
+      ]
+    }
+  ]
+}

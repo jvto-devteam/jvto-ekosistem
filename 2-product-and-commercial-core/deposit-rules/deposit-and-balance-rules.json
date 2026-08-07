@@ -1,0 +1,46 @@
+{
+  "id": "deposit-and-balance-rules",
+  "rules": [
+    {
+      "id": "standard-deposit",
+      "type": "deposit",
+      "value": 20,
+      "unit": "percent_of_total_booking_value",
+      "statement": "Standard deposit is 20% of total booking value."
+    },
+    {
+      "id": "close-departure-full-payment",
+      "type": "deposit",
+      "condition": "Day 1 is within 14 days",
+      "maximumRequiredPayment": 100,
+      "unit": "percent_of_total_booking_value",
+      "statement": "If Day 1 is within 14 days, JVTO may require up to 100% full payment at booking."
+    },
+    {
+      "id": "card-qris-balance-deadline",
+      "type": "balance_deadline",
+      "paymentMethods": [
+        "card",
+        "QRIS"
+      ],
+      "deadlineDaysBeforeDay1": 5
+    },
+    {
+      "id": "bank-wise-balance-deadline",
+      "type": "balance_deadline",
+      "paymentMethods": [
+        "bank_wire",
+        "Wise"
+      ],
+      "deadlineDaysBeforeDay1": 3
+    },
+    {
+      "id": "cash-office-balance",
+      "type": "balance_payment",
+      "paymentMethod": "cash_idr_at_jvto_office",
+      "condition": "Only if approved in writing in advance and settled before Day 1."
+    }
+  ],
+  "dataStatus": "extracted",
+  "reviewStatus": "ready"
+}

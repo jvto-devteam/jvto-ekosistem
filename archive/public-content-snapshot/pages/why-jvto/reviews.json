@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "route": "/why-jvto/reviews",
+    "title": "Guest Voices: Real Experiences, Independently Verified",
+    "browserTitle": "Guest Reviews – Independent Voices on JVTO Tours | JVTO",
+    "description": "Independent reviews of JVTO on Trustpilot, Google Maps and Tripadvisor. Verified voices — we cannot edit or remove any review on those platforms.",
+    "section": "why-jvto",
+    "status": "published",
+    "owner": "company",
+    "lastReviewed": "2026-08-04",
+    "schemaTypes": [
+      "WebPage"
+    ],
+    "faqKey": "why-jvto-reviews",
+    "summary": "Verified guest reviews across Trustpilot, Google Maps, and TripAdvisor with canonical counts."
+  },
+  "lede": [
+    "Reviews matter when they are independent. We link to official platform listings so you can judge patterns yourself.",
+    "JVTO cannot edit or delete reviews on these platforms.",
+    "Official channels: Website https://javavolcano-touroperator.com • WhatsApp +6282244788833 • Email hello@javavolcano-touroperator.com."
+  ],
+  "sections": [
+    {
+      "id": "where-to-check-reviews-official-links",
+      "title": "Where to check reviews (official links)",
+      "blocks": [
+        {
+          "type": "markdown",
+          "body_md": "- Tripadvisor: https://www.tripadvisor.com/Attraction_Review-g297715-d19983165-Reviews-Java_Volcano_Tour_Operator-Surabaya_East_Java_Java.html\n- Trustpilot: https://trustpilot.com/review/javavolcano-touroperator.com\n- Google Maps: https://www.google.com/maps?cid=1266403973589689021"
+        }
+      ]
+    },
+    {
+      "id": "what-to-look-for-in-reviews",
+      "title": "What to look for in reviews",
+      "blocks": [
+        {
+          "type": "markdown",
+          "body_md": "- Safety mindset and calm decision-making.\n- Guide quality and communication.\n- Logistics: timing, pick-ups, hotel handling.\n- How issues are handled when conditions change."
+        }
+      ]
+    },
+    {
+      "id": "how-we-respond-to-feedback",
+      "title": "How we respond to feedback",
+      "blocks": [
+        {
+          "type": "markdown",
+          "body_md": "We read feedback for patterns. If something is unclear, we fix the process and communicate it to the team.\n\nFor rules that affect refunds, changes, or inclusions, the policy pages apply.\n\n- Booking & payment policy: /policy/booking-payment-cancellation\n- Inclusions & exclusions: /policy/inclusions-exclusions"
+        }
+      ]
+    }
+  ]
+}

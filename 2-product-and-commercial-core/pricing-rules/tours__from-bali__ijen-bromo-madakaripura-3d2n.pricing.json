@@ -1,0 +1,56 @@
+{
+  "id": "package-BALI-3D2N-003-pricing",
+  "packageId": "package-BALI-3D2N-003",
+  "slug": "tours/from-bali/ijen-bromo-madakaripura-3d2n",
+  "currency": "IDR",
+  "aggregateOffer": {
+    "lowPrice": 2850000,
+    "highPrice": 7500000
+  },
+  "tiers": [
+    {
+      "sku": "package-BALI-3D2N-003-1",
+      "paxMin": 11,
+      "paxMax": 0,
+      "pricePerPerson": 2850000
+    },
+    {
+      "sku": "package-BALI-3D2N-003-2",
+      "paxMin": 8,
+      "paxMax": 10,
+      "pricePerPerson": 3050000
+    },
+    {
+      "sku": "package-BALI-3D2N-003-3",
+      "paxMin": 6,
+      "paxMax": 7,
+      "pricePerPerson": 3350000
+    },
+    {
+      "sku": "package-BALI-3D2N-003-4",
+      "paxMin": 4,
+      "paxMax": 5,
+      "pricePerPerson": 3550000
+    },
+    {
+      "sku": "package-BALI-3D2N-003-5",
+      "paxMin": 3,
+      "paxMax": 3,
+      "pricePerPerson": 3800000
+    },
+    {
+      "sku": "package-BALI-3D2N-003-6",
+      "paxMin": 2,
+      "paxMax": 2,
+      "pricePerPerson": 4050000
+    },
+    {
+      "sku": "package-BALI-3D2N-003-7",
+      "paxMin": 1,
+      "paxMax": 1,
+      "pricePerPerson": 7500000
+    }
+  ],
+  "startFrom": 2850000,
+  "highPrice": 7500000
+}

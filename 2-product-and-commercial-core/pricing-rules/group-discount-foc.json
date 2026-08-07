@@ -1,0 +1,26 @@
+{
+  "id": "group-discount-foc",
+  "rules": [
+    {
+      "payingGuests": "18+",
+      "focSeats": 1
+    },
+    {
+      "payingGuests": "35+",
+      "focSeats": 2
+    },
+    {
+      "payingGuests": "50+",
+      "focSeats": 3,
+      "additionalDiscountPercent": 5
+    }
+  ],
+  "conditions": [
+    "Applies to JVTO direct website bookings.",
+    "FOC benefits apply to paying guests only.",
+    "Must be agreed in writing during booking.",
+    "Not available through third-party platforms."
+  ],
+  "dataStatus": "extracted",
+  "reviewStatus": "needs_canonical_review"
+}

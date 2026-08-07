@@ -1,0 +1,139 @@
+{
+  "_comment": "Canonical JVTO people record — GROUNDWORK (AD-03, Milestone 2 people cluster). This record is the intended input for the later Team render cutover; the public feed, JSON-LD, rendered DOM, and FAQ projection are NOT active in this PR and no public route reads this file yet. When that projection is built, crew.unpublished must be excluded from it. Records carry ATTRIBUTED evidence references (buildCrewSchemas.ts NAMED_GUIDE_PERSONAS + knowsAbout, content/pages/why-jvto/our-team.json, OKF curation/approved/people.yaml, llm-wiki wiki/people/{crew-registry,agung-sambuko,dr-ahmad-irwandanu}.md, entityGraph.ts FOUNDER_SCHEMA/DOCTOR_SCHEMA); in this PR, CI validates reference PRESENCE and record consistency — external source matching is not performed. Review correlation uses src/lib/publicContent/generated/reviewApiSnapshots.json feed[].crews[] (not hand-authored quotes).",
+  "lastReviewed": "2026-08-05",
+  "disclaimer": {
+    "policeIndependence": "JVTO (PT Java Volcano Rendezvous) is a private tour operator. References to the founder's role as an active Indonesian Tourist Police officer describe his personal professional background only; they do not represent, imply, or constitute endorsement by the Indonesian National Police or any government body.",
+    "directManagedCrew": "JVTO crew are assigned and managed directly by JVTO and are not sourced ad hoc for each booking."
+  },
+  "leadership": [
+    {
+      "id": "agung-sambuko",
+      "name": "Agung Sambuko",
+      "alternateNames": ["Mr. Sam", "Bripka Agung Sambuko"],
+      "relationship": "leadership",
+      "roles": ["Founder", "Operations & Safety Leadership"],
+      "background": "Active Indonesian Tourist Police officer (Direktorat Pengamanan Objek Vital — Ditpamobvit, East Java) and founder of PT Java Volcano Rendezvous; JVTO's operations and safety model is built around this role.",
+      "memberOf": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)",
+      "namingRule": "legal → Agung Sambuko · guest-facing → Mr. Sam · press/police → Bripka Agung Sambuko",
+      "evidence": {
+        "policeVerification": "SPRIN POLPAR + SPRIN WAL-TRAVEL 2024; independent press (Detik.com 2021-03-14, Radar Jember 2021)",
+        "source": "entityGraph.ts FOUNDER_SCHEMA; llm-wiki wiki/people/agung-sambuko.md; OKF people/agung-sambuko"
+      },
+      "countsAsCrew": false
+    }
+  ],
+  "medicalPartner": {
+    "id": "dr-ahmad-irwandanu",
+    "name": "Dr. Ahmad Irwandanu",
+    "relationship": "medical-screening-coordination",
+    "relationshipNote": "Records an operating relationship for Ijen health-screening coordination. Not an employee and not operational crew.",
+    "jobTitle": "Licensed General Practitioner (Dokter Umum)",
+    "role": "Coordinates the mandatory pre-hike Ijen health screening for every guest; screening is included in the tour and conducted at the guest's hotel before the guide briefing.",
+    "credentials": {
+      "sip": "503.446/664/DRU/4/430.9.13/2026",
+      "sipIssuer": "DPMPTSP Kabupaten Bondowoso",
+      "str": "QN00001073380217",
+      "strValidTo": "2031-01-06",
+      "facility": "Klinik Bakti Husada, Bondowoso, Jawa Timur",
+      "verifiableVia": "Kemenkes SatuSehat / KKI (publicly checkable)",
+      "verificationUrls": [
+        "https://satusehat.kemkes.go.id/sdmk/nakes/QN00001073380217",
+        "https://www.kki.go.id/cekdokter/form"
+      ],
+      "lastVerified": "2026-08-01"
+    },
+    "claimBoundary": "License validity is evidenced. Do not assert private-practice marketing details and do not certify individual guest screening certificates. The screening requirement is set by the conservation authority (BBKSDA), not by JVTO or this doctor.",
+    "countsAsCrew": false
+  },
+  "crew": {
+    "total": 11,
+    "guides": 7,
+    "drivers": 4,
+    "note": "11 published operational crew profiles (7 guides + 4 drivers). Additional drivers with HPWKI KTA credential_state: pending are listed under `unpublished` and carry rendered:false/public:false so the later Team render/feed/JSON-LD projection MUST exclude them; that projection is not part of this PR.",
+    "unpublished": [
+      { "code": "yusuf", "name": "Yusuf", "role": "driver", "reason": "HPWKI KTA credential_state: pending", "rendered": false, "public": false },
+      { "code": "dika", "name": "Dika", "role": "driver", "reason": "HPWKI KTA credential_state: pending", "rendered": false, "public": false },
+      { "code": "pras", "name": "Pras", "role": "driver", "reason": "HPWKI KTA credential_state: pending", "rendered": false, "public": false }
+    ],
+    "roster": [
+      {
+        "code": "anjas", "name": "Anjas", "role": "guide", "languages": ["Indonesian", "English"],
+        "specialties": ["Blue Fire photography", "astrophotography", "01:00 crater night ascent", "SO2 / gas-mask safety"],
+        "kta": { "id": "KTA-G-2024-006", "credentialType": "HPWKI membership credential (KTA)", "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)", "credentialState": "confirmed", "evidenceSource": "OKF curation/approved/people.yaml; llm-wiki crew-registry.md", "reviewedDate": "2026-06-26" },
+        "image": { "src": "/uploads/1768270423657-690185912-anjas.png", "alt": "JVTO Ijen guide Anjas" }
+      },
+      {
+        "code": "gufron", "name": "Gufron", "role": "guide", "languages": ["Indonesian", "English"],
+        "specialties": ["Bromo / Tengger sunrise", "4WD jeep routing", "geology", "multi-day Bromo–Ijen logistics"],
+        "kta": { "id": "KTA-G-2024-001", "credentialType": "HPWKI membership credential (KTA)", "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)", "credentialState": "confirmed", "evidenceSource": "OKF curation/approved/people.yaml; llm-wiki crew-registry.md", "reviewedDate": "2026-06-26" },
+        "image": { "src": "/uploads/1768225567764-405955176-gufron.png", "alt": "JVTO Bromo guide Gufron" }
+      },
+      {
+        "code": "rendi", "name": "Rendi", "role": "guide", "languages": ["Indonesian", "English"],
+        "specialties": ["Tumpak Sewu canyon descent", "expedition coordination", "crater safety / rescue", "first aid"],
+        "kta": { "id": "KTA-G-2024-002", "credentialType": "HPWKI membership credential (KTA)", "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)", "credentialState": "confirmed", "evidenceSource": "OKF curation/approved/people.yaml; llm-wiki crew-registry.md", "reviewedDate": "2026-06-26" },
+        "image": { "src": "/uploads/1768228514527-518051332-rendi.png", "alt": "JVTO Tumpak Sewu guide Rendi" }
+      },
+      {
+        "code": "boy", "name": "Boy (Ahboy)", "role": "guide", "languages": ["Indonesian", "English"],
+        "specialties": ["Ijen crater senior guiding", "blue-fire timing", "gas-mask coordination", "cultural storytelling"],
+        "kta": { "id": "KTA-G-2024-004", "credentialType": "HPWKI membership credential (KTA)", "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)", "credentialState": "confirmed", "evidenceSource": "OKF curation/approved/people.yaml; llm-wiki crew-registry.md", "reviewedDate": "2026-06-26" },
+        "image": { "src": "/uploads/1768228191022-893381041-boy.png", "alt": "JVTO senior Ijen guide Boy (Ahboy)" }
+      },
+      {
+        "code": "kiki", "name": "Kiki", "role": "guide", "languages": ["Indonesian", "English"],
+        "specialties": ["guest photography direction", "instructional guiding", "Tumpak Sewu routing"],
+        "kta": { "id": "KTA-G-2024-008", "credentialType": "HPWKI membership credential (KTA)", "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)", "credentialState": "confirmed", "evidenceSource": "OKF curation/approved/people.yaml; llm-wiki crew-registry.md", "reviewedDate": "2026-06-26" },
+        "image": { "src": "/uploads/1768271545598-834784538-kiki.png", "alt": "JVTO guide Kiki" }
+      },
+      {
+        "code": "taufik", "name": "Taufik", "role": "guide", "languages": ["Indonesian", "English"],
+        "specialties": ["pre-hike briefings", "mixed-age / family guiding", "patient pacing"],
+        "kta": { "id": "KTA-G-2024-007", "credentialType": "HPWKI membership credential (KTA)", "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)", "credentialState": "confirmed", "evidenceSource": "OKF curation/approved/people.yaml; llm-wiki crew-registry.md", "reviewedDate": "2026-06-26" },
+        "image": { "src": "/uploads/1768228083285-919198019-taufik_1_.png", "alt": "JVTO guide Taufik" }
+      },
+      {
+        "code": "fauzi", "name": "Fauzi", "role": "guide", "languages": ["Indonesian"],
+        "specialties": ["low-crowd viewpoint routing", "attentive coordination", "photo scouting"],
+        "kta": { "id": "KTA-G-2024-010", "credentialType": "HPWKI membership credential (KTA)", "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)", "credentialState": "confirmed", "evidenceSource": "OKF curation/approved/people.yaml; llm-wiki crew-registry.md", "reviewedDate": "2026-06-26" },
+        "image": { "src": "/uploads/1768226003889-338819579-fauzi.png", "alt": "JVTO guide Fauzi" }
+      },
+      {
+        "code": "fredi", "name": "Fredi", "role": "driver", "languages": ["Indonesian", "English"],
+        "specialties": ["long-haul overland (Surabaya–Bromo–Ijen)", "Bali ferry crossing"],
+        "kta": { "id": "KTA-D-2024-005", "credentialType": "HPWKI membership credential (KTA)", "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)", "credentialState": "confirmed", "evidenceSource": "OKF curation/approved/people.yaml; llm-wiki crew-registry.md", "reviewedDate": "2026-06-26" },
+        "image": { "src": "/uploads/1768276791622-262250680-freddy.png", "alt": "JVTO driver Fredi" }
+      },
+      {
+        "code": "joyo", "name": "Joyo", "role": "driver", "languages": ["Indonesian"],
+        "specialties": ["efficient point-to-point transfers", "mountain defensive driving"],
+        "kta": { "id": "KTA-D-2024-011", "credentialType": "HPWKI membership credential (KTA)", "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)", "credentialState": "confirmed", "evidenceSource": "OKF curation/approved/people.yaml; llm-wiki crew-registry.md", "reviewedDate": "2026-06-26" },
+        "image": { "src": "/uploads/1768277336049-911840775-joyo.png", "alt": "JVTO driver Joyo" }
+      },
+      {
+        "code": "yandi", "name": "Yandi", "role": "driver", "languages": ["Indonesian", "English"],
+        "specialties": ["pre-tour briefings", "family-friendly driving"],
+        "kta": { "id": "KTA-D-2024-003", "credentialType": "HPWKI membership credential (KTA)", "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)", "credentialState": "confirmed", "evidenceSource": "OKF curation/approved/people.yaml; llm-wiki crew-registry.md", "reviewedDate": "2026-06-26" },
+        "image": { "src": "/uploads/1768270364125-144711646-yandi.png", "alt": "JVTO driver Yandi" }
+      },
+      {
+        "code": "holili", "name": "Holili", "role": "driver", "languages": ["Indonesian"],
+        "specialties": ["route optimization", "local Bondowoso–Ijen access roads", "punctuality"],
+        "kta": { "id": "KTA-D-2024-009", "credentialType": "HPWKI membership credential (KTA)", "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)", "credentialState": "confirmed", "evidenceSource": "OKF curation/approved/people.yaml; llm-wiki crew-registry.md", "reviewedDate": "2026-06-26" },
+        "image": { "src": "/uploads/1768277053384-470130286-holili.jpg", "alt": "JVTO driver Holili" }
+      }
+    ]
+  },
+  "reviewCorrelation": {
+    "note": "When the Team projection is built, person↔review links will retain each review's stable id, platform, reviewer display name (already public on the source platform), date, tour/destination context via package, and the public permalink; no quote is fabricated or paraphrased and no per-person aggregateRating is asserted. In THIS PR the validator only checks that every review-named crew resolves to a canonical person.",
+    "evidenceSource": "src/lib/publicContent/generated/reviewApiSnapshots.json",
+    "matchMethod": "reviewApiSnapshots.json feed[].crews[].name is matched to a canonical person by EXACT normalized display name; a first-name fallback is used only because every crew + unpublished first name is unique (the gate fails on any first-name ambiguity). The review snapshot does NOT carry a canonical people code."
+  },
+  "publicFieldAllowlist": {
+    "crew": ["code", "name", "role", "languages", "specialties", "kta.id", "kta.credentialType", "kta.issuer", "kta.credentialState", "image.src", "image.alt"],
+    "leadership": ["id", "name", "alternateNames", "relationship", "roles", "background", "memberOf"],
+    "medicalPartner": ["id", "name", "relationship", "jobTitle", "role", "claimBoundary", "credentials.sip", "credentials.sipIssuer", "credentials.str", "credentials.strValidTo", "credentials.facility", "credentials.verifiableVia", "credentials.verificationUrls"],
+    "review": ["id", "platform", "reviewerDisplayName", "date", "star", "personCode", "packageContext", "url"],
+    "doNotPublish": ["phone", "personalInstagram", "personalFacebook", "homeAddress", "rawKtaCardImage", "signature", "internalDbId", "package_id", "reviewerProfilePhoto", "unpublishedDbField", "guestScreeningCertificate"]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jvto.local/schemas/product.schema.json",
+  "title": "Tour Product Contract",
+  "type": "object",
+  "required": ["id", "name", "status", "version", "effectiveFrom"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "version": { "type": "string" },
+    "status": { "enum": ["draft", "active", "paused", "retired"] },
+    "route": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "durationDays": { "type": "number" },
+    "startLocations": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "endLocations": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "inclusions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "exclusions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "pricingRuleRef": { "type": "string" },
+    "depositRuleRef": { "type": "string" },
+    "policyRefs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "effectiveFrom": { "type": "string", "format": "date" }
+  },
+  "additionalProperties": true
+}
+

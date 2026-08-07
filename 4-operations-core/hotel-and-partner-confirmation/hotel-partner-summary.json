@@ -1,0 +1,156 @@
+{
+  "hotels": [
+    {
+      "hotelId": 38,
+      "hotel": "Artha Cottage",
+      "bookingCount": 6,
+      "roomNights": 6,
+      "meals": [
+        "Breakfast"
+      ]
+    },
+    {
+      "hotelId": 50,
+      "hotel": "ARTOTEL Cabin Bromo",
+      "bookingCount": 1,
+      "roomNights": 0,
+      "meals": []
+    },
+    {
+      "hotelId": 63,
+      "hotel": "ARTOTEL Cabin Bromo",
+      "bookingCount": 1,
+      "roomNights": 1,
+      "meals": [
+        "Breakfast"
+      ]
+    },
+    {
+      "hotelId": 1,
+      "hotel": "Baratha Hotel and Resto",
+      "bookingCount": 24,
+      "roomNights": 26,
+      "meals": [
+        "Breakfast",
+        "Dinner"
+      ]
+    },
+    {
+      "hotelId": 33,
+      "hotel": "Doho Homestay",
+      "bookingCount": 19,
+      "roomNights": 27,
+      "meals": [
+        "Breakfast"
+      ]
+    },
+    {
+      "hotelId": 70,
+      "hotel": "DoubleTree by Hilton",
+      "bookingCount": 1,
+      "roomNights": 2,
+      "meals": [
+        "Breakfast"
+      ]
+    },
+    {
+      "hotelId": 66,
+      "hotel": "HARRIS Hotel & Conventions Malang",
+      "bookingCount": 6,
+      "roomNights": 13,
+      "meals": [
+        "Breakfast"
+      ]
+    },
+    {
+      "hotelId": 56,
+      "hotel": "Harris Hotel Satelit",
+      "bookingCount": 7,
+      "roomNights": 15,
+      "meals": [
+        "Breakfast",
+        "Lunch"
+      ]
+    },
+    {
+      "hotelId": 6,
+      "hotel": "Holiday Inn Express Surabaya Centerpoint, an IHG Hotel",
+      "bookingCount": 2,
+      "roomNights": 1,
+      "meals": [
+        "Breakfast"
+      ]
+    },
+    {
+      "hotelId": 69,
+      "hotel": "Ijen Resort and Villas",
+      "bookingCount": 1,
+      "roomNights": 1,
+      "meals": [
+        "Breakfast"
+      ]
+    },
+    {
+      "hotelId": 17,
+      "hotel": "Jiwa Jawa Bromo",
+      "bookingCount": 2,
+      "roomNights": 0,
+      "meals": []
+    },
+    {
+      "hotelId": 11,
+      "hotel": "Joglo Kecombrang Bromo",
+      "bookingCount": 56,
+      "roomNights": 82,
+      "meals": [
+        "Breakfast",
+        "Dinner"
+      ]
+    },
+    {
+      "hotelId": 68,
+      "hotel": "Lintang Luku Tent",
+      "bookingCount": 2,
+      "roomNights": 3,
+      "meals": []
+    },
+    {
+      "hotelId": 32,
+      "hotel": "Luminor Hotel",
+      "bookingCount": 1,
+      "roomNights": 1,
+      "meals": [
+        "Breakfast"
+      ]
+    },
+    {
+      "hotelId": 60,
+      "hotel": "Manis Ae Cabin & Resto Bromo",
+      "bookingCount": 11,
+      "roomNights": 22,
+      "meals": [
+        "Breakfast"
+      ]
+    },
+    {
+      "hotelId": 34,
+      "hotel": "Riverside Homestay",
+      "bookingCount": 36,
+      "roomNights": 62,
+      "meals": [
+        "Breakfast",
+        "Dinner",
+        "Lunch"
+      ]
+    },
+    {
+      "hotelId": 57,
+      "hotel": "Yanto Homestay Anugerah Tumpak Sewu",
+      "bookingCount": 2,
+      "roomNights": 2,
+      "meals": [
+        "Breakfast"
+      ]
+    }
+  ]
+}

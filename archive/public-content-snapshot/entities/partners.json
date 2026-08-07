@@ -1,0 +1,26 @@
+{
+  "_comment": "Partner/membership records (AD-03) with their OKF claim boundaries — the boundary text is part of the record; copy never expands past it.",
+  "partners": [
+    {
+      "key": "hpwki",
+      "name": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)",
+      "relationship": "member",
+      "description": "Ijen volcano guide association supervised by BBKSDA Jawa Timur; members receive annual BBKSDA safety training on volcanic gas protocols.",
+      "claimBoundary": "Public partner or membership context only."
+    },
+    {
+      "key": "indecon",
+      "name": "INDECON (Indonesian Ecotourism Network)",
+      "relationship": "network listing",
+      "claimBoundary": "Public network listing only."
+    },
+    {
+      "key": "isic",
+      "name": "ISIC (International Student Identity Card)",
+      "relationship": "registered provider",
+      "providerId": "259268",
+      "claimBoundary": "Registered ISIC provider (provider listing only) — never \"verified ISIC partner\"; the provider directory entry is pending direct provider evidence (OKF trust/partners/isic is needs_review)."
+    }
+  ],
+  "lastReviewed": "2026-08-04"
+}

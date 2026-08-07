@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "route": "/destinations/mount-bromo",
+    "title": "Mount Bromo Sunrise Guide — Tours, Tickets & Tips | JVTO",
+    "description": "Private Mount Bromo sunrise tour from Surabaya or Bali. Dedicated 4WD jeep, guide & driver, all entrance tickets. Tourist Police-led. 4.8★ Trustpilot.",
+    "section": "destinations",
+    "status": "published",
+    "owner": "editorial",
+    "lastReviewed": "2026-08-06",
+    "schemaTypes": [
+      "TouristAttraction"
+    ],
+    "summary": "Mount Bromo — the smoking crater and Penanjakan sunrise inside the Tengger caldera, Probolinggo, East Java, reached by private 4WD jeep."
+  },
+  "lede": [
+    "The smoking crater and the sunrise that justifies a 03:00 start. JVTO holds BBKSDA park clearance and a POLPAR licence issued to a serving Tourist Police officer — every document is publicly verifiable before you pay."
+  ],
+  "sections": [
+    {
+      "id": "chrome",
+      "eyebrow": "Probolinggo · Tengger Caldera",
+      "location_label": "Probolinggo",
+      "blocks": [
+        {
+          "type": "grid",
+          "role": "quick-facts",
+          "items": [
+            { "icon": "mountain", "k": "Elevation", "v": "2,329 m" },
+            { "icon": "mappin", "k": "Location", "v": "Tengger Caldera", "sub": "Probolinggo Regency, East Java" },
+            { "icon": "compass", "k": "Signature viewpoint", "v": "Penanjakan · 2,770 m" },
+            { "icon": "route", "k": "Caldera traverse", "v": "4WD private jeep" },
+            { "icon": "clock", "k": "From Surabaya", "v": "~3 hours", "sub": "Midnight departure to Cemoro Lawang" },
+            { "icon": "calendar", "k": "Best season", "v": "Dry: Apr–Oct" }
+          ]
+        },
+        {
+          "type": "grid",
+          "role": "elevation-stat",
+          "items": [
+            { "label": "Elevation", "value": "2,329 m" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "attraction",
+      "attraction_name": "Mount Bromo",
+      "alternate_names": ["Gunung Bromo", "Bromo Volcano"],
+      "additional_properties": [
+        { "name": "Summit elevation", "value": "2329", "unitText": "m" },
+        { "name": "Sunrise viewpoint elevation", "value": "2770", "unitText": "m" },
+        { "name": "Difficulty level", "value": "Easy to moderate — short crater-rim walk, 4WD jeep access to the caldera" },
+        { "name": "4WD jeep", "value": "Mandatory for Penanjakan viewpoint and Sea of Sand access (included in JVTO packages)" },
+        { "name": "Health certificate", "value": "Not required (no sulfuric-gas exposure at tourist viewing points)" },
+        { "name": "Best time to visit", "value": "Dry season (April–October); pre-dawn 03:00–05:00 for sunrise" }
+      ],
+      "estimated_cost": { "currency": "IDR", "value": "160000", "name": "Bromo Tengger Semeru National Park entrance (foreign visitor, per person)" },
+      "amenity_features": [
+        { "name": "Private 4WD jeep included", "value": true },
+        { "name": "Sunrise viewpoint access", "value": true }
+      ],
+      "body_md": "Active stratovolcano at 2,329 m in the Tengger caldera, Probolinggo, East Java. Famous for the Penanjakan sunrise viewpoint (2,770 m), the sea-of-sand caldera floor traversed by 4WD jeep, and an active smoking crater. Part of Bromo Tengger Semeru National Park."
+    },
+    {
+      "id": "signature",
+      "blocks": [
+        {
+          "type": "markdown",
+          "body_md": "## Why JVTO for Bromo\n\n- **Police-led.** Founder Mr. Sam (Bripka Agung Sambuko) is an active Ditpamobvit officer. Route decisions answer to police protocol, not marketing metrics.\n- **100% private.** Your own vehicle, driver, and crew — no shared jeeps, no strangers, no compromise on timing.\n- **All-inclusive.** Transport, entrance fees, the 4WD jeep, accommodation, water and T-shirt are bundled. No surprise local payments.\n- **Verifiable.** NIB 1102230032918 is checkable at OSS. POLPAR, BBKSDA and HPWKI credentials are listed. Trustpilot 4.8/5 from 51 reviews."
+        }
+      ]
+    },
+    {
+      "id": "handoff",
+      "travel_guide": { "href": "/travel-guide/packing-and-fitness", "label": "Packing & Fitness" },
+      "blocks": [
+        {
+          "type": "grid",
+          "role": "related",
+          "items": [
+            { "slug": "ijen-crater", "name": "Ijen Crater" },
+            { "slug": "tumpak-sewu-waterfall", "name": "Tumpak Sewu Waterfall" }
+          ]
+        }
+      ]
+    }
+  ]
+}

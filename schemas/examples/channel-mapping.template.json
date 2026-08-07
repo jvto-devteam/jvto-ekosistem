@@ -1,0 +1,9 @@
+{
+  "id": "channel-mapping-id",
+  "channel": "website | klook | getyourguide | viator | agency | whatsapp",
+  "productId": "tour-product-id",
+  "externalProductId": null,
+  "status": "draft",
+  "availability": "available | unavailable | seasonal | manual-review",
+  "notes": ""
+}

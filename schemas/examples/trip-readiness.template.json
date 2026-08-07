@@ -1,0 +1,13 @@
+{
+  "bookingId": "booking-id",
+  "readinessStatus": "not_ready",
+  "missingItems": [],
+  "pickupStatus": "missing",
+  "paymentStatus": "unknown",
+  "healthCertificateStatus": "not_required | required | pending | completed | failed",
+  "crewAssignments": [],
+  "vehicleAssignments": [],
+  "partnerConfirmations": [],
+  "closureStatus": "normal | watch | closed | plan_b_active",
+  "incidentRefs": []
+}

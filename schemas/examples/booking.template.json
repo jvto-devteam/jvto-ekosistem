@@ -1,0 +1,20 @@
+{
+  "id": "booking-id",
+  "status": "inquiry",
+  "sourceChannel": "website | whatsapp | partner | agency",
+  "productId": "tour-product-id",
+  "productVersion": "v1",
+  "customerRef": null,
+  "travelerRefs": [],
+  "paymentRefs": [],
+  "pickup": {
+    "status": "missing",
+    "location": null,
+    "time": null
+  },
+  "healthRequirements": [],
+  "documents": [],
+  "communicationRefs": [],
+  "createdAt": null,
+  "updatedAt": null
+}

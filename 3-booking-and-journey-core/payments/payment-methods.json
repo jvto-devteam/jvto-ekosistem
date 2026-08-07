@@ -1,0 +1,37 @@
+{
+  "id": "payment-methods",
+  "currency": "IDR",
+  "gateway": {
+    "name": "Xendit",
+    "methods": [
+      "credit_card",
+      "debit_card",
+      "QRIS"
+    ],
+    "notes": "Fee calculated by Xendit and shown at checkout."
+  },
+  "balanceMethods": [
+    "card",
+    "QRIS",
+    "bank_wire",
+    "Wise",
+    "cash_IDR_at_JVTO_office_if_preapproved"
+  ],
+  "bankAccountsMentioned": [
+    {
+      "bank": "Bank BRI",
+      "accountName": "PT Java Volcano Rendezvous",
+      "accountNumber": "001301001779564",
+      "swift": "BRINIDJAXXX"
+    },
+    {
+      "bank": "Bank BCA",
+      "accountName": "PT Java Volcano Rendezvous",
+      "accountNumber": "1200944352",
+      "swift": "CENAIDJAXXX"
+    }
+  ],
+  "securityBoundary": "JVTO will never ask for full card numbers, CVV codes, or banking credentials via WhatsApp, chat, or email.",
+  "dataStatus": "extracted",
+  "reviewStatus": "needs_payment_account_confirmation"
+}

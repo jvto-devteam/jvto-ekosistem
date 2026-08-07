@@ -1,0 +1,18 @@
+{
+  "id": "booking-flow",
+  "bookingSteps": [
+    "Choose route and dates.",
+    "Review price and add-ons.",
+    "Accept terms and pay.",
+    "Receive Official E-Voucher.",
+    "Access My Booking Portal."
+  ],
+  "confirmationConditions": [
+    "A package has been selected.",
+    "The required payment has been processed.",
+    "The Official E-Voucher / Invoice PDF has been issued by JVTO."
+  ],
+  "channelBoundary": "WhatsApp and email help planning/support but never create, confirm, modify, cancel, or transfer a booking.",
+  "dataStatus": "extracted",
+  "reviewStatus": "needs_lifecycle_status_confirmation"
+}

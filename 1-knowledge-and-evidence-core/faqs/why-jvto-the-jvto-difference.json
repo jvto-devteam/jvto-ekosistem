@@ -1,0 +1,26 @@
+{
+  "key": "why-jvto-the-jvto-difference",
+  "items": [
+    {
+      "question": "Who leads JVTO operations?",
+      "answer": "JVTO is founded and led by Agung Sambuko (Mr. Sam), an active Tourist Police officer in East Java. This shapes the safety mindset across all tours."
+    },
+    {
+      "question": "What does tourist police-led actually mean for my trip?",
+      "answer": "It means safety decisions, timing, and coordination follow a disciplined protocol—not improvisation. Clear boundaries, early adjustments, and honest communication when conditions change."
+    },
+    {
+      "question": "How can I verify JVTO claims independently?",
+      "answer": "Use the Proof Library at /verify-jvto. Legal documents, police-related files, press links, and history artifacts are organized so you can check each claim before booking."
+    },
+    {
+      "question": "Does JVTO guarantee volcano phenomena like blue fire?",
+      "answer": "No. Natural phenomena depend on conditions and cannot be guaranteed. What JVTO offers is disciplined planning and honest communication when the situation changes.",
+      "note": "drift-ok: canonical negation — quotes the forbidden phrase in question form; the answer is 'No' (facts-lock compliant)"
+    },
+    {
+      "question": "Where are the binding terms for my booking?",
+      "answer": "Binding terms are in your Official E-Voucher / Invoice (PDF) and the policy pages at /policy. Website content is informational only."
+    }
+  ]
+}

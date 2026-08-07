@@ -1,0 +1,15 @@
+HTTP/2 200 
+x-powered-by: PHP/8.2.32
+cache-control: no-cache, private
+content-type: application/json
+vary: X-Inertia,User-Agent
+set-cookie: XSRF-TOKEN=eyJpdiI6IlN2UnFsNm4rSHlDc1oyS0NmN0RuMEE9PSIsInZhbHVlIjoiZENXNG9DMVFka1dWeE4zdzRtdnpnMWo4Y1h1N2JadGNDTkxRaHZrY3VLbEdDNnd5eXV2eUhWdUdEc0cwdWRrZHlHU1FPK1dCcDNubXQ3RXlzYlhpYnNvekEvTTlndklQUlEzbTZUeDRGbTA0RjVrbnlzWDhFVWZlRWx4UVpNR3ciLCJtYWMiOiJlMmRkYWM1MjA2Y2E2YTk1YjQyYjQ0YTVlZTgwODlmMjJhMTNmMzU1Y2ZjNGUwODNjZGY2ZGYyZDRiYmQyZTI1IiwidGFnIjoiIn0%3D; expires=Fri, 07 Aug 2026 02:05:42 GMT; Max-Age=7200; path=/; secure; samesite=lax
+set-cookie: laravel_session=eyJpdiI6IlUxNWlPME1qT3Jyblp0UHJxQXZGN2c9PSIsInZhbHVlIjoiRlZUOERtQ0dxN1A0SVpLMWUrcHA3QlBCcEZWMTNBcnNkSm51c3JhRTR0L2dHcldJZVFlZEUyUWc5Q2RxRCtDSmZCRVdERUlMTkh4ZHJzU2cxNEN1LzlReEx1VW96M281RytHWlE4czUxUmNxYlZoVER0a0xEOTNOOGFoTHduNlgiLCJtYWMiOiI2ODJlODBlMzZmNzBjYjEzN2VhZDM4MjhkNWMxOTE0YjViM2I5Mjk2OGE2NDU2YjY4OTdlYTY4MDJjNjZkMWJkIiwidGFnIjoiIn0%3D; expires=Fri, 07 Aug 2026 02:05:42 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax
+date: Fri, 07 Aug 2026 00:05:42 GMT
+server: LiteSpeed
+platform: hostinger
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000
+

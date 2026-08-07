@@ -1,0 +1,168 @@
+{
+  "schema_version": "jvto-experience-output/invoice-receipt-v1",
+  "generated_at": "2026-08-07T00:53:25.738Z",
+  "privacy_note": "Templates use placeholder fields. Customer names, email, phone, payment links, and booking URLs are runtime values and are not stored here as real records.",
+  "source_files": [
+    "/Users/macbook/Code/javavolcano-touroperator/resources/views/Backoffice/email-template/new-reservation.blade.php",
+    "/Users/macbook/Code/javavolcano-touroperator/resources/views/Backoffice/email-template/new-receipt-attach.blade.php",
+    "/Users/macbook/Code/jvto-web/src/app/(website)/my-booking/[slug]/page.tsx",
+    "/Users/macbook/Code/jvto-web/src/app/(website)/my-booking/[slug]/bank-transfer/page.tsx"
+  ],
+  "templates": [
+    {
+      "id": "reservation_invoice_email",
+      "output_type": "email_html",
+      "lifecycle_stage": "checkout_created_pending_payment",
+      "audience": "customer",
+      "subject_pattern": "INVOICE {{customer_name_uppercase}}",
+      "title": "Deposit invoice email",
+      "purpose": "Ask customer to review booking summary and complete deposit/full payment using the secure payment link.",
+      "primary_cta": {
+        "label": "Pay Your Deposit Securely",
+        "href": "{{payment_link}}"
+      },
+      "visual_assets": {
+        "logo": "https://legacy.javavolcano-touroperator.com/assets/img/jvto-color.png",
+        "hero_image_source": "package banner when available, fallback volcano landscape"
+      },
+      "fields": [
+        "customer_name",
+        "package_name",
+        "package_url",
+        "tour_date_start",
+        "tour_date_end",
+        "total_pax",
+        "pickup_or_tbc",
+        "total_price_idr",
+        "deposit_due_idr",
+        "payment_type_label",
+        "due_date",
+        "payment_link"
+      ],
+      "customer_copy_summary": [
+        "Thanks customer for choosing JVTO.",
+        "States booking is pending deposit or full payment.",
+        "Shows booking summary and payment amount.",
+        "Says detailed invoice is attached as PDF.",
+        "Points to cancellation/amendment policy in attached invoice.",
+        "Offers official email and WhatsApp support."
+      ],
+      "policy_links": [
+        "https://javavolcano-touroperator.com/travel-guide/booking-information",
+        "http://javavolcano-touroperator.com/policy/privacy"
+      ]
+    },
+    {
+      "id": "payment_receipt_pdf",
+      "output_type": "pdf_or_print_html",
+      "lifecycle_stage": "payment_received",
+      "audience": "customer",
+      "title": "Payment receipt",
+      "receipt_number_pattern": "{{booking_code with JVR replaced by RCP}}/{{payment_sequence_number}}",
+      "status_badge": "PAID",
+      "bill_to_fields": [
+        "customer_name",
+        "customer_email",
+        "customer_phone"
+      ],
+      "company_fields": {
+        "legal_name": "PT. Java Volcano Rendezvous",
+        "address": "Jl. Khairil Anwar 102 A, East Java 68214, Indonesia",
+        "phone": "+62 822-4478-8833",
+        "email": "hello@javavolcano-touroperator.com"
+      },
+      "line_items": [
+        {
+          "type": "tour_package",
+          "fields": [
+            "package_name",
+            "travel_date_start",
+            "travel_date_end",
+            "total_pax",
+            "unit_price_idr",
+            "amount_idr"
+          ]
+        },
+        {
+          "type": "add_on_service",
+          "repeated": true,
+          "fields": [
+            "add_on_name",
+            "qty",
+            "unit_price_idr",
+            "subtotal_idr"
+          ]
+        }
+      ],
+      "totals": [
+        "subtotal_services_idr",
+        "discount_idr_if_any",
+        "final_subtotal_idr_if_discounted",
+        "total_price_idr",
+        "required_payment_label",
+        "required_payment_amount_idr",
+        "amount_paid_idr"
+      ],
+      "discount_labels": {
+        "default": "Discount (1st Payment)",
+        "discount_id_235": "1 Free of Charge (FOC)",
+        "discount_id_236": "2 Free of Charge (FOC)",
+        "discount_id_237": "3 Free of Charge (FOC) + 5% Discount"
+      }
+    },
+    {
+      "id": "customer_portal_document_links",
+      "output_type": "portal_links",
+      "lifecycle_stage": "booking_dashboard",
+      "audience": "customer",
+      "route_pattern": "https://javavolcano-touroperator.com/my-booking/{{booking_url}}",
+      "documents": [
+        {
+          "label": "Invoice",
+          "href_pattern": "{{legacy_domain}}/bookings/invoice/{{booking_url}}"
+        },
+        {
+          "label": "Receipt",
+          "href_pattern": "{{legacy_domain}}/bookings/receipt/{{booking_url}}"
+        },
+        {
+          "label": "Add-on Invoice",
+          "href_pattern": "{{legacy_domain}}/bookings/invoice-addon/{{booking_url}}",
+          "condition": "booking has add-ons"
+        }
+      ]
+    },
+    {
+      "id": "bank_transfer_upload_page",
+      "output_type": "portal_form",
+      "lifecycle_stage": "balance_or_manual_payment",
+      "audience": "customer",
+      "route_pattern": "https://javavolcano-touroperator.com/my-booking/{{booking_url}}/bank-transfer",
+      "amount_displayed": "booking.finance.balance",
+      "payment_accounts": [
+        {
+          "bank": "BRI",
+          "account_name": "PT Java Volcano Rendezvous",
+          "account_number": "001301001779564",
+          "swift": "BRINIDJAXXX"
+        },
+        {
+          "bank": "BCA",
+          "account_name": "PT Java Volcano Rendezvous",
+          "account_number": "1200944352",
+          "swift": "CENAIDJAXXX"
+        }
+      ],
+      "form_fields": [
+        "sender_name",
+        "proof_file"
+      ],
+      "accepted_file_types": [
+        "image/*",
+        "application/pdf"
+      ],
+      "success_message": "Receipt uploaded; team will verify shortly.",
+      "policy_note_source": "policy bundle: invoice/payment-rules and website_checkout/anti-fraud"
+    }
+  ]
+}

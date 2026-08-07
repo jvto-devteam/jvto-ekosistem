@@ -1,0 +1,181 @@
+{
+  "schema_version": "jvto-booking/website-tour-to-checkout-flow-v1",
+  "generated_at": "2026-08-07T01:05:44.948Z",
+  "live_example_urls": [
+    "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
+    "https://javavolcano-touroperator.com/checkout"
+  ],
+  "source_files": [
+    "/Users/macbook/Code/jvto-web/src/components/website/TourDetail.tsx",
+    "/Users/macbook/Code/jvto-web/src/app/(website)/checkout/CheckoutInner.tsx",
+    "/Users/macbook/Code/jvto-web/src/app/(api)/api/checkout/route.ts"
+  ],
+  "purpose": "Define the structured pre-booking intake flow from tour detail page into official website checkout.",
+  "tour_detail_intake": {
+    "required_user_inputs": [
+      "start_date",
+      "pax"
+    ],
+    "package_context_from_page": [
+      "package_id",
+      "duration_id",
+      "package_label",
+      "min_pax",
+      "price_tiers",
+      "image_url",
+      "add_ons",
+      "ijen_relevance",
+      "category_id"
+    ],
+    "date_blocking_source": "TourDetail BLOCKED_RANGES",
+    "blocked_ranges": [
+      {
+        "start": "2026-03-16",
+        "end": "2026-03-20"
+      },
+      {
+        "start": "2026-04-05",
+        "end": "2026-04-11"
+      },
+      {
+        "start": "2026-05-01",
+        "end": "2026-05-01"
+      },
+      {
+        "start": "2026-05-30",
+        "end": "2026-05-30"
+      },
+      {
+        "start": "2026-05-02",
+        "end": "2026-05-02"
+      },
+      {
+        "start": "2026-05-29",
+        "end": "2026-06-01"
+      }
+    ],
+    "add_on_rule": "If add-ons exist, customer confirms add-ons before checkout. Transport add-ons use qty=1; other add-ons use qty=pax.",
+    "local_storage_key": "checkoutPayload",
+    "checkout_navigation": "/checkout?pid={{packageIdSku}}"
+  },
+  "checkout_step_1_details": {
+    "sections": [
+      "Trip Configuration",
+      "Contact Details",
+      "Student Verification when packageCategory=student"
+    ],
+    "required_fields": [
+      "start_date",
+      "travelers_pax",
+      "lead_traveler_name",
+      "email_address",
+      "whatsapp_number"
+    ],
+    "conditional_fields": [
+      {
+        "condition": "student package",
+        "fields": [
+          "isic_code_per_traveler"
+        ],
+        "verification_endpoint": "/api/check-isic"
+      }
+    ],
+    "sign_in_option": "Google express checkout can auto-fill contact details when session exists.",
+    "recalculation": [
+      "price tier selected by pax",
+      "FOC discount recalculated by pax",
+      "add-on quantity/subtotal recalculated",
+      "down payment recalculated by trip date"
+    ]
+  },
+  "checkout_step_2_payment": {
+    "sections": [
+      "Review & Payment",
+      "Policy source",
+      "Payment method",
+      "Ijen health-screening notice when relevant",
+      "terms consent"
+    ],
+    "down_payment_rule": [
+      {
+        "condition": "trip is 14 or more days away",
+        "due_now": "20% deposit"
+      },
+      {
+        "condition": "trip is less than 14 days away",
+        "due_now": "full payment"
+      }
+    ],
+    "payment_method_rule": [
+      {
+        "condition": "trip is 6 or more days away",
+        "method": "Credit Card / Debit Card via Xendit",
+        "confirmation": "instant after payment"
+      },
+      {
+        "condition": "trip is under 6 days away",
+        "method": "Manual Bank Transfer",
+        "confirmation": "admin verification required"
+      }
+    ],
+    "consent_required": true,
+    "policy_links": [
+      "/travel-guide/booking-information"
+    ],
+    "ijen_notice_condition": "payload.ijenRelevant is true"
+  },
+  "checkout_legacy_payload": {
+    "endpoint": "/api/checkout -> NEXT_PUBLIC_LEGACY_URL/checkout",
+    "contactDetails": [
+      "name",
+      "email",
+      "phone",
+      "note"
+    ],
+    "bookingSelection": [
+      "package_id",
+      "travel_date_start",
+      "numb_of_pax",
+      "user_id",
+      "payment_method",
+      "down_payment",
+      "total_package",
+      "total_addons",
+      "grand_total",
+      "total_discount",
+      "addons"
+    ],
+    "isic_codes": "array, present for student checkout",
+    "travelerDetails": [
+      "pickupLocation",
+      "pickupDetail",
+      "flightNumber",
+      "trainNumber",
+      "pickupTime",
+      "dropoffLocation",
+      "dropoffDetail",
+      "dropoffFlightNumber",
+      "dropoffTrainNumber",
+      "dropoffTime",
+      "specialRequirements"
+    ],
+    "success_behavior": "remove checkoutPayload and redirect browser to result.payment_link"
+  },
+  "commercial_rules": {
+    "foc_discount": [
+      {
+        "pax_min": 18,
+        "discount": "1 pax free"
+      },
+      {
+        "pax_min": 34,
+        "discount": "2 pax free"
+      },
+      {
+        "pax_min": 50,
+        "discount": "3 pax free"
+      }
+    ],
+    "official_booking_boundary": "Bookings are completed only through official website checkout; WhatsApp/email remain support channels."
+  }
+}
