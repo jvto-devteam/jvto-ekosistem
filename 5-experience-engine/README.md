@@ -14,8 +14,10 @@ It should read from the other four cores and produce:
 - guest portal;
 - ops console;
 - partner feed;
+- reviews;
+- crew review evidence with Google review media and source links;
+- analytics;
 - AI answers.
 
 This folder should not become a new source of truth. It adapts and compiles data
 from the cores.
-

@@ -1,0 +1,1532 @@
+{
+  "id": "google-review-insights",
+  "generatedAt": "2026-08-07T07:33:31.431Z",
+  "owner": "experience-analytics",
+  "lastReviewed": "2026-08-07",
+  "reviewStatus": "source-backed_google-review-records",
+  "sourceRefs": [
+    "5-experience-engine/reviews/google-review-records.json",
+    "5-experience-engine/reviews/google-review-media-records.json",
+    "5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+    "5-experience-engine/reviews/crew-featured-review-evidence.json"
+  ],
+  "summary": {
+    "platform": "Google",
+    "source": "Google Business Profile reviews synced into jvto-web reviews table",
+    "profileUrl": "https://www.google.com/maps?cid=1266403973589689021",
+    "generatedAt": "2026-08-07T07:33:31.431Z",
+    "lastReviewed": "2026-08-07",
+    "googleBusinessProfileStats": {
+      "rating": 4.9,
+      "count": 147,
+      "syncedAt": "2026-08-07T03:46:59.293Z"
+    },
+    "recordCount": 147,
+    "averageRatingFromRecords": 4.9,
+    "starDistribution": {
+      "1": 1,
+      "3": 2,
+      "4": 6,
+      "5": 138
+    },
+    "dateRange": {
+      "earliest": "2018-12-14",
+      "latest": "2026-08-05"
+    },
+    "reviewTextCoverage": {
+      "withText": 133,
+      "withoutText": 14,
+      "pctWithText": 90.48
+    },
+    "packageCoverage": {
+      "withPackage": 89,
+      "withoutPackage": 58,
+      "pctWithPackage": 60.54
+    },
+    "crewMentionCoverage": {
+      "withCrewMention": 86,
+      "withoutCrewMention": 61,
+      "pctWithCrewMention": 58.5
+    },
+    "publicEvidenceCount": 131,
+    "reviewMediaCoverage": {
+      "reviewsWithMedia": 56,
+      "mediaCount": 251,
+      "photoCount": 247,
+      "videoCount": 4,
+      "pctReviewsWithMedia": 38.1
+    },
+    "crewMentionCoverageAliasAdjusted": {
+      "withCrewMention": 97,
+      "withoutCrewMention": 50,
+      "pctWithCrewMention": 65.99,
+      "previousWithCrewMention": 86,
+      "additionalReviewsResolvedByAlias": 11
+    },
+    "crewAliasReconciliation": {
+      "sourceFile": "5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+      "adjustedCrewCount": 17,
+      "unresolvedDetectedNameCount": 7
+    }
+  },
+  "byMonth": [
+    {
+      "month": "2018-12",
+      "reviewCount": 1
+    },
+    {
+      "month": "2019-04",
+      "reviewCount": 2
+    },
+    {
+      "month": "2020-02",
+      "reviewCount": 1
+    },
+    {
+      "month": "2020-03",
+      "reviewCount": 3
+    },
+    {
+      "month": "2022-05",
+      "reviewCount": 6
+    },
+    {
+      "month": "2022-08",
+      "reviewCount": 1
+    },
+    {
+      "month": "2023-08",
+      "reviewCount": 1
+    },
+    {
+      "month": "2023-12",
+      "reviewCount": 1
+    },
+    {
+      "month": "2024-01",
+      "reviewCount": 8
+    },
+    {
+      "month": "2024-02",
+      "reviewCount": 3
+    },
+    {
+      "month": "2024-03",
+      "reviewCount": 1
+    },
+    {
+      "month": "2024-04",
+      "reviewCount": 1
+    },
+    {
+      "month": "2024-05",
+      "reviewCount": 3
+    },
+    {
+      "month": "2024-06",
+      "reviewCount": 4
+    },
+    {
+      "month": "2024-07",
+      "reviewCount": 6
+    },
+    {
+      "month": "2024-08",
+      "reviewCount": 6
+    },
+    {
+      "month": "2024-09",
+      "reviewCount": 2
+    },
+    {
+      "month": "2024-11",
+      "reviewCount": 1
+    },
+    {
+      "month": "2024-12",
+      "reviewCount": 1
+    },
+    {
+      "month": "2025-02",
+      "reviewCount": 1
+    },
+    {
+      "month": "2025-03",
+      "reviewCount": 2
+    },
+    {
+      "month": "2025-04",
+      "reviewCount": 3
+    },
+    {
+      "month": "2025-05",
+      "reviewCount": 9
+    },
+    {
+      "month": "2025-06",
+      "reviewCount": 4
+    },
+    {
+      "month": "2025-07",
+      "reviewCount": 9
+    },
+    {
+      "month": "2025-08",
+      "reviewCount": 9
+    },
+    {
+      "month": "2025-09",
+      "reviewCount": 5
+    },
+    {
+      "month": "2025-10",
+      "reviewCount": 8
+    },
+    {
+      "month": "2025-12",
+      "reviewCount": 3
+    },
+    {
+      "month": "2026-01",
+      "reviewCount": 2
+    },
+    {
+      "month": "2026-02",
+      "reviewCount": 6
+    },
+    {
+      "month": "2026-04",
+      "reviewCount": 4
+    },
+    {
+      "month": "2026-05",
+      "reviewCount": 8
+    },
+    {
+      "month": "2026-06",
+      "reviewCount": 10
+    },
+    {
+      "month": "2026-07",
+      "reviewCount": 6
+    },
+    {
+      "month": "2026-08",
+      "reviewCount": 6
+    }
+  ],
+  "byTheme": [
+    {
+      "theme": "crew_and_guides",
+      "reviewCount": 110
+    },
+    {
+      "theme": "value_and_recommendation",
+      "reviewCount": 96
+    },
+    {
+      "theme": "itinerary_and_destinations",
+      "reviewCount": 81
+    },
+    {
+      "theme": "safety_and_care",
+      "reviewCount": 71
+    },
+    {
+      "theme": "organization_and_logistics",
+      "reviewCount": 36
+    },
+    {
+      "theme": "accommodation_and_food",
+      "reviewCount": 22
+    },
+    {
+      "theme": "communication",
+      "reviewCount": 17
+    }
+  ],
+  "byCrewMention": [
+    {
+      "crewId": "7",
+      "crewName": "Fredi",
+      "crewType": "driver",
+      "crewStatus": "active",
+      "relationReviewCount": 9,
+      "reviewCount": 21,
+      "aliasAdjustedDelta": 12,
+      "aliases": [
+        "Fredi",
+        "Fredy",
+        "Freddy",
+        "Freddie"
+      ]
+    },
+    {
+      "crewId": "39",
+      "crewName": "Gufron",
+      "crewType": "guide",
+      "crewStatus": "active",
+      "relationReviewCount": 17,
+      "reviewCount": 18,
+      "aliasAdjustedDelta": 1,
+      "aliases": [
+        "Gufron",
+        "Gufran"
+      ]
+    },
+    {
+      "crewId": "13",
+      "crewName": "Rendi",
+      "crewType": "guide",
+      "crewStatus": "active",
+      "relationReviewCount": 13,
+      "reviewCount": 15,
+      "aliasAdjustedDelta": 2,
+      "aliases": [
+        "Rendi",
+        "Rendy"
+      ]
+    },
+    {
+      "crewId": "17",
+      "crewName": "Kiki",
+      "crewType": "guide",
+      "crewStatus": "active",
+      "relationReviewCount": 13,
+      "reviewCount": 13,
+      "aliasAdjustedDelta": 0,
+      "aliases": [
+        "Kiki",
+        "Kiky"
+      ]
+    },
+    {
+      "crewId": "3",
+      "crewName": "Anjas",
+      "crewType": "guide",
+      "crewStatus": "active",
+      "relationReviewCount": 9,
+      "reviewCount": 10,
+      "aliasAdjustedDelta": 1,
+      "aliases": [
+        "Anjas"
+      ]
+    },
+    {
+      "crewId": "68",
+      "crewName": "Boy",
+      "crewType": "guide",
+      "crewStatus": "active",
+      "relationReviewCount": 9,
+      "reviewCount": 10,
+      "aliasAdjustedDelta": 1,
+      "aliases": [
+        "Boy",
+        "Ahboy",
+        "Ah Boy",
+        "Ah Boi",
+        "Ahboi"
+      ]
+    },
+    {
+      "crewId": "1",
+      "crewName": "Yandi",
+      "crewType": "driver",
+      "crewStatus": "active",
+      "relationReviewCount": 8,
+      "reviewCount": 10,
+      "aliasAdjustedDelta": 2,
+      "aliases": [
+        "Yandi",
+        "Yandy",
+        "Yendi"
+      ]
+    },
+    {
+      "crewId": "46",
+      "crewName": "Fauzi",
+      "crewType": "guide",
+      "crewStatus": "active",
+      "relationReviewCount": 9,
+      "reviewCount": 9,
+      "aliasAdjustedDelta": 0,
+      "aliases": [
+        "Fauzi",
+        "Fauzy",
+        "Fauzie"
+      ]
+    },
+    {
+      "crewId": "62",
+      "crewName": "Yusuf",
+      "crewType": "driver",
+      "crewStatus": "active",
+      "relationReviewCount": 8,
+      "reviewCount": 8,
+      "aliasAdjustedDelta": 0,
+      "aliases": [
+        "Yusuf",
+        "Yusup",
+        "Jusuf",
+        "Yusef"
+      ]
+    },
+    {
+      "crewId": "4",
+      "crewName": "Taufik",
+      "crewType": "guide",
+      "crewStatus": "active",
+      "relationReviewCount": 5,
+      "reviewCount": 7,
+      "aliasAdjustedDelta": 2,
+      "aliases": [
+        "Taufik",
+        "Tufik",
+        "Taufiq",
+        "Mas Opik",
+        "Opik"
+      ]
+    },
+    {
+      "crewId": "28",
+      "crewName": "Holili",
+      "crewType": "driver",
+      "crewStatus": "active",
+      "relationReviewCount": 6,
+      "reviewCount": 6,
+      "aliasAdjustedDelta": 0,
+      "aliases": [
+        "Holili",
+        "Holily"
+      ]
+    },
+    {
+      "crewId": "77",
+      "crewName": "Pras",
+      "crewType": "driver",
+      "crewStatus": "deleted_legacy_crew_but_review_mentioned",
+      "relationReviewCount": 6,
+      "reviewCount": 6,
+      "aliasAdjustedDelta": 0,
+      "aliases": [
+        "Pras",
+        "Prasojo"
+      ]
+    },
+    {
+      "crewId": "73",
+      "crewName": "Joyo",
+      "crewType": "driver",
+      "crewStatus": "active",
+      "relationReviewCount": 4,
+      "reviewCount": 4,
+      "aliasAdjustedDelta": 0,
+      "aliases": [
+        "Joyo"
+      ]
+    },
+    {
+      "crewId": "2",
+      "crewName": "Juan",
+      "crewType": "guide",
+      "crewStatus": "active",
+      "relationReviewCount": 1,
+      "reviewCount": 3,
+      "aliasAdjustedDelta": 2,
+      "aliases": [
+        "Juan"
+      ]
+    },
+    {
+      "crewId": "72",
+      "crewName": "Dika",
+      "crewType": "driver",
+      "crewStatus": "active",
+      "relationReviewCount": 2,
+      "reviewCount": 2,
+      "aliasAdjustedDelta": 0,
+      "aliases": [
+        "Dika",
+        "Dhika"
+      ]
+    },
+    {
+      "crewId": "79",
+      "crewName": "Edi",
+      "crewType": "driver",
+      "crewStatus": "active",
+      "relationReviewCount": 1,
+      "reviewCount": 2,
+      "aliasAdjustedDelta": 1,
+      "aliases": [
+        "Edi",
+        "Edy"
+      ]
+    },
+    {
+      "crewId": "75",
+      "crewName": "Didin",
+      "crewType": "driver",
+      "crewStatus": "active",
+      "relationReviewCount": 1,
+      "reviewCount": 1,
+      "aliasAdjustedDelta": 0,
+      "aliases": [
+        "Didin"
+      ]
+    }
+  ],
+  "byPackage": [
+    {
+      "packageId": "29",
+      "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+      "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
+      "reviewCount": 43
+    },
+    {
+      "packageId": "33",
+      "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+      "packageSlug": "tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
+      "reviewCount": 17
+    },
+    {
+      "packageId": "28",
+      "packageName": "3 Day Bromo, Madakaripura & Ijen Overland from Surabaya to Bali",
+      "packageSlug": "tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
+      "reviewCount": 13
+    },
+    {
+      "packageId": "32",
+      "packageName": "4 Day Ijen, Bromo & Madakaripura Waterfall Expedition from Surabaya",
+      "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-4d3n",
+      "reviewCount": 13
+    },
+    {
+      "packageId": "56",
+      "packageName": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Nature Trip from Surabaya",
+      "packageSlug": "tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n",
+      "reviewCount": 3
+    }
+  ],
+  "recentPositiveEvidence": [
+    {
+      "id": "google-review-135",
+      "reviewerName": "Alessandra Pacini",
+      "date": "2026-08-05",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [
+        {
+          "id": "13",
+          "name": "Rendi",
+          "type": "guide"
+        }
+      ],
+      "themes": [
+        "crew_and_guides",
+        "safety_and_care",
+        "itinerary_and_destinations",
+        "organization_and_logistics",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "It was an absolutely amazing experience! We did the 3-day tour from Surabaya to Ijen, Bromo, and the Madakaripura waterfalls. Enchanting places that we were able to enjoy even more thanks to the excellent organization and the great care of our guide, Rendi, and our attentive d...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-133",
+      "reviewerName": "antoine panier",
+      "date": "2026-08-05",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [
+        {
+          "id": "3",
+          "name": "Anjas",
+          "type": "guide"
+        }
+      ],
+      "themes": [
+        "crew_and_guides",
+        "itinerary_and_destinations",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "(Translated by Google) We booked our three-day trip through the agency: a visit to Temack Sewu, Bromo, and then Ijen. Everything went perfectly. I highly recommend requesting Anjas as your guide. He's fantastic. He did everything he could to make our trip as unforgettable as p...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-134",
+      "reviewerName": "Giorgos Rogakos",
+      "date": "2026-08-04",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [
+        {
+          "id": "39",
+          "name": "Gufron",
+          "type": "guide"
+        }
+      ],
+      "themes": [
+        "crew_and_guides",
+        "safety_and_care",
+        "communication",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "We just ended our 4D 3N tour! All the people from JVTO we came in touch were very helpful but especially our guide Gufron was exceptional! He was very easy to communicate, he was super funny, he knew every good spot in the visited places and made us feel comfortable in every s...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-132",
+      "reviewerName": "Sonia Lin",
+      "date": "2026-08-02",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [
+        {
+          "id": "7",
+          "name": "Fredi",
+          "type": "driver"
+        }
+      ],
+      "themes": [
+        "crew_and_guides",
+        "safety_and_care",
+        "itinerary_and_destinations",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "What an incredible 4-day adventure exploring some of East Java’s most spectacular destinations! From the volcanic landscapes of Ijen to the breathtaking Tumpak Sewu waterfall and the unforgettable sunrise at Mount Bromo, every day brought a new and amazing experience.\nA specia...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-131",
+      "reviewerName": "Sean O Brien",
+      "date": "2026-08-02",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [
+        {
+          "id": "62",
+          "name": "Yusuf",
+          "type": "driver"
+        }
+      ],
+      "themes": [
+        "crew_and_guides",
+        "safety_and_care",
+        "itinerary_and_destinations",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "Great experience with this company, did a 4D3N tumpak sewu, bromo, ijen, madakaripura waterfall tour, was an easy booking process with a well done website, fair price, nice accomodation options with upgrades if desired, nice spacious car for the 4 days, Yusuf was a great drive...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-130",
+      "reviewerName": "Jacqueline Rekers",
+      "date": "2026-08-01",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [],
+      "themes": [
+        "crew_and_guides",
+        "communication",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "(Translated by Google) We thought it was amazing. We had a very nice driver who shared great information and took us everywhere in a very pleasant way.\n\nThe activities were really beautiful 😍 highly recommended!\n\n(Original)\nWij vonden het geweldig. We hadden een hele fijne ch...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-129",
+      "reviewerName": "Daniel Quek",
+      "date": "2026-07-22",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [],
+      "themes": [
+        "crew_and_guides",
+        "safety_and_care",
+        "itinerary_and_destinations",
+        "organization_and_logistics",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "This was the first time my friend and I visited East Java and we chose a Klook tour organized by JVTO. It was a very enjoyable and fuss free holiday. Tour was well planned with some flexibility to cater to personal interests. Quality of accomodation was good for the price. Dri...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-127",
+      "reviewerName": "Tam",
+      "date": "2026-07-22",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [
+        {
+          "id": "46",
+          "name": "Fauzi",
+          "type": "guide"
+        }
+      ],
+      "themes": [
+        "crew_and_guides",
+        "safety_and_care",
+        "value_and_recommendation",
+        "accommodation_and_food"
+      ],
+      "reviewExcerpt": "We had an absolutely amazing experience on our 3-night, 4-day East Java tour! We chose this company because we wanted a slower pace compared to the usual 2-night, 3-day itinerary, as well as more flexibility and it was honestly perfect.\n\nFrom start to finish, we didn’t have to...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-128",
+      "reviewerName": "Bernice Teo",
+      "date": "2026-07-21",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [],
+      "themes": [
+        "crew_and_guides",
+        "safety_and_care",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "The whole tour was very well managed and well timed! We did a lot within the 3D2N and was very satisfied by the itinerary. We also really appreciated our drivers and guides, as they were very friendly, on time, and willing to share! They definitely made the trip a lot more mem...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-79",
+      "reviewerName": "n iffah",
+      "date": "2026-07-12",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [
+        {
+          "id": "46",
+          "name": "Fauzi",
+          "type": "guide"
+        }
+      ],
+      "themes": [
+        "crew_and_guides"
+      ],
+      "reviewExcerpt": "We booked a package with JVTO via Klook for our 3D2N adventure trip. Shoutout to Freddie and Fauzi for always accommodating to us; from entertaining our nonsense/requests and also for always making us break into laughter with their fresh set of jokes. We are really grateful an...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-78",
+      "reviewerName": "HuiYuan Yeoh",
+      "date": "2026-07-12",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [
+        {
+          "id": "4",
+          "name": "Taufik",
+          "type": "guide"
+        },
+        {
+          "id": "46",
+          "name": "Fauzi",
+          "type": "guide"
+        }
+      ],
+      "themes": [
+        "crew_and_guides",
+        "safety_and_care",
+        "itinerary_and_destinations",
+        "organization_and_logistics",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "Booked the 4d3n tour to Tumpak Sewu, Mt Bromo and Kawah Ijen from the JVTO website. A really memorable trip with spectacular views, well organised itinerary, decent accommodations and the best tour guides. We always arrived early at the waterfall and mountains to avoid the cro...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-80",
+      "reviewerName": "Maxime Delage",
+      "date": "2026-07-07",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [],
+      "themes": [
+        "crew_and_guides",
+        "itinerary_and_destinations",
+        "organization_and_logistics",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "(Translated by Google) We toured Bali and Surabaya and had a truly unforgettable experience. The organization was absolutely perfect, the guide incredibly kind, and the scenery breathtaking. The accommodations were also excellent and allowed us to relax comfortably between vis...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-81",
+      "reviewerName": "Estera Herman",
+      "date": "2026-06-28",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [
+        {
+          "id": "17",
+          "name": "Kiki",
+          "type": "guide"
+        },
+        {
+          "id": "28",
+          "name": "Holili",
+          "type": "driver"
+        }
+      ],
+      "themes": [
+        "crew_and_guides",
+        "safety_and_care",
+        "itinerary_and_destinations",
+        "organization_and_logistics",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "I did the 3-Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya, and it was honestly one of the best experiences of my life!\n\nA huge thank you to our amazing tour guide Kiki and our driver Holili. They made the whole trip so easy, stress-free, and truly unforgetta...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-82",
+      "reviewerName": "koh zhixuan",
+      "date": "2026-06-22",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [
+        {
+          "id": "68",
+          "name": "Boy",
+          "type": "guide"
+        }
+      ],
+      "themes": [
+        "crew_and_guides",
+        "organization_and_logistics",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "Our tour guide (ah boy) and driver were amazing throughout the 3D2N trip. Responsible and made everything smooth. Definitely recommend",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-84",
+      "reviewerName": "Cindy Su",
+      "date": "2026-06-16",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [],
+      "themes": [
+        "crew_and_guides",
+        "itinerary_and_destinations",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "We like 3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour. Romy is a good driver who served us very well. The tour guide in the waterfall helped us to take many excellent pictures. The tour guide in Ijen is also good. Thank you so much.",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-85",
+      "reviewerName": "Dawid Ziemba",
+      "date": "2026-06-15",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [
+        {
+          "id": "46",
+          "name": "Fauzi",
+          "type": "guide"
+        }
+      ],
+      "themes": [
+        "crew_and_guides",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "I got Fauzi as a guide and a Freddy as a driver. Both of them were the best i can even imagine😍\nWe had very good time together, fauzi was taking a lot of picture of us and recommend us only the best things.\nWe didn't had any problems with them.\nHospitality at its finest, a lo...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-86",
+      "reviewerName": "L H",
+      "date": "2026-06-10",
+      "star": 4,
+      "package": null,
+      "mentionedCrews": [],
+      "themes": [
+        "crew_and_guides",
+        "safety_and_care",
+        "itinerary_and_destinations",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "Awesome views, intense packed back to back lack of sleep and multiple climbs to achieve and unlock the views.\n\nGreat driver egi & ljen crater guide andi, semeru & tumpak sewu guide Sulin. Appreciate the safe and happy trip.\n\nAccommodations are ok, just a little tad noisy for t...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-89",
+      "reviewerName": "Koyel Das",
+      "date": "2026-06-05",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [],
+      "themes": [
+        "crew_and_guides",
+        "safety_and_care",
+        "itinerary_and_destinations",
+        "organization_and_logistics",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "\"My Java trip was an unforgettable adventure and one of the highlights of my Indonesia journey. Visiting Ijen Crater was a unique experience, with stunning views of the crater lake and the famous blue flames. The hike was challenging but well worth the effort.\nTumpak Sewu Wate...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-88",
+      "reviewerName": "Logan Shay",
+      "date": "2026-06-05",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [
+        {
+          "id": "73",
+          "name": "Joyo",
+          "type": "driver"
+        },
+        {
+          "id": "39",
+          "name": "Gufron",
+          "type": "guide"
+        }
+      ],
+      "themes": [
+        "safety_and_care",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "It was a safe and fun trip all around! Gufron and Joyo were both amazing and helpful. They were both great people to commit with. I also like that Gufron explained each trek before we did it, which helped us be prepared. Great for foreigners and people wanting a safe trip!",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    },
+    {
+      "id": "google-review-87",
+      "reviewerName": "maritha koo",
+      "date": "2026-06-05",
+      "star": 5,
+      "package": null,
+      "mentionedCrews": [
+        {
+          "id": "3",
+          "name": "Anjas",
+          "type": "guide"
+        }
+      ],
+      "themes": [
+        "safety_and_care",
+        "itinerary_and_destinations",
+        "value_and_recommendation"
+      ],
+      "reviewExcerpt": "It was truly amazing to experience the majestic beauty of Mount Bromo, Mount Ijen, and Madakaripura Waterfall. Despite waking up very early for two consecutive days, it was absolutely worth it. From hiking and sunrise viewing to jeep rides, pony rides, photography, and even he...",
+      "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021"
+    }
+  ],
+  "topMediaReviews": [
+    {
+      "id": "google-review-media-AbFvOqnVWYGn_YBKBlxuRRV034iTbqw78KvqM8z3N-wjPz6yC0NuRPvtSAnN5tPkf-BB3g4AhUUlDQ",
+      "localReviewId": "google-review-133",
+      "reviewerName": "antoine panier",
+      "date": "2026-08-05",
+      "star": 5,
+      "mediaCount": 5,
+      "photoCount": 5,
+      "videoCount": 0,
+      "reviewExcerpt": "(Translated by Google) We booked our three-day trip through the agency: a visit to Temack Sewu, Bromo, and then Ijen. Everything went perfectly. I highly recommend requesting Anjas as your guide. He's fantastic. He did everything he coul..."
+    },
+    {
+      "id": "google-review-media-AbFvOqlsivFVXifI5EgNAemJVzRdOcp94VKeUj5RmXzDAHFqo_kjtwvrFHvc-uGmZBfo-rCzkZoXPg",
+      "localReviewId": "google-review-131",
+      "reviewerName": "Sean O Brien",
+      "date": "2026-08-02",
+      "star": 5,
+      "mediaCount": 15,
+      "photoCount": 15,
+      "videoCount": 0,
+      "reviewExcerpt": "Great experience with this company, did a 4D3N tumpak sewu, bromo, ijen, madakaripura waterfall tour, was an easy booking process with a well done website, fair price, nice accomodation options with upgrades if desired, nice spacious car..."
+    },
+    {
+      "id": "google-review-media-AbFvOql_LR2QppQ6JVwby4F6p6sNH2-iQiu3SC5ozBSQSbNLbqJPEjF8NpHylNWRo1DztbTCKRsqlA",
+      "localReviewId": "google-review-132",
+      "reviewerName": "Sonia Lin",
+      "date": "2026-08-02",
+      "star": 5,
+      "mediaCount": 7,
+      "photoCount": 7,
+      "videoCount": 0,
+      "reviewExcerpt": "What an incredible 4-day adventure exploring some of East Java’s most spectacular destinations! From the volcanic landscapes of Ijen to the breathtaking Tumpak Sewu waterfall and the unforgettable sunrise at Mount Bromo, every day brough..."
+    },
+    {
+      "id": "google-review-media-AbFvOqnzQhd68YxhBNLfZE548e_XV8ZZnI4yBmJL67VfTwiK72z1YJdDcr5Repfe_Syx9MeYh2l6",
+      "localReviewId": "google-review-130",
+      "reviewerName": "Jacqueline Rekers",
+      "date": "2026-08-01",
+      "star": 5,
+      "mediaCount": 5,
+      "photoCount": 5,
+      "videoCount": 0,
+      "reviewExcerpt": "(Translated by Google) We thought it was amazing. We had a very nice driver who shared great information and took us everywhere in a very pleasant way.\n\nThe activities were really beautiful 😍 highly recommended!\n\n(Original)\nWij vonden h..."
+    },
+    {
+      "id": "google-review-media-AbFvOqn5aEVRzxAx6_rPJ6JBii34VIy_RruYIydENiKeSe8KJrNsxsBitQyvdnbqa8Bmt-5ftdWZRg",
+      "localReviewId": "google-review-129",
+      "reviewerName": "Daniel Quek",
+      "date": "2026-07-22",
+      "star": 5,
+      "mediaCount": 6,
+      "photoCount": 6,
+      "videoCount": 0,
+      "reviewExcerpt": "This was the first time my friend and I visited East Java and we chose a Klook tour organized by JVTO. It was a very enjoyable and fuss free holiday. Tour was well planned with some flexibility to cater to personal interests. Quality of..."
+    },
+    {
+      "id": "google-review-media-AbFvOqmgCHpXCO71oFQgd8VMF_WEhOdaVcc3rqTSBTdoaIx4GkbQkEkGesbFpKM0oDFrkoElKHFBjQ",
+      "localReviewId": "google-review-127",
+      "reviewerName": "Tam",
+      "date": "2026-07-22",
+      "star": 5,
+      "mediaCount": 4,
+      "photoCount": 4,
+      "videoCount": 0,
+      "reviewExcerpt": "We had an absolutely amazing experience on our 3-night, 4-day East Java tour! We chose this company because we wanted a slower pace compared to the usual 2-night, 3-day itinerary, as well as more flexibility and it was honestly perfect...."
+    },
+    {
+      "id": "google-review-media-AbFvOqnUdmA7ymsrqQGtcBXoYCWU4ZFbwbLW9Rq2NPfHhR2WgV_PEqz53OxDuk3qaxD2brkuWYz2vQ",
+      "localReviewId": "google-review-78",
+      "reviewerName": "HuiYuan Yeoh",
+      "date": "2026-07-12",
+      "star": 5,
+      "mediaCount": 7,
+      "photoCount": 7,
+      "videoCount": 0,
+      "reviewExcerpt": "Booked the 4d3n tour to Tumpak Sewu, Mt Bromo and Kawah Ijen from the JVTO website. A really memorable trip with spectacular views, well organised itinerary, decent accommodations and the best tour guides. We always arrived early at the..."
+    },
+    {
+      "id": "google-review-media-AbFvOqmj4Af7lj_DzejVLaA1BJl64FlfOwg_ATSu_VlU3qWNxdy9yF3YueUpP1REswAqIfubMnXc",
+      "localReviewId": "google-review-79",
+      "reviewerName": "n iffah",
+      "date": "2026-07-12",
+      "star": 5,
+      "mediaCount": 3,
+      "photoCount": 3,
+      "videoCount": 0,
+      "reviewExcerpt": "We booked a package with JVTO via Klook for our 3D2N adventure trip. Shoutout to Freddie and Fauzi for always accommodating to us; from entertaining our nonsense/requests and also for always making us break into laughter with their fresh..."
+    },
+    {
+      "id": "google-review-media-AbFvOqnt1xYGQf4RVcdYLgtRjID5gUgqj3oAK7RSgx05Ewll4xsTwJ4-o9RO_M9uPfAewM2YF2Uaaw",
+      "localReviewId": "google-review-80",
+      "reviewerName": "Maxime Delage",
+      "date": "2026-07-07",
+      "star": 5,
+      "mediaCount": 10,
+      "photoCount": 10,
+      "videoCount": 0,
+      "reviewExcerpt": "(Translated by Google) We toured Bali and Surabaya and had a truly unforgettable experience. The organization was absolutely perfect, the guide incredibly kind, and the scenery breathtaking. The accommodations were also excellent and all..."
+    },
+    {
+      "id": "google-review-media-AbFvOqlsXSivyk1k7Xl4sk-QZ8hdMewH2Kl8JNwKE_XyWQ1gnxKbJZV4P3j0YDk56LKOB_ZLGFGQLg",
+      "localReviewId": "google-review-82",
+      "reviewerName": "koh zhixuan",
+      "date": "2026-06-22",
+      "star": 5,
+      "mediaCount": 1,
+      "photoCount": 1,
+      "videoCount": 0,
+      "reviewExcerpt": "Our tour guide (ah boy) and driver were amazing throughout the 3D2N trip. Responsible and made everything smooth. Definitely recommend"
+    },
+    {
+      "id": "google-review-media-AbFvOqk48KjZQ-GDSmifxtO6SCfHWEbgbuWI1Ff1Cl-qBaLz7vfCYeklEuSo9Mt5rzDQuFxJw1kCrg",
+      "localReviewId": "google-review-85",
+      "reviewerName": "Dawid Ziemba",
+      "date": "2026-06-15",
+      "star": 5,
+      "mediaCount": 1,
+      "photoCount": 1,
+      "videoCount": 0,
+      "reviewExcerpt": "I got Fauzi as a guide and a Freddy as a driver. Both of them were the best i can even imagine😍\nWe had very good time together, fauzi was taking a lot of picture of us and recommend us only the best things.\nWe didn't had any problems wi..."
+    },
+    {
+      "id": "google-review-media-AbFvOqlibtZLq0iHEW8EIafS6UZaFE1AdpehyUZ_1YdDfyuBKt8g9B3Rj1wmbwc5D3YHR09Vy9xe",
+      "localReviewId": "google-review-87",
+      "reviewerName": "maritha koo",
+      "date": "2026-06-05",
+      "star": 5,
+      "mediaCount": 8,
+      "photoCount": 8,
+      "videoCount": 0,
+      "reviewExcerpt": "It was truly amazing to experience the majestic beauty of Mount Bromo, Mount Ijen, and Madakaripura Waterfall. Despite waking up very early for two consecutive days, it was absolutely worth it. From hiking and sunrise viewing to jeep rid..."
+    },
+    {
+      "id": "google-review-media-AbFvOqkpJcPzWNwep9kJmDQH1ucKBg-Dml9hRf2GEQDksu9eJKGKI9Cf-PkYSyToUGUVLw6uINerLw",
+      "localReviewId": "google-review-94",
+      "reviewerName": "Teo Wan Chean",
+      "date": "2026-05-22",
+      "star": 5,
+      "mediaCount": 3,
+      "photoCount": 3,
+      "videoCount": 0,
+      "reviewExcerpt": "Yusuf was an excellent driver and tour guide. He was always punctual, responsible, and very professional throughout the trip. Although the weather was not good and we could not see the sunrise, we still really appreciated all his help an..."
+    },
+    {
+      "id": "google-review-media-AbFvOqlP1anjVCUq8KvkI1lr7ui1koJWWWq3uoOB18PCl_QmJYYIa8xpAMG_FtSgZJmYLsYXVXLugw",
+      "localReviewId": "google-review-95",
+      "reviewerName": "Rebecca Tsai",
+      "date": "2026-05-18",
+      "star": 5,
+      "mediaCount": 1,
+      "photoCount": 1,
+      "videoCount": 0,
+      "reviewExcerpt": "We joined the 4D3N East Java volcano tour with Java Volcano Tour Operator (JVTO) from April 30 to May 3, 2026, and it was truly an unforgettable experience.\n\nOur driver Fredy was friendly, professional, and very attentive throughout the..."
+    },
+    {
+      "id": "google-review-media-AbFvOqkW7hKryHBlgt7g9FB5v_rskULuuMsGmMKxDKu6NeTNd5Gd50jyo5Re4ZJjKXSK3XDfgnab3w",
+      "localReviewId": "google-review-96",
+      "reviewerName": "FAIZATHUL FARHAN BIN FERHAT _",
+      "date": "2026-05-17",
+      "star": 5,
+      "mediaCount": 1,
+      "photoCount": 1,
+      "videoCount": 0,
+      "reviewExcerpt": "good 2hrs hike up with amazing view"
+    }
+  ],
+  "byCrewMentionRelationOnly": [
+    {
+      "crewId": "39",
+      "crewName": "Gufron",
+      "crewType": "guide",
+      "reviewCount": 17
+    },
+    {
+      "crewId": "17",
+      "crewName": "Kiki",
+      "crewType": "guide",
+      "reviewCount": 13
+    },
+    {
+      "crewId": "13",
+      "crewName": "Rendi",
+      "crewType": "guide",
+      "reviewCount": 13
+    },
+    {
+      "crewId": "3",
+      "crewName": "Anjas",
+      "crewType": "guide",
+      "reviewCount": 9
+    },
+    {
+      "crewId": "68",
+      "crewName": "Boy",
+      "crewType": "guide",
+      "reviewCount": 9
+    },
+    {
+      "crewId": "46",
+      "crewName": "Fauzi",
+      "crewType": "guide",
+      "reviewCount": 9
+    },
+    {
+      "crewId": "7",
+      "crewName": "Fredi",
+      "crewType": "driver",
+      "reviewCount": 9
+    },
+    {
+      "crewId": "1",
+      "crewName": "Yandi",
+      "crewType": "driver",
+      "reviewCount": 8
+    },
+    {
+      "crewId": "62",
+      "crewName": "Yusuf",
+      "crewType": "driver",
+      "reviewCount": 8
+    },
+    {
+      "crewId": "28",
+      "crewName": "Holili",
+      "crewType": "driver",
+      "reviewCount": 6
+    },
+    {
+      "crewId": "77",
+      "crewName": "Pras",
+      "crewType": "Driver",
+      "reviewCount": 6
+    },
+    {
+      "crewId": "4",
+      "crewName": "Taufik",
+      "crewType": "guide",
+      "reviewCount": 5
+    },
+    {
+      "crewId": "73",
+      "crewName": "Joyo",
+      "crewType": "driver",
+      "reviewCount": 4
+    },
+    {
+      "crewId": "72",
+      "crewName": "Dika",
+      "crewType": "driver",
+      "reviewCount": 2
+    },
+    {
+      "crewId": "75",
+      "crewName": "Didin",
+      "crewType": "driver",
+      "reviewCount": 1
+    },
+    {
+      "crewId": "79",
+      "crewName": "Edi",
+      "crewType": "driver",
+      "reviewCount": 1
+    },
+    {
+      "crewId": "2",
+      "crewName": "Juan",
+      "crewType": "guide",
+      "reviewCount": 1
+    }
+  ],
+  "byUnresolvedCrewMention": [
+    {
+      "detectedName": "Johan",
+      "reviewCount": 9,
+      "status": "needs_owner_mapping",
+      "possibleMeaning": "named guide/driver in reviews but not present in current crew_members roster",
+      "sampleReviews": [
+        {
+          "reviewId": "google-review-179",
+          "reviewerName": "Sharon Negri",
+          "date": "2025-08-16",
+          "aliasesMatched": [
+            "Johan"
+          ],
+          "snippet": "ok the 3D 2N Bromo + Ljen Tour and everything was absolutely perfect. Our guide, Johan, was very knowledgeable and professional. He was perfectly timed with every mov"
+        },
+        {
+          "reviewId": "google-review-191",
+          "reviewerName": "JX",
+          "date": "2025-07-07",
+          "aliasesMatched": [
+            "Johan"
+          ],
+          "snippet": "t the airport and dropped off at our intended destination. Our guide and driver, Johan, is clearly experienced, and his hard work and efforts are admirable and apprec"
+        },
+        {
+          "reviewId": "google-review-198",
+          "reviewerName": "JunYoung Lee",
+          "date": "2025-05-26",
+          "aliasesMatched": [
+            "Johan"
+          ],
+          "snippet": "ven better by the people who took care of us throughout the journey. Our driver, Johan, was incredibly nice and made the rides smooth and comfortable. Our guide, Rend"
+        },
+        {
+          "reviewId": "google-review-213",
+          "reviewerName": "Haikang Tan",
+          "date": "2024-12-27",
+          "aliasesMatched": [
+            "Johan"
+          ],
+          "snippet": "We were well taken care of throughout. Big thanks to our guide Taufik and driver Johan."
+        },
+        {
+          "reviewId": "google-review-214",
+          "reviewerName": "Jesus Palma",
+          "date": "2024-11-12",
+          "aliasesMatched": [
+            "Johan"
+          ],
+          "snippet": "gle) We did the 3d/2n tour from Surabaya to Bali. Our guide Rendi and our driver Johan made the tour unbeatable. Attentive from the first moment to our needs, explain"
+        },
+        {
+          "reviewId": "google-review-228",
+          "reviewerName": "Xinyi Lim",
+          "date": "2024-07-03",
+          "aliasesMatched": [
+            "Johan"
+          ],
+          "snippet": "trip to actual trip itself was very smooth. Our tour guide Anjas, and our driver Johan were professional, fun and took great care of us :) It was a hassle-free trip f"
+        },
+        {
+          "reviewId": "google-review-233",
+          "reviewerName": "Wong Kassandra",
+          "date": "2024-05-13",
+          "aliasesMatched": [
+            "Johan"
+          ],
+          "snippet": ".\\nA significant part of what made this trip enjoyable was our driver cum guide, Johan. Firstly he was always on time and he also made sure we had ample time for trav"
+        },
+        {
+          "reviewId": "google-review-235",
+          "reviewerName": "Louise VIGOUROUX",
+          "date": "2024-05-07",
+          "aliasesMatched": [
+            "Johan"
+          ],
+          "snippet": "er Yoga for his constant attention. And last but not least, thanks to our driver Johan, for his efficient driving, ensuring that we arrived before everyone else at th"
+        }
+      ]
+    },
+    {
+      "detectedName": "Sulis",
+      "reviewCount": 3,
+      "status": "needs_owner_mapping",
+      "possibleMeaning": "named guide/team member in reviews but not present in current crew_members roster",
+      "sampleReviews": [
+        {
+          "reviewId": "google-review-110",
+          "reviewerName": "Michael Lee",
+          "date": "2026-01-09",
+          "aliasesMatched": [
+            "Sulis"
+          ],
+          "snippet": "imply majestic, but the team is what made it so good. Big thanks to Edi, Fauzi, Sulis, and other members of the tour team for organizing such a unique experience. I"
+        },
+        {
+          "reviewId": "google-review-203",
+          "reviewerName": "ash_ash",
+          "date": "2025-05-13",
+          "aliasesMatched": [
+            "Sulis"
+          ],
+          "snippet": "Big shoutout to our tour guides and driver, Fredi, Kiki and Sulis. They were incredibly professional, knowledgeable and friendly. Loved how organ"
+        },
+        {
+          "reviewId": "google-review-233",
+          "reviewerName": "Wong Kassandra",
+          "date": "2024-05-13",
+          "aliasesMatched": [
+            "Sulis"
+          ],
+          "snippet": "guided us along the rocky paths. She also took beautiful pictures for us.\\nGawan Sulis was our guide at the waterfall. He never hesitated to lend his arm for us to ho"
+        }
+      ]
+    },
+    {
+      "detectedName": "Dosi",
+      "reviewCount": 2,
+      "status": "needs_owner_mapping",
+      "possibleMeaning": "named driver/team member in reviews but not present in current crew_members roster",
+      "sampleReviews": [
+        {
+          "reviewId": "google-review-250",
+          "reviewerName": "brylee catline",
+          "date": "2023-12-29",
+          "aliasesMatched": [
+            "Dosi"
+          ],
+          "snippet": "Yandi and Dosi made our 5 Days 4 Nights tour to Ijen, Papuma, Tumpak Sewu, Bromo, and Surabaya"
+        },
+        {
+          "reviewId": "google-review-252",
+          "reviewerName": "clara rigal",
+          "date": "2022-08-10",
+          "aliasesMatched": [
+            "Dosi"
+          ],
+          "snippet": "Thanks to the tour and their amazing team (Dosi & Tufik), we went to Bromo and Ijen Volcano. They were very professional and so"
+        }
+      ]
+    },
+    {
+      "detectedName": "Gean",
+      "reviewCount": 2,
+      "status": "needs_owner_mapping",
+      "possibleMeaning": "named guide/driver in reviews but not present in current crew_members roster",
+      "sampleReviews": [
+        {
+          "reviewId": "google-review-117",
+          "reviewerName": "Lonzkie",
+          "date": "2024-09-02",
+          "aliasesMatched": [
+            "Gean"
+          ],
+          "snippet": "sport, meals and hotels were all taken care of. Nothing to worry about anything. Gean, our tour guide, was considerate and helpful. The team service was commendable."
+        },
+        {
+          "reviewId": "google-review-223",
+          "reviewerName": "Jolene Kek",
+          "date": "2024-07-26",
+          "aliasesMatched": [
+            "Gean"
+          ],
+          "snippet": "meticulously planned and executed flawlessly. Our tour guide, Rendi, and driver, Gean, were exceptional. They were not only proficient in English but also engaged us"
+        }
+      ]
+    },
+    {
+      "detectedName": "Cahya",
+      "reviewCount": 1,
+      "status": "needs_owner_mapping",
+      "possibleMeaning": "named driver in review but not present in current crew_members roster",
+      "sampleReviews": [
+        {
+          "reviewId": "google-review-205",
+          "reviewerName": "Basia Dmochowska",
+          "date": "2025-05-07",
+          "aliasesMatched": [
+            "Cahya"
+          ],
+          "snippet": "A lot of fun! Great adventure! Exceptional guide - Gufron - and a great driver - Cahya - thank you for the amazing expericnce!"
+        }
+      ]
+    },
+    {
+      "detectedName": "Dinca",
+      "reviewCount": 1,
+      "status": "needs_owner_mapping",
+      "possibleMeaning": "named travel guide in review but not present in current crew_members roster",
+      "sampleReviews": [
+        {
+          "reviewId": "google-review-89",
+          "reviewerName": "Koyel Das",
+          "date": "2026-06-05",
+          "aliasesMatched": [
+            "Dinca"
+          ],
+          "snippet": "walk across the sea of sand were amazing. A special thanks to our travel guide, Dinca, who was professional, friendly, and very knowledgeable throughout the trip. Di"
+        }
+      ]
+    },
+    {
+      "detectedName": "Yoga",
+      "reviewCount": 1,
+      "status": "needs_owner_mapping",
+      "possibleMeaning": "named photographer in review but not present in current crew_members roster",
+      "sampleReviews": [
+        {
+          "reviewId": "google-review-235",
+          "reviewerName": "Louise VIGOUROUX",
+          "date": "2024-05-07",
+          "aliasesMatched": [
+            "Yoga"
+          ],
+          "snippet": "less mental burden for many a trip! Special thanks to our guide and photographer Yoga for his constant attention. And last but not least, thanks to our driver Johan,"
+        }
+      ]
+    }
+  ],
+  "crewFeaturedReviewEvidence": {
+    "sourceFile": "5-experience-engine/reviews/crew-featured-review-evidence.json",
+    "summary": {
+      "generatedAt": "2026-08-07T07:57:39.004Z",
+      "lastReviewed": "2026-08-07",
+      "totalCrewWithReviewMentions": 17,
+      "crewWithFeaturedMediaReview": 16,
+      "crewWithoutFeaturedMediaReview": 1,
+      "totalFeaturedReviews": 50,
+      "criteria": {
+        "platform": "Google",
+        "minimumStar": 4,
+        "requiresCrewMention": true,
+        "requiresReviewMedia": true,
+        "maxFeaturedReviewsPerCrew": 5,
+        "rankingSignals": [
+          "star rating",
+          "photo count",
+          "review text length/specificity",
+          "review recency"
+        ]
+      },
+      "sourceLinkPolicy": "Every featured review includes originalReviewUrl, googleReviewReplyUrl when available, googleMapsProfileUrl, and googleReviewResourceName."
+    },
+    "crewWithFeaturedMediaReview": [
+      {
+        "crewId": "7",
+        "crewName": "Fredi",
+        "reviewsWithMediaCount": 11,
+        "featuredReviewCount": 5
+      },
+      {
+        "crewId": "13",
+        "crewName": "Rendi",
+        "reviewsWithMediaCount": 8,
+        "featuredReviewCount": 5
+      },
+      {
+        "crewId": "39",
+        "crewName": "Gufron",
+        "reviewsWithMediaCount": 6,
+        "featuredReviewCount": 5
+      },
+      {
+        "crewId": "3",
+        "crewName": "Anjas",
+        "reviewsWithMediaCount": 6,
+        "featuredReviewCount": 5
+      },
+      {
+        "crewId": "46",
+        "crewName": "Fauzi",
+        "reviewsWithMediaCount": 6,
+        "featuredReviewCount": 5
+      },
+      {
+        "crewId": "62",
+        "crewName": "Yusuf",
+        "reviewsWithMediaCount": 4,
+        "featuredReviewCount": 4
+      },
+      {
+        "crewId": "17",
+        "crewName": "Kiki",
+        "reviewsWithMediaCount": 3,
+        "featuredReviewCount": 3
+      },
+      {
+        "crewId": "68",
+        "crewName": "Boy",
+        "reviewsWithMediaCount": 3,
+        "featuredReviewCount": 3
+      },
+      {
+        "crewId": "4",
+        "crewName": "Taufik",
+        "reviewsWithMediaCount": 3,
+        "featuredReviewCount": 3
+      },
+      {
+        "crewId": "77",
+        "crewName": "Pras",
+        "reviewsWithMediaCount": 3,
+        "featuredReviewCount": 3
+      },
+      {
+        "crewId": "1",
+        "crewName": "Yandi",
+        "reviewsWithMediaCount": 2,
+        "featuredReviewCount": 2
+      },
+      {
+        "crewId": "28",
+        "crewName": "Holili",
+        "reviewsWithMediaCount": 2,
+        "featuredReviewCount": 2
+      },
+      {
+        "crewId": "2",
+        "crewName": "Juan",
+        "reviewsWithMediaCount": 2,
+        "featuredReviewCount": 2
+      },
+      {
+        "crewId": "73",
+        "crewName": "Joyo",
+        "reviewsWithMediaCount": 1,
+        "featuredReviewCount": 1
+      },
+      {
+        "crewId": "79",
+        "crewName": "Edi",
+        "reviewsWithMediaCount": 1,
+        "featuredReviewCount": 1
+      },
+      {
+        "crewId": "75",
+        "crewName": "Didin",
+        "reviewsWithMediaCount": 1,
+        "featuredReviewCount": 1
+      }
+    ]
+  }
+}

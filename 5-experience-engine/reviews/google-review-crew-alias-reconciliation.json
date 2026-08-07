@@ -1,0 +1,1609 @@
+{
+  "id": "google-review-crew-alias-reconciliation",
+  "generatedAt": "2026-08-07T07:46:11.823Z",
+  "owner": "public-evidence-experience-engine",
+  "lastReviewed": "2026-08-07",
+  "reviewStatus": "source-backed_alias-reconciled_needs-owner-confirmation-for-unresolved-names",
+  "sourceRefs": [
+    "5-experience-engine/reviews/google-review-records.json",
+    "/Users/macbook/Code/jvto-web prisma.crew_reviews",
+    "/Users/macbook/Code/jvto-web prisma.crew_members"
+  ],
+  "summary": {
+    "totalGoogleReviews": 147,
+    "relationOnlyReviewsWithCrew": 86,
+    "aliasAdjustedReviewsWithCrew": 97,
+    "additionalReviewsResolvedByAlias": 11,
+    "crewCountWithMentions": 17,
+    "unresolvedDetectedNameCount": 7
+  },
+  "aliasRules": [
+    {
+      "crewId": "3",
+      "crewName": "Anjas",
+      "crewType": "guide",
+      "status": "active",
+      "aliases": [
+        "Anjas"
+      ]
+    },
+    {
+      "crewId": "68",
+      "crewName": "Boy",
+      "crewType": "guide",
+      "status": "active",
+      "aliases": [
+        "Boy",
+        "Ahboy",
+        "Ah Boy",
+        "Ah Boi",
+        "Ahboi"
+      ]
+    },
+    {
+      "crewId": "75",
+      "crewName": "Didin",
+      "crewType": "driver",
+      "status": "active",
+      "aliases": [
+        "Didin"
+      ]
+    },
+    {
+      "crewId": "72",
+      "crewName": "Dika",
+      "crewType": "driver",
+      "status": "active",
+      "aliases": [
+        "Dika",
+        "Dhika"
+      ]
+    },
+    {
+      "crewId": "79",
+      "crewName": "Edi",
+      "crewType": "driver",
+      "status": "active",
+      "aliases": [
+        "Edi",
+        "Edy"
+      ]
+    },
+    {
+      "crewId": "46",
+      "crewName": "Fauzi",
+      "crewType": "guide",
+      "status": "active",
+      "aliases": [
+        "Fauzi",
+        "Fauzy",
+        "Fauzie"
+      ]
+    },
+    {
+      "crewId": "7",
+      "crewName": "Fredi",
+      "crewType": "driver",
+      "status": "active",
+      "aliases": [
+        "Fredi",
+        "Fredy",
+        "Freddy",
+        "Freddie"
+      ]
+    },
+    {
+      "crewId": "39",
+      "crewName": "Gufron",
+      "crewType": "guide",
+      "status": "active",
+      "aliases": [
+        "Gufron",
+        "Gufran"
+      ]
+    },
+    {
+      "crewId": "28",
+      "crewName": "Holili",
+      "crewType": "driver",
+      "status": "active",
+      "aliases": [
+        "Holili",
+        "Holily"
+      ]
+    },
+    {
+      "crewId": "73",
+      "crewName": "Joyo",
+      "crewType": "driver",
+      "status": "active",
+      "aliases": [
+        "Joyo"
+      ]
+    },
+    {
+      "crewId": "2",
+      "crewName": "Juan",
+      "crewType": "guide",
+      "status": "active",
+      "aliases": [
+        "Juan"
+      ]
+    },
+    {
+      "crewId": "17",
+      "crewName": "Kiki",
+      "crewType": "guide",
+      "status": "active",
+      "aliases": [
+        "Kiki",
+        "Kiky"
+      ]
+    },
+    {
+      "crewId": "77",
+      "crewName": "Pras",
+      "crewType": "driver",
+      "status": "deleted_legacy_crew_but_review_mentioned",
+      "aliases": [
+        "Pras",
+        "Prasojo"
+      ]
+    },
+    {
+      "crewId": "13",
+      "crewName": "Rendi",
+      "crewType": "guide",
+      "status": "active",
+      "aliases": [
+        "Rendi",
+        "Rendy"
+      ]
+    },
+    {
+      "crewId": "81",
+      "crewName": "Romi",
+      "crewType": "driver",
+      "status": "active",
+      "aliases": [
+        "Romi"
+      ]
+    },
+    {
+      "crewId": "80",
+      "crewName": "Sahril",
+      "crewType": "driver",
+      "status": "active",
+      "aliases": [
+        "Sahril"
+      ]
+    },
+    {
+      "crewId": "4",
+      "crewName": "Taufik",
+      "crewType": "guide",
+      "status": "active",
+      "aliases": [
+        "Taufik",
+        "Tufik",
+        "Taufiq",
+        "Mas Opik",
+        "Opik"
+      ]
+    },
+    {
+      "crewId": "1",
+      "crewName": "Yandi",
+      "crewType": "driver",
+      "status": "active",
+      "aliases": [
+        "Yandi",
+        "Yandy",
+        "Yendi"
+      ]
+    },
+    {
+      "crewId": "62",
+      "crewName": "Yusuf",
+      "crewType": "driver",
+      "status": "active",
+      "aliases": [
+        "Yusuf",
+        "Yusup",
+        "Jusuf",
+        "Yusef"
+      ]
+    }
+  ],
+  "byCrewMention": [
+    {
+      "crewId": "7",
+      "crewName": "Fredi",
+      "crewType": "driver",
+      "crewStatus": "active",
+      "relationReviewCount": 9,
+      "reviewCount": 21,
+      "aliasAdjustedDelta": 12,
+      "aliases": [
+        "Fredi",
+        "Fredy",
+        "Freddy",
+        "Freddie"
+      ]
+    },
+    {
+      "crewId": "39",
+      "crewName": "Gufron",
+      "crewType": "guide",
+      "crewStatus": "active",
+      "relationReviewCount": 17,
+      "reviewCount": 18,
+      "aliasAdjustedDelta": 1,
+      "aliases": [
+        "Gufron",
+        "Gufran"
+      ]
+    },
+    {
+      "crewId": "13",
+      "crewName": "Rendi",
+      "crewType": "guide",
+      "crewStatus": "active",
+      "relationReviewCount": 13,
+      "reviewCount": 15,
+      "aliasAdjustedDelta": 2,
+      "aliases": [
+        "Rendi",
+        "Rendy"
+      ]
+    },
+    {
+      "crewId": "17",
+      "crewName": "Kiki",
+      "crewType": "guide",
+      "crewStatus": "active",
+      "relationReviewCount": 13,
+      "reviewCount": 13,
+      "aliasAdjustedDelta": 0,
+      "aliases": [
+        "Kiki",
+        "Kiky"
+      ]
+    },
+    {
+      "crewId": "3",
+      "crewName": "Anjas",
+      "crewType": "guide",
+      "crewStatus": "active",
+      "relationReviewCount": 9,
+      "reviewCount": 10,
+      "aliasAdjustedDelta": 1,
+      "aliases": [
+        "Anjas"
+      ]
+    },
+    {
+      "crewId": "68",
+      "crewName": "Boy",
+      "crewType": "guide",
+      "crewStatus": "active",
+      "relationReviewCount": 9,
+      "reviewCount": 10,
+      "aliasAdjustedDelta": 1,
+      "aliases": [
+        "Boy",
+        "Ahboy",
+        "Ah Boy",
+        "Ah Boi",
+        "Ahboi"
+      ]
+    },
+    {
+      "crewId": "1",
+      "crewName": "Yandi",
+      "crewType": "driver",
+      "crewStatus": "active",
+      "relationReviewCount": 8,
+      "reviewCount": 10,
+      "aliasAdjustedDelta": 2,
+      "aliases": [
+        "Yandi",
+        "Yandy",
+        "Yendi"
+      ]
+    },
+    {
+      "crewId": "46",
+      "crewName": "Fauzi",
+      "crewType": "guide",
+      "crewStatus": "active",
+      "relationReviewCount": 9,
+      "reviewCount": 9,
+      "aliasAdjustedDelta": 0,
+      "aliases": [
+        "Fauzi",
+        "Fauzy",
+        "Fauzie"
+      ]
+    },
+    {
+      "crewId": "62",
+      "crewName": "Yusuf",
+      "crewType": "driver",
+      "crewStatus": "active",
+      "relationReviewCount": 8,
+      "reviewCount": 8,
+      "aliasAdjustedDelta": 0,
+      "aliases": [
+        "Yusuf",
+        "Yusup",
+        "Jusuf",
+        "Yusef"
+      ]
+    },
+    {
+      "crewId": "4",
+      "crewName": "Taufik",
+      "crewType": "guide",
+      "crewStatus": "active",
+      "relationReviewCount": 5,
+      "reviewCount": 7,
+      "aliasAdjustedDelta": 2,
+      "aliases": [
+        "Taufik",
+        "Tufik",
+        "Taufiq",
+        "Mas Opik",
+        "Opik"
+      ]
+    },
+    {
+      "crewId": "28",
+      "crewName": "Holili",
+      "crewType": "driver",
+      "crewStatus": "active",
+      "relationReviewCount": 6,
+      "reviewCount": 6,
+      "aliasAdjustedDelta": 0,
+      "aliases": [
+        "Holili",
+        "Holily"
+      ]
+    },
+    {
+      "crewId": "77",
+      "crewName": "Pras",
+      "crewType": "driver",
+      "crewStatus": "deleted_legacy_crew_but_review_mentioned",
+      "relationReviewCount": 6,
+      "reviewCount": 6,
+      "aliasAdjustedDelta": 0,
+      "aliases": [
+        "Pras",
+        "Prasojo"
+      ]
+    },
+    {
+      "crewId": "73",
+      "crewName": "Joyo",
+      "crewType": "driver",
+      "crewStatus": "active",
+      "relationReviewCount": 4,
+      "reviewCount": 4,
+      "aliasAdjustedDelta": 0,
+      "aliases": [
+        "Joyo"
+      ]
+    },
+    {
+      "crewId": "2",
+      "crewName": "Juan",
+      "crewType": "guide",
+      "crewStatus": "active",
+      "relationReviewCount": 1,
+      "reviewCount": 3,
+      "aliasAdjustedDelta": 2,
+      "aliases": [
+        "Juan"
+      ]
+    },
+    {
+      "crewId": "72",
+      "crewName": "Dika",
+      "crewType": "driver",
+      "crewStatus": "active",
+      "relationReviewCount": 2,
+      "reviewCount": 2,
+      "aliasAdjustedDelta": 0,
+      "aliases": [
+        "Dika",
+        "Dhika"
+      ]
+    },
+    {
+      "crewId": "79",
+      "crewName": "Edi",
+      "crewType": "driver",
+      "crewStatus": "active",
+      "relationReviewCount": 1,
+      "reviewCount": 2,
+      "aliasAdjustedDelta": 1,
+      "aliases": [
+        "Edi",
+        "Edy"
+      ]
+    },
+    {
+      "crewId": "75",
+      "crewName": "Didin",
+      "crewType": "driver",
+      "crewStatus": "active",
+      "relationReviewCount": 1,
+      "reviewCount": 1,
+      "aliasAdjustedDelta": 0,
+      "aliases": [
+        "Didin"
+      ]
+    }
+  ],
+  "aliasStats": [
+    {
+      "crewId": "3",
+      "crewName": "Anjas",
+      "aliasMatches": [
+        {
+          "alias": "Anjas",
+          "observedForms": [
+            "Anjas"
+          ],
+          "reviewCount": 10,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-133",
+              "snippet": ", Bromo, and then Ijen. Everything went perfectly. I highly recommend requesting Anjas as your guide. He's fantastic. He did everything he could to make our trip as u"
+            },
+            {
+              "reviewId": "google-review-87",
+              "snippet": "to Java Volcano Tour Operator for the excellent arrangements. Special thanks to Anjas, Izu, Andy, and the entire team for their professionalism and hospitality. Than"
+            },
+            {
+              "reviewId": "google-review-93",
+              "snippet": "y life. Stunningly beautiful nature and super well coordinated by our tour guide Anjas. Also helped that he was really funny!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crewId": "68",
+      "crewName": "Boy",
+      "aliasMatches": [
+        {
+          "alias": "Boy",
+          "observedForms": [
+            "boy",
+            "Boy"
+          ],
+          "reviewCount": 7,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-82",
+              "snippet": "Our tour guide (ah boy) and driver were amazing throughout the 3D2N trip. Responsible and made everyth"
+            },
+            {
+              "reviewId": "google-review-92",
+              "snippet": "A great experience with Boy and Holili, they are very professional and friendly! The itinerary was full of"
+            },
+            {
+              "reviewId": "google-review-109",
+              "snippet": "ecial thanks to Yandi (our driver who’s been staying with us the whole trip) and Boy (our guide to Ijen crater). They were so friendly and shared lots of useful inf"
+            }
+          ]
+        },
+        {
+          "alias": "Ahboy",
+          "observedForms": [
+            "Ahboy"
+          ],
+          "reviewCount": 2,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-168",
+              "snippet": "ectly designed so that all you have to worry about is enjoying it.\\n\\nOur guide, Ahboy, made a tremendous effort with us since we barely spoke English, but he made su"
+            },
+            {
+              "reviewId": "google-review-220",
+              "snippet": "n and will keep great memories of those few days 😊\\nSpecial thanks to our guide Ahboy for making us discover indonesian songs during our long car drives 🎶\\nThank yo"
+            }
+          ]
+        },
+        {
+          "alias": "Ah Boi",
+          "observedForms": [
+            "Ah Boi"
+          ],
+          "reviewCount": 1,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-212",
+              "snippet": "to Surabaya was indeed an unforgettable one. I had two main guides (Freddie and Ah Boi). Both of them were very nice, knowledgeable and most importantly they ensured"
+            }
+          ]
+        },
+        {
+          "alias": "Ah Boy",
+          "observedForms": [
+            "ah boy"
+          ],
+          "reviewCount": 1,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-82",
+              "snippet": "Our tour guide (ah boy) and driver were amazing throughout the 3D2N trip. Responsible and made everyth"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crewId": "75",
+      "crewName": "Didin",
+      "aliasMatches": [
+        {
+          "alias": "Didin",
+          "observedForms": [
+            "Didin"
+          ],
+          "reviewCount": 1,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-202",
+              "snippet": "ing atmosphere.\\n\\nAll our concerns were quickly and easily resolved. Our driver Didin was also very kind. My friends and I had a lot of fun thanks to the team. I wou"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crewId": "72",
+      "crewName": "Dika",
+      "aliasMatches": [
+        {
+          "alias": "Dika",
+          "observedForms": [
+            "Dika"
+          ],
+          "reviewCount": 2,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-174",
+              "snippet": "(Translated by Google) Completely delighted, Kiki and Dika were super friendly and attentive at all times!\\n\\n(Original)\\nCompletamente en"
+            },
+            {
+              "reviewId": "google-review-181",
+              "snippet": "\\nWe joined the tour from 31/7 to 3/8. We have had a great trip with our driver, Dika, he was being very helpful and caring, sharing things about Indonesia with us,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crewId": "79",
+      "crewName": "Edi",
+      "aliasMatches": [
+        {
+          "alias": "Edi",
+          "observedForms": [
+            "Edi"
+          ],
+          "reviewCount": 1,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-110",
+              "snippet": "cenery was simply majestic, but the team is what made it so good. Big thanks to Edi, Fauzi, Sulis, and other members of the tour team for organizing such a unique"
+            }
+          ]
+        },
+        {
+          "alias": "Edy",
+          "observedForms": [
+            "Edy"
+          ],
+          "reviewCount": 1,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-240",
+              "snippet": "g. The guide, Mas Opik, was friendly and well versed in history. Our driver Mas Edy was very skilled and accomodative. We will keep Java Volcano Tour Operators in"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crewId": "46",
+      "crewName": "Fauzi",
+      "aliasMatches": [
+        {
+          "alias": "Fauzi",
+          "observedForms": [
+            "Fauzi"
+          ],
+          "reviewCount": 9,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-127",
+              "snippet": "tailored around us, which made the whole experience feel personal. Our guides, Fauzi and Freddie, made the tour truly unforgettable. They were positive, happy, cari"
+            },
+            {
+              "reviewId": "google-review-79",
+              "snippet": "package with JVTO via Klook for our 3D2N adventure trip. Shoutout to Freddie and Fauzi for always accommodating to us; from entertaining our nonsense/requests and als"
+            },
+            {
+              "reviewId": "google-review-78",
+              "snippet": "and mountains to avoid the crowds which is a huge plus point. Special thanks to Fauzi for taking good care of us the entire trip. He was friendly, hilarious and easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crewId": "7",
+      "crewName": "Fredi",
+      "aliasMatches": [
+        {
+          "alias": "Fredi",
+          "observedForms": [
+            "Fredi"
+          ],
+          "reviewCount": 11,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-132",
+              "snippet": "every day brought a new and amazing experience. A special thanks to our driver, Fredi, for his exceptional driving skills and for taking such good care of us through"
+            },
+            {
+              "reviewId": "google-review-112",
+              "snippet": "Rendi and Fredi (the guide and the driver) are very kind and helpful. Rendi is an excellent pho"
+            },
+            {
+              "reviewId": "google-review-267",
+              "snippet": "m. The team was very responsive, the trip was organised smoothly and our driver, Fredi, did a fantastic job, ensuring that we got from place to place safely and on ti"
+            }
+          ]
+        },
+        {
+          "alias": "Freddie",
+          "observedForms": [
+            "Freddie"
+          ],
+          "reviewCount": 5,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-127",
+              "snippet": "around us, which made the whole experience feel personal. Our guides, Fauzi and Freddie, made the tour truly unforgettable. They were positive, happy, caring and funny"
+            },
+            {
+              "reviewId": "google-review-79",
+              "snippet": "We booked a package with JVTO via Klook for our 3D2N adventure trip. Shoutout to Freddie and Fauzi for always accommodating to us; from entertaining our nonsense/reques"
+            },
+            {
+              "reviewId": "google-review-171",
+              "snippet": "airport, as well as nighttime transportation and guiding, so we were grateful to Freddie, who accompanied us with a smile until the very end despite the hard work.\\n\\n("
+            }
+          ]
+        },
+        {
+          "alias": "Freddy",
+          "observedForms": [
+            "Freddy"
+          ],
+          "reviewCount": 3,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-85",
+              "snippet": "I got Fauzi as a guide and a Freddy as a driver. Both of them were the best i can even imagine😍 We had very good t"
+            },
+            {
+              "reviewId": "google-review-171",
+              "snippet": "ide contacting each other in advance and accompanied by photos. Both our driver, Freddy, and the mountain guide boy were cheerful and helpful, helping with photography"
+            },
+            {
+              "reviewId": "google-review-226",
+              "snippet": "he wonders of their homeland made our journey an absolute delight.\\n\\nThank you, Freddy and Juan , for an incredible adventure that exceeded all expectations.\\nWe look"
+            }
+          ]
+        },
+        {
+          "alias": "Fredy",
+          "observedForms": [
+            "Fredy"
+          ],
+          "reviewCount": 3,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-78",
+              "snippet": "ays felt safe and never had to worry about anything under his care. Our driver, Fredy, was always punctual and is also very chill. Although the drives to each destin"
+            },
+            {
+              "reviewId": "google-review-95",
+              "snippet": "ril 30 to May 3, 2026, and it was truly an unforgettable experience. Our driver Fredy was friendly, professional, and very attentive throughout the trip. He safely d"
+            },
+            {
+              "reviewId": "google-review-99",
+              "snippet": "erience. The organization was excellent. Our guide was Fauzi, and our driver was Fredy. Huge thanks to them for their professional approach, smiles, easygoing attitud"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crewId": "39",
+      "crewName": "Gufron",
+      "aliasMatches": [
+        {
+          "alias": "Gufron",
+          "observedForms": [
+            "Gufron"
+          ],
+          "reviewCount": 18,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-134",
+              "snippet": "the people from JVTO we came in touch were very helpful but especially our guide Gufron was exceptional! He was very easy to communicate, he was super funny, he knew e"
+            },
+            {
+              "reviewId": "google-review-88",
+              "snippet": "It was a safe and fun trip all around! Gufron and Joyo were both amazing and helpful. They were both great people to commit w"
+            },
+            {
+              "reviewId": "google-review-90",
+              "snippet": "our was great! Even though Bromo was closed, we were taken to Semeru. Our guide, Gufron, was fantastic! (Original) Le tour était très bien! Même si Bromo était fermé,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crewId": "28",
+      "crewName": "Holili",
+      "aliasMatches": [
+        {
+          "alias": "Holili",
+          "observedForms": [
+            "Holili"
+          ],
+          "reviewCount": 6,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-81",
+              "snippet": "nces of my life! A huge thank you to our amazing tour guide Kiki and our driver Holili. They made the whole trip so easy, stress-free, and truly unforgettable. They w"
+            },
+            {
+              "reviewId": "google-review-92",
+              "snippet": "A great experience with Boy and Holili, they are very professional and friendly! The itinerary was full of great adven"
+            },
+            {
+              "reviewId": "google-review-98",
+              "snippet": "ted by Google) We spent four incredible days with our guide Fauzi and our driver Holili. An intense but exceptional trip from beginning to end. Fauzi is a remarkable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crewId": "73",
+      "crewName": "Joyo",
+      "aliasMatches": [
+        {
+          "alias": "Joyo",
+          "observedForms": [
+            "Joyo"
+          ],
+          "reviewCount": 4,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-88",
+              "snippet": "It was a safe and fun trip all around! Gufron and Joyo were both amazing and helpful. They were both great people to commit with. I al"
+            },
+            {
+              "reviewId": "google-review-111",
+              "snippet": "needs were taken care off...his knowledge of the area was also great. Our drive Joyo knows how to get from A to B in the fastest time possible! We did the 5/6 night"
+            },
+            {
+              "reviewId": "google-review-195",
+              "snippet": "l, friendly, and always willing to help you get your best photo. Our driver, Mr. Joyo, is a great driver; always with a smile on his face, he'll ensure you arrive fi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crewId": "2",
+      "crewName": "Juan",
+      "aliasMatches": [
+        {
+          "alias": "Juan",
+          "observedForms": [
+            "Juan"
+          ],
+          "reviewCount": 3,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-95",
+              "snippet": "videos, which left us with wonderful memories of the trip. For Ijen, our guide Juan was also kind and professional. Even though the blue fire was closed during our"
+            },
+            {
+              "reviewId": "google-review-225",
+              "snippet": "ffered as an alternative which was also amazing. Accommodation was very nice and Juan was a great tour guide. Thank you again! Will and Helena"
+            },
+            {
+              "reviewId": "google-review-226",
+              "snippet": "of their homeland made our journey an absolute delight.\\n\\nThank you, Freddy and Juan , for an incredible adventure that exceeded all expectations.\\nWe look forward"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crewId": "17",
+      "crewName": "Kiki",
+      "aliasMatches": [
+        {
+          "alias": "Kiki",
+          "observedForms": [
+            "Kiki"
+          ],
+          "reviewCount": 13,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-81",
+              "snippet": "of the best experiences of my life! A huge thank you to our amazing tour guide Kiki and our driver Holili. They made the whole trip so easy, stress-free, and truly"
+            },
+            {
+              "reviewId": "google-review-97",
+              "snippet": "Just had an amazing time at Ijen, Tumpak Sewu, and Bromo with Mas Kiki- incredible guide, we got a lot of pictures at the best spots!!!! Everything do"
+            },
+            {
+              "reviewId": "google-review-101",
+              "snippet": "also fun to talk to, which made the experience even more enjoyable. Our guide, Kiki, is an amazing photographer — every shot turned out beautifully! And the local"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crewId": "77",
+      "crewName": "Pras",
+      "aliasMatches": [
+        {
+          "alias": "Pras",
+          "observedForms": [
+            "Pras"
+          ],
+          "reviewCount": 6,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-166",
+              "snippet": "It was the best experience ever!! Our driver Pras and guide Rendi were the best, great people, super professionals and thoughtful"
+            },
+            {
+              "reviewId": "google-review-172",
+              "snippet": "a, Mount Bromo, and Mount Ijen, thanks to our amazing guides, Gufron, Fauzi, and Pras! They took fantastic care of us, ensuring every detail was perfect. Their knowl"
+            },
+            {
+              "reviewId": "google-review-176",
+              "snippet": "Our trip with Java Volcano Tour was amazing! Big thanks to our guide Pras—friendly, funny, and speaking great English. He quickly helped me find my lost"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crewId": "13",
+      "crewName": "Rendi",
+      "aliasMatches": [
+        {
+          "alias": "Rendi",
+          "observedForms": [
+            "Rendi"
+          ],
+          "reviewCount": 13,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-135",
+              "snippet": "even more thanks to the excellent organization and the great care of our guide, Rendi, and our attentive driver. The timing and organization were truly top-notch. Ev"
+            },
+            {
+              "reviewId": "google-review-112",
+              "snippet": "Rendi and Fredi (the guide and the driver) are very kind and helpful. Rendi is an exc"
+            },
+            {
+              "reviewId": "google-review-166",
+              "snippet": "It was the best experience ever!! Our driver Pras and guide Rendi were the best, great people, super professionals and thoughtful, they took care"
+            }
+          ]
+        },
+        {
+          "alias": "Rendy",
+          "observedForms": [
+            "Rendy"
+          ],
+          "reviewCount": 2,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-219",
+              "snippet": "Thank you JVTO & Rendy. Help and give us wonderful trip during these 4 days. I will recommend my frien"
+            },
+            {
+              "reviewId": "google-review-229",
+              "snippet": "unt Bromo as the weather was good\\n\\nWe are lucky to meet a very friendly driver Rendy. His hospitality made us feel the whole trip to be safe and comfortable.\\nAlso"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crewId": "4",
+      "crewName": "Taufik",
+      "aliasMatches": [
+        {
+          "alias": "Taufik",
+          "observedForms": [
+            "Taufik"
+          ],
+          "reviewCount": 5,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-78",
+              "snippet": "th driving makes it comfortable and we slept like a baby during those journeys! Taufik, our guide at Kawah Ijen was really friendly and professional . He matches our"
+            },
+            {
+              "reviewId": "google-review-213",
+              "snippet": "iendly and warm.\\nWe were well taken care of throughout. Big thanks to our guide Taufik and driver Johan."
+            },
+            {
+              "reviewId": "google-review-215",
+              "snippet": "3 nights private group tour to Ijen and Mount Bromo!\\n\\nKudos to our tour guide Taufik who's friendly and did well to cater to our needs throughout the trip.\\n\\nWould"
+            }
+          ]
+        },
+        {
+          "alias": "Mas Opik",
+          "observedForms": [
+            "Mas Opik"
+          ],
+          "reviewCount": 1,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-240",
+              "snippet": "Eventhough it was a long drive, the places we went were breathtaking. The guide, Mas Opik, was friendly and well versed in history. Our driver Mas Edy was very skilled"
+            }
+          ]
+        },
+        {
+          "alias": "Opik",
+          "observedForms": [
+            "Opik"
+          ],
+          "reviewCount": 1,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-240",
+              "snippet": "though it was a long drive, the places we went were breathtaking. The guide, Mas Opik, was friendly and well versed in history. Our driver Mas Edy was very skilled"
+            }
+          ]
+        },
+        {
+          "alias": "Tufik",
+          "observedForms": [
+            "Tufik"
+          ],
+          "reviewCount": 1,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-252",
+              "snippet": "Thanks to the tour and their amazing team (Dosi & Tufik), we went to Bromo and Ijen Volcano. They were very professional and so friendl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crewId": "1",
+      "crewName": "Yandi",
+      "aliasMatches": [
+        {
+          "alias": "Yandi",
+          "observedForms": [
+            "Yandi"
+          ],
+          "reviewCount": 9,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-109",
+              "snippet": "price was really good. The staff were super kind and helpful — special thanks to Yandi (our driver who’s been staying with us the whole trip) and Boy (our guide to Ij"
+            },
+            {
+              "reviewId": "google-review-269",
+              "snippet": "ecause you know the hotels that you'll go to (which are great btw).\\nOur driver, Yandi, was always very kind and attentive. He never rushed us, letting us take our ti"
+            },
+            {
+              "reviewId": "google-review-173",
+              "snippet": "Our driver Yandi was really reliable and friendly. He briefed us on what to expect for the day a"
+            }
+          ]
+        },
+        {
+          "alias": "Yendi",
+          "observedForms": [
+            "Yendi"
+          ],
+          "reviewCount": 1,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-91",
+              "snippet": "(Translated by Google) We had a wonderful experience! Our driver, Yendi, was always super responsive to our requests and is reliable. It's a challengin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crewId": "62",
+      "crewName": "Yusuf",
+      "aliasMatches": [
+        {
+          "alias": "Yusuf",
+          "observedForms": [
+            "Yusuf"
+          ],
+          "reviewCount": 8,
+          "sampleSnippets": [
+            {
+              "reviewId": "google-review-131",
+              "snippet": "accomodation options with upgrades if desired, nice spacious car for the 4 days, Yusuf was a great driver and was very friendly and helpful, well organised guides for"
+            },
+            {
+              "reviewId": "google-review-94",
+              "snippet": "Yusuf was an excellent driver and tour guide. He was always punctual, responsible, an"
+            },
+            {
+              "reviewId": "google-review-108",
+              "snippet": "I think Kiki is the best guide and Yusuf is good at driving."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "addedCrewMentionsByReview": [
+    {
+      "reviewId": "google-review-127",
+      "reviewerName": "Tam",
+      "date": "2026-07-22",
+      "added": [
+        {
+          "id": "7",
+          "name": "Fredi",
+          "aliasesMatched": [
+            "Freddie"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-79",
+      "reviewerName": "n iffah",
+      "date": "2026-07-12",
+      "added": [
+        {
+          "id": "7",
+          "name": "Fredi",
+          "aliasesMatched": [
+            "Freddie"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-78",
+      "reviewerName": "HuiYuan Yeoh",
+      "date": "2026-07-12",
+      "added": [
+        {
+          "id": "7",
+          "name": "Fredi",
+          "aliasesMatched": [
+            "Fredy"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-85",
+      "reviewerName": "Dawid Ziemba",
+      "date": "2026-06-15",
+      "added": [
+        {
+          "id": "7",
+          "name": "Fredi",
+          "aliasesMatched": [
+            "Freddy"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-91",
+      "reviewerName": "Clemenzia Tortomano",
+      "date": "2026-05-30",
+      "added": [
+        {
+          "id": "1",
+          "name": "Yandi",
+          "aliasesMatched": [
+            "Yendi"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-95",
+      "reviewerName": "Rebecca Tsai",
+      "date": "2026-05-18",
+      "added": [
+        {
+          "id": "7",
+          "name": "Fredi",
+          "aliasesMatched": [
+            "Fredy"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-99",
+      "reviewerName": "Яна Мисюченко",
+      "date": "2026-04-24",
+      "added": [
+        {
+          "id": "7",
+          "name": "Fredi",
+          "aliasesMatched": [
+            "Fredy"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-267",
+      "reviewerName": "Jeremy Teo",
+      "date": "2025-10-28",
+      "added": [
+        {
+          "id": "7",
+          "name": "Fredi",
+          "aliasesMatched": [
+            "Fredi"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-268",
+      "reviewerName": "Alydies Yue",
+      "date": "2025-10-27",
+      "added": [
+        {
+          "id": "7",
+          "name": "Fredi",
+          "aliasesMatched": [
+            "Fredi"
+          ]
+        },
+        {
+          "id": "39",
+          "name": "Gufron",
+          "aliasesMatched": [
+            "Gufron"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-269",
+      "reviewerName": "Andrés",
+      "date": "2025-10-15",
+      "added": [
+        {
+          "id": "3",
+          "name": "Anjas",
+          "aliasesMatched": [
+            "Anjas"
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Yandi",
+          "aliasesMatched": [
+            "Yandi"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-171",
+      "reviewerName": "K E",
+      "date": "2025-09-19",
+      "added": [
+        {
+          "id": "7",
+          "name": "Fredi",
+          "aliasesMatched": [
+            "Freddy",
+            "Freddie"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-209",
+      "reviewerName": "Pooja prakash",
+      "date": "2025-04-05",
+      "added": [
+        {
+          "id": "7",
+          "name": "Fredi",
+          "aliasesMatched": [
+            "Freddie"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-212",
+      "reviewerName": "faurooniy ahamed",
+      "date": "2025-02-25",
+      "added": [
+        {
+          "id": "68",
+          "name": "Boy",
+          "aliasesMatched": [
+            "Ah Boi"
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Fredi",
+          "aliasesMatched": [
+            "Freddie"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-219",
+      "reviewerName": "Mona Hsiao",
+      "date": "2024-08-09",
+      "added": [
+        {
+          "id": "13",
+          "name": "Rendi",
+          "aliasesMatched": [
+            "Rendy"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-225",
+      "reviewerName": "Will Jones",
+      "date": "2024-07-20",
+      "added": [
+        {
+          "id": "2",
+          "name": "Juan",
+          "aliasesMatched": [
+            "Juan"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-226",
+      "reviewerName": "Chrystal Tan",
+      "date": "2024-07-12",
+      "added": [
+        {
+          "id": "7",
+          "name": "Fredi",
+          "aliasesMatched": [
+            "Freddy"
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Juan",
+          "aliasesMatched": [
+            "Juan"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-229",
+      "reviewerName": "Alvin Yue Hin Kung",
+      "date": "2024-06-11",
+      "added": [
+        {
+          "id": "13",
+          "name": "Rendi",
+          "aliasesMatched": [
+            "Rendy"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-240",
+      "reviewerName": "irfan anaqi",
+      "date": "2024-02-11",
+      "added": [
+        {
+          "id": "79",
+          "name": "Edi",
+          "aliasesMatched": [
+            "Edy"
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Taufik",
+          "aliasesMatched": [
+            "Mas Opik",
+            "Opik"
+          ]
+        }
+      ]
+    },
+    {
+      "reviewId": "google-review-252",
+      "reviewerName": "clara rigal",
+      "date": "2022-08-10",
+      "added": [
+        {
+          "id": "4",
+          "name": "Taufik",
+          "aliasesMatched": [
+            "Tufik"
+          ]
+        }
+      ]
+    }
+  ],
+  "byUnresolvedCrewMention": [
+    {
+      "detectedName": "Johan",
+      "reviewCount": 9,
+      "status": "needs_owner_mapping",
+      "possibleMeaning": "named guide/driver in reviews but not present in current crew_members roster",
+      "sampleReviews": [
+        {
+          "reviewId": "google-review-179",
+          "reviewerName": "Sharon Negri",
+          "date": "2025-08-16",
+          "aliasesMatched": [
+            "Johan"
+          ],
+          "snippet": "ok the 3D 2N Bromo + Ljen Tour and everything was absolutely perfect. Our guide, Johan, was very knowledgeable and professional. He was perfectly timed with every mov"
+        },
+        {
+          "reviewId": "google-review-191",
+          "reviewerName": "JX",
+          "date": "2025-07-07",
+          "aliasesMatched": [
+            "Johan"
+          ],
+          "snippet": "t the airport and dropped off at our intended destination. Our guide and driver, Johan, is clearly experienced, and his hard work and efforts are admirable and apprec"
+        },
+        {
+          "reviewId": "google-review-198",
+          "reviewerName": "JunYoung Lee",
+          "date": "2025-05-26",
+          "aliasesMatched": [
+            "Johan"
+          ],
+          "snippet": "ven better by the people who took care of us throughout the journey. Our driver, Johan, was incredibly nice and made the rides smooth and comfortable. Our guide, Rend"
+        },
+        {
+          "reviewId": "google-review-213",
+          "reviewerName": "Haikang Tan",
+          "date": "2024-12-27",
+          "aliasesMatched": [
+            "Johan"
+          ],
+          "snippet": "We were well taken care of throughout. Big thanks to our guide Taufik and driver Johan."
+        },
+        {
+          "reviewId": "google-review-214",
+          "reviewerName": "Jesus Palma",
+          "date": "2024-11-12",
+          "aliasesMatched": [
+            "Johan"
+          ],
+          "snippet": "gle) We did the 3d/2n tour from Surabaya to Bali. Our guide Rendi and our driver Johan made the tour unbeatable. Attentive from the first moment to our needs, explain"
+        },
+        {
+          "reviewId": "google-review-228",
+          "reviewerName": "Xinyi Lim",
+          "date": "2024-07-03",
+          "aliasesMatched": [
+            "Johan"
+          ],
+          "snippet": "trip to actual trip itself was very smooth. Our tour guide Anjas, and our driver Johan were professional, fun and took great care of us :) It was a hassle-free trip f"
+        },
+        {
+          "reviewId": "google-review-233",
+          "reviewerName": "Wong Kassandra",
+          "date": "2024-05-13",
+          "aliasesMatched": [
+            "Johan"
+          ],
+          "snippet": ".\\nA significant part of what made this trip enjoyable was our driver cum guide, Johan. Firstly he was always on time and he also made sure we had ample time for trav"
+        },
+        {
+          "reviewId": "google-review-235",
+          "reviewerName": "Louise VIGOUROUX",
+          "date": "2024-05-07",
+          "aliasesMatched": [
+            "Johan"
+          ],
+          "snippet": "er Yoga for his constant attention. And last but not least, thanks to our driver Johan, for his efficient driving, ensuring that we arrived before everyone else at th"
+        }
+      ]
+    },
+    {
+      "detectedName": "Sulis",
+      "reviewCount": 3,
+      "status": "needs_owner_mapping",
+      "possibleMeaning": "named guide/team member in reviews but not present in current crew_members roster",
+      "sampleReviews": [
+        {
+          "reviewId": "google-review-110",
+          "reviewerName": "Michael Lee",
+          "date": "2026-01-09",
+          "aliasesMatched": [
+            "Sulis"
+          ],
+          "snippet": "imply majestic, but the team is what made it so good. Big thanks to Edi, Fauzi, Sulis, and other members of the tour team for organizing such a unique experience. I"
+        },
+        {
+          "reviewId": "google-review-203",
+          "reviewerName": "ash_ash",
+          "date": "2025-05-13",
+          "aliasesMatched": [
+            "Sulis"
+          ],
+          "snippet": "Big shoutout to our tour guides and driver, Fredi, Kiki and Sulis. They were incredibly professional, knowledgeable and friendly. Loved how organ"
+        },
+        {
+          "reviewId": "google-review-233",
+          "reviewerName": "Wong Kassandra",
+          "date": "2024-05-13",
+          "aliasesMatched": [
+            "Sulis"
+          ],
+          "snippet": "guided us along the rocky paths. She also took beautiful pictures for us.\\nGawan Sulis was our guide at the waterfall. He never hesitated to lend his arm for us to ho"
+        }
+      ]
+    },
+    {
+      "detectedName": "Dosi",
+      "reviewCount": 2,
+      "status": "needs_owner_mapping",
+      "possibleMeaning": "named driver/team member in reviews but not present in current crew_members roster",
+      "sampleReviews": [
+        {
+          "reviewId": "google-review-250",
+          "reviewerName": "brylee catline",
+          "date": "2023-12-29",
+          "aliasesMatched": [
+            "Dosi"
+          ],
+          "snippet": "Yandi and Dosi made our 5 Days 4 Nights tour to Ijen, Papuma, Tumpak Sewu, Bromo, and Surabaya"
+        },
+        {
+          "reviewId": "google-review-252",
+          "reviewerName": "clara rigal",
+          "date": "2022-08-10",
+          "aliasesMatched": [
+            "Dosi"
+          ],
+          "snippet": "Thanks to the tour and their amazing team (Dosi & Tufik), we went to Bromo and Ijen Volcano. They were very professional and so"
+        }
+      ]
+    },
+    {
+      "detectedName": "Gean",
+      "reviewCount": 2,
+      "status": "needs_owner_mapping",
+      "possibleMeaning": "named guide/driver in reviews but not present in current crew_members roster",
+      "sampleReviews": [
+        {
+          "reviewId": "google-review-117",
+          "reviewerName": "Lonzkie",
+          "date": "2024-09-02",
+          "aliasesMatched": [
+            "Gean"
+          ],
+          "snippet": "sport, meals and hotels were all taken care of. Nothing to worry about anything. Gean, our tour guide, was considerate and helpful. The team service was commendable."
+        },
+        {
+          "reviewId": "google-review-223",
+          "reviewerName": "Jolene Kek",
+          "date": "2024-07-26",
+          "aliasesMatched": [
+            "Gean"
+          ],
+          "snippet": "meticulously planned and executed flawlessly. Our tour guide, Rendi, and driver, Gean, were exceptional. They were not only proficient in English but also engaged us"
+        }
+      ]
+    },
+    {
+      "detectedName": "Cahya",
+      "reviewCount": 1,
+      "status": "needs_owner_mapping",
+      "possibleMeaning": "named driver in review but not present in current crew_members roster",
+      "sampleReviews": [
+        {
+          "reviewId": "google-review-205",
+          "reviewerName": "Basia Dmochowska",
+          "date": "2025-05-07",
+          "aliasesMatched": [
+            "Cahya"
+          ],
+          "snippet": "A lot of fun! Great adventure! Exceptional guide - Gufron - and a great driver - Cahya - thank you for the amazing expericnce!"
+        }
+      ]
+    },
+    {
+      "detectedName": "Dinca",
+      "reviewCount": 1,
+      "status": "needs_owner_mapping",
+      "possibleMeaning": "named travel guide in review but not present in current crew_members roster",
+      "sampleReviews": [
+        {
+          "reviewId": "google-review-89",
+          "reviewerName": "Koyel Das",
+          "date": "2026-06-05",
+          "aliasesMatched": [
+            "Dinca"
+          ],
+          "snippet": "walk across the sea of sand were amazing. A special thanks to our travel guide, Dinca, who was professional, friendly, and very knowledgeable throughout the trip. Di"
+        }
+      ]
+    },
+    {
+      "detectedName": "Yoga",
+      "reviewCount": 1,
+      "status": "needs_owner_mapping",
+      "possibleMeaning": "named photographer in review but not present in current crew_members roster",
+      "sampleReviews": [
+        {
+          "reviewId": "google-review-235",
+          "reviewerName": "Louise VIGOUROUX",
+          "date": "2024-05-07",
+          "aliasesMatched": [
+            "Yoga"
+          ],
+          "snippet": "less mental burden for many a trip! Special thanks to our guide and photographer Yoga for his constant attention. And last but not least, thanks to our driver Johan,"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "reviewCount is review-level count: a crew is counted once per review even if their name/alias appears multiple times.",
+    "relationReviewCount is the previous database relation count before text alias expansion.",
+    "Unresolved detected names are not merged into active crew counts until owner mapping is confirmed."
+  ]
+}

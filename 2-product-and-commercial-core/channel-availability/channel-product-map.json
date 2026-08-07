@@ -1,0 +1,53 @@
+{
+  "id": "channel-product-map",
+  "owner": "product-commercial",
+  "lastReviewed": "2026-08-07",
+  "reviewStatus": "partially_confirmed_by_owner_context",
+  "purpose": "Map channel-specific package identifiers to JVTO product semantics without forcing partner/custom products into direct website product contracts.",
+  "source_refs": [
+    "3-booking-and-journey-core/booking/booking-records.json",
+    "3-booking-and-journey-core/booking/product-reconciliation.json"
+  ],
+  "mappings": [
+    {
+      "channel": "KLOOK",
+      "packageId": 82,
+      "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+      "classification": "confirmed_channel_specific_package_id",
+      "canonicalProductRef": null,
+      "note": "User confirmed this is a KLOOK package ID. It may later be mapped to a JVTO canonical product contract or remain channel-only."
+    },
+    {
+      "channel": "KLOOK",
+      "packageId": 83,
+      "packageName": "4D3N Mount Bromo, Ijen Crater & Surabaya Night Market from Surabaya",
+      "classification": "confirmed_channel_specific_package_id",
+      "canonicalProductRef": null,
+      "note": "User confirmed this is a KLOOK package ID. It may later be mapped to a JVTO canonical product contract or remain channel-only."
+    },
+    {
+      "channel": "KLOOK",
+      "packageId": 84,
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "classification": "confirmed_channel_specific_package_id",
+      "canonicalProductRef": null,
+      "note": "User confirmed this is a KLOOK package ID. It may later be mapped to a JVTO canonical product contract or remain channel-only."
+    },
+    {
+      "channel": "KLOOK",
+      "packageId": 94,
+      "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
+      "classification": "observed_channel_specific_package_id_needs_confirmation",
+      "canonicalProductRef": null,
+      "note": "Observed only in KLOOK booking records. Needs explicit owner confirmation."
+    },
+    {
+      "channel": "TWT",
+      "packageId": null,
+      "packageName": "Generic/custom package records",
+      "classification": "intentional_no_package_id",
+      "canonicalProductRef": null,
+      "note": "User confirmed TWT intentionally does not use package IDs."
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "id": "booking-channel-payment-readiness-summary",
+  "generated_at": "2026-08-07T00:00:00.000Z",
+  "owner": "experience-analytics",
+  "lastReviewed": "2026-08-07",
+  "reviewStatus": "source-backed-summary",
+  "privacy": "Aggregated analytics only. Booking-level rows, customer identifiers, payment links, raw conversations, and portal slugs are not stored here.",
+  "source_refs": [
+    "3-booking-and-journey-core/booking/booking-summary.json",
+    "3-booking-and-journey-core/booking/package-usage-summary.json",
+    "3-booking-and-journey-core/payments/payment-summary.json",
+    "3-booking-and-journey-core/travelers/country-pax-summary.json",
+    "5-experience-engine/partner-feed/channel-booking-summary.json"
+  ],
+  "scope": {
+    "booking_count": 74,
+    "start_months": {
+      "2026-08": 74
+    },
+    "source_window_note": "Current booking-overview snapshot contains August 2026 start-month records only."
+  },
+  "channel_mix": [
+    {
+      "channel": "JVTO",
+      "booking_count": 39,
+      "share_pct": 52.7
+    },
+    {
+      "channel": "KLOOK",
+      "booking_count": 26,
+      "share_pct": 35.14
+    },
+    {
+      "channel": "TWT",
+      "booking_count": 9,
+      "share_pct": 12.16
+    }
+  ],
+  "duration_mix": [
+    {
+      "duration": "3D 2N",
+      "booking_count": 30,
+      "share_pct": 40.54
+    },
+    {
+      "duration": "4D 3N",
+      "booking_count": 30,
+      "share_pct": 40.54
+    },
+    {
+      "duration": "2D 1N",
+      "booking_count": 3,
+      "share_pct": 4.05
+    },
+    {
+      "duration": "1D 1N",
+      "booking_count": 4,
+      "share_pct": 5.41
+    },
+    {
+      "duration": "5D 4N",
+      "booking_count": 5,
+      "share_pct": 6.76
+    },
+    {
+      "duration": "1D 0N",
+      "booking_count": 1,
+      "share_pct": 1.35
+    },
+    {
+      "duration": "6D 5N",
+      "booking_count": 1,
+      "share_pct": 1.35
+    }
+  ],
+  "pax_distribution": [
+    {
+      "pax": 1,
+      "booking_count": 2,
+      "share_pct": 2.7
+    },
+    {
+      "pax": 2,
+      "booking_count": 43,
+      "share_pct": 58.11
+    },
+    {
+      "pax": 3,
+      "booking_count": 4,
+      "share_pct": 5.41
+    },
+    {
+      "pax": 4,
+      "booking_count": 13,
+      "share_pct": 17.57
+    },
+    {
+      "pax": 5,
+      "booking_count": 4,
+      "share_pct": 5.41
+    },
+    {
+      "pax": 6,
+      "booking_count": 2,
+      "share_pct": 2.7
+    },
+    {
+      "pax": 7,
+      "booking_count": 1,
+      "share_pct": 1.35
+    },
+    {
+      "pax": 8,
+      "booking_count": 2,
+      "share_pct": 2.7
+    },
+    {
+      "pax": 9,
+      "booking_count": 1,
+      "share_pct": 1.35
+    },
+    {
+      "pax": 10,
+      "booking_count": 2,
+      "share_pct": 2.7
+    }
+  ],
+  "top_packages": [
+    {
+      "package_id": 28,
+      "package_name": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "booking_count": 13,
+      "share_pct": 17.57
+    },
+    {
+      "package_id": 84,
+      "package_name": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "booking_count": 13,
+      "share_pct": 17.57
+    },
+    {
+      "package_id": 82,
+      "package_name": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+      "booking_count": 9,
+      "share_pct": 12.16
+    },
+    {
+      "package_id": 34,
+      "package_name": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "booking_count": 8,
+      "share_pct": 10.81
+    },
+    {
+      "package_id": 29,
+      "package_name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+      "booking_count": 5,
+      "share_pct": 6.76
+    },
+    {
+      "package_id": null,
+      "package_name": "5D 4N Package",
+      "booking_count": 5,
+      "share_pct": 6.76
+    },
+    {
+      "package_id": 33,
+      "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+      "booking_count": 4,
+      "share_pct": 5.41
+    },
+    {
+      "package_id": 48,
+      "package_name": "2 Day Bromo Sunrise Adventure from Surabaya",
+      "booking_count": 3,
+      "share_pct": 4.05
+    },
+    {
+      "package_id": 83,
+      "package_name": "4D3N Mount Bromo, Ijen Crater & Surabaya Night Market from Surabaya",
+      "booking_count": 2,
+      "share_pct": 2.7
+    },
+    {
+      "package_id": null,
+      "package_name": "3D 2N Package",
+      "booking_count": 2,
+      "share_pct": 2.7
+    }
+  ],
+  "readiness_exceptions": [
+    {
+      "signal": "missingPickup",
+      "booking_count": 5,
+      "share_pct": 6.76
+    },
+    {
+      "signal": "missingDropoff",
+      "booking_count": 19,
+      "share_pct": 25.68
+    },
+    {
+      "signal": "missingVehicle",
+      "booking_count": 1,
+      "share_pct": 1.35
+    },
+    {
+      "signal": "missingDriver",
+      "booking_count": 1,
+      "share_pct": 1.35
+    },
+    {
+      "signal": "missingGuide",
+      "booking_count": 5,
+      "share_pct": 6.76
+    },
+    {
+      "signal": "balanceDue",
+      "booking_count": 49,
+      "share_pct": 66.22
+    },
+    {
+      "signal": "overpaidOrAdjustment",
+      "booking_count": 1,
+      "share_pct": 1.35
+    },
+    {
+      "signal": "withNotes",
+      "booking_count": 26,
+      "share_pct": 35.14
+    }
+  ],
+  "payment_snapshot": {
+    "record_count": 74,
+    "balance_status_counts": {
+      "overpaid_or_adjustment": 1,
+      "settled": 24,
+      "balance_due": 49
+    },
+    "invoice_total_idr": 796752000,
+    "paid_total_idr": 307779000,
+    "outstanding_balance_idr": 488973000,
+    "payment_event_count": 71,
+    "balance_due_rate_pct": 66.22,
+    "settled_rate_pct": 32.43
+  },
+  "traveler_market_summary_ref": "3-booking-and-journey-core/travelers/country-pax-summary.json",
+  "partner_channel_summary": [
+    {
+      "channel": "JVTO",
+      "booking_count": 39,
+      "pax_total": 126,
+      "pickup_complete_count": 35,
+      "dropoff_complete_count": 28,
+      "balance_due_count": 14,
+      "overpaid_or_adjustment_count": 1,
+      "pickup_complete_rate_pct": 89.74,
+      "dropoff_complete_rate_pct": 71.79,
+      "balance_due_rate_pct": 35.9
+    },
+    {
+      "channel": "KLOOK",
+      "booking_count": 26,
+      "pax_total": 72,
+      "pickup_complete_count": 25,
+      "dropoff_complete_count": 18,
+      "balance_due_count": 26,
+      "overpaid_or_adjustment_count": 0,
+      "pickup_complete_rate_pct": 96.15,
+      "dropoff_complete_rate_pct": 69.23,
+      "balance_due_rate_pct": 100
+    },
+    {
+      "channel": "TWT",
+      "booking_count": 9,
+      "pax_total": 38,
+      "pickup_complete_count": 9,
+      "dropoff_complete_count": 9,
+      "balance_due_count": 9,
+      "overpaid_or_adjustment_count": 0,
+      "pickup_complete_rate_pct": 100,
+      "dropoff_complete_rate_pct": 100,
+      "balance_due_rate_pct": 100
+    }
+  ],
+  "limitations": [
+    "No historical inquiry/prospect data yet, so this is not a full marketing funnel.",
+    "No quotation revision data yet, so quote-to-booking conversion cannot be calculated.",
+    "No review-request lifecycle data yet, so post-trip review conversion cannot be calculated.",
+    "Internal expense/profit data is intentionally deferred."
+  ]
+}

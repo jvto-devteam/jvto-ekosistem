@@ -14,7 +14,7 @@ Expected data:
 - closure and plan-B;
 - incident log;
 - operational events.
+- expense management.
 
 This core should eventually be database-backed because operational state changes
 per trip.
-

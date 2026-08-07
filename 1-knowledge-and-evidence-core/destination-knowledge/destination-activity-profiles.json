@@ -72,7 +72,10 @@
       "difficulty_level": "moderate",
       "altitude": 2329,
       "trail_details": "Jeep transfer to viewpoint (30 mins),\r\n1km walk across sand sea (20-30 mins),\r\n250 steps to crater rim (15-20 mins). Mostly flat with final ascent via stairs."
-    }
+    },
+    "lastReviewed": "2026-08-07",
+    "owner": "destination-knowledge",
+    "reviewStatus": "domain-owner-assigned-by-audit"
   },
   {
     "id": "destination_ijen_activity_profile",
@@ -152,7 +155,10 @@
       "difficulty_level": "hard",
       "altitude": 2769,
       "trail_details": "3km ascent (1.5-2 hours) to crater rim, 1km descent (30-45 mins) to crater floor. Steep gradient (30-40°), volcanic gravel surface."
-    }
+    },
+    "lastReviewed": "2026-08-07",
+    "owner": "destination-knowledge",
+    "reviewStatus": "domain-owner-assigned-by-audit"
   },
   {
     "id": "destination_tumpak_sewu_activity_profile",
@@ -197,7 +203,10 @@
       "difficulty_level": "hard",
       "altitude": 500,
       "trail_details": "Panoramic viewpoint accessible by short walk, then 45-60 minute descent to waterfall base using bamboo ladders, ropes, and rocky paths. Total distance: 1.5km round trip with 150m elevation change."
-    }
+    },
+    "lastReviewed": "2026-08-07",
+    "owner": "destination-knowledge",
+    "reviewStatus": "domain-owner-assigned-by-audit"
   },
   {
     "id": "destination_madakaripura_activity_profile",
@@ -241,7 +250,10 @@
       "difficulty_level": "moderate",
       "altitude": 620,
       "trail_details": "800m river trek through canyon (30-45 mins), multiple river crossings, final approach through waterfall spray zone. Total elevation gain: 50m."
-    }
+    },
+    "lastReviewed": "2026-08-07",
+    "owner": "destination-knowledge",
+    "reviewStatus": "domain-owner-assigned-by-audit"
   },
   {
     "id": "destination_papuma_activity_profile",
@@ -288,7 +300,10 @@
       "difficulty_level": "easy",
       "altitude": 5,
       "trail_details": "Easy access with paved paths to beach, minimal walking required. Rocky areas require careful footing."
-    }
+    },
+    "lastReviewed": "2026-08-07",
+    "owner": "destination-knowledge",
+    "reviewStatus": "domain-owner-assigned-by-audit"
   },
   {
     "id": "destination_malang_batu_activity_profile",
@@ -322,7 +337,10 @@
         "ref": "seed/manual-overrides/destination-activity-profiles.yaml",
         "confidence": "manual_seed"
       }
-    ]
+    ],
+    "lastReviewed": "2026-08-07",
+    "owner": "destination-knowledge",
+    "reviewStatus": "domain-owner-assigned-by-audit"
   },
   {
     "id": "destination_surabaya_city_activity_profile",
@@ -356,7 +374,10 @@
         "ref": "seed/manual-overrides/destination-activity-profiles.yaml",
         "confidence": "manual_seed"
       }
-    ]
+    ],
+    "lastReviewed": "2026-08-07",
+    "owner": "destination-knowledge",
+    "reviewStatus": "domain-owner-assigned-by-audit"
   },
   {
     "id": "destination_bali_ketapang_activity_profile",
@@ -417,6 +438,9 @@
           }
         }
       ]
-    }
+    },
+    "lastReviewed": "2026-08-07",
+    "owner": "destination-knowledge",
+    "reviewStatus": "domain-owner-assigned-by-audit"
   }
 ]

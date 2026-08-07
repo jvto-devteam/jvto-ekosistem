@@ -27,7 +27,15 @@
       "entrance_ticket_domestic_idr": 160000,
       "entrance_ticket_foreign_idr": 320000,
       "standard_tour_start_time": "03:00",
-      "hotels_at_destination": [2, 11, 12, 60, 63, 64, 65]
+      "hotels_at_destination": [
+        2,
+        11,
+        12,
+        60,
+        63,
+        64,
+        65
+      ]
     },
     {
       "id": 2,
@@ -50,7 +58,16 @@
       "local_guide_required": true,
       "local_guide_rate_idr": 250000,
       "standard_tour_start_time": "00:00",
-      "hotels_at_destination": [1, 10, 32, 34, 35, 62, 68, 69]
+      "hotels_at_destination": [
+        1,
+        10,
+        32,
+        34,
+        35,
+        62,
+        68,
+        69
+      ]
     },
     {
       "id": 3,
@@ -90,7 +107,11 @@
       "jeep_required": false,
       "entrance_ticket_domestic_idr": null,
       "entrance_ticket_foreign_idr": null,
-      "hotels_at_destination": [6, 56, 61]
+      "hotels_at_destination": [
+        6,
+        56,
+        61
+      ]
     },
     {
       "id": 5,
@@ -110,7 +131,10 @@
       "jeep_required": false,
       "entrance_ticket_domestic_idr": null,
       "entrance_ticket_foreign_idr": null,
-      "hotels_at_destination": [13, 37]
+      "hotels_at_destination": [
+        13,
+        37
+      ]
     },
     {
       "id": 6,
@@ -154,7 +178,12 @@
       "entrance_ticket_foreign_idr": 100000,
       "local_guide_rate_idr": 150000,
       "standard_tour_start_time": "07:00",
-      "hotels_at_destination": [38, 57, 59, 66]
+      "hotels_at_destination": [
+        38,
+        57,
+        59,
+        66
+      ]
     },
     {
       "id": 9,
@@ -175,7 +204,10 @@
       "entrance_ticket_domestic_idr": 44000,
       "entrance_ticket_foreign_idr": 44000,
       "standard_tour_start_time": "14:00",
-      "hotels_at_destination": [33, 67]
+      "hotels_at_destination": [
+        33,
+        67
+      ]
     },
     {
       "id": 18,
@@ -216,7 +248,12 @@
       "entrance_ticket_domestic_idr": 425000,
       "entrance_ticket_foreign_idr": 500000,
       "standard_tour_start_time": "09:00",
-      "hotels_at_destination": [42]
+      "hotels_at_destination": [
+        42
+      ]
     }
-  ]
+  ],
+  "lastReviewed": "2026-08-07",
+  "owner": "destination-knowledge",
+  "reviewStatus": "domain-owner-assigned-by-audit"
 }

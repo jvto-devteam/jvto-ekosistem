@@ -29,5 +29,8 @@
       "question": "Where do I find the binding rules?",
       "answer": "Use /policy/booking-payment-cancellation and your Official E-Voucher / Invoice (PDF). If anything differs, the voucher/policies take precedence."
     }
-  ]
+  ],
+  "lastReviewed": "2026-08-07",
+  "owner": "knowledge-faq",
+  "reviewStatus": "domain-owner-assigned-by-audit"
 }

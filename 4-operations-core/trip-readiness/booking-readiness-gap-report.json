@@ -1,0 +1,5719 @@
+{
+  "id": "booking-readiness-gap-report",
+  "generated_at": "2026-08-07T00:00:00.000Z",
+  "owner": "operations-readiness",
+  "lastReviewed": "2026-08-07",
+  "source_ref": "3-booking-and-journey-core/booking/booking-records.json",
+  "privacy": "Booking-level operational report. Intended for internal use; do not publish without access control.",
+  "booking_count": 74,
+  "summary": {
+    "missingPickup": 5,
+    "missingDropoff": 19,
+    "missingGuide": 5,
+    "missingDriver": 1,
+    "missingVehicle": 1,
+    "missingHotels": 5,
+    "balanceDue": 49,
+    "noPaymentHistory": 36,
+    "missingCountry": 10
+  },
+  "gaps": {
+    "missingPickup": {
+      "description": "Pickup data is incomplete or not confirmed.",
+      "count": 5,
+      "bookings": [
+        {
+          "bookingCode": "JVTO-3453",
+          "orderChannel": "JVTO",
+          "packageId": 28,
+          "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+          "tripStart": "2026-08-11",
+          "totalPax": 9,
+          "pickup": {
+            "meetingPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Hiace Commuter"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Taufik",
+            "Juan"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 4590000,
+          "balance": 18360000,
+          "invoiceTotal": 22950000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "France"
+        },
+        {
+          "bookingCode": "KLOOK-3730",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-21",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "QG693",
+            "time": "07:00",
+            "text": "QG693",
+            "complete": true
+          },
+          "vehicles": [],
+          "drivers": [],
+          "guides": [],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "JVTO-3718",
+          "orderChannel": "JVTO",
+          "packageId": 34,
+          "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+          "tripStart": "2026-08-22",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Yusuf"
+          ],
+          "guides": [
+            "Fauzi"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Artha Cottage",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 2000000,
+          "balance": 8000000,
+          "invoiceTotal": 10000000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Germany (Deutschland)"
+        },
+        {
+          "bookingCode": "JVTO-3716",
+          "orderChannel": "JVTO",
+          "packageId": 54,
+          "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+          "tripStart": "2026-08-23",
+          "totalPax": 3,
+          "pickup": {
+            "meetingPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Kiki"
+          ],
+          "hotels": [
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 2940000,
+          "balance": 11760000,
+          "invoiceTotal": 14700000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Switzerland (Schweiz)"
+        },
+        {
+          "bookingCode": "JVTO-3340",
+          "orderChannel": "JVTO",
+          "packageId": 29,
+          "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+          "tripStart": "2026-08-24",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Hiace Commuter"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Gufron"
+          ],
+          "hotels": [
+            "Riverside Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 2440000,
+          "balance": 9760000,
+          "invoiceTotal": 12200000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Brunei"
+        }
+      ]
+    },
+    "missingDropoff": {
+      "description": "Dropoff data is incomplete or not confirmed.",
+      "count": 19,
+      "bookings": [
+        {
+          "bookingCode": "JVTO-3390",
+          "orderChannel": "JVTO",
+          "packageId": 29,
+          "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+          "tripStart": "2026-08-01",
+          "totalPax": 8,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "SQ922",
+            "time": "09:10",
+            "text": "Surabaya Airport Terminal 2 SQ922",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Hiace Commuter"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Taufik"
+          ],
+          "hotels": [
+            "Jiwa Jawa Bromo",
+            "ARTOTEL Cabin Bromo"
+          ],
+          "balanceStatus": "overpaid_or_adjustment",
+          "paid": 20400000,
+          "balance": -2600000,
+          "invoiceTotal": 17800000,
+          "paymentHistoryCount": 2,
+          "customerCountry": "Indonesia"
+        },
+        {
+          "bookingCode": "JVTO-3692",
+          "orderChannel": "JVTO",
+          "packageId": 33,
+          "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+          "tripStart": "2026-08-01",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Kampi Hotel Tunjungan",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Kampi Hotel Tunjungan",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Edi"
+          ],
+          "guides": [
+            "Juan"
+          ],
+          "hotels": [
+            "Riverside Homestay",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "settled",
+          "paid": 9100000,
+          "balance": 0,
+          "invoiceTotal": 9100000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "France"
+        },
+        {
+          "bookingCode": "KLOOK-3709",
+          "orderChannel": "KLOOK",
+          "packageId": 94,
+          "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
+          "tripStart": "2026-08-08",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Hotel Majapahit",
+            "time": "00:01",
+            "text": "Surabaya Hotel  Hotel Majapahit",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Innova Reborn"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [],
+          "hotels": [],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 4200000,
+          "invoiceTotal": 4200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "KLOOK-3563",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-08",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "apartment Bella tower pakuwon city mall",
+            "time": "11:00",
+            "text": "Surabaya Hotel  apartment Bella tower pakuwon city mall",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Edi"
+          ],
+          "guides": [
+            "Juan"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6200000,
+          "invoiceTotal": 6200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Malaysia"
+        },
+        {
+          "bookingCode": "JVTO-3453",
+          "orderChannel": "JVTO",
+          "packageId": 28,
+          "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+          "tripStart": "2026-08-11",
+          "totalPax": 9,
+          "pickup": {
+            "meetingPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Hiace Commuter"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Taufik",
+            "Juan"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 4590000,
+          "balance": 18360000,
+          "invoiceTotal": 22950000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "France"
+        },
+        {
+          "bookingCode": "JVTO-1681",
+          "orderChannel": "JVTO",
+          "packageId": 28,
+          "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+          "tripStart": "2026-08-13",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Train Station",
+            "arrival": "Gubeng Station",
+            "value": "Sancaka 82",
+            "time": "15:32",
+            "text": "Surabaya Train Station Gubeng Station Sancaka 82",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Daihatsu Sigra"
+          ],
+          "drivers": [
+            "Holili"
+          ],
+          "guides": [
+            "Fauzi"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 1588000,
+          "balance": 6352000,
+          "invoiceTotal": 7940000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "France"
+        },
+        {
+          "bookingCode": "KLOOK-3595",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-13",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Platinum Hotel Tunjungan Surabaya",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Platinum Hotel Tunjungan Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "18:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Yusuf"
+          ],
+          "guides": [
+            "Rendi"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6200000,
+          "invoiceTotal": 6200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Vietnam (Việt Nam)"
+        },
+        {
+          "bookingCode": "JVTO-3672",
+          "orderChannel": "JVTO",
+          "packageId": 54,
+          "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+          "tripStart": "2026-08-13",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": null,
+            "arrival": null,
+            "value": "Tropical Space Tourism Hotel",
+            "time": "10:00",
+            "text": "  Tropical Space Tourism Hotel",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Boy"
+          ],
+          "drivers": [
+            "Joyo"
+          ],
+          "guides": [
+            "Boy"
+          ],
+          "hotels": [
+            "Luminor Hotel",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "settled",
+          "paid": 9800000,
+          "balance": 0,
+          "invoiceTotal": 9800000,
+          "paymentHistoryCount": 2,
+          "customerCountry": "Germany (Deutschland)"
+        },
+        {
+          "bookingCode": "KLOOK-3488",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-18",
+          "totalPax": 1,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Cordia Hotel Surabaya Airport",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Cordia Hotel Surabaya Airport",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Ertiga"
+          ],
+          "drivers": [
+            "Fredi"
+          ],
+          "guides": [
+            "Taufik"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 5187000,
+          "invoiceTotal": 5187000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Japan (日本)"
+        },
+        {
+          "bookingCode": "KLOOK-3577",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-18",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Movenpick Surabaya",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Movenpick Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Innova Reborn"
+          ],
+          "drivers": [
+            "Yusuf"
+          ],
+          "guides": [
+            "Rendi"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 13760000,
+          "invoiceTotal": 13760000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Taiwan (台灣)"
+        },
+        {
+          "bookingCode": "KLOOK-3616",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-22",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Mövenpick Surabaya City",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Mövenpick Surabaya City",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "18:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Anjas"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Baratha Hotel and Resto"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6200000,
+          "invoiceTotal": 6200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Australia"
+        },
+        {
+          "bookingCode": "JVTO-3718",
+          "orderChannel": "JVTO",
+          "packageId": 34,
+          "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+          "tripStart": "2026-08-22",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Yusuf"
+          ],
+          "guides": [
+            "Fauzi"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Artha Cottage",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 2000000,
+          "balance": 8000000,
+          "invoiceTotal": 10000000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Germany (Deutschland)"
+        },
+        {
+          "bookingCode": "JVTO-3716",
+          "orderChannel": "JVTO",
+          "packageId": 54,
+          "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+          "tripStart": "2026-08-23",
+          "totalPax": 3,
+          "pickup": {
+            "meetingPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Kiki"
+          ],
+          "hotels": [
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 2940000,
+          "balance": 11760000,
+          "invoiceTotal": 14700000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Switzerland (Schweiz)"
+        },
+        {
+          "bookingCode": "JVTO-3340",
+          "orderChannel": "JVTO",
+          "packageId": 29,
+          "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+          "tripStart": "2026-08-24",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Hiace Commuter"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Gufron"
+          ],
+          "hotels": [
+            "Riverside Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 2440000,
+          "balance": 9760000,
+          "invoiceTotal": 12200000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Brunei"
+        },
+        {
+          "bookingCode": "JVTO-1709",
+          "orderChannel": "JVTO",
+          "packageId": 28,
+          "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+          "tripStart": "2026-08-25",
+          "totalPax": 10,
+          "pickup": {
+            "meetingPoint": "Surabaya Train Station",
+            "arrival": "Gubeng Station",
+            "value": "Sancaka 84",
+            "time": "10:45",
+            "text": "Surabaya Train Station Gubeng Station Sancaka 84",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Hiace Commuter",
+            "Daihatsu Sigra"
+          ],
+          "drivers": [
+            "GARAGE",
+            "Didin"
+          ],
+          "guides": [
+            "Taufik",
+            "Fauzi"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "settled",
+          "paid": 26700000,
+          "balance": 0,
+          "invoiceTotal": 26700000,
+          "paymentHistoryCount": 3,
+          "customerCountry": "Italy (Italia)"
+        },
+        {
+          "bookingCode": "KLOOK-3569",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-28",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Grand Darmo Suite. Jl. Progo No.1-3, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241, Indonesia",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Grand Darmo Suite. Jl. Progo No.1-3, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241, Indonesia",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Yusuf"
+          ],
+          "guides": [
+            "Anjas"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Vietnam (Việt Nam)"
+        },
+        {
+          "bookingCode": "JVTO-3644",
+          "orderChannel": "JVTO",
+          "packageId": 34,
+          "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+          "tripStart": "2026-08-28",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Platinum Hotel Tunjungan Surabaya",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Platinum Hotel Tunjungan Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Toyota Calya"
+          ],
+          "drivers": [
+            "Joyo"
+          ],
+          "guides": [
+            "Fauzi"
+          ],
+          "hotels": [
+            "Artha Cottage",
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "settled",
+          "paid": 9500000,
+          "balance": 0,
+          "invoiceTotal": 9500000,
+          "paymentHistoryCount": 3,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "JVTO-3492",
+          "orderChannel": "JVTO",
+          "packageId": 28,
+          "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+          "tripStart": "2026-08-29",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 1",
+            "value": "JT805",
+            "time": "10:35",
+            "text": "Surabaya Airport Terminal 1 JT805",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Daihatsu Sigra"
+          ],
+          "drivers": [
+            "Holili"
+          ],
+          "guides": [
+            "Taufik"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 1528000,
+          "balance": 6112000,
+          "invoiceTotal": 7640000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Spain (España)"
+        },
+        {
+          "bookingCode": "KLOOK-3721",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-30",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "JW Marriott Surabaya",
+            "time": "11:00",
+            "text": "Surabaya Hotel  JW Marriott Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Yus"
+          ],
+          "drivers": [
+            "Yandi"
+          ],
+          "guides": [
+            "Gufron"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6200000,
+          "invoiceTotal": 6200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Hong Kong (香港)"
+        }
+      ]
+    },
+    "missingGuide": {
+      "description": "Guide assignment is missing.",
+      "count": 5,
+      "bookings": [
+        {
+          "bookingCode": "KLOOK-3438",
+          "orderChannel": "KLOOK",
+          "packageId": 94,
+          "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
+          "tripStart": "2026-08-08",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Platinum Hotel",
+            "time": "00:01",
+            "text": "Surabaya Hotel  Platinum Hotel",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Platinum Hotel",
+            "time": "07:00",
+            "text": "Surabaya Hotel  Platinum Hotel",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [],
+          "hotels": [],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 2800000,
+          "invoiceTotal": 2800000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "KLOOK-3709",
+          "orderChannel": "KLOOK",
+          "packageId": 94,
+          "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
+          "tripStart": "2026-08-08",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Hotel Majapahit",
+            "time": "00:01",
+            "text": "Surabaya Hotel  Hotel Majapahit",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Innova Reborn"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [],
+          "hotels": [],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 4200000,
+          "invoiceTotal": 4200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "JVTO-3596",
+          "orderChannel": "JVTO",
+          "packageId": 73,
+          "packageName": "1 Day Bromo Midnight Experience from Surabaya",
+          "tripStart": "2026-08-09",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "CX629",
+            "time": "00:01",
+            "text": "Surabaya Airport Terminal 2 CX629",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QG693",
+            "time": "17:00",
+            "text": "Surabaya Airport Terminal 2 QG693",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [],
+          "hotels": [],
+          "balanceStatus": "settled",
+          "paid": 3500000,
+          "balance": 0,
+          "invoiceTotal": 3500000,
+          "paymentHistoryCount": 3,
+          "customerCountry": "Hong Kong (香港)"
+        },
+        {
+          "bookingCode": "KLOOK-3730",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-21",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "QG693",
+            "time": "07:00",
+            "text": "QG693",
+            "complete": true
+          },
+          "vehicles": [],
+          "drivers": [],
+          "guides": [],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "JVTO-3700",
+          "orderChannel": "JVTO",
+          "packageId": 48,
+          "packageName": "2 Day Bromo Sunrise Adventure from Surabaya",
+          "tripStart": "2026-08-26",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 1",
+            "value": "QG697",
+            "time": "12:15",
+            "text": "Surabaya Airport Terminal 1 QG697",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 1",
+            "value": "QG693",
+            "time": "18:00",
+            "text": "Surabaya Airport Terminal 1 QG693",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Sahril"
+          ],
+          "guides": [],
+          "hotels": [
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 1120000,
+          "balance": 4480000,
+          "invoiceTotal": 5600000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Portugal"
+        }
+      ]
+    },
+    "missingDriver": {
+      "description": "Driver assignment is missing.",
+      "count": 1,
+      "bookings": [
+        {
+          "bookingCode": "KLOOK-3730",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-21",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "QG693",
+            "time": "07:00",
+            "text": "QG693",
+            "complete": true
+          },
+          "vehicles": [],
+          "drivers": [],
+          "guides": [],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        }
+      ]
+    },
+    "missingVehicle": {
+      "description": "Vehicle assignment is missing.",
+      "count": 1,
+      "bookings": [
+        {
+          "bookingCode": "KLOOK-3730",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-21",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "QG693",
+            "time": "07:00",
+            "text": "QG693",
+            "complete": true
+          },
+          "vehicles": [],
+          "drivers": [],
+          "guides": [],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        }
+      ]
+    },
+    "missingHotels": {
+      "description": "Hotel/accommodation assignment is missing.",
+      "count": 5,
+      "bookings": [
+        {
+          "bookingCode": "JVTO-3710",
+          "orderChannel": "JVTO",
+          "packageId": 73,
+          "packageName": "1 Day Bromo Midnight Experience from Surabaya",
+          "tripStart": "2026-08-06",
+          "totalPax": 5,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Movenpick Surabaya",
+            "time": "00:01",
+            "text": "Surabaya Hotel  Movenpick Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Movenpick Surabaya",
+            "time": "07:00",
+            "text": "Surabaya Hotel  Movenpick Surabaya",
+            "complete": true
+          },
+          "vehicles": [
+            "Hiace Commuter"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Rendi"
+          ],
+          "hotels": [],
+          "balanceStatus": "settled",
+          "paid": 6250000,
+          "balance": 0,
+          "invoiceTotal": 6250000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Netherlands (Nederland)"
+        },
+        {
+          "bookingCode": "KLOOK-3438",
+          "orderChannel": "KLOOK",
+          "packageId": 94,
+          "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
+          "tripStart": "2026-08-08",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Platinum Hotel",
+            "time": "00:01",
+            "text": "Surabaya Hotel  Platinum Hotel",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Platinum Hotel",
+            "time": "07:00",
+            "text": "Surabaya Hotel  Platinum Hotel",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [],
+          "hotels": [],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 2800000,
+          "invoiceTotal": 2800000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "JVTO-3714",
+          "orderChannel": "JVTO",
+          "packageId": null,
+          "packageName": "1D 0N Package",
+          "tripStart": "2026-08-08",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Others",
+            "arrival": null,
+            "value": "Grand Padis Hotel",
+            "time": "00:01",
+            "text": "Grand Padis Hotel",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "Grand Padis Hotel",
+            "time": "11:00",
+            "text": "Grand Padis Hotel",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Yus 2"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Local Ijen"
+          ],
+          "hotels": [],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 1260000,
+          "invoiceTotal": 1260000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "France"
+        },
+        {
+          "bookingCode": "KLOOK-3709",
+          "orderChannel": "KLOOK",
+          "packageId": 94,
+          "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
+          "tripStart": "2026-08-08",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Hotel Majapahit",
+            "time": "00:01",
+            "text": "Surabaya Hotel  Hotel Majapahit",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Innova Reborn"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [],
+          "hotels": [],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 4200000,
+          "invoiceTotal": 4200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "JVTO-3596",
+          "orderChannel": "JVTO",
+          "packageId": 73,
+          "packageName": "1 Day Bromo Midnight Experience from Surabaya",
+          "tripStart": "2026-08-09",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "CX629",
+            "time": "00:01",
+            "text": "Surabaya Airport Terminal 2 CX629",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QG693",
+            "time": "17:00",
+            "text": "Surabaya Airport Terminal 2 QG693",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [],
+          "hotels": [],
+          "balanceStatus": "settled",
+          "paid": 3500000,
+          "balance": 0,
+          "invoiceTotal": 3500000,
+          "paymentHistoryCount": 3,
+          "customerCountry": "Hong Kong (香港)"
+        }
+      ]
+    },
+    "balanceDue": {
+      "description": "Booking still has unpaid balance or partner receivable.",
+      "count": 49,
+      "bookings": [
+        {
+          "bookingCode": "KLOOK-3510",
+          "orderChannel": "KLOOK",
+          "packageId": 83,
+          "packageName": "4D3N Mount Bromo, Ijen Crater & Surabaya Night Market from Surabaya",
+          "tripStart": "2026-08-02",
+          "totalPax": 3,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "JW Marriott Hotel Surabaya",
+            "time": "11:00",
+            "text": "Surabaya Hotel  JW Marriott Hotel Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Train Station",
+            "arrival": "Gubeng Station",
+            "value": "Surabaya Train Station Gubeng Station",
+            "time": "08:00",
+            "text": "Surabaya Train Station Gubeng Station Surabaya Train Station Gubeng Station",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Sahril"
+          ],
+          "guides": [
+            "Boy"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo",
+            "Holiday Inn Express Surabaya Centerpoint, an IHG Hotel"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 10080000,
+          "invoiceTotal": 10080000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Taiwan (台灣)"
+        },
+        {
+          "bookingCode": "TWT-3696",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "3D 2N Package",
+          "tripStart": "2026-08-05",
+          "totalPax": 5,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH873",
+            "time": "14:50",
+            "text": "Surabaya Airport Terminal 2 MH873",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "Banyuwangi",
+            "time": "07:00",
+            "text": "Banyuwangi",
+            "complete": true
+          },
+          "vehicles": [
+            "Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Boy"
+          ],
+          "hotels": [
+            "Manis Ae Cabin & Resto Bromo",
+            "Lintang Luku Tent"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 12410000,
+          "invoiceTotal": 12410000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "KLOOK-3684",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-06",
+          "totalPax": 3,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 1",
+            "value": "JT805",
+            "time": "10:35",
+            "text": "Surabaya Airport Terminal 1 JT805",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Aria Centra Hotel Surabaya",
+            "time": "18:00",
+            "text": "Surabaya Hotel  Aria Centra Hotel Surabaya",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Local Ijen"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Baratha Hotel and Resto"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7740000,
+          "invoiceTotal": 7740000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Vietnam (Việt Nam)"
+        },
+        {
+          "bookingCode": "KLOOK-1676",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-06",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "HARRIS Hotel & Conventions Gubeng - Surabaya",
+            "time": "12:00",
+            "text": "Surabaya Hotel  HARRIS Hotel & Conventions Gubeng - Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Mercure Surabaya Grand Mirama Hotel",
+            "time": "16:00",
+            "text": "Surabaya Hotel  Mercure Surabaya Grand Mirama Hotel",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Romi"
+          ],
+          "guides": [
+            "Local Ijen"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Baratha Hotel and Resto",
+            "Doho Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "KLOOK-3352",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-06",
+          "totalPax": 10,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "SQ8596",
+            "time": "09:50",
+            "text": "Surabaya Airport Terminal 2 SQ8596",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "Surabaya airport",
+            "time": "07:00",
+            "text": "Surabaya airport",
+            "complete": true
+          },
+          "vehicles": [
+            "Hiace Commuter",
+            "Daihatsu Sigra"
+          ],
+          "drivers": [
+            "GARAGE",
+            "Joyo"
+          ],
+          "guides": [
+            "Anjas",
+            "Local Ijen"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Baratha Hotel and Resto",
+            "Doho Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 23220000,
+          "invoiceTotal": 23220000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Malaysia"
+        },
+        {
+          "bookingCode": "KLOOK-3658",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-07",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "SQ 922",
+            "time": "09:10",
+            "text": "Surabaya Airport Terminal 2 SQ 922",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "Surabaya Airport  ",
+            "complete": true
+          },
+          "vehicles": [
+            "Innova Zenix"
+          ],
+          "drivers": [
+            "Yandi"
+          ],
+          "guides": [
+            "Local Ijen"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 11000000,
+          "invoiceTotal": 11000000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "India (भारत)"
+        },
+        {
+          "bookingCode": "TWT-3619",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "5D 4N Package",
+          "tripStart": "2026-08-07",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ321",
+            "time": "10:45",
+            "text": "Surabaya Airport Terminal 2 QZ321",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ322",
+            "time": "08:15",
+            "text": "Surabaya Airport Terminal 2 QZ322",
+            "complete": true
+          },
+          "vehicles": [
+            "Hiace Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Rendi",
+            "Local Ijen"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "DoubleTree by Hilton"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 18814000,
+          "invoiceTotal": 18814000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "KLOOK-3438",
+          "orderChannel": "KLOOK",
+          "packageId": 94,
+          "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
+          "tripStart": "2026-08-08",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Platinum Hotel",
+            "time": "00:01",
+            "text": "Surabaya Hotel  Platinum Hotel",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Platinum Hotel",
+            "time": "07:00",
+            "text": "Surabaya Hotel  Platinum Hotel",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [],
+          "hotels": [],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 2800000,
+          "invoiceTotal": 2800000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "JVTO-3714",
+          "orderChannel": "JVTO",
+          "packageId": null,
+          "packageName": "1D 0N Package",
+          "tripStart": "2026-08-08",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Others",
+            "arrival": null,
+            "value": "Grand Padis Hotel",
+            "time": "00:01",
+            "text": "Grand Padis Hotel",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "Grand Padis Hotel",
+            "time": "11:00",
+            "text": "Grand Padis Hotel",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Yus 2"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Local Ijen"
+          ],
+          "hotels": [],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 1260000,
+          "invoiceTotal": 1260000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "France"
+        },
+        {
+          "bookingCode": "KLOOK-3709",
+          "orderChannel": "KLOOK",
+          "packageId": 94,
+          "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
+          "tripStart": "2026-08-08",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Hotel Majapahit",
+            "time": "00:01",
+            "text": "Surabaya Hotel  Hotel Majapahit",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Innova Reborn"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [],
+          "hotels": [],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 4200000,
+          "invoiceTotal": 4200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "KLOOK-3508",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-08",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR296",
+            "time": "09:50",
+            "text": "Surabaya Airport Terminal 2 TR296",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "KHAS Surabaya Hotel",
+            "time": "18:00",
+            "text": "KHAS Surabaya Hotel",
+            "complete": true
+          },
+          "vehicles": [
+            "Innova Reborn"
+          ],
+          "drivers": [
+            "Sahril"
+          ],
+          "guides": [
+            "Fauzi"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 9804000,
+          "invoiceTotal": 9804000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "KLOOK-3563",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-08",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "apartment Bella tower pakuwon city mall",
+            "time": "11:00",
+            "text": "Surabaya Hotel  apartment Bella tower pakuwon city mall",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Edi"
+          ],
+          "guides": [
+            "Juan"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6200000,
+          "invoiceTotal": 6200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Malaysia"
+        },
+        {
+          "bookingCode": "JVTO-3632",
+          "orderChannel": "JVTO",
+          "packageId": 28,
+          "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+          "tripStart": "2026-08-08",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 1",
+            "value": "JT919",
+            "time": "13:55",
+            "text": "Surabaya Airport Terminal 1 JT919",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Bali Hotel",
+            "arrival": null,
+            "value": "Seminyak",
+            "time": "17:00",
+            "text": "Bali Hotel  Seminyak",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Juan"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 1608000,
+          "balance": 7432000,
+          "invoiceTotal": 9040000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Vietnam (Việt Nam)"
+        },
+        {
+          "bookingCode": "KLOOK-3425",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-09",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Doubletree by Hilton Surabaya",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Doubletree by Hilton Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Doubletree by Hilton Surabaya",
+            "time": "15:00",
+            "text": "Surabaya Hotel  Doubletree by Hilton Surabaya",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Boy"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7125000,
+          "invoiceTotal": 7125000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "KLOOK-3211",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-10",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "ibis Surabaya City Center Hotel",
+            "time": "11:00",
+            "text": "Surabaya Hotel  ibis Surabaya City Center Hotel",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "Malang (Bus Terminal)",
+            "time": "15:00",
+            "text": "Malang (Bus Terminal)",
+            "complete": true
+          },
+          "vehicles": [
+            "Innova Reborn"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Kiki"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 12384000,
+          "invoiceTotal": 12384000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Malaysia"
+        },
+        {
+          "bookingCode": "JVTO-3453",
+          "orderChannel": "JVTO",
+          "packageId": 28,
+          "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+          "tripStart": "2026-08-11",
+          "totalPax": 9,
+          "pickup": {
+            "meetingPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Hiace Commuter"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Taufik",
+            "Juan"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 4590000,
+          "balance": 18360000,
+          "invoiceTotal": 22950000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "France"
+        },
+        {
+          "bookingCode": "TWT-3515",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "3D 2N Package",
+          "tripStart": "2026-08-11",
+          "totalPax": 6,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ393",
+            "time": "11:20",
+            "text": "Surabaya Airport Terminal 2 QZ393",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ392",
+            "time": "08:20",
+            "text": "Surabaya Airport Terminal 2 QZ392",
+            "complete": true
+          },
+          "vehicles": [
+            "Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Anjas"
+          ],
+          "hotels": [
+            "Manis Ae Cabin & Resto Bromo",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 14675000,
+          "invoiceTotal": 14675000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "JVTO-1681",
+          "orderChannel": "JVTO",
+          "packageId": 28,
+          "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+          "tripStart": "2026-08-13",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Train Station",
+            "arrival": "Gubeng Station",
+            "value": "Sancaka 82",
+            "time": "15:32",
+            "text": "Surabaya Train Station Gubeng Station Sancaka 82",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Daihatsu Sigra"
+          ],
+          "drivers": [
+            "Holili"
+          ],
+          "guides": [
+            "Fauzi"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 1588000,
+          "balance": 6352000,
+          "invoiceTotal": 7940000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "France"
+        },
+        {
+          "bookingCode": "KLOOK-3595",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-13",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Platinum Hotel Tunjungan Surabaya",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Platinum Hotel Tunjungan Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "18:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Yusuf"
+          ],
+          "guides": [
+            "Rendi"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6200000,
+          "invoiceTotal": 6200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Vietnam (Việt Nam)"
+        },
+        {
+          "bookingCode": "KLOOK-3559",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-13",
+          "totalPax": 3,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR296",
+            "time": "09:50",
+            "text": "Surabaya Airport Terminal 2 TR296",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR267",
+            "time": "16:40",
+            "text": "Surabaya Airport Terminal 2 TR267",
+            "complete": true
+          },
+          "vehicles": [
+            "Toyota Calya"
+          ],
+          "drivers": [
+            "Yandi"
+          ],
+          "guides": [
+            "Gufron"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 10320000,
+          "invoiceTotal": 10320000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "TWT-3254",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "5D 4N Package",
+          "tripStart": "2026-08-13",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH873",
+            "time": "14:50",
+            "text": "Surabaya Airport Terminal 2 MH873",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH874 & QZ322",
+            "time": "08:20",
+            "text": "Surabaya Airport Terminal 2 MH874 & QZ322",
+            "complete": true
+          },
+          "vehicles": [
+            "Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Kiki"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 20084000,
+          "invoiceTotal": 20084000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "JVTO-3654",
+          "orderChannel": "JVTO",
+          "packageId": 34,
+          "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+          "tripStart": "2026-08-14",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "SQ922",
+            "time": "09:10",
+            "text": "Surabaya Airport Terminal 2 SQ922",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Bali Hotel",
+            "arrival": null,
+            "value": "Kuta",
+            "time": "17:00",
+            "text": "Bali Hotel  Kuta",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Yus"
+          ],
+          "drivers": [
+            "Didin"
+          ],
+          "guides": [
+            "Anjas"
+          ],
+          "hotels": [
+            "Yanto Homestay Anugerah Tumpak Sewu",
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 2000000,
+          "balance": 8000000,
+          "invoiceTotal": 10000000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Mexico (México)"
+        },
+        {
+          "bookingCode": "KLOOK-3687",
+          "orderChannel": "KLOOK",
+          "packageId": 83,
+          "packageName": "4D3N Mount Bromo, Ijen Crater & Surabaya Night Market from Surabaya",
+          "tripStart": "2026-08-17",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR296",
+            "time": "09:50",
+            "text": "Surabaya Airport Terminal 2 TR296",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "Surabaya Airport  ",
+            "complete": true
+          },
+          "vehicles": [
+            "Toyota Calya"
+          ],
+          "drivers": [
+            "Yandi"
+          ],
+          "guides": [
+            "Anjas"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo",
+            "Holiday Inn Express Surabaya Centerpoint, an IHG Hotel"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Taiwan (台灣)"
+        },
+        {
+          "bookingCode": "KLOOK-3488",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-18",
+          "totalPax": 1,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Cordia Hotel Surabaya Airport",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Cordia Hotel Surabaya Airport",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Ertiga"
+          ],
+          "drivers": [
+            "Fredi"
+          ],
+          "guides": [
+            "Taufik"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 5187000,
+          "invoiceTotal": 5187000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Japan (日本)"
+        },
+        {
+          "bookingCode": "KLOOK-3577",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-18",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Movenpick Surabaya",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Movenpick Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Innova Reborn"
+          ],
+          "drivers": [
+            "Yusuf"
+          ],
+          "guides": [
+            "Rendi"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 13760000,
+          "invoiceTotal": 13760000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Taiwan (台灣)"
+        },
+        {
+          "bookingCode": "KLOOK-3220",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-19",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "SQ922",
+            "time": "09:10",
+            "text": "Surabaya Airport Terminal 2 SQ922",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": null,
+            "time": "16:00",
+            "text": "Surabaya Hotel  ",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Romi"
+          ],
+          "guides": [
+            "Kiki"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6750000,
+          "invoiceTotal": 6750000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "KLOOK-3613",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-21",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Bumi Surabaya City Resort",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Bumi Surabaya City Resort",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "JW Marriott Hotel Surabaya",
+            "time": "18:00",
+            "text": "Surabaya Hotel  JW Marriott Hotel Surabaya",
+            "complete": true
+          },
+          "vehicles": [
+            "Ertiga"
+          ],
+          "drivers": [
+            "Fredi"
+          ],
+          "guides": [
+            "Taufik"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6200000,
+          "invoiceTotal": 6200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Taiwan (台灣)"
+        },
+        {
+          "bookingCode": "JVTO-3679",
+          "orderChannel": "JVTO",
+          "packageId": 28,
+          "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+          "tripStart": "2026-08-21",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ321",
+            "time": "10:45",
+            "text": "Surabaya Airport Terminal 2 QZ321",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "Banyuwangi Airport",
+            "time": "10:30",
+            "text": "Banyuwangi Airport",
+            "complete": true
+          },
+          "vehicles": [
+            "Hiace Commuter"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Anjas"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 2440000,
+          "balance": 9760000,
+          "invoiceTotal": 12200000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Italy (Italia)"
+        },
+        {
+          "bookingCode": "KLOOK-1584",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-21",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR296",
+            "time": "09:00",
+            "text": "Surabaya Airport Terminal 2 TR296",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": null,
+            "time": "16:00",
+            "text": "Surabaya Airport Terminal 2 ",
+            "complete": true
+          },
+          "vehicles": [
+            "Innova Reborn"
+          ],
+          "drivers": [
+            "Sahril"
+          ],
+          "guides": [
+            "Juan"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Baratha Hotel and Resto",
+            "Doho Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 13760000,
+          "invoiceTotal": 13760000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "JVTO-3675",
+          "orderChannel": "JVTO",
+          "packageId": 33,
+          "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+          "tripStart": "2026-08-21",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Bumi Surabaya City Resort",
+            "time": "12:00",
+            "text": "Surabaya Hotel  Bumi Surabaya City Resort",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Premier Place Surabaya AIrport",
+            "time": "18:00",
+            "text": "Surabaya Hotel  Premier Place Surabaya AIrport",
+            "complete": true
+          },
+          "vehicles": [
+            "Toyota Calya"
+          ],
+          "drivers": [
+            "Yandi"
+          ],
+          "guides": [
+            "Fauzi"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay",
+            "Doho Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 1820000,
+          "balance": 7280000,
+          "invoiceTotal": 9100000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Italy (Italia)"
+        },
+        {
+          "bookingCode": "KLOOK-3730",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-21",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "QG693",
+            "time": "07:00",
+            "text": "QG693",
+            "complete": true
+          },
+          "vehicles": [],
+          "drivers": [],
+          "guides": [],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "KLOOK-3616",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-22",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Mövenpick Surabaya City",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Mövenpick Surabaya City",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "18:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Anjas"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Baratha Hotel and Resto"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6200000,
+          "invoiceTotal": 6200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Australia"
+        },
+        {
+          "bookingCode": "KLOOK-3660",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-22",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH871",
+            "time": "09:10",
+            "text": "Surabaya Airport Terminal 2 MH871",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Four Points by Sheraton Surabaya Tunjungan Plaza",
+            "time": "16:00",
+            "text": "Surabaya Hotel  Four Points by Sheraton Surabaya Tunjungan Plaza",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Edi"
+          ],
+          "guides": [
+            "Kiki"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Malaysia"
+        },
+        {
+          "bookingCode": "JVTO-3718",
+          "orderChannel": "JVTO",
+          "packageId": 34,
+          "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+          "tripStart": "2026-08-22",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Yusuf"
+          ],
+          "guides": [
+            "Fauzi"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Artha Cottage",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 2000000,
+          "balance": 8000000,
+          "invoiceTotal": 10000000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Germany (Deutschland)"
+        },
+        {
+          "bookingCode": "TWT-3674",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "6D 5N Package",
+          "tripStart": "2026-08-22",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH873",
+            "time": "14:50",
+            "text": "Surabaya Airport Terminal 2 MH873",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH872",
+            "time": "13:00",
+            "text": "Surabaya Airport Terminal 2 MH872",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Yus"
+          ],
+          "drivers": [
+            "Holili"
+          ],
+          "guides": [
+            "Rendi"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "ARTOTEL Cabin Bromo",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 12165000,
+          "invoiceTotal": 12165000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "JVTO-3605",
+          "orderChannel": "JVTO",
+          "packageId": 34,
+          "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+          "tripStart": "2026-08-23",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Kokoon Hotel Surabaya",
+            "time": "12:00",
+            "text": "Surabaya Hotel  Kokoon Hotel Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "Ketapang Harbour",
+            "time": "10:00",
+            "text": "Ketapang Harbour",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Boy"
+          ],
+          "drivers": [
+            "Joyo"
+          ],
+          "guides": [
+            "Boy"
+          ],
+          "hotels": [
+            "Artha Cottage",
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 1900000,
+          "balance": 7600000,
+          "invoiceTotal": 9500000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Japan (日本)"
+        },
+        {
+          "bookingCode": "JVTO-3716",
+          "orderChannel": "JVTO",
+          "packageId": 54,
+          "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+          "tripStart": "2026-08-23",
+          "totalPax": 3,
+          "pickup": {
+            "meetingPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Kiki"
+          ],
+          "hotels": [
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 2940000,
+          "balance": 11760000,
+          "invoiceTotal": 14700000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Switzerland (Schweiz)"
+        },
+        {
+          "bookingCode": "JVTO-3340",
+          "orderChannel": "JVTO",
+          "packageId": 29,
+          "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+          "tripStart": "2026-08-24",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Hiace Commuter"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Gufron"
+          ],
+          "hotels": [
+            "Riverside Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 2440000,
+          "balance": 9760000,
+          "invoiceTotal": 12200000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Brunei"
+        },
+        {
+          "bookingCode": "KLOOK-3242",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-24",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "ibis Surabaya City Center",
+            "time": "11:00",
+            "text": "Surabaya Hotel  ibis Surabaya City Center",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "ibis surabaya city center",
+            "time": "16:00",
+            "text": "Surabaya Hotel  ibis surabaya city center",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Romi"
+          ],
+          "guides": [
+            "Juan"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Philippines"
+        },
+        {
+          "bookingCode": "JVTO-3700",
+          "orderChannel": "JVTO",
+          "packageId": 48,
+          "packageName": "2 Day Bromo Sunrise Adventure from Surabaya",
+          "tripStart": "2026-08-26",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 1",
+            "value": "QG697",
+            "time": "12:15",
+            "text": "Surabaya Airport Terminal 1 QG697",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 1",
+            "value": "QG693",
+            "time": "18:00",
+            "text": "Surabaya Airport Terminal 1 QG693",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Sahril"
+          ],
+          "guides": [],
+          "hotels": [
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 1120000,
+          "balance": 4480000,
+          "invoiceTotal": 5600000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Portugal"
+        },
+        {
+          "bookingCode": "KLOOK-3574",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-26",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "BEST WESTERN DE PAPILIO SURABAYA",
+            "time": "09:00",
+            "text": "Surabaya Hotel (BEST WESTERN DE PAPILIO SURABAYA)",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Wyndham Surabaya City Centre",
+            "time": "18:00",
+            "text": "Surabaya Hotel (Wyndham Surabaya City Centre)",
+            "complete": true
+          },
+          "vehicles": [
+            "Ertiga"
+          ],
+          "drivers": [
+            "Fredi"
+          ],
+          "guides": [
+            "Boy"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6200000,
+          "invoiceTotal": 6200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Indonesia"
+        },
+        {
+          "bookingCode": "TWT-3403",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "5D 4N Package",
+          "tripStart": "2026-08-27",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR296",
+            "time": "09:50",
+            "text": "Surabaya Airport Terminal 2 TR296",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR297",
+            "time": "07:30",
+            "text": "Surabaya Airport Terminal 2 TR297",
+            "complete": true
+          },
+          "vehicles": [
+            "Hiace Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Gufron",
+            "Fauzi"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 20004000,
+          "invoiceTotal": 20004000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "KLOOK-3569",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-28",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Grand Darmo Suite. Jl. Progo No.1-3, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241, Indonesia",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Grand Darmo Suite. Jl. Progo No.1-3, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241, Indonesia",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Yusuf"
+          ],
+          "guides": [
+            "Anjas"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Vietnam (Việt Nam)"
+        },
+        {
+          "bookingCode": "JVTO-3492",
+          "orderChannel": "JVTO",
+          "packageId": 28,
+          "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+          "tripStart": "2026-08-29",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 1",
+            "value": "JT805",
+            "time": "10:35",
+            "text": "Surabaya Airport Terminal 1 JT805",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": null,
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "  ",
+            "complete": false
+          },
+          "vehicles": [
+            "Daihatsu Sigra"
+          ],
+          "drivers": [
+            "Holili"
+          ],
+          "guides": [
+            "Taufik"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 1528000,
+          "balance": 6112000,
+          "invoiceTotal": 7640000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Spain (España)"
+        },
+        {
+          "bookingCode": "TWT-3693",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "4D 3N Package",
+          "tripStart": "2026-08-29",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "OD352",
+            "time": "10:55",
+            "text": "Surabaya Airport Terminal 2 OD352",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ322",
+            "time": "08:15",
+            "text": "Surabaya Airport Terminal 2 QZ322",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Boy"
+          ],
+          "drivers": [
+            "Didin"
+          ],
+          "guides": [
+            "Rendi"
+          ],
+          "hotels": [
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 8839000,
+          "invoiceTotal": 8839000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "JVTO-3708",
+          "orderChannel": "JVTO",
+          "packageId": 34,
+          "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+          "tripStart": "2026-08-29",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Others",
+            "arrival": null,
+            "value": "Probolinggo",
+            "time": "07:00",
+            "text": "Probolinggo",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "Ketapang port",
+            "time": "10:00",
+            "text": "Ketapang port",
+            "complete": true
+          },
+          "vehicles": [
+            "Ertiga"
+          ],
+          "drivers": [
+            "Fredi"
+          ],
+          "guides": [
+            "Juan"
+          ],
+          "hotels": [
+            "Manis Ae Cabin & Resto Bromo",
+            "Artha Cottage",
+            "Riverside Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 1900000,
+          "balance": 8000000,
+          "invoiceTotal": 9900000,
+          "paymentHistoryCount": 1,
+          "customerCountry": "Sri Lanka (ශ්‍රී ලංකාව)"
+        },
+        {
+          "bookingCode": "KLOOK-3721",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-30",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "JW Marriott Surabaya",
+            "time": "11:00",
+            "text": "Surabaya Hotel  JW Marriott Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Yus"
+          ],
+          "drivers": [
+            "Yandi"
+          ],
+          "guides": [
+            "Gufron"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6200000,
+          "invoiceTotal": 6200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Hong Kong (香港)"
+        },
+        {
+          "bookingCode": "TWT-3452",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "5D 4N Package",
+          "tripStart": "2026-08-30",
+          "totalPax": 5,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ323",
+            "time": "17:10",
+            "text": "Surabaya Airport Terminal 2 QZ323",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ322",
+            "time": "08:15",
+            "text": "Surabaya Airport Terminal 2 QZ322",
+            "complete": true
+          },
+          "vehicles": [
+            "Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Anjas",
+            "Rendi"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 23805000,
+          "invoiceTotal": 23805000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "TWT-3553",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "5D 4N Package",
+          "tripStart": "2026-08-31",
+          "totalPax": 6,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR296 & MH875",
+            "time": "09:50",
+            "text": "Surabaya Airport Terminal 2 TR296 & MH875",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH870 & QZ322",
+            "time": "07:00",
+            "text": "Surabaya Airport Terminal 2 MH870 & QZ322",
+            "complete": true
+          },
+          "vehicles": [
+            "Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Kiki",
+            "Fauzi"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 26291000,
+          "invoiceTotal": 26291000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        }
+      ]
+    },
+    "noPaymentHistory": {
+      "description": "No payment history is present in the snapshot.",
+      "count": 36,
+      "bookings": [
+        {
+          "bookingCode": "KLOOK-3510",
+          "orderChannel": "KLOOK",
+          "packageId": 83,
+          "packageName": "4D3N Mount Bromo, Ijen Crater & Surabaya Night Market from Surabaya",
+          "tripStart": "2026-08-02",
+          "totalPax": 3,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "JW Marriott Hotel Surabaya",
+            "time": "11:00",
+            "text": "Surabaya Hotel  JW Marriott Hotel Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Train Station",
+            "arrival": "Gubeng Station",
+            "value": "Surabaya Train Station Gubeng Station",
+            "time": "08:00",
+            "text": "Surabaya Train Station Gubeng Station Surabaya Train Station Gubeng Station",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Sahril"
+          ],
+          "guides": [
+            "Boy"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo",
+            "Holiday Inn Express Surabaya Centerpoint, an IHG Hotel"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 10080000,
+          "invoiceTotal": 10080000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Taiwan (台灣)"
+        },
+        {
+          "bookingCode": "TWT-3696",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "3D 2N Package",
+          "tripStart": "2026-08-05",
+          "totalPax": 5,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH873",
+            "time": "14:50",
+            "text": "Surabaya Airport Terminal 2 MH873",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "Banyuwangi",
+            "time": "07:00",
+            "text": "Banyuwangi",
+            "complete": true
+          },
+          "vehicles": [
+            "Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Boy"
+          ],
+          "hotels": [
+            "Manis Ae Cabin & Resto Bromo",
+            "Lintang Luku Tent"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 12410000,
+          "invoiceTotal": 12410000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "KLOOK-3684",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-06",
+          "totalPax": 3,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 1",
+            "value": "JT805",
+            "time": "10:35",
+            "text": "Surabaya Airport Terminal 1 JT805",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Aria Centra Hotel Surabaya",
+            "time": "18:00",
+            "text": "Surabaya Hotel  Aria Centra Hotel Surabaya",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Local Ijen"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Baratha Hotel and Resto"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7740000,
+          "invoiceTotal": 7740000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Vietnam (Việt Nam)"
+        },
+        {
+          "bookingCode": "KLOOK-1676",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-06",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "HARRIS Hotel & Conventions Gubeng - Surabaya",
+            "time": "12:00",
+            "text": "Surabaya Hotel  HARRIS Hotel & Conventions Gubeng - Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Mercure Surabaya Grand Mirama Hotel",
+            "time": "16:00",
+            "text": "Surabaya Hotel  Mercure Surabaya Grand Mirama Hotel",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Romi"
+          ],
+          "guides": [
+            "Local Ijen"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Baratha Hotel and Resto",
+            "Doho Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "KLOOK-3352",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-06",
+          "totalPax": 10,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "SQ8596",
+            "time": "09:50",
+            "text": "Surabaya Airport Terminal 2 SQ8596",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "Surabaya airport",
+            "time": "07:00",
+            "text": "Surabaya airport",
+            "complete": true
+          },
+          "vehicles": [
+            "Hiace Commuter",
+            "Daihatsu Sigra"
+          ],
+          "drivers": [
+            "GARAGE",
+            "Joyo"
+          ],
+          "guides": [
+            "Anjas",
+            "Local Ijen"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Baratha Hotel and Resto",
+            "Doho Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 23220000,
+          "invoiceTotal": 23220000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Malaysia"
+        },
+        {
+          "bookingCode": "KLOOK-3658",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-07",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "SQ 922",
+            "time": "09:10",
+            "text": "Surabaya Airport Terminal 2 SQ 922",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "Surabaya Airport  ",
+            "complete": true
+          },
+          "vehicles": [
+            "Innova Zenix"
+          ],
+          "drivers": [
+            "Yandi"
+          ],
+          "guides": [
+            "Local Ijen"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 11000000,
+          "invoiceTotal": 11000000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "India (भारत)"
+        },
+        {
+          "bookingCode": "TWT-3619",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "5D 4N Package",
+          "tripStart": "2026-08-07",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ321",
+            "time": "10:45",
+            "text": "Surabaya Airport Terminal 2 QZ321",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ322",
+            "time": "08:15",
+            "text": "Surabaya Airport Terminal 2 QZ322",
+            "complete": true
+          },
+          "vehicles": [
+            "Hiace Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Rendi",
+            "Local Ijen"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "DoubleTree by Hilton"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 18814000,
+          "invoiceTotal": 18814000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "KLOOK-3438",
+          "orderChannel": "KLOOK",
+          "packageId": 94,
+          "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
+          "tripStart": "2026-08-08",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Platinum Hotel",
+            "time": "00:01",
+            "text": "Surabaya Hotel  Platinum Hotel",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Platinum Hotel",
+            "time": "07:00",
+            "text": "Surabaya Hotel  Platinum Hotel",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [],
+          "hotels": [],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 2800000,
+          "invoiceTotal": 2800000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "JVTO-3714",
+          "orderChannel": "JVTO",
+          "packageId": null,
+          "packageName": "1D 0N Package",
+          "tripStart": "2026-08-08",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Others",
+            "arrival": null,
+            "value": "Grand Padis Hotel",
+            "time": "00:01",
+            "text": "Grand Padis Hotel",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "Grand Padis Hotel",
+            "time": "11:00",
+            "text": "Grand Padis Hotel",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Yus 2"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Local Ijen"
+          ],
+          "hotels": [],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 1260000,
+          "invoiceTotal": 1260000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "France"
+        },
+        {
+          "bookingCode": "KLOOK-3709",
+          "orderChannel": "KLOOK",
+          "packageId": 94,
+          "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
+          "tripStart": "2026-08-08",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Hotel Majapahit",
+            "time": "00:01",
+            "text": "Surabaya Hotel  Hotel Majapahit",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Innova Reborn"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [],
+          "hotels": [],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 4200000,
+          "invoiceTotal": 4200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "KLOOK-3508",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-08",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR296",
+            "time": "09:50",
+            "text": "Surabaya Airport Terminal 2 TR296",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "KHAS Surabaya Hotel",
+            "time": "18:00",
+            "text": "KHAS Surabaya Hotel",
+            "complete": true
+          },
+          "vehicles": [
+            "Innova Reborn"
+          ],
+          "drivers": [
+            "Sahril"
+          ],
+          "guides": [
+            "Fauzi"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 9804000,
+          "invoiceTotal": 9804000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "KLOOK-3563",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-08",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "apartment Bella tower pakuwon city mall",
+            "time": "11:00",
+            "text": "Surabaya Hotel  apartment Bella tower pakuwon city mall",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Edi"
+          ],
+          "guides": [
+            "Juan"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6200000,
+          "invoiceTotal": 6200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Malaysia"
+        },
+        {
+          "bookingCode": "KLOOK-3425",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-09",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Doubletree by Hilton Surabaya",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Doubletree by Hilton Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Doubletree by Hilton Surabaya",
+            "time": "15:00",
+            "text": "Surabaya Hotel  Doubletree by Hilton Surabaya",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Boy"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7125000,
+          "invoiceTotal": 7125000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "KLOOK-3211",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-10",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "ibis Surabaya City Center Hotel",
+            "time": "11:00",
+            "text": "Surabaya Hotel  ibis Surabaya City Center Hotel",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "Malang (Bus Terminal)",
+            "time": "15:00",
+            "text": "Malang (Bus Terminal)",
+            "complete": true
+          },
+          "vehicles": [
+            "Innova Reborn"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Kiki"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 12384000,
+          "invoiceTotal": 12384000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Malaysia"
+        },
+        {
+          "bookingCode": "TWT-3515",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "3D 2N Package",
+          "tripStart": "2026-08-11",
+          "totalPax": 6,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ393",
+            "time": "11:20",
+            "text": "Surabaya Airport Terminal 2 QZ393",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ392",
+            "time": "08:20",
+            "text": "Surabaya Airport Terminal 2 QZ392",
+            "complete": true
+          },
+          "vehicles": [
+            "Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Anjas"
+          ],
+          "hotels": [
+            "Manis Ae Cabin & Resto Bromo",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 14675000,
+          "invoiceTotal": 14675000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "KLOOK-3595",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-13",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Platinum Hotel Tunjungan Surabaya",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Platinum Hotel Tunjungan Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "18:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Yusuf"
+          ],
+          "guides": [
+            "Rendi"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6200000,
+          "invoiceTotal": 6200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Vietnam (Việt Nam)"
+        },
+        {
+          "bookingCode": "KLOOK-3559",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-13",
+          "totalPax": 3,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR296",
+            "time": "09:50",
+            "text": "Surabaya Airport Terminal 2 TR296",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR267",
+            "time": "16:40",
+            "text": "Surabaya Airport Terminal 2 TR267",
+            "complete": true
+          },
+          "vehicles": [
+            "Toyota Calya"
+          ],
+          "drivers": [
+            "Yandi"
+          ],
+          "guides": [
+            "Gufron"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 10320000,
+          "invoiceTotal": 10320000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "TWT-3254",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "5D 4N Package",
+          "tripStart": "2026-08-13",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH873",
+            "time": "14:50",
+            "text": "Surabaya Airport Terminal 2 MH873",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH874 & QZ322",
+            "time": "08:20",
+            "text": "Surabaya Airport Terminal 2 MH874 & QZ322",
+            "complete": true
+          },
+          "vehicles": [
+            "Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Kiki"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 20084000,
+          "invoiceTotal": 20084000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "KLOOK-3687",
+          "orderChannel": "KLOOK",
+          "packageId": 83,
+          "packageName": "4D3N Mount Bromo, Ijen Crater & Surabaya Night Market from Surabaya",
+          "tripStart": "2026-08-17",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR296",
+            "time": "09:50",
+            "text": "Surabaya Airport Terminal 2 TR296",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": "Surabaya Airport  ",
+            "complete": true
+          },
+          "vehicles": [
+            "Toyota Calya"
+          ],
+          "drivers": [
+            "Yandi"
+          ],
+          "guides": [
+            "Anjas"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo",
+            "Holiday Inn Express Surabaya Centerpoint, an IHG Hotel"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Taiwan (台灣)"
+        },
+        {
+          "bookingCode": "KLOOK-3488",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-18",
+          "totalPax": 1,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Cordia Hotel Surabaya Airport",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Cordia Hotel Surabaya Airport",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Ertiga"
+          ],
+          "drivers": [
+            "Fredi"
+          ],
+          "guides": [
+            "Taufik"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 5187000,
+          "invoiceTotal": 5187000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Japan (日本)"
+        },
+        {
+          "bookingCode": "KLOOK-3577",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-18",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Movenpick Surabaya",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Movenpick Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Innova Reborn"
+          ],
+          "drivers": [
+            "Yusuf"
+          ],
+          "guides": [
+            "Rendi"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 13760000,
+          "invoiceTotal": 13760000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Taiwan (台灣)"
+        },
+        {
+          "bookingCode": "KLOOK-3220",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-19",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "SQ922",
+            "time": "09:10",
+            "text": "Surabaya Airport Terminal 2 SQ922",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": null,
+            "time": "16:00",
+            "text": "Surabaya Hotel  ",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Romi"
+          ],
+          "guides": [
+            "Kiki"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6750000,
+          "invoiceTotal": 6750000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "KLOOK-3613",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-21",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Bumi Surabaya City Resort",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Bumi Surabaya City Resort",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "JW Marriott Hotel Surabaya",
+            "time": "18:00",
+            "text": "Surabaya Hotel  JW Marriott Hotel Surabaya",
+            "complete": true
+          },
+          "vehicles": [
+            "Ertiga"
+          ],
+          "drivers": [
+            "Fredi"
+          ],
+          "guides": [
+            "Taufik"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6200000,
+          "invoiceTotal": 6200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Taiwan (台灣)"
+        },
+        {
+          "bookingCode": "KLOOK-1584",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-21",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR296",
+            "time": "09:00",
+            "text": "Surabaya Airport Terminal 2 TR296",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": null,
+            "time": "16:00",
+            "text": "Surabaya Airport Terminal 2 ",
+            "complete": true
+          },
+          "vehicles": [
+            "Innova Reborn"
+          ],
+          "drivers": [
+            "Sahril"
+          ],
+          "guides": [
+            "Juan"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Baratha Hotel and Resto",
+            "Doho Homestay"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 13760000,
+          "invoiceTotal": 13760000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Singapore"
+        },
+        {
+          "bookingCode": "KLOOK-3730",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-21",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "QG693",
+            "time": "07:00",
+            "text": "QG693",
+            "complete": true
+          },
+          "vehicles": [],
+          "drivers": [],
+          "guides": [],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "KLOOK-3616",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-22",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Mövenpick Surabaya City",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Mövenpick Surabaya City",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "18:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Anjas"
+          ],
+          "hotels": [
+            "Joglo Kecombrang Bromo",
+            "Baratha Hotel and Resto"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6200000,
+          "invoiceTotal": 6200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Australia"
+        },
+        {
+          "bookingCode": "KLOOK-3660",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-22",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH871",
+            "time": "09:10",
+            "text": "Surabaya Airport Terminal 2 MH871",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Four Points by Sheraton Surabaya Tunjungan Plaza",
+            "time": "16:00",
+            "text": "Surabaya Hotel  Four Points by Sheraton Surabaya Tunjungan Plaza",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Edi"
+          ],
+          "guides": [
+            "Kiki"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Malaysia"
+        },
+        {
+          "bookingCode": "TWT-3674",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "6D 5N Package",
+          "tripStart": "2026-08-22",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH873",
+            "time": "14:50",
+            "text": "Surabaya Airport Terminal 2 MH873",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH872",
+            "time": "13:00",
+            "text": "Surabaya Airport Terminal 2 MH872",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Yus"
+          ],
+          "drivers": [
+            "Holili"
+          ],
+          "guides": [
+            "Rendi"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "ARTOTEL Cabin Bromo",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 12165000,
+          "invoiceTotal": 12165000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "KLOOK-3242",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-24",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "ibis Surabaya City Center",
+            "time": "11:00",
+            "text": "Surabaya Hotel  ibis Surabaya City Center",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "ibis surabaya city center",
+            "time": "16:00",
+            "text": "Surabaya Hotel  ibis surabaya city center",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Romi"
+          ],
+          "guides": [
+            "Juan"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Philippines"
+        },
+        {
+          "bookingCode": "KLOOK-3574",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-26",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "BEST WESTERN DE PAPILIO SURABAYA",
+            "time": "09:00",
+            "text": "Surabaya Hotel (BEST WESTERN DE PAPILIO SURABAYA)",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Wyndham Surabaya City Centre",
+            "time": "18:00",
+            "text": "Surabaya Hotel (Wyndham Surabaya City Centre)",
+            "complete": true
+          },
+          "vehicles": [
+            "Ertiga"
+          ],
+          "drivers": [
+            "Fredi"
+          ],
+          "guides": [
+            "Boy"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6200000,
+          "invoiceTotal": 6200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Indonesia"
+        },
+        {
+          "bookingCode": "TWT-3403",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "5D 4N Package",
+          "tripStart": "2026-08-27",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR296",
+            "time": "09:50",
+            "text": "Surabaya Airport Terminal 2 TR296",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR297",
+            "time": "07:30",
+            "text": "Surabaya Airport Terminal 2 TR297",
+            "complete": true
+          },
+          "vehicles": [
+            "Hiace Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Gufron",
+            "Fauzi"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 20004000,
+          "invoiceTotal": 20004000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "KLOOK-3569",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-28",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "Grand Darmo Suite. Jl. Progo No.1-3, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241, Indonesia",
+            "time": "11:00",
+            "text": "Surabaya Hotel  Grand Darmo Suite. Jl. Progo No.1-3, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241, Indonesia",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Sub"
+          ],
+          "drivers": [
+            "Yusuf"
+          ],
+          "guides": [
+            "Anjas"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Vietnam (Việt Nam)"
+        },
+        {
+          "bookingCode": "TWT-3693",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "4D 3N Package",
+          "tripStart": "2026-08-29",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "OD352",
+            "time": "10:55",
+            "text": "Surabaya Airport Terminal 2 OD352",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ322",
+            "time": "08:15",
+            "text": "Surabaya Airport Terminal 2 QZ322",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Boy"
+          ],
+          "drivers": [
+            "Didin"
+          ],
+          "guides": [
+            "Rendi"
+          ],
+          "hotels": [
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 8839000,
+          "invoiceTotal": 8839000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "KLOOK-3721",
+          "orderChannel": "KLOOK",
+          "packageId": 82,
+          "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+          "tripStart": "2026-08-30",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Hotel",
+            "arrival": null,
+            "value": "JW Marriott Surabaya",
+            "time": "11:00",
+            "text": "Surabaya Hotel  JW Marriott Surabaya",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "vehicles": [
+            "Avanza Yus"
+          ],
+          "drivers": [
+            "Yandi"
+          ],
+          "guides": [
+            "Gufron"
+          ],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 6200000,
+          "invoiceTotal": 6200000,
+          "paymentHistoryCount": 0,
+          "customerCountry": "Hong Kong (香港)"
+        },
+        {
+          "bookingCode": "TWT-3452",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "5D 4N Package",
+          "tripStart": "2026-08-30",
+          "totalPax": 5,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ323",
+            "time": "17:10",
+            "text": "Surabaya Airport Terminal 2 QZ323",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ322",
+            "time": "08:15",
+            "text": "Surabaya Airport Terminal 2 QZ322",
+            "complete": true
+          },
+          "vehicles": [
+            "Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Anjas",
+            "Rendi"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 23805000,
+          "invoiceTotal": 23805000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "TWT-3553",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "5D 4N Package",
+          "tripStart": "2026-08-31",
+          "totalPax": 6,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR296 & MH875",
+            "time": "09:50",
+            "text": "Surabaya Airport Terminal 2 TR296 & MH875",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH870 & QZ322",
+            "time": "07:00",
+            "text": "Surabaya Airport Terminal 2 MH870 & QZ322",
+            "complete": true
+          },
+          "vehicles": [
+            "Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Kiki",
+            "Fauzi"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 26291000,
+          "invoiceTotal": 26291000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        }
+      ]
+    },
+    "missingCountry": {
+      "description": "Customer country is missing.",
+      "count": 10,
+      "bookings": [
+        {
+          "bookingCode": "TWT-3696",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "3D 2N Package",
+          "tripStart": "2026-08-05",
+          "totalPax": 5,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH873",
+            "time": "14:50",
+            "text": "Surabaya Airport Terminal 2 MH873",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "Banyuwangi",
+            "time": "07:00",
+            "text": "Banyuwangi",
+            "complete": true
+          },
+          "vehicles": [
+            "Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Boy"
+          ],
+          "hotels": [
+            "Manis Ae Cabin & Resto Bromo",
+            "Lintang Luku Tent"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 12410000,
+          "invoiceTotal": 12410000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "TWT-3619",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "5D 4N Package",
+          "tripStart": "2026-08-07",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ321",
+            "time": "10:45",
+            "text": "Surabaya Airport Terminal 2 QZ321",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ322",
+            "time": "08:15",
+            "text": "Surabaya Airport Terminal 2 QZ322",
+            "complete": true
+          },
+          "vehicles": [
+            "Hiace Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Rendi",
+            "Local Ijen"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "DoubleTree by Hilton"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 18814000,
+          "invoiceTotal": 18814000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "TWT-3515",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "3D 2N Package",
+          "tripStart": "2026-08-11",
+          "totalPax": 6,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ393",
+            "time": "11:20",
+            "text": "Surabaya Airport Terminal 2 QZ393",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ392",
+            "time": "08:20",
+            "text": "Surabaya Airport Terminal 2 QZ392",
+            "complete": true
+          },
+          "vehicles": [
+            "Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Anjas"
+          ],
+          "hotels": [
+            "Manis Ae Cabin & Resto Bromo",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 14675000,
+          "invoiceTotal": 14675000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "TWT-3254",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "5D 4N Package",
+          "tripStart": "2026-08-13",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH873",
+            "time": "14:50",
+            "text": "Surabaya Airport Terminal 2 MH873",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH874 & QZ322",
+            "time": "08:20",
+            "text": "Surabaya Airport Terminal 2 MH874 & QZ322",
+            "complete": true
+          },
+          "vehicles": [
+            "Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Kiki"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 20084000,
+          "invoiceTotal": 20084000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "KLOOK-3730",
+          "orderChannel": "KLOOK",
+          "packageId": 84,
+          "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+          "tripStart": "2026-08-21",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Others",
+            "arrival": null,
+            "value": null,
+            "time": "07:00",
+            "text": null,
+            "complete": false
+          },
+          "dropoff": {
+            "dropPoint": "Others",
+            "arrival": null,
+            "value": "QG693",
+            "time": "07:00",
+            "text": "QG693",
+            "complete": true
+          },
+          "vehicles": [],
+          "drivers": [],
+          "guides": [],
+          "hotels": [
+            "Baratha Hotel and Resto",
+            "Doho Homestay",
+            "Joglo Kecombrang Bromo"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 7500000,
+          "invoiceTotal": 7500000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "TWT-3674",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "6D 5N Package",
+          "tripStart": "2026-08-22",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH873",
+            "time": "14:50",
+            "text": "Surabaya Airport Terminal 2 MH873",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH872",
+            "time": "13:00",
+            "text": "Surabaya Airport Terminal 2 MH872",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Yus"
+          ],
+          "drivers": [
+            "Holili"
+          ],
+          "guides": [
+            "Rendi"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "ARTOTEL Cabin Bromo",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 12165000,
+          "invoiceTotal": 12165000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "TWT-3403",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "5D 4N Package",
+          "tripStart": "2026-08-27",
+          "totalPax": 4,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR296",
+            "time": "09:50",
+            "text": "Surabaya Airport Terminal 2 TR296",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR297",
+            "time": "07:30",
+            "text": "Surabaya Airport Terminal 2 TR297",
+            "complete": true
+          },
+          "vehicles": [
+            "Hiace Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Gufron",
+            "Fauzi"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 20004000,
+          "invoiceTotal": 20004000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "TWT-3693",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "4D 3N Package",
+          "tripStart": "2026-08-29",
+          "totalPax": 2,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "OD352",
+            "time": "10:55",
+            "text": "Surabaya Airport Terminal 2 OD352",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ322",
+            "time": "08:15",
+            "text": "Surabaya Airport Terminal 2 QZ322",
+            "complete": true
+          },
+          "vehicles": [
+            "Avanza Boy"
+          ],
+          "drivers": [
+            "Didin"
+          ],
+          "guides": [
+            "Rendi"
+          ],
+          "hotels": [
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 8839000,
+          "invoiceTotal": 8839000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "TWT-3452",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "5D 4N Package",
+          "tripStart": "2026-08-30",
+          "totalPax": 5,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ323",
+            "time": "17:10",
+            "text": "Surabaya Airport Terminal 2 QZ323",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "QZ322",
+            "time": "08:15",
+            "text": "Surabaya Airport Terminal 2 QZ322",
+            "complete": true
+          },
+          "vehicles": [
+            "Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Anjas",
+            "Rendi"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 23805000,
+          "invoiceTotal": 23805000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        },
+        {
+          "bookingCode": "TWT-3553",
+          "orderChannel": "TWT",
+          "packageId": null,
+          "packageName": "5D 4N Package",
+          "tripStart": "2026-08-31",
+          "totalPax": 6,
+          "pickup": {
+            "meetingPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "TR296 & MH875",
+            "time": "09:50",
+            "text": "Surabaya Airport Terminal 2 TR296 & MH875",
+            "complete": true
+          },
+          "dropoff": {
+            "dropPoint": "Surabaya Airport",
+            "arrival": "Terminal 2",
+            "value": "MH870 & QZ322",
+            "time": "07:00",
+            "text": "Surabaya Airport Terminal 2 MH870 & QZ322",
+            "complete": true
+          },
+          "vehicles": [
+            "Premio"
+          ],
+          "drivers": [
+            "GARAGE"
+          ],
+          "guides": [
+            "Kiki",
+            "Fauzi"
+          ],
+          "hotels": [
+            "HARRIS Hotel & Conventions Malang",
+            "Manis Ae Cabin & Resto Bromo",
+            "Riverside Homestay",
+            "Harris Hotel Satelit"
+          ],
+          "balanceStatus": "balance_due",
+          "paid": 0,
+          "balance": 26291000,
+          "invoiceTotal": 26291000,
+          "paymentHistoryCount": 0,
+          "customerCountry": null
+        }
+      ]
+    }
+  },
+  "recommended_status_model": [
+    "missing",
+    "not_required",
+    "partner_managed",
+    "pending_guest",
+    "pending_ops",
+    "confirmed",
+    "unknown"
+  ]
+}

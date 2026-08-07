@@ -35,5 +35,7 @@
     }
   ],
   "bookingChannel": "Website only — bookings are created, confirmed, modified, cancelled, and transferred only on javavolcano-touroperator.com; WhatsApp and email are support channels.",
-  "lastReviewed": "2026-08-04"
+  "lastReviewed": "2026-08-04",
+  "owner": "organization-identity",
+  "reviewStatus": "domain-owner-assigned-by-audit"
 }

@@ -25,7 +25,10 @@
     {
       "location_type": "airport_international",
       "label": "Bandara — Penerbangan Internasional",
-      "applicable_to": ["Surabaya Airport T2 (SUB)", "Denpasar Airport (DPS) jika pickup di Bali"],
+      "applicable_to": [
+        "Surabaya Airport T2 (SUB)",
+        "Denpasar Airport (DPS) jika pickup di Bali"
+      ],
       "crew_position": "Di area Meeters & Greeters — luar pintu keluar Arrival Hall, setelah tamu melewati customs",
       "timing": "Crew standby minimal 30 menit sebelum estimasi tamu keluar. Estimasi = jam landing + 60 menit (imigrasi + baggage + customs).",
       "pickup_sign": "WAJIB. Nama tamu + JVTO Tours. Crew berdiri di posisi terlihat dari pintu keluar.",
@@ -59,7 +62,9 @@
     {
       "location_type": "airport_domestic",
       "label": "Bandara — Penerbangan Domestik",
-      "applicable_to": ["Surabaya Airport T1 (SUB)"],
+      "applicable_to": [
+        "Surabaya Airport T1 (SUB)"
+      ],
       "crew_position": "Di area penjemputan/kedatangan T1 — pintu keluar setelah baggage claim",
       "timing": "Crew standby minimal 15 menit sebelum estimasi tamu keluar. Estimasi = jam landing + 30 menit.",
       "pickup_sign": "WAJIB. Nama tamu + JVTO Tours.",
@@ -79,7 +84,9 @@
     {
       "location_type": "hotel_lobby",
       "label": "Hotel — Jemput di Lobi",
-      "applicable_to": ["Semua jenis hotel — budget sampai bintang 5"],
+      "applicable_to": [
+        "Semua jenis hotel — budget sampai bintang 5"
+      ],
       "crew_position": "Lobi utama hotel — area duduk atau dekat pintu masuk utama. BUKAN di parkiran atau di luar.",
       "timing": "Crew tiba di lobi hotel 5–10 menit sebelum jam pickup yang disepakati.",
       "pickup_sign": "Opsional. Dipakai jika hotel besar/ramai (misalnya hotel bintang 4–5 di pusat kota). Untuk hotel kecil/boutique, crew langsung memperkenalkan diri ke tamu.",
@@ -100,7 +107,12 @@
     {
       "location_type": "train_station",
       "label": "Stasiun Kereta",
-      "applicable_to": ["Stasiun Gubeng", "Stasiun Pasar Turi", "Stasiun Wonokromo", "Stasiun lain"],
+      "applicable_to": [
+        "Stasiun Gubeng",
+        "Stasiun Pasar Turi",
+        "Stasiun Wonokromo",
+        "Stasiun lain"
+      ],
       "crew_position": "Di depan pintu keluar utama stasiun (gate exit / area penjemputan penumpang turun)",
       "timing": "Crew standby 10 menit sebelum estimasi kereta tiba.",
       "pickup_sign": "WAJIB. Stasiun bisa sangat ramai — pickup sign sangat membantu tamu asing menemukan crew.",
@@ -119,7 +131,10 @@
     {
       "location_type": "harbor",
       "label": "Pelabuhan (Ferry)",
-      "applicable_to": ["Ketapang Harbor (Banyuwangi)", "Gilimanuk Harbor (Bali)"],
+      "applicable_to": [
+        "Ketapang Harbor (Banyuwangi)",
+        "Gilimanuk Harbor (Bali)"
+      ],
       "crew_position": "Di luar gate exit pelabuhan — area penjemputan penumpang turun dari ferry",
       "timing": "Crew standby 15 menit sebelum estimasi ferry sandar.",
       "pickup_sign": "WAJIB. Area pelabuhan bisa ramai, terutama saat peak season.",
@@ -139,7 +154,12 @@
     {
       "location_type": "city_point",
       "label": "Titik Kota / Alamat Kustom",
-      "applicable_to": ["Mal", "Restoran", "Landmark", "Alamat khusus"],
+      "applicable_to": [
+        "Mal",
+        "Restoran",
+        "Landmark",
+        "Alamat khusus"
+      ],
       "crew_position": "Di titik yang disepakati — depan pintu utama / entrance yang jelas dan mudah dikenali",
       "timing": "Crew tiba tepat waktu atau 5 menit lebih awal.",
       "pickup_sign": "Opsional — pakai jika titik ramai. Cukup perkenalkan diri jika lokasi sepi.",
@@ -177,5 +197,8 @@
     ],
     "tone": "Friendly, professional, and reassuring. Tamu internasional sering pertama kali ke Indonesia — crew harus membuat mereka merasa aman dan disambut.",
     "emergency_contact": "Jika crew tidak bisa menemukan tamu dalam 1 jam setelah estimasi, eskalasi ke supervisor JVTO."
-  }
+  },
+  "lastReviewed": "2026-08-07",
+  "owner": "stable-operational-guidance",
+  "reviewStatus": "domain-owner-assigned-by-audit"
 }

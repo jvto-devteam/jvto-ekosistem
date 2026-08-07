@@ -151,5 +151,86 @@
     "healthScreeningIncluded": true,
     "touristPoliceSupport": true
   },
-  "operationalComplexityNote": "Ijen screening, two early mountain sequences, and several transfer days still require discipline, but the Malang finish reduces the pressure of a tighter route ending."
+  "operationalComplexityNote": "Ijen screening, two early mountain sequences, and several transfer days still require discipline, but the Malang finish reduces the pressure of a tighter route ending.",
+  "canonical_id": "package-SUB-5D4N-002",
+  "effectiveFrom": "2026-08-07",
+  "effective_date": "2026-08-07",
+  "effective_date_basis": "data_extraction_date; replace when JVTO defines formal commercial effective dates",
+  "pickup_coverage": {
+    "origin_city": "Surabaya",
+    "end_city": "Surabaya",
+    "supported_pickup_cities": [
+      "Surabaya"
+    ],
+    "supported_dropoff_cities": [
+      "Surabaya"
+    ],
+    "min_lead_time_hours": 24,
+    "requires_availability_check": false,
+    "source_ref": "2-product-and-commercial-core/channel-availability/tours__from-surabaya__ijen-bromo-madakaripura-malang-5d4n.channel-availability.json"
+  },
+  "pricing": {
+    "pricing_rule_ref": "2-product-and-commercial-core/pricing-rules/tours__from-surabaya__ijen-bromo-madakaripura-malang-5d4n.pricing.json",
+    "currency": "IDR",
+    "low_price": 3850000,
+    "high_price": 5250000,
+    "tiers_count": 6
+  },
+  "deposit": {
+    "deposit_rule_ref": "2-product-and-commercial-core/deposit-rules/deposit-and-balance-rules.json",
+    "standard_deposit_rule_id": "standard-deposit",
+    "standard_deposit_value": 20,
+    "standard_deposit_unit": "percent_of_total_booking_value"
+  },
+  "add_ons": {
+    "add_on_index_ref": "2-product-and-commercial-core/add-ons/add-ons-index.json",
+    "product_add_ons_count": 0
+  },
+  "luggage_constraints": {
+    "rule_ref": "2-product-and-commercial-core/luggage-and-pax-rules/vehicle-rooming-pax-rules.json",
+    "max_pax_recommended": 100,
+    "min_pax_operational": 2
+  },
+  "health_requirements": {
+    "requirement_ref": "2-product-and-commercial-core/health-requirements/ijen-health-requirements-by-product.json",
+    "includes_ijen": true,
+    "health_screening_included": true,
+    "requirement_summary": "Ijen health screening required before crater-zone access"
+  },
+  "closure_plan_b": {
+    "rule_ref": "4-operations-core/closure-and-plan-b/closure-plan-b-rules.json",
+    "road_situation_ref": "4-operations-core/closure-and-plan-b/road-situation-profiles.json",
+    "affected_destination_names": [
+      "Ijen Crater",
+      "Mount Bromo",
+      "Madakaripura Waterfall"
+    ]
+  },
+  "cancellation_policy": {
+    "commercial_rule_ref": "2-product-and-commercial-core/cancellation-and-credit-rules/package-credit-rules.json",
+    "public_policy_ref": "1-knowledge-and-evidence-core/policies/booking-payment-cancellation.json"
+  },
+  "channel_availability": {
+    "channel_availability_ref": "2-product-and-commercial-core/channel-availability/tours__from-surabaya__ijen-bromo-madakaripura-malang-5d4n.channel-availability.json",
+    "order_channel_enabled": {
+      "JVTO": true,
+      "KLOOK": false,
+      "TRAVELOKA": false,
+      "TIKETCOM": false,
+      "OTHERS": false
+    },
+    "external_package_ids": {
+      "klook": "",
+      "traveloka": "",
+      "tiketcom": ""
+    },
+    "is_freesale": true,
+    "status": "active"
+  },
+  "contract_refs": {
+    "itinerary_ref": "2-product-and-commercial-core/routes-and-itineraries/tours__from-surabaya__ijen-bromo-madakaripura-malang-5d4n.itinerary.json",
+    "website_output_ref": "5-experience-engine/public-website/tours__from-surabaya__ijen-bromo-madakaripura-malang-5d4n.website-output.json",
+    "seo_metadata_ref": "5-experience-engine/seo-metadata/page-metadata-index.json",
+    "json_ld_ref": "5-experience-engine/json-ld/schema-types-index.json"
+  }
 }

@@ -1,53 +1,70 @@
 {
-  "bookingPackageIdsMissingFromProductCore": [
+  "channelSpecificPackageIds": [
     {
       "packageId": 82,
       "bookingCount": 9,
-      "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya"
+      "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+      "channel": "KLOOK",
+      "classification": "confirmed_channel_specific_package_id",
+      "note": "User confirmed this package ID is a KLOOK package, not a missing JVTO direct product contract."
     },
     {
       "packageId": 83,
       "bookingCount": 2,
-      "packageName": "4D3N Mount Bromo, Ijen Crater & Surabaya Night Market from Surabaya"
+      "packageName": "4D3N Mount Bromo, Ijen Crater & Surabaya Night Market from Surabaya",
+      "channel": "KLOOK",
+      "classification": "confirmed_channel_specific_package_id",
+      "note": "User confirmed this package ID is a KLOOK package, not a missing JVTO direct product contract."
     },
     {
       "packageId": 84,
       "bookingCount": 13,
-      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya"
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "channel": "KLOOK",
+      "classification": "confirmed_channel_specific_package_id",
+      "note": "User confirmed this package ID is a KLOOK package, not a missing JVTO direct product contract."
     },
     {
       "packageId": 94,
       "bookingCount": 2,
-      "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya"
+      "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
+      "channel": "KLOOK",
+      "classification": "observed_channel_specific_package_id_needs_confirmation",
+      "note": "Observed only in KLOOK booking records; user has not yet explicitly confirmed whether this is also an intentional KLOOK package ID."
     }
   ],
   "genericOrCustomPackageRecords": [
     {
       "packageId": null,
       "bookingCount": 5,
-      "packageName": "5D 4N Package"
+      "packageName": "5D 4N Package",
+      "classification": "intentional_twt_or_custom_package_without_package_id"
     },
     {
       "packageId": null,
       "bookingCount": 2,
-      "packageName": "3D 2N Package"
+      "packageName": "3D 2N Package",
+      "classification": "intentional_twt_or_custom_package_without_package_id"
     },
     {
       "packageId": null,
       "bookingCount": 1,
-      "packageName": "1D 0N Package"
+      "packageName": "1D 0N Package",
+      "classification": "intentional_twt_or_custom_package_without_package_id"
     },
     {
       "packageId": null,
       "bookingCount": 1,
-      "packageName": "6D 5N Package"
+      "packageName": "6D 5N Package",
+      "classification": "intentional_twt_or_custom_package_without_package_id"
     },
     {
       "packageId": null,
       "bookingCount": 1,
-      "packageName": "4D 3N Package"
+      "packageName": "4D 3N Package",
+      "classification": "intentional_twt_or_custom_package_without_package_id"
     }
   ],
-  "decisionNeeded": "Decide whether these are retired, channel-only, custom, or missing product contracts."
+  "decisionStatus": "Package IDs 82, 83, and 84 are confirmed by the user as KLOOK package IDs. TWT intentionally does not use package IDs. Package ID 94 is observed in KLOOK records and still needs explicit owner confirmation.",
+  "recommendedNextStep": "Create a channel product mapping layer so KLOOK/TWT package identifiers can be linked to direct JVTO canonical products without forcing them into direct product contracts."
 }
-

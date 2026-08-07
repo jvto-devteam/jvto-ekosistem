@@ -87,15 +87,24 @@ Included data:
 - schema type index;
 - guest portal projection records;
 - ops console projection records;
-- partner/channel booking summary.
+- partner/channel booking summary;
+- Google review records, review media references, crew featured-review evidence,
+  and review insights;
+- compiled customer-portal knowledge feed;
+- WhatsApp automation templates;
+- transactional email templates;
+- invoice and receipt output definitions.
+- aggregated booking/channel/payment/readiness analytics;
+- aggregated profitability analytics from sanitized booking-level expense data.
+- every Google review record now keeps source references through Google Business
+  Profile review URL, Google Maps profile URL, and Google review resource name.
 
-Placeholder only:
+Documented data gap:
 
-- compiled knowledge feed;
-- approved WhatsApp templates;
-- approved email templates;
-- generated quotation/invoice output;
 - generated AI answer payloads.
+- full inquiry-to-booking funnel and conversion analytics.
+- detailed commission/payment-fee/refund breakdowns for explaining backoffice
+  profit.
 
 ## Review Notes
 

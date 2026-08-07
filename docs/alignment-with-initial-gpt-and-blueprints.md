@@ -81,6 +81,27 @@ Current project:
 - `2-product-and-commercial-core/cancellation-and-credit-rules`
 - `2-product-and-commercial-core/channel-availability`
 
+Each of the 17 active product contracts now carries the explicit operating
+contract fields requested by the initial GPT response:
+
+- `canonical_id`
+- `pickup_coverage`
+- `pricing`
+- `deposit`
+- `add_ons`
+- `luggage_constraints`
+- `health_requirements`
+- `closure_plan_b`
+- `cancellation_policy`
+- `channel_availability`
+- `version`
+- `effective_date`
+
+Where the detailed rule belongs in a shared canonical file, the product contract
+stores a direct reference instead of duplicating the rule body. This preserves
+the "one product, many channels" model while keeping shared rules editable in
+one place.
+
 Status: aligned. Product data is populated from public package API, itinerary
 core, customer portal observations, and existing public content.
 
@@ -163,7 +184,7 @@ Current project:
 Current real coverage includes readiness signals, sanitized booking readiness
 records, crew/vehicle/hotel data from booking overview and customer portal,
 itinerary-core operational events, meal logic, meal stops, road situation
-profiles, and Ijen health workflow.
+profiles, Ijen health workflow, and sanitized booking-level expense line items.
 
 Still data-missing:
 
@@ -201,18 +222,24 @@ Current project:
 - `5-experience-engine/ops-console`
 - `5-experience-engine/partner-feed`
 - `5-experience-engine/ai-answers`
+- `5-experience-engine/analytics`
 
 Current real coverage includes public website outputs, page metadata, JSON-LD
 types, customer portal definitions and sanitized portal details, WhatsApp
 automation templates, email templates, invoice/receipt definitions, partner feed
-summaries, and customer portal FAQ/packing knowledge feed.
+summaries, customer portal FAQ/packing knowledge feed, and aggregated
+booking/channel/payment/readiness/profitability analytics. Google review records
+and review insights are now included as source-backed Experience Engine outputs.
 
-Still data-missing:
+Still data-missing or owner-confirmation-needed:
 
 - actual generated AI answer/evaluation/retrieval payloads;
-- analytics/funnel outputs as structured data.
+- full inquiry-to-booking funnel and conversion analytics.
+- detailed commission, payment fee, refund, credit, and overpayment breakdowns
+  if JVTO wants to explain the existing backoffice profit value.
 
-Status: aligned and mostly populated, except AI answers and analytics.
+Status: aligned and mostly populated, except AI answer payloads, full funnel
+analytics, and optional profit explainability breakdowns.
 
 ## Alignment To The Two Blueprint Files
 
@@ -261,5 +288,5 @@ data:
 - timestamped operational event log;
 - analytics/funnel outputs;
 - AI answer/evaluation/retrieval payloads;
-- internal expense details, intentionally deferred.
-
+- optional profit explainability breakdowns for commission, fee, refund, credit,
+  and overpayment components.

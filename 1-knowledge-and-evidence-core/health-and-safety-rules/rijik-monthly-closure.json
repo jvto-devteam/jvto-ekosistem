@@ -34,5 +34,8 @@
       "title": "How JVTO Handles It",
       "body_md": "- **Checked before confirmation.** JVTO checks the TWA Ijen closure calendar before confirming any Ijen-inclusive itinerary against a guest's requested travel dates.\n- **Rerouted, not cancelled.** If a preferred travel window falls on the first Friday of the month, JVTO reorders the itinerary — for example, visiting Bromo or Madakaripura first — so the Rijik closure day never disrupts a confirmed booking. This follows the same alternative-route approach used for PVMBG-driven closures; see [Weather & Closures](/travel-guide/weather-and-closures).\n- **Not the same as a safety closure.** Rijik is a fixed conservation closure, unrelated to PVMBG (volcanology) alert-status closures, which are unscheduled and driven by real-time gas and seismic monitoring.\n- **Covered by the same cancellation terms.** In the rare case a closure makes a program genuinely unworkable, the standard JVTO Lifetime Package Credit terms apply — see [Booking, Payment & Cancellation Policy](/policy/booking-payment-cancellation)."
     }
-  ]
+  ],
+  "lastReviewed": "2026-08-07",
+  "owner": "health-safety",
+  "reviewStatus": "domain-owner-assigned-by-audit"
 }

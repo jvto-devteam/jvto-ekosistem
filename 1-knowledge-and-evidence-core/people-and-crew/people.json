@@ -1,6 +1,6 @@
 {
   "_comment": "Canonical JVTO people record — GROUNDWORK (AD-03, Milestone 2 people cluster). This record is the intended input for the later Team render cutover; the public feed, JSON-LD, rendered DOM, and FAQ projection are NOT active in this PR and no public route reads this file yet. When that projection is built, crew.unpublished must be excluded from it. Records carry ATTRIBUTED evidence references (buildCrewSchemas.ts NAMED_GUIDE_PERSONAS + knowsAbout, content/pages/why-jvto/our-team.json, OKF curation/approved/people.yaml, llm-wiki wiki/people/{crew-registry,agung-sambuko,dr-ahmad-irwandanu}.md, entityGraph.ts FOUNDER_SCHEMA/DOCTOR_SCHEMA); in this PR, CI validates reference PRESENCE and record consistency — external source matching is not performed. Review correlation uses src/lib/publicContent/generated/reviewApiSnapshots.json feed[].crews[] (not hand-authored quotes).",
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-07",
   "disclaimer": {
     "policeIndependence": "JVTO (PT Java Volcano Rendezvous) is a private tour operator. References to the founder's role as an active Indonesian Tourist Police officer describe his personal professional background only; they do not represent, imply, or constitute endorsement by the Indonesian National Police or any government body.",
     "directManagedCrew": "JVTO crew are assigned and managed directly by JVTO and are not sourced ad hoc for each booking."
@@ -62,7 +62,35 @@
         "role": "driver",
         "reason": "HPWKI KTA credential_state: pending",
         "rendered": false,
-        "public": false
+        "public": false,
+        "googleReviewMentions": {
+          "platform": "Google",
+          "relationReviewCount": 8,
+          "aliasAdjustedReviewCount": 8,
+          "aliasAdjustedDelta": 0,
+          "aliases": [
+            "Yusuf",
+            "Yusup",
+            "Jusuf",
+            "Yusef"
+          ],
+          "sourceFile": "5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+          "lastReviewed": "2026-08-07"
+        },
+        "featuredGoogleReviewEvidence": {
+          "sourceFile": "5-experience-engine/reviews/crew-featured-review-evidence.json",
+          "reviewsWithMediaCount": 4,
+          "featuredReviewCount": 4,
+          "bestReview": {
+            "reviewId": "google-review-131",
+            "date": "2026-08-02",
+            "star": 5,
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT21jeE5Wa3hXa053WTBRMGVXdG9Wa2N3U25wZllYYxAB",
+            "reviewMediaRecordId": "google-review-media-AbFvOqlsivFVXifI5EgNAemJVzRdOcp94VKeUj5RmXzDAHFqo_kjtwvrFHvc-uGmZBfo-rCzkZoXPg",
+            "mediaCount": 15
+          },
+          "lastReviewed": "2026-08-07"
+        }
       },
       {
         "code": "dika",
@@ -70,7 +98,26 @@
         "role": "driver",
         "reason": "HPWKI KTA credential_state: pending",
         "rendered": false,
-        "public": false
+        "public": false,
+        "googleReviewMentions": {
+          "platform": "Google",
+          "relationReviewCount": 2,
+          "aliasAdjustedReviewCount": 2,
+          "aliasAdjustedDelta": 0,
+          "aliases": [
+            "Dika",
+            "Dhika"
+          ],
+          "sourceFile": "5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+          "lastReviewed": "2026-08-07"
+        },
+        "featuredGoogleReviewEvidence": {
+          "sourceFile": "5-experience-engine/reviews/crew-featured-review-evidence.json",
+          "reviewsWithMediaCount": 0,
+          "featuredReviewCount": 0,
+          "bestReview": null,
+          "lastReviewed": "2026-08-07"
+        }
       },
       {
         "code": "pras",
@@ -78,7 +125,33 @@
         "role": "driver",
         "reason": "HPWKI KTA credential_state: pending",
         "rendered": false,
-        "public": false
+        "public": false,
+        "googleReviewMentions": {
+          "platform": "Google",
+          "relationReviewCount": 6,
+          "aliasAdjustedReviewCount": 6,
+          "aliasAdjustedDelta": 0,
+          "aliases": [
+            "Pras",
+            "Prasojo"
+          ],
+          "sourceFile": "5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+          "lastReviewed": "2026-08-07"
+        },
+        "featuredGoogleReviewEvidence": {
+          "sourceFile": "5-experience-engine/reviews/crew-featured-review-evidence.json",
+          "reviewsWithMediaCount": 3,
+          "featuredReviewCount": 3,
+          "bestReview": {
+            "reviewId": "google-review-187",
+            "date": "2025-07-24",
+            "star": 5,
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT210bkxYcFBVekY1YVdad1ZITmFlbE41UVU5T1duYxAB",
+            "reviewMediaRecordId": "google-review-media-AbFvOql6n8oiCCZ1Q0KvCG-M9TPXI9pAVPpPsY8PgSaECM2zYOXmzRWcOpypau94pv47tz2IBad3Cw",
+            "mediaCount": 10
+          },
+          "lastReviewed": "2026-08-07"
+        }
       }
     ],
     "roster": [
@@ -107,6 +180,31 @@
         "image": {
           "src": "/uploads/1768270423657-690185912-anjas.png",
           "alt": "JVTO Ijen guide Anjas"
+        },
+        "googleReviewMentions": {
+          "platform": "Google",
+          "relationReviewCount": 9,
+          "aliasAdjustedReviewCount": 10,
+          "aliasAdjustedDelta": 1,
+          "aliases": [
+            "Anjas"
+          ],
+          "sourceFile": "5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+          "lastReviewed": "2026-08-07"
+        },
+        "featuredGoogleReviewEvidence": {
+          "sourceFile": "5-experience-engine/reviews/crew-featured-review-evidence.json",
+          "reviewsWithMediaCount": 6,
+          "featuredReviewCount": 5,
+          "bestReview": {
+            "reviewId": "google-review-87",
+            "date": "2026-06-05",
+            "star": 5,
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT25GVWRHRnlSbUpJWTJreVNGaFhTRmMxTFd0MVNWRRAB",
+            "reviewMediaRecordId": "google-review-media-AbFvOqlibtZLq0iHEW8EIafS6UZaFE1AdpehyUZ_1YdDfyuBKt8g9B3Rj1wmbwc5D3YHR09Vy9xe",
+            "mediaCount": 8
+          },
+          "lastReviewed": "2026-08-07"
         }
       },
       {
@@ -134,6 +232,32 @@
         "image": {
           "src": "/uploads/1768225567764-405955176-gufron.png",
           "alt": "JVTO Bromo guide Gufron"
+        },
+        "googleReviewMentions": {
+          "platform": "Google",
+          "relationReviewCount": 17,
+          "aliasAdjustedReviewCount": 18,
+          "aliasAdjustedDelta": 1,
+          "aliases": [
+            "Gufron",
+            "Gufran"
+          ],
+          "sourceFile": "5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+          "lastReviewed": "2026-08-07"
+        },
+        "featuredGoogleReviewEvidence": {
+          "sourceFile": "5-experience-engine/reviews/crew-featured-review-evidence.json",
+          "reviewsWithMediaCount": 6,
+          "featuredReviewCount": 5,
+          "bestReview": {
+            "reviewId": "google-review-172",
+            "date": "2025-09-15",
+            "star": 5,
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT25sclMydERabE54ZWsxMllqVnhkRE54VlVoeWMwRRAB",
+            "reviewMediaRecordId": "google-review-media-AbFvOql5UqO7MSyyjp-nsS3965Mygdt7bT5ovhrwJYhFUw9KIsYbxx6-nXqHCOeC6pmG6U7p475fiw",
+            "mediaCount": 4
+          },
+          "lastReviewed": "2026-08-07"
         }
       },
       {
@@ -161,6 +285,32 @@
         "image": {
           "src": "/uploads/1768228514527-518051332-rendi.png",
           "alt": "JVTO Tumpak Sewu guide Rendi"
+        },
+        "googleReviewMentions": {
+          "platform": "Google",
+          "relationReviewCount": 13,
+          "aliasAdjustedReviewCount": 15,
+          "aliasAdjustedDelta": 2,
+          "aliases": [
+            "Rendi",
+            "Rendy"
+          ],
+          "sourceFile": "5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+          "lastReviewed": "2026-08-07"
+        },
+        "featuredGoogleReviewEvidence": {
+          "sourceFile": "5-experience-engine/reviews/crew-featured-review-evidence.json",
+          "reviewsWithMediaCount": 8,
+          "featuredReviewCount": 5,
+          "bestReview": {
+            "reviewId": "google-review-202",
+            "date": "2025-05-14",
+            "star": 5,
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/ChZDSUhNMG9nS0VJWEVwWm5OMnFUM2VnEAE",
+            "reviewMediaRecordId": "google-review-media-AbFvOqn1_Dt-fo3sVuPH46J06lb9aKYzXEaKRV8USGAGtZAZcVBQm_zBEaWcBsZBpT8nsXWzsReB",
+            "mediaCount": 4
+          },
+          "lastReviewed": "2026-08-07"
         }
       },
       {
@@ -188,6 +338,35 @@
         "image": {
           "src": "/uploads/1768228191022-893381041-boy.png",
           "alt": "JVTO senior Ijen guide Boy (Ahboy)"
+        },
+        "googleReviewMentions": {
+          "platform": "Google",
+          "relationReviewCount": 9,
+          "aliasAdjustedReviewCount": 10,
+          "aliasAdjustedDelta": 1,
+          "aliases": [
+            "Boy",
+            "Ahboy",
+            "Ah Boy",
+            "Ah Boi",
+            "Ahboi"
+          ],
+          "sourceFile": "5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+          "lastReviewed": "2026-08-07"
+        },
+        "featuredGoogleReviewEvidence": {
+          "sourceFile": "5-experience-engine/reviews/crew-featured-review-evidence.json",
+          "reviewsWithMediaCount": 3,
+          "featuredReviewCount": 3,
+          "bestReview": {
+            "reviewId": "google-review-168",
+            "date": "2025-10-03",
+            "star": 5,
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xORlFWcGpTMFI2VWpkbU1FNXJhblJ1UlV4MVZHYxAB",
+            "reviewMediaRecordId": "google-review-media-AbFvOqmXndxwH0lHZ5VHXwoKuvgdIWEE1wA7wi6LQl42Qus1bQsZ0O4rGahggQ-OAcfN89LpC_tKBg",
+            "mediaCount": 14
+          },
+          "lastReviewed": "2026-08-07"
         }
       },
       {
@@ -214,6 +393,32 @@
         "image": {
           "src": "/uploads/1768271545598-834784538-kiki.png",
           "alt": "JVTO guide Kiki"
+        },
+        "googleReviewMentions": {
+          "platform": "Google",
+          "relationReviewCount": 13,
+          "aliasAdjustedReviewCount": 13,
+          "aliasAdjustedDelta": 0,
+          "aliases": [
+            "Kiki",
+            "Kiky"
+          ],
+          "sourceFile": "5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+          "lastReviewed": "2026-08-07"
+        },
+        "featuredGoogleReviewEvidence": {
+          "sourceFile": "5-experience-engine/reviews/crew-featured-review-evidence.json",
+          "reviewsWithMediaCount": 3,
+          "featuredReviewCount": 3,
+          "bestReview": {
+            "reviewId": "google-review-186",
+            "date": "2025-07-24",
+            "star": 5,
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT21GV2VFNTVPVXRSYjJjMlpucFJSRmxqTW5WSFlXYxAB",
+            "reviewMediaRecordId": "google-review-media-AbFvOqn9784iQF_-cUQlO1mkYpwRBMpPDav5dD-QHBr9oEnAV2rRz4-Riebc_f6x5tGDN5DlJgc6oQ",
+            "mediaCount": 8
+          },
+          "lastReviewed": "2026-08-07"
         }
       },
       {
@@ -240,6 +445,35 @@
         "image": {
           "src": "/uploads/1768228083285-919198019-taufik_1_.png",
           "alt": "JVTO guide Taufik"
+        },
+        "googleReviewMentions": {
+          "platform": "Google",
+          "relationReviewCount": 5,
+          "aliasAdjustedReviewCount": 7,
+          "aliasAdjustedDelta": 2,
+          "aliases": [
+            "Taufik",
+            "Tufik",
+            "Taufiq",
+            "Mas Opik",
+            "Opik"
+          ],
+          "sourceFile": "5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+          "lastReviewed": "2026-08-07"
+        },
+        "featuredGoogleReviewEvidence": {
+          "sourceFile": "5-experience-engine/reviews/crew-featured-review-evidence.json",
+          "reviewsWithMediaCount": 3,
+          "featuredReviewCount": 3,
+          "bestReview": {
+            "reviewId": "google-review-78",
+            "date": "2026-07-12",
+            "star": 5,
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pBM1duTXdZWHBsWmxCd1NYVXhiVU5UWDNWVVYyYxAB",
+            "reviewMediaRecordId": "google-review-media-AbFvOqnUdmA7ymsrqQGtcBXoYCWU4ZFbwbLW9Rq2NPfHhR2WgV_PEqz53OxDuk3qaxD2brkuWYz2vQ",
+            "mediaCount": 7
+          },
+          "lastReviewed": "2026-08-07"
         }
       },
       {
@@ -265,6 +499,33 @@
         "image": {
           "src": "/uploads/1768226003889-338819579-fauzi.png",
           "alt": "JVTO guide Fauzi"
+        },
+        "googleReviewMentions": {
+          "platform": "Google",
+          "relationReviewCount": 9,
+          "aliasAdjustedReviewCount": 9,
+          "aliasAdjustedDelta": 0,
+          "aliases": [
+            "Fauzi",
+            "Fauzy",
+            "Fauzie"
+          ],
+          "sourceFile": "5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+          "lastReviewed": "2026-08-07"
+        },
+        "featuredGoogleReviewEvidence": {
+          "sourceFile": "5-experience-engine/reviews/crew-featured-review-evidence.json",
+          "reviewsWithMediaCount": 6,
+          "featuredReviewCount": 5,
+          "bestReview": {
+            "reviewId": "google-review-78",
+            "date": "2026-07-12",
+            "star": 5,
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pBM1duTXdZWHBsWmxCd1NYVXhiVU5UWDNWVVYyYxAB",
+            "reviewMediaRecordId": "google-review-media-AbFvOqnUdmA7ymsrqQGtcBXoYCWU4ZFbwbLW9Rq2NPfHhR2WgV_PEqz53OxDuk3qaxD2brkuWYz2vQ",
+            "mediaCount": 7
+          },
+          "lastReviewed": "2026-08-07"
         }
       },
       {
@@ -290,6 +551,34 @@
         "image": {
           "src": "/uploads/1768276791622-262250680-freddy.png",
           "alt": "JVTO driver Fredi"
+        },
+        "googleReviewMentions": {
+          "platform": "Google",
+          "relationReviewCount": 9,
+          "aliasAdjustedReviewCount": 21,
+          "aliasAdjustedDelta": 12,
+          "aliases": [
+            "Fredi",
+            "Fredy",
+            "Freddy",
+            "Freddie"
+          ],
+          "sourceFile": "5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+          "lastReviewed": "2026-08-07"
+        },
+        "featuredGoogleReviewEvidence": {
+          "sourceFile": "5-experience-engine/reviews/crew-featured-review-evidence.json",
+          "reviewsWithMediaCount": 11,
+          "featuredReviewCount": 5,
+          "bestReview": {
+            "reviewId": "google-review-171",
+            "date": "2025-09-19",
+            "star": 5,
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2taUk5rZzNNSFJyWlVSWVZUbHpPV2Q1TW01bFJYYxAB",
+            "reviewMediaRecordId": "google-review-media-AbFvOqkMK7ugtDPA_KS_XHVlfgidedVKcC8JfhEfcA1cVRgUQLUBNCN6wxmRuErsOJ8ptfft78v__g",
+            "mediaCount": 20
+          },
+          "lastReviewed": "2026-08-07"
         }
       },
       {
@@ -314,6 +603,31 @@
         "image": {
           "src": "/uploads/1768277336049-911840775-joyo.png",
           "alt": "JVTO driver Joyo"
+        },
+        "googleReviewMentions": {
+          "platform": "Google",
+          "relationReviewCount": 4,
+          "aliasAdjustedReviewCount": 4,
+          "aliasAdjustedDelta": 0,
+          "aliases": [
+            "Joyo"
+          ],
+          "sourceFile": "5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+          "lastReviewed": "2026-08-07"
+        },
+        "featuredGoogleReviewEvidence": {
+          "sourceFile": "5-experience-engine/reviews/crew-featured-review-evidence.json",
+          "reviewsWithMediaCount": 1,
+          "featuredReviewCount": 1,
+          "bestReview": {
+            "reviewId": "google-review-195",
+            "date": "2025-06-20",
+            "star": 5,
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT21SM1UyRm5aalpsZWxWZmR6RTJibGN5VUUxbVkzYxAB",
+            "reviewMediaRecordId": "google-review-media-AbFvOql6mBVkcBWSSCvwUJ_iVgHfGm2rhEISIdjviPfiJM1S2YpU_e0wZAX2gNAgTpDBp_pNJGIT",
+            "mediaCount": 1
+          },
+          "lastReviewed": "2026-08-07"
         }
       },
       {
@@ -339,6 +653,33 @@
         "image": {
           "src": "/uploads/1768270364125-144711646-yandi.png",
           "alt": "JVTO driver Yandi"
+        },
+        "googleReviewMentions": {
+          "platform": "Google",
+          "relationReviewCount": 8,
+          "aliasAdjustedReviewCount": 10,
+          "aliasAdjustedDelta": 2,
+          "aliases": [
+            "Yandi",
+            "Yandy",
+            "Yendi"
+          ],
+          "sourceFile": "5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+          "lastReviewed": "2026-08-07"
+        },
+        "featuredGoogleReviewEvidence": {
+          "sourceFile": "5-experience-engine/reviews/crew-featured-review-evidence.json",
+          "reviewsWithMediaCount": 2,
+          "featuredReviewCount": 2,
+          "bestReview": {
+            "reviewId": "google-review-186",
+            "date": "2025-07-24",
+            "star": 5,
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT21GV2VFNTVPVXRSYjJjMlpucFJSRmxqTW5WSFlXYxAB",
+            "reviewMediaRecordId": "google-review-media-AbFvOqn9784iQF_-cUQlO1mkYpwRBMpPDav5dD-QHBr9oEnAV2rRz4-Riebc_f6x5tGDN5DlJgc6oQ",
+            "mediaCount": 8
+          },
+          "lastReviewed": "2026-08-07"
         }
       },
       {
@@ -364,14 +705,80 @@
         "image": {
           "src": "/uploads/1768277053384-470130286-holili.jpg",
           "alt": "JVTO driver Holili"
+        },
+        "googleReviewMentions": {
+          "platform": "Google",
+          "relationReviewCount": 6,
+          "aliasAdjustedReviewCount": 6,
+          "aliasAdjustedDelta": 0,
+          "aliases": [
+            "Holili",
+            "Holily"
+          ],
+          "sourceFile": "5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+          "lastReviewed": "2026-08-07"
+        },
+        "featuredGoogleReviewEvidence": {
+          "sourceFile": "5-experience-engine/reviews/crew-featured-review-evidence.json",
+          "reviewsWithMediaCount": 2,
+          "featuredReviewCount": 2,
+          "bestReview": {
+            "reviewId": "google-review-168",
+            "date": "2025-10-03",
+            "star": 5,
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xORlFWcGpTMFI2VWpkbU1FNXJhblJ1UlV4MVZHYxAB",
+            "reviewMediaRecordId": "google-review-media-AbFvOqmXndxwH0lHZ5VHXwoKuvgdIWEE1wA7wi6LQl42Qus1bQsZ0O4rGahggQ-OAcfN89LpC_tKBg",
+            "mediaCount": 14
+          },
+          "lastReviewed": "2026-08-07"
         }
       }
     ]
   },
   "reviewCorrelation": {
     "note": "When the Team projection is built, person↔review links will retain each review's stable id, platform, reviewer display name (already public on the source platform), date, tour/destination context via package, and the public permalink; no quote is fabricated or paraphrased and no per-person aggregateRating is asserted. In THIS PR the validator only checks that every review-named crew resolves to a canonical person.",
-    "evidenceSource": "src/lib/publicContent/generated/reviewApiSnapshots.json",
-    "matchMethod": "reviewApiSnapshots.json feed[].crews[].name is matched to a canonical person by EXACT normalized display name; a first-name fallback is used only because every crew + unpublished first name is unique (the gate fails on any first-name ambiguity). The review snapshot does NOT carry a canonical people code."
+    "evidenceSource": "5-experience-engine/reviews/google-review-records.json and 5-experience-engine/reviews/google-review-crew-alias-reconciliation.json",
+    "matchMethod": "Google review crew mentions are now counted by unioning existing crew_reviews relations with source review-text alias rules. Clear variants such as Rendi/Rendy, Fredi/Fredy/Freddy/Freddie, Boy/Ahboy/Ah Boy/Ah Boi, Taufik/Tufik/Opik, and Yandi/Yendi are resolved to canonical crew records. Names not present in the crew roster are kept in unresolvedCrewMentions instead of being forced into a person record.",
+    "lastAliasReconciled": "2026-08-07",
+    "unresolvedGoogleReviewCrewMentions": [
+      {
+        "detectedName": "Johan",
+        "reviewCount": 9,
+        "status": "needs_owner_mapping"
+      },
+      {
+        "detectedName": "Sulis",
+        "reviewCount": 3,
+        "status": "needs_owner_mapping"
+      },
+      {
+        "detectedName": "Dosi",
+        "reviewCount": 2,
+        "status": "needs_owner_mapping"
+      },
+      {
+        "detectedName": "Gean",
+        "reviewCount": 2,
+        "status": "needs_owner_mapping"
+      },
+      {
+        "detectedName": "Cahya",
+        "reviewCount": 1,
+        "status": "needs_owner_mapping"
+      },
+      {
+        "detectedName": "Dinca",
+        "reviewCount": 1,
+        "status": "needs_owner_mapping"
+      },
+      {
+        "detectedName": "Yoga",
+        "reviewCount": 1,
+        "status": "needs_owner_mapping"
+      }
+    ],
+    "featuredReviewEvidenceSource": "5-experience-engine/reviews/crew-featured-review-evidence.json",
+    "sourceLinkPolicy": "Every featured review includes originalReviewUrl, googleReviewReplyUrl when available, googleMapsProfileUrl, and googleReviewResourceName."
   },
   "publicFieldAllowlist": {
     "crew": [
@@ -434,5 +841,7 @@
       "unpublishedDbField",
       "guestScreeningCertificate"
     ]
-  }
+  },
+  "owner": "people-and-crew",
+  "reviewStatus": "source-backed_google-review-alias-reconciled"
 }

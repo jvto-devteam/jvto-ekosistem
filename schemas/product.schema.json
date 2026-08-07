@@ -3,9 +3,30 @@
   "$id": "https://jvto.local/schemas/product.schema.json",
   "title": "Tour Product Contract",
   "type": "object",
-  "required": ["id", "name", "status", "version", "effectiveFrom"],
+  "required": [
+    "id",
+    "canonical_id",
+    "name",
+    "slug",
+    "status",
+    "version",
+    "effectiveFrom",
+    "effective_date",
+    "pickup_coverage",
+    "pricing",
+    "deposit",
+    "add_ons",
+    "luggage_constraints",
+    "health_requirements",
+    "closure_plan_b",
+    "cancellation_policy",
+    "channel_availability"
+  ],
   "properties": {
     "id": { "type": "string" },
+    "canonical_id": { "type": "string" },
+    "packageId": { "type": "string" },
+    "slug": { "type": "string" },
     "name": { "type": "string" },
     "version": { "type": "string" },
     "status": { "enum": ["draft", "active", "paused", "retired"] },
@@ -36,8 +57,19 @@
       "type": "array",
       "items": { "type": "string" }
     },
-    "effectiveFrom": { "type": "string", "format": "date" }
+    "effectiveFrom": { "type": "string", "format": "date" },
+    "effective_date": { "type": "string", "format": "date" },
+    "effective_date_basis": { "type": "string" },
+    "pickup_coverage": { "type": "object" },
+    "pricing": { "type": "object" },
+    "deposit": { "type": "object" },
+    "add_ons": { "type": "object" },
+    "luggage_constraints": { "type": "object" },
+    "health_requirements": { "type": "object" },
+    "closure_plan_b": { "type": "object" },
+    "cancellation_policy": { "type": "object" },
+    "channel_availability": { "type": "object" },
+    "contract_refs": { "type": "object" }
   },
   "additionalProperties": true
 }
-

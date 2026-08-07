@@ -22,5 +22,7 @@
       "claimBoundary": "Registered ISIC provider (provider listing only) — never \"verified ISIC partner\"; the provider directory entry is pending direct provider evidence (OKF trust/partners/isic is needs_review)."
     }
   ],
-  "lastReviewed": "2026-08-04"
+  "lastReviewed": "2026-08-04",
+  "owner": "public-evidence",
+  "reviewStatus": "domain-owner-assigned-by-audit"
 }

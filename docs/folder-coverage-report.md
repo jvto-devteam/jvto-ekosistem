@@ -48,7 +48,8 @@ Filled:
 - lifecycle status.
 - website tour-to-checkout intake flow.
 
-Placeholder only, because data is not present in the available sources:
+Documented data gaps, because real records are not present in the available
+sources:
 
 - quotation;
 - communication log;
@@ -66,7 +67,7 @@ Filled:
 - closure and Plan-B.
 - operational events.
 
-Placeholder only:
+Documented data gap:
 
 - incident log.
 
@@ -80,12 +81,14 @@ Filled with actual records or indexes:
 - guest portal;
 - ops console;
 - partner feed.
+- reviews;
 - knowledge feed;
 - WhatsApp messages;
 - email templates;
-- quotation and invoice.
+- quotation and invoice;
+- analytics.
 
-Placeholder only:
+Documented data gap:
 
 - AI answers.
 
@@ -102,16 +105,20 @@ They are not enough for:
 - review-request lifecycle;
 - incident records;
 - generated AI answer payloads;
-- internal expense details, intentionally deferred.
+- full inquiry-to-booking funnel and conversion analytics;
+- detailed commission/payment-fee/refund breakdowns for explaining backoffice
+  profit.
 
 ## Useful Next Sources
 
-To fill the remaining placeholders, provide:
+To fill the remaining documented gaps, provide:
 
 - inquiry/prospect export;
 - quotation export;
 - WhatsApp/email/portal communication summaries;
 - post-trip review request data;
 - incident log export;
-- internal expense data when ready.
 - AI answer/evaluation/retrieval payloads if an AI runtime already exists.
+- inquiry, quote, and review lifecycle exports for conversion analytics.
+- channel commission, payment fee, refund, credit, and overpayment breakdowns if
+  JVTO wants profit explainability beyond the existing backoffice profit value.
