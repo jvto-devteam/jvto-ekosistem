@@ -1,0 +1,359 @@
+[
+  {
+    "route": "/tours/from-bali/bromo-ijen-3d2n",
+    "file_group": "002",
+    "sort_order": 4,
+    "cluster": "travel",
+    "page_type": "tour",
+    "template": "tour",
+    "visual_mode": "travel",
+    "hub_route": "/tours/from-bali",
+    "title": "3 Day Bromo & Ijen Volcano Discovery from Bali",
+    "h1": "3D2N Bromo + Ijen (Bali–Bali)",
+    "seo": {
+      "title": "3D2N Bromo + Ijen (Bali–Bali)",
+      "description": "Private 3D2N tour from Bali, covering mount-bromo, kawah-ijen."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/tours/from-bali/ijen-bromo-madakaripura-3d2n",
+    "file_group": "002",
+    "sort_order": 5,
+    "cluster": "travel",
+    "page_type": "tour",
+    "template": "tour",
+    "visual_mode": "travel",
+    "hub_route": "/tours/from-bali",
+    "title": "3 Day Ijen, Bromo & Madakaripura Waterfall Journey from Bali to Surabaya",
+    "h1": "3D2N Ijen + Bromo + Madakaripura (Bali–Surabaya)",
+    "seo": {
+      "title": "3D2N Ijen + Bromo + Madakaripura (Bali–Surabaya)",
+      "description": "Private 3D2N tour from Bali, covering kawah-ijen, mount-bromo, madakaripura."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
+    "file_group": "002",
+    "sort_order": 6,
+    "cluster": "travel",
+    "page_type": "tour",
+    "template": "tour",
+    "visual_mode": "travel",
+    "hub_route": "/tours/from-bali",
+    "title": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+    "h1": "4D3N Full Circuit (Bali–Surabaya)",
+    "seo": {
+      "title": "4D3N Full Circuit (Bali–Surabaya)",
+      "description": "Private 4D3N tour from Bali, covering kawah-ijen, papuma-beach, tumpak-sewu, mount-bromo."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n",
+    "file_group": "002",
+    "sort_order": 7,
+    "cluster": "travel",
+    "page_type": "tour",
+    "template": "tour",
+    "visual_mode": "travel",
+    "hub_route": "/tours/from-bali",
+    "title": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Discovery from Bali to Surabaya",
+    "h1": "5D4N Full Circuit Extended (Bali–Surabaya)",
+    "seo": {
+      "title": "5D4N Full Circuit Extended (Bali–Surabaya)",
+      "description": "Private 5D4N tour from Bali, covering kawah-ijen, papuma-beach, tumpak-sewu, mount-bromo."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/tours/from-surabaya/bromo-1d1n",
+    "file_group": "002",
+    "sort_order": 8,
+    "cluster": "travel",
+    "page_type": "tour",
+    "template": "tour",
+    "visual_mode": "travel",
+    "hub_route": "/tours/from-surabaya",
+    "title": "1 Day Bromo Midnight Experience from Surabaya",
+    "h1": "1D1N Bromo Midnight",
+    "seo": {
+      "title": "1D1N Bromo Midnight",
+      "description": "Private 1D1N tour from Surabaya, covering mount-bromo."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/tours/from-surabaya/bromo-2d1n",
+    "file_group": "002",
+    "sort_order": 9,
+    "cluster": "travel",
+    "page_type": "tour",
+    "template": "tour",
+    "visual_mode": "travel",
+    "hub_route": "/tours/from-surabaya",
+    "title": "2 Day Bromo Sunrise Adventure from Surabaya",
+    "h1": "2D1N Bromo Sunrise + Madakaripura",
+    "seo": {
+      "title": "2D1N Bromo Sunrise + Madakaripura",
+      "description": "Private 2D1N tour from Surabaya, covering mount-bromo, madakaripura."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
+    "file_group": "002",
+    "sort_order": 10,
+    "cluster": "travel",
+    "page_type": "tour",
+    "template": "tour",
+    "visual_mode": "travel",
+    "hub_route": "/tours/from-surabaya",
+    "title": "3 Day Bromo, Madakaripura & Ijen Overland from Surabaya to Bali",
+    "h1": "3D2N Bromo + Madakaripura + Ijen (Surabaya–Bali overland)",
+    "seo": {
+      "title": "3D2N Bromo + Madakaripura + Ijen (Surabaya–Bali overland)",
+      "description": "Private 3D2N tour from Surabaya, covering mount-bromo, madakaripura, kawah-ijen."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/tours/from-surabaya/ijen-2d1n",
+    "file_group": "002",
+    "sort_order": 11,
+    "cluster": "travel",
+    "page_type": "tour",
+    "template": "tour",
+    "visual_mode": "travel",
+    "hub_route": "/tours/from-surabaya",
+    "title": "2 Day Ijen Blue Fire Expedition from Surabaya",
+    "h1": "2D1N Ijen Blue Fire Expedition",
+    "seo": {
+      "title": "2D1N Ijen Blue Fire Expedition",
+      "description": "Private 2D1N tour from Surabaya, covering kawah-ijen."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
+    "file_group": "002",
+    "sort_order": 12,
+    "cluster": "travel",
+    "page_type": "tour",
+    "template": "tour",
+    "visual_mode": "travel",
+    "hub_route": "/tours/from-surabaya",
+    "title": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+    "h1": "3D2N Ijen + Bromo + Madakaripura (Surabaya–Surabaya)",
+    "seo": {
+      "title": "3D2N Ijen + Bromo + Madakaripura (Surabaya–Surabaya)",
+      "description": "Private 3D2N tour from Surabaya, covering kawah-ijen, mount-bromo, madakaripura."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/tours/from-surabaya/ijen-bromo-madakaripura-4d3n",
+    "file_group": "002",
+    "sort_order": 13,
+    "cluster": "travel",
+    "page_type": "tour",
+    "template": "tour",
+    "visual_mode": "travel",
+    "hub_route": "/tours/from-surabaya",
+    "title": "4 Day Ijen, Bromo & Madakaripura Waterfall Expedition from Surabaya",
+    "h1": "4D3N Ijen + Bromo + Madakaripura Expedition (Surabaya–Surabaya)",
+    "seo": {
+      "title": "4D3N Ijen + Bromo + Madakaripura Expedition (Surabaya–Surabaya)",
+      "description": "Private 4D3N tour from Surabaya, covering kawah-ijen, mount-bromo, madakaripura."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/tours/from-surabaya/ijen-bromo-madakaripura-malang-5d4n",
+    "file_group": "002",
+    "sort_order": 14,
+    "cluster": "travel",
+    "page_type": "tour",
+    "template": "tour",
+    "visual_mode": "travel",
+    "hub_route": "/tours/from-surabaya",
+    "title": "5 Day Ijen, Bromo, Madakaripura & Malang City Adventure from Surabaya",
+    "h1": "5D4N Ijen + Bromo + Madakaripura + Malang (Surabaya–Surabaya)",
+    "seo": {
+      "title": "5D4N Ijen + Bromo + Madakaripura + Malang (Surabaya–Surabaya)",
+      "description": "Private 5D4N tour from Surabaya, covering kawah-ijen, mount-bromo, madakaripura, malang."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
+    "file_group": "002",
+    "sort_order": 15,
+    "cluster": "travel",
+    "page_type": "tour",
+    "template": "tour",
+    "visual_mode": "travel",
+    "hub_route": "/tours/from-surabaya",
+    "title": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+    "h1": "4D3N Ijen + Papuma + Tumpak Sewu + Bromo (Surabaya–Surabaya)",
+    "seo": {
+      "title": "4D3N Ijen + Papuma + Tumpak Sewu + Bromo (Surabaya–Surabaya)",
+      "description": "Private 4D3N tour from Surabaya, covering kawah-ijen, papuma-beach, tumpak-sewu, mount-bromo."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n",
+    "file_group": "002",
+    "sort_order": 16,
+    "cluster": "travel",
+    "page_type": "tour",
+    "template": "tour",
+    "visual_mode": "travel",
+    "hub_route": "/tours/from-surabaya",
+    "title": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Nature Trip from Surabaya",
+    "h1": "5D4N Full East Java Circuit (Surabaya–Surabaya)",
+    "seo": {
+      "title": "5D4N Full East Java Circuit (Surabaya–Surabaya)",
+      "description": "Private 5D4N tour from Surabaya, covering kawah-ijen, papuma-beach, tumpak-sewu, mount-bromo."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-malang-6d5n",
+    "file_group": "002",
+    "sort_order": 17,
+    "cluster": "travel",
+    "page_type": "tour",
+    "template": "tour",
+    "visual_mode": "travel",
+    "hub_route": "/tours/from-surabaya",
+    "title": "6 Day Ijen, Papuma Beach, Tumpak Sewu, Bromo & Malang City Discovery from Surabaya",
+    "h1": "6D5N Grand East Java (Surabaya–Surabaya)",
+    "seo": {
+      "title": "6D5N Grand East Java (Surabaya–Surabaya)",
+      "description": "Private 6D5N tour from Surabaya, covering kawah-ijen, papuma-beach, tumpak-sewu, mount-bromo, malang."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n",
+    "file_group": "002",
+    "sort_order": 18,
+    "cluster": "travel",
+    "page_type": "tour",
+    "template": "tour",
+    "visual_mode": "travel",
+    "hub_route": "/tours/from-surabaya",
+    "title": "3 Day Taman Safari Prigen, Bromo & Madakaripura from Surabaya",
+    "h1": "3D2N Taman Safari Prigen + Bromo + Madakaripura (Specialty)",
+    "seo": {
+      "title": "3D2N Taman Safari Prigen + Bromo + Madakaripura (Specialty)",
+      "description": "Private 3D2N tour from Surabaya, covering taman-safari-prigen, mount-bromo, madakaripura."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+    "file_group": "002",
+    "sort_order": 19,
+    "cluster": "travel",
+    "page_type": "tour",
+    "template": "tour",
+    "visual_mode": "travel",
+    "hub_route": "/tours/from-surabaya",
+    "title": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+    "h1": "4D3N Tumpak Sewu + Bromo + Ijen (Surabaya–Bali overland)",
+    "seo": {
+      "title": "4D3N Tumpak Sewu + Bromo + Ijen (Surabaya–Bali overland)",
+      "description": "Private 4D3N tour from Surabaya, covering tumpak-sewu, mount-bromo, kawah-ijen."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/destinations/bromo",
+    "file_group": "003",
+    "sort_order": 2,
+    "cluster": "travel",
+    "page_type": "destination",
+    "template": "destination",
+    "visual_mode": "travel",
+    "hub_route": "/destinations",
+    "title": "Mount Bromo (Gunung Bromo)",
+    "h1": "Mount Bromo — East Java's Most Iconic Volcano",
+    "seo": {
+      "title": "Mount Bromo (Gunung Bromo)",
+      "description": "Private Bromo sunrise tours from Surabaya. Penanjakan viewpoint, sea-of-sand 4WD jeep, overnight option. Tourist Police-led. Licensed operator NIB 1102230032918. From IDR 1,550,000/person."
+    },
+    "status": "published"
+  },
+  {
+    "route": "/destinations/ijen",
+    "file_group": "003",
+    "sort_order": 3,
+    "cluster": "travel",
+    "page_type": "destination",
+    "template": "destination",
+    "visual_mode": "travel",
+    "hub_route": "/destinations",
+    "title": "Kawah Ijen (Ijen Crater)",
+    "h1": "Page Data Structure: /destinations/ijen-crater",
+    "seo": {
+      "title": "Kawah Ijen (Ijen Crater)",
+      "description": "1. Hero 2. Quick Facts 3. The Blue Fire 4. The Hike 5. Health Screening Note 6. Sulfur Mining Context 7. Packages That Include This Destination 8. CTA"
+    },
+    "status": "published"
+  },
+  {
+    "route": "/destinations/tumpak-sewu",
+    "file_group": "003",
+    "sort_order": 4,
+    "cluster": "travel",
+    "page_type": "destination",
+    "template": "destination",
+    "visual_mode": "travel",
+    "hub_route": "/destinations",
+    "title": "Tumpak Sewu Waterfall (Air Terjun Tumpak Sewu)",
+    "h1": "Page Data Structure: /destinations/tumpak-sewu-waterfall",
+    "seo": {
+      "title": "Tumpak Sewu Waterfall (Air Terjun Tumpak Sewu)",
+      "description": "1. Hero 2. Quick Facts 3. Two Vantage Points 4. Safety Note 5. Packages That Include This Destination 6. CTA"
+    },
+    "status": "published"
+  },
+  {
+    "route": "/destinations/madakaripura",
+    "file_group": "003",
+    "sort_order": 5,
+    "cluster": "travel",
+    "page_type": "destination",
+    "template": "destination",
+    "visual_mode": "travel",
+    "hub_route": "/destinations",
+    "title": "Madakaripura Waterfall (Air Terjun Madakaripura)",
+    "h1": "Page Data Structure: /destinations/madakaripura-waterfall",
+    "seo": {
+      "title": "Madakaripura Waterfall (Air Terjun Madakaripura)",
+      "description": "1. Hero 2. Quick Facts 3. The Approach 4. Historical Context 5. Packages That Include This Destination 6. CTA"
+    },
+    "status": "published"
+  },
+  {
+    "route": "/destinations/papuma",
+    "file_group": "003",
+    "sort_order": 6,
+    "cluster": "travel",
+    "page_type": "destination",
+    "template": "destination",
+    "visual_mode": "travel",
+    "hub_route": "/destinations",
+    "title": "Papuma Beach (Pantai Papuma)",
+    "h1": "Page Data Structure: /destinations/papuma-beach",
+    "seo": {
+      "title": "Papuma Beach (Pantai Papuma)",
+      "description": "1. Hero 2. Quick Facts 3. What to Expect 4. Packages That Include This Destination 5. CTA"
+    },
+    "status": "published"
+  }
+]

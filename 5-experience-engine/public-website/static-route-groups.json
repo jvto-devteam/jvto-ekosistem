@@ -1,6 +1,24 @@
 {
   "id": "static-route-groups",
+  "source": {
+    "repo": "/Users/macbook/Code/jvto-web",
+    "ref": "origin/main",
+    "commit": "75a21d11",
+    "file": "src/lib/publicContent/generated/public-knowledge.json",
+    "contentDigest": "becea558de304794eb62716658b85dbc35bc736987951cf1696674db4b7b1bb8"
+  },
   "routeGroups": {
+    "home": [
+      "/"
+    ],
+    "blog": [
+      "/blog",
+      "/blog/2026-06-11-ijen-medical-checkup-requirement",
+      "/blog/2026-06-11-kawah-ijen-guide"
+    ],
+    "contact": [
+      "/contact"
+    ],
     "destinations": [
       "/destinations",
       "/destinations/ijen-crater",
@@ -9,11 +27,23 @@
       "/destinations/papuma-beach",
       "/destinations/tumpak-sewu-waterfall"
     ],
+    "isic": [
+      "/isic/student-package"
+    ],
+    "markets": [
+      "/markets/malaysia",
+      "/markets/singapore"
+    ],
     "policy": [
       "/policy",
       "/policy/booking-payment-cancellation",
       "/policy/inclusions-exclusions",
       "/policy/privacy"
+    ],
+    "tours": [
+      "/tours",
+      "/tours/from-bali",
+      "/tours/from-surabaya"
     ],
     "travelGuide": [
       "/travel-guide",
@@ -40,6 +70,9 @@
       "/travel-guide/what-is-included",
       "/travel-guide/why-stay-near-ijen"
     ],
+    "trust": [
+      "/trust"
+    ],
     "verifyJvto": [
       "/verify-jvto",
       "/verify-jvto/history-artifacts",
@@ -56,7 +89,8 @@
       "/why-jvto/the-jvto-difference"
     ]
   },
-  "totalRoutes": 44,
+  "totalRoutes": 56,
   "dataStatus": "extracted",
-  "reviewStatus": "ready"
+  "reviewStatus": "updated_from_jvto_web_main",
+  "lastReviewed": "2026-08-11"
 }

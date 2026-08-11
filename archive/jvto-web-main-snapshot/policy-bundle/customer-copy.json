@@ -1,0 +1,11 @@
+{
+  "package_guarantee_summary": "Your confirmed package does not disappear when plans change early. Cancel your entire booking at least 48 hours before Day 1 and the same package, your original number of travellers, and your original confirmed package price remain available for future use as Lifetime Package Credit.",
+  "before_48_full_cancellation": "Cancel the complete booking 48 hours or more before Day 1: you receive Lifetime Package Credit. It never expires and preserves the same package, original pax entitlement, and original confirmed price, and can be transferred once. Package Credit is not cash and cannot be exchanged for cash.",
+  "after_48_full_cancellation": "Cancel the complete booking less than 48 hours before Day 1: the booking is forfeited and no Package Credit is created.",
+  "partial_cancellation": "If one or more travellers cancel but the tour continues, the cancelled travellers receive a cash refund of their confirmed price: 100% at 48 hours or more before Day 1, 50% within 48 hours, and 0% after Day 1. At least 2 paying travellers must remain, otherwise it is treated as a full cancellation.",
+  "flight_disruption": "If a verified natural transport disruption (for example volcanic ash) cancels your flight, your package can be reactivated once for a 50% Recovery Fee of the original confirmed package price.",
+  "destination_force_majeure_full_tour": "If a verified official event affects your destination before Day 1 and makes the whole tour impossible, you can choose Lifetime Package Credit or a cash refund less any non-recoverable vendor cost.",
+  "destination_force_majeure_partial_tour": "If a verified official event affects your destination after Day 1 has begun and only part of the tour is affected, JVTO first offers an alternative route or activity of equal standard. If no suitable alternative is available, a refund of the affected component applies.",
+  "package_transfer": "Package Credit may be transferred once to another person. The old credit code is closed and a new one is issued to the recipient. A second transfer is not permitted.",
+  "package_redemption": "To use Package Credit, choose a new date for the same package. Your original pax entitlement appears automatically; fewer travellers yields no refund, and more travellers are charged the incremental website price."
+}

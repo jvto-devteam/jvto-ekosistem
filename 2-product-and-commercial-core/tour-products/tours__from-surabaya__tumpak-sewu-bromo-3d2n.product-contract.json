@@ -4,7 +4,7 @@
   "slug": "tours/from-surabaya/tumpak-sewu-bromo-3d2n",
   "name": "3 Day Tumpak Sewu Waterfall & Bromo Explorer from Surabaya",
   "shortLabel": "",
-  "status": "active",
+  "status": "excluded_from_jvto_web_main_public_snapshot",
   "version": "1.0.0",
   "category": {
     "id": "reluger",
@@ -187,7 +187,7 @@
   "channel_availability": {
     "channel_availability_ref": "2-product-and-commercial-core/channel-availability/tours__from-surabaya__tumpak-sewu-bromo-3d2n.channel-availability.json",
     "order_channel_enabled": {
-      "JVTO": true,
+      "JVTO": false,
       "KLOOK": false,
       "TRAVELOKA": false,
       "TIKETCOM": false,
@@ -198,13 +198,22 @@
       "traveloka": "",
       "tiketcom": ""
     },
-    "is_freesale": true,
-    "status": "active"
+    "is_freesale": false,
+    "status": "excluded_from_jvto_web_main_public_snapshot"
   },
   "contract_refs": {
     "itinerary_ref": "2-product-and-commercial-core/routes-and-itineraries/tours__from-surabaya__tumpak-sewu-bromo-3d2n.itinerary.json",
     "website_output_ref": "5-experience-engine/public-website/tours__from-surabaya__tumpak-sewu-bromo-3d2n.website-output.json",
     "seo_metadata_ref": "5-experience-engine/seo-metadata/page-metadata-index.json",
     "json_ld_ref": "5-experience-engine/json-ld/schema-types-index.json"
+  },
+  "publicSnapshotStatus": "excluded_from_jvto_web_main_public_snapshot",
+  "lastReviewed": "2026-08-11",
+  "sourceReconciliation": {
+    "repo": "/Users/macbook/Code/jvto-web",
+    "ref": "origin/main",
+    "commit": "75a21d11",
+    "evidenceFile": "src/lib/publicContent/generated/packageListSnapshot.json",
+    "note": "Package id 86 / tours/from-surabaya/tumpak-sewu-bromo-3d2n is absent from the latest public package list in jvto-web main after public package detail excludes soft-deleted rows. Kept here as historical/backoffice reference, not as active public website data."
   }
 }

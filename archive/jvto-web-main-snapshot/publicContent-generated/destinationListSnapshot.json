@@ -1,0 +1,552 @@
+{
+  "generatedAt": "2026-07-02T01:06:04.433Z",
+  "items": [
+    {
+      "id": 1,
+      "name": "Mount Bromo",
+      "slug": "mount-bromo",
+      "short_slug": "bromo",
+      "featured": true,
+      "banner": {
+        "url": "/uploads/1764649856442-820608003-bromo-new.jpg",
+        "alt": "Bromo"
+      },
+      "summary": "Mount Bromo is located within the Tengger Caldera, East Java — straddling Probolinggo, Malang, Pasuruan, and Lumajang regencies, approximately 2–3 hours from Surabaya's Juanda Airport. At 2,329 m above sea level, it is an active volcano famous for its sunrise views across the Sea of Sand (Lautan Pasir). A 4WD jeep crosses the caldera floor to the viewpoint; crater rim access is on foot.",
+      "highlight": "Sunrise over Tengger Caldera and sacred Hindu ceremonies",
+      "description": "Mount Bromo, standing at 2,\r\n329 meters, is one of the most iconic volcanoes in Indonesia and the most famous in East Java. It is located within the massive Tengger Caldera, surrounded by the Sea of Sand (Lautan Pasir). The name 'Bromo' is derived from the Javanese pronunciation of Brahma, the Hindu creator god.\r\n\r\nThe volcano is part of the Bromo Tengger Semeru National Park and is sacred to the Tenggerese people, who are the descendants of the Majapahit empire. Every year, the Tenggerese hold the Yadnya Kasada ceremony where offerings are thrown into the crater to honor the mountain gods.\r\n\r\nThe sunrise view from viewpoints like Penanjakan or Kingkong Hill is considered one of the most spectacular in Southeast Asia, with Mount Semeru occasionally erupting in the background. The experience represents the perfect harmony between natural wonder and living culture.",
+      "geo": {
+        "latitude": -7.942,
+        "longitude": 112.953,
+        "altitude": 2329
+      },
+      "keyInfo": {
+        "difficulty_level": "moderate",
+        "temperature_range": "5-15°C at night/sunrise, 15-25°C during day",
+        "best_time_to_visit": "April–September",
+        "permit_required": true,
+        "permit_details": "National Park entry fee: Foreign tourists IDR 220,000 (weekdays), IDR 320,000 (weekends). Domestic: IDR 25,000-50,000. JVTO includes all permits.",
+        "physical_requirements": "Moderate physical condition required. The main challenge is the 250-step staircase to the crater rim. Suitable for most fitness levels with proper pacing."
+      },
+      "main_attractions": [
+        {
+          "title": "Sunrise from Kingkong Hill",
+          "description": "Spectacular sunrise over the Tengger Caldera with Mount Semeru in background"
+        },
+        {
+          "title": "Sea of Sand Jeep Tour",
+          "description": "Adventure across the vast volcanic sand plain in 4WD vehicles"
+        },
+        {
+          "title": "Pura Luhur Poten Temple",
+          "description": "Visit the sacred Hindu temple at the base of Bromo"
+        },
+        {
+          "title": "Horse Riding Experience",
+          "description": "Traditional horse ride across the sand sea to the crater stairs"
+        }
+      ],
+      "key_highlights": [
+        {
+          "title": "Iconic Sunrise Views",
+          "description": "One of Indonesia's most photographed sunrise destinations"
+        },
+        {
+          "title": "Active Volcano Experience",
+          "description": "Witness steam vents and occasional rumbling from the active crater"
+        },
+        {
+          "title": "Tenggerese Hindu Culture",
+          "description": "Experience ancient Hindu traditions in Muslim-majority Java"
+        },
+        {
+          "title": "Sea of Sand Adventure",
+          "description": "Vast volcanic plain offering unique desert-like landscape"
+        }
+      ],
+      "seo": {
+        "title": "Mount Bromo Sunrise Tour - Complete Tengger Caldera Guide",
+        "description": "Experience Mount Bromo sunrise, Sea of Sand adventure, and Tenggerese Hindu culture. Complete travel guide to East Java's most iconic volcano. JVTO private tours include Jeep transfers and cultural insights."
+      },
+      "tags": [
+        "volcano",
+        "sunrise",
+        "tengger-caldera",
+        "hindu-culture",
+        "east-java",
+        "photography",
+        "jeep-tour",
+        "sand-sea",
+        "cultural-heritage"
+      ],
+      "types": [
+        "adventure",
+        "cultural",
+        "photography"
+      ],
+      "schema_json": {
+        "@id": "https://javavolcano-touroperator.com/destinations/mount-bromo",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -7.942,
+          "elevation": 2329,
+          "longitude": 112.953
+        },
+        "url": "https://javavolcano-touroperator.com/destinations/mount-bromo",
+        "name": "Mount Bromo",
+        "@type": "Volcano",
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/Mount_Bromo",
+          "https://www.wikidata.org/wiki/Q219032"
+        ],
+        "@context": "https://schema.org",
+        "description": "Mount Bromo is an active volcano within the Tengger Caldera, famed for its sunrise views from Kingkong Hill, the Sea of Sand jeep adventure, and the Tenggerese Hindu rituals at Pura Luhur Poten.",
+        "touristType": [
+          "Adventure travelers",
+          "Nature enthusiasts",
+          "Photographers"
+        ],
+        "containedInPlace": {
+          "name": "Bromo Tengger Semeru National Park",
+          "@type": "Park"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ijen Crater",
+      "slug": "ijen-crater",
+      "short_slug": "ijen",
+      "featured": true,
+      "banner": {
+        "url": "/uploads/1764649921055-338810628-1687447803_whatsapp_image_2019-05-12_at_4.46.53_pm.jpeg",
+        "alt": "Ijen"
+      },
+      "summary": "Kawah Ijen is located in Banyuwangi Regency, East Java, Indonesia — approximately 3 hours by car from Banyuwangi city and 5–6 hours from Surabaya (Juanda Airport). It is the world's largest acidic crater lake and one of only two places where SO₂ combustion at high temperature occurs. Entry requires a BBKSDA health certificate; all JVTO Ijen packages include mandatory in-hotel health screening by a licensed physician.",
+      "highlight": "Acidic crater lake",
+      "description": "Mount Ijen is a composite volcano located in the Banyuwangi Regency of East Java, Indonesia. It is part of the Ijen Volcano Complex, a group of stratovolcanoes inside a larger caldera. Ijen is famous for its turquoise-colored acidic crater lake, which is the largest of its kind in the world.\r\n\r\nThe volcano is most famous for the electric-blue flame that issues from cracks in the volcano at night. The flames are the result of combustion of sulfuric gases that emerge from the volcano at high pressure and temperature. The sulfuric combustion is visible only in darkness, making the midnight trek a unique experience.\r\n\r\nLocal sulfur miners work in extreme conditions, carrying heavy loads of sulfur up the steep crater walls. Their resilience and the stunning natural phenomena make Ijen one of Java's most compelling destinations.",
+      "geo": {
+        "latitude": -8.058,
+        "longitude": 114.242,
+        "altitude": 2769
+      },
+      "keyInfo": {
+        "difficulty_level": "hard",
+        "temperature_range": "5-10°C at night, 15-25°C during day",
+        "best_time_to_visit": "April–October",
+        "permit_required": true,
+        "permit_details": "Available at Paltuding entry gate. Foreign tourists: IDR 100,000 (weekdays), IDR 150,000 (weekends). Domestic: IDR 5,000-15,000.",
+        "physical_requirements": "Good physical condition required for steep ascent and high altitude. Not recommended for people with respiratory or heart conditions."
+      },
+      "main_attractions": [
+        {
+          "title": "Sulfuric Gas Phenomenon",
+          "description": "Witness the surreal blue flames that appear only at night due to combustion of sulfuric gases"
+        },
+        {
+          "title": "Acidic Crater Lake",
+          "description": "See the world's largest acidic lake with stunning turquoise color and pH levels below 0.5"
+        },
+        {
+          "title": "Sulfur Mining Culture",
+          "description": "Observe traditional sulfur miners extracting and carrying sulfur blocks in extreme conditions"
+        },
+        {
+          "title": "Sunrise Panorama",
+          "description": "Experience breathtaking sunrise views over the crater lake and surrounding mountains"
+        }
+      ],
+      "key_highlights": [
+        {
+          "title": "SO₂ Combustion Phenomenon",
+          "description": "One of only two places on Earth where sulfuric gas (SO₂) ignites into electric-blue flames (~600°C). Visible only in darkness, between midnight and sunrise."
+        },
+        {
+          "title": "World's Largest Acidic Crater Lake",
+          "description": "Turquoise crater lake with pH as low as 0.2 — the world's largest by volume. Sulfur miners carry 70–90 kg loads from the crater floor daily."
+        },
+        {
+          "title": "Trail Access via Paltuding Gate",
+          "description": "Trek begins at Paltuding Gate (1,800 m). Total: 3 km ascent, 750 m elevation gain. Crater rim at ~2,386 m. Round trip 4–5 hours. HPWKI-licensed guide mandatory."
+        },
+        {
+          "title": "Milky Way Visibility",
+          "description": "Clear night skies offer spectacular Milky Way views from May to September — visible on the ascent before moonrise."
+        }
+      ],
+      "seo": {
+        "title": "Mount Ijen Crater - Complete Trekking Guide 2024",
+        "description": "Experience Mount Ijen's acidic crater lake and volcanic phenomena. Complete guide to trekking, safety, permits, and cultural significance in East Java."
+      },
+      "tags": [
+        "volcano",
+        "blue-fire",
+        "crater-lake",
+        "sulfur-miners",
+        "east-java",
+        "hiking",
+        "adventure",
+        "geothermal",
+        "night-trek",
+        "milky-way"
+      ],
+      "types": [
+        "adventure",
+        "geological",
+        "cultural"
+      ],
+      "schema_json": {
+        "@id": "https://javavolcano-touroperator.com/destinations/ijen-crater",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -8.058,
+          "elevation": 2769,
+          "longitude": 114.242
+        },
+        "url": "https://javavolcano-touroperator.com/destinations/ijen-crater",
+        "name": "Ijen Crater",
+        "@type": "Volcano",
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/Kawah_Ijen",
+          "https://www.wikidata.org/wiki/Q744653"
+        ],
+        "@context": "https://schema.org",
+        "description": "Kawah Ijen is the world's largest acidic crater lake and one of only two places where SO₂ volcanic combustion occurs at night.",
+        "touristType": [
+          "Adventure travelers",
+          "Nature enthusiasts",
+          "Photographers"
+        ],
+        "containedInPlace": {
+          "name": "East Java",
+          "@type": "AdministrativeArea"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "Madakaripura Waterfall",
+      "slug": "madakaripura-waterfall",
+      "short_slug": "madakaripura",
+      "featured": false,
+      "banner": {
+        "url": "/uploads/1764650020192-295296217-madakaripura1.jpg",
+        "alt": "Madakaripura"
+      },
+      "summary": "A sacred 200-meter canyon waterfall believed to be the final meditation site of Gajah Mada, symbolizing loyalty and unity from the Majapahit legacy.",
+      "highlight": "Sacred 200-meter canyon waterfall and Gajah Mada's meditation site",
+      "description": "Madakaripura Waterfall is a spectacular 200-meter tall waterfall located in a deep canyon in Probolinggo Regency, East Java. The name 'Madakaripura' translates to 'the place that is eternally kept or preserved,' reflecting its significance as a spiritual sanctuary.\r\n\r\nThis waterfall holds immense historical importance as it is believed to be the final meditation site of Gajah Mada, the legendary prime minister of the Majapahit Empire who swore the famous Palapa Oath to unite the Indonesian archipelago. The waterfall cascades down sheer cliff walls, creating a mystical atmosphere with constant mist and occasional rainbows when sunlight penetrates the canyon between 08:30–09:30 AM.\r\n\r\nThe site represents the element of Water in Javanese cosmology - symbolizing cleansing, renewal, and the flow of devotion that never ends.",
+      "geo": {
+        "latitude": -7.933,
+        "longitude": 113.008,
+        "altitude": 620
+      },
+      "keyInfo": {
+        "difficulty_level": "moderate",
+        "temperature_range": "20-25°C in canyon, 25-30°C outside",
+        "best_time_to_visit": "May–October",
+        "permit_required": true,
+        "permit_details": "Local entry ticket required: IDR 15,000-25,000 per person. JVTO includes all entrance fees.",
+        "physical_requirements": "Moderate fitness required for river trekking and navigating slippery surfaces. Must be comfortable walking in water and on uneven terrain."
+      },
+      "main_attractions": [
+        {
+          "title": "Sacred Meditation Cave",
+          "description": "Visit the cave where Gajah Mada is believed to have meditated until his death"
+        },
+        {
+          "title": "Rainbow Light Beams",
+          "description": "Witness magical light shafts creating rainbows through the waterfall mist"
+        },
+        {
+          "title": "Vertical Mist Wall",
+          "description": "Experience the powerful curtain of mist from the 200-meter waterfall"
+        },
+        {
+          "title": "Historical Significance",
+          "description": "Connect with the legacy of Gajah Mada and the Majapahit Empire"
+        }
+      ],
+      "key_highlights": [
+        {
+          "title": "Indonesia's Tallest Waterfall",
+          "description": "200-meter vertical drop in a spectacular canyon setting"
+        },
+        {
+          "title": "Gajah Mada's Sanctuary",
+          "description": "Final meditation site of the legendary Majapahit prime minister"
+        },
+        {
+          "title": "Rainbow Phenomenon",
+          "description": "Daily rainbow displays through waterfall mist in morning hours"
+        },
+        {
+          "title": "Majapahit Heritage",
+          "description": "Direct connection to Indonesia's greatest Hindu-Buddhist empire"
+        }
+      ],
+      "seo": {
+        "title": "Madakaripura Waterfall - Gajah Mada's Sacred Sanctuary",
+        "description": "Discover Madakaripura, the sacred 200-meter waterfall where Gajah Mada meditated. Complete guide to visiting, cultural significance, and Majapahit history."
+      },
+      "tags": [
+        "waterfall",
+        "historical",
+        "gajah-mada",
+        "majapahit",
+        "canyon",
+        "spiritual",
+        "east-java",
+        "cultural-heritage"
+      ],
+      "types": [
+        "cultural",
+        "historical",
+        "nature"
+      ],
+      "schema_json": {
+        "@id": "https://javavolcano-touroperator.com/destinations/madakaripura-waterfall",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -7.933,
+          "elevation": 620,
+          "longitude": 113.008
+        },
+        "url": "https://javavolcano-touroperator.com/destinations/madakaripura-waterfall",
+        "name": "Madakaripura Waterfall",
+        "@type": "Park",
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/Madakaripura",
+          "https://www.wikidata.org/wiki/Q6726698"
+        ],
+        "@context": "https://schema.org",
+        "description": "A sacred 200-meter canyon waterfall believed to be the final meditation site of Gajah Mada, symbolizing loyalty and unity from the Majapahit legacy.",
+        "touristType": [
+          "Adventure travelers",
+          "Nature enthusiasts",
+          "Photographers"
+        ],
+        "containedInPlace": {
+          "name": "Bromo Tengger Semeru National Park",
+          "@type": "Park"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "Tumpak Sewu Waterfall",
+      "slug": "tumpak-sewu-waterfall",
+      "short_slug": "tumpak-sewu",
+      "featured": true,
+      "banner": {
+        "url": "/uploads/1764650032945-926940542-tumpak-sewu1.jpg",
+        "alt": "Tumpak Sewu"
+      },
+      "summary": "A multi-stream semicircular waterfall formed by Mount Semeru's volcanic erosion, known for its canyon trail and panoramic viewpoint with Semeru backdrop.",
+      "highlight": "Thousand-stream waterfall curtain with Mount Semeru backdrop",
+      "description": "Tumpak Sewu, which translates to 'A Thousand Waterfalls' in Javanese, is one of Indonesia's most spectacular waterfall formations. Located on the border between Lumajang and Malang regencies, this horseshoe-shaped waterfall cascades down a volcanic cliff face in hundreds of individual streams, creating a breathtaking natural curtain of water.\r\n\r\nThe waterfall is fed by the Glidik River, which originates from the slopes of Mount Semeru, Java's highest and most active volcano. The panoramic viewpoint offers a stunning perspective with Semeru often visible in the background, especially during sunrise. The descent to the waterfall base involves navigating bamboo ladders, ropes, and rocky paths, making it an adventurous experience.\r\n\r\nLocals refer to Tumpak Sewu as 'Semeru's Breath,' representing the continuous flow of life from the volcano to the earth below.",
+      "geo": {
+        "latitude": -8.227,
+        "longitude": 112.915,
+        "altitude": 500
+      },
+      "keyInfo": {
+        "difficulty_level": "hard",
+        "temperature_range": "18-25°C in canyon, 22-30°C outside",
+        "best_time_to_visit": "May–July",
+        "permit_required": true,
+        "permit_details": "Entry fee: IDR 20,000-30,000 per person. Additional guide fee for canyon descent. JVTO includes all fees.",
+        "physical_requirements": "Excellent physical condition required. Must be comfortable with heights, steep descents, and using ropes. Not recommended for people with mobility issues, fear of heights, or heart conditions."
+      },
+      "main_attractions": [
+        {
+          "title": "Panoramic Sunrise Viewpoint",
+          "description": "Spectacular sunrise over the waterfall with Mount Semeru backdrop"
+        },
+        {
+          "title": "Canyon Descent Adventure",
+          "description": "Exciting descent using ropes and bamboo ladders to the waterfall base"
+        },
+        {
+          "title": "Thousand Water Streams",
+          "description": "Witness hundreds of individual water streams forming a natural curtain"
+        },
+        {
+          "title": "Goa Tetes Cave Connection",
+          "description": "Explore the nearby cave system connected to the waterfall"
+        }
+      ],
+      "key_highlights": [
+        {
+          "title": "Indonesia's Most Photogenic Waterfall",
+          "description": "Stunning horseshoe-shaped curtain of water with volcanic backdrop"
+        },
+        {
+          "title": "Adventure Canyon Descent",
+          "description": "Thrilling descent using ropes and ladders for an up-close experience"
+        },
+        {
+          "title": "Mount Semeru Backdrop",
+          "description": "Unique photography opportunity with Java's highest volcano in background"
+        },
+        {
+          "title": "Unique Geological Formation",
+          "description": "Volcanic erosion created this spectacular multi-stream waterfall"
+        }
+      ],
+      "seo": {
+        "title": "Tumpak Sewu Waterfall - Java's Most Spectacular Water Curtain",
+        "description": "Experience Tumpak Sewu, the thousand-stream waterfall with Mount Semeru backdrop. Complete adventure guide to the canyon descent and photography."
+      },
+      "tags": [
+        "waterfall",
+        "adventure",
+        "canyon-trek",
+        "semeru-backdrop",
+        "photography",
+        "east-java",
+        "hard-trek",
+        "geological-wonder"
+      ],
+      "types": [
+        "adventure",
+        "geological",
+        "photography"
+      ],
+      "schema_json": {
+        "@id": "https://javavolcano-touroperator.com/destinations/tumpak-sewu-waterfall",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -8.227,
+          "elevation": 500,
+          "longitude": 112.915
+        },
+        "url": "https://javavolcano-touroperator.com/destinations/tumpak-sewu-waterfall",
+        "name": "Tumpak Sewu Waterfall",
+        "@type": "Park",
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/Tumpak_Sewu",
+          "https://www.wikidata.org/wiki/Q9084862"
+        ],
+        "@context": "https://schema.org",
+        "description": "A multi-stream semicircular waterfall formed by Mount Semeru's volcanic erosion, known for its canyon trail and panoramic viewpoint with Semeru backdrop.",
+        "touristType": [
+          "Adventure travelers",
+          "Nature enthusiasts",
+          "Photographers"
+        ],
+        "containedInPlace": {
+          "name": "East Java",
+          "@type": "AdministrativeArea"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "Papuma Beach",
+      "slug": "papuma-beach",
+      "short_slug": "papuma",
+      "featured": false,
+      "banner": {
+        "url": "/uploads/1764650056490-963808584-papuma1.jpg",
+        "alt": "Papuma Beach"
+      },
+      "summary": "Beautiful white sand beach with unique rock formations and clear turquoise waters in Jember, East Java",
+      "highlight": "White sand beach with turquoise waters and unique rock formations",
+      "description": "Papuma Beach, located in Jember Regency of East Java, is renowned for its stunning white sand and crystal-clear turquoise waters. The name 'Papuma' is an acronym from 'Pasir Putih Malikan' which means Malikan's White Sand. The beach features unique rock formations scattered along the coastline and offers panoramic views from nearby hilltops.\r\n\r\nUnlike many other beaches in East Java, Papuma boasts fine white sand and relatively calm waters during the dry season. The beach is surrounded by lush green hills and features several small islands that can be reached during low tide. While swimming is limited due to strong Indian Ocean currents, the beach offers excellent opportunities for photography, relaxation, and enjoying spectacular sunsets.\r\n\r\nThe combination of white sand, turquoise waters, and unique geological formations makes Papuma one of East Java's most picturesque coastal destinations.",
+      "geo": {
+        "latitude": -8.4725,
+        "longitude": 113.4562,
+        "altitude": 5
+      },
+      "keyInfo": {
+        "difficulty_level": "easy",
+        "temperature_range": "28-32°C year-round",
+        "best_time_to_visit": "April–October (dry season)",
+        "permit_required": true,
+        "permit_details": "Entrance fee: IDR 40,000 per person included in package.",
+        "physical_requirements": "Minimal physical requirements. Suitable for all ages and fitness levels. Basic mobility required for beach access."
+      },
+      "main_attractions": [
+        {
+          "title": "White Sand Beach",
+          "description": "Enjoy the rare white sand beach with clear turquoise waters"
+        },
+        {
+          "title": "Unique Rock Formations",
+          "description": "Explore the fascinating rock formations along the coastline"
+        },
+        {
+          "title": "Panoramic Hilltop Views",
+          "description": "Capture stunning photos from viewpoints overlooking the bay"
+        },
+        {
+          "title": "Coastal Photography",
+          "description": "Perfect setting for landscape and seascape photography"
+        }
+      ],
+      "key_highlights": [
+        {
+          "title": "White Sand Paradise",
+          "description": "One of few white sand beaches on Java's south coast"
+        },
+        {
+          "title": "Turquoise Waters",
+          "description": "Crystal-clear waters ideal for photography and wading"
+        },
+        {
+          "title": "Unique Geology",
+          "description": "Spectacular rock formations created by coastal erosion"
+        },
+        {
+          "title": "Easy Accessibility",
+          "description": "Well-maintained access suitable for all visitors"
+        }
+      ],
+      "seo": {
+        "title": "Papuma Beach Jember - White Sand Paradise in East Java",
+        "description": "Discover Papuma Beach, Jember's white sand paradise with turquoise waters and unique rock formations."
+      },
+      "tags": [
+        "beach",
+        "white-sand",
+        "coastal",
+        "photography",
+        "east-java",
+        "jember",
+        "relaxation",
+        "family-friendly"
+      ],
+      "types": [
+        "nature",
+        "photography",
+        "relaxation"
+      ],
+      "schema_json": {
+        "@id": "https://javavolcano-touroperator.com/destinations/papuma-beach",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -8.4725,
+          "elevation": 5,
+          "longitude": 113.4562
+        },
+        "url": "https://javavolcano-touroperator.com/destinations/papuma-beach",
+        "name": "Papuma Beach",
+        "@type": "Beach",
+        "sameAs": [
+          "https://id.wikipedia.org/wiki/Pantai_Papuma"
+        ],
+        "@context": "https://schema.org",
+        "description": "Beautiful white sand beach with unique rock formations and clear turquoise waters in Jember, East Java",
+        "touristType": [
+          "Adventure travelers",
+          "Nature enthusiasts",
+          "Photographers"
+        ],
+        "containedInPlace": {
+          "name": "Jember Regency, East Java",
+          "@type": "AdministrativeArea"
+        }
+      }
+    }
+  ]
+}

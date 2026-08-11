@@ -1,0 +1,451 @@
+[
+  {
+    "policy_id": "booking-paths",
+    "domain": "Booking Paths",
+    "canonical_sources": [
+      "products/packages-overview.md"
+    ],
+    "supporting_sources": [
+      "website/booking-platform-analysis.md",
+      "sources/tango-workflow-jvto-website-booking.md"
+    ],
+    "consumers": [
+      "website_checkout",
+      "booking_portal",
+      "faq",
+      "policy_page"
+    ],
+    "consumers_raw": [
+      "website_checkout",
+      "booking_portal",
+      "faq",
+      "policy_page"
+    ],
+    "unregistered_consumers": [],
+    "notes": "**Website-only booking.** JVTO accepts bookings exclusively through the official website checkout under a valid JVTO Booking ID. WhatsApp/email are support channels only — they never create, confirm, modify, cancel, or transfer a booking.",
+    "evidence": [
+      {
+        "source": "wiki/products/packages-overview.md",
+        "section": "Booking Flow",
+        "text": "## Booking Flow\n\nJVTO accepts bookings **exclusively through the official website checkout**. WhatsApp and email provide customer assistance but do not create, confirm, modify, cancel, or transfer bookings — every booking action is completed on the website and recorded under a valid JVTO Booking ID. See also -> [[website/booking-platform-analysis]] and source -> [[sources/tango-workflow-jvto-website-booking]].\n\n### Official JVTO Website Booking\n\n1. Choose package from the website package listing or a package detail page\n2. Select travel date\n3. Select number of travelers\n4. Review package price and available add-ons\n5. Continue to Trip Confirmation\n6. Enter or review traveler / contact details\n7. Review payment\n8. Accept Terms & Conditions / Cancellation Policy (a specific policy version is recorded with the booking)\n9. Complete payment\n10. Receive booking / order confirmation; JVTO then follows up with confirmation / e-voucher details\n\n> **Need help before booking?** WhatsApp (+6282244788833) and email are available for questions about custom routes, group arrangements, or complex pickup/drop-off — but the booking itself is always completed on the website."
+      },
+      {
+        "source": "wiki/website/faq-master.md",
+        "section": "Q15",
+        "text": "How do I book and confirm a tour?\n\nYou book exclusively on the official JVTO website. Choose your package on javavolcano-touroperator.com, select date and travellers, review price and add-ons, accept the Terms & Cancellation Policy, and complete payment; JVTO then follows up with your confirmation / E-Voucher. A deposit (20% standard) confirms the booking, and you receive an E-Voucher with full trip details after payment. WhatsApp (+62 822 4478 8833) and email are available for help before you book — custom routes, group arrangements, complex pickup/drop-off — but the booking itself is always completed on the website under your JVTO Booking ID; WhatsApp and email never create, confirm, modify, cancel, or transfer a booking. See [[products/packages-overview]] §booking-flow."
+      }
+    ]
+  },
+  {
+    "policy_id": "payment-rules",
+    "domain": "Payment Rules",
+    "canonical_sources": [
+      "products/packages-overview.md"
+    ],
+    "supporting_sources": [
+      "website/faq-master.md"
+    ],
+    "consumers": [
+      "website_checkout",
+      "invoice",
+      "faq"
+    ],
+    "consumers_raw": [
+      "checkout",
+      "invoice",
+      "faq"
+    ],
+    "unregistered_consumers": [],
+    "notes": "20% deposit standard; close-departure (Day 1 within 14 days) may require full payment",
+    "evidence": [
+      {
+        "source": "wiki/products/packages-overview.md",
+        "section": "Payment Rules",
+        "text": "## Payment Rules\n\n- **Standard deposit**: 20% of total booking value (card via secure JVTO link)\n- **Close-departure rule**: if Day 1 is within 14 days, JVTO may require up to 100% full payment\n- **Card balance deadline**: no later than 5 days before Day 1\n- **Bank wire / Wise balance deadline**: no later than 3 days before Day 1\n- **Cash at JVTO office**: only if approved in writing in advance"
+      },
+      {
+        "source": "wiki/website/faq-master.md",
+        "section": "Q16",
+        "text": "How do payments, deposits and deadlines work?\n\nStandard deposit is 20% of total booking value (card via secure JVTO link). If Day 1 is within 14 days, up to 100% full payment may be required. Card balance is due no later than 5 days before Day 1; bank wire/Wise balance no later than 3 days before. Cash at JVTO office only if approved in writing. See [[products/packages-overview]] §payment-rules."
+      }
+    ]
+  },
+  {
+    "policy_id": "cancellation-package-credit",
+    "domain": "Cancellation / Package Credit",
+    "canonical_sources": [
+      "policies/cancellation-package-credit.yml"
+    ],
+    "supporting_sources": [
+      "products/packages-overview.md",
+      "website/faq-master.md"
+    ],
+    "consumers": [
+      "website_checkout",
+      "booking_portal",
+      "policy_page",
+      "booking_confirmation",
+      "e_voucher",
+      "invoice",
+      "customer_support",
+      "faq"
+    ],
+    "consumers_raw": [
+      "website_checkout",
+      "booking_portal",
+      "policy_page",
+      "booking_confirmation",
+      "e_voucher",
+      "invoice",
+      "customer_support",
+      "faq"
+    ],
+    "unregistered_consumers": [],
+    "notes": "**Canonical logic lives in the YAML** (compiler reads it directly). Full voluntary ≥48h → Lifetime Package Credit (no cash); full <48h → forfeited. **Partial passenger cancellation** (booking continues): ≥48h → 100% cash refund of cancelled pax price, <48h → 50%, after Day 1 → 0%. Package Credit: no expiry, no cash value, same package/pax/price locked, one transfer, no split. Flight disruption → 50% Recovery Fee (once).",
+    "evidence": [
+      {
+        "source": "wiki/products/packages-overview.md",
+        "section": "Cancellation Policy",
+        "text": "## Cancellation Policy\n\n> Canonical logic: -> [[policies/cancellation-package-credit]] (`wiki/policies/cancellation-package-credit.yml`). This section is supporting human-readable copy; the YAML governs. \"Lifetime Package Credit\" supersedes the former \"Travel Credit\" naming.\n\n**Full cancellation of the entire booking** (voluntary):\n\n| Window | Outcome |\n|---|---|\n| **≥ 48h before Day 1** | 100% of eligible booking value → **Lifetime Package Credit** (no expiry; same package, original pax, and original confirmed price preserved) |\n| **< 48h before Day 1** | Fully forfeited. No Package Credit. |\n\nCash refund is not available for full guest-initiated cancellation. The Lifetime Package Credit replaces it, and **Package Credit is not cash and cannot be exchanged for cash.**\n\n**Partial cancellation** (one or more travellers drop, booking continues) — refund is cash on the confirmed per-person price of the cancelled travellers:\n\n| Window | Cash refund of cancelled pax |\n|---|---|\n| **≥ 48h before Day 1** | 100% |\n| **< 48h before Day 1** | 50% |\n| **After Day 1 / no-show** | 0% |\n\nAt least 2 paying travellers (and ≥ 50% of the original paying pax) must remain, otherwise the request is treated as a full cancellation. Continuing travellers keep their confirmed per-person price. Free-of-charge (FOC) guests carry no refundable value.\n\n**Lifetime Package Credit** is locked to the same package, original pax entitlement, and original confirmed price; it never expires; it cannot be split or moved to a different package; and it may be transferred **once** (one complete transfer, then locked).\n\n**Flight disruption** (verified natural transport disruption, e.g. volcanic ash): the package can be reactivated for a **50% Recovery Fee** of the original confirmed package price, usable once.\n\n**Closure policy**: If an official closure or route restriction affects the trip, JVTO offers a safe alternative route, reschedule option, or destination-fee adjustment per the confirmed booking context. Verified destination force majeure follows -> [[policies/cancellation-package-credit]]. See [[sources/ssot-v6]] §7_3 weather closures + [[destinations/mount-bromo]] Plan-B framework."
+      },
+      {
+        "source": "wiki/products/packages-overview.md",
+        "section": "Rescheduling",
+        "text": "## Rescheduling\n\n- **≥ 48h before Day 1**: one reschedule for the same package, subject to availability and seasonal/supplier cost difference\n- **< 48h before Day 1**: handled case-by-case — may be treated as cancellation depending on committed supplier costs"
+      },
+      {
+        "source": "wiki/website/faq-master.md",
+        "section": "Q17",
+        "text": "What is Lifetime Package Credit and do you offer cash refunds?\n\nIf you cancel your **entire** booking ≥ 48h before Day 1, 100% of eligible booking value converts to **Lifetime Package Credit** — it never expires and preserves the same package, your original number of travellers, and your original confirmed package price. Package Credit is not cash and cannot be exchanged for cash; it stays on the same package (no split, no swap to a different package) and may be transferred once. If you cancel the entire booking < 48h before Day 1, payment is fully forfeited and no Package Credit is created. **Partial cancellation** — where one or more travellers drop but the tour continues — is different: you get a cash refund of the cancelled travellers' confirmed price, 100% if ≥ 48h before Day 1 and 50% if < 48h (0% after Day 1), provided at least 2 paying travellers remain. JVTO offers one free reschedule if requested ≥ 48h before Day 1. Canonical rules: [[policies/cancellation-package-credit]]. For closures, see Q18 / [[products/packages-overview]] §cancellation."
+      }
+    ],
+    "canonical_policy": {
+      "schema_version": "cancellation-policy/v2.0",
+      "policy_version": "2026-07",
+      "effective_from": "2026-07-15",
+      "status": "active",
+      "booking_scope": {
+        "allowed_sources": [
+          "website"
+        ],
+        "disallowed_sources": [
+          "whatsapp",
+          "email",
+          "manual",
+          "ota"
+        ],
+        "support_channels": [
+          "whatsapp",
+          "email"
+        ]
+      },
+      "cutoff": {
+        "hours": 48,
+        "comparison": "inclusive",
+        "based_on": "day_1_start_at"
+      },
+      "full_cancellation": {
+        "before_cutoff": {
+          "outcome": "lifetime_package_credit"
+        },
+        "after_cutoff": {
+          "outcome": "forfeited"
+        },
+        "no_show": {
+          "outcome": "forfeited"
+        }
+      },
+      "partial_cancellation": {
+        "before_cutoff": {
+          "cash_refund_percent": 100
+        },
+        "after_cutoff": {
+          "cash_refund_percent": 50
+        },
+        "after_day_1": {
+          "cash_refund_percent": 0
+        },
+        "minimum_remaining_pax": 2,
+        "minimum_remaining_percent": 50,
+        "reprice_remaining_guests": false,
+        "threshold_fail_behaviour": "reclassify_as_full_cancellation",
+        "foc_passenger_refund_percent": 0
+      },
+      "package_credit": {
+        "expires": false,
+        "cash_value": false,
+        "package_change_allowed": false,
+        "split_allowed": false,
+        "transfer_allowed": true,
+        "maximum_transfers": 1,
+        "original_package_locked": true,
+        "original_pax_locked": true,
+        "original_price_locked": true,
+        "redemption": {
+          "fewer_pax_refund": false,
+          "more_pax": "incremental_website_charge"
+        }
+      },
+      "flight_disruption": {
+        "recovery_fee_percent": 50,
+        "maximum_uses": 1,
+        "evidence_required": true,
+        "unverified_outcome": "voluntary_late_cancellation"
+      },
+      "force_majeure": {
+        "full_tour": {
+          "options": [
+            "lifetime_package_credit",
+            "cash_refund_less_nonrecoverable_vendor_cost"
+          ]
+        },
+        "partial_tour": {
+          "first_remedy": "alternative_route",
+          "second_remedy": "affected_component_refund"
+        },
+        "evidence_required": true
+      },
+      "jvto_operational": {
+        "options": [
+          "accepted_alternative",
+          "full_cash_refund"
+        ]
+      },
+      "consumers": [
+        "website_checkout",
+        "booking_portal",
+        "policy_page",
+        "booking_confirmation",
+        "e_voucher",
+        "invoice",
+        "customer_support",
+        "faq"
+      ]
+    },
+    "customer_copy": {
+      "package_guarantee_summary": "Your confirmed package does not disappear when plans change early. Cancel your entire booking at least 48 hours before Day 1 and the same package, your original number of travellers, and your original confirmed package price remain available for future use as Lifetime Package Credit.",
+      "before_48_full_cancellation": "Cancel the complete booking 48 hours or more before Day 1: you receive Lifetime Package Credit. It never expires and preserves the same package, original pax entitlement, and original confirmed price, and can be transferred once. Package Credit is not cash and cannot be exchanged for cash.",
+      "after_48_full_cancellation": "Cancel the complete booking less than 48 hours before Day 1: the booking is forfeited and no Package Credit is created.",
+      "partial_cancellation": "If one or more travellers cancel but the tour continues, the cancelled travellers receive a cash refund of their confirmed price: 100% at 48 hours or more before Day 1, 50% within 48 hours, and 0% after Day 1. At least 2 paying travellers must remain, otherwise it is treated as a full cancellation.",
+      "flight_disruption": "If a verified natural transport disruption (for example volcanic ash) cancels your flight, your package can be reactivated once for a 50% Recovery Fee of the original confirmed package price.",
+      "destination_force_majeure_full_tour": "If a verified official event affects your destination before Day 1 and makes the whole tour impossible, you can choose Lifetime Package Credit or a cash refund less any non-recoverable vendor cost.",
+      "destination_force_majeure_partial_tour": "If a verified official event affects your destination after Day 1 has begun and only part of the tour is affected, JVTO first offers an alternative route or activity of equal standard. If no suitable alternative is available, a refund of the affected component applies.",
+      "package_transfer": "Package Credit may be transferred once to another person. The old credit code is closed and a new one is issued to the recipient. A second transfer is not permitted.",
+      "package_redemption": "To use Package Credit, choose a new date for the same package. Your original pax entitlement appears automatically; fewer travellers yields no refund, and more travellers are charged the incremental website price."
+    }
+  },
+  {
+    "policy_id": "inclusions-exclusions",
+    "domain": "Inclusions / Exclusions",
+    "canonical_sources": [
+      "products/packages-overview.md"
+    ],
+    "supporting_sources": [
+      "website/faq-master.md"
+    ],
+    "consumers": [
+      "package_pages",
+      "faq",
+      "quotation"
+    ],
+    "consumers_raw": [
+      "package pages",
+      "faq",
+      "quotation"
+    ],
+    "unregistered_consumers": [],
+    "notes": "Madakaripura helmets are NOT a JVTO inclusion (local site management)",
+    "evidence": [
+      {
+        "source": "wiki/products/packages-overview.md",
+        "section": "Standard Inclusions (all 15 packages)",
+        "text": "## Standard Inclusions (all 15 packages)\n\n1. **Private transport** — AC MPV (1–3 guests) · Toyota Hiace minibus (4–9 guests) · Hiace + MPV (10–11 guests) — fuel, tolls, parking included\n2. **Dedicated crew** — driver-guide (1–3 guests) · professional driver + escort guide (4–11 guests) · licensed local site guides at key locations\n3. **All entrance fees and permits** to attractions\n4. **Mineral water** — daily supply\n5. **Full pick-up to drop-off assistance**\n6. **Complimentary JVTO travel T-shirt** (1 per participant)\n7. **Meals as stated in itinerary** (minimum: breakfast all packages)\n\n### Ijen-route additions (Ijen-relevant packages only)\n\n- Gas masks and trekking poles for Ijen Crater hike\n- **Health screening coordination** — a health certificate is mandatory for every guest before crater entry, per BBKSDA SE.1658/KSA.9/2024 (see [[destinations/kawah-ijen]])\n\n### Bromo-route additions (Bromo-inclusive packages only)\n\n- Private 4WD Jeep for Mount Bromo crater area — max ≈4 guests per jeep; additional jeeps for larger groups\n\n### Bali-origin addition (Bali packages only)\n\n- Ferry crossing — Bali to Java (Gilimanuk–Ketapang) included\n\n### Madakaripura caveat (CRITICAL — per SSOT §6_4)\n\n> Helmets at Madakaripura Waterfall are **not a JVTO inclusion** — they are provided by the local waterfall site management at the canyon entrance. JVTO guides accompany guests through the approach (wading, slippery stones, narrow canyon passages). The local site team handles safety equipment on-site. **Do NOT list helmets as a JVTO-provided item for any Madakaripura route.**"
+      },
+      {
+        "source": "wiki/products/packages-overview.md",
+        "section": "Standard Exclusions (all 15 packages)",
+        "text": "## Standard Exclusions (all 15 packages)\n\n- International / domestic flights\n- Tips for drivers and guides (at guest discretion)\n- Personal expenses — snacks, souvenirs, laundry (recommend ≥ IDR 500,000/person)\n- Meals not stated in itinerary\n- Travel insurance (optional but recommended)\n- Indonesian VISA (if applicable)"
+      },
+      {
+        "source": "wiki/website/faq-master.md",
+        "section": "Q14",
+        "text": "What is included in the price?\n\nAll JVTO packages include: private transport (AC MPV / Hiace by group size), dedicated crew (driver-guide or driver + escort guide), all entrance fees and permits, mineral water daily, full pick-up to drop-off assistance, JVTO travel T-shirt, meals as stated (minimum breakfast all packages). Bromo-inclusive packages add a private 4WD jeep. Ijen-relevant packages add gas masks, trekking poles, and the mandatory health-screening coordination (BBKSDA SE.1658/KSA.9/2024). Bali-origin packages add ferry crossing (Gilimanuk–Ketapang). See [[products/packages-overview]] §inclusions. Madakaripura helmets are provided by the local site management at the canyon entrance — **not** a JVTO inclusion."
+      }
+    ]
+  },
+  {
+    "policy_id": "ijen-health-screening",
+    "domain": "Ijen Health Screening",
+    "canonical_sources": [
+      "website/faq-master.md",
+      "people/dr-ahmad-irwandanu.md"
+    ],
+    "supporting_sources": [
+      "destinations/kawah-ijen.md"
+    ],
+    "consumers": [
+      "package_pages",
+      "faq",
+      "customer_support"
+    ],
+    "consumers_raw": [
+      "package pages",
+      "faq",
+      "whatsapp"
+    ],
+    "unregistered_consumers": [],
+    "notes": "Mandatory wording (health certificate required for every guest before crater entry); BBKSDA SE.1658/KSA.9/2024 cited as supporting authority, not a conditional trigger. Adjudicated 2026-07-06, supersedes the 2026-07-05 conditional decision",
+    "evidence": [
+      {
+        "source": "wiki/website/faq-master.md",
+        "section": "Q6",
+        "text": "How does the Ijen health screening work?\n\n> ⚠ health_wording_mode: **mandatory** — a health certificate is required for every guest before Kawah Ijen crater entry. BBKSDA SE.1658/KSA.9/2024 is cited as supporting regulatory authority/evidence, not as a conditional trigger. Adjudicated 2026-07-06, supersedes the 2026-07-05 conditional decision.\n\nFor tours that include the Ijen night hike, a health certificate is mandatory for every guest before crater entry — JVTO arranges the health-screening coordination, conducted by licensed medical staff, per BBKSDA Surat Edaran SE.1658/KSA.9/2024 for the Ijen crater zone. The aim is to reduce the risk of sending unfit guests into a demanding environment with sulphur gas and steep trails. Vitals measured digitally include SpO2, blood pressure, heart rate, and respiratory history. The surat sehat is BSrE (Balai Sertifikasi Elektronik) electronically signed and traceable to the doctor's SIP — a real, accountable certificate, not a self-issued form — and a valid certificate is checked by BBKSDA at the crater access gate. **No valid health certificate = no crater-zone access.** See [[people/dr-ahmad-irwandanu]] for the full protocol."
+      },
+      {
+        "source": "wiki/website/faq-master.md",
+        "section": "Q7",
+        "text": "What happens if I do not pass the Ijen health screening?\n\nIf screening staff or the JVTO team advise that you should not attempt the hike, JVTO follows that decision — it protects your safety and others on the trail. The climb is cancelled for that individual (not the group); alternatives include waiting at base camp or a safe zone. The screening session cost is non-refundable. The group continues."
+      }
+    ]
+  },
+  {
+    "policy_id": "natural-phenomena",
+    "domain": "Natural Phenomena",
+    "canonical_sources": [
+      "website/brand-voice.md"
+    ],
+    "supporting_sources": [
+      "website/faq-master.md",
+      "destinations/kawah-ijen.md"
+    ],
+    "consumers": [
+      "package_pages",
+      "customer_support"
+    ],
+    "consumers_raw": [
+      "package pages",
+      "cs replies"
+    ],
+    "unregistered_consumers": [],
+    "notes": "No guarantee for Blue Fire / sunrise",
+    "evidence": [
+      {
+        "source": "wiki/website/faq-master.md",
+        "section": "Q19",
+        "text": "Can you guarantee sunrise views or blue fire?\n\nNo. Weather, cloud, volcanic gas, and other natural factors are outside JVTO's control. JVTO designs itineraries to maximise the chance of good conditions but cannot promise specific natural phenomena. **Blue Fire is a natural phenomenon subject to weather and gas activity.** See [[website/brand-voice]] §voice-invariants for the canonical wording."
+      },
+      {
+        "source": "wiki/website/faq-master.md",
+        "section": "Q20",
+        "text": "If it rains, will our tour be cancelled?\n\nLight or normal rain rarely cancels an entire tour, but it can make trails slippery, reduce visibility, or require timing/route changes. JVTO guides assess on the day. For safety-critical sections (Ijen crater rim, Madakaripura canyon), JVTO may delay or reroute. Sunrise and Blue Fire views are conditional on weather (see Q19)."
+      }
+    ]
+  },
+  {
+    "policy_id": "isic",
+    "domain": "ISIC",
+    "canonical_sources": [
+      "credentials/trust-signals.md"
+    ],
+    "supporting_sources": [
+      "website/faq-master.md"
+    ],
+    "consumers": [
+      "package_pages",
+      "faq"
+    ],
+    "consumers_raw": [
+      "student pages",
+      "faq"
+    ],
+    "unregistered_consumers": [],
+    "notes": "ISIC is UNESCO-endorsed; do NOT imply UNESCO endorses JVTO",
+    "evidence": [
+      {
+        "source": "wiki/products/packages-overview.md",
+        "section": "Student Pricing (ISIC)",
+        "text": "## Student Pricing (ISIC)\n\nJVTO is an official ISIC provider (ID 259268 — verifiable at https://www.isic.org/discounts/?providerId=259268). Verified international students with a valid ISIC card receive student pricing. See [[credentials/trust-signals]]."
+      },
+      {
+        "source": "wiki/website/faq-master.md",
+        "section": "Q11",
+        "text": "Do you offer ISIC student deals?\n\nYes. JVTO is an official ISIC provider (ID 259268, verifiable at https://www.isic.org/discounts/?providerId=259268). Verified international students access adapted rates on selected packages via the ISIC Alive Verify API. See [[credentials/trust-signals]] §partnership-authority."
+      }
+    ]
+  },
+  {
+    "policy_id": "police-escort",
+    "domain": "Police Escort",
+    "canonical_sources": [
+      "credentials/trust-signals.md"
+    ],
+    "supporting_sources": [
+      "website/faq-master.md",
+      "website/brand-voice.md"
+    ],
+    "consumers": [
+      "package_pages",
+      "faq"
+    ],
+    "consumers_raw": [
+      "group pages",
+      "faq"
+    ],
+    "unregistered_consumers": [],
+    "notes": "Conditional coordination only (large groups ~18+, when approved by Traffic Police)",
+    "evidence": [
+      {
+        "source": "wiki/products/packages-overview.md",
+        "section": "Free-of-Charge (FOC) Group Incentive",
+        "text": "## Free-of-Charge (FOC) Group Incentive\n\nJVTO **direct website bookings only**. Not applicable to GetYourGuide, Booking.com, or other third-party platforms. (WhatsApp/email are support channels, not booking channels.)\n\n| Paying pax | FOC seats | Additional benefit |\n|---|---|---|\n| 18 pax | 1 FOC | — |\n| 35 pax | 2 FOC | — |\n| 50 pax | 3 FOC | + 5% discount for entire group |\n\nRules:\n- \"Pax\" = paying guests only. FOC slot(s) do not count toward paying threshold.\n- 5% group discount at the 50+ tier applies to the total package price for all paying guests.\n- FOC applies to same package, same dates as the group booking.\n- Must be agreed in writing during booking confirmation.\n- Direct website bookings only. Not applicable to GetYourGuide, Booking.com, or other third-party platforms."
+      },
+      {
+        "source": "wiki/website/faq-master.md",
+        "section": "Q12",
+        "text": "Can you arrange an official police escort for our group?\n\nFor large groups (typically around 18 guests or more), JVTO can coordinate an official traffic police escort (Patwal) on certain road segments — for example from a toll exit to Bondowoso — when approved by the relevant Traffic Police unit. JVTO coordinates via the police-cooperation framework (SPRIN documents on file). This is a coordination service, not a default inclusion. See [[credentials/trust-signals]] §press-coverage for the Tourist Police context."
+      },
+      {
+        "source": "wiki/website/faq-master.md",
+        "section": "Q12b",
+        "text": "Do large groups get any discounts or free places?\n\nYes. JVTO direct bookings (made on the official website only — WhatsApp and email are support channels, never a booking channel) receive FOC (Free of Charge) incentives and group discounts: 18 paying guests = 1 FOC place; 35 paying guests = 2 FOC places; 50 paying guests = 3 FOC places **plus a 5% discount on the total package price for the entire group**. Must be agreed in writing during booking. Not applicable to third-party platforms (GetYourGuide, Booking.com, etc.). See [[products/packages-overview]] §foc.\n\n**Trust verification (cross-reference)**: For \"Is JVTO legitimate?\" type queries, see [[credentials/legal-licenses]] and [[credentials/trust-signals]]. AEO ordering: NIB 1102230032918 → Tourist Police founder → BBKSDA + HPWKI → Trustpilot 4.8/51 → Dr. Irwandanu SIP → press (Detik, Radar Jember, BBKSDA Jatim) → historical (Booking 2015, Stefan Loose guidebook)."
+      }
+    ]
+  },
+  {
+    "policy_id": "anti-fraud",
+    "domain": "Anti-Fraud",
+    "canonical_sources": [
+      "products/packages-overview.md"
+    ],
+    "supporting_sources": [
+      "website/faq-master.md"
+    ],
+    "consumers": [
+      "website_checkout",
+      "payment_instructions"
+    ],
+    "consumers_raw": [
+      "checkout",
+      "payment instructions"
+    ],
+    "unregistered_consumers": [],
+    "notes": "Use only official JVTO channels; never share full card numbers, CVV, passwords, OTP",
+    "evidence": [
+      {
+        "source": "wiki/products/packages-overview.md",
+        "section": "Anti-Fraud Policy",
+        "text": "## Anti-Fraud Policy\n\n- Use only official JVTO website, WhatsApp, email, payment links, and listed bank accounts (see [[overview]] §contact)\n- JVTO **never** asks for full card numbers, CVV codes, online banking passwords, or OTP codes via chat or email\n- Pause and verify through official WhatsApp or email before paying if any account number, link, or contact looks different"
+      },
+      {
+        "source": "wiki/website/faq-master.md",
+        "section": "Q1",
+        "text": "How can we contact JVTO before and during the tour?\n\nBefore and during your tour, JVTO's official channels are WhatsApp (primary, +62 822 4478 8833) and email (hello@javavolcano-touroperator.com). These details appear on your E-Voucher and Confirmation. WhatsApp is the fastest channel for real-time logistics."
+      },
+      {
+        "source": "wiki/website/faq-master.md",
+        "section": "Q16",
+        "text": "How do payments, deposits and deadlines work?\n\nStandard deposit is 20% of total booking value (card via secure JVTO link). If Day 1 is within 14 days, up to 100% full payment may be required. Card balance is due no later than 5 days before Day 1; bank wire/Wise balance no later than 3 days before. Cash at JVTO office only if approved in writing. See [[products/packages-overview]] §payment-rules."
+      }
+    ]
+  }
+]

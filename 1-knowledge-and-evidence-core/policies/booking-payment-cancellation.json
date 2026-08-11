@@ -7,7 +7,7 @@
     "section": "policy",
     "status": "published",
     "owner": "legal",
-    "lastReviewed": "2026-08-04",
+    "lastReviewed": "2026-08-11",
     "schemaTypes": [
       "WebPage"
     ],
@@ -62,8 +62,12 @@
               "text": "If a verified natural transport disruption (for example volcanic ash) cancels your flight, your package can be reactivated once for a 50% Recovery Fee of the original confirmed package price."
             },
             {
-              "title": "Destination force majeure",
-              "text": "If a verified official event affects your destination and the whole tour is impossible, you can choose Lifetime Package Credit or a cash refund less any non-recoverable vendor cost. If only part is affected, JVTO first offers an alternative route, then a refund of the affected component."
+              "title": "Destination force majeure before Day 1",
+              "text": "If a verified official event affects your destination before Day 1 and makes the whole tour impossible, you can choose Lifetime Package Credit or a cash refund less any non-recoverable vendor cost."
+            },
+            {
+              "title": "Destination force majeure after Day 1 begins",
+              "text": "If a verified official event affects your destination after Day 1 has begun and only part of the tour is affected, JVTO first offers an alternative route or activity of equal standard. If no suitable alternative is available, a refund of the affected component applies."
             },
             {
               "title": "Transferring Package Credit",
@@ -82,7 +86,16 @@
       ]
     }
   ],
-  "lastReviewed": "2026-08-07",
+  "lastReviewed": "2026-08-11",
   "owner": "policy",
-  "reviewStatus": "domain-owner-assigned-by-audit"
+  "reviewStatus": "domain-owner-assigned-by-audit",
+  "source": {
+    "repo": "/Users/macbook/Code/jvto-web",
+    "ref": "origin/main",
+    "commit": "75a21d11",
+    "files": [
+      "src/data/policy-bundle/customer-copy.json",
+      "src/data/policy-bundle/policy-bundle.json"
+    ]
+  }
 }

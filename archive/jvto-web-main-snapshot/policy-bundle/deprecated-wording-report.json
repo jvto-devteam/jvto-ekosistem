@@ -1,0 +1,170 @@
+{
+  "checks": [
+    {
+      "deprecated": "Trip.com booking flow",
+      "correct": "Use \"JVTO website self-checkout flow\" or \"JVTO Website Booking Flow\". Historical \"Trip.com\" mentions in `wiki/log.md` are audit-trail only — not canonical source/policy wording."
+    },
+    {
+      "deprecated": "18+ page PDF",
+      "correct": "\"4 PDF pages, 18 Tango steps\""
+    },
+    {
+      "deprecated": "Blue Fire guaranteed",
+      "correct": "Never use. \"Blue Fire is a natural phenomenon subject to weather and gas activity — not guaranteed.\""
+    },
+    {
+      "deprecated": "Sunrise guaranteed",
+      "correct": "Never use. Weather and natural conditions are outside JVTO's control."
+    },
+    {
+      "deprecated": "Madakaripura helmet included by JVTO",
+      "correct": "Never use. Helmets are provided by the local waterfall site management at the canyon entrance — not a JVTO inclusion."
+    },
+    {
+      "deprecated": "Police escort included by default",
+      "correct": "Never use. JVTO can coordinate an official police escort for eligible large groups / certain segments, subject to Traffic Police approval."
+    },
+    {
+      "deprecated": "UNESCO endorses JVTO via ISIC",
+      "correct": "Never use. ISIC itself is UNESCO-endorsed; this does not mean UNESCO endorses JVTO."
+    },
+    {
+      "deprecated": "Cash refund available for guest-initiated cancellation",
+      "correct": "Never use for **full voluntary** cancellation — that path yields Lifetime Package Credit (≥48h) or forfeiture (<48h), never cash. Cash refunds apply ONLY to *partial passenger* cancellation and verified force-majeure per `policies/cancellation-package-credit.yml`."
+    },
+    {
+      "deprecated": "50% cancellation fee (<48h)",
+      "correct": "Never use as a **full-cancellation** outcome — full <48h is 100% forfeiture, not a 50% fee. (Partial passenger cancellation <48h is a 50% *cash refund* of the cancelled pax price — a different scenario, approved.) Stale \"50% fee\" survives only in `raw/db_export_raw.json` (read-only source export)."
+    },
+    {
+      "deprecated": "WhatsApp-assisted booking\" / \"Book through WhatsApp\" / \"Contact us to confirm your booking",
+      "correct": "Never use. Booking is website-only. WhatsApp/email are support channels that never create/confirm/modify/cancel/transfer a booking."
+    },
+    {
+      "deprecated": "Your money stays in your account\" / \"Cash value\" / \"Guaranteed cash refund",
+      "correct": "Never use for Package Credit. Approved: \"Package Credit is not cash and cannot be exchanged for cash.\""
+    },
+    {
+      "deprecated": "Use the credit on any JVTO package\" / \"Split your travel credit\" / \"Unlimited transfers",
+      "correct": "Never use. Package Credit is locked to the same package, original pax, and original price; it cannot be split; one complete transfer only."
+    },
+    {
+      "deprecated": "Travel insurance protection",
+      "correct": "Never use. The Lifetime Package Guarantee is a cancellation/credit policy, not travel insurance."
+    }
+  ],
+  "summary": {
+    "consumers_checked": [
+      "website_checkout",
+      "booking_portal",
+      "e_voucher",
+      "invoice",
+      "policy_page",
+      "faq",
+      "customer_support",
+      "booking_confirmation",
+      "package_pages",
+      "payment_instructions",
+      "quotation"
+    ],
+    "total_findings": 0,
+    "errors": 0
+  },
+  "consumers": {
+    "website_checkout": {
+      "checked_policy_ids": [
+        "booking-paths",
+        "payment-rules",
+        "cancellation-package-credit",
+        "anti-fraud"
+      ],
+      "findings": [],
+      "clean": true
+    },
+    "booking_portal": {
+      "checked_policy_ids": [
+        "booking-paths",
+        "cancellation-package-credit"
+      ],
+      "findings": [],
+      "clean": true
+    },
+    "e_voucher": {
+      "checked_policy_ids": [
+        "cancellation-package-credit"
+      ],
+      "findings": [],
+      "clean": true
+    },
+    "invoice": {
+      "checked_policy_ids": [
+        "payment-rules",
+        "cancellation-package-credit"
+      ],
+      "findings": [],
+      "clean": true
+    },
+    "policy_page": {
+      "checked_policy_ids": [
+        "booking-paths",
+        "cancellation-package-credit"
+      ],
+      "findings": [],
+      "clean": true
+    },
+    "faq": {
+      "checked_policy_ids": [
+        "booking-paths",
+        "payment-rules",
+        "cancellation-package-credit",
+        "inclusions-exclusions",
+        "ijen-health-screening",
+        "isic",
+        "police-escort"
+      ],
+      "findings": [],
+      "clean": true
+    },
+    "customer_support": {
+      "checked_policy_ids": [
+        "cancellation-package-credit",
+        "ijen-health-screening",
+        "natural-phenomena"
+      ],
+      "findings": [],
+      "clean": true
+    },
+    "booking_confirmation": {
+      "checked_policy_ids": [
+        "cancellation-package-credit"
+      ],
+      "findings": [],
+      "clean": true
+    },
+    "package_pages": {
+      "checked_policy_ids": [
+        "inclusions-exclusions",
+        "ijen-health-screening",
+        "natural-phenomena",
+        "isic",
+        "police-escort"
+      ],
+      "findings": [],
+      "clean": true
+    },
+    "payment_instructions": {
+      "checked_policy_ids": [
+        "anti-fraud"
+      ],
+      "findings": [],
+      "clean": true
+    },
+    "quotation": {
+      "checked_policy_ids": [
+        "inclusions-exclusions"
+      ],
+      "findings": [],
+      "clean": true
+    }
+  }
+}

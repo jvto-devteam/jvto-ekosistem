@@ -1,0 +1,75 @@
+{
+  "schema_version": "policy-bundle/v2.0",
+  "generated_by": "scripts/compile_policy_bundle.py",
+  "generated_at": "2026-08-10T08:03:05.125930+00:00",
+  "dry_run": false,
+  "cancellation_policy_version": "2026-07",
+  "cancellation_policy_hash": "7118ef3b7689",
+  "source_hashes": {
+    "policy-source-ownership": "8b1b0d8d6a6a",
+    "packages-overview": "09c65f05abdf",
+    "faq-master": "2afb68e04189",
+    "cancellation-package-credit": "7118ef3b7689"
+  },
+  "policy_domains": 9,
+  "deprecated_checks": 13,
+  "consumers_checked": [
+    "website_checkout",
+    "booking_portal",
+    "e_voucher",
+    "invoice",
+    "policy_page",
+    "faq",
+    "customer_support",
+    "booking_confirmation",
+    "package_pages",
+    "payment_instructions",
+    "quotation"
+  ],
+  "artifacts": [
+    "policy-bundle.json",
+    "consumer-bundles.json",
+    "decision-matrix.json",
+    "customer-copy.json",
+    "deprecated-wording-report.json",
+    "gap-report.json"
+  ],
+  "sync_contract": {
+    "recommended_consumer": "jvto-web",
+    "source_path": "output/website/policy-bundle/",
+    "target_path": "src/data/policy-bundle/",
+    "required_gate": {
+      "schema_version": "policy-bundle/v2.0",
+      "clean": true
+    },
+    "required_files": [
+      "policy-bundle.json",
+      "consumer-bundles.json",
+      "decision-matrix.json",
+      "customer-copy.json",
+      "deprecated-wording-report.json",
+      "gap-report.json",
+      "_manifest.json"
+    ],
+    "consumer_entrypoint": "consumer-bundles.json",
+    "consumer_keys": [
+      "website_checkout",
+      "booking_portal",
+      "e_voucher",
+      "invoice",
+      "policy_page",
+      "faq",
+      "customer_support",
+      "booking_confirmation",
+      "package_pages",
+      "payment_instructions",
+      "quotation"
+    ],
+    "validation_files": [
+      "deprecated-wording-report.json",
+      "gap-report.json"
+    ],
+    "failure_rule": "Refuse sync if schema_version mismatches, clean is not true, any required file is missing, or any requested consumer is not present."
+  },
+  "clean": true
+}

@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-05-08T02:35:20.063Z",
+  "categories": [
+    {
+      "id": 7,
+      "name": "Tours & Booking Basics",
+      "slug": "tours-booking-basics",
+      "sort_order": 1,
+      "is_active": true,
+      "faqs": [
+        {
+          "id": 79,
+          "question": "Are your tours private or shared?",
+          "answer": "<p>All JVTO tours are private only. We do not mix your booking with other guests or sell “seat in coach” options. Your vehicle, driver and guide are arranged for your party alone.</p>\r\n<p>For examples of private itineraries from Surabaya or Bali, see our Tours pages.</p>",
+          "category_id": 7,
+          "sort_order": 1
+        },
+        {
+          "id": 80,
+          "question": "What is included in the price?",
+          "answer": "<p>Each tour page shows a clear list of Inclusions and Exclusions. In general, our private, all-inclusive packages cover:</p>\r\n<ul>\r\n<li>Private vehicle and driver</li>\r\n<li>Bromo 4WD jeep where listed</li>\r\n<li>Stated park entrance tickets and permits</li>\r\n<li>All hotel breakfasts</li>\r\n<li>Selected lunches and dinners (especially during the Bondowoso / Ijen segment)</li>\r\n<li>Mineral water</li>\r\n<li>Essential gear for Ijen (gas mask and trekking pole) on tours that include Ijen</li>\r\n<li>JVTO travel T-shirt (where listed)</li>\r\n</ul>\r\n<p>Anything not listed under “Included” is treated as not included. For full details, please see Booking Information and the Inclusions & Exclusions section of your chosen tour.</p>",
+          "category_id": 7,
+          "sort_order": 2
+        },
+        {
+          "id": 81,
+          "question": "How do I book and confirm a tour?",
+          "answer": "<p>The usual steps are:</p>\r\n<ol>\r\n<li>You send us your dates, origin (for example Surabaya or Bali), group size and preferred route.</li>\r\n<li>We send you a tailored proposal with itinerary and price.</li>\r\n<li>You confirm in writing and pay the booking deposit (normally 20% of the total).</li>\r\n<li>We send you an official JVTO E-Voucher with your booking details.</li>\r\n</ol>\r\n<p>Your booking is considered confirmed when the deposit has been received and the E-Voucher has been issued. Full details are on the Booking Information page.</p>",
+          "category_id": 7,
+          "sort_order": 3
+        },
+        {
+          "id": 82,
+          "question": "How do payments, deposits and deadlines work?",
+          "answer": "<p>In most cases:</p>\r\n<ul>\r\n<li>A deposit is required to secure your booking.</li>\r\n<li>The remaining balance is due a few days before Day 1 of your tour, depending on the payment method (for example card vs bank transfer).</li>\r\n<li>If payment deadlines are missed, your booking may be at risk.</li>\r\n</ul>\r\n<p>The exact amounts and dates are always stated in your E-Voucher and explained on our Booking Information page. That page and your E-Voucher together act as the official reference.</p>",
+          "category_id": 7,
+          "sort_order": 4
+        },
+        {
+          "id": 83,
+          "question": "What is Package Credit and do you offer cash refunds?",
+          "answer": "<p>JVTO uses a Package Credit system instead of standard cash refunds for most guest-initiated cancellations. In general:</p>\r\n<ul>\r\n<li>If you cancel far enough in advance (before the stated cutoff), we convert your paid amounts into Package Credit.</li>\r\n<li>Package Credit can be used for future JVTO tours, and may be transferable under the rules stated in our policy.</li>\r\n<li>Package Credit does not normally expire.</li>\r\n<li>Cash refunds are not normally provided except in specially defined situations.</li>\r\n</ul>\r\n<p>Exact timing thresholds, percentages and special cases are described in detail on the Booking Information page and in the Booking & Cancellation Policy.</p>",
+          "category_id": 7,
+          "sort_order": 5
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Safety, Health & Insurance",
+      "slug": "safety-health-insurance",
+      "sort_order": 2,
+      "is_active": true,
+      "faqs": [
+        {
+          "id": 84,
+          "question": "How does the Ijen health screening work?",
+          "answer": "<p>For tours that include the Ijen night hike, JVTO includes a mandatory health screening run by approved medical staff. The aim is to reduce the risk of sending unfit guests into a demanding environment with sulphur gas and steep trails.</p>\r\n<p>Key points:</p>\r\n<ul>\r\n<li>Screening takes place before the hike, often at your accommodation or a partner clinic.</li>\r\n<li>Basic checks are done (for example blood pressure, oxygen saturation and relevant medical history).</li>\r\n<li>Results are recorded and can be used to confirm whether the hike is appropriate.</li>\r\n<li>The certificate is BSrE (Balai Sertifikasi Elektronik / BSSN) electronically signed and traceable to the licensed doctor's SIP, which helps prevent fake or self-issued certificates.</li>\r\n</ul>\r\n<p>Full details, including what happens if you are not cleared, are explained on Ijen Health Screening.</p>",
+          "category_id": 8,
+          "sort_order": 1
+        },
+        {
+          "id": 85,
+          "question": "What happens if I do not pass the Ijen health screening?",
+          "answer": "<p>If screening staff or our team advise that you should not attempt the hike, we will follow that decision. It is made to protect your safety and others on the trail.</p>\r\n<p>In these cases, we may:</p>\r\n<ul>\r\n<li>Offer alternative low-risk activities or rest time, where practical</li>\r\n<li>Continue the rest of your itinerary as planned</li>\r\n</ul>\r\n<p>Financial treatment (for example how costs for the Ijen segment are handled) follows the rules set in our Booking Information and policy.</p>",
+          "category_id": 8,
+          "sort_order": 2
+        },
+        {
+          "id": 86,
+          "question": "Do I need travel insurance?",
+          "answer": "<p>Yes, we strongly recommend that all guests hold valid travel insurance that covers:</p>\r\n<ul>\r\n<li>Medical emergencies</li>\r\n<li>Evacuation and repatriation</li>\r\n<li>Trip interruption and cancellations</li>\r\n</ul>\r\n<p>JVTO operates as a licensed Indonesian tour operator, but we cannot act as an insurance provider and cannot cover costs that fall under personal insurance.</p>",
+          "category_id": 8,
+          "sort_order": 3
+        },
+        {
+          "id": 87,
+          "question": "Can children or older travellers join JVTO tours?",
+          "answer": "<p>Many families and older travellers have joined our tours safely and comfortably. The key is matching itinerary difficulty to the real fitness and health of the guests:</p>\r\n<ul>\r\n<li>Some routes (for example Tumpak Sewu and the full Ijen hike) are physically demanding.</li>\r\n<li>Others can be adapted with more viewpoints and less intense trails.</li>\r\n</ul>\r\n<p>Please tell us clearly about ages and relevant conditions when you first contact us. We may suggest a slower or gentler plan based on your group’s needs.</p>",
+          "category_id": 8,
+          "sort_order": 4
+        },
+        {
+          "id": 88,
+          "question": "What if I feel unwell during the tour?",
+          "answer": "<p>Tell your driver or guide as soon as you notice it – do not wait until it becomes an emergency. Because your tour is private, we have more flexibility to:</p>\r\n<ul>\r\n<li>Adjust the pace</li>\r\n<li>Add extra rest stops</li>\r\n<li>Change or skip certain activities when it is safer to do so</li>\r\n</ul>\r\n<p>For serious symptoms, we will prioritise getting you to appropriate medical support. Always follow the instructions of your crew in such situations.</p>",
+          "category_id": 8,
+          "sort_order": 5
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Weather, Volcano Alerts & Closures",
+      "slug": "weather-volcano-closures",
+      "sort_order": 3,
+      "is_active": true,
+      "faqs": [
+        {
+          "id": 89,
+          "question": "What happens if Bromo or Ijen is closed on my dates?",
+          "answer": "<p>We follow official instructions from Indonesian authorities and park management. Depending on the situation:</p>\r\n<ul>\r\n<li>We may adjust timings or use alternative viewpoints</li>\r\n<li>We may replace certain stops with other available local visits</li>\r\n<li>In more serious cases, specific segments (such as a night hike) may be cancelled while other parts of the tour continue</li>\r\n</ul>\r\n<p>How this affects your booking financially is explained in the Weather & Closures and Booking Information pages. External closures are handled differently from voluntary cancellations.</p>",
+          "category_id": 9,
+          "sort_order": 1
+        },
+        {
+          "id": 90,
+          "question": "Can you guarantee sunrise views or blue fire?",
+          "answer": "<p>No. Weather, cloud, volcanic gas and other natural factors are outside our control.</p>\r\n<ul>\r\n<li>We design our itineraries to maximise the chance of good conditions</li>\r\n<li>We cannot promise specific colours, light or blue fire visibility on any given night</li>\r\n</ul>\r\n<p>Our commitment is to honest briefings and to acting quickly if conditions become unsafe.</p>",
+          "category_id": 9,
+          "sort_order": 2
+        },
+        {
+          "id": 91,
+          "question": "If it rains, will our tour be cancelled?",
+          "answer": "<p>Light or normal rain rarely cancels an entire tour, but it can:</p>\r\n<ul>\r\n<li>Make trails more slippery</li>\r\n<li>Reduce visibility</li>\r\n<li>Require changes in timing or route</li>\r\n</ul>\r\n<p>Severe weather, landslides or dangerous conditions can lead to partial or full cancellations for safety. Our Weather & Closures page explains how we respond and how this links to Package Credit and itinerary changes.</p>",
+          "category_id": 9,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Luggage, Packing & Practicalities",
+      "slug": "luggage-packing-practicalities",
+      "sort_order": 4,
+      "is_active": true,
+      "faqs": [
+        {
+          "id": 92,
+          "question": "How much luggage can I bring?",
+          "answer": "<p>In most cases, standard airline-style luggage is fine:</p>\r\n<ul>\r\n<li>One main suitcase or backpack per person</li>\r\n<li>One small daypack</li>\r\n</ul>\r\n<p>If you plan to travel with unusually large or heavy items, please tell us in advance so we can plan the right vehicle. On days with hikes, we recommend leaving your main luggage in the car or accommodation and carrying only what you need in a daypack.</p>",
+          "category_id": 10,
+          "sort_order": 1
+        },
+        {
+          "id": 93,
+          "question": "What should I wear and bring for these tours?",
+          "answer": "<p>The key is layering, grip and simplicity:</p>\r\n<ul>\r\n<li>Layered clothing for cold pre-dawn starts and warmer later hours</li>\r\n<li>Closed shoes with good grip (hiking shoes recommended for Ijen and Tumpak Sewu)</li>\r\n<li>Small backpack, personal headlamp or torch, waterproof cover for electronics</li>\r\n<li>Essential personal medication</li>\r\n</ul>\r\n<p>We recommend keeping non-essential valuables and jewellery to a minimum, and avoiding silver items during Ijen days due to sulphur.</p>",
+          "category_id": 10,
+          "sort_order": 2
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Students, Groups & Police Escort",
+      "slug": "students-groups-police-escort",
+      "sort_order": 5,
+      "is_active": true,
+      "faqs": [
+        {
+          "id": 94,
+          "question": "Do you offer ISIC student deals?",
+          "answer": "<p>Yes. Through our collaboration with ISIC, verified international students may access adapted rates on selected packages. The goal is to keep travel fair for students facing higher foreign entrance fees, without reducing safety or quality.</p>\r\n<p>The exact conditions and eligible tours are explained on our ISIC / Student Deals page.</p>",
+          "category_id": 11,
+          "sort_order": 1
+        },
+        {
+          "id": 95,
+          "question": "Can you arrange an official police escort for our group?",
+          "answer": "<p>For large groups (typically around 18 guests or more), JVTO can help coordinate an official traffic police escort on certain road segments (for example from a toll exit to Bondowoso), if approved by the relevant Traffic Police unit.</p>\r\n<p>Key points:</p>\r\n<ul>\r\n<li>Escorts are based on formal written orders from the authorities</li>\r\n<li>Routes and times are clearly defined</li>\r\n<li>The aim is safe convoy management, not speeding or bypassing laws</li>\r\n</ul>\r\n<p>This is not automatic and not a marketing gimmick. Full details are on Police Escort for Groups.</p>",
+          "category_id": 11,
+          "sort_order": 2
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Communication & Support",
+      "slug": "communication-support",
+      "sort_order": 6,
+      "is_active": true,
+      "faqs": [
+        {
+          "id": 96,
+          "question": "How can we contact JVTO before and during the tour?",
+          "answer": "<p>Before and during your tour, our official channels are:</p>\r\n<ul>\r\n<li>WhatsApp (primary)</li>\r\n<li>Email</li>\r\n</ul>\r\n<p>These details appear on your E-Voucher and on the Contact page. Please make sure your phone number (including country code) and email address are correct so we can reach you with any important updates.</p>",
+          "category_id": 12,
+          "sort_order": 1
+        },
+        {
+          "id": 97,
+          "question": "Which documents should I keep with me?",
+          "answer": "<p>We recommend keeping the following easily accessible:</p>\r\n<ul>\r\n<li>Passport and required visas</li>\r\n<li>Travel insurance information</li>\r\n<li>Your JVTO E-Voucher and contact details (printed or on your phone)</li>\r\n<li>Any relevant medical information you may need to show in an emergency</li>\r\n</ul>",
+          "category_id": 12,
+          "sort_order": 2
+        },
+        {
+          "id": 98,
+          "question": "Where can I read the full legal policy?",
+          "answer": "<p>The full legal text of our booking and cancellation terms is available on:</p>\r\n<ul>\r\n<li>Booking Information (web page summary)</li>\r\n<li>Booking & Cancellation Policy (document)</li>\r\n</ul>\r\n<p>In any confusion, the combination of your JVTO E-Voucher, the Booking Information page and the official policy document is treated as the final reference.</p>",
+          "category_id": 12,
+          "sort_order": 3
+        }
+      ]
+    }
+  ]
+}
