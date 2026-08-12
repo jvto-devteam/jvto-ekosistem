@@ -1,0 +1,22 @@
+{
+  "schema_version": "jvto/output/json-ld-page/v1",
+  "output_type": "json_ld_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/travel-guide/mount-bromo-logistics",
+  "domain": "travel-guide",
+  "slug": "mount-bromo-logistics",
+  "json_ld": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Mount Bromo Logistics",
+    "description": "Private jeep, sunrise timing, and altitude preparation - what you need to know before arriving at the Tengger caldera.",
+    "url": "https://javavolcano-touroperator.com/travel-guide/mount-bromo-logistics"
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "/Users/macbook/Code/jvto-web/src/app/(website)/travel-guide/mount-bromo-logistics/page.tsx"
+    ],
+    "migration_note": "Created from current jvto-web route component because no prior canonical core source existed."
+  }
+}

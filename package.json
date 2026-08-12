@@ -4,9 +4,24 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node server.mjs"
+    "start": "node server.mjs",
+    "cms:dev": "tinacms dev -c \"npm run start\"",
+    "cms:dev:auto": "concurrently -k -n cms,render -c cyan,green \"npm run cms:dev\" \"npm run watch:web-content\"",
+    "cms:audit": "tinacms audit",
+    "cms:build": "node scripts/build-tina-admin.mjs",
+    "migrate:web-content:sources": "node scripts/migrate-web-content-to-source.mjs",
+    "render:web-content": "node scripts/render-web-content-sources.mjs",
+    "watch:web-content": "node scripts/watch-web-content-sources.mjs"
   },
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "@tinacms/cli": "^2.5.6",
+    "tinacms": "^3.11.0"
+  },
+  "devDependencies": {
+    "chokidar": "^5.0.0",
+    "concurrently": "^10.0.4"
   }
 }

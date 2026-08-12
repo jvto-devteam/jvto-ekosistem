@@ -1,0 +1,512 @@
+{
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "why-jvto",
+  "slug": "index",
+  "route": "/why-jvto",
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "meta": {
+    "route": "/why-jvto",
+    "title": "Why Travel with Java Volcano Tour Operator (JVTO)",
+    "browserTitle": "Why Travel with Java Volcano Tour Operator (JVTO)",
+    "description": "Tourist Police-led safety, licensed operator, private-only tours, all-inclusive pricing. Why travellers from SG, MY & HK choose JVTO for Bromo and Ijen.",
+    "section": "why-jvto",
+    "status": "published",
+    "owner": "company",
+    "lastReviewed": "2026-08-04",
+    "schemaTypes": [
+      "WebPage"
+    ],
+    "faqKey": "why-jvto-hub",
+    "summary": "Why travelers choose JVTO: police-led safety, verifiable credentials, private-only tours, and documented history."
+  },
+  "seo": {
+    "title": "Why Travel with Java Volcano Tour Operator (JVTO)",
+    "description": "Tourist Police-led safety, licensed operator, private-only tours, all-inclusive pricing. Why travellers from SG, MY & HK choose JVTO for Bromo and Ijen.",
+    "canonicalRoute": "/why-jvto",
+    "schemaTypes": [
+      "WebPage"
+    ]
+  },
+  "content": {
+    "format": "json",
+    "payload": {
+      "meta": {
+        "route": "/why-jvto",
+        "title": "Why Travel with Java Volcano Tour Operator (JVTO)",
+        "browserTitle": "Why Travel with Java Volcano Tour Operator (JVTO)",
+        "description": "Tourist Police-led safety, licensed operator, private-only tours, all-inclusive pricing. Why travellers from SG, MY & HK choose JVTO for Bromo and Ijen.",
+        "section": "why-jvto",
+        "status": "published",
+        "owner": "company",
+        "lastReviewed": "2026-08-04",
+        "schemaTypes": [
+          "WebPage"
+        ],
+        "faqKey": "why-jvto-hub",
+        "summary": "Why travelers choose JVTO: police-led safety, verifiable credentials, private-only tours, and documented history."
+      },
+      "lede": [
+        "Java Volcano Tour Operator (JVTO) is a registered Indonesian tour operator based in Bondowoso, East Java. We specialize in private volcano trips—Bromo, Ijen, and selected extensions.",
+        "In a landscape where volcanic nature is uncertain, JVTO sells operational certainty—built on disciplined safety, documented proof, and local execution.",
+        "If you want the practical rulebook (clear steps, what to bring, safety, payments), start with /travel-guide.",
+        "For binding terms, use /policy/.",
+        "Official channels: Website https://javavolcano-touroperator.com • WhatsApp +6282244788833 • Email hello@javavolcano-touroperator.com."
+      ],
+      "sections": [
+        {
+          "id": "hero-signals",
+          "title": "Hero signals",
+          "eyebrow_pill": "Why JVTO — Hub",
+          "eyebrow_meta": "Six proof-backed sections",
+          "blocks": [
+            {
+              "type": "grid",
+              "role": "meta-rows",
+              "items": [
+                {
+                  "key": "legal-entity",
+                  "label": "Legal entity",
+                  "value": "PT Java Volcano Rendezvous"
+                },
+                {
+                  "key": "nib",
+                  "label": "NIB",
+                  "value": "1102230032918"
+                },
+                {
+                  "key": "founder",
+                  "label": "Founder",
+                  "value": "Active Tourist Police"
+                },
+                {
+                  "key": "tour-format",
+                  "label": "Tour format",
+                  "value": "100% private"
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "role": "credential-chips",
+              "items": [
+                {
+                  "key": "isic",
+                  "label": "Registered ISIC Provider"
+                },
+                {
+                  "key": "hpwki",
+                  "label": "HPWKI Member"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "difference",
+          "title": "The JVTO Difference",
+          "eyebrow_num": "§ 01",
+          "eyebrow_label": "The JVTO Difference",
+          "heading": "Six differentiators,",
+          "heading_accent": "each verifiable.",
+          "lede_text": "Not marketing language — every one is backed by a credential you can check. Tap a pillar to see what proves it.",
+          "media_tag": "Ditpamobvit · operational authority",
+          "badge_title": "Official Safety Authority",
+          "badge_sub": "Active Tourist Police officer",
+          "blocks": [
+            {
+              "type": "image",
+              "src": "/founder/agung_sambuko.jpg",
+              "alt": "Agung Sambuko (Mr. Sam), Founder of Java Volcano Tour Operator."
+            },
+            {
+              "type": "grid",
+              "role": "differentiators",
+              "items": [
+                {
+                  "key": "police-led",
+                  "label": "Police-led",
+                  "title": "Police-Led Safety Authority",
+                  "text": "Our founder is an active officer in Ditpamobvit — the directorate securing vital objects including Ijen Crater. No other East Java operator is led by an active Tourist Police officer.",
+                  "cred": "Proof · SPRIN documents + independent press"
+                },
+                {
+                  "key": "private",
+                  "label": "100% private",
+                  "title": "100% Private Tours",
+                  "text": "A dedicated vehicle, driver, and guide assigned to your group only. No shared groups, no mixed itineraries, no timing compromises.",
+                  "cred": "Proof · NIB + TDUP, OSS-verifiable"
+                },
+                {
+                  "key": "all-inclusive",
+                  "label": "All-inclusive",
+                  "title": "All-Inclusive Clarity",
+                  "text": "Transport, accommodation, permits, water and safety gear written into the price. If it is not on the E-Voucher, it is not included.",
+                  "cred": "Proof · Inclusions & Exclusions Policy"
+                },
+                {
+                  "key": "screening",
+                  "label": "Ijen screening",
+                  "title": "Ijen Health-Screening",
+                  "text": "Mandatory for every guest under BBKSDA SE.1658/KSA.9/2024 — we coordinate a BSrE-signed surat sehat through an SIP-licensed doctor, checked at the crater gate.",
+                  "cred": "Proof · BBKSDA SE.1658/KSA.9/2024"
+                },
+                {
+                  "key": "licenses",
+                  "label": "Licenses",
+                  "title": "Verifiable Licenses",
+                  "text": "NIB, TDUP, HPWKI-credentialed guides, BBKSDA clearance, registered ISIC provider and INDECON network listing — a proof library, not a logo wall.",
+                  "cred": "Proof · /verify-jvto/legal"
+                },
+                {
+                  "key": "plan-b",
+                  "label": "Plan B",
+                  "title": "Plan B Framework",
+                  "text": "Documented alternative routes activated when a site closes or conditions change — a written SOP published before you book.",
+                  "cred": "Proof · Travel Guide, pre-booking"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "press-evidence",
+          "title": "National Media Verification",
+          "eyebrow": "National Media Verification",
+          "heading": "Duty first, business second.",
+          "body_text": "Our founder, Bripka Agung Sambuko, was covered by national media (Detik.com) for his dedication as a Tourist Police officer keeping visitors safe in the extreme conditions of Kawah Ijen.",
+          "quote": "The important thing is that the people who travel are safe.",
+          "quote_attribution": "— Bripka Agung Sambuko (Detik News, translated)",
+          "article_url": "https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin",
+          "article_date": "14 Mar 2021",
+          "sha256_short": "B257B7...",
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://javavolcano-touroperator.com/press/screencapture-news-detik-berita-jawa-timur-d-5492690-suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin-2026-01-14-02_48_41.webp",
+              "alt": "Detik.com article screenshot"
+            }
+          ]
+        },
+        {
+          "id": "reviews-signal",
+          "title": "Reviews",
+          "eyebrow_num": "§ 02",
+          "eyebrow_label": "Reviews",
+          "heading": "Patterns, not a",
+          "heading_accent": "quote wall.",
+          "lede_text": "Feedback grouped by what it proves, across three independent platforms — verified, not cherry-picked.",
+          "media_tag": "Verified across 3 platforms",
+          "blocks": [
+            {
+              "type": "grid",
+              "role": "quotes",
+              "items": [
+                {
+                  "text": "I don't think there is a better tour guide anywhere than Anjas — head and shoulders above the rest.",
+                  "attribution": "John Joyce · Trustpilot · guide Anjas"
+                },
+                {
+                  "text": "Being a solo traveler it was safe and stress free with JVTO.",
+                  "attribution": "Karthika TS · Trustpilot"
+                },
+                {
+                  "text": "When we went down the steep crater, he held our hands to prevent us from falling.",
+                  "attribution": "Wing Shan Lui · Google Maps · guide Rendi"
+                },
+                {
+                  "text": "One of our friends was injured and they helped him as well. Fantastic planning.",
+                  "attribution": "Jiang Tianjian · Trustpilot"
+                },
+                {
+                  "text": "Our driver Yandi was really reliable and friendly. He briefed us on what to expect.",
+                  "attribution": "Divya_Stri · Trustpilot · driver Yandi"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "story-timeline",
+          "title": "Our Story",
+          "eyebrow_num": "§ 03",
+          "eyebrow_label": "Our Story",
+          "heading": "From a homestay to a",
+          "heading_accent": "licensed operator.",
+          "lede_text": "Documented operational continuity at one Bondowoso address — tap a milestone.",
+          "media_tag": "Bondowoso · since 2015",
+          "badge_title": "Est. 2015",
+          "badge_sub": "Ijen Bondowoso Homestay",
+          "blocks": [
+            {
+              "type": "image",
+              "src": "/history/booking-2015-plaque.jpg",
+              "alt": "2015 Booking.com Guest Review Award plaque, Ijen Bondowoso Homestay (score 9.4/10)."
+            },
+            {
+              "type": "grid",
+              "role": "timeline-tabs",
+              "items": [
+                {
+                  "tab": "'15",
+                  "title": "The Guesthouse",
+                  "body": "Mr. Sam opens the Ijen Bondowoso Homestay on Jl. Khairil Anwar No.102 — the same address JVTO operates from today. Booking.com guests rate the property 9.4 / 10."
+                },
+                {
+                  "tab": "Legal",
+                  "title": "PT Java Volcano Rendezvous",
+                  "body": "The guesthouse grows into PT Java Volcano Rendezvous — the licensed legal entity behind JVTO today, verifiable via NIB 1102230032918."
+                },
+                {
+                  "tab": "'23",
+                  "title": "TDUP Formalization",
+                  "body": "The Tourism Business Permit is formalized, completing the regulatory chain. NIB 1102230032918 is OSS-verifiable through Indonesia's government system."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "team-strip",
+          "title": "Our Team",
+          "eyebrow_num": "§ 04",
+          "eyebrow_label": "Our Team",
+          "heading_template": "{count} active crew.",
+          "heading_accent": "No freelancers.",
+          "footer_note": "Individually photographed · recruited from Bondowoso & Banyuwangi",
+          "blocks": [
+            {
+              "type": "grid",
+              "role": "stat-labels",
+              "items": [
+                {
+                  "key": "guides",
+                  "label": "Guides"
+                },
+                {
+                  "key": "drivers",
+                  "label": "Drivers"
+                },
+                {
+                  "key": "total",
+                  "label": "Active crew"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "standards-accordion",
+          "title": "Community Standards",
+          "eyebrow_num": "§ 05",
+          "eyebrow_label": "Community Standards",
+          "heading": "Read the rulebook",
+          "heading_accent": "before you book.",
+          "lede_text": "We publish what we don't do as plainly as what we do. Every policy is online before you pay.",
+          "media_tag": "Kawah Ijen · shared working path",
+          "badge_title": "Local crew policy",
+          "badge_sub": "Bondowoso & Banyuwangi",
+          "blocks": [
+            {
+              "type": "grid",
+              "role": "standards",
+              "items": [
+                {
+                  "heading": "We don't operate shared groups",
+                  "body": "Every tour is private to your booking — a dedicated vehicle, driver, and guide for your group alone."
+                },
+                {
+                  "heading": "We don't make verbal promises",
+                  "body": "The E-Voucher is the binding document. If it is not on the voucher, it is not included."
+                },
+                {
+                  "heading": "We don't guarantee natural phenomena",
+                  "body": "Blue Fire is a natural phenomenon subject to weather and gas activity — it cannot be guaranteed. We plan around the viewing window; we don't promise outcomes we can't control.",
+                  "note": "drift-ok: canonical negation — states the phenomenon cannot be guaranteed (facts-lock compliant)"
+                },
+                {
+                  "heading": "We don't source crew from marketplaces",
+                  "body": "Every guide and driver is a named, registered team member recruited from local Bondowoso and Banyuwangi communities. Separately, JVTO is publicly listed in the INDECON ecotourism network — the listing is verifiable on the INDECON site."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "trust-stack",
+          "title": "The JVTO Trust Stack",
+          "eyebrow": "◆ Verification Registry",
+          "sub": "Navigate our proof library. Marketing promises are cheap; operational discipline is verifiable.",
+          "blocks": [
+            {
+              "type": "grid",
+              "role": "cards",
+              "columns": 3,
+              "items": [
+                {
+                  "key": "difference",
+                  "href": "/why-jvto/the-jvto-difference",
+                  "type": "card",
+                  "title": "The JVTO Difference",
+                  "summary": "Police-led safety mindset, documented operational discipline, and proof you can verify."
+                },
+                {
+                  "key": "story",
+                  "href": "/why-jvto/our-story",
+                  "type": "card",
+                  "title": "Our Story: Roots Since 2015",
+                  "summary": "Booking.com award, Stefan Loose guidebook feature, and artifacts tracing our documented history."
+                },
+                {
+                  "key": "team",
+                  "href": "/why-jvto/our-team",
+                  "type": "card",
+                  "title": "Our Team: Local Crew",
+                  "summary": "A local operations team trained for real East Java logistics."
+                },
+                {
+                  "key": "reviews",
+                  "href": "/why-jvto/reviews",
+                  "type": "card",
+                  "title": "Guest Reviews (Independent Platforms)",
+                  "summary": "Independent reviews across Trustpilot, Google Maps and TripAdvisor."
+                },
+                {
+                  "key": "standards",
+                  "href": "/why-jvto/community-standards",
+                  "type": "card",
+                  "title": "Community Standards & Partners",
+                  "summary": "HPWKI membership, ISIC provider listing, INDECON network listing — plus operational ethics and cancellation rules."
+                },
+                {
+                  "key": "verify",
+                  "href": "/verify-jvto",
+                  "type": "card",
+                  "title": "Verify JVTO",
+                  "summary": "Legal docs, safety docs, press, and history artifacts — organized for easy checking."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "proof-locker",
+          "title": "Proof Locker",
+          "heading": "Don't guess. Verify.",
+          "sub": "In an industry of ghost operators, we publish credentials with cryptographic proofs.",
+          "blocks": [
+            {
+              "type": "grid",
+              "role": "docs",
+              "items": [
+                {
+                  "key": "nib",
+                  "title": "NIB Entity",
+                  "img": "https://javavolcano-touroperator.com/legal/NIB-1102230032918-preview.webp",
+                  "sha256_short": "FA20DDE3..."
+                },
+                {
+                  "key": "sprin",
+                  "title": "Police SPRIN",
+                  "img": "https://javavolcano-touroperator.com/legal/SPRIN-POLPAR.webp",
+                  "sha256_short": "03C8578D..."
+                },
+                {
+                  "key": "screening",
+                  "title": "Health Screening",
+                  "img": "https://javavolcano-touroperator.com/screening/ijen-screening-hotel-01.webp",
+                  "sha256_short": "C52194BB..."
+                },
+                {
+                  "key": "hpwki-kta",
+                  "title": "HPWKI KTA Card (crew)",
+                  "img": "https://javavolcano-touroperator.com/uploads/1763205255605-141795118-kiki.webp",
+                  "sha256_short": "CA1FB1A4..."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cta",
+          "title": "Verify before you book",
+          "heading": "Don't guess.",
+          "heading_accent": "Verify.",
+          "footer_identity": "PT Java Volcano Rendezvous · NIB 1102230032918",
+          "blocks": [
+            {
+              "type": "grid",
+              "role": "cta-links",
+              "items": [
+                {
+                  "key": "verify",
+                  "href": "/verify-jvto",
+                  "label": "Open the proof library",
+                  "variant": "primary"
+                },
+                {
+                  "key": "tours",
+                  "href": "/tours",
+                  "label": "Explore private tours",
+                  "variant": "ghost"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastReviewed": "2026-08-07",
+      "owner": "narrative-claims",
+      "reviewStatus": "domain-owner-assigned-by-audit"
+    }
+  },
+  "faq": {
+    "key": "why-jvto-hub",
+    "payload": {
+      "key": "why-jvto-hub",
+      "items": [
+        {
+          "question": "Do you mix strangers into one car?",
+          "answer": "No. JVTO runs private tours only. Details: /travel-guide/booking-information"
+        },
+        {
+          "question": "What if weather or closures change the plan?",
+          "answer": "We adapt early and communicate clearly. Safety approach: /why-jvto/the-jvto-difference • Practical rules: /travel-guide"
+        },
+        {
+          "question": "Where can I verify legality and proof?",
+          "answer": "Proof Library: /why-jvto/the-jvto-difference"
+        },
+        {
+          "question": "Where are your booking/payment terms?",
+          "answer": "Booking & payment policy: /policy/booking-payment-cancellation"
+        },
+        {
+          "question": "How do you handle personal data?",
+          "answer": "Privacy policy: /policy/privacy"
+        }
+      ],
+      "lastReviewed": "2026-08-07",
+      "owner": "knowledge-faq",
+      "reviewStatus": "domain-owner-assigned-by-audit"
+    }
+  },
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/narrative-claims/why-jvto-pages/index.json",
+      "1-knowledge-and-evidence-core/faqs/why-jvto-hub.json",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

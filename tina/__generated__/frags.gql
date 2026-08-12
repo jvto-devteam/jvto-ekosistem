@@ -1,0 +1,371 @@
+fragment TravelGuidePageParts on TravelGuidePage {
+  __typename
+  schema_version
+  source_type
+  domain
+  slug
+  route
+  meta {
+    __typename
+    route
+    title
+    browserTitle
+    description
+    section
+    status
+    owner
+    lastReviewed
+    schemaTypes
+    faqKey
+    summary
+  }
+  seo {
+    __typename
+    title
+    description
+    canonicalRoute
+    schemaTypes
+  }
+  content {
+    __typename
+    format
+    payload {
+      __typename
+      body_md
+      lede
+      intro
+      readingTime
+      hero {
+        __typename
+        eyebrow
+        meta
+        heading
+        lede
+      }
+      quickFacts {
+        __typename
+        key
+        label
+        value
+      }
+      temperatureContext {
+        __typename
+        key
+        label
+        value
+      }
+      related {
+        __typename
+        label
+        href
+      }
+      sections {
+        __typename
+        id
+        title
+        sub
+        body_md
+        body_text
+        lede_text
+        heading
+        heading_accent
+        heading_template
+        eyebrow
+        eyebrow_pill
+        eyebrow_meta
+        eyebrow_num
+        eyebrow_label
+        media_tag
+        badge_title
+        badge_sub
+        quote
+        quote_attribution
+        article_url
+        article_date
+        sha256_short
+        footer_note
+        footer_identity
+        blocks {
+          __typename
+          type
+          role
+          body_md
+          src
+          alt
+          columns
+        }
+      }
+    }
+  }
+  faq {
+    __typename
+    key
+    payload {
+      __typename
+      key
+      items {
+        __typename
+        question
+        answer
+      }
+      lastReviewed
+      owner
+      reviewStatus
+    }
+  }
+  output_targets
+  source_trace {
+    __typename
+    generated_at
+    source_files
+    migration_note
+  }
+}
+
+fragment WhyJvtoPageParts on WhyJvtoPage {
+  __typename
+  schema_version
+  source_type
+  domain
+  slug
+  route
+  meta {
+    __typename
+    route
+    title
+    browserTitle
+    description
+    section
+    status
+    owner
+    lastReviewed
+    schemaTypes
+    faqKey
+    summary
+  }
+  seo {
+    __typename
+    title
+    description
+    canonicalRoute
+    schemaTypes
+  }
+  content {
+    __typename
+    format
+    payload {
+      __typename
+      body_md
+      lede
+      intro
+      readingTime
+      hero {
+        __typename
+        eyebrow
+        meta
+        heading
+        lede
+      }
+      quickFacts {
+        __typename
+        key
+        label
+        value
+      }
+      temperatureContext {
+        __typename
+        key
+        label
+        value
+      }
+      related {
+        __typename
+        label
+        href
+      }
+      sections {
+        __typename
+        id
+        title
+        sub
+        body_md
+        body_text
+        lede_text
+        heading
+        heading_accent
+        heading_template
+        eyebrow
+        eyebrow_pill
+        eyebrow_meta
+        eyebrow_num
+        eyebrow_label
+        media_tag
+        badge_title
+        badge_sub
+        quote
+        quote_attribution
+        article_url
+        article_date
+        sha256_short
+        footer_note
+        footer_identity
+        blocks {
+          __typename
+          type
+          role
+          body_md
+          src
+          alt
+          columns
+        }
+      }
+    }
+  }
+  faq {
+    __typename
+    key
+    payload {
+      __typename
+      key
+      items {
+        __typename
+        question
+        answer
+      }
+      lastReviewed
+      owner
+      reviewStatus
+    }
+  }
+  output_targets
+  source_trace {
+    __typename
+    generated_at
+    source_files
+    migration_note
+  }
+}
+
+fragment PolicyPageParts on PolicyPage {
+  __typename
+  schema_version
+  source_type
+  domain
+  slug
+  route
+  meta {
+    __typename
+    route
+    title
+    browserTitle
+    description
+    section
+    status
+    owner
+    lastReviewed
+    schemaTypes
+    faqKey
+    summary
+  }
+  seo {
+    __typename
+    title
+    description
+    canonicalRoute
+    schemaTypes
+  }
+  content {
+    __typename
+    format
+    payload {
+      __typename
+      body_md
+      lede
+      intro
+      readingTime
+      hero {
+        __typename
+        eyebrow
+        meta
+        heading
+        lede
+      }
+      quickFacts {
+        __typename
+        key
+        label
+        value
+      }
+      temperatureContext {
+        __typename
+        key
+        label
+        value
+      }
+      related {
+        __typename
+        label
+        href
+      }
+      sections {
+        __typename
+        id
+        title
+        sub
+        body_md
+        body_text
+        lede_text
+        heading
+        heading_accent
+        heading_template
+        eyebrow
+        eyebrow_pill
+        eyebrow_meta
+        eyebrow_num
+        eyebrow_label
+        media_tag
+        badge_title
+        badge_sub
+        quote
+        quote_attribution
+        article_url
+        article_date
+        sha256_short
+        footer_note
+        footer_identity
+        blocks {
+          __typename
+          type
+          role
+          body_md
+          src
+          alt
+          columns
+        }
+      }
+    }
+  }
+  faq {
+    __typename
+    key
+    payload {
+      __typename
+      key
+      items {
+        __typename
+        question
+        answer
+      }
+      lastReviewed
+      owner
+      reviewStatus
+    }
+  }
+  output_targets
+  source_trace {
+    __typename
+    generated_at
+    source_files
+    migration_note
+  }
+}

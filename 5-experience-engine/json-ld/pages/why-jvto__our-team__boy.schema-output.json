@@ -1,0 +1,26 @@
+{
+  "schema_version": "jvto/output/json-ld-page/v1",
+  "output_type": "json_ld_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/why-jvto/our-team/boy",
+  "domain": "why-jvto",
+  "slug": "our-team/boy",
+  "json_ld": {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "name": "Boy (Ahboy) — JVTO Tour Guide",
+    "description": "Boy (Ahboy) is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+    "url": "https://javavolcano-touroperator.com/why-jvto/our-team/boy"
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:57:49.134Z",
+    "source_files": [
+      "/Users/macbook/Code/jvto-web/content/entities/people.json",
+      "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+      "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+      "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+      "https://javavolcano-touroperator.com/sitemap.xml"
+    ],
+    "migration_note": "Created to align JVTO Operating Ecosystem source routes with the live jvto-web public Why JVTO crew detail pages. Personal phone fields from the team content source are intentionally excluded because the live detail page does not render them."
+  }
+}

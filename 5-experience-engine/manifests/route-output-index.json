@@ -1,0 +1,243 @@
+{
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "routes": [
+    {
+      "route": "/policy",
+      "domain": "policy",
+      "slug": "index",
+      "websiteOutput": "5-experience-engine/public-website/pages/policy.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/policy.schema-output.json"
+    },
+    {
+      "route": "/policy/booking-payment-cancellation",
+      "domain": "policy",
+      "slug": "booking-payment-cancellation",
+      "websiteOutput": "5-experience-engine/public-website/pages/policy__booking-payment-cancellation.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/policy__booking-payment-cancellation.schema-output.json"
+    },
+    {
+      "route": "/policy/inclusions-exclusions",
+      "domain": "policy",
+      "slug": "inclusions-exclusions",
+      "websiteOutput": "5-experience-engine/public-website/pages/policy__inclusions-exclusions.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/policy__inclusions-exclusions.schema-output.json"
+    },
+    {
+      "route": "/policy/privacy",
+      "domain": "policy",
+      "slug": "privacy",
+      "websiteOutput": "5-experience-engine/public-website/pages/policy__privacy.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/policy__privacy.schema-output.json"
+    },
+    {
+      "route": "/travel-guide",
+      "domain": "travel-guide",
+      "slug": "index",
+      "websiteOutput": "5-experience-engine/public-website/pages/travel-guide.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/travel-guide.schema-output.json"
+    },
+    {
+      "route": "/travel-guide/best-time-to-visit",
+      "domain": "travel-guide",
+      "slug": "best-time-to-visit",
+      "websiteOutput": "5-experience-engine/public-website/pages/travel-guide__best-time-to-visit.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/travel-guide__best-time-to-visit.schema-output.json"
+    },
+    {
+      "route": "/travel-guide/booking-information",
+      "domain": "travel-guide",
+      "slug": "booking-information",
+      "websiteOutput": "5-experience-engine/public-website/pages/travel-guide__booking-information.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/travel-guide__booking-information.schema-output.json"
+    },
+    {
+      "route": "/travel-guide/faq",
+      "domain": "travel-guide",
+      "slug": "faq",
+      "websiteOutput": "5-experience-engine/public-website/pages/travel-guide__faq.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/travel-guide__faq.schema-output.json"
+    },
+    {
+      "route": "/travel-guide/ijen-health-screening",
+      "domain": "travel-guide",
+      "slug": "ijen-health-screening",
+      "websiteOutput": "5-experience-engine/public-website/pages/travel-guide__ijen-health-screening.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/travel-guide__ijen-health-screening.schema-output.json"
+    },
+    {
+      "route": "/travel-guide/mount-bromo-logistics",
+      "domain": "travel-guide",
+      "slug": "mount-bromo-logistics",
+      "websiteOutput": "5-experience-engine/public-website/pages/travel-guide__mount-bromo-logistics.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/travel-guide__mount-bromo-logistics.schema-output.json"
+    },
+    {
+      "route": "/travel-guide/packing-and-fitness",
+      "domain": "travel-guide",
+      "slug": "packing-and-fitness",
+      "websiteOutput": "5-experience-engine/public-website/pages/travel-guide__packing-and-fitness.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/travel-guide__packing-and-fitness.schema-output.json"
+    },
+    {
+      "route": "/travel-guide/packing-list",
+      "domain": "travel-guide",
+      "slug": "packing-list",
+      "websiteOutput": "5-experience-engine/public-website/pages/travel-guide__packing-list.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/travel-guide__packing-list.schema-output.json"
+    },
+    {
+      "route": "/travel-guide/police-escort-for-groups",
+      "domain": "travel-guide",
+      "slug": "police-escort-for-groups",
+      "websiteOutput": "5-experience-engine/public-website/pages/travel-guide__police-escort-for-groups.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/travel-guide__police-escort-for-groups.schema-output.json"
+    },
+    {
+      "route": "/travel-guide/rijik-monthly-closure",
+      "domain": "travel-guide",
+      "slug": "rijik-monthly-closure",
+      "websiteOutput": "5-experience-engine/public-website/pages/travel-guide__rijik-monthly-closure.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/travel-guide__rijik-monthly-closure.schema-output.json"
+    },
+    {
+      "route": "/travel-guide/safety-on-tours",
+      "domain": "travel-guide",
+      "slug": "safety-on-tours",
+      "websiteOutput": "5-experience-engine/public-website/pages/travel-guide__safety-on-tours.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/travel-guide__safety-on-tours.schema-output.json"
+    },
+    {
+      "route": "/travel-guide/tumpak-sewu-logistics",
+      "domain": "travel-guide",
+      "slug": "tumpak-sewu-logistics",
+      "websiteOutput": "5-experience-engine/public-website/pages/travel-guide__tumpak-sewu-logistics.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/travel-guide__tumpak-sewu-logistics.schema-output.json"
+    },
+    {
+      "route": "/travel-guide/weather-and-closures",
+      "domain": "travel-guide",
+      "slug": "weather-and-closures",
+      "websiteOutput": "5-experience-engine/public-website/pages/travel-guide__weather-and-closures.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/travel-guide__weather-and-closures.schema-output.json"
+    },
+    {
+      "route": "/why-jvto",
+      "domain": "why-jvto",
+      "slug": "index",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto.schema-output.json"
+    },
+    {
+      "route": "/why-jvto/community-standards",
+      "domain": "why-jvto",
+      "slug": "community-standards",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto__community-standards.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto__community-standards.schema-output.json"
+    },
+    {
+      "route": "/why-jvto/our-story",
+      "domain": "why-jvto",
+      "slug": "our-story",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto__our-story.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto__our-story.schema-output.json"
+    },
+    {
+      "route": "/why-jvto/our-team",
+      "domain": "why-jvto",
+      "slug": "our-team",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto__our-team.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto__our-team.schema-output.json"
+    },
+    {
+      "route": "/why-jvto/our-team/anjas",
+      "domain": "why-jvto",
+      "slug": "our-team/anjas",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto__our-team__anjas.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto__our-team__anjas.schema-output.json"
+    },
+    {
+      "route": "/why-jvto/our-team/boy",
+      "domain": "why-jvto",
+      "slug": "our-team/boy",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto__our-team__boy.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto__our-team__boy.schema-output.json"
+    },
+    {
+      "route": "/why-jvto/our-team/fauzi",
+      "domain": "why-jvto",
+      "slug": "our-team/fauzi",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto__our-team__fauzi.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto__our-team__fauzi.schema-output.json"
+    },
+    {
+      "route": "/why-jvto/our-team/fredi",
+      "domain": "why-jvto",
+      "slug": "our-team/fredi",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto__our-team__fredi.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto__our-team__fredi.schema-output.json"
+    },
+    {
+      "route": "/why-jvto/our-team/gufron",
+      "domain": "why-jvto",
+      "slug": "our-team/gufron",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto__our-team__gufron.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto__our-team__gufron.schema-output.json"
+    },
+    {
+      "route": "/why-jvto/our-team/holili",
+      "domain": "why-jvto",
+      "slug": "our-team/holili",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto__our-team__holili.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto__our-team__holili.schema-output.json"
+    },
+    {
+      "route": "/why-jvto/our-team/joyo",
+      "domain": "why-jvto",
+      "slug": "our-team/joyo",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto__our-team__joyo.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto__our-team__joyo.schema-output.json"
+    },
+    {
+      "route": "/why-jvto/our-team/kiki",
+      "domain": "why-jvto",
+      "slug": "our-team/kiki",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto__our-team__kiki.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto__our-team__kiki.schema-output.json"
+    },
+    {
+      "route": "/why-jvto/our-team/rendi",
+      "domain": "why-jvto",
+      "slug": "our-team/rendi",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto__our-team__rendi.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto__our-team__rendi.schema-output.json"
+    },
+    {
+      "route": "/why-jvto/our-team/taufik",
+      "domain": "why-jvto",
+      "slug": "our-team/taufik",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto__our-team__taufik.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto__our-team__taufik.schema-output.json"
+    },
+    {
+      "route": "/why-jvto/our-team/yandi",
+      "domain": "why-jvto",
+      "slug": "our-team/yandi",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto__our-team__yandi.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto__our-team__yandi.schema-output.json"
+    },
+    {
+      "route": "/why-jvto/reviews",
+      "domain": "why-jvto",
+      "slug": "reviews",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto__reviews.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto__reviews.schema-output.json"
+    },
+    {
+      "route": "/why-jvto/the-jvto-difference",
+      "domain": "why-jvto",
+      "slug": "the-jvto-difference",
+      "websiteOutput": "5-experience-engine/public-website/pages/why-jvto__the-jvto-difference.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/why-jvto__the-jvto-difference.schema-output.json"
+    }
+  ]
+}

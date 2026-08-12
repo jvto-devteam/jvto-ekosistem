@@ -1,0 +1,140 @@
+{
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "travel-guide",
+  "slug": "tumpak-sewu-logistics",
+  "route": "/travel-guide/tumpak-sewu-logistics",
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "meta": {
+    "route": "/travel-guide/tumpak-sewu-logistics",
+    "title": "Tumpak Sewu Logistics",
+    "browserTitle": "Tumpak Sewu Logistics: Trek & Safety - JVTO Travel Guide",
+    "description": "Canyon descent, river crossings, and fitness expectations for Java's most dramatic waterfall trail.",
+    "section": "travel-guide",
+    "status": "published",
+    "owner": "operations",
+    "lastReviewed": "2026-08-12",
+    "schemaTypes": [
+      "WebPage",
+      "Article"
+    ],
+    "faqKey": "",
+    "summary": "Tumpak Sewu canyon descent logistics: trail sequence, wet-rock safety, best season, monsoon warnings, and essential equipment."
+  },
+  "seo": {
+    "title": "Tumpak Sewu Logistics: Trek & Safety - JVTO Travel Guide",
+    "description": "Canyon descent, river crossings, and fitness expectations for Java's most dramatic waterfall trail.",
+    "canonicalRoute": "/travel-guide/tumpak-sewu-logistics",
+    "schemaTypes": [
+      "WebPage",
+      "Article"
+    ]
+  },
+  "content": {
+    "format": "structured",
+    "payload": {
+      "hero": {
+        "eyebrow": "Logistics",
+        "meta": "GUIDE / TUMPAK-SEWU",
+        "heading": "Tumpak Sewu: trek & safety.",
+        "lede": "The thousand-stream waterfall is reached by a steep, slippery descent through a jungle ravine - visually unmatched and physically demanding."
+      },
+      "quickFacts": [
+        {
+          "label": "Trek length",
+          "value": "~2 km descent"
+        },
+        {
+          "label": "Difficulty",
+          "value": "Moderate"
+        },
+        {
+          "label": "Footwear",
+          "value": "Grippy hiking shoes"
+        },
+        {
+          "label": "Time on-site",
+          "value": "2-3 hours"
+        }
+      ],
+      "readingTime": "4 min",
+      "intro": "The viewpoint at the rim takes 10 minutes. The descent into the canyon takes around 90 minutes if taken slowly. Guests should expect wet stone, water spray, and river crossings.",
+      "sections": [
+        {
+          "id": "route",
+          "title": "The route",
+          "items": [
+            "Panorama viewpoint at the rim - first stop and photo opportunity.",
+            "Stairs into the canyon - around 600 irregular steps, slippery in places.",
+            "Bamboo ladder section - assisted by local guides.",
+            "River crossing - knee-deep in dry season and potentially waist-deep during monsoon.",
+            "Base of falls - wide pool, water spray, and dramatic light through the gorge."
+          ]
+        },
+        {
+          "id": "when-not-to-go",
+          "title": "When not to go",
+          "body_md": "During and immediately after heavy rain, the canyon floor can flood rapidly. JVTO guides cancel descent when rainfall or water conditions make the canyon unsafe, then substitute an alternative such as Goa Tetes or reschedule where possible."
+        },
+        {
+          "id": "conditions",
+          "title": "Conditions",
+          "items": [
+            {
+              "key": "Best season",
+              "value": "April-October (dry)"
+            },
+            {
+              "key": "Avoid",
+              "value": "January-February (peak monsoon)"
+            },
+            {
+              "key": "Footwear",
+              "value": "Hiking shoes that grip wet rock"
+            },
+            {
+              "key": "Bag",
+              "value": "Dry bag for phone/wallet"
+            }
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Tumpak Sewu Waterfall",
+          "href": "/destinations/tumpak-sewu-waterfall"
+        },
+        {
+          "label": "Browse tours",
+          "href": "/tours"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "key": "",
+    "payload": {
+      "key": "",
+      "items": [],
+      "lastReviewed": "",
+      "owner": "",
+      "reviewStatus": ""
+    }
+  },
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "/Users/macbook/Code/jvto-web/src/app/(website)/travel-guide/tumpak-sewu-logistics/page.tsx"
+    ],
+    "migration_note": "Created from current jvto-web route component because no prior canonical core source existed."
+  }
+}

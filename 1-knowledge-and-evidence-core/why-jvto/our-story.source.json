@@ -1,0 +1,160 @@
+{
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "why-jvto",
+  "slug": "our-story",
+  "route": "/why-jvto/our-story",
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "meta": {
+    "route": "/why-jvto/our-story",
+    "title": "Our Story: Roots & Continuity Since 2015",
+    "browserTitle": "Our Story – JVTO History & Roots Since 2015 | JVTO",
+    "description": "Documented JVTO history: Booking.com award 2015, the Stefan Loose guidebook listing, and physical artifacts tracing the operator's roots in Bondowoso, East Java.",
+    "section": "why-jvto",
+    "status": "published",
+    "owner": "company",
+    "lastReviewed": "2026-08-04",
+    "schemaTypes": [
+      "WebPage"
+    ],
+    "faqKey": "why-jvto-our-story",
+    "summary": "JVTO's documented development from the 2015 guesthouse era to a registered East Java tour operator."
+  },
+  "seo": {
+    "title": "Our Story – JVTO History & Roots Since 2015 | JVTO",
+    "description": "Documented JVTO history: Booking.com award 2015, the Stefan Loose guidebook listing, and physical artifacts tracing the operator's roots in Bondowoso, East Java.",
+    "canonicalRoute": "/why-jvto/our-story",
+    "schemaTypes": [
+      "WebPage"
+    ]
+  },
+  "content": {
+    "format": "json",
+    "payload": {
+      "meta": {
+        "route": "/why-jvto/our-story",
+        "title": "Our Story: Roots & Continuity Since 2015",
+        "browserTitle": "Our Story – JVTO History & Roots Since 2015 | JVTO",
+        "description": "Documented JVTO history: Booking.com award 2015, the Stefan Loose guidebook listing, and physical artifacts tracing the operator's roots in Bondowoso, East Java.",
+        "section": "why-jvto",
+        "status": "published",
+        "owner": "company",
+        "lastReviewed": "2026-08-04",
+        "schemaTypes": [
+          "WebPage"
+        ],
+        "faqKey": "why-jvto-our-story",
+        "summary": "JVTO's documented development from the 2015 guesthouse era to a registered East Java tour operator."
+      },
+      "lede": [
+        "Time on the ground matters. It usually means fewer surprises, stronger local relationships, and calmer handling of real-world issues.",
+        "We keep key artifacts accessible so the journey can be audited.",
+        "Official channels: Website https://javavolcano-touroperator.com • WhatsApp +6282244788833 • Email hello@javavolcano-touroperator.com."
+      ],
+      "sections": [
+        {
+          "id": "company-bio-0",
+          "title": "Company Bio",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "JVTO grew from a humble local guesthouse in Bondowoso into a licensed tour operator shaped by the Tourist Police experience of our founder, Mr. Sam.\n\nWe saw the gaps in safety standards first-hand and decided to build something different: private-only routes, realistic driving days, and clear written rules.\n\nToday, we act as a bridge between wild adventure and professional safety standards.\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "how-we-got-here-1",
+          "title": "How We Got Here",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "### 2015 — The Guesthouse\n\nAgung Sambuko — Mr. Sam — grew up in Bondowoso, the town closest to Kawah Ijen. In 2015 he opened the Ijen Bondowoso Homestay on Jl. Khairil Anwar No.102 (the current office address is No.102A — the 'A' suffix reflects the current office numbering), the same address where JVTO operates today. Booking.com guests rated the property 9.4 / 10 — an award that was shipped to the Bondowoso address that year.\n\nHe was already an active officer in the Indonesian National Police, assigned to Ditpamobvit — the directorate responsible for security at vital tourist objects including the Ijen Crater area. Managing the guesthouse meant he saw both sides of East Java volcano tourism: the visitor experience and the operational safety gaps.\n\n### Legal Formalization — PT Java Volcano Rendezvous\n\nThe guesthouse era grew into PT Java Volcano Rendezvous, formalized with NIB 1102230032918 (TDUP issued 2023). Separately, Stefan Loose Reiseführer Indonesien: mit Reiseatlas (ISBN-13 9783770167654, p. 287) named \"Agung\" as the operator of the Ijen Bondowoso Homestay with tour arrangements — an independent German travel publisher, not a JVTO-authored reference, listing the same name at the same address. Publication year and edition are not asserted.\n\n### 2023 — TDUP Formalization\n\nThe Tourism Business Permit (TDUP) was formalized in 2023, completing the regulatory paperwork chain. NIB 1102230032918 is the government-issued national business registration number, verifiable through Indonesia's OSS system.\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "why-private-only-2",
+          "title": "Why Private-Only",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "The decision to operate private tours exclusively came from what Mr. Sam observed in the field: unlicensed operators running shared groups without consistent guides, no medical screening before Ijen hikes, casual attitudes toward BBKSDA permit requirements, drivers working routes they did not know.\n\nPrivate structure removes the coordination failures that come with mixed groups. Your vehicle and crew are assigned to your booking. Safety decisions are made for your group, not averaged across strangers with different fitness levels and objectives. This is the same operational logic that applies to police convoy coordination — one command authority, clear responsibility, documented route.\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "the-evidence-chain-3",
+          "title": "The Evidence Chain",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "These are third-party records that establish operational continuity at the same Bondowoso address from 2015 to today:\n\n- **Booking.com 2015 Guest Review Award** — shipped to \"Agung, Jl. Khairil Anwar No.102, Bondowoso.\" Plaque: https://javavolcano-touroperator.com/history/booking-2015-plaque.jpg · Shipping label: https://javavolcano-touroperator.com/history/booking-2015-shipping-label.jpg\n- **Stefan Loose Reiseführer Indonesien: mit Reiseatlas, p. 287** — ISBN-13 9783770167654 (ISBN-10 3770167651). \"Agung\" named as operator, independent German-language guidebook. Publication year and edition are not asserted. Page image: https://javavolcano-touroperator.com/history/stefan-loose-ijen-bondowoso-page.png · Mr. Sam holding the book with guests: https://javavolcano-touroperator.com/history/guest-visit-ijen-bondowoso-homestay-stefan-loose-inspired.jpg\n- **Detik.com 2021-03-14** — \"Bripka Agung Sambuko\" named in Tourist Police duties at Ijen. Independent news coverage.\n- **Radar Jember 2021-03-24** — Tourist Police formation for Ijen Geopark. \"Bripka Agung Sambuko\" named.\n- **PT Java Volcano Rendezvous** — legal entity, NIB 1102230032918, AHU-0023020 (no incorporation year asserted).\n- **TDUP formalization** — 2023. Verifiable at /verify-jvto/legal.\n\nAll of this is the same person, the same location, the same operation — documented across commercial platforms, independent press, government registration, and a European travel publisher over an eleven-year span.\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "trust-anchor-4",
+          "title": "Trust Anchor",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "PT Java Volcano Rendezvous · NIB 1102230032918 · Trustpilot 4.8 / 5 (51 reviews, verified 2026-05-09)\n\n→ [Our Team](/why-jvto/our-team) | → [The JVTO Difference](/why-jvto/the-jvto-difference) | → [Verify JVTO](/verify-jvto)"
+            }
+          ]
+        }
+      ],
+      "lastReviewed": "2026-08-07",
+      "owner": "narrative-claims",
+      "reviewStatus": "domain-owner-assigned-by-audit"
+    }
+  },
+  "faq": {
+    "key": "why-jvto-our-story",
+    "payload": {
+      "key": "why-jvto-our-story",
+      "items": [
+        {
+          "question": "When did JVTO start operating?",
+          "answer": "The documented history begins in 2015 with a Booking.com Guest Review Award delivered to the current JVTO office address in Bondowoso. The Stefan Loose travel guide independently names the founder as a tour operator."
+        },
+        {
+          "question": "Is the office address the same as in 2015?",
+          "answer": "Yes. The Booking.com award was shipped to Jl. Khairil Anwar No.102, Bondowoso—the same address where JVTO operates today, confirming operational continuity."
+        },
+        {
+          "question": "Where can I see the historical artifacts?",
+          "answer": "All artifacts (Booking.com plaque, Stefan Loose guidebook page, founder photos, press links) are on this page and in the full Proof Library at /verify-jvto/history-artifacts."
+        },
+        {
+          "question": "Was JVTO mentioned in a printed travel guide?",
+          "answer": "Yes. The Stefan Loose Reiseführer Indonesien: mit Reiseatlas travel guide (page 287) explicitly names the founder Agung as operator of Ijen tours from a Bondowoso address. Publication year and edition are not asserted."
+        },
+        {
+          "question": "How does operational history relate to trust?",
+          "answer": "Time on the ground usually means fewer surprises, stronger local relationships, and calmer handling of real-world issues. The artifacts allow you to audit the history independently."
+        }
+      ],
+      "lastReviewed": "2026-08-07",
+      "owner": "knowledge-faq",
+      "reviewStatus": "domain-owner-assigned-by-audit"
+    }
+  },
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/narrative-claims/why-jvto-pages/our-story.json",
+      "1-knowledge-and-evidence-core/faqs/why-jvto-our-story.json",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

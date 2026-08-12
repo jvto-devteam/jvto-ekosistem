@@ -1,0 +1,140 @@
+{
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "why-jvto",
+  "slug": "reviews",
+  "route": "/why-jvto/reviews",
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "meta": {
+    "route": "/why-jvto/reviews",
+    "title": "Guest Voices: Real Experiences, Independently Verified",
+    "browserTitle": "Guest Reviews – Independent Voices on JVTO Tours | JVTO",
+    "description": "Independent reviews of JVTO on Trustpilot, Google Maps and Tripadvisor. Verified voices — we cannot edit or remove any review on those platforms.",
+    "section": "why-jvto",
+    "status": "published",
+    "owner": "company",
+    "lastReviewed": "2026-08-04",
+    "schemaTypes": [
+      "WebPage"
+    ],
+    "faqKey": "why-jvto-reviews",
+    "summary": "Verified guest reviews across Trustpilot, Google Maps, and TripAdvisor with canonical counts."
+  },
+  "seo": {
+    "title": "Guest Reviews – Independent Voices on JVTO Tours | JVTO",
+    "description": "Independent reviews of JVTO on Trustpilot, Google Maps and Tripadvisor. Verified voices — we cannot edit or remove any review on those platforms.",
+    "canonicalRoute": "/why-jvto/reviews",
+    "schemaTypes": [
+      "WebPage"
+    ]
+  },
+  "content": {
+    "format": "json",
+    "payload": {
+      "meta": {
+        "route": "/why-jvto/reviews",
+        "title": "Guest Voices: Real Experiences, Independently Verified",
+        "browserTitle": "Guest Reviews – Independent Voices on JVTO Tours | JVTO",
+        "description": "Independent reviews of JVTO on Trustpilot, Google Maps and Tripadvisor. Verified voices — we cannot edit or remove any review on those platforms.",
+        "section": "why-jvto",
+        "status": "published",
+        "owner": "company",
+        "lastReviewed": "2026-08-04",
+        "schemaTypes": [
+          "WebPage"
+        ],
+        "faqKey": "why-jvto-reviews",
+        "summary": "Verified guest reviews across Trustpilot, Google Maps, and TripAdvisor with canonical counts."
+      },
+      "lede": [
+        "Reviews matter when they are independent. We link to official platform listings so you can judge patterns yourself.",
+        "JVTO cannot edit or delete reviews on these platforms.",
+        "Official channels: Website https://javavolcano-touroperator.com • WhatsApp +6282244788833 • Email hello@javavolcano-touroperator.com."
+      ],
+      "sections": [
+        {
+          "id": "where-to-check-reviews-official-links",
+          "title": "Where to check reviews (official links)",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "- Tripadvisor: https://www.tripadvisor.com/Attraction_Review-g297715-d19983165-Reviews-Java_Volcano_Tour_Operator-Surabaya_East_Java_Java.html\n- Trustpilot: https://trustpilot.com/review/javavolcano-touroperator.com\n- Google Maps: https://www.google.com/maps?cid=1266403973589689021"
+            }
+          ]
+        },
+        {
+          "id": "what-to-look-for-in-reviews",
+          "title": "What to look for in reviews",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "- Safety mindset and calm decision-making.\n- Guide quality and communication.\n- Logistics: timing, pick-ups, hotel handling.\n- How issues are handled when conditions change."
+            }
+          ]
+        },
+        {
+          "id": "how-we-respond-to-feedback",
+          "title": "How we respond to feedback",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "We read feedback for patterns. If something is unclear, we fix the process and communicate it to the team.\n\nFor rules that affect refunds, changes, or inclusions, the policy pages apply.\n\n- Booking & payment policy: /policy/booking-payment-cancellation\n- Inclusions & exclusions: /policy/inclusions-exclusions"
+            }
+          ]
+        }
+      ],
+      "lastReviewed": "2026-08-07",
+      "owner": "narrative-claims",
+      "reviewStatus": "domain-owner-assigned-by-audit"
+    }
+  },
+  "faq": {
+    "key": "why-jvto-reviews",
+    "payload": {
+      "key": "why-jvto-reviews",
+      "items": [
+        {
+          "question": "Can JVTO edit or delete reviews on Tripadvisor or Trustpilot?",
+          "answer": "No. Reviews on independent platforms (Trustpilot, Google Maps, Tripadvisor) cannot be edited or deleted by JVTO. What you see is what guests submitted."
+        },
+        {
+          "question": "Where can I read JVTO reviews?",
+          "answer": "Independent review platforms: Trustpilot, Google Maps, and Tripadvisor. Direct links are listed on this page."
+        },
+        {
+          "question": "What should I look for when reading reviews?",
+          "answer": "Focus on patterns: safety mindset, guide quality, how logistics were handled, and how issues were resolved when conditions changed."
+        },
+        {
+          "question": "How does JVTO respond to negative feedback?",
+          "answer": "We read feedback for patterns. If something is unclear or wrong, we fix the process and communicate it to the team. For refund or inclusion disputes, policy pages apply."
+        },
+        {
+          "question": "Are there reviews from student travellers?",
+          "answer": "JVTO is a registered ISIC provider — that is a provider listing, not a review platform. Guest reviews, including from student travellers, are on the independent platforms above: Trustpilot, Google Maps, and Tripadvisor. Student-package details: /isic/student-package."
+        }
+      ],
+      "lastReviewed": "2026-08-07",
+      "owner": "knowledge-faq",
+      "reviewStatus": "domain-owner-assigned-by-audit"
+    }
+  },
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/narrative-claims/why-jvto-pages/reviews.json",
+      "1-knowledge-and-evidence-core/faqs/why-jvto-reviews.json",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

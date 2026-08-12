@@ -1,0 +1,24 @@
+{
+  "schema_version": "jvto/output/json-ld-page/v1",
+  "output_type": "json_ld_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/travel-guide/ijen-health-screening",
+  "domain": "travel-guide",
+  "slug": "ijen-health-screening",
+  "json_ld": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Ijen Health Screening – Real Checks, Digital Proof",
+    "description": "The Ijen night hike requires a mandatory health certificate for every guest before crater entry. JVTO arranges the screening; if you're advised not to hike, the climb is cancelled for you (not the group) with safe-zone alternatives.",
+    "url": "https://javavolcano-touroperator.com/travel-guide/ijen-health-screening"
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/health-and-safety-rules/ijen-health-screening.md",
+      "1-knowledge-and-evidence-core/faqs/travel-guide-ijen-health-screening.json",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "jvto/output/json-ld-page/v1",
+  "output_type": "json_ld_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/policy/booking-payment-cancellation",
+  "domain": "policy",
+  "slug": "booking-payment-cancellation",
+  "json_ld": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "JVTO Booking, Payment & Cancellation Policy",
+    "description": "How to book, pay, and cancel with JVTO: website-only booking, 20% deposit, and the Lifetime Package Guarantee — cancel your whole booking 48h+ before Day 1 for 100% Lifetime Package Credit (never expires, not cash).",
+    "url": "https://javavolcano-touroperator.com/policy/booking-payment-cancellation"
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/policies/booking-payment-cancellation.json",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

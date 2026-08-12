@@ -1,0 +1,158 @@
+{
+  "schema_version": "jvto/output/public-website-page/v1",
+  "output_type": "public_website_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/why-jvto/community-standards",
+  "domain": "why-jvto",
+  "slug": "community-standards",
+  "status": "published",
+  "seo": {
+    "title": "Community Standards – Partners, Ethics & Operational Rules | JVTO",
+    "description": "JVTO community standards: HPWKI membership, ISIC provider listing, INDECON network listing, ethical travel commitments, and health screening compliance for Ijen tours.",
+    "canonicalRoute": "/why-jvto/community-standards",
+    "schemaTypes": [
+      "WebPage"
+    ]
+  },
+  "page": {
+    "title": "Community Standards: Partners, Ethics & Operational Rules",
+    "summary": "The standards JVTO holds itself and guests to on every private tour.",
+    "owner": "company",
+    "lastReviewed": "2026-08-04",
+    "content": {
+      "format": "json",
+      "payload": {
+        "meta": {
+          "route": "/why-jvto/community-standards",
+          "title": "Community Standards: Partners, Ethics & Operational Rules",
+          "browserTitle": "Community Standards – Partners, Ethics & Operational Rules | JVTO",
+          "description": "JVTO community standards: HPWKI membership, ISIC provider listing, INDECON network listing, ethical travel commitments, and health screening compliance for Ijen tours.",
+          "section": "why-jvto",
+          "status": "published",
+          "owner": "company",
+          "lastReviewed": "2026-08-04",
+          "schemaTypes": [
+            "WebPage"
+          ],
+          "faqKey": "why-jvto-community-standards",
+          "summary": "The standards JVTO holds itself and guests to on every private tour."
+        },
+        "lede": [
+          "Partnerships matter when they connect to real guest value: fairness, competence, and responsible travel.",
+          "This page also explains the operational standards and commitments that govern every JVTO tour—from financial fairness to mandatory health screening.",
+          "Official channels: Website https://javavolcano-touroperator.com • WhatsApp +6282244788833 • Email hello@javavolcano-touroperator.com."
+        ],
+        "sections": [
+          {
+            "id": "read-the-rulebook-before-you-book-0",
+            "title": "\"Read the Rulebook Before You Book\"",
+            "blocks": [
+              {
+                "type": "markdown",
+                "body_md": "JVTO publishes its rules, policies, and commitments before you pay anything. This is a deliberate choice. Guests who understand the terms before booking have better trips. Guests who discover cancellation policies at checkout do not.\n\nThis page covers what we expect of ourselves and what we ask of guests who book with us.\n\n---"
+              }
+            ]
+          },
+          {
+            "id": "written-rules-before-booking-1",
+            "title": "Written Rules Before Booking",
+            "blocks": [
+              {
+                "type": "markdown",
+                "body_md": "Three customer-facing policy documents are published openly at /policy:\n\n- **Booking, Payment & Cancellation Policy** (/policy/booking-payment-cancellation) — how bookings are confirmed, deposit and balance payment timelines, the 48-hour cancellation cut-off, force-majeure procedures, and the Package Credit system. No verbal promises. The Official E-Voucher / Invoice PDF is the binding document.\n\n- **Inclusions & Exclusions Policy** (/policy/inclusions-exclusions) — written list of what is covered in the price and what is not. The write-it-to-bind-it rule: if it is not on the voucher, it is not included. This policy is what makes the \"no surprise costs\" claim verifiable.\n\n- **Privacy & Data Protection Policy** (/policy/privacy) — what data we collect (contact and booking details, participant details, safety and logistics information), how it is used, and who it is shared with. Payment cards and QRIS are processed through a PCI DSS-compliant gateway (Xendit). JVTO does not store full card numbers, CVVs, or banking credentials.\n\nThe policy hierarchy: the E-Voucher takes precedence, then the Booking Policy, then the Inclusions Policy, then the Privacy Policy, then the Travel Guide. Written documents, in order, not verbal agreements.\n\n---"
+              }
+            ]
+          },
+          {
+            "id": "sulfur-miner-etiquette-ijen-routes-2",
+            "title": "Sulfur Miner Etiquette — Ijen Routes",
+            "blocks": [
+              {
+                "type": "markdown",
+                "body_md": "At Kawah Ijen, the trail from Paltuding to the crater rim is a shared working path. Local miners carry 70–90 kg loads of sulfur blocks from the crater floor — daily, at the same hours tourists are climbing.\n\nJVTO guides brief every Ijen-route group on this before departure:\n\n- **Do not block the path.** Miners are working, not trekking. Move to the side when a load-carrier approaches.\n- **Do not photograph a miner without their consent.** Ask first. If they say no, respect that.\n\nThis briefing is standard, not optional. The Ijen experience includes the mining operation as a human reality of the site — not a photographic attraction.\n\n---"
+              }
+            ]
+          },
+          {
+            "id": "local-boys-policy-community-employment-3",
+            "title": "Local Boys Policy — Community Employment",
+            "blocks": [
+              {
+                "type": "markdown",
+                "body_md": "JVTO recruits guides and drivers from local Bondowoso and Banyuwangi communities. The roster is not sourced from freelance marketplaces or external agencies.\n\nJVTO is publicly listed in the INDECON (Indonesian Ecotourism Network) spotlight network. The listing is verifiable at https://www.indecon.id/spotlight-networks/java-volcano-tour-operator.\n\n11 field crew members appear in the current roster — all with names, photos, and languages listed on the team roster page.\n\n---"
+              }
+            ]
+          },
+          {
+            "id": "what-we-don-t-do-4",
+            "title": "What We Don't Do",
+            "blocks": [
+              {
+                "type": "markdown",
+                "body_md": "From the customer-facing policies and operational standards documented in the wiki:\n\n- We do not collect full card numbers, CVV codes, OTP codes, or online banking passwords via chat or email. Payment is through our secure, PCI DSS-compliant gateway, Xendit.\n- We do not make verbal promises that override the written voucher. If it is not on the E-Voucher, it is not included.\n- We do not source crew from freelance marketplaces. Every guide and driver is a named, registered team member.\n- We do not guarantee natural phenomena. Blue Fire is a natural phenomenon subject to weather and gas activity. We plan around the viewing window — we do not promise outcomes that depend on volcanic gas conditions.\n- We do not operate shared groups. Every tour is private to your booking.\n\n---"
+              }
+            ]
+          },
+          {
+            "id": "trust-anchor-5",
+            "title": "Trust Anchor",
+            "blocks": [
+              {
+                "type": "markdown",
+                "body_md": "PT Java Volcano Rendezvous · NIB 1102230032918 · Trustpilot 4.8 / 5 (51 reviews, verified 2026-05-09)\n\n→ [Policy](/policy) | → [Our Team](/why-jvto/our-team) | → [The JVTO Difference](/why-jvto/the-jvto-difference)"
+              }
+            ]
+          }
+        ],
+        "lastReviewed": "2026-08-07",
+        "owner": "narrative-claims",
+        "reviewStatus": "domain-owner-assigned-by-audit"
+      }
+    },
+    "faq": {
+      "key": "why-jvto-community-standards",
+      "payload": {
+        "key": "why-jvto-community-standards",
+        "items": [
+          {
+            "question": "What partnerships does JVTO hold?",
+            "answer": "JVTO is a registered ISIC provider (student identity card programme), an HPWKI member (Ijen crater operator association), and publicly listed in the INDECON ecotourism network. Details and proof links are on this page."
+          },
+          {
+            "question": "Is health screening on Ijen mandatory?",
+            "answer": "Yes. Health screening is mandatory and non-negotiable for Ijen night hike routes. The system checks SpO2, blood pressure, resting heart rate, and respiratory history. No valid health certificate means no access to the crater zone."
+          },
+          {
+            "question": "What is the cancellation policy in brief?",
+            "answer": "Cancelling the complete booking 48+ hours before Day 1 converts it to 100% Lifetime Package Credit — it never expires, is transferable once, and is not exchangeable for cash. Cancelling the complete booking within 48 hours of Day 1 forfeits it. The policy has explicit exceptions: if one or more travellers cancel while the tour continues, tiered cash refunds apply (100% at 48+ hours, 50% within 48 hours, 0% after Day 1), and verified destination force majeure allows a choice of Package Credit or a cash refund less non-recoverable vendor costs. Full policy: /policy/booking-payment-cancellation."
+          },
+          {
+            "question": "Does JVTO mix strangers into one vehicle?",
+            "answer": "No. JVTO runs private tours only. Your vehicle and crew are allocated exclusively for your booking."
+          },
+          {
+            "question": "What does JVTO's ISIC provider listing mean for students?",
+            "answer": "JVTO offers student-focused pricing on selected tours for verified ISIC cardholders. Details and eligibility are at /isic/student-package."
+          }
+        ],
+        "lastReviewed": "2026-08-07",
+        "owner": "knowledge-faq",
+        "reviewStatus": "domain-owner-assigned-by-audit"
+      }
+    }
+  },
+  "render_contract": {
+    "consumer": "jvto-web",
+    "route_level_payload": true,
+    "website_should_not_resolve_raw_sources": true
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/narrative-claims/why-jvto-pages/community-standards.json",
+      "1-knowledge-and-evidence-core/faqs/why-jvto-community-standards.json",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

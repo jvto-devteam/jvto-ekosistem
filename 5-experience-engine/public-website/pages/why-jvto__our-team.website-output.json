@@ -1,0 +1,314 @@
+{
+  "schema_version": "jvto/output/public-website-page/v1",
+  "output_type": "public_website_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/why-jvto/our-team",
+  "domain": "why-jvto",
+  "slug": "our-team",
+  "status": "published",
+  "seo": {
+    "title": "Our Team – Local East Java Guides & Drivers | JVTO",
+    "description": "Meet JVTO's local East Java team: 11 active crew profiles — experienced guides and drivers who handle daily volcano tour logistics for Bromo, Ijen, and Tumpak Sewu.",
+    "canonicalRoute": "/why-jvto/our-team",
+    "schemaTypes": [
+      "WebPage"
+    ]
+  },
+  "page": {
+    "title": "Local Team, Daily Execution",
+    "summary": "JVTO's active crew — 11 published profiles (7 guides + 4 drivers) — their credentials, and how the team operates.",
+    "owner": "company",
+    "lastReviewed": "2026-08-04",
+    "content": {
+      "format": "json",
+      "payload": {
+        "meta": {
+          "route": "/why-jvto/our-team",
+          "title": "Local Team, Daily Execution",
+          "browserTitle": "Our Team – Local East Java Guides & Drivers | JVTO",
+          "description": "Meet JVTO's local East Java team: 11 active crew profiles — experienced guides and drivers who handle daily volcano tour logistics for Bromo, Ijen, and Tumpak Sewu.",
+          "section": "why-jvto",
+          "status": "published",
+          "owner": "company",
+          "lastReviewed": "2026-08-04",
+          "schemaTypes": [
+            "WebPage"
+          ],
+          "faqKey": "why-jvto-our-team",
+          "summary": "JVTO's active crew — 11 published profiles (7 guides + 4 drivers) — their credentials, and how the team operates."
+        },
+        "lede": [
+          "Great tours are not just itineraries. They are daily coordination: drivers, guides, timing, hotels, permits, and mountain rules.",
+          "We focus on private trips with a local East Java team so execution stays consistent.",
+          "Official channels: Website https://javavolcano-touroperator.com • WhatsApp +6282244788833 • Email hello@javavolcano-touroperator.com."
+        ],
+        "sections": [
+          {
+            "id": "guardian-mindset",
+            "title": "How To Read This Team Page",
+            "blocks": [
+              {
+                "type": "markdown",
+                "body_md": "Crew bios across the tourism industry default to \"friendly\", \"knowledgeable\", \"passionate\". Those words tell you nothing. JVTO frames the crew differently: as **protectors with specific training and operational accountability**, not as enjoyable company.\n\n> A JVTO guide doesn't just walk you up the crater. They're a HPWKI-registered member who completed BBKSDA-supervised SAR and first-aid training at Paltuding (May 2024). When Rendi held hands with guests on the steep crater descent, that's training, not personality.\n\nThe framing principle: lead with competence, let warmth emerge from specifics. \"Safety-first\" alone is insufficient — cite the credential chain (KTA → HPWKI → BBKSDA) and let the named moments do the rest."
+              }
+            ]
+          },
+          {
+            "id": "trust-pillar-crew-mapping",
+            "title": "Which Crew Member Owns Which Trust Pillar",
+            "blocks": [
+              {
+                "type": "markdown",
+                "body_md": "JVTO publishes 7 trust pillars in the trust-pillar matrix below, spanning the why-jvto, verify-jvto, and tour pages. Each pillar is anchored to a specific crew member (or set) whose lived experience and credentials carry the proof load. Use this as a reading key: when you see a pillar cited elsewhere on the site, this is who actually delivers it.\n\n| Trust Pillar | Primary crew | Key evidence |\n|---|---|---|\n| 1. Police-Led Safety (C1) | Mr. Sam (founder) | SPRIN POLPAR, Detik 2021 overnight deployment |\n| 2. Medical Precision (C4) | Dr. Irwandanu + all guides | BBKSDA SE.1658, SIP verifiable at Kemenkes |\n| 3. Local Territory Mastery (C2) | Gufron, Anjas, Rendi | KTA + geological + SAR expertise |\n| 4. Transparency & Documentation (C3, C5) | Yandi, Fredi | Review excerpts — briefings, punctuality |\n| 5. Guest Hospitality (C7) | Boy, Kiki, Taufik, Fauzi | Named in reviews, photography, warmth |\n| 6. Environmental Stewardship (C8) | All guides — INDECON-listed operator | \"Local Boys\" policy, community employment |\n| 7. Credential Verification (C5, C9) | Whole crew via KTA chain | HPWKI AHU registry, BBKSDA training record |\n\nBelow: the five archetype crew whose names appear most in reviews and on tour-page evidence callouts. The archetype label is shorthand for the role they play across the operational matrix.\n\n| Crew | KTA | Archetype | Defining evidence |\n|---|---|---|---|\n| Joyo | KTA-D-2024-011 (DB 73) | Precision Professional | *\"I drive fast, but always cleanly, smoothly, and safely.\"* |\n| Yandi | KTA-D-2024-003 (DB 1) | Senior Touring Specialist | 4.94/5.0 across 17 reviews. *\"Briefed us on what to expect.\"* |\n| Fredi | KTA-D-2024-005 (DB 7) | Reliability Anchor | *\"Always on time no matter what time of the day\"* — Pooja Prakash |\n| Gufron | KTA-G-2024-001 (DB 39) | Expert Guide | Geological + photography expertise. Divya_Stri Sep 2025 review |\n| Anjas | KTA-G-2024-006 (DB 3) | Youth/Creative | 4.91/5.0 average. Astrophotography. *\"Anjas was the highlight.\"* |"
+              }
+            ]
+          },
+          {
+            "id": "meet-our-team",
+            "title": "Meet Our Team",
+            "blocks": [
+              {
+                "type": "crew_grid",
+                "items": [
+                  {
+                    "name": "Gufron",
+                    "role": "Guide",
+                    "about": "I place the highest priority on safety and risk management. I have a strong intuitive sense that helps me read situations quickly. Passionate about photography and music.",
+                    "phone": "+6282266696590",
+                    "facebook": "https://www.facebook.com/ghufrano.septian",
+                    "instagram": "https://www.instagram.com/gfranosept",
+                    "languages": "English, Indonesian",
+                    "photo_url": "https://javavolcano-touroperator.com/uploads/1768225567764-405955176-gufron.png",
+                    "highlights": [
+                      "Friendly & fun",
+                      "Knowledgeable guide",
+                      "Great logistics"
+                    ]
+                  },
+                  {
+                    "name": "Rendi",
+                    "role": "Guide",
+                    "about": "Love meeting people from different backgrounds and making every trip feel easy and enjoyable. Always make sure safety during the trip and make unforgettable moments.",
+                    "phone": "+6285230753827",
+                    "facebook": "https://www.facebook.com/share/14TiR46vXSx/",
+                    "instagram": "https://www.instagram.com/rrivaldy17",
+                    "languages": "English, Indonesian",
+                    "photo_url": "https://javavolcano-touroperator.com/uploads/1768228514527-518051332-rendi.png",
+                    "highlights": [
+                      "Friendly & fun",
+                      "Safety-first",
+                      "Great logistics"
+                    ]
+                  },
+                  {
+                    "name": "Yandi",
+                    "role": "Driver",
+                    "about": "Love meeting people from different backgrounds and making every trip feel easy and enjoyable. Always make sure safety during the trip.",
+                    "phone": "+6285330695662",
+                    "facebook": "https://www.facebook.com/yendi.juned",
+                    "instagram": "",
+                    "languages": "English, Indonesian",
+                    "photo_url": "https://javavolcano-touroperator.com/uploads/1768270364125-144711646-yandi.png",
+                    "highlights": [
+                      "Friendly & fun",
+                      "Great logistics",
+                      "Knowledgeable guide"
+                    ]
+                  },
+                  {
+                    "name": "Boy",
+                    "role": "Guide",
+                    "about": "I am a local resident who enjoys welcoming visitors and sharing stories about this area. Happy to help travelers explore the natural beauty and local culture.",
+                    "phone": "+6282139202828",
+                    "facebook": "https://www.facebook.com/muhammad.trezzakuzha",
+                    "instagram": "https://www.instagram.com/trisbalii",
+                    "languages": "English, Indonesian",
+                    "photo_url": "https://javavolcano-touroperator.com/uploads/1768228191022-893381041-boy.png",
+                    "highlights": [
+                      "Friendly & fun",
+                      "Knowledgeable guide",
+                      "Safety-first"
+                    ]
+                  },
+                  {
+                    "name": "Fredi",
+                    "role": "Driver",
+                    "about": "Experienced Tour Driver committed to making your travels memorable. I combine safe driving skills with a friendly attitude to provide a stress-free experience.",
+                    "phone": "+628233933939",
+                    "facebook": "https://www.facebook.com/share/1BY73z5qs5/",
+                    "instagram": "https://www.instagram.com/frdyska",
+                    "languages": "English, Indonesian",
+                    "photo_url": "https://javavolcano-touroperator.com/uploads/1768276791622-262250680-freddy.png",
+                    "highlights": [
+                      "Friendly & fun",
+                      "Great logistics",
+                      "Always on time"
+                    ]
+                  },
+                  {
+                    "name": "Anjas",
+                    "role": "Guide",
+                    "about": "I am a chill guy who loves brainrot memes, games, and all kinds of music. Let me show you how beautiful East Java is.",
+                    "phone": "+6281332112387",
+                    "facebook": "",
+                    "instagram": "https://www.instagram.com/anjasstywn",
+                    "languages": "English, Indonesian",
+                    "photo_url": "https://javavolcano-touroperator.com/uploads/1768270423657-690185912-anjas.png",
+                    "highlights": [
+                      "Friendly & fun",
+                      "Great logistics",
+                      "Great photos"
+                    ]
+                  },
+                  {
+                    "name": "Taufik",
+                    "role": "Guide",
+                    "about": "Reliable and organized with strong communication skills. My goal is to add value through hard work and a positive, proactive attitude.",
+                    "phone": "+6283122231599",
+                    "facebook": "https://www.facebook.com/share/1GGHkXSBQH/",
+                    "instagram": "https://www.instagram.com/taufik_fik.21",
+                    "languages": "English, Indonesian",
+                    "photo_url": "https://javavolcano-touroperator.com/uploads/1768228083285-919198019-taufik_1_.png",
+                    "highlights": [
+                      "Friendly & fun",
+                      "Knowledgeable guide",
+                      "Great logistics"
+                    ]
+                  },
+                  {
+                    "name": "Kiki",
+                    "role": "Guide",
+                    "about": "\"It is He who made the earth manageable for you—so walk among its slopes and eat of His provision.\" (67:15)",
+                    "phone": "+6281231981409",
+                    "facebook": "https://m.facebook.com/osamu.tezuka.5243/",
+                    "instagram": "https://www.instagram.com/kiki.the.explorer",
+                    "languages": "English, Indonesian",
+                    "photo_url": "https://javavolcano-touroperator.com/uploads/1768271545598-834784538-kiki.png",
+                    "highlights": [
+                      "Friendly & fun",
+                      "Knowledgeable guide"
+                    ]
+                  },
+                  {
+                    "name": "Holili",
+                    "role": "Driver",
+                    "about": "I am a Java Volcano driver who dedicates myself to serving all Java Volcano customers wholeheartedly.",
+                    "phone": "+6282335267511",
+                    "facebook": "https://www.facebook.com/hongz.sevenfoldism",
+                    "instagram": "https://www.instagram.com/hongzsevenfoldism",
+                    "languages": "Indonesian",
+                    "photo_url": "https://javavolcano-touroperator.com/uploads/1768277053384-470130286-holili.jpg",
+                    "highlights": [
+                      "Friendly & fun",
+                      "Great logistics"
+                    ]
+                  },
+                  {
+                    "name": "Fauzi",
+                    "role": "Guide",
+                    "about": "I am a friendly guide who loves taking photos for guests and quickly connects with people. I enjoy making trips fun, relaxed, and memorable.",
+                    "phone": "+6285171620319",
+                    "facebook": "https://www.facebook.com/share/14TnVhvZg6Q",
+                    "instagram": "https://www.instagram.com/srjdnfauzi_",
+                    "languages": "Indonesian",
+                    "photo_url": "https://javavolcano-touroperator.com/uploads/1768226003889-338819579-fauzi.png",
+                    "highlights": [
+                      "Friendly & fun",
+                      "Great photos"
+                    ]
+                  },
+                  {
+                    "name": "Joyo",
+                    "role": "Driver",
+                    "about": "I drive fast, but always cleanly, smoothly, and safely. Clients frequently tell me I am their number one choice because they know they will get there quickly without feeling unsafe.",
+                    "phone": "+6285334116339",
+                    "facebook": "https://www.facebook.com/udit.wahyudi.2025",
+                    "instagram": "",
+                    "languages": "Indonesian",
+                    "photo_url": "https://javavolcano-touroperator.com/uploads/1768277336049-911840775-joyo.png",
+                    "highlights": [
+                      "Professional driver",
+                      "Clean and safe"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "markdown",
+                "body_md": "Our local East Java team brings years of experience and deep knowledge of volcano logistics. Click each team member for detailed profile."
+              }
+            ]
+          },
+          {
+            "id": "dream-team-pairing-how-it-works",
+            "title": "Dream Team pairing (how it works)",
+            "blocks": [
+              {
+                "type": "markdown",
+                "body_md": "Many trips run smoother with a clear pairing: one person focuses on driving and timing, another focuses on guest flow and guiding.\n\nThis is not about luxury. It’s about reducing mistakes when routes are long and schedules are tight.\n\n- Driver: safe driving, timing, road conditions, vehicle readiness.\n- Escort guide: guest briefings, translations, pace, logistics coordination.\n- Local volcano guide (when required): site rules, on-trail guidance."
+              }
+            ]
+          },
+          {
+            "id": "operational-playbook-overview",
+            "title": "Operational playbook (overview)",
+            "blocks": [
+              {
+                "type": "markdown",
+                "body_md": "- Private tours only (no mixing groups).\n- Clear pick-up details and confirmations before travel days.\n- Hotel handling aligned to itinerary days (check-in control).\n- Early communication when conditions change.\n- Plain-language rules live in /travel-guide and /policy."
+              }
+            ]
+          }
+        ],
+        "lastReviewed": "2026-08-07",
+        "owner": "narrative-claims",
+        "reviewStatus": "domain-owner-assigned-by-audit"
+      }
+    },
+    "faq": {
+      "key": "why-jvto-our-team",
+      "payload": {
+        "key": "why-jvto-our-team",
+        "items": [
+          {
+            "question": "How many crew members does JVTO have?",
+            "answer": "JVTO currently operates with 11 active crew members—a mix of guides and drivers based in East Java."
+          },
+          {
+            "question": "Do guides speak English?",
+            "answer": "Most JVTO guides are English-speaking. Driver-only roles may be Indonesian-speaking, always paired with an English-speaking escort guide on multi-day routes."
+          },
+          {
+            "question": "What is the Dream Team pairing?",
+            "answer": "For multi-day tours, JVTO pairs a dedicated driver (focused on safety, timing, road conditions) with an escort guide (focused on guest briefings, pace, and logistics). This reduces mistakes on long routes."
+          },
+          {
+            "question": "Are guides licensed?",
+            "answer": "Yes. JVTO uses licensed local site guides at key locations (Bromo, Ijen, Tumpak Sewu) as required by park and authority regulations, in addition to the escort guide."
+          },
+          {
+            "question": "Can I request a specific guide or driver?",
+            "answer": "You can mention a preference when booking via official channels. Crew assignment depends on availability and route requirements. Contact us at WhatsApp +6282244788833 or hello@javavolcano-touroperator.com."
+          }
+        ],
+        "lastReviewed": "2026-08-07",
+        "owner": "knowledge-faq",
+        "reviewStatus": "domain-owner-assigned-by-audit"
+      }
+    }
+  },
+  "render_contract": {
+    "consumer": "jvto-web",
+    "route_level_payload": true,
+    "website_should_not_resolve_raw_sources": true
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/narrative-claims/why-jvto-pages/our-team.json",
+      "1-knowledge-and-evidence-core/faqs/why-jvto-our-team.json",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

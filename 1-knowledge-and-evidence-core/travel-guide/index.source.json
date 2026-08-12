@@ -1,0 +1,78 @@
+{
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "travel-guide",
+  "slug": "index",
+  "route": "/travel-guide",
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "meta": {
+    "route": "/travel-guide",
+    "title": "Travel Guide – Safety, Health & Practical Information",
+    "browserTitle": "Travel Guide – Safety, Booking & Practical Info | JVTO",
+    "description": "JVTO's official travel guide: booking steps, safety rules, Ijen health screening, weather and closures, packing list, and police escort for groups.",
+    "section": "travel-guide",
+    "status": "published",
+    "owner": "operations",
+    "lastReviewed": "2026-08-04",
+    "schemaTypes": [
+      "CollectionPage"
+    ],
+    "faqKey": "",
+    "summary": "Hub for JVTO travel guidance: booking, safety, health screening, packing, weather and closures."
+  },
+  "seo": {
+    "title": "Travel Guide – Safety, Booking & Practical Info | JVTO",
+    "description": "JVTO's official travel guide: booking steps, safety rules, Ijen health screening, weather and closures, packing list, and police escort for groups.",
+    "canonicalRoute": "/travel-guide",
+    "schemaTypes": [
+      "CollectionPage"
+    ]
+  },
+  "content": {
+    "format": "markdown",
+    "payload": {
+      "frontmatter": {
+        "route": "/travel-guide",
+        "title": "Travel Guide – Safety, Health & Practical Information",
+        "browserTitle": "Travel Guide – Safety, Booking & Practical Info | JVTO",
+        "description": "JVTO's official travel guide: booking steps, safety rules, Ijen health screening, weather and closures, packing list, and police escort for groups.",
+        "section": "travel-guide",
+        "status": "published",
+        "owner": "operations",
+        "lastReviewed": "2026-08-04",
+        "schemaTypes": [
+          "CollectionPage"
+        ],
+        "summary": "Hub for JVTO travel guidance: booking, safety, health screening, packing, weather and closures."
+      },
+      "body_md": "\n**Title tag:** Travel Guide – Safety, Health & Practical Information | Java Volcano Tour Operator  \n**Meta description:** Official travel guide for private tours with Java Volcano Tour Operator (JVTO). Learn about booking, safety, Ijen health screening, weather and closures, packing, police escort for groups and ISIC student deals.\n\n## **H1**\n\n**Travel Guide – Safety, Health & Practical Information**\n\n## **Hero Intro**\n\n**Use this Travel Guide as JVTO’s official handbook for planning private tours to Mount Bromo, Kawah Ijen, and Tumpak Sewu.** Java Volcano Tour Operator (JVTO) is presented here as a licensed Indonesian inbound operator based in Bondowoso, specialising in private, all-inclusive routes to East Java’s key volcano and waterfall destinations.\n\n**Understand how JVTO handles safety, health, weather, closures, payments, and student deals before you book or travel.** This page summarises the key topics and directs you to dedicated detail pages for each subject.\n\n**Use your Official E-Voucher / Invoice and the Booking, Payment & Cancellation Policy as the final reference for legal or case-specific details.** This Travel Guide is a plain-language summary designed to help guests understand how things work, but binding terms remain in your official booking documents.\n\n### **Primary CTAs**\n\n**How to book & pay →** /travel-guide/booking-information  \n**Browse private tours →** /tours\n\n---\n\n## **Latest JVTO Update (Placeholder Block)**\n\n**Check this “Latest JVTO update” card for time-sensitive operational notes before departure.** This section is reserved for information your team can confirm and update routinely.\n\n**Last updated:** \\[DD Month YYYY\\]  \n**Bromo:** \\[short operational note – e.g., “operating normally; cold and windy conditions possible at sunrise.”\\]  \n**Ijen:** \\[short note – e.g., “night hikes require health screening and may be adjusted based on sulfur gas and wind.”\\]  \n**Tumpak Sewu:** \\[short note – e.g., “lower paths can be slippery after heavy rain; guides may change timings or access.”\\]\n\n**Review the relevant preparation pages if you are travelling soon.** Guests travelling in the next few weeks should review **Packing & Fitness**, **Safety on Tours**, and **Weather & Closures** before departure.\n\n**Only publish what you can reasonably confirm at the time of update.** Do not include rumours, assumptions, or unverified claims.\n\n---\n\n## **JVTO Operating Status (East Java Volcano Routes)**\n\n**Treat JVTO’s operating status as an operations update for JVTO routes—not a country-level travel advisory.** JVTO currently operates private, pre-booked tours on standard East Java routes, subject to weather, volcanic activity, and access regulations.\n\n**Expect tour plans to follow official sources and local access rules.** We plan and adjust tours based on official information (including MAGMA / PVMBG) and local park management.\n\n**Expect partial restrictions even when tours are running.** Some viewpoints, hiking sections, or waterfall access may be temporarily restricted even when the tour program continues.\n\n**Expect itinerary changes to follow the rules in Weather & Closures and Booking, Payment & Cancellation.** Changes are handled according to those pages and your booking documents.\n\n**Check your own government’s travel advice for country-level alerts.** Guests should consult official travel advisories issued by their own governments in addition to this guide.\n\n---\n\n## **On This Page (In-page Navigation)**\n\n**Use this section as a quick index of the key topics.**\n\n* Safety on JVTO tours  \n* Health & Ijen screening  \n* Weather, volcano alerts & closures  \n* Packing & fitness  \n* Booking, payments & Package Credit  \n* Traffic police escort for groups  \n* ISIC student deals  \n* Official sources & external links\n\n---\n\n## **Safety on JVTO Tours (Panel Summary)**\n\n**Expect JVTO tours to be run as private-only, pre-briefed programs with defined safety procedures.** JVTO is presented here as a licensed inbound operator led by an active Tourist Police officer in East Java, and all tours are stated to be private-only (no mixed groups, no transport-only tickets).\n\n**Expect routing and decisions to adapt to conditions and regulations.** We monitor official information on volcanic activity and weather, apply safety procedures on roads and trails, and adjust itineraries when conditions or regulations make the original plan unsafe.\n\n**CTA:** Read full safety overview → /travel-guide/safety-on-tours\n\n---\n\n## **Health & Ijen Screening (Panel Summary)**\n\n**Expect Ijen night hikes to require screening and to remain subject to safety decisions even after clearance.** Kawah Ijen is described here as a night hike at altitude with possible sulfur gas exposure.\n\n**Expect screening to be included for eligible JVTO guests and to be digitally verifiable.** For JVTO guests joining Ijen hikes, the package includes a formal health screening by trained medical staff, recorded digitally on a BSrE-signed certificate.\n\n**Expect the public tool to exist, and expect hikes to be modified or cancelled if conditions are unsafe.** The same digital system is described as available to other travellers via a public tool. A cleared screening reduces risk but does not remove it; hikes may still be cancelled or modified based on conditions.\n\n**CTA:** Ijen health screening – what we do and why → /travel-guide/ijen-health-screening\n\n---\n\n## **Weather, Volcano Alerts & Closures (Panel Summary)**\n\n**Expect natural conditions to change access and require adjustments to plans.** Heavy rain, landslides, volcanic ash, gas, smoke, floods, forest fires, road damage, or official ceremonies can affect access to Bromo, Ijen, and Tumpak Sewu.\n\n**Expect JVTO to distinguish partial closures from full closures and propose alternatives where possible.** Some issues affect only one viewpoint or path; others trigger full closure.\n\n**Expect Package Credit options to follow the Booking Policy and your E-Voucher.** When changes are required, JVTO applies the options defined in the Booking, Payment & Cancellation Policy and your Official E-Voucher / Invoice, including Package Credit where applicable.\n\n**CTA:** How JVTO handles weather, volcano alerts and closures → /travel-guide/weather-and-closures\n\n---\n\n## **Packing & Fitness (Panel Summary)**\n\n**Expect these routes to be non-technical but physically demanding for many travellers.** Early starts, night hiking, cold winds, steep paths, stairs, and wet or slippery sections can apply across Bromo, Ijen, and Tumpak Sewu.\n\n**Expect the guide to provide self-checks and packing lists, not medical approval.** The Packing & Fitness guide explains a basic self-check, what to pack for all routes, and extra items for Bromo sunrise, Ijen night hikes, and Tumpak Sewu.\n\n**Expect final hike decisions to follow screening, on-site conditions, and safety assessments.** The guide is a preparation reference; it does not override screening or safety decisions.\n\n**CTA:** Packing list & fitness checklist → /travel-guide/packing-and-fitness\n\n---\n\n## **Booking, Payments & Package Credit (Panel Summary)**\n\n**Expect JVTO bookings to operate as private, all-inclusive tours on a pre-booked basis.** The Booking Information page explains booking requests, confirmation steps, deposits, payment timing, and methods.\n\n**Expect Package Credit to be the core cancellation mechanism rather than cash refunds.** The summary references Package Credit, how it is used, and why cash refunds are not provided, balanced by Package Credit flexibility.\n\n**Expect different time windows to affect cancellations and changes.** The page describes changes, reschedules, and cancellations across different timelines.\n\n**CTA:** Full booking, payment & Package Credit rules → /travel-guide/booking-information\n\n---\n\n## **Traffic Police Escort for Groups (Panel Summary)**\n\n**Expect escort to be considered only for larger groups and only through formal approval.** For larger groups (example: around 18 guests or more with multi-vehicle convoys), JVTO may propose requesting official traffic police escort for specific road segments.\n\n**Expect escort to be official, conditional, documented, and not automatic.** Escort is provided by the official traffic police unit, subject to law, written approval, and availability.\n\n**Expect escort to be for safe convoy movement—not to bypass rules or guarantee faster travel.** If approved, details and any charges are listed in your quotation and Official E-Voucher / Invoice.\n\n**Expect no escort unless it is explicitly written.** If escort is not stated in your booking documents, the tour should be considered to run without escort.\n\n**CTA:** How official traffic police escort works for tourist groups → /travel-guide/police-escort-for-groups\n\n---\n\n## **ISIC Student Deals (Panel Summary)**\n\n**Expect ISIC student deals to be presented as a fairness mechanism against higher foreign fees.** Through collaboration with ISIC, JVTO describes student-focused structures on selected tours for verified students.\n\n**Expect eligibility and verification details to be defined on the ISIC page.** The ISIC page explains eligible tours, how to present valid ISIC identification, and how student pricing interacts with standard booking and Package Credit rules.\n\n**CTA:** ISIC student packages → /isic/student-package\n\n---\n\n## **Official Sources & External Links (Panel Summary)**\n\n**Use official Indonesian sources and your own government’s travel advice alongside this Travel Guide.** JVTO states it monitors official Indonesian authorities for planning and adjustments.\n\n**Use MAGMA Indonesia / PVMBG for volcano and geohazard context, and VONA for advanced aviation-related notices.** Links are presented as references rather than copied content.\n\n**Use local park and government announcements for temporary closures and ceremony-related restrictions.** Access rules may change due to closures, restricted zones, and official events.\n\n**Use your own government’s travel advisory for country-level security, health, and entry requirements.** JVTO positions this guide as complementary to—not a replacement for—government advisories.\n\n---\n\n## **Document Priority Reminder (Bottom of Page)**\n\n**Treat your Official E-Voucher / Invoice as the highest authority for your specific booking.** If there is ever a difference between website wording and booking documents, the order of priority is:\n\n1. Official E-Voucher / Invoice (specific booking)  \n2. Booking, Payment & Cancellation Policy  \n3. Inclusions & Exclusions Policy  \n4. General website text and informal communication\n\n**Verify uncertainties via official JVTO channels before travel.** Contact JVTO using the official contact details listed on the website if you are unsure how a rule applies.\n\n---\n\n\\[Unverified\\] I cannot verify factual assertions inside the drafts (e.g., licensing status, police roles, external source descriptions). The content below is an **Answer First rewrite** of your provided text only, formatted as **paste-ready blocks per URL**.\n\n---\n"
+    }
+  },
+  "faq": {
+    "key": "",
+    "payload": {
+      "key": "",
+      "items": [],
+      "lastReviewed": "",
+      "owner": "",
+      "reviewStatus": ""
+    }
+  },
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/index.md",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

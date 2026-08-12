@@ -1,0 +1,126 @@
+name: Deploy JVTO Ecosystem
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: jvto-ekosistem-deploy
+  cancel-in-progress: true
+
+jobs:
+  validate-build-deploy:
+    name: Validate, render, build, and deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    env:
+      DEPLOY_PATH: /var/www/jvto-ekosistem
+      PM2_APP_NAME: jvto-ekosistem
+      APP_PORT: 4178
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Audit Tina CMS content
+        run: npm run cms:audit -- --verbose
+
+      - name: Render website outputs
+        run: npm run render:web-content
+
+      - name: Validate TinaCloud secrets
+        env:
+          NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
+          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+        run: |
+          if [ -z "$NEXT_PUBLIC_TINA_CLIENT_ID" ] || [ -z "$TINA_TOKEN" ]; then
+            echo "Missing NEXT_PUBLIC_TINA_CLIENT_ID or TINA_TOKEN secret."
+            exit 1
+          fi
+
+      - name: Build Tina admin
+        env:
+          NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
+          NEXT_PUBLIC_TINA_BRANCH: main
+          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+        run: npm run cms:build
+
+      - name: Verify generated route count
+        run: |
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const index = JSON.parse(fs.readFileSync('5-experience-engine/manifests/route-output-index.json', 'utf8'));
+          if (index.routes.length !== 34) {
+            throw new Error(`Expected 34 live-aligned routes, got ${index.routes.length}`);
+          }
+          console.log(`Route count OK: ${index.routes.length}`);
+          NODE
+
+      - name: Configure SSH
+        env:
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+        run: |
+          if [ -z "$VPS_SSH_KEY" ] || [ -z "$VPS_HOST" ]; then
+            echo "Missing VPS_SSH_KEY or VPS_HOST secret."
+            exit 1
+          fi
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/jvto-ekosistem
+          chmod 600 ~/.ssh/jvto-ekosistem
+
+      - name: Deploy files to VPS
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          VPS_PORT: ${{ secrets.VPS_PORT }}
+        run: |
+          USERNAME="${VPS_USER:-root}"
+          PORT="${VPS_PORT:-22}"
+          SSH_OPTS="-i ~/.ssh/jvto-ekosistem -p ${PORT} -o StrictHostKeyChecking=accept-new"
+
+          ssh $SSH_OPTS "$USERNAME@$VPS_HOST" "mkdir -p '$DEPLOY_PATH'"
+          rsync -az --delete \
+            -e "ssh $SSH_OPTS" \
+            --exclude '.git/' \
+            --exclude '.github/' \
+            --exclude 'node_modules/' \
+            --exclude '.env' \
+            --exclude '.env.*' \
+            --exclude 'public/uploads/' \
+            ./ "$USERNAME@$VPS_HOST:$DEPLOY_PATH/"
+
+      - name: Install production dependencies and restart PM2
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          VPS_PORT: ${{ secrets.VPS_PORT }}
+        run: |
+          USERNAME="${VPS_USER:-root}"
+          PORT="${VPS_PORT:-22}"
+          SSH_OPTS="-i ~/.ssh/jvto-ekosistem -p ${PORT} -o StrictHostKeyChecking=accept-new"
+
+          ssh $SSH_OPTS "$USERNAME@$VPS_HOST" "
+            set -euo pipefail
+            cd '$DEPLOY_PATH'
+            npm ci --omit=dev
+            if pm2 describe '$PM2_APP_NAME' >/dev/null 2>&1; then
+              PORT='$APP_PORT' pm2 reload '$PM2_APP_NAME' --update-env
+            else
+              PORT='$APP_PORT' pm2 start server.mjs --name '$PM2_APP_NAME' --update-env
+            fi
+            pm2 save
+          "

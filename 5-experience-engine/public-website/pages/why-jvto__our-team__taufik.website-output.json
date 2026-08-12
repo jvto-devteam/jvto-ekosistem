@@ -1,0 +1,201 @@
+{
+  "schema_version": "jvto/output/public-website-page/v1",
+  "output_type": "public_website_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/why-jvto/our-team/taufik",
+  "domain": "why-jvto",
+  "slug": "our-team/taufik",
+  "status": "published",
+  "seo": {
+    "title": "Taufik — JVTO Tour Guide",
+    "description": "Taufik is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+    "canonicalRoute": "/why-jvto/our-team/taufik",
+    "schemaTypes": [
+      "ProfilePage",
+      "Person"
+    ]
+  },
+  "page": {
+    "title": "Taufik — JVTO Tour Guide",
+    "summary": "Taufik public JVTO tour guide profile, credential summary, specialties, and featured guest reviews.",
+    "owner": "company",
+    "lastReviewed": "2026-08-05",
+    "content": {
+      "format": "structured",
+      "payload": {
+        "type": "crew_profile",
+        "hero": {
+          "eyebrow": "Why JVTO · Our Team",
+          "meta": "Tour Guide",
+          "heading": "Taufik",
+          "lede": "Reliable and organized with strong communication skills. My goal is to add value through hard work and a positive, proactive attitude."
+        },
+        "member": {
+          "code": "taufik",
+          "name": "Taufik",
+          "role": "guide",
+          "jobTitle": "Tour Guide",
+          "languages": [
+            "Indonesian",
+            "English"
+          ],
+          "specialties": [
+            "pre-hike briefings",
+            "mixed-age / family guiding",
+            "patient pacing"
+          ],
+          "kta": {
+            "id": "KTA-G-2024-007",
+            "credentialType": "HPWKI membership credential (KTA)",
+            "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)",
+            "credentialState": "confirmed"
+          },
+          "image": {
+            "src": "/uploads/1768228083285-919198019-taufik_1_.png",
+            "alt": "JVTO guide Taufik"
+          }
+        },
+        "bio": {
+          "about": "Reliable and organized with strong communication skills. My goal is to add value through hard work and a positive, proactive attitude.",
+          "facebook": "https://www.facebook.com/share/1GGHkXSBQH/",
+          "instagram": "https://www.instagram.com/taufik_fik.21",
+          "languages": "English, Indonesian",
+          "photo_url": "https://javavolcano-touroperator.com/uploads/1768228083285-919198019-taufik_1_.png",
+          "highlights": [
+            "Friendly & fun",
+            "Knowledgeable guide",
+            "Great logistics"
+          ]
+        },
+        "featuredReviews": [
+          {
+            "reviewId": "google-review-78",
+            "reviewerName": "HuiYuan Yeoh",
+            "date": "2026-07-12",
+            "star": 5,
+            "reviewExcerpt": "Booked the 4d3n tour to Tumpak Sewu, Mt Bromo and Kawah Ijen from the JVTO website. A really memorable trip with spectacular views, well organised itinerary, decent accommodations and the best tour guides. We always arrived early at the waterfall and mountains to avoid the crowds which is a huge plus point.\n\nSpecial thanks to Fauzi for taking good care of us the entire trip. He was friendly, hilarious and easy goi...",
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pBM1duTXdZWHBsWmxCd1NYVXhiVU5UWDNWVVYyYxAB",
+            "package": null,
+            "media": [
+              {
+                "id": "AbFvOqnUdmA7ymsrqQGtcBXoYCWU4ZFbwbLW9Rq2NPfHhR2WgV_PEqz53OxDuk3qaxD2brkuWYz2vQ-1",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmM9TOdUBuY0xwD9x7QPNcRZKKti3cwpzPHTe4Oo_zvXdmVsxxxpiiNfBJw4t-MBo8WTjBkmwguWGCExHeg7OZRF5GGGtLVLFGjX4rjeA_S3z2nkCpm4JpLIXtHf9mdtGWgzQHIptzzuDFpE=k-no",
+                "thumbnailLabel": "Mount Bromo sunrise landscape view",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqnUdmA7ymsrqQGtcBXoYCWU4ZFbwbLW9Rq2NPfHhR2WgV_PEqz53OxDuk3qaxD2brkuWYz2vQ-2",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMztSDWLvf2IHxG_hNm_c4hbuWue7kt5xrraOz2ddsQuSn_iM-gBdQ-kEFCkYwTU1fiAEP-0CU6hF8xi6cQ6W38VXG0oQ1IkQ8zA6eiRbscUbO5UBm6FgtFCAM-4p1dgvePTMcyACDpBLB4=k-no",
+                "thumbnailLabel": "Sunrise view of Mount Bromo",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqnUdmA7ymsrqQGtcBXoYCWU4ZFbwbLW9Rq2NPfHhR2WgV_PEqz53OxDuk3qaxD2brkuWYz2vQ-3",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOCSVrRTSiIu7ReIfMVxCsi2IKWDt56d38LjiIKc0PUTORipySLiByo3P0gTV1fbcZvwuliTAp9wSk1xfHWy8CnZvadkuuhLVUqxHGBtO-NVkdOGPW4dIV3NF8xb179zYesfeNgBl6HS9ze=k-no",
+                "thumbnailLabel": "Off-road jeep mountain tour",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqnUdmA7ymsrqQGtcBXoYCWU4ZFbwbLW9Rq2NPfHhR2WgV_PEqz53OxDuk3qaxD2brkuWYz2vQ-4",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPEC2x3x-U4AfARQGtwdHagaj_rZ5voLlPT3B7mtX3YjkUlSM50MrLXsH1fExt67SN4o5WciobbURRBPK4Xj0IYlXCJ0d6vYYfyG1hpEJ-1CtvOkc5cDetjql-G_wVDe5TMF_XLdRmKjG-x=k-no",
+                "thumbnailLabel": "fauzi😎😎",
+                "videoUrl": ""
+              }
+            ]
+          },
+          {
+            "reviewId": "google-review-213",
+            "reviewerName": "Haikang Tan",
+            "date": "2024-12-27",
+            "star": 5,
+            "reviewExcerpt": "Our family of four did the 3D2N Ijen, Bromo and Madakaripura Waterfalls. We were guided by experienced guide and driver who were friendly and warm.\\nWe were well taken care of throughout. Big thanks to our guide Taufik and driver Johan.",
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/ChZDSUhNMG9nS0VJQ0FnSUNma3VyWFpBEAE",
+            "package": {
+              "name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+              "slug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n"
+            },
+            "media": [
+              {
+                "id": "AbFvOqlni03hLvZxkR0bck_-OWy6uBSGiXCnb5Aa1Wv68_1YTPDQCDzrVzNrPz5apYvSDL3thnpAQQ-1",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMZ_cdhyjJlJrik148S-3Do3oaOPMurYhuWDe7roXz8wcSmb2vmTXymQfIngDJPJDbMLIcJM6K2YK1l1sSrWlOtUbHPKU35V0UpCiQZIXOhwQgMdYnPPknb2GHYH-zL15f_um50=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqlni03hLvZxkR0bck_-OWy6uBSGiXCnb5Aa1Wv68_1YTPDQCDzrVzNrPz5apYvSDL3thnpAQQ-2",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNzAupaxg79cZ2iJRacOcbTE9TkVN9Lexi8yO1S29v1DQfT9RhpmCx2ooZEcVzZMPwKvAfbivUISlj38JKIvlGwe2PFVpcwm3N2QcZa-Z9aUo8Ymg-eGOiQC1MicrsvNc-16n0J=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqlni03hLvZxkR0bck_-OWy6uBSGiXCnb5Aa1Wv68_1YTPDQCDzrVzNrPz5apYvSDL3thnpAQQ-3",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOz7JtZuOKIPkPjI016CuaNLyAZgQUWYR5aSMa_dLWKR-ZogAqo1nGaL2JeRqmaApr0eaAOP3dP40_AHJcKp5Yfo8MSQdgV-pcrDTObzIbWIlZpt5rBjkO84t1AMIvmcBvHkeJLAA=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              }
+            ]
+          },
+          {
+            "reviewId": "google-review-236",
+            "reviewerName": "Desiree Lim",
+            "date": "2024-04-28",
+            "star": 5,
+            "reviewExcerpt": "Views of Ijen and Bromo are spectacular. Tour guide Taufik is humorous and very patient. He is so experienced and gives very good estimations of timings such that we caught all the pretty sceneries at the exact right timings. He also helps us along the way on the more difficult treks. Best tour guide! Driver Johan drives smoothly and fast. Your operator also replies very promptly. Good tour! Will recommend!! :)",
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/ChZDSUhNMG9nS0VJQ0FnSURqc09EbE1BEAE",
+            "package": {
+              "name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+              "slug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n"
+            },
+            "media": [
+              {
+                "id": "AbFvOqljjwui43NScH9UN4XbGoIlAUJCgrxqrwxo_vtqN-rdVfDBiWh_ORJOEtFK66KRWNX-ksIRtw-1",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmP7z5klBIgr0nSaw9iSEi2fyq1LYwwJh66Z6H-bQHg14rwM4J4Bml9KCnlgnkY4zlaMXAX7QPmutaKqFsTmN5TQ3RD_s3lh7kSC06JkTIJzE3qMcdMZfLUoqWsgYtzMT5dTB4clcA=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              }
+            ]
+          }
+        ],
+        "related": [
+          {
+            "label": "Full team overview",
+            "href": "/why-jvto/our-team"
+          },
+          {
+            "label": "All reviews",
+            "href": "/why-jvto/reviews"
+          },
+          {
+            "label": "Book a tour",
+            "href": "/tours"
+          }
+        ]
+      }
+    },
+    "faq": null
+  },
+  "render_contract": {
+    "consumer": "jvto-web",
+    "route_level_payload": true,
+    "website_should_not_resolve_raw_sources": true
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:57:49.134Z",
+    "source_files": [
+      "/Users/macbook/Code/jvto-web/content/entities/people.json",
+      "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+      "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+      "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+      "https://javavolcano-touroperator.com/sitemap.xml"
+    ],
+    "migration_note": "Created to align JVTO Operating Ecosystem source routes with the live jvto-web public Why JVTO crew detail pages. Personal phone fields from the team content source are intentionally excluded because the live detail page does not render them."
+  }
+}

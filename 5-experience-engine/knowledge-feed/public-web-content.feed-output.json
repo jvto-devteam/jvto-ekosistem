@@ -1,0 +1,698 @@
+{
+  "schema_version": "jvto/output/knowledge-feed/v1",
+  "output_type": "public_web_content_feed",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "record_count": 34,
+  "records": [
+    {
+      "route": "/policy",
+      "domain": "policy",
+      "slug": "index",
+      "title": "JVTO Policy Hub",
+      "summary": "Navigation hub for the JVTO policy documents: privacy, booking/payment/cancellation, and inclusions/exclusions.",
+      "status": "published",
+      "owner": "legal",
+      "lastReviewed": "2026-08-04",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/policies/index.md",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/policy/booking-payment-cancellation",
+      "domain": "policy",
+      "slug": "booking-payment-cancellation",
+      "title": "JVTO Booking, Payment & Cancellation Policy",
+      "summary": "Booking is website-only with a 20% deposit; full cancellation 48h+ before Day 1 converts to 100% Lifetime Package Credit.",
+      "status": "published",
+      "owner": "legal",
+      "lastReviewed": "2026-08-11",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/policies/booking-payment-cancellation.json",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/policy/inclusions-exclusions",
+      "domain": "policy",
+      "slug": "inclusions-exclusions",
+      "title": "JVTO Inclusions & Exclusions Policy",
+      "summary": "What is included vs not included in JVTO private tour packages, under the 'Write-it-to-bind-it' principle.",
+      "status": "published",
+      "owner": "legal",
+      "lastReviewed": "2026-08-04",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/policies/inclusions-exclusions.md",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/policy/privacy",
+      "domain": "policy",
+      "slug": "privacy",
+      "title": "JVTO Privacy & Data Protection Policy",
+      "summary": "How JVTO collects, uses, stores, and shares the personal data required to operate a tour booking.",
+      "status": "published",
+      "owner": "legal",
+      "lastReviewed": "2026-08-04",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/policies/privacy.md",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/travel-guide",
+      "domain": "travel-guide",
+      "slug": "index",
+      "title": "Travel Guide – Safety, Health & Practical Information",
+      "summary": "Hub for JVTO travel guidance: booking, safety, health screening, packing, weather and closures.",
+      "status": "published",
+      "owner": "operations",
+      "lastReviewed": "2026-08-04",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/index.md",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/travel-guide/best-time-to-visit",
+      "domain": "travel-guide",
+      "slug": "best-time-to-visit",
+      "title": "Best Time to Visit East Java: Bromo, Ijen & Tumpak Sewu",
+      "summary": "Month-by-month guide to the best time to visit Mount Bromo, Ijen blue fire, and Tumpak Sewu — the dry-season vs wet-season trade-offs for each destination.",
+      "status": "published",
+      "owner": "operations",
+      "lastReviewed": "2026-08-06",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/best-time-to-visit.json",
+        "1-knowledge-and-evidence-core/faqs/travel-guide-best-time-to-visit.json",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/travel-guide/booking-information",
+      "domain": "travel-guide",
+      "slug": "booking-information",
+      "title": "Booking Information – How JVTO Private Tours Work",
+      "summary": "How JVTO private tour booking works: website-only booking, payments, changes, and Lifetime Package Credit.",
+      "status": "published",
+      "owner": "operations",
+      "lastReviewed": "2026-08-06",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/booking-information.md",
+        "1-knowledge-and-evidence-core/faqs/travel-guide-booking-information.json",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/travel-guide/faq",
+      "domain": "travel-guide",
+      "slug": "faq",
+      "title": "Frequently Asked Questions",
+      "summary": "Frequently asked questions about JVTO private Bromo, Ijen, and Tumpak Sewu tours — booking, payments, safety, health screening, weather, luggage, groups, and support.",
+      "status": "published",
+      "owner": "editorial",
+      "lastReviewed": "2026-08-06",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/faqs/travel-guide-faq-page.json",
+        "1-knowledge-and-evidence-core/faqs/travel-guide-faq-page.json",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/travel-guide/ijen-health-screening",
+      "domain": "travel-guide",
+      "slug": "ijen-health-screening",
+      "title": "Ijen Health Screening – Real Checks, Digital Proof",
+      "summary": "The mandatory Ijen health screening: real checks at your hotel, a BSrE-signed digital certificate, checked at the crater access gate.",
+      "status": "published",
+      "owner": "operations",
+      "lastReviewed": "2026-08-04",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/health-and-safety-rules/ijen-health-screening.md",
+        "1-knowledge-and-evidence-core/faqs/travel-guide-ijen-health-screening.json",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/travel-guide/mount-bromo-logistics",
+      "domain": "travel-guide",
+      "slug": "mount-bromo-logistics",
+      "title": "Mount Bromo Logistics",
+      "summary": "Bromo sunrise logistics: private 4WD jeep, viewpoint choice, night sequence, altitude, cold-weather preparation, and crater timing.",
+      "status": "published",
+      "owner": "operations",
+      "lastReviewed": "2026-08-12",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "/Users/macbook/Code/jvto-web/src/app/(website)/travel-guide/mount-bromo-logistics/page.tsx"
+      ]
+    },
+    {
+      "route": "/travel-guide/packing-and-fitness",
+      "domain": "travel-guide",
+      "slug": "packing-and-fitness",
+      "title": "Packing & Fitness for Bromo, Ijen & Tumpak Sewu",
+      "summary": "What to pack and the fitness needed for Bromo, Ijen, and Tumpak Sewu.",
+      "status": "published",
+      "owner": "operations",
+      "lastReviewed": "2026-08-04",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/health-and-safety-rules/packing-and-fitness.md",
+        "1-knowledge-and-evidence-core/faqs/travel-guide-packing-and-fitness.json",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/travel-guide/packing-list",
+      "domain": "travel-guide",
+      "slug": "packing-list",
+      "title": "Packing List for East Java",
+      "summary": "Packing list for East Java volcano and waterfall routes: clothing layers, footwear, equipment, personal medical items, and destination temperature context.",
+      "status": "published",
+      "owner": "operations",
+      "lastReviewed": "2026-08-12",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "/Users/macbook/Code/jvto-web/src/app/(website)/travel-guide/packing-list/page.tsx"
+      ]
+    },
+    {
+      "route": "/travel-guide/police-escort-for-groups",
+      "domain": "travel-guide",
+      "slug": "police-escort-for-groups",
+      "title": "Traffic Police Escort for Tourist Groups in East Java",
+      "summary": "How JVTO coordinates an official traffic police escort for large tourist groups in East Java — a formal request process through the Traffic Police (Ditlantas), qualifying group size, and what approval does and does not mean.",
+      "status": "published",
+      "owner": "operations",
+      "lastReviewed": "2026-08-06",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/health-and-safety-rules/police-escort-for-groups.json",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/travel-guide/rijik-monthly-closure",
+      "domain": "travel-guide",
+      "slug": "rijik-monthly-closure",
+      "title": "Ijen Rijik: The Monthly Closure Day at Kawah Ijen",
+      "summary": "Why Kawah Ijen closes on the first Friday of every month (the Rijik conservation cleanup, since March 2019) and how JVTO schedules Ijen itineraries around it.",
+      "status": "published",
+      "owner": "operations",
+      "lastReviewed": "2026-08-06",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/health-and-safety-rules/rijik-monthly-closure.json",
+        "1-knowledge-and-evidence-core/faqs/travel-guide-rijik-monthly-closure.json",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/travel-guide/safety-on-tours",
+      "domain": "travel-guide",
+      "slug": "safety-on-tours",
+      "title": "Safety on JVTO Tours",
+      "summary": "How JVTO plans for safety on private volcano tours and what guests should know.",
+      "status": "published",
+      "owner": "operations",
+      "lastReviewed": "2026-08-04",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/health-and-safety-rules/safety-on-tours.md",
+        "1-knowledge-and-evidence-core/faqs/travel-guide-safety-on-tours.json",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/travel-guide/tumpak-sewu-logistics",
+      "domain": "travel-guide",
+      "slug": "tumpak-sewu-logistics",
+      "title": "Tumpak Sewu Logistics",
+      "summary": "Tumpak Sewu canyon descent logistics: trail sequence, wet-rock safety, best season, monsoon warnings, and essential equipment.",
+      "status": "published",
+      "owner": "operations",
+      "lastReviewed": "2026-08-12",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "/Users/macbook/Code/jvto-web/src/app/(website)/travel-guide/tumpak-sewu-logistics/page.tsx"
+      ]
+    },
+    {
+      "route": "/travel-guide/weather-and-closures",
+      "domain": "travel-guide",
+      "slug": "weather-and-closures",
+      "title": "Weather, Volcano Alerts & Closures",
+      "summary": "How weather, volcano alerts, and closures affect tours and how JVTO handles changes.",
+      "status": "published",
+      "owner": "operations",
+      "lastReviewed": "2026-08-04",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/health-and-safety-rules/weather-and-closures.md",
+        "1-knowledge-and-evidence-core/faqs/travel-guide-weather-and-closures.json",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/why-jvto",
+      "domain": "why-jvto",
+      "slug": "index",
+      "title": "Why Travel with Java Volcano Tour Operator (JVTO)",
+      "summary": "Why travelers choose JVTO: police-led safety, verifiable credentials, private-only tours, and documented history.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-04",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/narrative-claims/why-jvto-pages/index.json",
+        "1-knowledge-and-evidence-core/faqs/why-jvto-hub.json",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/why-jvto/community-standards",
+      "domain": "why-jvto",
+      "slug": "community-standards",
+      "title": "Community Standards: Partners, Ethics & Operational Rules",
+      "summary": "The standards JVTO holds itself and guests to on every private tour.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-04",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/narrative-claims/why-jvto-pages/community-standards.json",
+        "1-knowledge-and-evidence-core/faqs/why-jvto-community-standards.json",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-story",
+      "domain": "why-jvto",
+      "slug": "our-story",
+      "title": "Our Story: Roots & Continuity Since 2015",
+      "summary": "JVTO's documented development from the 2015 guesthouse era to a registered East Java tour operator.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-04",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/narrative-claims/why-jvto-pages/our-story.json",
+        "1-knowledge-and-evidence-core/faqs/why-jvto-our-story.json",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team",
+      "domain": "why-jvto",
+      "slug": "our-team",
+      "title": "Local Team, Daily Execution",
+      "summary": "JVTO's active crew — 11 published profiles (7 guides + 4 drivers) — their credentials, and how the team operates.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-04",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/narrative-claims/why-jvto-pages/our-team.json",
+        "1-knowledge-and-evidence-core/faqs/why-jvto-our-team.json",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/anjas",
+      "domain": "why-jvto",
+      "slug": "our-team/anjas",
+      "title": "Anjas — JVTO Tour Guide",
+      "summary": "Anjas public JVTO tour guide profile, credential summary, specialties, and featured guest reviews.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-05",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "/Users/macbook/Code/jvto-web/content/entities/people.json",
+        "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+        "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+        "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+        "https://javavolcano-touroperator.com/sitemap.xml"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/boy",
+      "domain": "why-jvto",
+      "slug": "our-team/boy",
+      "title": "Boy (Ahboy) — JVTO Tour Guide",
+      "summary": "Boy (Ahboy) public JVTO tour guide profile, credential summary, specialties, and featured guest reviews.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-05",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "/Users/macbook/Code/jvto-web/content/entities/people.json",
+        "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+        "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+        "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+        "https://javavolcano-touroperator.com/sitemap.xml"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/fauzi",
+      "domain": "why-jvto",
+      "slug": "our-team/fauzi",
+      "title": "Fauzi — JVTO Tour Guide",
+      "summary": "Fauzi public JVTO tour guide profile, credential summary, specialties, and featured guest reviews.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-05",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "/Users/macbook/Code/jvto-web/content/entities/people.json",
+        "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+        "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+        "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+        "https://javavolcano-touroperator.com/sitemap.xml"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/fredi",
+      "domain": "why-jvto",
+      "slug": "our-team/fredi",
+      "title": "Fredi — JVTO Tour Driver",
+      "summary": "Fredi public JVTO tour driver profile, credential summary, specialties, and featured guest reviews.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-05",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "/Users/macbook/Code/jvto-web/content/entities/people.json",
+        "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+        "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+        "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+        "https://javavolcano-touroperator.com/sitemap.xml"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/gufron",
+      "domain": "why-jvto",
+      "slug": "our-team/gufron",
+      "title": "Gufron — JVTO Tour Guide",
+      "summary": "Gufron public JVTO tour guide profile, credential summary, specialties, and featured guest reviews.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-05",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "/Users/macbook/Code/jvto-web/content/entities/people.json",
+        "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+        "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+        "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+        "https://javavolcano-touroperator.com/sitemap.xml"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/holili",
+      "domain": "why-jvto",
+      "slug": "our-team/holili",
+      "title": "Holili — JVTO Tour Driver",
+      "summary": "Holili public JVTO tour driver profile, credential summary, specialties, and featured guest reviews.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-05",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "/Users/macbook/Code/jvto-web/content/entities/people.json",
+        "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+        "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+        "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+        "https://javavolcano-touroperator.com/sitemap.xml"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/joyo",
+      "domain": "why-jvto",
+      "slug": "our-team/joyo",
+      "title": "Joyo — JVTO Tour Driver",
+      "summary": "Joyo public JVTO tour driver profile, credential summary, specialties, and featured guest reviews.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-05",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "/Users/macbook/Code/jvto-web/content/entities/people.json",
+        "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+        "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+        "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+        "https://javavolcano-touroperator.com/sitemap.xml"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/kiki",
+      "domain": "why-jvto",
+      "slug": "our-team/kiki",
+      "title": "Kiki — JVTO Tour Guide",
+      "summary": "Kiki public JVTO tour guide profile, credential summary, specialties, and featured guest reviews.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-05",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "/Users/macbook/Code/jvto-web/content/entities/people.json",
+        "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+        "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+        "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+        "https://javavolcano-touroperator.com/sitemap.xml"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/rendi",
+      "domain": "why-jvto",
+      "slug": "our-team/rendi",
+      "title": "Rendi — JVTO Tour Guide",
+      "summary": "Rendi public JVTO tour guide profile, credential summary, specialties, and featured guest reviews.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-05",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "/Users/macbook/Code/jvto-web/content/entities/people.json",
+        "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+        "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+        "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+        "https://javavolcano-touroperator.com/sitemap.xml"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/taufik",
+      "domain": "why-jvto",
+      "slug": "our-team/taufik",
+      "title": "Taufik — JVTO Tour Guide",
+      "summary": "Taufik public JVTO tour guide profile, credential summary, specialties, and featured guest reviews.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-05",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "/Users/macbook/Code/jvto-web/content/entities/people.json",
+        "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+        "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+        "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+        "https://javavolcano-touroperator.com/sitemap.xml"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/yandi",
+      "domain": "why-jvto",
+      "slug": "our-team/yandi",
+      "title": "Yandi — JVTO Tour Driver",
+      "summary": "Yandi public JVTO tour driver profile, credential summary, specialties, and featured guest reviews.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-05",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "/Users/macbook/Code/jvto-web/content/entities/people.json",
+        "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+        "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+        "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+        "https://javavolcano-touroperator.com/sitemap.xml"
+      ]
+    },
+    {
+      "route": "/why-jvto/reviews",
+      "domain": "why-jvto",
+      "slug": "reviews",
+      "title": "Guest Voices: Real Experiences, Independently Verified",
+      "summary": "Verified guest reviews across Trustpilot, Google Maps, and TripAdvisor with canonical counts.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-04",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/narrative-claims/why-jvto-pages/reviews.json",
+        "1-knowledge-and-evidence-core/faqs/why-jvto-reviews.json",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/why-jvto/the-jvto-difference",
+      "domain": "why-jvto",
+      "slug": "the-jvto-difference",
+      "title": "The JVTO Difference: Safety Leadership and Verified Proof",
+      "summary": "What sets JVTO apart: police-led operations, mandatory Ijen health screening, and written, verifiable rules.",
+      "status": "published",
+      "owner": "company",
+      "lastReviewed": "2026-08-04",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/narrative-claims/why-jvto-pages/the-jvto-difference.json",
+        "1-knowledge-and-evidence-core/faqs/why-jvto-the-jvto-difference.json",
+        "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    }
+  ]
+}

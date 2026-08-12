@@ -1,0 +1,192 @@
+{
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "why-jvto",
+  "slug": "the-jvto-difference",
+  "route": "/why-jvto/the-jvto-difference",
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "meta": {
+    "route": "/why-jvto/the-jvto-difference",
+    "title": "The JVTO Difference: Safety Leadership and Verified Proof",
+    "browserTitle": "The JVTO Difference: Safety Leadership & Verified Proof",
+    "description": "What sets JVTO apart: Tourist Police-led safety mindset, documented operational discipline, and a full proof library anyone can verify independently.",
+    "section": "why-jvto",
+    "status": "published",
+    "owner": "company",
+    "lastReviewed": "2026-08-04",
+    "schemaTypes": [
+      "WebPage"
+    ],
+    "faqKey": "why-jvto-the-jvto-difference",
+    "summary": "What sets JVTO apart: police-led operations, mandatory Ijen health screening, and written, verifiable rules."
+  },
+  "seo": {
+    "title": "The JVTO Difference: Safety Leadership & Verified Proof",
+    "description": "What sets JVTO apart: Tourist Police-led safety mindset, documented operational discipline, and a full proof library anyone can verify independently.",
+    "canonicalRoute": "/why-jvto/the-jvto-difference",
+    "schemaTypes": [
+      "WebPage"
+    ]
+  },
+  "content": {
+    "format": "json",
+    "payload": {
+      "meta": {
+        "route": "/why-jvto/the-jvto-difference",
+        "title": "The JVTO Difference: Safety Leadership and Verified Proof",
+        "browserTitle": "The JVTO Difference: Safety Leadership & Verified Proof",
+        "description": "What sets JVTO apart: Tourist Police-led safety mindset, documented operational discipline, and a full proof library anyone can verify independently.",
+        "section": "why-jvto",
+        "status": "published",
+        "owner": "company",
+        "lastReviewed": "2026-08-04",
+        "schemaTypes": [
+          "WebPage"
+        ],
+        "faqKey": "why-jvto-the-jvto-difference",
+        "summary": "What sets JVTO apart: police-led operations, mandatory Ijen health screening, and written, verifiable rules."
+      },
+      "lede": [
+        "JVTO is led by Agung Sambuko (Mr. Sam), Founder & Active Tourist Police Officer. The value is not a marketing title—it's an operational mindset.",
+        "In volcano travel, the key is not predicting nature. It's managing risk, timing, logistics, and decisions when conditions change.",
+        "Every safety claim we make is backed by documents and third-party sources—organized so you can check them before you book.",
+        "Official channels: Website https://javavolcano-touroperator.com • WhatsApp +6282244788833 • Email hello@javavolcano-touroperator.com."
+      ],
+      "sections": [
+        {
+          "id": "overview-0",
+          "title": "Overview",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "Six things that make JVTO operationally different from other East Java volcano tour operators. Each one is backed by a verifiable credential — not marketing language.\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "1-police-led-safety-authority-1",
+          "title": "1. Police-Led Safety Authority",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "JVTO's founder, Bripka Agung Sambuko, is an active officer in Ditpamobvit — the Indonesian National Police directorate responsible for security at designated vital objects, including the Ijen Crater area. Tourist safety at Ijen is his professional jurisdiction, not a personal interest.\n\nNo other East Java volcano tour operator is led by an active Tourist Police officer. Three independent press articles (Detik.com 2021-03-14, Radar Jember 2021-03-24, Radar Jember 2021-05-27) name Bripka Agung Sambuko in operational Tourist Police duties at Ijen — this is not self-reported.\n\n**Verifiable credential**: SPRIN WAL TRAVEL 2024-02-12 (SHA256: 179b061a…) [image](https://javavolcano-touroperator.com/legal/SPRIN-WAL-TRAVEL-2024-02-12.png) · SPRIN POLPAR (SHA256: 03c8578d…) [image](https://javavolcano-touroperator.com/legal/SPRIN-POLPAR.png) · Press archive + field photos at /verify-jvto/police-safety\n\n*(POLPAR is a police unit designation — it appears here under Police-Led rather than in the Licenses list below.)*\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "2-100-private-tours-2",
+          "title": "2. 100% Private Tours",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "Every JVTO tour runs with a dedicated vehicle, driver, and guide assigned to your group only. No shared groups, no mixed itineraries, no timing compromises because another party needs to be somewhere.\n\nPrivate structure means your schedule runs on your group's pace (within safety limits), your early start is not coordinated around strangers, and safety decisions are made for your group alone. Vehicle allocation scales by group size: MPV for 2–3 guests, Toyota Hiace for 4–9, Hiace plus MPV for 10–11.\n\n**Verifiable credential**: NIB 1102230032918 · TDUP (OSS-verifiable) — confirmed private-tour operator registration\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "3-all-inclusive-clarity-written-inclusions-no-surp-3",
+          "title": "3. All-Inclusive Clarity — Written Inclusions, No Surprise Costs",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "The price includes private transport for all land sectors (fuel, tolls, parking), accommodation with breakfast for all overnight stays, all entrance tickets and park permits, daily bottled water, Ijen safety gear (gas mask, trekking poles) when Ijen is in the itinerary, a Bromo private 4WD jeep (max 4 guests for comfort and safety) when Bromo is in the itinerary, and a JVTO travel T-shirt.\n\nWhat is included is written on the official tour page and the E-Voucher PDF. What is not included is listed explicitly. The voucher is the binding document — if it is not on the voucher, it is not included.\n\n**Verifiable credential**: Inclusions & Exclusions Policy at /policy/inclusions-exclusions — full written list, no verbal promises\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "4-ijen-health-screening-coordination-4",
+          "title": "4. Ijen Health-Screening Coordination",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "On itineraries that include Mount Ijen, JVTO coordinates a mandatory health-screening step for every guest before crater entry. This is not a JVTO-imposed formality — it is a regulatory requirement under BBKSDA Surat Edaran SE.1658/KSA.9/2024.\n\nJVTO coordinates the clinic workflow through Dr. Ahmad Irwandanu (SIP-licensed, Kemenkes RI, independently verifiable at satusehat.kemkes.go.id/sdmk). The process issues a BSrE-signed surat sehat (health certificate) required at the crater access gate. Oxygen saturation, blood pressure, heart rate, and respiratory history are recorded. No valid health certificate means no access to the crater zone — that rule is BBKSDA's, not ours.\n\n**Verifiable credential**: BBKSDA SE.1658/KSA.9/2024 · Dr. Ahmad Irwandanu SIP at satusehat.kemkes.go.id/sdmk/nakes/QN00001073380217 · Full protocol at /travel-guide/ijen-health-screening\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "5-verifiable-licenses-a-proof-library-not-a-logo-w-5",
+          "title": "5. Verifiable Licenses — A Proof Library, Not a Logo Wall",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "JVTO holds and publishes the following credentials:\n\n- **NIB 1102230032918** — national business registration number (OSS-verifiable)\n- **TDUP** — Tourism Business Permit, issued 2023-02-11\n- **HPWKI membership** — AHU-0001072.AH.01.07.TAHUN 2024, state-recognized Ijen crater operator association\n- **BBKSDA clearance** — operator permit for Kawah Ijen access\n- **ISIC provider 259268** — UNESCO-endorsed student identity verification\n- **INDECON network listing** — publicly listed in the Indonesian Ecotourism Network directory\n\nEach credential is listed with verification instructions at /verify-jvto. SHA-256 anchors are on file for key documents.\n\n**Verifiable credential**: /verify-jvto/legal — AHU link for HPWKI, OSS link for NIB, ISIC provider page for student verification\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "6-plan-b-framework-written-closure-sop-6",
+          "title": "6. Plan B Framework — Written Closure SOP",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "Volcanic conditions, weather, and government closure decisions are outside any operator's control. What is within our control is having a written response plan before departure.\n\nJVTO operates a Plan B framework: documented alternative routes and itinerary substitutions activated when a site closes or conditions change. The closure response protocol is in the Travel Guide before you book — not invented on the day. Guests who review us note that briefings happen before each activity, not at the gate.\n\n**Verifiable credential**: Travel Guide at /travel-guide — Plan B and force-majeure procedures published pre-booking · Booking, Payment & Cancellation Policy at /policy/booking-payment-cancellation\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "trust-anchor-7",
+          "title": "Trust Anchor",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "PT Java Volcano Rendezvous · NIB 1102230032918 · Trustpilot 4.8 / 5 (51 reviews, verified 2026-05-09)\n\n→ [Reviews](/why-jvto/reviews) | → [Our Team](/why-jvto/our-team) | → [Verify JVTO](/verify-jvto)"
+            }
+          ]
+        }
+      ],
+      "lastReviewed": "2026-08-07",
+      "owner": "narrative-claims",
+      "reviewStatus": "domain-owner-assigned-by-audit"
+    }
+  },
+  "faq": {
+    "key": "why-jvto-the-jvto-difference",
+    "payload": {
+      "key": "why-jvto-the-jvto-difference",
+      "items": [
+        {
+          "question": "Who leads JVTO operations?",
+          "answer": "JVTO is founded and led by Agung Sambuko (Mr. Sam), an active Tourist Police officer in East Java. This shapes the safety mindset across all tours."
+        },
+        {
+          "question": "What does tourist police-led actually mean for my trip?",
+          "answer": "It means safety decisions, timing, and coordination follow a disciplined protocol—not improvisation. Clear boundaries, early adjustments, and honest communication when conditions change."
+        },
+        {
+          "question": "How can I verify JVTO claims independently?",
+          "answer": "Use the Proof Library at /verify-jvto. Legal documents, police-related files, press links, and history artifacts are organized so you can check each claim before booking."
+        },
+        {
+          "question": "Does JVTO guarantee volcano phenomena like blue fire?",
+          "answer": "No. Natural phenomena depend on conditions and cannot be guaranteed. What JVTO offers is disciplined planning and honest communication when the situation changes.",
+          "note": "drift-ok: canonical negation — quotes the forbidden phrase in question form; the answer is 'No' (facts-lock compliant)"
+        },
+        {
+          "question": "Where are the binding terms for my booking?",
+          "answer": "Binding terms are in your Official E-Voucher / Invoice (PDF) and the policy pages at /policy. Website content is informational only."
+        }
+      ],
+      "lastReviewed": "2026-08-07",
+      "owner": "knowledge-faq",
+      "reviewStatus": "domain-owner-assigned-by-audit"
+    }
+  },
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/narrative-claims/why-jvto-pages/the-jvto-difference.json",
+      "1-knowledge-and-evidence-core/faqs/why-jvto-the-jvto-difference.json",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

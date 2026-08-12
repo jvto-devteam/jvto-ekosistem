@@ -1,0 +1,97 @@
+{
+  "schema_version": "jvto/output/public-website-page/v1",
+  "output_type": "public_website_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/travel-guide/booking-information",
+  "domain": "travel-guide",
+  "slug": "booking-information",
+  "status": "published",
+  "seo": {
+    "title": "Booking Information – Payments, Changes & Package Credit | JVTO",
+    "description": "How to book, pay, and cancel a JVTO private tour: website-only booking, 20% deposit (up to 100% within 14 days), card ≤5d / bank·Wise ≤3d balance deadlines, and 100% Lifetime Package Credit for whole-booking cancellations 48h+ before Day 1.",
+    "canonicalRoute": "/travel-guide/booking-information",
+    "schemaTypes": [
+      "WebPage"
+    ]
+  },
+  "page": {
+    "title": "Booking Information – How JVTO Private Tours Work",
+    "summary": "How JVTO private tour booking works: website-only booking, payments, changes, and Lifetime Package Credit.",
+    "owner": "operations",
+    "lastReviewed": "2026-08-06",
+    "content": {
+      "format": "markdown",
+      "payload": {
+        "frontmatter": {
+          "route": "/travel-guide/booking-information",
+          "title": "Booking Information – How JVTO Private Tours Work",
+          "browserTitle": "Booking Information – Payments, Changes & Package Credit | JVTO",
+          "description": "How to book, pay, and cancel a JVTO private tour: website-only booking, 20% deposit (up to 100% within 14 days), card ≤5d / bank·Wise ≤3d balance deadlines, and 100% Lifetime Package Credit for whole-booking cancellations 48h+ before Day 1.",
+          "section": "travel-guide",
+          "status": "published",
+          "owner": "operations",
+          "lastReviewed": "2026-08-06",
+          "schemaTypes": [
+            "WebPage"
+          ],
+          "faqKey": "travel-guide-booking-information",
+          "summary": "How JVTO private tour booking works: website-only booking, payments, changes, and Lifetime Package Credit."
+        },
+        "body_md": "\nEverything you need to know to confirm, pay, and manage a JVTO booking. The full legal text is at [javavolcano-touroperator.com/policy/booking-payment-cancellation](https://javavolcano-touroperator.com/policy/booking-payment-cancellation). What follows is the practical summary.\n\n---\n\n## How to Book\n\nBookings are made **only on the official JVTO website** (javavolcano-touroperator.com). It is a five-step process:\n\n1. **Choose your route and dates** — browse packages on the website and select your date, origin (Surabaya or Bali), group size, and route.\n2. **Review price and add-ons** — the website shows your total, inclusions, and any add-ons before you commit.\n3. **Accept the terms and pay** — accept the Terms & Cancellation Policy and pay; a 20% deposit confirms the booking (up to 100% if Day 1 is within 14 days).\n4. **Receive your Official E-Voucher** — a PDF is issued after deposit payment. This is your booking reference and includes your full trip details and pre-trip guide.\n5. **Access My Booking Portal** — post-payment, you gain access to your personal booking dashboard using your lead traveller email.\n\n**WhatsApp (+62 822 4478 8833) and email are support-only channels** — they help you plan and answer questions before and during the tour, but they never create, confirm, modify, cancel, or transfer a booking.\n\nBooking is confirmed only when: (1) a package has been selected, (2) the required payment has been processed, and (3) the Official E-Voucher / Invoice (PDF) has been issued by JVTO.\n\n---\n\n## Book With a Licensed, Verifiable Operator\n\nNot every business advertising East Java volcano trips is a registered tour operator. This matters because unlicensed operators are a documented, police-charged fraud risk in East Java — a category-level risk, not a claim about any particular company. In one case reported by the Indonesian National Police, the owner of an unlicensed (\"bodong\") Banyuwangi travel agency was arrested over a fake overseas-tour scheme: around 18 travellers each paid roughly 10 million rupiah for tours that never ran, and police said the packages were \"merely his cover to get money.\" He was charged with fraud and embezzlement under the Indonesian Criminal Code (Polres Sukoharjo, Indonesian National Police, 2019).\n\nSeparately — and as an unrelated matter of ordinary crime rather than operator conduct — travellers in the region face the everyday theft risk present at any destination, which is why dealing with accountable, identifiable people matters. Police, for example, investigated the theft of foreign tourists' luggage from a vehicle near Mount Bromo in early 2026; the local police chief noted the incident \"affects the image of Mount Bromo as a safe destination\" and pledged professional handling (ANTARA News, 2026).\n\nJVTO is the opposite of an anonymous, website-only operator. PT Java Volcano Rendezvous is a licensed business you can check for yourself: national business registration NIB 1102230032918, a TDUP tourism business permit, HPWKI (Himpunan Pelaku Wisata Khusus Ijen) operator membership, and BBKSDA conservation-area compliance. It has operated in East Java since 2015 and is founder-led by an active Indonesian Tourist Police officer. It also works from a **physical office** in Bondowoso — Jl. Khairil Anwar No.102A, East Java 68214 — a real, fixed address you can locate, not just a web page. Booking is handled on the record through the official JVTO website, but behind that website stands a registered company with a permanent office you can verify — unlike an operator that exists only as a website or social-media account, with no traceable licence, no office, and no one to hold accountable.\n\nThe people who run your tour are just as verifiable. JVTO relies on a **permanent, named crew — not freelancers assembled for each booking**. Its Ijen guides and drivers are registered HPWKI members who carry individual KTA membership credentials issued by the association, and each active crew member is listed by name on the JVTO team page. HPWKI is not an informal label: it is a legally established association registered with the Ministry of Law (AHU/SABH), and JVTO's founder, Agung Sambuko, is named among its governing officers — serving as a *pengawas* (supervisory-board member). That places JVTO inside the crater's regulated guiding system rather than outside it — a system overseen by BBKSDA Jawa Timur, the conservation authority for Kawah Ijen, which conducts formal guide training for the site (BBKSDA Jawa Timur / KSDAE, \"Pelatihan Pemandu Kawah Ijen,\" 29 May 2024). When the company, its office, and every guide are registered and named, someone is accountable at every step of your trip — the baseline protection that an unverifiable \"bodong\" operator, which may be nothing more than a website, cannot offer.\n\nThe named people behind JVTO are just as checkable, and its track record is externally recognised. Founder **Agung Sambuko** is an active officer in Bondowoso's Tourism Police (Ditpamobvit, East Java) — the unit set up to support the Ijen Geopark — a role documented in national press and backed by police service orders, not just a bio line. The mandatory Ijen health screening is coordinated by **Dr. Ahmad Irwandanu**, a licensed general practitioner whose medical registration (STR QN00001073380217, valid to 2031-01-06) is publicly checkable through the Ministry of Health's SatuSehat and KKI registries. JVTO's history also predates the company: the founder's guesthouse earned a **Booking.com Guest Review Award in 2015** (score 9.4/10, \"Ijen Bondowoso Home Stay,\" shipped to the same Bondowoso address JVTO uses today) and appears in the German guidebook **Stefan Loose Reiseführer Indonesien** (ISBN 9783770167654, page 287). Each of these is set out with its underlying document on the JVTO team and verify pages.\n\n**Sources:**\n\n- Polres Sukoharjo (Indonesian National Police), 2019 — \"Berkedok Tour ke Jepang, Agen Travel Bodong Asal Banyuwangi Diamankan Polisi.\" https://polressukoharjo.com/berkedok-tour-ke-jepang-agen-travel-bodong-asal-banyuwangi-diamankan-polisi/\n- ANTARA News, 2026 — \"Police investigate theft of Thai tourists' suitcases at Mount Bromo.\" https://en.antaranews.com/news/404798/police-investigate-theft-of-thai-tourists-suitcases-at-mount-bromo\n- BBKSDA Jawa Timur / KSDAE (Ministry of Environment and Forestry), 2024 — \"Pelatihan Pemandu Kawah Ijen.\" https://ksdae.kehutanan.go.id/publikasi/artikel/pelatihan-pemandu-kawah-ijen-Bpo1lmYE/\n- Ministry of Law decision establishing HPWKI (Himpunan Pelaku Wisata Khusus Ijen) and naming its governing officers. https://javavolcano-touroperator.com/legal/HPWKI-approval.pdf\n- HPWKI association registration — Ministry of Law AHU/SABH *perkumpulan* registry (official verification). https://ahu.go.id/sabh/perkumpulan/qrcode/?kode=NjAyNDAxMjczNTEwMTM2MV8wXzA3IEZlYnJ1YXJpIDIwMjRfMjcgSmFudWFyaSAyMDI0\n- Detik.com, 2020 — \"Dukung Ijen Geopark, Kini Ada Polisi Pariwisata di Bondowoso\" (creation of the Bondowoso tourism-police unit). https://news.detik.com/berita-jawa-timur/d-5262697/dukung-ijen-geopark-kini-ada-polisi-pariwisata-di-bondowoso\n- Detik.com, 2021 — \"Suka Duka Polisi Pariwisata Bondowoso Tegakkan Prokes Sambil Lawan Dingin\" (names Bripka Agung Sambuko on duty). https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin\n- Dr. Ahmad Irwandanu — medical registration STR QN00001073380217 (valid to 2031-01-06), verifiable via Kemenkes SatuSehat. https://satusehat.kemkes.go.id/sdmk/nakes/QN00001073380217\n\n---\n\n## Payment Steps and Details\n\n**Standard deposit**: 20% of total booking value, processed through JVTO's secure payment gateway, **Xendit** (SSL-encrypted, PCI DSS-compliant). Pay by **credit/debit card** or **QRIS** (convenient for travellers from Indonesia and other ASEAN countries where cross-border QRIS is supported).\n\n**If Day 1 is within 14 days**: up to 100% full payment may be required at the time of booking.\n\n**Balance payment deadlines**:\n- By card or QRIS (Xendit, instant): no later than 5 days before Day 1\n- By bank wire or Wise: no later than 3 days before Day 1\n- Cash at the JVTO office (IDR only): only if approved in writing (see below)\n\n**Processing fees**: the card/QRIS fee is calculated by Xendit and shown transparently at checkout before you confirm. JVTO adds no surcharge on Wise or bank transfers (your own bank's/Wise's sending fee applies); office cash has no processing fee.\n\n**Cash balance at the JVTO office**: a cash (IDR) balance may be settled in person at the JVTO office when you arrive, before Day 1, only if approved in writing in advance — and only if you have already converted your money to IDR yourself. JVTO does not exchange currency, does not recommend or partner with any money changer, and cannot guarantee exchange rates.\n\n**All pricing is in IDR.** Prices are quoted and invoiced in Indonesian Rupiah.\n\n**Bank transfer details** (for balance payments only):\n\n| Bank | Account name | Account number | SWIFT |\n|---|---|---|---|\n| Bank BRI | PT Java Volcano Rendezvous | 001301001779564 | BRINIDJAXXX |\n| Bank BCA | PT Java Volcano Rendezvous | 1200944352 | CENAIDJAXXX |\n\nJVTO will never ask for full card numbers, CVV codes, or banking credentials via WhatsApp, chat, or email. Payments not made through the official checkout or bank accounts listed above are not valid JVTO transactions.\n\n---\n\n## FOC Group Discount Scheme\n\nJVTO direct website bookings receive FOC (Free of Charge) incentives based on group size:\n\n| Paying guests | FOC seats | Additional discount |\n|---|---|---|\n| 18+ | 1 FOC seat | — |\n| 35+ | 2 FOC seats | — |\n| 50+ | 3 FOC seats | **+ 5% discount on total package price for the entire group** |\n\nFOC benefits apply to \"paying guests\" only and must be agreed in writing during the booking process. This scheme is not available through third-party platforms (GetYourGuide, Booking.com, etc.).\n\n---\n\n## My Booking Portal\n\nAfter payment, the lead traveller gains access to My Booking Portal using the email address provided at booking. The portal is your live record of the trip and your task management tool for the pre-tour checklist.\n\n**What the portal shows:**\n- Tour dates and package summary\n- Pick-up details and vehicle/crew assignment\n- Accommodation plan\n- Daily itinerary\n- Notes from JVTO\n- E-Voucher download link\n\n**What the portal lets you do:**\n- Submit your guest list\n- Confirm pick-up and drop-off addresses\n- Set rooming preferences\n- Note dietary requirements\n- Complete your pre-trip to-do checklist\n\nAccess My Booking Portal at [javavolcano-touroperator.com](https://javavolcano-touroperator.com) using your lead traveller email.\n\n---\n\n## Your E-Voucher — The Booking Reference\n\nThe Official E-Voucher (PDF) is issued after deposit payment. It is your primary booking reference. Keep it accessible throughout your trip — digital on your phone is sufficient for most checkpoints; a paper passport may be required at crater-access gates.\n\nThe E-Voucher shows: tour dates, package inclusions, pick-up time and location, contact details for WhatsApp and email, and payment status.\n\nIn all disputes, the E-Voucher takes precedence over verbal confirmations or informal messages. Check it when it arrives and flag any discrepancies to JVTO immediately.\n\n---\n\n## Amendments and Reschedules\n\nOne free reschedule is available if requested 48 hours or more before Day 1, subject to availability. Reschedules requested less than 48 hours before Day 1 are not permitted.\n\nSignificant route changes that alter the primary destination sequence are not available — JVTO does not offer unbundled or transport-only services.\n\n---\n\n## Cancellation and Package Credit\n\n**Full cancellation:**\n- **≥ 48 hours before Day 1**: 100% converts to Lifetime Package Credit — never cash. Non-expiring; locked to the same package, traveler count and price; cannot be split or changed to another package; transferable to another person once, with written authorisation.\n- **< 48 hours before Day 1, or a no-show**: booking forfeited up to 100%; no Package Credit is issued.\n\n**Partial cancellation** (some travelers drop while at least two paying travelers remain) — cash refund on the cancelled seats only: **100%** if ≥ 48 hours before Day 1, **50%** if < 48 hours, **0%** once the tour has started. Dropping below two paying travelers is treated as a full cancellation.\n\n**Flight disruption** — if a confirmed flight is cancelled or rescheduled by the airline and no alternative works, JVTO applies a **50% flight Recovery Fee** and converts the remainder to Lifetime Package Credit.\n\nCash refunds are not available for a **full** guest-initiated cancellation. For closures caused by volcanic activity, government restrictions, or force majeure, JVTO may offer Package Credit, alternatives, or partial cash refunds — assessed per situation.\n"
+      }
+    },
+    "faq": {
+      "key": "travel-guide-booking-information",
+      "payload": {
+        "key": "travel-guide-booking-information",
+        "items": [
+          {
+            "question": "How does a JVTO booking work?",
+            "answer": "Choose a tour, submit lead guest details at checkout, pay the required amount (deposit or full payment), then receive your Official E-Voucher / Invoice (PDF) as formal confirmation."
+          },
+          {
+            "question": "How much is the deposit?",
+            "answer": "Standard deposit is 20% of the total booking value."
+          },
+          {
+            "question": "When can full payment be required at checkout?",
+            "answer": "If Day 1 is within 14 days, JVTO may require up to 100% full payment at checkout."
+          },
+          {
+            "question": "When is the balance due if I paid deposit?",
+            "answer": "By card: no later than 5 days before Day 1. By bank transfer/Wise: no later than 3 days before Day 1. Cash (IDR) is only if approved in writing and settled at the JVTO office before departure."
+          },
+          {
+            "question": "What happens if I cancel 48 hours or more before Day 1?",
+            "answer": "Guest-initiated cancellations at ≥48 hours convert 100% of payments received into JVTO Package Credit (not cash refund)."
+          },
+          {
+            "question": "What happens if I cancel less than 48 hours before Day 1 or no-show?",
+            "answer": "Late cancellations/no-shows may be forfeited up to 100%, with no Package Credit or cash refund normally provided."
+          },
+          {
+            "question": "Where do I find the binding rules?",
+            "answer": "Use /policy/booking-payment-cancellation and your Official E-Voucher / Invoice (PDF). If anything differs, the voucher/policies take precedence."
+          }
+        ],
+        "lastReviewed": "2026-08-07",
+        "owner": "knowledge-faq",
+        "reviewStatus": "domain-owner-assigned-by-audit"
+      }
+    }
+  },
+  "render_contract": {
+    "consumer": "jvto-web",
+    "route_level_payload": true,
+    "website_should_not_resolve_raw_sources": true
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/booking-information.md",
+      "1-knowledge-and-evidence-core/faqs/travel-guide-booking-information.json",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

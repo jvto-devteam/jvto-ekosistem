@@ -1,0 +1,328 @@
+{
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "why-jvto",
+  "slug": "our-team/fredi",
+  "route": "/why-jvto/our-team/fredi",
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "meta": {
+    "route": "/why-jvto/our-team/fredi",
+    "title": "Fredi — JVTO Tour Driver",
+    "browserTitle": "Fredi — JVTO Tour Driver",
+    "description": "Fredi is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+    "section": "why-jvto",
+    "status": "published",
+    "owner": "company",
+    "lastReviewed": "2026-08-05",
+    "schemaTypes": [
+      "ProfilePage",
+      "Person"
+    ],
+    "faqKey": "",
+    "summary": "Fredi public JVTO tour driver profile, credential summary, specialties, and featured guest reviews."
+  },
+  "seo": {
+    "title": "Fredi — JVTO Tour Driver",
+    "description": "Fredi is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+    "canonicalRoute": "/why-jvto/our-team/fredi",
+    "schemaTypes": [
+      "ProfilePage",
+      "Person"
+    ]
+  },
+  "content": {
+    "format": "structured",
+    "payload": {
+      "type": "crew_profile",
+      "hero": {
+        "eyebrow": "Why JVTO · Our Team",
+        "meta": "Tour Driver",
+        "heading": "Fredi",
+        "lede": "Experienced Tour Driver committed to making your travels memorable. I combine safe driving skills with a friendly attitude to provide a stress-free experience."
+      },
+      "member": {
+        "code": "fredi",
+        "name": "Fredi",
+        "role": "driver",
+        "jobTitle": "Tour Driver",
+        "languages": [
+          "Indonesian",
+          "English"
+        ],
+        "specialties": [
+          "long-haul overland (Surabaya–Bromo–Ijen)",
+          "Bali ferry crossing"
+        ],
+        "kta": {
+          "id": "KTA-D-2024-005",
+          "credentialType": "HPWKI membership credential (KTA)",
+          "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)",
+          "credentialState": "confirmed"
+        },
+        "image": {
+          "src": "/uploads/1768276791622-262250680-freddy.png",
+          "alt": "JVTO driver Fredi"
+        }
+      },
+      "bio": {
+        "about": "Experienced Tour Driver committed to making your travels memorable. I combine safe driving skills with a friendly attitude to provide a stress-free experience.",
+        "facebook": "https://www.facebook.com/share/1BY73z5qs5/",
+        "instagram": "https://www.instagram.com/frdyska",
+        "languages": "English, Indonesian",
+        "photo_url": "https://javavolcano-touroperator.com/uploads/1768276791622-262250680-freddy.png",
+        "highlights": [
+          "Friendly & fun",
+          "Great logistics",
+          "Always on time"
+        ]
+      },
+      "featuredReviews": [
+        {
+          "reviewId": "google-review-171",
+          "reviewerName": "K E",
+          "date": "2025-09-19",
+          "star": 5,
+          "reviewExcerpt": "(Translated by Google) I participated in a tour of Java's Mount Ijen Volcano, Mount Bromo, and Madakaripura Waterfall. The comprehensive outdoor plan included airport transfers, meals, accommodation, and a guide. Our accommodation, Riverside Homestay, even had a pool, making for a truly enjoyable stay. The tour features a highly efficient and reliable system, with the driver and guide contacting each other in adva...",
+          "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2taUk5rZzNNSFJyWlVSWVZUbHpPV2Q1TW01bFJYYxAB",
+          "package": {
+            "name": "3 Day Bromo, Madakaripura & Ijen Overland from Surabaya to Bali",
+            "slug": "tours/from-surabaya/bromo-madakaripura-ijen-3d2n"
+          },
+          "media": [
+            {
+              "id": "AbFvOqkMK7ugtDPA_KS_XHVlfgidedVKcC8JfhEfcA1cVRgUQLUBNCN6wxmRuErsOJ8ptfft78v__g-1",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmM3iAE2LZPdlalpmNPnG84CObRJgb7BnqEepqMzccHnXJrT0-A_c3xE5XIsaQDskGZe5xiw9991uRpMfVQ99Bw1YOBPvrbsffk16c2_xUFlPdq4tU-Ywnrozcl5IUH5zz0ZHkPoyHJIb5YQ=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqkMK7ugtDPA_KS_XHVlfgidedVKcC8JfhEfcA1cVRgUQLUBNCN6wxmRuErsOJ8ptfft78v__g-2",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPCZ-i5vp030nIMHwNTwLtDDezF7zca_ptTvKAR9szzURXUCtM9egpTIAhNyoB3YpHclXaDzCEOE2pmNdkF9Elyn5R7o1N1FEuCbMi5AVgB6wq_i6Ss18GCZxun0cvaFgSwVgdC4mRYM8E=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqkMK7ugtDPA_KS_XHVlfgidedVKcC8JfhEfcA1cVRgUQLUBNCN6wxmRuErsOJ8ptfft78v__g-3",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNvMMMaI3DrNA62k85tUvg9Fw7gD2Z9Jx64TgvMhF2C9crUs4Hfz0OzvfuFgNBocEdCc_nx9TwYzIjxk6PwhAz6jLsu_6XMu3JQDrCMEqTnm81sEtnyO1ODqgstCOr79b1yj-XThi-UUL4=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqkMK7ugtDPA_KS_XHVlfgidedVKcC8JfhEfcA1cVRgUQLUBNCN6wxmRuErsOJ8ptfft78v__g-4",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNhTVEvnOjT6V3ltQNPqAikl1UDJ2r-IPmv4wwn1KLqzxr8MhHe_0AxxCorTi-QOk82rZK7wkc6d1x4E9BR091Ijj9R3h2YP1_n7zGlwFhbNhu-_-xNliZbZJr1SCfvvsqZuDCe1MWEagOW=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            }
+          ]
+        },
+        {
+          "reviewId": "google-review-78",
+          "reviewerName": "HuiYuan Yeoh",
+          "date": "2026-07-12",
+          "star": 5,
+          "reviewExcerpt": "Booked the 4d3n tour to Tumpak Sewu, Mt Bromo and Kawah Ijen from the JVTO website. A really memorable trip with spectacular views, well organised itinerary, decent accommodations and the best tour guides. We always arrived early at the waterfall and mountains to avoid the crowds which is a huge plus point.\n\nSpecial thanks to Fauzi for taking good care of us the entire trip. He was friendly, hilarious and easy goi...",
+          "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pBM1duTXdZWHBsWmxCd1NYVXhiVU5UWDNWVVYyYxAB",
+          "package": null,
+          "media": [
+            {
+              "id": "AbFvOqnUdmA7ymsrqQGtcBXoYCWU4ZFbwbLW9Rq2NPfHhR2WgV_PEqz53OxDuk3qaxD2brkuWYz2vQ-1",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmM9TOdUBuY0xwD9x7QPNcRZKKti3cwpzPHTe4Oo_zvXdmVsxxxpiiNfBJw4t-MBo8WTjBkmwguWGCExHeg7OZRF5GGGtLVLFGjX4rjeA_S3z2nkCpm4JpLIXtHf9mdtGWgzQHIptzzuDFpE=k-no",
+              "thumbnailLabel": "Mount Bromo sunrise landscape view",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqnUdmA7ymsrqQGtcBXoYCWU4ZFbwbLW9Rq2NPfHhR2WgV_PEqz53OxDuk3qaxD2brkuWYz2vQ-2",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMztSDWLvf2IHxG_hNm_c4hbuWue7kt5xrraOz2ddsQuSn_iM-gBdQ-kEFCkYwTU1fiAEP-0CU6hF8xi6cQ6W38VXG0oQ1IkQ8zA6eiRbscUbO5UBm6FgtFCAM-4p1dgvePTMcyACDpBLB4=k-no",
+              "thumbnailLabel": "Sunrise view of Mount Bromo",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqnUdmA7ymsrqQGtcBXoYCWU4ZFbwbLW9Rq2NPfHhR2WgV_PEqz53OxDuk3qaxD2brkuWYz2vQ-3",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOCSVrRTSiIu7ReIfMVxCsi2IKWDt56d38LjiIKc0PUTORipySLiByo3P0gTV1fbcZvwuliTAp9wSk1xfHWy8CnZvadkuuhLVUqxHGBtO-NVkdOGPW4dIV3NF8xb179zYesfeNgBl6HS9ze=k-no",
+              "thumbnailLabel": "Off-road jeep mountain tour",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqnUdmA7ymsrqQGtcBXoYCWU4ZFbwbLW9Rq2NPfHhR2WgV_PEqz53OxDuk3qaxD2brkuWYz2vQ-4",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPEC2x3x-U4AfARQGtwdHagaj_rZ5voLlPT3B7mtX3YjkUlSM50MrLXsH1fExt67SN4o5WciobbURRBPK4Xj0IYlXCJ0d6vYYfyG1hpEJ-1CtvOkc5cDetjql-G_wVDe5TMF_XLdRmKjG-x=k-no",
+              "thumbnailLabel": "fauzi😎😎",
+              "videoUrl": ""
+            }
+          ]
+        },
+        {
+          "reviewId": "google-review-132",
+          "reviewerName": "Sonia Lin",
+          "date": "2026-08-02",
+          "star": 5,
+          "reviewExcerpt": "What an incredible 4-day adventure exploring some of East Java’s most spectacular destinations! From the volcanic landscapes of Ijen to the breathtaking Tumpak Sewu waterfall and the unforgettable sunrise at Mount Bromo, every day brought a new and amazing experience.\nA special thanks to our driver, Fredi, for his exceptional driving skills and for taking such good care of us throughout the trip. He was always fri...",
+          "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pscGEzUk9aMmRrYUVKUFkwNUNiRVZYUTFwR2FsRRAB",
+          "package": null,
+          "media": [
+            {
+              "id": "AbFvOql_LR2QppQ6JVwby4F6p6sNH2-iQiu3SC5ozBSQSbNLbqJPEjF8NpHylNWRo1DztbTCKRsqlA-1",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOcsfnqqiw9z4lht8t88hxoHhB_0kVddHcqTGVxf80sR7aj6Orjdpw55sdK3oiiI7eKv00lf_3crL8iObqjvCMmMwI97AeIzf_e10VQoIWJAf583WzMa57Y6w_Chno0ZQjuqlw4Yzua4Z9P=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOql_LR2QppQ6JVwby4F6p6sNH2-iQiu3SC5ozBSQSbNLbqJPEjF8NpHylNWRo1DztbTCKRsqlA-2",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMpLKQYinf5fHj_sW6H-3xtCk_fd9rE3sVLNzIDDTrsu6zEjhilfFMcTztsVNx6o3ledqFTE_q_pxQCm-axTbMilq9JwuVOEGyMwy4d1MDqRikc52r-tHHdMIlYZzJ-F_85pJfOa__rm19Z=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOql_LR2QppQ6JVwby4F6p6sNH2-iQiu3SC5ozBSQSbNLbqJPEjF8NpHylNWRo1DztbTCKRsqlA-3",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNnm-DI33zo_P83rZ-M5gfQEJUKrWfFh5jFWGeh4yTM9v7ZuFDwXW93lCBiKh3204fppGDwPX0NII9j7StnlbrjT7mdpl4ytJR8Oe6qfH0jTw-GdVTb1rBhUJqeFq4rvZ9na5RUtzAEi4Xc=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOql_LR2QppQ6JVwby4F6p6sNH2-iQiu3SC5ozBSQSbNLbqJPEjF8NpHylNWRo1DztbTCKRsqlA-4",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMCBaeft-BmJ8nBtBzytR6INJ2R_Vq4ut3lpb2tyr_s70lkfAXaQh6Caz2XS3G-Bu8h2UUKpenqj94Wdw8ZIIv7NeB58Xnw6N5z6l09A6IVKobi2ByejtXJukxFEQWs9Bt-PhdnjauY2K0=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            }
+          ]
+        },
+        {
+          "reviewId": "google-review-246",
+          "reviewerName": "Sherry Law",
+          "date": "2024-01-17",
+          "star": 5,
+          "reviewExcerpt": "A very nice experience. Sam's company is very professional. Every things is well arranged and staff are nice and helpful. Provide us a very remarkable 3D2N volcano experience.\\n\\nOur guide Kiki is have very good English and provide good guidance and briefing to us. We have a very safe ijen night walk.\\n\\nOur diver Fredi is a very nice and caring person. He be with us for whole 3 Day and give us a very comfortable...",
+          "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/ChZDSUhNMG9nS0VJQ0FnSUNOdmVDRkx3EAE",
+          "package": {
+            "name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+            "slug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n"
+          },
+          "media": [
+            {
+              "id": "AbFvOqn1Mb_upFScrN3FVTvH6FKGyEyuwOTOhBEWpod8lNWr75JwgRRALFgRLO5A-d7halwRoC9X5w-1",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmP7UJs1h-dabemGvhKpTJ2xHKKFfIO49boH0p7q5CPSzYdNF-88-if4UkTmf9zxPCOHAeKDcPziVuLL683nY5avMPoauUAQJdeizV8s2XZXhSnyqQ3lTClLmz6ZE-ntOAj0ZwETNw=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqn1Mb_upFScrN3FVTvH6FKGyEyuwOTOhBEWpod8lNWr75JwgRRALFgRLO5A-d7halwRoC9X5w-2",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmO85DXhJ9-FHO9xWX91wyF0K8pTvW4RBpqaUXjCqEFO5GurpVza1q-r6_7O6fNghibUasdgMnXhuSpS-WwIQ1I0vcW0uaxykWHYqgs9ltsH0RqFxwENzr2WSn9cJGnwxvtYGK2F=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqn1Mb_upFScrN3FVTvH6FKGyEyuwOTOhBEWpod8lNWr75JwgRRALFgRLO5A-d7halwRoC9X5w-3",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOrA9nAM8QzunvOSW1pzxqcwP75Qf2QzxJKe_uAQOQIVUg-GyuO3q9KknGhqDtNNcJ7ZhnpgPqPZCIPuL11xEmBXZqdU8lL6G0HVWBCovOlwa6o3fWQVdt6Zt6lGweNBXqhHC9TvA=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqn1Mb_upFScrN3FVTvH6FKGyEyuwOTOhBEWpod8lNWr75JwgRRALFgRLO5A-d7halwRoC9X5w-4",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMQlYvPrz_0N_li--Sb7vtqrWlLDD4FMjL6kAw0Xa0ypCZ9yAcrH0Z3AtMM1OJFy1VYFVKoAtvTKLHhPY2Y2-tLhbWmJugzMaBMTv31nwNNSo4Kx4Ei8E5K_uHffPVs4EJVYOC5=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            }
+          ]
+        },
+        {
+          "reviewId": "google-review-127",
+          "reviewerName": "Tam",
+          "date": "2026-07-22",
+          "star": 5,
+          "reviewExcerpt": "We had an absolutely amazing experience on our 3-night, 4-day East Java tour! We chose this company because we wanted a slower pace compared to the usual 2-night, 3-day itinerary, as well as more flexibility and it was honestly perfect.\n\nFrom start to finish, we didn’t have to worry about a single thing. The accommodations were lovely, the food we had was great, and we felt completely safe throughout the entire tr...",
+          "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT25oaU4xQnJkeTFTYnpCV2JWaFJka05tYmxSWlNGRRAB",
+          "package": null,
+          "media": [
+            {
+              "id": "AbFvOqmgCHpXCO71oFQgd8VMF_WEhOdaVcc3rqTSBTdoaIx4GkbQkEkGesbFpKM0oDFrkoElKHFBjQ-1",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNQ9RWlLGG_KcKh0j0v-ssJ22KGKsvcvC93OLwLcjKdQSCLQmFatq-Qp3pFEY54ttrA62tFtbQSjJ6QkBa1U9RzvSpf4WeojzNaavmH6bMyNoKJJs3nb5QnUVxz_eJ7_J6Skg9P2ZYOw3gX=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqmgCHpXCO71oFQgd8VMF_WEhOdaVcc3rqTSBTdoaIx4GkbQkEkGesbFpKM0oDFrkoElKHFBjQ-2",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMsWlDVjcZzojDUS6IZJNeczHbT7AO6VMzt6CDdkZ62G8r-8WUdQp46FoGKfS8F255_XXAFGlcqMc1-6wKCAk6d2hswbu5PpqhQsiffBB-rsOl5cssxB7fS-si9qpP2ad1gJ5vsQCxNBgj1=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqmgCHpXCO71oFQgd8VMF_WEhOdaVcc3rqTSBTdoaIx4GkbQkEkGesbFpKM0oDFrkoElKHFBjQ-3",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPnxb7xfrUzZBz-ErDkDRwVJtSEIfAqmVFwrOl8FkKPI2uI1_cjikcbqdf-9Ilx26R1yELC4suD8hf1wBCJ-gel9RgBKYhWNYkeZ8lf-eDuwEF3BpPmWsV9e_eoFlzXYcr7K7rmc7O6P_wY=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqmgCHpXCO71oFQgd8VMF_WEhOdaVcc3rqTSBTdoaIx4GkbQkEkGesbFpKM0oDFrkoElKHFBjQ-4",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPSU9Voj1nTVfZlifUPCOgKg1dKCNIIgmXX_15s8Wogs9VGHYQp3KF8LKZgStCUFZZ2di0hJnOoBPVODTKQTXYDssZXY91bfevtdGmqOo_ao6WhgIqwSaD7FHSQEJwaqa-6I9fsWJsANV1H=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            }
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Full team overview",
+          "href": "/why-jvto/our-team"
+        },
+        {
+          "label": "All reviews",
+          "href": "/why-jvto/reviews"
+        },
+        {
+          "label": "Book a tour",
+          "href": "/tours"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "key": "",
+    "payload": {
+      "key": "",
+      "items": [],
+      "lastReviewed": "",
+      "owner": "",
+      "reviewStatus": ""
+    }
+  },
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
+  "source_trace": {
+    "generated_at": "2026-08-12T07:57:49.134Z",
+    "source_files": [
+      "/Users/macbook/Code/jvto-web/content/entities/people.json",
+      "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+      "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+      "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+      "https://javavolcano-touroperator.com/sitemap.xml"
+    ],
+    "migration_note": "Created to align JVTO Operating Ecosystem source routes with the live jvto-web public Why JVTO crew detail pages. Personal phone fields from the team content source are intentionally excluded because the live detail page does not render them."
+  }
+}

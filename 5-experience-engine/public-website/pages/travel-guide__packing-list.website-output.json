@@ -1,0 +1,149 @@
+{
+  "schema_version": "jvto/output/public-website-page/v1",
+  "output_type": "public_website_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/travel-guide/packing-list",
+  "domain": "travel-guide",
+  "slug": "packing-list",
+  "status": "published",
+  "seo": {
+    "title": "Packing List for East Java - JVTO Travel Guide",
+    "description": "What to bring to Bromo, Ijen, and Tumpak Sewu: clothing layers, headlamp, footwear, equipment, and personal items for East Java's tropical-to-alpine climate.",
+    "canonicalRoute": "/travel-guide/packing-list",
+    "schemaTypes": [
+      "WebPage",
+      "Article"
+    ]
+  },
+  "page": {
+    "title": "Packing List for East Java",
+    "summary": "Packing list for East Java volcano and waterfall routes: clothing layers, footwear, equipment, personal medical items, and destination temperature context.",
+    "owner": "operations",
+    "lastReviewed": "2026-08-12",
+    "content": {
+      "format": "structured",
+      "payload": {
+        "hero": {
+          "eyebrow": "Prep",
+          "meta": "GUIDE / PACKING",
+          "heading": "What to pack for East Java.",
+          "lede": "East Java spans tropical lowlands and 2,300+ metre volcanic rims in one trip. Layers, grip, and a headlamp are non-negotiable."
+        },
+        "quickFacts": [
+          {
+            "label": "Climate",
+            "value": "Tropical to alpine"
+          },
+          {
+            "label": "Temp range",
+            "value": "5C-32C"
+          },
+          {
+            "label": "Bag size",
+            "value": "40-60L sufficient"
+          },
+          {
+            "label": "Total layers",
+            "value": "5+"
+          }
+        ],
+        "readingTime": "4 min",
+        "intro": "Most travelers underpack for the cold, overpack for the heat, and forget the headlamp. This list fixes that.",
+        "temperatureContext": [
+          {
+            "key": "Bromo lowest temp",
+            "value": "0C (July-August)"
+          },
+          {
+            "key": "Ijen wind chill",
+            "value": "-5C at the rim"
+          },
+          {
+            "key": "Lowland day temp",
+            "value": "28-32C"
+          },
+          {
+            "key": "Tumpak Sewu humidity",
+            "value": "95%+ in canyon"
+          }
+        ],
+        "sections": [
+          {
+            "id": "clothing-base-layers",
+            "title": "Clothing - base layers",
+            "items": [
+              "Thermal long-sleeve top (merino or synthetic, not cotton)",
+              "Thermal leggings (one pair)",
+              "Quick-dry t-shirts x 3",
+              "Hiking pants x 2 (one quick-dry, one warm)"
+            ]
+          },
+          {
+            "id": "clothing-outer-layers",
+            "title": "Clothing - outer layers",
+            "items": [
+              "Fleece or mid-layer down jacket",
+              "Windproof and waterproof shell",
+              "Buff or neck scarf for sulfur protection at Ijen",
+              "Beanie and gloves"
+            ]
+          },
+          {
+            "id": "footwear",
+            "title": "Footwear",
+            "items": [
+              "Trail running shoes or light hiking shoes with grip",
+              "Sandals for lodge or clinic visits",
+              "Thick wool socks x 3"
+            ]
+          },
+          {
+            "id": "equipment",
+            "title": "Equipment",
+            "items": [
+              "Headlamp with spare batteries",
+              "Dry bag for phone and wallet at Tumpak Sewu",
+              "Refillable water bottle x 1L",
+              "Power bank",
+              "Universal travel adapter for Indonesia Type C/F"
+            ]
+          },
+          {
+            "id": "personal-medical",
+            "title": "Personal and medical",
+            "items": [
+              "Personal medication for the full course plus 3 days buffer",
+              "Sunscreen SPF 50",
+              "Lip balm for dry rim air",
+              "Hand sanitizer",
+              "Small personal first-aid kit"
+            ]
+          }
+        ],
+        "related": [
+          {
+            "label": "Packing & Fitness",
+            "href": "/travel-guide/packing-and-fitness"
+          },
+          {
+            "label": "Browse tours",
+            "href": "/tours"
+          }
+        ]
+      }
+    },
+    "faq": null
+  },
+  "render_contract": {
+    "consumer": "jvto-web",
+    "route_level_payload": true,
+    "website_should_not_resolve_raw_sources": true
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "/Users/macbook/Code/jvto-web/src/app/(website)/travel-guide/packing-list/page.tsx"
+    ],
+    "migration_note": "Created from current jvto-web route component because no prior canonical core source existed."
+  }
+}

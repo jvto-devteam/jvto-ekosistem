@@ -1,0 +1,146 @@
+{
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "why-jvto",
+  "slug": "our-team/joyo",
+  "route": "/why-jvto/our-team/joyo",
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "meta": {
+    "route": "/why-jvto/our-team/joyo",
+    "title": "Joyo — JVTO Tour Driver",
+    "browserTitle": "Joyo — JVTO Tour Driver",
+    "description": "Joyo is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+    "section": "why-jvto",
+    "status": "published",
+    "owner": "company",
+    "lastReviewed": "2026-08-05",
+    "schemaTypes": [
+      "ProfilePage",
+      "Person"
+    ],
+    "faqKey": "",
+    "summary": "Joyo public JVTO tour driver profile, credential summary, specialties, and featured guest reviews."
+  },
+  "seo": {
+    "title": "Joyo — JVTO Tour Driver",
+    "description": "Joyo is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+    "canonicalRoute": "/why-jvto/our-team/joyo",
+    "schemaTypes": [
+      "ProfilePage",
+      "Person"
+    ]
+  },
+  "content": {
+    "format": "structured",
+    "payload": {
+      "type": "crew_profile",
+      "hero": {
+        "eyebrow": "Why JVTO · Our Team",
+        "meta": "Tour Driver",
+        "heading": "Joyo",
+        "lede": "I drive fast, but always cleanly, smoothly, and safely. Clients frequently tell me I am their number one choice because they know they will get there quickly without feeling unsafe."
+      },
+      "member": {
+        "code": "joyo",
+        "name": "Joyo",
+        "role": "driver",
+        "jobTitle": "Tour Driver",
+        "languages": [
+          "Indonesian"
+        ],
+        "specialties": [
+          "efficient point-to-point transfers",
+          "mountain defensive driving"
+        ],
+        "kta": {
+          "id": "KTA-D-2024-011",
+          "credentialType": "HPWKI membership credential (KTA)",
+          "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)",
+          "credentialState": "confirmed"
+        },
+        "image": {
+          "src": "/uploads/1768277336049-911840775-joyo.png",
+          "alt": "JVTO driver Joyo"
+        }
+      },
+      "bio": {
+        "about": "I drive fast, but always cleanly, smoothly, and safely. Clients frequently tell me I am their number one choice because they know they will get there quickly without feeling unsafe.",
+        "facebook": "https://www.facebook.com/udit.wahyudi.2025",
+        "instagram": "",
+        "languages": "Indonesian",
+        "photo_url": "https://javavolcano-touroperator.com/uploads/1768277336049-911840775-joyo.png",
+        "highlights": [
+          "Professional driver",
+          "Clean and safe"
+        ]
+      },
+      "featuredReviews": [
+        {
+          "reviewId": "google-review-195",
+          "reviewerName": "Adrián Martínez",
+          "date": "2025-06-20",
+          "star": 5,
+          "reviewExcerpt": "(Translated by Google) The Madakaripura-Bromo-Ijen tour was excellent. It was very well organized, and you were accompanied from the time you were picked up at the airport until you were dropped off at your next destination three days later. Our guide, Gufron, was excellent—very respectful, friendly, and always willing to help you get your best photo. Our driver, Mr. Joyo, is a great driver; always with a smile on...",
+          "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT21SM1UyRm5aalpsZWxWZmR6RTJibGN5VUUxbVkzYxAB",
+          "package": {
+            "name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+            "slug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n"
+          },
+          "media": [
+            {
+              "id": "AbFvOql6mBVkcBWSSCvwUJ_iVgHfGm2rhEISIdjviPfiJM1S2YpU_e0wZAX2gNAgTpDBp_pNJGIT-1",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmN76h1qgcA9fd3LcUOmicbzG1DMrlm58RV_cbCIEldpsM72zGBrey--6yHk4NipoEL9AaXujk7R-TC6z563CHwB98HJzh3QcWRv5wjB6AQbshYVWnETAwc2VNGZrIaWTzkqWJZpUvUBBys=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            }
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Full team overview",
+          "href": "/why-jvto/our-team"
+        },
+        {
+          "label": "All reviews",
+          "href": "/why-jvto/reviews"
+        },
+        {
+          "label": "Book a tour",
+          "href": "/tours"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "key": "",
+    "payload": {
+      "key": "",
+      "items": [],
+      "lastReviewed": "",
+      "owner": "",
+      "reviewStatus": ""
+    }
+  },
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
+  "source_trace": {
+    "generated_at": "2026-08-12T07:57:49.134Z",
+    "source_files": [
+      "/Users/macbook/Code/jvto-web/content/entities/people.json",
+      "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+      "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+      "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+      "https://javavolcano-touroperator.com/sitemap.xml"
+    ],
+    "migration_note": "Created to align JVTO Operating Ecosystem source routes with the live jvto-web public Why JVTO crew detail pages. Personal phone fields from the team content source are intentionally excluded because the live detail page does not render them."
+  }
+}

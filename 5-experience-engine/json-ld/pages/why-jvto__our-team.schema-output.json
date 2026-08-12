@@ -1,0 +1,24 @@
+{
+  "schema_version": "jvto/output/json-ld-page/v1",
+  "output_type": "json_ld_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/why-jvto/our-team",
+  "domain": "why-jvto",
+  "slug": "our-team",
+  "json_ld": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Local Team, Daily Execution",
+    "description": "Meet JVTO's local East Java team: 11 active crew profiles — experienced guides and drivers who handle daily volcano tour logistics for Bromo, Ijen, and Tumpak Sewu.",
+    "url": "https://javavolcano-touroperator.com/why-jvto/our-team"
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/narrative-claims/why-jvto-pages/our-team.json",
+      "1-knowledge-and-evidence-core/faqs/why-jvto-our-team.json",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

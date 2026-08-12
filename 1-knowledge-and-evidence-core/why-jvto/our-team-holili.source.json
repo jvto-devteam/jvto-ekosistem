@@ -1,0 +1,196 @@
+{
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "why-jvto",
+  "slug": "our-team/holili",
+  "route": "/why-jvto/our-team/holili",
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "meta": {
+    "route": "/why-jvto/our-team/holili",
+    "title": "Holili — JVTO Tour Driver",
+    "browserTitle": "Holili — JVTO Tour Driver",
+    "description": "Holili is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+    "section": "why-jvto",
+    "status": "published",
+    "owner": "company",
+    "lastReviewed": "2026-08-05",
+    "schemaTypes": [
+      "ProfilePage",
+      "Person"
+    ],
+    "faqKey": "",
+    "summary": "Holili public JVTO tour driver profile, credential summary, specialties, and featured guest reviews."
+  },
+  "seo": {
+    "title": "Holili — JVTO Tour Driver",
+    "description": "Holili is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+    "canonicalRoute": "/why-jvto/our-team/holili",
+    "schemaTypes": [
+      "ProfilePage",
+      "Person"
+    ]
+  },
+  "content": {
+    "format": "structured",
+    "payload": {
+      "type": "crew_profile",
+      "hero": {
+        "eyebrow": "Why JVTO · Our Team",
+        "meta": "Tour Driver",
+        "heading": "Holili",
+        "lede": "I am a Java Volcano driver who dedicates myself to serving all Java Volcano customers wholeheartedly."
+      },
+      "member": {
+        "code": "holili",
+        "name": "Holili",
+        "role": "driver",
+        "jobTitle": "Tour Driver",
+        "languages": [
+          "Indonesian"
+        ],
+        "specialties": [
+          "route optimization",
+          "local Bondowoso–Ijen access roads",
+          "punctuality"
+        ],
+        "kta": {
+          "id": "KTA-D-2024-009",
+          "credentialType": "HPWKI membership credential (KTA)",
+          "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)",
+          "credentialState": "confirmed"
+        },
+        "image": {
+          "src": "/uploads/1768277053384-470130286-holili.jpg",
+          "alt": "JVTO driver Holili"
+        }
+      },
+      "bio": {
+        "about": "I am a Java Volcano driver who dedicates myself to serving all Java Volcano customers wholeheartedly.",
+        "facebook": "https://www.facebook.com/hongz.sevenfoldism",
+        "instagram": "https://www.instagram.com/hongzsevenfoldism",
+        "languages": "Indonesian",
+        "photo_url": "https://javavolcano-touroperator.com/uploads/1768277053384-470130286-holili.jpg",
+        "highlights": [
+          "Friendly & fun",
+          "Great logistics"
+        ]
+      },
+      "featuredReviews": [
+        {
+          "reviewId": "google-review-168",
+          "reviewerName": "Veronica Ramos",
+          "date": "2025-10-03",
+          "star": 5,
+          "reviewExcerpt": "(Translated by Google) We did the 3D/2N Bromo-ijen-Madakaripura tour with them, and the experience couldn't have been better.\\n\\nWe looked at several options and decided on this one because the accommodations were better and included more meals, for a super reasonable price. As for the tour, they all offer practically the same things...\\n\\nI'm giving them 5 stars because I can't give them more.\\n\\nThe organization...",
+          "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xORlFWcGpTMFI2VWpkbU1FNXJhblJ1UlV4MVZHYxAB",
+          "package": {
+            "name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+            "slug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n"
+          },
+          "media": [
+            {
+              "id": "AbFvOqmXndxwH0lHZ5VHXwoKuvgdIWEE1wA7wi6LQl42Qus1bQsZ0O4rGahggQ-OAcfN89LpC_tKBg-1",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmP1V6gEXN9OHrLsqZpmKuEe1vYuDpLfjPkG_aMGZ7EIAfR-gD_I8sx0RPvqKWvryKYoH66lyFwdYysIGktEvEAWxzcLuh09aWkOO5JVBtIdI5H_NoAf92IIvs5nndoeQ4uoJnLvheYH70-7=k-no",
+              "thumbnailLabel": "Ijen",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqmXndxwH0lHZ5VHXwoKuvgdIWEE1wA7wi6LQl42Qus1bQsZ0O4rGahggQ-OAcfN89LpC_tKBg-2",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMyQesjZT9kC9lrH5r881lbFnErNKdpWjj27ChhsnoP-RquTxIBJlUIz6HCNurD3p-TDEkcZlB3yN1NztQtRBrS-OsaX-WeS9uhE-V47w4dwzIJ1CZOBfoibeBG0ynXAN0xD6PUYV0EdoWF=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqmXndxwH0lHZ5VHXwoKuvgdIWEE1wA7wi6LQl42Qus1bQsZ0O4rGahggQ-OAcfN89LpC_tKBg-3",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMNgYKgxFscsd3zymp9Khwem0XwK194s4QQGKK7QYi6A0vUhP-0ID5qV-PlIyNMgvLM5SY_s9atF5ITdJ7Mv1EGT-YWHHXo91Bp8zx4Xl1osTcv2rU54PRUx_MsEC0Nd4nWuivFvbv0wDsR=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqmXndxwH0lHZ5VHXwoKuvgdIWEE1wA7wi6LQl42Qus1bQsZ0O4rGahggQ-OAcfN89LpC_tKBg-4",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPGLBbxf9SleIxeceaxcrs8a5wuY5yX7fhJ_XxnorskG7XR8P_LvpMHT2dpzXsWwOqLbvE9iPhEKZYi3Ap--aqPRmmAL1W7qKsdeT16uF55oHpr52AYN5Xbi9H-9PvwG0HAEcs2fc6m9eMB=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            }
+          ]
+        },
+        {
+          "reviewId": "google-review-199",
+          "reviewerName": "Teoh Tsyr Xiang",
+          "date": "2025-05-25",
+          "star": 5,
+          "reviewExcerpt": "TQ JVTO for the heart warming hospitality and superb tour arrangement. Despite the rainy weather we still had a great and wonderful time in surabaya ! Thank you our guide Gufron and Driver Holili, wonderful people, they made sure we were safe and all our needs met, and they waited patiently for us to finish massage before sending us back to our hotel !",
+          "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/ChdDSUhNMG9nS0VQV0oyYlNZd29IR3hnRRAB",
+          "package": {
+            "name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+            "slug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n"
+          },
+          "media": [
+            {
+              "id": "AbFvOqnYMTeuHBPeaOCqD-6QSlg6vyc4zpcJWXx2uV6fHYqZJO_eRMGgSgyZvWNqDa0R2RA1T2nZSw-1",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNcylLqjaO2isqR9KyrNyVuF0A6kUVmAN5_1GNCdphAw5TFqjHpq0QweBlRkc1gBX29bN2xCAEbRM8CuLHXwZTIERjA-8QiblKKMMFaVBpmVMXE4Bkz96-4MLsa85oR22A597tpzQ=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqnYMTeuHBPeaOCqD-6QSlg6vyc4zpcJWXx2uV6fHYqZJO_eRMGgSgyZvWNqDa0R2RA1T2nZSw-2",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmM7pH1DhRU3Cg_t4yQzdnliNilRXBRovtuz8pr_RukEwhhJDNg4_DSroZ9Pg_OdDhDRl3ZUCr1nNF1Qb_VXLVsnFQ8RGEB1dUUUVvwq09d2d5FtVVh8C76DZh7DA5stsXxqfL9iVA=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            }
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Full team overview",
+          "href": "/why-jvto/our-team"
+        },
+        {
+          "label": "All reviews",
+          "href": "/why-jvto/reviews"
+        },
+        {
+          "label": "Book a tour",
+          "href": "/tours"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "key": "",
+    "payload": {
+      "key": "",
+      "items": [],
+      "lastReviewed": "",
+      "owner": "",
+      "reviewStatus": ""
+    }
+  },
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
+  "source_trace": {
+    "generated_at": "2026-08-12T07:57:49.134Z",
+    "source_files": [
+      "/Users/macbook/Code/jvto-web/content/entities/people.json",
+      "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+      "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+      "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+      "https://javavolcano-touroperator.com/sitemap.xml"
+    ],
+    "migration_note": "Created to align JVTO Operating Ecosystem source routes with the live jvto-web public Why JVTO crew detail pages. Personal phone fields from the team content source are intentionally excluded because the live detail page does not render them."
+  }
+}

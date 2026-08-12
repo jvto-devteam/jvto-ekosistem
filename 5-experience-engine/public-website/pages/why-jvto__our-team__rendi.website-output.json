@@ -1,0 +1,272 @@
+{
+  "schema_version": "jvto/output/public-website-page/v1",
+  "output_type": "public_website_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/why-jvto/our-team/rendi",
+  "domain": "why-jvto",
+  "slug": "our-team/rendi",
+  "status": "published",
+  "seo": {
+    "title": "Rendi — JVTO Tour Guide",
+    "description": "Rendi is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+    "canonicalRoute": "/why-jvto/our-team/rendi",
+    "schemaTypes": [
+      "ProfilePage",
+      "Person"
+    ]
+  },
+  "page": {
+    "title": "Rendi — JVTO Tour Guide",
+    "summary": "Rendi public JVTO tour guide profile, credential summary, specialties, and featured guest reviews.",
+    "owner": "company",
+    "lastReviewed": "2026-08-05",
+    "content": {
+      "format": "structured",
+      "payload": {
+        "type": "crew_profile",
+        "hero": {
+          "eyebrow": "Why JVTO · Our Team",
+          "meta": "Tour Guide",
+          "heading": "Rendi",
+          "lede": "Love meeting people from different backgrounds and making every trip feel easy and enjoyable. Always make sure safety during the trip and make unforgettable moments."
+        },
+        "member": {
+          "code": "rendi",
+          "name": "Rendi",
+          "role": "guide",
+          "jobTitle": "Tour Guide",
+          "languages": [
+            "Indonesian",
+            "English"
+          ],
+          "specialties": [
+            "Tumpak Sewu canyon descent",
+            "expedition coordination",
+            "crater safety / rescue",
+            "first aid"
+          ],
+          "kta": {
+            "id": "KTA-G-2024-002",
+            "credentialType": "HPWKI membership credential (KTA)",
+            "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)",
+            "credentialState": "confirmed"
+          },
+          "image": {
+            "src": "/uploads/1768228514527-518051332-rendi.png",
+            "alt": "JVTO Tumpak Sewu guide Rendi"
+          }
+        },
+        "bio": {
+          "about": "Love meeting people from different backgrounds and making every trip feel easy and enjoyable. Always make sure safety during the trip and make unforgettable moments.",
+          "facebook": "https://www.facebook.com/share/14TiR46vXSx/",
+          "instagram": "https://www.instagram.com/rrivaldy17",
+          "languages": "English, Indonesian",
+          "photo_url": "https://javavolcano-touroperator.com/uploads/1768228514527-518051332-rendi.png",
+          "highlights": [
+            "Friendly & fun",
+            "Safety-first",
+            "Great logistics"
+          ]
+        },
+        "featuredReviews": [
+          {
+            "reviewId": "google-review-202",
+            "reviewerName": "Michelle Jeon",
+            "date": "2025-05-14",
+            "star": 5,
+            "reviewExcerpt": "We had the best time on our 3D2N Java to Bali trip with JVTO. Rendi was a wonderful guide, super funny, punctual, knowledgeable and he takes the best photos! He answered all of our questions and gave us fun facts throughout the tour. He also speaks good English which made it easy to communicate. He introduced us to a lot of his guide friends, making for a very warm and welcoming atmosphere.\\n\\nAll our concerns wer...",
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/ChZDSUhNMG9nS0VJWEVwWm5OMnFUM2VnEAE",
+            "package": {
+              "name": "3 Day Bromo, Madakaripura & Ijen Overland from Surabaya to Bali",
+              "slug": "tours/from-surabaya/bromo-madakaripura-ijen-3d2n"
+            },
+            "media": [
+              {
+                "id": "AbFvOqn1_Dt-fo3sVuPH46J06lb9aKYzXEaKRV8USGAGtZAZcVBQm_zBEaWcBsZBpT8nsXWzsReB-1",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMsED1HC1yqiEWMu_gQDeYiujF-vmYW_Ic9xVpasyff16-HmUIk5Qky8Fa-sWAeM_bGw2ROSvWWRIUuwL3XYxe_ogBY0JLwhBUndXr7W-OHtLTvSwW6xZfv4FxHMh1dW51mpxP9=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqn1_Dt-fo3sVuPH46J06lb9aKYzXEaKRV8USGAGtZAZcVBQm_zBEaWcBsZBpT8nsXWzsReB-2",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMhnspEDV54lTmXTzbk-9t5Bnxc7KLygdDVAQRxBqy0__z7KMs7MoiFoPdMS4gRWBGiYgmMjD3paSP2pd0NoSS9KKdw_7XEZ8kaXdW3qZ1Zu0_9zJyGCdopRQAhOJk0ZafswIQWhg=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqn1_Dt-fo3sVuPH46J06lb9aKYzXEaKRV8USGAGtZAZcVBQm_zBEaWcBsZBpT8nsXWzsReB-3",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOqjt_vZOr772b0BZlf1VTTydePGYpY4zE9sbT3raJVs0D2TMoLCL2RnSxhOrktw4YHKiW-JDl9sNnyzhaWZO3Q1_RMgYw3AVLDzUz2vV59hkewiMGYf-7yn359NvxuKCuMk3SF=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqn1_Dt-fo3sVuPH46J06lb9aKYzXEaKRV8USGAGtZAZcVBQm_zBEaWcBsZBpT8nsXWzsReB-4",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOylRhKMs3gnksU41LU7gk7bnHPQrqhfP8guh1im9mFY2SzfjZZqp4RvWR3TbkB9bI5O62V5hoH1WEbU0WnKN6V3LNwQPvejaF2TC2mxFj6GRgKUaD2EOp29OS3SrJ-f9V6QEo=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              }
+            ]
+          },
+          {
+            "reviewId": "google-review-214",
+            "reviewerName": "Jesus Palma",
+            "date": "2024-11-12",
+            "star": 5,
+            "reviewExcerpt": "(Translated by Google) We did the 3d/2n tour from Surabaya to Bali. Our guide Rendi and our driver Johan made the tour unbeatable. Attentive from the first moment to our needs, explaining all kinds of curiosities and recommending the best restaurants and typical dishes of the areas we visited. JVTO also provided us with the transfer to our hotel in Bali after finishing the excursion to Ijén.\\n\\n(Original)\\nHicimos...",
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/ChZDSUhNMG9nS0VJQ0FnSUQzcFBfRmNBEAE",
+            "package": {
+              "name": "3 Day Bromo, Madakaripura & Ijen Overland from Surabaya to Bali",
+              "slug": "tours/from-surabaya/bromo-madakaripura-ijen-3d2n"
+            },
+            "media": [
+              {
+                "id": "AbFvOqltEDJFbReK1Y_ofw5VB6sKYzdv4BxDHpI6_3wQcOYD1Cn2bQbjZN0BmZEjxJIdUMTnJNAKjw-1",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMhUQbWYSB33gN3QYAF70K1vKPZWpynwrKt6dl6RM9lYwxyn6JFr7N5F3e73ws0EOOZ-lO0pEw5SO8Ip2t544ZPGjcDiQQSDMho0w-CdZoWKlDpGQZGXoSezwS8RrcmiuzLGjkCTA=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqltEDJFbReK1Y_ofw5VB6sKYzdv4BxDHpI6_3wQcOYD1Cn2bQbjZN0BmZEjxJIdUMTnJNAKjw-2",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmO9fVWCaYMGv1B5UOyRG_-X8q7WkCLYXkXZSacOf4iv4cRHavSi7P_CTGa1cgD84lQH-gUHQl3SwVY04dJaAalu_8tbhsZ01M2BGNhj8VD5fg2bjoQeEQTzCfdHLo-ulpkTDrbx=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              }
+            ]
+          },
+          {
+            "reviewId": "google-review-182",
+            "reviewerName": "Yoon jk",
+            "date": "2025-08-02",
+            "star": 5,
+            "reviewExcerpt": "We had a wonderful trip! Mr. Yusuf (the driver) was so kind and patient, always helping us find the right spots and restaurants. He helped us take pictures. Mr. Rendi made our first day really fun and enjoyable. Everyone we met along the way was lovely and supportive. Truly grateful for the experiences — highly recommended! and might come back to Bromo!!",
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tjMGVXcGFOR1Z3V25aaWRGWlZNMWxvVDNkQldHYxAB",
+            "package": {
+              "name": "4 Day Ijen, Bromo & Madakaripura Waterfall Expedition from Surabaya",
+              "slug": "tours/from-surabaya/ijen-bromo-madakaripura-4d3n"
+            },
+            "media": [
+              {
+                "id": "AbFvOqmMImxpni7GyfRWMS_Kb6xWx3pwqS-WlZJ2ZQ_fjy512Tv0QYBwB3X0-zJfSxQyVRmLHn6T1A-1",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPf7In6o6Vs7aZw9xshsS8rgoDcmemCOZSQr9jQTZY9QD92Avqo4-Idip10FhNFngS56HjkxK3v1CRoYKc21bVqicd9PEo1lTfj_dW-1Pa1YrtVmuByen_FdalRHayZ71YvTJ54Zoi1Qshg=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqmMImxpni7GyfRWMS_Kb6xWx3pwqS-WlZJ2ZQ_fjy512Tv0QYBwB3X0-zJfSxQyVRmLHn6T1A-2",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPdoQYoRFsURH6VZTcX8_3C68F07fI6NKuktbUu6gdgzznMwpp3iGq5YEhrvCrW8knIK3pm3T5p7TqRJFYSEHQVXTYg_SaPtSNbYfba7AHM95wqyi32ZEsfJUy-CmS-g33R5dvjFQpx5V_p=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqmMImxpni7GyfRWMS_Kb6xWx3pwqS-WlZJ2ZQ_fjy512Tv0QYBwB3X0-zJfSxQyVRmLHn6T1A-3",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOL1eBxayadNtgWDnuwkAdH1iZw6KaRv61-u0uKpy0OqSfm9siFxT6wwqpBEutiEAY29CSB4HsPfMHYEkU4ULpXuz-ECxjm8RwACGZl-V9_C48Ra4CJunN4j_F_9cGHwe6Y7WUAamFgz1DQ=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              }
+            ]
+          },
+          {
+            "reviewId": "google-review-112",
+            "reviewerName": "Yip Chuiyee",
+            "date": "2025-12-30",
+            "star": 5,
+            "reviewExcerpt": "Rendi and Fredi (the guide and the driver) are very kind and helpful. Rendi is an excellent photographer who took a lot of great photos of us. The trip was well-organised, and flexible with our requests. However, considering the price of the tour, we expected a better quality of accommodations.",
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pFNWFFbENjblJ0V2pFd1UwVkxXRGx0TWpKUVJuYxAB",
+            "package": null,
+            "media": [
+              {
+                "id": "AbFvOqn97aC3sNPBj2-SyCVt3CMrd_BozKJofE3QsbPOc4nr8YxdVB6iYw51T2AtZGPeZC1Y0a7H4Q-1",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmO0e9Ogf3ci8GvgPXRFUTv5X9Mn0QReFhVTjZmXQ2i5ilojavAkbu9_z9LKROkVpNl5Na9B-knqssB8APSyjvdLfohVeZeITssW0dewc2ljOcHOkI3Gz9rUQqPAOaTuO9pHnQYGsPNF7Cns=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqn97aC3sNPBj2-SyCVt3CMrd_BozKJofE3QsbPOc4nr8YxdVB6iYw51T2AtZGPeZC1Y0a7H4Q-2",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMYWMZUe7JBvKWmeZkCxPJ0Ck4g2w5_2i2bx92IMFCccqJPciOIcmSVwriRKePSy_PaU2-4rc68Fb2RlmvIWjacVGMmlGYIpS-bnWPYxnJljzwE4h1HnPvGxFW9rM-usMvMn9us9U49TZS_=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqn97aC3sNPBj2-SyCVt3CMrd_BozKJofE3QsbPOc4nr8YxdVB6iYw51T2AtZGPeZC1Y0a7H4Q-3",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmN_GuB6qTobtpaesYTZE8zWdX4C2C5C5i8LSyf2VwxAePha-b_3TLZM6FUzeaSOy01afmjGMCkVsZ2D6f76RqG_kqCcCVsHRdTO7OAe1MGQwt82R-4Mx7S4vq6atNqHy1JJwNdX32nmoCGG=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              }
+            ]
+          },
+          {
+            "reviewId": "google-review-229",
+            "reviewerName": "Alvin Yue Hin Kung",
+            "date": "2024-06-11",
+            "star": 5,
+            "reviewExcerpt": "The trip is very good! We enjoyed the planning, the driver, the itenary, the spots we visited, the place we stayed a lot. We feel so lucky to be able to see the blue flame and a clear sky mount Bromo as the weather was good\\n\\nWe are lucky to meet a very friendly driver Rendy. His hospitality made us feel the whole trip to be safe and comfortable.\\nAlso thanks to our Ijen guide Rendy, a young guide with enthusiasm...",
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/ChdDSUhNMG9nS0VJQ0FnSUR6OGRMUG1BRRAB",
+            "package": {
+              "name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+              "slug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n"
+            },
+            "media": [
+              {
+                "id": "AbFvOqlOILEA1UZta7qhkwbfQUKOYdSumaroF4LAyAs-04oSgKyfM0k2PudAnTWUDSV9hEyYRf7ODQ-1",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOXzggH6aTymbV1GRr39md_uOocYPZKOku1hKuKTLltwKBq3Hj_XiI6ACbcNM123HlwtwEqqZlcL-UzGjMvDWtmymIusRFPpXGVxgs3NYYTBznz0De9NrtTgdGMYr0RsmNxfmhI=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqlOILEA1UZta7qhkwbfQUKOYdSumaroF4LAyAs-04oSgKyfM0k2PudAnTWUDSV9hEyYRf7ODQ-2",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPozJ1JQjbmHedI3rgCoOF5AK8VAFgWJwkvmiM6505AMhXQp1vTzzRasRH_FsP7u1g7hxh5OBOQ3-qv3IyoFVUes-WUmfxHL7Vx9ImtCio6zyjy9pBz-PJ4X3DEQOQqGLOjx6R2dA=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              }
+            ]
+          }
+        ],
+        "related": [
+          {
+            "label": "Full team overview",
+            "href": "/why-jvto/our-team"
+          },
+          {
+            "label": "All reviews",
+            "href": "/why-jvto/reviews"
+          },
+          {
+            "label": "Book a tour",
+            "href": "/tours"
+          }
+        ]
+      }
+    },
+    "faq": null
+  },
+  "render_contract": {
+    "consumer": "jvto-web",
+    "route_level_payload": true,
+    "website_should_not_resolve_raw_sources": true
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:57:49.134Z",
+    "source_files": [
+      "/Users/macbook/Code/jvto-web/content/entities/people.json",
+      "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+      "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+      "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+      "https://javavolcano-touroperator.com/sitemap.xml"
+    ],
+    "migration_note": "Created to align JVTO Operating Ecosystem source routes with the live jvto-web public Why JVTO crew detail pages. Personal phone fields from the team content source are intentionally excluded because the live detail page does not render them."
+  }
+}

@@ -1,0 +1,164 @@
+query travelGuidePage($relativePath: String!) {
+  travelGuidePage(relativePath: $relativePath) {
+    ... on Document {
+      _sys {
+        filename
+        basename
+        hasReferences
+        breadcrumbs
+        path
+        relativePath
+        extension
+      }
+      id
+    }
+    ...TravelGuidePageParts
+  }
+}
+
+query travelGuidePageConnection($before: String, $after: String, $first: Float, $last: Float, $sort: String, $filter: TravelGuidePageFilter) {
+  travelGuidePageConnection(
+    before: $before
+    after: $after
+    first: $first
+    last: $last
+    sort: $sort
+    filter: $filter
+  ) {
+    pageInfo {
+      hasPreviousPage
+      hasNextPage
+      startCursor
+      endCursor
+    }
+    totalCount
+    edges {
+      cursor
+      node {
+        ... on Document {
+          _sys {
+            filename
+            basename
+            hasReferences
+            breadcrumbs
+            path
+            relativePath
+            extension
+          }
+          id
+        }
+        ...TravelGuidePageParts
+      }
+    }
+  }
+}
+
+query whyJvtoPage($relativePath: String!) {
+  whyJvtoPage(relativePath: $relativePath) {
+    ... on Document {
+      _sys {
+        filename
+        basename
+        hasReferences
+        breadcrumbs
+        path
+        relativePath
+        extension
+      }
+      id
+    }
+    ...WhyJvtoPageParts
+  }
+}
+
+query whyJvtoPageConnection($before: String, $after: String, $first: Float, $last: Float, $sort: String, $filter: WhyJvtoPageFilter) {
+  whyJvtoPageConnection(
+    before: $before
+    after: $after
+    first: $first
+    last: $last
+    sort: $sort
+    filter: $filter
+  ) {
+    pageInfo {
+      hasPreviousPage
+      hasNextPage
+      startCursor
+      endCursor
+    }
+    totalCount
+    edges {
+      cursor
+      node {
+        ... on Document {
+          _sys {
+            filename
+            basename
+            hasReferences
+            breadcrumbs
+            path
+            relativePath
+            extension
+          }
+          id
+        }
+        ...WhyJvtoPageParts
+      }
+    }
+  }
+}
+
+query policyPage($relativePath: String!) {
+  policyPage(relativePath: $relativePath) {
+    ... on Document {
+      _sys {
+        filename
+        basename
+        hasReferences
+        breadcrumbs
+        path
+        relativePath
+        extension
+      }
+      id
+    }
+    ...PolicyPageParts
+  }
+}
+
+query policyPageConnection($before: String, $after: String, $first: Float, $last: Float, $sort: String, $filter: PolicyPageFilter) {
+  policyPageConnection(
+    before: $before
+    after: $after
+    first: $first
+    last: $last
+    sort: $sort
+    filter: $filter
+  ) {
+    pageInfo {
+      hasPreviousPage
+      hasNextPage
+      startCursor
+      endCursor
+    }
+    totalCount
+    edges {
+      cursor
+      node {
+        ... on Document {
+          _sys {
+            filename
+            basename
+            hasReferences
+            breadcrumbs
+            path
+            relativePath
+            extension
+          }
+          id
+        }
+        ...PolicyPageParts
+      }
+    }
+  }
+}

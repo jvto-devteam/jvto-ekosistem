@@ -1,0 +1,23 @@
+{
+  "schema_version": "jvto/output/json-ld-page/v1",
+  "output_type": "json_ld_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/policy",
+  "domain": "policy",
+  "slug": "index",
+  "json_ld": {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "JVTO Policy Hub",
+    "description": "JVTO publishes its booking, payment, cancellation, inclusions, and privacy terms in full — so you know exactly what you are buying, what the rules are if…",
+    "url": "https://javavolcano-touroperator.com/policy"
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/policies/index.md",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

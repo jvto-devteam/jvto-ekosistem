@@ -1,0 +1,78 @@
+{
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "policy",
+  "slug": "privacy",
+  "route": "/policy/privacy",
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "meta": {
+    "route": "/policy/privacy",
+    "title": "JVTO Privacy & Data Protection Policy",
+    "browserTitle": "Privacy Policy",
+    "description": "This policy explains what personal data JVTO collects, why it is collected, how it is used, and when it may be shared to operate your tour booking and…",
+    "section": "policy",
+    "status": "published",
+    "owner": "legal",
+    "lastReviewed": "2026-08-04",
+    "schemaTypes": [
+      "WebPage"
+    ],
+    "faqKey": "",
+    "summary": "How JVTO collects, uses, stores, and shares the personal data required to operate a tour booking."
+  },
+  "seo": {
+    "title": "Privacy Policy",
+    "description": "This policy explains what personal data JVTO collects, why it is collected, how it is used, and when it may be shared to operate your tour booking and…",
+    "canonicalRoute": "/policy/privacy",
+    "schemaTypes": [
+      "WebPage"
+    ]
+  },
+  "content": {
+    "format": "markdown",
+    "payload": {
+      "frontmatter": {
+        "route": "/policy/privacy",
+        "title": "JVTO Privacy & Data Protection Policy",
+        "browserTitle": "Privacy Policy",
+        "description": "This policy explains what personal data JVTO collects, why it is collected, how it is used, and when it may be shared to operate your tour booking and…",
+        "section": "policy",
+        "status": "published",
+        "owner": "legal",
+        "lastReviewed": "2026-08-04",
+        "schemaTypes": [
+          "WebPage"
+        ],
+        "summary": "How JVTO collects, uses, stores, and shares the personal data required to operate a tour booking."
+      },
+      "body_md": "\n**Issued by:** PT Java Volcano Rendezvous  \n**Policy Route:** `/policy/privacy`  \n**Version:** 2026-01-17 (v5)\n\n---\n\n## 1. Purpose\n\nThis policy explains what personal data JVTO collects, why it is collected, how it is used, and when it may be shared to operate your tour booking and comply with applicable requirements.\n\n---\n\n## 2. What Data We Collect\n\nJVTO may collect the following categories of data, depending on your booking and itinerary requirements:\n\n### 2.1 Contact and Booking Details (Lead Guest)\n\n- Full name\n- Email address\n- WhatsApp/mobile number\n- Booking references and tour details needed to deliver services\n\n### 2.2 Participant Details (Where Required)\n\n- Guest list for accommodation and permits\n- Passport/ID details and date of birth where required for permits, tickets, or legal compliance\n- Pickup/drop-off details, rooming preferences, and operational notes required to deliver services\n\n### 2.3 Safety and Logistics Information (Where Relevant)\n\n- Dietary needs and relevant health information provided by you for safety planning and operational coordination (only where necessary)\n\n---\n\n## 3. Why We Collect and Use Your Data\n\nJVTO uses personal data to:\n\n- Issue and deliver your Official E-Voucher / Invoice (PDF) and manage your booking\n- Coordinate logistics before and during your tour (pickup timing, accommodation, vehicles, guides, route planning)\n- Provide customer support and operational assistance\n- Meet legal, permit, ticketing, and accommodation registration requirements where applicable\n- Support safety processes and emergency response coordination where needed\n\n---\n\n## 4. When We Share Your Data\n\nJVTO shares personal data only when required to deliver the booked services or comply with applicable requirements. This may include sharing necessary details with:\n\n- Accommodation partners (for check-in/registration and rooming)\n- Drivers, escort guides, local site guides, and operational teams (for coordination and guest support)\n- Ticketing/permit partners and local authorities where permits or entry requirements apply\n- Medical screening providers or approved facilities where screening applies (e.g., where required by authorities for specific sites)\n\nJVTO does not share data beyond what is necessary for the specific operational purpose.\n\n---\n\n## 5. Payment Data\n\n- Card and QRIS payments are processed through our secure checkout and authorised payment gateway, Xendit (PCI DSS-compliant).\n- JVTO does not store full card numbers, CVV codes, or online banking passwords.\n\n---\n\n## 6. Data Protection and Access\n\nJVTO applies internal controls to protect personal data and limits access to authorised personnel and partners only when needed for service delivery.\n\n---\n\n## 7. Contact\n\nFor privacy or data-related requests — including requests to access, correct, or delete your personal data — contact:\n\n- Email: `hello@javavolcano-touroperator.com`\n- WhatsApp: `+62 822-4478-8833`\n"
+    }
+  },
+  "faq": {
+    "key": "",
+    "payload": {
+      "key": "",
+      "items": [],
+      "lastReviewed": "",
+      "owner": "",
+      "reviewStatus": ""
+    }
+  },
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/policies/privacy.md",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

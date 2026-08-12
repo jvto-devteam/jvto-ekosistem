@@ -5,9 +5,24 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = __dirname;
+const PUBLIC_ROOT = path.join(ROOT, "public");
 const PORT = Number(process.env.PORT || 4178);
 const GITHUB_URL = "https://github.com/jvto-devteam/jvto-ekosistem";
 const EXCLUDED_NAMES = new Set([".git", "node_modules", ".DS_Store"]);
+const STATIC_CONTENT_TYPES = new Map([
+  [".css", "text/css; charset=utf-8"],
+  [".gif", "image/gif"],
+  [".html", "text/html; charset=utf-8"],
+  [".ico", "image/x-icon"],
+  [".jpeg", "image/jpeg"],
+  [".jpg", "image/jpeg"],
+  [".js", "text/javascript; charset=utf-8"],
+  [".json", "application/json; charset=utf-8"],
+  [".map", "application/json; charset=utf-8"],
+  [".png", "image/png"],
+  [".svg", "image/svg+xml; charset=utf-8"],
+  [".webp", "image/webp"]
+]);
 const TEXT_EXTENSIONS = new Set([
   ".cjs",
   ".css",
@@ -41,6 +56,14 @@ function sendJson(res, status, data) {
   });
 }
 
+function sendStatic(res, status, body, contentType) {
+  res.writeHead(status, {
+    "content-type": contentType,
+    "cache-control": "no-store"
+  });
+  res.end(body);
+}
+
 function escapeHtml(value) {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -56,6 +79,16 @@ function safeResolve(relativePath = "") {
     throw new Error("Path is outside project root.");
   }
   return { absolute, relative: path.relative(ROOT, absolute) };
+}
+
+function safeResolvePublic(relativePath = "") {
+  const decoded = decodeURIComponent(relativePath);
+  const cleaned = decoded.replace(/^\/+/, "");
+  const absolute = path.resolve(PUBLIC_ROOT, cleaned);
+  if (absolute !== PUBLIC_ROOT && !absolute.startsWith(`${PUBLIC_ROOT}${path.sep}`)) {
+    throw new Error("Path is outside public root.");
+  }
+  return absolute;
 }
 
 function isTextFile(filePath) {
@@ -129,6 +162,108 @@ async function handleFile(req, res) {
     size: info.size,
     content
   });
+}
+
+function routeToOutputBase(route) {
+  return route.split("/").filter(Boolean).join("__") || "home";
+}
+
+async function handleWebsitePage(req, res) {
+  const url = new URL(req.url, `http://${req.headers.host}`);
+  const route = url.searchParams.get("route");
+  if (!route || !route.startsWith("/")) {
+    sendJson(res, 400, { error: "Missing or invalid route. Use /api/website/page?route=/travel-guide" });
+    return;
+  }
+
+  const outputPath = path.join(
+    "5-experience-engine",
+    "public-website",
+    "pages",
+    `${routeToOutputBase(route)}.website-output.json`
+  );
+  const { absolute, relative } = safeResolve(outputPath);
+
+  try {
+    const content = await readFile(absolute, "utf8");
+    sendJson(res, 200, {
+      route,
+      outputPath: relative,
+      payload: JSON.parse(content)
+    });
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      sendJson(res, 404, { error: "Website page output not found.", route });
+      return;
+    }
+    throw error;
+  }
+}
+
+async function handleWebsiteRoutes(res) {
+  const indexPath = path.join("5-experience-engine", "manifests", "route-output-index.json");
+  const { absolute, relative } = safeResolve(indexPath);
+  try {
+    const content = await readFile(absolute, "utf8");
+    sendJson(res, 200, {
+      outputPath: relative,
+      payload: JSON.parse(content)
+    });
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      sendJson(res, 404, { error: "Route output index not found." });
+      return;
+    }
+    throw error;
+  }
+}
+
+async function handlePublicAsset(url, res) {
+  const isAdminPath = url.pathname === "/admin" || url.pathname.startsWith("/admin/");
+  const isUploadPath = url.pathname.startsWith("/uploads/");
+  if (!isAdminPath && !isUploadPath) return false;
+
+  let assetPath = url.pathname;
+  if (assetPath === "/admin") {
+    assetPath = "/admin/index.html";
+  } else if (assetPath.endsWith("/")) {
+    assetPath = `${assetPath}index.html`;
+  }
+
+  try {
+    let absolute = safeResolvePublic(assetPath);
+    const info = await stat(absolute);
+    if (!info.isFile()) {
+      sendJson(res, 404, { error: "Static asset not found." });
+      return true;
+    }
+    const body = await readFile(absolute);
+    const contentType = STATIC_CONTENT_TYPES.get(path.extname(absolute).toLowerCase()) || "application/octet-stream";
+    sendStatic(res, 200, body, contentType);
+    return true;
+  } catch (error) {
+    if (error.code === "ENOENT" && isAdminPath) {
+      try {
+        const fallback = safeResolvePublic("/admin/index.html");
+        const body = await readFile(fallback);
+        sendStatic(res, 200, body, "text/html; charset=utf-8");
+        return true;
+      } catch (fallbackError) {
+        if (fallbackError.code === "ENOENT") {
+          sendJson(res, 404, {
+            error: "Tina admin has not been built yet. Run npm run cms:build first."
+          });
+          return true;
+        }
+        throw fallbackError;
+      }
+    }
+    if (error.code === "ENOENT") {
+      sendJson(res, 404, { error: "Static asset not found." });
+      return true;
+    }
+    throw error;
+  }
 }
 
 function renderApp() {
@@ -570,8 +705,19 @@ const server = createServer(async (req, res) => {
       await handleFile(req, res);
       return;
     }
+    if (url.pathname === "/api/website/page") {
+      await handleWebsitePage(req, res);
+      return;
+    }
+    if (url.pathname === "/api/website/routes") {
+      await handleWebsiteRoutes(res);
+      return;
+    }
     if (url.pathname === "/health") {
       sendJson(res, 200, { status: "ok" });
+      return;
+    }
+    if (await handlePublicAsset(url, res)) {
       return;
     }
     send(res, 200, renderApp());

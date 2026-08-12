@@ -1,0 +1,23 @@
+{
+  "schema_version": "jvto/output/json-ld-page/v1",
+  "output_type": "json_ld_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/travel-guide/police-escort-for-groups",
+  "domain": "travel-guide",
+  "slug": "police-escort-for-groups",
+  "json_ld": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Traffic Police Escort for Tourist Groups in East Java",
+    "description": "For large groups — typically around 18 guests or more — JVTO can coordinate an official traffic police escort on certain road segments, when approved by the relevant Traffic Police (Ditlantas) unit. A formal request process, not a marketing add-on — approval is never guaranteed.",
+    "url": "https://javavolcano-touroperator.com/travel-guide/police-escort-for-groups"
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/health-and-safety-rules/police-escort-for-groups.json",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

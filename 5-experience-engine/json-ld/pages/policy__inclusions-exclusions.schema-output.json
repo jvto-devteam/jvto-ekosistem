@@ -1,0 +1,23 @@
+{
+  "schema_version": "jvto/output/json-ld-page/v1",
+  "output_type": "json_ld_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/policy/inclusions-exclusions",
+  "domain": "policy",
+  "slug": "inclusions-exclusions",
+  "json_ld": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "JVTO Inclusions & Exclusions Policy",
+    "description": "This policy defines what is included and not included in JVTO private tour packages. Only inclusions written on your specific Official E-Voucher / Invoice…",
+    "url": "https://javavolcano-touroperator.com/policy/inclusions-exclusions"
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/policies/inclusions-exclusions.md",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

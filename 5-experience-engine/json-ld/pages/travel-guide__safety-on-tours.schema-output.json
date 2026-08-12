@@ -1,0 +1,24 @@
+{
+  "schema_version": "jvto/output/json-ld-page/v1",
+  "output_type": "json_ld_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/travel-guide/safety-on-tours",
+  "domain": "travel-guide",
+  "slug": "safety-on-tours",
+  "json_ld": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Safety on JVTO Tours",
+    "description": "JVTO safety approach: Tourist Police-led planning, gear requirements, Ijen gas mask sterilisation, emergency protocols, and what guests must follow.",
+    "url": "https://javavolcano-touroperator.com/travel-guide/safety-on-tours"
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/health-and-safety-rules/safety-on-tours.md",
+      "1-knowledge-and-evidence-core/faqs/travel-guide-safety-on-tours.json",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

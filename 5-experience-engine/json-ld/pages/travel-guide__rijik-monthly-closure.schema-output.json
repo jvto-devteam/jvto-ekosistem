@@ -1,0 +1,24 @@
+{
+  "schema_version": "jvto/output/json-ld-page/v1",
+  "output_type": "json_ld_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/travel-guide/rijik-monthly-closure",
+  "domain": "travel-guide",
+  "slug": "rijik-monthly-closure",
+  "json_ld": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Ijen Rijik: The Monthly Closure Day at Kawah Ijen",
+    "description": "TWA Ijen closes to all visitors on the first Friday of every month, since March 2019, for \"Rijik\" — a volunteer cleanup that removes an estimated 100–150 kg of trash from the crater. JVTO schedules every Ijen-inclusive itinerary around it.",
+    "url": "https://javavolcano-touroperator.com/travel-guide/rijik-monthly-closure"
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/health-and-safety-rules/rijik-monthly-closure.json",
+      "1-knowledge-and-evidence-core/faqs/travel-guide-rijik-monthly-closure.json",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "why-jvto",
+  "slug": "our-team/anjas",
+  "route": "/why-jvto/our-team/anjas",
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "meta": {
+    "route": "/why-jvto/our-team/anjas",
+    "title": "Anjas — JVTO Tour Guide",
+    "browserTitle": "Anjas — JVTO Tour Guide",
+    "description": "Anjas is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+    "section": "why-jvto",
+    "status": "published",
+    "owner": "company",
+    "lastReviewed": "2026-08-05",
+    "schemaTypes": [
+      "ProfilePage",
+      "Person"
+    ],
+    "faqKey": "",
+    "summary": "Anjas public JVTO tour guide profile, credential summary, specialties, and featured guest reviews."
+  },
+  "seo": {
+    "title": "Anjas — JVTO Tour Guide",
+    "description": "Anjas is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+    "canonicalRoute": "/why-jvto/our-team/anjas",
+    "schemaTypes": [
+      "ProfilePage",
+      "Person"
+    ]
+  },
+  "content": {
+    "format": "structured",
+    "payload": {
+      "type": "crew_profile",
+      "hero": {
+        "eyebrow": "Why JVTO · Our Team",
+        "meta": "Tour Guide",
+        "heading": "Anjas",
+        "lede": "I am a chill guy who loves brainrot memes, games, and all kinds of music. Let me show you how beautiful East Java is."
+      },
+      "member": {
+        "code": "anjas",
+        "name": "Anjas",
+        "role": "guide",
+        "jobTitle": "Tour Guide",
+        "languages": [
+          "Indonesian",
+          "English"
+        ],
+        "specialties": [
+          "Blue Fire photography",
+          "astrophotography",
+          "01:00 crater night ascent",
+          "SO2 / gas-mask safety"
+        ],
+        "kta": {
+          "id": "KTA-G-2024-006",
+          "credentialType": "HPWKI membership credential (KTA)",
+          "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)",
+          "credentialState": "confirmed"
+        },
+        "image": {
+          "src": "/uploads/1768270423657-690185912-anjas.png",
+          "alt": "JVTO Ijen guide Anjas"
+        }
+      },
+      "bio": {
+        "about": "I am a chill guy who loves brainrot memes, games, and all kinds of music. Let me show you how beautiful East Java is.",
+        "facebook": "",
+        "instagram": "https://www.instagram.com/anjasstywn",
+        "languages": "English, Indonesian",
+        "photo_url": "https://javavolcano-touroperator.com/uploads/1768270423657-690185912-anjas.png",
+        "highlights": [
+          "Friendly & fun",
+          "Great logistics",
+          "Great photos"
+        ]
+      },
+      "featuredReviews": [
+        {
+          "reviewId": "google-review-87",
+          "reviewerName": "maritha koo",
+          "date": "2026-06-05",
+          "star": 5,
+          "reviewExcerpt": "It was truly amazing to experience the majestic beauty of Mount Bromo, Mount Ijen, and Madakaripura Waterfall. Despite waking up very early for two consecutive days, it was absolutely worth it. From hiking and sunrise viewing to jeep rides, pony rides, photography, and even hearing the rumbling of Mount Bromo, every moment was unforgettable.\n\nA big thank you to Java Volcano Tour Operator for the excellent arrangem...",
+          "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT25GVWRHRnlSbUpJWTJreVNGaFhTRmMxTFd0MVNWRRAB",
+          "package": null,
+          "media": [
+            {
+              "id": "AbFvOqlibtZLq0iHEW8EIafS6UZaFE1AdpehyUZ_1YdDfyuBKt8g9B3Rj1wmbwc5D3YHR09Vy9xe-1",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPBuRVEM7j7xC8-YDArjQKyr_Rsu0tn4GdtTVrZWpqXXpEkOfLcxEMc-ccu670l8mmuL85D43MF2oabQ4aeuagtrCTtIYCujX1b0De-Z18aZ8Ad7nuJi0klLYLIufSLdtoGVd0HR5q42Fw=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqlibtZLq0iHEW8EIafS6UZaFE1AdpehyUZ_1YdDfyuBKt8g9B3Rj1wmbwc5D3YHR09Vy9xe-2",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPKkYW545U_sSUGNbZW9Hu6oJKnVUnKCKu8yt6G6vpwkDODkzwjYFwhwMlK2pVjcfQ0D5PvDFUJXDT8pjbe2xxOpy8E7cV70QOl-KJ_s9z0F3bUGTf_928cm9gZuc8PB9OFQZud7skoQ-U=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqlibtZLq0iHEW8EIafS6UZaFE1AdpehyUZ_1YdDfyuBKt8g9B3Rj1wmbwc5D3YHR09Vy9xe-3",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPcrDGpZisauB3QUYxKoiVVRUMDByHT9Y_jZ0k4kdxTzgVIvfEOEfYFGbPwQ70t9CQWs8uEzb6DGoKfD-SUvGh0Gti-XBrtXAYxjxfEyQubG_Ez8dFcMjX4Wecvv5ob9rQGrIBxHRr8_9Ev=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqlibtZLq0iHEW8EIafS6UZaFE1AdpehyUZ_1YdDfyuBKt8g9B3Rj1wmbwc5D3YHR09Vy9xe-4",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPSvdbMUOUHH4G8mH6UbaXaHZ2CCyDQFg9P_PFW4T8lrZAoQIPQEv0aBw4TTLpxKUK4PrKNTcbssqdpbpuDRFkuzHk-B2AJe6Jm29WYPCdwGCA0X98M9j9vWvLbpJT6EIoFOHS_la5s5c5z=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            }
+          ]
+        },
+        {
+          "reviewId": "google-review-133",
+          "reviewerName": "antoine panier",
+          "date": "2026-08-05",
+          "star": 5,
+          "reviewExcerpt": "(Translated by Google) We booked our three-day trip through the agency: a visit to Temack Sewu, Bromo, and then Ijen. Everything went perfectly. I highly recommend requesting Anjas as your guide. He's fantastic. He did everything he could to make our trip as unforgettable as possible.\n\n(Original)\nNous sommes passé par l’agence pour organiser 3 jours : visite de temack sewu, Bromo puis Ijen. Tous s’est très bien pa...",
+          "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xsamEyNU1UalEzWmpkWlJtSlZPR0ZTUVhWUVJrRRAB",
+          "package": null,
+          "media": [
+            {
+              "id": "AbFvOqnVWYGn_YBKBlxuRRV034iTbqw78KvqM8z3N-wjPz6yC0NuRPvtSAnN5tPkf-BB3g4AhUUlDQ-1",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOQ0D-D35RhhQ2sw3busdGq0ypxbYjv-tC18Te49ZQuiJ04uN20iTtt6PrVDsIkdW0d9KHKu8EKnPiDN3ren89Djzea-eEWJt3rfcJf8MBN_PDqzZa6HRvkgUhkTmYFFnMcGCd5Dyf0-IMv=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqnVWYGn_YBKBlxuRRV034iTbqw78KvqM8z3N-wjPz6yC0NuRPvtSAnN5tPkf-BB3g4AhUUlDQ-2",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNFJZMfhANoKIJXuCxzCaWnLsv9d2nKUUBVcTpHVnAtDs1QPMbQiEP3G2EVRm_f7gTE-XsVb2gJsk3yG7Ts_09sIo4UrytT3CwxsVAkfAnNB2COyx78T_B3j-av_dVoRO__fst1BDETkpLW=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqnVWYGn_YBKBlxuRRV034iTbqw78KvqM8z3N-wjPz6yC0NuRPvtSAnN5tPkf-BB3g4AhUUlDQ-3",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNu7GkgLMvaUFoE0xVr0YMOTqPMBTYjpdbBxAKczezQozK8nnP7r64idvLcs4x4ATzzXQ4vQ3ViCl5bQKDiAj7SfJq1H1jHLfIoGjnWwHpYGOaQhryB_hS8Cd4mPIE1RWp-2JYyHp_IjVk=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqnVWYGn_YBKBlxuRRV034iTbqw78KvqM8z3N-wjPz6yC0NuRPvtSAnN5tPkf-BB3g4AhUUlDQ-4",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPM3diC0h8MZyPqrcvUJ3mpFpL_T137RU5yLdRKUGvc8FmMC1FTDioOlgBxn8iuV6p4vdF5omRcqIegEi87HRDAd4Cuqvm0A4P5dM_V654b6Kxu19e3cP6hHQ9bohynNZtR8jumKNmutV8=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            }
+          ]
+        },
+        {
+          "reviewId": "google-review-193",
+          "reviewerName": "Jeffrey Man",
+          "date": "2025-07-04",
+          "star": 5,
+          "reviewExcerpt": "We joined the volcano tour and had an amazing experience! Our guide, Anjas, was incredibly professional, knowledgeable, and made the whole trip smooth and enjoyable. He also has a great eye for photography and helped us capture some truly stunning photos along the way. Highly recommended for anyone looking for an unforgettable and well-organized adventure!",
+          "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xwalprZ3dTV0Z6ZW1OV2VGbExhVFpZUlZacVJsRRAB",
+          "package": {
+            "name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+            "slug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n"
+          },
+          "media": [
+            {
+              "id": "AbFvOqlof-4YjP8s6rd3caf5vZ0poyug1Q3me4g55AJL7OaoFDs8CHOtI5PAnzL9cVdbydCkMprj_A-1",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMG_xsz4BwvBd062Ka_i2E_FHb5oNVrjVacwIE1yzO-Lyxl5PnU0X_Z3IDn2T4bW3ULVsGWLsp93HKDH3f2wNYLm1tbg4DBZ8pXby8AWvCWYuIrAuKcMYF47RGE6eRNONex9cET6UThN1jq=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqlof-4YjP8s6rd3caf5vZ0poyug1Q3me4g55AJL7OaoFDs8CHOtI5PAnzL9cVdbydCkMprj_A-2",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMhfwNoz9vhYoXPzItyWjqCep30GTUhK1T6x7x82CaCf4THB5Y8lOpZEiElq2lp5N3HNDH6Ks-to2Dq4WvErEq15zXXYU7mxvg7g3RNdV-9jT5nVjhrYmIiclAUZDT4uBrRdE0KIfJjy937=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqlof-4YjP8s6rd3caf5vZ0poyug1Q3me4g55AJL7OaoFDs8CHOtI5PAnzL9cVdbydCkMprj_A-3",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOq1i0DRq3fUNe6Iichaohcx-KdBsi4KIKKUCx3GYSE2Dppx1MdvX8EKJaD__dacRnsOcydXyaEOUNWlKquyf9xHwpmsSeUMET13z378dMPixJOAg4iqdfgV9e_dD-zPQHpDTE8zs58eL_g=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            }
+          ]
+        },
+        {
+          "reviewId": "google-review-228",
+          "reviewerName": "Xinyi Lim",
+          "date": "2024-07-03",
+          "star": 5,
+          "reviewExcerpt": "We did the 4d3n East Java tour for 11pax! The founder, Sam, was professional and understanding as we had last minute changes due to emergency situation. Communication from pre-trip to actual trip itself was very smooth. Our tour guide Anjas, and our driver Johan were professional, fun and took great care of us :) It was a hassle-free trip for such a big group and definitely value for money. Highly recommend Java V...",
+          "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/ChdDSUhNMG9nS0VJQ0FnSUNyd1BDUDZ3RRAB",
+          "package": {
+            "name": "4 Day Ijen, Bromo & Madakaripura Waterfall Expedition from Surabaya",
+            "slug": "tours/from-surabaya/ijen-bromo-madakaripura-4d3n"
+          },
+          "media": [
+            {
+              "id": "AbFvOqnmeXQ5DTe56MlXrdRw1CYRfLCckIESNmY4TD5pFlA_9gLXTEa9hK0aOvnW-tmek-cVd7Tstg-1",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPnGxITM5iZo2q2wq7XO5I713Sb8w_kjRfPkYaM0QKPHzMccVH1lNDdoOvPLnIOixXZCAX4hl6heqK-lKrzbQfjQxxNNPLpNppcgTjLBURh94oJjhwonyYeq_--2RuXsGbynd15=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            },
+            {
+              "id": "AbFvOqnmeXQ5DTe56MlXrdRw1CYRfLCckIESNmY4TD5pFlA_9gLXTEa9hK0aOvnW-tmek-cVd7Tstg-2",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOVc4rWWovwSi2WrChWrfyaQqrBts8X-Aaz01WmLZBjWMjVwT_Q_NxLvFJfqT-k_XOEAF8UGTqWeAfyGCyDcKky7NqoGi0qY-VZE420qB14yePyaSG7ibHtnXYnOPtNDV4396s2cw=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            }
+          ]
+        },
+        {
+          "reviewId": "google-review-115",
+          "reviewerName": "bin",
+          "date": "2025-08-02",
+          "star": 5,
+          "reviewExcerpt": "We joined the Bromo–Ijen–Sewu trip with JVTO, and we were lucky to have Rendi and Anjas as our tour guides. They were absolutely amazing! Both of them were clear with their instructions, helpful throughout the journey, and brought such good vibes to the whole experience.\n\nThey provided strong emotional support and knew exactly how to connect with our young team. Always friendly, patient, and cheerful, they made a...",
+          "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2t0d1oxaHhWWFozYVV4S2JubEJVelI1VjJ0YVdsRRAB",
+          "package": null,
+          "media": [
+            {
+              "id": "AbFvOqmRxJWq6fx1XVGf4wyg-uYYFkuK2rsfZVngsKBwh2k9K4A0frQgLs9VP7htr0roroOvvBik2g-1",
+              "type": "photo",
+              "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPHiNeGgsEZVE-7-aSHQ5A9PC7P6pp6aqG4ovHDcZaUb0B9paPKMmLi2qbR4Sjd1o7v3aQgC8XVdy_ifg98XxlM3bGu6h0G-2rCV6rf0-yh6YeJnjQEpG5YK67GKFkU7AqlVAGxgq-uSAVI=k-no",
+              "thumbnailLabel": "",
+              "videoUrl": ""
+            }
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Full team overview",
+          "href": "/why-jvto/our-team"
+        },
+        {
+          "label": "All reviews",
+          "href": "/why-jvto/reviews"
+        },
+        {
+          "label": "Book a tour",
+          "href": "/tours"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "key": "",
+    "payload": {
+      "key": "",
+      "items": [],
+      "lastReviewed": "",
+      "owner": "",
+      "reviewStatus": ""
+    }
+  },
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
+  "source_trace": {
+    "generated_at": "2026-08-12T07:57:49.134Z",
+    "source_files": [
+      "/Users/macbook/Code/jvto-web/content/entities/people.json",
+      "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+      "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+      "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+      "https://javavolcano-touroperator.com/sitemap.xml"
+    ],
+    "migration_note": "Created to align JVTO Operating Ecosystem source routes with the live jvto-web public Why JVTO crew detail pages. Personal phone fields from the team content source are intentionally excluded because the live detail page does not render them."
+  }
+}

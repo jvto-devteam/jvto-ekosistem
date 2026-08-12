@@ -1,0 +1,23 @@
+{
+  "schema_version": "jvto/output/json-ld-page/v1",
+  "output_type": "json_ld_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/policy/privacy",
+  "domain": "policy",
+  "slug": "privacy",
+  "json_ld": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "JVTO Privacy & Data Protection Policy",
+    "description": "This policy explains what personal data JVTO collects, why it is collected, how it is used, and when it may be shared to operate your tour booking and…",
+    "url": "https://javavolcano-touroperator.com/policy/privacy"
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/policies/privacy.md",
+      "5-experience-engine/seo-metadata/page-metadata-index.json"
+    ],
+    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+  }
+}

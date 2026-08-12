@@ -1,0 +1,163 @@
+{
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "travel-guide",
+  "slug": "mount-bromo-logistics",
+  "route": "/travel-guide/mount-bromo-logistics",
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "meta": {
+    "route": "/travel-guide/mount-bromo-logistics",
+    "title": "Mount Bromo Logistics",
+    "browserTitle": "Mount Bromo Logistics: Jeep, Timing & Sunrise - JVTO Travel Guide",
+    "description": "Private jeep, sunrise timing, and altitude preparation - what you need to know before arriving at the Tengger caldera.",
+    "section": "travel-guide",
+    "status": "published",
+    "owner": "operations",
+    "lastReviewed": "2026-08-12",
+    "schemaTypes": [
+      "WebPage",
+      "Article"
+    ],
+    "faqKey": "",
+    "summary": "Bromo sunrise logistics: private 4WD jeep, viewpoint choice, night sequence, altitude, cold-weather preparation, and crater timing."
+  },
+  "seo": {
+    "title": "Mount Bromo Logistics: Jeep, Timing & Sunrise - JVTO Travel Guide",
+    "description": "Private jeep, sunrise timing, and altitude preparation - what you need to know before arriving at the Tengger caldera.",
+    "canonicalRoute": "/travel-guide/mount-bromo-logistics",
+    "schemaTypes": [
+      "WebPage",
+      "Article"
+    ]
+  },
+  "content": {
+    "format": "structured",
+    "payload": {
+      "hero": {
+        "eyebrow": "Logistics",
+        "meta": "GUIDE / BROMO-LOGISTICS",
+        "heading": "Mount Bromo: jeep, timing & sunrise.",
+        "lede": "Bromo sunrise is the most-photographed scene in East Java. It also has the busiest logistics. JVTO sequences the night so your private vehicle gets the right viewpoint."
+      },
+      "quickFacts": [
+        {
+          "label": "Altitude",
+          "value": "2,329 m"
+        },
+        {
+          "label": "Sunrise",
+          "value": "~05:20"
+        },
+        {
+          "label": "Pickup",
+          "value": "00:30-01:00"
+        },
+        {
+          "label": "Vehicle",
+          "value": "4WD jeep"
+        }
+      ],
+      "readingTime": "5 min",
+      "intro": "The Bromo sunrise window is short, the access road is single-lane in places, and the jeep pool at Cemoro Lawang clears in waves. Pacing is everything.",
+      "sections": [
+        {
+          "id": "night-sequence",
+          "title": "The night sequence",
+          "items": [
+            {
+              "time": "00:30",
+              "description": "Pickup at your hotel in Surabaya / Probolinggo / Cemoro Lawang."
+            },
+            {
+              "time": "02:30",
+              "description": "Arrive at Cemoro Lawang. Hot drink stop."
+            },
+            {
+              "time": "03:15",
+              "description": "Transfer to private 4WD jeep."
+            },
+            {
+              "time": "04:30",
+              "description": "King Kong Hill or Penanjakan 1 viewpoint, depending on route and conditions."
+            },
+            {
+              "time": "05:20",
+              "description": "Sunrise over the Tengger caldera."
+            },
+            {
+              "time": "06:30",
+              "description": "Descend to the sea of sand for the crater walk."
+            },
+            {
+              "time": "09:00",
+              "description": "Whispering Sands and Teletubbies Hill."
+            },
+            {
+              "time": "11:00",
+              "description": "Return to Cemoro Lawang for breakfast."
+            }
+          ]
+        },
+        {
+          "id": "viewpoints",
+          "title": "Viewpoints",
+          "body_md": "JVTO defaults to King Kong Hill for balanced framing, Penanjakan 1 for the classic shot, Seruni Point when avoiding crowds matters most, and Mentigen Hill for guests staying in Cemoro Lawang.",
+          "items": [
+            {
+              "key": "King Kong Hill",
+              "value": "Mid-elevation, balanced light, less crowded."
+            },
+            {
+              "key": "Penanjakan 1",
+              "value": "Highest, most iconic, busiest."
+            },
+            {
+              "key": "Seruni Point",
+              "value": "Lowest, quietest, partial caldera view."
+            },
+            {
+              "key": "Mentigen Hill",
+              "value": "Walking-distance from Cemoro Lawang."
+            }
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "Mount Bromo",
+          "href": "/destinations/mount-bromo"
+        },
+        {
+          "label": "Browse tours",
+          "href": "/tours"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "key": "",
+    "payload": {
+      "key": "",
+      "items": [],
+      "lastReviewed": "",
+      "owner": "",
+      "reviewStatus": ""
+    }
+  },
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "/Users/macbook/Code/jvto-web/src/app/(website)/travel-guide/mount-bromo-logistics/page.tsx"
+    ],
+    "migration_note": "Created from current jvto-web route component because no prior canonical core source existed."
+  }
+}

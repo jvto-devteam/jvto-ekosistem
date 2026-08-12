@@ -1,0 +1,22 @@
+{
+  "schema_version": "jvto/output/json-ld-page/v1",
+  "output_type": "json_ld_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/travel-guide/packing-list",
+  "domain": "travel-guide",
+  "slug": "packing-list",
+  "json_ld": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Packing List for East Java",
+    "description": "What to bring to Bromo, Ijen, and Tumpak Sewu: clothing layers, headlamp, footwear, equipment, and personal items for East Java's tropical-to-alpine climate.",
+    "url": "https://javavolcano-touroperator.com/travel-guide/packing-list"
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:00:53.148Z",
+    "source_files": [
+      "/Users/macbook/Code/jvto-web/src/app/(website)/travel-guide/packing-list/page.tsx"
+    ],
+    "migration_note": "Created from current jvto-web route component because no prior canonical core source existed."
+  }
+}

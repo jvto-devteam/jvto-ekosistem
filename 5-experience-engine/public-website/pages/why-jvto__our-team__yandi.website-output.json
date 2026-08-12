@@ -1,0 +1,168 @@
+{
+  "schema_version": "jvto/output/public-website-page/v1",
+  "output_type": "public_website_page",
+  "generated_at": "2026-08-12T08:37:49.093Z",
+  "route": "/why-jvto/our-team/yandi",
+  "domain": "why-jvto",
+  "slug": "our-team/yandi",
+  "status": "published",
+  "seo": {
+    "title": "Yandi — JVTO Tour Driver",
+    "description": "Yandi is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+    "canonicalRoute": "/why-jvto/our-team/yandi",
+    "schemaTypes": [
+      "ProfilePage",
+      "Person"
+    ]
+  },
+  "page": {
+    "title": "Yandi — JVTO Tour Driver",
+    "summary": "Yandi public JVTO tour driver profile, credential summary, specialties, and featured guest reviews.",
+    "owner": "company",
+    "lastReviewed": "2026-08-05",
+    "content": {
+      "format": "structured",
+      "payload": {
+        "type": "crew_profile",
+        "hero": {
+          "eyebrow": "Why JVTO · Our Team",
+          "meta": "Tour Driver",
+          "heading": "Yandi",
+          "lede": "Love meeting people from different backgrounds and making every trip feel easy and enjoyable. Always make sure safety during the trip."
+        },
+        "member": {
+          "code": "yandi",
+          "name": "Yandi",
+          "role": "driver",
+          "jobTitle": "Tour Driver",
+          "languages": [
+            "Indonesian",
+            "English"
+          ],
+          "specialties": [
+            "pre-tour briefings",
+            "family-friendly driving"
+          ],
+          "kta": {
+            "id": "KTA-D-2024-003",
+            "credentialType": "HPWKI membership credential (KTA)",
+            "issuer": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)",
+            "credentialState": "confirmed"
+          },
+          "image": {
+            "src": "/uploads/1768270364125-144711646-yandi.png",
+            "alt": "JVTO driver Yandi"
+          }
+        },
+        "bio": {
+          "about": "Love meeting people from different backgrounds and making every trip feel easy and enjoyable. Always make sure safety during the trip.",
+          "facebook": "https://www.facebook.com/yendi.juned",
+          "instagram": "",
+          "languages": "English, Indonesian",
+          "photo_url": "https://javavolcano-touroperator.com/uploads/1768270364125-144711646-yandi.png",
+          "highlights": [
+            "Friendly & fun",
+            "Great logistics",
+            "Knowledgeable guide"
+          ]
+        },
+        "featuredReviews": [
+          {
+            "reviewId": "google-review-186",
+            "reviewerName": "Alicia",
+            "date": "2025-07-24",
+            "star": 5,
+            "reviewExcerpt": "We really loved and were very satisfied with this trip. Throughout the journey, we were well taken care of by Yandi and Kiki, who gave us many helpful suggestions for our itinerary. At Madakaripura, our guide Alim helped us take lots of great photos and videos, which made us really happy.\\n\\nAlthough the weather at Mount Ijen wasn't ideal, the views at Bromo were absolutely stunning, and the waterfall was also inc...",
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT21GV2VFNTVPVXRSYjJjMlpucFJSRmxqTW5WSFlXYxAB",
+            "package": {
+              "name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+              "slug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n"
+            },
+            "media": [
+              {
+                "id": "AbFvOqn9784iQF_-cUQlO1mkYpwRBMpPDav5dD-QHBr9oEnAV2rRz4-Riebc_f6x5tGDN5DlJgc6oQ-1",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPLa_pVdAgTEDREWtnzwi55E91nmWJzyqPJY1WlSaKRheezs13aSu9jIcGkEkVSxC0K6aCkMmZ35btvn33VDtmyzGS49RGNPDgZg2NH7fOO2QvvCbzFTGEIw_5nKKkjiPdwsBZ061o6Bvva=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqn9784iQF_-cUQlO1mkYpwRBMpPDav5dD-QHBr9oEnAV2rRz4-Riebc_f6x5tGDN5DlJgc6oQ-2",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPFxmqhDvy9n2xa4VRea_7I5839RANUm4FPKTmxMWU3x_iiHd4NLTAwVewJyHnhy0Eti6E4a1Eptz5yQPu37q9OKkhM-Djw7hicrIxnVkTiyLpujzSwFju3T2xQAYT5OgHCW8ZJ6JIOSHwc=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqn9784iQF_-cUQlO1mkYpwRBMpPDav5dD-QHBr9oEnAV2rRz4-Riebc_f6x5tGDN5DlJgc6oQ-3",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMq6Ge-UEhzFNPjObRHQPmwVP_0NdLO8fueCdJqKrpxPwCWVoBdNjqsnv3HmiesX7l-QNbY1ST3O_T5WKxtg7dTRfKZ5UPQjGV4007DYO4WBmEXwhUUyT7jE6mnewMpms0zHoOvofXOLb0=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              },
+              {
+                "id": "AbFvOqn9784iQF_-cUQlO1mkYpwRBMpPDav5dD-QHBr9oEnAV2rRz4-Riebc_f6x5tGDN5DlJgc6oQ-4",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMz-D39HkhT9S0CC1eRBsRmssSQQ21FbJP0HjhZPkBzX5Lc3ZQdTGyayg0MAWGDecDgg7Af_Hep2ftGAKjeDCBIEtpisWko_UMeVv-sIDgIy0TbHukuLccmlKxWXwlktVum24-NZFCjitMr=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              }
+            ]
+          },
+          {
+            "reviewId": "google-review-250",
+            "reviewerName": "brylee catline",
+            "date": "2023-12-29",
+            "star": 5,
+            "reviewExcerpt": "Yandi and Dosi made our 5 Days 4 Nights tour to Ijen, Papuma, Tumpak Sewu, Bromo, and Surabaya truly enjoyable. Highly recommend their services!",
+            "originalReviewUrl": "https://business.google.com/n/11306571900359184784/reviews/ChZDSUhNMG9nS0VJQ0FnSUMxbHJfbkl3EAE",
+            "package": {
+              "name": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Nature Trip from Surabaya",
+              "slug": "tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n"
+            },
+            "media": [
+              {
+                "id": "AbFvOqnGTBGAxeEuWyoxA-mSeaS8V4j8JEcLndl2VMqDX2fneKEOOlw9QHcsy7e8A8juJUZwIYZN_g-1",
+                "type": "photo",
+                "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNCZQoENfzNQeFnrsMzZQw-qzyXPU71727ORCS41sRXWYtBAu9IFmdGSd52-TW5FypdIxdjzFq6Vm9mQi7axb0Qpt9GGEG0Tgesu1gXclXyZ2Qiuw1E9id49G4wbc48SlUIylxLpg=k-no",
+                "thumbnailLabel": "",
+                "videoUrl": ""
+              }
+            ]
+          }
+        ],
+        "related": [
+          {
+            "label": "Full team overview",
+            "href": "/why-jvto/our-team"
+          },
+          {
+            "label": "All reviews",
+            "href": "/why-jvto/reviews"
+          },
+          {
+            "label": "Book a tour",
+            "href": "/tours"
+          }
+        ]
+      }
+    },
+    "faq": null
+  },
+  "render_contract": {
+    "consumer": "jvto-web",
+    "route_level_payload": true,
+    "website_should_not_resolve_raw_sources": true
+  },
+  "source_trace": {
+    "generated_at": "2026-08-12T07:57:49.134Z",
+    "source_files": [
+      "/Users/macbook/Code/jvto-web/content/entities/people.json",
+      "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
+      "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
+      "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
+      "https://javavolcano-touroperator.com/sitemap.xml"
+    ],
+    "migration_note": "Created to align JVTO Operating Ecosystem source routes with the live jvto-web public Why JVTO crew detail pages. Personal phone fields from the team content source are intentionally excluded because the live detail page does not render them."
+  }
+}
