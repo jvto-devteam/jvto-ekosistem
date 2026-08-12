@@ -1,14 +1,14 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-12T08:37:49.093Z",
+  "generated_at": "2026-08-12T08:52:03.684Z",
   "route": "/travel-guide/tumpak-sewu-logistics",
   "domain": "travel-guide",
   "slug": "tumpak-sewu-logistics",
   "status": "published",
   "seo": {
-    "title": "Tumpak Sewu Logistics: Trek & Safety - JVTO Travel Guide",
-    "description": "Canyon descent, river crossings, and fitness expectations for Java's most dramatic waterfall trail.",
+    "title": "Tumpak Sewu Logistics Guide | JVTO",
+    "description": "Complete logistics guide for Tumpak Sewu Waterfall canyon tours: 07:00 AM arrival, 1.5 km guided descent through Glidih Canyon with rope-assisted sections, footwear requirements, wet vs dry season trail conditions. JVTO private tours include all fees.",
     "canonicalRoute": "/travel-guide/tumpak-sewu-logistics",
     "schemaTypes": [
       "WebPage",
@@ -113,6 +113,8 @@
     "source_files": [
       "/Users/macbook/Code/jvto-web/src/app/(website)/travel-guide/tumpak-sewu-logistics/page.tsx"
     ],
-    "migration_note": "Created from current jvto-web route component because no prior canonical core source existed."
+    "migration_note": "Created from current jvto-web route component because no prior canonical core source existed.",
+    "live_verified_at": "2026-08-12T08:50:50.019Z",
+    "live_verification_source": "https://javavolcano-touroperator.com/travel-guide/tumpak-sewu-logistics"
   }
 }

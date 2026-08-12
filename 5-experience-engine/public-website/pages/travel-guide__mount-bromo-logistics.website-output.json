@@ -1,14 +1,14 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-12T08:37:49.093Z",
+  "generated_at": "2026-08-12T08:52:03.684Z",
   "route": "/travel-guide/mount-bromo-logistics",
   "domain": "travel-guide",
   "slug": "mount-bromo-logistics",
   "status": "published",
   "seo": {
-    "title": "Mount Bromo Logistics: Jeep, Timing & Sunrise - JVTO Travel Guide",
-    "description": "Private jeep, sunrise timing, and altitude preparation - what you need to know before arriving at the Tengger caldera.",
+    "title": "Mount Bromo Logistics Guide | JVTO",
+    "description": "Complete operational logistics for Mount Bromo sunrise tours: 03:00 AM departure protocol, private 4x4 jeep (max 4 pax), King Kong Hill and Penanjakan viewpoints, 250-step crater rim walk, and PVMBG volcanic monitoring. JVTO private tours include all park fees.",
     "canonicalRoute": "/travel-guide/mount-bromo-logistics",
     "schemaTypes": [
       "WebPage",
@@ -136,6 +136,8 @@
     "source_files": [
       "/Users/macbook/Code/jvto-web/src/app/(website)/travel-guide/mount-bromo-logistics/page.tsx"
     ],
-    "migration_note": "Created from current jvto-web route component because no prior canonical core source existed."
+    "migration_note": "Created from current jvto-web route component because no prior canonical core source existed.",
+    "live_verified_at": "2026-08-12T08:50:50.016Z",
+    "live_verification_source": "https://javavolcano-touroperator.com/travel-guide/mount-bromo-logistics"
   }
 }

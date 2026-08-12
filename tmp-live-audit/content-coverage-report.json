@@ -1,0 +1,841 @@
+{
+  "summary": {
+    "routes": 34,
+    "perfect": 1,
+    "below80": [
+      {
+        "route": "/travel-guide/packing-list",
+        "coverage": 0,
+        "checked": 18,
+        "found": 0,
+        "missing": [
+          "what to pack for east java",
+          "east java spans tropical lowlands and 2 300 metre volcanic rims in",
+          "layers grip and a headlamp are non negotiable",
+          "most travelers underpack for the cold overpack for the heat and forget",
+          "thermal long sleeve top merino or synthetic not cotton"
+        ]
+      },
+      {
+        "route": "/why-jvto/reviews",
+        "coverage": 0,
+        "checked": 17,
+        "found": 0,
+        "missing": [
+          "reviews matter when they are independent",
+          "we link to official platform listings so you can judge patterns yourself",
+          "jvto cannot edit or delete reviews on these platforms",
+          "official channels website https javavolcano touroperator com whatsapp 6282244788833 email hello javavolcano",
+          "where to check reviews official links"
+        ]
+      },
+      {
+        "route": "/travel-guide",
+        "coverage": 0.014,
+        "checked": 73,
+        "found": 1,
+        "missing": [
+          "travel guide safety health practical information",
+          "jvto s official travel guide booking steps safety rules ijen health screening",
+          "hub for jvto travel guidance booking safety health screening packing weather and",
+          "title tag travel guide safety health practical information java volcano tour operator",
+          "learn about booking safety ijen health screening weather and closures packing police"
+        ]
+      },
+      {
+        "route": "/policy",
+        "coverage": 0.235,
+        "checked": 17,
+        "found": 4,
+        "missing": [
+          "navigation hub for the jvto policy documents privacy booking payment cancellation and",
+          "covers how to book with jvto deposit and balance payment requirements deadlines",
+          "read booking payment cancellation policy policy booking payment cancellation",
+          "defines exactly what is and is not included in a confirmed jvto",
+          "read inclusions exclusions policy policy inclusions exclusions"
+        ]
+      },
+      {
+        "route": "/why-jvto/our-team",
+        "coverage": 0.303,
+        "checked": 66,
+        "found": 20,
+        "missing": [
+          "great tours are not just itineraries",
+          "they are daily coordination drivers guides timing hotels permits and mountain rules",
+          "we focus on private trips with a local east java team so",
+          "official channels website https javavolcano touroperator com whatsapp 6282244788833 email hello javavolcano",
+          "how to read this team page"
+        ]
+      },
+      {
+        "route": "/travel-guide/tumpak-sewu-logistics",
+        "coverage": 0.385,
+        "checked": 13,
+        "found": 5,
+        "missing": [
+          "the descent into the canyon takes around 90 minutes if taken slowly",
+          "guests should expect wet stone water spray and river crossings",
+          "panorama viewpoint at the rim first stop and photo opportunity",
+          "stairs into the canyon around 600 irregular steps slippery in places",
+          "river crossing knee deep in dry season and potentially waist deep during"
+        ]
+      },
+      {
+        "route": "/why-jvto/our-team/fredi",
+        "coverage": 0.51,
+        "checked": 51,
+        "found": 26,
+        "missing": [
+          "tours from surabaya bromo madakaripura ijen 3d2n",
+          "abfvoqkmk7ugtdpa ks xhvlfgidedvkcc8jfhefca1cvrguqlubncn6wxmruersoj8ptfft78v g 1",
+          "abfvoqkmk7ugtdpa ks xhvlfgidedvkcc8jfhefca1cvrguqlubncn6wxmruersoj8ptfft78v g 2",
+          "abfvoqkmk7ugtdpa ks xhvlfgidedvkcc8jfhefca1cvrguqlubncn6wxmruersoj8ptfft78v g 3",
+          "abfvoqkmk7ugtdpa ks xhvlfgidedvkcc8jfhefca1cvrguqlubncn6wxmruersoj8ptfft78v g 4"
+        ]
+      },
+      {
+        "route": "/why-jvto/our-team/fauzi",
+        "coverage": 0.521,
+        "checked": 48,
+        "found": 25,
+        "missing": [
+          "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 1",
+          "mount bromo sunrise landscape view",
+          "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 2",
+          "sunrise view of mount bromo",
+          "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 3"
+        ]
+      },
+      {
+        "route": "/why-jvto/our-team/kiki",
+        "coverage": 0.556,
+        "checked": 27,
+        "found": 15,
+        "missing": [
+          "tours from surabaya ijen bromo madakaripura 3d2n",
+          "abfvoqn9784iqf cuqlo1mkypwrbmppdav5dd qhbr9oenav2rrz4 riebc f6x5tgdn5dljgc6oq 1",
+          "abfvoqn9784iqf cuqlo1mkypwrbmppdav5dd qhbr9oenav2rrz4 riebc f6x5tgdn5dljgc6oq 2",
+          "abfvoqn9784iqf cuqlo1mkypwrbmppdav5dd qhbr9oenav2rrz4 riebc f6x5tgdn5dljgc6oq 3",
+          "abfvoqn9784iqf cuqlo1mkypwrbmppdav5dd qhbr9oenav2rrz4 riebc f6x5tgdn5dljgc6oq 4"
+        ]
+      },
+      {
+        "route": "/why-jvto/our-team/holili",
+        "coverage": 0.563,
+        "checked": 16,
+        "found": 9,
+        "missing": [
+          "tours from surabaya ijen bromo madakaripura 3d2n",
+          "abfvoqmxndxwh0lhz5vhxwokuvgdiwee1wa7wi6lql42qus1bqsz0o4rgahggq oacfn89lpc tkbg 1",
+          "abfvoqmxndxwh0lhz5vhxwokuvgdiwee1wa7wi6lql42qus1bqsz0o4rgahggq oacfn89lpc tkbg 2",
+          "abfvoqmxndxwh0lhz5vhxwokuvgdiwee1wa7wi6lql42qus1bqsz0o4rgahggq oacfn89lpc tkbg 3",
+          "abfvoqmxndxwh0lhz5vhxwokuvgdiwee1wa7wi6lql42qus1bqsz0o4rgahggq oacfn89lpc tkbg 4"
+        ]
+      },
+      {
+        "route": "/why-jvto/our-team/boy",
+        "coverage": 0.577,
+        "checked": 26,
+        "found": 15,
+        "missing": [
+          "tours from surabaya ijen bromo madakaripura 3d2n",
+          "abfvoqmxndxwh0lhz5vhxwokuvgdiwee1wa7wi6lql42qus1bqsz0o4rgahggq oacfn89lpc tkbg 1",
+          "abfvoqmxndxwh0lhz5vhxwokuvgdiwee1wa7wi6lql42qus1bqsz0o4rgahggq oacfn89lpc tkbg 2",
+          "abfvoqmxndxwh0lhz5vhxwokuvgdiwee1wa7wi6lql42qus1bqsz0o4rgahggq oacfn89lpc tkbg 3",
+          "abfvoqmxndxwh0lhz5vhxwokuvgdiwee1wa7wi6lql42qus1bqsz0o4rgahggq oacfn89lpc tkbg 4"
+        ]
+      },
+      {
+        "route": "/why-jvto",
+        "coverage": 0.588,
+        "checked": 80,
+        "found": 47,
+        "missing": [
+          "java volcano tour operator jvto is a registered indonesian tour operator based",
+          "we specialize in private volcano trips bromo ijen and selected extensions",
+          "in a landscape where volcanic nature is uncertain jvto sells operational certainty",
+          "if you want the practical rulebook clear steps what to bring safety",
+          "for binding terms use policy"
+        ]
+      },
+      {
+        "route": "/why-jvto/our-team/yandi",
+        "coverage": 0.611,
+        "checked": 18,
+        "found": 11,
+        "missing": [
+          "tours from surabaya ijen bromo madakaripura 3d2n",
+          "abfvoqn9784iqf cuqlo1mkypwrbmppdav5dd qhbr9oenav2rrz4 riebc f6x5tgdn5dljgc6oq 1",
+          "abfvoqn9784iqf cuqlo1mkypwrbmppdav5dd qhbr9oenav2rrz4 riebc f6x5tgdn5dljgc6oq 2",
+          "abfvoqn9784iqf cuqlo1mkypwrbmppdav5dd qhbr9oenav2rrz4 riebc f6x5tgdn5dljgc6oq 3",
+          "abfvoqn9784iqf cuqlo1mkypwrbmppdav5dd qhbr9oenav2rrz4 riebc f6x5tgdn5dljgc6oq 4"
+        ]
+      },
+      {
+        "route": "/why-jvto/our-team/taufik",
+        "coverage": 0.613,
+        "checked": 31,
+        "found": 19,
+        "missing": [
+          "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 1",
+          "mount bromo sunrise landscape view",
+          "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 2",
+          "sunrise view of mount bromo",
+          "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 3"
+        ]
+      },
+      {
+        "route": "/why-jvto/our-team/anjas",
+        "coverage": 0.619,
+        "checked": 42,
+        "found": 26,
+        "missing": [
+          "abfvoqlibtzlq0ihew8eiafs6uzafe1adpehyuz 1yddfyubkt8g9b3rj1wmbwc5d3yhr09vy9xe 1",
+          "abfvoqlibtzlq0ihew8eiafs6uzafe1adpehyuz 1yddfyubkt8g9b3rj1wmbwc5d3yhr09vy9xe 2",
+          "abfvoqlibtzlq0ihew8eiafs6uzafe1adpehyuz 1yddfyubkt8g9b3rj1wmbwc5d3yhr09vy9xe 3",
+          "abfvoqlibtzlq0ihew8eiafs6uzafe1adpehyuz 1yddfyubkt8g9b3rj1wmbwc5d3yhr09vy9xe 4",
+          "abfvoqnvwygn ybkblxurrv034itbqw78kvqm8z3n wjpz6yc0nurpvtsann5tpkf bb3g4ahuuldq 1"
+        ]
+      },
+      {
+        "route": "/why-jvto/our-team/rendi",
+        "coverage": 0.63,
+        "checked": 46,
+        "found": 29,
+        "missing": [
+          "tours from surabaya bromo madakaripura ijen 3d2n",
+          "abfvoqn1 dt fo3svuph46j06lb9akyzxeakrv8usgagtzazcvbqm zbeawcbszbpt8nsxwzsreb 1",
+          "abfvoqn1 dt fo3svuph46j06lb9akyzxeakrv8usgagtzazcvbqm zbeawcbszbpt8nsxwzsreb 2",
+          "abfvoqn1 dt fo3svuph46j06lb9akyzxeakrv8usgagtzazcvbqm zbeawcbszbpt8nsxwzsreb 3",
+          "abfvoqn1 dt fo3svuph46j06lb9akyzxeakrv8usgagtzazcvbqm zbeawcbszbpt8nsxwzsreb 4"
+        ]
+      },
+      {
+        "route": "/why-jvto/our-team/gufron",
+        "coverage": 0.632,
+        "checked": 38,
+        "found": 24,
+        "missing": [
+          "tours from surabaya bromo madakaripura ijen 3d2n",
+          "abfvoql5uqo7msyyjp nss3965mygdt7bt5ovhrwjyhfuw9kisybxx6 nxqhcoec6pmg6u7p475fiw 1",
+          "abfvoql5uqo7msyyjp nss3965mygdt7bt5ovhrwjyhfuw9kisybxx6 nxqhcoec6pmg6u7p475fiw 2",
+          "abfvoql5uqo7msyyjp nss3965mygdt7bt5ovhrwjyhfuw9kisybxx6 nxqhcoec6pmg6u7p475fiw 3",
+          "abfvoql5uqo7msyyjp nss3965mygdt7bt5ovhrwjyhfuw9kisybxx6 nxqhcoec6pmg6u7p475fiw 4"
+        ]
+      },
+      {
+        "route": "/why-jvto/community-standards",
+        "coverage": 0.679,
+        "checked": 56,
+        "found": 38,
+        "missing": [
+          "partnerships matter when they connect to real guest value fairness competence and",
+          "this page also explains the operational standards and commitments that govern every",
+          "official channels website https javavolcano touroperator com whatsapp 6282244788833 email hello javavolcano",
+          "read the rulebook before you book 0",
+          "written rules before booking 1"
+        ]
+      },
+      {
+        "route": "/why-jvto/the-jvto-difference",
+        "coverage": 0.707,
+        "checked": 58,
+        "found": 41,
+        "missing": [
+          "jvto is led by agung sambuko mr",
+          "sam founder active tourist police officer",
+          "the value is not a marketing title it s an operational mindset",
+          "in volcano travel the key is not predicting nature",
+          "it s managing risk timing logistics and decisions when conditions change"
+        ]
+      },
+      {
+        "route": "/policy/booking-payment-cancellation",
+        "coverage": 0.735,
+        "checked": 34,
+        "found": 25,
+        "missing": [
+          "destination force majeure before day 1",
+          "if a verified official event affects your destination before day 1 and",
+          "destination force majeure after day 1 begins",
+          "if a verified official event affects your destination after day 1 has",
+          "if no suitable alternative is available a refund of the affected component"
+        ]
+      }
+    ]
+  },
+  "results": [
+    {
+      "route": "/travel-guide/packing-list",
+      "file": "1-knowledge-and-evidence-core/travel-guide/packing-list.source.json",
+      "checked": 18,
+      "found": 0,
+      "coverage": 0,
+      "missing": [
+        "what to pack for east java",
+        "east java spans tropical lowlands and 2 300 metre volcanic rims in",
+        "layers grip and a headlamp are non negotiable",
+        "most travelers underpack for the cold overpack for the heat and forget",
+        "thermal long sleeve top merino or synthetic not cotton",
+        "thermal leggings one pair",
+        "hiking pants x 2 one quick dry one warm",
+        "fleece or mid layer down jacket",
+        "windproof and waterproof shell",
+        "buff or neck scarf for sulfur protection at ijen",
+        "trail running shoes or light hiking shoes with grip",
+        "sandals for lodge or clinic visits"
+      ]
+    },
+    {
+      "route": "/why-jvto/reviews",
+      "file": "1-knowledge-and-evidence-core/why-jvto/reviews.source.json",
+      "checked": 17,
+      "found": 0,
+      "coverage": 0,
+      "missing": [
+        "reviews matter when they are independent",
+        "we link to official platform listings so you can judge patterns yourself",
+        "jvto cannot edit or delete reviews on these platforms",
+        "official channels website https javavolcano touroperator com whatsapp 6282244788833 email hello javavolcano",
+        "where to check reviews official links",
+        "tripadvisor https www tripadvisor com attraction review g297715 d19983165 reviews java volcano",
+        "what to look for in reviews",
+        "safety mindset and calm decision making",
+        "guide quality and communication",
+        "logistics timing pick ups hotel handling",
+        "how issues are handled when conditions change",
+        "how we respond to feedback"
+      ]
+    },
+    {
+      "route": "/travel-guide",
+      "file": "1-knowledge-and-evidence-core/travel-guide/index.source.json",
+      "checked": 73,
+      "found": 1,
+      "coverage": 0.014,
+      "missing": [
+        "travel guide safety health practical information",
+        "jvto s official travel guide booking steps safety rules ijen health screening",
+        "hub for jvto travel guidance booking safety health screening packing weather and",
+        "title tag travel guide safety health practical information java volcano tour operator",
+        "learn about booking safety ijen health screening weather and closures packing police",
+        "use this travel guide as jvto s official handbook for planning private",
+        "understand how jvto handles safety health weather closures payments and student deals",
+        "use your official e voucher invoice and the booking payment cancellation policy",
+        "how to book pay travel guide booking information browse private tours tours",
+        "latest jvto update placeholder block",
+        "check this latest jvto update card for time sensitive operational notes before",
+        "last updated dd month yyyy bromo short operational note e g operating"
+      ]
+    },
+    {
+      "route": "/policy",
+      "file": "1-knowledge-and-evidence-core/policies/index.source.json",
+      "checked": 17,
+      "found": 4,
+      "coverage": 0.235,
+      "missing": [
+        "navigation hub for the jvto policy documents privacy booking payment cancellation and",
+        "covers how to book with jvto deposit and balance payment requirements deadlines",
+        "read booking payment cancellation policy policy booking payment cancellation",
+        "defines exactly what is and is not included in a confirmed jvto",
+        "read inclusions exclusions policy policy inclusions exclusions",
+        "explains what personal data jvto collects during the booking process how that",
+        "read privacy data protection policy policy privacy",
+        "if there is any discrepancy between documents the following order applies",
+        "your official e voucher invoice pdf for the confirmed booking 2",
+        "jvto booking payment cancellation policy 3",
+        "jvto inclusions exclusions policy 4",
+        "jvto privacy data protection policy 5"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team.source.json",
+      "checked": 66,
+      "found": 20,
+      "coverage": 0.303,
+      "missing": [
+        "great tours are not just itineraries",
+        "they are daily coordination drivers guides timing hotels permits and mountain rules",
+        "we focus on private trips with a local east java team so",
+        "official channels website https javavolcano touroperator com whatsapp 6282244788833 email hello javavolcano",
+        "how to read this team page",
+        "crew bios across the tourism industry default to friendly knowledgeable passionate",
+        "those words tell you nothing",
+        "jvto frames the crew differently as protectors with specific training and operational",
+        "a jvto guide doesn t just walk you up the crater",
+        "they re a hpwki registered member who completed bbksda supervised sar and",
+        "when rendi held hands with guests on the steep crater descent that",
+        "the framing principle lead with competence let warmth emerge from specifics"
+      ]
+    },
+    {
+      "route": "/travel-guide/tumpak-sewu-logistics",
+      "file": "1-knowledge-and-evidence-core/travel-guide/tumpak-sewu-logistics.source.json",
+      "checked": 13,
+      "found": 5,
+      "coverage": 0.385,
+      "missing": [
+        "the descent into the canyon takes around 90 minutes if taken slowly",
+        "guests should expect wet stone water spray and river crossings",
+        "panorama viewpoint at the rim first stop and photo opportunity",
+        "stairs into the canyon around 600 irregular steps slippery in places",
+        "river crossing knee deep in dry season and potentially waist deep during",
+        "base of falls wide pool water spray and dramatic light through the",
+        "during and immediately after heavy rain the canyon floor can flood rapidly",
+        "jvto guides cancel descent when rainfall or water conditions make the canyon"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/fredi",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-fredi.source.json",
+      "checked": 51,
+      "found": 26,
+      "coverage": 0.51,
+      "missing": [
+        "tours from surabaya bromo madakaripura ijen 3d2n",
+        "abfvoqkmk7ugtdpa ks xhvlfgidedvkcc8jfhefca1cvrguqlubncn6wxmruersoj8ptfft78v g 1",
+        "abfvoqkmk7ugtdpa ks xhvlfgidedvkcc8jfhefca1cvrguqlubncn6wxmruersoj8ptfft78v g 2",
+        "abfvoqkmk7ugtdpa ks xhvlfgidedvkcc8jfhefca1cvrguqlubncn6wxmruersoj8ptfft78v g 3",
+        "abfvoqkmk7ugtdpa ks xhvlfgidedvkcc8jfhefca1cvrguqlubncn6wxmruersoj8ptfft78v g 4",
+        "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 1",
+        "mount bromo sunrise landscape view",
+        "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 2",
+        "sunrise view of mount bromo",
+        "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 3",
+        "off road jeep mountain tour",
+        "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 4"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/fauzi",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-fauzi.source.json",
+      "checked": 48,
+      "found": 25,
+      "coverage": 0.521,
+      "missing": [
+        "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 1",
+        "mount bromo sunrise landscape view",
+        "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 2",
+        "sunrise view of mount bromo",
+        "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 3",
+        "off road jeep mountain tour",
+        "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 4",
+        "abfvoqmyehvinuggbivh6zromkc8l37teyu7lfid7w6ap2froqrxq8guntxk2ocxxyzojipcxk18 a 1",
+        "abfvoqmyehvinuggbivh6zromkc8l37teyu7lfid7w6ap2froqrxq8guntxk2ocxxyzojipcxk18 a 2",
+        "abfvoqmyehvinuggbivh6zromkc8l37teyu7lfid7w6ap2froqrxq8guntxk2ocxxyzojipcxk18 a 3",
+        "abfvoqmyehvinuggbivh6zromkc8l37teyu7lfid7w6ap2froqrxq8guntxk2ocxxyzojipcxk18 a 4",
+        "abfvoqmgchpxco71ofqgd8vmf wehodavcc3rqtsbtdoaix4gkbqkekgesbfpkm0odfrkoelkhfbjq 1"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/kiki",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-kiki.source.json",
+      "checked": 27,
+      "found": 15,
+      "coverage": 0.556,
+      "missing": [
+        "tours from surabaya ijen bromo madakaripura 3d2n",
+        "abfvoqn9784iqf cuqlo1mkypwrbmppdav5dd qhbr9oenav2rrz4 riebc f6x5tgdn5dljgc6oq 1",
+        "abfvoqn9784iqf cuqlo1mkypwrbmppdav5dd qhbr9oenav2rrz4 riebc f6x5tgdn5dljgc6oq 2",
+        "abfvoqn9784iqf cuqlo1mkypwrbmppdav5dd qhbr9oenav2rrz4 riebc f6x5tgdn5dljgc6oq 3",
+        "abfvoqn9784iqf cuqlo1mkypwrbmppdav5dd qhbr9oenav2rrz4 riebc f6x5tgdn5dljgc6oq 4",
+        "abfvoqn1mb upfscrn3fvtvh6fkgyeyuwotohbewpod8lnwr75jwgrralfgrlo5a d7halwroc9x5w 1",
+        "abfvoqn1mb upfscrn3fvtvh6fkgyeyuwotohbewpod8lnwr75jwgrralfgrlo5a d7halwroc9x5w 2",
+        "abfvoqn1mb upfscrn3fvtvh6fkgyeyuwotohbewpod8lnwr75jwgrralfgrlo5a d7halwroc9x5w 3",
+        "abfvoqn1mb upfscrn3fvtvh6fkgyeyuwotohbewpod8lnwr75jwgrralfgrlo5a d7halwroc9x5w 4",
+        "abfvoqlp bhxsog9uiiuotx2bxfsky0wy9ve1sb9qdiffmrtv2dsv b7psluq0pajhtfkz0zu visa 1",
+        "abfvoqlp bhxsog9uiiuotx2bxfsky0wy9ve1sb9qdiffmrtv2dsv b7psluq0pajhtfkz0zu visa 2",
+        "abfvoqlp bhxsog9uiiuotx2bxfsky0wy9ve1sb9qdiffmrtv2dsv b7psluq0pajhtfkz0zu visa 3"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/holili",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-holili.source.json",
+      "checked": 16,
+      "found": 9,
+      "coverage": 0.563,
+      "missing": [
+        "tours from surabaya ijen bromo madakaripura 3d2n",
+        "abfvoqmxndxwh0lhz5vhxwokuvgdiwee1wa7wi6lql42qus1bqsz0o4rgahggq oacfn89lpc tkbg 1",
+        "abfvoqmxndxwh0lhz5vhxwokuvgdiwee1wa7wi6lql42qus1bqsz0o4rgahggq oacfn89lpc tkbg 2",
+        "abfvoqmxndxwh0lhz5vhxwokuvgdiwee1wa7wi6lql42qus1bqsz0o4rgahggq oacfn89lpc tkbg 3",
+        "abfvoqmxndxwh0lhz5vhxwokuvgdiwee1wa7wi6lql42qus1bqsz0o4rgahggq oacfn89lpc tkbg 4",
+        "abfvoqnymteuhbpeaocqd 6qslg6vyc4zpcjwxx2uv6fhyqzjo ermggsgyzvwnqda0r2ra1t2nzsw 1",
+        "abfvoqnymteuhbpeaocqd 6qslg6vyc4zpcjwxx2uv6fhyqzjo ermggsgyzvwnqda0r2ra1t2nzsw 2"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/boy",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-boy.source.json",
+      "checked": 26,
+      "found": 15,
+      "coverage": 0.577,
+      "missing": [
+        "tours from surabaya ijen bromo madakaripura 3d2n",
+        "abfvoqmxndxwh0lhz5vhxwokuvgdiwee1wa7wi6lql42qus1bqsz0o4rgahggq oacfn89lpc tkbg 1",
+        "abfvoqmxndxwh0lhz5vhxwokuvgdiwee1wa7wi6lql42qus1bqsz0o4rgahggq oacfn89lpc tkbg 2",
+        "abfvoqmxndxwh0lhz5vhxwokuvgdiwee1wa7wi6lql42qus1bqsz0o4rgahggq oacfn89lpc tkbg 3",
+        "abfvoqmxndxwh0lhz5vhxwokuvgdiwee1wa7wi6lql42qus1bqsz0o4rgahggq oacfn89lpc tkbg 4",
+        "tours from surabaya bromo madakaripura ijen 3d2n",
+        "abfvoqkmk7ugtdpa ks xhvlfgidedvkcc8jfhefca1cvrguqlubncn6wxmruersoj8ptfft78v g 1",
+        "abfvoqkmk7ugtdpa ks xhvlfgidedvkcc8jfhefca1cvrguqlubncn6wxmruersoj8ptfft78v g 2",
+        "abfvoqkmk7ugtdpa ks xhvlfgidedvkcc8jfhefca1cvrguqlubncn6wxmruersoj8ptfft78v g 3",
+        "abfvoqkmk7ugtdpa ks xhvlfgidedvkcc8jfhefca1cvrguqlubncn6wxmruersoj8ptfft78v g 4",
+        "abfvoqlsxsivyk1k7xl4sk qz8hdmewh2kl8jnwke xywq1gnxkbjzv4p3j0ydk56lkob zlgfgqlg 1"
+      ]
+    },
+    {
+      "route": "/why-jvto",
+      "file": "1-knowledge-and-evidence-core/why-jvto/index.source.json",
+      "checked": 80,
+      "found": 47,
+      "coverage": 0.588,
+      "missing": [
+        "java volcano tour operator jvto is a registered indonesian tour operator based",
+        "we specialize in private volcano trips bromo ijen and selected extensions",
+        "in a landscape where volcanic nature is uncertain jvto sells operational certainty",
+        "if you want the practical rulebook clear steps what to bring safety",
+        "for binding terms use policy",
+        "official channels website https javavolcano touroperator com whatsapp 6282244788833 email hello javavolcano",
+        "six proof backed sections",
+        "sam founder of java volcano tour operator",
+        "mandatory for every guest under bbksda se 1658 ksa 9 2024 we",
+        "nib tdup hpwki credentialed guides bbksda clearance registered isic provider and indecon",
+        "national media verification",
+        "duty first business second"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/yandi",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-yandi.source.json",
+      "checked": 18,
+      "found": 11,
+      "coverage": 0.611,
+      "missing": [
+        "tours from surabaya ijen bromo madakaripura 3d2n",
+        "abfvoqn9784iqf cuqlo1mkypwrbmppdav5dd qhbr9oenav2rrz4 riebc f6x5tgdn5dljgc6oq 1",
+        "abfvoqn9784iqf cuqlo1mkypwrbmppdav5dd qhbr9oenav2rrz4 riebc f6x5tgdn5dljgc6oq 2",
+        "abfvoqn9784iqf cuqlo1mkypwrbmppdav5dd qhbr9oenav2rrz4 riebc f6x5tgdn5dljgc6oq 3",
+        "abfvoqn9784iqf cuqlo1mkypwrbmppdav5dd qhbr9oenav2rrz4 riebc f6x5tgdn5dljgc6oq 4",
+        "tours from surabaya ijen papuma tumpak sewu bromo 5d4n",
+        "abfvoqngtbgaxeeuwyoxa mseas8v4j8jeclndl2vmqdx2fnekeoolw9qhcsy7e8a8jujuzwiyzn g 1"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/taufik",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-taufik.source.json",
+      "checked": 31,
+      "found": 19,
+      "coverage": 0.613,
+      "missing": [
+        "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 1",
+        "mount bromo sunrise landscape view",
+        "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 2",
+        "sunrise view of mount bromo",
+        "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 3",
+        "off road jeep mountain tour",
+        "abfvoqnudma7ymsrqqgtcbxoycwu4zfbwblw9rq2npfhhr2wgv peqz53oxduk3qaxd2brkuwyz2vq 4",
+        "tours from surabaya ijen bromo madakaripura 3d2n",
+        "abfvoqlni03hlvzxkr0bck owy6ubsgixcnb5aa1wv68 1ytpdqcdzrvznrpz5apyvsdl3thnpaqq 1",
+        "abfvoqlni03hlvzxkr0bck owy6ubsgixcnb5aa1wv68 1ytpdqcdzrvznrpz5apyvsdl3thnpaqq 2",
+        "abfvoqlni03hlvzxkr0bck owy6ubsgixcnb5aa1wv68 1ytpdqcdzrvznrpz5apyvsdl3thnpaqq 3",
+        "abfvoqljjwui43nsch9un4xbgoilaujcgrxqrwxo vtqn rdvfdbiwh orjoetfk66krwnx ksirtw 1"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/anjas",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-anjas.source.json",
+      "checked": 42,
+      "found": 26,
+      "coverage": 0.619,
+      "missing": [
+        "abfvoqlibtzlq0ihew8eiafs6uzafe1adpehyuz 1yddfyubkt8g9b3rj1wmbwc5d3yhr09vy9xe 1",
+        "abfvoqlibtzlq0ihew8eiafs6uzafe1adpehyuz 1yddfyubkt8g9b3rj1wmbwc5d3yhr09vy9xe 2",
+        "abfvoqlibtzlq0ihew8eiafs6uzafe1adpehyuz 1yddfyubkt8g9b3rj1wmbwc5d3yhr09vy9xe 3",
+        "abfvoqlibtzlq0ihew8eiafs6uzafe1adpehyuz 1yddfyubkt8g9b3rj1wmbwc5d3yhr09vy9xe 4",
+        "abfvoqnvwygn ybkblxurrv034itbqw78kvqm8z3n wjpz6yc0nurpvtsann5tpkf bb3g4ahuuldq 1",
+        "abfvoqnvwygn ybkblxurrv034itbqw78kvqm8z3n wjpz6yc0nurpvtsann5tpkf bb3g4ahuuldq 2",
+        "abfvoqnvwygn ybkblxurrv034itbqw78kvqm8z3n wjpz6yc0nurpvtsann5tpkf bb3g4ahuuldq 3",
+        "abfvoqnvwygn ybkblxurrv034itbqw78kvqm8z3n wjpz6yc0nurpvtsann5tpkf bb3g4ahuuldq 4",
+        "tours from surabaya ijen bromo madakaripura 3d2n",
+        "abfvoqlof 4yjp8s6rd3caf5vz0poyug1q3me4g55ajl7oaofds8choti5panzl9cvdbydckmprj a 1",
+        "abfvoqlof 4yjp8s6rd3caf5vz0poyug1q3me4g55ajl7oaofds8choti5panzl9cvdbydckmprj a 2",
+        "abfvoqlof 4yjp8s6rd3caf5vz0poyug1q3me4g55ajl7oaofds8choti5panzl9cvdbydckmprj a 3"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/rendi",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-rendi.source.json",
+      "checked": 46,
+      "found": 29,
+      "coverage": 0.63,
+      "missing": [
+        "tours from surabaya bromo madakaripura ijen 3d2n",
+        "abfvoqn1 dt fo3svuph46j06lb9akyzxeakrv8usgagtzazcvbqm zbeawcbszbpt8nsxwzsreb 1",
+        "abfvoqn1 dt fo3svuph46j06lb9akyzxeakrv8usgagtzazcvbqm zbeawcbszbpt8nsxwzsreb 2",
+        "abfvoqn1 dt fo3svuph46j06lb9akyzxeakrv8usgagtzazcvbqm zbeawcbszbpt8nsxwzsreb 3",
+        "abfvoqn1 dt fo3svuph46j06lb9akyzxeakrv8usgagtzazcvbqm zbeawcbszbpt8nsxwzsreb 4",
+        "abfvoqltedjfbrek1y ofw5vb6skyzdv4bxdhpi6 3wqcoyd1cn2bqbjzn0bmzejxjidumtnjnakjw 1",
+        "abfvoqltedjfbrek1y ofw5vb6skyzdv4bxdhpi6 3wqcoyd1cn2bqbjzn0bmzejxjidumtnjnakjw 2",
+        "tours from surabaya ijen bromo madakaripura 4d3n",
+        "abfvoqmmimxpni7gyfrwms kb6xwx3pwqs wlzj2zq fjy512tv0qybwb3x0 zjfsxqyvrmlhn6t1a 1",
+        "abfvoqmmimxpni7gyfrwms kb6xwx3pwqs wlzj2zq fjy512tv0qybwb3x0 zjfsxqyvrmlhn6t1a 2",
+        "abfvoqmmimxpni7gyfrwms kb6xwx3pwqs wlzj2zq fjy512tv0qybwb3x0 zjfsxqyvrmlhn6t1a 3",
+        "abfvoqn97ac3snpbj2 sycvt3cmrd bozkjofe3qsbpoc4nr8yxdvb6iyw51t2atzgpezc1y0a7h4q 1"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/gufron",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-gufron.source.json",
+      "checked": 38,
+      "found": 24,
+      "coverage": 0.632,
+      "missing": [
+        "tours from surabaya bromo madakaripura ijen 3d2n",
+        "abfvoql5uqo7msyyjp nss3965mygdt7bt5ovhrwjyhfuw9kisybxx6 nxqhcoec6pmg6u7p475fiw 1",
+        "abfvoql5uqo7msyyjp nss3965mygdt7bt5ovhrwjyhfuw9kisybxx6 nxqhcoec6pmg6u7p475fiw 2",
+        "abfvoql5uqo7msyyjp nss3965mygdt7bt5ovhrwjyhfuw9kisybxx6 nxqhcoec6pmg6u7p475fiw 3",
+        "abfvoql5uqo7msyyjp nss3965mygdt7bt5ovhrwjyhfuw9kisybxx6 nxqhcoec6pmg6u7p475fiw 4",
+        "tours from surabaya ijen bromo madakaripura 3d2n",
+        "abfvoqksgkgoggsudd6euh77vfw zv yxvpk 8tudfc2udbgxp5skqybis2oy3afxhw55byhjnurhw 1",
+        "abfvoqksgkgoggsudd6euh77vfw zv yxvpk 8tudfc2udbgxp5skqybis2oy3afxhw55byhjnurhw 2",
+        "abfvoqksgkgoggsudd6euh77vfw zv yxvpk 8tudfc2udbgxp5skqybis2oy3afxhw55byhjnurhw 3",
+        "abfvoql6mbvkcbwsscvwuj ivghfgm2rheisidjvipfijm1s2ypu e0wzax2gnagtpdbp pnjgit 1",
+        "abfvoqnymteuhbpeaocqd 6qslg6vyc4zpcjwxx2uv6fhyqzjo ermggsgyzvwnqda0r2ra1t2nzsw 1",
+        "abfvoqnymteuhbpeaocqd 6qslg6vyc4zpcjwxx2uv6fhyqzjo ermggsgyzvwnqda0r2ra1t2nzsw 2"
+      ]
+    },
+    {
+      "route": "/why-jvto/community-standards",
+      "file": "1-knowledge-and-evidence-core/why-jvto/community-standards.source.json",
+      "checked": 56,
+      "found": 38,
+      "coverage": 0.679,
+      "missing": [
+        "partnerships matter when they connect to real guest value fairness competence and",
+        "this page also explains the operational standards and commitments that govern every",
+        "official channels website https javavolcano touroperator com whatsapp 6282244788833 email hello javavolcano",
+        "read the rulebook before you book 0",
+        "written rules before booking 1",
+        "written rules before booking",
+        "three customer facing policy documents are published openly at policy",
+        "booking payment cancellation policy policy booking payment cancellation how bookings are confirmed",
+        "inclusions exclusions policy policy inclusions exclusions written list of what is covered",
+        "this policy is what makes the no surprise costs claim verifiable",
+        "privacy data protection policy policy privacy what data we collect contact and",
+        "payment cards and qris are processed through a pci dss compliant gateway"
+      ]
+    },
+    {
+      "route": "/why-jvto/the-jvto-difference",
+      "file": "1-knowledge-and-evidence-core/why-jvto/the-jvto-difference.source.json",
+      "checked": 58,
+      "found": 41,
+      "coverage": 0.707,
+      "missing": [
+        "jvto is led by agung sambuko mr",
+        "sam founder active tourist police officer",
+        "the value is not a marketing title it s an operational mindset",
+        "in volcano travel the key is not predicting nature",
+        "it s managing risk timing logistics and decisions when conditions change",
+        "every safety claim we make is backed by documents and third party",
+        "official channels website https javavolcano touroperator com whatsapp 6282244788833 email hello javavolcano",
+        "six things that make jvto operationally different from other east java volcano",
+        "each one is backed by a verifiable credential not marketing language",
+        "1 police led safety authority 1",
+        "verifiable credential sprin wal travel 2024 02 12 sha256 179b061a image https",
+        "3 all inclusive clarity written inclusions no surp 3"
+      ]
+    },
+    {
+      "route": "/policy/booking-payment-cancellation",
+      "file": "1-knowledge-and-evidence-core/policies/booking-payment-cancellation.source.json",
+      "checked": 34,
+      "found": 25,
+      "coverage": 0.735,
+      "missing": [
+        "destination force majeure before day 1",
+        "if a verified official event affects your destination before day 1 and",
+        "destination force majeure after day 1 begins",
+        "if a verified official event affects your destination after day 1 has",
+        "if no suitable alternative is available a refund of the affected component",
+        "domain owner assigned by audit",
+        "users macbook code jvto web",
+        "src data policy bundle customer copy json",
+        "src data policy bundle policy bundle json"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-story",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-story.source.json",
+      "checked": 42,
+      "found": 35,
+      "coverage": 0.833,
+      "missing": [
+        "time on the ground matters",
+        "it usually means fewer surprises stronger local relationships and calmer handling of",
+        "we keep key artifacts accessible so the journey can be audited",
+        "official channels website https javavolcano touroperator com whatsapp 6282244788833 email hello javavolcano",
+        "pt java volcano rendezvous nib 1102230032918 trustpilot 4 8 5 51 reviews",
+        "our team why jvto our team the jvto difference why jvto the",
+        "domain owner assigned by audit"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/joyo",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-joyo.source.json",
+      "checked": 13,
+      "found": 11,
+      "coverage": 0.846,
+      "missing": [
+        "tours from surabaya ijen bromo madakaripura 3d2n",
+        "abfvoql6mbvkcbwsscvwuj ivghfgm2rheisidjvipfijm1s2ypu e0wzax2gnagtpdbp pnjgit 1"
+      ]
+    },
+    {
+      "route": "/travel-guide/mount-bromo-logistics",
+      "file": "1-knowledge-and-evidence-core/travel-guide/mount-bromo-logistics.source.json",
+      "checked": 17,
+      "found": 15,
+      "coverage": 0.882,
+      "missing": [
+        "king kong hill or penanjakan 1 viewpoint depending on route and conditions",
+        "jvto defaults to king kong hill for balanced framing penanjakan 1 for"
+      ]
+    },
+    {
+      "route": "/travel-guide/safety-on-tours",
+      "file": "1-knowledge-and-evidence-core/travel-guide/safety-on-tours.source.json",
+      "checked": 48,
+      "found": 43,
+      "coverage": 0.896,
+      "missing": [
+        "jvto safety approach tourist police led planning gear requirements ijen gas mask",
+        "how jvto plans for safety on private volcano tours and what guests",
+        "conservation area awareness 2",
+        "local guide responsibilities within kawah ijen natural tourism park 3",
+        "sar search and rescue techniques 4"
+      ]
+    },
+    {
+      "route": "/travel-guide/packing-and-fitness",
+      "file": "1-knowledge-and-evidence-core/travel-guide/packing-and-fitness.source.json",
+      "checked": 40,
+      "found": 36,
+      "coverage": 0.9,
+      "missing": [
+        "travel guide packing and fitness",
+        "what to pack and how fit you need to be for bromo",
+        "specific gear list fitness expectations and what jvto provides",
+        "what to pack and the fitness needed for bromo ijen and tumpak"
+      ]
+    },
+    {
+      "route": "/travel-guide/best-time-to-visit",
+      "file": "1-knowledge-and-evidence-core/travel-guide/best-time-to-visit.source.json",
+      "checked": 41,
+      "found": 37,
+      "coverage": 0.902,
+      "missing": [
+        "see ijen health screening se 1658 protocol travel guide ijen health screening",
+        "read weather closures policy travel guide weather and closures",
+        "stable operational guidance",
+        "domain owner assigned by audit"
+      ]
+    },
+    {
+      "route": "/policy/privacy",
+      "file": "1-knowledge-and-evidence-core/policies/privacy.source.json",
+      "checked": 24,
+      "found": 22,
+      "coverage": 0.917,
+      "missing": [
+        "how jvto collects uses stores and shares the personal data required to",
+        "email hello javavolcano touroperator com whatsapp 62 822 4478 8833"
+      ]
+    },
+    {
+      "route": "/travel-guide/police-escort-for-groups",
+      "file": "1-knowledge-and-evidence-core/travel-guide/police-escort-for-groups.source.json",
+      "checked": 28,
+      "found": 26,
+      "coverage": 0.929,
+      "missing": [
+        "this credential verifiable on the police safety verification page verify jvto police",
+        "domain owner assigned by audit"
+      ]
+    },
+    {
+      "route": "/travel-guide/booking-information",
+      "file": "1-knowledge-and-evidence-core/travel-guide/booking-information.source.json",
+      "checked": 80,
+      "found": 75,
+      "coverage": 0.938,
+      "missing": [
+        "booking information how jvto private tours work",
+        "how to book pay and cancel a jvto private tour website only",
+        "how jvto private tour booking works website only booking payments changes and",
+        "bank account name account number swift bank bri pt java volcano rendezvous",
+        "access my booking portal at javavolcano touroperator com https javavolcano touroperator com"
+      ]
+    },
+    {
+      "route": "/travel-guide/weather-and-closures",
+      "file": "1-knowledge-and-evidence-core/travel-guide/weather-and-closures.source.json",
+      "checked": 66,
+      "found": 62,
+      "coverage": 0.939,
+      "missing": [
+        "travel guide weather and closures",
+        "how jvto handles weather volcano alerts and closures",
+        "blue fire and sunrise are natural phenomena and cannot be guaranteed guides",
+        "how weather volcano alerts and closures affect tours and how jvto handles"
+      ]
+    },
+    {
+      "route": "/travel-guide/ijen-health-screening",
+      "file": "1-knowledge-and-evidence-core/travel-guide/ijen-health-screening.source.json",
+      "checked": 74,
+      "found": 70,
+      "coverage": 0.946,
+      "missing": [
+        "the ijen night hike requires a mandatory health certificate for every guest",
+        "jvto arranges the screening if you re advised not to hike the",
+        "the mandatory ijen health screening real checks at your hotel a bsre",
+        "asset note health screening group uncertain group"
+      ]
+    },
+    {
+      "route": "/travel-guide/rijik-monthly-closure",
+      "file": "1-knowledge-and-evidence-core/travel-guide/rijik-monthly-closure.source.json",
+      "checked": 20,
+      "found": 19,
+      "coverage": 0.95,
+      "missing": [
+        "domain owner assigned by audit"
+      ]
+    },
+    {
+      "route": "/policy/inclusions-exclusions",
+      "file": "1-knowledge-and-evidence-core/policies/inclusions-exclusions.source.json",
+      "checked": 46,
+      "found": 44,
+      "coverage": 0.957,
+      "missing": [
+        "what is included vs not included in jvto private tour packages under",
+        "for questions about inclusions contact hello javavolcano touroperator com whatsapp 62 822"
+      ]
+    },
+    {
+      "route": "/travel-guide/faq",
+      "file": "1-knowledge-and-evidence-core/travel-guide/faq.source.json",
+      "checked": 80,
+      "found": 80,
+      "coverage": 1,
+      "missing": []
+    }
+  ]
+}

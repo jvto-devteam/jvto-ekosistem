@@ -1,0 +1,681 @@
+{
+  "summary": {
+    "total": 34,
+    "titleMismatches": 3,
+    "descMismatches": 3,
+    "routesWithMissingContentNeedles": 34,
+    "titleMismatchRoutes": [
+      "/travel-guide/mount-bromo-logistics",
+      "/travel-guide/packing-list",
+      "/travel-guide/tumpak-sewu-logistics"
+    ],
+    "descMismatchRoutes": [
+      "/travel-guide/mount-bromo-logistics",
+      "/travel-guide/packing-list",
+      "/travel-guide/tumpak-sewu-logistics"
+    ],
+    "contentMismatchRoutes": [
+      "/policy",
+      "/policy/booking-payment-cancellation",
+      "/policy/inclusions-exclusions",
+      "/policy/privacy",
+      "/travel-guide",
+      "/travel-guide/best-time-to-visit",
+      "/travel-guide/booking-information",
+      "/travel-guide/faq",
+      "/travel-guide/ijen-health-screening",
+      "/travel-guide/mount-bromo-logistics",
+      "/travel-guide/packing-and-fitness",
+      "/travel-guide/packing-list",
+      "/travel-guide/police-escort-for-groups",
+      "/travel-guide/rijik-monthly-closure",
+      "/travel-guide/safety-on-tours",
+      "/travel-guide/tumpak-sewu-logistics",
+      "/travel-guide/weather-and-closures",
+      "/why-jvto",
+      "/why-jvto/community-standards",
+      "/why-jvto/our-story",
+      "/why-jvto/our-team",
+      "/why-jvto/our-team/anjas",
+      "/why-jvto/our-team/boy",
+      "/why-jvto/our-team/fauzi",
+      "/why-jvto/our-team/fredi",
+      "/why-jvto/our-team/gufron",
+      "/why-jvto/our-team/holili",
+      "/why-jvto/our-team/joyo",
+      "/why-jvto/our-team/kiki",
+      "/why-jvto/our-team/rendi",
+      "/why-jvto/our-team/taufik",
+      "/why-jvto/our-team/yandi",
+      "/why-jvto/reviews",
+      "/why-jvto/the-jvto-difference"
+    ]
+  },
+  "report": [
+    {
+      "route": "/policy",
+      "file": "1-knowledge-and-evidence-core/policies/index.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Legal & Transparency",
+      "liveTitle": "Legal & Transparency",
+      "sourceDesc": "JVTO publishes its booking, payment, cancellation, inclusions, and privacy terms in full — so you know exactly what you are buying, what the rules are if…",
+      "liveDesc": "JVTO publishes its booking, payment, cancellation, inclusions, and privacy terms in full — so you know exactly what you are buying, what the rules are if…",
+      "checkedNeedles": 7,
+      "missingNeedlesCount": 5,
+      "missingNeedles": [
+        "Navigation hub for the JVTO policy documents: privacy, booking/payment/cancellation, and inclusions/exclusions.",
+        "Covers how to book with JVTO, deposit and balance payment requirements, deadlines, approved payment methods, the 48-hour cancellation cut-off, Package Credit terms, and what happens if JVTO cancels due to force majeure.",
+        "[Read Booking, Payment & Cancellation Policy →](/policy/booking-payment-cancellation/)",
+        "Defines exactly what is and is not included in a confirmed JVTO private tour package — transport, accommodation, crew, entrance tickets, safety gear, meals, and the write-it-to-bind-it rule that governs all contractual inclusions.",
+        "[Read Inclusions & Exclusions Policy →](/policy/inclusions-exclusions/)"
+      ]
+    },
+    {
+      "route": "/policy/booking-payment-cancellation",
+      "file": "1-knowledge-and-evidence-core/policies/booking-payment-cancellation.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Booking, Payment & Cancellation",
+      "liveTitle": "Booking, Payment & Cancellation",
+      "sourceDesc": "How to book, pay, and cancel with JVTO: website-only booking, 20% deposit, and the Lifetime Package Guarantee — cancel your whole booking 48h+ before Day 1 for 100% Lifetime Package Credit (never expires, not cash).",
+      "liveDesc": "How to book, pay, and cancel with JVTO: website-only booking, 20% deposit, and the Lifetime Package Guarantee — cancel your whole booking 48h+ before Day 1 for 100% Lifetime Package Credit (never expires, not cash).",
+      "checkedNeedles": 7,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "How to book, pay, and cancel with JVTO: website-only booking, 20% deposit, and the Lifetime Package Guarantee — cancel your whole booking 48h+ before Day 1 for 100% Lifetime Package Credit (never expires, not cash).",
+        "Booking is website-only with a 20% deposit; full cancellation 48h+ before Day 1 converts to 100% Lifetime Package Credit."
+      ]
+    },
+    {
+      "route": "/policy/inclusions-exclusions",
+      "file": "1-knowledge-and-evidence-core/policies/inclusions-exclusions.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Inclusions & Exclusions",
+      "liveTitle": "Inclusions & Exclusions",
+      "sourceDesc": "This policy defines what is included and not included in JVTO private tour packages. Only inclusions written on your specific Official E-Voucher / Invoice…",
+      "liveDesc": "This policy defines what is included and not included in JVTO private tour packages. Only inclusions written on your specific Official E-Voucher / Invoice…",
+      "checkedNeedles": 8,
+      "missingNeedlesCount": 1,
+      "missingNeedles": [
+        "What is included vs not included in JVTO private tour packages, under the 'Write-it-to-bind-it' principle."
+      ]
+    },
+    {
+      "route": "/policy/privacy",
+      "file": "1-knowledge-and-evidence-core/policies/privacy.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Privacy Policy",
+      "liveTitle": "Privacy Policy",
+      "sourceDesc": "This policy explains what personal data JVTO collects, why it is collected, how it is used, and when it may be shared to operate your tour booking and…",
+      "liveDesc": "This policy explains what personal data JVTO collects, why it is collected, how it is used, and when it may be shared to operate your tour booking and…",
+      "checkedNeedles": 8,
+      "missingNeedlesCount": 1,
+      "missingNeedles": [
+        "How JVTO collects, uses, stores, and shares the personal data required to operate a tour booking."
+      ]
+    },
+    {
+      "route": "/travel-guide",
+      "file": "1-knowledge-and-evidence-core/travel-guide/index.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Travel Guide – Safety, Booking & Practical Info | JVTO",
+      "liveTitle": "Travel Guide – Safety, Booking & Practical Info | JVTO",
+      "sourceDesc": "JVTO's official travel guide: booking steps, safety rules, Ijen health screening, weather and closures, packing list, and police escort for groups.",
+      "liveDesc": "JVTO's official travel guide: booking steps, safety rules, Ijen health screening, weather and closures, packing list, and police escort for groups.",
+      "checkedNeedles": 8,
+      "missingNeedlesCount": 8,
+      "missingNeedles": [
+        "Travel Guide – Safety, Health & Practical Information",
+        "JVTO's official travel guide: booking steps, safety rules, Ijen health screening, weather and closures, packing list, and police escort for groups.",
+        "Hub for JVTO travel guidance: booking, safety, health screening, packing, weather and closures.",
+        "**Title tag:** Travel Guide – Safety, Health & Practical Information | Java Volcano Tour Operator **Meta description:** Official travel guide for private tours with Java Volcano Tour Operator (JVTO). Learn about booking, safety, Ijen health screening, weather and closures, packing, police escort for groups and ISIC student deals.",
+        "**Travel Guide – Safety, Health & Practical Information**",
+        "**Use this Travel Guide as JVTO’s official handbook for planning private tours to Mount Bromo, Kawah Ijen, and Tumpak Sewu.** Java Volcano Tour Operator (JVTO) is presented here as a licensed Indonesian inbound operator based in Bondowoso, specialising in private, all-inclusive routes to East Java’s key volcano and waterfall destinations.",
+        "**Understand how JVTO handles safety, health, weather, closures, payments, and student deals before you book or travel.** This page summarises the key topics and directs you to dedicated detail pages for each subject.",
+        "**Use your Official E-Voucher / Invoice and the Booking, Payment & Cancellation Policy as the final reference for legal or case-specific details.** This Travel Guide is a plain-language summary designed to help guests understand how things work, but binding terms remain in your official booking documents."
+      ]
+    },
+    {
+      "route": "/travel-guide/best-time-to-visit",
+      "file": "1-knowledge-and-evidence-core/travel-guide/best-time-to-visit.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Best Time to Visit Bromo, Ijen & Tumpak Sewu | JVTO",
+      "liveTitle": "Best Time to Visit Bromo, Ijen & Tumpak Sewu | JVTO",
+      "sourceDesc": "Dry season (May–Oct) is optimal for Bromo, Ijen blue fire, and Tumpak Sewu. JVTO private tours run year-round — monthly conditions guide for each destination.",
+      "liveDesc": "Dry season (May–Oct) is optimal for Bromo, Ijen blue fire, and Tumpak Sewu. JVTO private tours run year-round — monthly conditions guide for each destination.",
+      "checkedNeedles": 8,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "Dry season (May–Oct) is optimal for Bromo, Ijen blue fire, and Tumpak Sewu. JVTO private tours run year-round — monthly conditions guide for each destination.",
+        "Month-by-month guide to the best time to visit Mount Bromo, Ijen blue fire, and Tumpak Sewu — the dry-season vs wet-season trade-offs for each destination."
+      ]
+    },
+    {
+      "route": "/travel-guide/booking-information",
+      "file": "1-knowledge-and-evidence-core/travel-guide/booking-information.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Booking Information – Payments, Changes & Package Credit | JVTO",
+      "liveTitle": "Booking Information – Payments, Changes & Package Credit | JVTO",
+      "sourceDesc": "How to book, pay, and cancel a JVTO private tour: website-only booking, 20% deposit (up to 100% within 14 days), card ≤5d / bank·Wise ≤3d balance deadlines, and 100% Lifetime Package Credit for whole-booking cancellations 48h+ before Day 1.",
+      "liveDesc": "How to book, pay, and cancel a JVTO private tour: website-only booking, 20% deposit (up to 100% within 14 days), card ≤5d / bank·Wise ≤3d balance deadlines, and 100% Lifetime Package Credit for whole-booking cancellations 48h+ before Day 1.",
+      "checkedNeedles": 8,
+      "missingNeedlesCount": 4,
+      "missingNeedles": [
+        "Booking Information – How JVTO Private Tours Work",
+        "How to book, pay, and cancel a JVTO private tour: website-only booking, 20% deposit (up to 100% within 14 days), card ≤5d / bank·Wise ≤3d balance deadlines, and 100% Lifetime Package Credit for whole-booking cancellations 48h+ before Day 1.",
+        "How JVTO private tour booking works: website-only booking, payments, changes, and Lifetime Package Credit.",
+        "1. **Choose your route and dates** — browse packages on the website and select your date, origin (Surabaya or Bali), group size, and route. 2. **Review price and add-ons** — the website shows your total, inclusions, and any add-ons before you commit. 3. **Accept the terms and pay** — accept the Terms & Cancellation Policy and pay; a 20% deposit confirms the booking (up to 100% if Day 1 is within 14 days). 4. **Receive your Official E-Voucher** — a PDF is issued after deposit payment. This is your booking reference and includes your full trip details and pre-trip guide. 5. **Access My Booking Portal** — post-payment, you gain access to your personal booking dashboard using your lead traveller email."
+      ]
+    },
+    {
+      "route": "/travel-guide/faq",
+      "file": "1-knowledge-and-evidence-core/travel-guide/faq.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Bromo, Ijen & Tumpak Sewu Tour FAQ | JVTO",
+      "liveTitle": "Bromo, Ijen & Tumpak Sewu Tour FAQ | JVTO",
+      "sourceDesc": "Common questions about JVTO private tours: booking steps, pricing, safety protocols, health screening, and what to expect on Bromo, Ijen, and Tumpak Sewu.",
+      "liveDesc": "Common questions about JVTO private tours: booking steps, pricing, safety protocols, health screening, and what to expect on Bromo, Ijen, and Tumpak Sewu.",
+      "checkedNeedles": 7,
+      "missingNeedlesCount": 3,
+      "missingNeedles": [
+        "Frequently Asked Questions",
+        "Common questions about JVTO private tours: booking steps, pricing, safety protocols, health screening, and what to expect on Bromo, Ijen, and Tumpak Sewu.",
+        "Frequently asked questions about JVTO private Bromo, Ijen, and Tumpak Sewu tours — booking, payments, safety, health screening, weather, luggage, groups, and support."
+      ]
+    },
+    {
+      "route": "/travel-guide/ijen-health-screening",
+      "file": "1-knowledge-and-evidence-core/travel-guide/ijen-health-screening.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Ijen Health Screening – Real Checks, Digital Proof & BSrE Signature | JVTO",
+      "liveTitle": "Ijen Health Screening – Real Checks, Digital Proof & BSrE Signature | JVTO",
+      "sourceDesc": "The Ijen night hike requires a mandatory health certificate for every guest before crater entry. JVTO arranges the screening; if you're advised not to hike, the climb is cancelled for you (not the group) with safe-zone alternatives.",
+      "liveDesc": "The Ijen night hike requires a mandatory health certificate for every guest before crater entry. JVTO arranges the screening; if you're advised not to hike, the climb is cancelled for you (not the group) with safe-zone alternatives.",
+      "checkedNeedles": 8,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "The Ijen night hike requires a mandatory health certificate for every guest before crater entry. JVTO arranges the screening; if you're advised not to hike, the climb is cancelled for you (not the group) with safe-zone alternatives.",
+        "The mandatory Ijen health screening: real checks at your hotel, a BSrE-signed digital certificate, checked at the crater access gate."
+      ]
+    },
+    {
+      "route": "/travel-guide/mount-bromo-logistics",
+      "file": "1-knowledge-and-evidence-core/travel-guide/mount-bromo-logistics.source.json",
+      "status": 200,
+      "titleMatch": false,
+      "descMatch": false,
+      "sourceTitle": "Mount Bromo Logistics: Jeep, Timing & Sunrise - JVTO Travel Guide",
+      "liveTitle": "Mount Bromo Logistics Guide | JVTO",
+      "sourceDesc": "Private jeep, sunrise timing, and altitude preparation - what you need to know before arriving at the Tengger caldera.",
+      "liveDesc": "Complete operational logistics for Mount Bromo sunrise tours: 03:00 AM departure protocol, private 4x4 jeep (max 4 pax), King Kong Hill and Penanjakan viewpoints, 250-step crater rim walk, and PVMBG volcanic monitoring. JVTO private tours include all park fees.",
+      "checkedNeedles": 7,
+      "missingNeedlesCount": 4,
+      "missingNeedles": [
+        "Private jeep, sunrise timing, and altitude preparation - what you need to know before arriving at the Tengger caldera.",
+        "Bromo sunrise logistics: private 4WD jeep, viewpoint choice, night sequence, altitude, cold-weather preparation, and crater timing.",
+        "Bromo sunrise is the most-photographed scene in East Java. It also has the busiest logistics. JVTO sequences the night so your private vehicle gets the right viewpoint.",
+        "JVTO defaults to King Kong Hill for balanced framing, Penanjakan 1 for the classic shot, Seruni Point when avoiding crowds matters most, and Mentigen Hill for guests staying in Cemoro Lawang."
+      ]
+    },
+    {
+      "route": "/travel-guide/packing-and-fitness",
+      "file": "1-knowledge-and-evidence-core/travel-guide/packing-and-fitness.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Packing & Fitness for Bromo, Ijen & Tumpak Sewu | JVTO",
+      "liveTitle": "Packing & Fitness for Bromo, Ijen & Tumpak Sewu | JVTO",
+      "sourceDesc": "What to pack and how fit you need to be for Bromo, Ijen, and Tumpak Sewu tours. Specific gear list, fitness expectations, and what JVTO provides.",
+      "liveDesc": "What to pack and how fit you need to be for Bromo, Ijen, and Tumpak Sewu tours. Specific gear list, fitness expectations, and what JVTO provides.",
+      "checkedNeedles": 8,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "What to pack and how fit you need to be for Bromo, Ijen, and Tumpak Sewu tours. Specific gear list, fitness expectations, and what JVTO provides.",
+        "What to pack and the fitness needed for Bromo, Ijen, and Tumpak Sewu."
+      ]
+    },
+    {
+      "route": "/travel-guide/packing-list",
+      "file": "1-knowledge-and-evidence-core/travel-guide/packing-list.source.json",
+      "status": 200,
+      "titleMatch": false,
+      "descMatch": false,
+      "sourceTitle": "Packing List for East Java - JVTO Travel Guide",
+      "liveTitle": "Packing & Fitness for Bromo, Ijen & Tumpak Sewu | JVTO",
+      "sourceDesc": "What to bring to Bromo, Ijen, and Tumpak Sewu: clothing layers, headlamp, footwear, equipment, and personal items for East Java's tropical-to-alpine climate.",
+      "liveDesc": "What to pack and how fit you need to be for Bromo, Ijen, and Tumpak Sewu tours. Specific gear list, fitness expectations, and what JVTO provides.",
+      "checkedNeedles": 6,
+      "missingNeedlesCount": 6,
+      "missingNeedles": [
+        "Packing List for East Java",
+        "What to bring to Bromo, Ijen, and Tumpak Sewu: clothing layers, headlamp, footwear, equipment, and personal items for East Java's tropical-to-alpine climate.",
+        "Packing list for East Java volcano and waterfall routes: clothing layers, footwear, equipment, personal medical items, and destination temperature context.",
+        "Most travelers underpack for the cold, overpack for the heat, and forget the headlamp. This list fixes that.",
+        "What to pack for East Java.",
+        "East Java spans tropical lowlands and 2,300+ metre volcanic rims in one trip. Layers, grip, and a headlamp are non-negotiable."
+      ]
+    },
+    {
+      "route": "/travel-guide/police-escort-for-groups",
+      "file": "1-knowledge-and-evidence-core/travel-guide/police-escort-for-groups.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Traffic Police Escort for Tourist Groups in East Java | JVTO",
+      "liveTitle": "Traffic Police Escort for Tourist Groups in East Java | JVTO",
+      "sourceDesc": "For large groups — typically around 18 guests or more — JVTO can coordinate an official traffic police escort on certain road segments, when approved by the relevant Traffic Police (Ditlantas) unit. A formal request process, not a marketing add-on — approval is never guaranteed.",
+      "liveDesc": "For large groups — typically around 18 guests or more — JVTO can coordinate an official traffic police escort on certain road segments, when approved by the relevant Traffic Police (Ditlantas) unit. A formal request process, not a marketing add-on — approval is never guaranteed.",
+      "checkedNeedles": 7,
+      "missingNeedlesCount": 1,
+      "missingNeedles": [
+        "How JVTO coordinates an official traffic police escort for large tourist groups in East Java — a formal request process through the Traffic Police (Ditlantas), qualifying group size, and what approval does and does not mean."
+      ]
+    },
+    {
+      "route": "/travel-guide/rijik-monthly-closure",
+      "file": "1-knowledge-and-evidence-core/travel-guide/rijik-monthly-closure.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Ijen Rijik: The Monthly Closure Day at Kawah Ijen | JVTO",
+      "liveTitle": "Ijen Rijik: The Monthly Closure Day at Kawah Ijen | JVTO",
+      "sourceDesc": "TWA Ijen closes to all visitors on the first Friday of every month, since March 2019, for \"Rijik\" — a volunteer cleanup that removes an estimated 100–150 kg of trash from the crater. JVTO schedules every Ijen-inclusive itinerary around it.",
+      "liveDesc": "TWA Ijen closes to all visitors on the first Friday of every month, since March 2019, for \"Rijik\" — a volunteer cleanup that removes an estimated 100–150 kg of trash from the crater. JVTO schedules every Ijen-inclusive itinerary around it.",
+      "checkedNeedles": 9,
+      "missingNeedlesCount": 1,
+      "missingNeedles": [
+        "Why Kawah Ijen closes on the first Friday of every month (the Rijik conservation cleanup, since March 2019) and how JVTO schedules Ijen itineraries around it."
+      ]
+    },
+    {
+      "route": "/travel-guide/safety-on-tours",
+      "file": "1-knowledge-and-evidence-core/travel-guide/safety-on-tours.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Safety on JVTO Tours – How We Plan & What You Should Know",
+      "liveTitle": "Safety on JVTO Tours – How We Plan & What You Should Know",
+      "sourceDesc": "JVTO safety approach: Tourist Police-led planning, gear requirements, Ijen gas mask sterilisation, emergency protocols, and what guests must follow.",
+      "liveDesc": "JVTO safety approach: Tourist Police-led planning, gear requirements, Ijen gas mask sterilisation, emergency protocols, and what guests must follow.",
+      "checkedNeedles": 8,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "JVTO safety approach: Tourist Police-led planning, gear requirements, Ijen gas mask sterilisation, emergency protocols, and what guests must follow.",
+        "How JVTO plans for safety on private volcano tours and what guests should know."
+      ]
+    },
+    {
+      "route": "/travel-guide/tumpak-sewu-logistics",
+      "file": "1-knowledge-and-evidence-core/travel-guide/tumpak-sewu-logistics.source.json",
+      "status": 200,
+      "titleMatch": false,
+      "descMatch": false,
+      "sourceTitle": "Tumpak Sewu Logistics: Trek & Safety - JVTO Travel Guide",
+      "liveTitle": "Tumpak Sewu Logistics Guide | JVTO",
+      "sourceDesc": "Canyon descent, river crossings, and fitness expectations for Java's most dramatic waterfall trail.",
+      "liveDesc": "Complete logistics guide for Tumpak Sewu Waterfall canyon tours: 07:00 AM arrival, 1.5 km guided descent through Glidih Canyon with rope-assisted sections, footwear requirements, wet vs dry season trail conditions. JVTO private tours include all fees.",
+      "checkedNeedles": 7,
+      "missingNeedlesCount": 5,
+      "missingNeedles": [
+        "Canyon descent, river crossings, and fitness expectations for Java's most dramatic waterfall trail.",
+        "Tumpak Sewu canyon descent logistics: trail sequence, wet-rock safety, best season, monsoon warnings, and essential equipment.",
+        "The viewpoint at the rim takes 10 minutes. The descent into the canyon takes around 90 minutes if taken slowly. Guests should expect wet stone, water spray, and river crossings.",
+        "The thousand-stream waterfall is reached by a steep, slippery descent through a jungle ravine - visually unmatched and physically demanding.",
+        "During and immediately after heavy rain, the canyon floor can flood rapidly. JVTO guides cancel descent when rainfall or water conditions make the canyon unsafe, then substitute an alternative such as Goa Tetes or reschedule where possible."
+      ]
+    },
+    {
+      "route": "/travel-guide/weather-and-closures",
+      "file": "1-knowledge-and-evidence-core/travel-guide/weather-and-closures.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Weather, Volcano Alerts & Closures – How JVTO Handles Changes",
+      "liveTitle": "Weather, Volcano Alerts & Closures – How JVTO Handles Changes",
+      "sourceDesc": "How JVTO handles weather, volcano alerts and closures. Blue Fire and sunrise are natural phenomena and cannot be guaranteed; guides assess conditions daily and may delay or reroute for safety.",
+      "liveDesc": "How JVTO handles weather, volcano alerts and closures. Blue Fire and sunrise are natural phenomena and cannot be guaranteed; guides assess conditions daily and may delay or reroute for safety.",
+      "checkedNeedles": 8,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "How JVTO handles weather, volcano alerts and closures. Blue Fire and sunrise are natural phenomena and cannot be guaranteed; guides assess conditions daily and may delay or reroute for safety.",
+        "How weather, volcano alerts, and closures affect tours and how JVTO handles changes."
+      ]
+    },
+    {
+      "route": "/why-jvto",
+      "file": "1-knowledge-and-evidence-core/why-jvto/index.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Why Travel with Java Volcano Tour Operator (JVTO)",
+      "liveTitle": "Why Travel with Java Volcano Tour Operator (JVTO)",
+      "sourceDesc": "Tourist Police-led safety, licensed operator, private-only tours, all-inclusive pricing. Why travellers from SG, MY & HK choose JVTO for Bromo and Ijen.",
+      "liveDesc": "Tourist Police-led safety, licensed operator, private-only tours, all-inclusive pricing. Why travellers from SG, MY & HK choose JVTO for Bromo and Ijen.",
+      "checkedNeedles": 12,
+      "missingNeedlesCount": 8,
+      "missingNeedles": [
+        "Tourist Police-led safety, licensed operator, private-only tours, all-inclusive pricing. Why travellers from SG, MY & HK choose JVTO for Bromo and Ijen.",
+        "Why travelers choose JVTO: police-led safety, verifiable credentials, private-only tours, and documented history.",
+        "Java Volcano Tour Operator (JVTO) is a registered Indonesian tour operator based in Bondowoso, East Java. We specialize in private volcano trips—Bromo, Ijen, and selected extensions.",
+        "In a landscape where volcanic nature is uncertain, JVTO sells operational certainty—built on disciplined safety, documented proof, and local execution.",
+        "If you want the practical rulebook (clear steps, what to bring, safety, payments), start with /travel-guide.",
+        "For binding terms, use /policy/.",
+        "Official channels: Website https://javavolcano-touroperator.com • WhatsApp +6282244788833 • Email hello@javavolcano-touroperator.com.",
+        "National Media Verification"
+      ]
+    },
+    {
+      "route": "/why-jvto/community-standards",
+      "file": "1-knowledge-and-evidence-core/why-jvto/community-standards.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Community Standards – Partners, Ethics & Operational Rules | JVTO",
+      "liveTitle": "Community Standards – Partners, Ethics & Operational Rules | JVTO",
+      "sourceDesc": "JVTO community standards: HPWKI membership, ISIC provider listing, INDECON network listing, ethical travel commitments, and health screening compliance for Ijen tours.",
+      "liveDesc": "JVTO community standards: HPWKI membership, ISIC provider listing, INDECON network listing, ethical travel commitments, and health screening compliance for Ijen tours.",
+      "checkedNeedles": 12,
+      "missingNeedlesCount": 6,
+      "missingNeedles": [
+        "The standards JVTO holds itself and guests to on every private tour.",
+        "Partnerships matter when they connect to real guest value: fairness, competence, and responsible travel.",
+        "This page also explains the operational standards and commitments that govern every JVTO tour—from financial fairness to mandatory health screening.",
+        "Official channels: Website https://javavolcano-touroperator.com • WhatsApp +6282244788833 • Email hello@javavolcano-touroperator.com.",
+        "Written Rules Before Booking",
+        "Three customer-facing policy documents are published openly at /policy:"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-story",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-story.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Our Story – JVTO History & Roots Since 2015 | JVTO",
+      "liveTitle": "Our Story – JVTO History & Roots Since 2015 | JVTO",
+      "sourceDesc": "Documented JVTO history: Booking.com award 2015, the Stefan Loose guidebook listing, and physical artifacts tracing the operator's roots in Bondowoso, East Java.",
+      "liveDesc": "Documented JVTO history: Booking.com award 2015, the Stefan Loose guidebook listing, and physical artifacts tracing the operator's roots in Bondowoso, East Java.",
+      "checkedNeedles": 11,
+      "missingNeedlesCount": 6,
+      "missingNeedles": [
+        "Our Story: Roots & Continuity Since 2015",
+        "JVTO's documented development from the 2015 guesthouse era to a registered East Java tour operator.",
+        "Time on the ground matters. It usually means fewer surprises, stronger local relationships, and calmer handling of real-world issues.",
+        "We keep key artifacts accessible so the journey can be audited.",
+        "Official channels: Website https://javavolcano-touroperator.com • WhatsApp +6282244788833 • Email hello@javavolcano-touroperator.com.",
+        "PT Java Volcano Rendezvous · NIB 1102230032918 · Trustpilot 4.8 / 5 (51 reviews, verified 2026-05-09)"
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Our Team – Local East Java Guides & Drivers | JVTO",
+      "liveTitle": "Our Team – Local East Java Guides & Drivers | JVTO",
+      "sourceDesc": "Meet JVTO's local East Java team: 11 active crew profiles — experienced guides and drivers who handle daily volcano tour logistics for Bromo, Ijen, and Tumpak Sewu.",
+      "liveDesc": "Meet JVTO's local East Java team: 11 active crew profiles — experienced guides and drivers who handle daily volcano tour logistics for Bromo, Ijen, and Tumpak Sewu.",
+      "checkedNeedles": 12,
+      "missingNeedlesCount": 8,
+      "missingNeedles": [
+        "Local Team, Daily Execution",
+        "Meet JVTO's local East Java team: 11 active crew profiles — experienced guides and drivers who handle daily volcano tour logistics for Bromo, Ijen, and Tumpak Sewu.",
+        "JVTO's active crew — 11 published profiles (7 guides + 4 drivers) — their credentials, and how the team operates.",
+        "Great tours are not just itineraries. They are daily coordination: drivers, guides, timing, hotels, permits, and mountain rules.",
+        "We focus on private trips with a local East Java team so execution stays consistent.",
+        "Official channels: Website https://javavolcano-touroperator.com • WhatsApp +6282244788833 • Email hello@javavolcano-touroperator.com.",
+        "How To Read This Team Page",
+        "Crew bios across the tourism industry default to \"friendly\", \"knowledgeable\", \"passionate\". Those words tell you nothing. JVTO frames the crew differently: as **protectors with specific training and operational accountability**, not as enjoyable company."
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/anjas",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-anjas.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Anjas — JVTO Tour Guide",
+      "liveTitle": "Anjas — JVTO Tour Guide",
+      "sourceDesc": "Anjas is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "liveDesc": "Anjas is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "checkedNeedles": 5,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "Anjas is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+        "Anjas public JVTO tour guide profile, credential summary, specialties, and featured guest reviews."
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/boy",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-boy.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Boy (Ahboy) — JVTO Tour Guide",
+      "liveTitle": "Boy (Ahboy) — JVTO Tour Guide",
+      "sourceDesc": "Boy (Ahboy) is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "liveDesc": "Boy (Ahboy) is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "checkedNeedles": 6,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "Boy (Ahboy) is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+        "Boy (Ahboy) public JVTO tour guide profile, credential summary, specialties, and featured guest reviews."
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/fauzi",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-fauzi.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Fauzi — JVTO Tour Guide",
+      "liveTitle": "Fauzi — JVTO Tour Guide",
+      "sourceDesc": "Fauzi is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "liveDesc": "Fauzi is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "checkedNeedles": 5,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "Fauzi is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+        "Fauzi public JVTO tour guide profile, credential summary, specialties, and featured guest reviews."
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/fredi",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-fredi.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Fredi — JVTO Tour Driver",
+      "liveTitle": "Fredi — JVTO Tour Driver",
+      "sourceDesc": "Fredi is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "liveDesc": "Fredi is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "checkedNeedles": 5,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "Fredi is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+        "Fredi public JVTO tour driver profile, credential summary, specialties, and featured guest reviews."
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/gufron",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-gufron.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Gufron — JVTO Tour Guide",
+      "liveTitle": "Gufron — JVTO Tour Guide",
+      "sourceDesc": "Gufron is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "liveDesc": "Gufron is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "checkedNeedles": 5,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "Gufron is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+        "Gufron public JVTO tour guide profile, credential summary, specialties, and featured guest reviews."
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/holili",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-holili.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Holili — JVTO Tour Driver",
+      "liveTitle": "Holili — JVTO Tour Driver",
+      "sourceDesc": "Holili is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "liveDesc": "Holili is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "checkedNeedles": 5,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "Holili is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+        "Holili public JVTO tour driver profile, credential summary, specialties, and featured guest reviews."
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/joyo",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-joyo.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Joyo — JVTO Tour Driver",
+      "liveTitle": "Joyo — JVTO Tour Driver",
+      "sourceDesc": "Joyo is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "liveDesc": "Joyo is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "checkedNeedles": 5,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "Joyo is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+        "Joyo public JVTO tour driver profile, credential summary, specialties, and featured guest reviews."
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/kiki",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-kiki.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Kiki — JVTO Tour Guide",
+      "liveTitle": "Kiki — JVTO Tour Guide",
+      "sourceDesc": "Kiki is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "liveDesc": "Kiki is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "checkedNeedles": 5,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "Kiki is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+        "Kiki public JVTO tour guide profile, credential summary, specialties, and featured guest reviews."
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/rendi",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-rendi.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Rendi — JVTO Tour Guide",
+      "liveTitle": "Rendi — JVTO Tour Guide",
+      "sourceDesc": "Rendi is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "liveDesc": "Rendi is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "checkedNeedles": 5,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "Rendi is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+        "Rendi public JVTO tour guide profile, credential summary, specialties, and featured guest reviews."
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/taufik",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-taufik.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Taufik — JVTO Tour Guide",
+      "liveTitle": "Taufik — JVTO Tour Guide",
+      "sourceDesc": "Taufik is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "liveDesc": "Taufik is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "checkedNeedles": 5,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "Taufik is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+        "Taufik public JVTO tour guide profile, credential summary, specialties, and featured guest reviews."
+      ]
+    },
+    {
+      "route": "/why-jvto/our-team/yandi",
+      "file": "1-knowledge-and-evidence-core/why-jvto/our-team-yandi.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Yandi — JVTO Tour Driver",
+      "liveTitle": "Yandi — JVTO Tour Driver",
+      "sourceDesc": "Yandi is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "liveDesc": "Yandi is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+      "checkedNeedles": 5,
+      "missingNeedlesCount": 2,
+      "missingNeedles": [
+        "Yandi is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
+        "Yandi public JVTO tour driver profile, credential summary, specialties, and featured guest reviews."
+      ]
+    },
+    {
+      "route": "/why-jvto/reviews",
+      "file": "1-knowledge-and-evidence-core/why-jvto/reviews.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "Guest Reviews – Independent Voices on JVTO Tours | JVTO",
+      "liveTitle": "Guest Reviews – Independent Voices on JVTO Tours | JVTO",
+      "sourceDesc": "Independent reviews of JVTO on Trustpilot, Google Maps and Tripadvisor. Verified voices — we cannot edit or remove any review on those platforms.",
+      "liveDesc": "Independent reviews of JVTO on Trustpilot, Google Maps and Tripadvisor. Verified voices — we cannot edit or remove any review on those platforms.",
+      "checkedNeedles": 12,
+      "missingNeedlesCount": 8,
+      "missingNeedles": [
+        "Guest Voices: Real Experiences, Independently Verified",
+        "Independent reviews of JVTO on Trustpilot, Google Maps and Tripadvisor. Verified voices — we cannot edit or remove any review on those platforms.",
+        "Verified guest reviews across Trustpilot, Google Maps, and TripAdvisor with canonical counts.",
+        "Reviews matter when they are independent. We link to official platform listings so you can judge patterns yourself.",
+        "JVTO cannot edit or delete reviews on these platforms.",
+        "Official channels: Website https://javavolcano-touroperator.com • WhatsApp +6282244788833 • Email hello@javavolcano-touroperator.com.",
+        "Where to check reviews (official links)",
+        "- Tripadvisor: https://www.tripadvisor.com/Attraction_Review-g297715-d19983165-Reviews-Java_Volcano_Tour_Operator-Surabaya_East_Java_Java.html - Trustpilot: https://trustpilot.com/review/javavolcano-touroperator.com - Google Maps: https://www.google.com/maps?cid=1266403973589689021"
+      ]
+    },
+    {
+      "route": "/why-jvto/the-jvto-difference",
+      "file": "1-knowledge-and-evidence-core/why-jvto/the-jvto-difference.source.json",
+      "status": 200,
+      "titleMatch": true,
+      "descMatch": true,
+      "sourceTitle": "The JVTO Difference: Safety Leadership & Verified Proof",
+      "liveTitle": "The JVTO Difference: Safety Leadership & Verified Proof",
+      "sourceDesc": "What sets JVTO apart: Tourist Police-led safety mindset, documented operational discipline, and a full proof library anyone can verify independently.",
+      "liveDesc": "What sets JVTO apart: Tourist Police-led safety mindset, documented operational discipline, and a full proof library anyone can verify independently.",
+      "checkedNeedles": 12,
+      "missingNeedlesCount": 6,
+      "missingNeedles": [
+        "What sets JVTO apart: police-led operations, mandatory Ijen health screening, and written, verifiable rules.",
+        "JVTO is led by Agung Sambuko (Mr. Sam), Founder & Active Tourist Police Officer. The value is not a marketing title—it's an operational mindset.",
+        "In volcano travel, the key is not predicting nature. It's managing risk, timing, logistics, and decisions when conditions change.",
+        "Every safety claim we make is backed by documents and third-party sources—organized so you can check them before you book.",
+        "Official channels: Website https://javavolcano-touroperator.com • WhatsApp +6282244788833 • Email hello@javavolcano-touroperator.com.",
+        "Six things that make JVTO operationally different from other East Java volcano tour operators. Each one is backed by a verifiable credential — not marketing language."
+      ]
+    }
+  ]
+}

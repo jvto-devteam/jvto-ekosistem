@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/knowledge-feed/v1",
   "output_type": "public_web_content_feed",
-  "generated_at": "2026-08-12T08:37:49.093Z",
+  "generated_at": "2026-08-12T08:52:03.684Z",
   "record_count": 34,
   "records": [
     {
@@ -221,18 +221,21 @@
       "route": "/travel-guide/packing-list",
       "domain": "travel-guide",
       "slug": "packing-list",
-      "title": "Packing List for East Java",
-      "summary": "Packing list for East Java volcano and waterfall routes: clothing layers, footwear, equipment, personal medical items, and destination temperature context.",
+      "title": "Packing & Fitness for Bromo, Ijen & Tumpak Sewu",
+      "summary": "What to pack and the fitness needed for Bromo, Ijen, and Tumpak Sewu.",
       "status": "published",
       "owner": "operations",
-      "lastReviewed": "2026-08-12",
+      "lastReviewed": "2026-08-04",
       "outputTargets": [
         "public_website",
         "json_ld",
         "knowledge_feed"
       ],
       "sourceFiles": [
-        "/Users/macbook/Code/jvto-web/src/app/(website)/travel-guide/packing-list/page.tsx"
+        "1-knowledge-and-evidence-core/health-and-safety-rules/packing-and-fitness.md",
+        "1-knowledge-and-evidence-core/faqs/travel-guide-packing-and-fitness.json",
+        "https://javavolcano-touroperator.com/travel-guide/packing-list",
+        "https://javavolcano-touroperator.com/travel-guide/packing-and-fitness"
       ]
     },
     {

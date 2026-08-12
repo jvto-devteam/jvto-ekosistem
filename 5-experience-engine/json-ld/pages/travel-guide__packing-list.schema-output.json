@@ -1,22 +1,27 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-12T08:37:49.093Z",
+  "generated_at": "2026-08-12T08:52:03.684Z",
   "route": "/travel-guide/packing-list",
   "domain": "travel-guide",
   "slug": "packing-list",
   "json_ld": {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Packing List for East Java",
-    "description": "What to bring to Bromo, Ijen, and Tumpak Sewu: clothing layers, headlamp, footwear, equipment, and personal items for East Java's tropical-to-alpine climate.",
+    "name": "Packing & Fitness for Bromo, Ijen & Tumpak Sewu",
+    "description": "What to pack and how fit you need to be for Bromo, Ijen, and Tumpak Sewu tours. Specific gear list, fitness expectations, and what JVTO provides.",
     "url": "https://javavolcano-touroperator.com/travel-guide/packing-list"
   },
   "source_trace": {
     "generated_at": "2026-08-12T07:00:53.148Z",
     "source_files": [
-      "/Users/macbook/Code/jvto-web/src/app/(website)/travel-guide/packing-list/page.tsx"
+      "1-knowledge-and-evidence-core/health-and-safety-rules/packing-and-fitness.md",
+      "1-knowledge-and-evidence-core/faqs/travel-guide-packing-and-fitness.json",
+      "https://javavolcano-touroperator.com/travel-guide/packing-list",
+      "https://javavolcano-touroperator.com/travel-guide/packing-and-fitness"
     ],
-    "migration_note": "Created from current jvto-web route component because no prior canonical core source existed."
+    "migration_note": "Live verification showed /travel-guide/packing-list currently renders the same Packing & Fitness content as /travel-guide/packing-and-fitness. This source mirrors the live route while keeping route/canonical as /travel-guide/packing-list.",
+    "live_verified_at": "2026-08-12T08:52:03.440Z",
+    "live_verification_source": "https://javavolcano-touroperator.com/travel-guide/packing-list"
   }
 }
