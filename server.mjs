@@ -525,7 +525,10 @@ function renderApp() {
         <h1>JVTO Operating Ecosystem</h1>
         <p>Browse every ecosystem directory and open Markdown, JSON, and other text files directly from this project.</p>
       </div>
-      <a class="header-link" href="${GITHUB_URL}" target="_blank" rel="noreferrer">GitHub</a>
+      <div style="display:flex; gap:10px; flex:0 0 auto;">
+        <a class="header-link" href="/admin">Tina CMS</a>
+        <a class="header-link" href="${GITHUB_URL}" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
     </div>
   </header>
   <main>

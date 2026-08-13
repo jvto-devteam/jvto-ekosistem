@@ -21,7 +21,7 @@
     "schemaTypes": [
       "WebPage"
     ],
-    "faqKey": null,
+    "faqKey": "",
     "summary": "Booking is website-only with a 20% deposit; full cancellation 48h+ before Day 1 converts to 100% Lifetime Package Credit."
   },
   "seo": {
@@ -136,7 +136,13 @@
       }
     }
   },
-  "faq": null,
+  "faq": {
+    "key": "",
+    "payload": {
+      "key": "",
+      "items": []
+    }
+  },
   "output_targets": [
     "public_website",
     "json_ld",

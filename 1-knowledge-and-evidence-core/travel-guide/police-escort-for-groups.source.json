@@ -21,7 +21,7 @@
     "schemaTypes": [
       "WebPage"
     ],
-    "faqKey": null,
+    "faqKey": "",
     "summary": "How JVTO coordinates an official traffic police escort for large tourist groups in East Java — a formal request process through the Traffic Police (Ditlantas), qualifying group size, and what approval does and does not mean."
   },
   "seo": {
@@ -98,7 +98,13 @@
       "reviewStatus": "domain-owner-assigned-by-audit"
     }
   },
-  "faq": null,
+  "faq": {
+    "key": "",
+    "payload": {
+      "key": "",
+      "items": []
+    }
+  },
   "output_targets": [
     "public_website",
     "json_ld",
