@@ -9,29 +9,16 @@ const ROUTE_GROUPS = [
     key: "travel-guide",
     outputDir: "1-knowledge-and-evidence-core/travel-guide",
     routes: [
-      { route: "/travel-guide", source: "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/index.md" },
+      { route: "/travel-guide", source: "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/index.md", faqKey: "travel-guide-index" },
       { route: "/travel-guide/best-time-to-visit", source: "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/best-time-to-visit.json", faqKey: "travel-guide-best-time-to-visit" },
-      { route: "/travel-guide/blue-fire-and-sunrise", source: "1-knowledge-and-evidence-core/health-and-safety-rules/blue-fire-and-sunrise.md" },
       { route: "/travel-guide/booking-information", source: "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/booking-information.md", faqKey: "travel-guide-booking-information" },
-      { route: "/travel-guide/booking-safety", source: "1-knowledge-and-evidence-core/health-and-safety-rules/booking-safety.md" },
-      { route: "/travel-guide/bromo-sunrise", source: "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/bromo-sunrise.md" },
-      { route: "/travel-guide/cancellation-travel-credit", source: "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/cancellation-travel-credit.md" },
       { route: "/travel-guide/faq", source: "1-knowledge-and-evidence-core/faqs/travel-guide-faq-page.json", faqKey: "travel-guide-faq-page" },
-      { route: "/travel-guide/finish-in-bali", source: "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/finish-in-bali.md" },
-      { route: "/travel-guide/how-booking-works", source: "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/how-booking-works.md" },
       { route: "/travel-guide/ijen-health-screening", source: "1-knowledge-and-evidence-core/health-and-safety-rules/ijen-health-screening.md", faqKey: "travel-guide-ijen-health-screening" },
-      { route: "/travel-guide/malang-batu", source: "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/malang-batu.md" },
       { route: "/travel-guide/packing-and-fitness", source: "1-knowledge-and-evidence-core/health-and-safety-rules/packing-and-fitness.md", faqKey: "travel-guide-packing-and-fitness" },
-      { route: "/travel-guide/payment-and-deposit", source: "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/payment-and-deposit.md" },
       { route: "/travel-guide/police-escort-for-groups", source: "1-knowledge-and-evidence-core/health-and-safety-rules/police-escort-for-groups.json" },
-      { route: "/travel-guide/private-tour", source: "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/private-tour.md" },
       { route: "/travel-guide/rijik-monthly-closure", source: "1-knowledge-and-evidence-core/health-and-safety-rules/rijik-monthly-closure.json", faqKey: "travel-guide-rijik-monthly-closure" },
-      { route: "/travel-guide/rooming-and-accommodation", source: "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/rooming-and-accommodation.md" },
       { route: "/travel-guide/safety-on-tours", source: "1-knowledge-and-evidence-core/health-and-safety-rules/safety-on-tours.md", faqKey: "travel-guide-safety-on-tours" },
-      { route: "/travel-guide/vehicle-and-luggage", source: "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/vehicle-and-luggage.md" },
-      { route: "/travel-guide/weather-and-closures", source: "1-knowledge-and-evidence-core/health-and-safety-rules/weather-and-closures.md", faqKey: "travel-guide-weather-and-closures" },
-      { route: "/travel-guide/what-is-included", source: "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/what-is-included.md" },
-      { route: "/travel-guide/why-stay-near-ijen", source: "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/why-stay-near-ijen.md" }
+      { route: "/travel-guide/weather-and-closures", source: "1-knowledge-and-evidence-core/health-and-safety-rules/weather-and-closures.md", faqKey: "travel-guide-weather-and-closures" }
     ]
   },
   {

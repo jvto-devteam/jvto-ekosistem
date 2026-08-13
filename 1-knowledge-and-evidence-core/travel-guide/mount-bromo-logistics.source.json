@@ -124,6 +124,31 @@
               "value": "Walking-distance from Cemoro Lawang."
             }
           ]
+        },
+        {
+          "id": "vehicle-temperature",
+          "title": "Vehicle & temperature",
+          "body_md": "Our 4WD jeeps seat up to 6. Heating is limited. We supply blankets and hot drinks at the viewpoint. Expect 3-8°C at the rim in dry season; freezing in July/August."
+        },
+        {
+          "id": "what-to-wear",
+          "title": "What to wear",
+          "items": [
+            "Thermal base layer + fleece + windbreaker (4-5 layers in winter).",
+            "Hiking shoes with grip - the caldera floor is volcanic sand.",
+            "Buff or scarf for ash protection during the crater walk.",
+            "Headlamp - JVTO supplies one if you do not have it."
+          ]
+        },
+        {
+          "id": "crater-walk",
+          "title": "The crater walk",
+          "body_md": "From the jeep drop-off it is a 30-minute walk across the sea of sand, then 253 stone steps up the cone. Horses are available locally; JVTO does not bundle them by default for animal-welfare reasons."
+        },
+        {
+          "id": "related-destination",
+          "title": "Related Destination",
+          "body_md": "[Mount Bromo →](/destinations/mount-bromo)"
         }
       ],
       "related": [

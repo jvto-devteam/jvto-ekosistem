@@ -99,3 +99,21 @@ Leave jewellery (particularly silver, as noted above), extra cash, and valuables
 | Private 4WD jeep | All Bromo-relevant packages |
 | Health-screening coordination | Ijen-relevant packages, for every guest under BBKSDA SE.1658/KSA.9/2024 |
 | Daily bottled mineral water | All packages |
+
+---
+
+## Optional: an 8-week conditioning plan
+
+None of the routes above require training. If you would simply like the climbs to feel easier — particularly the Ijen ascent — this is the pattern JVTO suggests.
+
+- 3 × per week: 45 min uphill walking on a treadmill at 6–8% incline.
+- 2 × per week: stair-master or actual stairs, 20 min.
+- 1 × per week: long walk, 90 min, with the day-pack you plan to bring.
+
+---
+
+## Related Destinations
+
+- [Ijen Crater →](/destinations/ijen-crater)
+- [Mount Bromo →](/destinations/mount-bromo)
+- [Tumpak Sewu Waterfall →](/destinations/tumpak-sewu-waterfall)

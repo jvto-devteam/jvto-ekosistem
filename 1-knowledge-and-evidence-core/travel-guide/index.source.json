@@ -21,7 +21,7 @@
     "schemaTypes": [
       "CollectionPage"
     ],
-    "faqKey": "",
+    "faqKey": "travel-guide-index",
     "summary": "Hub for JVTO travel guidance: booking, safety, health screening, packing, weather and closures."
   },
   "seo": {
@@ -53,13 +53,34 @@
     }
   },
   "faq": {
-    "key": "",
+    "key": "travel-guide-index",
     "payload": {
-      "key": "",
-      "items": [],
-      "lastReviewed": "",
-      "owner": "",
-      "reviewStatus": ""
+      "key": "travel-guide-index",
+      "items": [
+        {
+          "question": "What is the Travel Guide for?",
+          "answer": "This is JVTO's planning hub for safety rules, Ijen screening, closures/weather logic, packing/fitness, booking flow, and group escort context. It helps you prepare before departure."
+        },
+        {
+          "question": "What is the binding reference if anything differs?",
+          "answer": "Your Official E-Voucher / Invoice (PDF) is the highest authority for your specific booking. If anything differs, follow the document precedence stated on this page and in the policy pack."
+        },
+        {
+          "question": "Which pages should I read before paying?",
+          "answer": "Read /travel-guide/booking-information, then /policy/booking-payment-cancellation and /policy/inclusions-exclusions. Use /travel-guide/weather-and-closures for route uncertainty."
+        },
+        {
+          "question": "Where can I find the Ijen screening process?",
+          "answer": "Read /travel-guide/ijen-health-screening. Screening is part of Ijen night hike logistics when applicable and may be required by local rules."
+        },
+        {
+          "question": "What should I do close to departure?",
+          "answer": "Re-check /travel-guide/packing-and-fitness and /travel-guide/weather-and-closures. If you are unsure how a rule applies, verify via official channels before travel."
+        }
+      ],
+      "lastReviewed": "2026-08-13",
+      "owner": "operations",
+      "reviewStatus": "live-parity-source"
     }
   },
   "output_targets": [
@@ -68,9 +89,10 @@
     "knowledge_feed"
   ],
   "source_trace": {
-    "generated_at": "2026-08-12T07:00:53.148Z",
+    "generated_at": "2026-08-13T02:02:52.042Z",
     "source_files": [
       "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/index.md",
+      "1-knowledge-and-evidence-core/faqs/travel-guide-index.json",
       "5-experience-engine/seo-metadata/page-metadata-index.json"
     ],
     "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."

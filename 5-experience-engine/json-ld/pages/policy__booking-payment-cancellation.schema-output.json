@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-12T08:52:03.684Z",
+  "generated_at": "2026-08-13T02:10:07.412Z",
   "route": "/policy/booking-payment-cancellation",
   "domain": "policy",
   "slug": "booking-payment-cancellation",
@@ -13,7 +13,7 @@
     "url": "https://javavolcano-touroperator.com/policy/booking-payment-cancellation"
   },
   "source_trace": {
-    "generated_at": "2026-08-12T07:00:53.148Z",
+    "generated_at": "2026-08-13T02:02:52.042Z",
     "source_files": [
       "1-knowledge-and-evidence-core/policies/booking-payment-cancellation.json",
       "5-experience-engine/seo-metadata/page-metadata-index.json"

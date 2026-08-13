@@ -119,7 +119,7 @@
                   "about": "Love meeting people from different backgrounds and making every trip feel easy and enjoyable. Always make sure safety during the trip.",
                   "phone": "+6285330695662",
                   "facebook": "https://www.facebook.com/yendi.juned",
-                  "instagram": "",
+                  "instagram": null,
                   "languages": "English, Indonesian",
                   "photo_url": "https://javavolcano-touroperator.com/uploads/1768270364125-144711646-yandi.png",
                   "highlights": [
@@ -163,7 +163,7 @@
                   "role": "Guide",
                   "about": "I am a chill guy who loves brainrot memes, games, and all kinds of music. Let me show you how beautiful East Java is.",
                   "phone": "+6281332112387",
-                  "facebook": "",
+                  "facebook": null,
                   "instagram": "https://www.instagram.com/anjasstywn",
                   "languages": "English, Indonesian",
                   "photo_url": "https://javavolcano-touroperator.com/uploads/1768270423657-690185912-anjas.png",
@@ -236,7 +236,7 @@
                   "about": "I drive fast, but always cleanly, smoothly, and safely. Clients frequently tell me I am their number one choice because they know they will get there quickly without feeling unsafe.",
                   "phone": "+6285334116339",
                   "facebook": "https://www.facebook.com/udit.wahyudi.2025",
-                  "instagram": "",
+                  "instagram": null,
                   "languages": "Indonesian",
                   "photo_url": "https://javavolcano-touroperator.com/uploads/1768277336049-911840775-joyo.png",
                   "highlights": [
@@ -315,7 +315,7 @@
     "knowledge_feed"
   ],
   "source_trace": {
-    "generated_at": "2026-08-12T07:00:53.148Z",
+    "generated_at": "2026-08-13T02:02:52.042Z",
     "source_files": [
       "1-knowledge-and-evidence-core/narrative-claims/why-jvto-pages/our-team.json",
       "1-knowledge-and-evidence-core/faqs/why-jvto-our-team.json",

@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-12T08:52:03.684Z",
+  "generated_at": "2026-08-13T02:10:07.412Z",
   "route": "/travel-guide",
   "domain": "travel-guide",
   "slug": "index",
@@ -13,9 +13,10 @@
     "url": "https://javavolcano-touroperator.com/travel-guide"
   },
   "source_trace": {
-    "generated_at": "2026-08-12T07:00:53.148Z",
+    "generated_at": "2026-08-13T02:02:52.042Z",
     "source_files": [
       "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/index.md",
+      "1-knowledge-and-evidence-core/faqs/travel-guide-index.json",
       "5-experience-engine/seo-metadata/page-metadata-index.json"
     ],
     "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."

@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/knowledge-feed/v1",
   "output_type": "public_web_content_feed",
-  "generated_at": "2026-08-12T08:52:03.684Z",
+  "generated_at": "2026-08-13T02:10:07.412Z",
   "record_count": 34,
   "records": [
     {
@@ -96,6 +96,7 @@
       ],
       "sourceFiles": [
         "1-knowledge-and-evidence-core/stable-operational-guidance/travel-guide-pages/index.md",
+        "1-knowledge-and-evidence-core/faqs/travel-guide-index.json",
         "5-experience-engine/seo-metadata/page-metadata-index.json"
       ]
     },

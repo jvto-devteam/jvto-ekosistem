@@ -129,3 +129,53 @@ Asset note: `health_screening` group + `uncertain` group.
 ## Gas Masks — Separate from Screening
 
 Gas masks are provided by JVTO as a standard inclusion on all Ijen-relevant packages. This is independent of and separate from the health-screening process. Regardless of the mandatory health screening, gas masks are standard equipment on all JVTO Ijen routes.
+
+---
+
+## The hard gate
+
+No valid health certificate = no access to the crater zone. This is a BBKSDA rule. We will not take you up without it.
+
+---
+
+## Why each vital is measured
+
+| Metric | Why it matters |
+|---|---|
+| Oxygen saturation (SpO2) | Baseline lung function before high-altitude sulfur exposure. |
+| Blood pressure | Cardiovascular risk at 2,386 m (systolic / diastolic). |
+| Resting heart rate | Cardiovascular baseline. |
+| Respiratory history | Asthma or bronchitis — directly relevant to gas-mask use and sulfur exposure. |
+
+---
+
+## Verify your physician
+
+Every JVTO _surat sehat_ is issued by a named, individually auditable doctor — not an in-house printout. You can check the licence before you book.
+
+| Field | Detail & verification |
+|---|---|
+| Dr. Ahmad Irwandanu | Licensed Medical Doctor (Dokter Umum), SIP-credentialed. Based in Bondowoso, East Java. Registered with Kemenkes RI · SatuSehat SDMK · KKI. |
+| STR | [satusehat.kemkes.go.id](https://satusehat.kemkes.go.id/sdmk/nakes/QN00001073380217) |
+| KKI check | [kki.go.id/cekdokter](https://www.kki.go.id/cekdokter/form) |
+
+---
+
+## What you should do before the trip
+
+- Disclose any pre-existing cardiovascular or respiratory condition in your inquiry form.
+- Bring any home-country medical paperwork relevant to altitude or respiratory conditions.
+- Get a good night of sleep before the screening session.
+- Avoid alcohol the night before — it can register as elevated blood pressure.
+
+---
+
+## Verify before you book
+
+You can check Dr. Irwandanu's licence at the [Kemenkes SatuSehat](https://satusehat.kemkes.go.id/sdmk/nakes/QN00001073380217) and [KKI registries](https://www.kki.go.id/cekdokter/form) linked above, and read the regulatory and police-safety context on the [Police & Safety proof page](/verify-jvto/police-safety). The certificate behind your climb is auditable — by design.
+
+---
+
+## Related Destination
+
+[Ijen Crater →](/destinations/ijen-crater)

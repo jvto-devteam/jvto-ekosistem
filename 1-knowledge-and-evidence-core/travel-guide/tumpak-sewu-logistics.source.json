@@ -77,12 +77,11 @@
         },
         {
           "id": "when-not-to-go",
-          "title": "When not to go",
+          "title": "When NOT to go",
           "body_md": "During and immediately after heavy rain, the canyon floor can flood rapidly. JVTO guides cancel descent when rainfall or water conditions make the canyon unsafe, then substitute an alternative such as Goa Tetes or reschedule where possible."
         },
         {
           "id": "conditions",
-          "title": "Conditions",
           "items": [
             {
               "key": "Best season",
@@ -101,6 +100,11 @@
               "value": "Dry bag for phone/wallet"
             }
           ]
+        },
+        {
+          "id": "related-destination",
+          "title": "Related Destination",
+          "body_md": "[Tumpak Sewu Waterfall →](/destinations/tumpak-sewu-waterfall)"
         }
       ],
       "related": [
