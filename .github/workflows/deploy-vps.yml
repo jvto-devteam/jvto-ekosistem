@@ -231,3 +231,38 @@ jobs:
             fi
             pm2 save
           "
+
+      - name: Revalidate jvto-web ecosystem cache
+        env:
+          JVTO_WEB_REVALIDATE_URL: ${{ secrets.JVTO_WEB_REVALIDATE_URL }}
+          JVTO_WEB_REVALIDATE_SECRET: ${{ secrets.JVTO_WEB_REVALIDATE_SECRET }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${JVTO_WEB_REVALIDATE_SECRET:-}" ]; then
+            echo "JVTO_WEB_REVALIDATE_SECRET is not configured; skipping jvto-web cache revalidation."
+            exit 0
+          fi
+
+          REVALIDATE_URL="${JVTO_WEB_REVALIDATE_URL:-https://javavolcano-touroperator.com/api/revalidate/ecosystem-content}"
+
+          node - <<'NODE' > /tmp/jvto-web-revalidate-body.json
+          const fs = require('node:fs');
+          const index = JSON.parse(fs.readFileSync('5-experience-engine/manifests/route-output-index.json', 'utf8'));
+          const routes = [...new Set((index.routes ?? []).map((entry) => entry.route).filter(Boolean))];
+          process.stdout.write(JSON.stringify({ routes }));
+          NODE
+
+          http_status="$(curl -sS -o /tmp/jvto-web-revalidate-response.json -w '%{http_code}' \
+            -X POST "$REVALIDATE_URL" \
+            -H "Authorization: Bearer $JVTO_WEB_REVALIDATE_SECRET" \
+            -H "Content-Type: application/json" \
+            --data-binary @/tmp/jvto-web-revalidate-body.json)"
+
+          cat /tmp/jvto-web-revalidate-response.json
+          echo
+
+          if [ "$http_status" -lt 200 ] || [ "$http_status" -ge 300 ]; then
+            echo "jvto-web cache revalidation failed with HTTP $http_status"
+            exit 1
+          fi
