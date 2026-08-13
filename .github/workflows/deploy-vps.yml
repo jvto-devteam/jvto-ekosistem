@@ -24,6 +24,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -31,16 +33,68 @@ jobs:
           node-version: 20
           cache: npm
 
+      - name: Classify deployment mode
+        id: deploy-mode
+        run: |
+          set -euo pipefail
+
+          FULL_DEPLOY=false
+          REASON="CMS source/output-only change"
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            FULL_DEPLOY=true
+            REASON="manual workflow dispatch"
+          elif ! git rev-parse HEAD^ >/dev/null 2>&1; then
+            FULL_DEPLOY=true
+            REASON="no parent commit available"
+          else
+            CHANGED_FILES="$(git diff --name-only HEAD^ HEAD)"
+            echo "Changed files:"
+            printf '%s\n' "$CHANGED_FILES"
+
+            while IFS= read -r file; do
+              case "$file" in
+                "")
+                  ;;
+                1-knowledge-and-evidence-core/travel-guide/*.source.json|1-knowledge-and-evidence-core/why-jvto/*.source.json|1-knowledge-and-evidence-core/policies/*.source.json|5-experience-engine/public-website/*|5-experience-engine/public-website/**|5-experience-engine/json-ld/*|5-experience-engine/json-ld/**|5-experience-engine/manifests/*|5-experience-engine/knowledge-feed/*)
+                  ;;
+                *)
+                  FULL_DEPLOY=true
+                  REASON="non-CMS-output file changed: $file"
+                  break
+                  ;;
+              esac
+            done < <(printf '%s\n' "$CHANGED_FILES")
+          fi
+
+          echo "full=$FULL_DEPLOY" >> "$GITHUB_OUTPUT"
+          echo "reason=$REASON" >> "$GITHUB_OUTPUT"
+          echo "Deployment mode: $([ "$FULL_DEPLOY" = true ] && echo full || echo fast) ($REASON)"
+
       - name: Install dependencies
+        if: steps.deploy-mode.outputs.full == 'true'
         run: npm ci
 
       - name: Audit Tina CMS content
+        if: steps.deploy-mode.outputs.full == 'true'
         run: npm run cms:audit -- --verbose
+
+      - name: Validate CMS source JSON
+        if: steps.deploy-mode.outputs.full != 'true'
+        run: |
+          set -euo pipefail
+          find \
+            1-knowledge-and-evidence-core/travel-guide \
+            1-knowledge-and-evidence-core/why-jvto \
+            1-knowledge-and-evidence-core/policies \
+            -name '*.source.json' -print0 \
+            | xargs -0 -n1 node -e "const fs=require('node:fs'); JSON.parse(fs.readFileSync(process.argv[1], 'utf8')); console.log('JSON OK:', process.argv[1]);"
 
       - name: Render website outputs
         run: npm run render:web-content
 
       - name: Validate TinaCloud secrets
+        if: steps.deploy-mode.outputs.full == 'true'
         env:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
@@ -51,6 +105,7 @@ jobs:
           fi
 
       - name: Build Tina admin
+        if: steps.deploy-mode.outputs.full == 'true'
         env:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
           NEXT_PUBLIC_TINA_BRANCH: main
@@ -82,7 +137,8 @@ jobs:
           printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/jvto-ekosistem
           chmod 600 ~/.ssh/jvto-ekosistem
 
-      - name: Deploy files to VPS
+      - name: Deploy full project to VPS
+        if: steps.deploy-mode.outputs.full == 'true'
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
@@ -100,10 +156,55 @@ jobs:
             --exclude 'node_modules/' \
             --exclude '.env' \
             --exclude '.env.*' \
+            --exclude '.deploy-package-lock.sha256' \
             --exclude 'public/uploads/' \
             ./ "$USERNAME@$VPS_HOST:$DEPLOY_PATH/"
 
+      - name: Deploy rendered content to VPS
+        if: steps.deploy-mode.outputs.full != 'true'
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          VPS_PORT: ${{ secrets.VPS_PORT }}
+        run: |
+          set -euo pipefail
+          USERNAME="${VPS_USER:-root}"
+          PORT="${VPS_PORT:-22}"
+          SSH_OPTS="-i ~/.ssh/jvto-ekosistem -p ${PORT} -o StrictHostKeyChecking=accept-new"
+
+          ssh $SSH_OPTS "$USERNAME@$VPS_HOST" "mkdir -p \
+            '$DEPLOY_PATH/1-knowledge-and-evidence-core/travel-guide' \
+            '$DEPLOY_PATH/1-knowledge-and-evidence-core/why-jvto' \
+            '$DEPLOY_PATH/1-knowledge-and-evidence-core/policies' \
+            '$DEPLOY_PATH/5-experience-engine/public-website' \
+            '$DEPLOY_PATH/5-experience-engine/json-ld' \
+            '$DEPLOY_PATH/5-experience-engine/manifests' \
+            '$DEPLOY_PATH/5-experience-engine/knowledge-feed'"
+
+          rsync -az --delete -e "ssh $SSH_OPTS" \
+            1-knowledge-and-evidence-core/travel-guide/ \
+            "$USERNAME@$VPS_HOST:$DEPLOY_PATH/1-knowledge-and-evidence-core/travel-guide/"
+          rsync -az --delete -e "ssh $SSH_OPTS" \
+            1-knowledge-and-evidence-core/why-jvto/ \
+            "$USERNAME@$VPS_HOST:$DEPLOY_PATH/1-knowledge-and-evidence-core/why-jvto/"
+          rsync -az --delete -e "ssh $SSH_OPTS" \
+            1-knowledge-and-evidence-core/policies/ \
+            "$USERNAME@$VPS_HOST:$DEPLOY_PATH/1-knowledge-and-evidence-core/policies/"
+          rsync -az --delete -e "ssh $SSH_OPTS" \
+            5-experience-engine/public-website/ \
+            "$USERNAME@$VPS_HOST:$DEPLOY_PATH/5-experience-engine/public-website/"
+          rsync -az --delete -e "ssh $SSH_OPTS" \
+            5-experience-engine/json-ld/ \
+            "$USERNAME@$VPS_HOST:$DEPLOY_PATH/5-experience-engine/json-ld/"
+          rsync -az --delete -e "ssh $SSH_OPTS" \
+            5-experience-engine/manifests/ \
+            "$USERNAME@$VPS_HOST:$DEPLOY_PATH/5-experience-engine/manifests/"
+          rsync -az --delete -e "ssh $SSH_OPTS" \
+            5-experience-engine/knowledge-feed/ \
+            "$USERNAME@$VPS_HOST:$DEPLOY_PATH/5-experience-engine/knowledge-feed/"
+
       - name: Install production dependencies and restart PM2
+        if: steps.deploy-mode.outputs.full == 'true'
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
@@ -116,7 +217,13 @@ jobs:
           ssh $SSH_OPTS "$USERNAME@$VPS_HOST" "
             set -euo pipefail
             cd '$DEPLOY_PATH'
-            npm ci --omit=dev
+            LOCK_HASH=\$(sha256sum package-lock.json | awk '{print \$1}')
+            if [ -d node_modules ] && [ -f .deploy-package-lock.sha256 ] && [ \"\$(cat .deploy-package-lock.sha256)\" = \"\$LOCK_HASH\" ]; then
+              echo 'Production dependencies unchanged; skipping npm ci.'
+            else
+              npm ci --omit=dev
+              printf '%s\n' \"\$LOCK_HASH\" > .deploy-package-lock.sha256
+            fi
             if pm2 describe '$PM2_APP_NAME' >/dev/null 2>&1; then
               PORT='$APP_PORT' pm2 reload '$PM2_APP_NAME' --update-env
             else
