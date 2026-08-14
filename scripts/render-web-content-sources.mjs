@@ -79,6 +79,7 @@ function buildWebsiteOutput(source) {
     page: {
       title: source.meta?.title || "",
       summary: source.meta?.summary || "",
+      ...(source.meta?.answerFirst ? { answerFirst: source.meta.answerFirst } : {}),
       owner: source.meta?.owner || "",
       lastReviewed: source.meta?.lastReviewed || "",
       content: source.content,

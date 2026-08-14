@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T01:17:51.706Z",
+  "generated_at": "2026-08-14T01:19:37.274Z",
   "route": "/travel-guide/police-escort-for-groups",
   "domain": "travel-guide",
   "slug": "police-escort-for-groups",
@@ -17,6 +17,7 @@
   "page": {
     "title": "Traffic Police Escort for Tourist Groups in East Java",
     "summary": "How JVTO coordinates an official traffic police escort for large tourist groups in East Java — a formal request process through the Traffic Police (Ditlantas), qualifying group size, and what approval does and does not mean.",
+    "answerFirst": "For tourist groups, usually around 18 guests or more, JVTO can request an official traffic police escort through the relevant Ditlantas unit. It is a formal approval process, not a guaranteed add-on. When approved, the escort supports road coordination on selected East Java segments.",
     "owner": "operations",
     "lastReviewed": "2026-08-06",
     "content": {

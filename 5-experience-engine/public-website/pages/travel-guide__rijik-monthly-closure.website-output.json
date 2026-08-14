@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T01:17:51.706Z",
+  "generated_at": "2026-08-14T01:19:37.274Z",
   "route": "/travel-guide/rijik-monthly-closure",
   "domain": "travel-guide",
   "slug": "rijik-monthly-closure",
@@ -17,6 +17,7 @@
   "page": {
     "title": "Ijen Rijik: The Monthly Closure Day at Kawah Ijen",
     "summary": "Why Kawah Ijen closes on the first Friday of every month (the Rijik conservation cleanup, since March 2019) and how JVTO schedules Ijen itineraries around it.",
+    "answerFirst": "Kawah Ijen closes to all visitors on the first Friday of every month for Rijik, a scheduled conservation cleanup running since March 2019. Park staff and volunteers typically remove an estimated 100-150 kg of waste. JVTO checks this calendar before confirming Ijen-inclusive itineraries and schedules around it.",
     "owner": "operations",
     "lastReviewed": "2026-08-06",
     "content": {
