@@ -42,6 +42,10 @@ function normalizeFaqForOutput(faq) {
   return faq;
 }
 
+function isRatingValid(rating) {
+  return Boolean(rating) && Number(rating.reviewCount) >= 1 && Number(rating.ratingValue) > 0;
+}
+
 function buildWebsiteOutput(source) {
   return {
     schema_version: "jvto/output/public-website-page/v1",
