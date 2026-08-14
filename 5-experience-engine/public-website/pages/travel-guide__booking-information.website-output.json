@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T08:56:59.998Z",
+  "generated_at": "2026-08-14T09:06:41.716Z",
   "route": "/travel-guide/booking-information",
   "domain": "travel-guide",
   "slug": "booking-information",
@@ -26,7 +26,7 @@
           "route": "/travel-guide/booking-information",
           "title": "Booking Information – How JVTO Private Tours Work",
           "browserTitle": "Booking Information – Payments, Changes & Package Credit | JVTO",
-          "description": "How to book, pay, and cancel a JVTO private tour: website-only booking, 20% deposit (up to 100% within 14 days), card ≤5d / bank·Wise ≤3d balance deadlines, and 100% Lifetime Package Credit for whole-booking cancellations 48h+ before Day 1.",
+          "description": "How JVTO bookings work: deposit, balance deadlines, payment methods, Package Credit, cancellation rules, and official E-Voucher priority.",
           "section": "travel-guide",
           "status": "published",
           "owner": "operations",
