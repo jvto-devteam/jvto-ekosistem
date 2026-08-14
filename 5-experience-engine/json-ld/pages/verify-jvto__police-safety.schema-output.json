@@ -2,9 +2,9 @@
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
   "generated_at": "2026-08-14T01:17:51.706Z",
-  "route": "/why-jvto",
-  "domain": "why-jvto",
-  "slug": "index",
+  "route": "/verify-jvto/police-safety",
+  "domain": "verify-jvto",
+  "slug": "police-safety",
   "json_ld": {
     "@context": "https://schema.org",
     "@graph": [
@@ -103,6 +103,9 @@
               "@type": "Organization",
               "name": "DuMont Reiseverlag"
             }
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/#police-authority"
           }
         ],
         "hasCredential": [
@@ -168,59 +171,58 @@
         ]
       },
       {
-        "@id": "https://javavolcano-touroperator.com/why-jvto#webpage",
+        "@id": "https://javavolcano-touroperator.com/#police-authority",
+        "@type": "GovernmentService",
+        "name": "Tourist Police Authority — Ditpamobvit Assignment",
+        "description": "JVTO's founder holds an active Tourist Police (Ditpamobvit) commission from the Indonesian National Police, evidenced by SPRIN POLPAR and SPRIN WAL-TRAVEL assignment orders.",
+        "provider": {
+          "@type": "GovernmentOrganization",
+          "name": "Direktorat Pengamanan Objek Vital (Ditpamobvit) — Indonesian National Police",
+          "url": "https://polri.go.id"
+        },
+        "areaServed": {
+          "@type": "Place",
+          "name": "East Java, Indonesia"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/verify-jvto/police-safety#webpage",
         "@type": [
           "WebPage"
         ],
-        "name": "Why Travel with Java Volcano Tour Operator (JVTO)",
-        "description": "Tourist Police-led safety, licensed operator, private-only tours, all-inclusive pricing. Why travellers from SG, MY & HK choose JVTO for Bromo and Ijen.",
-        "url": "https://javavolcano-touroperator.com/why-jvto",
+        "name": "JVTO Police Integration & Safety Authority",
+        "description": "JVTO's Tourist Police authority: SPRIN POLPAR documents, health screening coordination, and safety protocols for Bromo and Ijen volcano tours.",
+        "url": "https://javavolcano-touroperator.com/verify-jvto/police-safety",
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         }
       },
       {
-        "@id": "https://javavolcano-touroperator.com/why-jvto#faq",
+        "@id": "https://javavolcano-touroperator.com/verify-jvto/police-safety#faq",
         "@type": "FAQPage",
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Do you mix strangers into one car?",
+            "name": "Is the founder really an active Tourist Police officer?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No. JVTO runs private tours only. Details: /travel-guide/booking-information"
+              "text": "Yes. Bripka Agung Sambuko is an active POLPAR (Polisi Pariwisata) officer under Indonesia's Ditpamobvit (Directorate of Vital Object Security), POLRI. His identity was independently confirmed by Detik.com (March 2021 article naming him as Bripka Agung Sambuko). His current assignment is documented via SPRIN-POLPAR (Tourist Police Assignment Letter) and SPRIN-WAL-TRAVEL (active travel order, dated 12 February 2024). JVTO is a private operator; this describes the founder's professional background and does not imply government endorsement."
             }
           },
           {
             "@type": "Question",
-            "name": "What if weather or closures change the plan?",
+            "name": "What is POLPAR and why does it matter for tour operators?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We adapt early and communicate clearly. Safety approach: /why-jvto/the-jvto-difference • Practical rules: /travel-guide"
+              "text": "POLPAR (Polisi Pariwisata) is the Indonesian Tourist Police unit under Ditpamobvit. Officers are formally assigned to secure and support tourism areas via a SPRIN (Surat Perintah / official order letter) from POLRI. Having an active POLPAR officer as founder means JVTO's safety protocols are not just guidelines — they are police-standard procedures applied to volcano tourism."
             }
           },
           {
             "@type": "Question",
-            "name": "Where can I verify legality and proof?",
+            "name": "Can JVTO arrange a police escort for groups?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Proof Library: /why-jvto/the-jvto-difference"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Where are your booking/payment terms?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Booking & payment policy: /policy/booking-payment-cancellation"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do you handle personal data?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Privacy policy: /policy/privacy"
+              "text": "JVTO can arrange a traffic police escort on request for larger groups, channelled through official channels. Approval is not guaranteed and it is not automatically included in all tours. See /travel-guide/police-escort-for-groups for the request flow and applicable group-size thresholds."
             }
           }
         ]
@@ -228,12 +230,11 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-13T02:02:52.042Z",
     "source_files": [
-      "1-knowledge-and-evidence-core/narrative-claims/why-jvto-pages/index.json",
-      "1-knowledge-and-evidence-core/faqs/why-jvto-hub.json",
-      "5-experience-engine/seo-metadata/page-metadata-index.json"
+      "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/police-safety.json",
+      "1-knowledge-and-evidence-core/faqs/verify-jvto-police-safety.json",
+      "1-knowledge-and-evidence-core/credentials-and-public-evidence/police-authority.json"
     ],
-    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+    "confidence": "verified"
   }
 }

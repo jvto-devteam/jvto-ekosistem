@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto/output/knowledge-feed/v1",
   "output_type": "public_web_content_feed",
-  "generated_at": "2026-08-13T03:02:58.001Z",
-  "record_count": 34,
+  "generated_at": "2026-08-14T01:17:51.706Z",
+  "record_count": 35,
   "records": [
     {
       "route": "/policy",
@@ -334,6 +334,26 @@
         "1-knowledge-and-evidence-core/health-and-safety-rules/weather-and-closures.md",
         "1-knowledge-and-evidence-core/faqs/travel-guide-weather-and-closures.json",
         "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/verify-jvto/police-safety",
+      "domain": "verify-jvto",
+      "slug": "police-safety",
+      "title": "JVTO Police Integration & Safety Authority",
+      "summary": "The founder's active Tourist Police commission — assignment orders, rank, and independent press confirmation — and what police-standard discipline means for your tour.",
+      "status": "published",
+      "owner": "legal",
+      "lastReviewed": "2026-08-07",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/police-safety.json",
+        "1-knowledge-and-evidence-core/faqs/verify-jvto-police-safety.json",
+        "1-knowledge-and-evidence-core/credentials-and-public-evidence/police-authority.json"
       ]
     },
     {

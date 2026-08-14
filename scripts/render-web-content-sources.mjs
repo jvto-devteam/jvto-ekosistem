@@ -3,13 +3,15 @@ import path from "node:path";
 import { composeGraph } from "./lib/schema-contract.mjs";
 import { buildOrganizationNode, ORG_ID } from "./lib/build-organization.mjs";
 import { buildPersonNode } from "./lib/build-person.mjs";
+import { buildPoliceAuthorityNode, policeAuthorityReference } from "./lib/build-police-authority.mjs";
 
 const ROOT = process.cwd();
 const GENERATED_AT = new Date().toISOString();
 const SOURCE_DIRS = [
   "1-knowledge-and-evidence-core/travel-guide",
   "1-knowledge-and-evidence-core/why-jvto",
-  "1-knowledge-and-evidence-core/policies"
+  "1-knowledge-and-evidence-core/policies",
+  "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages"
 ];
 let peopleCache = null;
 
@@ -99,6 +101,12 @@ async function buildSchemaOutput(source) {
 
   const orgNode = await buildOrganizationNode(ROOT);
   nodes.push(orgNode);
+
+  if (source.route === "/verify-jvto/police-safety") {
+    const policeNode = await buildPoliceAuthorityNode(ROOT);
+    nodes.push(policeNode);
+    orgNode.subjectOf = [...(orgNode.subjectOf ?? []), policeAuthorityReference()];
+  }
 
   nodes.push({
     "@id": `${pageUrl}#webpage`,
