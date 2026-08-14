@@ -11,6 +11,7 @@
     "cms:build": "node scripts/build-tina-admin.mjs",
     "migrate:web-content:sources": "node scripts/migrate-web-content-to-source.mjs",
     "render:web-content": "node scripts/render-web-content-sources.mjs",
+    "render:llms": "node scripts/render-llms-txt.mjs",
     "validate:schema": "node scripts/validate-schema.mjs",
     "test:schema": "node scripts/test/schema-contract.test.mjs && node scripts/test/validate-schema.test.mjs",
     "watch:web-content": "node scripts/watch-web-content-sources.mjs"
