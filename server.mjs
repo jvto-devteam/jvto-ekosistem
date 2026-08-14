@@ -8,6 +8,7 @@ const ROOT = __dirname;
 const PUBLIC_ROOT = path.join(ROOT, "public");
 const PORT = Number(process.env.PORT || 4178);
 const GITHUB_URL = "https://github.com/jvto-devteam/jvto-ekosistem";
+const CONTENT_SIGNAL = "search=yes,ai-train=no,use=reference";
 const EXCLUDED_NAMES = new Set([".git", "node_modules", ".DS_Store"]);
 const STATIC_CONTENT_TYPES = new Map([
   [".css", "text/css; charset=utf-8"],
@@ -45,6 +46,7 @@ function send(res, status, body, headers = {}) {
   res.writeHead(status, {
     "content-type": "text/html; charset=utf-8",
     "cache-control": "no-store",
+    "content-signal": CONTENT_SIGNAL,
     ...headers
   });
   res.end(body);
@@ -59,7 +61,8 @@ function sendJson(res, status, data) {
 function sendStatic(res, status, body, contentType) {
   res.writeHead(status, {
     "content-type": contentType,
-    "cache-control": "no-store"
+    "cache-control": "no-store",
+    "content-signal": CONTENT_SIGNAL
   });
   res.end(body);
 }
