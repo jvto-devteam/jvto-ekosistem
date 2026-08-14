@@ -92,7 +92,7 @@ Urutan kerja:
    npm run cms:build
    ```
    Jika secrets TinaCloud tersedia, build admin memakai mode Git-backed/TinaCloud. Jika tidak tersedia, build fallback ke mode lokal.
-6. Validasi route count live-aligned = `34`.
+6. Validasi route count live-aligned = `35`.
 7. Sync file ke VPS:
    ```text
    /var/www/jvto-ekosistem
