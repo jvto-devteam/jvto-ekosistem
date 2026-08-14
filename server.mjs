@@ -200,6 +200,38 @@ async function handleWebsitePage(req, res) {
   }
 }
 
+async function handleSchemaPage(req, res) {
+  const url = new URL(req.url, `http://${req.headers.host}`);
+  const route = url.searchParams.get("route");
+  if (!route || !route.startsWith("/")) {
+    sendJson(res, 400, { error: "Missing or invalid route. Use /api/schema/page?route=/travel-guide" });
+    return;
+  }
+
+  const outputPath = path.join(
+    "5-experience-engine",
+    "json-ld",
+    "pages",
+    `${routeToOutputBase(route)}.schema-output.json`
+  );
+  const { absolute, relative } = safeResolve(outputPath);
+
+  try {
+    const content = await readFile(absolute, "utf8");
+    sendJson(res, 200, {
+      route,
+      outputPath: relative,
+      payload: JSON.parse(content)
+    });
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      sendJson(res, 404, { error: "Schema page output not found.", route });
+      return;
+    }
+    throw error;
+  }
+}
+
 async function handleWebsiteRoutes(res) {
   const indexPath = path.join("5-experience-engine", "manifests", "route-output-index.json");
   const { absolute, relative } = safeResolve(indexPath);
@@ -714,6 +746,10 @@ const server = createServer(async (req, res) => {
     }
     if (url.pathname === "/api/website/routes") {
       await handleWebsiteRoutes(res);
+      return;
+    }
+    if (url.pathname === "/api/schema/page") {
+      await handleSchemaPage(req, res);
       return;
     }
     if (url.pathname === "/health") {
