@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-14T01:13:37.757Z",
+  "generated_at": "2026-08-14T01:16:02.952Z",
   "route": "/why-jvto/our-team/fredi",
   "domain": "why-jvto",
   "slug": "our-team/fredi",
@@ -170,8 +170,7 @@
       {
         "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/fredi#webpage",
         "@type": [
-          "ProfilePage",
-          "Person"
+          "ProfilePage"
         ],
         "name": "Fredi — JVTO Tour Driver",
         "description": "Fredi is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
@@ -179,6 +178,35 @@
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/fredi#person",
+        "@type": "Person",
+        "name": "Fredi",
+        "jobTitle": "driver",
+        "image": [
+          {
+            "@type": "ImageObject",
+            "url": "/uploads/1768276791622-262250680-freddy.png",
+            "caption": "JVTO driver Fredi"
+          }
+        ],
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "HPWKI membership credential KTA-D-2024-005",
+            "credentialCategory": "HPWKI membership credential (KTA)",
+            "recognizedBy": {
+              "@type": "Organization",
+              "name": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)"
+            },
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "KTA",
+              "value": "KTA-D-2024-005"
+            }
+          }
+        ]
       }
     ]
   },

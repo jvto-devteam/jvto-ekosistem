@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-14T01:13:37.757Z",
+  "generated_at": "2026-08-14T01:16:02.952Z",
   "route": "/why-jvto/our-team/yandi",
   "domain": "why-jvto",
   "slug": "our-team/yandi",
@@ -170,8 +170,7 @@
       {
         "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/yandi#webpage",
         "@type": [
-          "ProfilePage",
-          "Person"
+          "ProfilePage"
         ],
         "name": "Yandi — JVTO Tour Driver",
         "description": "Yandi is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
@@ -179,6 +178,35 @@
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/yandi#person",
+        "@type": "Person",
+        "name": "Yandi",
+        "jobTitle": "driver",
+        "image": [
+          {
+            "@type": "ImageObject",
+            "url": "/uploads/1768270364125-144711646-yandi.png",
+            "caption": "JVTO driver Yandi"
+          }
+        ],
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "HPWKI membership credential KTA-D-2024-003",
+            "credentialCategory": "HPWKI membership credential (KTA)",
+            "recognizedBy": {
+              "@type": "Organization",
+              "name": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)"
+            },
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "KTA",
+              "value": "KTA-D-2024-003"
+            }
+          }
+        ]
       }
     ]
   },

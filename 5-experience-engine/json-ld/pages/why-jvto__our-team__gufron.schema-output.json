@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-14T01:13:37.757Z",
+  "generated_at": "2026-08-14T01:16:02.952Z",
   "route": "/why-jvto/our-team/gufron",
   "domain": "why-jvto",
   "slug": "our-team/gufron",
@@ -170,8 +170,7 @@
       {
         "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/gufron#webpage",
         "@type": [
-          "ProfilePage",
-          "Person"
+          "ProfilePage"
         ],
         "name": "Gufron — JVTO Tour Guide",
         "description": "Gufron is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
@@ -179,6 +178,35 @@
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/gufron#person",
+        "@type": "Person",
+        "name": "Gufron",
+        "jobTitle": "guide",
+        "image": [
+          {
+            "@type": "ImageObject",
+            "url": "/uploads/1768225567764-405955176-gufron.png",
+            "caption": "JVTO Bromo guide Gufron"
+          }
+        ],
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "HPWKI membership credential KTA-G-2024-001",
+            "credentialCategory": "HPWKI membership credential (KTA)",
+            "recognizedBy": {
+              "@type": "Organization",
+              "name": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)"
+            },
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "KTA",
+              "value": "KTA-G-2024-001"
+            }
+          }
+        ]
       }
     ]
   },

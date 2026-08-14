@@ -2,6 +2,7 @@ import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { composeGraph } from "./lib/schema-contract.mjs";
 import { buildOrganizationNode, ORG_ID } from "./lib/build-organization.mjs";
+import { buildPersonNode } from "./lib/build-person.mjs";
 
 const ROOT = process.cwd();
 const GENERATED_AT = new Date().toISOString();
@@ -10,9 +11,19 @@ const SOURCE_DIRS = [
   "1-knowledge-and-evidence-core/why-jvto",
   "1-knowledge-and-evidence-core/policies"
 ];
+let peopleCache = null;
 
 function routeToOutputBase(route) {
   return route.split("/").filter(Boolean).join("__") || "home";
+}
+
+async function loadPeople() {
+  if (!peopleCache) {
+    peopleCache = JSON.parse(
+      await readFile(path.join(ROOT, "1-knowledge-and-evidence-core/people-and-crew/people.json"), "utf8")
+    );
+  }
+  return peopleCache;
 }
 
 async function listSourceFiles(dir) {
@@ -82,6 +93,7 @@ function buildWebsiteOutput(source) {
 
 async function buildSchemaOutput(source) {
   const schemaTypes = source.meta?.schemaTypes?.length ? source.meta.schemaTypes : ["WebPage"];
+  const pageSchemaTypes = schemaTypes.filter((type) => type !== "Person");
   const pageUrl = `https://javavolcano-touroperator.com${source.route}`;
   const nodes = [];
 
@@ -90,7 +102,7 @@ async function buildSchemaOutput(source) {
 
   nodes.push({
     "@id": `${pageUrl}#webpage`,
-    "@type": schemaTypes,
+    "@type": pageSchemaTypes.length ? pageSchemaTypes : ["WebPage"],
     name: source.meta?.title || "",
     description: source.meta?.description || "",
     url: pageUrl,
@@ -108,6 +120,20 @@ async function buildSchemaOutput(source) {
         acceptedAnswer: { "@type": "Answer", text: item.answer },
       })),
     });
+  }
+
+  const teamMatch = source.route.match(/^\/why-jvto\/our-team\/([^/]+)$/);
+  if (teamMatch) {
+    const people = await loadPeople();
+    const leadership = Array.isArray(people.leadership) ? people.leadership : [];
+    const crewRoster = Array.isArray(people.crew?.roster) ? people.crew.roster : [];
+    const publicPeople = leadership.concat(crewRoster).filter((person) => person.public !== false && person.rendered !== false);
+    const record = publicPeople.find((person) => {
+      const candidateSlug = person.id || person.slug || person.code;
+      return candidateSlug === teamMatch[1];
+    });
+    const personNode = buildPersonNode(record, pageUrl);
+    if (personNode) nodes.push(personNode);
   }
 
   return {

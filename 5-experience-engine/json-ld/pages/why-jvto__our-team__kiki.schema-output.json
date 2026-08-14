@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-14T01:13:37.757Z",
+  "generated_at": "2026-08-14T01:16:02.952Z",
   "route": "/why-jvto/our-team/kiki",
   "domain": "why-jvto",
   "slug": "our-team/kiki",
@@ -170,8 +170,7 @@
       {
         "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/kiki#webpage",
         "@type": [
-          "ProfilePage",
-          "Person"
+          "ProfilePage"
         ],
         "name": "Kiki — JVTO Tour Guide",
         "description": "Kiki is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
@@ -179,6 +178,35 @@
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/kiki#person",
+        "@type": "Person",
+        "name": "Kiki",
+        "jobTitle": "guide",
+        "image": [
+          {
+            "@type": "ImageObject",
+            "url": "/uploads/1768271545598-834784538-kiki.png",
+            "caption": "JVTO guide Kiki"
+          }
+        ],
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "HPWKI membership credential KTA-G-2024-008",
+            "credentialCategory": "HPWKI membership credential (KTA)",
+            "recognizedBy": {
+              "@type": "Organization",
+              "name": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)"
+            },
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "KTA",
+              "value": "KTA-G-2024-008"
+            }
+          }
+        ]
       }
     ]
   },
