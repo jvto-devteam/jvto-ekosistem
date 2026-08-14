@@ -2,7 +2,7 @@
 route: "/policy"
 title: "JVTO Policy Hub"
 browserTitle: "Legal & Transparency"
-description: "JVTO publishes its booking, payment, cancellation, inclusions, and privacy terms in full — so you know exactly what you are buying, what the rules are if…"
+description: "Read 3 JVTO policies: booking/payment/cancellation, inclusions/exclusions, privacy. E-Voucher PDF is binding; Package Credit rules apply."
 section: "policy"
 status: "published"
 owner: "legal"
