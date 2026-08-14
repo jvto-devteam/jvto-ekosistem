@@ -1,5 +1,7 @@
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { composeGraph } from "./lib/schema-contract.mjs";
+import { buildOrganizationNode, ORG_ID } from "./lib/build-organization.mjs";
 
 const ROOT = process.cwd();
 const GENERATED_AT = new Date().toISOString();
@@ -78,8 +80,36 @@ function buildWebsiteOutput(source) {
   };
 }
 
-function buildSchemaOutput(source) {
+async function buildSchemaOutput(source) {
   const schemaTypes = source.meta?.schemaTypes?.length ? source.meta.schemaTypes : ["WebPage"];
+  const pageUrl = `https://javavolcano-touroperator.com${source.route}`;
+  const nodes = [];
+
+  const orgNode = await buildOrganizationNode(ROOT);
+  nodes.push(orgNode);
+
+  nodes.push({
+    "@id": `${pageUrl}#webpage`,
+    "@type": schemaTypes,
+    name: source.meta?.title || "",
+    description: source.meta?.description || "",
+    url: pageUrl,
+    isPartOf: { "@id": ORG_ID },
+  });
+
+  const faq = normalizeFaqForOutput(source.faq);
+  if (faq) {
+    nodes.push({
+      "@id": `${pageUrl}#faq`,
+      "@type": "FAQPage",
+      mainEntity: faq.payload.items.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: { "@type": "Answer", text: item.answer },
+      })),
+    });
+  }
+
   return {
     schema_version: "jvto/output/json-ld-page/v1",
     output_type: "json_ld_page",
@@ -87,13 +117,7 @@ function buildSchemaOutput(source) {
     route: source.route,
     domain: source.domain,
     slug: source.slug,
-    json_ld: {
-      "@context": "https://schema.org",
-      "@type": schemaTypes[0],
-      "name": source.meta?.title || "",
-      "description": source.meta?.description || "",
-      "url": `https://javavolcano-touroperator.com${source.route}`
-    },
+    json_ld: composeGraph(nodes),
     source_trace: source.source_trace
   };
 }
@@ -135,7 +159,7 @@ async function main() {
     const schemaOutputPath = `5-experience-engine/json-ld/pages/${base}.schema-output.json`;
 
     await writeFile(path.join(ROOT, websiteOutputPath), `${JSON.stringify(buildWebsiteOutput(source), null, 2)}\n`);
-    await writeFile(path.join(ROOT, schemaOutputPath), `${JSON.stringify(buildSchemaOutput(source), null, 2)}\n`);
+    await writeFile(path.join(ROOT, schemaOutputPath), `${JSON.stringify(await buildSchemaOutput(source), null, 2)}\n`);
 
     routeIndex.push({
       route: source.route,
