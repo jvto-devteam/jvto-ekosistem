@@ -41,6 +41,10 @@ function credentialToSchema(credential) {
   };
 }
 
+function isRatingValid(rating) {
+  return Boolean(rating) && Number(rating.reviewCount) >= 1 && Number(rating.ratingValue) > 0;
+}
+
 function subjectToSchema(subject) {
   return {
     "@type": subject.type,
@@ -100,6 +104,17 @@ export async function buildOrganizationNode(root) {
       : {}),
     ...(data.subjectOf?.length ? { subjectOf: data.subjectOf.map(subjectToSchema) } : {}),
     ...(data.hasCredential?.length ? { hasCredential: data.hasCredential.map(credentialToSchema) } : {}),
+    ...(isRatingValid(data.aggregateRating)
+      ? {
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: data.aggregateRating.ratingValue,
+            reviewCount: data.aggregateRating.reviewCount,
+            bestRating: data.aggregateRating.bestRating,
+            worstRating: data.aggregateRating.worstRating,
+          },
+        }
+      : {}),
   };
 
   return node;

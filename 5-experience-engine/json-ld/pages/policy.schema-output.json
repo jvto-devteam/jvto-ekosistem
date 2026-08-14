@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-14T09:06:41.716Z",
+  "generated_at": "2026-08-14T23:20:40.998Z",
   "route": "/policy",
   "domain": "policy",
   "slug": "index",
@@ -165,7 +165,14 @@
               "value": "ca1fb1a48b550a7748d400f165899f12a356e6941aacdde9c043427698aaf63b"
             }
           }
-        ]
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4.9,
+          "reviewCount": 149,
+          "bestRating": 5,
+          "worstRating": 1
+        }
       },
       {
         "@id": "https://javavolcano-touroperator.com/policy#webpage",
@@ -173,7 +180,7 @@
           "CollectionPage"
         ],
         "name": "JVTO Policy Hub",
-        "description": "JVTO publishes its booking, payment, cancellation, inclusions, and privacy terms in full — so you know exactly what you are buying, what the rules are if…",
+        "description": "Read 3 JVTO policies: booking/payment/cancellation, inclusions/exclusions, privacy. E-Voucher PDF is binding; Package Credit rules apply.",
         "url": "https://javavolcano-touroperator.com/policy",
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"

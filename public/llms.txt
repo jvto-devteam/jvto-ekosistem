@@ -29,7 +29,7 @@ Do not hand-edit public/llms.txt; edit the source files and run npm run render:l
 ## Public Review Aggregate (2026-08-07)
 - **Aggregate rating**: 4.9 / 5 across Trustpilot, Google Maps, and TripAdvisor source profiles.
 - **Trustpilot**: 4.8 / 5, 51 reviews, verified 2026-05-09. https://trustpilot.com/review/javavolcano-touroperator.com
-- **Google Maps**: 4.9 / 5, 147 reviews, verified 2026-08-07. https://www.google.com/maps?cid=1266403973589689021
+- **Google Maps**: 4.9 / 5, 149 reviews, verified 2026-08-15. https://www.google.com/maps?cid=1266403973589689021
 - **TripAdvisor**: 4.95 / 5, 21 reviews, verified 2026-04-22. https://www.tripadvisor.com/Attraction_Review-g297715-d19983165-Reviews-Java_Volcano_Tour_Operator-Surabaya_East_Java_Java.html
 - **GetYourGuide**: rating not asserted, review count not asserted. https://www.getyourguide.com/java-volcano-tour-operator-s260697/
 
@@ -57,4 +57,4 @@ Do not hand-edit public/llms.txt; edit the source files and run npm run render:l
 - [JVTO Policy Hub](https://javavolcano-touroperator.com/policy): Navigation hub for the JVTO policy documents: privacy, booking/payment/cancellation, and inclusions/exclusions.
 
 ---
-Compiled 2026-08-14T09:16:31.961Z from 34 knowledge-feed records. Feed generated 2026-08-14T09:06:41.716Z.
+Compiled 2026-08-14T23:21:31.619Z from 34 knowledge-feed records. Feed generated 2026-08-14T23:20:40.998Z.
