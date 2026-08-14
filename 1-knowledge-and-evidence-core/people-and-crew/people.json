@@ -14,13 +14,64 @@
         "Bripka Agung Sambuko"
       ],
       "relationship": "leadership",
-      "roles": [
-        "Founder",
-        "Operations & Safety Leadership"
-      ],
-      "background": "Active Indonesian Tourist Police officer (Direktorat Pengamanan Objek Vital — Ditpamobvit, East Java) and founder of PT Java Volcano Rendezvous; JVTO's operations and safety model is built around this role.",
-      "memberOf": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)",
-      "namingRule": "legal → Agung Sambuko · guest-facing → Mr. Sam · press/police → Bripka Agung Sambuko",
+    "roles": [
+      "Founder",
+      "Operations & Safety Leadership"
+    ],
+    "jobTitle": [
+      "Founder",
+      "Active Tourist Police Officer"
+    ],
+    "background": "Active Indonesian Tourist Police officer (Direktorat Pengamanan Objek Vital — Ditpamobvit, East Java) and founder of PT Java Volcano Rendezvous; JVTO's operations and safety model is built around this role.",
+    "memberOf": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)",
+    "image": [
+      {
+        "url": "https://javavolcano-touroperator.com/founder/agung_sambuko.jpg",
+        "caption": "Agung Sambuko, Founder of Java Volcano Tour Operator"
+      },
+      {
+        "url": "https://javavolcano-touroperator.com/founder/mr-sam-tourist-police-portrait.png",
+        "caption": "Agung Sambuko (Bripka) in official Tourist Police uniform, Bondowoso"
+      }
+    ],
+    "sameAs": [
+      "https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin"
+    ],
+    "knowsAbout": [
+      "East Java Volcano Tourism Safety",
+      "Ijen Crater Operations and BBKSDA Regulations",
+      "Mount Bromo Tourist Access Management",
+      "Indonesian Tourist Police Protocols",
+      "HPWKI Volcanic Safety Standards",
+      "SE.1658/KSA.9/2024 — Ijen Health Certificate Regulation"
+    ],
+    "hasCredential": [
+      {
+        "name": "SPRIN POLPAR (Tourist Police Assignment Letter)",
+        "credentialCategory": "Law Enforcement — Tourist Police Assignment",
+        "sha256": "03c8578dc22956faa366d957badecfe38868d4760359cd8059fb2d6b145dfeab",
+        "documentUrl": "https://javavolcano-touroperator.com/legal/SPRIN-POLPAR.pdf",
+        "recognizedBy": "Indonesian National Police (POLRI)"
+      },
+      {
+        "name": "SPRIN WAL-TRAVEL (Active Travel Order, February 2024)",
+        "dateIssued": "2024-02-12",
+        "credentialCategory": "Law Enforcement — Active Travel Authorization",
+        "sha256": "179b061eae558943fdccc51d2ea3c8233a704b61f03ca3d212433f3e8d6f3bd3",
+        "documentUrl": "https://javavolcano-touroperator.com/legal/SPRIN-WAL-TRAVEL-2024-02-12.webp",
+        "recognizedBy": "Indonesian National Police (POLRI)"
+      }
+    ],
+    "subjectOf": [
+      {
+        "type": "NewsArticle",
+        "headline": "Suka Duka Polisi Pariwisata Bondowoso: Tegakkan Prokes Sambil Lawan Dingin",
+        "datePublished": "2021-03-14",
+        "url": "https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin",
+        "publisherName": "Detik.com"
+      }
+    ],
+    "namingRule": "legal → Agung Sambuko · guest-facing → Mr. Sam · press/police → Bripka Agung Sambuko",
       "evidence": {
         "policeVerification": "SPRIN POLPAR + SPRIN WAL-TRAVEL 2024; independent press (Detik.com 2021-03-14, Radar Jember 2021)"
       },
@@ -47,6 +98,28 @@
       ],
       "lastVerified": "2026-08-01"
     },
+    "clinic": {
+      "name": "Klinik Bakti Husada",
+      "medicalSpecialty": "General Practice",
+      "addressLocality": "Bondowoso",
+      "addressRegion": "Jawa Timur",
+      "addressCountry": "ID",
+      "description": "Ministry of Health-licensed clinic coordinating Ijen health screening for JVTO guests. Issues health certificates compliant with BBKSDA SE.1658/KSA.9/2024."
+    },
+    "hasCredential": [
+      {
+        "name": "SIP (Surat Izin Praktik) — Medical Practice Licence",
+        "credentialCategory": "Indonesian Medical Practice Licence",
+        "verifyUrl": "https://satusehat.kemkes.go.id/sdmk/nakes/QN00001073380217",
+        "recognizedBy": "Kementerian Kesehatan Republik Indonesia (Ministry of Health)"
+      },
+      {
+        "name": "KKI Registration (Konsil Kedokteran Indonesia)",
+        "credentialCategory": "Indonesian Medical Council Registration",
+        "verifyUrl": "https://kki.go.id/cekdokter/form",
+        "recognizedBy": "Konsil Kedokteran Indonesia (Indonesian Medical Council)"
+      }
+    ],
     "claimBoundary": "License validity is evidenced. Do not assert private-practice marketing details and do not certify individual guest screening certificates. The screening requirement is set by the conservation authority (BBKSDA), not by JVTO or this doctor.",
     "countsAsCrew": false
   },

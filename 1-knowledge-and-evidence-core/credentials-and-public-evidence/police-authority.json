@@ -1,0 +1,13 @@
+{
+  "_comment": "Structured source for the GovernmentService schema node - NOT the page content (see verify-jvto-pages/police-safety.json for that). Values verified against SPRIN POLPAR / SPRIN WAL-TRAVEL documents, same SHA-256 anchors as people.json leadership[0].hasCredential.",
+  "name": "Tourist Police Authority — Ditpamobvit Assignment",
+  "description": "JVTO's founder holds an active Tourist Police (Ditpamobvit) commission from the Indonesian National Police, evidenced by SPRIN POLPAR and SPRIN WAL-TRAVEL assignment orders.",
+  "provider": {
+    "name": "Direktorat Pengamanan Objek Vital (Ditpamobvit) — Indonesian National Police",
+    "url": "https://polri.go.id"
+  },
+  "areaServed": "East Java, Indonesia",
+  "lastReviewed": "2026-08-07",
+  "owner": "public-evidence",
+  "reviewStatus": "domain-owner-assigned-by-audit"
+}
