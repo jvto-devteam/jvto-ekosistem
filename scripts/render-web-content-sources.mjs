@@ -50,11 +50,35 @@ async function cleanGeneratedOutputs() {
   }
 }
 
+function collectFaqItems(faq) {
+  const directItems = Array.isArray(faq?.payload?.items) ? faq.payload.items : [];
+  const sectionItems = Array.isArray(faq?.payload?.sections)
+    ? faq.payload.sections.flatMap((section) =>
+        Array.isArray(section?.blocks)
+          ? section.blocks.flatMap((block) =>
+              block?.role === "faq-list" && Array.isArray(block.items) ? block.items : []
+            )
+          : []
+      )
+    : [];
+
+  return [...directItems, ...sectionItems]
+    .filter((item) => item?.question && item?.answer)
+    .map((item) => ({
+      question: String(item.question),
+      answer: String(item.answer),
+    }));
+}
+
 function normalizeFaqForOutput(faq) {
-  if (!faq || !Array.isArray(faq.payload?.items) || faq.payload.items.length === 0) {
+  const items = collectFaqItems(faq);
+  if (!faq || items.length === 0) {
     return null;
   }
-  return faq;
+  return {
+    ...faq,
+    payload: { items },
+  };
 }
 
 function isRatingValid(rating) {
@@ -96,7 +120,7 @@ function buildWebsiteOutput(source) {
 
 async function buildSchemaOutput(source) {
   const schemaTypes = source.meta?.schemaTypes?.length ? source.meta.schemaTypes : ["WebPage"];
-  const pageSchemaTypes = schemaTypes.filter((type) => type !== "Person");
+  const pageSchemaTypes = schemaTypes.filter((type) => type !== "Person" && type !== "FAQPage");
   const pageUrl = `https://javavolcano-touroperator.com${source.route}`;
   const nodes = [];
 

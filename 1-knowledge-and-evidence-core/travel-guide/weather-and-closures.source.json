@@ -13,7 +13,7 @@
     "route": "/travel-guide/weather-and-closures",
     "title": "Weather, Volcano Alerts & Closures",
     "browserTitle": "Weather, Volcano Alerts & Closures – How JVTO Handles Changes",
-    "description": "How JVTO handles weather, volcano alerts and closures. Blue Fire and sunrise are natural phenomena and cannot be guaranteed; guides assess conditions daily and may delay or reroute for safety.",
+    "description": "How JVTO handles weather, volcano alerts, closures, reroutes, and Package Credit when Bromo, Ijen, or Tumpak Sewu conditions change.",
     "section": "travel-guide",
     "status": "published",
     "owner": "operations",
@@ -26,7 +26,7 @@
   },
   "seo": {
     "title": "Weather, Volcano Alerts & Closures – How JVTO Handles Changes",
-    "description": "How JVTO handles weather, volcano alerts and closures. Blue Fire and sunrise are natural phenomena and cannot be guaranteed; guides assess conditions daily and may delay or reroute for safety.",
+    "description": "How JVTO handles weather, volcano alerts, closures, reroutes, and Package Credit when Bromo, Ijen, or Tumpak Sewu conditions change.",
     "canonicalRoute": "/travel-guide/weather-and-closures",
     "schemaTypes": [
       "WebPage"

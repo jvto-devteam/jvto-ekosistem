@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-14T04:19:13.997Z",
+  "generated_at": "2026-08-14T08:56:59.998Z",
   "route": "/travel-guide/mount-bromo-logistics",
   "domain": "travel-guide",
   "slug": "mount-bromo-logistics",
@@ -174,7 +174,7 @@
           "Article"
         ],
         "name": "Mount Bromo Logistics",
-        "description": "Complete operational logistics for Mount Bromo sunrise tours: 03:00 AM departure protocol, private 4x4 jeep (max 4 pax), King Kong Hill and Penanjakan viewpoints, 250-step crater rim walk, and PVMBG volcanic monitoring. JVTO private tours include all park fees.",
+        "description": "Mount Bromo logistics for JVTO private tours: 03:00 jeep start, sunrise viewpoints, crater steps, park fees, timing, and safety notes.",
         "url": "https://javavolcano-touroperator.com/travel-guide/mount-bromo-logistics",
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"

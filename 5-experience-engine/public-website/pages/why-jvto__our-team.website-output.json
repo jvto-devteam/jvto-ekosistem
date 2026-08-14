@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T04:19:13.997Z",
+  "generated_at": "2026-08-14T08:56:59.998Z",
   "route": "/why-jvto/our-team",
   "domain": "why-jvto",
   "slug": "our-team",
@@ -268,7 +268,6 @@
     "faq": {
       "key": "why-jvto-our-team",
       "payload": {
-        "key": "why-jvto-our-team",
         "items": [
           {
             "question": "How many crew members does JVTO have?",
@@ -290,10 +289,7 @@
             "question": "Can I request a specific guide or driver?",
             "answer": "You can mention a preference when booking via official channels. Crew assignment depends on availability and route requirements. Contact us at WhatsApp +6282244788833 or hello@javavolcano-touroperator.com."
           }
-        ],
-        "lastReviewed": "2026-08-07",
-        "owner": "knowledge-faq",
-        "reviewStatus": "domain-owner-assigned-by-audit"
+        ]
       }
     }
   },

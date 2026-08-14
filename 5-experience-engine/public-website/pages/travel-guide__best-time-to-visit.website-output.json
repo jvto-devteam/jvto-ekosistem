@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T04:19:13.997Z",
+  "generated_at": "2026-08-14T08:56:59.998Z",
   "route": "/travel-guide/best-time-to-visit",
   "domain": "travel-guide",
   "slug": "best-time-to-visit",
@@ -226,7 +226,6 @@
     "faq": {
       "key": "travel-guide-best-time-to-visit",
       "payload": {
-        "key": "travel-guide-best-time-to-visit",
         "items": [
           {
             "question": "What is the best time to visit Mount Bromo?",
@@ -260,10 +259,7 @@
             "question": "What is the best single month to visit all three destinations?",
             "answer": "May or September offer the best combination: dry-season conditions for Bromo and Ijen, decent Tumpak Sewu flow (not peak, but still strong), and significantly fewer crowds than July–August. May and September also tend to have lower accommodation rates. If Tumpak Sewu waterfall volume is your priority over everything else, March or April (late wet season) is the better choice — but expect wet trail conditions and pack accordingly."
           }
-        ],
-        "lastReviewed": "2026-08-07",
-        "owner": "knowledge-faq",
-        "reviewStatus": "domain-owner-assigned-by-audit"
+        ]
       }
     }
   },

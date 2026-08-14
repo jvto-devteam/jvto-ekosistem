@@ -1,14 +1,14 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T04:19:13.997Z",
+  "generated_at": "2026-08-14T08:56:59.998Z",
   "route": "/travel-guide/weather-and-closures",
   "domain": "travel-guide",
   "slug": "weather-and-closures",
   "status": "published",
   "seo": {
     "title": "Weather, Volcano Alerts & Closures – How JVTO Handles Changes",
-    "description": "How JVTO handles weather, volcano alerts and closures. Blue Fire and sunrise are natural phenomena and cannot be guaranteed; guides assess conditions daily and may delay or reroute for safety.",
+    "description": "How JVTO handles weather, volcano alerts, closures, reroutes, and Package Credit when Bromo, Ijen, or Tumpak Sewu conditions change.",
     "canonicalRoute": "/travel-guide/weather-and-closures",
     "schemaTypes": [
       "WebPage"
@@ -43,7 +43,6 @@
     "faq": {
       "key": "travel-guide-weather-and-closures",
       "payload": {
-        "key": "travel-guide-weather-and-closures",
         "items": [
           {
             "question": "Why can plans change?",
@@ -51,8 +50,7 @@
           },
           {
             "question": "Can blue fire or sunrise views be guaranteed?",
-            "answer": "No. Visibility is natural-condition dependent and cannot be guaranteed. JVTO prioritizes safety and legal access.",
-            "note": "drift-ok: canonical negation — quotes the forbidden phrase in question form; the answer is 'No' (facts-lock compliant)"
+            "answer": "No. Visibility is natural-condition dependent and cannot be guaranteed. JVTO prioritizes safety and legal access."
           },
           {
             "question": "If a destination closes, what happens?",
@@ -66,10 +64,7 @@
             "question": "What is the binding reference if there is a discrepancy?",
             "answer": "Your Official E-Voucher / Invoice (PDF) and the policy pages take precedence over non-binding summaries."
           }
-        ],
-        "lastReviewed": "2026-08-07",
-        "owner": "knowledge-faq",
-        "reviewStatus": "domain-owner-assigned-by-audit"
+        ]
       }
     }
   },

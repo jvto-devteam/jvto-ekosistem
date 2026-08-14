@@ -1,14 +1,14 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T04:19:13.997Z",
+  "generated_at": "2026-08-14T08:56:59.998Z",
   "route": "/travel-guide/rijik-monthly-closure",
   "domain": "travel-guide",
   "slug": "rijik-monthly-closure",
   "status": "published",
   "seo": {
     "title": "Ijen Rijik: The Monthly Closure Day at Kawah Ijen | JVTO",
-    "description": "TWA Ijen closes to all visitors on the first Friday of every month, since March 2019, for \"Rijik\" — a volunteer cleanup that removes an estimated 100–150 kg of trash from the crater. JVTO schedules every Ijen-inclusive itinerary around it.",
+    "description": "Ijen closes on the first Friday of every month for Rijik cleanup. See how JVTO schedules Ijen-inclusive tours around this closure.",
     "canonicalRoute": "/travel-guide/rijik-monthly-closure",
     "schemaTypes": [
       "WebPage"
@@ -27,7 +27,7 @@
           "route": "/travel-guide/rijik-monthly-closure",
           "title": "Ijen Rijik: The Monthly Closure Day at Kawah Ijen",
           "browserTitle": "Ijen Rijik: The Monthly Closure Day at Kawah Ijen | JVTO",
-          "description": "TWA Ijen closes to all visitors on the first Friday of every month, since March 2019, for \"Rijik\" — a volunteer cleanup that removes an estimated 100–150 kg of trash from the crater. JVTO schedules every Ijen-inclusive itinerary around it.",
+          "description": "Ijen closes on the first Friday of every month for Rijik cleanup. See how JVTO schedules Ijen-inclusive tours around this closure.",
           "section": "travel-guide",
           "status": "published",
           "owner": "operations",
@@ -67,7 +67,6 @@
     "faq": {
       "key": "travel-guide-rijik-monthly-closure",
       "payload": {
-        "key": "travel-guide-rijik-monthly-closure",
         "items": [
           {
             "question": "Why does Kawah Ijen close on the first Friday of every month?",
@@ -89,10 +88,7 @@
             "question": "When did the Ijen Rijik cleanup program start?",
             "answer": "The program has run since March 2019, with TWA Ijen closing to visitors on the first Friday of every month for the cleanup. JVTO has scheduled guest itineraries around this fixed closure day for the same period."
           }
-        ],
-        "lastReviewed": "2026-08-07",
-        "owner": "knowledge-faq",
-        "reviewStatus": "domain-owner-assigned-by-audit"
+        ]
       }
     }
   },

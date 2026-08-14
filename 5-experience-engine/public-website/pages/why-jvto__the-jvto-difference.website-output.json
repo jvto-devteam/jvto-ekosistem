@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T04:19:13.997Z",
+  "generated_at": "2026-08-14T08:56:59.998Z",
   "route": "/why-jvto/the-jvto-difference",
   "domain": "why-jvto",
   "slug": "the-jvto-difference",
@@ -133,7 +133,6 @@
     "faq": {
       "key": "why-jvto-the-jvto-difference",
       "payload": {
-        "key": "why-jvto-the-jvto-difference",
         "items": [
           {
             "question": "Who leads JVTO operations?",
@@ -149,17 +148,13 @@
           },
           {
             "question": "Does JVTO guarantee volcano phenomena like blue fire?",
-            "answer": "No. Natural phenomena depend on conditions and cannot be guaranteed. What JVTO offers is disciplined planning and honest communication when the situation changes.",
-            "note": "drift-ok: canonical negation — quotes the forbidden phrase in question form; the answer is 'No' (facts-lock compliant)"
+            "answer": "No. Natural phenomena depend on conditions and cannot be guaranteed. What JVTO offers is disciplined planning and honest communication when the situation changes."
           },
           {
             "question": "Where are the binding terms for my booking?",
             "answer": "Binding terms are in your Official E-Voucher / Invoice (PDF) and the policy pages at /policy. Website content is informational only."
           }
-        ],
-        "lastReviewed": "2026-08-07",
-        "owner": "knowledge-faq",
-        "reviewStatus": "domain-owner-assigned-by-audit"
+        ]
       }
     }
   },

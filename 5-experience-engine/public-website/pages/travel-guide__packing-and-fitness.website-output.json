@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T04:19:13.997Z",
+  "generated_at": "2026-08-14T08:56:59.998Z",
   "route": "/travel-guide/packing-and-fitness",
   "domain": "travel-guide",
   "slug": "packing-and-fitness",
@@ -43,7 +43,6 @@
     "faq": {
       "key": "travel-guide-packing-and-fitness",
       "payload": {
-        "key": "travel-guide-packing-and-fitness",
         "items": [
           {
             "question": "How fit do I need to be?",
@@ -65,10 +64,7 @@
             "question": "What overrides general packing advice?",
             "answer": "Operational instructions on your voucher and on-site safety decisions override general guidance if conditions change."
           }
-        ],
-        "lastReviewed": "2026-08-07",
-        "owner": "knowledge-faq",
-        "reviewStatus": "domain-owner-assigned-by-audit"
+        ]
       }
     }
   },

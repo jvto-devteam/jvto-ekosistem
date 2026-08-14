@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T04:19:13.997Z",
+  "generated_at": "2026-08-14T08:56:59.998Z",
   "route": "/travel-guide",
   "domain": "travel-guide",
   "slug": "index",
@@ -42,7 +42,6 @@
     "faq": {
       "key": "travel-guide-index",
       "payload": {
-        "key": "travel-guide-index",
         "items": [
           {
             "question": "What is the Travel Guide for?",
@@ -64,10 +63,7 @@
             "question": "What should I do close to departure?",
             "answer": "Re-check /travel-guide/packing-and-fitness and /travel-guide/weather-and-closures. If you are unsure how a rule applies, verify via official channels before travel."
           }
-        ],
-        "lastReviewed": "2026-08-13",
-        "owner": "operations",
-        "reviewStatus": "live-parity-source"
+        ]
       }
     }
   },

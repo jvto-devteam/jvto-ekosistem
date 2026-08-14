@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T04:19:13.997Z",
+  "generated_at": "2026-08-14T08:56:59.998Z",
   "route": "/why-jvto/our-story",
   "domain": "why-jvto",
   "slug": "our-story",
@@ -102,7 +102,6 @@
     "faq": {
       "key": "why-jvto-our-story",
       "payload": {
-        "key": "why-jvto-our-story",
         "items": [
           {
             "question": "When did JVTO start operating?",
@@ -124,10 +123,7 @@
             "question": "How does operational history relate to trust?",
             "answer": "Time on the ground usually means fewer surprises, stronger local relationships, and calmer handling of real-world issues. The artifacts allow you to audit the history independently."
           }
-        ],
-        "lastReviewed": "2026-08-07",
-        "owner": "knowledge-faq",
-        "reviewStatus": "domain-owner-assigned-by-audit"
+        ]
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T04:19:13.997Z",
+  "generated_at": "2026-08-14T08:56:59.998Z",
   "route": "/why-jvto",
   "domain": "why-jvto",
   "slug": "index",
@@ -454,7 +454,6 @@
     "faq": {
       "key": "why-jvto-hub",
       "payload": {
-        "key": "why-jvto-hub",
         "items": [
           {
             "question": "Do you mix strangers into one car?",
@@ -476,10 +475,7 @@
             "question": "How do you handle personal data?",
             "answer": "Privacy policy: /policy/privacy"
           }
-        ],
-        "lastReviewed": "2026-08-07",
-        "owner": "knowledge-faq",
-        "reviewStatus": "domain-owner-assigned-by-audit"
+        ]
       }
     }
   },

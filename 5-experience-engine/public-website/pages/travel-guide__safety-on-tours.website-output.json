@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T04:19:13.997Z",
+  "generated_at": "2026-08-14T08:56:59.998Z",
   "route": "/travel-guide/safety-on-tours",
   "domain": "travel-guide",
   "slug": "safety-on-tours",
@@ -43,7 +43,6 @@
     "faq": {
       "key": "travel-guide-safety-on-tours",
       "payload": {
-        "key": "travel-guide-safety-on-tours",
         "items": [
           {
             "question": "What is JVTO’s safety principle?",
@@ -65,10 +64,7 @@
             "question": "What if something differs from the website text?",
             "answer": "Binding terms follow your Official E-Voucher / Invoice (PDF) and the policy pages, per the precedence order stated in the policy pack."
           }
-        ],
-        "lastReviewed": "2026-08-07",
-        "owner": "knowledge-faq",
-        "reviewStatus": "domain-owner-assigned-by-audit"
+        ]
       }
     }
   },
