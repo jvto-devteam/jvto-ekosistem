@@ -250,6 +250,23 @@ async function handleWebsiteRoutes(res) {
   }
 }
 
+async function handleLlmsTxt(res) {
+  const { absolute } = safeResolve("public/llms.txt");
+  try {
+    const content = await readFile(absolute, "utf8");
+    send(res, 200, content, {
+      "content-type": "text/plain; charset=utf-8",
+      "cache-control": "public, max-age=0, s-maxage=60, stale-while-revalidate=60"
+    });
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      sendJson(res, 404, { error: "llms.txt has not been generated. Run npm run render:llms first." });
+      return;
+    }
+    throw error;
+  }
+}
+
 async function handlePublicAsset(url, res) {
   const isAdminPath = url.pathname === "/admin" || url.pathname.startsWith("/admin/");
   const isUploadPath = url.pathname.startsWith("/uploads/");
@@ -750,6 +767,10 @@ const server = createServer(async (req, res) => {
     }
     if (url.pathname === "/api/schema/page") {
       await handleSchemaPage(req, res);
+      return;
+    }
+    if (url.pathname === "/llms.txt") {
+      await handleLlmsTxt(res);
       return;
     }
     if (url.pathname === "/health") {
