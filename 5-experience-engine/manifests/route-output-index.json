@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T01:19:37.274Z",
+  "generated_at": "2026-08-14T04:19:13.997Z",
   "routes": [
     {
       "route": "/policy",
@@ -77,13 +77,6 @@
       "slug": "packing-and-fitness",
       "websiteOutput": "5-experience-engine/public-website/pages/travel-guide__packing-and-fitness.website-output.json",
       "schemaOutput": "5-experience-engine/json-ld/pages/travel-guide__packing-and-fitness.schema-output.json"
-    },
-    {
-      "route": "/travel-guide/packing-list",
-      "domain": "travel-guide",
-      "slug": "packing-list",
-      "websiteOutput": "5-experience-engine/public-website/pages/travel-guide__packing-list.website-output.json",
-      "schemaOutput": "5-experience-engine/json-ld/pages/travel-guide__packing-list.schema-output.json"
     },
     {
       "route": "/travel-guide/police-escort-for-groups",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T01:19:37.274Z",
+  "generated_at": "2026-08-14T04:19:13.997Z",
   "mappings": [
     {
       "source": "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/police-safety.source.json",
@@ -94,14 +94,6 @@
       "outputs": [
         "5-experience-engine/public-website/pages/travel-guide__packing-and-fitness.website-output.json",
         "5-experience-engine/json-ld/pages/travel-guide__packing-and-fitness.schema-output.json",
-        "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
-      ]
-    },
-    {
-      "source": "1-knowledge-and-evidence-core/travel-guide/packing-list.source.json",
-      "outputs": [
-        "5-experience-engine/public-website/pages/travel-guide__packing-list.website-output.json",
-        "5-experience-engine/json-ld/pages/travel-guide__packing-list.schema-output.json",
         "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
       ]
     },
