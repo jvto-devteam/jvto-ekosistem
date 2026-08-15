@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-15T07:58:45.564Z",
+  "generated_at": "2026-08-15T08:24:23.630Z",
   "routes": [
+    {
+      "route": "/blog/2026-06-11-ijen-medical-checkup-requirement",
+      "domain": "blog",
+      "slug": "ijen-medical-checkup-requirement",
+      "websiteOutput": "5-experience-engine/public-website/pages/blog__2026-06-11-ijen-medical-checkup-requirement.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/blog__2026-06-11-ijen-medical-checkup-requirement.schema-output.json"
+    },
+    {
+      "route": "/blog/2026-06-11-kawah-ijen-guide",
+      "domain": "blog",
+      "slug": "kawah-ijen-guide",
+      "websiteOutput": "5-experience-engine/public-website/pages/blog__2026-06-11-kawah-ijen-guide.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/blog__2026-06-11-kawah-ijen-guide.schema-output.json"
+    },
     {
       "route": "/markets/malaysia",
       "domain": "markets",
