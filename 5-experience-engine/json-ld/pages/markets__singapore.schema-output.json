@@ -2,9 +2,9 @@
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
   "generated_at": "2026-08-15T07:58:45.564Z",
-  "route": "/why-jvto/our-team/boy",
-  "domain": "why-jvto",
-  "slug": "our-team/boy",
+  "route": "/markets/singapore",
+  "domain": "markets",
+  "slug": "singapore",
   "json_ld": {
     "@context": "https://schema.org",
     "@graph": [
@@ -175,42 +175,67 @@
         }
       },
       {
-        "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/boy#webpage",
+        "@id": "https://javavolcano-touroperator.com/markets/singapore#webpage",
         "@type": [
-          "ProfilePage"
+          "WebPage"
         ],
-        "name": "Boy (Ahboy) — JVTO Tour Guide",
-        "description": "Boy (Ahboy) is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
-        "url": "https://javavolcano-touroperator.com/why-jvto/our-team/boy",
+        "name": "Bromo & Ijen Tours for Singapore Travelers | Private East Java Volcano Tours | JVTO",
+        "description": "Private Bromo, Ijen, Tumpak Sewu and Papuma tours for Singapore travelers. Start from Bali or Surabaya, pay in IDR, verify JVTO licenses and reviews.",
+        "url": "https://javavolcano-touroperator.com/markets/singapore",
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         }
       },
       {
-        "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/boy#person",
-        "@type": "Person",
-        "name": "Boy (Ahboy)",
-        "jobTitle": "guide",
-        "image": [
+        "@id": "https://javavolcano-touroperator.com/markets/singapore#faq",
+        "@type": "FAQPage",
+        "mainEntity": [
           {
-            "@type": "ImageObject",
-            "url": "/uploads/1768228191022-893381041-boy.png",
-            "caption": "JVTO senior Ijen guide Boy (Ahboy)"
-          }
-        ],
-        "hasCredential": [
+            "@type": "Question",
+            "name": "Can Singaporeans book a private Bromo and Ijen tour from Bali?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. JVTO runs private 3-day (3D2N) Bromo and Ijen tours that start and finish in Bali, as well as one-way Bali-to-Surabaya overland routes. Every tour is 100% private — your own air-conditioned vehicle, driver, and guide — with the Java–Bali ferry, park permits, Bromo 4WD jeep, and Ijen health-screening coordination included. No shared groups."
+            }
+          },
           {
-            "@type": "EducationalOccupationalCredential",
-            "name": "HPWKI membership credential KTA-G-2024-004",
-            "credentialCategory": "HPWKI membership credential (KTA)",
-            "recognizedBy": {
-              "@type": "Organization",
-              "name": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)"
-            },
-            "identifier": {
-              "@type": "PropertyValue",
-              "propertyID": "KTA",
-              "value": "KTA-G-2024-004"
+            "@type": "Question",
+            "name": "Should Singapore travelers start from Bali or Surabaya?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start from Bali (DPS) if your trip already includes a Bali holiday or your easiest flight is SIN–Denpasar — the overland volcano route then extends your Bali stay. Start from Surabaya (SUB) if you want the shortest land transfer to Bromo and a clean East-Java-only loop. Singapore has direct flights to both airports."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the Java–Bali ferry crossing arranged for me?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. On any route that crosses between Bali and Java, JVTO pre-arranges the ferry ticket and handles the vehicle crossing and driver handover, so you never queue or coordinate transfers yourself. It is written into your e-voucher before you pay."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do Singapore travelers pay JVTO safely?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "JVTO is a registered Indonesian company (PT Java Volcano Rendezvous, NIB 1102230032918) that confirms your package and IDR price in writing before any payment, then issues an official e-voucher / invoice PDF. JVTO never asks for your CVV, OTP, full card number, or banking password over chat. You can verify the company on Indonesian government registries before sending a deposit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will we definitely see the Ijen Blue Fire?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not always. Blue Fire is a natural phenomenon subject to weather and gas activity, visible pre-dawn in suitable conditions only — it can never be promised in advance. JVTO plans around the viewing window and follows every BBKSDA safety decision at the crater."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are JVTO tours private or shared?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Every JVTO tour is private. Your group has its own vehicle, driver, and guide from pickup to drop-off — you are never mixed into a join-in group. Singapore travelers who reviewed JVTO on Trustpilot specifically cited the safe, dedicated, personal service."
             }
           }
         ]
@@ -218,14 +243,11 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-12T07:57:49.134Z",
+    "generated_at": "2026-08-15T00:00:00.000Z",
     "source_files": [
-      "/Users/macbook/Code/jvto-web/content/entities/people.json",
-      "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
-      "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
-      "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
-      "https://javavolcano-touroperator.com/sitemap.xml"
+      "src/lib/marketContent.ts (jvto-web, pre-migration)",
+      "src/lib/marketFaqs.ts (jvto-web, pre-migration)"
     ],
-    "migration_note": "Created to align JVTO Operating Ecosystem source routes with the live jvto-web public Why JVTO crew detail pages. Personal phone fields from the team content source are intentionally excluded because the live detail page does not render them."
+    "migration_note": "Migrated from hardcoded TS constant, part of data-source consolidation."
   }
 }

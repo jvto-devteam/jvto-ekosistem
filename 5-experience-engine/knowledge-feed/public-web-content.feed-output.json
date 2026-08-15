@@ -1,9 +1,47 @@
 {
   "schema_version": "jvto/output/knowledge-feed/v1",
   "output_type": "public_web_content_feed",
-  "generated_at": "2026-08-15T01:55:06.731Z",
-  "record_count": 34,
+  "generated_at": "2026-08-15T07:58:45.564Z",
+  "record_count": 36,
   "records": [
+    {
+      "route": "/markets/malaysia",
+      "domain": "markets",
+      "slug": "malaysia",
+      "title": "Bromo & Ijen Tours for Malaysia Travelers | Private East Java Volcano Tours | JVTO",
+      "summary": "Geographic landing page for Malaysia travelers: entry routing (Bali vs Surabaya), comparable packages, logistics, trust signals, and reviews.",
+      "status": "published",
+      "owner": "growth",
+      "lastReviewed": "2026-08-15",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "src/lib/marketContent.ts (jvto-web, pre-migration)",
+        "src/lib/marketFaqs.ts (jvto-web, pre-migration)"
+      ]
+    },
+    {
+      "route": "/markets/singapore",
+      "domain": "markets",
+      "slug": "singapore",
+      "title": "Bromo & Ijen Tours for Singapore Travelers | Private East Java Volcano Tours | JVTO",
+      "summary": "Geographic landing page for Singapore travelers: entry routing (Bali vs Surabaya), comparable packages, logistics, trust signals, and reviews.",
+      "status": "published",
+      "owner": "growth",
+      "lastReviewed": "2026-08-15",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "src/lib/marketContent.ts (jvto-web, pre-migration)",
+        "src/lib/marketFaqs.ts (jvto-web, pre-migration)"
+      ]
+    },
     {
       "route": "/policy",
       "domain": "policy",

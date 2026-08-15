@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-15T01:55:06.731Z",
+  "generated_at": "2026-08-15T07:58:45.564Z",
   "routes": [
+    {
+      "route": "/markets/malaysia",
+      "domain": "markets",
+      "slug": "malaysia",
+      "websiteOutput": "5-experience-engine/public-website/pages/markets__malaysia.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/markets__malaysia.schema-output.json"
+    },
+    {
+      "route": "/markets/singapore",
+      "domain": "markets",
+      "slug": "singapore",
+      "websiteOutput": "5-experience-engine/public-website/pages/markets__singapore.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/markets__singapore.schema-output.json"
+    },
     {
       "route": "/policy",
       "domain": "policy",

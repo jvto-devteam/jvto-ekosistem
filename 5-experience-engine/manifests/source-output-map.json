@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-08-15T01:55:06.731Z",
+  "generated_at": "2026-08-15T07:58:45.564Z",
   "mappings": [
     {
       "source": "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/police-safety.source.json",
       "outputs": [
         "5-experience-engine/public-website/pages/verify-jvto__police-safety.website-output.json",
         "5-experience-engine/json-ld/pages/verify-jvto__police-safety.schema-output.json",
+        "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
+      ]
+    },
+    {
+      "source": "1-knowledge-and-evidence-core/markets/malaysia.source.json",
+      "outputs": [
+        "5-experience-engine/public-website/pages/markets__malaysia.website-output.json",
+        "5-experience-engine/json-ld/pages/markets__malaysia.schema-output.json",
+        "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
+      ]
+    },
+    {
+      "source": "1-knowledge-and-evidence-core/markets/singapore.source.json",
+      "outputs": [
+        "5-experience-engine/public-website/pages/markets__singapore.website-output.json",
+        "5-experience-engine/json-ld/pages/markets__singapore.schema-output.json",
         "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
       ]
     },
