@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-15T07:58:45.564Z",
+  "generated_at": "2026-08-15T11:47:42.434Z",
   "route": "/why-jvto",
   "domain": "why-jvto",
   "slug": "index",
@@ -40,7 +40,7 @@
         },
         "lede": [
           "Java Volcano Tour Operator (JVTO) is a registered Indonesian tour operator based in Bondowoso, East Java. We specialize in private volcano trips—Bromo, Ijen, and selected extensions.",
-          "JVTO is Tourist Police-led, NIB 1102230032918-registered, and 100% private: no shared groups, a documented Plan-B framework for volcanic closures, and credentials you can verify before you book.",
+          "Every tour is private with no shared groups, backed by a documented Plan-B framework for volcanic closures and credentials you can check before you book.",
           "If you want the practical rulebook (clear steps, what to bring, safety, payments), start with /travel-guide.",
           "For binding terms, use /policy/.",
           "Official channels: Website https://javavolcano-touroperator.com • WhatsApp +6282244788833 • Email hello@javavolcano-touroperator.com."
