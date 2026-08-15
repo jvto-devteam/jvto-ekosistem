@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T23:20:40.998Z",
+  "generated_at": "2026-08-15T01:45:25.438Z",
   "route": "/travel-guide/safety-on-tours",
   "domain": "travel-guide",
   "slug": "safety-on-tours",
@@ -17,6 +17,7 @@
   "page": {
     "title": "Safety on JVTO Tours",
     "summary": "How JVTO plans for safety on private volcano tours and what guests should know.",
+    "answerFirst": "JVTO's safety approach is written policy, not marketing: founder Agung Sambuko is a Tourist Police officer first, tour operator second, and every tour runs a documented Plan-B framework for volcanic closures plus a mandatory pre-hike safety briefing — guests are prepared for real conditions, not shielded from them.",
     "owner": "operations",
     "lastReviewed": "2026-08-04",
     "content": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T23:20:40.998Z",
+  "generated_at": "2026-08-15T01:45:25.438Z",
   "route": "/travel-guide/booking-information",
   "domain": "travel-guide",
   "slug": "booking-information",
@@ -17,6 +17,7 @@
   "page": {
     "title": "Booking Information – How JVTO Private Tours Work",
     "summary": "How JVTO private tour booking works: website-only booking, payments, changes, and Lifetime Package Credit.",
+    "answerFirst": "JVTO bookings happen only on javavolcano-touroperator.com, in five steps: choose route and dates, review price and add-ons, accept terms and pay a 20% deposit (up to 100% if Day 1 is within 14 days), then receive your Official E-Voucher PDF. Full legal terms: /policy/booking-payment-cancellation.",
     "owner": "operations",
     "lastReviewed": "2026-08-06",
     "content": {

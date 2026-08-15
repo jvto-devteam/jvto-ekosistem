@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T23:20:40.998Z",
+  "generated_at": "2026-08-15T01:45:25.438Z",
   "route": "/travel-guide/weather-and-closures",
   "domain": "travel-guide",
   "slug": "weather-and-closures",
@@ -17,6 +17,7 @@
   "page": {
     "title": "Weather, Volcano Alerts & Closures",
     "summary": "How weather, volcano alerts, and closures affect tours and how JVTO handles changes.",
+    "answerFirst": "Bromo sits inside Bromo Tengger Semeru National Park (BBTNBTS); when volcanic alert levels rise, park management or BNPB can close crater access, and JVTO follows those closures without exception via its documented Plan-B framework — alternative viewpoints or rescheduled timing, with guests briefed in advance.",
     "owner": "operations",
     "lastReviewed": "2026-08-04",
     "content": {

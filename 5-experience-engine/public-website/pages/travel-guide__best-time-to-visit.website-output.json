@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-14T23:20:40.998Z",
+  "generated_at": "2026-08-15T01:45:25.438Z",
   "route": "/travel-guide/best-time-to-visit",
   "domain": "travel-guide",
   "slug": "best-time-to-visit",
@@ -17,6 +17,7 @@
   "page": {
     "title": "Best Time to Visit East Java: Bromo, Ijen & Tumpak Sewu",
     "summary": "Month-by-month guide to the best time to visit Mount Bromo, Ijen blue fire, and Tumpak Sewu — the dry-season vs wet-season trade-offs for each destination.",
+    "answerFirst": "Dry season (May-October) gives the clearest Bromo sunrises and safest Ijen night hikes; wet season (November-April) peaks Tumpak Sewu's waterfall volume. May and September are the sweet spot — dry conditions with fewer crowds than the July-August peak. JVTO runs private tours to all three destinations year-round.",
     "owner": "operations",
     "lastReviewed": "2026-08-06",
     "content": {
