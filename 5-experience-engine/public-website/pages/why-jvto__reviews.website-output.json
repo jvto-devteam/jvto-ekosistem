@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-15T01:45:25.438Z",
+  "generated_at": "2026-08-15T01:55:06.731Z",
   "route": "/why-jvto/reviews",
   "domain": "why-jvto",
   "slug": "reviews",
@@ -38,7 +38,7 @@
           "summary": "Verified guest reviews across Trustpilot, Google Maps, and TripAdvisor with canonical counts."
         },
         "lede": [
-          "Reviews matter when they are independent. We link to official platform listings so you can judge patterns yourself.",
+          "JVTO's reviews: Trustpilot 4.8/5 (51 reviews), Google Maps 4.9/5 (149 reviews), TripAdvisor 4.95/5 (21 reviews) — we link to the official platform listings so you can judge patterns yourself, not a curated selection.",
           "JVTO cannot edit or delete reviews on these platforms.",
           "Official channels: Website https://javavolcano-touroperator.com • WhatsApp +6282244788833 • Email hello@javavolcano-touroperator.com."
         ],
