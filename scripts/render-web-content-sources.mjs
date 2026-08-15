@@ -108,6 +108,9 @@ function buildWebsiteOutput(source) {
       ...(source.meta?.answerFirst ? { answerFirst: source.meta.answerFirst } : {}),
       owner: source.meta?.owner || "",
       lastReviewed: source.meta?.lastReviewed || "",
+      ...(source.meta?.tags ? { tags: source.meta.tags } : {}),
+      ...(source.meta?.estimatedReadMin ? { estimated_read_min: source.meta.estimatedReadMin } : {}),
+      ...(source.meta?.bannerImage ? { banner_image: source.meta.bannerImage } : {}),
       content: source.content,
       faq: normalizeFaqForOutput(source.faq)
     },
