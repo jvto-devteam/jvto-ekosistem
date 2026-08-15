@@ -112,6 +112,7 @@ jobs:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
           NEXT_PUBLIC_TINA_BRANCH: main
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+          NODE_OPTIONS: --max-old-space-size=6144
         run: npm run cms:build
 
       - name: Verify generated route count
