@@ -18,11 +18,18 @@ Audit ini memeriksa parity antara live website `javavolcano-touroperator.com` da
 - Source live-code lokal `jvto-web`
 - Source/output lokal `jvto-ekosistem`
 
-Temporary crawl output disimpan selama audit di:
+Temporary crawl output disimpan selama audit di `tmp-live-audit/`
+(`routes.json`, `live-pages.json`, `comparison-report.json`, dan 34 berkas HTML).
 
-- `tmp-live-audit/routes.json`
-- `tmp-live-audit/live-pages.json`
-- `tmp-live-audit/comparison-report.json`
+**Dihapus 2026-08-15.** Isinya adalah scrape situs live — yang dirender oleh `jvto-web`
+dari Postgres, **bukan** oleh renderer repo ini. Karena `tmp-live-audit/pages/policy.html`
+berdampingan dengan `5-experience-engine/public-website/pages/policy.website-output.json`,
+penamaan rute yang nyaris sama di dua pohon berbeda membuat scrape itu terbaca sebagai
+keluaran renderer, dan menghasilkan kesimpulan yang salah tentang isi halaman. Angka-angka
+di dokumen ini tetap berlaku sebagai catatan per 2026-08-12.
+
+Untuk mengulang audit, crawl ulang ke direktori di luar repo. Jangan simpan scrape situs
+live di dalam pohon yang juga memuat keluaran renderer.
 
 ## Route Parity
 

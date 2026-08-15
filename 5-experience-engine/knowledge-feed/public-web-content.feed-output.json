@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/knowledge-feed/v1",
   "output_type": "public_web_content_feed",
-  "generated_at": "2026-08-15T12:33:40.709Z",
+  "generated_at": "2026-08-15T13:30:07.459Z",
   "record_count": 38,
   "records": [
     {
@@ -88,7 +88,7 @@
       "summary": "Hub for JVTO travel guidance: booking, safety, health screening, packing, weather and closures.",
       "status": "published",
       "owner": "operations",
-      "lastReviewed": "2026-08-04",
+      "lastReviewed": "2026-08-15",
       "outputTargets": [
         "public_website",
         "json_ld",
@@ -245,7 +245,7 @@
       "summary": "Why Kawah Ijen closes on the first Friday of every month (the Rijik conservation cleanup, since March 2019) and how JVTO schedules Ijen itineraries around it.",
       "status": "published",
       "owner": "operations",
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-15",
       "outputTargets": [
         "public_website",
         "json_ld",
