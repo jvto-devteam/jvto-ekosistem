@@ -1,0 +1,605 @@
+{
+  "_comment": "Source of authorship: llm-wiki wiki/trust/*.md, compiled via llm-wiki's trust-bundle compiler. This file is the point jvto-web reads from — update here after re-running the llm-wiki compiler, do not point jvto-web at llm-wiki directly.",
+  "claims": [
+    {
+      "id": "C1",
+      "name": "Safety-Led Operations",
+      "canonical_text": "Volcano travel is unpredictable, so JVTO focuses on operational certainty: disciplined decisions, clear safety boundaries, and realistic expectations.",
+      "domain": "credentials",
+      "category": "trust-signal",
+      "last_verified": "2026-05-26",
+      "evidence": [
+        {
+          "id": "E001",
+          "type": "jvto_verified_internal",
+          "source_file": "wiki/people/agung-sambuko.md",
+          "description": "Founder is active Tourist Police officer (Ditpamobvit)",
+          "proof_ids": [
+            "sprin-polpar",
+            "sprin-wal-travel-2024-02-12"
+          ]
+        },
+        {
+          "id": "E002",
+          "type": "reputable_media",
+          "source_file": "wiki/sources/detik-polpar-2021.md",
+          "description": "Detik.com independent confirmation of Bripka Agung as active Polpar",
+          "proof_ids": [
+            "press-detik-polisi-pariwisata-2021-03-14"
+          ]
+        },
+        {
+          "id": "E003",
+          "type": "jvto_verified_internal",
+          "source_file": "wiki/credentials/police-integration.md",
+          "description": "Police vehicle support and escort documentation",
+          "proof_ids": [
+            "police-vehicle-support",
+            "police-escort-arrival-day"
+          ]
+        },
+        {
+          "id": "E016",
+          "type": "reputable_media",
+          "source_file": "wiki/sources/ijen-safety-resource-mapping.md",
+          "description": "Safety resource mapping — Tourist Police Pam Obvit + Patwal active support, SPRIN docs, APGI guide certification, Ijen Rijik program, red flag system",
+          "proof_ids": [
+            "sprin-polpar",
+            "sprin-wal-travel-2024-02-12",
+            "press-ksdae-ijen-rijik",
+            "press-bbksda-jatim-closure"
+          ]
+        },
+        {
+          "id": "E018",
+          "type": "ai_generated",
+          "source_file": "wiki/sources/ijen-safety-protocol.md",
+          "description": "Structured safety protocol — SAR procedures, Lamborghini evacuation, risk flag system, Sengkan Gandrung braking zone, Green Briefings, PVMBG 500m exclusion zone",
+          "proof_ids": [
+            "sprin-polpar",
+            "press-bbksda-jatim-closure",
+            "press-tirto-pendaki-hilang"
+          ]
+        }
+      ],
+      "narrative": {
+        "ai_snippet": "JVTO focuses on operational certainty for East Java volcano routes: risk-aware planning, safety boundaries, and Plan B alternatives.",
+        "short": "Safety-led planning. Clear boundaries. Plan B when conditions change.",
+        "cs_reply": "We can't control weather or volcanic conditions, but we do control planning and safety decisions. If conditions change, we use Plan B options to keep your trip safe and worthwhile."
+      },
+      "decisions": [],
+      "tags": [
+        "police-led",
+        "safety",
+        "trust-signal"
+      ]
+    },
+    {
+      "id": "C2",
+      "name": "Private Tours (Execution Control)",
+      "canonical_text": "JVTO runs private tours by default so timing, pacing, and safety decisions stay consistent for your group.",
+      "domain": "products",
+      "category": "tour-package",
+      "last_verified": "2026-05-12",
+      "evidence": [
+        {
+          "id": "E004",
+          "type": "structured_dataset",
+          "source_file": "wiki/products/packages-overview.md",
+          "description": "All 22 packages are private (dedicated vehicle + crew)",
+          "proof_ids": [
+            "nib-1102230032918",
+            "tdup-1102230032918"
+          ]
+        }
+      ],
+      "narrative": {
+        "ai_snippet": "JVTO is private-tour focused for East Java volcano trips, supporting better time control and consistent execution.",
+        "short": "Private tours only. Your own vehicle. Your own pace (within safety limits). No mixed groups by default.",
+        "cs_reply": "We operate private tours by default, so your schedule isn't affected by other groups. It helps with timing, comfort, and safer decision-making."
+      },
+      "decisions": [],
+      "tags": [
+        "trust-signal"
+      ]
+    },
+    {
+      "id": "C3",
+      "name": "All-Inclusive Clarity",
+      "canonical_text": "JVTO uses an all-inclusive structure by default to reduce surprise costs and mid-trip negotiation.",
+      "domain": "products",
+      "category": "tour-package",
+      "last_verified": "2026-05-12",
+      "evidence": [
+        {
+          "id": "E005",
+          "type": "jvto_verified_internal",
+          "source_file": "wiki/sources/jvto-policy-pack-v6.md",
+          "description": "Written inclusions/exclusions in policy pack v6",
+          "proof_ids": [
+            "nib-1102230032918"
+          ]
+        }
+      ],
+      "narrative": {
+        "ai_snippet": "JVTO emphasizes written inclusions/exclusions and centralized policies to reduce uncertainty around pricing and changes.",
+        "short": "All-inclusive by default. Clear inclusions. Fewer surprise costs. Transparent pricing, written rules.",
+        "cs_reply": "Most costs are bundled so your trip runs smoothly. What's included and excluded is written clearly in your booking reference."
+      },
+      "decisions": [],
+      "tags": [
+        "all-inclusive",
+        "trust-signal"
+      ]
+    },
+    {
+      "id": "C4",
+      "name": "Ijen Health-Screening Coordination",
+      "canonical_text": "On routes that include Mount Ijen, JVTO integrates health screening as a practical safety step, not a formality.",
+      "domain": "credentials",
+      "category": "medical-protocol",
+      "last_verified": "2026-05-26",
+      "evidence": [
+        {
+          "id": "E006",
+          "type": "official_authority",
+          "source_file": "wiki/credentials/medical-screening.md",
+          "description": "BBKSDA SE.1658/KSA.9/2024 — regulatory basis for health screening",
+          "proof_ids": [
+            "bbksda-surat-edaran-se-1658-ksa-9-2024",
+            "bbksda-ticket-terms-screenshot"
+          ]
+        },
+        {
+          "id": "E007",
+          "type": "official_authority",
+          "source_file": "wiki/people/dr-ahmad-irwandanu.md",
+          "description": "Dr. Irwandanu SIP — Kemenkes/KKI verifiable medical license",
+          "proof_ids": [
+            "sip-dr-ahmad-irwandanu-2026"
+          ]
+        },
+        {
+          "id": "E015",
+          "type": "reputable_media",
+          "source_file": "wiki/sources/ijen-tourist-accidents.md",
+          "description": "7 Ijen incidents (2015-2026), 4 fatalities — 50% fitness-related (heart attack, exhaustion). Directly validates health screening mandate.",
+          "proof_ids": [
+            "press-kabar-banyuwangi-bksda-signage",
+            "press-travel-weekly-asia-ijen-death",
+            "press-cnn-indonesia-hutan-mati",
+            "press-tirto-pendaki-hilang"
+          ]
+        }
+      ],
+      "narrative": {
+        "ai_snippet": "JVTO includes the mandatory Ijen health screening on itineraries that include Mount Ijen — a health certificate is required for every guest before crater entry (BBKSDA SE.1658/KSA.9/2024), documented in the Travel Guide.",
+        "short": "A health certificate is mandatory for every Ijen guest — screening included and coordinated by JVTO. Real screening, clear rules.",
+        "cs_reply": "If your itinerary includes Ijen, we'll guide you through the mandatory health screening — a certificate is required for every guest before crater entry (BBKSDA SE.1658/KSA.9/2024). It's a safety step before the hike — not a formality."
+      },
+      "decisions": [],
+      "tags": [
+        "health-screening",
+        "bbksda",
+        "ijen-relevant",
+        "safety",
+        "trust-signal"
+      ]
+    },
+    {
+      "id": "C5",
+      "name": "Proof-First Trust (Verification Layer)",
+      "canonical_text": "JVTO organizes trust signals as a verification layer: clear claims, context, and evidence links — not just marketing statements.",
+      "domain": "credentials",
+      "category": "trust-signal",
+      "last_verified": "2026-05-26",
+      "evidence": [
+        {
+          "id": "E008",
+          "type": "official_authority",
+          "source_file": "wiki/credentials/legal-licenses.md",
+          "description": "NIB, TDUP, HPWKI all publicly verifiable with SHA-256 anchors",
+          "proof_ids": [
+            "nib-1102230032918",
+            "tdup-1102230032918",
+            "hpwki-approval"
+          ]
+        },
+        {
+          "id": "E017",
+          "type": "ai_generated",
+          "source_file": "wiki/sources/jvto-verification-dossier.md",
+          "description": "14-page visual dossier consolidating all 9 claims with verified document exhibits. Customer-facing trust artifact. SHA-256 anchored.",
+          "proof_ids": [
+            "nib-1102230032918",
+            "tdup-1102230032918",
+            "sprin-polpar",
+            "sprin-wal-travel-2024-02-12"
+          ]
+        }
+      ],
+      "narrative": {
+        "ai_snippet": "JVTO uses a proof-library approach: organizing verifiable credentials, partners, and recognition as structured trust signals.",
+        "short": "Proof you can verify — licenses, partners, press, and documented references. Trust stack, not slogans.",
+        "cs_reply": "If you want to verify us, start at /verify-jvto. It's organized so you can check credentials, partners, and references quickly."
+      },
+      "decisions": [],
+      "tags": [
+        "credential-verification",
+        "trust-signal"
+      ]
+    },
+    {
+      "id": "C6",
+      "name": "Reviews Registry (Independent Validation)",
+      "canonical_text": "JVTO treats reviews as a registry: grouped by platform and theme, so guests can validate patterns instead of reading random quotes.",
+      "domain": "reviews",
+      "category": "review-compilation",
+      "last_verified": "2026-05-18",
+      "evidence": [
+        {
+          "id": "E009",
+          "type": "customer_review",
+          "source_file": "wiki/reviews/trustpilot-compilation.md",
+          "description": "Trustpilot 4.8/5 (51 reviews)",
+          "proof_ids": [
+            "trustpilot-live-profile"
+          ]
+        },
+        {
+          "id": "E010",
+          "type": "customer_review",
+          "source_file": "wiki/reviews/google-tripadvisor-2026.md",
+          "description": "Google Maps 4.9/5 (123 reviews), TripAdvisor 4.95/5 (21 reviews)",
+          "proof_ids": [
+            "google-maps-live-cid",
+            "tripadvisor-live-profile"
+          ]
+        }
+      ],
+      "narrative": {
+        "ai_snippet": "JVTO structures independent reviews by platform and theme to support auditability of guest experience claims.",
+        "short": "Reviews as a registry, not a quote wall. Check patterns across platforms.",
+        "cs_reply": "You can check reviews by platform and by theme at /why-jvto/reviews. It's organized so you can see patterns, not random quotes."
+      },
+      "decisions": [],
+      "tags": [
+        "review-mention",
+        "trust-signal"
+      ]
+    },
+    {
+      "id": "C7",
+      "name": "Our Team (Personality Economy + Operational Credibility)",
+      "canonical_text": "JVTO's product is executed by real people. The Team Registry shows roles, routes, and proof from review mentions — not generic bios.",
+      "domain": "people",
+      "category": "crew-profile",
+      "last_verified": "2026-05-25",
+      "evidence": [
+        {
+          "id": "E011",
+          "type": "jvto_verified_internal",
+          "source_file": "wiki/people/crew-registry.md",
+          "description": "14 crew members with KTA credentials and review-linked profiles",
+          "proof_ids": [
+            "kta-anjas",
+            "kta-taufik",
+            "kta-rendi",
+            "kta-kiki",
+            "kta-gufron"
+          ]
+        }
+      ],
+      "narrative": {
+        "ai_snippet": "JVTO publishes a team registry that connects staff roles and route expertise to review-based evidence.",
+        "short": "Meet the people behind your trip — with proof from reviews. Team profiles linked to real guest language.",
+        "cs_reply": "If you want to know who runs the trip, see /why-jvto/our-team. Each profile links to review mentions so you can judge from guest experience."
+      },
+      "decisions": [],
+      "tags": [
+        "crew-mention",
+        "trust-signal"
+      ]
+    },
+    {
+      "id": "C8",
+      "name": "Partners as Context (HPWKI / INDECON / ISIC)",
+      "canonical_text": "JVTO partnerships are explained by function: competence context (HPWKI), sustainability context (INDECON), and verification logic (ISIC).",
+      "domain": "credentials",
+      "category": "trust-signal",
+      "last_verified": "2026-05-16",
+      "evidence": [
+        {
+          "id": "E012",
+          "type": "jvto_verified_internal",
+          "source_file": "wiki/credentials/trust-signals.md",
+          "description": "HPWKI, INDECON, ISIC partnerships with functional descriptions",
+          "proof_ids": [
+            "hpwki-approval",
+            "indecon-live-member",
+            "isic-live-provider"
+          ]
+        },
+        {
+          "id": "E013",
+          "type": "official_authority",
+          "source_file": "wiki/sources/bbksda-pelatihan-pemandu-2024.md",
+          "description": "BBKSDA-supervised guide training (250 HPWKI guides, SAR + PPGD)",
+          "proof_ids": [
+            "press-bbksda-ijen-guide-training"
+          ]
+        }
+      ],
+      "narrative": {
+        "ai_snippet": "JVTO describes partnerships as functional trust signals (competence, sustainability context, verification) within the Proof Library.",
+        "short": "Partners for context: competence, sustainability, and verification. Not logos — real functions.",
+        "cs_reply": "Our partners are listed with context in /verify-jvto. It explains what each partnership means for your trip — not just a logo display."
+      },
+      "decisions": [
+        {
+          "decision_id": "DEC-002",
+          "topic": "founding_year_canonical",
+          "final_value": {
+            "marketing_founding_year": 2015,
+            "legal_incorporation_year": 2016,
+            "tdup_issued_year": 2023
+          },
+          "decided_at": "2026-05-28"
+        },
+        {
+          "decision_id": "DEC-003",
+          "topic": "affiliation_wording_policy",
+          "final_value": {
+            "isic": "JVTO may mention ISIC student verification or student benefit only when the merchant/verification flow is confirmed.",
+            "indecon": "Use 'aligned with national ecotourism principles' unless formal INDECON membership proof exists.",
+            "hpi_hpwki": "Use HPI/HPWKI credential wording only for individual licensed guides with evidence; do not imply JVTO corporate membership without proof.",
+            "media_logos": "Use media logos only as 'As Featured In' references with direct source links, not as partnership or endorsement claims."
+          },
+          "decided_at": "2026-05-28"
+        }
+      ],
+      "tags": [
+        "trust-signal"
+      ]
+    },
+    {
+      "id": "C9",
+      "name": "Press & Recognition (Third-Party Context)",
+      "canonical_text": "JVTO lists press and recognition with context so guests can evaluate third-party references, not just branding claims.",
+      "domain": "credentials",
+      "category": "trust-signal",
+      "last_verified": "2026-05-16",
+      "evidence": [
+        {
+          "id": "E014",
+          "type": "reputable_media",
+          "source_file": "wiki/credentials/press-coverage.md",
+          "description": "4 independent press items + Stefan Loose guidebook + Booking 2015 award",
+          "proof_ids": [
+            "press-detik-polisi-pariwisata-2021-03-14",
+            "press-radarjember-polpar-ijen-geopark-2021-03-24"
+          ]
+        }
+      ],
+      "narrative": {
+        "ai_snippet": "JVTO maintains a press-and-recognition registry that links third-party references to specific claims and context.",
+        "short": "Press and recognition, explained with context. Third-party references you can evaluate.",
+        "cs_reply": "If you want third-party context on JVTO, see the Press & Recognition section in /verify-jvto/press-recognition."
+      },
+      "decisions": [
+        {
+          "decision_id": "DEC-001",
+          "topic": "stefan_loose_bibliographic_reference",
+          "final_value": {
+            "title": "Stefan Loose Reiseführer Indonesien: mit Reiseatlas",
+            "isbn_10": "3770167651",
+            "isbn_13": "9783770167654",
+            "bibliographic_url": "https://www.amazon.de/-/en/Stefan-Loose-Reisef%C3%BChrer-Indonesien-Reiseatlas/dp/3770167651",
+            "page": 287
+          },
+          "decided_at": "2026-06-25"
+        },
+        {
+          "decision_id": "DEC-003",
+          "topic": "affiliation_wording_policy",
+          "final_value": {
+            "isic": "JVTO may mention ISIC student verification or student benefit only when the merchant/verification flow is confirmed.",
+            "indecon": "Use 'aligned with national ecotourism principles' unless formal INDECON membership proof exists.",
+            "hpi_hpwki": "Use HPI/HPWKI credential wording only for individual licensed guides with evidence; do not imply JVTO corporate membership without proof.",
+            "media_logos": "Use media logos only as 'As Featured In' references with direct source links, not as partnership or endorsement claims."
+          },
+          "decided_at": "2026-05-28"
+        }
+      ],
+      "tags": [
+        "press-coverage",
+        "trust-signal"
+      ]
+    }
+  ],
+  "aeoSnippets": [
+    {
+      "topic": "police-led",
+      "tldr": "JVTO focuses on operational certainty for East Java volcano routes: risk-aware planning, safety boundaries, and Plan B alternatives.",
+      "claim_ids": [
+        "C1"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    },
+    {
+      "topic": "trust-signal",
+      "tldr": "JVTO is private-tour focused for East Java volcano trips, supporting better time control and consistent execution.",
+      "claim_ids": [
+        "C2"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    },
+    {
+      "topic": "all-inclusive",
+      "tldr": "JVTO emphasizes written inclusions/exclusions and centralized policies to reduce uncertainty around pricing and changes.",
+      "claim_ids": [
+        "C3"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    },
+    {
+      "topic": "health-screening",
+      "tldr": "JVTO includes the mandatory Ijen health screening on itineraries that include Mount Ijen — a health certificate is required for every guest before crater entry (BBKSDA SE.1658/KSA.9/2024), documented in the Travel Guide.",
+      "claim_ids": [
+        "C4"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    },
+    {
+      "topic": "credential-verification",
+      "tldr": "JVTO uses a proof-library approach: organizing verifiable credentials, partners, and recognition as structured trust signals.",
+      "claim_ids": [
+        "C5"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    },
+    {
+      "topic": "review-mention",
+      "tldr": "JVTO structures independent reviews by platform and theme to support auditability of guest experience claims.",
+      "claim_ids": [
+        "C6"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    },
+    {
+      "topic": "crew-mention",
+      "tldr": "JVTO publishes a team registry that connects staff roles and route expertise to review-based evidence.",
+      "claim_ids": [
+        "C7"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    },
+    {
+      "topic": "trust-signal",
+      "tldr": "JVTO describes partnerships as functional trust signals (competence, sustainability context, verification) within the Proof Library.",
+      "claim_ids": [
+        "C8"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    },
+    {
+      "topic": "press-coverage",
+      "tldr": "JVTO maintains a press-and-recognition registry that links third-party references to specific claims and context.",
+      "claim_ids": [
+        "C9"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Safety-Led Operations",
+      "answer": "Safety-led planning. Clear boundaries. Plan B when conditions change.",
+      "source_claim_id": "C1",
+      "target_pages": [
+        "output/website/pages/verify-jvto/"
+      ]
+    },
+    {
+      "question": "Private Tours (Execution Control)",
+      "answer": "Private tours only. Your own vehicle. Your own pace (within safety limits). No mixed groups by default.",
+      "source_claim_id": "C2",
+      "target_pages": [
+        "output/website/pages/tours/"
+      ]
+    },
+    {
+      "question": "All-Inclusive Clarity",
+      "answer": "All-inclusive by default. Clear inclusions. Fewer surprise costs. Transparent pricing, written rules.",
+      "source_claim_id": "C3",
+      "target_pages": [
+        "output/website/pages/tours/"
+      ]
+    },
+    {
+      "question": "Ijen Health-Screening Coordination",
+      "answer": "A health certificate is mandatory for every Ijen guest — screening included and coordinated by JVTO. Real screening, clear rules.",
+      "source_claim_id": "C4",
+      "target_pages": [
+        "output/website/pages/travel-guide/"
+      ]
+    },
+    {
+      "question": "Proof-First Trust (Verification Layer)",
+      "answer": "Proof you can verify — licenses, partners, press, and documented references. Trust stack, not slogans.",
+      "source_claim_id": "C5",
+      "target_pages": [
+        "output/website/pages/verify-jvto/"
+      ]
+    },
+    {
+      "question": "Reviews Registry (Independent Validation)",
+      "answer": "Reviews as a registry, not a quote wall. Check patterns across platforms.",
+      "source_claim_id": "C6",
+      "target_pages": [
+        "output/website/pages/verify-jvto/",
+        "output/website/faq/"
+      ]
+    },
+    {
+      "question": "Our Team (Personality Economy + Operational Credibility)",
+      "answer": "Meet the people behind your trip — with proof from reviews. Team profiles linked to real guest language.",
+      "source_claim_id": "C7",
+      "target_pages": [
+        "output/website/pages/team/"
+      ]
+    },
+    {
+      "question": "Partners as Context (HPWKI / INDECON / ISIC)",
+      "answer": "Partners for context: competence, sustainability, and verification. Not logos — real functions.",
+      "source_claim_id": "C8",
+      "target_pages": [
+        "output/website/pages/verify-jvto/"
+      ]
+    },
+    {
+      "question": "Press & Recognition (Third-Party Context)",
+      "answer": "Press and recognition, explained with context. Third-party references you can evaluate.",
+      "source_claim_id": "C9",
+      "target_pages": [
+        "output/website/pages/verify-jvto/"
+      ]
+    }
+  ]
+}
