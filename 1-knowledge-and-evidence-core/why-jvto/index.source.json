@@ -175,63 +175,6 @@
           ]
         },
         {
-          "id": "press-evidence",
-          "title": "National Media Verification",
-          "eyebrow": "National Media Verification",
-          "heading": "Duty first, business second.",
-          "body_text": "Our founder, Bripka Agung Sambuko, was covered by national media (Detik.com) for his dedication as a Tourist Police officer keeping visitors safe in the extreme conditions of Kawah Ijen.",
-          "quote": "The important thing is that the people who travel are safe.",
-          "quote_attribution": "— Bripka Agung Sambuko (Detik News, translated)",
-          "article_url": "https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin",
-          "article_date": "14 Mar 2021",
-          "sha256_short": "B257B7...",
-          "blocks": [
-            {
-              "type": "image",
-              "src": "https://javavolcano-touroperator.com/press/screencapture-news-detik-berita-jawa-timur-d-5492690-suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin-2026-01-14-02_48_41.webp",
-              "alt": "Detik.com article screenshot"
-            }
-          ]
-        },
-        {
-          "id": "reviews-signal",
-          "title": "Reviews",
-          "eyebrow_num": "§ 02",
-          "eyebrow_label": "Reviews",
-          "heading": "Patterns, not a",
-          "heading_accent": "quote wall.",
-          "lede_text": "Feedback grouped by what it proves, across three independent platforms — verified, not cherry-picked.",
-          "media_tag": "Verified across 3 platforms",
-          "blocks": [
-            {
-              "type": "grid",
-              "role": "quotes",
-              "items": [
-                {
-                  "text": "I don't think there is a better tour guide anywhere than Anjas — head and shoulders above the rest.",
-                  "attribution": "John Joyce · Trustpilot · guide Anjas"
-                },
-                {
-                  "text": "Being a solo traveler it was safe and stress free with JVTO.",
-                  "attribution": "Karthika TS · Trustpilot"
-                },
-                {
-                  "text": "When we went down the steep crater, he held our hands to prevent us from falling.",
-                  "attribution": "Wing Shan Lui · Google Maps · guide Rendi"
-                },
-                {
-                  "text": "One of our friends was injured and they helped him as well. Fantastic planning.",
-                  "attribution": "Jiang Tianjian · Trustpilot"
-                },
-                {
-                  "text": "Our driver Yandi was really reliable and friendly. He briefed us on what to expect.",
-                  "attribution": "Divya_Stri · Trustpilot · driver Yandi"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "story-timeline",
           "title": "Our Story",
           "eyebrow_num": "§ 03",
@@ -301,6 +244,44 @@
           ]
         },
         {
+          "id": "reviews-signal",
+          "title": "Reviews",
+          "eyebrow_num": "§ 02",
+          "eyebrow_label": "Reviews",
+          "heading": "Patterns, not a",
+          "heading_accent": "quote wall.",
+          "lede_text": "Feedback grouped by what it proves, across three independent platforms — verified, not cherry-picked.",
+          "media_tag": "Verified across 3 platforms",
+          "blocks": [
+            {
+              "type": "grid",
+              "role": "quotes",
+              "items": [
+                {
+                  "text": "I don't think there is a better tour guide anywhere than Anjas — head and shoulders above the rest.",
+                  "attribution": "John Joyce · Trustpilot · guide Anjas"
+                },
+                {
+                  "text": "Being a solo traveler it was safe and stress free with JVTO.",
+                  "attribution": "Karthika TS · Trustpilot"
+                },
+                {
+                  "text": "When we went down the steep crater, he held our hands to prevent us from falling.",
+                  "attribution": "Wing Shan Lui · Google Maps · guide Rendi"
+                },
+                {
+                  "text": "One of our friends was injured and they helped him as well. Fantastic planning.",
+                  "attribution": "Jiang Tianjian · Trustpilot"
+                },
+                {
+                  "text": "Our driver Yandi was really reliable and friendly. He briefed us on what to expect.",
+                  "attribution": "Divya_Stri · Trustpilot · driver Yandi"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "standards-accordion",
           "title": "Community Standards",
           "eyebrow_num": "§ 05",
@@ -334,6 +315,25 @@
                   "body": "Every guide and driver is a named, registered team member recruited from local Bondowoso and Banyuwangi communities. Separately, JVTO is publicly listed in the INDECON ecotourism network — the listing is verifiable on the INDECON site."
                 }
               ]
+            }
+          ]
+        },
+        {
+          "id": "press-evidence",
+          "title": "National Media Verification",
+          "eyebrow": "National Media Verification",
+          "heading": "Duty first, business second.",
+          "body_text": "Our founder, Bripka Agung Sambuko, was covered by national media (Detik.com) for his dedication as a Tourist Police officer keeping visitors safe in the extreme conditions of Kawah Ijen.",
+          "quote": "The important thing is that the people who travel are safe.",
+          "quote_attribution": "— Bripka Agung Sambuko (Detik News, translated)",
+          "article_url": "https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin",
+          "article_date": "14 Mar 2021",
+          "sha256_short": "B257B7...",
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://javavolcano-touroperator.com/press/screencapture-news-detik-berita-jawa-timur-d-5492690-suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin-2026-01-14-02_48_41.webp",
+              "alt": "Detik.com article screenshot"
             }
           ]
         },

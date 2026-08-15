@@ -2,9 +2,9 @@
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
   "generated_at": "2026-08-15T12:33:40.709Z",
-  "route": "/why-jvto/our-team/fauzi",
-  "domain": "why-jvto",
-  "slug": "our-team/fauzi",
+  "route": "/verify-jvto/history-artifacts",
+  "domain": "verify-jvto",
+  "slug": "history-artifacts",
   "json_ld": {
     "@context": "https://schema.org",
     "@graph": [
@@ -168,42 +168,43 @@
         ]
       },
       {
-        "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/fauzi#webpage",
+        "@id": "https://javavolcano-touroperator.com/verify-jvto/history-artifacts#webpage",
         "@type": [
-          "ProfilePage"
+          "WebPage"
         ],
-        "name": "Fauzi — JVTO Tour Guide",
-        "description": "Fauzi is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
-        "url": "https://javavolcano-touroperator.com/why-jvto/our-team/fauzi",
+        "name": "History Artifacts: Documented Origins Since 2015",
+        "description": "Historical records and artifacts documenting JVTO's operational continuity from the 2015 guesthouse era through PT formalization.",
+        "url": "https://javavolcano-touroperator.com/verify-jvto/history-artifacts",
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         }
       },
       {
-        "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/fauzi#person",
-        "@type": "Person",
-        "name": "Fauzi",
-        "jobTitle": "guide",
-        "image": [
+        "@id": "https://javavolcano-touroperator.com/verify-jvto/history-artifacts#faq",
+        "@type": "FAQPage",
+        "mainEntity": [
           {
-            "@type": "ImageObject",
-            "url": "/uploads/1768226003889-338819579-fauzi.png",
-            "caption": "JVTO guide Fauzi"
-          }
-        ],
-        "hasCredential": [
+            "@type": "Question",
+            "name": "Why treat artifacts as part of trust?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Because continuity is verifiable where marketing is not. A physical Booking.com plaque from 2015, an editorial guidebook citation, a national press article, and a government PT registration all point to the same address and the same founder — an evidence trail a traveller can cross-check, not a claim they have to take on faith."
+            }
+          },
           {
-            "@type": "EducationalOccupationalCredential",
-            "name": "HPWKI membership credential KTA-G-2024-010",
-            "credentialCategory": "HPWKI membership credential (KTA)",
-            "recognizedBy": {
-              "@type": "Organization",
-              "name": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)"
-            },
-            "identifier": {
-              "@type": "PropertyValue",
-              "propertyID": "KTA",
-              "value": "KTA-G-2024-010"
+            "@type": "Question",
+            "name": "Does JVTO assert a specific incorporation year?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. JVTO's brand and operation date from 2015 (the guesthouse era), and the PT was formalized in 2023 — evidenced by the TDUP tourism licence issued 2023-02-11 and NIB 1102230032918. JVTO does not assert a separate PT incorporation date, because no authoritative incorporation document supports one."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I read after this page?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For the underlying documents and independent verification links, see Legal & Licenses (/verify-jvto/legal), Police & Safety (/verify-jvto/police-safety), and Press & Recognition (/verify-jvto/press-recognition)."
             }
           }
         ]
@@ -211,14 +212,10 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-12T07:57:49.134Z",
     "source_files": [
-      "/Users/macbook/Code/jvto-web/content/entities/people.json",
-      "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
-      "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
-      "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
-      "https://javavolcano-touroperator.com/sitemap.xml"
+      "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/history-artifacts.json",
+      "1-knowledge-and-evidence-core/faqs/verify-jvto-history-artifacts.json"
     ],
-    "migration_note": "Created to align JVTO Operating Ecosystem source routes with the live jvto-web public Why JVTO crew detail pages. Personal phone fields from the team content source are intentionally excluded because the live detail page does not render them."
+    "confidence": "verified"
   }
 }

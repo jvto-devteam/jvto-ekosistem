@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-14T09:06:41.716Z",
+  "generated_at": "2026-08-15T12:33:40.709Z",
   "route": "/travel-guide/ijen-health-screening",
   "domain": "travel-guide",
   "slug": "ijen-health-screening",
@@ -173,7 +173,7 @@
           "WebPage"
         ],
         "name": "Ijen Health Screening – Real Checks, Digital Proof",
-        "description": "How JVTO handles mandatory Ijen health screening, medical checks, certificate rules, gas masks, and safe alternatives if you are not cleared.",
+        "description": "Mandatory Ijen screening under BBKSDA SE.1658: oxygen, blood pressure, respiratory checks, BSrE certificate, gas masks, and safe alternatives.",
         "url": "https://javavolcano-touroperator.com/travel-guide/ijen-health-screening",
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"

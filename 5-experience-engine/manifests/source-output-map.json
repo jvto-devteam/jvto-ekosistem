@@ -1,11 +1,43 @@
 {
-  "generated_at": "2026-08-14T09:06:41.716Z",
+  "generated_at": "2026-08-15T12:33:40.709Z",
   "mappings": [
+    {
+      "source": "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/history-artifacts.source.json",
+      "outputs": [
+        "5-experience-engine/public-website/pages/verify-jvto__history-artifacts.website-output.json",
+        "5-experience-engine/json-ld/pages/verify-jvto__history-artifacts.schema-output.json",
+        "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
+      ]
+    },
+    {
+      "source": "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/legal.source.json",
+      "outputs": [
+        "5-experience-engine/public-website/pages/verify-jvto__legal.website-output.json",
+        "5-experience-engine/json-ld/pages/verify-jvto__legal.schema-output.json",
+        "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
+      ]
+    },
     {
       "source": "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/police-safety.source.json",
       "outputs": [
         "5-experience-engine/public-website/pages/verify-jvto__police-safety.website-output.json",
         "5-experience-engine/json-ld/pages/verify-jvto__police-safety.schema-output.json",
+        "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
+      ]
+    },
+    {
+      "source": "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/press-recognition.source.json",
+      "outputs": [
+        "5-experience-engine/public-website/pages/verify-jvto__press-recognition.website-output.json",
+        "5-experience-engine/json-ld/pages/verify-jvto__press-recognition.schema-output.json",
+        "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
+      ]
+    },
+    {
+      "source": "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/verify-jvto.source.json",
+      "outputs": [
+        "5-experience-engine/public-website/pages/verify-jvto.website-output.json",
+        "5-experience-engine/json-ld/pages/verify-jvto.schema-output.json",
         "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
       ]
     },

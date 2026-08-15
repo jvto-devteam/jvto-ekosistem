@@ -2,9 +2,9 @@
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
   "generated_at": "2026-08-15T12:33:40.709Z",
-  "route": "/why-jvto/our-team/fauzi",
-  "domain": "why-jvto",
-  "slug": "our-team/fauzi",
+  "route": "/verify-jvto/legal",
+  "domain": "verify-jvto",
+  "slug": "legal",
   "json_ld": {
     "@context": "https://schema.org",
     "@graph": [
@@ -168,42 +168,51 @@
         ]
       },
       {
-        "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/fauzi#webpage",
+        "@id": "https://javavolcano-touroperator.com/verify-jvto/legal#webpage",
         "@type": [
-          "ProfilePage"
+          "WebPage"
         ],
-        "name": "Fauzi — JVTO Tour Guide",
-        "description": "Fauzi is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
-        "url": "https://javavolcano-touroperator.com/why-jvto/our-team/fauzi",
+        "name": "JVTO Legal Licenses & Verifiable Credentials",
+        "description": "JVTO legal documents: NIB 1102230032918, TDUP tourism licence, and PT Java Volcano Rendezvous registration — all verifiable on Indonesian government registries.",
+        "url": "https://javavolcano-touroperator.com/verify-jvto/legal",
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         }
       },
       {
-        "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/fauzi#person",
-        "@type": "Person",
-        "name": "Fauzi",
-        "jobTitle": "guide",
-        "image": [
+        "@id": "https://javavolcano-touroperator.com/verify-jvto/legal#faq",
+        "@type": "FAQPage",
+        "mainEntity": [
           {
-            "@type": "ImageObject",
-            "url": "/uploads/1768226003889-338819579-fauzi.png",
-            "caption": "JVTO guide Fauzi"
-          }
-        ],
-        "hasCredential": [
+            "@type": "Question",
+            "name": "How can I verify JVTO's NIB on a government registry?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "NIB 1102230032918 is searchable at oss.go.id (the Indonesian Online Single Submission system). The PT Java Volcano Rendezvous AHU corporate registry entry (registered 8 February 2023) is accessible via the AHU portal — both are independent government databases, not operator-controlled pages. KBLI codes 79121 (Travel Agency) and 79911 (Tour Operator) are listed on the OSS profile."
+            }
+          },
           {
-            "@type": "EducationalOccupationalCredential",
-            "name": "HPWKI membership credential KTA-G-2024-010",
-            "credentialCategory": "HPWKI membership credential (KTA)",
-            "recognizedBy": {
-              "@type": "Organization",
-              "name": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)"
-            },
-            "identifier": {
-              "@type": "PropertyValue",
-              "propertyID": "KTA",
-              "value": "KTA-G-2024-010"
+            "@type": "Question",
+            "name": "What is the difference between NIB and TDUP?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "NIB (Nomor Induk Berusaha) is the Indonesian Business Identification Number — required for all legal businesses. TDUP (Tanda Daftar Usaha Pariwisata) is the Tourism Business Registration Certificate, an additional sectoral licence required specifically for tour operators. JVTO holds both under identifier 1102230032918, with TDUP issued 2023-02-11 via OSS."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the medical screening partnership prove regulatory compliance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "BBKSDA Jawa Timur regulation SE.1658/KSA.9/2024 is the supporting authority requiring Ijen visitors to present a clinic-issued health certificate. JVTO's coordination with Dr. Ahmad Irwandanu (SIP verifiable on satusehat.kemkes.go.id) at Klinik Bakti Husada — itself a Ministry-of-Health-licensed clinic — proves the regulatory chain operates end-to-end with verifiable, government-licensed parties."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are JVTO guides legally licensed to lead Ijen tours?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. JVTO is an HPWKI member (Himpunan Pelaku Wisata Khusus Ijen — the Ijen guide association supervised by BBKSDA Jawa Timur). Each guide carries a KTA (Kartu Tanda Anggota) — the HPWKI-issued membership credential — and completes annual BBKSDA-supervised volcanic-safety training. HPWKI registration is verifiable on the AHU perkumpulan registry."
             }
           }
         ]
@@ -211,14 +220,10 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-12T07:57:49.134Z",
     "source_files": [
-      "/Users/macbook/Code/jvto-web/content/entities/people.json",
-      "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
-      "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
-      "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
-      "https://javavolcano-touroperator.com/sitemap.xml"
+      "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/legal.json",
+      "1-knowledge-and-evidence-core/faqs/verify-jvto-legal.json"
     ],
-    "migration_note": "Created to align JVTO Operating Ecosystem source routes with the live jvto-web public Why JVTO crew detail pages. Personal phone fields from the team content source are intentionally excluded because the live detail page does not render them."
+    "confidence": "verified"
   }
 }

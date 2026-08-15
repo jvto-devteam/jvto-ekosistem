@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-14T09:06:41.716Z",
+  "generated_at": "2026-08-15T12:33:40.709Z",
   "route": "/travel-guide/police-escort-for-groups",
   "domain": "travel-guide",
   "slug": "police-escort-for-groups",
@@ -173,7 +173,7 @@
           "WebPage"
         ],
         "name": "Traffic Police Escort for Tourist Groups in East Java",
-        "description": "How JVTO requests official traffic police escort for larger groups, including eligibility, approval limits, documents, and booking notes.",
+        "description": "Official traffic police escort for groups around 18+ guests: JVTO requests written approval, SPRIN documents, convoy routes, and limits.",
         "url": "https://javavolcano-touroperator.com/travel-guide/police-escort-for-groups",
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"

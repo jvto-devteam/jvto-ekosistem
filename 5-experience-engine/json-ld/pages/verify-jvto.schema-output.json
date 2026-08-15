@@ -2,9 +2,9 @@
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
   "generated_at": "2026-08-15T12:33:40.709Z",
-  "route": "/why-jvto/our-team/fauzi",
-  "domain": "why-jvto",
-  "slug": "our-team/fauzi",
+  "route": "/verify-jvto",
+  "domain": "verify-jvto",
+  "slug": "verify-jvto",
   "json_ld": {
     "@context": "https://schema.org",
     "@graph": [
@@ -168,42 +168,59 @@
         ]
       },
       {
-        "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/fauzi#webpage",
+        "@id": "https://javavolcano-touroperator.com/verify-jvto#webpage",
         "@type": [
-          "ProfilePage"
+          "WebPage"
         ],
-        "name": "Fauzi — JVTO Tour Guide",
-        "description": "Fauzi is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
-        "url": "https://javavolcano-touroperator.com/why-jvto/our-team/fauzi",
+        "name": "Verify JVTO: A Proof Library You Can Check",
+        "description": "Independently verify PT Java Volcano Rendezvous: NIB/TDUP registration, the founder's Tourist Police authority, SHA-256-signed document scans, press recognition, and operating history since 2015. Check every claim against government registries before you book.",
+        "url": "https://javavolcano-touroperator.com/verify-jvto",
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         }
       },
       {
-        "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/fauzi#person",
-        "@type": "Person",
-        "name": "Fauzi",
-        "jobTitle": "guide",
-        "image": [
+        "@id": "https://javavolcano-touroperator.com/verify-jvto#faq",
+        "@type": "FAQPage",
+        "mainEntity": [
           {
-            "@type": "ImageObject",
-            "url": "/uploads/1768226003889-338819579-fauzi.png",
-            "caption": "JVTO guide Fauzi"
-          }
-        ],
-        "hasCredential": [
+            "@type": "Question",
+            "name": "What kinds of proof does JVTO publish before booking?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Four layers: (1) Legal — NIB/TDUP/AHU registration verifiable on Indonesian government registries; (2) Police — founder Bripka Agung Sambuko's SPRIN-POLPAR and SPRIN-WAL-TRAVEL assignment documents plus Detik.com identity confirmation; (3) Press & Recognition — the Stefan Loose editorial feature, the Booking.com 2015 award, and the Detik 2021 article; (4) History & Artifacts — operational continuity from the 2015 guesthouse era through the 2023 PT formalization."
+            }
+          },
           {
-            "@type": "EducationalOccupationalCredential",
-            "name": "HPWKI membership credential KTA-G-2024-010",
-            "credentialCategory": "HPWKI membership credential (KTA)",
-            "recognizedBy": {
-              "@type": "Organization",
-              "name": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)"
-            },
-            "identifier": {
-              "@type": "PropertyValue",
-              "propertyID": "KTA",
-              "value": "KTA-G-2024-010"
+            "@type": "Question",
+            "name": "Is Java Volcano Tour Operator a legal business in Indonesia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. JVTO operates under PT Java Volcano Rendezvous with Business Identification Number (NIB) 1102230032918 and a TDUP tourism licence under the same identifier (issued 2023-02-11). Both are searchable on the Indonesian government OSS and AHU registries."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does JVTO have official Police authority?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "JVTO was founded by an active Tourist Police officer (Ditpamobvit). Official coordination evidence is provided via SPRIN (assignment order) documents in the evidence locker, and the founder's role is independently confirmed by Detik.com's March 2021 article. JVTO is a private operator; the police reference describes the founder's professional background and does not imply government endorsement."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I verify the documents provided by JVTO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Every document in the evidence locker includes a published SHA-256 hash. Download the original file, compute its SHA-256 locally, and compare it to the published value to detect tampering. Where a registry link is provided, follow it to cross-check the details on the official government portal."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why publish proof at all instead of just describing the tours?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tour operators in Indonesia operate in a landscape where licensing claims are easy to make and hard to verify. JVTO publishes the actual government registry IDs and document scans so travellers can independently confirm every claim through third-party Indonesian data sources before paying any deposit."
             }
           }
         ]
@@ -211,14 +228,10 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-12T07:57:49.134Z",
     "source_files": [
-      "/Users/macbook/Code/jvto-web/content/entities/people.json",
-      "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
-      "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
-      "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
-      "https://javavolcano-touroperator.com/sitemap.xml"
+      "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/index.json",
+      "1-knowledge-and-evidence-core/faqs/verify-jvto.json"
     ],
-    "migration_note": "Created to align JVTO Operating Ecosystem source routes with the live jvto-web public Why JVTO crew detail pages. Personal phone fields from the team content source are intentionally excluded because the live detail page does not render them."
+    "confidence": "verified"
   }
 }
