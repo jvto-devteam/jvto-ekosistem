@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-15T07:58:45.564Z",
+  "generated_at": "2026-08-15T11:54:30.961Z",
   "route": "/why-jvto/community-standards",
   "domain": "why-jvto",
   "slug": "community-standards",
@@ -39,7 +39,7 @@
         },
         "lede": [
           "JVTO's operational standards are written, not implied: mandatory Ijen health screening before crater entry, financial-fairness rules for partners, and a published escalation path if either is broken.",
-          "This page also explains the operational standards and commitments that govern every JVTO tour—from financial fairness to mandatory health screening.",
+          "These commitments apply to every JVTO tour, not a selected few.",
           "Official channels: Website https://javavolcano-touroperator.com • WhatsApp +6282244788833 • Email hello@javavolcano-touroperator.com."
         ],
         "sections": [
