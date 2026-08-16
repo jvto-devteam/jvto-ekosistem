@@ -6,3 +6,7 @@ node_modules/
 
 public/admin/
 public/uploads/
+
+# Live-site scrapes: never inside a tree that also holds renderer output.
+# They read as generated files and cause wrong conclusions. Crawl outside the repo.
+tmp-live-audit/

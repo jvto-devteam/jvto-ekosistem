@@ -1,0 +1,120 @@
+{
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "verify-jvto",
+  "slug": "press-recognition",
+  "route": "/verify-jvto/press-recognition",
+  "meta": {
+    "route": "/verify-jvto/press-recognition",
+    "title": "JVTO Press & Media Recognition",
+    "browserTitle": "Press & Recognition — Detik.com & Stefan Loose | JVTO",
+    "description": "Independent press coverage confirming JVTO's identity: Detik.com Tourist Police article, the Stefan Loose Indonesia guidebook, and the 2015 Booking.com Guest Review Award.",
+    "section": "verify-jvto",
+    "status": "published",
+    "owner": "editorial",
+    "lastReviewed": "2026-08-06",
+    "schemaTypes": [
+      "WebPage"
+    ],
+    "faqKey": "verify-jvto-press-recognition",
+    "summary": "Third-party editorial coverage of JVTO: the Stefan Loose guidebook citation, Detik.com and Radar Jember articles, and the 2015 Booking.com award."
+  },
+  "seo": {
+    "title": "Press & Recognition — Detik.com & Stefan Loose | JVTO",
+    "description": "Independent press coverage confirming JVTO's identity: Detik.com Tourist Police article, the Stefan Loose Indonesia guidebook, and the 2015 Booking.com Guest Review Award.",
+    "canonicalRoute": "/verify-jvto/press-recognition",
+    "schemaTypes": [
+      "WebPage"
+    ]
+  },
+  "content": {
+    "format": "structured-sections",
+    "payload": {
+      "lede": [
+        "Independent, third-party recognition of JVTO and its founder — a German-language guidebook citation, national and regional press coverage, and a pre-incorporation Booking.com award — none of it operator-produced."
+      ],
+      "sections": [
+        {
+          "id": "credentials-referenced-in-press-0",
+          "title": "Verified Credentials Referenced in Press Coverage",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "| Credential | Name | Reference | Status |\n|---|---|---|---|\n| **NIB** | Nomor Induk Berusaha | 1102230032918 | Active |\n| **TDUP** | Tanda Daftar Usaha Pariwisata | 1102230032918 | Active |\n| **HPWKI** | Ijen Guide Association | BBKSDA Jawa Timur supervised | Active |\n| **ISIC** | Registered provider (student discounts) | Provider ID 259268 | Active |\n\nFull legal detail and document scans are on the [Legal & Licenses](/verify-jvto/legal) page.\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "independent-editorial-citation-1",
+          "title": "Independent Editorial Citation — Stefan Loose Reiseführer Indonesien",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "The Stefan Loose Indonesien travel guide names the founder by name on page 287, in the Ijen-Massiv section — an independent editorial citation in a widely distributed German-language travel guide, predating PT formalization.\n\n- **ISBN:** ISBN-13 9783770167654 (ISBN-10 3770167651)\n- **Page:** 287 — Ost-Java / Ijen-Massiv\n\nThis is a non-paid editorial listing. Publication year and edition are not asserted.\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "indonesian-press-coverage-2",
+          "title": "Indonesian Press Coverage",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "**Detik.com · 14 March 2021**\n\n> \"Suka Duka Polisi Pariwisata Bondowoso: Tegakkan Prokes Sambil Lawan Dingin\"\n\nIndependent reporting on the Tourist Police unit active at Ijen crater — identifying the founder by rank (Bripka) and role in a third-party editorial context. [Read article](https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin)\n\n**Radar Jember (Jawa Pos) · 24 March 2021**\n\n> \"Polpar Dibentuk untuk Mendukung Ijen Geopark\"\n\nRegional press coverage of the Tourist Police formation, explicitly framing JVTO's operational context within the Ijen UNESCO Geopark initiative. [Read article](https://radarjember.jawapos.com/bondowoso/791102263/polpar-dibentuk-untuk-mendukung-ijen-geopark)\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "third-party-award-pre-incorporation-3",
+          "title": "Third-Party Award — Booking.com Guest Review Award 2015",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "An independently calculated guest review award issued by Booking.com to the guesthouse operated at Jl. Khairil Anwar 102A, Bondowoso — the same address JVTO operates from today. The original shipping label confirms the delivery address, establishing unbroken address continuity from the 2015 guesthouse era to the current PT registration.\n\n- **Score:** 9.4 / 10\n- **Year:** 2015\n- **Issued to:** Jl. Khairil Anwar 102A, Bondowoso\n- **Issuer:** Booking.com (independent platform)\n- **Evidence:** Plaque + original shipping label (2 artifacts)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
+  "source_trace": {
+    "source_files": [
+      "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/press-recognition.json",
+      "1-knowledge-and-evidence-core/faqs/verify-jvto-press-recognition.json"
+    ],
+    "confidence": "verified"
+  },
+  "faq": {
+    "key": "verify-jvto-press-recognition",
+    "payload": {
+      "key": "verify-jvto-press-recognition",
+      "items": [
+        {
+          "question": "Is JVTO featured in any independent travel guides?",
+          "answer": "Yes. Stefan Loose Reiseführer Indonesien: mit Reiseatlas — a German-language Indonesia travel guide — features Ijen Bondowoso Homestay (the founder's 2015 guesthouse, JVTO's historical anchor) on page 287 (ISBN-13 9783770167654). This is non-paid editorial coverage. Publication year and edition are not asserted."
+        },
+        {
+          "question": "Has the founder been profiled by national press?",
+          "answer": "Yes. Detik.com (one of Indonesia's largest news outlets) profiled Bripka Agung Sambuko in March 2021 in an article about Bondowoso Tourist Police. Radar Jember / Jawa Pos has also covered the formation of the POLPAR unit supporting Ijen Geopark, providing local-press context for the police-led safety model."
+        },
+        {
+          "question": "What is the Booking.com 2015 award and how is it evidence?",
+          "answer": "Booking.com issued a 2015 Guest Review Award (score 9.4/10) to the guesthouse operated at Jl. Khairil Anwar 102A, Bondowoso — JVTO's pre-incorporation address. The original plaque and shipping label are retained; the shipping label's delivery address matches today's PT office address, establishing unbroken address continuity from 2015 to the current registration."
+        }
+      ],
+      "lastReviewed": "2026-08-07",
+      "owner": "knowledge-faq",
+      "reviewStatus": "domain-owner-assigned-by-audit"
+    }
+  }
+}

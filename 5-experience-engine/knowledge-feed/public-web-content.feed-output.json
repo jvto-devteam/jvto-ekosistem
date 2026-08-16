@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/knowledge-feed/v1",
   "output_type": "public_web_content_feed",
-  "generated_at": "2026-08-15T08:24:23.630Z",
+  "generated_at": "2026-08-15T13:30:07.459Z",
   "record_count": 38,
   "records": [
     {
@@ -154,7 +154,7 @@
       "summary": "Hub for JVTO travel guidance: booking, safety, health screening, packing, weather and closures.",
       "status": "published",
       "owner": "operations",
-      "lastReviewed": "2026-08-04",
+      "lastReviewed": "2026-08-15",
       "outputTargets": [
         "public_website",
         "json_ld",
@@ -311,7 +311,7 @@
       "summary": "Why Kawah Ijen closes on the first Friday of every month (the Rijik conservation cleanup, since March 2019) and how JVTO schedules Ijen itineraries around it.",
       "status": "published",
       "owner": "operations",
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-15",
       "outputTargets": [
         "public_website",
         "json_ld",
@@ -382,6 +382,63 @@
       ]
     },
     {
+      "route": "/verify-jvto",
+      "domain": "verify-jvto",
+      "slug": "verify-jvto",
+      "title": "Verify JVTO: A Proof Library You Can Check",
+      "summary": "The evidence locker for PT Java Volcano Rendezvous — legal, police-authority, press, and history documents, each checkable against an independent source.",
+      "status": "published",
+      "owner": "legal",
+      "lastReviewed": "2026-08-06",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/index.json",
+        "1-knowledge-and-evidence-core/faqs/verify-jvto.json"
+      ]
+    },
+    {
+      "route": "/verify-jvto/history-artifacts",
+      "domain": "verify-jvto",
+      "slug": "history-artifacts",
+      "title": "History Artifacts: Documented Origins Since 2015",
+      "summary": "An artifact-anchored timeline of JVTO's continuity — same address, same founder, same operation — from the 2015 guesthouse era to today.",
+      "status": "published",
+      "owner": "editorial",
+      "lastReviewed": "2026-08-06",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/history-artifacts.json",
+        "1-knowledge-and-evidence-core/faqs/verify-jvto-history-artifacts.json"
+      ]
+    },
+    {
+      "route": "/verify-jvto/legal",
+      "domain": "verify-jvto",
+      "slug": "legal",
+      "title": "JVTO Legal Licenses & Verifiable Credentials",
+      "summary": "PT Java Volcano Rendezvous's business registration, tourism licence, and association membership — each checkable on an independent government registry.",
+      "status": "published",
+      "owner": "legal",
+      "lastReviewed": "2026-08-06",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/legal.json",
+        "1-knowledge-and-evidence-core/faqs/verify-jvto-legal.json"
+      ]
+    },
+    {
       "route": "/verify-jvto/police-safety",
       "domain": "verify-jvto",
       "slug": "police-safety",
@@ -399,6 +456,25 @@
         "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/police-safety.json",
         "1-knowledge-and-evidence-core/faqs/verify-jvto-police-safety.json",
         "1-knowledge-and-evidence-core/credentials-and-public-evidence/police-authority.json"
+      ]
+    },
+    {
+      "route": "/verify-jvto/press-recognition",
+      "domain": "verify-jvto",
+      "slug": "press-recognition",
+      "title": "JVTO Press & Media Recognition",
+      "summary": "Third-party editorial coverage of JVTO: the Stefan Loose guidebook citation, Detik.com and Radar Jember articles, and the 2015 Booking.com award.",
+      "status": "published",
+      "owner": "editorial",
+      "lastReviewed": "2026-08-06",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/press-recognition.json",
+        "1-knowledge-and-evidence-core/faqs/verify-jvto-press-recognition.json"
       ]
     },
     {

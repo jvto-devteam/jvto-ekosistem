@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-15T07:58:45.564Z",
+  "generated_at": "2026-08-15T13:30:07.459Z",
   "route": "/travel-guide/rijik-monthly-closure",
   "domain": "travel-guide",
   "slug": "rijik-monthly-closure",
@@ -19,7 +19,7 @@
     "summary": "Why Kawah Ijen closes on the first Friday of every month (the Rijik conservation cleanup, since March 2019) and how JVTO schedules Ijen itineraries around it.",
     "answerFirst": "Kawah Ijen closes to all visitors on the first Friday of every month for Rijik, a scheduled conservation cleanup running since March 2019. Park staff and volunteers typically remove an estimated 100-150 kg of waste. JVTO checks this calendar before confirming Ijen-inclusive itineraries and schedules around it.",
     "owner": "operations",
-    "lastReviewed": "2026-08-06",
+    "lastReviewed": "2026-08-15",
     "content": {
       "format": "json",
       "payload": {
@@ -31,7 +31,7 @@
           "section": "travel-guide",
           "status": "published",
           "owner": "operations",
-          "lastReviewed": "2026-08-06",
+          "lastReviewed": "2026-08-15",
           "schemaTypes": [
             "WebPage"
           ],
@@ -41,25 +41,40 @@
         "sections": [
           {
             "id": "intro",
-            "body_md": "Kawah Ijen closes to **all** visitors — not just JVTO guests — on the first Friday of every month. It has run this way since **March 2019**, for a volunteer conservation program called **\"Rijik\"** (Javanese for \"tidy\" / \"clean\"), during which park staff and volunteers descend into the crater area to remove an estimated **100–150 kg of trash** accumulated from tourism and mining traffic.\n\nIt is a small, easily-missed fact — most independent travelers and even some tour operators don't track it — but arriving on a Rijik day means being turned away at the gate after a 01:00 AM wake-up call and a night trek to the crater rim. JVTO checks this calendar before confirming any Ijen-inclusive itinerary, so it never becomes a guest's problem."
+            "body_md": "Kawah Ijen closes to **all** visitors on the first Friday of every month. Not only JVTO guests — the whole park. It has worked this way since **March 2019**, for a volunteer conservation programme called **Rijik** (Javanese for *tidy* or *clean*), during which park staff and volunteers clear an estimated **100–150 kg of waste** from the crater area.\n\nArriving on a Rijik day means being turned away at the gate after a midnight pickup and a night drive — the closure is a park operations detail and does not appear on ticket-booking pages. JVTO checks the TWA Ijen calendar before confirming any Ijen-inclusive itinerary, so a confirmed booking never lands on one."
           },
           {
             "id": "what-is-rijik",
-            "title": "What Is the Rijik Cleanup Program?",
-            "body_md": "Rijik is a scheduled ecosystem-cleaning day at TWA Ijen (the Ijen Nature Tourism Park). On the first Friday of every month, the park closes to tourism and mining traffic so park staff and community volunteers can clear trash from the crater rim, the descent trail, and the shoreline of the sulfur lake — waste that accumulates from the steady flow of tourists and traditional sulfur miners between cleanups.\n\nEach session typically collects an estimated **100–150 kg of trash**. The program has run on this fixed monthly cadence since **March 2019**, making it a predictable, recurring closure rather than an emergency or unplanned event."
+            "title": "What the Rijik cleanup is.",
+            "body_md": "Rijik is a scheduled ecosystem-cleaning day at TWA Ijen, the Ijen Nature Tourism Park, managed by **BBKSDA Jawa Timur**. On the first Friday of each month the park closes to tourism **and** to mining traffic, so staff and community volunteers can clear the crater rim, the descent trail and the shoreline of the sulfur lake — waste that accumulates between cleanups from the steady flow of visitors and traditional sulfur miners.\n\nEach session typically collects an estimated **100–150 kg of trash**. The programme has held this fixed monthly cadence since **March 2019**, which makes it a predictable recurring closure rather than an emergency one."
+          },
+          {
+            "id": "check-your-dates",
+            "title": "How to check whether your dates are affected.",
+            "body_md": "The rule is fixed and needs no announcement: **the first Friday of the month**. Count forward to the first Friday that falls in your travel month — if your planned Ijen ascent lands on it, the gate will be shut. Because the closure follows the calendar rather than conditions, it can be checked months ahead, unlike a weather or alert-status closure.\n\nTwo details catch people out. The closure applies to the **hiking date**, which for a blue-fire ascent is the night *before* the sunrise you have in mind — a Friday-morning summit means a Thursday-night departure, and it is the Friday that counts. And the park does not publish the closure on ticket-booking pages, so an itinerary assembled from booking sites alone will not surface it.\n\nJVTO verifies the date against the TWA Ijen calendar before a booking is confirmed. If you are travelling independently, treat the first Friday as unavailable and plan the ascent for any other night."
           },
           {
             "id": "why-it-matters",
-            "title": "Why It Matters for Travelers",
-            "body_md": "Ijen night hikes are logistically unforgiving: guests are typically picked up from Bondowoso-area hotels around midnight to reach the crater rim in time for the blue-fire window before dawn. If a self-planned or unlicensed itinerary lands on a Rijik closure day, the outcome is a wasted pre-dawn wake-up and a turned-away group at the gate — with no advance warning, because the closure is a park operations detail, not something advertised on ticket-booking pages.\n\nNo competitor operator publishes this fact in a dedicated guide. It is exactly the kind of operational detail that separates a licensed operator who tracks park administration from an itinerary assembled purely from generic travel-blog research."
+            "title": "What a wasted Rijik day actually costs.",
+            "body_md": "Ijen night hikes are logistically unforgiving. Guests are collected from Bondowoso-area hotels around midnight to reach the rim inside the blue-fire window before dawn. From the **Paltuding** trailhead the ascent is roughly **3 km and about 90 minutes** on foot to a crater rim at **2,386 m**.\n\nA self-planned itinerary that lands on a Rijik closure spends all of that — the midnight start, the drive, the altitude gain — and is stopped at the gate, with no refund mechanism at the park level and, on a short trip, usually no second night available to retry. That is the whole cost of a detail that takes one calendar check to avoid."
+          },
+          {
+            "id": "rijik-vs-pvmbg",
+            "title": "Rijik is not a volcanic-alert closure.",
+            "body_md": "Two different closures affect Kawah Ijen and they are often confused.\n\n**Rijik** is a conservation closure. It is scheduled, falls on the first Friday of the month, and happens regardless of volcanic conditions. It can be planned around indefinitely in advance.\n\nA **PVMBG closure** is a safety closure. It is unscheduled, triggered when gas emissions or seismic activity cross an official threshold, and can be imposed or lifted at short notice. It cannot be predicted from a calendar.\n\nJVTO tracks both: the fixed Rijik calendar for routine scheduling, and real-time PVMBG alerts for safety-driven changes. How the second kind is handled is set out in [Weather & Closures](/travel-guide/weather-and-closures)."
+          },
+          {
+            "id": "rijik-and-screening",
+            "title": "Two separate gates before an Ijen ascent.",
+            "body_md": "Clearing one requirement does not clear the other. An Ijen ascent has to pass both:\n\n- **The calendar.** The park must be open — so not the first Friday of   the month.\n- **The health screening.** Every guest must pass the pre-hike screening   required under BBKSDA regulation `SE.1658/KSA.9/2024` before crater   entry.\n\nThe two are administered separately and neither substitutes for the other. A cleared health certificate is worth nothing on a Rijik day, and an open park does not admit an unscreened guest. Both are handled before confirmation for JVTO guests — see [Ijen health screening](/travel-guide/ijen-health-screening)."
           },
           {
             "id": "how-jvto-handles",
-            "title": "How JVTO Handles It",
-            "body_md": "- **Checked before confirmation.** JVTO checks the TWA Ijen closure calendar before confirming any Ijen-inclusive itinerary against a guest's requested travel dates.\n- **Rerouted, not cancelled.** If a preferred travel window falls on the first Friday of the month, JVTO reorders the itinerary — for example, visiting Bromo or Madakaripura first — so the Rijik closure day never disrupts a confirmed booking. This follows the same alternative-route approach used for PVMBG-driven closures; see [Weather & Closures](/travel-guide/weather-and-closures).\n- **Not the same as a safety closure.** Rijik is a fixed conservation closure, unrelated to PVMBG (volcanology) alert-status closures, which are unscheduled and driven by real-time gas and seismic monitoring.\n- **Covered by the same cancellation terms.** In the rare case a closure makes a program genuinely unworkable, the standard JVTO Lifetime Package Credit terms apply — see [Booking, Payment & Cancellation Policy](/policy/booking-payment-cancellation)."
+            "title": "How JVTO schedules around it.",
+            "body_md": "- **Checked before confirmation.** The TWA Ijen closure calendar is checked against your requested dates before any Ijen-inclusive itinerary is confirmed.\n- **Reordered, not cancelled.** If your preferred window contains the first Friday, the itinerary is resequenced — Bromo or Madakaripura moves first — so the closure falls on a day you were not ascending anyway. This is the same alternative-route approach used for alert-driven closures.\n- **Distinguished from safety closures.** Rijik is treated as a fixed conservation date, separate from PVMBG alert-status closures.\n- **Covered by the standard terms.** In the rare case a closure makes a programme genuinely unworkable, the JVTO Lifetime Package Credit terms apply — see [Booking, Payment & Cancellation Policy](/policy/booking-payment-cancellation)."
           }
         ],
-        "lastReviewed": "2026-08-07",
+        "lastReviewed": "2026-08-15",
         "owner": "health-safety",
         "reviewStatus": "domain-owner-assigned-by-audit"
       }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T08:24:23.630Z",
+  "generated_at": "2026-08-15T13:30:07.459Z",
   "routes": [
     {
       "route": "/blog/2026-06-11-ijen-medical-checkup-requirement",
@@ -142,11 +142,39 @@
       "schemaOutput": "5-experience-engine/json-ld/pages/travel-guide__weather-and-closures.schema-output.json"
     },
     {
+      "route": "/verify-jvto",
+      "domain": "verify-jvto",
+      "slug": "verify-jvto",
+      "websiteOutput": "5-experience-engine/public-website/pages/verify-jvto.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/verify-jvto.schema-output.json"
+    },
+    {
+      "route": "/verify-jvto/history-artifacts",
+      "domain": "verify-jvto",
+      "slug": "history-artifacts",
+      "websiteOutput": "5-experience-engine/public-website/pages/verify-jvto__history-artifacts.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/verify-jvto__history-artifacts.schema-output.json"
+    },
+    {
+      "route": "/verify-jvto/legal",
+      "domain": "verify-jvto",
+      "slug": "legal",
+      "websiteOutput": "5-experience-engine/public-website/pages/verify-jvto__legal.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/verify-jvto__legal.schema-output.json"
+    },
+    {
       "route": "/verify-jvto/police-safety",
       "domain": "verify-jvto",
       "slug": "police-safety",
       "websiteOutput": "5-experience-engine/public-website/pages/verify-jvto__police-safety.website-output.json",
       "schemaOutput": "5-experience-engine/json-ld/pages/verify-jvto__police-safety.schema-output.json"
+    },
+    {
+      "route": "/verify-jvto/press-recognition",
+      "domain": "verify-jvto",
+      "slug": "press-recognition",
+      "websiteOutput": "5-experience-engine/public-website/pages/verify-jvto__press-recognition.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/verify-jvto__press-recognition.schema-output.json"
     },
     {
       "route": "/why-jvto",

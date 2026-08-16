@@ -1,0 +1,134 @@
+{
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "verify-jvto",
+  "slug": "legal",
+  "route": "/verify-jvto/legal",
+  "meta": {
+    "route": "/verify-jvto/legal",
+    "title": "JVTO Legal Licenses & Verifiable Credentials",
+    "browserTitle": "Legal & Licenses — NIB, TDUP & PT Registration | JVTO",
+    "description": "JVTO legal documents: NIB 1102230032918, TDUP tourism licence, and PT Java Volcano Rendezvous registration — all verifiable on Indonesian government registries.",
+    "section": "verify-jvto",
+    "status": "published",
+    "owner": "legal",
+    "lastReviewed": "2026-08-06",
+    "schemaTypes": [
+      "WebPage"
+    ],
+    "faqKey": "verify-jvto-legal",
+    "summary": "PT Java Volcano Rendezvous's business registration, tourism licence, and association membership — each checkable on an independent government registry."
+  },
+  "seo": {
+    "title": "Legal & Licenses — NIB, TDUP & PT Registration | JVTO",
+    "description": "JVTO legal documents: NIB 1102230032918, TDUP tourism licence, and PT Java Volcano Rendezvous registration — all verifiable on Indonesian government registries.",
+    "canonicalRoute": "/verify-jvto/legal",
+    "schemaTypes": [
+      "WebPage"
+    ]
+  },
+  "content": {
+    "format": "structured-sections",
+    "payload": {
+      "lede": [
+        "The legal identity behind Java Volcano Tour Operator, published so you can confirm it yourself: NIB and TDUP under identifier 1102230032918, the PT registration, and HPWKI membership — all searchable on Indonesian government portals."
+      ],
+      "sections": [
+        {
+          "id": "business-registration-licensing-0",
+          "title": "Business Registration & Licensing",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "| Credential | Name | Reference | Issuing Authority | Status |\n|---|---|---|---|---|\n| **NIB** | Nomor Induk Berusaha | 1102230032918 | OSS Indonesia (Online Single Submission) | Active |\n| **TDUP** | Tanda Daftar Usaha Pariwisata | 1102230032918 | Kementerian Pariwisata dan Ekonomi Kreatif | Active |\n| **HPWKI** | Ijen Guide Association Membership | BBKSDA Jawa Timur supervised | AHU — Ministry of Law & Human Rights | Active |\n\nScanned copies of each document are in the evidence locker above, each carrying a published SHA-256 hash.\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "registered-legal-entity-1",
+          "title": "Registered Legal Entity — PT Java Volcano Rendezvous",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "- **Legal Name:** PT Java Volcano Rendezvous\n- **Brand:** Java Volcano Tour Operator (JVTO)\n- **NIB / TDUP:** 1102230032918\n- **PT formalization:** 2023 (TDUP issued 2023-02-11)\n- **Operations since:** 2015 (guesthouse era)\n- **Address:** Jl. Khairil Anwar No. 102A, Bondowoso, East Java 68214\n\n**Verify on the AHU registry.** The PT Java Volcano Rendezvous entry sits in the Administrasi Hukum Umum registry of the Ministry of Law & Human Rights (ahu.go.id) — an independent government database, not an operator-controlled page.\n\n**NIB issued via OSS.** The NIB was issued through the Online Single Submission (OSS) system — Indonesia's business registration portal under BKPM (oss.go.id) — where identifier 1102230032918 and KBLI codes 79121 (Travel Agency) and 79911 (Tour Operator) are searchable.\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "operational-continuity-address-anchor-2",
+          "title": "Operational Continuity — Same Address Since 2015",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "Before PT Java Volcano Rendezvous was formalized in 2023, the same operation ran at the same Bondowoso address as **Ijen Bondowoso Homestay**. The 2015 Booking.com Guest Review Award (9.4/10) was shipped to Jl. Khairil Anwar No.102, Bondowoso — the same street as today's PT office, demonstrating continuous operational presence across the guesthouse → PT → TDUP timeline.\n\nFounder Mr. Sam (Bripka Agung Sambuko) operated the guesthouse from 2015 and is named in the Stefan Loose Reiseführer Indonesien as the operator at the homestay address.\n\n**Audit disclosure — legacy OSS record.** A second NIB — 0220001393513 — may appear in legacy OSS portal records linked to JVTO. If you encounter it during verification, treat it as a possible legacy registration; the canonical active licence is 1102230032918 (shown in the credentials table above). Disclosed proactively for transparency: the legacy record has no impact on current operational status — TDUP, HPWKI, BBKSDA, ISIC, and INDECON registrations all reference the canonical NIB.\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "sha-256-forensic-anchors-3",
+          "title": "SHA-256 Forensic Anchors",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "Hashes are published at /llms.txt on the JVTO website. Download any document and compute its SHA-256 hash to verify the file has not been altered.\n\n| Asset | SHA-256 Hash |\n|---|---|\n| NIB 1102230032918 | `fa20dde31bb75e46b061ed14cc6d003f6960c02a9a82c20d8603b0cbf6f7b1b7` |\n| TDUP 1102230032918 | `27252d512ddfa74de22a3e3ec10aa3dd40ef88da3eb57349fcd2137411551ee3` |\n| HPWKI Approval | `ca1fb1a48b550a7748d400f165899f12a356e6941aacdde9c043427698aaf63b` |\n| SPRIN POLPAR | `03c8578dc22956faa366d957badecfe38868d4760359cd8059fb2d6b145dfeab` |\n| SPRIN WAL-TRAVEL 2024-02-12 | `179b061eae558943fdccc51d2ea3c8233a704b61f03ca3d212433f3e8d6f3bd3` |\n| Press — Detik.com 2021-03-14 | `b257b75b3d2b9edebf07c9af89a6c6aa9a4e01d6a716ef3f7c4ca75deda64b77` |\n| Press — Radar Jember 2021-03-24 | `2a60eb168274004283b2b9939ccbf5982c12a7db854fda014308a2494ee2abf4` |\n\n---"
+            }
+          ]
+        },
+        {
+          "id": "regulatory-compliance-chain-ijen-health-screening-4",
+          "title": "Regulatory Compliance Chain — Ijen Health Screening",
+          "blocks": [
+            {
+              "type": "markdown",
+              "body_md": "JVTO's legal credentials extend into operational health compliance. Under BBKSDA regulation SE.1658/KSA.9/2024, every visitor ascending Kawah Ijen must present a health certificate from a licensed clinic. JVTO coordinates this directly, end to end, with verifiable government-licensed parties:\n\n- **Regulation issuer — BBKSDA Jawa Timur.** Balai Besar Konservasi Sumber Daya Alam, the Ministry of Environment body managing the Ijen Crater nature reserve. It issued SE.1658/KSA.9/2024, the supporting authority for the mandatory pre-climb health certificate.\n- **JVTO coordination — Klinik Bakti Husada, Bondowoso.** A Ministry-of-Health-licensed clinic. Screening is conducted at the guest's hotel before the guide briefing and checks SpO₂ and blood pressure before ascent. The certificate is issued as a BSrE (Balai Sertifikasi Elektronik / BSSN) electronically-signed document — a legally valid e-signature under UU ITE, traceable to the doctor's SIP.\n- **Licensed physician — Dr. Ahmad Irwandanu.** SIP (Surat Izin Praktik) and KKI (Konsil Kedokteran Indonesia) registered; STR QN00001073380217 valid to 2031-01-06, independently verifiable via the national health registry at satusehat.kemkes.go.id.\n\nA valid certificate is checked at the crater gate (a BBKSDA requirement): no valid health certificate, no crater access. Full guest-facing detail is on the [Ijen health screening guide](/travel-guide/ijen-health-screening)."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
+  "source_trace": {
+    "source_files": [
+      "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/legal.json",
+      "1-knowledge-and-evidence-core/faqs/verify-jvto-legal.json"
+    ],
+    "confidence": "verified"
+  },
+  "faq": {
+    "key": "verify-jvto-legal",
+    "payload": {
+      "key": "verify-jvto-legal",
+      "items": [
+        {
+          "question": "How can I verify JVTO's NIB on a government registry?",
+          "answer": "NIB 1102230032918 is searchable at oss.go.id (the Indonesian Online Single Submission system). The PT Java Volcano Rendezvous AHU corporate registry entry (registered 8 February 2023) is accessible via the AHU portal — both are independent government databases, not operator-controlled pages. KBLI codes 79121 (Travel Agency) and 79911 (Tour Operator) are listed on the OSS profile."
+        },
+        {
+          "question": "What is the difference between NIB and TDUP?",
+          "answer": "NIB (Nomor Induk Berusaha) is the Indonesian Business Identification Number — required for all legal businesses. TDUP (Tanda Daftar Usaha Pariwisata) is the Tourism Business Registration Certificate, an additional sectoral licence required specifically for tour operators. JVTO holds both under identifier 1102230032918, with TDUP issued 2023-02-11 via OSS."
+        },
+        {
+          "question": "How does the medical screening partnership prove regulatory compliance?",
+          "answer": "BBKSDA Jawa Timur regulation SE.1658/KSA.9/2024 is the supporting authority requiring Ijen visitors to present a clinic-issued health certificate. JVTO's coordination with Dr. Ahmad Irwandanu (SIP verifiable on satusehat.kemkes.go.id) at Klinik Bakti Husada — itself a Ministry-of-Health-licensed clinic — proves the regulatory chain operates end-to-end with verifiable, government-licensed parties."
+        },
+        {
+          "question": "Are JVTO guides legally licensed to lead Ijen tours?",
+          "answer": "Yes. JVTO is an HPWKI member (Himpunan Pelaku Wisata Khusus Ijen — the Ijen guide association supervised by BBKSDA Jawa Timur). Each guide carries a KTA (Kartu Tanda Anggota) — the HPWKI-issued membership credential — and completes annual BBKSDA-supervised volcanic-safety training. HPWKI registration is verifiable on the AHU perkumpulan registry."
+        }
+      ],
+      "lastReviewed": "2026-08-07",
+      "owner": "knowledge-faq",
+      "reviewStatus": "domain-owner-assigned-by-audit"
+    }
+  }
+}

@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-15T08:24:23.630Z",
+  "generated_at": "2026-08-15T13:30:07.459Z",
   "mappings": [
     {
-      "source": "1-knowledge-and-evidence-core/blog/ijen-medical-checkup-requirement.source.json",
+      "source": "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/history-artifacts.source.json",
       "outputs": [
-        "5-experience-engine/public-website/pages/blog__2026-06-11-ijen-medical-checkup-requirement.website-output.json",
-        "5-experience-engine/json-ld/pages/blog__2026-06-11-ijen-medical-checkup-requirement.schema-output.json",
+        "5-experience-engine/public-website/pages/verify-jvto__history-artifacts.website-output.json",
+        "5-experience-engine/json-ld/pages/verify-jvto__history-artifacts.schema-output.json",
         "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
       ]
     },
     {
-      "source": "1-knowledge-and-evidence-core/blog/kawah-ijen-guide.source.json",
+      "source": "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/legal.source.json",
       "outputs": [
-        "5-experience-engine/public-website/pages/blog__2026-06-11-kawah-ijen-guide.website-output.json",
-        "5-experience-engine/json-ld/pages/blog__2026-06-11-kawah-ijen-guide.schema-output.json",
+        "5-experience-engine/public-website/pages/verify-jvto__legal.website-output.json",
+        "5-experience-engine/json-ld/pages/verify-jvto__legal.schema-output.json",
         "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
       ]
     },
@@ -26,18 +26,18 @@
       ]
     },
     {
-      "source": "1-knowledge-and-evidence-core/markets/malaysia.source.json",
+      "source": "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/press-recognition.source.json",
       "outputs": [
-        "5-experience-engine/public-website/pages/markets__malaysia.website-output.json",
-        "5-experience-engine/json-ld/pages/markets__malaysia.schema-output.json",
+        "5-experience-engine/public-website/pages/verify-jvto__press-recognition.website-output.json",
+        "5-experience-engine/json-ld/pages/verify-jvto__press-recognition.schema-output.json",
         "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
       ]
     },
     {
-      "source": "1-knowledge-and-evidence-core/markets/singapore.source.json",
+      "source": "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/verify-jvto.source.json",
       "outputs": [
-        "5-experience-engine/public-website/pages/markets__singapore.website-output.json",
-        "5-experience-engine/json-ld/pages/markets__singapore.schema-output.json",
+        "5-experience-engine/public-website/pages/verify-jvto.website-output.json",
+        "5-experience-engine/json-ld/pages/verify-jvto.schema-output.json",
         "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
       ]
     },

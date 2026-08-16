@@ -2,9 +2,9 @@
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
   "generated_at": "2026-08-15T13:30:07.459Z",
-  "route": "/why-jvto/our-team/joyo",
-  "domain": "why-jvto",
-  "slug": "our-team/joyo",
+  "route": "/verify-jvto/press-recognition",
+  "domain": "verify-jvto",
+  "slug": "press-recognition",
   "json_ld": {
     "@context": "https://schema.org",
     "@graph": [
@@ -165,52 +165,46 @@
               "value": "ca1fb1a48b550a7748d400f165899f12a356e6941aacdde9c043427698aaf63b"
             }
           }
-        ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": 4.9,
-          "reviewCount": 149,
-          "bestRating": 5,
-          "worstRating": 1
-        }
+        ]
       },
       {
-        "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/joyo#webpage",
+        "@id": "https://javavolcano-touroperator.com/verify-jvto/press-recognition#webpage",
         "@type": [
-          "ProfilePage"
+          "WebPage"
         ],
-        "name": "Joyo — JVTO Tour Driver",
-        "description": "Joyo is a KTA-holding JVTO tour driver for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
-        "url": "https://javavolcano-touroperator.com/why-jvto/our-team/joyo",
+        "name": "JVTO Press & Media Recognition",
+        "description": "Independent press coverage confirming JVTO's identity: Detik.com Tourist Police article, the Stefan Loose Indonesia guidebook, and the 2015 Booking.com Guest Review Award.",
+        "url": "https://javavolcano-touroperator.com/verify-jvto/press-recognition",
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         }
       },
       {
-        "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/joyo#person",
-        "@type": "Person",
-        "name": "Joyo",
-        "jobTitle": "driver",
-        "image": [
+        "@id": "https://javavolcano-touroperator.com/verify-jvto/press-recognition#faq",
+        "@type": "FAQPage",
+        "mainEntity": [
           {
-            "@type": "ImageObject",
-            "url": "/uploads/1768277336049-911840775-joyo.png",
-            "caption": "JVTO driver Joyo"
-          }
-        ],
-        "hasCredential": [
+            "@type": "Question",
+            "name": "Is JVTO featured in any independent travel guides?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Stefan Loose Reiseführer Indonesien: mit Reiseatlas — a German-language Indonesia travel guide — features Ijen Bondowoso Homestay (the founder's 2015 guesthouse, JVTO's historical anchor) on page 287 (ISBN-13 9783770167654). This is non-paid editorial coverage. Publication year and edition are not asserted."
+            }
+          },
           {
-            "@type": "EducationalOccupationalCredential",
-            "name": "HPWKI membership credential KTA-D-2024-011",
-            "credentialCategory": "HPWKI membership credential (KTA)",
-            "recognizedBy": {
-              "@type": "Organization",
-              "name": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)"
-            },
-            "identifier": {
-              "@type": "PropertyValue",
-              "propertyID": "KTA",
-              "value": "KTA-D-2024-011"
+            "@type": "Question",
+            "name": "Has the founder been profiled by national press?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Detik.com (one of Indonesia's largest news outlets) profiled Bripka Agung Sambuko in March 2021 in an article about Bondowoso Tourist Police. Radar Jember / Jawa Pos has also covered the formation of the POLPAR unit supporting Ijen Geopark, providing local-press context for the police-led safety model."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the Booking.com 2015 award and how is it evidence?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Booking.com issued a 2015 Guest Review Award (score 9.4/10) to the guesthouse operated at Jl. Khairil Anwar 102A, Bondowoso — JVTO's pre-incorporation address. The original plaque and shipping label are retained; the shipping label's delivery address matches today's PT office address, establishing unbroken address continuity from 2015 to the current registration."
             }
           }
         ]
@@ -218,14 +212,10 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-12T07:57:49.134Z",
     "source_files": [
-      "/Users/macbook/Code/jvto-web/content/entities/people.json",
-      "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
-      "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
-      "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
-      "https://javavolcano-touroperator.com/sitemap.xml"
+      "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/press-recognition.json",
+      "1-knowledge-and-evidence-core/faqs/verify-jvto-press-recognition.json"
     ],
-    "migration_note": "Created to align JVTO Operating Ecosystem source routes with the live jvto-web public Why JVTO crew detail pages. Personal phone fields from the team content source are intentionally excluded because the live detail page does not render them."
+    "confidence": "verified"
   }
 }

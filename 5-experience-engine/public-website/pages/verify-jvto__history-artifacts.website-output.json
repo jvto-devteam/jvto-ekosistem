@@ -1,0 +1,84 @@
+{
+  "schema_version": "jvto/output/public-website-page/v1",
+  "output_type": "public_website_page",
+  "generated_at": "2026-08-15T13:30:07.459Z",
+  "route": "/verify-jvto/history-artifacts",
+  "domain": "verify-jvto",
+  "slug": "history-artifacts",
+  "status": "published",
+  "seo": {
+    "title": "History Artifacts — Documented JVTO Origins Since 2015 | JVTO",
+    "description": "Historical records and artifacts documenting JVTO's operational continuity from the 2015 guesthouse era through PT formalization.",
+    "canonicalRoute": "/verify-jvto/history-artifacts",
+    "schemaTypes": [
+      "WebPage"
+    ]
+  },
+  "page": {
+    "title": "History Artifacts: Documented Origins Since 2015",
+    "summary": "An artifact-anchored timeline of JVTO's continuity — same address, same founder, same operation — from the 2015 guesthouse era to today.",
+    "owner": "editorial",
+    "lastReviewed": "2026-08-06",
+    "content": {
+      "format": "structured-sections",
+      "payload": {
+        "lede": [
+          "Continuity you can observe, not just claims: the same address, the same founder, and the same operation, documented from the 2015 guesthouse era through PT formalization to today."
+        ],
+        "sections": [
+          {
+            "id": "operational-continuity-timeline-0",
+            "title": "Operational Continuity — Artifact-Anchored Timeline",
+            "blocks": [
+              {
+                "type": "markdown",
+                "body_md": "- **2015 — Booking.com Guest Review Award.** Score 9.4/10, independently calculated by Booking.com. Issued to the guesthouse at Jl. Khairil Anwar 102A, Bondowoso. Physical plaque and award letter retained on-site.\n- **Guesthouse era — Stefan Loose Travel Guide, first mention.** The earliest European travel-guide editorial citation naming the founder as operator for Ijen crater tours — pre-digital corroboration from an independent editorial source. Publication year and edition are not asserted.\n- **2021 — Detik.com press article.** \"Suka Duka Polisi Pariwisata Bondowoso\" — national-reach press coverage identifying the founder (Bripka Agung Sambuko) in his Tourist Police role, independently confirming the police-led model. [Read article on Detik.com](https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin)\n- **2023 — PT Java Volcano Rendezvous formalized.** NIB 1102230032918 registered via OSS Indonesia; TDUP tourism licence issued 2023-02-11 by the Ministry of Tourism. All registrations publicly verifiable. [Verify PT on the AHU registry](/verify-jvto/legal)\n- **Today — Active licensed operator.** PT Java Volcano Rendezvous operates under NIB + TDUP No. 1102230032918, HPWKI-certified guides, a registered ISIC provider listing (Provider ID 259268), and an INDECON network listing. Led by an active Tourist Police officer. [See full credential verification](/verify-jvto/legal)\n\n---"
+              }
+            ]
+          },
+          {
+            "id": "continuity-note-1",
+            "title": "Continuity Note",
+            "blocks": [
+              {
+                "type": "markdown",
+                "body_md": "**Same address. Same founder. Same operation.**\n\nThe Booking.com award (2015), the Stefan Loose travel-guide mention (guesthouse era), the Detik.com press article (2021), and the PT registration (2023) all reference the same location — Jl. Khairil Anwar 102A, Bondowoso — and the same person, Agung Sambuko. Continuity is observable, not just claimed."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "faq": {
+      "key": "verify-jvto-history-artifacts",
+      "payload": {
+        "items": [
+          {
+            "question": "Why treat artifacts as part of trust?",
+            "answer": "Because continuity is verifiable where marketing is not. A physical Booking.com plaque from 2015, an editorial guidebook citation, a national press article, and a government PT registration all point to the same address and the same founder — an evidence trail a traveller can cross-check, not a claim they have to take on faith."
+          },
+          {
+            "question": "Does JVTO assert a specific incorporation year?",
+            "answer": "No. JVTO's brand and operation date from 2015 (the guesthouse era), and the PT was formalized in 2023 — evidenced by the TDUP tourism licence issued 2023-02-11 and NIB 1102230032918. JVTO does not assert a separate PT incorporation date, because no authoritative incorporation document supports one."
+          },
+          {
+            "question": "What should I read after this page?",
+            "answer": "For the underlying documents and independent verification links, see Legal & Licenses (/verify-jvto/legal), Police & Safety (/verify-jvto/police-safety), and Press & Recognition (/verify-jvto/press-recognition)."
+          }
+        ]
+      }
+    }
+  },
+  "render_contract": {
+    "consumer": "jvto-web",
+    "route_level_payload": true,
+    "website_should_not_resolve_raw_sources": true
+  },
+  "source_trace": {
+    "source_files": [
+      "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/history-artifacts.json",
+      "1-knowledge-and-evidence-core/faqs/verify-jvto-history-artifacts.json"
+    ],
+    "confidence": "verified"
+  }
+}
