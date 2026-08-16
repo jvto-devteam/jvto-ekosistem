@@ -1,0 +1,242 @@
+{
+  "schema_version": "jvto/output/public-website-page/v1",
+  "output_type": "public_website_page",
+  "generated_at": "2026-08-15T07:58:45.564Z",
+  "route": "/markets/malaysia",
+  "domain": "markets",
+  "slug": "malaysia",
+  "status": "published",
+  "seo": {
+    "title": "Bromo & Ijen Tours for Malaysia Travelers | Private East Java Volcano Tours | JVTO",
+    "description": "Private Bromo, Ijen, Tumpak Sewu and Papuma tours for Malaysia travelers. Start from Surabaya or Bali, pay in IDR, verify JVTO licenses and reviews.",
+    "canonicalRoute": "/markets/malaysia",
+    "schemaTypes": [
+      "WebPage"
+    ]
+  },
+  "page": {
+    "title": "Bromo & Ijen Tours for Malaysia Travelers | Private East Java Volcano Tours | JVTO",
+    "summary": "Geographic landing page for Malaysia travelers: entry routing (Bali vs Surabaya), comparable packages, logistics, trust signals, and reviews.",
+    "owner": "growth",
+    "lastReviewed": "2026-08-15",
+    "content": {
+      "format": "structured",
+      "payload": {
+        "key": "malaysia",
+        "country": "Malaysia",
+        "demonym": "Malaysian",
+        "route": "/markets/malaysia",
+        "title": "Bromo & Ijen Tours for Malaysia Travelers | Private East Java Volcano Tours | JVTO",
+        "description": "Private Bromo, Ijen, Tumpak Sewu and Papuma tours for Malaysia travelers. Start from Surabaya or Bali, pay in IDR, verify JVTO licenses and reviews.",
+        "h1": "Bromo & Ijen Private Tours for Malaysia Travelers",
+        "supportLine": "Pakej peribadi ke Gunung Bromo, Kawah Ijen, Tumpak Sewu & Papuma — kenderaan sendiri, feri diuruskan, harga jelas, dan syarikat pelancongan yang boleh disahkan.",
+        "subheadline": "Fly from Malaysia to Bali or Surabaya, then let a private JVTO crew handle the whole East Java crossing — managed ferry, direct driver handovers, and one all-inclusive itinerary with no self-planning.",
+        "credibilityLine": "Licensed Indonesian tour operator · PT Java Volcano Rendezvous · NIB 1102230032918 · Trustpilot 4.8/5 (51) · Google 4.9/5 (123) · TripAdvisor 4.95/5 (21) · Founded 2015",
+        "lead": "Malaysian travelers want convenience: managed ferry crossings, direct driver handovers, and an all-inclusive package that removes cross-island planning. JVTO runs private tours only and books the Java–Bali ferry, permits, and hotels for you. AirAsia and other carriers connect Kuala Lumpur to both Denpasar (DPS) and Surabaya (SUB), so you can start in one and finish in the other without backtracking.",
+        "entryHeading": "Best route from Malaysia: Bali arrival or Surabaya arrival?",
+        "entryChoices": [
+          {
+            "flightPlan": "Kuala Lumpur (KUL) → Surabaya (SUB)",
+            "start": "Surabaya",
+            "why": "Shortest land transfer to Bromo and Ijen; the simplest all-East-Java itinerary.",
+            "route": "3D2N Ijen + Bromo + Madakaripura, or 4D Ijen + Papuma + Tumpak Sewu + Bromo"
+          },
+          {
+            "flightPlan": "Kuala Lumpur (KUL) → Bali / Denpasar (DPS)",
+            "start": "Bali",
+            "why": "Combine the volcanoes with a Bali stay; managed ferry crossing to Java.",
+            "route": "3D2N Bromo + Ijen (Bali return), or 4D Bali → Surabaya circuit"
+          },
+          {
+            "flightPlan": "KL → Bali, depart from Surabaya (or the reverse)",
+            "start": "One-way overland",
+            "why": "Avoids repeating the Bali–Java crossing; JVTO handles the handover between islands.",
+            "route": "Bali → Ijen → Papuma → Tumpak Sewu → Bromo → Surabaya"
+          }
+        ],
+        "entryNote": "AirAsia flies KUL to both Denpasar and Surabaya. Confirm the exact airline schedule before buying non-refundable flights.",
+        "packagesHeading": "Routes Malaysian travelers usually compare",
+        "packagesIntro": "All prices are official JVTO direct rates in IDR per person (based on 2 travelers). OTA retail prices may differ because of platform markup. JVTO confirms the final price in writing before payment.",
+        "packages": [
+          {
+            "name": "2 Day Ijen Blue Fire Expedition",
+            "path": "/tours/from-surabaya/ijen-2d1n",
+            "startFinish": "Surabaya → Surabaya",
+            "duration": "2D1N",
+            "bestFor": "Short trip, Ijen-focused",
+            "priceIdr": 2300000,
+            "priceLabel": "IDR 2,300,000 / person (2 pax)"
+          },
+          {
+            "name": "3 Day Ijen, Bromo & Madakaripura",
+            "path": "/tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
+            "startFinish": "Surabaya → Surabaya",
+            "duration": "3D2N",
+            "bestFor": "Classic volcano + waterfall loop",
+            "priceIdr": 3570000,
+            "priceLabel": "IDR 3,570,000 / person (2 pax)"
+          },
+          {
+            "name": "3 Day Bromo & Ijen Volcano Discovery",
+            "path": "/tours/from-bali/bromo-ijen-3d2n",
+            "startFinish": "Bali → Bali",
+            "duration": "3D2N",
+            "bestFor": "Bali holiday add-on",
+            "priceIdr": 4050000,
+            "priceLabel": "IDR 4,050,000 / person (2 pax)"
+          },
+          {
+            "name": "4 Day Ijen, Papuma, Tumpak Sewu & Bromo",
+            "path": "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
+            "startFinish": "Surabaya → Surabaya",
+            "duration": "4D3N",
+            "bestFor": "Full coast + waterfall + volcano circuit",
+            "priceIdr": 4550000,
+            "priceLabel": "IDR 4,550,000 / person (2 pax)"
+          }
+        ],
+        "inclusions": [
+          "Private air-conditioned vehicle for your group only — no public join-in van.",
+          "English-speaking crew: driver-guide for small groups; driver plus escort guide for larger groups.",
+          "Licensed local site guides at key locations.",
+          "Entrance fees and national-park permits for the confirmed itinerary.",
+          "Accommodation with breakfast on all overnight routes.",
+          "Private Bromo 4WD jeep when Bromo is included.",
+          "Gas mask and trekking poles for Ijen routes.",
+          "Ijen health-certificate coordination — mandatory for every guest (BBKSDA SE.1658/KSA.9/2024).",
+          "Java–Bali ferry ticket when a Bali crossing is part of the itinerary.",
+          "Daily bottled mineral water in the vehicle, and an official e-voucher / invoice PDF after payment."
+        ],
+        "notIncluded": "Not included by default: international/domestic flights, travel insurance, visa/e-VOA fees, tips, souvenirs, personal snacks and drinks, and anything not written on the official voucher.",
+        "logistics": [
+          {
+            "question": "Do you manage the ferry and cross-island transfers?",
+            "answer": "Yes. JVTO pre-books the Java–Bali ferry, handles the vehicle crossing, and manages the driver handover so your journey between islands is a single managed transfer written into your e-voucher."
+          },
+          {
+            "question": "Is halal food available on tour?",
+            "answer": "East Java is a predominantly Muslim region, and most local restaurants and hotels used on JVTO routes serve halal food. Tell JVTO your dietary requirement on WhatsApp when booking so meal stops are planned accordingly."
+          },
+          {
+            "question": "Can I pay in MYR?",
+            "answer": "JVTO official pricing and accounting are in IDR. Cards, banks, or OTAs may display or settle in another currency, but JVTO’s direct quote is IDR-based."
+          }
+        ],
+        "trustRows": [
+          {
+            "signal": "Registered legal company",
+            "detail": "PT Java Volcano Rendezvous"
+          },
+          {
+            "signal": "NIB / TDUP",
+            "detail": "1102230032918 — verifiable via OSS Indonesia"
+          },
+          {
+            "signal": "Founder",
+            "detail": "Bripka Agung Sambuko, active Tourist Police officer (Ditpamobvit)"
+          },
+          {
+            "signal": "Reviews",
+            "detail": "Trustpilot 4.8/5 (51), Google 4.9/5 (123), TripAdvisor 4.95/5 (21) — 195 total"
+          },
+          {
+            "signal": "Ijen specialist credential",
+            "detail": "HPWKI membership, BBKSDA-supervised safety training"
+          },
+          {
+            "signal": "Student verification",
+            "detail": "ISIC Provider ID 259268"
+          }
+        ],
+        "reviewsHeading": "What Malaysian travelers say",
+        "reviews": [
+          {
+            "quote": "Well organized from pick-up to send off. Great assistance from both Yandi and Boy. The visit to Mt Ijen, Mt Bromo and especially Madakaripura was well organized and a must see.",
+            "author": "Nazeem Nasir",
+            "platform": "Trustpilot"
+          }
+        ],
+        "primaryCtas": [
+          {
+            "label": "3D2N Ijen, Bromo & Madakaripura from Surabaya",
+            "href": "/tours/from-surabaya/ijen-bromo-madakaripura-3d2n"
+          },
+          {
+            "label": "3D2N Bromo & Ijen from Bali",
+            "href": "/tours/from-bali/bromo-ijen-3d2n"
+          },
+          {
+            "label": "See all Surabaya-origin tours",
+            "href": "/tours/from-surabaya"
+          }
+        ],
+        "trustLinks": [
+          {
+            "label": "Verify legal documents",
+            "href": "/verify-jvto/legal"
+          },
+          {
+            "label": "Police & safety credentials",
+            "href": "/verify-jvto/police-safety"
+          },
+          {
+            "label": "Press recognition",
+            "href": "/verify-jvto/press-recognition"
+          },
+          {
+            "label": "Guest reviews",
+            "href": "/why-jvto/reviews"
+          },
+          {
+            "label": "Booking, payment & cancellation policy",
+            "href": "/policy/booking-payment-cancellation"
+          }
+        ]
+      }
+    },
+    "faq": {
+      "key": "markets-malaysia",
+      "payload": {
+        "items": [
+          {
+            "question": "Is there a private Bromo and Ijen tour from Bali or Surabaya for Malaysians?",
+            "answer": "Yes. JVTO offers private 3-day (3D2N) Bromo and Ijen tours from both Bali and Surabaya, plus longer Ijen–Papuma–Tumpak Sewu–Bromo circuits. All tours are fully private and all-inclusive: transport, driver, guide, accommodation with breakfast, park permits, Bromo 4WD jeep, Ijen gas masks, and the Java–Bali ferry when the route crosses islands."
+          },
+          {
+            "question": "Should Malaysian travelers fly to Bali (DPS) or Surabaya (SUB)?",
+            "answer": "Both work — AirAsia and other carriers fly from Kuala Lumpur to both Denpasar (DPS) and Surabaya (SUB). Choose Surabaya for the shortest transfer to Bromo and Ijen; choose Bali if you want to combine the volcanoes with a Bali stay. JVTO can start in one city and finish in the other so you avoid backtracking."
+          },
+          {
+            "question": "Does JVTO manage the ferry and cross-island transfers?",
+            "answer": "Yes. JVTO pre-books the Java–Bali ferry, handles the vehicle crossing, and manages the driver handover directly, so Malaysian travelers get a single managed journey with no self-planning between islands. Every transfer is written into your e-voucher."
+          },
+          {
+            "question": "Is halal food available on JVTO tours?",
+            "answer": "East Java is a predominantly Muslim region, and most local restaurants and hotels used on JVTO routes serve halal food. Tell JVTO your dietary requirement on WhatsApp when you book so meal stops are planned accordingly."
+          },
+          {
+            "question": "Will we definitely see the Ijen Blue Fire?",
+            "answer": "Not always. Blue Fire is a natural phenomenon subject to weather and gas activity, visible pre-dawn in suitable conditions only — it can never be promised in advance. JVTO plans around the window and follows all BBKSDA safety rules at the crater."
+          },
+          {
+            "question": "Are JVTO tours private, and is JVTO a registered operator?",
+            "answer": "Every JVTO tour is private — your own vehicle, driver, and guide, never a shared group. JVTO operates as PT Java Volcano Rendezvous (NIB / TDUP 1102230032918), founded by an active Tourist Police officer, with credentials verifiable on Indonesian government registries before you pay."
+          }
+        ]
+      }
+    }
+  },
+  "render_contract": {
+    "consumer": "jvto-web",
+    "route_level_payload": true,
+    "website_should_not_resolve_raw_sources": true
+  },
+  "source_trace": {
+    "generated_at": "2026-08-15T00:00:00.000Z",
+    "source_files": [
+      "src/lib/marketContent.ts (jvto-web, pre-migration)",
+      "src/lib/marketFaqs.ts (jvto-web, pre-migration)"
+    ],
+    "migration_note": "Migrated from hardcoded TS constant, part of data-source consolidation."
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "_comment": "Stable organization facts (AD-03). Values copied verbatim from the approved sources (docs/CANONICAL_FACTS.md + src/lib/schemas/entityGraph.ts). No PT incorporation year is asserted (owner decision 2026-08-03) — foundingDate 2015 is the brand/guesthouse era; 2023 is TDUP formalization. aggregateRating intentionally omitted — Trustpilot count differs between review-platforms.json and jvto-web/src/lib/jvtoReviews.ts, needs owner reconciliation before this node can cite a number.",
+  "_comment": "Stable organization facts (AD-03). Values copied verbatim from the approved sources (docs/CANONICAL_FACTS.md + src/lib/schemas/entityGraph.ts). No PT incorporation year is asserted (owner decision 2026-08-03) — foundingDate 2015 is the brand/guesthouse era; 2023 is TDUP formalization. aggregateRating sourced from Google Maps only (owner decision 2026-08-15) — Trustpilot count still differs between review-platforms.json (51) and jvto-web/src/lib/jvtoReviews.ts (44), so Trustpilot is intentionally excluded from this node; Google Maps has no such conflict (live-verified 2026-08-15 against the production AggregateRating node, matches review-platforms.json profiles[].platform=='Google Maps').",
   "legalName": "PT Java Volcano Rendezvous",
   "brandName": "Java Volcano Tour Operator",
   "shortName": "JVTO",
@@ -114,6 +114,15 @@
       "publisherName": "DuMont Reiseverlag"
     }
   ],
+  "aggregateRating": {
+    "ratingValue": 4.9,
+    "reviewCount": 149,
+    "bestRating": 5,
+    "worstRating": 1,
+    "source": "Google Maps",
+    "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021",
+    "verifiedAt": "2026-08-15"
+  },
   "bookingChannel": "Website only — bookings are created, confirmed, modified, cancelled, and transferred only on javavolcano-touroperator.com; WhatsApp and email are support channels.",
   "lastReviewed": "2026-08-04",
   "owner": "organization-identity",

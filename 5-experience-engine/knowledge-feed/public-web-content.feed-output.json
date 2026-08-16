@@ -5,6 +5,72 @@
   "record_count": 38,
   "records": [
     {
+      "route": "/blog/2026-06-11-ijen-medical-checkup-requirement",
+      "domain": "blog",
+      "slug": "ijen-medical-checkup-requirement",
+      "title": "Why Ijen Trekking Requires a Medical Checkup — And What Actually Happens",
+      "summary": "Before you hike Kawah Ijen, a local health certificate is mandatory for every guest under BBKSDA regulations. Here's what the screening involves, who issues it, and what happens if you don't pass.",
+      "status": "published",
+      "owner": "content",
+      "lastReviewed": "2026-06-11",
+      "outputTargets": [],
+      "sourceFiles": [
+        "src/data/blog/2026-06-11-ijen-medical-checkup-requirement.md (jvto-web, pre-migration)"
+      ]
+    },
+    {
+      "route": "/blog/2026-06-11-kawah-ijen-guide",
+      "domain": "blog",
+      "slug": "kawah-ijen-guide",
+      "title": "Your Complete Kawah Ijen Guide: Blue Fire, Health & Safety",
+      "summary": "Everything you need to know before hiking Kawah Ijen — blue fire timing, health requirements, safety zones, and what to expect from a police-led private tour.",
+      "status": "published",
+      "owner": "content",
+      "lastReviewed": "2026-06-11",
+      "outputTargets": [],
+      "sourceFiles": [
+        "src/data/blog/2026-06-11-kawah-ijen-guide.md (jvto-web, pre-migration)"
+      ]
+    },
+    {
+      "route": "/markets/malaysia",
+      "domain": "markets",
+      "slug": "malaysia",
+      "title": "Bromo & Ijen Tours for Malaysia Travelers | Private East Java Volcano Tours | JVTO",
+      "summary": "Geographic landing page for Malaysia travelers: entry routing (Bali vs Surabaya), comparable packages, logistics, trust signals, and reviews.",
+      "status": "published",
+      "owner": "growth",
+      "lastReviewed": "2026-08-15",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "src/lib/marketContent.ts (jvto-web, pre-migration)",
+        "src/lib/marketFaqs.ts (jvto-web, pre-migration)"
+      ]
+    },
+    {
+      "route": "/markets/singapore",
+      "domain": "markets",
+      "slug": "singapore",
+      "title": "Bromo & Ijen Tours for Singapore Travelers | Private East Java Volcano Tours | JVTO",
+      "summary": "Geographic landing page for Singapore travelers: entry routing (Bali vs Surabaya), comparable packages, logistics, trust signals, and reviews.",
+      "status": "published",
+      "owner": "growth",
+      "lastReviewed": "2026-08-15",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "src/lib/marketContent.ts (jvto-web, pre-migration)",
+        "src/lib/marketFaqs.ts (jvto-web, pre-migration)"
+      ]
+    },
+    {
       "route": "/policy",
       "domain": "policy",
       "slug": "index",

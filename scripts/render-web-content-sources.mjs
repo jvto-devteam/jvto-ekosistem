@@ -11,6 +11,8 @@ const SOURCE_DIRS = [
   "1-knowledge-and-evidence-core/travel-guide",
   "1-knowledge-and-evidence-core/why-jvto",
   "1-knowledge-and-evidence-core/policies",
+  "1-knowledge-and-evidence-core/markets",
+  "1-knowledge-and-evidence-core/blog",
   "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages"
 ];
 let peopleCache = null;
@@ -106,6 +108,9 @@ function buildWebsiteOutput(source) {
       ...(source.meta?.answerFirst ? { answerFirst: source.meta.answerFirst } : {}),
       owner: source.meta?.owner || "",
       lastReviewed: source.meta?.lastReviewed || "",
+      ...(source.meta?.tags ? { tags: source.meta.tags } : {}),
+      ...(source.meta?.estimatedReadMin ? { estimated_read_min: source.meta.estimatedReadMin } : {}),
+      ...(source.meta?.bannerImage ? { banner_image: source.meta.bannerImage } : {}),
       content: source.content,
       faq: normalizeFaqForOutput(source.faq)
     },
