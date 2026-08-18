@@ -59,7 +59,135 @@
             }
           ]
         }
-      ]
+      ],
+      "pageContent": {
+        "heroStats": [
+          {
+            "label": "Earliest record",
+            "value": "2015"
+          },
+          {
+            "label": "Web snapshots",
+            "value": "27+"
+          },
+          {
+            "label": "Press references",
+            "value": "8"
+          },
+          {
+            "label": "Audit trail",
+            "value": "Wayback Machine"
+          }
+        ],
+        "articleIntro": "JVTO is not a new operator. We have a documented operational history dating to 2015, with public web archives that anyone can audit.",
+        "timeline": [
+          {
+            "year": "'15",
+            "h4": "2015",
+            "p": "Ijen Bondowoso Homestay opens on Jl. Khairil Anwar No.102. Booking.com guest score 9.4/10; award shipped to the Bondowoso address."
+          },
+          {
+            "year": "'16",
+            "h4": "2016",
+            "p": "PT Java Volcano Rendezvous incorporated 2016-01-01 at the same address."
+          },
+          {
+            "year": "'18",
+            "h4": "2018",
+            "p": "Stefan Loose Reiseführer Indonesien (4th ed., ISBN 978-3-7701-7881-0, p. 287) names \"Agung\" as operator."
+          },
+          {
+            "year": "'21",
+            "h4": "2021",
+            "p": "Independent press: Detik.com (2021-03-14) and Radar Jember (2021-03-24) name Bripka Agung Sambuko in Tourist Police duties."
+          },
+          {
+            "year": "'23",
+            "h4": "2023",
+            "p": "TDUP formalized 2023-02-11. NIB 1102230032918 OSS-verifiable."
+          },
+          {
+            "year": "'26",
+            "h4": "2026",
+            "p": "16 private itineraries; a 14-person named crew (11 KTA-confirmed); coordinated Ijen health screening with a licensed physician."
+          }
+        ],
+        "recognitionIntro": "Two pieces of dated, third-party recognition bracket the guesthouse-to-PT transition — both tied to the same Bondowoso address.",
+        "recognitionDataBox": [
+          {
+            "k": "Booking.com Guest Review Award",
+            "v": "9.4 / 10 · 2015"
+          },
+          {
+            "k": "Awarded to",
+            "v": "Ijen Bondowoso Homestay"
+          },
+          {
+            "k": "Stefan Loose Reiseführer",
+            "v": "4th ed. · 2018 · p. 287"
+          },
+          {
+            "k": "ISBN",
+            "v": "978-3-7701-7881-0"
+          }
+        ],
+        "recognitionAfterSegments": [
+          {
+            "text": "The 2015 Booking.com award was shipped to "
+          },
+          {
+            "text": "\"Agung, Jl. Khairil Anwar No.102, Bondowoso\"",
+            "strong": true
+          },
+          {
+            "text": " — the same address line as today's PT office. That shipping label is the continuity anchor: it places the founder, the name, and the address together a full year before PT Java Volcano Rendezvous was incorporated. The Stefan Loose guidebook then names \"Agung\" as the operator of Ijen Bondowoso Homestay, confirming an international reputation in print well before any social media existed. Both artifacts are catalogued on the "
+          },
+          {
+            "text": "Press & Recognition page",
+            "href": "/verify-jvto/press-recognition"
+          },
+          {
+            "text": "."
+          }
+        ],
+        "recognitionImages": [
+          {
+            "src": "/history/booking-2015-plaque.jpg",
+            "alt": "Booking.com Guest Review Award 2015 plaque — Ijen Bondowoso Homestay"
+          },
+          {
+            "src": "/history/booking-2015-shipping-label.jpg",
+            "alt": "Booking.com award shipping label addressed to Agung, Jl. Khairil Anwar No.102, Bondowoso"
+          },
+          {
+            "src": "/history/stefan_loose_crop_enh.jpg",
+            "alt": "Stefan Loose Reiseführer Indonesien — Agung / Ijen Bondowoso Homestay entry"
+          },
+          {
+            "src": "/history/guest-visit-ijen-bondowoso-homestay-stefan-loose-inspired.jpg",
+            "alt": "Mr. Sam with guests at Ijen Bondowoso Homestay"
+          }
+        ],
+        "archiveIntroSegments": [
+          {
+            "text": "The Wayback Machine (web.archive.org) holds 27+ snapshots of "
+          },
+          {
+            "text": "javavolcano-touroperator.com",
+            "strong": true
+          },
+          {
+            "text": " dating from 2016 forward. Anyone can audit:"
+          }
+        ],
+        "archiveList": [
+          "Domain age and continuity",
+          "Founder name consistency",
+          "Address consistency",
+          "NIB displayed after 2016 incorporation"
+        ],
+        "rulesOutText": "The Wayback footprint rules out the \"scammer registered a domain last month\" pattern. Anyone running a years-long operation under one name, at one address, with one founder, is publicly auditable. Anyone who isn't, isn't."
+      }
     }
   },
   "output_targets": [

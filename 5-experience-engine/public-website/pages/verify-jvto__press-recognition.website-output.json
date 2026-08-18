@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-18T23:40:53.713Z",
+  "generated_at": "2026-08-18T23:50:26.968Z",
   "route": "/verify-jvto/press-recognition",
   "domain": "verify-jvto",
   "slug": "press-recognition",
@@ -66,7 +66,194 @@
               }
             ]
           }
-        ]
+        ],
+        "pageContent": {
+          "heroStats": [
+            {
+              "label": "Press articles",
+              "value": "4 independent"
+            },
+            {
+              "label": "Newsrooms",
+              "value": "3 unrelated"
+            },
+            {
+              "label": "Latest",
+              "value": "2024 (BBKSDA)"
+            },
+            {
+              "label": "Paid placements",
+              "value": "0"
+            }
+          ],
+          "articleIntro": "JVTO does not run paid press placements. Every reference below is independently authored — three unrelated journalists, a government conservation agency, and a German travel publisher — none of them paid, all of them link-checkable.",
+          "pressCoverageIntro": "The first three articles form a cross-corroboration of the same person — Bripka Agung Sambuko — across separate newsrooms. The fourth is the park authority itself documenting the training chain JVTO's guides belong to.",
+          "pressCoverageTable": [
+            {
+              "date": "2021-03-14",
+              "pub": "Detik.com",
+              "title": "\"Suka Duka Polisi Pariwisata Bondowoso.\"",
+              "body": "Indonesia's top-traffic news outlet quotes Bripka Agung Sambuko as active Tourist Police during a COVID-19 overnight deployment at Kawah Wurung.",
+              "link": {
+                "text": "Read →",
+                "href": "https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin"
+              },
+              "note": null
+            },
+            {
+              "date": "2021-03-24",
+              "pub": "Radar Jember",
+              "title": "\"Polpar Dibentuk untuk Mendukung Ijen Geopark.\"",
+              "body": "Regional press reports the Tourist Police unit was formed specifically to support the Ijen Geopark — confirming the role is institutional.",
+              "link": null,
+              "note": "(paywalled)"
+            },
+            {
+              "date": "2021-05-27",
+              "pub": "Radar Jember",
+              "title": "\"Tak Seharusnya Bau Menyengat Itu Ada.\"",
+              "body": "Active Tourist Police patrol at the Ijen crater, monitoring sulfuric-odor conditions and visitor safety.",
+              "link": null,
+              "note": "(paywalled)"
+            },
+            {
+              "date": "2024-05-24",
+              "pub": "BBKSDA Jawa Timur",
+              "title": "\"Pelatihan Pemandu Kawah Ijen.\"",
+              "body": "The park authority's own report on a 3-day guide training (SAR + emergency medical) for HPWKI members at Paltuding — proof HPWKI membership equals government-supervised training.",
+              "link": {
+                "text": "Read →",
+                "href": "https://bbksdajatim.org/pelatihan-pemandu-kawah-ijen/"
+              },
+              "note": null
+            }
+          ],
+          "quote": "\"Ya mau gimana lagi, Mas. Sudah tugas. Yang penting, masyarakat yang berwisata aman.\"",
+          "quoteAttribution": "— Bripka Agung Sambuko, Detik.com, 14 March 2021.",
+          "pressScreenshots": [
+            {
+              "src": "/press/screencapture-news-detik-berita-jawa-timur-d-5492690-suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin-2026-01-14-02_48_41.png",
+              "label": "Detik.com · 14 March 2021",
+              "href": "https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin"
+            },
+            {
+              "src": "/press/screenshot-radarjember.jawapos.com-polpar-dibentuk-untuk-mendukung-ijen-geopark.png",
+              "label": "Radar Jember · 24 March 2021",
+              "href": "https://radarjember.jawapos.com"
+            }
+          ],
+          "crossCorroborationIntro": "Three unrelated journalists, across two newsrooms, independently named the same officer in Tourist Police contexts — with no JVTO involvement in any of them. This is the standard for confidence: it is not JVTO claiming police status; it is the press, the park authority, and a travel publisher converging on the same person.",
+          "sourceIndependenceTable": [
+            {
+              "source": "Detik.com",
+              "independence": "National commercial media"
+            },
+            {
+              "source": "Radar Jember (×2)",
+              "independence": "Regional commercial media (Jawa Pos group)"
+            },
+            {
+              "source": "BBKSDA Jatim",
+              "independence": "Government conservation agency"
+            },
+            {
+              "source": "Stefan Loose",
+              "independence": "International travel publisher"
+            }
+          ],
+          "guidebookSegments": [
+            {
+              "text": "Stefan Loose Reiseführer Indonesien",
+              "strong": true
+            },
+            {
+              "text": ", 4th Edition (DuMont Reiseverlag, 2018, ISBN 978-3-7701-7881-0), names \"Agung\" as the operator of Ijen Bondowoso Homestay on "
+            },
+            {
+              "text": "page 287",
+              "strong": true
+            },
+            {
+              "text": " — an editorial recommendation in a major German-language travel guide, not a paid placement. It establishes that the founder was operating and attracting international visitors before any digital marketing existed."
+            }
+          ],
+          "guidebookImages": [
+            {
+              "src": "/history/stefan-loose-ijen-bondowoso-page.png",
+              "alt": "Stefan Loose Reiseführer Indonesien page 287 — Ijen Bondowoso Homestay entry"
+            },
+            {
+              "src": "/history/stefan_loose_crop_enh.jpg",
+              "alt": "Close-up of Stefan Loose guide entry naming Agung as operator"
+            }
+          ],
+          "partnershipTable": [
+            {
+              "partner": "HPWKI",
+              "segments": [
+                {
+                  "text": "State-recognized Ijen guide association · "
+                },
+                {
+                  "text": "AHU-0001072.AH.01.07.TAHUN 2024",
+                  "mono": true
+                },
+                {
+                  "text": ". Membership = BBKSDA-supervised safety training."
+                }
+              ]
+            },
+            {
+              "partner": "ISIC",
+              "segments": [
+                {
+                  "text": "UNESCO-endorsed student-identity program · "
+                },
+                {
+                  "text": "Provider 259268",
+                  "href": "https://www.isic.org/discounts/?providerId=259268"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "partner": "INDECON",
+              "segments": [
+                {
+                  "text": "Indonesian Ecotourism Network member · "
+                },
+                {
+                  "text": "network listing",
+                  "href": "https://www.indecon.id/spotlight-networks/java-volcano-tour-operator"
+                },
+                {
+                  "text": ", validating the community \"Local Boys\" policy."
+                }
+              ]
+            }
+          ],
+          "partnershipOutroSegments": [
+            {
+              "text": "Earlier institutional recognition — the Booking.com Guest Review Award (9.4/10, 2015) — is documented on the "
+            },
+            {
+              "text": "History & Artifacts page",
+              "href": "/verify-jvto/history-artifacts"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "whatWeDontClaim": "We do not claim a Condé Nast feature, an Aman partnership, or any recognition we have not earned. We are a niche operator with a niche reputation. The references above are real and link-checkable; everything else, we leave to other operators.",
+          "howToVerifyList": [
+            "Open the Detik.com and BBKSDA links above directly — both are full-access.",
+            "For the paywalled Radar Jember pieces, search the title on radarjember.jawapos.com.",
+            "For ISIC and INDECON, search \"Java Volcano Tour Operator\" on each official site.",
+            "For Stefan Loose, check ISBN 978-3-7701-7881-0, page 287."
+          ]
+        }
       }
     },
     "faq": {

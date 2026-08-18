@@ -59,7 +59,224 @@
           "title": "Independent Press Confirmation",
           "body_md": "These press articles independently identify the founder in his Tourist Police capacity — editorial, third-party confirmation that is separate from any JVTO marketing material.\n\n**Detik.com · 14 March 2021**\n\nNational-reach article identifying the founder by rank (Bripka Agung Sambuko) in his Tourist Police operational context at Ijen crater. Written and published independently of JVTO. Read on Detik.com: https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin\n\n**Radar Jember (Jawa Pos) · 24 March 2021**\n\nRegional press coverage of the Tourist Police (Polpar) unit formation, explicitly framing its role within the Ijen UNESCO Geopark initiative — context for the police role JVTO's founder holds. Read on Radar Jember: https://radarjember.jawapos.com/bondowoso/791102263/polpar-dibentuk-untuk-mendukung-ijen-geopark"
         }
-      ]
+      ],
+      "pageContent": {
+        "heroStats": [
+          {
+            "label": "Officer",
+            "value": "Bripka Agung Sambuko"
+          },
+          {
+            "label": "Unit",
+            "value": "Ditpamobvit · East Java"
+          },
+          {
+            "label": "SPRIN documents",
+            "value": "2 · SHA-256 anchored"
+          },
+          {
+            "label": "Evidence layers",
+            "value": "4"
+          }
+        ],
+        "articleIntro": "\"Tourist Police-Led\" is a strong claim. Here is exactly what is behind it — and how to check each layer without taking our word for any of it.",
+        "whatPoliceLedMeansSegments": [
+          {
+            "text": "JVTO founder Agung Sambuko (\"Mr. Sam\") is "
+          },
+          {
+            "text": "Bripka Agung Sambuko",
+            "strong": true
+          },
+          {
+            "text": " — an active serving officer of the Indonesian National Police (Polri), assigned to "
+          },
+          {
+            "text": "Ditpamobvit",
+            "strong": true
+          },
+          {
+            "text": " (Direktorat Pengamanan Objek Vital — the Directorate of Vital Object Security, East Java). Ditpamobvit's mandate covers tourist safety at designated vital objects, and the Kawah Ijen area is within that jurisdiction."
+          }
+        ],
+        "whatPoliceLedMeansPara2": "This is not a retired officer's background or an advisory title. It is active duty, documented annually in police travel orders. In practice it means:",
+        "whatPoliceLedMeansList": [
+          "Every JVTO tour operates under someone with active institutional responsibility for tourist safety in this area — a legal duty, not a marketing position.",
+          "Traffic Police escort for airport and ferry transfers is requested through formal police channels, not sold as a private security service.",
+          "Police support-vehicle presence at group departures is photographed and recurring."
+        ],
+        "layer1Intro": "Two active-duty documents are on file, each published with a SHA-256 fingerprint so a copy you receive can be verified as unaltered.",
+        "docsTable": [
+          {
+            "doc": "SPRIN POLPAR",
+            "dateLine": null,
+            "detail": "Surat Perintah — the formal assignment of Bripka Agung Sambuko to Tourist Police duties."
+          },
+          {
+            "doc": "SPRIN WAL-TRAVEL",
+            "dateLine": "2024-02-12",
+            "detail": "Police travel order authorizing him to accompany tourist groups on field operations. A 2024 date — an active-year order, not a historical artifact."
+          }
+        ],
+        "docImages": [
+          {
+            "src": "/legal/SPRIN-POLPAR.webp",
+            "label": "SPRIN POLPAR",
+            "hrefSuffix": "/legal/SPRIN-POLPAR.pdf"
+          },
+          {
+            "src": "/legal/SPRIN-WAL-TRAVEL-2024-02-12.webp",
+            "label": "SPRIN WAL-TRAVEL · 2024-02-12",
+            "hrefSuffix": "/legal/SPRIN-WAL-TRAVEL-2024-02-12.pdf"
+          }
+        ],
+        "docHashes": [
+          {
+            "label": "SPRIN POLPAR",
+            "hash": "03c8578dc22956faa366d957badecfe38868d4760359cd8059fb2d6b145dfeab"
+          },
+          {
+            "label": "SPRIN WAL-TRAVEL · 2024-02-12",
+            "hash": "179b061eae558943fdccc51d2ea3c8233a704b61f03ca3d212433f3e8d6f3bd3"
+          }
+        ],
+        "layer2Text": "Escort photographs document the police connection as a recurring operational pattern, not a one-off staged photo. Two arrival photos at the Bondowoso hotel — one in daylight, one at night, both showing the same type of patrol car and uniformed Traffic Police officer — establish repetition across separate trips. A further photo shows Mr. Sam conducting a Tourist Police briefing at the Ijen Geopark Information Center with local sulfur miners present: coordination with the Ijen community, not just guest-escort work.",
+        "layer3Intro": "Three unrelated journalists across two publications named Bripka Agung Sambuko in Tourist Police contexts — with no JVTO involvement. No tour operator can arrange independent press across three separate stories.",
+        "pressTable": [
+          {
+            "date": "2021-03-14",
+            "pub": "Detik.com",
+            "detail": "Direct quotes from Bripka Agung Sambuko during an overnight COVID-19 deployment at Kawah Wurung. National media, full access."
+          },
+          {
+            "date": "2021-03-24",
+            "pub": "Radar Jember",
+            "detail": "The Tourist Police unit (Polpar) documented as an institutional response to the Ijen Geopark — confirming the role is structural, not personal."
+          },
+          {
+            "date": "2021-05-27",
+            "pub": "Radar Jember",
+            "detail": "Active patrol at the Ijen crater monitoring sulfuric odor conditions — event-driven safety work, not a ceremonial title."
+          }
+        ],
+        "quote": "\"Sejak libur hari Kamis kemarin, saya tak pernah pulang. Stand by dan nginap di sini terus.\"",
+        "quoteAttributionSegments": [
+          {
+            "text": "— Bripka Agung Sambuko to Detik.com, on staying on-site overnight at 10°C in rain and fog to enforce health protocols (14 March 2021). Full coverage on the "
+          },
+          {
+            "text": "Press & Recognition page",
+            "href": "/verify-jvto/press-recognition"
+          },
+          {
+            "text": "."
+          }
+        ],
+        "pressScreenshots": [
+          {
+            "src": "/press/screencapture-news-detik-berita-jawa-timur-d-5492690-suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin-2026-01-14-02_48_41.png",
+            "label": "Detik.com · 14 March 2021",
+            "href": "https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin"
+          },
+          {
+            "src": "/press/screenshot-radarjember.jawapos.com-polpar-dibentuk-untuk-mendukung-ijen-geopark.png",
+            "label": "Radar Jember · 24 March 2021",
+            "href": "https://radarjember.jawapos.com"
+          }
+        ],
+        "institutionalTable": [
+          {
+            "field": "Rank",
+            "value": "Bripka (Brigadir Kepala — Senior Constable, Indonesian National Police)"
+          },
+          {
+            "field": "Unit",
+            "value": "Ditpamobvit — Direktorat Pengamanan Objek Vital (Directorate of Vital Object Security)"
+          },
+          {
+            "field": "Sub-unit",
+            "value": "East Java Tourist Police (Polisi Pariwisata — Polpar)"
+          },
+          {
+            "field": "Scope",
+            "value": "Tourist safety at designated vital objects in East Java, including the Kawah Ijen area"
+          }
+        ],
+        "rulesOutIntro": "No single document is the whole argument. Together, the four layers answer every skeptical question:",
+        "rulesOutList": [
+          {
+            "title": "Document",
+            "before": "SPRIN POLPAR + SPRIN WAL-TRAVEL (SHA-256) rule out ",
+            "em": "\"the founder just claims to be a police officer.\"",
+            "after": ""
+          },
+          {
+            "title": "Visual",
+            "before": "Day and night escort photos + the Geopark briefing rule out ",
+            "em": "\"the police connection is theoretical, not operational.\"",
+            "after": ""
+          },
+          {
+            "title": "Press",
+            "before": "Three independent articles across two newsrooms rule out ",
+            "em": "\"only JVTO says this — no independent verification exists.\"",
+            "after": ""
+          },
+          {
+            "title": "Institutional",
+            "before": "The Polpar unit formed to support the Ijen Geopark rules out ",
+            "em": "\"this is a personal affiliation, not an institutional structure.\"",
+            "after": ""
+          }
+        ],
+        "trafficEscortText": "JVTO submits a formal request to the Traffic Police (Lalu Lintas) — it does not provide its own escort or operate a private security service. When the request is granted, a uniformed Traffic Police officer accompanies the transfer vehicle in a Polri patrol car. That is why the escort photos show a real officer and a real patrol car, not branded security guards.",
+        "healthScreeningSegments": [
+          {
+            "text": "A health certificate is mandatory for every guest before Kawah Ijen crater entry. This is a "
+          },
+          {
+            "text": "regulatory requirement set by BBKSDA",
+            "strong": true
+          },
+          {
+            "text": " (Surat Edaran SE.1658/KSA.9/2024, cited as supporting authority), not a rule JVTO invents. JVTO coordinates the mandatory clinic workflow with Dr. Ahmad Irwandanu (SIP-licensed, Kemenkes-verifiable). The check measures oxygen saturation, blood pressure, heart rate, and respiratory history; a QR-verified "
+          },
+          {
+            "text": "surat sehat",
+            "em": true
+          },
+          {
+            "text": " is issued and scanned at the BBKSDA access gate. Screening can be done at "
+          },
+          {
+            "text": "Klinik Bakti Husada",
+            "strong": true
+          },
+          {
+            "text": " (Bondowoso), "
+          },
+          {
+            "text": "Puskesmas Licin",
+            "strong": true
+          },
+          {
+            "text": " (Banyuwangi), or at your partner hotel before departure."
+          }
+        ],
+        "healthScreeningOutroSegments": [
+          {
+            "text": "Full protocol, personnel, and regulatory basis are on the "
+          },
+          {
+            "text": "Ijen health-screening guide",
+            "href": "/travel-guide/ijen-health-screening"
+          },
+          {
+            "text": "."
+          }
+        ],
+        "whatWeWillNotDoText": "We will not stage uniformed photo opportunities, we will not exaggerate police involvement on individual tours, and we will not claim authority over locations where we do not coordinate. The line is honest; the operation behind it is honest too."
+      }
     }
   },
   "faq": {
