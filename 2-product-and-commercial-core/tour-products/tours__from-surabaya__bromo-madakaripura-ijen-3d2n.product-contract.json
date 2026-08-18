@@ -449,7 +449,1062 @@
     }
   ],
   "source_trace": {
-    "migration_note": "Editorial fields (name, description, marketing, keyExperiences, physicalDifficulty, inclusions/exclusions, travelerRequirements, accommodationPlan, gear, itineraryDays, provider, compliance, tags, gallery, imageUrl, category, duration, route) synced 1:1 from the live Prisma `packages` row as part of the single-content-source (ekosistem-only) consolidation, 2026-08-18. itineraryDays added — previously absent from this file. Operational/transactional fields (pricing, deposit, add_ons pricing, channel_availability, aggregateRating) intentionally left untouched — they remain Prisma-sourced at read time per the standing editorial-vs-operational split.",
+    "migration_note": "Editorial fields (name, description, marketing, keyExperiences, physicalDifficulty, inclusions/exclusions, travelerRequirements, accommodationPlan, gear, itineraryDays, provider, compliance, tags, gallery, imageUrl, category, duration, route) synced 1:1 from the live Prisma `packages` row as part of the single-content-source (ekosistem-only) consolidation, 2026-08-18. itineraryDays added — previously absent from this file. Operational/transactional fields (pricing, deposit, add_ons pricing, channel_availability, aggregateRating) intentionally left untouched — they remain Prisma-sourced at read time per the standing editorial-vs-operational split. Phase 2 (2026-08-18): pricing (offers), add-on prices, compliance, and channelMetadata also snapshotted from Prisma into ekosistem per owner decision to use ekosistem as the sole source for pricing/availability too, not just editorial content. No live sync exists going forward -- price changes must be edited directly in this file and deployed.",
     "generated_at": "2026-08-18T00:00:00.000Z"
+  },
+  "offers": {
+    "currency": "IDR",
+    "aggregateOffer": {
+      "lowPrice": 2450000,
+      "highPrice": 6300000
+    },
+    "tiers": [
+      {
+        "sku": "package-SUB-3D2N-003-1",
+        "paxMin": 11,
+        "paxMax": 0,
+        "pricePerPerson": 2450000
+      },
+      {
+        "sku": "package-SUB-3D2N-003-2",
+        "paxMin": 8,
+        "paxMax": 10,
+        "pricePerPerson": 2550000
+      },
+      {
+        "sku": "package-SUB-3D2N-003-3",
+        "paxMin": 6,
+        "paxMax": 7,
+        "pricePerPerson": 2850000
+      },
+      {
+        "sku": "package-SUB-3D2N-003-4",
+        "paxMin": 4,
+        "paxMax": 5,
+        "pricePerPerson": 3050000
+      },
+      {
+        "sku": "package-SUB-3D2N-003-5",
+        "paxMin": 3,
+        "paxMax": 3,
+        "pricePerPerson": 3275000
+      },
+      {
+        "sku": "package-SUB-3D2N-003-6",
+        "paxMin": 2,
+        "paxMax": 2,
+        "pricePerPerson": 3570000
+      },
+      {
+        "sku": "package-SUB-3D2N-003-7",
+        "paxMin": 1,
+        "paxMax": 1,
+        "pricePerPerson": 6300000
+      }
+    ]
+  },
+  "addOns": [
+    {
+      "id": "21",
+      "name": "Transport to Pemuteran",
+      "type": "transport",
+      "description": "Transport to Pemuteran - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "PEMUTERAN",
+      "price": 500000
+    },
+    {
+      "id": "22",
+      "name": "Transport to Negara Kota",
+      "type": "transport",
+      "description": "Transport to Negara Kota - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "NEGARA KOTA",
+      "price": 500000
+    },
+    {
+      "id": "23",
+      "name": "Transport to Medewi",
+      "type": "transport",
+      "description": "Transport to Medewi - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "MEDEWI",
+      "price": 650000
+    },
+    {
+      "id": "24",
+      "name": "Transport to Lovina",
+      "type": "transport",
+      "description": "Transport to Lovina - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "LOVINA",
+      "price": 700000
+    },
+    {
+      "id": "25",
+      "name": "Transport to Munduk",
+      "type": "transport",
+      "description": "Transport to Munduk - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "MUNDUK",
+      "price": 700000
+    },
+    {
+      "id": "26",
+      "name": "Transport to Bedugul",
+      "type": "transport",
+      "description": "Transport to Bedugul - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "BEDUGUL",
+      "price": 850000
+    },
+    {
+      "id": "27",
+      "name": "Transport to Singaraja Kota",
+      "type": "transport",
+      "description": "Transport to Singaraja Kota - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "SINGARAJA KOTA",
+      "price": 750000
+    },
+    {
+      "id": "28",
+      "name": "Transport to Tabanan Kota",
+      "type": "transport",
+      "description": "Transport to Tabanan Kota - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "TABANAN KOTA",
+      "price": 850000
+    },
+    {
+      "id": "29",
+      "name": "Transport to Balian Beach",
+      "type": "transport",
+      "description": "Transport to Balian Beach - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "BALIAN BEACH",
+      "price": 750000
+    },
+    {
+      "id": "30",
+      "name": "Transport to Kuta",
+      "type": "transport",
+      "description": "Transport to Kuta - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "KUTA",
+      "price": 900000
+    },
+    {
+      "id": "31",
+      "name": "Transport to Sanur",
+      "type": "transport",
+      "description": "Transport to Sanur - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "SANUR",
+      "price": 900000
+    },
+    {
+      "id": "32",
+      "name": "Transport to Ubud",
+      "type": "transport",
+      "description": "Transport to Ubud - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "UBUD",
+      "price": 900000
+    },
+    {
+      "id": "33",
+      "name": "Transport to Canggu",
+      "type": "transport",
+      "description": "Transport to Canggu - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "CANGGU",
+      "price": 900000
+    },
+    {
+      "id": "34",
+      "name": "Transport to Seminyak",
+      "type": "transport",
+      "description": "Transport to Seminyak - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "SEMINYAK",
+      "price": 900000
+    },
+    {
+      "id": "35",
+      "name": "Transport to Tanahlot",
+      "type": "transport",
+      "description": "Transport to Tanahlot - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "TANAHLOT",
+      "price": 900000
+    },
+    {
+      "id": "36",
+      "name": "Transport to Gianyar Kota",
+      "type": "transport",
+      "description": "Transport to Gianyar Kota - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "GIANYAR KOTA",
+      "price": 950000
+    },
+    {
+      "id": "37",
+      "name": "Transport to Jimbaran",
+      "type": "transport",
+      "description": "Transport to Jimbaran - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "JIMBARAN",
+      "price": 950000
+    },
+    {
+      "id": "38",
+      "name": "Transport to Nusadua",
+      "type": "transport",
+      "description": "Transport to Nusadua - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "NUSADUA",
+      "price": 950000
+    },
+    {
+      "id": "39",
+      "name": "Transport to Uluwatu",
+      "type": "transport",
+      "description": "Transport to Uluwatu - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "ULUWATU",
+      "price": 1000000
+    },
+    {
+      "id": "40",
+      "name": "Transport to Padangbay",
+      "type": "transport",
+      "description": "Transport to Padangbay - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "PADANGBAY",
+      "price": 1050000
+    },
+    {
+      "id": "41",
+      "name": "Transport to Candidasa",
+      "type": "transport",
+      "description": "Transport to Candidasa - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "CANDIDASA",
+      "price": 1050000
+    },
+    {
+      "id": "42",
+      "name": "Transport to Karangasem Kota",
+      "type": "transport",
+      "description": "Transport to Karangasem Kota - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "KARANGASEM KOTA",
+      "price": 1050000
+    },
+    {
+      "id": "43",
+      "name": "Transport to Amed",
+      "type": "transport",
+      "description": "Transport to Amed - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "AMED",
+      "price": 1000000
+    },
+    {
+      "id": "44",
+      "name": "Transport to Tulamben",
+      "type": "transport",
+      "description": "Transport to Tulamben - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "TULAMBEN",
+      "price": 950000
+    },
+    {
+      "id": "45",
+      "name": "Transport to Tejakula",
+      "type": "transport",
+      "description": "Transport to Tejakula - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "TEJAKULA",
+      "price": 900000
+    },
+    {
+      "id": "46",
+      "name": "Transport to Yeh Sanih",
+      "type": "transport",
+      "description": "Transport to Yeh Sanih - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "YEH SANIH",
+      "price": 900000
+    },
+    {
+      "id": "47",
+      "name": "Transport to Tirta Gangga",
+      "type": "transport",
+      "description": "Transport to Tirta Gangga - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "TIRTA GANGGA",
+      "price": 1050000
+    },
+    {
+      "id": "48",
+      "name": "Transport to Sidemen",
+      "type": "transport",
+      "description": "Transport to Sidemen - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "SIDEMEN",
+      "price": 1050000
+    },
+    {
+      "id": "49",
+      "name": "Transport to Kintamani",
+      "type": "transport",
+      "description": "Transport to Kintamani - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "KINTAMANI",
+      "price": 1000000
+    },
+    {
+      "id": "50",
+      "name": "Transport to Jatiluwih",
+      "type": "transport",
+      "description": "Transport to Jatiluwih - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "JATILUWIH",
+      "price": 900000
+    },
+    {
+      "id": "51",
+      "name": "Transport to Bangli Kota",
+      "type": "transport",
+      "description": "Transport to Bangli Kota - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "BANGLI KOTA",
+      "price": 1000000
+    },
+    {
+      "id": "52",
+      "name": "Transport to Klungkung Kota",
+      "type": "transport",
+      "description": "Transport to Klungkung Kota - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "KLUNGKUNG KOTA",
+      "price": 1000000
+    },
+    {
+      "id": "53",
+      "name": "Transport to Denpasar Kota",
+      "type": "transport",
+      "description": "Transport to Denpasar Kota - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "DENPASAR KOTA",
+      "price": 900000
+    },
+    {
+      "id": "54",
+      "name": "Transport to Airport Ngurah Rai",
+      "type": "transport",
+      "description": "Transport to Airport Ngurah Rai - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "AIRPORT NGURAH RAI",
+      "price": 950000
+    },
+    {
+      "id": "55",
+      "name": "Transport to Sebatu",
+      "type": "transport",
+      "description": "Transport to Sebatu - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "SEBATU",
+      "price": 950000
+    },
+    {
+      "id": "56",
+      "name": "Transport to Tegalalang",
+      "type": "transport",
+      "description": "Transport to Tegalalang - Small Car (1-3 Pax)",
+      "transportType": "small",
+      "transportDestination": "TEGALALANG",
+      "price": 950000
+    },
+    {
+      "id": "57",
+      "name": "Transport to Pemuteran",
+      "type": "transport",
+      "description": "Transport to Pemuteran - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "PEMUTERAN",
+      "price": 700000
+    },
+    {
+      "id": "58",
+      "name": "Transport to Negara Kota",
+      "type": "transport",
+      "description": "Transport to Negara Kota - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "NEGARA KOTA",
+      "price": 700000
+    },
+    {
+      "id": "59",
+      "name": "Transport to Medewi",
+      "type": "transport",
+      "description": "Transport to Medewi - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "MEDEWI",
+      "price": 750000
+    },
+    {
+      "id": "60",
+      "name": "Transport to Lovina",
+      "type": "transport",
+      "description": "Transport to Lovina - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "LOVINA",
+      "price": 1000000
+    },
+    {
+      "id": "61",
+      "name": "Transport to Munduk",
+      "type": "transport",
+      "description": "Transport to Munduk - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "MUNDUK",
+      "price": 1100000
+    },
+    {
+      "id": "62",
+      "name": "Transport to Bedugul",
+      "type": "transport",
+      "description": "Transport to Bedugul - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "BEDUGUL",
+      "price": 1200000
+    },
+    {
+      "id": "63",
+      "name": "Transport to Singaraja Kota",
+      "type": "transport",
+      "description": "Transport to Singaraja Kota - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "SINGARAJA KOTA",
+      "price": 1100000
+    },
+    {
+      "id": "64",
+      "name": "Transport to Tabanan Kota",
+      "type": "transport",
+      "description": "Transport to Tabanan Kota - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "TABANAN KOTA",
+      "price": 1100000
+    },
+    {
+      "id": "65",
+      "name": "Transport to Balian Beach",
+      "type": "transport",
+      "description": "Transport to Balian Beach - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "BALIAN BEACH",
+      "price": 1000000
+    },
+    {
+      "id": "66",
+      "name": "Transport to Kuta",
+      "type": "transport",
+      "description": "Transport to Kuta - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "KUTA",
+      "price": 1200000
+    },
+    {
+      "id": "67",
+      "name": "Transport to Sanur",
+      "type": "transport",
+      "description": "Transport to Sanur - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "SANUR",
+      "price": 1200000
+    },
+    {
+      "id": "68",
+      "name": "Transport to Ubud",
+      "type": "transport",
+      "description": "Transport to Ubud - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "UBUD",
+      "price": 1200000
+    },
+    {
+      "id": "69",
+      "name": "Transport to Canggu",
+      "type": "transport",
+      "description": "Transport to Canggu - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "CANGGU",
+      "price": 1200000
+    },
+    {
+      "id": "70",
+      "name": "Transport to Seminyak",
+      "type": "transport",
+      "description": "Transport to Seminyak - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "SEMINYAK",
+      "price": 1200000
+    },
+    {
+      "id": "71",
+      "name": "Transport to Tanahlot",
+      "type": "transport",
+      "description": "Transport to Tanahlot - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "TANAHLOT",
+      "price": 1200000
+    },
+    {
+      "id": "72",
+      "name": "Transport to Gianyar Kota",
+      "type": "transport",
+      "description": "Transport to Gianyar Kota - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "GIANYAR KOTA",
+      "price": 1250000
+    },
+    {
+      "id": "73",
+      "name": "Transport to Jimbaran",
+      "type": "transport",
+      "description": "Transport to Jimbaran - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "JIMBARAN",
+      "price": 1250000
+    },
+    {
+      "id": "74",
+      "name": "Transport to Nusadua",
+      "type": "transport",
+      "description": "Transport to Nusadua - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "NUSADUA",
+      "price": 1250000
+    },
+    {
+      "id": "75",
+      "name": "Transport to Uluwatu",
+      "type": "transport",
+      "description": "Transport to Uluwatu - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "ULUWATU",
+      "price": 1300000
+    },
+    {
+      "id": "76",
+      "name": "Transport to Padangbay",
+      "type": "transport",
+      "description": "Transport to Padangbay - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "PADANGBAY",
+      "price": 1300000
+    },
+    {
+      "id": "77",
+      "name": "Transport to Candidasa",
+      "type": "transport",
+      "description": "Transport to Candidasa - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "CANDIDASA",
+      "price": 1300000
+    },
+    {
+      "id": "78",
+      "name": "Transport to Karangasem Kota",
+      "type": "transport",
+      "description": "Transport to Karangasem Kota - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "KARANGASEM KOTA",
+      "price": 1300000
+    },
+    {
+      "id": "79",
+      "name": "Transport to Amed",
+      "type": "transport",
+      "description": "Transport to Amed - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "AMED",
+      "price": 1300000
+    },
+    {
+      "id": "80",
+      "name": "Transport to Tulamben",
+      "type": "transport",
+      "description": "Transport to Tulamben - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "TULAMBEN",
+      "price": 1250000
+    },
+    {
+      "id": "81",
+      "name": "Transport to Tejakula",
+      "type": "transport",
+      "description": "Transport to Tejakula - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "TEJAKULA",
+      "price": 1200000
+    },
+    {
+      "id": "82",
+      "name": "Transport to Yeh Sanih",
+      "type": "transport",
+      "description": "Transport to Yeh Sanih - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "YEH SANIH",
+      "price": 1200000
+    },
+    {
+      "id": "83",
+      "name": "Transport to Tirta Gangga",
+      "type": "transport",
+      "description": "Transport to Tirta Gangga - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "TIRTA GANGGA",
+      "price": 1300000
+    },
+    {
+      "id": "84",
+      "name": "Transport to Sidemen",
+      "type": "transport",
+      "description": "Transport to Sidemen - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "SIDEMEN",
+      "price": 1300000
+    },
+    {
+      "id": "85",
+      "name": "Transport to Kintamani",
+      "type": "transport",
+      "description": "Transport to Kintamani - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "KINTAMANI",
+      "price": 1250000
+    },
+    {
+      "id": "86",
+      "name": "Transport to Jatiluwih",
+      "type": "transport",
+      "description": "Transport to Jatiluwih - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "JATILUWIH",
+      "price": 1200000
+    },
+    {
+      "id": "87",
+      "name": "Transport to Bangli Kota",
+      "type": "transport",
+      "description": "Transport to Bangli Kota - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "BANGLI KOTA",
+      "price": 1150000
+    },
+    {
+      "id": "88",
+      "name": "Transport to Klungkung Kota",
+      "type": "transport",
+      "description": "Transport to Klungkung Kota - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "KLUNGKUNG KOTA",
+      "price": 1250000
+    },
+    {
+      "id": "89",
+      "name": "Transport to Denpasar Kota",
+      "type": "transport",
+      "description": "Transport to Denpasar Kota - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "DENPASAR KOTA",
+      "price": 1200000
+    },
+    {
+      "id": "90",
+      "name": "Transport to Airport Ngurah Rai",
+      "type": "transport",
+      "description": "Transport to Airport Ngurah Rai - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "AIRPORT NGURAH RAI",
+      "price": 1200000
+    },
+    {
+      "id": "91",
+      "name": "Transport to Sebatu",
+      "type": "transport",
+      "description": "Transport to Sebatu - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "SEBATU",
+      "price": 1200000
+    },
+    {
+      "id": "92",
+      "name": "Transport to Tegalalang",
+      "type": "transport",
+      "description": "Transport to Tegalalang - Medium Car (4-9 Pax)",
+      "transportType": "medium",
+      "transportDestination": "TEGALALANG",
+      "price": 1200000
+    },
+    {
+      "id": "129",
+      "name": "Transport to Pemuteran",
+      "type": "transport",
+      "description": "Transport to Pemuteran - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "PEMUTERAN",
+      "price": 900000
+    },
+    {
+      "id": "130",
+      "name": "Transport to Negara Kota",
+      "type": "transport",
+      "description": "Transport to Negara Kota - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "NEGARA KOTA",
+      "price": 900000
+    },
+    {
+      "id": "131",
+      "name": "Transport to Medewi",
+      "type": "transport",
+      "description": "Transport to Medewi - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "MEDEWI",
+      "price": 1000000
+    },
+    {
+      "id": "132",
+      "name": "Transport to Lovina",
+      "type": "transport",
+      "description": "Transport to Lovina - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "LOVINA",
+      "price": 1200000
+    },
+    {
+      "id": "133",
+      "name": "Transport to Munduk",
+      "type": "transport",
+      "description": "Transport to Munduk - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "MUNDUK",
+      "price": 1300000
+    },
+    {
+      "id": "134",
+      "name": "Transport to Bedugul",
+      "type": "transport",
+      "description": "Transport to Bedugul - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "BEDUGUL",
+      "price": 1300000
+    },
+    {
+      "id": "135",
+      "name": "Transport to Singaraja Kota",
+      "type": "transport",
+      "description": "Transport to Singaraja Kota - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "SINGARAJA KOTA",
+      "price": 1300000
+    },
+    {
+      "id": "136",
+      "name": "Transport to Tabanan Kota",
+      "type": "transport",
+      "description": "Transport to Tabanan Kota - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "TABANAN KOTA",
+      "price": 1300000
+    },
+    {
+      "id": "137",
+      "name": "Transport to Balian Beach",
+      "type": "transport",
+      "description": "Transport to Balian Beach - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "BALIAN BEACH",
+      "price": 1250000
+    },
+    {
+      "id": "138",
+      "name": "Transport to Kuta",
+      "type": "transport",
+      "description": "Transport to Kuta - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "KUTA",
+      "price": 1400000
+    },
+    {
+      "id": "139",
+      "name": "Transport to Sanur",
+      "type": "transport",
+      "description": "Transport to Sanur - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "SANUR",
+      "price": 1400000
+    },
+    {
+      "id": "140",
+      "name": "Transport to Ubud",
+      "type": "transport",
+      "description": "Transport to Ubud - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "UBUD",
+      "price": 1400000
+    },
+    {
+      "id": "141",
+      "name": "Transport to Canggu",
+      "type": "transport",
+      "description": "Transport to Canggu - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "CANGGU",
+      "price": 1400000
+    },
+    {
+      "id": "142",
+      "name": "Transport to Seminyak",
+      "type": "transport",
+      "description": "Transport to Seminyak - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "SEMINYAK",
+      "price": 1400000
+    },
+    {
+      "id": "143",
+      "name": "Transport to Tanahlot",
+      "type": "transport",
+      "description": "Transport to Tanahlot - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "TANAHLOT",
+      "price": 1400000
+    },
+    {
+      "id": "144",
+      "name": "Transport to Gianyar Kota",
+      "type": "transport",
+      "description": "Transport to Gianyar Kota - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "GIANYAR KOTA",
+      "price": 1450000
+    },
+    {
+      "id": "145",
+      "name": "Transport to Jimbaran",
+      "type": "transport",
+      "description": "Transport to Jimbaran - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "JIMBARAN",
+      "price": 1450000
+    },
+    {
+      "id": "146",
+      "name": "Transport to Nusadua",
+      "type": "transport",
+      "description": "Transport to Nusadua - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "NUSADUA",
+      "price": 1450000
+    },
+    {
+      "id": "147",
+      "name": "Transport to Uluwatu",
+      "type": "transport",
+      "description": "Transport to Uluwatu - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "ULUWATU",
+      "price": 1500000
+    },
+    {
+      "id": "148",
+      "name": "Transport to Padangbay",
+      "type": "transport",
+      "description": "Transport to Padangbay - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "PADANGBAY",
+      "price": 1500000
+    },
+    {
+      "id": "149",
+      "name": "Transport to Candidasa",
+      "type": "transport",
+      "description": "Transport to Candidasa - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "CANDIDASA",
+      "price": 1500000
+    },
+    {
+      "id": "150",
+      "name": "Transport to Karangasem Kota",
+      "type": "transport",
+      "description": "Transport to Karangasem Kota - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "KARANGASEM KOTA",
+      "price": 1500000
+    },
+    {
+      "id": "151",
+      "name": "Transport to Amed",
+      "type": "transport",
+      "description": "Transport to Amed - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "AMED",
+      "price": 1500000
+    },
+    {
+      "id": "152",
+      "name": "Transport to Tulamben",
+      "type": "transport",
+      "description": "Transport to Tulamben - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "TULAMBEN",
+      "price": 1400000
+    },
+    {
+      "id": "153",
+      "name": "Transport to Tejakula",
+      "type": "transport",
+      "description": "Transport to Tejakula - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "TEJAKULA",
+      "price": 1400000
+    },
+    {
+      "id": "154",
+      "name": "Transport to Yeh Sanih",
+      "type": "transport",
+      "description": "Transport to Yeh Sanih - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "YEH SANIH",
+      "price": 1400000
+    },
+    {
+      "id": "155",
+      "name": "Transport to Tirta Gangga",
+      "type": "transport",
+      "description": "Transport to Tirta Gangga - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "TIRTA GANGGA",
+      "price": 1500000
+    },
+    {
+      "id": "156",
+      "name": "Transport to Sidemen",
+      "type": "transport",
+      "description": "Transport to Sidemen - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "SIDEMEN",
+      "price": 1500000
+    },
+    {
+      "id": "157",
+      "name": "Transport to Kintamani",
+      "type": "transport",
+      "description": "Transport to Kintamani - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "KINTAMANI",
+      "price": 1500000
+    },
+    {
+      "id": "158",
+      "name": "Transport to Jatiluwih",
+      "type": "transport",
+      "description": "Transport to Jatiluwih - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "JATILUWIH",
+      "price": 1400000
+    },
+    {
+      "id": "159",
+      "name": "Transport to Bangli Kota",
+      "type": "transport",
+      "description": "Transport to Bangli Kota - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "BANGLI KOTA",
+      "price": 1400000
+    },
+    {
+      "id": "160",
+      "name": "Transport to Klungkung Kota",
+      "type": "transport",
+      "description": "Transport to Klungkung Kota - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "KLUNGKUNG KOTA",
+      "price": 1500000
+    },
+    {
+      "id": "161",
+      "name": "Transport to Denpasar Kota",
+      "type": "transport",
+      "description": "Transport to Denpasar Kota - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "DENPASAR KOTA",
+      "price": 1400000
+    },
+    {
+      "id": "162",
+      "name": "Transport to Airport Ngurah Rai",
+      "type": "transport",
+      "description": "Transport to Airport Ngurah Rai - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "AIRPORT NGURAH RAI",
+      "price": 1400000
+    },
+    {
+      "id": "163",
+      "name": "Transport to Sebatu",
+      "type": "transport",
+      "description": "Transport to Sebatu - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "SEBATU",
+      "price": 1400000
+    },
+    {
+      "id": "164",
+      "name": "Transport to Tegalalang",
+      "type": "transport",
+      "description": "Transport to Tegalalang - Big Car (10 Pax Above)",
+      "transportType": "big",
+      "transportDestination": "TEGALALANG",
+      "price": 1400000
+    }
+  ],
+  "channelMetadata": {
+    "internalPackageId": "package-SUB-3D2N-003",
+    "orderChannelEnabled": {
+      "JVTO": true,
+      "KLOOK": false,
+      "TRAVELOKA": false,
+      "TIKETCOM": false,
+      "OTHERS": false
+    },
+    "externalPackageIds": {
+      "klook": "",
+      "traveloka": "",
+      "tiketcom": ""
+    },
+    "isFreesale": true,
+    "requiresAvailabilityCheck": false,
+    "supportedPickupCities": [
+      "Surabaya"
+    ],
+    "supportedDropoffCities": [
+      "Bali"
+    ],
+    "languageOffered": [
+      "en"
+    ],
+    "status": "active",
+    "minLeadTimeHours": 24,
+    "maxPaxRecommended": 100,
+    "minPaxOperational": 1
   }
 }

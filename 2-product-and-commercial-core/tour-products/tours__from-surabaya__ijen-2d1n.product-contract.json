@@ -338,7 +338,83 @@
     }
   ],
   "source_trace": {
-    "migration_note": "Editorial fields (name, description, marketing, keyExperiences, physicalDifficulty, inclusions/exclusions, travelerRequirements, accommodationPlan, gear, itineraryDays, provider, compliance, tags, gallery, imageUrl, category, duration, route) synced 1:1 from the live Prisma `packages` row as part of the single-content-source (ekosistem-only) consolidation, 2026-08-18. itineraryDays added — previously absent from this file. Operational/transactional fields (pricing, deposit, add_ons pricing, channel_availability, aggregateRating) intentionally left untouched — they remain Prisma-sourced at read time per the standing editorial-vs-operational split.",
+    "migration_note": "Editorial fields (name, description, marketing, keyExperiences, physicalDifficulty, inclusions/exclusions, travelerRequirements, accommodationPlan, gear, itineraryDays, provider, compliance, tags, gallery, imageUrl, category, duration, route) synced 1:1 from the live Prisma `packages` row as part of the single-content-source (ekosistem-only) consolidation, 2026-08-18. itineraryDays added — previously absent from this file. Operational/transactional fields (pricing, deposit, add_ons pricing, channel_availability, aggregateRating) intentionally left untouched — they remain Prisma-sourced at read time per the standing editorial-vs-operational split. Phase 2 (2026-08-18): pricing (offers), add-on prices, compliance, and channelMetadata also snapshotted from Prisma into ekosistem per owner decision to use ekosistem as the sole source for pricing/availability too, not just editorial content. No live sync exists going forward -- price changes must be edited directly in this file and deployed.",
     "generated_at": "2026-08-18T00:00:00.000Z"
+  },
+  "offers": {
+    "currency": "IDR",
+    "aggregateOffer": {
+      "lowPrice": 1550000,
+      "highPrice": 2300000
+    },
+    "tiers": [
+      {
+        "sku": "package-SUB-2D1N-001-1",
+        "paxMin": 11,
+        "paxMax": 0,
+        "pricePerPerson": 1550000
+      },
+      {
+        "sku": "package-SUB-2D1N-001-2",
+        "paxMin": 8,
+        "paxMax": 10,
+        "pricePerPerson": 1650000
+      },
+      {
+        "sku": "package-SUB-2D1N-001-3",
+        "paxMin": 6,
+        "paxMax": 7,
+        "pricePerPerson": 1850000
+      },
+      {
+        "sku": "package-SUB-2D1N-001-4",
+        "paxMin": 4,
+        "paxMax": 5,
+        "pricePerPerson": 2050000
+      },
+      {
+        "sku": "package-SUB-2D1N-001-5",
+        "paxMin": 3,
+        "paxMax": 3,
+        "pricePerPerson": 2200000
+      },
+      {
+        "sku": "package-SUB-2D1N-001-6",
+        "paxMin": 2,
+        "paxMax": 2,
+        "pricePerPerson": 2300000
+      }
+    ]
+  },
+  "addOns": [],
+  "channelMetadata": {
+    "internalPackageId": "package-SUB-2D1N-001",
+    "orderChannelEnabled": {
+      "JVTO": true,
+      "KLOOK": false,
+      "TRAVELOKA": false,
+      "TIKETCOM": false,
+      "OTHERS": false
+    },
+    "externalPackageIds": {
+      "klook": "",
+      "traveloka": "",
+      "tiketcom": ""
+    },
+    "isFreesale": true,
+    "requiresAvailabilityCheck": false,
+    "supportedPickupCities": [
+      "Surabaya"
+    ],
+    "supportedDropoffCities": [
+      "Surabaya"
+    ],
+    "languageOffered": [
+      "en"
+    ],
+    "status": "active",
+    "minLeadTimeHours": 24,
+    "maxPaxRecommended": 100,
+    "minPaxOperational": 2
   }
 }

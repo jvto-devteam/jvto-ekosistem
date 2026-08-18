@@ -507,7 +507,99 @@
     }
   ],
   "source_trace": {
-    "migration_note": "Editorial fields (name, description, marketing, keyExperiences, physicalDifficulty, inclusions/exclusions, travelerRequirements, accommodationPlan, gear, itineraryDays, provider, compliance, tags, gallery, imageUrl, category, duration, route) synced 1:1 from the live Prisma `packages` row as part of the single-content-source (ekosistem-only) consolidation, 2026-08-18. itineraryDays added — previously absent from this file. Operational/transactional fields (pricing, deposit, add_ons pricing, channel_availability, aggregateRating) intentionally left untouched — they remain Prisma-sourced at read time per the standing editorial-vs-operational split.",
+    "migration_note": "Editorial fields (name, description, marketing, keyExperiences, physicalDifficulty, inclusions/exclusions, travelerRequirements, accommodationPlan, gear, itineraryDays, provider, compliance, tags, gallery, imageUrl, category, duration, route) synced 1:1 from the live Prisma `packages` row as part of the single-content-source (ekosistem-only) consolidation, 2026-08-18. itineraryDays added — previously absent from this file. Operational/transactional fields (pricing, deposit, add_ons pricing, channel_availability, aggregateRating) intentionally left untouched — they remain Prisma-sourced at read time per the standing editorial-vs-operational split. Phase 2 (2026-08-18): pricing (offers), add-on prices, compliance, and channelMetadata also snapshotted from Prisma into ekosistem per owner decision to use ekosistem as the sole source for pricing/availability too, not just editorial content. No live sync exists going forward -- price changes must be edited directly in this file and deployed.",
     "generated_at": "2026-08-18T00:00:00.000Z"
+  },
+  "offers": {
+    "currency": "IDR",
+    "aggregateOffer": {
+      "lowPrice": 3125000,
+      "highPrice": 8050000
+    },
+    "tiers": [
+      {
+        "sku": "package-SUB-4D3N-002-1",
+        "paxMin": 11,
+        "paxMax": 0,
+        "pricePerPerson": 3125000
+      },
+      {
+        "sku": "package-SUB-4D3N-002-2",
+        "paxMin": 8,
+        "paxMax": 10,
+        "pricePerPerson": 3275000
+      },
+      {
+        "sku": "package-SUB-4D3N-002-3",
+        "paxMin": 6,
+        "paxMax": 7,
+        "pricePerPerson": 3750000
+      },
+      {
+        "sku": "package-SUB-4D3N-002-4",
+        "paxMin": 4,
+        "paxMax": 5,
+        "pricePerPerson": 4050000
+      },
+      {
+        "sku": "package-SUB-4D3N-002-5",
+        "paxMin": 3,
+        "paxMax": 3,
+        "pricePerPerson": 4350000
+      },
+      {
+        "sku": "package-SUB-4D3N-002-6",
+        "paxMin": 2,
+        "paxMax": 2,
+        "pricePerPerson": 4550000
+      },
+      {
+        "sku": "package-SUB-4D3N-002-7",
+        "paxMin": 1,
+        "paxMax": 1,
+        "pricePerPerson": 8050000
+      }
+    ]
+  },
+  "addOns": [
+    {
+      "id": "2",
+      "name": "Madakaripura Waterfall",
+      "type": "madakaripura",
+      "description": "",
+      "transportType": null,
+      "transportDestination": "Madakaripura Waterfall",
+      "price": 200000
+    }
+  ],
+  "channelMetadata": {
+    "internalPackageId": "package-SUB-4D3N-002",
+    "orderChannelEnabled": {
+      "JVTO": true,
+      "KLOOK": false,
+      "TRAVELOKA": false,
+      "TIKETCOM": false,
+      "OTHERS": false
+    },
+    "externalPackageIds": {
+      "klook": "",
+      "traveloka": "",
+      "tiketcom": ""
+    },
+    "isFreesale": true,
+    "requiresAvailabilityCheck": false,
+    "supportedPickupCities": [
+      "Surabaya"
+    ],
+    "supportedDropoffCities": [
+      "Surabaya"
+    ],
+    "languageOffered": [
+      "en"
+    ],
+    "status": "active",
+    "minLeadTimeHours": 24,
+    "maxPaxRecommended": 100,
+    "minPaxOperational": 1
   }
 }
