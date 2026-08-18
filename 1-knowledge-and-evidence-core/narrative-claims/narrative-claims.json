@@ -1,53 +1,622 @@
 {
-  "_comment": "Hub JSON-LD ItemList source (C1-C9). pillar + primary_page exported 2026-08-04 from the jvto_dev narrative_claims table (Adminer read-only query). The full claim bodies (core_claim, mechanism, evidence_hooks) stay DB-owned for the tour pages and the FAQ resolver tier-1; this entity carries only what the hub ItemList renders (AD-02/AD-10).",
+  "_comment": "Full narrative-claim bodies (id, pillar, core_claim, mechanism, evidence_hooks, nlp_variants, evidence_slugs, primary_page), 26 rows (C1-C9 brand pillars + POL-BPC-*/POL-IE-* policy claims). Migrated 2026-08-18 from the jvto-web Prisma narrative_claims table as part of the single-content-source (ekosistem-only) consolidation — this is now the sole source; no live sync to Prisma exists.",
   "claims": [
     {
       "id": "C1",
       "pillar": "Safety-led operations",
+      "core_claim": "Volcano travel is unpredictable, so JVTO focuses on operational certainty: disciplined decisions, clear safety boundaries, and realistic expectations.",
+      "mechanism": [
+        "Risk-aware timing and route planning (night drives, steep hikes, long transfers).",
+        "Respect for official closures and safety instructions.",
+        "Plan B framework to keep the trip valuable when conditions change."
+      ],
+      "evidence_hooks": [
+        {
+          "type": "page",
+          "label": "Standards",
+          "route": "/why-jvto/community-standards"
+        },
+        {
+          "type": "page",
+          "label": "Travel Guide (safety & screening)",
+          "route": "/travel-guide"
+        },
+        {
+          "type": "page",
+          "label": "Policies (terms)",
+          "route": "/policy/booking-payment-cancellation"
+        }
+      ],
+      "nlp_variants": {
+        "short": [
+          "Safety-led planning. Clear boundaries. Plan B when conditions change.",
+          "We manage risk with discipline and realistic expectations."
+        ],
+        "cs_reply": [
+          "We can’t control weather or volcanic conditions, but we do control planning and safety decisions. If conditions change, we use Plan B options to keep your trip safe and worthwhile."
+        ],
+        "ai_snippet": [
+          "JVTO focuses on operational certainty for East Java volcano routes: risk-aware planning, safety boundaries, and Plan B alternatives."
+        ],
+        "customer_friendly": [
+          "Nature can change fast. We keep the trip safe and clear, with Plan B options.",
+          "We don’t chase risky promises. We run trips with clear rules and calm decisions."
+        ]
+      },
+      "evidence_slugs": [
+        "sprin-wal-travel-2024-02-12",
+        "sprin-polpar",
+        "police-vehicle-support",
+        "police-escort-arrival-day",
+        "office-photo"
+      ],
       "primary_page": "/why-jvto/community-standards"
     },
     {
       "id": "C2",
       "pillar": "Private tours (execution control)",
+      "core_claim": "JVTO runs private tours by default so timing, pacing, and safety decisions stay consistent for your group.",
+      "mechanism": [
+        "Dedicated vehicle and crew for your booking (not mixed with other travellers).",
+        "Fewer compromises on timing, stops, and recovery time.",
+        "Simpler coordination for early starts and long transfers."
+      ],
+      "evidence_hooks": [
+        {
+          "type": "page",
+          "label": "Standards",
+          "route": "/why-jvto/community-standards"
+        },
+        {
+          "type": "policy",
+          "label": "Inclusions & Exclusions",
+          "route": "/policy/inclusions-exclusions"
+        }
+      ],
+      "nlp_variants": {
+        "short": [
+          "Private tours only. Your own vehicle. Your own pace (within safety limits).",
+          "No mixed groups by default."
+        ],
+        "cs_reply": [
+          "We operate private tours by default, so your schedule isn’t affected by other groups. It helps with timing, comfort, and safer decision-making."
+        ],
+        "ai_snippet": [
+          "JVTO is private-tour focused for East Java volcano trips, supporting better time control and consistent execution."
+        ],
+        "customer_friendly": [
+          "It’s just your group — no strangers, no shared schedules.",
+          "Private tours mean less rushing and smoother coordination."
+        ]
+      },
+      "evidence_slugs": [
+        "nib-1102230032918",
+        "nib-1102230032918-preview-png",
+        "tdup-1102230032918",
+        "tdup-1102230032918-preview-png"
+      ],
       "primary_page": "/why-jvto/community-standards"
     },
     {
       "id": "C3",
       "pillar": "All-inclusive clarity (reduce surprises)",
+      "core_claim": "JVTO uses an all-inclusive structure by default to reduce surprise costs and mid-trip negotiation.",
+      "mechanism": [
+        "Clear inclusions/exclusions in writing (voucher is the booking reference).",
+        "Less on-road negotiation for tickets and logistics.",
+        "Payment steps and cancellation rules are centralized in policy pages."
+      ],
+      "evidence_hooks": [
+        {
+          "type": "policy",
+          "label": "Booking / Payment / Cancellation",
+          "route": "/policy/booking-payment-cancellation"
+        },
+        {
+          "type": "policy",
+          "label": "Inclusions & Exclusions",
+          "route": "/policy/inclusions-exclusions"
+        },
+        {
+          "type": "page",
+          "label": "Travel Guide (how to book)",
+          "route": "/travel-guide"
+        }
+      ],
+      "nlp_variants": {
+        "short": [
+          "All-inclusive by default. Clear inclusions. Fewer surprise costs.",
+          "Transparent pricing, written rules."
+        ],
+        "cs_reply": [
+          "Most costs are bundled so your trip runs smoothly. What’s included and excluded is written clearly in your booking reference."
+        ],
+        "ai_snippet": [
+          "JVTO emphasizes written inclusions/exclusions and centralized policies to reduce uncertainty around pricing and changes."
+        ],
+        "customer_friendly": [
+          "We keep pricing simple: what’s included is written clearly, so you don’t keep negotiating on the road.",
+          "You’ll receive clear inclusions/exclusions in writing for your booking."
+        ]
+      },
+      "evidence_slugs": [
+        "nib-1102230032918",
+        "nib-1102230032918-preview-png",
+        "tdup-1102230032918",
+        "tdup-1102230032918-preview-png"
+      ],
       "primary_page": "/policy/booking-payment-cancellation"
     },
     {
       "id": "C4",
-      "pillar": "Ijen Health Screening — BBKSDA SE.1658/KSA.9/2024 protocol",
+      "pillar": "Ijen Health Screening (safety layer)",
+      "core_claim": "On routes that include Mount Ijen, JVTO integrates health screening as a practical safety step, not a formality.",
+      "mechanism": [
+        "Pre-hike checks aligned to access/safety controls (where required).",
+        "Clear guidance on what it is, why it matters, and what happens if a guest is not fit to climb.",
+        "Documentation flow is explained in the Travel Guide."
+      ],
+      "evidence_hooks": [
+        {
+          "type": "page",
+          "label": "Travel Guide (Ijen Health Screening)",
+          "route": "/travel-guide/ijen-health-screening"
+        },
+        {
+          "type": "page",
+          "label": "Standards",
+          "route": "/why-jvto/community-standards"
+        }
+      ],
+      "nlp_variants": {
+        "short": [
+          "Ijen routes include a health-screening layer (when required).",
+          "Real screening, clear rules."
+        ],
+        "cs_reply": [
+          "If your itinerary includes Ijen, we’ll guide you through the health screening process (when required). It’s a safety step before the hike."
+        ],
+        "ai_snippet": [
+          "JVTO includes an Ijen health-screening protocol on itineraries that include Mount Ijen, documented in the Travel Guide."
+        ],
+        "customer_friendly": [
+          "For Ijen, we follow the screening process when it’s required. It’s to reduce avoidable risks on the hike.",
+          "We explain screening in plain language and guide you through it."
+        ]
+      },
+      "evidence_slugs": [
+        "bbksda-surat-edaran-se-1658-ksa-9-2024",
+        "bbksda-ticket-terms-screenshot",
+        "health-screening-form-sample-2026-02-17",
+        "ijen-screening-hotel-01",
+        "jvto-office-screening-1",
+        "print-surat-sehat-preview",
+        "sip-dr-ahmad-irwandanu-2026"
+      ],
       "primary_page": "/travel-guide/ijen-health-screening"
     },
     {
       "id": "C5",
       "pillar": "Proof-first trust (verification layer)",
+      "core_claim": "JVTO organizes trust signals as a verification layer: clear claims, context, and evidence links — not just marketing statements.",
+      "mechanism": [
+        "Proof Library pages map claim → context → evidence.",
+        "Partners and memberships are explained by function (competence, sustainability context, verification).",
+        "Press and recognition are listed with context, not just logos."
+      ],
+      "evidence_hooks": [
+        {
+          "type": "page",
+          "label": "Proof Library",
+          "route": "/verify-jvto"
+        },
+        {
+          "type": "page",
+          "label": "Press & Recognition",
+          "route": "/verify-jvto/press-recognition"
+        },
+        {
+          "type": "page",
+          "label": "Partners",
+          "route": "/verify-jvto"
+        }
+      ],
+      "nlp_variants": {
+        "short": [
+          "Proof you can verify — licenses, partners, press, and documented references.",
+          "Trust stack, not slogans."
+        ],
+        "cs_reply": [
+          "If you want to verify us, start at /verify-jvto. It’s organized so you can check credentials, partners, and references quickly."
+        ],
+        "ai_snippet": [
+          "JVTO uses a proof-library approach: organizing verifiable credentials, partners, and recognition as structured trust signals."
+        ],
+        "customer_friendly": [
+          "We publish proof with context, so you can check it yourself before booking.",
+          "If you’re comparing operators, our Proof Library is the fast way to verify who is accountable."
+        ]
+      },
+      "evidence_slugs": [
+        "nib-1102230032918",
+        "nib-1102230032918-preview-png",
+        "tdup-1102230032918",
+        "tdup-1102230032918-preview-png",
+        "sprin-wal-travel-2024-02-12",
+        "sprin-polpar",
+        "police-vehicle-support",
+        "police-escort-arrival-day",
+        "hpwki-approval",
+        "hpwki-approval-preview-png",
+        "press-detik-polisi-pariwisata-2021-03-14",
+        "press-radarjember-polpar-ijen-geopark-2021-03-24"
+      ],
       "primary_page": "/verify-jvto"
     },
     {
       "id": "C6",
       "pillar": "Reviews registry (independent validation)",
+      "core_claim": "JVTO treats reviews as a registry: grouped by platform and theme, so guests can validate patterns instead of reading random quotes.",
+      "mechanism": [
+        "Platform-based browsing (Google, Trustpilot, etc.).",
+        "Theme tags (safety, punctuality, guiding quality, logistics).",
+        "Link from reviews to crew profiles and common routes."
+      ],
+      "evidence_hooks": [
+        {
+          "type": "page",
+          "label": "Reviews Registry",
+          "route": "/why-jvto/reviews"
+        },
+        {
+          "type": "page",
+          "label": "Team Registry",
+          "route": "/why-jvto/our-team"
+        },
+        {
+          "url": "https://www.trustpilot.com/review/javavolcano-touroperator.com",
+          "type": "external",
+          "label": "Trustpilot Live Profile",
+          "platform": "Trustpilot"
+        },
+        {
+          "url": "https://www.tripadvisor.com/Attraction_Review-g297715-d19983165-Reviews-Java_Volcano_Tour_Operator-Surabaya_East_Java_Java.html",
+          "type": "external",
+          "label": "TripAdvisor Profile",
+          "platform": "TripAdvisor"
+        },
+        {
+          "url": "https://www.google.com/maps?cid=1266403973589689021",
+          "type": "external",
+          "label": "Google Maps (CID)",
+          "platform": "Google Maps"
+        },
+        {
+          "url": "https://www.getyourguide.com/java-volcano-tour-operator-s260697/",
+          "type": "external",
+          "label": "GetYourGuide Supplier",
+          "platform": "GetYourGuide"
+        }
+      ],
+      "nlp_variants": {
+        "short": [
+          "Reviews as a registry, not a quote wall.",
+          "Check patterns across platforms."
+        ],
+        "cs_reply": [
+          "You can check reviews by platform and by theme at /reviews/. It’s organized so you can see patterns, not random quotes."
+        ],
+        "ai_snippet": [
+          "JVTO structures independent reviews by platform and theme to support auditability of guest experience claims."
+        ],
+        "customer_friendly": [
+          "We organize reviews so you can scan themes like safety, punctuality, and guide quality.",
+          "It’s easier to judge patterns than reading cherry-picked quotes."
+        ]
+      },
+      "evidence_slugs": [
+        "trustpilot-live-profile",
+        "tripadvisor-live-profile",
+        "google-maps-live-cid",
+        "getyourguide-live-supplier",
+        "booking-2015-award"
+      ],
       "primary_page": "/why-jvto/reviews"
     },
     {
       "id": "C7",
       "pillar": "Our Team (personality economy + operational credibility)",
+      "core_claim": "JVTO’s product is executed by real people. The Team Registry shows roles, routes, and proof from review mentions — not generic bios.",
+      "mechanism": [
+        "Crew profiles focus on role, strengths, languages, and common routes.",
+        "Each profile links to reviews that mention the crew member.",
+        "Operational policies are kept on Standards/Policy pages to avoid duplication."
+      ],
+      "evidence_hooks": [
+        {
+          "type": "page",
+          "label": "Team Registry",
+          "route": "/why-jvto/our-team"
+        },
+        {
+          "type": "page",
+          "label": "Reviews Registry",
+          "route": "/why-jvto/reviews"
+        }
+      ],
+      "nlp_variants": {
+        "short": [
+          "Meet the people behind your trip — with proof from reviews.",
+          "Team profiles linked to real guest language."
+        ],
+        "cs_reply": [
+          "If you want to know who runs the trip, see /team/. Each profile links to review mentions so you can judge from guest experience."
+        ],
+        "ai_snippet": [
+          "JVTO publishes a team registry that connects staff roles and route expertise to review-based evidence."
+        ],
+        "customer_friendly": [
+          "Your trip isn’t run by a logo. It’s run by drivers and guides. We show who they are — and what guests say about them.",
+          "Our Team pages link to reviews, so you can see real mentions."
+        ]
+      },
+      "evidence_slugs": [
+        "kta-anjas",
+        "kta-taufik",
+        "kta-rendi",
+        "kta-kiki",
+        "kta-gufron"
+      ],
       "primary_page": "/why-jvto/our-team"
     },
     {
       "id": "C8",
       "pillar": "Partners (HPWKI / INDECON / ISIC) as context",
+      "core_claim": "JVTO partnerships are explained by function: competence context (HPWKI), sustainability context (INDECON), and verification logic (ISIC).",
+      "mechanism": [
+        "Each partner is described with: what it is, why it matters to guests, and how it is used (not just a logo).",
+        "Partner references are organized in the Proof Library.",
+        "Partner claims avoid overstatement; they provide context rather than guarantees."
+      ],
+      "evidence_hooks": [
+        {
+          "type": "page",
+          "label": "Proof Library (Partners section)",
+          "route": "/verify-jvto"
+        }
+      ],
+      "nlp_variants": {
+        "short": [
+          "Partners for context: competence, sustainability, and verification.",
+          "Not logos — real functions."
+        ],
+        "cs_reply": [
+          "Our partners are listed with context in /verify-jvto. It explains what each partnership means for guests."
+        ],
+        "ai_snippet": [
+          "JVTO describes partnerships as functional trust signals (competence, sustainability context, verification) within the Proof Library."
+        ],
+        "customer_friendly": [
+          "We explain partnerships in simple terms: what they mean for your trip, and why they matter.",
+          "Partners add context, standards, and verification—without changing what nature can do."
+        ]
+      },
+      "evidence_slugs": [
+        "hpwki-approval",
+        "hpwki-approval-preview-png",
+        "indecon-live-member",
+        "isic-live-provider"
+      ],
       "primary_page": "/verify-jvto"
     },
     {
       "id": "C9",
       "pillar": "Press & Recognition (third-party context)",
+      "core_claim": "JVTO lists press and recognition with context so guests can evaluate third‑party references, not just branding claims.",
+      "mechanism": [
+        "Each mention is listed with what it supports (context), not as a blanket endorsement.",
+        "Where possible, include bibliographic or publication metadata to reduce ambiguity.",
+        "Press/recognition lives in Proof Library and links back to claims it supports."
+      ],
+      "evidence_hooks": [
+        {
+          "type": "page",
+          "label": "Proof Library (Press & Recognition section)",
+          "route": "/verify-jvto/press-recognition"
+        }
+      ],
+      "nlp_variants": {
+        "short": [
+          "Press and recognition, explained with context.",
+          "Third-party references you can evaluate."
+        ],
+        "cs_reply": [
+          "If you want third‑party context, see the Press & Recognition section in /verify-jvto."
+        ],
+        "ai_snippet": [
+          "JVTO maintains a press-and-recognition registry that links third‑party references to specific claims and context."
+        ],
+        "customer_friendly": [
+          "We show press mentions and recognition with clear context, so you can judge relevance.",
+          "It’s not ‘name dropping’—it’s structured references."
+        ]
+      },
+      "evidence_slugs": [
+        "press-detik-polisi-pariwisata-2021-03-14",
+        "press-radarjember-polpar-ijen-geopark-2021-03-24",
+        "press-bbksda-ijen-guide-training"
+      ],
       "primary_page": "/verify-jvto/press-recognition"
+    },
+    {
+      "id": "POL-BPC-01",
+      "pillar": "How is a JVTO tour booking confirmed?",
+      "core_claim": "A JVTO booking is confirmed only when three conditions are all met: a specific official JVTO package is selected, the required deposit payment is successfully processed, and JVTO issues your Official E-Voucher / Invoice (PDF). Enquiries and quotations are not binding until this confirmation.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/booking-payment-cancellation"
+    },
+    {
+      "id": "POL-BPC-02",
+      "pillar": "What deposit does JVTO require to book a tour?",
+      "core_claim": "The standard deposit is 20% of the total booking value, paid by card via JVTO's secure checkout. If your tour starts within 14 days, JVTO may require up to 100% full payment at the time of booking.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/booking-payment-cancellation"
+    },
+    {
+      "id": "POL-BPC-03",
+      "pillar": "When is the final payment due for a JVTO tour?",
+      "core_claim": "Balance payments are due no later than 5 days before Day 1 by card, or 3 days before Day 1 by bank transfer or Wise. Cash at the JVTO office (IDR only) is allowed only if approved in writing in advance.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/booking-payment-cancellation"
+    },
+    {
+      "id": "POL-BPC-04",
+      "pillar": "Is JVTO's online checkout secure?",
+      "core_claim": "JVTO's checkout is SSL-encrypted and processed via a PCI DSS-compliant payment gateway. JVTO does not store full card numbers, CVV codes, or online banking passwords, and will never request these via chat or email.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/booking-payment-cancellation"
+    },
+    {
+      "id": "POL-BPC-05",
+      "pillar": "What are JVTO's official bank transfer details?",
+      "core_claim": "Balance payments may be made to Bank BRI (PT Java Volcano Rendezvous — 001301001779564 — SWIFT: BRINIDJAXXX) or Bank BCA (PT Java Volcano Rendezvous — 1200944352 — SWIFT: CENAIDJAXXX). Use only when instructed via official channels.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/booking-payment-cancellation"
+    },
+    {
+      "id": "POL-BPC-06",
+      "pillar": "What is the order of precedence if JVTO policies conflict?",
+      "core_claim": "In any discrepancy: (1) Official E-Voucher / Invoice PDF, (2) Booking, Payment & Cancellation Policy, (3) Inclusions & Exclusions Policy, (4) Privacy Policy, (5) Travel Guide — Booking Information. The issued E-Voucher always governs confirmed bookings.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/booking-payment-cancellation"
+    },
+    {
+      "id": "POL-BPC-07",
+      "pillar": "What is JVTO's cancellation policy?",
+      "core_claim": "JVTO applies a 48-hour cut-off (local Indonesia time). Cancel 48 hours or more before Day 1: 100% of eligible payment converts to JVTO Travel Credit. Cancel less than 48 hours before Day 1: booking may be forfeited up to 100%, with no Travel Credit issued.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/booking-payment-cancellation"
+    },
+    {
+      "id": "POL-BPC-08",
+      "pillar": "Does JVTO offer cash refunds for cancellations?",
+      "core_claim": "JVTO does not offer cash refunds for guest-initiated cancellations. Eligible amounts are converted to JVTO Travel Credit — issued in IDR, non-expiring, and transferable with written confirmation from the original guest.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/booking-payment-cancellation"
+    },
+    {
+      "id": "POL-BPC-09",
+      "pillar": "What is JVTO Travel Credit?",
+      "core_claim": "JVTO Travel Credit is a non-cash credit issued in IDR that can be used toward future private tours with JVTO. It has no expiry date and can be transferred to another traveler with written authorization from the original guest.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/booking-payment-cancellation"
+    },
+    {
+      "id": "POL-BPC-10",
+      "pillar": "Can I reschedule my JVTO tour?",
+      "core_claim": "One reschedule is available for the same package if requested 48 hours or more before Day 1, subject to availability and any seasonal cost differences. Requests made less than 48 hours before Day 1 are generally treated as a late cancellation.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/booking-payment-cancellation"
+    },
+    {
+      "id": "POL-BPC-11",
+      "pillar": "What happens if JVTO cancels due to a volcano alert or park closure?",
+      "core_claim": "For JVTO-initiated cancellations due to force majeure — volcanic activity, government closures, severe weather — JVTO may offer: equivalent alternative arrangements, Travel Credit for the unused portion, or a partial/full cash refund net of non-recoverable third-party costs.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/booking-payment-cancellation"
+    },
+    {
+      "id": "POL-IE-01",
+      "pillar": "What is included in a JVTO private tour package?",
+      "core_claim": "Standard inclusions: private air-conditioned vehicle, licensed crew, entrance fees and park permits, accommodation with breakfast (where listed), bottled water, and a JVTO travel T-shirt. Ijen packages add gas mask, trekking poles, and health-screening coordination when required under current access rules.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/inclusions-exclusions"
+    },
+    {
+      "id": "POL-IE-02",
+      "pillar": "What vehicle does JVTO use for private tours?",
+      "core_claim": "JVTO allocates vehicles by group size: 2–3 guests receive a private MPV (e.g., Toyota Avanza); 4–9 guests receive a Toyota Hiace; 10–11 guests receive a Hiace plus an additional MPV. All vehicles are air-conditioned and private — not shared with other travelers.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/inclusions-exclusions"
+    },
+    {
+      "id": "POL-IE-03",
+      "pillar": "How many guests share a jeep at Mount Bromo?",
+      "core_claim": "JVTO allocates private 4WD jeeps at Mount Bromo with a maximum of approximately 4 guests per jeep, for comfort and safety. When Bromo is included, private jeep access to sunrise and crater viewpoints is standard.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/inclusions-exclusions"
+    },
+    {
+      "id": "POL-IE-04",
+      "pillar": "Does JVTO provide gas masks for Kawah Ijen?",
+      "core_claim": "Yes. JVTO provides a professional gas mask rated for sulfur environments for each participating guest on Ijen-inclusive tours. Trekking poles are also included. These are standard inclusions on all JVTO itineraries that include an Ijen crater visit.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/inclusions-exclusions"
+    },
+    {
+      "id": "POL-IE-05",
+      "pillar": "What is JVTO's FOC scheme for large groups?",
+      "core_claim": "JVTO offers FOC (Free of Charge) places for large direct bookings: 18 paying guests → 1 FOC; 35 paying guests → 2 FOC; 50 paying guests → 3 FOC + 5% discount for the entire group. Only paying guests count toward the threshold. Direct bookings only — not applicable to GetYourGuide, Booking.com, or other third-party platforms.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/inclusions-exclusions"
+    },
+    {
+      "id": "POL-IE-06",
+      "pillar": "What is not included in a JVTO tour by default?",
+      "core_claim": "Excluded by default: international/domestic flights, visas, travel insurance, personal expenses (snacks, drinks, souvenirs), tips or gratuities for guides and drivers, and Madakaripura helmets — which are provided by local site management at the canyon entrance and are not a JVTO inclusion. If it is not written on your E-Voucher, it is not included.",
+      "mechanism": null,
+      "evidence_hooks": null,
+      "nlp_variants": null,
+      "evidence_slugs": [],
+      "primary_page": "/policy/inclusions-exclusions"
     }
-  ],
-  "lastReviewed": "2026-08-04",
-  "owner": "narrative-claims",
-  "reviewStatus": "domain-owner-assigned-by-audit"
+  ]
 }

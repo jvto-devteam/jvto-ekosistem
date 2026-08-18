@@ -462,7 +462,7 @@
     }
   ],
   "source_trace": {
-    "migration_note": "Editorial fields (name, description, marketing, keyExperiences, physicalDifficulty, inclusions/exclusions, travelerRequirements, accommodationPlan, gear, itineraryDays, provider, compliance, tags, gallery, imageUrl, category, duration, route) synced 1:1 from the live Prisma `packages` row as part of the single-content-source (ekosistem-only) consolidation, 2026-08-18. itineraryDays added — previously absent from this file. Operational/transactional fields (pricing, deposit, add_ons pricing, channel_availability, aggregateRating) intentionally left untouched — they remain Prisma-sourced at read time per the standing editorial-vs-operational split. Phase 2 (2026-08-18): pricing (offers), add-on prices, compliance, and channelMetadata also snapshotted from Prisma into ekosistem per owner decision to use ekosistem as the sole source for pricing/availability too, not just editorial content. No live sync exists going forward -- price changes must be edited directly in this file and deployed.",
+    "migration_note": "Editorial fields (name, description, marketing, keyExperiences, physicalDifficulty, inclusions/exclusions, travelerRequirements, accommodationPlan, gear, itineraryDays, provider, compliance, tags, gallery, imageUrl, category, duration, route) synced 1:1 from the live Prisma `packages` row as part of the single-content-source (ekosistem-only) consolidation, 2026-08-18. itineraryDays added — previously absent from this file. Operational/transactional fields (pricing, deposit, add_ons pricing, channel_availability, aggregateRating) intentionally left untouched — they remain Prisma-sourced at read time per the standing editorial-vs-operational split. Phase 2 (2026-08-18): pricing (offers), add-on prices, compliance, and channelMetadata also snapshotted from Prisma into ekosistem per owner decision to use ekosistem as the sole source for pricing/availability too, not just editorial content. No live sync exists going forward -- price changes must be edited directly in this file and deployed. Phase 3 (2026-08-18): faqs[] added (published package_faqs snapshot from Prisma, 48 items) -- replaces the live Prisma FAQ join that previously backed the tour-page FAQPage schema.",
     "generated_at": "2026-08-18T00:00:00.000Z"
   },
   "offers": {
@@ -546,5 +546,199 @@
     "minLeadTimeHours": 24,
     "maxPaxRecommended": 100,
     "minPaxOperational": 1
-  }
+  },
+  "faqs": [
+    {
+      "question": "What is Mount Bromo's current volcanic activity status?",
+      "answer": "As of 2026-05-16, PVMBG elevated Mount Bromo to Level II Waspada, with a mandatory 1 km exclusion zone around the crater rim. The crater stairs and rim approach are currently off-limits to visitors. The Penanjakan sunrise viewpoint, Sea of Sand traverse, and caldera floor remain fully open and accessible. JVTO monitors PVMBG and BBKSDA advisories daily and contacts guests proactively if conditions change before departure."
+    },
+    {
+      "question": "Is it still safe to visit Mount Bromo at Level II Waspada?",
+      "answer": "Yes, for the key visitor experiences. The 1 km exclusion zone targets the crater rim approach — not the broader caldera. Penanjakan viewpoint (2,770 m) and the Sea of Sand traverse are well outside the restricted area and remain open. JVTO holds BBKSDA national-park operator clearance and does not take guests into exclusion zones under any alert level. Your guide will brief you on the adjusted itinerary before departure."
+    },
+    {
+      "question": "Can I approach the Bromo crater rim?",
+      "answer": "Under the current Level II Waspada status (in effect from 2026-05-16), a 1 km exclusion zone around the crater rim is mandated by PVMBG. JVTO does not take guests to the crater stairs or rim while Level II is active. The jeep drop-off area on the caldera floor, the Sea of Sand, and the Penanjakan viewpoint are all outside the exclusion zone and remain fully accessible."
+    },
+    {
+      "question": "Where is Kawah Ijen located?",
+      "answer": "Kawah Ijen lies in East Java, Indonesia, between Banyuwangi and Bondowoso Regencies, at coordinates 8.058° S, 114.242° E."
+    },
+    {
+      "question": "Where is Mount Bromo located?",
+      "answer": "In the Bromo Tengger Semeru National Park, East Java, near Sukapura and Cemoro Lawang."
+    },
+    {
+      "question": "Where is Madakaripura located?",
+      "answer": "In Sapih Village, Lumbang District, Probolinggo Regency, East Java."
+    },
+    {
+      "question": "What makes Kawah Ijen famous?",
+      "answer": "It is globally known for its turquoise acidic crater lake and the rare “blue fire” phenomenon caused by burning sulfuric gas."
+    },
+    {
+      "question": "What is the altitude of Bromo?",
+      "answer": "2,329 meters above sea level."
+    },
+    {
+      "question": "How high is Madakaripura Waterfall?",
+      "answer": "Around 200 meters, making it one of Java’s tallest continuous waterfalls."
+    },
+    {
+      "question": "What is the altitude of Kawah Ijen?",
+      "answer": "The summit reaches 2,799 meters, with the crater rim around 2,386 meters above sea level."
+    },
+    {
+      "question": "Why is Bromo famous?",
+      "answer": "For its sunrise views over the Tengger Caldera and its active smoking crater."
+    },
+    {
+      "question": "Who is associated with Madakaripura?",
+      "answer": "Gajah Mada, the Majapahit prime minister, who is said to have meditated here until his death."
+    },
+    {
+      "question": "When is the best time to visit Kawah Ijen?",
+      "answer": "Between May and October during the dry season — clear skies, minimal fog, and the best visibility for blue fire and sunrise."
+    },
+    {
+      "question": "What is the best sunrise viewpoint?",
+      "answer": "Kingkong Hill (Bukit Kingkong) at 2,600 meters elevation."
+    },
+    {
+      "question": "What does the name “Madakaripura” mean?",
+      "answer": "“The place that is eternally kept or preserved.”"
+    },
+    {
+      "question": "What time can you see the blue fire?",
+      "answer": "The blue fire is visible between 01:00–04:00 AM before sunrise when the temperature and wind are stable."
+    },
+    {
+      "question": "When should you depart from Sukapura for sunrise?",
+      "answer": "Around 02:30 AM by Jeep to reach Kingkong Hill before 04:30 AM."
+    },
+    {
+      "question": "How do you reach the waterfall?",
+      "answer": "Drive from Sukapura (~30 min) and walk 1.5 km along a river trail."
+    },
+    {
+      "question": "How difficult is the Ijen trek?",
+      "answer": "Moderate (3/5). The round trip is about 6 km with ~530 m elevation gain."
+    },
+    {
+      "question": "What is the temperature at dawn?",
+      "answer": "5–10°C; cold winds are common."
+    },
+    {
+      "question": "How difficult is the trek?",
+      "answer": "Moderate (3/5) — involves walking through shallow streams and slippery rocks."
+    },
+    {
+      "question": "Is the crater lake safe to touch?",
+      "answer": "No. The lake has a pH of 0.2–0.5 and contains sulfuric acid; it can cause severe burns."
+    },
+    {
+      "question": "What religion do Tenggerese people follow?",
+      "answer": "A blend of Hinduism and local animism, maintaining ancient Majapahit traditions."
+    },
+    {
+      "question": "When is the best visiting time?",
+      "answer": "Morning (07:00–10:00 AM) during the dry season (May–October)."
+    },
+    {
+      "question": "Do you need a gas mask at Ijen?",
+      "answer": "Yes, especially when descending toward the crater floor due to sulfur gas exposure."
+    },
+    {
+      "question": "What ritual is held at Bromo?",
+      "answer": "The Yadnya Kasada ceremony — offerings are thrown into the crater once a year."
+    },
+    {
+      "question": "Can you see sunlight inside the canyon?",
+      "answer": "Yes, between 08:30–09:30 AM, beams create rainbow effects through the mist."
+    },
+    {
+      "question": "Who are the sulfur miners?",
+      "answer": "Local “Wong Ijen” miners manually extract sulfur using basic tools, carrying loads up to 90 kg daily."
+    },
+    {
+      "question": "Is it safe to approach the crater?",
+      "answer": "Yes, via stairway access, but visitors must avoid windy or eruptive conditions."
+    },
+    {
+      "question": "What is the main risk?",
+      "answer": "Flash floods and slippery surfaces during or after rainfall."
+    },
+    {
+      "question": "Can you see the Milky Way from Kawah Ijen?",
+      "answer": "Yes, between May and September from 00:30–04:00 AM during clear dry-season nights."
+    },
+    {
+      "question": "What gear is needed?",
+      "answer": "Jacket, gloves, scarf, flashlight, and mask for dust."
+    },
+    {
+      "question": "Do visitors need a guide?",
+      "answer": "Yes, especially in wet conditions — local guides ensure safety and navigation."
+    },
+    {
+      "question": "What wildlife exists around Kawah Ijen?",
+      "answer": "Javan leopards, hawk-eagles, and montane forest species like edelweiss and eucalyptus."
+    },
+    {
+      "question": "What’s the trek difficulty?",
+      "answer": "Moderate (3/5); mostly Jeep travel plus short climbs."
+    },
+    {
+      "question": "What should you wear?",
+      "answer": "Quick-dry clothes, sandals with grip, waterproof bag, and a light raincoat."
+    },
+    {
+      "question": "What cultural beliefs are linked to Ijen?",
+      "answer": "Locals view the volcano as a living being and perform offerings (sesajen) during the Javanese month of Suro."
+    },
+    {
+      "question": "Can families visit Bromo easily?",
+      "answer": "Yes, Jeep access makes it suitable for all ages with basic fitness."
+    },
+    {
+      "question": "Are there cultural rituals at Madakaripura?",
+      "answer": "Yes, offerings (sesajen) are sometimes placed at the meditation cave to honor Gajah Mada."
+    },
+    {
+      "question": "How cold is it at Ijen?",
+      "answer": "Temperatures range from 5–10°C at the rim before sunrise."
+    },
+    {
+      "question": "What’s the best visiting season?",
+      "answer": "June–September for clear skies and stable weather."
+    },
+    {
+      "question": "What’s the local saying about Madakaripura?",
+      "answer": "“Banyu iki saksi janji Palapa” — “This water bears witness to the Oath of Palapa.”"
+    },
+    {
+      "question": "How long does it take to climb Kawah Ijen?",
+      "answer": "Approximately 1.5–2 hours to the rim and another 45–60 minutes to descend into the crater."
+    },
+    {
+      "question": "What’s the symbolic meaning of Bromo?",
+      "answer": "Faith, gratitude, and coexistence with fire — “Gunung iku urip” (the mountain is alive)."
+    },
+    {
+      "question": "How long does the full visit take?",
+      "answer": "Around 1.5–2 hours including walking and photo time."
+    },
+    {
+      "question": "What should you bring to Kawah Ijen?",
+      "answer": "Gas mask, headlamp, warm clothing, gloves, and at least 1L of drinking water."
+    },
+    {
+      "question": "What’s the recommended post-sunrise activity?",
+      "answer": "Visit Pura Luhur Poten temple and hike the crater rim before returning to Sukapura."
+    },
+    {
+      "question": "What is the best symbolic message of Madakaripura?",
+      "answer": "It embodies eternal loyalty and unity — the flow of devotion that never ends."
+    }
+  ]
 }

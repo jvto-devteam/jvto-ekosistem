@@ -525,7 +525,7 @@
     }
   ],
   "source_trace": {
-    "migration_note": "Editorial fields (name, description, marketing, keyExperiences, physicalDifficulty, inclusions/exclusions, travelerRequirements, accommodationPlan, gear, itineraryDays, provider, compliance, tags, gallery, imageUrl, category, duration, route) synced 1:1 from the live Prisma `packages` row as part of the single-content-source (ekosistem-only) consolidation, 2026-08-18. itineraryDays added — previously absent from this file. Operational/transactional fields (pricing, deposit, add_ons pricing, channel_availability, aggregateRating) intentionally left untouched — they remain Prisma-sourced at read time per the standing editorial-vs-operational split. Phase 2 (2026-08-18): pricing (offers), add-on prices, compliance, and channelMetadata also snapshotted from Prisma into ekosistem per owner decision to use ekosistem as the sole source for pricing/availability too, not just editorial content. No live sync exists going forward -- price changes must be edited directly in this file and deployed.",
+    "migration_note": "Editorial fields (name, description, marketing, keyExperiences, physicalDifficulty, inclusions/exclusions, travelerRequirements, accommodationPlan, gear, itineraryDays, provider, compliance, tags, gallery, imageUrl, category, duration, route) synced 1:1 from the live Prisma `packages` row as part of the single-content-source (ekosistem-only) consolidation, 2026-08-18. itineraryDays added — previously absent from this file. Operational/transactional fields (pricing, deposit, add_ons pricing, channel_availability, aggregateRating) intentionally left untouched — they remain Prisma-sourced at read time per the standing editorial-vs-operational split. Phase 2 (2026-08-18): pricing (offers), add-on prices, compliance, and channelMetadata also snapshotted from Prisma into ekosistem per owner decision to use ekosistem as the sole source for pricing/availability too, not just editorial content. No live sync exists going forward -- price changes must be edited directly in this file and deployed. Phase 3 (2026-08-18): faqs[] added (published package_faqs snapshot from Prisma, 71 items) -- replaces the live Prisma FAQ join that previously backed the tour-page FAQPage schema.",
     "generated_at": "2026-08-18T00:00:00.000Z"
   },
   "offers": {
@@ -619,5 +619,291 @@
     "minLeadTimeHours": 24,
     "maxPaxRecommended": 100,
     "minPaxOperational": 1
-  }
+  },
+  "faqs": [
+    {
+      "question": "What is Mount Bromo's current volcanic activity status?",
+      "answer": "As of 2026-05-16, PVMBG elevated Mount Bromo to Level II Waspada, with a mandatory 1 km exclusion zone around the crater rim. The crater stairs and rim approach are currently off-limits to visitors. The Penanjakan sunrise viewpoint, Sea of Sand traverse, and caldera floor remain fully open and accessible. JVTO monitors PVMBG and BBKSDA advisories daily and contacts guests proactively if conditions change before departure."
+    },
+    {
+      "question": "Is it still safe to visit Mount Bromo at Level II Waspada?",
+      "answer": "Yes, for the key visitor experiences. The 1 km exclusion zone targets the crater rim approach — not the broader caldera. Penanjakan viewpoint (2,770 m) and the Sea of Sand traverse are well outside the restricted area and remain open. JVTO holds BBKSDA national-park operator clearance and does not take guests into exclusion zones under any alert level. Your guide will brief you on the adjusted itinerary before departure."
+    },
+    {
+      "question": "Can I approach the Bromo crater rim?",
+      "answer": "Under the current Level II Waspada status (in effect from 2026-05-16), a 1 km exclusion zone around the crater rim is mandated by PVMBG. JVTO does not take guests to the crater stairs or rim while Level II is active. The jeep drop-off area on the caldera floor, the Sea of Sand, and the Penanjakan viewpoint are all outside the exclusion zone and remain fully accessible."
+    },
+    {
+      "question": "Which JVTO packages include Papuma Beach?",
+      "answer": "Five JVTO packages include Papuma: the 4D3N Ijen, Papuma, Tumpak Sewu & Bromo (Surabaya), the 5D4N full East Java circuit (Surabaya), the 6D5N Grand East Java (Surabaya), and two Bali-origin equivalents — the 4D3N and 5D4N circuits from Bali finishing in Surabaya. All five packages also include Kawah Ijen, Tumpak Sewu, and Mount Bromo."
+    },
+    {
+      "question": "How long does it take to reach Papuma from Surabaya or Bali?",
+      "answer": "On Surabaya-origin packages, Papuma is reached after the Kawah Ijen night hike (Day 2 on 4D3N packages). The overland transfer from the Ijen area to Papuma takes roughly 2–3 hours. Guests arriving from Bali travel via the Gilimanuk–Ketapang ferry crossing into East Java — the Bali-to-Ijen segment takes 5–7 hours, with Papuma following the next day. JVTO manages all connections and travel timing."
+    },
+    {
+      "question": "What does JVTO include for the Papuma leg?",
+      "answer": "Private transport to and from Papuma is included in all Papuma-family packages, along with a dedicated driver-guide or escort guide. Entrance fees and parking at Papuma are included. Breakfast is included on the Papuma-side overnight day. All JVTO standard inclusions apply: private AC vehicle, mineral water, JVTO travel T-shirt, and pick-up to drop-off assistance. No additional local payments are charged at Papuma."
+    },
+    {
+      "question": "Where do guests stay on the Papuma leg?",
+      "answer": "On Papuma-family packages, guests overnight at Doho Homestay on the Papuma side (after the Ijen day). Breakfast is included. The following morning, guests continue overland toward Tumpak Sewu. Hotel categories are standard; upgrades may be available on request at additional cost. Dietary requirements (vegetarian, vegan, gluten-free) should be declared at booking."
+    },
+    {
+      "question": "What should I bring to Papuma Beach?",
+      "answer": "Swimwear and a light towel if you plan to swim. Comfortable walking shoes or sandals for the cape headland trail. Sunscreen and sunglasses — East Java's midday sun is strong. A light change of clothes is useful as the beach visit follows a full morning of travel. JVTO provides mineral water in the vehicle throughout the day."
+    },
+    {
+      "question": "What is the price range for JVTO packages that include Papuma?",
+      "answer": "Papuma appears in JVTO's 4-day packages and above. The 4 Day Ijen, Papuma, Tumpak Sewu & Bromo from Surabaya starts at IDR 4,550,000/person (2 pax). The Bali-origin equivalent (4D3N from Bali to Surabaya) starts at IDR 4,900,000/person (2 pax). Larger groups receive lower per-person rates. All prices include all standard JVTO inclusions."
+    },
+    {
+      "question": "Is Papuma Beach suitable for families with children?",
+      "answer": "Yes. The beach is relatively flat and accessible, and the cape headland walk is a gentle ascent without technical sections. Families have joined multi-destination JVTO packages that include Papuma. Key consideration: other legs on the same package (Kawah Ijen night hike, Tumpak Sewu canyon) require moderate to high fitness — assess the full itinerary against your group's abilities."
+    },
+    {
+      "question": "How do I book a JVTO Papuma package?",
+      "answer": "Contact JVTO via WhatsApp (+62 822 4478 8833) or email (hello@javavolcano-touroperator.com) with your dates, group size, and preferred package. JVTO sends a tailored proposal; after confirming, you pay a 20% deposit via secure JVTO checkout and receive an e-voucher with full trip details. Support is available daily 08:00–22:00 WIB. Licensed operator NIB 1102230032918."
+    },
+    {
+      "question": "Where is Kawah Ijen located?",
+      "answer": "Kawah Ijen lies in East Java, Indonesia, between Banyuwangi and Bondowoso Regencies, at coordinates 8.058° S, 114.242° E."
+    },
+    {
+      "question": "Where is Papuma Beach located?",
+      "answer": "In Jember Regency, East Java, about 40 minutes from the city center."
+    },
+    {
+      "question": "Where is Tumpak Sewu located?",
+      "answer": "On the border of Lumajang and Malang Regencies, East Java."
+    },
+    {
+      "question": "Where is Mount Bromo located?",
+      "answer": "In the Bromo Tengger Semeru National Park, East Java, near Sukapura and Cemoro Lawang."
+    },
+    {
+      "question": "What makes Kawah Ijen famous?",
+      "answer": "It is globally known for its turquoise acidic crater lake and the rare “blue fire” phenomenon caused by burning sulfuric gas."
+    },
+    {
+      "question": "What is unique about Papuma Beach?",
+      "answer": "It’s one of the few places in Java where both sunrise and sunset are visible on the same coastline."
+    },
+    {
+      "question": "How high is Tumpak Sewu?",
+      "answer": "Approximately 120 meters, forming a circular amphitheater of waterfalls."
+    },
+    {
+      "question": "What is the altitude of Bromo?",
+      "answer": "2,329 meters above sea level."
+    },
+    {
+      "question": "What is the altitude of Kawah Ijen?",
+      "answer": "The summit reaches 2,799 meters, with the crater rim around 2,386 meters above sea level."
+    },
+    {
+      "question": "What does “Papuma” mean?",
+      "answer": "Short for “Pasir Putih Malikan,” meaning “White Sands of Malikan.”"
+    },
+    {
+      "question": "What river feeds Tumpak Sewu?",
+      "answer": "The Glidik River, originating from Mount Semeru’s volcanic slopes."
+    },
+    {
+      "question": "Why is Bromo famous?",
+      "answer": "For its sunrise views over the Tengger Caldera and its active smoking crater."
+    },
+    {
+      "question": "When is the best time to visit Kawah Ijen?",
+      "answer": "Between May and October during the dry season — clear skies, minimal fog, and the best visibility for blue fire and sunrise."
+    },
+    {
+      "question": "When is the best time to visit Papuma Beach?",
+      "answer": "May–October during the dry season for calm sea, vivid skies, and safe road access."
+    },
+    {
+      "question": "Why is it called “Tumpak Sewu”?",
+      "answer": "The Javanese term means “a thousand waterfalls,” referring to its multi-stream cascade."
+    },
+    {
+      "question": "What is the best sunrise viewpoint?",
+      "answer": "Kingkong Hill (Bukit Kingkong) at 2,600 meters elevation."
+    },
+    {
+      "question": "What time can you see the blue fire?",
+      "answer": "The blue fire is visible between 01:00–04:00 AM before sunrise when the temperature and wind are stable."
+    },
+    {
+      "question": "What time is sunrise and sunset at Papuma?",
+      "answer": "Sunrise 05:15–05:45 AM; sunset 17:15–17:45 PM."
+    },
+    {
+      "question": "How hard is the trek to the base?",
+      "answer": "Moderate to hard (3.5/5), involving ropes, bamboo ladders, and slippery rocks."
+    },
+    {
+      "question": "When should you depart from Sukapura for sunrise?",
+      "answer": "Around 02:30 AM by Jeep to reach Kingkong Hill before 04:30 AM."
+    },
+    {
+      "question": "How difficult is the Ijen trek?",
+      "answer": "Moderate (3/5). The round trip is about 6 km with ~530 m elevation gain."
+    },
+    {
+      "question": "Is Papuma Beach suitable for swimming?",
+      "answer": "No, the currents are strong and the seabed uneven — only wading near shore is advised."
+    },
+    {
+      "question": "How long does it take to reach the bottom?",
+      "answer": "Around 30–45 minutes down and 45–60 minutes back up."
+    },
+    {
+      "question": "What is the temperature at dawn?",
+      "answer": "5–10°C; cold winds are common."
+    },
+    {
+      "question": "Is the crater lake safe to touch?",
+      "answer": "No. The lake has a pH of 0.2–0.5 and contains sulfuric acid; it can cause severe burns."
+    },
+    {
+      "question": "What geological features define Papuma?",
+      "answer": "Volcanic cliffs, coral reefs, and offshore rock stacks formed by longshore erosion."
+    },
+    {
+      "question": "What is the best time to visit?",
+      "answer": "Morning hours (05:30–10:00 AM) during the dry season, May–July."
+    },
+    {
+      "question": "What religion do Tenggerese people follow?",
+      "answer": "A blend of Hinduism and local animism, maintaining ancient Majapahit traditions."
+    },
+    {
+      "question": "Do you need a gas mask at Ijen?",
+      "answer": "Yes, especially when descending toward the crater floor due to sulfur gas exposure."
+    },
+    {
+      "question": "What cultural rituals occur here?",
+      "answer": "The Larung Sesaji Laut Selatan — offerings to the sea spirits for protection and gratitude."
+    },
+    {
+      "question": "Can visitors see Semeru from Tumpak Sewu?",
+      "answer": "Yes, Semeru appears directly behind the falls from the upper viewpoint at sunrise."
+    },
+    {
+      "question": "What ritual is held at Bromo?",
+      "answer": "The Yadnya Kasada ceremony — offerings are thrown into the crater once a year."
+    },
+    {
+      "question": "Who are the sulfur miners?",
+      "answer": "Local “Wong Ijen” miners manually extract sulfur using basic tools, carrying loads up to 90 kg daily."
+    },
+    {
+      "question": "Are there walking trails at Papuma?",
+      "answer": "Yes, short trails lead to Batu Narada and the eastern cape for sunrise and sunset views."
+    },
+    {
+      "question": "What’s the trail length?",
+      "answer": "About 1.2 km one way."
+    },
+    {
+      "question": "Is it safe to approach the crater?",
+      "answer": "Yes, via stairway access, but visitors must avoid windy or eruptive conditions."
+    },
+    {
+      "question": "Can you see the Milky Way from Kawah Ijen?",
+      "answer": "Yes, between May and September from 00:30–04:00 AM during clear dry-season nights."
+    },
+    {
+      "question": "What animals can be seen at Papuma?",
+      "answer": "Seabirds, small crabs, and sometimes sea turtles during nesting months."
+    },
+    {
+      "question": "Is a guide necessary?",
+      "answer": "Strongly recommended for safety during descent and river crossings."
+    },
+    {
+      "question": "What gear is needed?",
+      "answer": "Jacket, gloves, scarf, flashlight, and mask for dust."
+    },
+    {
+      "question": "What wildlife exists around Kawah Ijen?",
+      "answer": "Javan leopards, hawk-eagles, and montane forest species like edelweiss and eucalyptus."
+    },
+    {
+      "question": "What kind of accommodation is nearby?",
+      "answer": "Local cottages and small hotels within 1–2 km of the beach entrance."
+    },
+    {
+      "question": "Are there other attractions nearby?",
+      "answer": "Yes, Goa Tetes Cave is a short 20-minute walk downstream."
+    },
+    {
+      "question": "What’s the trek difficulty?",
+      "answer": "Moderate (3/5); mostly Jeep travel plus short climbs."
+    },
+    {
+      "question": "What cultural beliefs are linked to Ijen?",
+      "answer": "Locals view the volcano as a living being and perform offerings (sesajen) during the Javanese month of Suro."
+    },
+    {
+      "question": "Is there an entrance fee?",
+      "answer": "Yes, around IDR 20,000–30,000 per person."
+    },
+    {
+      "question": "What should visitors wear?",
+      "answer": "Quick-dry clothes, gloves, water shoes, and waterproof bags."
+    },
+    {
+      "question": "Can families visit Bromo easily?",
+      "answer": "Yes, Jeep access makes it suitable for all ages with basic fitness."
+    },
+    {
+      "question": "How cold is it at Ijen?",
+      "answer": "Temperatures range from 5–10°C at the rim before sunrise."
+    },
+    {
+      "question": "How long should visitors stay?",
+      "answer": "2–3 hours for the full experience or overnight for sunrise/sunset viewing."
+    },
+    {
+      "question": "Are drones allowed?",
+      "answer": "Yes, but with caution; wind and mist can interfere with stability."
+    },
+    {
+      "question": "What’s the best visiting season?",
+      "answer": "June–September for clear skies and stable weather."
+    },
+    {
+      "question": "How long does it take to climb Kawah Ijen?",
+      "answer": "Approximately 1.5–2 hours to the rim and another 45–60 minutes to descend into the crater."
+    },
+    {
+      "question": "What’s the best photo spot at Papuma?",
+      "answer": "The eastern hill overlooking Nusa Barong island at dawn."
+    },
+    {
+      "question": "What’s the symbolic meaning of Tumpak Sewu?",
+      "answer": "It represents humility — the natural flow of power returning to peace."
+    },
+    {
+      "question": "What’s the symbolic meaning of Bromo?",
+      "answer": "Faith, gratitude, and coexistence with fire — “Gunung iku urip” (the mountain is alive)."
+    },
+    {
+      "question": "What should you bring to Kawah Ijen?",
+      "answer": "Gas mask, headlamp, warm clothing, gloves, and at least 1L of drinking water."
+    },
+    {
+      "question": "What symbolizes Papuma in local culture?",
+      "answer": "Balance — where the sea, sun, and land meet in harmony."
+    },
+    {
+      "question": "What’s the main risk?",
+      "answer": "Slippery terrain and sudden water surges during rain."
+    },
+    {
+      "question": "What’s the recommended post-sunrise activity?",
+      "answer": "Visit Pura Luhur Poten temple and hike the crater rim before returning to Sukapura."
+    }
+  ]
 }

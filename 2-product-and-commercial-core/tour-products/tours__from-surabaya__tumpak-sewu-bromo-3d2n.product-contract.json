@@ -365,7 +365,7 @@
     }
   ],
   "source_trace": {
-    "migration_note": "Editorial fields (name, description, marketing, keyExperiences, physicalDifficulty, inclusions/exclusions, travelerRequirements, accommodationPlan, gear, itineraryDays, provider, compliance, tags, gallery, imageUrl, category, duration, route) synced 1:1 from the live Prisma `packages` row as part of the single-content-source (ekosistem-only) consolidation, 2026-08-18. itineraryDays added — previously absent from this file. Operational/transactional fields (pricing, deposit, add_ons pricing, channel_availability, aggregateRating) intentionally left untouched — they remain Prisma-sourced at read time per the standing editorial-vs-operational split. Phase 2 (2026-08-18): pricing (offers), add-on prices, compliance, and channelMetadata also snapshotted from Prisma into ekosistem per owner decision to use ekosistem as the sole source for pricing/availability too, not just editorial content. No live sync exists going forward -- price changes must be edited directly in this file and deployed.",
+    "migration_note": "Editorial fields (name, description, marketing, keyExperiences, physicalDifficulty, inclusions/exclusions, travelerRequirements, accommodationPlan, gear, itineraryDays, provider, compliance, tags, gallery, imageUrl, category, duration, route) synced 1:1 from the live Prisma `packages` row as part of the single-content-source (ekosistem-only) consolidation, 2026-08-18. itineraryDays added — previously absent from this file. Operational/transactional fields (pricing, deposit, add_ons pricing, channel_availability, aggregateRating) intentionally left untouched — they remain Prisma-sourced at read time per the standing editorial-vs-operational split. Phase 2 (2026-08-18): pricing (offers), add-on prices, compliance, and channelMetadata also snapshotted from Prisma into ekosistem per owner decision to use ekosistem as the sole source for pricing/availability too, not just editorial content. No live sync exists going forward -- price changes must be edited directly in this file and deployed. Phase 3 (2026-08-18): faqs[] added (published package_faqs snapshot from Prisma, 19 items) -- replaces the live Prisma FAQ join that previously backed the tour-page FAQPage schema.",
     "generated_at": "2026-08-18T00:00:00.000Z"
   },
   "offers": {
@@ -459,5 +459,83 @@
     "minLeadTimeHours": 24,
     "maxPaxRecommended": 100,
     "minPaxOperational": 1
-  }
+  },
+  "faqs": [
+    {
+      "question": "What is Mount Bromo's current volcanic activity status?",
+      "answer": "As of 2026-05-16, PVMBG elevated Mount Bromo to Level II Waspada, with a mandatory 1 km exclusion zone around the crater rim. The crater stairs and rim approach are currently off-limits to visitors. The Penanjakan sunrise viewpoint, Sea of Sand traverse, and caldera floor remain fully open and accessible. JVTO monitors PVMBG and BBKSDA advisories daily and contacts guests proactively if conditions change before departure."
+    },
+    {
+      "question": "Can I approach the Bromo crater rim?",
+      "answer": "Under the current Level II Waspada status (in effect from 2026-05-16), a 1 km exclusion zone around the crater rim is mandated by PVMBG. JVTO does not take guests to the crater stairs or rim while Level II is active. The jeep drop-off area on the caldera floor, the Sea of Sand, and the Penanjakan viewpoint are all outside the exclusion zone and remain fully accessible."
+    },
+    {
+      "question": "Where is Tumpak Sewu located?",
+      "answer": "On the border of Lumajang and Malang Regencies, East Java."
+    },
+    {
+      "question": "How much luggage can I bring?",
+      "answer": "\n            <p>In most cases, standard airline-style luggage is fine:</p>\n            <ul>\n              <li>One main suitcase or backpack per person</li>\n              <li>One small daypack</li>\n            </ul>\n            <p>If you plan to travel with unusually large or heavy items, please tell us in advance so we can plan the right vehicle. On days with hikes, we recommend leaving your main luggage in the car or accommodation and carrying only what you need in a daypack.</p>\n          "
+    },
+    {
+      "question": "How can we contact JVTO before and during the tour?",
+      "answer": "\n            <p>Before and during your tour, our official channels are:</p>\n            <ul>\n              <li>WhatsApp (primary)</li>\n              <li>Email</li>\n            </ul>\n            <p>These details appear on your E-Voucher and on the Contact page. Please make sure your phone number (including country code) and email address are correct so we can reach you with any important updates.</p>\n          "
+    },
+    {
+      "question": "How high is Tumpak Sewu?",
+      "answer": "Approximately 120 meters, forming a circular amphitheater of waterfalls."
+    },
+    {
+      "question": "What is the altitude of Bromo?",
+      "answer": "2,329 meters above sea level."
+    },
+    {
+      "question": "What is included in the price?",
+      "answer": "\n            <p>Each tour page shows a clear list of Inclusions and Exclusions. In general, our private, all-inclusive packages cover:</p>\n            <ul>\n              <li>Private vehicle and driver</li>\n              <li>Bromo 4WD jeep where listed</li>\n              <li>Stated park entrance tickets and permits</li>\n              <li>All hotel breakfasts</li>\n              <li>Selected lunches and dinners (especially during the Bondowoso / Ijen segment)</li>\n              <li>Mineral water</li>\n              <li>Essential gear for Ijen (gas mask and trekking pole) on tours that include Ijen</li>\n              <li>JVTO travel T-shirt (where listed)</li>\n            </ul>\n            <p>Anything not listed under “Included” is treated as not included. For full details, please see Booking Information and the Inclusions & Exclusions section of your chosen tour.</p>\n          "
+    },
+    {
+      "question": "What should I wear and bring for these tours?",
+      "answer": "\n            <p>The key is layering, grip and simplicity:</p>\n            <ul>\n              <li>Layered clothing for cold pre-dawn starts and warmer later hours</li>\n              <li>Closed shoes with good grip (hiking shoes recommended for Ijen and Tumpak Sewu)</li>\n              <li>Small backpack, personal headlamp or torch, waterproof cover for electronics</li>\n              <li>Essential personal medication</li>\n            </ul>\n            <p>We recommend keeping non-essential valuables and jewellery to a minimum, and avoiding silver items during Ijen days due to sulphur. For full details, see Packing & Fitness.</p>\n          "
+    },
+    {
+      "question": "Which documents should I keep with me?",
+      "answer": "\n            <p>We recommend keeping the following easily accessible:</p>\n            <ul>\n              <li>Passport and required visas</li>\n              <li>Travel insurance information</li>\n              <li>Your JVTO E-Voucher and contact details (printed or on your phone)</li>\n              <li>Any relevant medical information you may need to show in an emergency</li>\n            </ul>\n          "
+    },
+    {
+      "question": "What river feeds Tumpak Sewu?",
+      "answer": "The Glidik River, originating from Mount Semeru’s volcanic slopes."
+    },
+    {
+      "question": "If it rains, will our tour be cancelled?",
+      "answer": "<p>Light or normal rain rarely cancels an entire tour, but it can:</p>\r\n<ul>\r\n<li>Make trails more slippery</li>\r\n<li>Reduce visibility</li>\r\n<li>Require changes in timing or route</li>\r\n</ul>\r\n<p>Severe weather, landslides or dangerous conditions can lead to partial or full cancellations for safety. Our Weather & Closures page explains how we respond and how this links to Travel Credit and itinerary changes.</p>"
+    },
+    {
+      "question": "How do I book and confirm a tour?",
+      "answer": "\n            <p>The usual steps are:</p>\n            <ol>\n              <li>You send us your dates, origin (for example Surabaya or Bali), group size and preferred route.</li>\n              <li>We send you a tailored proposal with itinerary and price.</li>\n              <li>You confirm in writing and pay the booking deposit (normally 20% of the total).</li>\n              <li>We send you an official JVTO E-Voucher with your booking details.</li>\n            </ol>\n            <p>Your booking is considered confirmed when the deposit has been received and the E-Voucher has been issued. Full details are on the Booking Information page.</p>\n          "
+    },
+    {
+      "question": "Do I need travel insurance?",
+      "answer": "\n            <p>Yes, we strongly recommend that all guests hold valid travel insurance that covers:</p>\n            <ul>\n              <li>Medical emergencies</li>\n              <li>Evacuation and repatriation</li>\n              <li>Trip interruption and cancellations</li>\n            </ul>\n            <p>JVTO operates as a licensed Indonesian tour operator, but we cannot act as an insurance provider and cannot cover costs that fall under personal insurance.</p>\n          "
+    },
+    {
+      "question": "Where can I read the full legal policy?",
+      "answer": "\n            <p>The full legal text of our booking and cancellation terms is available on:</p>\n            <ul>\n              <li>Booking Information (web page summary)</li>\n              <li>Booking & Cancellation Policy (document)</li>\n            </ul>\n            <p>In any confusion, the combination of your JVTO E-Voucher, the Booking Information page and the official policy document is treated as the final reference.</p>\n          "
+    },
+    {
+      "question": "What is the best sunrise viewpoint?",
+      "answer": "Kingkong Hill (Bukit Kingkong) at 2,600 meters elevation."
+    },
+    {
+      "question": "How hard is the trek to the base?",
+      "answer": "Moderate to hard (3.5/5), involving ropes, bamboo ladders, and slippery rocks."
+    },
+    {
+      "question": "Can visitors see Semeru from Tumpak Sewu?",
+      "answer": "Yes, Semeru appears directly behind the falls from the upper viewpoint at sunrise."
+    },
+    {
+      "question": "What should you wear?",
+      "answer": "Quick-dry clothes, sandals with grip, waterproof bag, and a light raincoat."
+    }
+  ]
 }
