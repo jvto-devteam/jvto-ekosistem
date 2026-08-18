@@ -1,0 +1,1081 @@
+{
+  "schema_version": "jvto/source/destination-detail/v1",
+  "source_type": "destination_detail",
+  "slug": "papuma-beach",
+  "route": "/destinations/papuma-beach",
+  "id": "9",
+  "code": "PAP-001",
+  "name": "Papuma Beach",
+  "seo_title": "Papuma Beach Jember - White Sand Paradise in East Java",
+  "seo_description": "Discover Papuma Beach, Jember's white sand paradise with turquoise waters and unique rock formations.",
+  "schema_json": {
+    "@id": "https://javavolcano-touroperator.com/destinations/papuma-beach",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -8.4725,
+      "elevation": 5,
+      "longitude": 113.4562
+    },
+    "url": "https://javavolcano-touroperator.com/destinations/papuma-beach",
+    "name": "Papuma Beach",
+    "@type": "Beach",
+    "sameAs": [
+      "https://id.wikipedia.org/wiki/Pantai_Papuma"
+    ],
+    "@context": "https://schema.org",
+    "description": "Beautiful white sand beach with unique rock formations and clear turquoise waters in Jember, East Java",
+    "touristType": [
+      "Adventure travelers",
+      "Nature enthusiasts",
+      "Photographers"
+    ],
+    "containedInPlace": {
+      "name": "Jember Regency, East Java",
+      "@type": "AdministrativeArea"
+    }
+  },
+  "hero_image_url": "/uploads/1764650056490-963808584-papuma1.jpg",
+  "category": "beach",
+  "region": "Jember",
+  "province": "East Java",
+  "country": "Indonesia",
+  "altitude": 5,
+  "display_height_m": 86,
+  "nickname": "Java's Hidden Turquoise Coast",
+  "trailhead": "Tanjung Papuma, Jember",
+  "physical_demand": 1,
+  "sections": null,
+  "terrain": "White sandy beach with unique rock formations, coastal cliffs, and turquoise waters",
+  "best_time_to_visit": "April–October (dry season)",
+  "difficulty_level": "easy",
+  "duration": "2–4 hours",
+  "weather_by_season": "Dry season (Apr-Oct): Clear skies, calm waters, ideal for beach activities. Wet season (Nov-Mar): Higher waves, occasional rain, stronger currents.",
+  "rainfall_intensity": "Moderate during wet season (150-300mm/month), Low during dry season (30-100mm/month)",
+  "temperature_range": "28-32°C year-round",
+  "trail_details": "Easy access with paved paths to beach, minimal walking required. Rocky areas require careful footing. Optional 20–30 min hike to the Siti Hinggil Hill viewpoint (Tanjung Papuma headland, ~86m) for coastal panoramas and sunset views.",
+  "required_gear": [
+    "sunscreen",
+    "swimwear",
+    "beach_towel",
+    "water_shoes",
+    "hat",
+    "sunglasses"
+  ],
+  "summary": "Beautiful white sand beach with unique rock formations and clear turquoise waters in Jember, East Java",
+  "description": "Papuma Beach, located in Jember Regency of East Java, is renowned for its stunning white sand and crystal-clear turquoise waters. The name 'Papuma' is an acronym from 'Pasir Putih Malikan' which means Malikan's White Sand. The beach features unique rock formations scattered along the coastline and offers panoramic views from nearby hilltops.\r\n\r\nUnlike many other beaches in East Java, Papuma boasts fine white sand and relatively calm waters during the dry season. The beach is surrounded by lush green hills and features several small islands that can be reached during low tide. While swimming is limited due to strong Indian Ocean currents, the beach offers excellent opportunities for photography, relaxation, and enjoying spectacular sunsets.\r\n\r\nThe combination of white sand, turquoise waters, and unique geological formations makes Papuma one of East Java's most picturesque coastal destinations.",
+  "highlight": "White sand beach with turquoise waters and unique rock formations. Cape headland Tanjung Papuma ~86m. The only coastal stop on a JVTO East Java circuit — between Ijen night hike and Tumpak Sewu canyon descent.",
+  "main_attractions": [
+    {
+      "title": "White Sand Beach",
+      "description": "Enjoy the rare white sand beach with clear turquoise waters"
+    },
+    {
+      "title": "Unique Rock Formations",
+      "description": "Explore the fascinating rock formations along the coastline"
+    },
+    {
+      "title": "Panoramic Hilltop Views",
+      "description": "Capture stunning photos from viewpoints overlooking the bay"
+    },
+    {
+      "title": "Coastal Photography",
+      "description": "Perfect setting for landscape and seascape photography"
+    }
+  ],
+  "key_highlights": [
+    {
+      "title": "White Sand Paradise",
+      "description": "One of few white sand beaches on Java's south coast"
+    },
+    {
+      "title": "Turquoise Waters",
+      "description": "Crystal-clear waters ideal for photography and wading"
+    },
+    {
+      "title": "Unique Geology",
+      "description": "Spectacular rock formations created by coastal erosion"
+    },
+    {
+      "title": "Easy Accessibility",
+      "description": "Well-maintained access suitable for all visitors"
+    }
+  ],
+  "permit_required": true,
+  "permit_details": "Entrance fee: IDR 40,000 per person included in package.",
+  "guide_required": false,
+  "safety_notes": [
+    "Swim only in designated safe areas",
+    "Avoid swimming during high tide and strong currents",
+    "Wear appropriate footwear on rocky areas",
+    "Use sunscreen and hat for sun protection",
+    "Monitor tide conditions and follow local guidance",
+    "Keep safe distance from surf zone"
+  ],
+  "risk_factors": [
+    {
+      "type": "marine",
+      "level": "medium",
+      "mitigation": "Swim only in designated safe areas. Follow lifeguard instructions if available.",
+      "description": "Strong currents and powerful waves"
+    },
+    {
+      "type": "terrain",
+      "level": "low",
+      "mitigation": "Wear water shoes with good grip on rocky surfaces",
+      "description": "Slippery rocks when wet"
+    },
+    {
+      "type": "weather",
+      "level": "low",
+      "mitigation": "Use sunscreen, hat, and seek shade during peak hours",
+      "description": "Strong sun exposure"
+    }
+  ],
+  "environmental_factors": [
+    {
+      "unit": "meters",
+      "value": "1-3",
+      "factor": "wave_height",
+      "impact": "Affects swimming safety and beach activities",
+      "condition": "Varies with season"
+    },
+    {
+      "unit": "meters",
+      "value": "1-2",
+      "factor": "tide_level",
+      "impact": "Affects beach access and rock formations visibility",
+      "condition": "Daily variation"
+    },
+    {
+      "unit": "index",
+      "value": "9-12",
+      "factor": "uv_radiation",
+      "impact": "Strong sun protection required",
+      "condition": "High throughout day"
+    },
+    {
+      "unit": "km/h",
+      "value": "10-20",
+      "factor": "wind_speed",
+      "impact": "Creates comfortable conditions but affects waves",
+      "condition": "Coastal breeze"
+    },
+    {
+      "unit": "°C",
+      "value": "26-29",
+      "factor": "water_temperature",
+      "impact": "Comfortable for wading and water activities",
+      "condition": "Warm tropical waters"
+    }
+  ],
+  "physical_requirements": "Minimal physical requirements. Suitable for all ages and fitness levels. Basic mobility required for beach access.",
+  "cultural_context": "Papuma Beach holds significance as one of the few white sand beaches in East Java's southern coast. The name 'Papuma' comes from 'Pasir Putih Malikan' (Malikan's White Sand), reflecting local pride in this natural treasure. While less steeped in ancient traditions than volcanic sites, the beach represents the element of Water in local cosmology and serves as an important recreational space for local communities.",
+  "local_tribes": [
+    "Java",
+    "Madura"
+  ],
+  "tips_for_visitors": "Visit in morning for best photography light, wear water shoes for rocky areas, bring sunscreen and hat, enjoy swimming only in safe designated areas, carry cash for facility rentals, stay for sunset views",
+  "featured_image": "/assets/img/destinations/papuma-beach.webp",
+  "tags": [
+    "beach",
+    "white-sand",
+    "coastal",
+    "photography",
+    "east-java",
+    "jember",
+    "relaxation",
+    "family-friendly"
+  ],
+  "types": [
+    "nature",
+    "photography",
+    "relaxation"
+  ],
+  "short_slug": "papuma",
+  "route_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              113.56028,
+              -8.42445,
+              8.98
+            ],
+            [
+              113.56033,
+              -8.42437,
+              9.05
+            ],
+            [
+              113.56032,
+              -8.42436,
+              9.05
+            ],
+            [
+              113.56031,
+              -8.42434,
+              9.04
+            ],
+            [
+              113.5603,
+              -8.42432,
+              9.04
+            ],
+            [
+              113.56024,
+              -8.42436,
+              9.26
+            ],
+            [
+              113.56007,
+              -8.42442,
+              9.95
+            ],
+            [
+              113.56001,
+              -8.42445,
+              9.98
+            ],
+            [
+              113.55957,
+              -8.42436,
+              13.37
+            ],
+            [
+              113.55941,
+              -8.42442,
+              15.87
+            ],
+            [
+              113.55892,
+              -8.42483,
+              32.38
+            ],
+            [
+              113.55863,
+              -8.4251,
+              41.02
+            ],
+            [
+              113.55844,
+              -8.42519,
+              41.66
+            ],
+            [
+              113.55795,
+              -8.42503,
+              37.91
+            ],
+            [
+              113.55773,
+              -8.42501,
+              37.97
+            ],
+            [
+              113.55751,
+              -8.42501,
+              40.94
+            ],
+            [
+              113.55733,
+              -8.42511,
+              43.64
+            ],
+            [
+              113.55714,
+              -8.42519,
+              44.91
+            ],
+            [
+              113.55694,
+              -8.42516,
+              48.09
+            ],
+            [
+              113.55676,
+              -8.42507,
+              55.38
+            ],
+            [
+              113.5566,
+              -8.42497,
+              61.04
+            ],
+            [
+              113.55643,
+              -8.42504,
+              62.75
+            ],
+            [
+              113.55635,
+              -8.42525,
+              62.39
+            ],
+            [
+              113.55627,
+              -8.42542,
+              63.79
+            ],
+            [
+              113.5562,
+              -8.42549,
+              66.66
+            ],
+            [
+              113.55607,
+              -8.42554,
+              72.83
+            ],
+            [
+              113.55592,
+              -8.42558,
+              77.58
+            ],
+            [
+              113.55579,
+              -8.42569,
+              79.18
+            ],
+            [
+              113.55572,
+              -8.42585,
+              77.04
+            ],
+            [
+              113.55563,
+              -8.426,
+              72.18
+            ],
+            [
+              113.55551,
+              -8.42614,
+              69.64
+            ],
+            [
+              113.55535,
+              -8.42626,
+              70.85
+            ],
+            [
+              113.55511,
+              -8.42635,
+              74.58
+            ],
+            [
+              113.55489,
+              -8.4264,
+              82.08
+            ],
+            [
+              113.55473,
+              -8.42649,
+              85.64
+            ],
+            [
+              113.55459,
+              -8.42666,
+              83.29
+            ],
+            [
+              113.55456,
+              -8.42679,
+              82.87
+            ],
+            [
+              113.55459,
+              -8.42693,
+              79.02
+            ],
+            [
+              113.5547,
+              -8.42709,
+              75.93
+            ],
+            [
+              113.55488,
+              -8.42733,
+              70.4
+            ],
+            [
+              113.55506,
+              -8.42757,
+              61.35
+            ],
+            [
+              113.55518,
+              -8.42771,
+              44.85
+            ],
+            [
+              113.55516,
+              -8.42787,
+              39.29
+            ],
+            [
+              113.55506,
+              -8.42808,
+              37.07
+            ],
+            [
+              113.55491,
+              -8.4282,
+              46.06
+            ],
+            [
+              113.55476,
+              -8.4283,
+              60.28
+            ],
+            [
+              113.55458,
+              -8.42854,
+              58.03
+            ],
+            [
+              113.55425,
+              -8.42907,
+              6.82
+            ],
+            [
+              113.55413,
+              -8.42922,
+              0
+            ],
+            [
+              113.55403,
+              -8.42934,
+              0
+            ],
+            [
+              113.55389,
+              -8.42938,
+              0
+            ],
+            [
+              113.55379,
+              -8.42937,
+              2.77
+            ],
+            [
+              113.55367,
+              -8.42929,
+              12.71
+            ],
+            [
+              113.55346,
+              -8.42925,
+              26.77
+            ],
+            [
+              113.55326,
+              -8.42927,
+              33.26
+            ],
+            [
+              113.55312,
+              -8.42934,
+              32.11
+            ],
+            [
+              113.55304,
+              -8.42948,
+              24.06
+            ],
+            [
+              113.55297,
+              -8.42961,
+              21.07
+            ],
+            [
+              113.5528,
+              -8.43004,
+              18.08
+            ],
+            [
+              113.55278,
+              -8.43013,
+              17.11
+            ],
+            [
+              113.55278,
+              -8.43013,
+              17.11
+            ],
+            [
+              113.55248,
+              -8.43108,
+              19.19
+            ],
+            [
+              113.55252,
+              -8.43254,
+              16.21
+            ],
+            [
+              113.55278,
+              -8.43273,
+              8.33
+            ],
+            [
+              113.55301,
+              -8.43293,
+              5.87
+            ],
+            [
+              113.55312,
+              -8.43331,
+              4.54
+            ],
+            [
+              113.55317,
+              -8.43392,
+              0.69
+            ],
+            [
+              113.55338,
+              -8.43461,
+              9.64
+            ],
+            [
+              113.55333,
+              -8.43481,
+              9.65
+            ],
+            [
+              113.55326,
+              -8.43499,
+              11.2
+            ],
+            [
+              113.55317,
+              -8.43521,
+              9.9
+            ],
+            [
+              113.55292,
+              -8.43542,
+              11.69
+            ],
+            [
+              113.55261,
+              -8.43559,
+              10.97
+            ],
+            [
+              113.5525,
+              -8.43559,
+              10.88
+            ],
+            [
+              113.55243,
+              -8.43556,
+              10.73
+            ],
+            [
+              113.55243,
+              -8.43556,
+              10.73
+            ],
+            [
+              113.55235,
+              -8.43551,
+              11.29
+            ],
+            [
+              113.55151,
+              -8.43451,
+              14.93
+            ],
+            [
+              113.55091,
+              -8.4338,
+              13.68
+            ],
+            [
+              113.55065,
+              -8.43362,
+              13.22
+            ],
+            [
+              113.55045,
+              -8.43339,
+              10.68
+            ],
+            [
+              113.55024,
+              -8.43312,
+              10.69
+            ],
+            [
+              113.5501,
+              -8.43293,
+              12.89
+            ],
+            [
+              113.54998,
+              -8.43276,
+              15.97
+            ],
+            [
+              113.54996,
+              -8.43257,
+              17.7
+            ],
+            [
+              113.55002,
+              -8.43203,
+              17.97
+            ],
+            [
+              113.55002,
+              -8.43164,
+              21.91
+            ],
+            [
+              113.54995,
+              -8.43133,
+              19.18
+            ],
+            [
+              113.54987,
+              -8.43106,
+              18.21
+            ],
+            [
+              113.54986,
+              -8.43086,
+              20.19
+            ],
+            [
+              113.54989,
+              -8.43064,
+              21.86
+            ],
+            [
+              113.5499,
+              -8.4306,
+              22.28
+            ],
+            [
+              113.55003,
+              -8.4305,
+              26.88
+            ],
+            [
+              113.55019,
+              -8.43047,
+              29.09
+            ],
+            [
+              113.55044,
+              -8.43052,
+              28.03
+            ],
+            [
+              113.55057,
+              -8.43053,
+              27.66
+            ],
+            [
+              113.55073,
+              -8.43064,
+              30.5
+            ],
+            [
+              113.55086,
+              -8.43068,
+              31.97
+            ],
+            [
+              113.55094,
+              -8.43062,
+              32.27
+            ],
+            [
+              113.55097,
+              -8.43061,
+              32.32
+            ],
+            [
+              113.55097,
+              -8.43061,
+              32.32
+            ],
+            [
+              113.55108,
+              -8.43055,
+              32.98
+            ],
+            [
+              113.55129,
+              -8.43058,
+              30.46
+            ],
+            [
+              113.5515,
+              -8.43051,
+              27.86
+            ],
+            [
+              113.55173,
+              -8.4304,
+              25.43
+            ],
+            [
+              113.55186,
+              -8.43029,
+              25.07
+            ],
+            [
+              113.55201,
+              -8.43008,
+              29.16
+            ],
+            [
+              113.55218,
+              -8.43001,
+              26.92
+            ],
+            [
+              113.55233,
+              -8.42998,
+              24.7
+            ],
+            [
+              113.55254,
+              -8.42999,
+              21.61
+            ],
+            [
+              113.5528,
+              -8.43004,
+              18.08
+            ],
+            [
+              113.55297,
+              -8.42961,
+              21.07
+            ],
+            [
+              113.55304,
+              -8.42948,
+              24.06
+            ],
+            [
+              113.55312,
+              -8.42934,
+              32.11
+            ],
+            [
+              113.55326,
+              -8.42927,
+              33.26
+            ],
+            [
+              113.55346,
+              -8.42925,
+              26.77
+            ],
+            [
+              113.55367,
+              -8.42929,
+              12.71
+            ],
+            [
+              113.55379,
+              -8.42937,
+              2.77
+            ],
+            [
+              113.55389,
+              -8.42938,
+              0
+            ],
+            [
+              113.55403,
+              -8.42934,
+              0
+            ],
+            [
+              113.55413,
+              -8.42922,
+              0
+            ],
+            [
+              113.55425,
+              -8.42907,
+              6.82
+            ],
+            [
+              113.55458,
+              -8.42854,
+              58.03
+            ],
+            [
+              113.55476,
+              -8.4283,
+              60.28
+            ],
+            [
+              113.55491,
+              -8.4282,
+              46.06
+            ],
+            [
+              113.55506,
+              -8.42808,
+              37.07
+            ],
+            [
+              113.55516,
+              -8.42787,
+              39.29
+            ],
+            [
+              113.55518,
+              -8.42771,
+              44.85
+            ],
+            [
+              113.55506,
+              -8.42757,
+              61.35
+            ],
+            [
+              113.55488,
+              -8.42733,
+              70.4
+            ],
+            [
+              113.5547,
+              -8.42709,
+              75.93
+            ],
+            [
+              113.55459,
+              -8.42693,
+              79.02
+            ],
+            [
+              113.55456,
+              -8.42679,
+              82.87
+            ],
+            [
+              113.55459,
+              -8.42666,
+              83.29
+            ],
+            [
+              113.55473,
+              -8.42649,
+              85.64
+            ],
+            [
+              113.55489,
+              -8.4264,
+              82.08
+            ],
+            [
+              113.55511,
+              -8.42635,
+              74.58
+            ],
+            [
+              113.55535,
+              -8.42626,
+              70.85
+            ],
+            [
+              113.55551,
+              -8.42614,
+              69.64
+            ],
+            [
+              113.55563,
+              -8.426,
+              72.18
+            ],
+            [
+              113.55572,
+              -8.42585,
+              77.04
+            ],
+            [
+              113.55579,
+              -8.42569,
+              79.18
+            ],
+            [
+              113.55592,
+              -8.42558,
+              77.58
+            ],
+            [
+              113.55607,
+              -8.42554,
+              72.83
+            ],
+            [
+              113.5562,
+              -8.42549,
+              66.66
+            ],
+            [
+              113.55627,
+              -8.42542,
+              63.79
+            ],
+            [
+              113.55635,
+              -8.42525,
+              62.39
+            ],
+            [
+              113.55643,
+              -8.42504,
+              62.75
+            ],
+            [
+              113.5566,
+              -8.42497,
+              61.04
+            ],
+            [
+              113.55676,
+              -8.42507,
+              55.38
+            ],
+            [
+              113.55694,
+              -8.42516,
+              48.09
+            ],
+            [
+              113.55714,
+              -8.42519,
+              44.91
+            ],
+            [
+              113.55733,
+              -8.42511,
+              43.64
+            ],
+            [
+              113.55751,
+              -8.42501,
+              40.94
+            ],
+            [
+              113.55773,
+              -8.42501,
+              37.97
+            ],
+            [
+              113.55795,
+              -8.42503,
+              37.91
+            ],
+            [
+              113.55844,
+              -8.42519,
+              41.66
+            ],
+            [
+              113.55863,
+              -8.4251,
+              41.02
+            ],
+            [
+              113.55892,
+              -8.42483,
+              32.38
+            ],
+            [
+              113.55941,
+              -8.42442,
+              15.87
+            ],
+            [
+              113.55957,
+              -8.42436,
+              13.37
+            ],
+            [
+              113.56001,
+              -8.42445,
+              9.98
+            ],
+            [
+              113.56007,
+              -8.42442,
+              9.95
+            ],
+            [
+              113.56024,
+              -8.42436,
+              9.26
+            ],
+            [
+              113.5603,
+              -8.42432,
+              9.04
+            ],
+            [
+              113.56031,
+              -8.42434,
+              9.04
+            ],
+            [
+              113.56032,
+              -8.42436,
+              9.05
+            ],
+            [
+              113.56033,
+              -8.42437,
+              9.05
+            ],
+            [
+              113.56028,
+              -8.42445,
+              8.98
+            ]
+          ]
+        },
+        "properties": {
+          "name": "papuma-beach",
+          "slug": "papuma-beach",
+          "source": "AllTrails.com",
+          "description": ""
+        }
+      }
+    ]
+  },
+  "route_length_m": 4399,
+  "route_elev_gain_m": 335,
+  "route_elev_min_m": 0,
+  "route_max_alt_m": 86,
+  "route_bbox": [
+    113.54986,
+    -8.43559,
+    113.56033,
+    -8.42432
+  ],
+  "route_start_point": [
+    113.56028,
+    -8.42445
+  ],
+  "lastReviewed": "2026-07-15",
+  "owner": "editorial",
+  "reviewStatus": "migrated-from-prisma-live-2026-08-18",
+  "source_trace": {
+    "generated_at": "2026-08-18T00:00:00.000Z",
+    "source": "jvto-web Prisma `destinations` table row (live production data, exported 2026-08-18)",
+    "migration_note": "Full 1:1 field copy from the live Prisma row as part of the single-content-source (ekosistem-only) consolidation — every value verified against production, nothing rewritten or fabricated. Supersedes the older, thinner/divergent drafts previously sitting in this directory (destinations-master.json, and this file's own prior content if any) which were never actually wired into jvto-web."
+  }
+}

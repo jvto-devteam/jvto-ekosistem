@@ -1,0 +1,864 @@
+{
+  "schema_version": "jvto/source/destination-detail/v1",
+  "source_type": "destination_detail",
+  "slug": "tumpak-sewu-waterfall",
+  "route": "/destinations/tumpak-sewu-waterfall",
+  "id": "7",
+  "code": "TSE-001",
+  "name": "Tumpak Sewu Waterfall",
+  "seo_title": "Tumpak Sewu Waterfall - Java's Most Spectacular Water Curtain",
+  "seo_description": "Experience Tumpak Sewu, the thousand-stream waterfall with Mount Semeru backdrop. Complete adventure guide to the canyon descent and photography.",
+  "schema_json": {
+    "@id": "https://javavolcano-touroperator.com/destinations/tumpak-sewu-waterfall",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -8.227,
+      "elevation": 500,
+      "longitude": 112.915
+    },
+    "url": "https://javavolcano-touroperator.com/destinations/tumpak-sewu-waterfall",
+    "name": "Tumpak Sewu Waterfall",
+    "@type": "Park",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Tumpak_Sewu",
+      "https://www.wikidata.org/wiki/Q9084862"
+    ],
+    "@context": "https://schema.org",
+    "description": "A multi-stream semicircular waterfall formed by Mount Semeru's volcanic erosion, known for its canyon trail and panoramic viewpoint with Semeru backdrop.",
+    "touristType": [
+      "Adventure travelers",
+      "Nature enthusiasts",
+      "Photographers"
+    ],
+    "containedInPlace": {
+      "name": "East Java",
+      "@type": "AdministrativeArea"
+    }
+  },
+  "hero_image_url": "/uploads/1764650032945-926940542-tumpak-sewu1.jpg",
+  "category": "waterfall",
+  "region": "Lumajang–Malang Border",
+  "province": "East Java",
+  "country": "Indonesia",
+  "altitude": 400,
+  "display_height_m": 120,
+  "nickname": "Java's Niagara",
+  "trailhead": "Coban Sewu, Lumajang",
+  "physical_demand": 4,
+  "sections": null,
+  "terrain": "Volcanic canyon with steep cliffs, rocky paths, bamboo ladders, rope sections, and slippery surfaces",
+  "best_time_to_visit": "May–October",
+  "difficulty_level": "hard",
+  "duration": "2–3 hours",
+  "weather_by_season": "Dry season (May-Oct): Best conditions with minimal rain, clear skies. Wet season (Nov-Apr): Heavy rainfall increases water flow and flash flood risk.",
+  "rainfall_intensity": "High during wet season (300-600mm/month), Moderate during dry season (50-200mm/month)",
+  "temperature_range": "18-25°C in canyon, 22-30°C outside",
+  "trail_details": "Panoramic viewpoint accessible by short walk, then 45-60 minute descent to waterfall base using bamboo ladders, ropes, and rocky paths. Total distance: 1.5km round trip with 150m elevation change.",
+  "required_gear": [
+    "trekking_shoes",
+    "gloves",
+    "waterproof_bag",
+    "dry_clothes",
+    "water_bottle",
+    "headlamp",
+    "poncho",
+    "trekking_poles"
+  ],
+  "summary": "A multi-stream semicircular waterfall formed by Mount Semeru's volcanic erosion, known for its canyon trail and panoramic viewpoint with Semeru backdrop.",
+  "description": "Tumpak Sewu, which translates to 'A Thousand Waterfalls' in Javanese, is one of Indonesia's most spectacular waterfall formations. Located on the border between Lumajang and Malang regencies, this horseshoe-shaped waterfall cascades down a volcanic cliff face in hundreds of individual streams, creating a breathtaking natural curtain of water.\r\n\r\nThe waterfall is fed by the Glidik River, which originates from the slopes of Mount Semeru, Java's highest and most active volcano. The panoramic viewpoint offers a stunning perspective with Semeru often visible in the background, especially during sunrise. The descent to the waterfall base involves navigating bamboo ladders, ropes, and rocky paths, making it an adventurous experience.\r\n\r\nLocals refer to Tumpak Sewu as 'Semeru's Breath,' representing the continuous flow of life from the volcano to the earth below.",
+  "highlight": "Java's Niagara — ~120m multi-tiered waterfall curtain. Thousand-stream waterfall curtain with Mount Semeru backdrop",
+  "main_attractions": [
+    {
+      "title": "Panoramic Sunrise Viewpoint",
+      "description": "Spectacular sunrise over the waterfall with Mount Semeru backdrop"
+    },
+    {
+      "title": "Canyon Descent Adventure",
+      "description": "Exciting descent using ropes and bamboo ladders to the waterfall base"
+    },
+    {
+      "title": "Thousand Water Streams",
+      "description": "Witness hundreds of individual water streams forming a natural curtain"
+    },
+    {
+      "title": "Goa Tetes Cave Connection",
+      "description": "Explore the nearby cave system connected to the waterfall"
+    }
+  ],
+  "key_highlights": [
+    {
+      "title": "Indonesia's Most Photogenic Waterfall",
+      "description": "Stunning horseshoe-shaped curtain of water with volcanic backdrop"
+    },
+    {
+      "title": "Adventure Canyon Descent",
+      "description": "Thrilling descent using ropes and ladders for an up-close experience"
+    },
+    {
+      "title": "Mount Semeru Backdrop",
+      "description": "Unique photography opportunity with Java's highest volcano in background"
+    },
+    {
+      "title": "Unique Geological Formation",
+      "description": "Volcanic erosion created this spectacular multi-stream waterfall"
+    }
+  ],
+  "permit_required": true,
+  "permit_details": "Entry fee: IDR 20,000-30,000 per person. Additional guide fee for canyon descent. JVTO includes all fees.",
+  "guide_required": true,
+  "safety_notes": [
+    "Guide mandatory for canyon descent - do not attempt alone",
+    "Wear proper trekking shoes with excellent grip",
+    "Use gloves for rope sections during descent",
+    "Secure all electronics in waterproof bags",
+    "Follow guide instructions carefully at all times",
+    "Avoid visiting during or after heavy rain due to flash flood risk",
+    "Helmets are provided by local Tumpak Sewu site management, not JVTO equipment"
+  ],
+  "risk_factors": [
+    {
+      "type": "terrain",
+      "level": "high",
+      "mitigation": "JVTO provides experienced guides and safety equipment. Descent is controlled and assisted.",
+      "description": "Steep and slippery descent with rope sections"
+    },
+    {
+      "type": "weather",
+      "level": "high",
+      "mitigation": "JVTO monitors weather conditions and cancels visits during unsafe conditions. Emergency evacuation plans in place.",
+      "description": "Flash floods during rainfall"
+    },
+    {
+      "type": "health",
+      "level": "medium",
+      "mitigation": "Safety briefing and physical assessment. JVTO guides are trained in wilderness first aid.",
+      "description": "Physical exertion and potential for slips/falls"
+    }
+  ],
+  "environmental_factors": [
+    {
+      "unit": "m³/s",
+      "value": "20-100",
+      "factor": "water_flow",
+      "impact": "Affects accessibility and safety of descent",
+      "condition": "Varies with rainfall and season"
+    },
+    {
+      "unit": "%",
+      "value": "75-95",
+      "factor": "humidity",
+      "impact": "Creates slippery conditions and affects photography",
+      "condition": "High in canyon due to spray"
+    },
+    {
+      "unit": "km",
+      "value": "1-5",
+      "factor": "visibility",
+      "impact": "Affects views of Semeru and waterfall",
+      "condition": "Varies with weather and mist"
+    },
+    {
+      "value": "High risk",
+      "factor": "rainfall_alert",
+      "impact": "Flash flood warnings in effect, descent may be closed",
+      "condition": "During wet season"
+    },
+    {
+      "unit": "index",
+      "value": "8-12",
+      "factor": "uv_radiation",
+      "impact": "Sun protection recommended",
+      "condition": "High at open areas"
+    }
+  ],
+  "physical_requirements": "Excellent physical condition required. Must be comfortable with heights, steep descents, and using ropes. Not recommended for people with mobility issues, fear of heights, or heart conditions.",
+  "cultural_context": "Tumpak Sewu holds deep significance for the local communities who view the waterfall as 'Semeru's Breath' - the physical manifestation of the volcano's life force flowing to the earth. The continuous flow of water symbolizes renewal, humility, and the natural cycle of life. While less explicitly ritualized than other sites, the waterfall represents the power and generosity of nature in local cosmology. The name itself, 'A Thousand Waterfalls,' reflects the Javanese appreciation for nature's abundance and complexity.",
+  "local_tribes": [
+    "Java",
+    "Madura"
+  ],
+  "tips_for_visitors": "Recommended start 07:00–08:00, finish 11:00–13:00 before midday heat. Start early (by 6 AM) for best light and to avoid crowds, wear sturdy trekking shoes with grip, bring gloves for rope sections, use waterproof bags for electronics, carry water and snacks, respect the natural environment and guide instructions",
+  "featured_image": "/assets/img/destinations/tumpak-sewu-waterfall.webp",
+  "tags": [
+    "waterfall",
+    "adventure",
+    "canyon-trek",
+    "semeru-backdrop",
+    "photography",
+    "east-java",
+    "hard-trek",
+    "geological-wonder"
+  ],
+  "types": [
+    "adventure",
+    "geological",
+    "photography"
+  ],
+  "short_slug": "tumpak-sewu",
+  "route_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              112.91997,
+              -8.23028,
+              567.66
+            ],
+            [
+              112.91978,
+              -8.2303,
+              565.82
+            ],
+            [
+              112.91973,
+              -8.23032,
+              565.24
+            ],
+            [
+              112.91969,
+              -8.23035,
+              563.71
+            ],
+            [
+              112.91965,
+              -8.23038,
+              561.89
+            ],
+            [
+              112.91962,
+              -8.23042,
+              560.12
+            ],
+            [
+              112.91958,
+              -8.23046,
+              557.95
+            ],
+            [
+              112.91957,
+              -8.2305,
+              556.74
+            ],
+            [
+              112.91954,
+              -8.23054,
+              554.79
+            ],
+            [
+              112.9195,
+              -8.23058,
+              552.68
+            ],
+            [
+              112.91946,
+              -8.23061,
+              551.08
+            ],
+            [
+              112.91942,
+              -8.23065,
+              550.61
+            ],
+            [
+              112.91938,
+              -8.23069,
+              550.63
+            ],
+            [
+              112.91936,
+              -8.23073,
+              550.31
+            ],
+            [
+              112.91934,
+              -8.23078,
+              549.74
+            ],
+            [
+              112.91933,
+              -8.23083,
+              549.05
+            ],
+            [
+              112.91932,
+              -8.23087,
+              548.28
+            ],
+            [
+              112.9193,
+              -8.23092,
+              547.28
+            ],
+            [
+              112.91927,
+              -8.23096,
+              546.43
+            ],
+            [
+              112.91925,
+              -8.231,
+              545.58
+            ],
+            [
+              112.91924,
+              -8.23105,
+              544.53
+            ],
+            [
+              112.91924,
+              -8.2311,
+              543.49
+            ],
+            [
+              112.91924,
+              -8.23116,
+              541.81
+            ],
+            [
+              112.91924,
+              -8.2312,
+              540.62
+            ],
+            [
+              112.91924,
+              -8.23125,
+              539.13
+            ],
+            [
+              112.91924,
+              -8.2313,
+              537.64
+            ],
+            [
+              112.91923,
+              -8.23134,
+              536.45
+            ],
+            [
+              112.91919,
+              -8.23138,
+              535.26
+            ],
+            [
+              112.91915,
+              -8.23141,
+              534.7
+            ],
+            [
+              112.9191,
+              -8.23144,
+              534.4
+            ],
+            [
+              112.91904,
+              -8.23144,
+              534.84
+            ],
+            [
+              112.91899,
+              -8.23144,
+              535.22
+            ],
+            [
+              112.91894,
+              -8.23145,
+              535.23
+            ],
+            [
+              112.91888,
+              -8.23146,
+              535.1
+            ],
+            [
+              112.91883,
+              -8.23147,
+              534.24
+            ],
+            [
+              112.91877,
+              -8.23149,
+              532.83
+            ],
+            [
+              112.91872,
+              -8.23151,
+              531.46
+            ],
+            [
+              112.91868,
+              -8.23154,
+              529.69
+            ],
+            [
+              112.91863,
+              -8.23156,
+              528.21
+            ],
+            [
+              112.91857,
+              -8.23156,
+              528.11
+            ],
+            [
+              112.91852,
+              -8.23156,
+              528.25
+            ],
+            [
+              112.91847,
+              -8.23156,
+              528.39
+            ],
+            [
+              112.91847,
+              -8.23156,
+              528.39
+            ],
+            [
+              112.9184,
+              -8.23154,
+              528.92
+            ],
+            [
+              112.9184,
+              -8.23159,
+              528.08
+            ],
+            [
+              112.91841,
+              -8.23164,
+              527.1
+            ],
+            [
+              112.91841,
+              -8.23169,
+              525.38
+            ],
+            [
+              112.9184,
+              -8.23173,
+              523.36
+            ],
+            [
+              112.91835,
+              -8.23176,
+              522.15
+            ],
+            [
+              112.91831,
+              -8.23177,
+              521.2
+            ],
+            [
+              112.91825,
+              -8.23179,
+              518.95
+            ],
+            [
+              112.9182,
+              -8.23181,
+              517.14
+            ],
+            [
+              112.91815,
+              -8.23182,
+              515.95
+            ],
+            [
+              112.9181,
+              -8.23184,
+              514.55
+            ],
+            [
+              112.91806,
+              -8.23184,
+              514.06
+            ],
+            [
+              112.91801,
+              -8.23183,
+              512
+            ],
+            [
+              112.91797,
+              -8.23181,
+              510.56
+            ],
+            [
+              112.91794,
+              -8.23177,
+              510.2
+            ],
+            [
+              112.9179,
+              -8.23173,
+              509.34
+            ],
+            [
+              112.91788,
+              -8.23169,
+              509.48
+            ],
+            [
+              112.91785,
+              -8.23164,
+              509.26
+            ],
+            [
+              112.91782,
+              -8.23161,
+              508.49
+            ],
+            [
+              112.91781,
+              -8.2316,
+              508.25
+            ],
+            [
+              112.91782,
+              -8.23161,
+              508.49
+            ],
+            [
+              112.91785,
+              -8.23164,
+              509.26
+            ],
+            [
+              112.91788,
+              -8.23169,
+              509.48
+            ],
+            [
+              112.9179,
+              -8.23173,
+              509.34
+            ],
+            [
+              112.91794,
+              -8.23177,
+              510.2
+            ],
+            [
+              112.91797,
+              -8.23181,
+              510.56
+            ],
+            [
+              112.91801,
+              -8.23183,
+              512
+            ],
+            [
+              112.91806,
+              -8.23184,
+              514.06
+            ],
+            [
+              112.9181,
+              -8.23184,
+              514.55
+            ],
+            [
+              112.91815,
+              -8.23182,
+              515.95
+            ],
+            [
+              112.9182,
+              -8.23181,
+              517.14
+            ],
+            [
+              112.91825,
+              -8.23179,
+              518.95
+            ],
+            [
+              112.91831,
+              -8.23177,
+              521.2
+            ],
+            [
+              112.91835,
+              -8.23176,
+              522.15
+            ],
+            [
+              112.9184,
+              -8.23173,
+              523.36
+            ],
+            [
+              112.91841,
+              -8.23169,
+              525.38
+            ],
+            [
+              112.91841,
+              -8.23164,
+              527.1
+            ],
+            [
+              112.9184,
+              -8.23159,
+              528.08
+            ],
+            [
+              112.9184,
+              -8.23154,
+              528.92
+            ],
+            [
+              112.91847,
+              -8.23156,
+              528.39
+            ],
+            [
+              112.91847,
+              -8.23156,
+              528.39
+            ],
+            [
+              112.91852,
+              -8.23156,
+              528.25
+            ],
+            [
+              112.91857,
+              -8.23156,
+              528.11
+            ],
+            [
+              112.91863,
+              -8.23156,
+              528.21
+            ],
+            [
+              112.91868,
+              -8.23154,
+              529.69
+            ],
+            [
+              112.91872,
+              -8.23151,
+              531.46
+            ],
+            [
+              112.91877,
+              -8.23149,
+              532.83
+            ],
+            [
+              112.91883,
+              -8.23147,
+              534.24
+            ],
+            [
+              112.91888,
+              -8.23146,
+              535.1
+            ],
+            [
+              112.91894,
+              -8.23145,
+              535.23
+            ],
+            [
+              112.91899,
+              -8.23144,
+              535.22
+            ],
+            [
+              112.91904,
+              -8.23144,
+              534.84
+            ],
+            [
+              112.9191,
+              -8.23144,
+              534.4
+            ],
+            [
+              112.91915,
+              -8.23141,
+              534.7
+            ],
+            [
+              112.91919,
+              -8.23138,
+              535.26
+            ],
+            [
+              112.91923,
+              -8.23134,
+              536.45
+            ],
+            [
+              112.91924,
+              -8.2313,
+              537.64
+            ],
+            [
+              112.91924,
+              -8.23125,
+              539.13
+            ],
+            [
+              112.91924,
+              -8.2312,
+              540.62
+            ],
+            [
+              112.91924,
+              -8.23116,
+              541.81
+            ],
+            [
+              112.91924,
+              -8.2311,
+              543.49
+            ],
+            [
+              112.91924,
+              -8.23105,
+              544.53
+            ],
+            [
+              112.91925,
+              -8.231,
+              545.58
+            ],
+            [
+              112.91927,
+              -8.23096,
+              546.43
+            ],
+            [
+              112.9193,
+              -8.23092,
+              547.28
+            ],
+            [
+              112.91932,
+              -8.23087,
+              548.28
+            ],
+            [
+              112.91933,
+              -8.23083,
+              549.05
+            ],
+            [
+              112.91934,
+              -8.23078,
+              549.74
+            ],
+            [
+              112.91936,
+              -8.23073,
+              550.31
+            ],
+            [
+              112.91938,
+              -8.23069,
+              550.63
+            ],
+            [
+              112.91942,
+              -8.23065,
+              550.61
+            ],
+            [
+              112.91946,
+              -8.23061,
+              551.08
+            ],
+            [
+              112.9195,
+              -8.23058,
+              552.68
+            ],
+            [
+              112.91954,
+              -8.23054,
+              554.79
+            ],
+            [
+              112.91957,
+              -8.2305,
+              556.74
+            ],
+            [
+              112.91958,
+              -8.23046,
+              557.95
+            ],
+            [
+              112.91962,
+              -8.23042,
+              560.12
+            ],
+            [
+              112.91965,
+              -8.23038,
+              561.89
+            ],
+            [
+              112.91969,
+              -8.23035,
+              563.71
+            ],
+            [
+              112.91973,
+              -8.23032,
+              565.24
+            ],
+            [
+              112.91978,
+              -8.2303,
+              565.82
+            ],
+            [
+              112.91997,
+              -8.23028,
+              567.66
+            ]
+          ]
+        },
+        "properties": {
+          "name": "tumpak-sewu-waterfall",
+          "slug": "tumpak-sewu-waterfall",
+          "source": "AllTrails.com",
+          "description": ""
+        }
+      }
+    ]
+  },
+  "route_length_m": 719,
+  "route_elev_gain_m": 63,
+  "route_elev_min_m": 508,
+  "route_max_alt_m": 568,
+  "route_bbox": [
+    112.91781,
+    -8.23184,
+    112.91997,
+    -8.23028
+  ],
+  "route_start_point": [
+    112.91997,
+    -8.23028
+  ],
+  "lastReviewed": "2026-07-15",
+  "owner": "editorial",
+  "reviewStatus": "migrated-from-prisma-live-2026-08-18",
+  "source_trace": {
+    "generated_at": "2026-08-18T00:00:00.000Z",
+    "source": "jvto-web Prisma `destinations` table row (live production data, exported 2026-08-18)",
+    "migration_note": "Full 1:1 field copy from the live Prisma row as part of the single-content-source (ekosistem-only) consolidation — every value verified against production, nothing rewritten or fabricated. Supersedes the older, thinner/divergent drafts previously sitting in this directory (destinations-master.json, and this file's own prior content if any) which were never actually wired into jvto-web."
+  }
+}
