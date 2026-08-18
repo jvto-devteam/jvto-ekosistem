@@ -861,5 +861,6 @@
     "source": "jvto-web Prisma `destinations` table row (live production data, exported 2026-08-18)",
     "migration_note": "Full 1:1 field copy from the live Prisma row as part of the single-content-source (ekosistem-only) consolidation — every value verified against production, nothing rewritten or fabricated. Supersedes the older, thinner/divergent drafts previously sitting in this directory (destinations-master.json, and this file's own prior content if any) which were never actually wired into jvto-web."
   },
-  "featured": true
+  "featured": true,
+  "hero_meta_line": "Curtain Waterfall · ~120m · Canyon descent"
 }

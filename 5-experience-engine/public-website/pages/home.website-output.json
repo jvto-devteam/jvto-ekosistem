@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-18T12:19:58.673Z",
+  "generated_at": "2026-08-18T23:16:01.405Z",
   "route": "/",
   "domain": "home",
   "slug": "index",
@@ -27,7 +27,108 @@
         ],
         "lastReviewed": "2026-08-18",
         "owner": "editorial",
-        "reviewStatus": "migrated-from-jvto-web-inline-fallback"
+        "reviewStatus": "migrated-from-jvto-web-hardcoded-home-components-2026-08-19",
+        "sections": [
+          {
+            "id": "differentiators",
+            "heading": "Six things that separate JVTO from every other operator in East Java.",
+            "largeCards": [
+              {
+                "icon": "ShieldCheck",
+                "headline": "Police-Led",
+                "body": "Mr. Sam is an active Polpar officer — the only licensed East Java operator founded and led by an active Tourist Police.",
+                "href": "/verify-jvto/police-safety"
+              },
+              {
+                "icon": "Users",
+                "headline": "100% Private",
+                "body": "Your booking = your vehicle, your driver, your guide. No shared groups, no strangers added to your seat.",
+                "href": "/tours"
+              }
+            ],
+            "smallCards": [
+              {
+                "icon": "FileCheck",
+                "headline": "All-Inclusive — No Surprises",
+                "body": "Entrance fees, jeep, accommodation, breakfast, gas masks, and transfers — bundled in writing before payment.",
+                "href": "/policy/inclusions-exclusions",
+                "variant": "lime"
+              },
+              {
+                "icon": "Activity",
+                "headline": "Ijen Health Screening",
+                "body": "Medical screening coordinated before the hike — not improvised. Licensed doctor on file with Kemenkes RI.",
+                "href": "/travel-guide/ijen-health-screening",
+                "variant": "white"
+              },
+              {
+                "icon": "BadgeCheck",
+                "headline": "Verifiable Licenses",
+                "body": "Business license, guide association, and park clearance — all publicly verifiable, SHA-256 anchored.",
+                "href": "/verify-jvto/legal",
+                "variant": "white"
+              },
+              {
+                "icon": "Compass",
+                "headline": "Written Plan B",
+                "body": "If a site closes, you get an alternative route — briefed before departure, not improvised at the gate.",
+                "href": "/travel-guide/weather-and-closures",
+                "variant": "white"
+              }
+            ]
+          },
+          {
+            "id": "trust-verification",
+            "eyebrow": "Verify JVTO",
+            "heading": "Credentials you can check — not logos you have to take on faith.",
+            "description": "Every license below links directly to the official government registry where you can confirm it yourself — before you pay.",
+            "credentials": [
+              {
+                "tier": "01",
+                "label": "Business Registration",
+                "summary": "NIB 1102230032918 (verifiable at oss.go.id) · TDUP issued by Dinas Pariwisata · PT Java Volcano Rendezvous registered at AHU",
+                "link": "https://oss.go.id",
+                "linkLabel": "Check at oss.go.id",
+                "external": true
+              },
+              {
+                "tier": "02",
+                "label": "Founder — Active Tourist Police Officer",
+                "summary": "Bripka Agung Sambuko is an active officer, Ditpamobvit (Tourist Police), East Java. SPRIN documents SHA-256 anchored. Corroborated by Detik.com and BBKSDA Jatim.",
+                "link": "/verify-jvto/police-safety",
+                "linkLabel": "See police credentials",
+                "external": false
+              },
+              {
+                "tier": "03",
+                "label": "Guide Association & Park Clearance",
+                "summary": "HPWKI membership AHU-0001072.AH.01.07.TAHUN 2024 · BBKSDA operator clearance for Bromo Tengger Semeru and Ijen.",
+                "link": "/verify-jvto/legal",
+                "linkLabel": "See license",
+                "external": false
+              }
+            ],
+            "ctaLabel": "See all 5 credentials",
+            "ctaSubLabel": "Medical officer · ISIC provider · press recognition · history artifacts"
+          },
+          {
+            "id": "story-teaser",
+            "eyebrow": "Our Story",
+            "heading": "Built by someone who saw what the alternatives looked like.",
+            "body": "We saw the gaps first-hand — unlicensed guides, no medical screening, operators with no BBKSDA clearance, no written rules for guests. We built something different: private-only routes, realistic driving days, and clear written policies — shaped by a founder who is an active Tourist Police officer.",
+            "bodyStrongPhrase": "private-only routes, realistic driving days, and clear written policies",
+            "quote": "The Tourist Police experience isn't a marketing credential — it's how every safety decision is made.",
+            "founderName": "Agung \"Mr. Sam\" Sambuko",
+            "founderTitle": "Founder · Active Tourist Police Officer"
+          },
+          {
+            "id": "cta",
+            "eyebrow": "Ready to book?",
+            "heading": "Private tours, documented legitimacy, written policies.",
+            "description": "Read the Rulebook Before You Book — cancellation rules, inclusions, and screening protocols are published in full before payment.",
+            "subLabel2": "Check licenses, press coverage, and founder credentials"
+          }
+        ]
       }
     },
     "faq": {
