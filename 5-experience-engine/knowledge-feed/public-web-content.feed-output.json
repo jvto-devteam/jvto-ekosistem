@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/knowledge-feed/v1",
   "output_type": "public_web_content_feed",
-  "generated_at": "2026-08-18T08:40:41.264Z",
+  "generated_at": "2026-08-18T09:21:16.448Z",
   "record_count": 51,
   "records": [
     {
@@ -19,7 +19,8 @@
         "knowledge_feed"
       ],
       "sourceFiles": [
-        "jvto-web:src/app/(website)/page.tsx (fallbackSeo constant)"
+        "jvto-web:src/app/(website)/page.tsx (fallbackSeo constant)",
+        "jvto-web:src/lib/homepageFaqs.ts (HOMEPAGE_FAQS)"
       ]
     },
     {
