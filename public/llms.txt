@@ -1,9 +1,9 @@
 # Java Volcano Tour Operator (JVTO)
 > Machine-readable entity dossier for LLM crawlers. Private volcano tours in East Java, Indonesia - Bromo, Ijen, and Tumpak Sewu.
 
-Auto-generated from JVTO Operating Ecosystem (compiler render-llms-txt v1.1.0, compiled 2026-08-14).
+Auto-generated from JVTO Operating Ecosystem (compiler render-llms-txt v1.1.0, compiled 2026-08-18).
 Source: jvto-ekosistem SSOT (organization identity, narrative claims, public evidence, knowledge feed).
-Content-Signal: search=yes,ai-train=no,use=reference
+Content-Signal: search=yes,ai-train=yes,use=reference
 Do not hand-edit public/llms.txt; edit the source files and run npm run render:llms.
 
 ## Entity Identity
@@ -49,7 +49,7 @@ Do not hand-edit public/llms.txt; edit the source files and run npm run render:l
 
 ## Priority Pages
 - [Why Travel with Java Volcano Tour Operator (JVTO)](https://javavolcano-touroperator.com/why-jvto): Why travelers choose JVTO: police-led safety, verifiable credentials, private-only tours, and documented history.
-- [JVTO Police Integration & Safety Authority](https://javavolcano-touroperator.com/verify-jvto/police-safety): The founder's active Tourist Police commission — assignment orders, rank, and independent press confirmation — and what police-standard discipline means...
+- [Verify JVTO: A Proof Library You Can Check](https://javavolcano-touroperator.com/verify-jvto): The evidence locker for PT Java Volcano Rendezvous — legal, police-authority, press, and history documents, each checkable against an independent...
 - [Ijen Health Screening – Real Checks, Digital Proof](https://javavolcano-touroperator.com/travel-guide/ijen-health-screening): The mandatory Ijen health screening: real checks at your hotel, a BSrE-signed digital certificate, checked at the crater access gate.
 - [Ijen Rijik: The Monthly Closure Day at Kawah Ijen](https://javavolcano-touroperator.com/travel-guide/rijik-monthly-closure): Why Kawah Ijen closes on the first Friday of every month (the Rijik conservation cleanup, since March 2019) and how...
 - [Booking Information – How JVTO Private Tours Work](https://javavolcano-touroperator.com/travel-guide/booking-information): How JVTO private tour booking works: website-only booking, payments, changes, and Lifetime Package Credit.
@@ -57,4 +57,4 @@ Do not hand-edit public/llms.txt; edit the source files and run npm run render:l
 - [JVTO Policy Hub](https://javavolcano-touroperator.com/policy): Navigation hub for the JVTO policy documents: privacy, booking/payment/cancellation, and inclusions/exclusions.
 
 ---
-Compiled 2026-08-14T23:21:31.619Z from 34 knowledge-feed records. Feed generated 2026-08-14T23:20:40.998Z.
+Compiled 2026-08-18T06:43:07.071Z from 42 knowledge-feed records. Feed generated 2026-08-15T13:30:07.459Z.

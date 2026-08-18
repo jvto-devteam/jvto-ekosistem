@@ -8,7 +8,11 @@ const ROOT = __dirname;
 const PUBLIC_ROOT = path.join(ROOT, "public");
 const PORT = Number(process.env.PORT || 4178);
 const GITHUB_URL = "https://github.com/jvto-devteam/jvto-ekosistem";
-const CONTENT_SIGNAL = "search=yes,ai-train=no,use=reference";
+// Matches jvto-web's robots.ts, which allows every AI-training crawler
+// (GPTBot, CCBot, ClaudeBot, Google-Extended, Bytespider, etc.) — ai-train=yes
+// so the header doesn't contradict what the site actually permits. Owner
+// decision 2026-08-18.
+const CONTENT_SIGNAL = "search=yes,ai-train=yes,use=reference";
 const EXCLUDED_NAMES = new Set([".git", "node_modules", ".DS_Store"]);
 const STATIC_CONTENT_TYPES = new Map([
   [".css", "text/css; charset=utf-8"],

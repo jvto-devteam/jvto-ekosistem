@@ -10,7 +10,11 @@ const REVIEW_PLATFORMS_PATH = "1-knowledge-and-evidence-core/credentials-and-pub
 const CREDENTIALS_PATH = "1-knowledge-and-evidence-core/credentials-and-public-evidence/credentials.json";
 const OUTPUT_PATH = "public/llms.txt";
 const COMPILER_VERSION = "1.1.0";
-const CONTENT_SIGNAL = "search=yes,ai-train=no,use=reference";
+// Matches jvto-web's robots.ts, which allows every AI-training crawler
+// (GPTBot, CCBot, ClaudeBot, Google-Extended, Bytespider, etc.) — ai-train=yes
+// so the header doesn't contradict what the site actually permits. Owner
+// decision 2026-08-18.
+const CONTENT_SIGNAL = "search=yes,ai-train=yes,use=reference";
 
 const PRIORITY_ROUTES = [
   "/why-jvto",
