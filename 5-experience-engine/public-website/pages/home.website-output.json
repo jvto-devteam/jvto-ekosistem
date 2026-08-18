@@ -1,0 +1,47 @@
+{
+  "schema_version": "jvto/output/public-website-page/v1",
+  "output_type": "public_website_page",
+  "generated_at": "2026-08-18T08:40:41.264Z",
+  "route": "/",
+  "domain": "home",
+  "slug": "index",
+  "status": "published",
+  "seo": {
+    "title": "Tourist Police-Led Private Volcano Tours in East Java | Java Volcano Tour Operator",
+    "description": "Private Bromo, Ijen & Tumpak Sewu tours from Surabaya or Bali. Licensed Indonesian operator (Licence 1102230032918), police-led safety culture, all-inclusive packages, Ijen health screening included.",
+    "canonicalRoute": "/",
+    "schemaTypes": [
+      "WebPage"
+    ]
+  },
+  "page": {
+    "title": "Tourist Police-Led Private Volcano Tours in East Java",
+    "summary": "",
+    "owner": "editorial",
+    "lastReviewed": "2026-08-18",
+    "content": {
+      "format": "json",
+      "payload": {
+        "lede": [
+          "Private Bromo, Ijen & Tumpak Sewu tours from Surabaya or Bali. Licensed Indonesian operator (Licence 1102230032918), police-led safety culture, all-inclusive packages, Ijen health screening included."
+        ],
+        "lastReviewed": "2026-08-18",
+        "owner": "editorial",
+        "reviewStatus": "migrated-from-jvto-web-inline-fallback"
+      }
+    },
+    "faq": null
+  },
+  "render_contract": {
+    "consumer": "jvto-web",
+    "route_level_payload": true,
+    "website_should_not_resolve_raw_sources": true
+  },
+  "source_trace": {
+    "generated_at": "2026-08-18T00:00:00.000Z",
+    "source_files": [
+      "jvto-web:src/app/(website)/page.tsx (fallbackSeo constant)"
+    ],
+    "migration_note": "Relocated verbatim from jvto-web's inline fallbackSeo constant as part of the single-content-source (ekosistem-only) consolidation — text unchanged, only its canonical home moved. This is the CURRENT live homepage's SEO copy; a redesigned homepage exists on jvto-web's homepage-redesign branch (not yet merged, not yet consuming this file) and will need its own review of this source once it ships."
+  }
+}

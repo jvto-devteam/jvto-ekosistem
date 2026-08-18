@@ -56,7 +56,7 @@ jobs:
               case "$file" in
                 "")
                   ;;
-                1-knowledge-and-evidence-core/travel-guide/*.source.json|1-knowledge-and-evidence-core/why-jvto/*.source.json|1-knowledge-and-evidence-core/policies/*.source.json|1-knowledge-and-evidence-core/markets/*.source.json|1-knowledge-and-evidence-core/blog/*.source.json|1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/*.source.json|1-knowledge-and-evidence-core/destinations/*.source.json|1-knowledge-and-evidence-core/contact/*.source.json|1-knowledge-and-evidence-core/isic/*.source.json|1-knowledge-and-evidence-core/tours/*.source.json|1-knowledge-and-evidence-core/trust/*.source.json|5-experience-engine/public-website/*|5-experience-engine/public-website/**|5-experience-engine/json-ld/*|5-experience-engine/json-ld/**|5-experience-engine/manifests/*|5-experience-engine/knowledge-feed/*)
+                1-knowledge-and-evidence-core/travel-guide/*.source.json|1-knowledge-and-evidence-core/why-jvto/*.source.json|1-knowledge-and-evidence-core/policies/*.source.json|1-knowledge-and-evidence-core/markets/*.source.json|1-knowledge-and-evidence-core/blog/*.source.json|1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/*.source.json|1-knowledge-and-evidence-core/destinations/*.source.json|1-knowledge-and-evidence-core/contact/*.source.json|1-knowledge-and-evidence-core/isic/*.source.json|1-knowledge-and-evidence-core/tours/*.source.json|1-knowledge-and-evidence-core/trust/*.source.json|1-knowledge-and-evidence-core/home/*.source.json|5-experience-engine/public-website/*|5-experience-engine/public-website/**|5-experience-engine/json-ld/*|5-experience-engine/json-ld/**|5-experience-engine/manifests/*|5-experience-engine/knowledge-feed/*)
                   ;;
                 *)
                   FULL_DEPLOY=true
@@ -95,6 +95,7 @@ jobs:
             1-knowledge-and-evidence-core/isic \
             1-knowledge-and-evidence-core/tours \
             1-knowledge-and-evidence-core/trust \
+            1-knowledge-and-evidence-core/home \
             -name '*.source.json' -print0 \
             | xargs -0 -n1 node -e "const fs=require('node:fs'); JSON.parse(fs.readFileSync(process.argv[1], 'utf8')); console.log('JSON OK:', process.argv[1]);"
 
@@ -126,8 +127,8 @@ jobs:
           node - <<'NODE'
           const fs = require('node:fs');
           const index = JSON.parse(fs.readFileSync('5-experience-engine/manifests/route-output-index.json', 'utf8'));
-          if (index.routes.length !== 50) {
-            throw new Error(`Expected 50 live-aligned routes, got ${index.routes.length}`);
+          if (index.routes.length !== 51) {
+            throw new Error(`Expected 51 live-aligned routes, got ${index.routes.length}`);
           }
           console.log(`Route count OK: ${index.routes.length}`);
           NODE
@@ -193,6 +194,7 @@ jobs:
             '$DEPLOY_PATH/1-knowledge-and-evidence-core/isic' \
             '$DEPLOY_PATH/1-knowledge-and-evidence-core/tours' \
             '$DEPLOY_PATH/1-knowledge-and-evidence-core/trust' \
+            '$DEPLOY_PATH/1-knowledge-and-evidence-core/home' \
             '$DEPLOY_PATH/5-experience-engine/public-website' \
             '$DEPLOY_PATH/5-experience-engine/json-ld' \
             '$DEPLOY_PATH/5-experience-engine/manifests' \
@@ -231,6 +233,9 @@ jobs:
           rsync -az --delete -e "ssh $SSH_OPTS" \
             1-knowledge-and-evidence-core/trust/ \
             "$USERNAME@$VPS_HOST:$DEPLOY_PATH/1-knowledge-and-evidence-core/trust/"
+          rsync -az --delete -e "ssh $SSH_OPTS" \
+            1-knowledge-and-evidence-core/home/ \
+            "$USERNAME@$VPS_HOST:$DEPLOY_PATH/1-knowledge-and-evidence-core/home/"
           rsync -az --delete -e "ssh $SSH_OPTS" \
             5-experience-engine/public-website/ \
             "$USERNAME@$VPS_HOST:$DEPLOY_PATH/5-experience-engine/public-website/"

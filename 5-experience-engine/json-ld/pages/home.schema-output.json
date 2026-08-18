@@ -2,9 +2,9 @@
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
   "generated_at": "2026-08-18T08:40:41.264Z",
-  "route": "/policy/inclusions-exclusions",
-  "domain": "policy",
-  "slug": "inclusions-exclusions",
+  "route": "/",
+  "domain": "home",
+  "slug": "index",
   "json_ld": {
     "@context": "https://schema.org",
     "@graph": [
@@ -175,13 +175,13 @@
         }
       },
       {
-        "@id": "https://javavolcano-touroperator.com/policy/inclusions-exclusions#webpage",
+        "@id": "https://javavolcano-touroperator.com/#webpage",
         "@type": [
           "WebPage"
         ],
-        "name": "JVTO Inclusions & Exclusions Policy",
-        "description": "This policy defines what is included and not included in JVTO private tour packages. Only inclusions written on your specific Official E-Voucher / Invoice…",
-        "url": "https://javavolcano-touroperator.com/policy/inclusions-exclusions",
+        "name": "Tourist Police-Led Private Volcano Tours in East Java",
+        "description": "Private Bromo, Ijen & Tumpak Sewu tours from Surabaya or Bali. Licensed Indonesian operator (Licence 1102230032918), police-led safety culture, all-inclusive packages, Ijen health screening included.",
+        "url": "https://javavolcano-touroperator.com/",
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         }
@@ -189,11 +189,10 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-13T02:02:52.042Z",
+    "generated_at": "2026-08-18T00:00:00.000Z",
     "source_files": [
-      "1-knowledge-and-evidence-core/policies/inclusions-exclusions.md",
-      "5-experience-engine/seo-metadata/page-metadata-index.json"
+      "jvto-web:src/app/(website)/page.tsx (fallbackSeo constant)"
     ],
-    "migration_note": "Initial CMS-editable source consolidation. Original files are retained during transition."
+    "migration_note": "Relocated verbatim from jvto-web's inline fallbackSeo constant as part of the single-content-source (ekosistem-only) consolidation — text unchanged, only its canonical home moved. This is the CURRENT live homepage's SEO copy; a redesigned homepage exists on jvto-web's homepage-redesign branch (not yet merged, not yet consuming this file) and will need its own review of this source once it ships."
   }
 }

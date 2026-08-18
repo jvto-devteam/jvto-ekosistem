@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:36:48.229Z",
+  "generated_at": "2026-08-18T08:40:41.264Z",
   "mappings": [
     {
       "source": "1-knowledge-and-evidence-core/blog/ijen-medical-checkup-requirement.source.json",
@@ -78,6 +78,14 @@
       "outputs": [
         "5-experience-engine/public-website/pages/destinations.website-output.json",
         "5-experience-engine/json-ld/pages/destinations.schema-output.json",
+        "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
+      ]
+    },
+    {
+      "source": "1-knowledge-and-evidence-core/home/index.source.json",
+      "outputs": [
+        "5-experience-engine/public-website/pages/home.website-output.json",
+        "5-experience-engine/json-ld/pages/home.schema-output.json",
         "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
       ]
     },

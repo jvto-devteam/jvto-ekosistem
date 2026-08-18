@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-08-18T08:36:48.229Z",
+  "generated_at": "2026-08-18T08:40:41.264Z",
   "routes": [
+    {
+      "route": "/",
+      "domain": "home",
+      "slug": "index",
+      "websiteOutput": "5-experience-engine/public-website/pages/home.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/home.schema-output.json"
+    },
     {
       "route": "/blog",
       "domain": "blog",
