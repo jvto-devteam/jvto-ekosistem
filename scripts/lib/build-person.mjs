@@ -1,3 +1,5 @@
+import { emitEntity } from "./external-entities.mjs";
+
 function normalizeImage(image) {
   if (!image) return [];
   if (Array.isArray(image)) {
@@ -21,14 +23,22 @@ function normalizeImage(image) {
   return [];
 }
 
-function credentialToSchema(credential) {
+function credentialToSchema(credential, registry, route) {
   return {
     "@type": "EducationalOccupationalCredential",
     name: credential.name,
     ...(credential.credentialCategory ? { credentialCategory: credential.credentialCategory } : {}),
     ...(credential.dateIssued ? { dateIssued: credential.dateIssued } : {}),
     ...(credential.documentUrl || credential.verifyUrl ? { url: credential.documentUrl || credential.verifyUrl } : {}),
-    ...(credential.recognizedBy ? { recognizedBy: { "@type": "Organization", name: credential.recognizedBy } } : {}),
+    ...(credential.recognizedBy
+      ? {
+          recognizedBy:
+            emitEntity(registry, credential.recognizedBy, route) ?? {
+              "@type": "Organization",
+              name: credential.recognizedBy,
+            },
+        }
+      : {}),
     ...(credential.sha256
       ? {
           identifier: {
@@ -42,13 +52,17 @@ function credentialToSchema(credential) {
   };
 }
 
-function ktaToCredential(record) {
+function ktaToCredential(record, registry, route) {
   if (!record?.kta?.id) return null;
   return {
     "@type": "EducationalOccupationalCredential",
     name: `HPWKI membership credential ${record.kta.id}`,
     credentialCategory: record.kta.credentialType || "HPWKI membership credential",
-    recognizedBy: { "@type": "Organization", name: record.kta.issuer || "HPWKI" },
+    recognizedBy:
+      emitEntity(registry, record.kta.issuer || "HPWKI", route) ?? {
+        "@type": "Organization",
+        name: record.kta.issuer || "HPWKI",
+      },
     identifier: {
       "@type": "PropertyValue",
       propertyID: "KTA",
@@ -67,11 +81,11 @@ function subjectToSchema(subject) {
   };
 }
 
-export function buildPersonNode(record, pageUrl) {
+export function buildPersonNode(record, pageUrl, registry, route) {
   if (!record) return null;
 
-  const explicitCredentials = (record.hasCredential ?? []).map(credentialToSchema);
-  const ktaCredential = ktaToCredential(record);
+  const explicitCredentials = (record.hasCredential ?? []).map((c) => credentialToSchema(c, registry, route));
+  const ktaCredential = ktaToCredential(record, registry, route);
   const credentials = ktaCredential ? explicitCredentials.concat(ktaCredential) : explicitCredentials;
   const images = normalizeImage(record.image);
   const aliases = record.alternateNames || record.aliases || [];

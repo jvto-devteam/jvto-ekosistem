@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-18T09:21:16.448Z",
+  "generated_at": "2026-08-18T12:19:58.673Z",
   "route": "/why-jvto/our-team/fredi",
   "domain": "why-jvto",
   "slug": "our-team/fredi",
@@ -58,20 +58,13 @@
         ],
         "memberOf": [
           {
-            "@type": "Organization",
-            "name": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)",
-            "description": "Ijen volcano guide association; members receive annual BBKSDA safety training on volcanic gas protocols.",
-            "sameAs": "https://ahu.go.id/sabh/perkumpulan/qrcode/?kode=NjAyNDAxMjczNTEwMTM2MV8wXzA3IEZlYnJ1YXJpIDIwMjRfMjcgSmFudWFyeSAyMDI0"
+            "@id": "https://javavolcano-touroperator.com/entity/#org-hpwki"
           },
           {
-            "@type": "Organization",
-            "name": "INDECON (Indonesian Ecotourism Network)",
-            "sameAs": "https://www.indecon.id/spotlight-networks/java-volcano-tour-operator"
+            "@id": "https://javavolcano-touroperator.com/entity/#org-indecon"
           },
           {
-            "@type": "Organization",
-            "name": "ISIC (International Student Identity Card)",
-            "sameAs": "https://www.isic.org/discounts/?providerId=259268"
+            "@id": "https://javavolcano-touroperator.com/entity/#org-isic"
           }
         ],
         "subjectOf": [
@@ -81,8 +74,7 @@
             "datePublished": "2021-03-14",
             "url": "https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin",
             "publisher": {
-              "@type": "Organization",
-              "name": "Detik.com"
+              "@id": "https://javavolcano-touroperator.com/entity/#org-detikcom"
             }
           },
           {
@@ -90,8 +82,7 @@
             "headline": "Polpar Dibentuk untuk Mendukung Ijen Geopark",
             "url": "https://radarjember.jawapos.com/bondowoso/791102263/polpar-dibentuk-untuk-mendukung-ijen-geopark",
             "publisher": {
-              "@type": "Organization",
-              "name": "Radar Jember / Jawa Pos"
+              "@id": "https://javavolcano-touroperator.com/entity/#org-radar-jember"
             }
           },
           {
@@ -100,8 +91,7 @@
             "isbn": "978-3-7701-7881-0",
             "datePublished": "2018-07-05",
             "publisher": {
-              "@type": "Organization",
-              "name": "DuMont Reiseverlag"
+              "@id": "https://javavolcano-touroperator.com/entity/#org-dumont"
             }
           }
         ],
@@ -112,8 +102,7 @@
             "credentialCategory": "Indonesian Business Registration",
             "url": "https://javavolcano-touroperator.com/legal/NIB-1102230032918.pdf",
             "recognizedBy": {
-              "@type": "Organization",
-              "name": "Kementerian Investasi / BKPM Indonesia"
+              "@id": "https://javavolcano-touroperator.com/entity/#org-bkpm"
             },
             "identifier": {
               "@type": "PropertyValue",
@@ -134,8 +123,7 @@
             "dateIssued": "2023-02-11",
             "url": "https://javavolcano-touroperator.com/legal/TDUP-1102230032918.pdf",
             "recognizedBy": {
-              "@type": "Organization",
-              "name": "Kementerian Pariwisata dan Ekonomi Kreatif"
+              "@id": "https://javavolcano-touroperator.com/entity/#org-kemenparekraf"
             },
             "identifier": {
               "@type": "PropertyValue",
@@ -155,8 +143,7 @@
             "credentialCategory": "Volcanic Tourism Association — BBKSDA supervised",
             "url": "https://javavolcano-touroperator.com/legal/HPWKI-approval.pdf",
             "recognizedBy": {
-              "@type": "Organization",
-              "name": "HPWKI — supervised by BBKSDA Jawa Timur"
+              "@id": "https://javavolcano-touroperator.com/entity/#org-hpwki"
             },
             "additionalProperty": {
               "@type": "PropertyValue",
@@ -165,14 +152,7 @@
               "value": "ca1fb1a48b550a7748d400f165899f12a356e6941aacdde9c043427698aaf63b"
             }
           }
-        ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": 4.9,
-          "reviewCount": 149,
-          "bestRating": 5,
-          "worstRating": 1
-        }
+        ]
       },
       {
         "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/fredi#webpage",
@@ -204,8 +184,7 @@
             "name": "HPWKI membership credential KTA-D-2024-005",
             "credentialCategory": "HPWKI membership credential (KTA)",
             "recognizedBy": {
-              "@type": "Organization",
-              "name": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)"
+              "@id": "https://javavolcano-touroperator.com/entity/#org-hpwki"
             },
             "identifier": {
               "@type": "PropertyValue",

@@ -1,10 +1,11 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
+import { loadExternalEntities, emitEntity } from "./external-entities.mjs";
 
 const SOURCE_PATH = "1-knowledge-and-evidence-core/organization-identity/organization.json";
 export const ORG_ID = "https://javavolcano-touroperator.com/#organization";
 
-function credentialToSchema(credential) {
+function credentialToSchema(credential, registry, route) {
   return {
     "@type": "EducationalOccupationalCredential",
     name: credential.name,
@@ -13,10 +14,11 @@ function credentialToSchema(credential) {
     ...(credential.documentUrl ? { url: credential.documentUrl } : {}),
     ...(credential.recognizedBy
       ? {
-          recognizedBy: {
-            "@type": "Organization",
-            name: credential.recognizedBy,
-          },
+          recognizedBy:
+            emitEntity(registry, credential.recognizedBy, route) ?? {
+              "@type": "Organization",
+              name: credential.recognizedBy,
+            },
         }
       : {}),
     ...(credential.identifierValue
@@ -41,11 +43,7 @@ function credentialToSchema(credential) {
   };
 }
 
-function isRatingValid(rating) {
-  return Boolean(rating) && Number(rating.reviewCount) >= 1 && Number(rating.ratingValue) > 0;
-}
-
-function subjectToSchema(subject) {
+function subjectToSchema(subject, registry, route) {
   return {
     "@type": subject.type,
     ...(subject.headline ? { headline: subject.headline } : {}),
@@ -53,13 +51,22 @@ function subjectToSchema(subject) {
     ...(subject.isbn ? { isbn: subject.isbn } : {}),
     ...(subject.datePublished ? { datePublished: subject.datePublished } : {}),
     ...(subject.url ? { url: subject.url } : {}),
-    ...(subject.publisherName ? { publisher: { "@type": "Organization", name: subject.publisherName } } : {}),
+    ...(subject.publisherName
+      ? {
+          publisher:
+            emitEntity(registry, subject.publisherName, route) ?? {
+              "@type": "Organization",
+              name: subject.publisherName,
+            },
+        }
+      : {}),
   };
 }
 
-export async function buildOrganizationNode(root) {
+export async function buildOrganizationNode(root, route) {
   const raw = await readFile(path.join(root, SOURCE_PATH), "utf8");
   const data = JSON.parse(raw);
+  const registry = await loadExternalEntities(root);
 
   const node = {
     "@id": ORG_ID,
@@ -94,27 +101,25 @@ export async function buildOrganizationNode(root) {
     ...(data.award?.length ? { award: data.award } : {}),
     ...(data.memberOf?.length
       ? {
-          memberOf: data.memberOf.map((member) => ({
-            "@type": "Organization",
-            name: member.name,
-            ...(member.description ? { description: member.description } : {}),
-            ...(member.sameAs ? { sameAs: member.sameAs } : {}),
-          })),
+          memberOf: data.memberOf.map((member) => {
+            const resolved = emitEntity(registry, member.name, route);
+            if (resolved) {
+              // Description stays on the definition, never on a bare reference.
+              return resolved["@type"] && member.description
+                ? { ...resolved, description: member.description }
+                : resolved;
+            }
+            return {
+              "@type": "Organization",
+              name: member.name,
+              ...(member.description ? { description: member.description } : {}),
+              ...(member.sameAs ? { sameAs: member.sameAs } : {}),
+            };
+          }),
         }
       : {}),
-    ...(data.subjectOf?.length ? { subjectOf: data.subjectOf.map(subjectToSchema) } : {}),
-    ...(data.hasCredential?.length ? { hasCredential: data.hasCredential.map(credentialToSchema) } : {}),
-    ...(isRatingValid(data.aggregateRating)
-      ? {
-          aggregateRating: {
-            "@type": "AggregateRating",
-            ratingValue: data.aggregateRating.ratingValue,
-            reviewCount: data.aggregateRating.reviewCount,
-            bestRating: data.aggregateRating.bestRating,
-            worstRating: data.aggregateRating.worstRating,
-          },
-        }
-      : {}),
+    ...(data.subjectOf?.length ? { subjectOf: data.subjectOf.map((s) => subjectToSchema(s, registry, route)) } : {}),
+    ...(data.hasCredential?.length ? { hasCredential: data.hasCredential.map((c) => credentialToSchema(c, registry, route)) } : {}),
   };
 
   return node;

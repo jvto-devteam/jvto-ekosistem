@@ -3,6 +3,7 @@ import path from "node:path";
 import { composeGraph } from "./lib/schema-contract.mjs";
 import { buildOrganizationNode, ORG_ID } from "./lib/build-organization.mjs";
 import { buildPersonNode } from "./lib/build-person.mjs";
+import { loadExternalEntities } from "./lib/external-entities.mjs";
 import { buildPoliceAuthorityNode, policeAuthorityReference } from "./lib/build-police-authority.mjs";
 
 const ROOT = process.cwd();
@@ -135,11 +136,12 @@ async function buildSchemaOutput(source) {
   const pageUrl = `https://javavolcano-touroperator.com${source.route}`;
   const nodes = [];
 
-  const orgNode = await buildOrganizationNode(ROOT);
+  const externalEntities = await loadExternalEntities(ROOT);
+  const orgNode = await buildOrganizationNode(ROOT, source.route);
   nodes.push(orgNode);
 
   if (source.route === "/verify-jvto/police-safety") {
-    const policeNode = await buildPoliceAuthorityNode(ROOT);
+    const policeNode = await buildPoliceAuthorityNode(ROOT, externalEntities, source.route);
     nodes.push(policeNode);
     orgNode.subjectOf = [...(orgNode.subjectOf ?? []), policeAuthorityReference()];
   }
@@ -176,7 +178,7 @@ async function buildSchemaOutput(source) {
       const candidateSlug = person.id || person.slug || person.code;
       return candidateSlug === teamMatch[1];
     });
-    const personNode = buildPersonNode(record, pageUrl);
+    const personNode = buildPersonNode(record, pageUrl, externalEntities, source.route);
     if (personNode) nodes.push(personNode);
   }
 

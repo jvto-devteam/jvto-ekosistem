@@ -7,6 +7,21 @@ const ROOT = process.cwd();
 const PAGES_DIR = "5-experience-engine/json-ld/pages";
 const ROUTE_INDEX_PATH = "5-experience-engine/manifests/route-output-index.json";
 const INTERNAL_ID_PREFIX = "https://javavolcano-touroperator.com/";
+const EXTERNAL_ENTITIES_PATH = "1-knowledge-and-evidence-core/organization-identity/external-entities.json";
+
+/**
+ * @id values from the external-entity registry. These are defined in full on one
+ * route and referenced from every other, so a per-route dangling check would
+ * flag every reference. Cross-route resolution is the point of the registry.
+ */
+async function loadRegistryIds() {
+  try {
+    const raw = await readFile(path.join(ROOT, EXTERNAL_ENTITIES_PATH), "utf8");
+    return new Set((JSON.parse(raw).records ?? []).map((record) => record.id));
+  } catch {
+    return new Set();
+  }
+}
 
 function typesOf(node) {
   const type = node["@type"];
@@ -14,6 +29,39 @@ function typesOf(node) {
 }
 
 const ORGANIZATION_CLASS = new Set(["Organization", "TravelAgency", "LocalBusiness"]);
+// Broader than the singleton set on purpose: the singleton rule is about JVTO's
+// own node, while the identity rule below applies to every organisation in the
+// graph, third parties included.
+const ORGANIZATION_ANY = new Set([
+  "Organization",
+  "TravelAgency",
+  "LocalBusiness",
+  "GovernmentOrganization",
+  "NGO",
+  "Corporation",
+  "EducationalOrganization",
+]);
+
+/**
+ * Every organisation node must carry an @id — either a full definition or a bare
+ * reference. An anonymous organisation cannot be linked across pages, which is
+ * what left "Detik.com" on one page unrelated to "Detik.com" on another and made
+ * JVTO's chain of authority unreadable to a machine.
+ */
+export function checkOrganizationIdentity(graph, route) {
+  const violations = [];
+  function walk(value) {
+    if (Array.isArray(value)) return value.forEach(walk);
+    if (!value || typeof value !== "object") return;
+    const types = typesOf(value).filter(Boolean);
+    if (types.some((type) => ORGANIZATION_ANY.has(type)) && !value["@id"]) {
+      violations.push(`${route}: organization node without @id (${value.name ?? "unnamed"})`);
+    }
+    Object.values(value).forEach(walk);
+  }
+  walk(graph["@graph"] ?? []);
+  return violations;
+}
 
 function singletonClassOf(node) {
   const types = typesOf(node);
@@ -56,7 +104,7 @@ export function checkNoZeroRatings(graph, route) {
   return violations;
 }
 
-export function checkDanglingReferences(graph, route) {
+export function checkDanglingReferences(graph, route, registryIds = new Set()) {
   const nodes = graph["@graph"] ?? [];
   const knownIds = new Set(nodes.map((node) => node["@id"]));
   const violations = [];
@@ -73,7 +121,7 @@ export function checkDanglingReferences(graph, route) {
     if (!value || typeof value !== "object") return;
 
     const keys = Object.keys(value);
-    if (keys.length === 1 && keys[0] === "@id" && isInternalGraphReference(value["@id"]) && !knownIds.has(value["@id"])) {
+    if (keys.length === 1 && keys[0] === "@id" && isInternalGraphReference(value["@id"]) && !knownIds.has(value["@id"]) && !registryIds.has(value["@id"])) {
       violations.push(`${route}: dangling @id reference ${value["@id"]}`);
       return;
     }
@@ -121,6 +169,7 @@ async function checkRouteIndexSync(pagesDir, routeIndexPath) {
 }
 
 async function main() {
+  const registryIds = await loadRegistryIds();
   const files = (await readdir(path.join(ROOT, PAGES_DIR))).filter((file) => file.endsWith(".json"));
   let allViolations = [];
 
@@ -134,7 +183,8 @@ async function main() {
       ...checkNoMissingIds(graph, route),
       ...checkNoDuplicateSingletons(graph, route),
       ...checkNoZeroRatings(graph, route),
-      ...checkDanglingReferences(graph, route),
+      ...checkDanglingReferences(graph, route, registryIds),
+      ...checkOrganizationIdentity(graph, route),
       ...checkTouristTripConfidence(source, route)
     );
   }
