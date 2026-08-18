@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-08-18T08:09:35.905Z",
+  "generated_at": "2026-08-18T08:17:41.122Z",
   "routes": [
+    {
+      "route": "/blog",
+      "domain": "blog",
+      "slug": "index",
+      "websiteOutput": "5-experience-engine/public-website/pages/blog.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/blog.schema-output.json"
+    },
     {
       "route": "/blog/2026-06-11-ijen-medical-checkup-requirement",
       "domain": "blog",
@@ -16,11 +23,25 @@
       "schemaOutput": "5-experience-engine/json-ld/pages/blog__2026-06-11-kawah-ijen-guide.schema-output.json"
     },
     {
+      "route": "/contact",
+      "domain": "contact",
+      "slug": "index",
+      "websiteOutput": "5-experience-engine/public-website/pages/contact.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/contact.schema-output.json"
+    },
+    {
       "route": "/destinations",
       "domain": "destinations",
       "slug": "index",
       "websiteOutput": "5-experience-engine/public-website/pages/destinations.website-output.json",
       "schemaOutput": "5-experience-engine/json-ld/pages/destinations.schema-output.json"
+    },
+    {
+      "route": "/isic/student-package",
+      "domain": "isic",
+      "slug": "student-package",
+      "websiteOutput": "5-experience-engine/public-website/pages/isic__student-package.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/isic__student-package.schema-output.json"
     },
     {
       "route": "/markets/malaysia",
@@ -63,6 +84,27 @@
       "slug": "privacy",
       "websiteOutput": "5-experience-engine/public-website/pages/policy__privacy.website-output.json",
       "schemaOutput": "5-experience-engine/json-ld/pages/policy__privacy.schema-output.json"
+    },
+    {
+      "route": "/tours",
+      "domain": "tours",
+      "slug": "index",
+      "websiteOutput": "5-experience-engine/public-website/pages/tours.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours.schema-output.json"
+    },
+    {
+      "route": "/tours/from-bali",
+      "domain": "tours",
+      "slug": "from-bali",
+      "websiteOutput": "5-experience-engine/public-website/pages/tours__from-bali.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-bali.schema-output.json"
+    },
+    {
+      "route": "/tours/from-surabaya",
+      "domain": "tours",
+      "slug": "from-surabaya",
+      "websiteOutput": "5-experience-engine/public-website/pages/tours__from-surabaya.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-surabaya.schema-output.json"
     },
     {
       "route": "/travel-guide",

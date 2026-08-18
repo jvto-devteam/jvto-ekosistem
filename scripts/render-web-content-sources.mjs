@@ -14,7 +14,10 @@ const SOURCE_DIRS = [
   "1-knowledge-and-evidence-core/markets",
   "1-knowledge-and-evidence-core/blog",
   "1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages",
-  "1-knowledge-and-evidence-core/destinations"
+  "1-knowledge-and-evidence-core/destinations",
+  "1-knowledge-and-evidence-core/contact",
+  "1-knowledge-and-evidence-core/isic",
+  "1-knowledge-and-evidence-core/tours"
 ];
 let peopleCache = null;
 

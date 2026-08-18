@@ -1,0 +1,47 @@
+{
+  "schema_version": "jvto/output/public-website-page/v1",
+  "output_type": "public_website_page",
+  "generated_at": "2026-08-18T08:17:41.122Z",
+  "route": "/tours",
+  "domain": "tours",
+  "slug": "index",
+  "status": "published",
+  "seo": {
+    "title": "All Private Tours | East Java & Bali Adventures",
+    "description": "Browse JVTO private East Java tours from Surabaya or Bali, including Bromo sunrise, Ijen blue fire, Tumpak Sewu, Madakaripura, and Papuma Beach.",
+    "canonicalRoute": "/tours",
+    "schemaTypes": [
+      "WebPage"
+    ]
+  },
+  "page": {
+    "title": "Private Bromo, Ijen & Tumpak Sewu Tours",
+    "summary": "",
+    "owner": "editorial",
+    "lastReviewed": "2026-08-18",
+    "content": {
+      "format": "json",
+      "payload": {
+        "lede": [
+          "Browse JVTO private East Java tours from Surabaya or Bali, including Bromo sunrise, Ijen blue fire, Tumpak Sewu, Madakaripura, and Papuma Beach."
+        ],
+        "lastReviewed": "2026-08-18",
+        "owner": "editorial",
+        "reviewStatus": "migrated-from-jvto-web-inline-fallback"
+      }
+    },
+    "faq": null
+  },
+  "render_contract": {
+    "consumer": "jvto-web",
+    "route_level_payload": true,
+    "website_should_not_resolve_raw_sources": true
+  },
+  "source_trace": {
+    "generated_at": "2026-08-18T00:00:00.000Z",
+    "source_files": [
+      "jvto-web:src/app/(website)/tours/page.tsx (fallbackSeo constant)"
+    ],
+    "migration_note": "Relocated verbatim from jvto-web's inline fallbackSeo constant as part of the single-content-source (ekosistem-only) consolidation — text unchanged, only its canonical home moved. The live package grid stays DB-owned via getWebPackagesList()."
+  }
+}

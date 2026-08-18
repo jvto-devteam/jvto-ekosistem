@@ -1,0 +1,47 @@
+{
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "blog",
+  "slug": "index",
+  "route": "/blog",
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "meta": {
+    "route": "/blog",
+    "title": "Insights & Explainers",
+    "browserTitle": "Insights | JVTO's Blog on Safety, Planning & Community",
+    "description": "Explore our articles on choosing a legal operator, understanding Ijen health screening, and maximizing your East Java trip. Expert advice from a police-led team.",
+    "section": "blog",
+    "status": "published",
+    "owner": "editorial",
+    "lastReviewed": "2026-08-18"
+  },
+  "seo": {
+    "title": "Insights | JVTO's Blog on Safety, Planning & Community",
+    "description": "Explore our articles on choosing a legal operator, understanding Ijen health screening, and maximizing your East Java trip. Expert advice from a police-led team.",
+    "canonicalRoute": "/blog",
+    "schemaTypes": ["WebPage"]
+  },
+  "content": {
+    "format": "json",
+    "payload": {
+      "lede": [
+        "Articles on choosing a legal operator, understanding Ijen health screening, and maximizing your East Java trip — from a police-led team."
+      ],
+      "lastReviewed": "2026-08-18",
+      "owner": "editorial",
+      "reviewStatus": "migrated-from-jvto-web-inline-fallback"
+    }
+  },
+  "output_targets": ["public_website", "json_ld", "knowledge_feed"],
+  "source_trace": {
+    "generated_at": "2026-08-18T00:00:00.000Z",
+    "source_files": [
+      "jvto-web:src/app/(website)/blog/page.tsx (fallbackSeo constant)"
+    ],
+    "migration_note": "Relocated verbatim from jvto-web's inline fallbackSeo constant as part of the single-content-source (ekosistem-only) consolidation — text unchanged, only its canonical home moved. The post list itself stays sourced from getEcosystemBlogPosts() (unchanged, already ekosistem-only)."
+  }
+}

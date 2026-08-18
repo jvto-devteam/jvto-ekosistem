@@ -1,0 +1,47 @@
+{
+  "schema_version": "jvto/output/public-website-page/v1",
+  "output_type": "public_website_page",
+  "generated_at": "2026-08-18T08:17:41.122Z",
+  "route": "/tours/from-bali",
+  "domain": "tours",
+  "slug": "from-bali",
+  "status": "published",
+  "seo": {
+    "title": "Bromo Ijen Tour from Bali — 4 Private Packages | JVTO",
+    "description": "Private 3D–5D Bromo & Ijen tours from Bali, ferry crossing included. Tourist Police-led, all-inclusive. 4.8★ Trustpilot. From IDR 2.85M/pax.",
+    "canonicalRoute": "/tours/from-bali",
+    "schemaTypes": [
+      "WebPage"
+    ]
+  },
+  "page": {
+    "title": "Private East Java Volcano Tours from Bali",
+    "summary": "",
+    "owner": "editorial",
+    "lastReviewed": "2026-08-18",
+    "content": {
+      "format": "json",
+      "payload": {
+        "lede": [
+          "Private 3D–5D Bromo & Ijen tours from Bali, ferry crossing included. Tourist Police-led, all-inclusive."
+        ],
+        "lastReviewed": "2026-08-18",
+        "owner": "editorial",
+        "reviewStatus": "migrated-from-jvto-web-inline-fallback"
+      }
+    },
+    "faq": null
+  },
+  "render_contract": {
+    "consumer": "jvto-web",
+    "route_level_payload": true,
+    "website_should_not_resolve_raw_sources": true
+  },
+  "source_trace": {
+    "generated_at": "2026-08-18T00:00:00.000Z",
+    "source_files": [
+      "jvto-web:src/app/(website)/tours/from-bali/page.tsx (fallbackSeo constant)"
+    ],
+    "migration_note": "Relocated verbatim from jvto-web's inline fallbackSeo constant as part of the single-content-source (ekosistem-only) consolidation — text unchanged, only its canonical home moved. Rating (4.8★ Trustpilot) and price (IDR 2.85M) figures reproduced as-is from the existing live copy, not re-verified here — same caveat as every other relocated fallback in this pass."
+  }
+}

@@ -1,9 +1,27 @@
 {
   "schema_version": "jvto/output/knowledge-feed/v1",
   "output_type": "public_web_content_feed",
-  "generated_at": "2026-08-18T08:09:35.905Z",
-  "record_count": 43,
+  "generated_at": "2026-08-18T08:17:41.122Z",
+  "record_count": 49,
   "records": [
+    {
+      "route": "/blog",
+      "domain": "blog",
+      "slug": "index",
+      "title": "Insights & Explainers",
+      "summary": "Explore our articles on choosing a legal operator, understanding Ijen health screening, and maximizing your East Java trip. Expert advice from a police-led team.",
+      "status": "published",
+      "owner": "editorial",
+      "lastReviewed": "2026-08-18",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "jvto-web:src/app/(website)/blog/page.tsx (fallbackSeo constant)"
+      ]
+    },
     {
       "route": "/blog/2026-06-11-ijen-medical-checkup-requirement",
       "domain": "blog",
@@ -33,6 +51,24 @@
       ]
     },
     {
+      "route": "/contact",
+      "domain": "contact",
+      "slug": "index",
+      "title": "Contact Us",
+      "summary": "Get in touch with our expert team to plan your private, all-inclusive tour of Mount Bromo, Ijen, and more. We're here to help you 24/7.",
+      "status": "published",
+      "owner": "editorial",
+      "lastReviewed": "2026-08-18",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "jvto-web:src/lib/publicContent/pageSnapshots.ts (manualPageSnapshots[\"/contact\"])"
+      ]
+    },
+    {
       "route": "/destinations",
       "domain": "destinations",
       "slug": "index",
@@ -49,6 +85,24 @@
       "sourceFiles": [
         "1-knowledge-and-evidence-core/destination-knowledge/index.json",
         "1-knowledge-and-evidence-core/faqs/destinations.json"
+      ]
+    },
+    {
+      "route": "/isic/student-package",
+      "domain": "isic",
+      "slug": "student-package",
+      "title": "Explore Java's Volcanoes with ISIC Benefits",
+      "summary": "Exclusive student deals for ISIC cardholders on safe, all-inclusive volcano tours in East Java with Java Volcano Tour Operator.",
+      "status": "published",
+      "owner": "editorial",
+      "lastReviewed": "2026-08-18",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "jvto-web:src/app/(website)/isic/student-package/page.tsx (fallbackSeo constant)"
       ]
     },
     {
@@ -163,6 +217,60 @@
       "sourceFiles": [
         "1-knowledge-and-evidence-core/policies/privacy.md",
         "5-experience-engine/seo-metadata/page-metadata-index.json"
+      ]
+    },
+    {
+      "route": "/tours",
+      "domain": "tours",
+      "slug": "index",
+      "title": "Private Bromo, Ijen & Tumpak Sewu Tours",
+      "summary": "Browse JVTO private East Java tours from Surabaya or Bali, including Bromo sunrise, Ijen blue fire, Tumpak Sewu, Madakaripura, and Papuma Beach.",
+      "status": "published",
+      "owner": "editorial",
+      "lastReviewed": "2026-08-18",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "jvto-web:src/app/(website)/tours/page.tsx (fallbackSeo constant)"
+      ]
+    },
+    {
+      "route": "/tours/from-bali",
+      "domain": "tours",
+      "slug": "from-bali",
+      "title": "Private East Java Volcano Tours from Bali",
+      "summary": "Private 3D–5D Bromo & Ijen tours from Bali, ferry crossing included. Tourist Police-led, all-inclusive. 4.8★ Trustpilot. From IDR 2.85M/pax.",
+      "status": "published",
+      "owner": "editorial",
+      "lastReviewed": "2026-08-18",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "jvto-web:src/app/(website)/tours/from-bali/page.tsx (fallbackSeo constant)"
+      ]
+    },
+    {
+      "route": "/tours/from-surabaya",
+      "domain": "tours",
+      "slug": "from-surabaya",
+      "title": "Private Volcano Tours from Surabaya",
+      "summary": "Private 2D–6D Bromo, Ijen & Tumpak Sewu tours from Surabaya. Tourist Police-led, all-inclusive. 4.8★ Trustpilot. From IDR 1.55M/pax.",
+      "status": "published",
+      "owner": "editorial",
+      "lastReviewed": "2026-08-18",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "jvto-web:src/app/(website)/tours/from-surabaya/page.tsx (fallbackSeo constant)"
       ]
     },
     {

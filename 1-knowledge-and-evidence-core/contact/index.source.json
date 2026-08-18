@@ -1,0 +1,47 @@
+{
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "contact",
+  "slug": "index",
+  "route": "/contact",
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "meta": {
+    "route": "/contact",
+    "title": "Contact Us",
+    "browserTitle": "Contact JVTO Tours | Plan Your East Java Adventure",
+    "description": "Get in touch with our expert team to plan your private, all-inclusive tour of Mount Bromo, Ijen, and more. We're here to help you 24/7.",
+    "section": "contact",
+    "status": "published",
+    "owner": "editorial",
+    "lastReviewed": "2026-08-18"
+  },
+  "seo": {
+    "title": "Contact JVTO Tours | Plan Your East Java Adventure",
+    "description": "Get in touch with our expert team to plan your private, all-inclusive tour of Mount Bromo, Ijen, and more. We're here to help you 24/7.",
+    "canonicalRoute": "/contact",
+    "schemaTypes": ["WebPage"]
+  },
+  "content": {
+    "format": "json",
+    "payload": {
+      "lede": [
+        "Get in touch with our expert team to plan your private, all-inclusive tour of Mount Bromo, Ijen, and more."
+      ],
+      "lastReviewed": "2026-08-18",
+      "owner": "editorial",
+      "reviewStatus": "migrated-from-jvto-web-inline-snapshot"
+    }
+  },
+  "output_targets": ["public_website", "json_ld", "knowledge_feed"],
+  "source_trace": {
+    "generated_at": "2026-08-18T00:00:00.000Z",
+    "source_files": [
+      "jvto-web:src/lib/publicContent/pageSnapshots.ts (manualPageSnapshots[\"/contact\"])"
+    ],
+    "migration_note": "Relocated verbatim from jvto-web's hand-authored manual snapshot as part of the single-content-source (ekosistem-only) consolidation — text unchanged, only its canonical home moved. The visible page body (form, office address, contact channels) stays hardcoded in ContactPage.tsx, sourced from @/constants — only title/h1/description move here."
+  }
+}

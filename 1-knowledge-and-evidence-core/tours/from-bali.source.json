@@ -1,0 +1,47 @@
+{
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "tours",
+  "slug": "from-bali",
+  "route": "/tours/from-bali",
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "meta": {
+    "route": "/tours/from-bali",
+    "title": "Private East Java Volcano Tours from Bali",
+    "browserTitle": "Bromo Ijen Tour from Bali — 4 Private Packages | JVTO",
+    "description": "Private 3D–5D Bromo & Ijen tours from Bali, ferry crossing included. Tourist Police-led, all-inclusive. 4.8★ Trustpilot. From IDR 2.85M/pax.",
+    "section": "tours",
+    "status": "published",
+    "owner": "editorial",
+    "lastReviewed": "2026-08-18"
+  },
+  "seo": {
+    "title": "Bromo Ijen Tour from Bali — 4 Private Packages | JVTO",
+    "description": "Private 3D–5D Bromo & Ijen tours from Bali, ferry crossing included. Tourist Police-led, all-inclusive. 4.8★ Trustpilot. From IDR 2.85M/pax.",
+    "canonicalRoute": "/tours/from-bali",
+    "schemaTypes": ["WebPage"]
+  },
+  "content": {
+    "format": "json",
+    "payload": {
+      "lede": [
+        "Private 3D–5D Bromo & Ijen tours from Bali, ferry crossing included. Tourist Police-led, all-inclusive."
+      ],
+      "lastReviewed": "2026-08-18",
+      "owner": "editorial",
+      "reviewStatus": "migrated-from-jvto-web-inline-fallback"
+    }
+  },
+  "output_targets": ["public_website", "json_ld", "knowledge_feed"],
+  "source_trace": {
+    "generated_at": "2026-08-18T00:00:00.000Z",
+    "source_files": [
+      "jvto-web:src/app/(website)/tours/from-bali/page.tsx (fallbackSeo constant)"
+    ],
+    "migration_note": "Relocated verbatim from jvto-web's inline fallbackSeo constant as part of the single-content-source (ekosistem-only) consolidation — text unchanged, only its canonical home moved. Rating (4.8★ Trustpilot) and price (IDR 2.85M) figures reproduced as-is from the existing live copy, not re-verified here — same caveat as every other relocated fallback in this pass."
+  }
+}

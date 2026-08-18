@@ -1,0 +1,47 @@
+{
+  "schema_version": "jvto/source/public-web-page/v1",
+  "source_type": "public_web_page_source",
+  "domain": "isic",
+  "slug": "student-package",
+  "route": "/isic/student-package",
+  "cms": {
+    "editable": true,
+    "primary_editor": "tina",
+    "edit_scope": "one source file per public page object"
+  },
+  "meta": {
+    "route": "/isic/student-package",
+    "title": "Explore Java's Volcanoes with ISIC Benefits",
+    "browserTitle": "Explore Java's Volcanoes with ISIC Benefits | JVTO",
+    "description": "Exclusive student deals for ISIC cardholders on safe, all-inclusive volcano tours in East Java with Java Volcano Tour Operator.",
+    "section": "isic",
+    "status": "published",
+    "owner": "editorial",
+    "lastReviewed": "2026-08-18"
+  },
+  "seo": {
+    "title": "Explore Java's Volcanoes with ISIC Benefits | JVTO",
+    "description": "Exclusive student deals for ISIC cardholders on safe, all-inclusive volcano tours in East Java with Java Volcano Tour Operator.",
+    "canonicalRoute": "/isic/student-package",
+    "schemaTypes": ["WebPage"]
+  },
+  "content": {
+    "format": "json",
+    "payload": {
+      "lede": [
+        "Exclusive student deals for ISIC cardholders on safe, all-inclusive volcano tours in East Java with Java Volcano Tour Operator."
+      ],
+      "lastReviewed": "2026-08-18",
+      "owner": "editorial",
+      "reviewStatus": "migrated-from-jvto-web-inline-fallback"
+    }
+  },
+  "output_targets": ["public_website", "json_ld", "knowledge_feed"],
+  "source_trace": {
+    "generated_at": "2026-08-18T00:00:00.000Z",
+    "source_files": [
+      "jvto-web:src/app/(website)/isic/student-package/page.tsx (fallbackSeo constant)"
+    ],
+    "migration_note": "Relocated verbatim from jvto-web's inline fallbackSeo constant as part of the single-content-source (ekosistem-only) consolidation — text unchanged, only its canonical home moved."
+  }
+}
