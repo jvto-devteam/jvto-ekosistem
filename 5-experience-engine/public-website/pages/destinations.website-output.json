@@ -1,0 +1,82 @@
+{
+  "schema_version": "jvto/output/public-website-page/v1",
+  "output_type": "public_website_page",
+  "generated_at": "2026-08-18T08:09:35.905Z",
+  "route": "/destinations",
+  "domain": "destinations",
+  "slug": "index",
+  "status": "published",
+  "seo": {
+    "title": "East Java Destinations | Bromo, Ijen & More | JVTO",
+    "description": "Explore 5 East Java destinations with JVTO: Bromo 2,329 m, Ijen 2,386 m, Tumpak Sewu, Madakaripura, Papuma. Private tours, 4.8★ Trustpilot.",
+    "canonicalRoute": "/destinations",
+    "schemaTypes": [
+      "CollectionPage"
+    ]
+  },
+  "page": {
+    "title": "East Java Destinations",
+    "summary": "The five East Java sites on JVTO's private circuit — volcano craters, canyon waterfalls, and a coastal headland.",
+    "answerFirst": "Every site on JVTO's East Java circuit — volcano craters, canyon waterfalls, a coastal headland — is reached by dedicated private vehicle, with BBKSDA park clearance already in hand.",
+    "owner": "editorial",
+    "lastReviewed": "2026-08-06",
+    "content": {
+      "format": "json",
+      "payload": {
+        "meta": {
+          "route": "/destinations",
+          "title": "East Java Destinations",
+          "browserTitle": "East Java Destinations | Bromo, Ijen & More | JVTO",
+          "description": "Explore 5 East Java destinations with JVTO: Bromo 2,329 m, Ijen 2,386 m, Tumpak Sewu, Madakaripura, Papuma. Private tours, 4.8★ Trustpilot.",
+          "section": "destinations",
+          "status": "published",
+          "owner": "editorial",
+          "lastReviewed": "2026-08-06",
+          "schemaTypes": [
+            "CollectionPage"
+          ],
+          "faqKey": "destinations",
+          "summary": "The five East Java sites on JVTO's private circuit — volcano craters, canyon waterfalls, and a coastal headland."
+        },
+        "lede": [
+          "Every site on JVTO's East Java circuit — volcano craters, canyon waterfalls, a coastal headland — reached by dedicated private vehicle, BBKSDA park clearance already in hand."
+        ],
+        "lastReviewed": "2026-08-07",
+        "owner": "destination-knowledge",
+        "reviewStatus": "domain-owner-assigned-by-audit"
+      }
+    },
+    "faq": {
+      "key": "destinations",
+      "payload": {
+        "items": [
+          {
+            "question": "Which East Java destinations does JVTO cover?",
+            "answer": "Five sites on the private East Java circuit: Kawah Ijen (active acidic crater lake, blue-fire night hike), Mount Bromo (Tengger caldera sunrise), Tumpak Sewu (multi-tiered waterfall), Madakaripura (Java's tallest waterfall), and Papuma Beach (coastal headland). Each is reached by dedicated private vehicle."
+          },
+          {
+            "question": "How do I get between the destinations?",
+            "answer": "Every destination is reached by dedicated private vehicle — an AC MPV for smaller groups (2–3 guests) or a Toyota Hiace for larger groups (4–9). No public buses and no shared transfers. BBKSDA park clearance is arranged in advance."
+          },
+          {
+            "question": "Will I definitely see the blue fire at Ijen?",
+            "answer": "The blue fire is a natural phenomenon — sulfuric gases igniting at the crater floor — visible in suitable weather. It is subject to weather and gas activity and can never be guaranteed. JVTO plans the pre-dawn viewing window around the best conditions, but does not promise an outcome that depends on volcanic gas activity."
+          }
+        ]
+      }
+    }
+  },
+  "render_contract": {
+    "consumer": "jvto-web",
+    "route_level_payload": true,
+    "website_should_not_resolve_raw_sources": true
+  },
+  "source_trace": {
+    "generated_at": "2026-08-18T00:00:00.000Z",
+    "source_files": [
+      "1-knowledge-and-evidence-core/destination-knowledge/index.json",
+      "1-knowledge-and-evidence-core/faqs/destinations.json"
+    ],
+    "migration_note": "Consolidated from destination-knowledge/index.json (meta/lede, previously unwired — no render pipeline entry existed for this route) and faqs/destinations.json, as part of the single-content-source (ekosistem-only) consolidation. The rich section/block structure (hero stats, per-destination feature cards, transport spec, CTA links) in the original index.json is NOT reproduced here: destinations/page.tsx's DestinationsHub component only ever consumed answerFirst + lastReviewed from the ecosystem — the rest of that structure was written for a page layout jvto-web never actually built. Per-destination facts (elevation, difficulty, description) remain DB-owned via getWebDestinationsList()."
+  }
+}

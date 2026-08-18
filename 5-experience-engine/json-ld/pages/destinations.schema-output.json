@@ -2,9 +2,9 @@
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
   "generated_at": "2026-08-18T08:09:35.905Z",
-  "route": "/why-jvto/our-team/gufron",
-  "domain": "why-jvto",
-  "slug": "our-team/gufron",
+  "route": "/destinations",
+  "domain": "destinations",
+  "slug": "index",
   "json_ld": {
     "@context": "https://schema.org",
     "@graph": [
@@ -175,42 +175,43 @@
         }
       },
       {
-        "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/gufron#webpage",
+        "@id": "https://javavolcano-touroperator.com/destinations#webpage",
         "@type": [
-          "ProfilePage"
+          "CollectionPage"
         ],
-        "name": "Gufron — JVTO Tour Guide",
-        "description": "Gufron is a KTA-holding JVTO tour guide for East Java volcano tours (Bromo, Ijen, Tumpak Sewu).",
-        "url": "https://javavolcano-touroperator.com/why-jvto/our-team/gufron",
+        "name": "East Java Destinations",
+        "description": "Explore 5 East Java destinations with JVTO: Bromo 2,329 m, Ijen 2,386 m, Tumpak Sewu, Madakaripura, Papuma. Private tours, 4.8★ Trustpilot.",
+        "url": "https://javavolcano-touroperator.com/destinations",
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         }
       },
       {
-        "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/gufron#person",
-        "@type": "Person",
-        "name": "Gufron",
-        "jobTitle": "guide",
-        "image": [
+        "@id": "https://javavolcano-touroperator.com/destinations#faq",
+        "@type": "FAQPage",
+        "mainEntity": [
           {
-            "@type": "ImageObject",
-            "url": "/uploads/1768225567764-405955176-gufron.png",
-            "caption": "JVTO Bromo guide Gufron"
-          }
-        ],
-        "hasCredential": [
+            "@type": "Question",
+            "name": "Which East Java destinations does JVTO cover?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Five sites on the private East Java circuit: Kawah Ijen (active acidic crater lake, blue-fire night hike), Mount Bromo (Tengger caldera sunrise), Tumpak Sewu (multi-tiered waterfall), Madakaripura (Java's tallest waterfall), and Papuma Beach (coastal headland). Each is reached by dedicated private vehicle."
+            }
+          },
           {
-            "@type": "EducationalOccupationalCredential",
-            "name": "HPWKI membership credential KTA-G-2024-001",
-            "credentialCategory": "HPWKI membership credential (KTA)",
-            "recognizedBy": {
-              "@type": "Organization",
-              "name": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)"
-            },
-            "identifier": {
-              "@type": "PropertyValue",
-              "propertyID": "KTA",
-              "value": "KTA-G-2024-001"
+            "@type": "Question",
+            "name": "How do I get between the destinations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Every destination is reached by dedicated private vehicle — an AC MPV for smaller groups (2–3 guests) or a Toyota Hiace for larger groups (4–9). No public buses and no shared transfers. BBKSDA park clearance is arranged in advance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will I definitely see the blue fire at Ijen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The blue fire is a natural phenomenon — sulfuric gases igniting at the crater floor — visible in suitable weather. It is subject to weather and gas activity and can never be guaranteed. JVTO plans the pre-dawn viewing window around the best conditions, but does not promise an outcome that depends on volcanic gas activity."
             }
           }
         ]
@@ -218,14 +219,11 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-12T07:57:49.134Z",
+    "generated_at": "2026-08-18T00:00:00.000Z",
     "source_files": [
-      "/Users/macbook/Code/jvto-web/content/entities/people.json",
-      "/Users/macbook/Code/jvto-web/content/pages/why-jvto/our-team.json",
-      "/Users/macbook/Code/jvto-web/content/entities/crew-reviews.json",
-      "/Users/macbook/Code/jvto-web/src/app/(website)/why-jvto/our-team/[slug]/page.tsx",
-      "https://javavolcano-touroperator.com/sitemap.xml"
+      "1-knowledge-and-evidence-core/destination-knowledge/index.json",
+      "1-knowledge-and-evidence-core/faqs/destinations.json"
     ],
-    "migration_note": "Created to align JVTO Operating Ecosystem source routes with the live jvto-web public Why JVTO crew detail pages. Personal phone fields from the team content source are intentionally excluded because the live detail page does not render them."
+    "migration_note": "Consolidated from destination-knowledge/index.json (meta/lede, previously unwired — no render pipeline entry existed for this route) and faqs/destinations.json, as part of the single-content-source (ekosistem-only) consolidation. The rich section/block structure (hero stats, per-destination feature cards, transport spec, CTA links) in the original index.json is NOT reproduced here: destinations/page.tsx's DestinationsHub component only ever consumed answerFirst + lastReviewed from the ecosystem — the rest of that structure was written for a page layout jvto-web never actually built. Per-destination facts (elevation, difficulty, description) remain DB-owned via getWebDestinationsList()."
   }
 }
