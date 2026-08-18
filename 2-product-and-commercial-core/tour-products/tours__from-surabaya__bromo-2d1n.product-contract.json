@@ -204,5 +204,153 @@
     "website_output_ref": "5-experience-engine/public-website/tours__from-surabaya__bromo-2d1n.website-output.json",
     "seo_metadata_ref": "5-experience-engine/seo-metadata/page-metadata-index.json",
     "json_ld_ref": "5-experience-engine/json-ld/schema-types-index.json"
+  },
+  "tags": [
+    "Surabaya",
+    "Surabaya"
+  ],
+  "gallery": [
+    "/uploads/2-day-bromo-sunrise-adventure-from-surabaya_0.jpg",
+    "/uploads/2-day-bromo-sunrise-adventure-from-surabaya_1.webp",
+    "/uploads/2-day-bromo-sunrise-adventure-from-surabaya_2.webp",
+    "/uploads/2-day-bromo-sunrise-adventure-from-surabaya_3.webp",
+    "/uploads/2-day-bromo-sunrise-adventure-from-surabaya_4.webp",
+    "/uploads/2-day-bromo-sunrise-adventure-from-surabaya_5.webp"
+  ],
+  "imageUrl": "/uploads/2-day-bromo-sunrise-adventure-from-surabaya_0.jpg",
+  "itineraryDays": [
+    {
+      "day": 1,
+      "title": "Surabaya to the Bromo Side for Overnight Staging",
+      "summary": "The first day is a clean transfer from Surabaya to the Bromo side so the sunrise sequence can be handled properly the next morning. The overnight stay reduces pressure compared with the faster one-day variant and gives the route a more stable opening.",
+      "activities": [
+        {
+          "type": "TravelAction",
+          "name": "Surabaya to Bromo Pickup",
+          "description": "Pickup at your location in Surabaya. Meet our team at the confirmed pick-up point, complete a quick departure check, and begin the transfer toward the Mount Bromo area (Cemoro Lawang).",
+          "fromLocation": "Surabaya City",
+          "toLocation": "Local Restaurant",
+          "timeWindow": "12:00",
+          "durationMinutes": 30
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Lunch at Local Restaurant",
+          "description": "Stop at a local restaurant for lunch (cost not included). This is the planned lunch break during the transfer day, allowing time to order and dine before continuing to the Bromo area.",
+          "location": "Local Restaurant",
+          "timeWindow": "12:30",
+          "durationMinutes": 60
+        },
+        {
+          "type": "TravelAction",
+          "name": "Local Restaurant to Bromo Transfer",
+          "description": "Continue the journey from the restaurant toward the Bromo area, arriving in time for hotel check-in.",
+          "fromLocation": "Local Restaurant",
+          "toLocation": "Bromo Hotel",
+          "timeWindow": "13:30",
+          "durationMinutes": 150
+        },
+        {
+          "type": "CheckInAction",
+          "name": "Check-in Bromo Hotel",
+          "description": "Arrive at the Mount Bromo area and complete hotel check-in. This step covers arrival at your accommodation in the Bromo area and settling in for the next part of the program.",
+          "location": "Bromo Hotel",
+          "timeWindow": "16:00",
+          "durationMinutes": 10
+        }
+      ],
+      "mealsPlan": {
+        "breakfast": "own expense",
+        "lunch": "own expense",
+        "dinner": "own expense"
+      },
+      "mealsNotes": "",
+      "overnight": "Bromo Hotel"
+    },
+    {
+      "day": 2,
+      "title": "Bromo Sunrise, Madakaripura, and Return to Surabaya",
+      "summary": "The second day combines the Bromo sunrise sequence with the Madakaripura stop before returning to Surabaya. It remains a productive day, but the overnight staging makes the full route easier to read and more comfortable to execute.",
+      "activities": [
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Bromo Jeep Tour Experience",
+          "description": "Starting the Bromo Jeep tour. Begin the scheduled Mount Bromo sunrise tour sequence by Jeep, completing the morning program within the allocated time block.",
+          "location": "Sea of Sand & Bromo Crater",
+          "timeWindow": "02:30",
+          "durationMinutes": 390
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Hotel Breakfast",
+          "description": "Back to the hotel for breakfast. Return to the Bromo hotel after the morning Jeep tour and take a short breakfast break before the mid-day transition.",
+          "location": "Bromo Hotel",
+          "timeWindow": "09:00",
+          "durationMinutes": 30
+        },
+        {
+          "type": "CheckOutAction",
+          "name": "Bromo Hotel Check-out",
+          "description": "Check-out, travel to Madakaripura. Complete hotel check-out and begin the transfer toward Madakaripura Waterfall to continue the day’s itinerary sequence.",
+          "location": "Bromo Hotel",
+          "timeWindow": "11:00",
+          "durationMinutes": 10
+        },
+        {
+          "type": "TravelAction",
+          "name": "Check-out and Transfer to Madakaripura",
+          "description": "Depart from the Bromo hotel after check-out and continue the overland transfer to Madakaripura Waterfall.",
+          "fromLocation": "Bromo Hotel",
+          "toLocation": "Madakaripura Waterfall",
+          "timeWindow": "11:10",
+          "durationMinutes": 20
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Madakaripura Trekking",
+          "description": "Arrive at Madakaripura and start trekking. This is the main on-site activity window at Madakaripura Waterfall, dedicated to the trek segment as listed in the schedule.",
+          "location": "Madakaripura Waterfall",
+          "timeWindow": "11:30",
+          "durationMinutes": 180
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Lunch After Trek (Own Expense)",
+          "description": "After trekking, have lunch (fees not included). This is the planned meal break after the Madakaripura trekking segment, with dining costs handled personally.",
+          "location": "Madakaripura Waterfall",
+          "timeWindow": "13:30",
+          "durationMinutes": 60
+        },
+        {
+          "type": "TravelAction",
+          "name": "Transfer to Surabaya",
+          "description": "Journey to Surabaya. Begin the return transfer from the Madakaripura area to Surabaya, closing the day tour route.",
+          "fromLocation": "Madakaripura Waterfall",
+          "toLocation": "Surabaya City",
+          "timeWindow": "14:30",
+          "durationMinutes": 120
+        },
+        {
+          "type": "TravelAction",
+          "name": "Arrival in Surabaya",
+          "description": "Arrived in Surabaya. Complete arrival procedures and proceed to the final drop-off point as applicable.",
+          "fromLocation": "Surabaya City",
+          "toLocation": "Surabaya City",
+          "timeWindow": "16:30",
+          "durationMinutes": 0
+        }
+      ],
+      "mealsPlan": {
+        "breakfast": "included",
+        "lunch": "own expense",
+        "dinner": "own expense"
+      },
+      "mealsNotes": "",
+      "overnight": null
+    }
+  ],
+  "source_trace": {
+    "migration_note": "Editorial fields (name, description, marketing, keyExperiences, physicalDifficulty, inclusions/exclusions, travelerRequirements, accommodationPlan, gear, itineraryDays, provider, compliance, tags, gallery, imageUrl, category, duration, route) synced 1:1 from the live Prisma `packages` row as part of the single-content-source (ekosistem-only) consolidation, 2026-08-18. itineraryDays added — previously absent from this file. Operational/transactional fields (pricing, deposit, add_ons pricing, channel_availability, aggregateRating) intentionally left untouched — they remain Prisma-sourced at read time per the standing editorial-vs-operational split.",
+    "generated_at": "2026-08-18T00:00:00.000Z"
   }
 }

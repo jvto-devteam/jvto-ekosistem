@@ -224,5 +224,290 @@
     "website_output_ref": "5-experience-engine/public-website/tours__from-surabaya__ijen-papuma-tumpak-sewu-bromo-4d3n.website-output.json",
     "seo_metadata_ref": "5-experience-engine/seo-metadata/page-metadata-index.json",
     "json_ld_ref": "5-experience-engine/json-ld/schema-types-index.json"
+  },
+  "tags": [
+    "Surabaya",
+    "Surabaya"
+  ],
+  "gallery": [
+    "/uploads/4-day-ijen-papuma-beach-tumpak-sewu-bromo-journey-from-surabaya_0.webp",
+    "/uploads/4-day-ijen-papuma-beach-tumpak-sewu-bromo-journey-from-surabaya_1.webp",
+    "/uploads/4-day-ijen-papuma-beach-tumpak-sewu-bromo-journey-from-surabaya_2.webp",
+    "/uploads/4-day-ijen-papuma-beach-tumpak-sewu-bromo-journey-from-surabaya_3.webp",
+    "/uploads/4-day-ijen-papuma-beach-tumpak-sewu-bromo-journey-from-surabaya_4.webp",
+    "/uploads/4-day-ijen-papuma-beach-tumpak-sewu-bromo-journey-from-surabaya_5.webp"
+  ],
+  "imageUrl": "/uploads/4-day-ijen-papuma-beach-tumpak-sewu-bromo-journey-from-surabaya_0.webp",
+  "itineraryDays": [
+    {
+      "day": 1,
+      "title": "Surabaya to Bondowoso for Ijen Staging",
+      "summary": "The route opens with a transfer from Surabaya to the Bondowoso side so the Ijen segment can be handled properly. Screening is completed after hotel check-in before the climb window begins.",
+      "activities": [
+        {
+          "type": "TravelAction",
+          "name": "Surabaya to Bondowoso Transfer",
+          "description": "Pickup by our team at your location in Surabaya. After meeting at the confirmed pick-up point, begin the overland transfer toward Bondowoso (Ijen area) as scheduled in the route plan.",
+          "fromLocation": "Surabaya City",
+          "toLocation": "Local Restaurant",
+          "timeWindow": "11:00",
+          "durationMinutes": 150
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Lunch at Local Restaurant",
+          "description": "Stop at a local restaurant for lunch (cost not included). This is the planned meal break during the transfer, allowing time to order food and rest briefly before continuing to Bondowoso.",
+          "location": "Local Restaurant",
+          "timeWindow": "13:30",
+          "durationMinutes": 60
+        },
+        {
+          "type": "TravelAction",
+          "name": "Local Restaurant to Bondowoso Transfer",
+          "description": "Continue the overland journey from the restaurant toward Bondowoso, arriving in time for hotel check-in.",
+          "fromLocation": "Local Restaurant",
+          "toLocation": "Bondowoso Hotel",
+          "timeWindow": "14:30",
+          "durationMinutes": 90
+        },
+        {
+          "type": "CheckInAction",
+          "name": "Check-in Bondowoso Hotel",
+          "description": "Arrive in Bondowoso and complete the hotel check-in process. This step covers arrival at the accommodation and the basic check-in procedure so you can settle in after the transfer.",
+          "location": "Bondowoso Hotel",
+          "timeWindow": "16:00",
+          "durationMinutes": 10
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Ijen health screening",
+          "description": "A health screening will be conducted by medical personnel directly at your hotel. This is a scheduled screening session as listed in the itinerary to complete the required check before the Ijen-area program.",
+          "location": "Bondowoso Hotel",
+          "timeWindow": "17:00",
+          "durationMinutes": 90
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Dinner at Accommodation",
+          "description": "Dinner is served at the accommodation or a nearby restaurant (included). This is the planned dinner time after the transfer and screening, scheduled as an included meal for the day.",
+          "location": "Bondowoso Hotel",
+          "timeWindow": "18:30",
+          "durationMinutes": 60
+        }
+      ],
+      "mealsPlan": {
+        "breakfast": "own expense",
+        "lunch": "own expense",
+        "dinner": "included"
+      },
+      "mealsNotes": "",
+      "overnight": "Bondowoso Hotel"
+    },
+    {
+      "day": 2,
+      "title": "Ijen Climb and Continue to the Papuma Side",
+      "summary": "After the Ijen sequence, the route moves south toward the Papuma side. This day establishes the broader East Java contrast that makes the package more than a volcano-only itinerary.",
+      "activities": [
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Ijen Tour",
+          "description": "Take the Ijen tour. This block represents completing the scheduled Ijen program for the day, finished in full before the onward travel sequence to Jember and Papuma Beach.",
+          "location": "Ijen Area",
+          "timeWindow": "00:00",
+          "durationMinutes": 540
+        },
+        {
+          "type": "TravelAction",
+          "name": "Return to Bondowoso Hotel",
+          "description": "Depart from the Ijen area after completing the hike and transfer back to the hotel in Bondowoso.",
+          "fromLocation": "Ijen Area",
+          "toLocation": "Bondowoso Hotel",
+          "timeWindow": "09:00",
+          "durationMinutes": 180
+        },
+        {
+          "type": "CheckOutAction",
+          "name": "Ijen Hotel Check-out",
+          "description": "Check out hotels in the Ijen area. This is the departure step from the Ijen-area accommodation after completing the Ijen tour block, transitioning to lunch and onward travel.",
+          "location": "Bondowoso Hotel",
+          "timeWindow": "12:00",
+          "durationMinutes": 10
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Lunch at Restaurant",
+          "description": "Lunch at a local restaurant (included). This is the planned meal stop after check-out, providing time to eat before the transfer toward Jember.",
+          "location": "Local Restaurant",
+          "timeWindow": "12:00",
+          "durationMinutes": 60
+        },
+        {
+          "type": "TravelAction",
+          "name": "Journey to Jember",
+          "description": "Journey to Jember. This segment is the overland transfer from the Ijen-area base (Bondowoso City) to Jember as scheduled for the day’s long itinerary.",
+          "fromLocation": "Bondowoso City",
+          "toLocation": "Jember City",
+          "timeWindow": "13:00",
+          "durationMinutes": 60
+        },
+        {
+          "type": "CheckInAction",
+          "name": "Jember Hotel Check-in",
+          "description": "Arrive in Jember, check-in, then head straight to Papuma Beach. This step covers arriving at the Jember hotel, completing check-in efficiently, and continuing onward to the beach for the late-afternoon program.",
+          "location": "Jember Hotel",
+          "timeWindow": "14:00",
+          "durationMinutes": 30
+        },
+        {
+          "type": "TravelAction",
+          "name": "Transfer to Papuma Beach",
+          "description": "Depart from the Jember hotel and transfer to Papuma Beach in time for the sunset window.",
+          "fromLocation": "Jember Hotel",
+          "toLocation": "Papuma Beach",
+          "timeWindow": "14:30",
+          "durationMinutes": 90
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Papuma Sunset Experience",
+          "description": "Enjoying the sunset. This is the dedicated time window at Papuma Beach to relax, take photos, and experience the late-day atmosphere during sunset hour.",
+          "location": "Papuma Beach",
+          "timeWindow": "17:00",
+          "durationMinutes": 60
+        },
+        {
+          "type": "TravelAction",
+          "name": "Return to Jember Hotel",
+          "description": "Back to the hotel in Jember. This is the return transfer segment after the sunset stop, concluding the day’s coastal visit upon arrival back at the Jember accommodation.",
+          "fromLocation": "Papuma Beach",
+          "toLocation": "Jember Hotel",
+          "timeWindow": "18:00",
+          "durationMinutes": 60
+        }
+      ],
+      "mealsPlan": {
+        "breakfast": "included",
+        "lunch": "included",
+        "dinner": "own expense"
+      },
+      "mealsNotes": "",
+      "overnight": "Jember Hotel"
+    },
+    {
+      "day": 3,
+      "title": "Papuma Area to Tumpak Sewu Staging",
+      "summary": "The third day keeps the route moving across East Java toward the Tumpak Sewu side. It should be understood as overland progression rather than as a light rest day between major stops.",
+      "activities": [
+        {
+          "type": "CheckOutAction",
+          "name": "Check out from hotel",
+          "description": "Check out hotel. Complete the standard hotel check-out process in Jember, confirm departure readiness, and prepare for the early transfer toward the early Tumpak Sewu (Lumajang) area.",
+          "location": "Jember Hotel",
+          "timeWindow": "03:30",
+          "durationMinutes": 10
+        },
+        {
+          "type": "TravelAction",
+          "name": "Journey to Tumpak Sewu",
+          "description": "Transfer to Tumpak Sewu waterfall. Depart from the hotel in Jember and begin the direct overland drive to the Tumpak Sewu area, using the allocated travel window for the point-to-point transfer.",
+          "fromLocation": "Jember Hotel",
+          "toLocation": "Tumpak Sewu Area",
+          "timeWindow": "03:30",
+          "durationMinutes": 180
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Explore Tumpak Sewu Waterfall",
+          "description": "Arrive at the Tumpak Sewu area (Lumajang), and explore Tumpak Sewu Waterfall. Use this activity block for the on-site waterfall experience in the Tumpak Sewu area, following the planned visit duration for exploration and viewing as scheduled.",
+          "location": "Tumpak Sewu Waterfall",
+          "timeWindow": "06:30",
+          "durationMinutes": 240
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Lunch",
+          "description": "Finish explore Tumpak Sewu and having lunch at local warung in Tumpak Sewu area",
+          "location": "Tumpak Sewu Area",
+          "timeWindow": "12:00",
+          "durationMinutes": 60
+        },
+        {
+          "type": "TravelAction",
+          "name": "Transfer to Bromo",
+          "description": "Transfer to hotel in Bromo area",
+          "fromLocation": "Tumpak Sewu Area",
+          "toLocation": "Bromo Area",
+          "timeWindow": "13:00",
+          "durationMinutes": 180
+        }
+      ],
+      "mealsPlan": {
+        "breakfast": "included",
+        "lunch": "included",
+        "dinner": "own expense"
+      },
+      "mealsNotes": "",
+      "overnight": "Tumpak Sewu Area"
+    },
+    {
+      "day": 4,
+      "title": "Tumpak Sewu, Bromo Sequence, and Return to Surabaya",
+      "summary": "The final day combines the Tumpak Sewu segment with the Bromo-side finish before returning to Surabaya. It is a productive closing day that works best for travelers who accept a compact but serious route rhythm.",
+      "activities": [
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Bromo Jeep Tour Experience",
+          "description": "Starting the Bromo Jeep tour. Begin the sunrise tour sequence by Jeep in the Mount Bromo area, following the planned route flow for the morning program.",
+          "location": "Sea of Sand & Bromo Crater",
+          "timeWindow": "02:00",
+          "durationMinutes": 420
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Hotel Breakfast",
+          "description": "Back to the hotel for breakfast. Return from the Bromo morning program to the hotel and take a short breakfast break before check-out and departure.",
+          "location": "Bromo Hotel",
+          "timeWindow": "09:00",
+          "durationMinutes": 30
+        },
+        {
+          "type": "CheckOutAction",
+          "name": "Bromo Hotel Check-out",
+          "description": "Check-out from the hotel. Complete the hotel check-out process and prepare for the overland transfer to Surabaya.",
+          "location": "Bromo Hotel",
+          "timeWindow": "12:00",
+          "durationMinutes": 10
+        },
+        {
+          "type": "TravelAction",
+          "name": "Transfer to Surabaya",
+          "description": "Journey to Surabaya. Start the road transfer from the Bromo area to Surabaya as scheduled, concluding the Bromo segment for the day.",
+          "fromLocation": "Bromo Area",
+          "toLocation": "Surabaya City",
+          "timeWindow": "12:00",
+          "durationMinutes": 180
+        },
+        {
+          "type": "TravelAction",
+          "name": "Finish at Surabaya City",
+          "description": "Arrive in Surabaya and proceed with the final transfer to your requested drop-off (hotel/airport). Tour ends after drop-off completion.",
+          "fromLocation": "Surabaya City",
+          "toLocation": "Accommodation",
+          "timeWindow": "15:00",
+          "durationMinutes": 30
+        }
+      ],
+      "mealsPlan": {
+        "breakfast": "included",
+        "lunch": "own expense",
+        "dinner": "own expense"
+      },
+      "mealsNotes": "",
+      "overnight": null
+    }
+  ],
+  "source_trace": {
+    "migration_note": "Editorial fields (name, description, marketing, keyExperiences, physicalDifficulty, inclusions/exclusions, travelerRequirements, accommodationPlan, gear, itineraryDays, provider, compliance, tags, gallery, imageUrl, category, duration, route) synced 1:1 from the live Prisma `packages` row as part of the single-content-source (ekosistem-only) consolidation, 2026-08-18. itineraryDays added — previously absent from this file. Operational/transactional fields (pricing, deposit, add_ons pricing, channel_availability, aggregateRating) intentionally left untouched — they remain Prisma-sourced at read time per the standing editorial-vs-operational split.",
+    "generated_at": "2026-08-18T00:00:00.000Z"
   }
 }

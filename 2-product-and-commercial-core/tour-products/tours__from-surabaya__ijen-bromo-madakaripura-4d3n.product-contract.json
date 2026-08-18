@@ -225,5 +225,264 @@
     "website_output_ref": "5-experience-engine/public-website/tours__from-surabaya__ijen-bromo-madakaripura-4d3n.website-output.json",
     "seo_metadata_ref": "5-experience-engine/seo-metadata/page-metadata-index.json",
     "json_ld_ref": "5-experience-engine/json-ld/schema-types-index.json"
+  },
+  "tags": [
+    "Surabaya",
+    "Surabaya"
+  ],
+  "gallery": [
+    "/uploads/4-day-ijen-bromo-madakaripura-waterfall-expedition-from-surabaya_0.jpg",
+    "/uploads/4-day-ijen-bromo-madakaripura-waterfall-expedition-from-surabaya_1.webp",
+    "/uploads/4-day-ijen-bromo-madakaripura-waterfall-expedition-from-surabaya_2.webp",
+    "/uploads/4-day-ijen-bromo-madakaripura-waterfall-expedition-from-surabaya_3.webp",
+    "/uploads/4-day-ijen-bromo-madakaripura-waterfall-expedition-from-surabaya_5.webp",
+    "/uploads/4-day-ijen-bromo-madakaripura-waterfall-expedition-from-surabaya_6.webp"
+  ],
+  "imageUrl": "/uploads/4-day-ijen-bromo-madakaripura-waterfall-expedition-from-surabaya_0.jpg",
+  "itineraryDays": [
+    {
+      "day": 1,
+      "title": "Surabaya to Bondowoso for Ijen Staging",
+      "summary": "The first day positions the route on the Bondowoso side so the Ijen climb can be handled properly the next morning. Screening is completed after hotel check-in.",
+      "activities": [
+        {
+          "type": "TravelAction",
+          "name": "Surabaya to Bondowoso Transfer",
+          "description": "Pickup by our team at your location in Surabaya. After meeting at the confirmed pick-up point, begin the overland transfer toward Bondowoso (Ijen area) as scheduled in the route plan.",
+          "fromLocation": "Surabaya City",
+          "toLocation": "Local Restaurant",
+          "timeWindow": "11:00",
+          "durationMinutes": 150
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Lunch at Local Restaurant",
+          "description": "Stop at a local restaurant for lunch (cost not included). This is the planned meal break during the transfer, allowing time to order food and rest briefly before continuing to Bondowoso.",
+          "location": "Local Restaurant",
+          "timeWindow": "13:30",
+          "durationMinutes": 60
+        },
+        {
+          "type": "TravelAction",
+          "name": "Local Restaurant to Bondowoso Transfer",
+          "description": "Continue the overland journey from the restaurant toward Bondowoso, arriving in time for hotel check-in.",
+          "fromLocation": "Local Restaurant",
+          "toLocation": "Bondowoso Hotel",
+          "timeWindow": "14:30",
+          "durationMinutes": 90
+        },
+        {
+          "type": "CheckInAction",
+          "name": "Check-in Bondowoso Hotel",
+          "description": "Arrive in Bondowoso and complete the hotel check-in process. This step covers arrival at the accommodation and the basic check-in procedure so you can settle in after the transfer.",
+          "location": "Bondowoso Hotel",
+          "timeWindow": "16:00",
+          "durationMinutes": 10
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Ijen health screening",
+          "description": "A health screening will be conducted by medical personnel directly at your hotel. This is a scheduled screening session as listed in the itinerary to complete the required check before the Ijen-area program.",
+          "location": "Bondowoso Hotel",
+          "timeWindow": "17:00",
+          "durationMinutes": 90
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Dinner at Accommodation",
+          "description": "Dinner is served at the accommodation or a nearby restaurant (included). This is the planned dinner time after the transfer and screening, scheduled as an included meal for the day.",
+          "location": "Bondowoso Hotel",
+          "timeWindow": "18:30",
+          "durationMinutes": 60
+        }
+      ],
+      "mealsPlan": {
+        "breakfast": "own expense",
+        "lunch": "own expense",
+        "dinner": "included"
+      },
+      "mealsNotes": "",
+      "overnight": "Bondowoso Hotel"
+    },
+    {
+      "day": 2,
+      "title": "Ijen Climb and Transfer Toward the Bromo Side",
+      "summary": "After the Ijen sequence, the route continues west toward the Bromo side. This remains one of the heavier operational days, but the wider itinerary gives more room around it.",
+      "activities": [
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Ijen Tour Experience",
+          "description": "Follow the entire Ijen tour series. This block represents the full scheduled Ijen program as arranged for the day, completed in sequence before the onward transfer to the Bromo area later.",
+          "location": "Ijen Area",
+          "timeWindow": "00:00",
+          "durationMinutes": 540
+        },
+        {
+          "type": "TravelAction",
+          "name": "Return to Bondowoso Hotel",
+          "description": "Depart from the Ijen area after completing the hike and transfer back to the hotel in Bondowoso.",
+          "fromLocation": "Ijen Area",
+          "toLocation": "Bondowoso Hotel",
+          "timeWindow": "09:00",
+          "durationMinutes": 120
+        },
+        {
+          "type": "CheckOutAction",
+          "name": "Ijen Hotel Check-out",
+          "description": "Check-out from the Ijen area hotel. This is the formal check-out step after finishing the Ijen tour series, preparing for lunch and the transfer toward the Bromo area.",
+          "location": "Bondowoso Hotel",
+          "timeWindow": "11:00",
+          "durationMinutes": 10
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Lunch at Restaurant",
+          "description": "Enjoy lunch at a local restaurant (included). This is the planned meal break after hotel check-out, allowing time to sit down, eat, and reset before the overland drive to Bromo.",
+          "location": "Local Restaurant",
+          "timeWindow": "11:30",
+          "durationMinutes": 60
+        },
+        {
+          "type": "TravelAction",
+          "name": "Journey to Bromo",
+          "description": "Start the journey to the Bromo area (about 3-4 hours). This is the main overland transfer segment from the Ijen-area base (Bondowoso City) to the Bromo area accommodation zone.",
+          "fromLocation": "Bondowoso City",
+          "toLocation": "Bromo Area",
+          "timeWindow": "12:30",
+          "durationMinutes": 210
+        },
+        {
+          "type": "CheckInAction",
+          "name": "Bromo Hotel Check-in",
+          "description": "Arrive in Bromo area, check-in hotel. This step covers arrival at the accommodation and completing check-in so you can rest and prepare for the next day’s Bromo program.",
+          "location": "Bromo Hotel",
+          "timeWindow": "16:00",
+          "durationMinutes": 10
+        }
+      ],
+      "mealsPlan": {
+        "breakfast": "included",
+        "lunch": "included",
+        "dinner": "own expense"
+      },
+      "mealsNotes": "",
+      "overnight": "Bromo Area"
+    },
+    {
+      "day": 3,
+      "title": "Bromo Sunrise, Madakaripura, and Return to Surabaya City",
+      "summary": "The main route sequence finishes with Bromo and Madakaripura before returning to Surabaya for the final overnight. This structure reduces departure-day pressure compared with the tighter 3-day loop.",
+      "activities": [
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Bromo Jeep Tour Experience",
+          "description": "Starting the Bromo Jeep tour. Begin the scheduled Mount Bromo sunrise tour sequence by Jeep, completing the morning program within the allocated time block.",
+          "location": "Sea of Sand & Bromo Crater",
+          "timeWindow": "02:30",
+          "durationMinutes": 390
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Hotel Breakfast",
+          "description": "Back to the hotel for breakfast. Return to the Bromo hotel after the morning Jeep tour and take a short breakfast break before the mid-day transition.",
+          "location": "Bromo Hotel",
+          "timeWindow": "09:00",
+          "durationMinutes": 30
+        },
+        {
+          "type": "CheckOutAction",
+          "name": "Bromo Hotel Check-out",
+          "description": "Check-out, travel to Madakaripura. Complete hotel check-out and begin the transfer toward Madakaripura Waterfall to continue the day’s itinerary sequence.",
+          "location": "Bromo Hotel",
+          "timeWindow": "11:00",
+          "durationMinutes": 10
+        },
+        {
+          "type": "TravelAction",
+          "name": "Check-out and Transfer to Madakaripura",
+          "description": "Depart from the Bromo hotel after check-out and continue the overland transfer to Madakaripura Waterfall.",
+          "fromLocation": "Bromo Hotel",
+          "toLocation": "Madakaripura Waterfall",
+          "timeWindow": "11:10",
+          "durationMinutes": 20
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Madakaripura Trekking",
+          "description": "Arrive at Madakaripura and start trekking. This is the main on-site activity window at Madakaripura Waterfall, dedicated to the trek segment as listed in the schedule.",
+          "location": "Madakaripura Waterfall",
+          "timeWindow": "11:30",
+          "durationMinutes": 180
+        },
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Lunch After Trek (Own Expense)",
+          "description": "After trekking, have lunch (fees not included). This is the planned meal break after the Madakaripura trekking segment, with dining costs handled personally.",
+          "location": "Madakaripura Waterfall",
+          "timeWindow": "13:30",
+          "durationMinutes": 60
+        },
+        {
+          "type": "TravelAction",
+          "name": "Transfer to Surabaya",
+          "description": "Journey to Surabaya. Begin the return transfer from the Madakaripura area to Surabaya, closing the day tour route.",
+          "fromLocation": "Madakaripura Waterfall",
+          "toLocation": "Surabaya City",
+          "timeWindow": "14:30",
+          "durationMinutes": 120
+        },
+        {
+          "type": "TravelAction",
+          "name": "Arrival in Surabaya",
+          "description": "Arrived in Surabaya. Complete arrival procedures and proceed to the final drop-off point as applicable.",
+          "fromLocation": "Surabaya City",
+          "toLocation": "Surabaya City",
+          "timeWindow": "16:30",
+          "durationMinutes": 0
+        }
+      ],
+      "mealsPlan": {
+        "breakfast": "included",
+        "lunch": "own expense",
+        "dinner": "own expense"
+      },
+      "mealsNotes": "",
+      "overnight": "Surabaya City"
+    },
+    {
+      "day": 4,
+      "title": "Surabaya Hotel Stay and Airport Transfer",
+      "summary": "The last day is reserved for a calmer Surabaya finish and airport handoff. This makes the route especially useful for guests who want the flagship East Java sequence without racing directly into a same-day departure after the mountain segment.",
+      "activities": [
+        {
+          "type": "TouristAttractionVisit",
+          "name": "Breakfast and Free Time",
+          "description": "Breakfast at the hotel and free time until check-out time. This block is reserved for your morning meal and unstructured time at the hotel before the scheduled airport transfer.",
+          "location": "Accommodation",
+          "timeWindow": "08:00",
+          "durationMinutes": 60
+        },
+        {
+          "type": "TravelAction",
+          "name": "Transfer to Juanda Airport",
+          "description": "Pick up at your hotel lobby (planned 3 hours before your flight departure time) and transfer to Juanda Airport. This segment covers the direct road transfer to the airport for your departure connection.",
+          "fromLocation": "Accommodation",
+          "toLocation": "Surabaya Airport",
+          "timeWindow": "09:00",
+          "durationMinutes": 60
+        }
+      ],
+      "mealsPlan": {
+        "breakfast": "included",
+        "lunch": "own expense",
+        "dinner": "own expense"
+      },
+      "mealsNotes": "",
+      "overnight": null
+    }
+  ],
+  "source_trace": {
+    "migration_note": "Editorial fields (name, description, marketing, keyExperiences, physicalDifficulty, inclusions/exclusions, travelerRequirements, accommodationPlan, gear, itineraryDays, provider, compliance, tags, gallery, imageUrl, category, duration, route) synced 1:1 from the live Prisma `packages` row as part of the single-content-source (ekosistem-only) consolidation, 2026-08-18. itineraryDays added — previously absent from this file. Operational/transactional fields (pricing, deposit, add_ons pricing, channel_availability, aggregateRating) intentionally left untouched — they remain Prisma-sourced at read time per the standing editorial-vs-operational split.",
+    "generated_at": "2026-08-18T00:00:00.000Z"
   }
 }
