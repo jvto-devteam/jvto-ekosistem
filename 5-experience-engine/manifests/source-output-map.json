@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:17:41.122Z",
+  "generated_at": "2026-08-18T08:36:48.229Z",
   "mappings": [
     {
       "source": "1-knowledge-and-evidence-core/blog/ijen-medical-checkup-requirement.source.json",
@@ -254,6 +254,14 @@
       "outputs": [
         "5-experience-engine/public-website/pages/travel-guide__weather-and-closures.website-output.json",
         "5-experience-engine/json-ld/pages/travel-guide__weather-and-closures.schema-output.json",
+        "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
+      ]
+    },
+    {
+      "source": "1-knowledge-and-evidence-core/trust/index.source.json",
+      "outputs": [
+        "5-experience-engine/public-website/pages/trust.website-output.json",
+        "5-experience-engine/json-ld/pages/trust.schema-output.json",
         "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
       ]
     },
