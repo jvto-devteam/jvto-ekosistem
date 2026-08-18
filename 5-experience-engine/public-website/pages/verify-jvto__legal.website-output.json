@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-18T23:16:01.405Z",
+  "generated_at": "2026-08-18T23:40:53.713Z",
   "route": "/verify-jvto/legal",
   "domain": "verify-jvto",
   "slug": "legal",
@@ -76,7 +76,240 @@
               }
             ]
           }
-        ]
+        ],
+        "pageContent": {
+          "heroStats": [
+            {
+              "label": "Entity",
+              "value": "PT Java Volcano Rendezvous"
+            },
+            {
+              "label": "NIB",
+              "value": "1102230032918"
+            },
+            {
+              "label": "Incorporated",
+              "value": "2016"
+            },
+            {
+              "label": "Status",
+              "value": "Active"
+            }
+          ],
+          "proofCards": [
+            {
+              "title": "NIB (Business Identification Number)",
+              "desc": "Official registration of PT Java Volcano Rendezvous as a licensed tour operator in Indonesia. Issued via OSS Online Single Submission system.",
+              "meta": "NIB: 1102230032918",
+              "href": "https://oss.go.id",
+              "img": "/legal/NIB-1102230032918-preview.webp"
+            },
+            {
+              "title": "TDUP (Tourism Business Registration)",
+              "desc": "Mandatory operating licence for tourism services in East Java, issued under the OSS system. Confirms JVTO as a legally registered tour operator.",
+              "meta": "Issued: 2023-02-11",
+              "href": "https://oss.go.id",
+              "img": "/legal/TDUP-1102230032918-preview.webp"
+            },
+            {
+              "title": "HPWKI (Ijen Guide Association)",
+              "desc": "State-recognized Ijen specialist guide association. Membership requires BBKSDA-supervised volcanic safety training (SAR + emergency medical response).",
+              "meta": "AHU-0001072·2024",
+              "href": "https://ahu.go.id",
+              "img": "/legal/HPWKI-approval-preview.webp"
+            }
+          ],
+          "articleIntro": "JVTO operates as PT Java Volcano Rendezvous, a registered Perseroan Terbatas (limited liability company) under the laws of the Republic of Indonesia. Every credential below is publicly verifiable through an Indonesian government registry — and the source documents are fingerprinted with SHA-256 hashes so they cannot be quietly altered.",
+          "dataBox": [
+            {
+              "k": "Legal entity",
+              "v": "PT Java Volcano Rendezvous"
+            },
+            {
+              "k": "NIB (Business ID)",
+              "v": "1102230032918"
+            },
+            {
+              "k": "TDUP (Tourism License)",
+              "v": "Issued 2023-02-11"
+            },
+            {
+              "k": "Company registry (AHU)",
+              "v": "AHU-0023020"
+            },
+            {
+              "k": "Domicile",
+              "v": "Bondowoso, East Java"
+            },
+            {
+              "k": "Incorporated",
+              "v": "2016"
+            }
+          ],
+          "businessRegIntro": "Three government records establish JVTO as a legal entity with a registered office, a tax identity, and a documented chain of responsibility — the things a roadside agent or a SIM-card WhatsApp number cannot produce.",
+          "businessRegTable": [
+            {
+              "cred": "Legal name",
+              "details": "PT Java Volcano Rendezvous",
+              "mono": "Verify · ahu.go.id/pencarian/perseroan",
+              "href": "https://ahu.go.id/pencarian/perseroan"
+            },
+            {
+              "cred": "AHU · Company registry",
+              "details": "AHU-0023020",
+              "mono": "Verify · ahu.go.id company search",
+              "href": "https://ahu.go.id"
+            },
+            {
+              "cred": "NIB · Nomor Induk Berusaha",
+              "details": "1102230032918",
+              "mono": "Verify · oss.go.id (Online Single Submission)",
+              "href": "https://oss.go.id"
+            },
+            {
+              "cred": "TDUP · Tourism Business License",
+              "details": "1102230032918 · issued 2023-02-11",
+              "mono": "Dinas Pariwisata · Sistem Tanda Daftar OSS",
+              "href": null
+            }
+          ],
+          "kbliIntro": "Our registration covers the full chain of a real tour operation — booking, operating, and guiding — not a single generic code.",
+          "kbliList": [
+            {
+              "code": "79121",
+              "label": "Travel Agency (Agen Perjalanan Wisata)"
+            },
+            {
+              "code": "79911",
+              "label": "Tour Operator (Penyelenggara Wisata)"
+            },
+            {
+              "code": "79921",
+              "label": "Tour Guide activities (Pemanduan Wisata)"
+            },
+            {
+              "code": "79120",
+              "label": "Travel agency activities (related)"
+            },
+            {
+              "code": "62019",
+              "label": "Computer programming / IT services"
+            }
+          ],
+          "tourismSafetyIntro": "Holding a business license is the floor. Operating legally inside East Java's conservation areas — and putting credentialed guides on the trail — requires a further stack of authorizations.",
+          "tourismSafetyRows": [
+            {
+              "label": "HPWKI",
+              "monoLine": "AHU-0001072.AH.01.07.TAHUN 2024",
+              "segments": [
+                {
+                  "text": "Himpunan Pelaku Wisata Khusus Ijen — the state-recognized Ijen specialist guide association. Membership requires completion of BBKSDA-supervised volcanic safety training (SAR + emergency medical response)."
+                }
+              ]
+            },
+            {
+              "label": "BBKSDA clearance",
+              "monoLine": null,
+              "segments": [
+                {
+                  "text": "Operator authorization to run trips inside Bromo Tengger Semeru National Park and the Ijen conservation area. Issued by BBKSDA Jawa Timur ("
+                },
+                {
+                  "text": "bbksdajatim.org",
+                  "href": "https://bbksdajatim.org"
+                },
+                {
+                  "text": ")."
+                }
+              ]
+            },
+            {
+              "label": "ISIC",
+              "monoLine": "Provider ID 259268",
+              "segments": [
+                {
+                  "text": "· UNESCO-endorsed. Official ISIC provider — student-pricing eligibility verified in real time via the Alive Verify API."
+                }
+              ]
+            },
+            {
+              "label": "INDECON",
+              "monoLine": null,
+              "segments": [
+                {
+                  "text": "Live member of the Indonesian Ecotourism Network — validates the community-based \"Local Boys\" employment policy. "
+                },
+                {
+                  "text": "View listing",
+                  "href": "https://www.indecon.id/spotlight-networks/java-volcano-tour-operator"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            }
+          ],
+          "medicalIntro": "Because a health certificate is mandatory for every Ijen guest (BBKSDA SE.1658/KSA.9/2024), JVTO coordinates the clinic workflow with a named, licensed physician — not an in-house printout. The doctor behind every surat sehat is individually auditable.",
+          "medicalOfficer": {
+            "name": "Dr. Ahmad Irwandanu",
+            "desc": "Licensed Medical Doctor (Dokter Umum), SIP-credentialed. Registered with Kemenkes RI · SatuSehat SDMK · KKI.",
+            "lines": [
+              {
+                "label": "STR",
+                "text": "satusehat.kemkes.go.id",
+                "href": "https://satusehat.kemkes.go.id/sdmk/nakes/QN00001073380217"
+              },
+              {
+                "label": "KKI",
+                "text": "kki.go.id/cekdokter",
+                "href": "https://www.kki.go.id/cekdokter/form"
+              }
+            ]
+          },
+          "forensicIntro": "The source document for each credential is published with a SHA-256 hash in public/llms.txt on our website. A SHA-256 hash is a cryptographic fingerprint: if a single character of a document changes, the hash changes completely. You can compute the hash of any document we send you and confirm it matches — proof the file has not been altered, without us having to release the original.",
+          "whyIntro": "A credential is trustworthy in proportion to how expensive it is to fake. Each item above is a barrier to entry that an illegitimate operator cannot clear:",
+          "whyList": [
+            {
+              "strong": "NIB & TDUP",
+              "rest": " require a physical headquarters, tax compliance, and legal liability — ongoing commitments a ghost operator cannot sustain."
+            },
+            {
+              "strong": "HPWKI membership",
+              "rest": " requires government-supervised BBKSDA training. It cannot be purchased or self-issued."
+            },
+            {
+              "strong": "SHA-256 hashes",
+              "rest": " make every document tamper-evident — alteration is mathematically detectable."
+            }
+          ],
+          "whyOutro": "These are not marketing badges. They are the things that are hard to obtain and impossible to forge.",
+          "addressBeforeStrong": "JVTO has operated from the same Bondowoso address since before the company existed. Our office sits at ",
+          "addressStrong": "Jl. Khairil Anwar No.102 A, Badean, Bondowoso, Jawa Timur 68214",
+          "addressAfterStrong": " — the same address where the predecessor \"Ijen Bondowoso Homestay\" received its Booking.com Guest Review Award (9.4/10) in 2015. The award shipping label, addressed to \"Agung, Jl. Khairil Anwar No.102, Bondowoso,\" documents an unbroken operational presence from the guesthouse era through PT incorporation to today.",
+          "howToVerifySteps": [
+            {
+              "before": "Visit ",
+              "strong": "oss.go.id",
+              "after": " (Online Single Submission)."
+            },
+            {
+              "before": "Open the public NIB / business-name search.",
+              "strong": "",
+              "after": ""
+            },
+            {
+              "before": "Enter NIB ",
+              "strong": "1102230032918",
+              "after": " or \"PT Java Volcano Rendezvous\"."
+            },
+            {
+              "before": "Confirm the record shows JVTO at the Bondowoso domicile.",
+              "strong": "",
+              "after": ""
+            }
+          ],
+          "onRequestText": "Scans of the Akta Pendirian (Articles of Incorporation), the Kemenkumham (AHU) approval letter, the NIB certificate, and the TDUP can be requested directly via WhatsApp before booking — each matched to the SHA-256 hash above."
+        }
       }
     },
     "faq": {
