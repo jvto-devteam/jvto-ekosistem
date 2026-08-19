@@ -17,7 +17,7 @@
     "sync:booking:dry-run": "node scripts/sync-booking-data.mjs --dry-run",
     "sync:google-reviews": "node scripts/sync-google-reviews.mjs",
     "sync:google-reviews:dry-run": "node scripts/sync-google-reviews.mjs --dry-run",
-    "test:booking-sync": "node scripts/test/booking-sync/manifest.test.mjs && node scripts/test/booking-sync/fetch.test.mjs && node scripts/test/booking-sync/sync-booking-data.test.mjs",
+    "test:booking-sync": "node scripts/test/booking-sync/manifest.test.mjs && node scripts/test/booking-sync/fetch.test.mjs && node scripts/test/booking-sync/sync-booking-data.test.mjs && node scripts/test/booking-sync/generators/context.test.mjs && node scripts/test/booking-sync/run-generators.test.mjs",
     "test:schema": "node scripts/test/schema-contract.test.mjs && node scripts/test/validate-schema.test.mjs",
     "watch:web-content": "node scripts/watch-web-content-sources.mjs"
   },
