@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-19T03:08:24.059Z",
+  "generated_at": "2026-08-19T04:23:15.962Z",
   "route": "/verify-jvto/press-recognition",
   "domain": "verify-jvto",
   "slug": "press-recognition",
@@ -252,7 +252,43 @@
             "For the paywalled Radar Jember pieces, search the title on radarjember.jawapos.com.",
             "For ISIC and INDECON, search \"Java Volcano Tour Operator\" on each official site.",
             "For Stefan Loose, check ISBN 978-3-7701-7881-0, page 287."
-          ]
+          ],
+          "schemaFacts": {
+            "stefanLoose": {
+              "name": "Indonesien (Stefan Loose Reiseführer)",
+              "isbn": "978-3-7701-7881-0",
+              "publisherName": "DuMont Reiseverlag",
+              "publisherUrl": "https://www.stefanloose.de",
+              "datePublished": "2018",
+              "image": "https://javavolcano-touroperator.com/history/stefan_loose_crop_enh.jpg"
+            },
+            "detik2021": {
+              "headline": "Suka Duka Polisi Pariwisata Bondowoso: Tegakkan Prokes Sambil Lawan Dingin",
+              "datePublished": "2021-03-14",
+              "url": "https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin",
+              "publisherName": "Detik.com",
+              "publisherUrl": "https://www.detik.com",
+              "image": "https://javavolcano-touroperator.com/press/screencapture-news-detik-berita-jawa-timur-d-5492690-suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin-2026-01-14-02_48_41.png"
+            },
+            "radarjember2021": {
+              "headline": "Polpar Dibentuk untuk Mendukung Ijen Geopark",
+              "datePublished": "2021-03-24",
+              "url": "https://radarjember.jawapos.com/bondowoso/791102263/polpar-dibentuk-untuk-mendukung-ijen-geopark",
+              "publisherName": "Radar Jember (Jawa Pos)",
+              "publisherUrl": "https://radarjember.jawapos.com",
+              "image": "https://javavolcano-touroperator.com/press/screenshot-radarjember.jawapos.com-polpar-dibentuk-untuk-mendukung-ijen-geopark.png"
+            },
+            "bookingAward2015": {
+              "name": "Booking.com Guest Review Award 2015",
+              "description": "Guest Review Award with score 9.4 / 10 issued to the guesthouse operated at Jl. Khairil Anwar 102A, Bondowoso — pre-incorporation proof of JVTO operational roots.",
+              "recognizedByName": "Booking.com",
+              "recognizedByUrl": "https://www.booking.com",
+              "imagePlaque": "https://javavolcano-touroperator.com/history/booking-2015-plaque.jpg",
+              "imageShippingLabel": "https://javavolcano-touroperator.com/history/booking-2015-shipping-label.jpg",
+              "additionalPropertyValue": "Jl. Khairil Anwar 102A, Bondowoso",
+              "additionalPropertyDescription": "Original Booking.com award shipping label confirms delivery to Jl. Khairil Anwar 102A, Bondowoso — the same address registered under NIB 1102230032918 and current JVTO operational address. Establishes unbroken address continuity from 2015 guesthouse era to present."
+            }
+          }
         }
       }
     },

@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-19T03:08:24.059Z",
+  "generated_at": "2026-08-19T04:23:15.962Z",
   "route": "/verify-jvto/police-safety",
   "domain": "verify-jvto",
   "slug": "police-safety",
@@ -262,7 +262,21 @@
               "text": "."
             }
           ],
-          "whatWeWillNotDoText": "We will not stage uniformed photo opportunities, we will not exaggerate police involvement on individual tours, and we will not claim authority over locations where we do not coordinate. The line is honest; the operation behind it is honest too."
+          "whatWeWillNotDoText": "We will not stage uniformed photo opportunities, we will not exaggerate police involvement on individual tours, and we will not claim authority over locations where we do not coordinate. The line is honest; the operation behind it is honest too.",
+          "schemaFacts": {
+            "sprinPolpar": {
+              "name": "SPRIN-POLPAR (Tourist Police Assignment Letter)",
+              "url": "https://javavolcano-touroperator.com/legal/SPRIN-POLPAR.pdf",
+              "publisherName": "Indonesian National Police (POLRI)",
+              "publisherUrl": "https://polri.go.id"
+            },
+            "sprinWalTravel": {
+              "name": "SPRIN-WAL-TRAVEL (Active Travel Order, February 2024)",
+              "url": "https://javavolcano-touroperator.com/legal/SPRIN-WAL-TRAVEL-2024-02-12.webp",
+              "dateCreated": "2024-02-12",
+              "publisherName": "Indonesian National Police (POLRI)"
+            }
+          }
         }
       }
     },

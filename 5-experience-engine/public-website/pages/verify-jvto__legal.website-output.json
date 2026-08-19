@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-19T03:08:24.059Z",
+  "generated_at": "2026-08-19T04:23:15.962Z",
   "route": "/verify-jvto/legal",
   "domain": "verify-jvto",
   "slug": "legal",
@@ -345,7 +345,27 @@
               "hash": "2a60eb168274004283b2b9939ccbf5982c12a7db854fda014308a2494ee2abf4",
               "imagePath": "/press/screenshot-radarjember.jawapos.com-polpar-dibentuk-untuk-mendukung-ijen-geopark.png"
             }
-          ]
+          ],
+          "schemaFacts": {
+            "nibDocument": {
+              "name": "JVTO NIB Document (Nomor Induk Berusaha)",
+              "url": "https://javavolcano-touroperator.com/legal/NIB-1102230032918.pdf",
+              "publisherName": "OSS Indonesia (Online Single Submission)",
+              "publisherUrl": "https://oss.go.id"
+            },
+            "tdupDocument": {
+              "name": "JVTO TDUP Document (Tanda Daftar Usaha Pariwisata)",
+              "url": "https://javavolcano-touroperator.com/legal/TDUP-1102230032918.pdf",
+              "dateCreated": "2023-02-11",
+              "publisherName": "Kementerian Pariwisata dan Ekonomi Kreatif"
+            },
+            "hpwkiDocument": {
+              "name": "JVTO HPWKI Approval Document (Himpunan Pelaku Wisata Khusus Ijen)",
+              "url": "https://javavolcano-touroperator.com/legal/HPWKI-approval.pdf",
+              "publisherName": "HPWKI (BBKSDA Jawa Timur supervised)",
+              "publisherSameAs": "https://ahu.go.id/sabh/perkumpulan/qrcode/?kode=NjAyNDAxMjczNTEwMTM2MV8wXzA3IEZlYnJ1YXJpIDIwMjRfMjcgSmFudWFyeSAyMDI0"
+            }
+          }
         }
       }
     },
