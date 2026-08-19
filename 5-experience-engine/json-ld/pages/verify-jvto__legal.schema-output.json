@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-19T03:08:24.059Z",
+  "generated_at": "2026-08-19T05:12:29.033Z",
   "route": "/verify-jvto/legal",
   "domain": "verify-jvto",
   "slug": "legal",
@@ -67,7 +67,10 @@
             "parentOrganization": {
               "@id": "https://javavolcano-touroperator.com/entity/#org-bbksda-jatim",
               "@type": "GovernmentOrganization",
-              "name": "Balai Besar KSDA Jawa Timur (BBKSDA Jawa Timur)"
+              "name": "Balai Besar KSDA Jawa Timur (BBKSDA Jawa Timur)",
+              "sameAs": [
+                "https://bbksdajatim.org/"
+              ]
             },
             "description": "Ijen volcano guide association; members receive annual BBKSDA safety training on volcanic gas protocols."
           },
@@ -125,7 +128,11 @@
             "recognizedBy": {
               "@id": "https://javavolcano-touroperator.com/entity/#org-bkpm",
               "@type": "GovernmentOrganization",
-              "name": "Kementerian Investasi / BKPM Indonesia"
+              "name": "Kementerian Investasi / BKPM Indonesia",
+              "sameAs": [
+                "https://www.wikidata.org/wiki/Q106616407",
+                "https://www.bkpm.go.id/"
+              ]
             },
             "identifier": {
               "@type": "PropertyValue",
@@ -148,7 +155,11 @@
             "recognizedBy": {
               "@id": "https://javavolcano-touroperator.com/entity/#org-kemenparekraf",
               "@type": "GovernmentOrganization",
-              "name": "Kementerian Pariwisata dan Ekonomi Kreatif"
+              "name": "Kementerian Pariwisata dan Ekonomi Kreatif",
+              "sameAs": [
+                "https://www.wikidata.org/wiki/Q13092668",
+                "https://www.kemenparekraf.go.id/"
+              ]
             },
             "identifier": {
               "@type": "PropertyValue",

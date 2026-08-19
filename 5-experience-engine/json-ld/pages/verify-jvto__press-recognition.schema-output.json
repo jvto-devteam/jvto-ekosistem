@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-19T03:08:24.059Z",
+  "generated_at": "2026-08-19T05:12:29.033Z",
   "route": "/verify-jvto/press-recognition",
   "domain": "verify-jvto",
   "slug": "press-recognition",
@@ -76,7 +76,11 @@
             "publisher": {
               "@id": "https://javavolcano-touroperator.com/entity/#org-detikcom",
               "@type": "Organization",
-              "name": "Detik.com"
+              "name": "Detik.com",
+              "sameAs": [
+                "https://www.wikidata.org/wiki/Q12481355",
+                "https://www.detik.com/"
+              ]
             }
           },
           {
@@ -86,7 +90,10 @@
             "publisher": {
               "@id": "https://javavolcano-touroperator.com/entity/#org-radar-jember",
               "@type": "Organization",
-              "name": "Radar Jember / Jawa Pos"
+              "name": "Radar Jember / Jawa Pos",
+              "sameAs": [
+                "https://radarjember.jawapos.com/"
+              ]
             }
           },
           {
@@ -97,7 +104,10 @@
             "publisher": {
               "@id": "https://javavolcano-touroperator.com/entity/#org-dumont",
               "@type": "Organization",
-              "name": "DuMont Reiseverlag"
+              "name": "DuMont Reiseverlag",
+              "sameAs": [
+                "https://www.dumontreise.de/"
+              ]
             }
           }
         ],
