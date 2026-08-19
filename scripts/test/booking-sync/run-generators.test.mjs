@@ -29,7 +29,8 @@ async function withTempRoot(fn) {
 
     try {
       const result = await runGenerators({ archiveRoot });
-      assert.deepEqual(result.written, ["some/nested/dir/test-output.json"]);
+      assert.equal(result.written.length, originalLength + 1, "must write one output per registered generator, including any real ones already present");
+      assert.equal(result.written[result.written.length - 1], "some/nested/dir/test-output.json", "the temp test entry must be the last one written");
 
       const written = JSON.parse(await readFile(path.join(archiveRoot, "some/nested/dir/test-output.json"), "utf8"));
       assert.deepEqual(written, { count: 1 });

@@ -1,8 +1,11 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadGeneratorContext } from "./lib/booking-sync/generators/context.mjs";
+import { generateBookingRecords } from "./lib/booking-sync/generators/booking-records.mjs";
 
-export const GENERATORS = [];
+export const GENERATORS = [
+  { outputPath: "3-booking-and-journey-core/booking/booking-records.json", generate: generateBookingRecords },
+];
 
 export async function runGenerators({ archiveRoot = process.cwd() } = {}) {
   const context = await loadGeneratorContext({ archiveRoot });
