@@ -1079,8 +1079,8 @@
     "migration_note": "Full 1:1 field copy from the live Prisma row as part of the single-content-source (ekosistem-only) consolidation — every value verified against production, nothing rewritten or fabricated. Supersedes the older, thinner/divergent drafts previously sitting in this directory (destinations-master.json, and this file's own prior content if any) which were never actually wired into jvto-web."
   },
   "featured": false,
-  "meta_title_override": "Papuma Beach Jember — Coastal Tour, Rock Formations | JVTO",
-  "meta_description_override": "Papuma Beach Jember — dramatic rock formations and white sand coastline. Add-on to Bromo or Ijen private tours from Surabaya or Bali.",
+  "meta_title_override": "Papuma Beach (Pantai Papuma) — 86m Cliff Views | JVTO",
+  "meta_description_override": "Papuma Beach / Pantai Papuma: white sand cove below an 86m headland. Add it to your private Bromo or Ijen tour from Surabaya or Bali — JVTO.",
   "hub_region": "Jember",
   "hub_elevation_label": "~86 m cape",
   "hub_difficulty_label": "Coastal headland · Easy",
