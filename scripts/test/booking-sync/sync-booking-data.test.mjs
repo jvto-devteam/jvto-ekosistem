@@ -372,6 +372,84 @@ async function exists(filePath) {
   });
 }
 
+// I3 follow-up: a UTC month rollover moves the rolling two-month fetch window,
+// so the whole departing month legitimately leaves at once. That must NOT trip
+// the mass-removal guard, while a genuine degraded upstream still must.
+{
+  await withTempRoot(async (archiveRoot) => {
+    const detailsDir = path.join(archiveRoot, "archive/customer-portal-detail-snapshot/details");
+    const manifestPath = path.join(archiveRoot, "archive/booking-overview-snapshot/sync-manifest.json");
+    const reportPath = path.join(archiveRoot, "archive/booking-overview-snapshot/sync-report.json");
+    const record = (id) => ({ booking_id: id, customer_portal: `https://x/my-booking/slug-${id}` });
+
+    // Mid-August run: window is 2026-08 + 2026-09, five August bookings known.
+    await runSync({
+      now: new Date("2026-08-15T00:00:00Z"),
+      archiveRoot,
+      fetchBookingOverviewMonth: overviewStub({ "2026-08": [1, 2, 3, 4, 5].map(record) }),
+      fetchCustomerPortalDetail: async (slug) => stubDetail(slug),
+    });
+
+    assert.deepEqual(JSON.parse(await readFile(reportPath, "utf8")).months, ["2026-08", "2026-09"]);
+
+    // 1 September: window becomes 2026-09 + 2026-10. All five August bookings
+    // drop out of the window = 100% removed, far above the 30% threshold, and
+    // under the pre-fix guard this threw and deadlocked the pipeline for the
+    // whole month. It must now succeed.
+    const rollover = await runSync({
+      now: new Date("2026-09-01T00:00:00Z"),
+      archiveRoot,
+      fetchBookingOverviewMonth: overviewStub({ "2026-09": [6, 7, 8, 9, 10, 11].map(record) }),
+      fetchCustomerPortalDetail: async (slug) => stubDetail(slug),
+    });
+
+    assert.deepEqual(rollover.diff.removed, ["1", "2", "3", "4", "5"]);
+    assert.deepEqual(rollover.diff.added, ["6", "7", "8", "9", "10", "11"]);
+    assert.deepEqual(JSON.parse(await readFile(reportPath, "utf8")).months, ["2026-09", "2026-10"]);
+    assert.deepEqual(Object.keys(JSON.parse(await readFile(manifestPath, "utf8"))).sort(), [
+      "10",
+      "11",
+      "6",
+      "7",
+      "8",
+      "9",
+    ]);
+    assert.equal(await exists(path.join(detailsDir, "slug-1.raw.json")), false);
+    assert.equal(await exists(path.join(detailsDir, "slug-6.raw.json")), true);
+
+    // Mid-September, window unchanged at 2026-09 + 2026-10: a degraded upstream
+    // dropping 2 of 6 (33%) must still abort. The rollover fix must not have
+    // weakened the same-window case.
+    const stateBefore = await snapshotTree(archiveRoot);
+    await assert.rejects(
+      () =>
+        runSync({
+          now: new Date("2026-09-15T00:00:00Z"),
+          archiveRoot,
+          fetchBookingOverviewMonth: overviewStub({ "2026-09": [6, 7, 8, 9].map(record) }),
+          fetchCustomerPortalDetail: async (slug) => stubDetail(slug),
+        }),
+      /mass-removal threshold/
+    );
+    assert.deepEqual(await snapshotTree(archiveRoot), stateBefore);
+
+    // An empty window is never legitimate, so it must abort even when the window
+    // just shifted — otherwise the rollover exemption would be a hole big enough
+    // to wipe the whole archive.
+    await assert.rejects(
+      () =>
+        runSync({
+          now: new Date("2026-10-01T00:00:00Z"),
+          archiveRoot,
+          fetchBookingOverviewMonth: overviewStub({}),
+          fetchCustomerPortalDetail: async (slug) => stubDetail(slug),
+        }),
+      /returned zero bookings/
+    );
+    assert.deepEqual(await snapshotTree(archiveRoot), stateBefore);
+  });
+}
+
 // I5: a rotated slug must not leave orphaned customer PII behind.
 {
   await withTempRoot(async (archiveRoot) => {

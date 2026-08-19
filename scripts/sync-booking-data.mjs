@@ -56,24 +56,48 @@ export async function runSync({
   const records = [...merged.values()].sort((a, b) => a.booking_id - b.booking_id);
 
   const previousManifest = await readJsonIfExists(path.join(overviewDir, "sync-manifest.json"), {});
+  const previousReport = await readJsonIfExists(path.join(overviewDir, "sync-report.json"), null);
   const previousPortalManifest = await readJsonIfExists(path.join(portalDir, "fetch-manifest.json"), { results: [] });
   const previousBySlug = new Map(previousPortalManifest.results.map((r) => [r.slug, r]));
 
   const diff = diffManifest(previousManifest, records);
 
-  // Guard against a degraded upstream wiping the archive: if a large share of
-  // the previously known bookings vanished in one run, abort before fetching
-  // details or writing anything. Runs in dry-run too — surfacing this is
-  // exactly what a dry-run is for.
+  // The fetch window is a rolling two months, so at every UTC month rollover the
+  // whole departing month leaves the window at once — a legitimate, expected
+  // mass removal that must not be mistaken for a degraded upstream. Detect the
+  // shift by comparing this run's window against the window recorded by the
+  // previous run's sync-report.json (no new state file needed). A missing or
+  // malformed previous report is treated as "same window", i.e. fully guarded —
+  // failing loudly is the safe direction.
+  const fetchWindow = [currentMonth, nextMonth];
+  const previousWindow = Array.isArray(previousReport?.months) ? previousReport.months : null;
+  const windowShifted = previousWindow !== null && previousWindow.join(",") !== fetchWindow.join(",");
+
+  // Guard against a degraded upstream wiping the archive. Runs before any detail
+  // fetch and before any write, in dry-run too — surfacing this is exactly what
+  // a dry-run is for.
   const previousCount = Object.keys(previousManifest).length;
-  if (previousCount > 0 && diff.removed.length > previousCount * MASS_REMOVAL_THRESHOLD) {
+
+  // An empty two-month window while bookings were previously known is never
+  // legitimate — the new window still contains the month that was current last
+  // run — so this check applies even across a window shift.
+  if (previousCount > 0 && records.length === 0) {
+    throw new Error(
+      `booking-sync aborted: the booking-overview fetch for ${fetchWindow.join(" + ")} returned zero ` +
+        `bookings while ${previousCount} booking(s) were known from the previous run. An empty window ` +
+        `is never legitimate at this scale — this means an upstream outage, auth change, or ` +
+        `API/filter change. Nothing was fetched or written; re-run once the endpoint is healthy.`
+    );
+  }
+
+  if (previousCount > 0 && !windowShifted && diff.removed.length > previousCount * MASS_REMOVAL_THRESHOLD) {
     throw new Error(
       `booking-sync aborted: ${diff.removed.length} of ${previousCount} previously known booking(s) ` +
         `disappeared from this booking-overview fetch, above the ` +
-        `${Math.round(MASS_REMOVAL_THRESHOLD * 100)}% mass-removal threshold. ` +
-        `This almost certainly means an upstream outage, auth change, or API/filter change — ` +
-        `not that many real cancellations. Nothing was fetched or written; re-run once the ` +
-        `endpoint is healthy.`
+        `${Math.round(MASS_REMOVAL_THRESHOLD * 100)}% mass-removal threshold, with the fetch window ` +
+        `unchanged at ${fetchWindow.join(" + ")}. This almost certainly means an upstream outage, ` +
+        `auth change, or API/filter change — not that many real cancellations. Nothing was fetched ` +
+        `or written; re-run once the endpoint is healthy.`
     );
   }
 
@@ -93,7 +117,7 @@ export async function runSync({
 
   const report = {
     generatedAt: now.toISOString(),
-    months: [currentMonth, nextMonth],
+    months: fetchWindow,
     added: diff.added,
     removed: diff.removed,
     updated: diff.updated,
