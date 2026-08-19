@@ -84,9 +84,10 @@ function contextOf(...entries) {
   const r = result.records[0];
   // this file carries its privacy note per record (matching the original hand-written file), not on the wrapper
   assert.equal("privacy" in result, false);
+  // the note must also disclose the free-text activity field as a non-guaranteed-PII-free exception
   assert.equal(
     r.privacy,
-    "Customer name, customer id, portal slug, payment links, uploaded proofs, media URLs, and payment references are excluded from this active file.",
+    "Customer name, customer id, portal slug, payment links, uploaded proofs, media URLs, and payment references are excluded from this active file. Exception: the free-text itinerary activity field (itinerary_days[].activity_text) is operational text entered by ops staff and may contain coordination details such as passenger names or flight numbers/times; unlike the structured fields, it is not guaranteed to be PII-free.",
   );
   assert.equal(r.booking_id, 3453, "booking_id comes from source .id");
   assert.equal(r.booking_ref, "JVTO-3453", "booking_ref comes from source .booking_id");

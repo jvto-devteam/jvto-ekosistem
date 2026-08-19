@@ -114,4 +114,34 @@ const rawRecord = {
   assert.deepEqual(result.records.map((r) => r.bookingId), [2, 1], "must sort ascending by tripDate.start_ymd");
 }
 
+{
+  // A malformed record (missing/null `date`) must not throw in the sort comparator. A throw
+  // here aborts runGenerators after sync-booking-data.mjs has already written the archive but
+  // before anything is committed, so every subsequent scheduled run re-reads the same state
+  // and crashes identically — a permanent stall. Degenerate ordering is fine; throwing is not.
+  const nullDate = { ...rawRecord, booking_id: 10, date: null };
+  const missingDate = { ...rawRecord, booking_id: 11 };
+  delete missingDate.date;
+  const normalLate = { ...rawRecord, booking_id: 12, date: { ...rawRecord.date, start_ymd: "2026-09-01" } };
+  const normalEarly = { ...rawRecord, booking_id: 13, date: { ...rawRecord.date, start_ymd: "2026-08-01" } };
+
+  let result;
+  assert.doesNotThrow(() => {
+    result = generateBookingRecords({ overviewRecords: [normalLate, nullDate, normalEarly, missingDate] });
+  }, "a record without a usable tripDate.start_ymd must not throw");
+
+  assert.equal(result.records.length, 4);
+  assert.deepEqual(
+    result.records.map((r) => r.bookingId).slice(2),
+    [13, 12],
+    "well-formed records keep their ascending start_ymd order"
+  );
+  assert.deepEqual(
+    result.records.map((r) => r.bookingId).slice(0, 2).sort((x, y) => x - y),
+    [10, 11],
+    "records with no start_ymd sort to the front (empty string sorts first)"
+  );
+  assert.equal(result.records[0].tripDate ?? null, null);
+}
+
 console.log("booking-records.test.mjs: all assertions passed");

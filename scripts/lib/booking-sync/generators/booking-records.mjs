@@ -98,8 +98,15 @@ export function generateBookingRecords({ overviewRecords }) {
   const records = overviewRecords
     .map(toBookingRecord)
     .sort((a, b) => {
-      if (a.tripDate.start_ymd < b.tripDate.start_ymd) return -1;
-      if (a.tripDate.start_ymd > b.tripDate.start_ymd) return 1;
+      // Null-safe on purpose: a raw overview record missing `date`/`date.start_ymd` must not
+      // throw here. This sort runs inside `runGenerators`, which `sync-booking-data.mjs` calls
+      // AFTER all archive writes, so a throw aborts the run before anything is committed — the
+      // next scheduled run re-reads the same state and crashes identically, stalling the
+      // pipeline permanently. A malformed record sorting first is an acceptable degradation.
+      const aStart = a.tripDate?.start_ymd ?? "";
+      const bStart = b.tripDate?.start_ymd ?? "";
+      if (aStart < bStart) return -1;
+      if (aStart > bStart) return 1;
       return 0;
     });
   return { privacy: PRIVACY_NOTE, records };

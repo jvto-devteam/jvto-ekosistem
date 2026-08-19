@@ -8,8 +8,13 @@ import { toVehicles } from "./customer-portal-vehicle-records.mjs";
 
 const SCHEMA_VERSION = "jvto-experience-output/customer-portal-detail-records-v1";
 const SOURCE = "legacy customer portal details, sanitized from /bookings/details/{portal_slug}?json=true";
+// The caveat below is a documented, accepted residual risk: `itinerary_days[].activity_text`
+// is unstructured free text typed by ops staff and sometimes carries flight-coordination
+// details (passenger names, flight numbers/times). It is deliberately NOT scrubbed — any
+// text-matching heuristic would be unreliable and would mangle legitimate activity
+// descriptions — so the privacy note states the limit honestly instead of overclaiming.
 const PRIVACY_NOTE =
-  "Customer name, customer id, portal slug, payment links, uploaded proofs, media URLs, and payment references are excluded from this active file.";
+  "Customer name, customer id, portal slug, payment links, uploaded proofs, media URLs, and payment references are excluded from this active file. Exception: the free-text itinerary activity field (itinerary_days[].activity_text) is operational text entered by ops staff and may contain coordination details such as passenger names or flight numbers/times; unlike the structured fields, it is not guaranteed to be PII-free.";
 
 function portalRecordId(slug) {
   // one-way pseudonym: the raw portal slug is an access credential and is never stored

@@ -1,5 +1,16 @@
 const SCHEMA_VERSION = "jvto-product/customer-portal-itinerary-records-v1";
 
+// PRIVACY CAVEAT (accepted residual risk, documented deliberately):
+// `activity_text` is unstructured free text typed by ops staff. Some bookings carry
+// flight-coordination details in it, e.g. "Flight details: TR296 (0820hr SIN - 0950hr SUB)
+// x 1 (<passenger name>)" — i.e. passenger names and flight numbers/times. It is
+// deliberately NOT scrubbed: any text-matching heuristic would be unreliable and would
+// mangle legitimate activity descriptions. Unlike the structured fields, this field is not
+// guaranteed PII-free. Consumers of BOTH outputs built from this helper
+// (customer-portal-itinerary-records.json and customer-portal-detail-records.json) must
+// treat it accordingly; the repo storing these outputs is private, not public.
+// Note: this output intentionally carries no top-level `privacy` key (plan §4c: "do not add
+// one"), so the caveat is recorded here in source and in detail-records' PRIVACY_NOTE.
 export function toItineraryDays(itineraries) {
   return (itineraries ?? []).map((day) => ({
     day: day.day,
