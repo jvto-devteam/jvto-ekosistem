@@ -3610,5 +3610,82 @@
     "migration_note": "Full 1:1 field copy from the live Prisma row as part of the single-content-source (ekosistem-only) consolidation — every value verified against production, nothing rewritten or fabricated. Supersedes the older, thinner/divergent drafts previously sitting in this directory (destinations-master.json, and this file's own prior content if any) which were never actually wired into jvto-web."
   },
   "featured": true,
-  "hero_meta_line": "Blue Fire Crater · 2,386m · Pre-dawn hike"
+  "hero_meta_line": "Blue Fire Crater · 2,386m · Pre-dawn hike",
+  "meta_title_override": "Mount Ijen Blue Fire Tour Guide — Permits, Health, Hike | JVTO",
+  "meta_description_override": "Private Ijen blue fire hike from Surabaya or Bali. Gas mask, BBKSDA permit & health certificate coordinated. Tourist Police-led. 4.8★ Trustpilot.",
+  "hub_region": "Banyuwangi",
+  "hub_elevation_label": "2,386 m",
+  "hub_difficulty_label": "Active stratovolcano · Moderate–High",
+  "hub_chips": [
+    "Blue fire (weather permitting)",
+    "Acidic crater lake",
+    "Sulfur miners",
+    "Night hike"
+  ],
+  "hero_meta_override": {
+    "elevation": "2,386 m",
+    "viewpoint": "Crater rim · 2,386 m",
+    "fromSurabaya": "~5 hours",
+    "difficulty": "Moderate to Hard"
+  },
+  "travel_guide_link": {
+    "href": "/travel-guide/ijen-health-screening",
+    "label": "Ijen Health Screening"
+  },
+  "related_destinations": [
+    {
+      "slug": "mount-bromo",
+      "name": "Mount Bromo"
+    },
+    {
+      "slug": "tumpak-sewu-waterfall",
+      "name": "Tumpak Sewu Waterfall"
+    }
+  ],
+  "volcanic_vantage": {
+    "accessible": {
+      "title": "The rim and night hike typically proceed.",
+      "text": "The crater rim viewpoint and blue-fire observation point remain accessible during normal operations. The night hike proceeds during the dry season (April–October)."
+    },
+    "restricted": {
+      "title": "Crater floor access is regulated.",
+      "text": "Descending to the crater floor requires PVMBG clearance. JVTO guides assess on-site and update your itinerary if restrictions apply."
+    },
+    "planB": "JVTO holds BBKSDA park clearance for Ijen. If any restriction affects your route, your guide contacts you before the trek. The rim sunrise remains the primary experience."
+  },
+  "why_jvto_tiles": [
+    {
+      "title": "Police-led",
+      "desc": "Founder Mr. Sam (Bripka Agung Sambuko) is an active Ditpamobvit officer. Route decisions answer to police protocol, not marketing metrics.",
+      "meta": "Authority"
+    },
+    {
+      "title": "100% private",
+      "desc": "Your own vehicle, driver, and crew — no shared jeeps, no strangers, no compromise on timing or pace.",
+      "meta": "Private"
+    },
+    {
+      "title": "All-inclusive",
+      "desc": "Transport, entrance fees, accommodation, water, and T-shirt bundled. No surprise local payments on the day.",
+      "meta": "Written inclusions"
+    },
+    {
+      "title": "Verifiable",
+      "desc": "NIB 1102230032918 checkable at OSS. POLPAR, BBKSDA, and HPWKI credentials listed. Every document publicly verifiable before you pay.",
+      "meta": "Proof library"
+    }
+  ],
+  "inclusions": [
+    "Private AC transport (fuel, tolls, parking)",
+    "Dedicated driver and English-speaking guide",
+    "BBKSDA national-park entrance fees",
+    "Daily mineral water · JVTO T-shirt",
+    "Accommodation & breakfast (overnight packages)"
+  ],
+  "health_certificate_coordination": {
+    "heading": "Health Certificate Coordination",
+    "paragraph": "Ijen crater access can require a recent health certificate when BBKSDA SE.1658/KSA.9/2024 thresholds apply. JVTO coordinates the clinic workflow via Dr. Ahmad Irwandanu (SIP-licensed, Kemenkes RI) — the certificate carries a QR code verified at the crater access gate.",
+    "linkHref": "/travel-guide/ijen-health-screening",
+    "linkLabel": "How Ijen Health Screening Works →"
+  }
 }

@@ -56,7 +56,10 @@
       ],
       "lastReviewed": "2026-08-07",
       "owner": "destination-knowledge",
-      "reviewStatus": "domain-owner-assigned-by-audit"
+      "reviewStatus": "domain-owner-assigned-by-audit",
+      "pageContent": {
+        "transportNote": "Every destination on this list is reached by dedicated private vehicle — AC MPV for smaller groups, Toyota Hiace for larger ones. No public buses. No shared transfers."
+      }
     }
   },
   "faq": {

@@ -4286,5 +4286,77 @@
     "migration_note": "Full 1:1 field copy from the live Prisma row as part of the single-content-source (ekosistem-only) consolidation — every value verified against production, nothing rewritten or fabricated. Supersedes the older, thinner/divergent drafts previously sitting in this directory (destinations-master.json, and this file's own prior content if any) which were never actually wired into jvto-web."
   },
   "featured": true,
-  "hero_meta_line": "Penanjakan Sunrise · 2,329m · 4WD jeep"
+  "hero_meta_line": "Penanjakan Sunrise · 2,329m · 4WD jeep",
+  "meta_title_override": "Mount Bromo Sunrise Guide — Tours, Tickets & Tips | JVTO",
+  "meta_description_override": "Private Mount Bromo sunrise tour from Surabaya or Bali. Dedicated 4WD jeep, guide & driver, all entrance tickets. Tourist Police-led. 4.8★ Trustpilot.",
+  "hub_region": "Probolinggo",
+  "hub_elevation_label": "2,329 m",
+  "hub_difficulty_label": "Tengger caldera · Easy–Moderate",
+  "hub_chips": [
+    "Penanjakan sunrise",
+    "Sea of sand",
+    "4WD jeep traverse",
+    "Smoking crater"
+  ],
+  "hero_meta_override": {
+    "elevation": "2,329 m",
+    "viewpoint": "Penanjakan · 2,770 m",
+    "fromSurabaya": "~3 hours",
+    "difficulty": "Easy to Moderate"
+  },
+  "travel_guide_link": {
+    "href": "/travel-guide/packing-and-fitness",
+    "label": "Packing & Fitness"
+  },
+  "related_destinations": [
+    {
+      "slug": "ijen-crater",
+      "name": "Ijen Crater"
+    },
+    {
+      "slug": "tumpak-sewu-waterfall",
+      "name": "Tumpak Sewu Waterfall"
+    }
+  ],
+  "volcanic_vantage": {
+    "accessible": {
+      "title": "The core experience is unaffected.",
+      "text": "Penanjakan sunrise viewpoint (2,770 m), the sea-of-sand jeep traverse, and the Pura Luhur Poten temple area all sit outside the exclusion radius and remain open."
+    },
+    "restricted": {
+      "title": "The crater lip only.",
+      "text": "The final approach to the crater rim may fall within the exclusion zone during elevated status. JVTO will not take guests to the crater lip while restrictions are in effect."
+    },
+    "planB": "The Penanjakan sunrise, sea-of-sand crossing, and caldera-floor exploration are the primary experiences. Your guide confirms the adjusted itinerary before arrival. No day is lost."
+  },
+  "why_jvto_tiles": [
+    {
+      "title": "Police-led",
+      "desc": "Founder Mr. Sam (Bripka Agung Sambuko) is an active Ditpamobvit officer. Route decisions answer to police protocol, not marketing metrics.",
+      "meta": "Authority"
+    },
+    {
+      "title": "100% private",
+      "desc": "Your own vehicle, driver, and crew — no shared jeeps, no strangers, no compromise on timing or pace.",
+      "meta": "Private"
+    },
+    {
+      "title": "All-inclusive",
+      "desc": "Transport, entrance fees, accommodation, water, and T-shirt bundled. No surprise local payments on the day.",
+      "meta": "Written inclusions"
+    },
+    {
+      "title": "Verifiable",
+      "desc": "NIB 1102230032918 checkable at OSS. POLPAR, BBKSDA, and HPWKI credentials listed. Every document publicly verifiable before you pay.",
+      "meta": "Proof library"
+    }
+  ],
+  "inclusions": [
+    "Private AC transport (fuel, tolls, parking)",
+    "Dedicated driver and English-speaking guide",
+    "BBKSDA national-park entrance fees",
+    "Daily mineral water · JVTO T-shirt",
+    "Accommodation & breakfast (overnight packages)",
+    "Bromo 4WD private jeep"
+  ]
 }

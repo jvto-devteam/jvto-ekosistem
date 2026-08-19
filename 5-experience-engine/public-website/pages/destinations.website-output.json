@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-19T01:03:06.979Z",
+  "generated_at": "2026-08-19T03:08:24.059Z",
   "route": "/destinations",
   "domain": "destinations",
   "slug": "index",
@@ -43,7 +43,10 @@
         ],
         "lastReviewed": "2026-08-07",
         "owner": "destination-knowledge",
-        "reviewStatus": "domain-owner-assigned-by-audit"
+        "reviewStatus": "domain-owner-assigned-by-audit",
+        "pageContent": {
+          "transportNote": "Every destination on this list is reached by dedicated private vehicle — AC MPV for smaller groups, Toyota Hiace for larger ones. No public buses. No shared transfers."
+        }
       }
     },
     "faq": {

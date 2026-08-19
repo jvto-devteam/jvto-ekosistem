@@ -1078,5 +1078,51 @@
     "source": "jvto-web Prisma `destinations` table row (live production data, exported 2026-08-18)",
     "migration_note": "Full 1:1 field copy from the live Prisma row as part of the single-content-source (ekosistem-only) consolidation — every value verified against production, nothing rewritten or fabricated. Supersedes the older, thinner/divergent drafts previously sitting in this directory (destinations-master.json, and this file's own prior content if any) which were never actually wired into jvto-web."
   },
-  "featured": false
+  "featured": false,
+  "meta_title_override": "Papuma Beach Jember — Coastal Tour, Rock Formations | JVTO",
+  "meta_description_override": "Papuma Beach Jember — dramatic rock formations and white sand coastline. Add-on to Bromo or Ijen private tours from Surabaya or Bali.",
+  "hub_region": "Jember",
+  "hub_elevation_label": "~86 m cape",
+  "hub_difficulty_label": "Coastal headland · Easy",
+  "hub_chips": [
+    "White-sand beach",
+    "Cape headland",
+    "Offshore rock formations",
+    "Coastal contrast"
+  ],
+  "hero_meta_override": {
+    "elevation": "~86 m cape",
+    "viewpoint": "Coastal headland",
+    "fromSurabaya": "~4 hours",
+    "difficulty": "Easy"
+  },
+  "why_jvto_tiles": [
+    {
+      "title": "Police-led",
+      "desc": "Founder Mr. Sam (Bripka Agung Sambuko) is an active Ditpamobvit officer. Route decisions answer to police protocol, not marketing metrics.",
+      "meta": "Authority"
+    },
+    {
+      "title": "100% private",
+      "desc": "Your own vehicle, driver, and crew — no shared jeeps, no strangers, no compromise on timing or pace.",
+      "meta": "Private"
+    },
+    {
+      "title": "All-inclusive",
+      "desc": "Transport, entrance fees, accommodation, water, and T-shirt bundled. No surprise local payments on the day.",
+      "meta": "Written inclusions"
+    },
+    {
+      "title": "Verifiable",
+      "desc": "NIB 1102230032918 checkable at OSS. POLPAR, BBKSDA, and HPWKI credentials listed. Every document publicly verifiable before you pay.",
+      "meta": "Proof library"
+    }
+  ],
+  "inclusions": [
+    "Private AC transport (fuel, tolls, parking)",
+    "Dedicated driver and English-speaking guide",
+    "BBKSDA national-park entrance fees",
+    "Daily mineral water · JVTO T-shirt",
+    "Accommodation & breakfast (overnight packages)"
+  ]
 }

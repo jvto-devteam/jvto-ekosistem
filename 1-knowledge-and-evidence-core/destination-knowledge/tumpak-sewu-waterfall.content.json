@@ -862,5 +862,65 @@
     "migration_note": "Full 1:1 field copy from the live Prisma row as part of the single-content-source (ekosistem-only) consolidation — every value verified against production, nothing rewritten or fabricated. Supersedes the older, thinner/divergent drafts previously sitting in this directory (destinations-master.json, and this file's own prior content if any) which were never actually wired into jvto-web."
   },
   "featured": true,
-  "hero_meta_line": "Curtain Waterfall · ~120m · Canyon descent"
+  "hero_meta_line": "Curtain Waterfall · ~120m · Canyon descent",
+  "meta_title_override": "Tumpak Sewu Waterfall — Tour, Trail & Tips | JVTO",
+  "meta_description_override": "Private Tumpak Sewu waterfall tour — jungle trail, canyon descent, all-inclusive. Combinable with Bromo & Ijen. Tourist Police-led. 4.8★ Trustpilot.",
+  "hub_region": "Lumajang",
+  "hub_elevation_label": "~120 m",
+  "hub_difficulty_label": "Multi-tiered curtain · Moderate",
+  "hub_chips": [
+    "Java's Niagara",
+    "Rim viewpoint",
+    "Canyon descent",
+    "Fitness-assessed"
+  ],
+  "hero_meta_override": {
+    "elevation": "~120 m waterfall",
+    "viewpoint": "Canyon rim viewpoint",
+    "fromSurabaya": "~4 hours",
+    "difficulty": "Moderate to Hard"
+  },
+  "travel_guide_link": {
+    "href": "/travel-guide/packing-and-fitness",
+    "label": "Packing & Fitness"
+  },
+  "related_destinations": [
+    {
+      "slug": "ijen-crater",
+      "name": "Ijen Crater"
+    },
+    {
+      "slug": "mount-bromo",
+      "name": "Mount Bromo"
+    }
+  ],
+  "why_jvto_tiles": [
+    {
+      "title": "Police-led",
+      "desc": "Founder Mr. Sam (Bripka Agung Sambuko) is an active Ditpamobvit officer. Route decisions answer to police protocol, not marketing metrics.",
+      "meta": "Authority"
+    },
+    {
+      "title": "100% private",
+      "desc": "Your own vehicle, driver, and crew — no shared jeeps, no strangers, no compromise on timing or pace.",
+      "meta": "Private"
+    },
+    {
+      "title": "All-inclusive",
+      "desc": "Transport, entrance fees, accommodation, water, and T-shirt bundled. No surprise local payments on the day.",
+      "meta": "Written inclusions"
+    },
+    {
+      "title": "Verifiable",
+      "desc": "NIB 1102230032918 checkable at OSS. POLPAR, BBKSDA, and HPWKI credentials listed. Every document publicly verifiable before you pay.",
+      "meta": "Proof library"
+    }
+  ],
+  "inclusions": [
+    "Private AC transport (fuel, tolls, parking)",
+    "Dedicated driver and English-speaking guide",
+    "BBKSDA national-park entrance fees",
+    "Daily mineral water · JVTO T-shirt",
+    "Accommodation & breakfast (overnight packages)"
+  ]
 }
