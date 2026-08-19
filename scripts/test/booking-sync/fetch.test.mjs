@@ -54,4 +54,16 @@ function fakeResponse({ ok = true, status = 200, statusText = "OK", headers = {}
   assert.equal(result.slug, "missing-slug");
 }
 
+{
+  const fetchImpl = async () => fakeResponse({
+    headers: { "content-type": "application/json", "set-cookie": "laravel_session=abc123; HttpOnly" },
+    body: [{ booking_id: 2 }]
+  });
+  const result = await fetchBookingOverviewMonth("2026-08", { fetchImpl });
+  assert.deepEqual(result.records, [{ booking_id: 2 }]);
+  assert(!result.headers.includes("set-cookie"), "set-cookie should be filtered out");
+  assert(!result.headers.includes("laravel_session"), "session cookie value should not appear in headers");
+  assert(result.headers.includes("content-type: application/json"), "other headers should be preserved");
+}
+
 console.log("fetch.test.mjs: all assertions passed");

@@ -8,7 +8,10 @@ export async function fetchBookingOverviewMonth(month, { fetchImpl = fetch } = {
     throw new Error(`fetchBookingOverviewMonth: ${response.status} ${response.statusText} for month=${month}`);
   }
   const records = await response.json();
-  const headers = [...response.headers.entries()].map(([key, value]) => `${key}: ${value}`).join("\n");
+  const headers = [...response.headers.entries()]
+    .filter(([key]) => key.toLowerCase() !== "set-cookie")
+    .map(([key, value]) => `${key}: ${value}`)
+    .join("\n");
   return { records, headers };
 }
 
