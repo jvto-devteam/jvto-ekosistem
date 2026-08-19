@@ -5,7 +5,7 @@ Status: approved, ready for implementation plan
 
 ## Goal
 
-Booking data di ekosistem ini (`archive/` raw snapshot + 29 file turunan yang
+Booking data di ekosistem ini (`archive/` raw snapshot + 24 file turunan (revisi, lihat bagian Generator layer) yang
 tersebar di `2-product-and-commercial-core/`, `3-booking-and-journey-core/`,
 `4-operations-core/`, `5-experience-engine/`) sekarang statis — di-fetch dan
 ditulis manual, terakhir 2026-08-07. Tujuan pipeline ini: booking data selalu
@@ -58,61 +58,135 @@ Tidak ada folder raw baru untuk expense — expense tetap langsung ke
 pernah punya raw archive terpisah untuk expense sebelumnya dan tidak ada yang
 bergantung padanya.
 
-## Generator layer (29 file turunan, physical JSON, auto-regenerate + commit)
+## Generator layer (revisi 2026-08-19 sore, setelah riset field-mapping)
 
-25 generator murni (baca raw archive saja):
+Setelah riset detail (baca isi asli tiap file + trace field-by-field ke raw
+archive), scope generator layer berubah dari rencana awal. Bagian di bawah
+ini menggantikan draft awal.
 
+### 24 generator murni yang bisa dibangun, dengan dependency graph
+
+Bukan 25 fungsi independen — ada 3 tingkat, harus di-generate berurutan:
+
+**Tier A — langsung dari raw archive (7 file, tidak saling bergantung):**
 ```
-3-booking-and-journey-core/booking/booking-records.json
-3-booking-and-journey-core/booking/booking-summary.json
+3-booking-and-journey-core/booking/booking-records.json          [FOUNDATION — tier B bergantung ke ini]
 3-booking-and-journey-core/booking/customer-portal-booking-details.json
-3-booking-and-journey-core/booking/package-usage-summary.json
-3-booking-and-journey-core/booking/product-reconciliation.json
-3-booking-and-journey-core/payments/payment-summary.json
-3-booking-and-journey-core/travelers/country-pax-summary.json
-3-booking-and-journey-core/pickup-and-dropoff/pickup-dropoff-records.json
 3-booking-and-journey-core/pickup-and-dropoff/customer-portal-logistics.json
-3-booking-and-journey-core/health-requirements/ijen-health-requirements-by-booking.json
 2-product-and-commercial-core/routes-and-itineraries/customer-portal-itinerary-records.json
 4-operations-core/hotel-and-partner-confirmation/customer-portal-accommodation-records.json
-4-operations-core/hotel-and-partner-confirmation/hotel-confirmation-records.json
 4-operations-core/crew-assignment/customer-portal-crew-records.json
-4-operations-core/crew-assignment/crew-roster-from-bookings.json
-4-operations-core/crew-assignment/crew-assignment-records.json
 4-operations-core/vehicle-assignment/customer-portal-vehicle-records.json
-4-operations-core/trip-readiness/booking-readiness-records.json
-4-operations-core/trip-readiness/booking-readiness-gap-report.json
 5-experience-engine/guest-portal/customer-portal-detail-records.json
 5-experience-engine/guest-portal/guest-portal-records.json
 5-experience-engine/knowledge-feed/customer-portal-faq-packing-feed.json
-5-experience-engine/analytics/booking-channel-payment-readiness-summary.json
-5-experience-engine/analytics/profitability-summary.json
-4-operations-core/expense-management/booking-expense-records.json
+```
+(10 file — semua baca `archive/customer-portal-detail-snapshot/details/*.raw.json`
+langsung, kecuali `booking-records.json` dan `guest-portal-records.json` yang
+baca `archive/booking-overview-snapshot/booking-overview.raw.json` langsung.)
+
+**Tier B — bergantung ke `booking-records.json` (11 file, generate setelah Tier A):**
+```
+3-booking-and-journey-core/booking/booking-summary.json
+3-booking-and-journey-core/booking/package-usage-summary.json
+3-booking-and-journey-core/payments/payment-summary.json
+3-booking-and-journey-core/travelers/country-pax-summary.json
+3-booking-and-journey-core/pickup-and-dropoff/pickup-dropoff-records.json
+3-booking-and-journey-core/health-requirements/ijen-health-requirements-by-booking.json
+4-operations-core/hotel-and-partner-confirmation/hotel-confirmation-records.json
+4-operations-core/crew-assignment/crew-roster-from-bookings.json
+4-operations-core/crew-assignment/crew-assignment-records.json
+4-operations-core/trip-readiness/booking-readiness-records.json
+4-operations-core/trip-readiness/booking-readiness-gap-report.json
 ```
 
-(Catatan: 24 di atas + `booking-expense-records.json` = 25.)
+**Tier C — bergantung ke output Tier B/lain (2 file):**
+```
+5-experience-engine/analytics/booking-channel-payment-readiness-summary.json
+  (bisa juga dihitung langsung dari raw archive, tapi source_refs asli menunjuk ke
+   beberapa file Tier B — ikuti pola itu)
+5-experience-engine/analytics/profitability-summary.json
+  (bergantung ke booking-expense-records.json, lihat di bawah)
+```
 
-4 generator dengan join ke master data lokal (sudah ada di repo, tidak perlu
-fetch baru — hanya dibaca saat generate):
+**Tier D — perlu fetch live baru yang belum ada (1 file):**
+```
+4-operations-core/expense-management/booking-expense-records.json
+```
+Field identitas & `overviewExpenseTotal`/`overviewCrewExpense`/`overviewDebtExpense`/
+`profit`/`plotting` bisa dihitung dari `booking-overview.raw.json` saja (tidak perlu
+fetch baru). Tapi `lineItems[]`, `totalsByCategory`, `detailLineTotal`,
+`detailDebtLineTotal`, `overviewVsDetailDelta` **hanya** bisa didapat dari live call
+`GET .../finance/expense-manager/{bookingId}/internal/api` (endpoint publik #3,
+sudah diverifikasi bisa diakses langsung sejak awal spec ini) — sync engine yang
+sudah dibangun (Plan 1) sengaja tidak fetch endpoint ini. Perlu ditambahkan:
+`fetchExpenseRecord(bookingId)` baru di `scripts/lib/booking-sync/fetch.mjs`, dan
+generator ini yang memanggilnya per-booking saat generate (bukan di-archive
+terpisah — sesuai keputusan awal, tidak ada folder raw baru untuk expense).
+Endpoint ini tidak archived, jadi harus siap partial-failure per booking (field
+`errors[]`/`summary.errorCount` di file ini sudah didesain untuk itu).
+
+### 5 file yang TIDAK bisa/tidak akan di-generate otomatis (revisi dari rencana awal)
+
+Rencana awal bilang "4 generator dengan join ke master data lokal". Riset
+membuktikan itu salah — keempatnya bukan fungsi murni dari booking data:
 
 ```
 3-booking-and-journey-core/pickup-and-dropoff/pickup-contexts.json
-  join -> archive/itinerary-intelligence-snapshot/generated/itinerary-intelligence/01-pickup-contexts.json
+  BLOCKED: bergantung ke seed/manual-overrides/pickup-dropoff.yaml yang TIDAK ADA
+  di repo. Sub-field `backoffice_observed`-nya juga sudah basi (rujuk package_id
+  47 yang sudah tidak ada di raw archive sekarang).
 3-booking-and-journey-core/pickup-and-dropoff/dropoff-contexts.json
-  join -> archive/itinerary-intelligence-snapshot/generated/itinerary-intelligence/ (dropoff family)
+  BLOCKED: sama persis (seed YAML yang sama, backoffice_observed basi juga).
 4-operations-core/vehicle-assignment/vehicle-plans.json
-  join -> 4-operations-core/vehicle-assignment/transport-master.json
+  SALAH JOIN TARGET: sumber aslinya archive/jvto-web-main-snapshot/publicContent-
+  generated/packageDetailSnapshots.json (dedup vehiclePlan per package), BUKAN
+  transport-master.json — tidak ada hubungan ke booking data sama sekali.
 4-operations-core/trip-readiness/operational-context-index.json
-  join -> archive/itinerary-intelligence-snapshot/generated/itinerary-intelligence/operational-context-index.json
+  BLOCKED: passthrough murni dari proses resolusi eksternal ("Phase 5") di repo
+  jvto-web yang tidak ada script/rules-nya di sini. Tidak ada booking data yang
+  masuk sama sekali, bahkan tidak ada backoffice_observed-style layer.
 ```
 
-Di luar scope (bukan data booking, dokumen statis, tetap manual seperti
-sekarang):
+Ditambah 1 file yang ternyata cuma **sebagian** bisa di-generate:
+
+```
+3-booking-and-journey-core/booking/product-reconciliation.json
+  PARTIAL: daftar package_id kandidat "channel-specific" (single-channel non-JVTO)
+  memang bisa dihitung otomatis (cross-tab package_id x orderChannel), tapi label
+  klasifikasi ("confirmed" vs "needs confirmation") dan narrative text
+  (decisionStatus/recommendedNextStep/note) adalah keputusan manual manusia yang
+  tidak ada sinyal datanya. Keputusan: file ini TIDAK di-generate otomatis —
+  masuk kategori "manual" seperti payment-methods.json, bukan generator.
+```
+
+Total generator otomatis: **24 file** (10 Tier A + 11 Tier B + 2 Tier C +
+1 Tier D), bukan 29.
+
+Di luar scope (bukan data booking / tidak deterministik / butuh input yang
+tidak ada di repo, tetap manual seperti sekarang):
 
 ```
 3-booking-and-journey-core/payments/payment-methods.json
 3-booking-and-journey-core/pickup-and-dropoff/my-booking-portal-fields.json
+3-booking-and-journey-core/booking/product-reconciliation.json
+3-booking-and-journey-core/pickup-and-dropoff/pickup-contexts.json
+3-booking-and-journey-core/pickup-and-dropoff/dropoff-contexts.json
+4-operations-core/vehicle-assignment/vehicle-plans.json
+4-operations-core/trip-readiness/operational-context-index.json
 ```
+
+### Scoping: cakupan booking mana yang di-generate
+
+File-file lama (2026-08-07) di-filter ke "booking bulan Agustus 2026 yang sudah
+ada saat itu" (74 dari yang sekarang 136). Itu bukan aturan yang disengaja,
+cuma kebetulan itu isi raw archive saat itu. Keputusan untuk generator baru:
+**generate dari SEMUA booking yang ada di raw archive saat ini** (tidak ada
+filter tanggal tambahan) — konsisten dengan tujuan "selalu up to date", dan
+raw archive sendiri sudah dibatasi ke bulan berjalan+berikutnya oleh sync
+engine (Plan 1). Konsekuensinya: output generator akan terlihat sangat
+berbeda dari versi lama (136 record vs 74, Agustus+September vs cuma
+Agustus) — ini yang diharapkan/benar, bukan bug.
 
 ## Architecture
 
@@ -138,7 +212,7 @@ sekarang):
     3. untuk added+updated: fetch customer-portal-detail (by slug) + expense (by bookingId)
     4. untuk removed: hapus archive/customer-portal-detail-snapshot/details/{slug}.raw.json
     5. tulis archive/ (raw + sync-manifest.json + sync-report.json)
-    6. jalankan 29 generator -> tulis ulang 29 file turunan dari raw archive terbaru
+    6. jalankan 24 generator (urut per tier, lihat Generator layer) -> tulis ulang file turunan dari raw archive terbaru
     7. jika ada perubahan nyata di working tree -> git commit + push ke main
        jika tidak ada perubahan -> skip commit (tidak ada commit kosong)
 ```
@@ -191,7 +265,7 @@ Ini murni tambahan (additive) — behavior untuk semua path lain tidak berubah.
 scripts/sync-booking-data.mjs              # entrypoint: fetch + diff + archive + panggil semua generator
 scripts/lib/booking-sync/fetch.mjs         # 3 fungsi fetch (booking-overview, customer-portal-detail, expense)
 scripts/lib/booking-sync/manifest.mjs      # hash + diff logic (added/removed/updated)
-scripts/lib/booking-sync/generators/*.mjs  # 29 modul generator, 1 file = 1 fungsi = 1 output
+scripts/lib/booking-sync/generators/*.mjs  # 24 modul generator (Tier A/B/C/D), 1 file = 1 fungsi = 1 output
 ```
 
 `package.json` — tambah script:
@@ -234,7 +308,7 @@ tercermin near-real-time, bukan menunggu review manual.
 
 Begitu pipeline ini live, `archive/**` (booking-overview + customer-portal
 detail) di-refresh otomatis tiap ada event booking dan minimal tiap 6 jam lewat
-cron. Sementara itu, 29 file turunan yang didaftarkan di bagian "Generator
+cron. Sementara itu, 24 file turunan yang didaftarkan di bagian "Generator
 layer" di atas **tetap beku** pada snapshot terakhir kali file-file itu
 di-generate (2026-08-07), sampai plan generator-layer yang terpisah itu
 dikerjakan dan di-ship.
@@ -251,6 +325,6 @@ pakai `archive/**` langsung.
   insert/update/delete) — dikerjakan terpisah oleh pemilik repo
   legacy/new-backoffice, di luar repo ini.
 - Optimisasi "skip file turunan yang tidak terpengaruh perubahan" (regenerate
-  parsial, bukan semua 25/29 generator tiap run) — tidak masuk versi
+  parsial, bukan semua Tier A/B/C/D generator tiap run) — tidak masuk versi
   pertama; regenerate semua generator tiap ada perubahan sudah cukup cepat
   untuk skala data ini (~74 booking/bulan).
