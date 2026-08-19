@@ -275,7 +275,22 @@
       ],
       "lastReviewed": "2026-08-07",
       "owner": "narrative-claims",
-      "reviewStatus": "domain-owner-assigned-by-audit"
+      "reviewStatus": "domain-owner-assigned-by-audit",
+      "pageContent": {
+        "leadershipCard": {
+          "badge": "Founder · Active Tourist Police",
+          "name": "Agung “Mr. Sam” Sambuko",
+          "descBefore": "Active officer in Ditpamobvit — the National Police directorate for security at vital tourist objects, including Ijen Crater. The operational authority behind every route decision and safety call. Police status independently documented in three press articles and SPRIN documents on file.",
+          "descAfter": "No other East Java volcano operator is led by an active Tourist Police officer."
+        },
+        "medicalCard": {
+          "badge": "Medical Officer · Ijen Screening",
+          "name": "Dr. Ahmad Irwandanu",
+          "desc": "Holds a valid SIP (Surat Izin Praktik) issued by Kemenkes RI. When BBKSDA rules require a health certificate for crater access, he issues the QR-verified surat sehat scannable at the gate. Based in Bondowoso, East Java.",
+          "linkText": "Verify SIP at SatuSehat SDMK →",
+          "linkHref": "https://satusehat.kemkes.go.id/sdmk/nakes/QN00001073380217"
+        }
+      }
     }
   },
   "faq": {

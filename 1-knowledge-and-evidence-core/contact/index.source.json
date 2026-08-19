@@ -23,7 +23,9 @@
     "title": "Contact JVTO Tours | Plan Your East Java Adventure",
     "description": "Get in touch with our expert team to plan your private, all-inclusive tour of Mount Bromo, Ijen, and more. We're here to help you 24/7.",
     "canonicalRoute": "/contact",
-    "schemaTypes": ["WebPage"]
+    "schemaTypes": [
+      "WebPage"
+    ]
   },
   "content": {
     "format": "json",
@@ -33,10 +35,27 @@
       ],
       "lastReviewed": "2026-08-18",
       "owner": "editorial",
-      "reviewStatus": "migrated-from-jvto-web-inline-snapshot"
+      "reviewStatus": "migrated-from-jvto-web-inline-snapshot",
+      "pageContent": {
+        "getInTouchHeading": "Get in Touch",
+        "getInTouchIntro": "Have questions about our packages or need a custom itinerary? We are ready to assist you.",
+        "officeLabel": "Our Office",
+        "officeAddress": "Jl. Khairil Anwar No.102 A, Badean, Kec. Bondowoso, Kabupaten Bondowoso, Jawa Timur 68214, Indonesia",
+        "officeHours": "Hours: 08:00 - 22:00 WIB (GMT+7)",
+        "phoneLabel": "Phone & WhatsApp",
+        "whatsapp": "+62 822 4478 8833",
+        "phoneHours": "Available 08:00 - 22:00 WIB",
+        "emailLabel": "Email",
+        "email": "hello@javavolcano-touroperator.com",
+        "emailNote": "We generally reply within a few business hours."
+      }
     }
   },
-  "output_targets": ["public_website", "json_ld", "knowledge_feed"],
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
   "source_trace": {
     "generated_at": "2026-08-18T00:00:00.000Z",
     "source_files": [

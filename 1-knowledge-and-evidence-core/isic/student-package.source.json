@@ -23,7 +23,9 @@
     "title": "Explore Java's Volcanoes with ISIC Benefits | JVTO",
     "description": "Exclusive student deals for ISIC cardholders on safe, all-inclusive volcano tours in East Java with Java Volcano Tour Operator.",
     "canonicalRoute": "/isic/student-package",
-    "schemaTypes": ["WebPage"]
+    "schemaTypes": [
+      "WebPage"
+    ]
   },
   "content": {
     "format": "json",
@@ -33,10 +35,59 @@
       ],
       "lastReviewed": "2026-08-18",
       "owner": "editorial",
-      "reviewStatus": "migrated-from-jvto-web-inline-fallback"
+      "reviewStatus": "migrated-from-jvto-web-inline-fallback",
+      "pageContent": {
+        "packagesHeading": "Exclusive Student Package for ISIC Cardholders",
+        "packagesIntro": "JVTO collaborates with ISIC to offer student-friendly pricing structures for safe, all-inclusive volcano tours. These prices are only available to ISIC cardholders. To redeem, you must have a valid ISIC card.",
+        "noPackagesText": "No packages currently available.",
+        "whatIsHeadingBefore": "What is ",
+        "whatIsHeadingStrong": "Student Package?",
+        "whatIsIntroBefore": "Opting for a student package does ",
+        "whatIsIntroStrong": "not",
+        "whatIsIntroAfter": " mean cutting corners. It's designed for students travelling in small groups, offering a fairer pricing structure while maintaining our high standards.",
+        "features": [
+          {
+            "title": "Private Structure",
+            "desc": "Strictly private tour structure. No mixed groups."
+          },
+          {
+            "title": "All-Inclusive",
+            "desc": "Includes park fees, permits, and transport."
+          },
+          {
+            "title": "High Safety",
+            "desc": "Same high safety standards, including health screening."
+          }
+        ],
+        "needCardHeading": "Need an ISIC Card?",
+        "needCardIntro": "The International Student Identity Card (ISIC) is the only globally recognized proof of full-time student status. Get yours today to unlock thousands of benefits!",
+        "buyNowText": "BUY NOW",
+        "howToApplyHeading": "How to Apply the ISIC Code",
+        "steps": [
+          {
+            "number": "1",
+            "title": "Choose Your Adventure",
+            "text": "Visit our website and select the volunteer or tour package you wish to book. Click on the \"Book Now\" button."
+          },
+          {
+            "number": "2",
+            "title": "Fill in Your Details",
+            "text": "Complete the booking form with your personal details. In the \"Discount Code\" field, enter your unique ISIC code."
+          },
+          {
+            "number": "3",
+            "title": "Apply & Verify",
+            "text": "Click \"Apply\". The discount will be calculated. Proceed with your booking. We may ask to verify your ISIC card upon arrival."
+          }
+        ]
+      }
     }
   },
-  "output_targets": ["public_website", "json_ld", "knowledge_feed"],
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
   "source_trace": {
     "generated_at": "2026-08-18T00:00:00.000Z",
     "source_files": [

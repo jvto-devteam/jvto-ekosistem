@@ -89,7 +89,41 @@
       ],
       "lastReviewed": "2026-08-07",
       "owner": "narrative-claims",
-      "reviewStatus": "domain-owner-assigned-by-audit"
+      "reviewStatus": "domain-owner-assigned-by-audit",
+      "pageContent": {
+        "reviewThemes": [
+          {
+            "themeId": "T1",
+            "theme": "Private tour quality",
+            "pattern": "Guests repeatedly mention the value of having dedicated private guides and vehicles — no rush, no compromises.",
+            "claimLinkage": "C2"
+          },
+          {
+            "themeId": "T2",
+            "theme": "Guide knowledge and English communication",
+            "pattern": "Reviews frequently highlight English-speaking ability and route-specific knowledge of guides.",
+            "claimLinkage": "C7"
+          },
+          {
+            "themeId": "T3",
+            "theme": "Ijen Blue Fire experience quality",
+            "pattern": "Reviews from Ijen-route guests reference the Blue Fire experience and the health screening coordination.",
+            "claimLinkage": "C4"
+          },
+          {
+            "themeId": "T4",
+            "theme": "Safety and trust",
+            "pattern": "Guests mention feeling safe, well-informed, and prepared — often referencing the founder's police background.",
+            "claimLinkage": "C1"
+          },
+          {
+            "themeId": "T5",
+            "theme": "All-inclusive clarity and no surprises",
+            "pattern": "Guests note that everything was included as described — no unexpected costs or negotiations.",
+            "claimLinkage": "C3"
+          }
+        ]
+      }
     }
   },
   "faq": {
