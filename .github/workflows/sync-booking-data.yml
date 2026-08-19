@@ -4,7 +4,8 @@ on:
   repository_dispatch:
     types: [booking-changed]
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */6 * * *'   # every 6 hours, fallback in case webhooks are missed
+    - cron: '0 1 * * *'     # 08:00 WIB daily — guaranteed morning check, independent of the above
   workflow_dispatch:
 
 concurrency:
