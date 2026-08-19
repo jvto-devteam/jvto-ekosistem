@@ -51,7 +51,67 @@
         "summary": "Navigation hub for the JVTO policy documents: privacy, booking/payment/cancellation, and inclusions/exclusions.",
         "answerFirst": "JVTO policy pages define the booking, payment, cancellation, inclusions, exclusions and privacy rules that apply before a private tour is confirmed. The binding order starts with the official e-voucher or invoice PDF, then the published policy pages, then supporting travel-guide guidance for operational details."
       },
-      "body_md": "\n## Read the Rulebook Before You Book.\n\nJVTO publishes its booking, payment, cancellation, inclusions, and privacy terms in full — so you know exactly what you are buying, what the rules are if plans change, and how your data is handled, before you confirm anything.\n\n---\n\n## Policies\n\n### Booking, Payment & Cancellation\n\nCovers how to book with JVTO, deposit and balance payment requirements, deadlines, approved payment methods, the 48-hour cancellation cut-off, Package Credit terms, and what happens if JVTO cancels due to force majeure.\n\n[Read Booking, Payment & Cancellation Policy →](/policy/booking-payment-cancellation/)\n\n---\n\n### Inclusions & Exclusions\n\nDefines exactly what is and is not included in a confirmed JVTO private tour package — transport, accommodation, crew, entrance tickets, safety gear, meals, and the write-it-to-bind-it rule that governs all contractual inclusions.\n\n[Read Inclusions & Exclusions Policy →](/policy/inclusions-exclusions/)\n\n---\n\n### Privacy & Data Protection\n\nExplains what personal data JVTO collects during the booking process, how that data is used for logistics and legal compliance, who it may be shared with, and how to contact JVTO for data access, correction, or deletion requests.\n\n[Read Privacy & Data Protection Policy →](/policy/privacy/)\n\n---\n\n## Document Precedence\n\nIf there is any discrepancy between documents, the following order applies:\n\n1. Your Official E-Voucher / Invoice (PDF) for the confirmed booking\n2. JVTO Booking, Payment & Cancellation Policy\n3. JVTO Inclusions & Exclusions Policy\n4. JVTO Privacy & Data Protection Policy\n5. Travel Guide — Booking Information\n\n---\n\n**Issued by:** PT Java Volcano Rendezvous  \n**Official channels:** [javavolcano-touroperator.com](https://javavolcano-touroperator.com) · WhatsApp +62 822-4478-8833 · hello@javavolcano-touroperator.com\n"
+      "body_md": "\n## Read the Rulebook Before You Book.\n\nJVTO publishes its booking, payment, cancellation, inclusions, and privacy terms in full — so you know exactly what you are buying, what the rules are if plans change, and how your data is handled, before you confirm anything.\n\n---\n\n## Policies\n\n### Booking, Payment & Cancellation\n\nCovers how to book with JVTO, deposit and balance payment requirements, deadlines, approved payment methods, the 48-hour cancellation cut-off, Package Credit terms, and what happens if JVTO cancels due to force majeure.\n\n[Read Booking, Payment & Cancellation Policy →](/policy/booking-payment-cancellation/)\n\n---\n\n### Inclusions & Exclusions\n\nDefines exactly what is and is not included in a confirmed JVTO private tour package — transport, accommodation, crew, entrance tickets, safety gear, meals, and the write-it-to-bind-it rule that governs all contractual inclusions.\n\n[Read Inclusions & Exclusions Policy →](/policy/inclusions-exclusions/)\n\n---\n\n### Privacy & Data Protection\n\nExplains what personal data JVTO collects during the booking process, how that data is used for logistics and legal compliance, who it may be shared with, and how to contact JVTO for data access, correction, or deletion requests.\n\n[Read Privacy & Data Protection Policy →](/policy/privacy/)\n\n---\n\n## Document Precedence\n\nIf there is any discrepancy between documents, the following order applies:\n\n1. Your Official E-Voucher / Invoice (PDF) for the confirmed booking\n2. JVTO Booking, Payment & Cancellation Policy\n3. JVTO Inclusions & Exclusions Policy\n4. JVTO Privacy & Data Protection Policy\n5. Travel Guide — Booking Information\n\n---\n\n**Issued by:** PT Java Volcano Rendezvous  \n**Official channels:** [javavolcano-touroperator.com](https://javavolcano-touroperator.com) · WhatsApp +62 822-4478-8833 · hello@javavolcano-touroperator.com\n",
+      "pageContent": {
+        "heroStats": [
+          {
+            "label": "Issued by",
+            "value": "PT Java Volcano Rendezvous"
+          },
+          {
+            "label": "Version",
+            "value": "2026-01-17 (v5)"
+          },
+          {
+            "label": "Binding document",
+            "value": "E-Voucher PDF"
+          },
+          {
+            "label": "Policies",
+            "value": "3 published"
+          }
+        ],
+        "policyTiles": [
+          {
+            "name": "Booking, Payment & Cancellation",
+            "desc": "How to book, deposit and balance requirements, deadlines, approved payment methods, the 48-hour cancellation cut-off, Lifetime Package Credit terms, and force-majeure handling."
+          },
+          {
+            "name": "Inclusions & Exclusions",
+            "desc": "Exactly what is and is not included in a confirmed private package — transport, accommodation, crew, tickets, safety gear, meals — and the write-it-to-bind-it rule."
+          },
+          {
+            "name": "Privacy & Data Protection",
+            "desc": "What personal data JVTO collects during booking, how it is used for logistics and legal compliance, who it may be shared with, and how to request access or deletion."
+          }
+        ],
+        "precedence": [
+          {
+            "title": "Your Official E-Voucher / Invoice (PDF)",
+            "sub": "For the confirmed booking — takes precedence over all else."
+          },
+          {
+            "title": "Booking, Payment & Cancellation Policy"
+          },
+          {
+            "title": "Inclusions & Exclusions Policy"
+          },
+          {
+            "title": "Privacy & Data Protection Policy"
+          },
+          {
+            "title": "Travel Guide — Booking Information"
+          }
+        ],
+        "docPrecedenceHeading": "If documents disagree, this order applies.",
+        "docPrecedenceIntro": "Your confirmed booking is always governed first by the binding voucher, then by these published policies in sequence.",
+        "docPrecedenceIssuedBy": "PT Java Volcano Rendezvous",
+        "officialChannelsLines": [
+          "javavolcano-touroperator.com",
+          "WhatsApp +62 822-4478-8833",
+          "hello@javavolcano-touroperator.com"
+        ]
+      }
     }
   },
   "faq": {
