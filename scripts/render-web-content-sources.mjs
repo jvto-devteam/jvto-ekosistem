@@ -90,9 +90,26 @@ function normalizeFaqForOutput(faq) {
   };
 }
 
-function isRatingValid(rating) {
-  return Boolean(rating) && Number(rating.reviewCount) >= 1 && Number(rating.ratingValue) > 0;
-}
+// NOTE — no aggregateRating is emitted into any rendered output, deliberately.
+// (A dead `isRatingValid()` helper used to sit here; it duplicated the live
+// guard in validate-schema.mjs `checkNoZeroRatings` and was never called.
+// Removed 2026-08-19 because its presence kept reading as "the rating feature
+// was never wired up", inviting exactly the wrong fix — see below.)
+//
+// organization.json DOES carry an aggregateRating (Google Maps, owner decision
+// 2026-08-15). It is reference data for humans, NOT a render source. Wiring it
+// into output would put a second, competing rating on the same
+// `/#organization` @id, because jvto-web already emits the authoritative node
+// from a LIVE source (getPublicAggregateRating → buildHomepageAggregateRatingSchema
+// et al). Those two figures have already diverged: organization.json says
+// reviewCount 149 (snapshotted 2026-08-15) while production emitted 152 when
+// last checked 2026-08-19. A static snapshot in this repo can only ever drift.
+//
+// Re-introducing a blended/stale rating here is the exact regression that
+// owner decision 2026-08-15 was made to end (it replaced a hand-copied
+// 4.91 / 203 that had drifted from every source of truth). Rating stays
+// single-source and live-only. checkNoZeroRatings remains the enforcement
+// net if a rating ever does reach an output graph.
 
 function buildWebsiteOutput(source) {
   return {
