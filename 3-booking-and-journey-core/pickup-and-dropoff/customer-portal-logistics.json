@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-booking/customer-portal-logistics-v1",
-  "generated_at": "2026-08-19T10:46:59.694Z",
+  "generated_at": "2026-08-19T11:01:54.503Z",
   "privacy": "Logistics values are operational booking fields. Customer identity and portal access slugs are excluded.",
-  "record_count": 138,
+  "record_count": 136,
   "records": [
     {
       "booking_id": 1566,
@@ -241,21 +241,6 @@
         "pickup_time": "10:45:00",
         "drop": "Bali Hotel  Ubud",
         "drop_time": "18:00:00",
-        "special_requirements_present": false
-      }
-    },
-    {
-      "booking_id": 3340,
-      "booking_ref": "JVTO-3340",
-      "status": "booked",
-      "travel_date_start": "2026-08-24",
-      "travel_date_end": "2026-08-26",
-      "total_pax": 4,
-      "logistics": {
-        "pickup": "  ",
-        "pickup_time": null,
-        "drop": "  ",
-        "drop_time": null,
         "special_requirements_present": false
       }
     },
@@ -571,21 +556,6 @@
         "pickup_time": "11:00:00",
         "drop": "Surabaya Hotel (Swiss - Belinn Manyar)",
         "drop_time": "17:00:00",
-        "special_requirements_present": false
-      }
-    },
-    {
-      "booking_id": 3488,
-      "booking_ref": "JVTO-3488",
-      "status": "booked",
-      "travel_date_start": "2026-08-18",
-      "travel_date_end": "2026-08-20",
-      "total_pax": 1,
-      "logistics": {
-        "pickup": "Surabaya Hotel  Cordia Hotel Surabaya Airport",
-        "pickup_time": "11:00:00",
-        "drop": "",
-        "drop_time": null,
         "special_requirements_present": false
       }
     },

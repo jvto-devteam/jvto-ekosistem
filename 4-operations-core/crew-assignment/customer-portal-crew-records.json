@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-operations/customer-portal-crew-records-v1",
-  "generated_at": "2026-08-19T10:46:59.697Z",
+  "generated_at": "2026-08-19T11:01:54.506Z",
   "privacy": "Crew names and public-facing roles/photos-present flags are retained; crew phone numbers are not present in the source portal payload and are not stored.",
-  "record_count": 138,
+  "record_count": 136,
   "records": [
     {
       "booking_id": 1566,
@@ -293,23 +293,6 @@
       "travel_date_start": "2026-09-13",
       "crews": {
         "guides": [],
-        "drivers": []
-      }
-    },
-    {
-      "booking_id": 3340,
-      "booking_ref": "JVTO-3340",
-      "package_name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "travel_date_start": "2026-08-24",
-      "crews": {
-        "guides": [
-          {
-            "id": 39,
-            "name": "Gufron",
-            "role": "Escort Guide",
-            "photo_present": true
-          }
-        ],
         "drivers": []
       }
     },
@@ -644,30 +627,6 @@
           }
         ],
         "drivers": []
-      }
-    },
-    {
-      "booking_id": 3488,
-      "booking_ref": "JVTO-3488",
-      "package_name": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
-      "travel_date_start": "2026-08-18",
-      "crews": {
-        "guides": [
-          {
-            "id": 4,
-            "name": "Taufik",
-            "role": "Ijen Guide",
-            "photo_present": true
-          }
-        ],
-        "drivers": [
-          {
-            "id": 7,
-            "name": "Fredi",
-            "role": "Driver",
-            "photo_present": true
-          }
-        ]
       }
     },
     {

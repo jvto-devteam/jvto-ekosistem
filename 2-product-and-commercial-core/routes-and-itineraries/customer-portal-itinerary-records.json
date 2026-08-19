@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto-product/customer-portal-itinerary-records-v1",
-  "generated_at": "2026-08-19T10:46:59.695Z",
-  "record_count": 138,
+  "generated_at": "2026-08-19T11:01:54.504Z",
+  "record_count": 136,
   "records": [
     {
       "booking_id": 1566,
@@ -488,32 +488,6 @@
           "title": "Day 3",
           "itinerary": "Ijen Crater - Ketapang - Bali",
           "activity_text": "Check out from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - Depart to Ketapang - take ferry to Gilimanuk Harbour - transfer to Ubud - End Program."
-        }
-      ]
-    },
-    {
-      "booking_id": 3340,
-      "booking_ref": "JVTO-3340",
-      "package_name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "duration": "3D 2N",
-      "itinerary_days": [
-        {
-          "day": 1,
-          "title": "Day 1",
-          "itinerary": "Surabaya Hotel - Bondowoso",
-          "activity_text": "Pick up from Surabaya Hotel - Transfer to hotel in Bondowoso City - Check in - Dinner - Take a rest"
-        },
-        {
-          "day": 2,
-          "title": "Day 2",
-          "itinerary": "Ijen Crater - Bromo Area",
-          "activity_text": "Depart from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - Transfer to hotel in Bromo area - Check in - Take a rest."
-        },
-        {
-          "day": 3,
-          "title": "Day 3",
-          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Hotel",
-          "activity_text": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim- Whispering Sands) - Breakfast and Shower - check out - continue to Madakaripura waterfall - drop to hotel. End of program"
         }
       ]
     },
@@ -1083,32 +1057,6 @@
       "booking_id": 3478,
       "booking_ref": "JVTO-3478",
       "package_name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "duration": "3D 2N",
-      "itinerary_days": [
-        {
-          "day": 1,
-          "title": "Day 1",
-          "itinerary": "Surabaya Airport - Bondowoso",
-          "activity_text": "Pick up from airport - Transfer to hotel in Bondowoso City - Check in - Dinner - Take a rest"
-        },
-        {
-          "day": 2,
-          "title": "Day 2",
-          "itinerary": "Ijen Crater - Bromo Area",
-          "activity_text": "Depart from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - Transfer to hotel in Bromo area - Check in - Take a rest."
-        },
-        {
-          "day": 3,
-          "title": "Day 3",
-          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Hotel",
-          "activity_text": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim- Whispering Sands) - Breakfast and Shower - check out - continue to Madakaripura waterfall - drop to hotel. End of program"
-        }
-      ]
-    },
-    {
-      "booking_id": 3488,
-      "booking_ref": "JVTO-3488",
-      "package_name": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
       "duration": "3D 2N",
       "itinerary_days": [
         {
