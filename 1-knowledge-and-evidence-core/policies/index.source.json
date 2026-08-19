@@ -73,14 +73,17 @@
         ],
         "policyTiles": [
           {
+            "slug": "booking-payment-cancellation",
             "name": "Booking, Payment & Cancellation",
             "desc": "How to book, deposit and balance requirements, deadlines, approved payment methods, the 48-hour cancellation cut-off, Lifetime Package Credit terms, and force-majeure handling."
           },
           {
+            "slug": "inclusions-exclusions",
             "name": "Inclusions & Exclusions",
             "desc": "Exactly what is and is not included in a confirmed private package — transport, accommodation, crew, tickets, safety gear, meals — and the write-it-to-bind-it rule."
           },
           {
+            "slug": "privacy",
             "name": "Privacy & Data Protection",
             "desc": "What personal data JVTO collects during booking, how it is used for logistics and legal compliance, who it may be shared with, and how to request access or deletion."
           }

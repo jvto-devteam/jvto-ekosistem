@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-19T01:03:06.979Z",
+  "generated_at": "2026-08-19T01:18:26.047Z",
   "route": "/travel-guide",
   "domain": "travel-guide",
   "slug": "index",
@@ -58,16 +58,19 @@
           ],
           "rulebookCards": [
             {
+              "icon": "pvmbg",
               "label": "PVMBG-aligned",
               "title": "Safety boundaries",
               "desc": "We follow official PVMBG (Volcanology) alerts without exception. If a site is closed, we do not enter. Safety is the non-negotiable."
             },
             {
+              "icon": "screening",
               "label": "Real screening",
               "title": "Health requirements",
               "desc": "Mandatory certified clinic checks for Ijen. You must be medically cleared for altitude and sulfur exposure. No fake letters."
             },
             {
+              "icon": "operator",
               "label": "Not a broker",
               "title": "Operational control",
               "desc": "We are the operator, not a broker. We control the vehicles, the guides, and the safety decisions from start to finish."
@@ -98,11 +101,13 @@
           },
           "extraPracticalCards": [
             {
+              "icon": "altitude",
               "title": "Altitude & temperature",
               "desc": "Bromo can drop to 0 C. Ijen is at 2,386m. Prepare for cold mornings and thin air.",
               "footerLabel": "Critical info"
             },
             {
+              "icon": "connectivity",
               "title": "Money & connectivity",
               "desc": "Cash is king in remote areas. SIM cards and Wi-Fi availability vary by location.",
               "footerLabel": "Logistics"
