@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'archive/booking-overview-snapshot/**'
+      - 'archive/customer-portal-detail-snapshot/**'
+      - '3-booking-and-journey-core/**'
+      - '4-operations-core/**'
   workflow_dispatch:
 
 concurrency:
