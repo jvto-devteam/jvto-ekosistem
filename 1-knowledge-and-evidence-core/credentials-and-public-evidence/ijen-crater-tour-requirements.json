@@ -1,0 +1,58 @@
+{
+  "_comment": "Flat content blob (no route/page) for the shared TourRequirements component, rendered inline on tour package detail pages (/tours/from-bali/[slug], /tours/from-surabaya/[slug]) whenever pkg.route includes \"Ijen Crater\". Read directly via src/lib/ecosystemContent/ijenCraterRequirements.ts — same local-read + HTTP-fallback convention as review-platforms.json / trust-claims.json in this directory. This was the last 100%-hardcoded editorial fragment in jvto-web with no prior live source; content below was copied verbatim from src/components/website/TourRequirements.tsx during migration (2026-08-19) and has no separate historical source-of-truth to cross-check against.",
+  "sourceComponent": "src/components/website/TourRequirements.tsx",
+  "lastReviewed": "2026-08-19",
+  "owner": "operations",
+  "reviewStatus": "migrated-from-jvto-web-inline-hardcode",
+  "pageContent": {
+    "heading": "Mandatory Requirements: Ijen Crater Tour",
+    "intro": "To ensure safety and compliance with 2024/2025 BKSDA regulations, please review the requirements below.",
+    "tableHeaders": {
+      "attribute": "Attribute (Category)",
+      "value": "Value (Requirement)"
+    },
+    "requirementsTable": [
+      {
+        "category": "Entry Document",
+        "valueStrong": "Health Certificate (Surat Sehat)",
+        "note": "Must state \"Fit for hiking/physical activity\". Provided by JVTO."
+      },
+      {
+        "category": "Safety Gear",
+        "valueStrong": "Professional Gas Mask",
+        "note": "Provided by JVTO. Mandatory for sulfur fume protection."
+      },
+      {
+        "category": "Age Limit",
+        "valueStrong": "10 – 60 Years Old",
+        "note": "Strict regulation. ID card required for verification."
+      },
+      {
+        "category": "Start Time",
+        "valueStrong": "00:00 AM – 01:00 AM",
+        "note": "To reach the summit before sunrise. Blue Fire visibility is subject to authority access policies and natural conditions, including sulfur gas levels and weather, and cannot be guaranteed."
+      }
+    ],
+    "faqHeading": "Frequently Asked Questions about Ijen Requirements",
+    "faqItems": [
+      {
+        "question": "Do I really need a health certificate for Ijen?",
+        "answerSegments": [
+          { "text": "Yes, it is " },
+          { "text": "absolutely mandatory", "strong": true },
+          { "text": ". You cannot purchase an entrance ticket without showing a valid health certificate obtained from a clinic or hospital on the " },
+          { "text": "same day of the hike", "strong": true },
+          { "text": "." }
+        ]
+      },
+      {
+        "question": "Can children hike Ijen Crater?",
+        "answerSegments": [
+          { "text": "No. Children under " },
+          { "text": "10 years old", "strong": true },
+          { "text": " are strictly prohibited by BKSDA regulations due to safety concerns, especially related to sulfur gas exposure." }
+        ]
+      }
+    ]
+  }
+}
