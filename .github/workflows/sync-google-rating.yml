@@ -1,0 +1,49 @@
+name: Sync Google Rating
+
+on:
+  schedule:
+    - cron: '0 1 * * *' # Daily 01:00 UTC = 08:00 WIB — same cadence as jvto-web's legacy sync-google-reviews.yml
+  workflow_dispatch:
+
+concurrency:
+  group: google-rating-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Sync Google aggregate rating into review-platforms.json
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run rating sync
+        env:
+          GBP_CLIENT_ID: ${{ secrets.GBP_CLIENT_ID }}
+          GBP_CLIENT_SECRET: ${{ secrets.GBP_CLIENT_SECRET }}
+          GBP_REFRESH_TOKEN: ${{ secrets.GBP_REFRESH_TOKEN }}
+          GBP_ACCOUNT_ID: ${{ secrets.GBP_ACCOUNT_ID }}
+          GBP_LOCATION_ID: ${{ secrets.GBP_LOCATION_ID }}
+        run: npm run sync:google-rating
+
+      - name: Commit and push if changed
+        run: |
+          set -euo pipefail
+          git config user.name "jvto-ekosistem-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git status --porcelain | grep -q .; then
+            git add 1-knowledge-and-evidence-core/credentials-and-public-evidence/review-platforms.json
+            git commit -m "chore(reviews): sync Google rating $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          else
+            echo "No changes to commit."
+          fi
