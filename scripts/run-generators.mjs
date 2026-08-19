@@ -2,9 +2,11 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadGeneratorContext } from "./lib/booking-sync/generators/context.mjs";
 import { generateBookingRecords } from "./lib/booking-sync/generators/booking-records.mjs";
+import { generateGuestPortalRecords } from "./lib/booking-sync/generators/guest-portal-records.mjs";
 
 export const GENERATORS = [
   { outputPath: "3-booking-and-journey-core/booking/booking-records.json", generate: generateBookingRecords },
+  { outputPath: "5-experience-engine/guest-portal/guest-portal-records.json", generate: generateGuestPortalRecords },
 ];
 
 export async function runGenerators({ archiveRoot = process.cwd() } = {}) {
