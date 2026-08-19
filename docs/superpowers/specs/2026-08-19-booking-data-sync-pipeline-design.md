@@ -230,6 +230,21 @@ Direct commit ke `main` oleh job (pakai `GITHUB_TOKEN` bawaan Actions,
 permission `contents: write`). Tidak lewat PR — supaya data benar-benar
 tercermin near-real-time, bukan menunggu review manual.
 
+## Known drift: Layer-1 auto-refresh vs Layer-2 frozen snapshot
+
+Begitu pipeline ini live, `archive/**` (booking-overview + customer-portal
+detail) di-refresh otomatis tiap ada event booking dan minimal tiap 6 jam lewat
+cron. Sementara itu, 29 file turunan yang didaftarkan di bagian "Generator
+layer" di atas **tetap beku** pada snapshot terakhir kali file-file itu
+di-generate (2026-08-07), sampai plan generator-layer yang terpisah itu
+dikerjakan dan di-ship.
+
+Artinya untuk sementara: Layer-1 (raw archive) fresh, Layer-2 (file turunan)
+stale, dan keduanya bisa saling tidak cocok. Ini kondisi yang diterima,
+sifatnya sementara, dan sekarang terdokumentasi — bukan bug. Jangan pakai file
+turunan sebagai sumber kebenaran booking data sampai generator layer live;
+pakai `archive/**` langsung.
+
 ## Out of scope / follow-up
 
 - Implementasi hook Laravel (`EcosystemSync`, job, daftar fungsi
