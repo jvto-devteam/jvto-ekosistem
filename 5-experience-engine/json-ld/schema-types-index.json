@@ -1,6 +1,9 @@
 {
   "dataStatus": "extracted",
   "pageCount": 44,
+  "knownOmissions": {
+    "AggregateRating": "Intentionally absent from every schema-output.json in this repo — not a gap, not unimplemented. jvto-web renders the live AggregateRating node itself, reading directly from 1-knowledge-and-evidence-core/credentials-and-public-evidence/review-platforms.json (jvto-web: src/lib/publicContent/getAggregateRating.ts, src/lib/ecosystemContent/reviewPlatforms.ts). That file is the single source of truth for the rating (owner decision 2026-08-15/2026-08-19); this repo's json-ld build output is a different artifact and was never that source's transport. See scripts/render-web-content-sources.mjs for the full rationale. Do not add AggregateRating here to 'fix' this."
+  },
   "schemaByType": {
     "CollectionPage": [
       "/destinations",
