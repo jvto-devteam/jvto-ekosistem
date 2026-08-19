@@ -9,6 +9,10 @@ on:
       - 'archive/customer-portal-detail-snapshot/**'
       - '3-booking-and-journey-core/**'
       - '4-operations-core/**'
+      - '2-product-and-commercial-core/routes-and-itineraries/customer-portal-itinerary-records.json'
+      - '5-experience-engine/guest-portal/customer-portal-detail-records.json'
+      - '5-experience-engine/guest-portal/guest-portal-records.json'
+      - '5-experience-engine/knowledge-feed/customer-portal-faq-packing-feed.json'
   workflow_dispatch:
 
 concurrency:

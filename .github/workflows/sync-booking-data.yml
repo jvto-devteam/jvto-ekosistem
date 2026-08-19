@@ -39,8 +39,8 @@ jobs:
           set -euo pipefail
           git config user.name "jvto-ekosistem-bot"
           git config user.email "actions@users.noreply.github.com"
-          if [ -n "$(git status --porcelain -- archive/booking-overview-snapshot archive/customer-portal-detail-snapshot)" ]; then
-            git add archive/booking-overview-snapshot archive/customer-portal-detail-snapshot
+          if [ -n "$(git status --porcelain -- archive/booking-overview-snapshot archive/customer-portal-detail-snapshot 2-product-and-commercial-core 3-booking-and-journey-core 4-operations-core 5-experience-engine)" ]; then
+            git add archive/booking-overview-snapshot archive/customer-portal-detail-snapshot 2-product-and-commercial-core 3-booking-and-journey-core 4-operations-core 5-experience-engine
             git commit -m "chore(booking-sync): sync booking data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git pull --rebase --autostash
             git push

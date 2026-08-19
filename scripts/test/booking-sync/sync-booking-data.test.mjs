@@ -80,8 +80,8 @@ async function exists(filePath) {
       month === "2026-08"
         ? {
             records: [
-              { booking_id: 1, customer_portal: "https://x/my-booking/slug-1" },
-              { booking_id: 2, customer_portal: "https://x/my-booking/slug-2" },
+              { booking_id: 1, customer_portal: "https://x/my-booking/slug-1", date: { start_ymd: "2026-08-01" } },
+              { booking_id: 2, customer_portal: "https://x/my-booking/slug-2", date: { start_ymd: "2026-08-02" } },
             ],
             headers: "content-type: application/json",
           }
@@ -126,7 +126,7 @@ async function exists(filePath) {
     const firstOverview = async (month) =>
       month === "2026-08"
         ? {
-            records: [1, 2, 3, 4].map((id) => ({ booking_id: id, customer_portal: `https://x/my-booking/slug-${id}` })),
+            records: [1, 2, 3, 4].map((id) => ({ booking_id: id, customer_portal: `https://x/my-booking/slug-${id}`, date: { start_ymd: `2026-08-0${id}` } })),
             headers: "content-type: application/json",
           }
         : { records: [], headers: "content-type: application/json" };
@@ -141,7 +141,7 @@ async function exists(filePath) {
     const secondOverview = async (month) =>
       month === "2026-08"
         ? {
-            records: [1, 3, 4].map((id) => ({ booking_id: id, customer_portal: `https://x/my-booking/slug-${id}` })),
+            records: [1, 3, 4].map((id) => ({ booking_id: id, customer_portal: `https://x/my-booking/slug-${id}`, date: { start_ymd: `2026-08-0${id}` } })),
             headers: "content-type: application/json",
           }
         : { records: [], headers: "content-type: application/json" };
@@ -202,8 +202,8 @@ async function exists(filePath) {
   await withTempRoot(async (archiveRoot) => {
     const stubOverview = overviewStub({
       "2026-08": [
-        { booking_id: 1, customer_portal: "https://x/my-booking/slug-1" },
-        { booking_id: 2, customer_portal: "https://x/my-booking/slug-2" },
+        { booking_id: 1, customer_portal: "https://x/my-booking/slug-1", date: { start_ymd: "2026-08-01" } },
+        { booking_id: 2, customer_portal: "https://x/my-booking/slug-2", date: { start_ymd: "2026-08-02" } },
       ],
     });
 
@@ -244,8 +244,8 @@ async function exists(filePath) {
 
     const firstOverview = overviewStub({
       "2026-08": [
-        { booking_id: 1, customer_portal: "https://x/my-booking/slug-1" },
-        { booking_id: 2, customer_portal: "https://x/my-booking/slug-2", guest: "original" },
+        { booking_id: 1, customer_portal: "https://x/my-booking/slug-1", date: { start_ymd: "2026-08-01" } },
+        { booking_id: 2, customer_portal: "https://x/my-booking/slug-2", guest: "original", date: { start_ymd: "2026-08-02" } },
       ],
     });
 
@@ -262,8 +262,8 @@ async function exists(filePath) {
     // Booking 2 changes upstream (-> `updated`), but its detail fetch fails.
     const secondOverview = overviewStub({
       "2026-08": [
-        { booking_id: 1, customer_portal: "https://x/my-booking/slug-1" },
-        { booking_id: 2, customer_portal: "https://x/my-booking/slug-2", guest: "changed" },
+        { booking_id: 1, customer_portal: "https://x/my-booking/slug-1", date: { start_ymd: "2026-08-01" } },
+        { booking_id: 2, customer_portal: "https://x/my-booking/slug-2", guest: "changed", date: { start_ymd: "2026-08-02" } },
       ],
     });
 
@@ -326,7 +326,7 @@ async function exists(filePath) {
 {
   await withTempRoot(async (archiveRoot) => {
     const healthyOverview = overviewStub({
-      "2026-08": [1, 2, 3, 4, 5].map((id) => ({ booking_id: id, customer_portal: `https://x/my-booking/slug-${id}` })),
+      "2026-08": [1, 2, 3, 4, 5].map((id) => ({ booking_id: id, customer_portal: `https://x/my-booking/slug-${id}`, date: { start_ymd: `2026-08-0${id}` } })),
     });
 
     await runSync({
@@ -380,7 +380,7 @@ async function exists(filePath) {
     const detailsDir = path.join(archiveRoot, "archive/customer-portal-detail-snapshot/details");
     const manifestPath = path.join(archiveRoot, "archive/booking-overview-snapshot/sync-manifest.json");
     const reportPath = path.join(archiveRoot, "archive/booking-overview-snapshot/sync-report.json");
-    const record = (id) => ({ booking_id: id, customer_portal: `https://x/my-booking/slug-${id}` });
+    const record = (id) => ({ booking_id: id, customer_portal: `https://x/my-booking/slug-${id}`, date: { start_ymd: `2026-08-${String(id).padStart(2, "0")}` } });
 
     // Mid-August run: window is 2026-08 + 2026-09, five August bookings known.
     await runSync({
@@ -484,6 +484,37 @@ async function exists(filePath) {
       false,
       "the pre-rotation detail file must be pruned"
     );
+  });
+}
+
+// Task 5: a real (non-dry-run, has-changes) sync must invoke the generator
+// pipeline so downstream generator outputs land alongside the raw archive.
+{
+  await withTempRoot(async (archiveRoot) => {
+    const stubOverview = async (month) =>
+      month === "2026-08"
+        ? { records: [{ booking_id: 1, customer_portal: "https://x/my-booking/slug-1" }], headers: "h" }
+        : { records: [], headers: "h" };
+
+    await runSync({
+      now: new Date("2026-08-15T00:00:00Z"),
+      archiveRoot,
+      fetchBookingOverviewMonth: stubOverview,
+      fetchCustomerPortalDetail: async (slug) => ({
+        slug,
+        url: `https://legacy.javavolcano-touroperator.com/bookings/details/${slug}?json=true`,
+        statusCode: 200,
+        ok: true,
+        error: null,
+        json: { success: true, booking: { id: 1, booking_id: "JVTO-1" } },
+      }),
+    });
+
+    const bookingRecords = JSON.parse(
+      await readFile(path.join(archiveRoot, "3-booking-and-journey-core/booking/booking-records.json"), "utf8")
+    );
+    assert.equal(bookingRecords.records.length, 1);
+    assert.equal(bookingRecords.records[0].bookingId, 1);
   });
 }
 

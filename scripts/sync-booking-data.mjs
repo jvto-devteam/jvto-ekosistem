@@ -5,6 +5,7 @@ import {
   fetchCustomerPortalDetail as defaultFetchCustomerPortalDetail,
 } from "./lib/booking-sync/fetch.mjs";
 import { diffManifest, extractSlug } from "./lib/booking-sync/manifest.mjs";
+import { runGenerators } from "./run-generators.mjs";
 
 // A single run may legitimately drop a few bookings (real cancellations), but a
 // large fraction disappearing at once is far more likely to be a degraded
@@ -204,6 +205,8 @@ export async function runSync({
     path.join(portalDir, "fetch-manifest.json"),
     JSON.stringify({ generatedAt: now.toISOString(), requested: manifestEntries.length, results: manifestEntries }, null, 2) + "\n"
   );
+
+  await runGenerators({ archiveRoot });
 
   return { diff, report, detailResults };
 }
