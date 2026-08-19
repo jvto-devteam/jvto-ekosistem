@@ -90,7 +90,7 @@ function contextOf(...bookings) {
   assert.deepEqual(r.tshirt_sizes, { xs: 0, s: 0, m: 0, l: 0, xl: 0, xxl: 0 });
   assert.deepEqual(r.addons, [{ id: 734, name: "UBUD", qty: 1, price: 900000, subtotal: 900000 }]);
 
-  // grand_total is COMPUTED (dp_amount + balance), never copied from the unreliable source field
+  // grand_total is COMPUTED (paid_amount + balance), never copied from the unreliable source field
   assert.equal(r.finance.grand_total, 22950000);
   assert.notEqual(r.finance.grand_total, detailBooking().finance.grand_total);
 
@@ -147,6 +147,27 @@ function contextOf(...bookings) {
   );
   assert.deepEqual(result.records.map((r) => r.booking_id), [1566, 2700, 3999]);
   assert.equal(result.record_count, 3);
+}
+
+{
+  // SETTLED booking (balance fully paid off): dp_amount stays frozen at the deposit, so
+  // grand_total must come from paid_amount + balance, not dp_amount + balance.
+  // Mirrors real booking 1566: deposit 1,428,000 of a true 8,040,000 total.
+  const settled = detailBooking({
+    finance: {
+      ...detailBooking().finance,
+      grand_total: 8040000,
+      dp_amount: 1428000,
+      balance: 0,
+      paid_amount: 8040000,
+    },
+  });
+  const r = generateCustomerPortalBookingDetails(contextOf(settled), { now: NOW }).records[0];
+
+  assert.equal(r.finance.grand_total, 8040000, "settled booking must report the full invoice total");
+  assert.notEqual(r.finance.grand_total, 1428000, "grand_total must not collapse to the deposit once the balance is settled");
+  assert.equal(r.finance.dp_amount, 1428000, "dp_amount itself is still reported unchanged");
+  assert.equal(r.finance.balance, 0);
 }
 
 {

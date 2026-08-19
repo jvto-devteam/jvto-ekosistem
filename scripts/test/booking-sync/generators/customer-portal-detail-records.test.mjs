@@ -134,7 +134,7 @@ function contextOf(...entries) {
 
   assert.deepEqual(r.vehicles, [{ name: "Hiace Commuter", capacity: "4 - 0 pax", banner_present: true, interior_image_count: 1 }]);
 
-  assert.equal(r.finance.grand_total, 22950000, "grand_total is computed from dp_amount + balance");
+  assert.equal(r.finance.grand_total, 22950000, "grand_total is computed from paid_amount + balance");
   assert.equal(r.finance.total_addons, 900000);
   assert.equal(r.finance.payment_link_present, true);
   assert.equal(r.finance.uploaded_payment_proof_present, false);
@@ -160,6 +160,26 @@ function contextOf(...entries) {
   for (const dropped of ["customer_name", "customer_id", "url", "media_link", "faq", "packing_recommendations", "essential_checklist", "itineraries", "vehicle_specs", "special_requirements", "package_name"]) {
     assert.equal(dropped in r, false, `raw-only field ${dropped} must not leak into the output record`);
   }
+}
+
+{
+  // SETTLED booking: grand_total must be the full invoice total, not the frozen deposit.
+  // Mirrors real booking 1566: deposit 1,428,000 of a true 8,040,000 total.
+  const settled = detailBooking({
+    finance: {
+      ...detailBooking().finance,
+      grand_total: 8040000,
+      dp_amount: 1428000,
+      balance: 0,
+      paid_amount: 8040000,
+    },
+  });
+  const r = generateCustomerPortalDetailRecords(contextOf([SLUG, settled]), { now: NOW }).records[0];
+
+  assert.equal(r.finance.grand_total, 8040000, "settled booking must report the full invoice total");
+  assert.notEqual(r.finance.grand_total, 1428000, "grand_total must not collapse to the deposit once the balance is settled");
+  assert.equal(r.finance.dp_amount, 1428000);
+  assert.equal(r.finance.balance, 0);
 }
 
 {

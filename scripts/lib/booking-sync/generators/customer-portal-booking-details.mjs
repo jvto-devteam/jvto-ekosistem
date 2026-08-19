@@ -15,8 +15,11 @@ export function toProduct(booking) {
 
 export function toFinance(finance) {
   return {
-    // grand_total is computed: the raw finance.grand_total is unreliable (often duplicates dp_amount)
-    grand_total: (finance?.dp_amount ?? 0) + (finance?.balance ?? 0),
+    // grand_total is computed: the raw finance.grand_total is unreliable (often duplicates
+    // dp_amount). paid_amount grows from deposit-only to the full amount as a booking
+    // progresses, so paid_amount + balance is the true invoice total at every payment stage —
+    // unlike dp_amount + balance, which collapses to just the deposit once balance hits 0.
+    grand_total: (finance?.paid_amount ?? 0) + (finance?.balance ?? 0),
     total_addons: finance?.total_addons ?? null,
     dp_amount: finance?.dp_amount ?? null,
     balance: finance?.balance ?? null,
