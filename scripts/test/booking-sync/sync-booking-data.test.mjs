@@ -112,6 +112,15 @@ function stubDetail(slug) {
       "utf8"
     );
     assert.ok(detail1Still.includes("slug-1"));
+
+    const portalManifestAfterSecondRun = JSON.parse(
+      await readFile(path.join(archiveRoot, "archive/customer-portal-detail-snapshot/fetch-manifest.json"), "utf8")
+    );
+    const slug1Entry = portalManifestAfterSecondRun.results.find((r) => r.slug === "slug-1");
+    assert.ok(slug1Entry, "expected fetch-manifest.json to still have an entry for slug-1");
+    assert.equal(slug1Entry.statusCode, 200);
+    assert.equal(slug1Entry.ok, true);
+    assert.equal(slug1Entry.error, null);
   });
 }
 
