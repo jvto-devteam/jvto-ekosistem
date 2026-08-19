@@ -9209,7 +9209,7 @@
         "meetingPoint": "Surabaya Airport",
         "arrival": "Terminal 2",
         "value": "TR296",
-        "time": "09:00",
+        "time": "09:50",
         "text": "Surabaya Airport Terminal 2 TR296",
         "complete": true
       },
@@ -9528,7 +9528,7 @@
       "packageId": 33,
       "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
       "duration": "4D 3N",
-      "totalPax": 2,
+      "totalPax": 3,
       "bookingDate": "27 Jul 2026",
       "tripDate": {
         "start_ymd": "2026-08-21",
@@ -9629,8 +9629,13 @@
           "hotel": "Doho Homestay",
           "rooms": [
             {
-              "roomId": 163,
-              "roomName": "Deluxe Double",
+              "roomId": 98,
+              "roomName": "Emerald Double",
+              "quantity": 1
+            },
+            {
+              "roomId": 168,
+              "roomName": "Extra bed",
               "quantity": 1
             }
           ],
@@ -9682,10 +9687,10 @@
         "country": "Italy (Italia)"
       },
       "payment": {
-        "paid": 9100000,
-        "invoiceTotal": 9100000,
+        "paid": 13950000,
+        "invoiceTotal": 13950000,
         "balance": 0,
-        "paymentMethod": null,
+        "paymentMethod": "wise",
         "history": [
           {
             "id": 792,
@@ -9702,6 +9707,22 @@
             "method": "Bank Transfer",
             "description": "Full Payment",
             "date": "17 Aug 26 07:39"
+          },
+          {
+            "id": 865,
+            "amount": 3950000,
+            "methodId": 6,
+            "method": "Bank Transfer",
+            "description": "Full Payment",
+            "date": "20 Aug 26 00:20"
+          },
+          {
+            "id": 866,
+            "amount": 900000,
+            "methodId": 6,
+            "method": "Bank Transfer",
+            "description": "Payment Add On",
+            "date": "20 Aug 26 00:20"
           }
         ]
       },
@@ -10972,9 +10993,9 @@
         "country": "Japan (日本)"
       },
       "payment": {
-        "paid": 1900000,
+        "paid": 9500000,
         "invoiceTotal": 9500000,
-        "balance": 7600000,
+        "balance": 0,
         "paymentMethod": "cc",
         "history": [
           {
@@ -10984,6 +11005,22 @@
             "method": "Debit/Credit Card",
             "description": "Down Payment",
             "date": "12 Jul 26 12:22"
+          },
+          {
+            "id": 863,
+            "amount": 7200000,
+            "methodId": 3,
+            "method": "Debit/Credit Card",
+            "description": "Payment (Paid in Full)",
+            "date": "19 Aug 26 21:56"
+          },
+          {
+            "id": 864,
+            "amount": 400000,
+            "methodId": 3,
+            "method": "Debit/Credit Card",
+            "description": "Payment Add On",
+            "date": "19 Aug 26 21:56"
           }
         ]
       },
@@ -10996,7 +11033,7 @@
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
-        "balanceStatus": "balance_due"
+        "balanceStatus": "settled"
       }
     },
     {

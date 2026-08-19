@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-operations/customer-portal-vehicle-records-v1",
-  "generated_at": "2026-08-19T12:29:55.764Z",
+  "generated_at": "2026-08-19T18:37:29.342Z",
   "record_count": 136,
   "records": [
     {
@@ -1223,7 +1223,7 @@
       "booking_id": 3675,
       "booking_ref": "JVTO-3675",
       "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
-      "total_pax": 2,
+      "total_pax": 3,
       "vehicles": [
         {
           "name": "MPV",

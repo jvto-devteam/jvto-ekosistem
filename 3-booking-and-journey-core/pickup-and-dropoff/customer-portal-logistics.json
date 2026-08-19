@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-booking/customer-portal-logistics-v1",
-  "generated_at": "2026-08-19T12:29:55.759Z",
+  "generated_at": "2026-08-19T18:37:29.336Z",
   "privacy": "Logistics values are operational booking fields. Customer identity and portal access slugs are excluded.",
   "record_count": 136,
   "records": [
@@ -28,7 +28,7 @@
       "total_pax": 4,
       "logistics": {
         "pickup": "Surabaya Airport Terminal 2 TR296",
-        "pickup_time": "09:00:00",
+        "pickup_time": "09:50:00",
         "drop": "Surabaya Airport Terminal 2 ",
         "drop_time": "16:00:00",
         "special_requirements_present": false
@@ -1300,7 +1300,7 @@
       "status": "booked",
       "travel_date_start": "2026-08-21",
       "travel_date_end": "2026-08-24",
-      "total_pax": 2,
+      "total_pax": 3,
       "logistics": {
         "pickup": "Surabaya Hotel  Bumi Surabaya City Resort",
         "pickup_time": "12:00:00",

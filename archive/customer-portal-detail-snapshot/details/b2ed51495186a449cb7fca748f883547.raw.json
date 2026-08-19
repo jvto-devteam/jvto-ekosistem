@@ -19,7 +19,7 @@
       "duration": "4D 3N",
       "travel_date_start": "2026-08-21",
       "travel_date_end": "2026-08-24",
-      "total_pax": 2,
+      "total_pax": 3,
       "pickup": "Surabaya Hotel  Bumi Surabaya City Resort",
       "pickup_time": "12:00:00",
       "drop": "Surabaya Hotel  Premier Place Surabaya AIrport",
@@ -111,19 +111,27 @@
           "day": 3,
           "name": "Doho Homestay",
           "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/1722678237_getlstd-property-photo.jpg",
-          "rooms": "Deluxe Double (1)"
+          "rooms": "Emerald Double (1), Extra bed (1)"
         }
       ],
-      "addons": [],
+      "addons": [
+        {
+          "id": 760,
+          "name": "Upgrade accommodation to Manis Ae Bromo",
+          "qty": 1,
+          "price": 900000,
+          "subtotal": 900000
+        }
+      ],
       "finance": {
-        "grand_total": 9100000,
-        "total_addons": 0,
+        "grand_total": 13950000,
+        "total_addons": 900000,
         "dp_amount": 1820000,
         "balance": 0,
-        "paid_amount": 9100000,
+        "paid_amount": 13950000,
         "due_date": "2026-07-28 00:00:00",
         "initial_payment_method": "cc",
-        "balance_payment_method": null,
+        "balance_payment_method": "wise",
         "payment_link": "https://checkout.xendit.co/web/6a7ece8a4e54ef9d36014884",
         "pending_upload_proof": false,
         "uploaded_payment_proof": null,
@@ -143,6 +151,22 @@
             "reference": "https://prnt.sc/FZwi_2Mshkjr",
             "method": "Bank Transfer",
             "created_at": "2026-08-17 07:39:21"
+          },
+          {
+            "id": 865,
+            "nominal": 3950000,
+            "description": "Full Payment",
+            "reference": "https://prnt.sc/orZgNEnL3WIY",
+            "method": "Bank Transfer",
+            "created_at": "2026-08-20 00:20:42"
+          },
+          {
+            "id": 866,
+            "nominal": 900000,
+            "description": "Payment Add On",
+            "reference": "https://prnt.sc/orZgNEnL3WIY",
+            "method": "Bank Transfer",
+            "created_at": "2026-08-20 00:20:59"
           }
         ]
       },

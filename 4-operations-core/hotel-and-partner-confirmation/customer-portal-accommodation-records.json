@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-operations/customer-portal-accommodations-v1",
-  "generated_at": "2026-08-19T12:29:55.762Z",
+  "generated_at": "2026-08-19T18:37:29.339Z",
   "record_count": 136,
   "records": [
     {
@@ -2011,7 +2011,7 @@
         {
           "day": 3,
           "name": "Doho Homestay",
-          "rooms": "Deluxe Double (1)",
+          "rooms": "Emerald Double (1), Extra bed (1)",
           "banner_present": true
         }
       ]

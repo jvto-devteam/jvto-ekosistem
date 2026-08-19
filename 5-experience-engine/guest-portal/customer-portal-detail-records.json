@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-experience-output/customer-portal-detail-records-v1",
-  "generated_at": "2026-08-19T12:29:55.764Z",
+  "generated_at": "2026-08-19T18:37:29.343Z",
   "source": "legacy customer portal details, sanitized from /bookings/details/{portal_slug}?json=true",
   "record_count": 136,
   "records": [
@@ -202,7 +202,7 @@
       },
       "logistics": {
         "pickup": "Surabaya Airport Terminal 2 TR296",
-        "pickup_time": "09:00:00",
+        "pickup_time": "09:50:00",
         "drop": "Surabaya Airport Terminal 2 ",
         "drop_time": "16:00:00",
         "special_requirements_present": false
@@ -9650,8 +9650,8 @@
         "grand_total": 9500000,
         "total_addons": 400000,
         "dp_amount": 1900000,
-        "balance": 7600000,
-        "paid_amount": 1900000,
+        "balance": 0,
+        "paid_amount": 9500000,
         "due_date": "2026-07-13 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": "cc",
@@ -9665,6 +9665,22 @@
             "description": "Down Payment",
             "method": "Debit/Credit Card",
             "created_at": "2026-07-12 12:22:53",
+            "reference_present": true
+          },
+          {
+            "id": 863,
+            "nominal": 7200000,
+            "description": "Payment (Paid in Full)",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-19 21:56:05",
+            "reference_present": true
+          },
+          {
+            "id": 864,
+            "nominal": 400000,
+            "description": "Payment Add On",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-19 21:56:13",
             "reference_present": true
           }
         ]
@@ -10808,7 +10824,7 @@
       ],
       "addons": [
         {
-          "id": 684,
+          "id": 759,
           "name": "PADANGBAY",
           "qty": 1,
           "price": 1050000,
@@ -13017,7 +13033,7 @@
         "duration": "4D 3N",
         "travel_date_start": "2026-08-21",
         "travel_date_end": "2026-08-24",
-        "total_pax": 2
+        "total_pax": 3
       },
       "logistics": {
         "pickup": "Surabaya Hotel  Bumi Surabaya City Resort",
@@ -13076,11 +13092,19 @@
         {
           "day": 3,
           "name": "Doho Homestay",
-          "rooms": "Deluxe Double (1)",
+          "rooms": "Emerald Double (1), Extra bed (1)",
           "banner_present": true
         }
       ],
-      "addons": [],
+      "addons": [
+        {
+          "id": 760,
+          "name": "Upgrade accommodation to Manis Ae Bromo",
+          "qty": 1,
+          "price": 900000,
+          "subtotal": 900000
+        }
+      ],
       "crews": {
         "guides": [
           {
@@ -13108,14 +13132,14 @@
         }
       ],
       "finance": {
-        "grand_total": 9100000,
-        "total_addons": 0,
+        "grand_total": 13950000,
+        "total_addons": 900000,
         "dp_amount": 1820000,
         "balance": 0,
-        "paid_amount": 9100000,
+        "paid_amount": 13950000,
         "due_date": "2026-07-28 00:00:00",
         "initial_payment_method": "cc",
-        "balance_payment_method": null,
+        "balance_payment_method": "wise",
         "payment_link_present": true,
         "pending_upload_proof": false,
         "uploaded_payment_proof_present": false,
@@ -13134,6 +13158,22 @@
             "description": "Full Payment",
             "method": "Bank Transfer",
             "created_at": "2026-08-17 07:39:21",
+            "reference_present": true
+          },
+          {
+            "id": 865,
+            "nominal": 3950000,
+            "description": "Full Payment",
+            "method": "Bank Transfer",
+            "created_at": "2026-08-20 00:20:42",
+            "reference_present": true
+          },
+          {
+            "id": 866,
+            "nominal": 900000,
+            "description": "Payment Add On",
+            "method": "Bank Transfer",
+            "created_at": "2026-08-20 00:20:59",
             "reference_present": true
           }
         ]

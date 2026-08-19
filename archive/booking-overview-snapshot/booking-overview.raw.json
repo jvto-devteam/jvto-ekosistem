@@ -240,7 +240,7 @@
       "meeting_point": "Surabaya Airport",
       "meeting_point_arrival": "Terminal 2",
       "meeting_point_value": "TR296",
-      "pickup_time": "09:00",
+      "pickup_time": "09:50",
       "text": "Surabaya Airport Terminal 2 TR296"
     },
     "dropoff": {
@@ -11667,8 +11667,8 @@
     "is_shuttle": "NO",
     "at_ijen": "26 Aug 26",
     "financial": {
-      "payment": 1900000,
-      "balance": 7600000,
+      "payment": 9500000,
+      "balance": 0,
       "paymentMethod": "cc",
       "paymentMethodLink": "https://checkout.xendit.co/web/6a8526867fd413430bebe410",
       "invoice": {
@@ -11685,7 +11685,7 @@
         "expenseLink": "/finance/expense-manager/3605/edit",
         "target": "_blank"
       },
-      "profit": 353000
+      "profit": 1853000
     },
     "paymentHistory": [
       {
@@ -11698,6 +11698,28 @@
         "receipt": "RCP/046/08/26/1",
         "reference": "https://checkout.xendit.co/web/6a53240eee6a1021cfc1af5d",
         "date": "12 Jul 26 12:22"
+      },
+      {
+        "id": 863,
+        "booking_id": 3605,
+        "nominal": 7200000,
+        "paymentMethodId": 3,
+        "paymentMethod": "Debit/Credit Card",
+        "description": "Payment (Paid in Full)",
+        "receipt": "RCP/046/08/26/2",
+        "reference": "https://checkout.xendit.co/web/6a8526867fd413430bebe410",
+        "date": "19 Aug 26 21:56"
+      },
+      {
+        "id": 864,
+        "booking_id": 3605,
+        "nominal": 400000,
+        "paymentMethodId": 3,
+        "paymentMethod": "Debit/Credit Card",
+        "description": "Payment Add On",
+        "receipt": "RCP/046/08/26/3",
+        "reference": "https://checkout.xendit.co/web/6a8526867fd413430bebe410",
+        "date": "19 Aug 26 21:56"
       }
     ],
     "notes": ""
@@ -12955,7 +12977,7 @@
     "guestDetails": {
       "id": 3983,
       "name": "Camilla Verdi",
-      "phone": "+393425803002",
+      "phone": "+393425806002",
       "email": "camillaverdi11@gmail.com",
       "country_id": 107,
       "country": "Italy (Italia)",
@@ -15681,7 +15703,7 @@
       "country": "Italy (Italia)",
       "trip_media": "https://drive.google.com/drive/folders/16PK9o3R8KUHSCzBFzolIoF59alHAGS-Z"
     },
-    "total_pax": 2,
+    "total_pax": 3,
     "duration": "4D 3N",
     "package_id": 33,
     "package": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
@@ -15783,8 +15805,13 @@
         "hotel": "Doho Homestay",
         "rooms": [
           {
-            "roomId": 163,
-            "roomName": "Deluxe Double",
+            "roomId": 98,
+            "roomName": "Emerald Double",
+            "quantity": 1
+          },
+          {
+            "roomId": 168,
+            "roomName": "Extra bed",
             "quantity": 1
           }
         ],
@@ -15831,24 +15858,25 @@
     "is_shuttle": "NO",
     "at_ijen": "23 Aug 26",
     "financial": {
-      "payment": 9100000,
+      "payment": 13950000,
       "balance": 0,
-      "paymentMethod": null,
+      "paymentMethod": "wise",
       "paymentMethodLink": "https://checkout.xendit.co/web/6a7ece8a4e54ef9d36014884",
       "invoice": {
-        "total": 9100000,
+        "total": 13950000,
         "invoiceLink": [
-          "https://legacy.javavolcano-touroperator.com/backoffice/invoice/view-invoice/3675"
+          "https://legacy.javavolcano-touroperator.com/backoffice/invoice/view-invoice/3675",
+          "https://legacy.javavolcano-touroperator.com/backoffice/invoice/view-invoice/3675?addon=true"
         ]
       },
       "expense": {
-        "total": 6689000,
-        "crew_expense": "6419000.00",
-        "debt_expense": "270000.00",
+        "total": 9152000,
+        "crew_expense": "8747000.00",
+        "debt_expense": "405000.00",
         "expenseLink": "/finance/expense-manager/3675/edit",
         "target": "_blank"
       },
-      "profit": -4869000
+      "profit": 3898000
     },
     "paymentHistory": [
       {
@@ -15872,6 +15900,28 @@
         "receipt": "RCP/058/08/26/2",
         "reference": "https://prnt.sc/FZwi_2Mshkjr",
         "date": "17 Aug 26 07:39"
+      },
+      {
+        "id": 865,
+        "booking_id": 3675,
+        "nominal": 3950000,
+        "paymentMethodId": 6,
+        "paymentMethod": "Bank Transfer",
+        "description": "Full Payment",
+        "receipt": "RCP/058/08/26/3",
+        "reference": "https://prnt.sc/orZgNEnL3WIY",
+        "date": "20 Aug 26 00:20"
+      },
+      {
+        "id": 866,
+        "booking_id": 3675,
+        "nominal": 900000,
+        "paymentMethodId": 6,
+        "paymentMethod": "Bank Transfer",
+        "description": "Payment Add On",
+        "receipt": "RCP/058/08/26/4",
+        "reference": "https://prnt.sc/orZgNEnL3WIY",
+        "date": "20 Aug 26 00:20"
       }
     ],
     "notes": ""

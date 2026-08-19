@@ -133,7 +133,7 @@
         "meetingPoint": "Surabaya Airport",
         "arrival": "Terminal 2",
         "value": "TR296",
-        "time": "09:00",
+        "time": "09:50",
         "text": "Surabaya Airport Terminal 2 TR296",
         "complete": true
       },
@@ -8236,14 +8236,14 @@
       ],
       "payment": {
         "invoiceTotal": 9500000,
-        "paid": 1900000,
-        "balance": 7600000
+        "paid": 9500000,
+        "balance": 0
       },
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
         "hasHotels": true,
-        "balanceStatus": "balance_due"
+        "balanceStatus": "settled"
       }
     },
     {
@@ -11241,8 +11241,13 @@
           "hotel": "Doho Homestay",
           "rooms": [
             {
-              "roomId": 163,
-              "roomName": "Deluxe Double",
+              "roomId": 98,
+              "roomName": "Emerald Double",
+              "quantity": 1
+            },
+            {
+              "roomId": 168,
+              "roomName": "Extra bed",
               "quantity": 1
             }
           ],
@@ -11269,8 +11274,8 @@
         "Toyota Calya"
       ],
       "payment": {
-        "invoiceTotal": 9100000,
-        "paid": 9100000,
+        "invoiceTotal": 13950000,
+        "paid": 13950000,
         "balance": 0
       },
       "readiness": {
