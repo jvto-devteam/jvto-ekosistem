@@ -1,5 +1,5 @@
 {
-  "_comment": "Stable organization facts (AD-03). Values copied verbatim from the approved sources (docs/CANONICAL_FACTS.md + src/lib/schemas/entityGraph.ts). No PT incorporation year is asserted (owner decision 2026-08-03) — foundingDate 2015 is the brand/guesthouse era; 2023 is TDUP formalization. aggregateRating sourced from Google Maps only (owner decision 2026-08-15) — Trustpilot count still differs between review-platforms.json (51) and jvto-web/src/lib/jvtoReviews.ts (44), so Trustpilot is intentionally excluded from this node; Google Maps has no such conflict (live-verified 2026-08-15 against the production AggregateRating node, matches review-platforms.json profiles[].platform=='Google Maps').",
+  "_comment": "Stable organization facts (AD-03). Values copied verbatim from the approved sources (docs/CANONICAL_FACTS.md + src/lib/schemas/entityGraph.ts). No PT incorporation year is asserted (owner decision 2026-08-03) — foundingDate 2015 is the brand/guesthouse era; 2023 is TDUP formalization. This file asserts NO rating. The public rating is single-source and live: jvto-web getAggregateRating.ts reads the live Prisma review_stats row first, falling back to credentials-and-public-evidence/review-platforms.json (profiles[].platform=='Google Maps'). Owner decision 2026-08-15 stands — Google Maps only, never a blended average (Trustpilot counts still conflict: review-platforms.json 51 vs jvto-web/src/lib/jvtoReviews.ts 44). A duplicate aggregateRating field lived here until 2026-08-19; nothing read it (build-organization.mjs builds the node from an explicit allowlist), and its snapshot had already drifted — 149 here vs 152 served in production — so it was removed rather than left as a trap for the next audit to 'reconnect'.",
   "legalName": "PT Java Volcano Rendezvous",
   "brandName": "Java Volcano Tour Operator",
   "shortName": "JVTO",
@@ -114,15 +114,6 @@
       "publisherName": "DuMont Reiseverlag"
     }
   ],
-  "aggregateRating": {
-    "ratingValue": 4.9,
-    "reviewCount": 149,
-    "bestRating": 5,
-    "worstRating": 1,
-    "source": "Google Maps",
-    "sourceUrl": "https://www.google.com/maps?cid=1266403973589689021",
-    "verifiedAt": "2026-08-15"
-  },
   "bookingChannel": "Website only — bookings are created, confirmed, modified, cancelled, and transferred only on javavolcano-touroperator.com; WhatsApp and email are support channels.",
   "lastReviewed": "2026-08-04",
   "owner": "organization-identity",
