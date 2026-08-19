@@ -1,10 +1,16 @@
-import { mkdir, readFile, writeFile, rm } from "node:fs/promises";
+import { mkdir, readFile, readdir, writeFile, rm } from "node:fs/promises";
 import path from "node:path";
 import {
   fetchBookingOverviewMonth as defaultFetchBookingOverviewMonth,
   fetchCustomerPortalDetail as defaultFetchCustomerPortalDetail,
 } from "./lib/booking-sync/fetch.mjs";
-import { diffManifest } from "./lib/booking-sync/manifest.mjs";
+import { diffManifest, extractSlug } from "./lib/booking-sync/manifest.mjs";
+
+// A single run may legitimately drop a few bookings (real cancellations), but a
+// large fraction disappearing at once is far more likely to be a degraded
+// upstream (auth change, filter regression, partial outage) than reality.
+const MASS_REMOVAL_THRESHOLD = 0.3;
+const DETAIL_FILE_SUFFIX = ".raw.json";
 
 function currentAndNextMonth(now) {
   const year = now.getUTCFullYear();
@@ -55,11 +61,34 @@ export async function runSync({
 
   const diff = diffManifest(previousManifest, records);
 
+  // Guard against a degraded upstream wiping the archive: if a large share of
+  // the previously known bookings vanished in one run, abort before fetching
+  // details or writing anything. Runs in dry-run too — surfacing this is
+  // exactly what a dry-run is for.
+  const previousCount = Object.keys(previousManifest).length;
+  if (previousCount > 0 && diff.removed.length > previousCount * MASS_REMOVAL_THRESHOLD) {
+    throw new Error(
+      `booking-sync aborted: ${diff.removed.length} of ${previousCount} previously known booking(s) ` +
+        `disappeared from this booking-overview fetch, above the ` +
+        `${Math.round(MASS_REMOVAL_THRESHOLD * 100)}% mass-removal threshold. ` +
+        `This almost certainly means an upstream outage, auth change, or API/filter change — ` +
+        `not that many real cancellations. Nothing was fetched or written; re-run once the ` +
+        `endpoint is healthy.`
+    );
+  }
+
   const detailResults = [];
+  const failedDetailBookingIds = [];
+  const failedDetailSlugs = [];
   for (const bookingId of [...diff.added, ...diff.updated]) {
     const slug = diff.manifest[bookingId].slug;
     if (!slug) continue;
-    detailResults.push(await fetchCustomerPortalDetail(slug));
+    const detail = await fetchCustomerPortalDetail(slug);
+    detailResults.push(detail);
+    if (!detail.ok) {
+      failedDetailBookingIds.push(bookingId);
+      failedDetailSlugs.push(slug);
+    }
   }
 
   const report = {
@@ -69,10 +98,25 @@ export async function runSync({
     removed: diff.removed,
     updated: diff.updated,
     unchangedCount: diff.unchanged.length,
+    failedDetailFetches: failedDetailSlugs,
   };
 
-  if (dryRun) {
+  const hasChanges = diff.added.length > 0 || diff.removed.length > 0 || diff.updated.length > 0;
+
+  // A run with nothing to sync must leave the working tree byte-identical, so
+  // the workflow's git-status check finds nothing and no empty commit is made.
+  if (dryRun || !hasChanges) {
     return { diff, report, detailResults };
+  }
+
+  // Bookings whose detail fetch failed are deliberately left out of the
+  // persisted sync-manifest.json: next run diffManifest sees them as absent
+  // from the previous manifest, classifies them `added`, and retries the
+  // fetch. diff.manifest itself stays intact — fetch-manifest.json below still
+  // needs its slugs, including an honest failed entry for those bookings.
+  const persistedManifest = { ...diff.manifest };
+  for (const bookingId of failedDetailBookingIds) {
+    delete persistedManifest[bookingId];
   }
 
   await mkdir(overviewDir, { recursive: true });
@@ -80,12 +124,15 @@ export async function runSync({
 
   await writeFile(path.join(overviewDir, "booking-overview.raw.json"), JSON.stringify(records, null, 2) + "\n");
   await writeFile(path.join(overviewDir, "headers.txt"), currentResult.headers + "\n");
-  await writeFile(path.join(overviewDir, "sync-manifest.json"), JSON.stringify(diff.manifest, null, 2) + "\n");
-  await writeFile(path.join(overviewDir, "sync-report.json"), JSON.stringify(report, null, 2) + "\n");
 
+  // Detail files land before sync-manifest.json: nothing may claim a booking
+  // is current until its detail file is actually on disk.
   for (const detail of detailResults) {
+    // A failed fetch must never overwrite an existing (possibly stale but
+    // real) detail file with an error payload.
+    if (!detail.ok) continue;
     await writeFile(
-      path.join(portalDetailsDir, `${detail.slug}.raw.json`),
+      path.join(portalDetailsDir, `${detail.slug}${DETAIL_FILE_SUFFIX}`),
       JSON.stringify({ slug: detail.slug, url: detail.url, statusCode: detail.statusCode, ok: detail.ok, json: detail.json }, null, 2) + "\n"
     );
   }
@@ -93,9 +140,25 @@ export async function runSync({
   for (const bookingId of diff.removed) {
     const slug = previousManifest[bookingId]?.slug;
     if (slug) {
-      await rm(path.join(portalDetailsDir, `${slug}.raw.json`), { force: true });
+      await rm(path.join(portalDetailsDir, `${slug}${DETAIL_FILE_SUFFIX}`), { force: true });
     }
   }
+
+  // Prune any detail file whose slug is absent from the current fetch entirely
+  // (slug rotation, or drift that never went through diff.removed) — stale
+  // customer PII must not linger in the repo. A booking still present in
+  // `records` keeps its file even if its detail fetch failed this run.
+  const currentSlugs = new Set(records.map((record) => extractSlug(record.customer_portal)).filter(Boolean));
+  for (const entry of await readdir(portalDetailsDir)) {
+    if (!entry.endsWith(DETAIL_FILE_SUFFIX)) continue;
+    const slug = entry.slice(0, -DETAIL_FILE_SUFFIX.length);
+    if (!currentSlugs.has(slug)) {
+      await rm(path.join(portalDetailsDir, entry), { force: true });
+    }
+  }
+
+  await writeFile(path.join(overviewDir, "sync-manifest.json"), JSON.stringify(persistedManifest, null, 2) + "\n");
+  await writeFile(path.join(overviewDir, "sync-report.json"), JSON.stringify(report, null, 2) + "\n");
 
   const manifestEntries = [...diff.added, ...diff.updated, ...diff.unchanged].map((bookingId) => {
     const slug = diff.manifest[bookingId].slug;
@@ -128,5 +191,12 @@ if (isMainModule) {
   console.log(JSON.stringify(result.report, null, 2));
   if (dryRun) {
     console.log(`[dry-run] would fetch/keep ${result.detailResults.length} customer-portal detail(s); no files written.`);
+  } else if (result.report.added.length === 0 && result.report.removed.length === 0 && result.report.updated.length === 0) {
+    console.log("No added/removed/updated bookings; nothing written.");
+  }
+  if (result.report.failedDetailFetches.length > 0) {
+    console.warn(
+      `[warn] ${result.report.failedDetailFetches.length} customer-portal detail fetch(es) failed and will be retried next run: ${result.report.failedDetailFetches.join(", ")}`
+    );
   }
 }
