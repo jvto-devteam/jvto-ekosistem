@@ -17301,7 +17301,9 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
+      "vehicles": [
+        "Avanza Sub"
+      ],
       "payment": {
         "invoiceTotal": 6200000,
         "paid": 0,

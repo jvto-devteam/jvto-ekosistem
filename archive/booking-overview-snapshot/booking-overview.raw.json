@@ -356,7 +356,7 @@
         "name": "Sahril",
         "tags": "JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1777815704_Screenshot 2026-05-03 at 20.41.15.png",
-        "recap_this_month_escort": 3
+        "recap_this_month_escort": 4
       }
     ],
     "guides": [
@@ -554,7 +554,7 @@
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528760_BOY.JPG",
         "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "recap_this_month_ijen": 4
       }
     ],
     "is_shuttle": "NO",
@@ -7892,7 +7892,7 @@
         "name": "Sahril",
         "tags": "JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1777815704_Screenshot 2026-05-03 at 20.41.15.png",
-        "recap_this_month_escort": 3
+        "recap_this_month_escort": 4
       }
     ],
     "guides": [
@@ -7903,7 +7903,7 @@
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528760_BOY.JPG",
         "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "recap_this_month_ijen": 4
       }
     ],
     "is_shuttle": "YES",
@@ -8974,13 +8974,13 @@
         "recap_this_month_ijen": 4
       },
       {
-        "id": 46,
-        "name": "Fauzi",
+        "id": 4,
+        "name": "Taufik",
         "type": "Ijen",
         "tags": "JVTO,KLOOK,TWT",
-        "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528816_FAUZI.JPG",
-        "recap_this_month_escort": 3,
-        "recap_this_month_ijen": 5
+        "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528916_TAUFIK.JPG",
+        "recap_this_month_escort": 5,
+        "recap_this_month_ijen": 2
       }
     ],
     "is_shuttle": "YES",
@@ -10272,7 +10272,7 @@
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528760_BOY.JPG",
         "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "recap_this_month_ijen": 4
       }
     ],
     "is_shuttle": "NO",
@@ -11661,7 +11661,7 @@
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528760_BOY.JPG",
         "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "recap_this_month_ijen": 4
       }
     ],
     "is_shuttle": "NO",
@@ -15180,7 +15180,7 @@
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528760_BOY.JPG",
         "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "recap_this_month_ijen": 4
       }
     ],
     "is_shuttle": "NO",
@@ -15378,7 +15378,7 @@
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528760_BOY.JPG",
         "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "recap_this_month_ijen": 4
       }
     ],
     "is_shuttle": "NO",
@@ -17158,7 +17158,7 @@
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528760_BOY.JPG",
         "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "recap_this_month_ijen": 4
       }
     ],
     "is_shuttle": "NO",
@@ -17285,7 +17285,7 @@
         "name": "Sahril",
         "tags": "JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1777815704_Screenshot 2026-05-03 at 20.41.15.png",
-        "recap_this_month_escort": 3
+        "recap_this_month_escort": 4
       }
     ],
     "guides": [],
@@ -17295,7 +17295,7 @@
       "payment": 1120000,
       "balance": 4480000,
       "paymentMethod": null,
-      "paymentMethodLink": null,
+      "paymentMethodLink": "https://checkout.xendit.co/web/6a85660b965f2db2d9b61234",
       "invoice": {
         "total": 5600000,
         "invoiceLink": [
@@ -21314,7 +21314,7 @@
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528760_BOY.JPG",
         "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "recap_this_month_ijen": 4
       }
     ],
     "is_shuttle": "NO",
@@ -23945,7 +23945,7 @@
       "email": "hans861021@gmail.com",
       "country_id": 213,
       "country": "Taiwan (台灣)",
-      "trip_media": null
+      "trip_media": "https://drive.google.com/drive/folders/1J1-HJ-zGPMum6KypmMtJegMrA826NoFo"
     },
     "total_pax": 2,
     "duration": "3D 2N",
@@ -24046,9 +24046,29 @@
       "xxl": 0,
       "xxxl": 0
     },
-    "vehicles": [],
-    "drivers": [],
-    "guides": [],
+    "vehicles": [
+      "Avanza Sub"
+    ],
+    "drivers": [
+      {
+        "id": 80,
+        "name": "Sahril",
+        "tags": "JVTO,KLOOK",
+        "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1777815704_Screenshot 2026-05-03 at 20.41.15.png",
+        "recap_this_month_escort": 4
+      }
+    ],
+    "guides": [
+      {
+        "id": 68,
+        "name": "Boy",
+        "type": "Ijen",
+        "tags": "JVTO,KLOOK,TWT",
+        "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528760_BOY.JPG",
+        "recap_this_month_escort": 6,
+        "recap_this_month_ijen": 4
+      }
+    ],
     "is_shuttle": "NO",
     "at_ijen": "30 Aug 26",
     "financial": {
@@ -24063,16 +24083,16 @@
         ]
       },
       "expense": {
-        "total": 5015000,
-        "crew_expense": "1300000.00",
-        "debt_expense": "3715000.00",
+        "total": 5135000,
+        "crew_expense": "770000.00",
+        "debt_expense": "4365000.00",
         "expenseLink": "/finance/expense-manager/3770/edit",
         "target": "_blank"
       },
-      "profit": 1185000
+      "profit": 1065000
     },
     "paymentHistory": [],
-    "notes": null
+    "notes": ""
   },
   {
     "booking_id": 3774,

@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-operations/customer-portal-crew-records-v1",
-  "generated_at": "2026-08-19T11:01:54.506Z",
+  "generated_at": "2026-08-19T12:29:55.763Z",
   "privacy": "Crew names and public-facing roles/photos-present flags are retained; crew phone numbers are not present in the source portal payload and are not stored.",
   "record_count": 136,
   "records": [
@@ -795,8 +795,8 @@
             "photo_present": true
           },
           {
-            "id": 46,
-            "name": "Fauzi",
+            "id": 4,
+            "name": "Taufik",
             "role": "Ijen Guide",
             "photo_present": true
           }
@@ -2178,8 +2178,22 @@
       "package_name": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
       "travel_date_start": "2026-08-29",
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 68,
+            "name": "Boy",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 80,
+            "name": "Sahril",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       }
     },
     {

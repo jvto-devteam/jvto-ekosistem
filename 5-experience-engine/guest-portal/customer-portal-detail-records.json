@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-experience-output/customer-portal-detail-records-v1",
-  "generated_at": "2026-08-19T11:01:54.507Z",
+  "generated_at": "2026-08-19T12:29:55.764Z",
   "source": "legacy customer portal details, sanitized from /bookings/details/{portal_slug}?json=true",
   "record_count": 136,
   "records": [
@@ -7332,8 +7332,8 @@
             "photo_present": true
           },
           {
-            "id": 46,
-            "name": "Fauzi",
+            "id": 4,
+            "name": "Taufik",
             "role": "Ijen Guide",
             "photo_present": true
           }
@@ -14282,7 +14282,7 @@
         "due_date": "2026-08-01 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
-        "payment_link_present": false,
+        "payment_link_present": true,
         "pending_upload_proof": false,
         "uploaded_payment_proof_present": false,
         "payment_history": [
@@ -19984,8 +19984,22 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 68,
+            "name": "Boy",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 80,
+            "name": "Sahril",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -20039,7 +20053,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {

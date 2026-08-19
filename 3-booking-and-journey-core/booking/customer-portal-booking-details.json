@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-booking/customer-portal-booking-details-v1",
-  "generated_at": "2026-08-19T11:01:54.502Z",
+  "generated_at": "2026-08-19T12:29:55.757Z",
   "privacy": "No customer names, contact details, portal slugs, payment links, media links, payment references, or uploaded proof URLs are stored.",
   "record_count": 136,
   "records": [
@@ -4775,7 +4775,7 @@
         "due_date": "2026-08-01 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
-        "payment_link_present": false,
+        "payment_link_present": true,
         "pending_upload_proof": false,
         "uploaded_payment_proof_present": false,
         "payment_history": [
