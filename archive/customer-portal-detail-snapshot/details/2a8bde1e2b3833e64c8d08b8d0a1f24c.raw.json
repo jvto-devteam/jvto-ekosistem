@@ -43,7 +43,14 @@
             "role": "Ijen Guide"
           }
         ],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 83,
+            "name": "Toriq",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1786428330_WhatsApp Image 2026-08-11 at 12.29.25.jpeg",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {
@@ -120,12 +127,12 @@
         "grand_total": 14700000,
         "total_addons": 600000,
         "dp_amount": 2940000,
-        "balance": 11760000,
-        "paid_amount": 2940000,
+        "balance": 0,
+        "paid_amount": 14700000,
         "due_date": "2026-08-04 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": "cc",
-        "payment_link": "https://checkout.xendit.co/web/6a705dcb11533ae51b0308d3",
+        "payment_link": "https://checkout.xendit.co/web/6a817191d4dcf07d62240c34",
         "pending_upload_proof": false,
         "uploaded_payment_proof": null,
         "payment_history": [
@@ -136,6 +143,22 @@
             "reference": "https://checkout.xendit.co/web/6a705b8971871e898c5314f9",
             "method": "Debit/Credit Card",
             "created_at": "2026-08-03 16:21:46"
+          },
+          {
+            "id": 856,
+            "nominal": 11160000,
+            "description": "Payment (Paid in Full)",
+            "reference": "https://checkout.xendit.co/web/6a817191d4dcf07d62240c34",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-16 22:55:49"
+          },
+          {
+            "id": 857,
+            "nominal": 600000,
+            "description": "Payment Add On",
+            "reference": "https://checkout.xendit.co/web/6a817191d4dcf07d62240c34",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-16 22:55:57"
           }
         ]
       },

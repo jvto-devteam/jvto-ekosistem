@@ -43,20 +43,13 @@
             "role": "Escort Guide"
           },
           {
-            "id": 46,
-            "name": "Fauzi",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528816_FAUZI.JPG",
+            "id": 3,
+            "name": "Anjas",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528725_ANJAS.JPG",
             "role": "Ijen Guide"
           }
         ],
-        "drivers": [
-          {
-            "id": 75,
-            "name": "Didin",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528640_Adim 2.jpeg",
-            "role": "Driver"
-          }
-        ]
+        "drivers": []
       },
       "vehicle_specs": [
         {

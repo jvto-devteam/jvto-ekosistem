@@ -131,8 +131,8 @@
         "paid_amount": 1900000,
         "due_date": "2026-07-13 00:00:00",
         "initial_payment_method": "cc",
-        "balance_payment_method": null,
-        "payment_link": null,
+        "balance_payment_method": "cc",
+        "payment_link": "https://checkout.xendit.co/web/6a8526867fd413430bebe410",
         "pending_upload_proof": false,
         "uploaded_payment_proof": null,
         "payment_history": [

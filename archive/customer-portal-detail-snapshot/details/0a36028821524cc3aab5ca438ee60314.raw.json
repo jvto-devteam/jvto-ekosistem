@@ -20,17 +20,17 @@
       "travel_date_start": "2026-08-22",
       "travel_date_end": "2026-08-25",
       "total_pax": 2,
-      "pickup": "  ",
-      "pickup_time": null,
+      "pickup": "Surabaya Train Station (Train from Yogyakarta to Surabaya, Line: Sancaka 82B, arrival time: 15:32)",
+      "pickup_time": "15:35:00",
       "drop": "  ",
       "drop_time": null,
       "special_requirements": null,
       "media_link": "https://drive.google.com/drive/folders/1m8E3RWiRqEFgzXdeK5cvOmaki_Kh2lWu",
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
+        "s": 1,
         "m": 0,
-        "l": 0,
+        "l": 1,
         "xl": 0,
         "xxl": 0
       },
@@ -40,17 +40,10 @@
             "id": 46,
             "name": "Fauzi",
             "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528816_FAUZI.JPG",
-            "role": "Ijen Guide"
+            "role": "Escort Guide"
           }
         ],
-        "drivers": [
-          {
-            "id": 62,
-            "name": "Yusuf",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1723647328_WhatsApp Image 2024-08-14 at 20.45.38.jpeg",
-            "role": "Driver"
-          }
-        ]
+        "drivers": []
       },
       "vehicle_specs": [
         {
@@ -131,8 +124,8 @@
         "paid_amount": 2000000,
         "due_date": "2026-08-04 00:00:00",
         "initial_payment_method": "cc",
-        "balance_payment_method": null,
-        "payment_link": null,
+        "balance_payment_method": "cash",
+        "payment_link": "https://checkout.xendit.co/web/6a8020115b9a0ee4d8e83b21",
         "pending_upload_proof": false,
         "uploaded_payment_proof": null,
         "payment_history": [

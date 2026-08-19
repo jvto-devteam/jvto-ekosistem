@@ -43,7 +43,14 @@
             "role": "Ijen Guide"
           }
         ],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 81,
+            "name": "Romi",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1777815953_Screenshot 2026-05-03 at 20.45.21.png",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {

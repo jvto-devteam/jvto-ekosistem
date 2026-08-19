@@ -1,15 +1,17 @@
-HTTP/2 200 
-x-powered-by: PHP/8.2.32
-cache-control: no-cache, private
-content-type: application/json
-vary: X-Inertia,User-Agent
-set-cookie: XSRF-TOKEN=eyJpdiI6IlN2UnFsNm4rSHlDc1oyS0NmN0RuMEE9PSIsInZhbHVlIjoiZENXNG9DMVFka1dWeE4zdzRtdnpnMWo4Y1h1N2JadGNDTkxRaHZrY3VLbEdDNnd5eXV2eUhWdUdEc0cwdWRrZHlHU1FPK1dCcDNubXQ3RXlzYlhpYnNvekEvTTlndklQUlEzbTZUeDRGbTA0RjVrbnlzWDhFVWZlRWx4UVpNR3ciLCJtYWMiOiJlMmRkYWM1MjA2Y2E2YTk1YjQyYjQ0YTVlZTgwODlmMjJhMTNmMzU1Y2ZjNGUwODNjZGY2ZGYyZDRiYmQyZTI1IiwidGFnIjoiIn0%3D; expires=Fri, 07 Aug 2026 02:05:42 GMT; Max-Age=7200; path=/; secure; samesite=lax
-set-cookie: laravel_session=eyJpdiI6IlUxNWlPME1qT3Jyblp0UHJxQXZGN2c9PSIsInZhbHVlIjoiRlZUOERtQ0dxN1A0SVpLMWUrcHA3QlBCcEZWMTNBcnNkSm51c3JhRTR0L2dHcldJZVFlZEUyUWc5Q2RxRCtDSmZCRVdERUlMTkh4ZHJzU2cxNEN1LzlReEx1VW96M281RytHWlE4czUxUmNxYlZoVER0a0xEOTNOOGFoTHduNlgiLCJtYWMiOiI2ODJlODBlMzZmNzBjYjEzN2VhZDM4MjhkNWMxOTE0YjViM2I5Mjk2OGE2NDU2YjY4OTdlYTY4MDJjNjZkMWJkIiwidGFnIjoiIn0%3D; expires=Fri, 07 Aug 2026 02:05:42 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax
-date: Fri, 07 Aug 2026 00:05:42 GMT
-server: LiteSpeed
-platform: hostinger
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-xss-protection: 1; mode=block
-x-content-type-options: nosniff
 alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000
-
+cache-control: no-cache, private
+connection: Keep-Alive
+content-encoding: br
+content-type: application/json
+date: Wed, 19 Aug 2026 06:27:34 GMT
+keep-alive: timeout=5, max=100
+platform: hostinger
+server: LiteSpeed
+set-cookie: XSRF-TOKEN=eyJpdiI6ImxDZ2hZR2FDYk5kYTJCNklET2N6YXc9PSIsInZhbHVlIjoia1lIbEV5U0tPSkpGQndMSmc3YWdHTUdwQktTNXl0NWZSSnFYb1orMC9LZW1RVjVrQ3NScVhDc1huaGVlK2FYdDJFUEFTdUxXK1VrRkVITVBpN09GZmFxMDFjQmxta0hjeTlLZUdTY0FsRVBsd1IzbDJxOXdlOXYxRnNFb0ZhRFIiLCJtYWMiOiJmNDEzMzYyMjdhNzcyNjA4YzkxYWU1MjRjNDVjNmY4Yjk2OGVjZjc3ZGUxMWU0YzJkNjQ2OTBjOTViOTMwMjQwIiwidGFnIjoiIn0%3D; expires=Wed, 19 Aug 2026 08:27:34 GMT; Max-Age=7200; path=/; secure; samesite=lax
+set-cookie: laravel_session=eyJpdiI6IkdINUxRM0E5cGtyamw5bFd0QlBYNFE9PSIsInZhbHVlIjoiVTdTK0c3NklrMGwxaXBJQ1g2bW5EazFSdU80ZmlwTUVGeTN2dWFIcDdqMHRPdFJIZjgyamgvbERVMTl5MjQxRTk4M2h6ZjI1dWEvekJESzhVMSt0OTB4aGp5ak92QWR3NUMxeDhVbVA5cGIwZXh0MjZ2ME9QdmIvMUppODZ0K3YiLCJtYWMiOiIwNjY2Mzg2YzA2MzljYmNjMDI5OTQ5ZGZkYmFkYWMzYzVhMmM5ZjQ4Mjk0ZTQxNTE2NTcyOWYyOWE3N2Y2Nzk3IiwidGFnIjoiIn0%3D; expires=Wed, 19 Aug 2026 08:27:34 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+transfer-encoding: chunked
+vary: X-Inertia,Accept-Encoding,User-Agent
+x-content-type-options: nosniff
+x-powered-by: PHP/8.2.32
+x-xss-protection: 1; mode=block

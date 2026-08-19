@@ -37,9 +37,9 @@
       "crews": {
         "guides": [
           {
-            "id": 46,
-            "name": "Fauzi",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528816_FAUZI.JPG",
+            "id": 17,
+            "name": "Kiki",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528887_KIKI.JPG",
             "role": "Ijen Guide"
           }
         ],
@@ -119,12 +119,12 @@
         "grand_total": 9100000,
         "total_addons": 0,
         "dp_amount": 1820000,
-        "balance": 7280000,
-        "paid_amount": 1820000,
+        "balance": 0,
+        "paid_amount": 9100000,
         "due_date": "2026-07-28 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
-        "payment_link": null,
+        "payment_link": "https://checkout.xendit.co/web/6a7ece8a4e54ef9d36014884",
         "pending_upload_proof": false,
         "uploaded_payment_proof": null,
         "payment_history": [
@@ -135,6 +135,14 @@
             "reference": "https://checkout.xendit.co/web/6a67597bec369a2e447a96bf",
             "method": "Debit/Credit Card",
             "created_at": "2026-07-27 20:18:42"
+          },
+          {
+            "id": 858,
+            "nominal": 7280000,
+            "description": "Full Payment",
+            "reference": "https://prnt.sc/FZwi_2Mshkjr",
+            "method": "Bank Transfer",
+            "created_at": "2026-08-17 07:39:21"
           }
         ]
       },

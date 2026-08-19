@@ -86,18 +86,18 @@
           "day": 1,
           "name": "Joglo Kecombrang Bromo",
           "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/kecombrang.jpg",
-          "rooms": "Double (3), Family (1)"
+          "rooms": ""
         },
         {
           "day": 2,
           "name": "Riverside Homestay",
           "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/riverside.png",
-          "rooms": "Deluxe Twin (3), Emerald Twin (1), Extra Bed (1)"
+          "rooms": ""
         }
       ],
       "addons": [],
       "finance": {
-        "grand_total": 22950000,
+        "grand_total": 4590000,
         "total_addons": 0,
         "dp_amount": 4590000,
         "balance": 18360000,

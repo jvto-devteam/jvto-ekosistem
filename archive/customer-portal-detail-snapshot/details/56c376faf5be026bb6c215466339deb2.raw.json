@@ -21,11 +21,11 @@
       "travel_date_end": "2026-08-24",
       "total_pax": 2,
       "pickup": "",
-      "pickup_time": null,
-      "drop": "QG693",
-      "drop_time": null,
+      "pickup_time": "11:00:00",
+      "drop": "Surabaya Airport Terminal 2 QG693",
+      "drop_time": "19:50:00",
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/1XmW2jLnyTTUkKllLIPymsAPbdlSRRcbM",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -36,7 +36,14 @@
       },
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 84,
+            "name": "Zamroni",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1786428769_zamroni Medium.jpeg",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {
@@ -58,46 +65,46 @@
         {
           "day": 1,
           "title": "Day 1",
-          "itinerary": "Arrival in Surabaya and Journey to Bondowoso",
-          "activity": "<p>Arrival in Surabaya and Scenic Transfer to Bondowoso</p><p>Your exciting Bromo and Ijen adventure begins with a warm welcome at Surabaya Airport. We’ll pick you up (best before noon) and start our scenic 5-hour drive to Bondowoso. Along the way, we’ll stop at a local restaurant in Probolinggo for lunch at your own expense. Enjoy the changing landscapes as you make your way towards Bondowoso.</p><p><br></p><p>#next-stop#</p><p>Arrival at hotel</p><p>After arriving at hotel in Bondowoso, take some time to relax and settle in. Enjoy a delicious dinner and rest up for the next day’s adventure.</p>"
+          "itinerary": "Surabaya Hotel - Bromo Area",
+          "activity": "Pick up from Surabaya Hotel - Transfer to hotel in Bromo area  - Check in - Take a rest."
         },
         {
           "day": 2,
           "title": "Day 2",
-          "itinerary": "Ijen Crater Adventure and Papuma Beach Sunset",
-          "activity": "<p>Ijen Crater Exploration</p>"
+          "itinerary": "Bromo Sunrise - Bondowoso",
+          "activity": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim - Whispering Sands) - Breakfast and Shower - check out - Transfer to hotel in Bondowoso City - Check in - Dinner - Take a rest"
         },
         {
           "day": 3,
           "title": "Day 3",
-          "itinerary": "Tumpak Sewu Waterfall and Journey to Bromo",
-          "activity": "<p>Tumpak Sewu Waterfall: The Thousand Waterfalls</p><p>Our journey begins early at 4:00 AM as we check out and head to Tumpak Sewu Waterfall, one of the most beautiful waterfalls in Java. Known for its unique half-circle formation, the waterfall consists of multiple mini-waterfalls cascading from a height of around 300 meters. A short, adventurous trek takes you across rocks and streams to reach the waterfall, so be sure to bring appropriate trekking sandals or shoes.</p><p><br></p><p>#next-stop#</p><p>Lunch and Journey to Bromo</p><p>After exploring the falls and perhaps even enjoying a natural water spa, we will have lunch before continuing our journey to the Bromo area. The drive will take approximately 4 hours, bringing you closer to the iconic Bromo Volcano.</p>"
+          "itinerary": "Ijen Crater - Papuma Beach Sunset",
+          "activity": "Depart from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - Continue to Papuma Beach - check in hotel."
         },
         {
           "day": 4,
           "title": "Day 4",
-          "itinerary": "Bromo Sunrise Adventure and Return to Surabaya",
-          "activity": "<p>Bromo Stargazing and Sunrise</p><p>Prepare for an early morning adventure starting at 2:00 AM as we set out for stargazing and a Milky Way view at Mount Bromo. As the first rays of dawn break, witness the spectacular sunrise over the Bromo landscape. The majestic views of Mount Batok, Mount Bromo, and Mount Semeru will take your breath away, as they rise from the flat volcanic sand bed of the caldera.</p><p><br></p><p>#next-stop#</p><p>Exploring the Heart of Bromo</p><p>After sunrise, we will continue our journey on a thrilling 4WD ride over the vast Sand Sea to the Poten Temple. From here, you can either take a 3km hike or a pony ride to the base of Mount Bromo, where you will ascend 253 steps to reach the crater rim and witness the raw power of the volcano up close.</p><p><br></p><p>#next-stop#</p><p>Return to Surabaya</p><p>After a morning filled with adventure, we will head back to Surabaya. Depending on your travel plans, we recommend booking a flight or train departing after 6:00 PM. End your trip with wonderful memories of East Java’s volcanic wonders.</p>"
+          "itinerary": "Tumpak Sewu - Surabaya Airport",
+          "activity": "Check out and depart to Tumpak Sewu - explore Tumpak Sewu (Around 5hours) - Shower and Lunch - Transfer to Surabaya Airport - End program"
         }
       ],
       "accommodations": [
         {
           "day": 1,
+          "name": "Joglo Kecombrang Bromo",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/kecombrang.jpg",
+          "rooms": "Double (1)"
+        },
+        {
+          "day": 2,
           "name": "Baratha Hotel and Resto",
           "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/1722672641_Baratha-Hotel-Resto-Bondowoso-Exterior.jfif",
           "rooms": "Deluxe Double (1)"
         },
         {
-          "day": 2,
+          "day": 3,
           "name": "Doho Homestay",
           "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/1722678237_getlstd-property-photo.jpg",
           "rooms": "Deluxe Double (1)"
-        },
-        {
-          "day": 3,
-          "name": "Joglo Kecombrang Bromo",
-          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/kecombrang.jpg",
-          "rooms": "Double (1)"
         }
       ],
       "addons": [],
@@ -107,7 +114,7 @@
         "dp_amount": 0,
         "balance": 7500000,
         "paid_amount": 0,
-        "due_date": null,
+        "due_date": "1970-01-01 00:00:00",
         "initial_payment_method": "pay later",
         "balance_payment_method": null,
         "payment_link": null,

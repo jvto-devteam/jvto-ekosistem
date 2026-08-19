@@ -35,19 +35,12 @@
         "xxl": 0
       },
       "crews": {
-        "guides": [
-          {
-            "id": 13,
-            "name": "Rendi",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528903_RENDI.JPG",
-            "role": "Ijen Guide"
-          }
-        ],
+        "guides": [],
         "drivers": [
           {
-            "id": 62,
-            "name": "Yusuf",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1723647328_WhatsApp Image 2024-08-14 at 20.45.38.jpeg",
+            "id": 82,
+            "name": "Egy",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1786426817_WhatsApp Image 2026-08-11 at 12.29.25.jpeg",
             "role": "Driver"
           }
         ]
