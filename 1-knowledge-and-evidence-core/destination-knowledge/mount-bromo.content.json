@@ -4331,21 +4331,25 @@
   },
   "why_jvto_tiles": [
     {
+      "icon": "shield",
       "title": "Police-led",
       "desc": "Founder Mr. Sam (Bripka Agung Sambuko) is an active Ditpamobvit officer. Route decisions answer to police protocol, not marketing metrics.",
       "meta": "Authority"
     },
     {
+      "icon": "crew",
       "title": "100% private",
       "desc": "Your own vehicle, driver, and crew — no shared jeeps, no strangers, no compromise on timing or pace.",
       "meta": "Private"
     },
     {
+      "icon": "checklist",
       "title": "All-inclusive",
       "desc": "Transport, entrance fees, accommodation, water, and T-shirt bundled. No surprise local payments on the day.",
       "meta": "Written inclusions"
     },
     {
+      "icon": "calendar",
       "title": "Verifiable",
       "desc": "NIB 1102230032918 checkable at OSS. POLPAR, BBKSDA, and HPWKI credentials listed. Every document publicly verifiable before you pay.",
       "meta": "Proof library"
