@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-19T03:08:24.059Z",
+  "generated_at": "2026-08-19T03:24:55.087Z",
   "route": "/tours",
   "domain": "tours",
   "slug": "index",
@@ -173,6 +173,6 @@
     "source_files": [
       "jvto-web:src/app/(website)/tours/page.tsx (fallbackSeo constant)"
     ],
-    "migration_note": "Relocated verbatim from jvto-web's inline fallbackSeo constant as part of the single-content-source (ekosistem-only) consolidation — text unchanged, only its canonical home moved. The live package grid stays DB-owned via getWebPackagesList()."
+    "migration_note": "Relocated verbatim from jvto-web's inline fallbackSeo constant as part of the single-content-source (ekosistem-only) consolidation — text unchanged, only its canonical home moved. The live package grid stays DB-owned via getWebPackagesList(). Follow-up 2026-08-19: added pageContent.hubFaqPairs — the 3 hub-level FAQ Q&A pairs (Bali vs Surabaya, Ijen vs Bromo, shortest vs longest) previously hardcoded in jvto-web's src/lib/tourFaqs.ts getToursHubQaPairs(), used to build the /tours FAQPage JSON-LD."
   }
 }

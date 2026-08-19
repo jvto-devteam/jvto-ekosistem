@@ -23,7 +23,9 @@
     "title": "All Private Tours | East Java & Bali Adventures",
     "description": "Browse JVTO private East Java tours from Surabaya or Bali, including Bromo sunrise, Ijen blue fire, Tumpak Sewu, Madakaripura, and Papuma Beach.",
     "canonicalRoute": "/tours",
-    "schemaTypes": ["WebPage"]
+    "schemaTypes": [
+      "WebPage"
+    ]
   },
   "content": {
     "format": "json",
@@ -33,15 +35,38 @@
       ],
       "lastReviewed": "2026-08-18",
       "owner": "editorial",
-      "reviewStatus": "migrated-from-jvto-web-inline-fallback"
+      "reviewStatus": "migrated-from-jvto-web-inline-fallback",
+      "pageContent": {
+        "hubFaqPairs": [
+          {
+            "question": "Should I depart from Bali or Surabaya?",
+            "answer": "Surabaya is the default starting point — direct overland access to Bromo (~3 hrs) and Ijen (~5 hrs) with no ferry. Bali departures add the Gilimanuk–Ketapang ferry (45 min each way) plus 1–2 extra hours overland; choose Bali only if you are already vacationing there. Both options run on JVTO private vehicles with no shared transport at any point.",
+            "uiMeta": "See /tours/from-bali vs /tours/from-surabaya"
+          },
+          {
+            "question": "Which tours include Ijen Blue Fire vs Bromo only?",
+            "answer": "Bromo-only tours are the 1D1N and 2D1N options — no health screening required. Ijen tours start at 2D1N and trigger the BBKSDA SE.1658/KSA.9/2024 health screening protocol coordinated by JVTO with Dr. Ahmad Irwandanu (Klinik Bakti Husada). The 3D2N and longer routes typically combine both volcanoes plus Madakaripura or Tumpak Sewu waterfalls.",
+            "uiMeta": "See /travel-guide/ijen-health-screening for the regulatory chain"
+          },
+          {
+            "question": "What is the shortest and longest tour available?",
+            "answer": "Shortest: 1-day Bromo Sunrise (bromo-1d1n) — midnight pickup, return same evening. Longest: 6-day full East Java circuit covering Ijen + Papuma Beach + Tumpak Sewu + Bromo + Malang. The 3D2N format is the most-booked balance of coverage and pace; 4D3N adds either rest time or a waterfall extension.",
+            "uiMeta": "Compare via tour cards on this page"
+          }
+        ]
+      }
     }
   },
-  "output_targets": ["public_website", "json_ld", "knowledge_feed"],
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
   "source_trace": {
     "generated_at": "2026-08-18T00:00:00.000Z",
     "source_files": [
       "jvto-web:src/app/(website)/tours/page.tsx (fallbackSeo constant)"
     ],
-    "migration_note": "Relocated verbatim from jvto-web's inline fallbackSeo constant as part of the single-content-source (ekosistem-only) consolidation — text unchanged, only its canonical home moved. The live package grid stays DB-owned via getWebPackagesList()."
+    "migration_note": "Relocated verbatim from jvto-web's inline fallbackSeo constant as part of the single-content-source (ekosistem-only) consolidation — text unchanged, only its canonical home moved. The live package grid stays DB-owned via getWebPackagesList(). Follow-up 2026-08-19: added pageContent.hubFaqPairs — the 3 hub-level FAQ Q&A pairs (Bali vs Surabaya, Ijen vs Bromo, shortest vs longest) previously hardcoded in jvto-web's src/lib/tourFaqs.ts getToursHubQaPairs(), used to build the /tours FAQPage JSON-LD."
   }
 }

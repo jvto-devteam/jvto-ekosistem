@@ -23,7 +23,9 @@
     "title": "Bromo Ijen Tour from Bali — 4 Private Packages | JVTO",
     "description": "Private 3D–5D Bromo & Ijen tours from Bali, ferry crossing included. Tourist Police-led, all-inclusive. 4.8★ Trustpilot. From IDR 2.85M/pax.",
     "canonicalRoute": "/tours/from-bali",
-    "schemaTypes": ["WebPage"]
+    "schemaTypes": [
+      "WebPage"
+    ]
   },
   "content": {
     "format": "json",
@@ -33,15 +35,107 @@
       ],
       "lastReviewed": "2026-08-18",
       "owner": "editorial",
-      "reviewStatus": "migrated-from-jvto-web-inline-fallback"
+      "reviewStatus": "migrated-from-jvto-web-inline-fallback",
+      "pageContent": {
+        "inclusions": [
+          {
+            "label": "Bali–Java ferry crossing",
+            "detail": "Gilimanuk–Ketapang, one-way (3 packages) or both directions (3D2N Bali-return package)."
+          },
+          {
+            "label": "Private transport",
+            "detail": "AC MPV (1–3 guests) or Toyota Hiace (4–9 guests). Fuel, tolls, and parking included."
+          },
+          {
+            "label": "Dedicated crew",
+            "detail": "English-speaking driver-guide (1–3 guests), or professional driver + escort guide (4+ guests)."
+          },
+          {
+            "label": "Entrance fees & permits",
+            "detail": "All attractions on the itinerary — no surprise gate payments."
+          },
+          {
+            "label": "Accommodation + breakfast",
+            "detail": "All nights, per itinerary."
+          },
+          {
+            "label": "Private 4WD Jeep",
+            "detail": "Bromo crater area. One jeep per ≤4 guests; additional jeeps for larger groups."
+          },
+          {
+            "label": "Gas masks & trekking poles",
+            "detail": "Ijen crater hike."
+          },
+          {
+            "label": "Health-certificate coordination",
+            "detail": "For Ijen routes when current access rules require it."
+          },
+          {
+            "label": "Daily mineral water",
+            "detail": "Supplied throughout the trip."
+          },
+          {
+            "label": "Pick-up to drop-off",
+            "detail": "Full assistance from your Bali hotel or address."
+          },
+          {
+            "label": "JVTO travel T-shirt",
+            "detail": "One per participant."
+          }
+        ],
+        "whyItems": [
+          {
+            "icon": "shield",
+            "title": "Police-Led Operations",
+            "body": "Mr. Sam holds the rank of Bripka — active officer of Ditpamobvit East Java (Tourist Police). Confirmed by Detik.com, 2021. No other East Java operator is led by a serving Tourist Police officer."
+          },
+          {
+            "icon": "users",
+            "title": "100% Private — No Shared Groups",
+            "body": "Your booking receives a dedicated vehicle and crew. No join-in option exists. Group size determines vehicle type; timing and route decisions apply to your group only."
+          },
+          {
+            "icon": "fileText",
+            "title": "All-Inclusive — Written Before You Book",
+            "body": "Ferry crossing, entrance fees, accommodation, gas masks, and all transport costs are bundled. Inclusions confirmed in your voucher — mid-trip negotiations do not occur on JVTO routes."
+          },
+          {
+            "icon": "award",
+            "title": "Verifiable Credentials",
+            "body": "NIB 1102230032918 verifiable via OSS. HPWKI AHU-0001072.AH.01.07.TAHUN 2024. BBKSDA clearance and POLPAR authorisation on file. All guides hold KTA 2024."
+          }
+        ],
+        "bookingSteps": [
+          {
+            "step": "01",
+            "text": "WhatsApp +62 822 4478 8833 with your dates, group size, preferred package, and Bali pick-up location."
+          },
+          {
+            "step": "02",
+            "text": "Receive a price confirmation per the pricing table for your group size."
+          },
+          {
+            "step": "03",
+            "text": "Pay 20% deposit via secure JVTO checkout to confirm the booking."
+          },
+          {
+            "step": "04",
+            "text": "Receive your e-voucher with full trip details and a pre-trip guide."
+          }
+        ]
+      }
     }
   },
-  "output_targets": ["public_website", "json_ld", "knowledge_feed"],
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
   "source_trace": {
     "generated_at": "2026-08-18T00:00:00.000Z",
     "source_files": [
       "jvto-web:src/app/(website)/tours/from-bali/page.tsx (fallbackSeo constant)"
     ],
-    "migration_note": "Relocated verbatim from jvto-web's inline fallbackSeo constant as part of the single-content-source (ekosistem-only) consolidation — text unchanged, only its canonical home moved. Rating (4.8★ Trustpilot) and price (IDR 2.85M) figures reproduced as-is from the existing live copy, not re-verified here — same caveat as every other relocated fallback in this pass."
+    "migration_note": "Relocated verbatim from jvto-web's inline fallbackSeo constant as part of the single-content-source (ekosistem-only) consolidation — text unchanged, only its canonical home moved. Rating (4.8★ Trustpilot) and price (IDR 2.85M) figures reproduced as-is from the existing live copy, not re-verified here — same caveat as every other relocated fallback in this pass. Follow-up 2026-08-19: added pageContent.{inclusions,whyItems,bookingSteps} — the INCLUSIONS_BALI/WHY_ITEMS/BOOKING_STEPS arrays previously hardcoded in jvto-web's page.tsx. whyItems.icon is a string identifier (\"shield\"/\"users\"/\"fileText\"/\"award\") looked up against a code-side ICONS map by key, not array position — avoids the reorder/count-mismatch bug found in an earlier migration."
   }
 }

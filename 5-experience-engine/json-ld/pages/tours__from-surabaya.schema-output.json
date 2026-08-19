@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-19T03:08:24.059Z",
+  "generated_at": "2026-08-19T03:24:55.087Z",
   "route": "/tours/from-surabaya",
   "domain": "tours",
   "slug": "from-surabaya",
@@ -173,6 +173,6 @@
     "source_files": [
       "jvto-web:src/app/(website)/tours/from-surabaya/page.tsx (fallbackSeo constant)"
     ],
-    "migration_note": "Relocated verbatim from jvto-web's inline fallbackSeo constant as part of the single-content-source (ekosistem-only) consolidation — text unchanged, only its canonical home moved. Rating (4.8★ Trustpilot) and price (IDR 1.55M) figures reproduced as-is from the existing live copy, not re-verified here — same caveat as every other relocated fallback in this pass."
+    "migration_note": "Relocated verbatim from jvto-web's inline fallbackSeo constant as part of the single-content-source (ekosistem-only) consolidation — text unchanged, only its canonical home moved. Rating (4.8★ Trustpilot) and price (IDR 1.55M) figures reproduced as-is from the existing live copy, not re-verified here — same caveat as every other relocated fallback in this pass. Follow-up 2026-08-19: added pageContent.{inclusions,whyItems,bookingSteps} — the INCLUSIONS/WHY_ITEMS/BOOKING_STEPS arrays previously hardcoded in jvto-web's page.tsx. whyItems.icon is a string identifier (\"shield\"/\"users\"/\"fileText\"/\"award\") looked up against a code-side ICONS map by key, not array position — avoids the reorder/count-mismatch bug found in an earlier migration."
   }
 }
