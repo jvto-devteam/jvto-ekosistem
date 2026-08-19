@@ -1,25 +1,25 @@
 {
   "schema_version": "jvto-experience/portal-knowledge-feed-v1",
-  "generated_at": "2026-08-07T01:05:44.948Z",
+  "generated_at": "2026-08-19T10:46:59.703Z",
   "source": "compiled from customer portal detail payloads",
   "faq_count": 10,
   "packing_category_count": 8,
   "checklist_item_count": 3,
   "faqs": [
     {
-      "category": "Activity-Based Information",
-      "question": "Is the Ijen trek difficult?",
-      "answer": "The trek is considered moderate. It requires a healthy physical condition to hike for about 1.5-2 hours one way on an incline. The optional descent into the crater is more challenging and rocky. Due to sulfur fumes, it is not recommended for those with respiratory issues."
+      "category": "Pre-Tour Information",
+      "question": "What is included and NOT included in my tour package?",
+      "answer": "Included: Private AC transport, English-speaking guide, hotel accommodation with breakfast, all entrance fees in the itinerary, 4x4 Jeep for Bromo, mineral water, and some meals as specified. Not Included: Flights, travel insurance, most dinners and some lunches, tips, and optional activities like horse riding at Bromo (IDR 250,000-350,000). Please check the \"Booking & Financials\" tab for specifics."
     },
     {
-      "category": "Activity-Based Information",
-      "question": "What is the trek like at Tumpak Sewu and Madakaripura waterfalls?",
-      "answer": "Both treks involve steep, wet, and slippery terrain. You will need to cross rivers and walk under cascading water at Madakaripura. It is mandatory to go with a local guide at both locations for safety. Water trekking shoes are highly recommended."
+      "category": "Pre-Tour Information",
+      "question": "What mandatory requirements do I need for Ijen trekking?",
+      "answer": "A doctor's health certificate is required by Ijen authorities and this is included on your trip. You just need to bring your passport for the check-up."
     },
     {
-      "category": "Activity-Based Information",
-      "question": "Will I be able to see the Milky Way at Mount Bromo?",
-      "answer": "Yes, if weather conditions are clear, you can definitely view and photograph the Milky Way before the sunrise at Mount Bromo. It's a spectacular sight!"
+      "category": "Pre-Tour Information",
+      "question": "What kind of clothing and footwear should I pack?",
+      "answer": "Pack warm layers (thermal jacket, hat, gloves) for Bromo and Ijen, where temperatures can drop to 2-5°C. Sturdy hiking boots are essential. For waterfalls, bring quick-dry clothes and water shoes/sandals with good grip."
     },
     {
       "category": "During Tour Information",
@@ -33,31 +33,37 @@
     },
     {
       "category": "During Tour Information",
-      "question": "What if I have an emergency during the tour?",
-      "answer": "For any immediate assistance, you can contact the JVTO Emergency line at +62 822-447-888-33. Your safety is our top priority."
-    },
-    {
-      "category": "During Tour Information",
       "question": "Who will be my driver and guide?",
       "answer": "Your assigned crew details are listed in the \"Overview\" tab. For groups of 4 or more, you will have a dedicated driver and a separate local guide at each main destination. For smaller groups, you will have an experienced driver-guide."
     },
     {
-      "category": "Pre-Tour Information",
-      "question": "What is included and NOT included in my tour package?",
-      "answer": "Included: Private AC transport, English-speaking guide, hotel accommodation with breakfast, all entrance fees in the itinerary, 4x4 Jeep for Bromo, mineral water, and some meals as specified. Not Included: Flights, travel insurance, most dinners and some lunches, tips, and optional activities like horse riding at Bromo (IDR 250,000-350,000). Please check the \"Booking & Financials\" tab for specifics."
+      "category": "During Tour Information",
+      "question": "What if I have an emergency during the tour?",
+      "answer": "For any immediate assistance, you can contact the JVTO Emergency line at +62 822-447-888-33. Your safety is our top priority."
     },
     {
-      "category": "Pre-Tour Information",
-      "question": "What kind of clothing and footwear should I pack?",
-      "answer": "Pack warm layers (thermal jacket, hat, gloves) for Bromo and Ijen, where temperatures can drop to 2-5°C. Sturdy hiking boots are essential. For waterfalls, bring quick-dry clothes and water shoes/sandals with good grip."
+      "category": "Activity-Based Information",
+      "question": "Is the Ijen trek difficult?",
+      "answer": "The trek is considered moderate. It requires a healthy physical condition to hike for about 1.5-2 hours one way on an incline. The optional descent into the crater is more challenging and rocky. Due to sulfur fumes, it is not recommended for those with respiratory issues."
     },
     {
-      "category": "Pre-Tour Information",
-      "question": "What mandatory requirements do I need for Ijen trekking?",
-      "answer": "A doctor's health certificate is required by Ijen authorities and this is included on your trip. You just need to bring your passport for the check-up."
+      "category": "Activity-Based Information",
+      "question": "Will I be able to see the Milky Way at Mount Bromo?",
+      "answer": "Yes, if weather conditions are clear, you can definitely view and photograph the Milky Way before the sunrise at Mount Bromo. It's a spectacular sight!"
+    },
+    {
+      "category": "Activity-Based Information",
+      "question": "What is the trek like at Tumpak Sewu and Madakaripura waterfalls?",
+      "answer": "Both treks involve steep, wet, and slippery terrain. You will need to cross rivers and walk under cascading water at Madakaripura. It is mandatory to go with a local guide at both locations for safety. Water trekking shoes are highly recommended."
     }
   ],
   "packing_recommendations": [
+    {
+      "category": "Travel Documents",
+      "items": [
+        "Valid ID/Passport and travel insurance."
+      ]
+    },
     {
       "category": "Clothing for Varied Climates",
       "items": [
@@ -92,6 +98,13 @@
       ]
     },
     {
+      "category": "Photography Gear",
+      "items": [
+        "Camera with spare batteries and memory cards.",
+        "Protective gear against sulfur gases at Ijen."
+      ]
+    },
+    {
       "category": "New Medical Check-Up Requirement",
       "items": [
         "Good physical & mental condition.",
@@ -103,27 +116,14 @@
       "items": [
         "Recommend carrying at least IDR 500,000 per person."
       ]
-    },
-    {
-      "category": "Photography Gear",
-      "items": [
-        "Camera with spare batteries and memory cards.",
-        "Protective gear against sulfur gases at Ijen."
-      ]
-    },
-    {
-      "category": "Travel Documents",
-      "items": [
-        "Valid ID/Passport and travel insurance."
-      ]
     }
   ],
   "essential_checklist": [
     {
-      "item": "Travel insurance purchased"
+      "item": "Valid passport with 6+ months validity"
     },
     {
-      "item": "Valid passport with 6+ months validity"
+      "item": "Travel insurance purchased"
     },
     {
       "item": "Warm clothing for mountain weather (2-5°C)"
