@@ -1,4 +1,4 @@
-name: Sync Google Rating
+name: Sync Google Reviews
 
 on:
   schedule:
@@ -6,14 +6,14 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: google-rating-sync
+  group: google-reviews-sync
   cancel-in-progress: false
 
 jobs:
   sync:
-    name: Sync Google aggregate rating into review-platforms.json
+    name: Sync Google reviews + aggregate rating
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     permissions:
       contents: write
 
@@ -26,14 +26,14 @@ jobs:
         with:
           node-version: 20
 
-      - name: Run rating sync
+      - name: Run reviews sync
         env:
           GBP_CLIENT_ID: ${{ secrets.GBP_CLIENT_ID }}
           GBP_CLIENT_SECRET: ${{ secrets.GBP_CLIENT_SECRET }}
           GBP_REFRESH_TOKEN: ${{ secrets.GBP_REFRESH_TOKEN }}
           GBP_ACCOUNT_ID: ${{ secrets.GBP_ACCOUNT_ID }}
           GBP_LOCATION_ID: ${{ secrets.GBP_LOCATION_ID }}
-        run: npm run sync:google-rating
+        run: npm run sync:google-reviews
 
       - name: Commit and push if changed
         run: |
@@ -41,8 +41,10 @@ jobs:
           git config user.name "jvto-ekosistem-bot"
           git config user.email "actions@users.noreply.github.com"
           if git status --porcelain | grep -q .; then
-            git add 1-knowledge-and-evidence-core/credentials-and-public-evidence/review-platforms.json
-            git commit -m "chore(reviews): sync Google rating $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git add \
+              1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json \
+              1-knowledge-and-evidence-core/credentials-and-public-evidence/review-platforms.json
+            git commit -m "chore(reviews): sync Google reviews + rating $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
           else
             echo "No changes to commit."
