@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-18T23:50:26.968Z",
+  "generated_at": "2026-08-19T00:12:30.564Z",
   "route": "/verify-jvto",
   "domain": "verify-jvto",
   "slug": "verify-jvto",
@@ -57,7 +57,59 @@
               }
             ]
           }
-        ]
+        ],
+        "pageContent": {
+          "timeline": [
+            {
+              "year": "'15",
+              "h4": "2015 · Guesthouse",
+              "p": "Mr. Sam opens the Ijen Bondowoso Homestay on Jl. Khairil Anwar No.102. Booking.com guests rate it 9.4/10."
+            },
+            {
+              "year": "'16",
+              "h4": "2016 · PT incorporation",
+              "p": "PT Java Volcano Rendezvous incorporated 2016-01-01 at the same Bondowoso address."
+            },
+            {
+              "year": "'18",
+              "h4": "2018 · Stefan Loose listing",
+              "p": "Stefan Loose Reiseführer Indonesien (4th ed., p. 287) names \"Agung\" as operator — an independent German guidebook."
+            },
+            {
+              "year": "'21",
+              "h4": "2021 · Independent press",
+              "p": "Detik.com and Radar Jember name Bripka Agung Sambuko in Tourist Police duties at Ijen Geopark."
+            },
+            {
+              "year": "'23",
+              "h4": "2023 · TDUP formalized",
+              "p": "Tourism Business Permit formalized 2023-02-11. NIB 1102230032918 OSS-verifiable."
+            },
+            {
+              "year": "'26",
+              "h4": "2026 · Today",
+              "p": "{PACKAGE_COUNT} private itineraries; 14-person crew (11 KTA-confirmed); coordinated Ijen health screening with a licensed physician."
+            }
+          ],
+          "faq": [
+            {
+              "q": "Is Java Volcano Tour Operator a legal business?",
+              "a": "Yes. JVTO operates under PT Java Volcano Rendezvous with Business Identification Number (NIB) 1102230032918, verifiable via oss.go.id (Indonesia Online Single Submission portal)."
+            },
+            {
+              "q": "Is Agung Sambuko really a police officer?",
+              "a": "Yes. Agung Sambuko is an active member of the Indonesian Tourist Police (POLRI), Ditpamobvit division. Official SPRIN assignment orders are published in the proof library below."
+            },
+            {
+              "q": "How can I verify the documents provided by JVTO?",
+              "a": "Documents in the Evidence Locker include a SHA-256 hash. Download the original file and compare its hash to the published value to detect any tampering — mathematically certain proof."
+            },
+            {
+              "q": "What safety standards does JVTO follow for Ijen Crater tours?",
+              "a": "When BBKSDA rules require it (SE.1658/KSA.9/2024), every climber undergoes a formal health screening with licensed physician Dr. Ahmad Irwandanu. HPWKI-certified guides lead all crater descents."
+            }
+          ]
+        }
       }
     },
     "faq": {
