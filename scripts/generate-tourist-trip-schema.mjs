@@ -22,8 +22,13 @@ const PDP_FILE_PATTERN = /^tours__(from-bali|from-surabaya)__.+\.schema-output\.
 const PDP_ROUTE_RE = /^\/tours\/(from-bali|from-surabaya)\//;
 
 async function listProductContracts(root) {
-  const entries = await readdir(path.join(root, PRODUCTS_DIR));
-  return entries.filter((f) => f.endsWith(".product-contract.json")).sort();
+  try {
+    const entries = await readdir(path.join(root, PRODUCTS_DIR));
+    return entries.filter((f) => f.endsWith(".product-contract.json")).sort();
+  } catch (err) {
+    if (err.code === "ENOENT") return [];
+    throw err;
+  }
 }
 
 async function readJson(root, relativePath) {
