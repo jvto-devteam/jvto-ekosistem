@@ -136,8 +136,8 @@ jobs:
           node - <<'NODE'
           const fs = require('node:fs');
           const index = JSON.parse(fs.readFileSync('5-experience-engine/manifests/route-output-index.json', 'utf8'));
-          if (index.routes.length !== 51) {
-            throw new Error(`Expected 51 live-aligned routes, got ${index.routes.length}`);
+          if (index.routes.length !== 52) {
+            throw new Error(`Expected 52 live-aligned routes, got ${index.routes.length}`);
           }
           console.log(`Route count OK: ${index.routes.length}`);
           NODE
