@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-20T01:12:50.045Z",
+  "generated_at": "2026-08-20T03:36:45.784Z",
   "route": "/why-jvto/our-team/taufik",
   "domain": "why-jvto",
   "slug": "our-team/taufik",
@@ -39,6 +39,12 @@
           "@type": "GeoCoordinates",
           "latitude": -7.9151,
           "longitude": 113.8232
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4.9,
+          "reviewCount": 152,
+          "bestRating": 5
         },
         "sameAs": [
           "https://www.trustpilot.com/review/javavolcano-touroperator.com",

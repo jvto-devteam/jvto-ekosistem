@@ -3,7 +3,55 @@ import path from "node:path";
 import { loadExternalEntities, emitEntity } from "./external-entities.mjs";
 
 const SOURCE_PATH = "1-knowledge-and-evidence-core/organization-identity/organization.json";
+const REVIEW_PLATFORMS_PATH =
+  "1-knowledge-and-evidence-core/credentials-and-public-evidence/review-platforms.json";
 export const ORG_ID = "https://javavolcano-touroperator.com/#organization";
+
+// The platform whose figure is the public aggregate — matches review-platforms.json's
+// profiles[].platform. Same single-figure rule jvto-web's getPublicAggregateRating()
+// enforces (owner decision 2026-08-15): Google Maps only, never a blended average.
+const AGGREGATE_PLATFORM = "Google Maps";
+
+/**
+ * Pure — no fs. Given the parsed `profiles` array from review-platforms.json, returns
+ * the AggregateRating node for the Google Maps entry, or null when that entry is
+ * missing, malformed, or would assert a rating nobody can vouch for (reviewCount < 1 or
+ * ratingValue <= 0 — the same guard `checkNoZeroRatings` in validate-schema.mjs enforces
+ * on the output side, applied here so the violation is never emitted in the first
+ * place). Never throws: a malformed review-platforms.json degrades to "no rating node"
+ * for this route, not a failed render — same contract jvto-web's own
+ * getPublicAggregateRating() follows when its sources can't answer.
+ */
+export function buildAggregateRating(profiles) {
+  const googleProfile = Array.isArray(profiles)
+    ? profiles.find((p) => p?.platform === AGGREGATE_PLATFORM)
+    : null;
+  if (!googleProfile) return null;
+
+  const { rating, reviewCount } = googleProfile;
+  if (typeof rating !== "number" || typeof reviewCount !== "number") return null;
+  if (!(rating > 0) || !(reviewCount >= 1)) return null;
+
+  return {
+    "@type": "AggregateRating",
+    ratingValue: rating,
+    reviewCount,
+    bestRating: 5,
+  };
+}
+
+async function loadReviewProfiles(root) {
+  try {
+    const raw = await readFile(path.join(root, REVIEW_PLATFORMS_PATH), "utf8");
+    const data = JSON.parse(raw);
+    return Array.isArray(data.profiles) ? data.profiles : [];
+  } catch {
+    // Missing/unreachable/malformed file — mirrors the "ekosistem unreachable" contract
+    // from the design spec's Error handling section: this route still renders, just
+    // without the rating. Every other Organization field must still build normally.
+    return [];
+  }
+}
 
 function credentialToSchema(credential, registry, route) {
   return {
@@ -67,6 +115,7 @@ export async function buildOrganizationNode(root, route) {
   const raw = await readFile(path.join(root, SOURCE_PATH), "utf8");
   const data = JSON.parse(raw);
   const registry = await loadExternalEntities(root);
+  const aggregateRating = buildAggregateRating(await loadReviewProfiles(root));
 
   const node = {
     "@id": ORG_ID,
@@ -97,6 +146,7 @@ export async function buildOrganizationNode(root, route) {
           },
         }
       : {}),
+    ...(aggregateRating ? { aggregateRating } : {}),
     ...(data.sameAs?.length ? { sameAs: data.sameAs } : {}),
     ...(data.award?.length ? { award: data.award } : {}),
     ...(data.memberOf?.length

@@ -90,26 +90,22 @@ function normalizeFaqForOutput(faq) {
   };
 }
 
-// NOTE — no aggregateRating is emitted into any rendered output, deliberately.
-// (A dead `isRatingValid()` helper used to sit here; it duplicated the live
-// guard in validate-schema.mjs `checkNoZeroRatings` and was never called.
-// Removed 2026-08-19 because its presence kept reading as "the rating feature
-// was never wired up", inviting exactly the wrong fix — see below.)
-//
-// organization.json DOES carry an aggregateRating (Google Maps, owner decision
-// 2026-08-15). It is reference data for humans, NOT a render source. Wiring it
-// into output would put a second, competing rating on the same
-// `/#organization` @id, because jvto-web already emits the authoritative node
-// from a LIVE source (getPublicAggregateRating → buildHomepageAggregateRatingSchema
-// et al). Those two figures have already diverged: organization.json says
-// reviewCount 149 (snapshotted 2026-08-15) while production emitted 152 when
-// last checked 2026-08-19. A static snapshot in this repo can only ever drift.
-//
-// Re-introducing a blended/stale rating here is the exact regression that
-// owner decision 2026-08-15 was made to end (it replaced a hand-copied
-// 4.91 / 203 that had drifted from every source of truth). Rating stays
-// single-source and live-only. checkNoZeroRatings remains the enforcement
-// net if a rating ever does reach an output graph.
+// aggregateRating: emitted inline on the Organization node by
+// buildOrganizationNode() (scripts/lib/build-organization.mjs), which reads
+// review-platforms.json's Google Maps profile directly at render time. This
+// reverses the 2026-08-15 "never bake a rating into ekosistem" decision — that
+// decision was made because review-platforms.json was a one-time hand-copied
+// snapshot with no regeneration mechanism (4.91/203, drifted from every real
+// source). It now regenerates automatically on every daily Google-review sync
+// (sync-google-reviews.yml), and that sync's commit to review-platforms.json
+// triggers a full deploy-vps.yml run (which re-invokes this script) via its
+// normal push-to-main trigger — so there is no scenario where a stale rating
+// ships without also being the trigger for its own re-render. See
+// docs/superpowers/specs/2026-08-20-ekosistem-schema-rendering-consolidation-design.md
+// Bagian 1. organization.json itself still carries NO aggregateRating field —
+// the figure has exactly one source (review-platforms.json), read fresh on
+// every render, never duplicated into organization.json where it could drift
+// again. checkNoZeroRatings (validate-schema.mjs) remains the enforcement net.
 
 function buildWebsiteOutput(source) {
   return {
