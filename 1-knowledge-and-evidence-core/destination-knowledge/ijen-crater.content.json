@@ -3691,5 +3691,64 @@
     "paragraph": "Ijen crater access can require a recent health certificate when BBKSDA SE.1658/KSA.9/2024 thresholds apply. JVTO coordinates the clinic workflow via Dr. Ahmad Irwandanu (SIP-licensed, Kemenkes RI) — the certificate carries a QR code verified at the crater access gate.",
     "linkHref": "/travel-guide/ijen-health-screening",
     "linkLabel": "How Ijen Health Screening Works →"
+  },
+  "tourist_attraction_facts": {
+    "name": "Kawah Ijen",
+    "alternate_name": [
+      "Ijen Crater",
+      "Kawah Ijen Volcano"
+    ],
+    "description": "Active stratovolcano at 2,386 m with the world's largest acidic crater lake and the pre-dawn blue fire phenomenon. Night hike from Paltuding trailhead (~3 km). BBKSDA East Java regulatory authority. Health-certificate coordination is mandatory for every guest under BBKSDA SE.1658/KSA.9/2024.",
+    "additional_props": [
+      {
+        "name": "Crater rim elevation",
+        "value": "2386",
+        "unit_text": "m"
+      },
+      {
+        "name": "Trail distance (one-way)",
+        "value": "3",
+        "unit_text": "km"
+      },
+      {
+        "name": "Ascent time",
+        "value": "90",
+        "unit_text": "min"
+      },
+      {
+        "name": "Difficulty level",
+        "value": "Strenuous — steep rocky night hike from Paltuding trailhead"
+      },
+      {
+        "name": "Crater lake acidity",
+        "value": "≈ pH 0 (highest-volume acidic crater lake on Earth)"
+      },
+      {
+        "name": "Blue fire",
+        "value": "Pre-dawn sulfuric-gas phenomenon; weather- and gas-dependent, not guaranteed"
+      },
+      {
+        "name": "Health certificate",
+        "value": "Mandatory for every guest before crater entry (BBKSDA SE.1658/KSA.9/2024)"
+      },
+      {
+        "name": "Best time to visit",
+        "value": "Dry season (April–October); midnight departure for the blue-fire window"
+      }
+    ],
+    "amenity_features": [
+      {
+        "name": "Gas masks provided",
+        "value": true
+      },
+      {
+        "name": "Trekking poles provided",
+        "value": true
+      },
+      {
+        "name": "Health screening coordination",
+        "value": true
+      }
+    ]
   }
 }

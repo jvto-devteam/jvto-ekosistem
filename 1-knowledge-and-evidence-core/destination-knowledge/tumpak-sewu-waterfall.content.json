@@ -926,5 +926,13 @@
     "BBKSDA national-park entrance fees",
     "Daily mineral water · JVTO T-shirt",
     "Accommodation & breakfast (overnight packages)"
-  ]
+  ],
+  "tourist_attraction_facts": {
+    "name": "Tumpak Sewu Waterfall",
+    "alternate_name": [
+      "Coban Sewu",
+      "Tumpak Sewu"
+    ],
+    "description": "Multi-tiered curtain waterfall (~120 m) in Lumajang, East Java. Accessible via jungle trail descending into the canyon. Optional swim at the base. Often combined with Ijen and Bromo tours."
+  }
 }

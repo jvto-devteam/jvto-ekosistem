@@ -4362,5 +4362,56 @@
     "Daily mineral water · JVTO T-shirt",
     "Accommodation & breakfast (overnight packages)",
     "Bromo 4WD private jeep"
-  ]
+  ],
+  "tourist_attraction_facts": {
+    "name": "Mount Bromo",
+    "alternate_name": [
+      "Gunung Bromo",
+      "Bromo Volcano"
+    ],
+    "description": "Active stratovolcano at 2,329 m in the Tengger caldera, Probolinggo, East Java. Famous for the Penanjakan sunrise viewpoint (2,770 m), sea-of-sand caldera floor traversed by 4WD jeep, and active smoking crater. Part of Bromo Tengger Semeru National Park.",
+    "additional_props": [
+      {
+        "name": "Summit elevation",
+        "value": "2329",
+        "unit_text": "m"
+      },
+      {
+        "name": "Sunrise viewpoint elevation",
+        "value": "2770",
+        "unit_text": "m"
+      },
+      {
+        "name": "Difficulty level",
+        "value": "Easy to moderate — short crater-rim walk, 4WD jeep access to the caldera"
+      },
+      {
+        "name": "4WD jeep",
+        "value": "Mandatory for Penanjakan viewpoint and Sea of Sand access (included in JVTO packages)"
+      },
+      {
+        "name": "Health certificate",
+        "value": "Not required (no sulfuric-gas exposure at tourist viewing points)"
+      },
+      {
+        "name": "Best time to visit",
+        "value": "Dry season (April–October); pre-dawn 03:00–05:00 for sunrise"
+      }
+    ],
+    "estimated_cost": {
+      "currency": "IDR",
+      "value": "160000",
+      "name": "Bromo Tengger Semeru National Park entrance (foreign visitor, per person)"
+    },
+    "amenity_features": [
+      {
+        "name": "Private 4WD jeep included",
+        "value": true
+      },
+      {
+        "name": "Sunrise viewpoint access",
+        "value": true
+      }
+    ]
+  }
 }

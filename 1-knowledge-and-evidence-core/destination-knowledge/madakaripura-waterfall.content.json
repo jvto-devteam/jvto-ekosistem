@@ -2384,5 +2384,12 @@
     "BBKSDA national-park entrance fees",
     "Daily mineral water · JVTO T-shirt",
     "Accommodation & breakfast (overnight packages)"
-  ]
+  ],
+  "tourist_attraction_facts": {
+    "name": "Madakaripura Waterfall",
+    "alternate_name": [
+      "Air Terjun Madakaripura"
+    ],
+    "description": "Java's tallest waterfall in a narrow canyon gorge in Probolinggo. A 45-minute river-crossing trek through the gorge leads to the main fall. Guests get wet — rain poncho recommended."
+  }
 }

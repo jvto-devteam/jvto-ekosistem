@@ -1128,5 +1128,12 @@
     "BBKSDA national-park entrance fees",
     "Daily mineral water · JVTO T-shirt",
     "Accommodation & breakfast (overnight packages)"
-  ]
+  ],
+  "tourist_attraction_facts": {
+    "name": "Papuma Beach",
+    "alternate_name": [
+      "Tanjung Papuma"
+    ],
+    "description": "White-sand beach with dramatic coastal rock formations and a headland viewpoint in Jember, East Java. Relatively uncrowded. Included in extended Bali-origin itineraries."
+  }
 }
