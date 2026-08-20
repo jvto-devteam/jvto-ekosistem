@@ -35,13 +35,36 @@ jobs:
           GBP_LOCATION_ID: ${{ secrets.GBP_LOCATION_ID }}
         run: npm run sync:google-reviews
 
+      # sync:google-reviews returns early with no file writes when it finds zero new
+      # reviews / no rating change — but render:web-content unconditionally stamps a
+      # fresh generated_at timestamp into all 219 output files on every run, which
+      # would otherwise make git status non-empty (and this whole workflow commit +
+      # push + trigger a full deploy-vps.yml ISR cache purge) every single night for
+      # nothing. Gate the regenerate/validate/commit steps on the sync step having
+      # actually changed one of the two raw source files it writes to.
+      - name: Check for review data changes
+        id: check-changes
+        run: |
+          set -euo pipefail
+          if git status --porcelain -- \
+            1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json \
+            1-knowledge-and-evidence-core/credentials-and-public-evidence/review-platforms.json \
+            | grep -q .; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Regenerate schema (rating + review)
+        if: steps.check-changes.outputs.changed == 'true'
         run: npm run render:web-content
 
       - name: Validate schema
+        if: steps.check-changes.outputs.changed == 'true'
         run: npm run validate:schema
 
       - name: Commit and push if changed
+        if: steps.check-changes.outputs.changed == 'true'
         run: |
           set -euo pipefail
           git config user.name "jvto-ekosistem-bot"

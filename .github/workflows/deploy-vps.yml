@@ -108,6 +108,9 @@ jobs:
             -name '*.source.json' -print0 \
             | xargs -0 -n1 node -e "const fs=require('node:fs'); JSON.parse(fs.readFileSync(process.argv[1], 'utf8')); console.log('JSON OK:', process.argv[1]);"
 
+      - name: Run schema generator tests
+        run: npm run test:review-schema && npm run test:schema
+
       - name: Render website outputs
         run: npm run render:web-content
 
