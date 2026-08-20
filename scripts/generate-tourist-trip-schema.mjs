@@ -11,6 +11,15 @@ const SCHEMA_TYPES_INDEX_PATH = "5-experience-engine/json-ld/schema-types-index.
 // Matches only this generator's own output files — never touches the other
 // (CMS-content-sourced) files that also live in PAGES_DIR.
 const PDP_FILE_PATTERN = /^tours__(from-bali|from-surabaya)__.+\.schema-output\.json$/;
+// Category match (mirrors PDP_FILE_PATTERN's file-level approach, and
+// generate-review-schema.mjs's REVIEW_ROUTE_RE) — used for manifest-entry
+// cleanup so a route whose product-contract.json was renamed/removed since
+// the last run is dropped from route-output-index.json and
+// schema-types-index.json too, not just its output file. Filtering by "was
+// this route in THIS run's output" instead would leave that stale entry
+// behind forever, since a removed route is by definition never in the
+// current run's set either way.
+const PDP_ROUTE_RE = /^\/tours\/(from-bali|from-surabaya)\//;
 
 async function listProductContracts(root) {
   const entries = await readdir(path.join(root, PRODUCTS_DIR));
@@ -112,8 +121,7 @@ export async function generateTouristTripSchemaOutputs({ archiveRoot = process.c
 
 async function mergeRouteIndex(archiveRoot, pdpRouteEntries, generatedAt) {
   const index = await readJsonIfExists(archiveRoot, ROUTE_INDEX_PATH, { routes: [] });
-  const pdpRoutes = new Set(pdpRouteEntries.map((e) => e.route));
-  const kept = (index.routes ?? []).filter((r) => !pdpRoutes.has(r.route));
+  const kept = (index.routes ?? []).filter((r) => !PDP_ROUTE_RE.test(r.route));
   const routes = [...kept, ...pdpRouteEntries].sort((a, b) => a.route.localeCompare(b.route));
 
   await mkdir(path.join(archiveRoot, path.dirname(ROUTE_INDEX_PATH)), { recursive: true });
@@ -130,11 +138,10 @@ async function mergeSchemaTypesIndex(archiveRoot, schemaTypeEntries) {
   const existing = await readJsonIfExists(archiveRoot, SCHEMA_TYPES_INDEX_PATH, null);
   if (!existing) return;
 
-  const pdpByRoute = new Map(schemaTypeEntries.map((e) => [e.route, e]));
-  const keptPages = (existing.pages ?? []).filter((p) => !pdpByRoute.has(p.route));
+  const keptPages = (existing.pages ?? []).filter((p) => !PDP_ROUTE_RE.test(p.route));
   const pages = [...keptPages, ...schemaTypeEntries].sort((a, b) => a.route.localeCompare(b.route));
 
-  const keptTouristTripRoutes = (existing.schemaByType?.TouristTrip ?? []).filter((r) => !pdpByRoute.has(r));
+  const keptTouristTripRoutes = (existing.schemaByType?.TouristTrip ?? []).filter((r) => !PDP_ROUTE_RE.test(r));
   const touristTripRoutes = [...keptTouristTripRoutes, ...schemaTypeEntries.map((e) => e.route)].sort();
 
   const updated = {

@@ -36,6 +36,43 @@ async function seedRealSources(root) {
   );
 }
 
+// Minimal realistic shape mirroring the real
+// 5-experience-engine/json-ld/schema-types-index.json (dataStatus, pageCount,
+// knownOmissions, schemaByType, pages) — used to exercise mergeSchemaTypesIndex's
+// actual filter/append/sort logic instead of always hitting its early-return-on-missing-file
+// path. `extraPages`/`extraTouristTripRoutes` let individual tests inject pre-existing
+// (unrelated or stale) entries.
+function buildSchemaTypesIndexFixture({ extraPages = [], extraTouristTripRoutes = [] } = {}) {
+  const unrelatedPage = {
+    route: "/destinations",
+    title: "East Java Destinations",
+    schemaTypes: ["CollectionPage"],
+    faqKey: "destinations",
+  };
+  const pages = [unrelatedPage, ...extraPages];
+  return {
+    dataStatus: "extracted",
+    pageCount: pages.length,
+    knownOmissions: {
+      AggregateRating: "unrelated omission note — must survive this generator's merge untouched.",
+      TouristTrip_and_Offer: "stale placeholder note predating this generator — expected to be overwritten.",
+    },
+    schemaByType: {
+      CollectionPage: ["/destinations"],
+      ...(extraTouristTripRoutes.length ? { TouristTrip: extraTouristTripRoutes } : {}),
+    },
+    pages,
+  };
+}
+
+async function writeSchemaTypesIndexFixture(root, fixture) {
+  await mkdir(path.join(root, "5-experience-engine/json-ld"), { recursive: true });
+  await writeFile(
+    path.join(root, "5-experience-engine/json-ld/schema-types-index.json"),
+    JSON.stringify(fixture, null, 2)
+  );
+}
+
 {
   await withTempRoot(async (archiveRoot) => {
     await seedRealSources(archiveRoot);
@@ -84,6 +121,10 @@ async function seedRealSources(root) {
 {
   // Merge safety: an existing route-output-index.json with unrelated (CMS)
   // routes must survive untouched, and a re-run must not duplicate entries.
+  // Also exercises mergeSchemaTypesIndex's real merge logic (not just its
+  // early-return-on-missing-file path): unrelated pre-existing entries must
+  // survive, the 17 new TouristTrip routes must be merged into both
+  // schemaByType.TouristTrip and pages, and a re-run must stay idempotent.
   await withTempRoot(async (archiveRoot) => {
     await seedRealSources(archiveRoot);
     await mkdir(path.join(archiveRoot, "5-experience-engine/manifests"), { recursive: true });
@@ -94,6 +135,7 @@ async function seedRealSources(root) {
         routes: [{ route: "/", domain: "home", slug: "index", schemaOutput: "5-experience-engine/json-ld/pages/home.schema-output.json" }],
       })
     );
+    await writeSchemaTypesIndexFixture(archiveRoot, buildSchemaTypesIndexFixture());
 
     await generateTouristTripSchemaOutputs({ archiveRoot });
     await generateTouristTripSchemaOutputs({ archiveRoot }); // re-run, must be idempotent
@@ -103,6 +145,93 @@ async function seedRealSources(root) {
     );
     assert.equal(routeIndex.routes.length, 18, "1 pre-existing CMS route + 17 PDP routes, no duplicates");
     assert.equal(routeIndex.routes.filter((r) => r.route === "/").length, 1);
+
+    const schemaTypesIndex = JSON.parse(
+      await readFile(path.join(archiveRoot, "5-experience-engine/json-ld/schema-types-index.json"), "utf8")
+    );
+    // (a) pre-existing unrelated entry survives untouched
+    const destinationsPage = schemaTypesIndex.pages.find((p) => p.route === "/destinations");
+    assert.deepEqual(destinationsPage, {
+      route: "/destinations",
+      title: "East Java Destinations",
+      schemaTypes: ["CollectionPage"],
+      faqKey: "destinations",
+    });
+    assert.deepEqual(schemaTypesIndex.schemaByType.CollectionPage, ["/destinations"]);
+    assert.equal(
+      schemaTypesIndex.knownOmissions.AggregateRating,
+      "unrelated omission note — must survive this generator's merge untouched."
+    );
+    // (b) the 17 new TouristTrip routes are merged into schemaByType.TouristTrip and pages
+    assert.equal(schemaTypesIndex.schemaByType.TouristTrip.length, 17, "no duplicates across the 2 runs");
+    assert.ok(schemaTypesIndex.schemaByType.TouristTrip.every((r) => r.startsWith("/tours/")));
+    assert.equal(new Set(schemaTypesIndex.schemaByType.TouristTrip).size, 17, "route set has no duplicates");
+    const pdpPages = schemaTypesIndex.pages.filter((p) => p.route.startsWith("/tours/"));
+    assert.equal(pdpPages.length, 17, "no duplicates across the 2 runs");
+    assert.ok(pdpPages.every((p) => p.schemaTypes.includes("TouristTrip")));
+    // (c) pageCount reflects the merged pages array (1 unrelated + 17 PDP)
+    assert.equal(schemaTypesIndex.pageCount, 18);
+  });
+}
+
+{
+  // Regression coverage for the manifest-cleanup fix: a PDP route left over
+  // from a previous run whose product-contract.json has since been
+  // renamed/removed must be dropped from BOTH route-output-index.json and
+  // schema-types-index.json — not just have its output file deleted. Before
+  // the fix, cleanup only removed manifest entries that matched the CURRENT
+  // run's route set, which can never include an already-removed route, so
+  // the stale entry would linger forever.
+  await withTempRoot(async (archiveRoot) => {
+    await seedRealSources(archiveRoot);
+    const ghostRoute = "/tours/from-bali/ghost-package";
+
+    await mkdir(path.join(archiveRoot, "5-experience-engine/manifests"), { recursive: true });
+    await writeFile(
+      path.join(archiveRoot, "5-experience-engine/manifests/route-output-index.json"),
+      JSON.stringify({
+        generated_at: "2026-01-01T00:00:00.000Z",
+        routes: [
+          { route: "/", domain: "home", slug: "index", schemaOutput: "5-experience-engine/json-ld/pages/home.schema-output.json" },
+          {
+            route: ghostRoute,
+            domain: "tours",
+            slug: "from-bali/ghost-package",
+            schemaOutput: "5-experience-engine/json-ld/pages/tours__from-bali__ghost-package.schema-output.json",
+          },
+        ],
+      })
+    );
+    await writeSchemaTypesIndexFixture(
+      archiveRoot,
+      buildSchemaTypesIndexFixture({
+        extraPages: [{ route: ghostRoute, title: "Ghost Package (removed)", schemaTypes: ["TouristTrip"], faqKey: null }],
+        extraTouristTripRoutes: [ghostRoute],
+      })
+    );
+
+    await generateTouristTripSchemaOutputs({ archiveRoot });
+
+    const routeIndex = JSON.parse(
+      await readFile(path.join(archiveRoot, "5-experience-engine/manifests/route-output-index.json"), "utf8")
+    );
+    assert.equal(routeIndex.routes.length, 18, "1 CMS route + 17 real PDP routes; ghost route dropped");
+    assert.ok(!routeIndex.routes.some((r) => r.route === ghostRoute), "stale ghost route must be removed");
+    assert.equal(routeIndex.routes.filter((r) => r.route === "/").length, 1);
+
+    const schemaTypesIndex = JSON.parse(
+      await readFile(path.join(archiveRoot, "5-experience-engine/json-ld/schema-types-index.json"), "utf8")
+    );
+    assert.ok(
+      !schemaTypesIndex.pages.some((p) => p.route === ghostRoute),
+      "stale ghost page entry must be removed from pages"
+    );
+    assert.ok(
+      !schemaTypesIndex.schemaByType.TouristTrip.includes(ghostRoute),
+      "stale ghost route must be removed from schemaByType.TouristTrip"
+    );
+    assert.equal(schemaTypesIndex.schemaByType.TouristTrip.length, 17);
+    assert.ok(schemaTypesIndex.pages.some((p) => p.route === "/destinations"), "unrelated entry still survives");
   });
 }
 
