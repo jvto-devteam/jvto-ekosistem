@@ -55,15 +55,25 @@ const PAGE_URL = "https://javavolcano-touroperator.com/tours/from-bali/bromo-ije
   assert.equal(touristTripNode.duration, "P2D");
   assert.deepEqual(touristTripNode.touristType, FULL_PKG.marketing.perfectFor);
   assert.deepEqual(touristTripNode.tripOrigin, { "@type": "Place", name: "Bali" });
+  assert.deepEqual(touristTripNode.mainEntityOfPage, { "@id": `${PAGE_URL}#webpage` });
   assert.deepEqual(touristTripNode.provider, { "@id": "https://javavolcano-touroperator.com/#organization" });
   assert.deepEqual(touristTripNode.offers, { "@id": `${PAGE_URL}#aggregateOffer` });
   assert.deepEqual(touristTripNode.identifier, [
     { "@type": "PropertyValue", name: "Internal Package ID", value: "package-BALI-3D2N-001" },
   ]);
 
-  // subTrip embed matches dayNodes exactly (same objects, same @ids)
+  // subTrip holds bare {"@id"} references to the day nodes, NOT the full
+  // nested objects — the day nodes themselves are still emitted as full
+  // standalone top-level nodes (asserted via `dayNodes` below), which is
+  // what checkDanglingReferences resolves subTrip's references against.
+  // Nesting full objects here too would duplicate every day node's markup
+  // on every consuming page (the bug this reference shape fixes).
   assert.equal(touristTripNode.subTrip.length, 2);
-  assert.equal(touristTripNode.subTrip[0]["@id"], `${PAGE_URL}#day-1`);
+  assert.deepEqual(touristTripNode.subTrip, [
+    { "@id": `${PAGE_URL}#day-1` },
+    { "@id": `${PAGE_URL}#day-2` },
+  ]);
+  assert.deepEqual(Object.keys(touristTripNode.subTrip[0]), ["@id"], "subTrip entries must be bare @id references, not full day-node objects");
   assert.deepEqual(touristTripNode.itinerary.itemListElement, [
     { "@type": "ListItem", position: 1, item: { "@id": `${PAGE_URL}#day-1` } },
     { "@type": "ListItem", position: 2, item: { "@id": `${PAGE_URL}#day-2` } },

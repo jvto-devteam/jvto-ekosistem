@@ -34,6 +34,9 @@ jobs:
       - name: Run booking sync
         run: npm run sync:booking
 
+      - name: Validate schema
+        run: npm run validate:schema
+
       - name: Commit and push if changed
         run: |
           set -euo pipefail

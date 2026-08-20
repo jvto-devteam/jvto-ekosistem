@@ -101,11 +101,12 @@ function buildDayNode(dayItem, pageUrl) {
  *      (DefinedTerm augmentation) are out of scope — they stay locally
  *      built in jvto-web.
  *
- * Day nodes are returned BOTH nested (as `touristTripNode.subTrip`, matching
- * jvto-web's original output 1:1) AND standalone (as `dayNodes`) — the
- * caller must push `dayNodes` into the same top-level @graph as
- * `touristTripNode`, otherwise the bare {"@id": "...#day-N"} references
- * inside touristTripNode.itinerary.itemListElement dangle (validate-schema.mjs
+ * Day nodes are referenced from `touristTripNode.subTrip` and
+ * `touristTripNode.itinerary.itemListElement` as bare {"@id": ...} objects
+ * (NOT nested full objects — see note at the `subTrip` field below) AND
+ * returned standalone (as `dayNodes`) — the caller must push `dayNodes`
+ * into the same top-level @graph as `touristTripNode`, otherwise those
+ * bare {"@id": "...#day-N"} references dangle (validate-schema.mjs
  * checkDanglingReferences flags any internal #-reference that isn't a
  * top-level graph node).
  *
@@ -151,6 +152,7 @@ export function buildTouristTripOfferNodes(pkg, route) {
     duration: `P${pkg.itineraryDays.length}D`,
     touristType: pkg.marketing?.perfectFor?.length ? pkg.marketing.perfectFor : ["Adventure seekers"],
     tripOrigin: { "@type": "Place", name: pkg.originCity },
+    mainEntityOfPage: { "@id": `${pageUrl}#webpage` },
     itinerary: {
       "@type": "ItemList",
       itemListElement: dayNodes.map((day, index) => ({
@@ -159,7 +161,15 @@ export function buildTouristTripOfferNodes(pkg, route) {
         item: { "@id": day["@id"] },
       })),
     },
-    subTrip: dayNodes,
+    // {"@id"}-only references, not the full nested day-node objects — the day
+    // nodes are already emitted as full standalone top-level @graph nodes
+    // (see `dayNodes` below), which is what checkDanglingReferences resolves
+    // against (validate-schema.mjs:127-153, same pattern `offers` uses).
+    // Nesting the full objects here too (the original shape) meant every day
+    // node serialized twice per page once jvto-web started spreading the
+    // ekosistem @graph verbatim — confirmed +10-17KB of pure duplicate
+    // markup per PDP in production.
+    subTrip: dayNodes.map((day) => ({ "@id": day["@id"] })),
     provider: { "@id": ORG_ID },
     offers: { "@id": `${pageUrl}#aggregateOffer` },
     identifier: [{ "@type": "PropertyValue", name: "Internal Package ID", value: pkg.packageId }],

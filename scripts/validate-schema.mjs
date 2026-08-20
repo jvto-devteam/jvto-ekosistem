@@ -8,6 +8,10 @@ const PAGES_DIR = "5-experience-engine/json-ld/pages";
 const ROUTE_INDEX_PATH = "5-experience-engine/manifests/route-output-index.json";
 const INTERNAL_ID_PREFIX = "https://javavolcano-touroperator.com/";
 const EXTERNAL_ENTITIES_PATH = "1-knowledge-and-evidence-core/organization-identity/external-entities.json";
+// Tour-product PDP routes only — matches generate-tourist-trip-schema.mjs's own
+// PDP_ROUTE_RE. Used below to exempt each PDP route's own `#webpage` self-reference
+// from the dangling-reference check.
+const PDP_ROUTE_RE = /^\/tours\/(from-bali|from-surabaya)\//;
 
 /**
  * @id values from the external-entity registry. These are defined in full on one
@@ -133,6 +137,20 @@ export function checkDanglingReferences(graph, route, registryIds = new Set()) {
     return typeof id === "string" && id.startsWith(INTERNAL_ID_PREFIX) && id.includes("#");
   }
 
+  // TouristTrip's `mainEntityOfPage` on the 17 PDP routes points at this route's
+  // own `#webpage` node — but WebPage is deliberately NOT emitted by ekosistem for
+  // these routes (scripts/lib/build-tourist-trip.mjs's own scope-boundary doc:
+  // "WebPage/BreadcrumbList/Product/... stay locally built in jvto-web"). jvto-web
+  // builds that WebPage node itself and merges it into the same combined @graph at
+  // render time, so the reference resolves there — it only looks dangling here
+  // because this check inspects one ekosistem file's @graph in isolation. Exempt
+  // only the current route's own #webpage id, and only on PDP routes, so a real
+  // missing/mistyped WebPage reference elsewhere still gets caught.
+  const expectedExternalWebPageId =
+    typeof route === "string" && PDP_ROUTE_RE.test(route)
+      ? `${INTERNAL_ID_PREFIX.slice(0, -1)}${route}#webpage`
+      : null;
+
   function walk(value) {
     if (Array.isArray(value)) {
       value.forEach(walk);
@@ -141,7 +159,14 @@ export function checkDanglingReferences(graph, route, registryIds = new Set()) {
     if (!value || typeof value !== "object") return;
 
     const keys = Object.keys(value);
-    if (keys.length === 1 && keys[0] === "@id" && isInternalGraphReference(value["@id"]) && !knownIds.has(value["@id"]) && !registryIds.has(value["@id"])) {
+    if (
+      keys.length === 1 &&
+      keys[0] === "@id" &&
+      isInternalGraphReference(value["@id"]) &&
+      !knownIds.has(value["@id"]) &&
+      !registryIds.has(value["@id"]) &&
+      value["@id"] !== expectedExternalWebPageId
+    ) {
       violations.push(`${route}: dangling @id reference ${value["@id"]}`);
       return;
     }

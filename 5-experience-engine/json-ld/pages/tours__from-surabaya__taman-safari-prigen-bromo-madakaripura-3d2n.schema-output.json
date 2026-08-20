@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-20T08:23:19.371Z",
+  "generated_at": "2026-08-20T08:57:55.996Z",
   "route": "/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n",
   "domain": "tours",
   "slug": "from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n",
@@ -16,149 +16,7 @@
           "LocalBusiness"
         ],
         "name": "Java Volcano Tour Operator",
-        "legalName": "PT Java Volcano Rendezvous",
-        "alternateName": "JVTO",
-        "url": "https://javavolcano-touroperator.com",
-        "telephone": "+6282244788833",
-        "email": "hello@javavolcano-touroperator.com",
-        "foundingDate": "2015",
-        "slogan": "Private volcano tours with police-led safety. Ijen, Bromo, Tumpak Sewu.",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://javavolcano-touroperator.com/assets/img/jvto-color.png"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Jl. Khairil Anwar No.102 A",
-          "addressLocality": "Bondowoso",
-          "addressRegion": "Jawa Timur",
-          "postalCode": "68214",
-          "addressCountry": "ID"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": -7.9151,
-          "longitude": 113.8232
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": 4.9,
-          "reviewCount": 152,
-          "bestRating": 5
-        },
-        "sameAs": [
-          "https://www.trustpilot.com/review/javavolcano-touroperator.com",
-          "https://www.google.com/maps?cid=1266403973589689021",
-          "https://www.tripadvisor.com/Attraction_Review-g297715-d19983165-Reviews-Java_Volcano_Tour_Operator-Surabaya_East_Java_Java.html",
-          "https://www.getyourguide.com/java-volcano-tour-operator-s260697/",
-          "https://www.isic.org/discounts/?providerId=259268",
-          "https://www.indecon.id/spotlight-networks/java-volcano-tour-operator",
-          "https://ahu.go.id/sabh/perseroan/qrcode/?kode=NDAyMzAyMDYzNTEwMjE3NF8yXzA4IEZlYnJ1YXJpIDIwMjNfMDggRmVicnVhcmkgMjAyMw==",
-          "https://www.facebook.com/javavolcanotours/",
-          "https://www.instagram.com/javavolcanotouroperator/",
-          "https://twitter.com/jvto_tours"
-        ],
-        "award": [
-          "Booking.com Guest Review Award 2015 — Ijen Bondowoso Homestay (Score 9.4/10)",
-          "Stefan Loose Reiseführer Indonesien — Editorial Feature (4th Edition, 2018)"
-        ],
-        "memberOf": [
-          {
-            "@id": "https://javavolcano-touroperator.com/entity/#org-hpwki"
-          },
-          {
-            "@id": "https://javavolcano-touroperator.com/entity/#org-indecon"
-          },
-          {
-            "@id": "https://javavolcano-touroperator.com/entity/#org-isic"
-          }
-        ],
-        "subjectOf": [
-          {
-            "@type": "NewsArticle",
-            "headline": "Suka Duka Polisi Pariwisata Bondowoso: Tegakkan Prokes Sambil Lawan Dingin",
-            "datePublished": "2021-03-14",
-            "url": "https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin",
-            "publisher": {
-              "@id": "https://javavolcano-touroperator.com/entity/#org-detikcom"
-            }
-          },
-          {
-            "@type": "NewsArticle",
-            "headline": "Polpar Dibentuk untuk Mendukung Ijen Geopark",
-            "url": "https://radarjember.jawapos.com/bondowoso/791102263/polpar-dibentuk-untuk-mendukung-ijen-geopark",
-            "publisher": {
-              "@id": "https://javavolcano-touroperator.com/entity/#org-radar-jember"
-            }
-          },
-          {
-            "@type": "Book",
-            "name": "Stefan Loose Reiseführer Indonesien",
-            "isbn": "978-3-7701-7881-0",
-            "datePublished": "2018-07-05",
-            "publisher": {
-              "@id": "https://javavolcano-touroperator.com/entity/#org-dumont"
-            }
-          }
-        ],
-        "hasCredential": [
-          {
-            "@type": "EducationalOccupationalCredential",
-            "name": "NIB (Nomor Induk Berusaha)",
-            "credentialCategory": "Indonesian Business Registration",
-            "url": "https://javavolcano-touroperator.com/legal/NIB-1102230032918.pdf",
-            "recognizedBy": {
-              "@id": "https://javavolcano-touroperator.com/entity/#org-bkpm"
-            },
-            "identifier": {
-              "@type": "PropertyValue",
-              "propertyID": "NIB",
-              "value": "1102230032918"
-            },
-            "additionalProperty": {
-              "@type": "PropertyValue",
-              "propertyID": "SHA-256",
-              "name": "NIB (Nomor Induk Berusaha) document SHA-256",
-              "value": "fa20dde31bb75e46b061ed14cc6d003f6960c02a9a82c20d8603b0cbf6f7b1b7"
-            }
-          },
-          {
-            "@type": "EducationalOccupationalCredential",
-            "name": "TDUP (Tanda Daftar Usaha Pariwisata)",
-            "credentialCategory": "Indonesian Tourism Business Licence",
-            "dateIssued": "2023-02-11",
-            "url": "https://javavolcano-touroperator.com/legal/TDUP-1102230032918.pdf",
-            "recognizedBy": {
-              "@id": "https://javavolcano-touroperator.com/entity/#org-kemenparekraf"
-            },
-            "identifier": {
-              "@type": "PropertyValue",
-              "propertyID": "TDUP",
-              "value": "1102230032918"
-            },
-            "additionalProperty": {
-              "@type": "PropertyValue",
-              "propertyID": "SHA-256",
-              "name": "TDUP (Tanda Daftar Usaha Pariwisata) document SHA-256",
-              "value": "27252d512ddfa74de22a3e3ec10aa3dd40ef88da3eb57349fcd2137411551ee3"
-            }
-          },
-          {
-            "@type": "EducationalOccupationalCredential",
-            "name": "HPWKI Membership (Himpunan Pelaku Wisata Khusus Ijen)",
-            "credentialCategory": "Volcanic Tourism Association — BBKSDA supervised",
-            "url": "https://javavolcano-touroperator.com/legal/HPWKI-approval.pdf",
-            "recognizedBy": {
-              "@id": "https://javavolcano-touroperator.com/entity/#org-hpwki"
-            },
-            "additionalProperty": {
-              "@type": "PropertyValue",
-              "propertyID": "SHA-256",
-              "name": "HPWKI Membership (Himpunan Pelaku Wisata Khusus Ijen) document SHA-256",
-              "value": "ca1fb1a48b550a7748d400f165899f12a356e6941aacdde9c043427698aaf63b"
-            }
-          }
-        ]
+        "url": "https://javavolcano-touroperator.com"
       },
       {
         "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n#tour",
@@ -181,6 +39,9 @@
         "tripOrigin": {
           "@type": "Place",
           "name": "Surabaya"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n#webpage"
         },
         "itinerary": {
           "@type": "ItemList",
@@ -210,261 +71,13 @@
         },
         "subTrip": [
           {
-            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n#day-1",
-            "@type": "TouristTrip",
-            "name": "Day 1: Surabaya to Taman Safari Prigen and Continue Toward Bromo",
-            "description": "The first day begins with the safari segment before the route continues toward the Bromo side for overnight staging. It gives the itinerary a broader entry point than a volcano-only route while keeping the next day's timing stable.",
-            "departureTime": "08:00",
-            "arrivalTime": "17:30",
-            "itinerary": {
-              "@type": "ItemList",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Breakfast at Accommodation",
-                    "description": "Enjoy breakfast at the accommodation (included). This is the scheduled morning meal time before departure, allowing you to start the day with breakfast at your accommodation.",
-                    "url": "https://javavolcano-touroperator.com/destinations/accommodation"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Pick up and Transfer to Prigen Safari",
-                    "description": "Pick up at your hotel in Surabaya and depart for Prigen Safari Park. This is the transfer segment from Surabaya to the safari destination to begin the day’s planned visit.",
-                    "url": "https://javavolcano-touroperator.com/destinations/pick-up-and-transfer-to-prigen-safari"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Safari Adventure at Prigen",
-                    "description": "Arrive at Prigen Safari Park and start the Safari Adventure. This is the main safari visit window, allocated for entering the park and following the planned safari activities during your time on-site.",
-                    "url": "https://javavolcano-touroperator.com/destinations/prigen-safari-park"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 4,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Lunch at Safari Area",
-                    "description": "Lunch inside the safari area (fees not included). This is the scheduled lunch break within the park area, allowing time to order and dine before continuing the day’s onward travel.",
-                    "url": "https://javavolcano-touroperator.com/destinations/local-restaurant"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 5,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Transfer to Bromo Area",
-                    "description": "Finish at Taman Safari and begin the journey to the Bromo area. This segment marks the transition from the safari visit to the overland transfer toward your Bromo-area accommodation.",
-                    "url": "https://javavolcano-touroperator.com/destinations/transfer-to-bromo-area"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 6,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Check-in at Bromo Hotel",
-                    "description": "Arrive in the Bromo area and check in at the hotel. This is the scheduled arrival and check-in process at your accommodation in the Bromo area after the transfer.",
-                    "url": "https://javavolcano-touroperator.com/destinations/bromo-hotel"
-                  }
-                }
-              ]
-            },
-            "provider": {
-              "@id": "https://javavolcano-touroperator.com/#organization"
-            },
-            "partOfTrip": {
-              "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n#tour"
-            }
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n#day-1"
           },
           {
-            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n#day-2",
-            "@type": "TouristTrip",
-            "name": "Day 2: Bromo-side Overnight and Final Sunrise Preparation",
-            "description": "The second day holds the route on the Bromo side so the sunrise sequence can be handled well the next morning. This middle section keeps the trip paced for families and mixed-interest groups rather than forcing unnecessary compression.",
-            "departureTime": "08:00",
-            "arrivalTime": "17:30",
-            "itinerary": {
-              "@type": "ItemList",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Breakfast at Accommodation",
-                    "description": "Enjoy breakfast at the accommodation (included). This is the scheduled morning meal time before departure, allowing you to start the day with breakfast at your accommodation.",
-                    "url": "https://javavolcano-touroperator.com/destinations/accommodation"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Pick up and Transfer to Prigen Safari",
-                    "description": "Pick up at your hotel in Surabaya and depart for Prigen Safari Park. This is the transfer segment from Surabaya to the safari destination to begin the day’s planned visit.",
-                    "url": "https://javavolcano-touroperator.com/destinations/pick-up-and-transfer-to-prigen-safari"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Safari Adventure at Prigen",
-                    "description": "Arrive at Prigen Safari Park and start the Safari Adventure. This is the main safari visit window, allocated for entering the park and following the planned safari activities during your time on-site.",
-                    "url": "https://javavolcano-touroperator.com/destinations/prigen-safari-park"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 4,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Lunch at Safari Area",
-                    "description": "Lunch inside the safari area (fees not included). This is the scheduled lunch break within the park area, allowing time to order and dine before continuing the day’s onward travel.",
-                    "url": "https://javavolcano-touroperator.com/destinations/local-restaurant"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 5,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Transfer to Bromo Area",
-                    "description": "Finish at Taman Safari and begin the journey to the Bromo area. This segment marks the transition from the safari visit to the overland transfer toward your Bromo-area accommodation.",
-                    "url": "https://javavolcano-touroperator.com/destinations/transfer-to-bromo-area"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 6,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Check-in at Bromo Hotel",
-                    "description": "Arrive in the Bromo area and check in at the hotel. This is the scheduled arrival and check-in process at your accommodation in the Bromo area after the transfer.",
-                    "url": "https://javavolcano-touroperator.com/destinations/bromo-hotel"
-                  }
-                }
-              ]
-            },
-            "provider": {
-              "@id": "https://javavolcano-touroperator.com/#organization"
-            },
-            "partOfTrip": {
-              "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n#tour"
-            }
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n#day-2"
           },
           {
-            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n#day-3",
-            "@type": "TouristTrip",
-            "name": "Day 3: Bromo Sunrise, Madakaripura, and Return to Surabaya",
-            "description": "The final day combines the Bromo sunrise sequence with the Madakaripura stop before returning to Surabaya. It gives the route a strong East Java finish while staying more accessible than the harder volcanic combinations.",
-            "departureTime": "02:30",
-            "arrivalTime": "16:30",
-            "itinerary": {
-              "@type": "ItemList",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Bromo Jeep Tour Experience",
-                    "description": "Starting the Bromo Jeep tour. Begin the scheduled Mount Bromo sunrise tour sequence by Jeep, completing the morning program within the allocated time block.",
-                    "url": "https://javavolcano-touroperator.com/destinations/sea-of-sand-bromo-crater"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Hotel Breakfast",
-                    "description": "Back to the hotel for breakfast. Return to the Bromo hotel after the morning Jeep tour and take a short breakfast break before the mid-day transition.",
-                    "url": "https://javavolcano-touroperator.com/destinations/bromo-hotel"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Bromo Hotel Check-out",
-                    "description": "Check-out, travel to Madakaripura. Complete hotel check-out and begin the transfer toward Madakaripura Waterfall to continue the day’s itinerary sequence.",
-                    "url": "https://javavolcano-touroperator.com/destinations/bromo-hotel"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 4,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Check-out and Transfer to Madakaripura",
-                    "description": "Depart from the Bromo hotel after check-out and continue the overland transfer to Madakaripura Waterfall.",
-                    "url": "https://javavolcano-touroperator.com/destinations/check-out-and-transfer-to-madakaripura"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 5,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Madakaripura Trekking",
-                    "description": "Arrive at Madakaripura and start trekking. This is the main on-site activity window at Madakaripura Waterfall, dedicated to the trek segment as listed in the schedule.",
-                    "url": "https://javavolcano-touroperator.com/destinations/madakaripura-waterfall"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 6,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Lunch After Trek (Own Expense)",
-                    "description": "After trekking, have lunch (fees not included). This is the planned meal break after the Madakaripura trekking segment, with dining costs handled personally.",
-                    "url": "https://javavolcano-touroperator.com/destinations/madakaripura-waterfall"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 7,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Transfer to Surabaya",
-                    "description": "Journey to Surabaya. Begin the return transfer from the Madakaripura area to Surabaya, closing the day tour route.",
-                    "url": "https://javavolcano-touroperator.com/destinations/transfer-to-surabaya"
-                  }
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 8,
-                  "item": {
-                    "@type": "TouristAttraction",
-                    "name": "Arrival in Surabaya",
-                    "description": "Arrived in Surabaya. Complete arrival procedures and proceed to the final drop-off point as applicable.",
-                    "url": "https://javavolcano-touroperator.com/destinations/arrival-in-surabaya"
-                  }
-                }
-              ]
-            },
-            "provider": {
-              "@id": "https://javavolcano-touroperator.com/#organization"
-            },
-            "partOfTrip": {
-              "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n#tour"
-            }
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n#day-3"
           }
         ],
         "provider": {
@@ -830,7 +443,7 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-20T08:23:19.371Z",
+    "generated_at": "2026-08-20T08:57:55.996Z",
     "source_files": [
       "2-product-and-commercial-core/tour-products/tours__from-surabaya__taman-safari-prigen-bromo-madakaripura-3d2n.product-contract.json"
     ],

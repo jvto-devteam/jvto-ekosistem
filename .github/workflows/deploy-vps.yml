@@ -13,6 +13,26 @@ on:
       - '5-experience-engine/guest-portal/customer-portal-detail-records.json'
       - '5-experience-engine/guest-portal/guest-portal-records.json'
       - '5-experience-engine/knowledge-feed/customer-portal-faq-packing-feed.json'
+      # Every hasChanges booking-sync run regenerates all 17 PDP schema-output
+      # files with a fresh generated_at even when no product-contract field
+      # actually changed (accepted tradeoff, see generate-tourist-trip-schema.mjs) —
+      # without paths-ignore this timestamp-only diff triggers a full deploy
+      # (npm ci, cms:audit, Tina build, full rsync) able to cancel a legitimate
+      # in-flight deploy via concurrency:cancel-in-progress. Same class of fix as
+      # d64c81a for the review-schema sibling case.
+      - '5-experience-engine/json-ld/pages/tours__*.schema-output.json'
+      # route-output-index.json gets the same unconditional fresh generated_at
+      # stamp on every generator run (tourist-trip, review-schema, and the CMS
+      # render pipeline all rewrite it), so it carries the identical
+      # timestamp-only-diff problem as the PDP files above. Safe to ignore here:
+      # it is never the sole source of truth — render-web-content-sources.mjs
+      # fully rewrites it from scratch on every real deploy (before merging in
+      # PDP/review routes), so nothing is lost by not deploying on a commit that
+      # only bumps its timestamp. schema-types-index.json is deliberately NOT
+      # listed here: it carries no generated_at/timestamp field at all, so it
+      # only appears in a diff when a route's real title/schemaTypes/pages entry
+      # actually changes — exactly the case this gate must still catch.
+      - '5-experience-engine/manifests/route-output-index.json'
   workflow_dispatch:
 
 concurrency:

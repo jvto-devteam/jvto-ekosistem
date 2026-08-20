@@ -1,7 +1,7 @@
 import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { composeGraph } from "./lib/schema-contract.mjs";
-import { buildOrganizationNode } from "./lib/build-organization.mjs";
+import { buildLeanOrganizationReference } from "./lib/build-organization.mjs";
 import { buildTouristTripOfferNodes } from "./lib/build-tourist-trip.mjs";
 
 const PRODUCTS_DIR = "2-product-and-commercial-core/tour-products";
@@ -67,7 +67,12 @@ export async function generateTouristTripSchemaOutputs({ archiveRoot = process.c
     }
 
     const { touristTripNode, dayNodes, aggregateOfferNode } = built;
-    const orgNode = await buildOrganizationNode(archiveRoot, route);
+    // Lean reference, not the full ~4.5KB node — jvto-web always discards
+    // ekosistem's Organization node in favor of its own local one
+    // (dedup-by-@id, first-wins), so the full node is pure waste on all 17
+    // PDP files. Matches the precedent generate-review-schema.mjs already
+    // established for the same reason (build-organization.mjs:127).
+    const orgNode = await buildLeanOrganizationReference(archiveRoot);
     const nodes = [orgNode, touristTripNode, ...dayNodes, aggregateOfferNode];
 
     const base = routeToOutputBase(route);

@@ -117,4 +117,60 @@ import { checkDanglingReferences, checkNoMissingIds, checkNoZeroRatings } from "
   assert.equal(violations.length, 0);
 }
 
+{
+  // PDP routes' own #webpage self-reference (from TouristTrip.mainEntityOfPage)
+  // is exempt — WebPage is deliberately built locally by jvto-web for these
+  // routes, not emitted by ekosistem, so it never appears in this file's own
+  // @graph. See build-tourist-trip.mjs's scope-boundary doc.
+  const route = "/tours/from-bali/bromo-ijen-3d2n";
+  const graph = {
+    "@graph": [
+      {
+        "@id": `https://javavolcano-touroperator.com${route}#tour`,
+        "@type": "TouristTrip",
+        mainEntityOfPage: { "@id": `https://javavolcano-touroperator.com${route}#webpage` },
+      },
+    ],
+  };
+  const violations = checkDanglingReferences(graph, route);
+  assert.equal(violations.length, 0, "PDP route's own #webpage reference must not be flagged as dangling");
+}
+
+{
+  // The PDP #webpage exemption must not swallow a genuinely different/mistyped
+  // #webpage-shaped reference on a PDP route (e.g. pointing at another route
+  // entirely) — only this route's OWN #webpage id is exempt.
+  const route = "/tours/from-bali/bromo-ijen-3d2n";
+  const graph = {
+    "@graph": [
+      {
+        "@id": `https://javavolcano-touroperator.com${route}#tour`,
+        "@type": "TouristTrip",
+        mainEntityOfPage: { "@id": "https://javavolcano-touroperator.com/tours/from-bali/some-other-route#webpage" },
+      },
+    ],
+  };
+  const violations = checkDanglingReferences(graph, route);
+  assert.equal(violations.length, 1);
+  assert.match(violations[0], /some-other-route#webpage/);
+}
+
+{
+  // Non-PDP routes get no #webpage exemption at all — a dangling #webpage
+  // reference on a CMS-content route (which IS expected to define its own
+  // WebPage node in-file, per render-web-content-sources.mjs) must still fail.
+  const graph = {
+    "@graph": [
+      {
+        "@id": "https://javavolcano-touroperator.com/travel-guide#faq",
+        "@type": "FAQPage",
+        mainEntityOfPage: { "@id": "https://javavolcano-touroperator.com/travel-guide#webpage" },
+      },
+    ],
+  };
+  const violations = checkDanglingReferences(graph, "/travel-guide");
+  assert.equal(violations.length, 1);
+  assert.match(violations[0], /#webpage/);
+}
+
 console.log("validate-schema.test.mjs: all assertions passed");
