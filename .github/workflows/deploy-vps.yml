@@ -140,8 +140,12 @@ jobs:
           const fs = require('node:fs');
           const index = JSON.parse(fs.readFileSync('5-experience-engine/manifests/route-output-index.json', 'utf8'));
           const reviewRouteRe = /^\/why-jvto\/reviews\/\d+$/;
+          const pdpRouteRe = /^\/tours\/(from-bali|from-surabaya)\//;
           const reviewRoutes = index.routes.filter((r) => reviewRouteRe.test(r.route));
-          const contentRoutes = index.routes.filter((r) => !reviewRouteRe.test(r.route));
+          const pdpRoutes = index.routes.filter((r) => pdpRouteRe.test(r.route));
+          const contentRoutes = index.routes.filter(
+            (r) => !reviewRouteRe.test(r.route) && !pdpRouteRe.test(r.route),
+          );
 
           if (contentRoutes.length !== 52) {
             throw new Error(`Expected 52 live-aligned CMS routes, got ${contentRoutes.length}`);
@@ -160,7 +164,16 @@ jobs:
             );
           }
 
-          console.log(`Route count OK: ${contentRoutes.length} CMS routes + ${reviewRoutes.length} review detail routes`);
+          const expectedPdpRoutes = fs
+            .readdirSync('2-product-and-commercial-core/tour-products')
+            .filter((f) => f.endsWith('.product-contract.json')).length;
+          if (pdpRoutes.length !== expectedPdpRoutes) {
+            throw new Error(
+              `Expected ${expectedPdpRoutes} tour PDP routes (1 per product-contract.json), got ${pdpRoutes.length}`,
+            );
+          }
+
+          console.log(`Route count OK: ${contentRoutes.length} CMS routes + ${reviewRoutes.length} review detail routes + ${pdpRoutes.length} tour PDP routes`);
           NODE
 
       - name: Configure SSH
