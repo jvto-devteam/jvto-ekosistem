@@ -19,7 +19,12 @@ Rules:
   `1-knowledge-and-evidence-core/credentials-and-public-evidence/review-platforms.json`
   as its single source of truth (`getPublicAggregateRating()` →
   `getEcosystemReviewProfiles()`), independent of this folder's build output;
+- per-review `Review` nodes are the same story: jvto-web renders them live
+  (`buildIndividualReviewSchemas()`) reading directly from
+  `1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json`,
+  which is appended to daily by `sync-google-reviews.yml` — a static copy
+  here would go stale the same way a static rating would;
 - do not add `AggregateRating`/`Review` nodes here to "fix" the absence
-  described above — that would create a second, competing rating source and
+  described above — that would create a second, competing source and
   reintroduce the exact drift problem the current design was built to end
   (see owner decision 2026-08-15 referenced in `render-web-content-sources.mjs`).
