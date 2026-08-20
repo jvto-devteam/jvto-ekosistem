@@ -33,6 +33,22 @@ async function readJson(relativePath) {
   return JSON.parse(await readFile(path.join(ROOT, relativePath), "utf8"));
 }
 
+/**
+ * Same degrade-gracefully contract as build-organization.mjs's loadReviewProfiles():
+ * a missing file is not a crash, it's a fallback. Only ENOENT is swallowed — a
+ * malformed/unreadable-for-other-reasons file still propagates, since that's a real
+ * bug worth surfacing rather than silently masking. Named/shaped to match the
+ * identical helper introduced for the same problem in the Bagian 3 plan's generators.
+ */
+async function readJsonIfExists(root, relativePath, fallback) {
+  try {
+    return JSON.parse(await readFile(path.join(root, relativePath), "utf8"));
+  } catch (error) {
+    if (error.code === "ENOENT") return fallback;
+    throw error;
+  }
+}
+
 async function writeJson(relativePath, value) {
   await writeFile(path.join(ROOT, relativePath), `${JSON.stringify(value, null, 2)}\n`);
 }
@@ -46,7 +62,11 @@ async function writeJson(relativePath, value) {
  * accumulating or freezing stale review content.
  */
 async function updateHub(reviews) {
-  const hub = await readJson(HUB_OUTPUT_PATH);
+  const hub = await readJsonIfExists(ROOT, HUB_OUTPUT_PATH, null);
+  if (!hub) {
+    console.warn("[generate-review-schema] hub file not found, skipping hub update");
+    return 0;
+  }
   const baseNodes = (hub.json_ld?.["@graph"] ?? []).filter((node) => node["@type"] !== "Review");
   const reviewNodes = buildHubReviewNodes(reviews, { baseUrl: BASE_URL });
   hub.json_ld = composeGraph([...baseNodes, ...reviewNodes]);
@@ -95,7 +115,7 @@ async function writeDetailFile(review) {
 }
 
 async function updateRouteIndex(reviewEntries) {
-  const index = await readJson(ROUTE_INDEX_PATH);
+  const index = await readJsonIfExists(ROOT, ROUTE_INDEX_PATH, { routes: [] });
   const nonReviewRoutes = (index.routes ?? []).filter((r) => !REVIEW_ROUTE_RE.test(r.route));
   const routes = [...nonReviewRoutes, ...reviewEntries].sort((a, b) => a.route.localeCompare(b.route));
   await writeJson(ROUTE_INDEX_PATH, { generated_at: GENERATED_AT, routes });
