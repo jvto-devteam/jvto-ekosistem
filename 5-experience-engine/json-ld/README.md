@@ -10,10 +10,10 @@ Rules:
   `scripts/render-web-content-sources.mjs`), not hand-edited;
 - `schema-types-index.json` is manually maintained — no generator script
   writes to it;
-- **`AggregateRating` and `Review` schema.org types are intentionally never
-  emitted here.** This is a deliberate design decision, not an unimplemented
-  feature or a gap — see the `knownOmissions` field in
-  `schema-types-index.json` and the comment block in
+- **`AggregateRating`, `Review`, `TouristTrip`, and `Offer` schema.org types
+  are intentionally never emitted here.** This is a deliberate design
+  decision, not an unimplemented feature or a gap — see the `knownOmissions`
+  field in `schema-types-index.json` and the comment block in
   `scripts/render-web-content-sources.mjs` for the full rationale;
 - the live rating is rendered directly by jvto-web, which reads
   `1-knowledge-and-evidence-core/credentials-and-public-evidence/review-platforms.json`
@@ -24,7 +24,13 @@ Rules:
   `1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json`,
   which is appended to daily by `sync-google-reviews.yml` — a static copy
   here would go stale the same way a static rating would;
-- do not add `AggregateRating`/`Review` nodes here to "fix" the absence
-  described above — that would create a second, competing source and
-  reintroduce the exact drift problem the current design was built to end
-  (see owner decision 2026-08-15 referenced in `render-web-content-sources.mjs`).
+- `TouristTrip`/`Offer` on the 17 tour package PDPs (`/tours/from-bali/*`,
+  `/tours/from-surabaya/*`) are the same story again: this folder only
+  covers hub routes, not individual PDPs, and jvto-web renders those nodes
+  live reading directly from
+  `2-product-and-commercial-core/tour-products/<slug>.product-contract.json`;
+- do not add `AggregateRating`/`Review`/`TouristTrip`/`Offer` nodes here to
+  "fix" the absence described above — that would create a second, competing
+  source and reintroduce the exact drift problem the current design was
+  built to end (see owner decision 2026-08-15 referenced in
+  `render-web-content-sources.mjs`).
