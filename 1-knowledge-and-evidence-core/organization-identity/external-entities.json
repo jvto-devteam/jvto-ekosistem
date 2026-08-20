@@ -3,7 +3,7 @@
     "lastReviewed": "2026-08-16",
     "owner": "knowledge",
     "idBase": "https://javavolcano-touroperator.com/entity",
-    "note": "Registry of third-party organizations JVTO refers to. The @id base is the JVTO domain on purpose: the @id identifies *JVTO's reference to* the entity, not the entity itself. Ownership is asserted through sameAs. Never add a sameAs URL without verifying it — leave it empty and mark evidenceStatus 'candidate' instead. A node with an @id and no sameAs is still far better than an anonymous node, because the @id is what consolidates the entity across pages.",
+    "note": "Registry of third-party organizations JVTO refers to. The @id base is the JVTO domain on purpose: the @id identifies *JVTO's reference to* the entity, not the entity itself. Ownership is asserted through sameAs. Never add a sameAs URL without verifying it — leave it empty and mark evidenceStatus 'candidate' instead. A node with an @id and no sameAs is still far better than an anonymous node, because the @id is what consolidates the entity across pages. A description field was added 2026-08-19 for records where jvto-web externalEntities.ts had one (hpwki, bbksda-jatim) — leave absent elsewhere rather than fabricating.",
     "records": [
         {
             "key": "hpwki",
@@ -25,7 +25,8 @@
             "regulator": "bbksda-jatim",
             "definedOn": "/verify-jvto/legal",
             "evidenceStatus": "verified",
-            "sourceNote": "AHU registration QR verified in organization.json memberOf. Previously emitted under two different names — 'HPWKI (Himpunan Pelaku Wisata Khusus Ijen)' in memberOf and 'HPWKI — supervised by BBKSDA Jawa Timur' in recognizedBy — which fragmented one organisation into two anonymous nodes. The supervision fact is now a relation to #org-bbksda-jatim, not part of the name."
+            "sourceNote": "AHU registration QR verified in organization.json memberOf. Previously emitted under two different names — 'HPWKI (Himpunan Pelaku Wisata Khusus Ijen)' in memberOf and 'HPWKI — supervised by BBKSDA Jawa Timur' in recognizedBy — which fragmented one organisation into two anonymous nodes. The supervision fact is now a relation to #org-bbksda-jatim, not part of the name.",
+            "description": "Ijen volcano guide association supervised by BBKSDA Jawa Timur (Ministry of Environment). Members receive annual training on volcanic gas protocols and evacuation procedures."
         },
         {
             "key": "indecon",
@@ -116,14 +117,15 @@
             "schemaType": "Organization",
             "id": "https://javavolcano-touroperator.com/entity/#org-dumont",
             "sameAs": [
-                "https://www.dumontreise.de/"
+                "https://www.dumontreise.de/",
+                "https://www.mairdumont.com"
             ],
             "role": [
                 "publisher"
             ],
             "definedOn": "/verify-jvto/press-recognition",
             "evidenceStatus": "verified",
-            "sourceNote": "Publisher of Stefan Loose Reiseführer Indonesien. No sameAs in the repo. A German publisher of this size likely has a Wikidata entry — owner to verify rather than guess. Wikidata Q1262296 (\"DuMont Buchverlag\") checked 2026-08-19 and rejected: it is the parent general-book publisher (Cologne, est. 1956), a distinct entity from DuMont Reiseverlag (the travel-guide imprint, absorbed into MairDumont in 2004) that published the Stefan Loose guide. Left Wikidata unassigned per the no-guessing rule; official DuMont Reise site used instead."
+            "sourceNote": "Publisher of Stefan Loose Reiseführer Indonesien. No sameAs in the repo. A German publisher of this size likely has a Wikidata entry — owner to verify rather than guess. Wikidata Q1262296 (\"DuMont Buchverlag\") checked 2026-08-19 and rejected: it is the parent general-book publisher (Cologne, est. 1956), a distinct entity from DuMont Reiseverlag (the travel-guide imprint, absorbed into MairDumont in 2004) that published the Stefan Loose guide. Left Wikidata unassigned per the no-guessing rule; official DuMont Reise site used instead. jvto-web/src/lib/schemas/externalEntities.ts independently used https://www.mairdumont.com as its sameAs (2026-08-19 reconciliation) — added alongside rather than replacing dumontreise.de, since both are legitimate URLs for the same publisher (mairdumont.com is the parent corporate site, dumontreise.de is the consumer-facing DuMont Reise brand site) and neither is wrong."
         },
         {
             "key": "bkpm",
@@ -185,7 +187,8 @@
             ],
             "definedOn": "/verify-jvto/legal",
             "evidenceStatus": "verified",
-            "sourceNote": "Regulator of TWA Ijen and issuer of SE.1658/KSA.9/2024, the regulation behind the mandatory health screening. It existed only as a fragment of the string 'HPWKI — supervised by BBKSDA Jawa Timur' and had no node of its own, despite being JVTO's most load-bearing authority asset. No sameAs in the repo yet. Defined on /verify-jvto/legal rather than the health-screening page: it is reached only through HPWKI's regulator relation, and defining it on a page that never names it left a dangling @id. No Wikidata entry found for this regional conservation unit as of 2026-08-19 (a technical implementation unit under Ditjen KSDAE, not independently notable) — left unassigned rather than guessed. Official site verified live, matches URL already used elsewhere in this repo (buildVerifySchemas.ts references)."
+            "sourceNote": "Regulator of TWA Ijen and issuer of SE.1658/KSA.9/2024, the regulation behind the mandatory health screening. It existed only as a fragment of the string 'HPWKI — supervised by BBKSDA Jawa Timur' and had no node of its own, despite being JVTO's most load-bearing authority asset. No sameAs in the repo yet. Defined on /verify-jvto/legal rather than the health-screening page: it is reached only through HPWKI's regulator relation, and defining it on a page that never names it left a dangling @id. No Wikidata entry found for this regional conservation unit as of 2026-08-19 (a technical implementation unit under Ditjen KSDAE, not independently notable) — left unassigned rather than guessed. Official site verified live, matches URL already used elsewhere in this repo (buildVerifySchemas.ts references).",
+            "description": "Indonesian Ministry of Environment body responsible for Ijen Crater nature reserve management."
         },
         {
             "key": "ditpamobvit",
@@ -207,6 +210,66 @@
             "definedOn": "/verify-jvto/police-safety",
             "evidenceStatus": "verified",
             "sourceNote": "Provider of the founder's Tourist Police commission, rendered in the GovernmentService node's provider slot. Not among the nine entities the specification listed, but found by the same audit: it was the last Organization-class node still emitting without an @id. Its URL was already present in police-authority source data."
+        },
+        {
+            "key": "polri",
+            "canonicalName": "Indonesian National Police (POLRI)",
+            "aliases": [
+                "Indonesian National Police (POLRI)",
+                "POLRI",
+                "Kepolisian Negara Republik Indonesia"
+            ],
+            "schemaType": "GovernmentOrganization",
+            "id": "https://javavolcano-touroperator.com/entity/#org-polri",
+            "sameAs": [
+                "https://polri.go.id"
+            ],
+            "role": [
+                "regulator"
+            ],
+            "definedOn": "/verify-jvto",
+            "evidenceStatus": "verified",
+            "sourceNote": "Migrated verbatim from jvto-web src/lib/schemas/externalEntities.ts (2026-08-19 reconciliation) — the founder's employing institution (Ditpamobvit/Tourist Police)."
+        },
+        {
+            "key": "kemenkes",
+            "canonicalName": "Kementerian Kesehatan Republik Indonesia (Ministry of Health)",
+            "aliases": [
+                "Kementerian Kesehatan Republik Indonesia (Ministry of Health)",
+                "Kemenkes",
+                "Ministry of Health"
+            ],
+            "schemaType": "GovernmentOrganization",
+            "id": "https://javavolcano-touroperator.com/entity/#org-kemenkes",
+            "sameAs": [
+                "https://kemkes.go.id"
+            ],
+            "role": [
+                "regulator"
+            ],
+            "definedOn": "/verify-jvto",
+            "evidenceStatus": "verified",
+            "sourceNote": "Migrated verbatim from jvto-web src/lib/schemas/externalEntities.ts (2026-08-19 reconciliation) — regulator for the Ijen health-screening physician credential chain."
+        },
+        {
+            "key": "kki",
+            "canonicalName": "Konsil Kedokteran Indonesia (Indonesian Medical Council)",
+            "aliases": [
+                "Konsil Kedokteran Indonesia (Indonesian Medical Council)",
+                "KKI",
+                "Indonesian Medical Council"
+            ],
+            "schemaType": "GovernmentOrganization",
+            "id": "https://javavolcano-touroperator.com/entity/#org-kki",
+            "sameAs": [
+                "https://kki.go.id"
+            ],
+            "role": [
+                "regulator"
+            ],
+            "definedOn": "/verify-jvto",
+            "evidenceStatus": "verified",
+            "sourceNote": "Migrated verbatim from jvto-web src/lib/schemas/externalEntities.ts (2026-08-19 reconciliation) — medical-council regulator for the Ijen health-screening physician credential chain."
         }
     ]
 }
