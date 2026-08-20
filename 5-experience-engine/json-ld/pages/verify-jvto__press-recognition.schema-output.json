@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-19T05:12:29.033Z",
+  "generated_at": "2026-08-20T01:12:50.045Z",
   "route": "/verify-jvto/press-recognition",
   "domain": "verify-jvto",
   "slug": "press-recognition",
@@ -106,7 +106,8 @@
               "@type": "Organization",
               "name": "DuMont Reiseverlag",
               "sameAs": [
-                "https://www.dumontreise.de/"
+                "https://www.dumontreise.de/",
+                "https://www.mairdumont.com"
               ]
             }
           }

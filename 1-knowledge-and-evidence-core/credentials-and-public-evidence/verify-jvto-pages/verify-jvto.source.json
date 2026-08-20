@@ -121,7 +121,48 @@
             "q": "What safety standards does JVTO follow for Ijen Crater tours?",
             "a": "When BBKSDA rules require it (SE.1658/KSA.9/2024), every climber undergoes a formal health screening with licensed physician Dr. Ahmad Irwandanu. HPWKI-certified guides lead all crater descents."
           }
-        ]
+        ],
+        "schemaFacts": {
+          "organizationDescription": "Tourist Police-led private tour operator in East Java, evolved from Ijen Miner Family Homestay (2015). Known for operational certainty, safety standards, and transparent pricing.",
+          "ijenMedicalUnit": {
+            "description": "Mandatory pre-climb medical assessment unit.",
+            "actionDescription": "Mandatory screening prior to ascent (SpO2 & blood pressure) recorded digitally."
+          },
+          "crew": {
+            "gufron": {
+              "jobTitle": "Senior Guide & Photography Specialist",
+              "description": "Specialist in volcanic photography and risk management. Known for capturing 'Blue Fire' imagery while maintaining strict safety protocols.",
+              "knowsAbout": [
+                "Volcanic Photography",
+                "Astrophotography",
+                "Risk Management",
+                "English"
+              ],
+              "credentialName": "Official Ijen Climbing License"
+            },
+            "rendi": {
+              "jobTitle": "Expedition Safety Lead",
+              "description": "Technical safety specialist for Ijen Crater descents. Focuses on physical support and emergency response for high-altitude trekking.",
+              "knowsAbout": [
+                "Mountain Rescue",
+                "Expedition Safety",
+                "First Aid",
+                "Volcanology"
+              ],
+              "credentialName": "Official Ijen Climbing License"
+            },
+            "anjas": {
+              "jobTitle": "Visual Storyteller & Guide",
+              "description": "Youth culture specialist and photographer. Expert in low-light crater photography.",
+              "knowsAbout": [
+                "Social Media Content",
+                "Night Photography",
+                "Cultural Interpretation"
+              ],
+              "credentialName": "Official Ijen Climbing License"
+            }
+          }
+        }
       }
     }
   },

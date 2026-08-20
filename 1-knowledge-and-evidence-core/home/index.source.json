@@ -136,7 +136,25 @@
           "description": "Read the Rulebook Before You Book — cancellation rules, inclusions, and screening protocols are published in full before payment.",
           "subLabel2": "Check licenses, press coverage, and founder credentials"
         }
-      ]
+      ],
+      "pageContent": {
+        "schemaFacts": {
+          "serviceNode": {
+            "description": "Standardized private operations for active-volcano environments, with disciplined risk protocols, own crew execution (not outsourced), and pre-ascent health screening for Mount Ijen when applicable."
+          },
+          "healthApp": {
+            "name": "Mount Ijen Digital Health Screening",
+            "alternateName": "Ijen Health Screening",
+            "aboutThingName": "Pre-ascent health screening (SpO₂ & Blood Pressure)",
+            "featureList": [
+              "Digital recording of SpO₂ and blood pressure",
+              "QR-based clearance flow",
+              "Supports go/no-go safety decisions"
+            ],
+            "usageInfo": "Operational safety screening only. Does not replace medical diagnosis or treatment."
+          }
+        }
+      }
     }
   },
   "faq": {

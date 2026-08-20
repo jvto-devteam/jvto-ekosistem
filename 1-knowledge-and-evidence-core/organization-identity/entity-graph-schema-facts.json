@@ -1,0 +1,144 @@
+{
+  "_comment": "Editorial fact values migrated from jvto-web src/lib/schemas/entityGraph.ts (2026-08-20). Read by entityGraph.ts's build*() functions and merged over each FALLBACK_* constant there (buildOrganizationJsonLd/buildVerifySchemas.ts proven pattern). JSON-LD scaffolding (@context/@type/@id, cross-reference wiring via {'@id':...}, SHA-256 hash identifiers, recognizedBy entity refs) stays as CODE in entityGraph.ts and externalEntities.ts — only prose/name/description/date values live here. `organizationHasCredential` (NIB/TDUP/HPWKI credential array attached sitewide via src/lib/seo/jsonld/builders.ts attachOrgCredentials()) is deliberately NOT represented here and NOT migrated: that helper is a synchronous function invoked from buildOrganizationJsonLd() across ~15+ pages outside this migration's audited consumer set (destinations, tours hub, why-jvto/reviews, markets, etc.) — forcing it async to read this file would ripple far beyond the entityGraph.ts task scope for a field whose equivalent data already exists in organization-identity/organization.json's own hasCredential array. Left as a follow-up consolidation, not attempted here.",
+  "lastReviewed": "2026-08-20",
+  "owner": "organization-identity",
+  "reviewStatus": "migrated-from-jvto-web-entityGraph",
+
+  "organizationReference": {
+    "_comment": "ORGANIZATION_SCHEMA in entityGraph.ts is reference-only — zero live consumers (live's real Organization node is DB-driven via getOrganizationProfile/buildOrganizationJsonLd). Migrated for parity anyway since it's an explicit entityGraph.ts export. slogan/award already match organization-identity/organization.json verbatim; description is new (not present in organization.json).",
+    "slogan": "Private volcano tours with police-led safety. Ijen, Bromo, Tumpak Sewu.",
+    "description": "Registered Indonesian tour operator (PT Java Volcano Rendezvous, NIB 1102230032918) offering private volcano tours in East Java. Founded by an active Tourist Police officer. HPWKI member with BBKSDA-verified safety training.",
+    "award": [
+      "Booking.com Guest Review Award 2015 — Ijen Bondowoso Homestay (Score 9.4/10)",
+      "Stefan Loose Reiseführer Indonesien — Editorial Feature (4th Edition, 2018)"
+    ]
+  },
+
+  "founder": {
+    "imageCaptions": {
+      "portrait": "Agung Sambuko, Founder of Java Volcano Tour Operator",
+      "uniform": "Agung Sambuko (Bripka) in official Tourist Police uniform, Bondowoso"
+    },
+    "worksForGovDescription": "Tourist Police directorate responsible for securing vital tourism objects in Indonesia.",
+    "knowsAbout": [
+      "East Java Volcano Tourism Safety",
+      "Ijen Crater Operations and BBKSDA Regulations",
+      "Mount Bromo Tourist Access Management",
+      "Indonesian Tourist Police Protocols",
+      "HPWKI Volcanic Safety Standards",
+      "SE.1658/KSA.9/2024 — Ijen Health Certificate Regulation"
+    ],
+    "subjectOfNewsDescription": "National press article naming \"Bripka Agung Sambuko\" as Tourist Police, Bondowoso — third-party identity confirmation.",
+    "subjectOfBookDescription": "German travel guide independently referencing tours arranged by Agung at Ijen Bondowoso Homestay (non-paid editorial).",
+    "hasCredential": {
+      "sprinPolpar": {
+        "name": "SPRIN POLPAR (Tourist Police Assignment Letter)",
+        "credentialCategory": "Law Enforcement — Tourist Police Assignment"
+      },
+      "sprinWalTravel": {
+        "name": "SPRIN WAL-TRAVEL (Active Travel Order, February 2024)",
+        "credentialCategory": "Law Enforcement — Active Travel Authorization"
+      },
+      "hpwkiGuide": {
+        "name": "HPWKI Certified Volcano Guide (Himpunan Pelaku Wisata Khusus Ijen)",
+        "credentialCategory": "Professional Mountain Guiding Certification"
+      }
+    }
+  },
+
+  "doctor": {
+    "jobTitle": "Licensed General Practitioner",
+    "clinic": {
+      "name": "Klinik Bakti Husada",
+      "medicalSpecialty": "General Practice",
+      "description": "Ministry of Health-licensed clinic coordinating Ijen health screening for JVTO guests. Issues health certificates compliant with BBKSDA SE.1658/KSA.9/2024."
+    },
+    "hasCredential": {
+      "sip": {
+        "name": "SIP (Surat Izin Praktik) — Medical Practice Licence",
+        "credentialCategory": "Indonesian Medical Practice Licence",
+        "description": "Publicly verifiable at satusehat.kemkes.go.id — the Indonesian national health registry."
+      },
+      "kki": {
+        "name": "KKI Registration (Konsil Kedokteran Indonesia)",
+        "credentialCategory": "Indonesian Medical Council Registration"
+      }
+    }
+  },
+
+  "bbksdaRegulation": {
+    "name": "Ijen Crater Access — Health Certificate Requirement",
+    "description": "Under SE.1658/KSA.9/2024 issued by BBKSDA Jawa Timur, visitors to Kawah Ijen must present a health certificate from a licensed clinic confirming blood pressure and oxygen saturation readings are within safe limits.",
+    "serviceOutputName": "Health Certificate for Ijen Crater Access (Surat Keterangan Sehat)",
+    "areaServedName": "Kawah Ijen (Ijen Crater)"
+  },
+
+  "definedTerms": {
+    "NIB": {
+      "name": "NIB (Nomor Induk Berusaha)",
+      "description": "Indonesian Business Identification Number. Mandatory registration for all legal businesses in Indonesia, issued via the OSS Online Single Submission system. JVTO NIB: 1102230032918.",
+      "termSetName": "Indonesian Business Registration System (OSS)",
+      "termSetUrl": "https://oss.go.id"
+    },
+    "TDUP": {
+      "name": "TDUP (Tanda Daftar Usaha Pariwisata)",
+      "description": "Tourism Business Registration Certificate. The mandatory operating licence for tour operators in Indonesia, issued by the Kementerian Pariwisata dan Ekonomi Kreatif via OSS. JVTO TDUP issued 2023-02-11.",
+      "termSetName": "Indonesian Tourism Licensing System",
+      "termSetUrl": "https://oss.go.id"
+    },
+    "HPWKI": {
+      "name": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)",
+      "description": "Ijen Volcano Tourism Association. Supervised by BBKSDA Jawa Timur (Ministry of Environment). HPWKI members receive annual training on volcanic gas protocols, emergency evacuation, and BBKSDA compliance. Membership is required to operate guided tours on Kawah Ijen.",
+      "termSetName": "Indonesian Ecotourism Associations",
+      "termSetSameAs": "https://ahu.go.id/sabh/perkumpulan/qrcode/?kode=NjAyNDAxMjczNTEwMTM2MV8wXzA3IEZlYnJ1YXJpIDIwMjRfMjcgSmFudWFyeSAyMDI0"
+    },
+    "KTA": {
+      "name": "KTA (Kartu Tanda Anggota)",
+      "description": "HPWKI Guide Licence Card. Issued to verified Ijen volcano guides who have completed BBKSDA-supervised safety training. Required for any guide accompanying tourists to Kawah Ijen. Each card carries a unique identifier number.",
+      "termSetName": "HPWKI Guide Certification System"
+    },
+    "POLPAR": {
+      "name": "POLPAR (Polisi Pariwisata / Tourist Police)",
+      "description": "Indonesian Tourist Police unit under Ditpamobvit (Directorate of Vital Object Security), Indonesian National Police (POLRI). POLPAR officers are assigned to secure and support tourism areas. Assignment requires a SPRIN (Surat Perintah / Official Order Letter) from POLRI.",
+      "termSetName": "Indonesian National Police Specializations",
+      "termSetUrl": "https://polri.go.id"
+    },
+    "BBKSDA": {
+      "name": "BBKSDA (Balai Besar Konservasi Sumber Daya Alam)",
+      "description": "Large-Scale Natural Resource Conservation Agency under the Indonesian Ministry of Environment and Forestry. BBKSDA Jawa Timur manages Kawah Ijen nature reserve and issues access regulations including SE.1658/KSA.9/2024 (health certificate requirement).",
+      "termSetName": "Indonesian Ministry of Environment Bodies",
+      "termSetUrl": "https://www.menlhk.go.id"
+    },
+    "SE1658": {
+      "name": "SE.1658/KSA.9/2024",
+      "description": "BBKSDA Jawa Timur circular letter SE.1658/KSA.9/2024. Requires all Kawah Ijen visitors to present a health certificate from a licensed clinic confirming blood pressure and SpO₂ readings are within safe limits before entering the crater area.",
+      "termSetName": "BBKSDA Jawa Timur Regulatory Circulars"
+    },
+    "ISIC": {
+      "name": "ISIC (International Student Identity Card)",
+      "description": "Global student membership card accepted at 150,000+ discounts in 130+ countries. JVTO is a verified ISIC partner (Provider ID 259268) — Ijen and Bromo tour packages are available at student rates to valid ISIC cardholders. Verifiable at isic.org/discounts/?providerId=259268.",
+      "termSetName": "ISIC Global Student Discount Network",
+      "termSetUrl": "https://www.isic.org"
+    },
+    "INDECON": {
+      "name": "INDECON (Indonesian Ecotourism Network)",
+      "description": "Indonesian Ecotourism Network — national advocacy body for responsible tourism and nature conservation. JVTO holds Spotlight Network membership, recognized for responsible volcanic tourism practices at Kawah Ijen and Mount Bromo. Verifiable at indecon.id/spotlight-networks/java-volcano-tour-operator.",
+      "termSetName": "Indonesian Ecotourism Organizations",
+      "termSetSameAs": "https://www.indecon.id"
+    },
+    "JVTO_TRAVEL_CREDIT": {
+      "name": "Lifetime Package Credit",
+      "description": "JVTO operational policy: for a full guest-initiated cancellation at least 48 hours before Day 1, 100% of the amount paid converts to Lifetime Package Credit — never cash. Non-expiring; locked to the same package, traveler count and price; cannot be split or changed to another package; transferable to another person once, with written authorisation. Differentiator vs industry-standard expiring vouchers. Force-majeure closures fall under the same policy.",
+      "termSetName": "JVTO Operational Policy Pack v5"
+    },
+    "JVTO_FOC_SCHEME": {
+      "name": "JVTO FOC Scheme",
+      "description": "JVTO Free-of-Charge group-discount scheme: 18 paying pax → 1 free, 35 paying pax → 2 free, 50 paying pax → 3 free. Applies on a single booking across the same trip dates. Transparent published thresholds (no negotiation), automated at checkout. Designed for student trips, corporate retreats, and family-cluster bookings.",
+      "termSetName": "JVTO Operational Policy Pack v5"
+    }
+  },
+
+  "javaIslandPlace": {
+    "description": "Java is an island in Indonesia — the world's most populous island, home to Jakarta, Surabaya, Mount Bromo, and Kawah Ijen. Distinct from Java the programming language."
+  }
+}
