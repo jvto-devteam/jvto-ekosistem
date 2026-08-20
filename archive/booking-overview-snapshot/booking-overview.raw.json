@@ -15820,7 +15820,7 @@
         ]
       }
     ],
-    "tshirtSize": "M x 1, L x 1",
+    "tshirtSize": "M x 1, L x 1, XL x 1",
     "tshirtRaw": {
       "xss": 0,
       "xxs": 0,
@@ -15828,7 +15828,7 @@
       "s": 0,
       "m": 1,
       "l": 1,
-      "xl": 0,
+      "xl": 1,
       "xxl": 0,
       "xxxl": 0
     },
@@ -20533,11 +20533,11 @@
       "days": "Fri - Mon"
     },
     "pickup": {
-      "meeting_point": "Others",
+      "meeting_point": "Surabaya Hotel",
       "meeting_point_arrival": null,
-      "meeting_point_value": "",
+      "meeting_point_value": "Holiday inn express Surabaya centerpoint",
       "pickup_time": "11:00",
-      "text": ""
+      "text": "Surabaya Hotel (Holiday inn express Surabaya centerpoint)"
     },
     "dropoff": {
       "drop_point": "Surabaya Airport",
@@ -20687,7 +20687,7 @@
       "profit": 1127000
     },
     "paymentHistory": [],
-    "notes": "Guide ijen: -"
+    "notes": "Guide ijen: Jun"
   },
   {
     "booking_id": 3731,

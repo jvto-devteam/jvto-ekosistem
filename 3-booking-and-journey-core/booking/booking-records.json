@@ -9645,7 +9645,7 @@
         }
       ],
       "tshirt": {
-        "text": "M x 1, L x 1",
+        "text": "M x 1, L x 1, XL x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
@@ -9653,7 +9653,7 @@
           "s": 0,
           "m": 1,
           "l": 1,
-          "xl": 0,
+          "xl": 1,
           "xxl": 0,
           "xxxl": 0
         }
@@ -9926,12 +9926,12 @@
         "days": "Fri - Mon"
       },
       "pickup": {
-        "meetingPoint": "Others",
+        "meetingPoint": "Surabaya Hotel",
         "arrival": null,
-        "value": "",
+        "value": "Holiday inn express Surabaya centerpoint",
         "time": "11:00",
-        "text": "",
-        "complete": false
+        "text": "Surabaya Hotel (Holiday inn express Surabaya centerpoint)",
+        "complete": true
       },
       "dropoff": {
         "dropPoint": "Surabaya Airport",
@@ -10076,7 +10076,7 @@
         "history": []
       },
       "readiness": {
-        "hasPickup": false,
+        "hasPickup": true,
         "hasDropoff": true,
         "hasVehicle": true,
         "hasDriver": true,

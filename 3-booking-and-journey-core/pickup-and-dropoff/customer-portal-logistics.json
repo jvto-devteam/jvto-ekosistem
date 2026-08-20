@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-booking/customer-portal-logistics-v1",
-  "generated_at": "2026-08-19T18:37:29.336Z",
+  "generated_at": "2026-08-20T06:47:53.598Z",
   "privacy": "Logistics values are operational booking fields. Customer identity and portal access slugs are excluded.",
   "record_count": 136,
   "records": [
@@ -1722,7 +1722,7 @@
       "travel_date_end": "2026-08-24",
       "total_pax": 2,
       "logistics": {
-        "pickup": "",
+        "pickup": "Surabaya Hotel (Holiday inn express Surabaya centerpoint)",
         "pickup_time": "11:00:00",
         "drop": "Surabaya Airport Terminal 2 QG693",
         "drop_time": "19:50:00",
