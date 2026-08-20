@@ -6,6 +6,7 @@ import {
 } from "./lib/booking-sync/fetch.mjs";
 import { diffManifest, extractSlug } from "./lib/booking-sync/manifest.mjs";
 import { runGenerators } from "./run-generators.mjs";
+import { generateTouristTripSchemaOutputs } from "./generate-tourist-trip-schema.mjs";
 
 // A single run may legitimately drop a few bookings (real cancellations), but a
 // large fraction disappearing at once is far more likely to be a degraded
@@ -207,6 +208,7 @@ export async function runSync({
   );
 
   await runGenerators({ archiveRoot });
+  await generateTouristTripSchemaOutputs({ archiveRoot });
 
   return { diff, report, detailResults };
 }
