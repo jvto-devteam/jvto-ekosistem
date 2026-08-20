@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, readdir } from "node:fs/promises";
 import path from "node:path";
 
 const ROOT = process.cwd();
@@ -8,8 +8,16 @@ const ORGANIZATION_PATH = "1-knowledge-and-evidence-core/organization-identity/o
 const CLAIMS_PATH = "1-knowledge-and-evidence-core/narrative-claims/narrative-claims.json";
 const REVIEW_PLATFORMS_PATH = "1-knowledge-and-evidence-core/credentials-and-public-evidence/review-platforms.json";
 const CREDENTIALS_PATH = "1-knowledge-and-evidence-core/credentials-and-public-evidence/credentials.json";
+const PEOPLE_PATH = "1-knowledge-and-evidence-core/people-and-crew/people.json";
+const DESTINATION_GLOB_DIR = "1-knowledge-and-evidence-core/destination-knowledge";
+const TOUR_PRODUCTS_DIR = "2-product-and-commercial-core/tour-products";
 const OUTPUT_PATH = "public/llms.txt";
-const COMPILER_VERSION = "1.1.0";
+// v1.2.0 (2026-08-20): llms.txt was an index — seven links whose payload
+// (Rijik's 100-150 kg, press publishers/dates, crew names, destination
+// numbers) stayed behind the door for any crawler that doesn't fetch all 73
+// pages. It now carries those facts inline. Every value below is read from an
+// ekosistem source; nothing here is hand-written prose.
+const COMPILER_VERSION = "1.2.0";
 // Matches jvto-web's robots.ts, which allows every AI-training crawler
 // (GPTBot, CCBot, ClaudeBot, Google-Extended, Bytespider, etc.) — ai-train=yes
 // so the header doesn't contradict what the site actually permits. Owner
@@ -54,14 +62,52 @@ function formatReviewProfile(profile) {
   return `- **${profile.platform}**: ${rating}, ${count}${verified}. ${profile.profileUrl}`;
 }
 
+/** Catalogue floor: lowest low_price across every product contract. */
+async function readPriceFloor() {
+  const files = (await readdir(path.join(ROOT, TOUR_PRODUCTS_DIR))).filter((f) =>
+    f.endsWith(".product-contract.json")
+  );
+  const prices = [];
+  for (const file of files) {
+    const contract = await readJson(path.join(TOUR_PRODUCTS_DIR, file));
+    const low = contract?.pricing?.low_price ?? contract?.low_price;
+    if (typeof low === "number" && low > 0) prices.push(low);
+  }
+  return prices.length ? Math.min(...prices) : null;
+}
+
+async function readDestinationFacts() {
+  const files = (await readdir(path.join(ROOT, DESTINATION_GLOB_DIR)))
+    .filter((f) => f.endsWith(".content.json"))
+    .sort();
+  const out = [];
+  for (const file of files) {
+    const d = await readJson(path.join(DESTINATION_GLOB_DIR, file));
+    const facts = d.tourist_attraction_facts ?? {};
+    out.push({
+      slug: d.slug ?? file.replace(".content.json", ""),
+      name: facts.name ?? d.name,
+      altitude: d.altitude,
+      hubRegion: d.hub_region,
+      props: facts.additional_props ?? [],
+      cost: facts.estimated_cost ?? null,
+    });
+  }
+  return out;
+}
+
 async function main() {
-  const [feed, organization, narrativeClaims, reviewPlatforms, credentials] = await Promise.all([
-    readJson(FEED_PATH),
-    readJson(ORGANIZATION_PATH),
-    readJson(CLAIMS_PATH),
-    readJson(REVIEW_PLATFORMS_PATH),
-    readJson(CREDENTIALS_PATH),
-  ]);
+  const [feed, organization, narrativeClaims, reviewPlatforms, credentials, people, destinations, priceFloor] =
+    await Promise.all([
+      readJson(FEED_PATH),
+      readJson(ORGANIZATION_PATH),
+      readJson(CLAIMS_PATH),
+      readJson(REVIEW_PLATFORMS_PATH),
+      readJson(CREDENTIALS_PATH),
+      readJson(PEOPLE_PATH),
+      readDestinationFacts(),
+      readPriceFloor(),
+    ]);
   const records = feed.records ?? feed;
   const compiledAt = new Date().toISOString();
 
@@ -113,7 +159,20 @@ async function main() {
 
   lines.push("");
   lines.push(`## Public Review Aggregate (${reviewPlatforms.lastReviewed})`);
-  lines.push(`- **Aggregate rating**: ${reviewPlatforms.average_rating} / 5 across Trustpilot, Google Maps, and TripAdvisor source profiles.`);
+  // THE public aggregate is Google Maps only — never a blended cross-platform
+  // average (owner decision 2026-08-15, recorded in organization.json's
+  // _comment). Until 2026-08-20 this line claimed "X / 5 across Trustpilot,
+  // Google Maps, and TripAdvisor", i.e. it asserted to machines exactly the
+  // figure the owner decided not to assert. Per-platform figures still follow,
+  // each labelled with its own verifiedAt.
+  const aggregateProfile = (reviewPlatforms.profiles ?? []).find(
+    (profile) => profile.platform === "Google Maps"
+  );
+  if (aggregateProfile) {
+    lines.push(
+      `- **Aggregate rating**: ${aggregateProfile.rating} / 5 from ${aggregateProfile.reviewCount} Google Maps reviews (verified ${aggregateProfile.verifiedAt}). This is the single public aggregate; the per-platform figures below are not blended into one average.`
+    );
+  }
   for (const profile of reviewPlatforms.profiles ?? []) {
     lines.push(formatReviewProfile(profile));
   }
@@ -126,14 +185,84 @@ async function main() {
 
   lines.push("");
   lines.push("## Fact-Dense Homepage Answer");
-  lines.push("- Private volcano tours from Surabaya & Bali. Tourist Police-led. No shared groups. 4.8 Trustpilot. NIB 1102230032918. From IDR 1.55M/pax.");
+  // Derived, not hand-written: the rating follows the Google-only aggregate
+  // above and the price follows the catalogue floor. The previous hardcoded
+  // version drifted on both (it quoted Trustpilot's rating as if it were the
+  // aggregate, and "From IDR 1.55M" when a 1.0M package exists).
+  const nib = (organization.identifiers ?? []).find((identifier) => identifier.type === "NIB");
+  const factLine = [
+    "Private volcano tours from Surabaya & Bali. Tourist Police-led. No shared groups.",
+    aggregateProfile
+      ? `${aggregateProfile.rating}/5 from ${aggregateProfile.reviewCount} Google reviews.`
+      : null,
+    nib ? `NIB ${nib.value}.` : null,
+    priceFloor ? `From IDR ${(priceFloor / 1_000_000).toFixed(2).replace(/\.?0+$/, "")}M/pax.` : null,
+  ]
+    .filter(Boolean)
+    .join(" ");
+  lines.push(`- ${factLine}`);
+
+  lines.push("");
+  lines.push("## Third-Party Recognition");
+  lines.push(
+    "Independent references to JVTO or its founder. None operator-produced; each has a page-level evidence record."
+  );
+  for (const award of organization.award ?? []) {
+    lines.push(`- ${award}`);
+  }
+  for (const subject of organization.subjectOf ?? []) {
+    const parts = [
+      subject.headline ?? subject.name,
+      subject.publisherName,
+      subject.datePublished,
+      subject.isbn ? `ISBN ${subject.isbn}` : null,
+    ]
+      .filter(Boolean)
+      .join(" — ");
+    if (parts) lines.push(`- ${parts}${subject.url ? `. ${subject.url}` : ""}`);
+  }
+
+  lines.push("");
+  lines.push("## Crew (named in guest reviews)");
+  lines.push(
+    "Guides and drivers are named individually because guests name them. Mention counts are alias-reconciled against the Google review corpus."
+  );
+  for (const member of people.crew?.roster ?? []) {
+    const mentions = member.googleReviewMentions?.aliasAdjustedReviewCount;
+    const specialties = (member.specialties ?? []).join(", ");
+    const mentionText = typeof mentions === "number" ? `, named in ${mentions} Google reviews` : "";
+    lines.push(
+      `- **${member.name}** (${member.role}${mentionText})${specialties ? `: ${specialties}` : ""}`
+    );
+  }
+
+  lines.push("");
+  lines.push("## Destination Facts");
+  for (const destination of destinations) {
+    const bits = [
+      destination.altitude != null ? `${destination.altitude} m` : null,
+      destination.hubRegion,
+      ...(destination.props ?? []).map((prop) =>
+        `${prop.name} ${prop.value}${prop.unit_text ? ` ${prop.unit_text}` : ""}`.trim()
+      ),
+      destination.cost
+        ? `${destination.cost.name ?? "entrance"} ${destination.cost.currency} ${destination.cost.value}`
+        : null,
+    ].filter(Boolean);
+    lines.push(`- **${destination.name}**: ${bits.join("; ")}.`);
+  }
+
   lines.push("");
   lines.push("## Priority Pages");
+  lines.push(
+    "Each line states the page's key fact directly, so it can be quoted without fetching the page."
+  );
 
   for (const record of selected) {
-    lines.push(
-      `- [${record.title}](https://javavolcano-touroperator.com${record.route}): ${truncateWords(record.summary, 20)}`
-    );
+    // answerFirst is the page's own fact-dense one-liner (numbers, dates, rule
+    // names). Fall back to the summary only where a page has not written one.
+    const fact = record.answerFirst || truncateWords(record.summary, 20);
+    lines.push(`- [${record.title}](https://javavolcano-touroperator.com${record.route}): ${fact}`);
   }
   lines.push("");
   lines.push("---");

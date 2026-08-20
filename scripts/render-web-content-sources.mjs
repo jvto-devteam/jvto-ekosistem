@@ -215,6 +215,10 @@ function buildFeedRecord(source) {
     slug: source.slug,
     title: source.meta?.title || "",
     summary: source.meta?.summary || source.meta?.description || "",
+    // answerFirst is the page's fact-dense one-liner (numbers, dates, rule
+    // names). llms.txt quotes it verbatim so a crawler gets the fact itself,
+    // not just a link to the page holding it.
+    ...(source.meta?.answerFirst ? { answerFirst: source.meta.answerFirst } : {}),
     status: source.meta?.status || "published",
     owner: source.meta?.owner || "",
     lastReviewed: source.meta?.lastReviewed || "",

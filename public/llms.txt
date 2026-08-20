@@ -1,7 +1,7 @@
 # Java Volcano Tour Operator (JVTO)
 > Machine-readable entity dossier for LLM crawlers. Private volcano tours in East Java, Indonesia - Bromo, Ijen, and Tumpak Sewu.
 
-Auto-generated from JVTO Operating Ecosystem (compiler render-llms-txt v1.1.0, compiled 2026-08-18).
+Auto-generated from JVTO Operating Ecosystem (compiler render-llms-txt v1.2.0, compiled 2026-08-20).
 Source: jvto-ekosistem SSOT (organization identity, narrative claims, public evidence, knowledge feed).
 Content-Signal: search=yes,ai-train=yes,use=reference
 Do not hand-edit public/llms.txt; edit the source files and run npm run render:llms.
@@ -26,35 +26,82 @@ Do not hand-edit public/llms.txt; edit the source files and run npm run render:l
 - **SPRIN WAL-TRAVEL (Active Travel Order, February 2024)**: Law Enforcement — Active Travel Authorization; recognized by Indonesian National Police (POLRI); document https://javavolcano-touroperator.com/legal/SPRIN-WAL-TRAVEL-2024-02-12.webp; SHA-256 179b061eae558943fdccc51d2ea3c8233a704b61f03ca3d212433f3e8d6f3bd3
 - **BBKSDA SE.1658/KSA.9/2024**: Conservation-authority circular — supporting authority for the mandatory Ijen health-certificate requirement (mandatory for every guest before crater entry; adjudicated 2026-07-06); recognized by BBKSDA Jawa Timur
 
-## Public Review Aggregate (2026-08-07)
-- **Aggregate rating**: 4.9 / 5 across Trustpilot, Google Maps, and TripAdvisor source profiles.
+## Public Review Aggregate (2026-08-19)
+- **Aggregate rating**: 4.9 / 5 from 152 Google Maps reviews (verified 2026-08-19). This is the single public aggregate; the per-platform figures below are not blended into one average.
 - **Trustpilot**: 4.8 / 5, 51 reviews, verified 2026-05-09. https://trustpilot.com/review/javavolcano-touroperator.com
-- **Google Maps**: 4.9 / 5, 149 reviews, verified 2026-08-15. https://www.google.com/maps?cid=1266403973589689021
+- **Google Maps**: 4.9 / 5, 152 reviews, verified 2026-08-19. https://www.google.com/maps?cid=1266403973589689021
 - **TripAdvisor**: 4.95 / 5, 21 reviews, verified 2026-04-22. https://www.tripadvisor.com/Attraction_Review-g297715-d19983165-Reviews-Java_Volcano_Tour_Operator-Surabaya_East_Java_Java.html
 - **GetYourGuide**: rating not asserted, review count not asserted. https://www.getyourguide.com/java-volcano-tour-operator-s260697/
 
-## Canonical Claims (9)
+## Canonical Claims (26)
 - **C1 - Safety-led operations**: https://javavolcano-touroperator.com/why-jvto/community-standards
 - **C2 - Private tours (execution control)**: https://javavolcano-touroperator.com/why-jvto/community-standards
 - **C3 - All-inclusive clarity (reduce surprises)**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
-- **C4 - Ijen Health Screening — BBKSDA SE.1658/KSA.9/2024 protocol**: https://javavolcano-touroperator.com/travel-guide/ijen-health-screening
+- **C4 - Ijen Health Screening (safety layer)**: https://javavolcano-touroperator.com/travel-guide/ijen-health-screening
 - **C5 - Proof-first trust (verification layer)**: https://javavolcano-touroperator.com/verify-jvto
 - **C6 - Reviews registry (independent validation)**: https://javavolcano-touroperator.com/why-jvto/reviews
 - **C7 - Our Team (personality economy + operational credibility)**: https://javavolcano-touroperator.com/why-jvto/our-team
 - **C8 - Partners (HPWKI / INDECON / ISIC) as context**: https://javavolcano-touroperator.com/verify-jvto
 - **C9 - Press & Recognition (third-party context)**: https://javavolcano-touroperator.com/verify-jvto/press-recognition
+- **POL-BPC-01 - How is a JVTO tour booking confirmed?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
+- **POL-BPC-02 - What deposit does JVTO require to book a tour?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
+- **POL-BPC-03 - When is the final payment due for a JVTO tour?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
+- **POL-BPC-04 - Is JVTO's online checkout secure?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
+- **POL-BPC-05 - What are JVTO's official bank transfer details?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
+- **POL-BPC-06 - What is the order of precedence if JVTO policies conflict?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
+- **POL-BPC-07 - What is JVTO's cancellation policy?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
+- **POL-BPC-08 - Does JVTO offer cash refunds for cancellations?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
+- **POL-BPC-09 - What is JVTO Travel Credit?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
+- **POL-BPC-10 - Can I reschedule my JVTO tour?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
+- **POL-BPC-11 - What happens if JVTO cancels due to a volcano alert or park closure?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
+- **POL-IE-01 - What is included in a JVTO private tour package?**: https://javavolcano-touroperator.com/policy/inclusions-exclusions
+- **POL-IE-02 - What vehicle does JVTO use for private tours?**: https://javavolcano-touroperator.com/policy/inclusions-exclusions
+- **POL-IE-03 - How many guests share a jeep at Mount Bromo?**: https://javavolcano-touroperator.com/policy/inclusions-exclusions
+- **POL-IE-04 - Does JVTO provide gas masks for Kawah Ijen?**: https://javavolcano-touroperator.com/policy/inclusions-exclusions
+- **POL-IE-05 - What is JVTO's FOC scheme for large groups?**: https://javavolcano-touroperator.com/policy/inclusions-exclusions
+- **POL-IE-06 - What is not included in a JVTO tour by default?**: https://javavolcano-touroperator.com/policy/inclusions-exclusions
 
 ## Fact-Dense Homepage Answer
-- Private volcano tours from Surabaya & Bali. Tourist Police-led. No shared groups. 4.8 Trustpilot. NIB 1102230032918. From IDR 1.55M/pax.
+- Private volcano tours from Surabaya & Bali. Tourist Police-led. No shared groups. 4.9/5 from 152 Google reviews. NIB 1102230032918. From IDR 1M/pax.
+
+## Third-Party Recognition
+Independent references to JVTO or its founder. None operator-produced; each has a page-level evidence record.
+- Booking.com Guest Review Award 2015 — Ijen Bondowoso Homestay (Score 9.4/10)
+- Stefan Loose Reiseführer Indonesien — Editorial Feature (4th Edition, 2018)
+- Suka Duka Polisi Pariwisata Bondowoso: Tegakkan Prokes Sambil Lawan Dingin — Detik.com — 2021-03-14. https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin
+- Polpar Dibentuk untuk Mendukung Ijen Geopark — Radar Jember / Jawa Pos. https://radarjember.jawapos.com/bondowoso/791102263/polpar-dibentuk-untuk-mendukung-ijen-geopark
+- Stefan Loose Reiseführer Indonesien — DuMont Reiseverlag — 2018-07-05 — ISBN 978-3-7701-7881-0
+
+## Crew (named in guest reviews)
+Guides and drivers are named individually because guests name them. Mention counts are alias-reconciled against the Google review corpus.
+- **Anjas** (guide, named in 10 Google reviews): Blue Fire photography, astrophotography, 01:00 crater night ascent, SO2 / gas-mask safety
+- **Gufron** (guide, named in 18 Google reviews): Bromo / Tengger sunrise, 4WD jeep routing, geology, multi-day Bromo–Ijen logistics
+- **Rendi** (guide, named in 15 Google reviews): Tumpak Sewu canyon descent, expedition coordination, crater safety / rescue, first aid
+- **Boy (Ahboy)** (guide, named in 10 Google reviews): Ijen crater senior guiding, blue-fire timing, gas-mask coordination, cultural storytelling
+- **Kiki** (guide, named in 13 Google reviews): guest photography direction, instructional guiding, Tumpak Sewu routing
+- **Taufik** (guide, named in 7 Google reviews): pre-hike briefings, mixed-age / family guiding, patient pacing
+- **Fauzi** (guide, named in 9 Google reviews): low-crowd viewpoint routing, attentive coordination, photo scouting
+- **Fredi** (driver, named in 21 Google reviews): long-haul overland (Surabaya–Bromo–Ijen), Bali ferry crossing
+- **Joyo** (driver, named in 4 Google reviews): efficient point-to-point transfers, mountain defensive driving
+- **Yandi** (driver, named in 10 Google reviews): pre-tour briefings, family-friendly driving
+- **Holili** (driver, named in 6 Google reviews): route optimization, local Bondowoso–Ijen access roads, punctuality
+
+## Destination Facts
+- **Kawah Ijen**: 2386 m; Banyuwangi; Crater rim elevation 2386 m; Trail distance (one-way) 3 km; Ascent time 90 min; Difficulty level Strenuous — steep rocky night hike from Paltuding trailhead; Crater lake acidity ≈ pH 0 (highest-volume acidic crater lake on Earth); Blue fire Pre-dawn sulfuric-gas phenomenon; weather- and gas-dependent, not guaranteed; Health certificate Mandatory for every guest before crater entry (BBKSDA SE.1658/KSA.9/2024); Best time to visit Dry season (April–October); midnight departure for the blue-fire window.
+- **Madakaripura Waterfall**: 620 m; Probolinggo.
+- **Mount Bromo**: 2329 m; Probolinggo; Summit elevation 2329 m; Sunrise viewpoint elevation 2770 m; Difficulty level Easy to moderate — short crater-rim walk, 4WD jeep access to the caldera; 4WD jeep Mandatory for Penanjakan viewpoint and Sea of Sand access (included in JVTO packages); Health certificate Not required (no sulfuric-gas exposure at tourist viewing points); Best time to visit Dry season (April–October); pre-dawn 03:00–05:00 for sunrise; Bromo Tengger Semeru National Park entrance (foreign visitor, per person) IDR 160000.
+- **Papuma Beach**: 5 m; Jember.
+- **Tumpak Sewu Waterfall**: 400 m; Lumajang.
 
 ## Priority Pages
-- [Why Travel with Java Volcano Tour Operator (JVTO)](https://javavolcano-touroperator.com/why-jvto): Why travelers choose JVTO: police-led safety, verifiable credentials, private-only tours, and documented history.
+Each line states the page's key fact directly, so it can be quoted without fetching the page.
+- [Why Travel with Java Volcano Tour Operator (JVTO)](https://javavolcano-touroperator.com/why-jvto): JVTO is a registered Indonesian tour operator for private Bromo, Ijen, Tumpak Sewu and Papuma routes from Surabaya or Bali. The model is Tourist Police-led, NIB 1102230032918, 100% private, all-inclusive, and backed by published policies, crew profiles, reviews and verification pages.
 - [Verify JVTO: A Proof Library You Can Check](https://javavolcano-touroperator.com/verify-jvto): The evidence locker for PT Java Volcano Rendezvous — legal, police-authority, press, and history documents, each checkable against an independent...
-- [Ijen Health Screening – Real Checks, Digital Proof](https://javavolcano-touroperator.com/travel-guide/ijen-health-screening): The mandatory Ijen health screening: real checks at your hotel, a BSrE-signed digital certificate, checked at the crater access gate.
-- [Ijen Rijik: The Monthly Closure Day at Kawah Ijen](https://javavolcano-touroperator.com/travel-guide/rijik-monthly-closure): Why Kawah Ijen closes on the first Friday of every month (the Rijik conservation cleanup, since March 2019) and how...
-- [Booking Information – How JVTO Private Tours Work](https://javavolcano-touroperator.com/travel-guide/booking-information): How JVTO private tour booking works: website-only booking, payments, changes, and Lifetime Package Credit.
-- [Traffic Police Escort for Tourist Groups in East Java](https://javavolcano-touroperator.com/travel-guide/police-escort-for-groups): How JVTO coordinates an official traffic police escort for large tourist groups in East Java — a formal request process...
-- [JVTO Policy Hub](https://javavolcano-touroperator.com/policy): Navigation hub for the JVTO policy documents: privacy, booking/payment/cancellation, and inclusions/exclusions.
+- [Ijen Health Certificate — Real Checks, Digital Proof](https://javavolcano-touroperator.com/travel-guide/ijen-health-screening): Before Kawah Ijen crater entry, every guest needs a doctor-issued health certificate under BBKSDA SE.1658/KSA.9/2024. JVTO coordinates a real hotel-based screening with vitals checks and a BSrE-signed digital certificate. If a guest is not cleared, only that guest's climb is cancelled and safe-zone alternatives apply.
+- [Ijen Rijik: The Monthly Closure Day at Kawah Ijen](https://javavolcano-touroperator.com/travel-guide/rijik-monthly-closure): Kawah Ijen closes to all visitors on the first Friday of every month for Rijik, a scheduled conservation cleanup running since March 2019. Park staff and volunteers typically remove an estimated 100-150 kg of waste. JVTO checks this calendar before confirming Ijen-inclusive itineraries and schedules around it.
+- [Booking Information – How JVTO Private Tours Work](https://javavolcano-touroperator.com/travel-guide/booking-information): JVTO bookings happen only on javavolcano-touroperator.com, in five steps: choose route and dates, review price and add-ons, accept terms and pay a 20% deposit (up to 100% if Day 1 is within 14 days), then receive your Official E-Voucher PDF. Full legal terms: /policy/booking-payment-cancellation.
+- [Traffic Police Escort for Tourist Groups in East Java](https://javavolcano-touroperator.com/travel-guide/police-escort-for-groups): For tourist groups, usually around 18 guests or more, JVTO can request an official traffic police escort through the relevant Ditlantas unit. It is a formal approval process, not a guaranteed add-on. When approved, the escort supports road coordination on selected East Java segments.
+- [JVTO Policy Hub](https://javavolcano-touroperator.com/policy): JVTO policy pages define the booking, payment, cancellation, inclusions, exclusions and privacy rules that apply before a private tour is confirmed. The binding order starts with the official e-voucher or invoice PDF, then the published policy pages, then supporting travel-guide guidance for operational details.
 
 ---
-Compiled 2026-08-18T06:43:07.071Z from 42 knowledge-feed records. Feed generated 2026-08-15T13:30:07.459Z.
+Compiled 2026-08-20T08:23:19.624Z from 52 knowledge-feed records. Feed generated 2026-08-20T08:23:19.292Z.
