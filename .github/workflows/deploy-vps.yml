@@ -136,10 +136,28 @@ jobs:
           node - <<'NODE'
           const fs = require('node:fs');
           const index = JSON.parse(fs.readFileSync('5-experience-engine/manifests/route-output-index.json', 'utf8'));
-          if (index.routes.length !== 52) {
-            throw new Error(`Expected 52 live-aligned routes, got ${index.routes.length}`);
+          const reviewRouteRe = /^\/why-jvto\/reviews\/\d+$/;
+          const reviewRoutes = index.routes.filter((r) => reviewRouteRe.test(r.route));
+          const contentRoutes = index.routes.filter((r) => !reviewRouteRe.test(r.route));
+
+          if (contentRoutes.length !== 52) {
+            throw new Error(`Expected 52 live-aligned CMS routes, got ${contentRoutes.length}`);
           }
-          console.log(`Route count OK: ${index.routes.length}`);
+
+          const reviews = JSON.parse(
+            fs.readFileSync(
+              '1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json',
+              'utf8',
+            ),
+          );
+          const expectedReviewRoutes = (reviews.reviews ?? []).length;
+          if (reviewRoutes.length !== expectedReviewRoutes) {
+            throw new Error(
+              `Expected ${expectedReviewRoutes} review detail routes (1 per reviews.json record), got ${reviewRoutes.length}`,
+            );
+          }
+
+          console.log(`Route count OK: ${contentRoutes.length} CMS routes + ${reviewRoutes.length} review detail routes`);
           NODE
 
       - name: Configure SSH
