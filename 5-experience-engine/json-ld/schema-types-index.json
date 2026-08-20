@@ -1,10 +1,10 @@
 {
   "dataStatus": "extracted",
-  "pageCount": 44,
+  "pageCount": 61,
   "knownOmissions": {
     "AggregateRating": "Intentionally absent from every schema-output.json in this repo — not a gap, not unimplemented. jvto-web renders the live AggregateRating node itself, reading directly from 1-knowledge-and-evidence-core/credentials-and-public-evidence/review-platforms.json (jvto-web: src/lib/publicContent/getAggregateRating.ts, src/lib/ecosystemContent/reviewPlatforms.ts). That file is the single source of truth for the rating (owner decision 2026-08-15/2026-08-19); this repo's json-ld build output is a different artifact and was never that source's transport. See scripts/render-web-content-sources.mjs for the full rationale. Do not add AggregateRating here to 'fix' this.",
     "Review": "Also intentionally absent, same reasoning as AggregateRating. jvto-web already renders per-review Review nodes live (buildIndividualReviewSchemas() in src/lib/schemas/buildWhyJvtoSchemas.ts, used on /why-jvto/reviews and /why-jvto/[slug]) reading directly from this repo's 1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json — shipped as Phase 2 of the Google Reviews migration, completed 2026-08-19. reviews.json is appended to daily by sync-google-reviews.yml (nextId grows over time), so a static snapshot in this folder's build output would drift/lag the same way a static AggregateRating would. Do not add Review nodes here to 'fix' this.",
-    "TouristTrip_and_Offer": "Also intentionally absent, same reasoning. This folder's pages/ only covers hub routes (tours.schema-output.json, tours__from-bali.schema-output.json, tours__from-surabaya.schema-output.json) — it never included the 17 individual tour package PDP routes, so a 0 count here is not a gap. jvto-web renders TouristTrip/Offer/AggregateOffer live on every PDP (src/app/(website)/tours/from-bali/[slug]/page.tsx and the from-surabaya equivalent) reading directly from this repo's 2-product-and-commercial-core/tour-products/<slug>.product-contract.json via src/lib/ecosystemContent/tourPackageDetail.ts. Note: the older standard-package-route-map.json / llm-wiki-synced tourist-trip.json path referenced in docs/superpowers/plans/2026-08-13-geo-schema-engine-and-jvto-web-integration.md as 'inferred confidence, gated' is stale — jvto-web stopped using it 2026-08-15/2026-08-18 in favor of the verified product-contract.json path described above. Do not add TouristTrip/Offer nodes here to 'fix' this."
+    "TouristTrip_and_Offer": "REVERSED 2026-08-20 (was: intentionally absent). Design spec 2026-08-20-ekosistem-schema-rendering-consolidation-design.md Bagian 3 moved TouristTrip/Offer assembly into ekosistem for the 17 tour-product PDP routes — see schemaByType.TouristTrip and scripts/generate-tourist-trip-schema.mjs. The AggregateRating/Review omissions recorded elsewhere in this object are UNRELATED and still stand (separate Bagian 1/2 of the same spec, not touched by this generator)."
   },
   "schemaByType": {
     "CollectionPage": [
@@ -59,6 +59,25 @@
     ],
     "FAQPage": [
       "/travel-guide/faq"
+    ],
+    "TouristTrip": [
+      "/tours/from-bali/bromo-ijen-3d2n",
+      "/tours/from-bali/ijen-bromo-madakaripura-3d2n",
+      "/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
+      "/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n",
+      "/tours/from-surabaya/bromo-1d1n",
+      "/tours/from-surabaya/bromo-2d1n",
+      "/tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
+      "/tours/from-surabaya/ijen-2d1n",
+      "/tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
+      "/tours/from-surabaya/ijen-bromo-madakaripura-4d3n",
+      "/tours/from-surabaya/ijen-bromo-madakaripura-malang-5d4n",
+      "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
+      "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n",
+      "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-malang-6d5n",
+      "/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n",
+      "/tours/from-surabaya/tumpak-sewu-bromo-3d2n",
+      "/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n"
     ]
   },
   "pages": [
@@ -139,6 +158,142 @@
       "title": "JVTO Privacy & Data Protection Policy",
       "schemaTypes": [
         "WebPage"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-bali/bromo-ijen-3d2n",
+      "title": "3 Day Bromo & Ijen Volcano Discovery from Bali",
+      "schemaTypes": [
+        "TouristTrip"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-bali/ijen-bromo-madakaripura-3d2n",
+      "title": "3 Day Ijen, Bromo & Madakaripura Waterfall Journey from Bali to Surabaya",
+      "schemaTypes": [
+        "TouristTrip"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
+      "title": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+      "schemaTypes": [
+        "TouristTrip"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n",
+      "title": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Discovery from Bali to Surabaya",
+      "schemaTypes": [
+        "TouristTrip"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-surabaya/bromo-1d1n",
+      "title": "1 Day Bromo Midnight Experience from Surabaya",
+      "schemaTypes": [
+        "TouristTrip"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-surabaya/bromo-2d1n",
+      "title": "2 Day Bromo Sunrise Adventure from Surabaya",
+      "schemaTypes": [
+        "TouristTrip"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
+      "title": "3 Day Bromo, Madakaripura & Ijen Overland from Surabaya to Bali",
+      "schemaTypes": [
+        "TouristTrip"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-surabaya/ijen-2d1n",
+      "title": "2 Day Kawah Ijen Expedition from Surabaya",
+      "schemaTypes": [
+        "TouristTrip"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
+      "title": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+      "schemaTypes": [
+        "TouristTrip"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-surabaya/ijen-bromo-madakaripura-4d3n",
+      "title": "4 Day Ijen, Bromo & Madakaripura Waterfall Expedition from Surabaya",
+      "schemaTypes": [
+        "TouristTrip"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-surabaya/ijen-bromo-madakaripura-malang-5d4n",
+      "title": "5 Day Ijen, Bromo, Madakaripura & Malang City Adventure from Surabaya",
+      "schemaTypes": [
+        "TouristTrip"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
+      "title": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+      "schemaTypes": [
+        "TouristTrip"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n",
+      "title": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Nature Trip from Surabaya",
+      "schemaTypes": [
+        "TouristTrip"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-malang-6d5n",
+      "title": "6 Day Ijen, Papuma Beach, Tumpak Sewu, Bromo & Malang City Discovery from Surabaya",
+      "schemaTypes": [
+        "TouristTrip"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n",
+      "title": "3 Day Taman Safari Prigen, Bromo & Madakaripura Family Tour from Surabaya",
+      "schemaTypes": [
+        "TouristTrip"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-surabaya/tumpak-sewu-bromo-3d2n",
+      "title": "3 Day Tumpak Sewu Waterfall & Bromo Explorer from Surabaya",
+      "schemaTypes": [
+        "TouristTrip"
+      ],
+      "faqKey": null
+    },
+    {
+      "route": "/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+      "title": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "schemaTypes": [
+        "TouristTrip"
       ],
       "faqKey": null
     },

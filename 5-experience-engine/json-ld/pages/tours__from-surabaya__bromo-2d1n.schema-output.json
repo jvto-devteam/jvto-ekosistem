@@ -1,0 +1,648 @@
+{
+  "schema_version": "jvto/output/json-ld-page/v1",
+  "output_type": "json_ld_page",
+  "generated_at": "2026-08-20T07:08:45.797Z",
+  "route": "/tours/from-surabaya/bromo-2d1n",
+  "domain": "tours",
+  "slug": "from-surabaya/bromo-2d1n",
+  "json_ld": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@id": "https://javavolcano-touroperator.com/#organization",
+        "@type": [
+          "Organization",
+          "TravelAgency",
+          "LocalBusiness"
+        ],
+        "name": "Java Volcano Tour Operator",
+        "legalName": "PT Java Volcano Rendezvous",
+        "alternateName": "JVTO",
+        "url": "https://javavolcano-touroperator.com",
+        "telephone": "+6282244788833",
+        "email": "hello@javavolcano-touroperator.com",
+        "foundingDate": "2015",
+        "slogan": "Private volcano tours with police-led safety. Ijen, Bromo, Tumpak Sewu.",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://javavolcano-touroperator.com/assets/img/jvto-color.png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. Khairil Anwar No.102 A",
+          "addressLocality": "Bondowoso",
+          "addressRegion": "Jawa Timur",
+          "postalCode": "68214",
+          "addressCountry": "ID"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -7.9151,
+          "longitude": 113.8232
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4.9,
+          "reviewCount": 152,
+          "bestRating": 5
+        },
+        "sameAs": [
+          "https://www.trustpilot.com/review/javavolcano-touroperator.com",
+          "https://www.google.com/maps?cid=1266403973589689021",
+          "https://www.tripadvisor.com/Attraction_Review-g297715-d19983165-Reviews-Java_Volcano_Tour_Operator-Surabaya_East_Java_Java.html",
+          "https://www.getyourguide.com/java-volcano-tour-operator-s260697/",
+          "https://www.isic.org/discounts/?providerId=259268",
+          "https://www.indecon.id/spotlight-networks/java-volcano-tour-operator",
+          "https://ahu.go.id/sabh/perseroan/qrcode/?kode=NDAyMzAyMDYzNTEwMjE3NF8yXzA4IEZlYnJ1YXJpIDIwMjNfMDggRmVicnVhcmkgMjAyMw==",
+          "https://www.facebook.com/javavolcanotours/",
+          "https://www.instagram.com/javavolcanotouroperator/",
+          "https://twitter.com/jvto_tours"
+        ],
+        "award": [
+          "Booking.com Guest Review Award 2015 — Ijen Bondowoso Homestay (Score 9.4/10)",
+          "Stefan Loose Reiseführer Indonesien — Editorial Feature (4th Edition, 2018)"
+        ],
+        "memberOf": [
+          {
+            "@id": "https://javavolcano-touroperator.com/entity/#org-hpwki"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/entity/#org-indecon"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/entity/#org-isic"
+          }
+        ],
+        "subjectOf": [
+          {
+            "@type": "NewsArticle",
+            "headline": "Suka Duka Polisi Pariwisata Bondowoso: Tegakkan Prokes Sambil Lawan Dingin",
+            "datePublished": "2021-03-14",
+            "url": "https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin",
+            "publisher": {
+              "@id": "https://javavolcano-touroperator.com/entity/#org-detikcom"
+            }
+          },
+          {
+            "@type": "NewsArticle",
+            "headline": "Polpar Dibentuk untuk Mendukung Ijen Geopark",
+            "url": "https://radarjember.jawapos.com/bondowoso/791102263/polpar-dibentuk-untuk-mendukung-ijen-geopark",
+            "publisher": {
+              "@id": "https://javavolcano-touroperator.com/entity/#org-radar-jember"
+            }
+          },
+          {
+            "@type": "Book",
+            "name": "Stefan Loose Reiseführer Indonesien",
+            "isbn": "978-3-7701-7881-0",
+            "datePublished": "2018-07-05",
+            "publisher": {
+              "@id": "https://javavolcano-touroperator.com/entity/#org-dumont"
+            }
+          }
+        ],
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "NIB (Nomor Induk Berusaha)",
+            "credentialCategory": "Indonesian Business Registration",
+            "url": "https://javavolcano-touroperator.com/legal/NIB-1102230032918.pdf",
+            "recognizedBy": {
+              "@id": "https://javavolcano-touroperator.com/entity/#org-bkpm"
+            },
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "NIB",
+              "value": "1102230032918"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID": "SHA-256",
+              "name": "NIB (Nomor Induk Berusaha) document SHA-256",
+              "value": "fa20dde31bb75e46b061ed14cc6d003f6960c02a9a82c20d8603b0cbf6f7b1b7"
+            }
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "TDUP (Tanda Daftar Usaha Pariwisata)",
+            "credentialCategory": "Indonesian Tourism Business Licence",
+            "dateIssued": "2023-02-11",
+            "url": "https://javavolcano-touroperator.com/legal/TDUP-1102230032918.pdf",
+            "recognizedBy": {
+              "@id": "https://javavolcano-touroperator.com/entity/#org-kemenparekraf"
+            },
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "TDUP",
+              "value": "1102230032918"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID": "SHA-256",
+              "name": "TDUP (Tanda Daftar Usaha Pariwisata) document SHA-256",
+              "value": "27252d512ddfa74de22a3e3ec10aa3dd40ef88da3eb57349fcd2137411551ee3"
+            }
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "HPWKI Membership (Himpunan Pelaku Wisata Khusus Ijen)",
+            "credentialCategory": "Volcanic Tourism Association — BBKSDA supervised",
+            "url": "https://javavolcano-touroperator.com/legal/HPWKI-approval.pdf",
+            "recognizedBy": {
+              "@id": "https://javavolcano-touroperator.com/entity/#org-hpwki"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID": "SHA-256",
+              "name": "HPWKI Membership (Himpunan Pelaku Wisata Khusus Ijen) document SHA-256",
+              "value": "ca1fb1a48b550a7748d400f165899f12a356e6941aacdde9c043427698aaf63b"
+            }
+          }
+        ]
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n#tour",
+        "@type": "TouristTrip",
+        "name": "2 Day Bromo Sunrise Adventure from Surabaya",
+        "description": "Private 2-day Bromo & Madakaripura tour from Surabaya. Overnight near Bromo, sunrise at Penanjakan, waterfall trek. All-inclusive. Licensed operator.",
+        "url": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n",
+        "image": [
+          "https://javavolcano-touroperator.com/uploads/2-day-bromo-sunrise-adventure-from-surabaya_0.jpg"
+        ],
+        "inLanguage": "en",
+        "duration": "P2D",
+        "touristType": [
+          "Adventure seekers",
+          "Nature lovers",
+          "Time-constrained travelers",
+          "First-time Java visitors",
+          "Photography enthusiasts"
+        ],
+        "tripOrigin": {
+          "@type": "Place",
+          "name": "Surabaya"
+        },
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n#day-1"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n#day-2"
+              }
+            }
+          ]
+        },
+        "subTrip": [
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n#day-1",
+            "@type": "TouristTrip",
+            "name": "Day 1: Surabaya to the Bromo Side for Overnight Staging",
+            "description": "The first day is a clean transfer from Surabaya to the Bromo side so the sunrise sequence can be handled properly the next morning. The overnight stay reduces pressure compared with the faster one-day variant and gives the route a more stable opening.",
+            "departureTime": "12:00",
+            "arrivalTime": "16:10",
+            "itinerary": {
+              "@type": "ItemList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Surabaya to Bromo Pickup",
+                    "description": "Pickup at your location in Surabaya. Meet our team at the confirmed pick-up point, complete a quick departure check, and begin the transfer toward the Mount Bromo area (Cemoro Lawang).",
+                    "url": "https://javavolcano-touroperator.com/destinations/surabaya-to-bromo-pickup"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Lunch at Local Restaurant",
+                    "description": "Stop at a local restaurant for lunch (cost not included). This is the planned lunch break during the transfer day, allowing time to order and dine before continuing to the Bromo area.",
+                    "url": "https://javavolcano-touroperator.com/destinations/local-restaurant"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Local Restaurant to Bromo Transfer",
+                    "description": "Continue the journey from the restaurant toward the Bromo area, arriving in time for hotel check-in.",
+                    "url": "https://javavolcano-touroperator.com/destinations/local-restaurant-to-bromo-transfer"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Check-in Bromo Hotel",
+                    "description": "Arrive at the Mount Bromo area and complete hotel check-in. This step covers arrival at your accommodation in the Bromo area and settling in for the next part of the program.",
+                    "url": "https://javavolcano-touroperator.com/destinations/bromo-hotel"
+                  }
+                }
+              ]
+            },
+            "provider": {
+              "@id": "https://javavolcano-touroperator.com/#organization"
+            },
+            "partOfTrip": {
+              "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n#tour"
+            }
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n#day-2",
+            "@type": "TouristTrip",
+            "name": "Day 2: Bromo Sunrise, Madakaripura, and Return to Surabaya",
+            "description": "The second day combines the Bromo sunrise sequence with the Madakaripura stop before returning to Surabaya. It remains a productive day, but the overnight staging makes the full route easier to read and more comfortable to execute.",
+            "departureTime": "02:30",
+            "arrivalTime": "16:30",
+            "itinerary": {
+              "@type": "ItemList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Bromo Jeep Tour Experience",
+                    "description": "Starting the Bromo Jeep tour. Begin the scheduled Mount Bromo sunrise tour sequence by Jeep, completing the morning program within the allocated time block.",
+                    "url": "https://javavolcano-touroperator.com/destinations/sea-of-sand-bromo-crater"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Hotel Breakfast",
+                    "description": "Back to the hotel for breakfast. Return to the Bromo hotel after the morning Jeep tour and take a short breakfast break before the mid-day transition.",
+                    "url": "https://javavolcano-touroperator.com/destinations/bromo-hotel"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Bromo Hotel Check-out",
+                    "description": "Check-out, travel to Madakaripura. Complete hotel check-out and begin the transfer toward Madakaripura Waterfall to continue the day’s itinerary sequence.",
+                    "url": "https://javavolcano-touroperator.com/destinations/bromo-hotel"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Check-out and Transfer to Madakaripura",
+                    "description": "Depart from the Bromo hotel after check-out and continue the overland transfer to Madakaripura Waterfall.",
+                    "url": "https://javavolcano-touroperator.com/destinations/check-out-and-transfer-to-madakaripura"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 5,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Madakaripura Trekking",
+                    "description": "Arrive at Madakaripura and start trekking. This is the main on-site activity window at Madakaripura Waterfall, dedicated to the trek segment as listed in the schedule.",
+                    "url": "https://javavolcano-touroperator.com/destinations/madakaripura-waterfall"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 6,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Lunch After Trek (Own Expense)",
+                    "description": "After trekking, have lunch (fees not included). This is the planned meal break after the Madakaripura trekking segment, with dining costs handled personally.",
+                    "url": "https://javavolcano-touroperator.com/destinations/madakaripura-waterfall"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 7,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Transfer to Surabaya",
+                    "description": "Journey to Surabaya. Begin the return transfer from the Madakaripura area to Surabaya, closing the day tour route.",
+                    "url": "https://javavolcano-touroperator.com/destinations/transfer-to-surabaya"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 8,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Arrival in Surabaya",
+                    "description": "Arrived in Surabaya. Complete arrival procedures and proceed to the final drop-off point as applicable.",
+                    "url": "https://javavolcano-touroperator.com/destinations/arrival-in-surabaya"
+                  }
+                }
+              ]
+            },
+            "provider": {
+              "@id": "https://javavolcano-touroperator.com/#organization"
+            },
+            "partOfTrip": {
+              "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n#tour"
+            }
+          }
+        ],
+        "provider": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "offers": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n#aggregateOffer"
+        },
+        "identifier": [
+          {
+            "@type": "PropertyValue",
+            "name": "Internal Package ID",
+            "value": "2D1N"
+          }
+        ]
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n#day-1",
+        "@type": "TouristTrip",
+        "name": "Day 1: Surabaya to the Bromo Side for Overnight Staging",
+        "description": "The first day is a clean transfer from Surabaya to the Bromo side so the sunrise sequence can be handled properly the next morning. The overnight stay reduces pressure compared with the faster one-day variant and gives the route a more stable opening.",
+        "departureTime": "12:00",
+        "arrivalTime": "16:10",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Surabaya to Bromo Pickup",
+                "description": "Pickup at your location in Surabaya. Meet our team at the confirmed pick-up point, complete a quick departure check, and begin the transfer toward the Mount Bromo area (Cemoro Lawang).",
+                "url": "https://javavolcano-touroperator.com/destinations/surabaya-to-bromo-pickup"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Lunch at Local Restaurant",
+                "description": "Stop at a local restaurant for lunch (cost not included). This is the planned lunch break during the transfer day, allowing time to order and dine before continuing to the Bromo area.",
+                "url": "https://javavolcano-touroperator.com/destinations/local-restaurant"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Local Restaurant to Bromo Transfer",
+                "description": "Continue the journey from the restaurant toward the Bromo area, arriving in time for hotel check-in.",
+                "url": "https://javavolcano-touroperator.com/destinations/local-restaurant-to-bromo-transfer"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Check-in Bromo Hotel",
+                "description": "Arrive at the Mount Bromo area and complete hotel check-in. This step covers arrival at your accommodation in the Bromo area and settling in for the next part of the program.",
+                "url": "https://javavolcano-touroperator.com/destinations/bromo-hotel"
+              }
+            }
+          ]
+        },
+        "provider": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "partOfTrip": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n#tour"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n#day-2",
+        "@type": "TouristTrip",
+        "name": "Day 2: Bromo Sunrise, Madakaripura, and Return to Surabaya",
+        "description": "The second day combines the Bromo sunrise sequence with the Madakaripura stop before returning to Surabaya. It remains a productive day, but the overnight staging makes the full route easier to read and more comfortable to execute.",
+        "departureTime": "02:30",
+        "arrivalTime": "16:30",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Bromo Jeep Tour Experience",
+                "description": "Starting the Bromo Jeep tour. Begin the scheduled Mount Bromo sunrise tour sequence by Jeep, completing the morning program within the allocated time block.",
+                "url": "https://javavolcano-touroperator.com/destinations/sea-of-sand-bromo-crater"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Hotel Breakfast",
+                "description": "Back to the hotel for breakfast. Return to the Bromo hotel after the morning Jeep tour and take a short breakfast break before the mid-day transition.",
+                "url": "https://javavolcano-touroperator.com/destinations/bromo-hotel"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Bromo Hotel Check-out",
+                "description": "Check-out, travel to Madakaripura. Complete hotel check-out and begin the transfer toward Madakaripura Waterfall to continue the day’s itinerary sequence.",
+                "url": "https://javavolcano-touroperator.com/destinations/bromo-hotel"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Check-out and Transfer to Madakaripura",
+                "description": "Depart from the Bromo hotel after check-out and continue the overland transfer to Madakaripura Waterfall.",
+                "url": "https://javavolcano-touroperator.com/destinations/check-out-and-transfer-to-madakaripura"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Madakaripura Trekking",
+                "description": "Arrive at Madakaripura and start trekking. This is the main on-site activity window at Madakaripura Waterfall, dedicated to the trek segment as listed in the schedule.",
+                "url": "https://javavolcano-touroperator.com/destinations/madakaripura-waterfall"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Lunch After Trek (Own Expense)",
+                "description": "After trekking, have lunch (fees not included). This is the planned meal break after the Madakaripura trekking segment, with dining costs handled personally.",
+                "url": "https://javavolcano-touroperator.com/destinations/madakaripura-waterfall"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Transfer to Surabaya",
+                "description": "Journey to Surabaya. Begin the return transfer from the Madakaripura area to Surabaya, closing the day tour route.",
+                "url": "https://javavolcano-touroperator.com/destinations/transfer-to-surabaya"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Arrival in Surabaya",
+                "description": "Arrived in Surabaya. Complete arrival procedures and proceed to the final drop-off point as applicable.",
+                "url": "https://javavolcano-touroperator.com/destinations/arrival-in-surabaya"
+              }
+            }
+          ]
+        },
+        "provider": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "partOfTrip": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n#tour"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n#aggregateOffer",
+        "@type": "AggregateOffer",
+        "priceCurrency": "IDR",
+        "lowPrice": 1750000,
+        "highPrice": 4500000,
+        "offerCount": 7,
+        "availability": "https://schema.org/InStock",
+        "url": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n",
+        "offers": [
+          {
+            "@type": "Offer",
+            "sku": "2D1N-1",
+            "price": 1750000,
+            "priceCurrency": "IDR",
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 11
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n"
+          },
+          {
+            "@type": "Offer",
+            "sku": "2D1N-2",
+            "price": 1950000,
+            "priceCurrency": "IDR",
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 8,
+              "maxValue": 10
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n"
+          },
+          {
+            "@type": "Offer",
+            "sku": "2D1N-3",
+            "price": 2150000,
+            "priceCurrency": "IDR",
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 6,
+              "maxValue": 7
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n"
+          },
+          {
+            "@type": "Offer",
+            "sku": "2D1N-4",
+            "price": 2350000,
+            "priceCurrency": "IDR",
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 4,
+              "maxValue": 5
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n"
+          },
+          {
+            "@type": "Offer",
+            "sku": "2D1N-5",
+            "price": 2550000,
+            "priceCurrency": "IDR",
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 3
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n"
+          },
+          {
+            "@type": "Offer",
+            "sku": "2D1N-6",
+            "price": 2800000,
+            "priceCurrency": "IDR",
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 2,
+              "maxValue": 2
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n"
+          },
+          {
+            "@type": "Offer",
+            "sku": "2D1N-7",
+            "price": 4500000,
+            "priceCurrency": "IDR",
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 1
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n"
+          }
+        ]
+      }
+    ]
+  },
+  "source_trace": {
+    "generated_at": "2026-08-20T07:08:45.797Z",
+    "source_files": [
+      "2-product-and-commercial-core/tour-products/tours__from-surabaya__bromo-2d1n.product-contract.json"
+    ],
+    "confidence": "verified",
+    "migration_note": "TouristTrip + Offer/AggregateOffer relocated from jvto-web's inline per-page builder (tours/from-bali/[slug]/page.tsx and tours/from-surabaya/[slug]/page.tsx) to ekosistem, consistent with every other JSON-LD node in this pipeline (design spec 2026-08-20-ekosistem-schema-rendering-consolidation-design.md, Bagian 3). WebPage, BreadcrumbList, Product, and the DefinedTerm mentions/subjectOf augmentation stay local to jvto-web — out of scope for this generator."
+  }
+}

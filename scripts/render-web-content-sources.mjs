@@ -5,6 +5,7 @@ import { buildOrganizationNode, ORG_ID } from "./lib/build-organization.mjs";
 import { buildPersonNode } from "./lib/build-person.mjs";
 import { loadExternalEntities } from "./lib/external-entities.mjs";
 import { buildPoliceAuthorityNode, policeAuthorityReference } from "./lib/build-police-authority.mjs";
+import { generateTouristTripSchemaOutputs } from "./generate-tourist-trip-schema.mjs";
 
 const ROOT = process.cwd();
 const GENERATED_AT = new Date().toISOString();
@@ -285,12 +286,15 @@ async function main() {
     `${JSON.stringify({ generated_at: GENERATED_AT, mappings: sourceOutputMap.sort((a, b) => a.source.localeCompare(b.source)) }, null, 2)}\n`
   );
 
+  const pdpResult = await generateTouristTripSchemaOutputs({ archiveRoot: ROOT });
+
   console.log(JSON.stringify({
     generatedAt: GENERATED_AT,
     sourceCount: sources.length,
     websiteOutputCount: routeIndex.length,
     schemaOutputCount: routeIndex.length,
-    feedRecordCount: feedRecords.length
+    feedRecordCount: feedRecords.length,
+    pdpSchemaOutputCount: pdpResult.written.length
   }, null, 2));
 }
 

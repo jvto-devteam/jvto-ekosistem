@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T06:16:16.269Z",
+  "generated_at": "2026-08-20T07:08:45.882Z",
   "routes": [
     {
       "route": "/",
@@ -114,11 +114,113 @@
       "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-bali.schema-output.json"
     },
     {
+      "route": "/tours/from-bali/bromo-ijen-3d2n",
+      "domain": "tours",
+      "slug": "from-bali/bromo-ijen-3d2n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-bali__bromo-ijen-3d2n.schema-output.json"
+    },
+    {
+      "route": "/tours/from-bali/ijen-bromo-madakaripura-3d2n",
+      "domain": "tours",
+      "slug": "from-bali/ijen-bromo-madakaripura-3d2n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-bali__ijen-bromo-madakaripura-3d2n.schema-output.json"
+    },
+    {
+      "route": "/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
+      "domain": "tours",
+      "slug": "from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-bali__ijen-papuma-tumpak-sewu-bromo-4d3n.schema-output.json"
+    },
+    {
+      "route": "/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n",
+      "domain": "tours",
+      "slug": "from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-bali__ijen-papuma-tumpak-sewu-bromo-5d4n.schema-output.json"
+    },
+    {
       "route": "/tours/from-surabaya",
       "domain": "tours",
       "slug": "from-surabaya",
       "websiteOutput": "5-experience-engine/public-website/pages/tours__from-surabaya.website-output.json",
       "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-surabaya.schema-output.json"
+    },
+    {
+      "route": "/tours/from-surabaya/bromo-1d1n",
+      "domain": "tours",
+      "slug": "from-surabaya/bromo-1d1n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-surabaya__bromo-1d1n.schema-output.json"
+    },
+    {
+      "route": "/tours/from-surabaya/bromo-2d1n",
+      "domain": "tours",
+      "slug": "from-surabaya/bromo-2d1n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-surabaya__bromo-2d1n.schema-output.json"
+    },
+    {
+      "route": "/tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
+      "domain": "tours",
+      "slug": "from-surabaya/bromo-madakaripura-ijen-3d2n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-surabaya__bromo-madakaripura-ijen-3d2n.schema-output.json"
+    },
+    {
+      "route": "/tours/from-surabaya/ijen-2d1n",
+      "domain": "tours",
+      "slug": "from-surabaya/ijen-2d1n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-surabaya__ijen-2d1n.schema-output.json"
+    },
+    {
+      "route": "/tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
+      "domain": "tours",
+      "slug": "from-surabaya/ijen-bromo-madakaripura-3d2n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-surabaya__ijen-bromo-madakaripura-3d2n.schema-output.json"
+    },
+    {
+      "route": "/tours/from-surabaya/ijen-bromo-madakaripura-4d3n",
+      "domain": "tours",
+      "slug": "from-surabaya/ijen-bromo-madakaripura-4d3n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-surabaya__ijen-bromo-madakaripura-4d3n.schema-output.json"
+    },
+    {
+      "route": "/tours/from-surabaya/ijen-bromo-madakaripura-malang-5d4n",
+      "domain": "tours",
+      "slug": "from-surabaya/ijen-bromo-madakaripura-malang-5d4n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-surabaya__ijen-bromo-madakaripura-malang-5d4n.schema-output.json"
+    },
+    {
+      "route": "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
+      "domain": "tours",
+      "slug": "from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-surabaya__ijen-papuma-tumpak-sewu-bromo-4d3n.schema-output.json"
+    },
+    {
+      "route": "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n",
+      "domain": "tours",
+      "slug": "from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-surabaya__ijen-papuma-tumpak-sewu-bromo-5d4n.schema-output.json"
+    },
+    {
+      "route": "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-malang-6d5n",
+      "domain": "tours",
+      "slug": "from-surabaya/ijen-papuma-tumpak-sewu-bromo-malang-6d5n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-surabaya__ijen-papuma-tumpak-sewu-bromo-malang-6d5n.schema-output.json"
+    },
+    {
+      "route": "/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n",
+      "domain": "tours",
+      "slug": "from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-surabaya__taman-safari-prigen-bromo-madakaripura-3d2n.schema-output.json"
+    },
+    {
+      "route": "/tours/from-surabaya/tumpak-sewu-bromo-3d2n",
+      "domain": "tours",
+      "slug": "from-surabaya/tumpak-sewu-bromo-3d2n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-surabaya__tumpak-sewu-bromo-3d2n.schema-output.json"
+    },
+    {
+      "route": "/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+      "domain": "tours",
+      "slug": "from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+      "schemaOutput": "5-experience-engine/json-ld/pages/tours__from-surabaya__tumpak-sewu-bromo-ijen-4d3n.schema-output.json"
     },
     {
       "route": "/travel-guide",

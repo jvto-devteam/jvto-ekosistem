@@ -1,0 +1,1082 @@
+{
+  "schema_version": "jvto/output/json-ld-page/v1",
+  "output_type": "json_ld_page",
+  "generated_at": "2026-08-20T07:08:45.797Z",
+  "route": "/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n",
+  "domain": "tours",
+  "slug": "from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n",
+  "json_ld": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@id": "https://javavolcano-touroperator.com/#organization",
+        "@type": [
+          "Organization",
+          "TravelAgency",
+          "LocalBusiness"
+        ],
+        "name": "Java Volcano Tour Operator",
+        "legalName": "PT Java Volcano Rendezvous",
+        "alternateName": "JVTO",
+        "url": "https://javavolcano-touroperator.com",
+        "telephone": "+6282244788833",
+        "email": "hello@javavolcano-touroperator.com",
+        "foundingDate": "2015",
+        "slogan": "Private volcano tours with police-led safety. Ijen, Bromo, Tumpak Sewu.",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://javavolcano-touroperator.com/assets/img/jvto-color.png"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. Khairil Anwar No.102 A",
+          "addressLocality": "Bondowoso",
+          "addressRegion": "Jawa Timur",
+          "postalCode": "68214",
+          "addressCountry": "ID"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -7.9151,
+          "longitude": 113.8232
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4.9,
+          "reviewCount": 152,
+          "bestRating": 5
+        },
+        "sameAs": [
+          "https://www.trustpilot.com/review/javavolcano-touroperator.com",
+          "https://www.google.com/maps?cid=1266403973589689021",
+          "https://www.tripadvisor.com/Attraction_Review-g297715-d19983165-Reviews-Java_Volcano_Tour_Operator-Surabaya_East_Java_Java.html",
+          "https://www.getyourguide.com/java-volcano-tour-operator-s260697/",
+          "https://www.isic.org/discounts/?providerId=259268",
+          "https://www.indecon.id/spotlight-networks/java-volcano-tour-operator",
+          "https://ahu.go.id/sabh/perseroan/qrcode/?kode=NDAyMzAyMDYzNTEwMjE3NF8yXzA4IEZlYnJ1YXJpIDIwMjNfMDggRmVicnVhcmkgMjAyMw==",
+          "https://www.facebook.com/javavolcanotours/",
+          "https://www.instagram.com/javavolcanotouroperator/",
+          "https://twitter.com/jvto_tours"
+        ],
+        "award": [
+          "Booking.com Guest Review Award 2015 — Ijen Bondowoso Homestay (Score 9.4/10)",
+          "Stefan Loose Reiseführer Indonesien — Editorial Feature (4th Edition, 2018)"
+        ],
+        "memberOf": [
+          {
+            "@id": "https://javavolcano-touroperator.com/entity/#org-hpwki"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/entity/#org-indecon"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/entity/#org-isic"
+          }
+        ],
+        "subjectOf": [
+          {
+            "@type": "NewsArticle",
+            "headline": "Suka Duka Polisi Pariwisata Bondowoso: Tegakkan Prokes Sambil Lawan Dingin",
+            "datePublished": "2021-03-14",
+            "url": "https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin",
+            "publisher": {
+              "@id": "https://javavolcano-touroperator.com/entity/#org-detikcom"
+            }
+          },
+          {
+            "@type": "NewsArticle",
+            "headline": "Polpar Dibentuk untuk Mendukung Ijen Geopark",
+            "url": "https://radarjember.jawapos.com/bondowoso/791102263/polpar-dibentuk-untuk-mendukung-ijen-geopark",
+            "publisher": {
+              "@id": "https://javavolcano-touroperator.com/entity/#org-radar-jember"
+            }
+          },
+          {
+            "@type": "Book",
+            "name": "Stefan Loose Reiseführer Indonesien",
+            "isbn": "978-3-7701-7881-0",
+            "datePublished": "2018-07-05",
+            "publisher": {
+              "@id": "https://javavolcano-touroperator.com/entity/#org-dumont"
+            }
+          }
+        ],
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "NIB (Nomor Induk Berusaha)",
+            "credentialCategory": "Indonesian Business Registration",
+            "url": "https://javavolcano-touroperator.com/legal/NIB-1102230032918.pdf",
+            "recognizedBy": {
+              "@id": "https://javavolcano-touroperator.com/entity/#org-bkpm"
+            },
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "NIB",
+              "value": "1102230032918"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID": "SHA-256",
+              "name": "NIB (Nomor Induk Berusaha) document SHA-256",
+              "value": "fa20dde31bb75e46b061ed14cc6d003f6960c02a9a82c20d8603b0cbf6f7b1b7"
+            }
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "TDUP (Tanda Daftar Usaha Pariwisata)",
+            "credentialCategory": "Indonesian Tourism Business Licence",
+            "dateIssued": "2023-02-11",
+            "url": "https://javavolcano-touroperator.com/legal/TDUP-1102230032918.pdf",
+            "recognizedBy": {
+              "@id": "https://javavolcano-touroperator.com/entity/#org-kemenparekraf"
+            },
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "TDUP",
+              "value": "1102230032918"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID": "SHA-256",
+              "name": "TDUP (Tanda Daftar Usaha Pariwisata) document SHA-256",
+              "value": "27252d512ddfa74de22a3e3ec10aa3dd40ef88da3eb57349fcd2137411551ee3"
+            }
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "HPWKI Membership (Himpunan Pelaku Wisata Khusus Ijen)",
+            "credentialCategory": "Volcanic Tourism Association — BBKSDA supervised",
+            "url": "https://javavolcano-touroperator.com/legal/HPWKI-approval.pdf",
+            "recognizedBy": {
+              "@id": "https://javavolcano-touroperator.com/entity/#org-hpwki"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID": "SHA-256",
+              "name": "HPWKI Membership (Himpunan Pelaku Wisata Khusus Ijen) document SHA-256",
+              "value": "ca1fb1a48b550a7748d400f165899f12a356e6941aacdde9c043427698aaf63b"
+            }
+          }
+        ]
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#tour",
+        "@type": "TouristTrip",
+        "name": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Discovery from Bali to Surabaya",
+        "description": "This longer Bali-origin overland route is for travelers who want East Java to unfold as a broad regional journey rather than as a compressed volcano trip. It keeps Ijen, Papuma, Tumpak Sewu, and Bromo inside one forward sequence before the Surabaya finish.",
+        "url": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n",
+        "image": [
+          "https://javavolcano-touroperator.com/uploads/5-day-ijen-papuma-beach-tumpak-sewu-bromo-discovery-from-bali-to-surabaya_0.jpg"
+        ],
+        "inLanguage": "en",
+        "duration": "P5D",
+        "touristType": [
+          "Adventure seekers",
+          "Nature lovers",
+          "Photography enthusiasts",
+          "Active travelers"
+        ],
+        "tripOrigin": {
+          "@type": "Place",
+          "name": "Bali"
+        },
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#day-1"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#day-2"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#day-3"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#day-4"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#day-5"
+              }
+            }
+          ]
+        },
+        "subTrip": [
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#day-1",
+            "@type": "TouristTrip",
+            "name": "Day 1: Bali to Banyuwangi for Ijen Staging",
+            "description": "The journey begins in Bali and crosses into East Java before positioning on the Ijen side. The first day is about clean staging and a stable opening to the route.",
+            "departureTime": "10:00",
+            "arrivalTime": "20:00",
+            "itinerary": {
+              "@type": "ItemList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Bali Hotel Pick-up to Gilimanuk",
+                    "description": "Pick up at your hotel in Bali and depart for Gilimanuk Harbor. This is the overland transfer segment across Bali toward the ferry port to continue the journey to Banyuwangi.",
+                    "url": "https://javavolcano-touroperator.com/destinations/bali-hotel-pick-up-to-gilimanuk"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Ferry Crossing to Ketapang",
+                    "description": "Arrive at Gilimanuk Harbor and proceed with the ferry boarding process. This step covers arrival at the harbor and completing the necessary boarding flow to cross to Ketapang Port.",
+                    "url": "https://javavolcano-touroperator.com/destinations/ferry-crossing-to-ketapang"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Transfer to hotel in Banyuwangi",
+                    "description": "Arrive at Ketapang Port, Banyuwangi, and note the time zone change of -1 hour. This is the arrival point on the Java side; adjust your timing reference accordingly before continuing the transfer to the hotel.",
+                    "url": "https://javavolcano-touroperator.com/destinations/transfer-to-hotel-in-banyuwangi"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Hotel Check-in",
+                    "description": "Check-in at the Banyuwangi hotel. This step covers arrival at your accommodation and completing the standard check-in process so you can settle in after the crossing.",
+                    "url": "https://javavolcano-touroperator.com/destinations/banyuwangi-hotel"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 5,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Ijen Health Screening",
+                    "description": "A health screening will be conducted by medical personnel at a local clinic. This is a quick procedure to check vital signs as a prerequisite for climbing Ijen, completed as a short scheduled stop before the evening program.",
+                    "url": "https://javavolcano-touroperator.com/destinations/local-clinic"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 6,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Dinner",
+                    "description": "Dinner at the hotel or a nearby restaurant (own expense). This is the planned dinner window in Banyuwangi city after check-in and the health screening, with dining costs handled personally.",
+                    "url": "https://javavolcano-touroperator.com/destinations/banyuwangi-city"
+                  }
+                }
+              ]
+            },
+            "provider": {
+              "@id": "https://javavolcano-touroperator.com/#organization"
+            },
+            "partOfTrip": {
+              "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#tour"
+            }
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#day-2",
+            "@type": "TouristTrip",
+            "name": "Day 2: Ijen Climb and Transfer to the Papuma Side",
+            "description": "After the Ijen sequence, the route continues south toward the Papuma side. This day marks the shift from volcano seriousness into broader East Java contrast.",
+            "departureTime": "00:00",
+            "arrivalTime": "19:00",
+            "itinerary": {
+              "@type": "ItemList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Ijen Tour",
+                    "description": "Take the Ijen tour. This block represents completing the scheduled Ijen program for the day, finished in full before the onward travel sequence to Jember and Papuma Beach.",
+                    "url": "https://javavolcano-touroperator.com/destinations/ijen-area"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Return to Bondowoso Hotel",
+                    "description": "Depart from the Ijen area after completing the hike and transfer back to the hotel in Bondowoso.",
+                    "url": "https://javavolcano-touroperator.com/destinations/return-to-bondowoso-hotel"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Ijen Hotel Check-out",
+                    "description": "Check out hotels in the Ijen area. This is the departure step from the Ijen-area accommodation after completing the Ijen tour block, transitioning to lunch and onward travel.",
+                    "url": "https://javavolcano-touroperator.com/destinations/bondowoso-hotel"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Lunch at Restaurant",
+                    "description": "Lunch at a local restaurant (included). This is the planned meal stop after check-out, providing time to eat before the transfer toward Jember.",
+                    "url": "https://javavolcano-touroperator.com/destinations/local-restaurant"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 5,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Journey to Jember",
+                    "description": "Journey to Jember. This segment is the overland transfer from the Ijen-area base (Bondowoso City) to Jember as scheduled for the day’s long itinerary.",
+                    "url": "https://javavolcano-touroperator.com/destinations/journey-to-jember"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 6,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Jember Hotel Check-in",
+                    "description": "Arrive in Jember, check-in, then head straight to Papuma Beach. This step covers arriving at the Jember hotel, completing check-in efficiently, and continuing onward to the beach for the late-afternoon program.",
+                    "url": "https://javavolcano-touroperator.com/destinations/jember-hotel"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 7,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Transfer to Papuma Beach",
+                    "description": "Depart from the Jember hotel and transfer to Papuma Beach in time for the sunset window.",
+                    "url": "https://javavolcano-touroperator.com/destinations/transfer-to-papuma-beach"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 8,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Papuma Sunset Experience",
+                    "description": "Enjoying the sunset. This is the dedicated time window at Papuma Beach to relax, take photos, and experience the late-day atmosphere during sunset hour.",
+                    "url": "https://javavolcano-touroperator.com/destinations/papuma-beach"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 9,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Return to Jember Hotel",
+                    "description": "Back to the hotel in Jember. This is the return transfer segment after the sunset stop, concluding the day’s coastal visit upon arrival back at the Jember accommodation.",
+                    "url": "https://javavolcano-touroperator.com/destinations/return-to-jember-hotel"
+                  }
+                }
+              ]
+            },
+            "provider": {
+              "@id": "https://javavolcano-touroperator.com/#organization"
+            },
+            "partOfTrip": {
+              "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#tour"
+            }
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#day-3",
+            "@type": "TouristTrip",
+            "name": "Day 3: Papuma Side to Tumpak Sewu Staging",
+            "description": "The route keeps moving forward toward the Tumpak Sewu side. This is an overland progression day that helps the wider East Java narrative stay readable rather than rushed.",
+            "departureTime": "03:30",
+            "arrivalTime": "16:00",
+            "itinerary": {
+              "@type": "ItemList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Check out from hotel",
+                    "description": "Check out hotel. Complete the standard hotel check-out process in Jember, confirm departure readiness, and prepare for the early transfer toward the early Tumpak Sewu (Lumajang) area.",
+                    "url": "https://javavolcano-touroperator.com/destinations/jember-hotel"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Journey to Tumpak Sewu",
+                    "description": "Transfer to Tumpak Sewu waterfall. Depart from the hotel in Jember and begin the direct overland drive to the Tumpak Sewu area, using the allocated travel window for the point-to-point transfer.",
+                    "url": "https://javavolcano-touroperator.com/destinations/journey-to-tumpak-sewu"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Explore Tumpak Sewu Waterfall",
+                    "description": "Arrive at the Tumpak Sewu area (Lumajang), and explore Tumpak Sewu Waterfall. Use this activity block for the on-site waterfall experience in the Tumpak Sewu area, following the planned visit duration for exploration and viewing as scheduled.",
+                    "url": "https://javavolcano-touroperator.com/destinations/tumpak-sewu-waterfall"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Lunch",
+                    "description": "Finish explore Tumpak Sewu and having lunch at local warung in Tumpak Sewu area",
+                    "url": "https://javavolcano-touroperator.com/destinations/tumpak-sewu-area"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 5,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Transfer to Bromo",
+                    "description": "Transfer to hotel in Bromo area",
+                    "url": "https://javavolcano-touroperator.com/destinations/transfer-to-bromo"
+                  }
+                }
+              ]
+            },
+            "provider": {
+              "@id": "https://javavolcano-touroperator.com/#organization"
+            },
+            "partOfTrip": {
+              "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#tour"
+            }
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#day-4",
+            "@type": "TouristTrip",
+            "name": "Day 4: Tumpak Sewu and Transfer Toward Bromo",
+            "description": "The waterfall segment changes the route rhythm before the journey continues toward the Bromo side. It should be understood as real terrain and not just as scenic filler.",
+            "departureTime": "02:00",
+            "arrivalTime": "15:30",
+            "itinerary": {
+              "@type": "ItemList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Bromo Jeep Tour Experience",
+                    "description": "Starting the Bromo Jeep tour. Begin the sunrise tour sequence by Jeep in the Mount Bromo area, following the planned route flow for the morning program.",
+                    "url": "https://javavolcano-touroperator.com/destinations/sea-of-sand-bromo-crater"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Hotel Breakfast",
+                    "description": "Back to the hotel for breakfast. Return from the Bromo morning program to the hotel and take a short breakfast break before check-out and departure.",
+                    "url": "https://javavolcano-touroperator.com/destinations/bromo-hotel"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Bromo Hotel Check-out",
+                    "description": "Check-out from the hotel. Complete the hotel check-out process and prepare for the overland transfer to Surabaya.",
+                    "url": "https://javavolcano-touroperator.com/destinations/bromo-hotel"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Transfer to Surabaya",
+                    "description": "Journey to Surabaya. Start the road transfer from the Bromo area to Surabaya as scheduled, concluding the Bromo segment for the day.",
+                    "url": "https://javavolcano-touroperator.com/destinations/transfer-to-surabaya"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 5,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Finish at Surabaya City",
+                    "description": "Arrive in Surabaya and proceed with the final transfer to your requested drop-off (hotel/airport). Tour ends after drop-off completion.",
+                    "url": "https://javavolcano-touroperator.com/destinations/finish-at-surabaya-city"
+                  }
+                }
+              ]
+            },
+            "provider": {
+              "@id": "https://javavolcano-touroperator.com/#organization"
+            },
+            "partOfTrip": {
+              "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#tour"
+            }
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#day-5",
+            "@type": "TouristTrip",
+            "name": "Day 5: Bromo Sunrise and Final Surabaya Handoff",
+            "description": "The final day completes the Bromo sequence before the route finishes in Surabaya. This finish suits travelers who want the full East Java overland experience to end in a clear urban handoff rather than a return loop to Bali.",
+            "departureTime": "08:00",
+            "arrivalTime": "10:00",
+            "itinerary": {
+              "@type": "ItemList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Breakfast and Free Time",
+                    "description": "Breakfast at the hotel and free time until check-out time. This block is reserved for your morning meal and unstructured time at the hotel before the scheduled airport transfer.",
+                    "url": "https://javavolcano-touroperator.com/destinations/accommodation"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "@type": "TouristAttraction",
+                    "name": "Transfer to Juanda Airport",
+                    "description": "Pick up at your hotel lobby (planned 3 hours before your flight departure time) and transfer to Juanda Airport. This segment covers the direct road transfer to the airport for your departure connection.",
+                    "url": "https://javavolcano-touroperator.com/destinations/transfer-to-juanda-airport"
+                  }
+                }
+              ]
+            },
+            "provider": {
+              "@id": "https://javavolcano-touroperator.com/#organization"
+            },
+            "partOfTrip": {
+              "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#tour"
+            }
+          }
+        ],
+        "provider": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "offers": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#aggregateOffer"
+        },
+        "identifier": [
+          {
+            "@type": "PropertyValue",
+            "name": "Internal Package ID",
+            "value": "package-BALI-5D4N-001"
+          }
+        ]
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#day-1",
+        "@type": "TouristTrip",
+        "name": "Day 1: Bali to Banyuwangi for Ijen Staging",
+        "description": "The journey begins in Bali and crosses into East Java before positioning on the Ijen side. The first day is about clean staging and a stable opening to the route.",
+        "departureTime": "10:00",
+        "arrivalTime": "20:00",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Bali Hotel Pick-up to Gilimanuk",
+                "description": "Pick up at your hotel in Bali and depart for Gilimanuk Harbor. This is the overland transfer segment across Bali toward the ferry port to continue the journey to Banyuwangi.",
+                "url": "https://javavolcano-touroperator.com/destinations/bali-hotel-pick-up-to-gilimanuk"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Ferry Crossing to Ketapang",
+                "description": "Arrive at Gilimanuk Harbor and proceed with the ferry boarding process. This step covers arrival at the harbor and completing the necessary boarding flow to cross to Ketapang Port.",
+                "url": "https://javavolcano-touroperator.com/destinations/ferry-crossing-to-ketapang"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Transfer to hotel in Banyuwangi",
+                "description": "Arrive at Ketapang Port, Banyuwangi, and note the time zone change of -1 hour. This is the arrival point on the Java side; adjust your timing reference accordingly before continuing the transfer to the hotel.",
+                "url": "https://javavolcano-touroperator.com/destinations/transfer-to-hotel-in-banyuwangi"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Hotel Check-in",
+                "description": "Check-in at the Banyuwangi hotel. This step covers arrival at your accommodation and completing the standard check-in process so you can settle in after the crossing.",
+                "url": "https://javavolcano-touroperator.com/destinations/banyuwangi-hotel"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Ijen Health Screening",
+                "description": "A health screening will be conducted by medical personnel at a local clinic. This is a quick procedure to check vital signs as a prerequisite for climbing Ijen, completed as a short scheduled stop before the evening program.",
+                "url": "https://javavolcano-touroperator.com/destinations/local-clinic"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Dinner",
+                "description": "Dinner at the hotel or a nearby restaurant (own expense). This is the planned dinner window in Banyuwangi city after check-in and the health screening, with dining costs handled personally.",
+                "url": "https://javavolcano-touroperator.com/destinations/banyuwangi-city"
+              }
+            }
+          ]
+        },
+        "provider": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "partOfTrip": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#tour"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#day-2",
+        "@type": "TouristTrip",
+        "name": "Day 2: Ijen Climb and Transfer to the Papuma Side",
+        "description": "After the Ijen sequence, the route continues south toward the Papuma side. This day marks the shift from volcano seriousness into broader East Java contrast.",
+        "departureTime": "00:00",
+        "arrivalTime": "19:00",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Ijen Tour",
+                "description": "Take the Ijen tour. This block represents completing the scheduled Ijen program for the day, finished in full before the onward travel sequence to Jember and Papuma Beach.",
+                "url": "https://javavolcano-touroperator.com/destinations/ijen-area"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Return to Bondowoso Hotel",
+                "description": "Depart from the Ijen area after completing the hike and transfer back to the hotel in Bondowoso.",
+                "url": "https://javavolcano-touroperator.com/destinations/return-to-bondowoso-hotel"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Ijen Hotel Check-out",
+                "description": "Check out hotels in the Ijen area. This is the departure step from the Ijen-area accommodation after completing the Ijen tour block, transitioning to lunch and onward travel.",
+                "url": "https://javavolcano-touroperator.com/destinations/bondowoso-hotel"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Lunch at Restaurant",
+                "description": "Lunch at a local restaurant (included). This is the planned meal stop after check-out, providing time to eat before the transfer toward Jember.",
+                "url": "https://javavolcano-touroperator.com/destinations/local-restaurant"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Journey to Jember",
+                "description": "Journey to Jember. This segment is the overland transfer from the Ijen-area base (Bondowoso City) to Jember as scheduled for the day’s long itinerary.",
+                "url": "https://javavolcano-touroperator.com/destinations/journey-to-jember"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Jember Hotel Check-in",
+                "description": "Arrive in Jember, check-in, then head straight to Papuma Beach. This step covers arriving at the Jember hotel, completing check-in efficiently, and continuing onward to the beach for the late-afternoon program.",
+                "url": "https://javavolcano-touroperator.com/destinations/jember-hotel"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Transfer to Papuma Beach",
+                "description": "Depart from the Jember hotel and transfer to Papuma Beach in time for the sunset window.",
+                "url": "https://javavolcano-touroperator.com/destinations/transfer-to-papuma-beach"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Papuma Sunset Experience",
+                "description": "Enjoying the sunset. This is the dedicated time window at Papuma Beach to relax, take photos, and experience the late-day atmosphere during sunset hour.",
+                "url": "https://javavolcano-touroperator.com/destinations/papuma-beach"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Return to Jember Hotel",
+                "description": "Back to the hotel in Jember. This is the return transfer segment after the sunset stop, concluding the day’s coastal visit upon arrival back at the Jember accommodation.",
+                "url": "https://javavolcano-touroperator.com/destinations/return-to-jember-hotel"
+              }
+            }
+          ]
+        },
+        "provider": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "partOfTrip": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#tour"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#day-3",
+        "@type": "TouristTrip",
+        "name": "Day 3: Papuma Side to Tumpak Sewu Staging",
+        "description": "The route keeps moving forward toward the Tumpak Sewu side. This is an overland progression day that helps the wider East Java narrative stay readable rather than rushed.",
+        "departureTime": "03:30",
+        "arrivalTime": "16:00",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Check out from hotel",
+                "description": "Check out hotel. Complete the standard hotel check-out process in Jember, confirm departure readiness, and prepare for the early transfer toward the early Tumpak Sewu (Lumajang) area.",
+                "url": "https://javavolcano-touroperator.com/destinations/jember-hotel"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Journey to Tumpak Sewu",
+                "description": "Transfer to Tumpak Sewu waterfall. Depart from the hotel in Jember and begin the direct overland drive to the Tumpak Sewu area, using the allocated travel window for the point-to-point transfer.",
+                "url": "https://javavolcano-touroperator.com/destinations/journey-to-tumpak-sewu"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Explore Tumpak Sewu Waterfall",
+                "description": "Arrive at the Tumpak Sewu area (Lumajang), and explore Tumpak Sewu Waterfall. Use this activity block for the on-site waterfall experience in the Tumpak Sewu area, following the planned visit duration for exploration and viewing as scheduled.",
+                "url": "https://javavolcano-touroperator.com/destinations/tumpak-sewu-waterfall"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Lunch",
+                "description": "Finish explore Tumpak Sewu and having lunch at local warung in Tumpak Sewu area",
+                "url": "https://javavolcano-touroperator.com/destinations/tumpak-sewu-area"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Transfer to Bromo",
+                "description": "Transfer to hotel in Bromo area",
+                "url": "https://javavolcano-touroperator.com/destinations/transfer-to-bromo"
+              }
+            }
+          ]
+        },
+        "provider": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "partOfTrip": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#tour"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#day-4",
+        "@type": "TouristTrip",
+        "name": "Day 4: Tumpak Sewu and Transfer Toward Bromo",
+        "description": "The waterfall segment changes the route rhythm before the journey continues toward the Bromo side. It should be understood as real terrain and not just as scenic filler.",
+        "departureTime": "02:00",
+        "arrivalTime": "15:30",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Bromo Jeep Tour Experience",
+                "description": "Starting the Bromo Jeep tour. Begin the sunrise tour sequence by Jeep in the Mount Bromo area, following the planned route flow for the morning program.",
+                "url": "https://javavolcano-touroperator.com/destinations/sea-of-sand-bromo-crater"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Hotel Breakfast",
+                "description": "Back to the hotel for breakfast. Return from the Bromo morning program to the hotel and take a short breakfast break before check-out and departure.",
+                "url": "https://javavolcano-touroperator.com/destinations/bromo-hotel"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Bromo Hotel Check-out",
+                "description": "Check-out from the hotel. Complete the hotel check-out process and prepare for the overland transfer to Surabaya.",
+                "url": "https://javavolcano-touroperator.com/destinations/bromo-hotel"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Transfer to Surabaya",
+                "description": "Journey to Surabaya. Start the road transfer from the Bromo area to Surabaya as scheduled, concluding the Bromo segment for the day.",
+                "url": "https://javavolcano-touroperator.com/destinations/transfer-to-surabaya"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Finish at Surabaya City",
+                "description": "Arrive in Surabaya and proceed with the final transfer to your requested drop-off (hotel/airport). Tour ends after drop-off completion.",
+                "url": "https://javavolcano-touroperator.com/destinations/finish-at-surabaya-city"
+              }
+            }
+          ]
+        },
+        "provider": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "partOfTrip": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#tour"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#day-5",
+        "@type": "TouristTrip",
+        "name": "Day 5: Bromo Sunrise and Final Surabaya Handoff",
+        "description": "The final day completes the Bromo sequence before the route finishes in Surabaya. This finish suits travelers who want the full East Java overland experience to end in a clear urban handoff rather than a return loop to Bali.",
+        "departureTime": "08:00",
+        "arrivalTime": "10:00",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Breakfast and Free Time",
+                "description": "Breakfast at the hotel and free time until check-out time. This block is reserved for your morning meal and unstructured time at the hotel before the scheduled airport transfer.",
+                "url": "https://javavolcano-touroperator.com/destinations/accommodation"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Transfer to Juanda Airport",
+                "description": "Pick up at your hotel lobby (planned 3 hours before your flight departure time) and transfer to Juanda Airport. This segment covers the direct road transfer to the airport for your departure connection.",
+                "url": "https://javavolcano-touroperator.com/destinations/transfer-to-juanda-airport"
+              }
+            }
+          ]
+        },
+        "provider": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "partOfTrip": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#tour"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n#aggregateOffer",
+        "@type": "AggregateOffer",
+        "priceCurrency": "IDR",
+        "lowPrice": 4050000,
+        "highPrice": 10000000,
+        "offerCount": 7,
+        "availability": "https://schema.org/InStock",
+        "url": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n",
+        "offers": [
+          {
+            "@type": "Offer",
+            "sku": "package-BALI-5D4N-001-1",
+            "price": 4050000,
+            "priceCurrency": "IDR",
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 11
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n"
+          },
+          {
+            "@type": "Offer",
+            "sku": "package-BALI-5D4N-001-2",
+            "price": 4250000,
+            "priceCurrency": "IDR",
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 8,
+              "maxValue": 10
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n"
+          },
+          {
+            "@type": "Offer",
+            "sku": "package-BALI-5D4N-001-3",
+            "price": 4650000,
+            "priceCurrency": "IDR",
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 6,
+              "maxValue": 7
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n"
+          },
+          {
+            "@type": "Offer",
+            "sku": "package-BALI-5D4N-001-4",
+            "price": 4950000,
+            "priceCurrency": "IDR",
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 4,
+              "maxValue": 5
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n"
+          },
+          {
+            "@type": "Offer",
+            "sku": "package-BALI-5D4N-001-5",
+            "price": 5250000,
+            "priceCurrency": "IDR",
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 3
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n"
+          },
+          {
+            "@type": "Offer",
+            "sku": "package-BALI-5D4N-001-6",
+            "price": 5450000,
+            "priceCurrency": "IDR",
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 2,
+              "maxValue": 2
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n"
+          },
+          {
+            "@type": "Offer",
+            "sku": "package-BALI-5D4N-001-7",
+            "price": 10000000,
+            "priceCurrency": "IDR",
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 1
+            },
+            "availability": "https://schema.org/InStock",
+            "url": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n"
+          }
+        ]
+      }
+    ]
+  },
+  "source_trace": {
+    "generated_at": "2026-08-20T07:08:45.797Z",
+    "source_files": [
+      "2-product-and-commercial-core/tour-products/tours__from-bali__ijen-papuma-tumpak-sewu-bromo-5d4n.product-contract.json"
+    ],
+    "confidence": "verified",
+    "migration_note": "TouristTrip + Offer/AggregateOffer relocated from jvto-web's inline per-page builder (tours/from-bali/[slug]/page.tsx and tours/from-surabaya/[slug]/page.tsx) to ekosistem, consistent with every other JSON-LD node in this pipeline (design spec 2026-08-20-ekosistem-schema-rendering-consolidation-design.md, Bagian 3). WebPage, BreadcrumbList, Product, and the DefinedTerm mentions/subjectOf augmentation stay local to jvto-web — out of scope for this generator."
+  }
+}
