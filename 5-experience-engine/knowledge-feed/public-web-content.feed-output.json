@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto/output/knowledge-feed/v1",
   "output_type": "public_web_content_feed",
-  "generated_at": "2026-08-19T05:12:29.033Z",
-  "record_count": 51,
+  "generated_at": "2026-08-20T00:59:51.005Z",
+  "record_count": 52,
   "records": [
     {
       "route": "/",
@@ -67,6 +67,24 @@
       "outputTargets": [],
       "sourceFiles": [
         "src/data/blog/2026-06-11-kawah-ijen-guide.md (jvto-web, pre-migration)"
+      ]
+    },
+    {
+      "route": "/blog/why-not-unlicensed-ijen-operator",
+      "domain": "blog",
+      "slug": "why-not-unlicensed-ijen-operator",
+      "title": "Why not an unlicensed Ijen operator.",
+      "summary": "The four categories of risk travelers accept when booking Mount Ijen through an unlicensed operator — safety, legal, financial, and regulatory — plus a concrete verification checklist.",
+      "status": "published",
+      "owner": "content",
+      "lastReviewed": "2026-05-27",
+      "outputTargets": [
+        "public_website",
+        "json_ld",
+        "knowledge_feed"
+      ],
+      "sourceFiles": [
+        "src/app/(website)/blog/why-not-unlicensed-ijen-operator/page.tsx (jvto-web, pre-migration, orphaned but live)"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T05:12:29.033Z",
+  "generated_at": "2026-08-20T00:59:51.005Z",
   "mappings": [
     {
       "source": "1-knowledge-and-evidence-core/blog/ijen-medical-checkup-requirement.source.json",
@@ -22,6 +22,14 @@
       "outputs": [
         "5-experience-engine/public-website/pages/blog__2026-06-11-kawah-ijen-guide.website-output.json",
         "5-experience-engine/json-ld/pages/blog__2026-06-11-kawah-ijen-guide.schema-output.json",
+        "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
+      ]
+    },
+    {
+      "source": "1-knowledge-and-evidence-core/blog/why-not-unlicensed-ijen-operator.source.json",
+      "outputs": [
+        "5-experience-engine/public-website/pages/blog__why-not-unlicensed-ijen-operator.website-output.json",
+        "5-experience-engine/json-ld/pages/blog__why-not-unlicensed-ijen-operator.schema-output.json",
         "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
       ]
     },

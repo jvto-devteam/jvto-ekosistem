@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T05:12:29.033Z",
+  "generated_at": "2026-08-20T00:59:51.005Z",
   "routes": [
     {
       "route": "/",
@@ -28,6 +28,13 @@
       "slug": "kawah-ijen-guide",
       "websiteOutput": "5-experience-engine/public-website/pages/blog__2026-06-11-kawah-ijen-guide.website-output.json",
       "schemaOutput": "5-experience-engine/json-ld/pages/blog__2026-06-11-kawah-ijen-guide.schema-output.json"
+    },
+    {
+      "route": "/blog/why-not-unlicensed-ijen-operator",
+      "domain": "blog",
+      "slug": "why-not-unlicensed-ijen-operator",
+      "websiteOutput": "5-experience-engine/public-website/pages/blog__why-not-unlicensed-ijen-operator.website-output.json",
+      "schemaOutput": "5-experience-engine/json-ld/pages/blog__why-not-unlicensed-ijen-operator.schema-output.json"
     },
     {
       "route": "/contact",
