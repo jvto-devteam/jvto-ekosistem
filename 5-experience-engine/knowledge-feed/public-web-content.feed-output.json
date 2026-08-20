@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/knowledge-feed/v1",
   "output_type": "public_web_content_feed",
-  "generated_at": "2026-08-20T01:12:50.045Z",
+  "generated_at": "2026-08-20T01:36:18.936Z",
   "record_count": 52,
   "records": [
     {
@@ -394,7 +394,7 @@
       "route": "/travel-guide/ijen-health-screening",
       "domain": "travel-guide",
       "slug": "ijen-health-screening",
-      "title": "Ijen Health Screening – Real Checks, Digital Proof",
+      "title": "Ijen Health Certificate — Real Checks, Digital Proof",
       "summary": "The mandatory Ijen health screening: real checks at your hotel, a BSrE-signed digital certificate, checked at the crater access gate.",
       "status": "published",
       "owner": "operations",
