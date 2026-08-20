@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { mkdtemp, mkdir, writeFile, rm } from "node:fs/promises";
 import path from "node:path";
 import os from "node:os";
-import { buildAggregateRating, buildOrganizationNode } from "../lib/build-organization.mjs";
+import { buildAggregateRating, buildOrganizationNode, buildLeanOrganizationReference } from "../lib/build-organization.mjs";
 
 async function withTempRoot(fn) {
   const dir = await mkdtemp(path.join(os.tmpdir(), "build-organization-test-"));
@@ -125,6 +125,20 @@ await withTempRoot(async (root) => {
   });
   const node = await buildOrganizationNode(root, "/");
   assert.equal("aggregateRating" in node, false);
+});
+
+// ── buildLeanOrganizationReference() — minimal node for the 217 review-detail pages ──
+
+await withTempRoot(async (root) => {
+  await writeFixtures(root);
+  const node = await buildLeanOrganizationReference(root);
+  assert.deepEqual(node, {
+    "@id": "https://javavolcano-touroperator.com/#organization",
+    "@type": ["Organization", "TravelAgency", "LocalBusiness"],
+    name: "Java Volcano Tour Operator",
+    url: "https://javavolcano-touroperator.com",
+  });
+  assert.equal(Object.keys(node).length, 4, "must carry ONLY @id/@type/name/url — no aggregateRating, sameAs, credentials, etc.");
 });
 
 console.log("build-organization.test.mjs: all assertions passed");

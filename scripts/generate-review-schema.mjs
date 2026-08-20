@@ -1,12 +1,13 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { buildOrganizationNode } from "./lib/build-organization.mjs";
+import { buildLeanOrganizationReference } from "./lib/build-organization.mjs";
 import { composeGraph } from "./lib/schema-contract.mjs";
 import {
   BASE_URL,
   HUB_ROUTE,
   buildHubReviewNodes,
   buildReviewDetailProductNode,
+  isValidStar,
 } from "./lib/review-schema/build-review-nodes.mjs";
 
 const ROOT = process.cwd();
@@ -85,15 +86,23 @@ async function updateHub(reviews) {
 }
 
 /**
- * One standalone schema-output.json per review, each carrying the FULL Organization
- * node (not a bare reference) so the Product node's `brand`/`publisher` and the
- * nested Review's `itemReviewed`/`publisher` bare {"@id": ORG_ID} references all
- * resolve within this single file — required by checkDanglingReferences in
- * scripts/validate-schema.mjs, which only inspects one file's own @graph at a time.
+ * One standalone schema-output.json per review, each carrying a LEAN Organization
+ * reference (not the full node — see buildLeanOrganizationReference) so the Product
+ * node's `brand` bare {"@id": ORG_ID} reference still resolves within this single
+ * file — required by checkDanglingReferences in scripts/validate-schema.mjs, which
+ * only inspects one file's own @graph at a time — without duplicating the business's
+ * aggregateRating, sameAs, credentials, etc. onto 217 pages that aren't about the
+ * business. jvto-web only reads this file's Product node and discards Organization
+ * entirely (verified safe — see the whole-branch review finding this addresses).
  */
 async function writeDetailFile(review) {
   const route = detailRoute(review.id);
-  const orgNode = await buildOrganizationNode(ROOT, route);
+  const orgNode = await buildLeanOrganizationReference(ROOT);
+  if (review.star !== null && review.star !== undefined && !isValidStar(review.star)) {
+    console.warn(
+      `[generate-review-schema] review id=${review.id} has an invalid star rating (${JSON.stringify(review.star)}); falling back to ratingValue 5 in the detail page`,
+    );
+  }
   const productNode = buildReviewDetailProductNode(review, { baseUrl: BASE_URL });
   const output = {
     schema_version: "jvto/output/json-ld-page/v1",

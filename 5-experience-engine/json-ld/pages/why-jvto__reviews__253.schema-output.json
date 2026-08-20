@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-20T05:23:06.079Z",
+  "generated_at": "2026-08-20T06:16:16.269Z",
   "route": "/why-jvto/reviews/253",
   "domain": "why-jvto",
   "slug": "reviews/253",
@@ -16,149 +16,7 @@
           "LocalBusiness"
         ],
         "name": "Java Volcano Tour Operator",
-        "legalName": "PT Java Volcano Rendezvous",
-        "alternateName": "JVTO",
-        "url": "https://javavolcano-touroperator.com",
-        "telephone": "+6282244788833",
-        "email": "hello@javavolcano-touroperator.com",
-        "foundingDate": "2015",
-        "slogan": "Private volcano tours with police-led safety. Ijen, Bromo, Tumpak Sewu.",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://javavolcano-touroperator.com/assets/img/jvto-color.png"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Jl. Khairil Anwar No.102 A",
-          "addressLocality": "Bondowoso",
-          "addressRegion": "Jawa Timur",
-          "postalCode": "68214",
-          "addressCountry": "ID"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": -7.9151,
-          "longitude": 113.8232
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": 4.9,
-          "reviewCount": 152,
-          "bestRating": 5
-        },
-        "sameAs": [
-          "https://www.trustpilot.com/review/javavolcano-touroperator.com",
-          "https://www.google.com/maps?cid=1266403973589689021",
-          "https://www.tripadvisor.com/Attraction_Review-g297715-d19983165-Reviews-Java_Volcano_Tour_Operator-Surabaya_East_Java_Java.html",
-          "https://www.getyourguide.com/java-volcano-tour-operator-s260697/",
-          "https://www.isic.org/discounts/?providerId=259268",
-          "https://www.indecon.id/spotlight-networks/java-volcano-tour-operator",
-          "https://ahu.go.id/sabh/perseroan/qrcode/?kode=NDAyMzAyMDYzNTEwMjE3NF8yXzA4IEZlYnJ1YXJpIDIwMjNfMDggRmVicnVhcmkgMjAyMw==",
-          "https://www.facebook.com/javavolcanotours/",
-          "https://www.instagram.com/javavolcanotouroperator/",
-          "https://twitter.com/jvto_tours"
-        ],
-        "award": [
-          "Booking.com Guest Review Award 2015 — Ijen Bondowoso Homestay (Score 9.4/10)",
-          "Stefan Loose Reiseführer Indonesien — Editorial Feature (4th Edition, 2018)"
-        ],
-        "memberOf": [
-          {
-            "@id": "https://javavolcano-touroperator.com/entity/#org-hpwki"
-          },
-          {
-            "@id": "https://javavolcano-touroperator.com/entity/#org-indecon"
-          },
-          {
-            "@id": "https://javavolcano-touroperator.com/entity/#org-isic"
-          }
-        ],
-        "subjectOf": [
-          {
-            "@type": "NewsArticle",
-            "headline": "Suka Duka Polisi Pariwisata Bondowoso: Tegakkan Prokes Sambil Lawan Dingin",
-            "datePublished": "2021-03-14",
-            "url": "https://news.detik.com/berita-jawa-timur/d-5492690/suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin",
-            "publisher": {
-              "@id": "https://javavolcano-touroperator.com/entity/#org-detikcom"
-            }
-          },
-          {
-            "@type": "NewsArticle",
-            "headline": "Polpar Dibentuk untuk Mendukung Ijen Geopark",
-            "url": "https://radarjember.jawapos.com/bondowoso/791102263/polpar-dibentuk-untuk-mendukung-ijen-geopark",
-            "publisher": {
-              "@id": "https://javavolcano-touroperator.com/entity/#org-radar-jember"
-            }
-          },
-          {
-            "@type": "Book",
-            "name": "Stefan Loose Reiseführer Indonesien",
-            "isbn": "978-3-7701-7881-0",
-            "datePublished": "2018-07-05",
-            "publisher": {
-              "@id": "https://javavolcano-touroperator.com/entity/#org-dumont"
-            }
-          }
-        ],
-        "hasCredential": [
-          {
-            "@type": "EducationalOccupationalCredential",
-            "name": "NIB (Nomor Induk Berusaha)",
-            "credentialCategory": "Indonesian Business Registration",
-            "url": "https://javavolcano-touroperator.com/legal/NIB-1102230032918.pdf",
-            "recognizedBy": {
-              "@id": "https://javavolcano-touroperator.com/entity/#org-bkpm"
-            },
-            "identifier": {
-              "@type": "PropertyValue",
-              "propertyID": "NIB",
-              "value": "1102230032918"
-            },
-            "additionalProperty": {
-              "@type": "PropertyValue",
-              "propertyID": "SHA-256",
-              "name": "NIB (Nomor Induk Berusaha) document SHA-256",
-              "value": "fa20dde31bb75e46b061ed14cc6d003f6960c02a9a82c20d8603b0cbf6f7b1b7"
-            }
-          },
-          {
-            "@type": "EducationalOccupationalCredential",
-            "name": "TDUP (Tanda Daftar Usaha Pariwisata)",
-            "credentialCategory": "Indonesian Tourism Business Licence",
-            "dateIssued": "2023-02-11",
-            "url": "https://javavolcano-touroperator.com/legal/TDUP-1102230032918.pdf",
-            "recognizedBy": {
-              "@id": "https://javavolcano-touroperator.com/entity/#org-kemenparekraf"
-            },
-            "identifier": {
-              "@type": "PropertyValue",
-              "propertyID": "TDUP",
-              "value": "1102230032918"
-            },
-            "additionalProperty": {
-              "@type": "PropertyValue",
-              "propertyID": "SHA-256",
-              "name": "TDUP (Tanda Daftar Usaha Pariwisata) document SHA-256",
-              "value": "27252d512ddfa74de22a3e3ec10aa3dd40ef88da3eb57349fcd2137411551ee3"
-            }
-          },
-          {
-            "@type": "EducationalOccupationalCredential",
-            "name": "HPWKI Membership (Himpunan Pelaku Wisata Khusus Ijen)",
-            "credentialCategory": "Volcanic Tourism Association — BBKSDA supervised",
-            "url": "https://javavolcano-touroperator.com/legal/HPWKI-approval.pdf",
-            "recognizedBy": {
-              "@id": "https://javavolcano-touroperator.com/entity/#org-hpwki"
-            },
-            "additionalProperty": {
-              "@type": "PropertyValue",
-              "propertyID": "SHA-256",
-              "name": "HPWKI Membership (Himpunan Pelaku Wisata Khusus Ijen) document SHA-256",
-              "value": "ca1fb1a48b550a7748d400f165899f12a356e6941aacdde9c043427698aaf63b"
-            }
-          }
-        ]
+        "url": "https://javavolcano-touroperator.com"
       },
       {
         "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/253#product",
@@ -182,19 +40,21 @@
             "name": "navrellio sevrimastya"
           },
           "reviewBody": "Nice Place",
-          "datePublished": "2022-05-13T00:00:00.000Z",
+          "datePublished": "2022-05-13",
           "itemReviewed": {
             "@id": "https://javavolcano-touroperator.com/#organization"
           },
           "publisher": {
-            "@id": "https://javavolcano-touroperator.com/#organization"
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/253#platform-google",
+            "@type": "Organization",
+            "name": "Google"
           }
         }
       }
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-20T05:23:06.079Z",
+    "generated_at": "2026-08-20T06:16:16.269Z",
     "source_files": [
       "1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json"
     ],

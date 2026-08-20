@@ -111,6 +111,30 @@ function subjectToSchema(subject, registry, route) {
   };
 }
 
+/**
+ * Minimal Organization reference for pages where the full node (aggregateRating,
+ * sameAs, credentials, memberOf, ...) would be scope creep — currently the 217
+ * review-detail pages, whose Product node needs `brand: {"@id": ORG_ID}` to resolve
+ * but whose consuming code (jvto-web) discards the Organization node entirely, only
+ * reading the Product. Still a genuine node, not a bare `{"@id": ...}` reference:
+ * checkOrganizationIdentity requires an @id on every Organization-class node, and
+ * carrying @type/name/url alongside it means it fully resolves on its own rather
+ * than depending on checkDanglingReferences' bare-reference exemption. Only reads
+ * organization.json — unlike buildOrganizationNode, it does not load the
+ * external-entities registry or review-platforms.json, since none of the fields it
+ * emits need them.
+ */
+export async function buildLeanOrganizationReference(root) {
+  const raw = await readFile(path.join(root, SOURCE_PATH), "utf8");
+  const data = JSON.parse(raw);
+  return {
+    "@id": ORG_ID,
+    "@type": ["Organization", "TravelAgency", "LocalBusiness"],
+    name: data.brandName,
+    url: data.websiteUrl,
+  };
+}
+
 export async function buildOrganizationNode(root, route) {
   const raw = await readFile(path.join(root, SOURCE_PATH), "utf8");
   const data = JSON.parse(raw);

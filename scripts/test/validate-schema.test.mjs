@@ -25,6 +25,55 @@ import { checkDanglingReferences, checkNoMissingIds, checkNoZeroRatings } from "
 }
 
 {
+  // Nested Review inside a Product (the review-detail page shape) with an invalid
+  // ratingValue must now be caught too — this is the enforcement net a zero/malformed
+  // star was previously sailing through undetected.
+  const graph = {
+    "@graph": [
+      {
+        "@id": "x",
+        "@type": "Product",
+        review: { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: 0, bestRating: 5, worstRating: 1 } },
+      },
+    ],
+  };
+  const violations = checkNoZeroRatings(graph, "route-f");
+  assert.equal(violations.length, 1);
+  assert.match(violations[0], /route-f/);
+}
+
+{
+  // Non-numeric ratingValue (e.g. a string star that reached the graph) must also
+  // be flagged, not silently pass because Number("abc") <= 0 is false.
+  const graph = {
+    "@graph": [
+      {
+        "@id": "x",
+        "@type": "Product",
+        review: { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "abc", bestRating: 5, worstRating: 1 } },
+      },
+    ],
+  };
+  const violations = checkNoZeroRatings(graph, "route-g");
+  assert.equal(violations.length, 1);
+}
+
+{
+  // A valid nested reviewRating must not be flagged.
+  const graph = {
+    "@graph": [
+      {
+        "@id": "x",
+        "@type": "Product",
+        review: { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: 5, bestRating: 5, worstRating: 1 } },
+      },
+    ],
+  };
+  const violations = checkNoZeroRatings(graph, "route-h");
+  assert.equal(violations.length, 0);
+}
+
+{
   const graph = {
     "@graph": [
       {

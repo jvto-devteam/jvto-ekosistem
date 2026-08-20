@@ -5,10 +5,32 @@ export const HUB_ROUTE = "/why-jvto/reviews";
 
 const ALLOWED_PLATFORMS = new Set(["Trustpilot", "TripAdvisor", "Google"]);
 
+/**
+ * Same validity rule the hub's eligibility filter has always applied to `star`:
+ * a real number in [1, 5]. Exported so the generator can reuse it to decide
+ * whether a present-but-invalid star (0, 6, a string — anything that isn't
+ * nullish but still fails this check) deserves a console.warn before falling
+ * back to a safe default; that fallback happens in `sanitizeStar` below.
+ */
+export function isValidStar(star) {
+  return typeof star === "number" && star >= 1 && star <= 5;
+}
+
+/**
+ * `??` only catches null/undefined — a `star: 0` (falsy but not nullish) or a
+ * string star would sail through a `review.star ?? 5` fallback unchanged and
+ * reach the output graph as an invalid ratingValue. This treats "present but
+ * invalid" the same as "absent": both fall back to 5. Pure — no I/O, no
+ * console output; the generator is responsible for warning when the value was
+ * present-but-invalid (see isValidStar above).
+ */
+function sanitizeStar(star) {
+  return isValidStar(star) ? star : 5;
+}
+
 function isHubEligible(review) {
   return (
-    typeof review.star === "number" &&
-    review.star >= 1 &&
+    isValidStar(review.star) &&
     ALLOWED_PLATFORMS.has(review.platform) &&
     typeof review.review === "string" &&
     review.review !== ""
@@ -20,8 +42,11 @@ function platformSlug(platform) {
 }
 
 /**
- * One nested Organization-class node per Review, scoped to the hub page's own URL
- * (`#platform-<slug>`) rather than resolved through the external-entities registry
+ * One nested Organization-class node per Review, scoped to the CALLER's own page URL
+ * (`#platform-<slug>`) — the hub passes its own hub URL, the detail builder below
+ * passes that review's own detail-page URL, so the two representations of the same
+ * review never collide on the same `#platform-google` @id — rather than resolved
+ * through the external-entities registry
  * (1-knowledge-and-evidence-core/organization-identity/external-entities.json) —
  * that registry is for third-party organisations with owner-verified `sameAs` URLs
  * ("Never add a sameAs URL without verifying it"), and Google/Trustpilot/TripAdvisor
@@ -88,11 +113,21 @@ function packageUrlFor(slug, { baseUrl = BASE_URL } = {}) {
  * /why-jvto/reviews/{id} URL already. Called unconditionally for every record in
  * reviews.json — unlike the hub, this is not filtered by platform/star/review-text
  * eligibility, because the [id] page looks reviews up by id directly.
+ *
+ * The nested Review here shares its `@id` (`#review-{id}`) with the hub's flat
+ * Review node for the same record, so the two representations are reconciled to
+ * agree on every field: `datePublished` uses the same raw `review.date` string
+ * (not re-derived through `Date#toISOString`), and `publisher` points at the
+ * actual review platform via `platformPublisherNode` (not at ORG_ID — JVTO is
+ * never the publisher of a review of itself). `reviewBody` is omitted entirely
+ * (not emitted as `""`) when the record has no review text, so an empty record
+ * doesn't get asserted as reviewed content.
  */
 export function buildReviewDetailProductNode(review, { baseUrl = BASE_URL } = {}) {
   const packageName = review.packageName ?? "Java Volcano Tour Package";
+  const detailUrl = `${baseUrl}${HUB_ROUTE}/${review.id}`;
   return {
-    "@id": `${baseUrl}${HUB_ROUTE}/${review.id}#product`,
+    "@id": `${detailUrl}#product`,
     "@type": "Product",
     name: packageName,
     brand: { "@id": ORG_ID },
@@ -102,15 +137,15 @@ export function buildReviewDetailProductNode(review, { baseUrl = BASE_URL } = {}
       "@id": `${baseUrl}/#review-${review.id}`,
       reviewRating: {
         "@type": "Rating",
-        ratingValue: review.star ?? 5,
+        ratingValue: sanitizeStar(review.star),
         bestRating: 5,
         worstRating: 1,
       },
       author: { "@type": "Person", name: review.customerName },
-      reviewBody: review.review,
-      datePublished: new Date(review.date).toISOString(),
+      ...(review.review ? { reviewBody: review.review } : {}),
+      datePublished: review.date,
       itemReviewed: { "@id": ORG_ID },
-      publisher: { "@id": ORG_ID },
+      publisher: platformPublisherNode(review.platform, detailUrl),
     },
   };
 }

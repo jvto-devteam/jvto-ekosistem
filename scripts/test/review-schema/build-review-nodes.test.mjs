@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import {
   buildHubReviewNodes,
   buildReviewDetailProductNode,
+  isValidStar,
   BASE_URL,
   HUB_ROUTE,
 } from "../../lib/review-schema/build-review-nodes.mjs";
@@ -117,9 +118,55 @@ const noStarReview = { ...trustpilotReview, id: 997, star: null };
   assert.deepEqual(review.reviewRating, { "@type": "Rating", ratingValue: 5, bestRating: 5, worstRating: 1 });
   assert.deepEqual(review.author, { "@type": "Person", name: "HuiYuan Yeoh" });
   assert.equal(review.reviewBody, googleReview.review);
-  assert.equal(review.datePublished, new Date(googleReview.date).toISOString());
+  assert.equal(
+    review.datePublished,
+    googleReview.date,
+    "datePublished must match the hub's raw review.date, not a re-derived ISO string — the hub and detail Review nodes share the same @id and must agree on every field",
+  );
   assert.deepEqual(review.itemReviewed, { "@id": ORG_ID });
-  assert.deepEqual(review.publisher, { "@id": ORG_ID });
+  assert.equal(
+    review.publisher["@type"],
+    "Organization",
+    "publisher must be the actual review platform, not JVTO itself reviewing its own review",
+  );
+  assert.equal(review.publisher.name, "Google");
+  assert.equal(
+    review.publisher["@id"],
+    `${BASE_URL}${HUB_ROUTE}/78#platform-google`,
+    "detail page's platform publisher @id must be scoped to its own route, not collide with the hub's #platform-google",
+  );
+}
+
+{
+  // Empty review text (the 14 records that fail the hub's eligibility filter on
+  // review text) must omit reviewBody entirely, not assert an empty string as
+  // review content.
+  const product = buildReviewDetailProductNode(emptyTextReview);
+  assert.equal(
+    "reviewBody" in product.review,
+    false,
+    "empty review.review must omit reviewBody entirely, not emit reviewBody: ''",
+  );
+}
+
+{
+  // star: 0 is invalid (not nullish, so `??` would let it through) — must still
+  // fall back to 5, matching the hub's own >= 1 eligibility rule.
+  const product = buildReviewDetailProductNode({ ...trustpilotReview, star: 0 });
+  assert.equal(product.review.reviewRating.ratingValue, 5);
+}
+
+{
+  // A non-number star (e.g. a string) must also fall back to 5, not pass through
+  // type-inconsistent with the numeric bestRating/worstRating.
+  const product = buildReviewDetailProductNode({ ...trustpilotReview, star: "5" });
+  assert.equal(product.review.reviewRating.ratingValue, 5);
+}
+
+{
+  // star: 6 is out of range — also invalid, also falls back to 5.
+  const product = buildReviewDetailProductNode({ ...trustpilotReview, star: 6 });
+  assert.equal(product.review.reviewRating.ratingValue, 5);
 }
 
 {
@@ -137,6 +184,18 @@ const noStarReview = { ...trustpilotReview, id: 997, star: null };
   // inline builder's `review.star ?? 5`.
   const product = buildReviewDetailProductNode({ ...trustpilotReview, star: null });
   assert.equal(product.review.reviewRating.ratingValue, 5);
+}
+
+// --- isValidStar: exported so the generator can decide when a present-but-invalid
+// star deserves a console.warn before the builder's pure fallback to 5 ---
+{
+  assert.equal(isValidStar(5), true);
+  assert.equal(isValidStar(1), true);
+  assert.equal(isValidStar(0), false, "0 is falsy but not nullish — must be treated as invalid, not silently passed through by ??");
+  assert.equal(isValidStar(6), false, "out of range");
+  assert.equal(isValidStar("5"), false, "non-number must be invalid even if numeric-looking");
+  assert.equal(isValidStar(null), false);
+  assert.equal(isValidStar(undefined), false);
 }
 
 console.log("build-review-nodes.test.mjs: all assertions passed");

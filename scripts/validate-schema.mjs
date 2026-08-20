@@ -93,12 +93,32 @@ export function checkNoDuplicateSingletons(graph, route) {
   return violations;
 }
 
+/**
+ * Also walks nested `node.review?.reviewRating` (a Review node embedded inside a
+ * Product, e.g. the 217 review-detail pages), not just top-level
+ * `node.aggregateRating` — a zero/malformed nested rating (e.g. a sync defaulting
+ * an unmapped Google star enum to `star: 0`, or a non-number star) used to sail
+ * through undetected because this check only ever inspected the top level. Nested
+ * reviewRating has no `reviewCount` field, so that half of the check doesn't apply
+ * there; it's judged on `ratingValue` alone, including a non-numeric value (e.g. a
+ * string star that reached the output graph) via an explicit NaN check.
+ */
 export function checkNoZeroRatings(graph, route) {
   const violations = [];
   for (const node of graph["@graph"] ?? []) {
     const rating = node.aggregateRating;
     if (rating && (Number(rating.reviewCount) < 1 || Number(rating.ratingValue) <= 0)) {
       violations.push(`${route}: aggregateRating with reviewCount=${rating.reviewCount} ratingValue=${rating.ratingValue}`);
+    }
+
+    const nestedReviews = Array.isArray(node.review) ? node.review : node.review ? [node.review] : [];
+    for (const nestedReview of nestedReviews) {
+      const reviewRating = nestedReview?.reviewRating;
+      if (!reviewRating) continue;
+      const numericValue = Number(reviewRating.ratingValue);
+      if (Number.isNaN(numericValue) || numericValue <= 0) {
+        violations.push(`${route}: review.reviewRating with ratingValue=${JSON.stringify(reviewRating.ratingValue)}`);
+      }
     }
   }
   return violations;
