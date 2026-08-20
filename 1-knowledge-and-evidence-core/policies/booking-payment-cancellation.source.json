@@ -123,6 +123,12 @@
           ]
         }
       ],
+      "schemaFacts": {
+        "travelCreditAnnouncement": {
+          "name": "Lifetime Package Credit Policy",
+          "text": "Full cancellation ≥48 hours before Day 1 = 100% Lifetime Package Credit, never cash. Non-expiring. Locked to the same package, traveler count and price — cannot be split or changed to another package. Transferable to another person once, with written authorisation."
+        }
+      },
       "lastReviewed": "2026-08-11",
       "owner": "policy",
       "reviewStatus": "domain-owner-assigned-by-audit",
