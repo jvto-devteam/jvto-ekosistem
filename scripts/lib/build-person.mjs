@@ -1,3 +1,4 @@
+import { ORG_ID } from "./build-organization.mjs";
 import { emitEntity } from "./external-entities.mjs";
 
 function normalizeImage(image) {
@@ -97,6 +98,13 @@ export function buildPersonNode(record, pageUrl, registry, route) {
     name: record.name,
     ...(aliases.length ? { alternateName: aliases } : {}),
     ...(jobTitle ? { jobTitle } : {}),
+    // worksFor is the edge that distinguishes an employed crew member from a
+    // freelancer, and it was missing from every Person node: guides and drivers
+    // rendered as unaffiliated people who happened to appear on the site. The
+    // reviews name them as JVTO's own crew and each carries a JVTO-registered
+    // HPWKI KTA credential, so the employment relation is exactly what the
+    // evidence shows — it just was not stated in the graph.
+    worksFor: { "@id": ORG_ID },
     ...(images.length ? { image: images } : {}),
     ...(record.sameAs?.length ? { sameAs: record.sameAs } : {}),
     ...(record.knowsAbout?.length ? { knowsAbout: record.knowsAbout } : {}),

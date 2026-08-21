@@ -135,11 +135,59 @@ export async function buildLeanOrganizationReference(root) {
   };
 }
 
+/**
+ * The founder and crew, as @id references back to their own Person nodes.
+ *
+ * Two claims the site makes in prose had no counterpart in the graph:
+ * that JVTO employs its crew rather than booking freelancers, and that the
+ * founder is who he says he is. Both are relations, and relations that are
+ * only asserted in sentences are invisible to anything reading the structured
+ * data. `founder` and `employee` state them, pointing at the same Person @ids
+ * the crew pages publish — where each one carries a JVTO-registered HPWKI KTA
+ * and the reviews that name them.
+ */
+async function buildPeopleEdges(root) {
+  try {
+    const raw = await readFile(
+      path.join(root, "1-knowledge-and-evidence-core/people-and-crew/people.json"),
+      "utf8",
+    );
+    const people = JSON.parse(raw);
+    const site = "https://javavolcano-touroperator.com";
+    const leader = (people.leadership ?? []).find((p) => p.public !== false);
+    const roster = (people.crew?.roster ?? []).filter(
+      (m) => m.public !== false && m.rendered !== false,
+    );
+    return {
+      // The founder's canonical node is /#agung-sambuko, built in jvto-web's
+      // entityGraph.ts and referenced from the tour PDPs, history-artifacts and
+      // buildVerifySchemas. There is no /why-jvto/our-team/agung-sambuko page,
+      // so deriving an id from his roster entry the way crew ids are derived
+      // would point at a 404.
+      ...(leader ? { founder: { "@id": `${site}/#agung-sambuko` } } : {}),
+      ...(roster.length
+        ? {
+            employee: roster.map((m) => ({
+              "@id": `${site}/why-jvto/our-team/${m.code}#person`,
+            })),
+            numberOfEmployees: {
+              "@type": "QuantitativeValue",
+              value: roster.length + (leader ? 1 : 0),
+            },
+          }
+        : {}),
+    };
+  } catch {
+    return {};
+  }
+}
+
 export async function buildOrganizationNode(root, route) {
   const raw = await readFile(path.join(root, SOURCE_PATH), "utf8");
   const data = JSON.parse(raw);
   const registry = await loadExternalEntities(root);
   const aggregateRating = buildAggregateRating(await loadReviewProfiles(root));
+  const peopleEdges = await buildPeopleEdges(root);
 
   const node = {
     "@id": ORG_ID,
@@ -190,6 +238,36 @@ export async function buildOrganizationNode(root, route) {
               ...(member.sameAs ? { sameAs: member.sameAs } : {}),
             };
           }),
+        }
+      : {}),
+    ...peopleEdges,
+    // A real, addressed place of business. "We have an office, unlike the
+    // others" was a selling point the graph never carried — the address sat on
+    // the Organization but nothing said it is a place you can visit.
+    ...(data.address
+      ? {
+          location: {
+            "@type": "Place",
+            "@id": `${data.websiteUrl}/#office`,
+            name: `${data.brandName} office`,
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: data.address.streetAddress,
+              addressLocality: data.address.addressLocality,
+              addressRegion: data.address.addressRegion,
+              postalCode: data.address.postalCode,
+              addressCountry: data.address.addressCountry,
+            },
+            ...(data.geo
+              ? {
+                  geo: {
+                    "@type": "GeoCoordinates",
+                    latitude: data.geo.latitude,
+                    longitude: data.geo.longitude,
+                  },
+                }
+              : {}),
+          },
         }
       : {}),
     ...(data.subjectOf?.length ? { subjectOf: data.subjectOf.map((s) => subjectToSchema(s, registry, route)) } : {}),

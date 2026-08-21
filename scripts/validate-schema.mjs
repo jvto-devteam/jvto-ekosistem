@@ -8,6 +8,7 @@ const PAGES_DIR = "5-experience-engine/json-ld/pages";
 const ROUTE_INDEX_PATH = "5-experience-engine/manifests/route-output-index.json";
 const INTERNAL_ID_PREFIX = "https://javavolcano-touroperator.com/";
 const EXTERNAL_ENTITIES_PATH = "1-knowledge-and-evidence-core/organization-identity/external-entities.json";
+const PEOPLE_PATH = "1-knowledge-and-evidence-core/people-and-crew/people.json";
 // Tour-product PDP routes only — matches generate-tourist-trip-schema.mjs's own
 // PDP_ROUTE_RE. Used below to exempt each PDP route's own `#webpage` self-reference
 // from the dangling-reference check.
@@ -18,6 +19,43 @@ const PDP_ROUTE_RE = /^\/tours\/(from-bali|from-surabaya)\//;
  * route and referenced from every other, so a per-route dangling check would
  * flag every reference. Cross-route resolution is the point of the registry.
  */
+/**
+ * Person @id values for the founder and published crew.
+ *
+ * Same situation as the entity registry above: each Person is defined in full
+ * on its own /why-jvto/our-team/<code> route and referenced by @id from
+ * elsewhere — the Organization's `founder` and `employee` edges point at them
+ * from every page that carries the org node. Resolving across routes is the
+ * point of a stable @id, so a per-route check would flag every one of them.
+ */
+async function loadPeopleIds() {
+  try {
+    const raw = await readFile(path.join(ROOT, PEOPLE_PATH), "utf8");
+    const people = JSON.parse(raw);
+    const site = "https://javavolcano-touroperator.com";
+    const ids = new Set();
+    for (const person of people.leadership ?? []) {
+      if (person.public !== false && person.id) {
+        ids.add(`${site}/why-jvto/our-team/${person.id}#person`);
+      }
+    }
+    for (const member of people.crew?.roster ?? []) {
+      if (member.public !== false && member.rendered !== false && member.code) {
+        ids.add(`${site}/why-jvto/our-team/${member.code}#person`);
+      }
+    }
+    // The founder's node is built by jvto-web (entityGraph.ts) and merged into
+    // the same combined @graph at render time, so the Organization's `founder`
+    // edge resolves there. It only looks dangling here because this check reads
+    // one ekosistem file in isolation — the same reason the PDP `#webpage`
+    // reference is exempted above.
+    ids.add(`${site}/#agung-sambuko`);
+    return ids;
+  } catch {
+    return new Set();
+  }
+}
+
 async function loadRegistryIds() {
   try {
     const raw = await readFile(path.join(ROOT, EXTERNAL_ENTITIES_PATH), "utf8");
@@ -214,7 +252,10 @@ async function checkRouteIndexSync(pagesDir, routeIndexPath) {
 }
 
 async function main() {
-  const registryIds = await loadRegistryIds();
+  const registryIds = new Set([
+    ...(await loadRegistryIds()),
+    ...(await loadPeopleIds()),
+  ]);
   const files = (await readdir(path.join(ROOT, PAGES_DIR))).filter((file) => file.endsWith(".json"));
   let allViolations = [];
 

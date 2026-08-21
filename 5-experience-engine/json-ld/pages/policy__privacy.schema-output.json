@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T07:46:59.611Z",
+  "generated_at": "2026-08-21T09:05:32.492Z",
   "route": "/policy/privacy",
   "domain": "policy",
   "slug": "privacy",
@@ -72,6 +72,66 @@
             "@id": "https://javavolcano-touroperator.com/entity/#org-isic"
           }
         ],
+        "founder": {
+          "@id": "https://javavolcano-touroperator.com/#agung-sambuko"
+        },
+        "employee": [
+          {
+            "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/anjas#person"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/gufron#person"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/rendi#person"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/boy#person"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/kiki#person"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/taufik#person"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/fauzi#person"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/fredi#person"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/joyo#person"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/yandi#person"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/why-jvto/our-team/holili#person"
+          }
+        ],
+        "numberOfEmployees": {
+          "@type": "QuantitativeValue",
+          "value": 12
+        },
+        "location": {
+          "@type": "Place",
+          "@id": "https://javavolcano-touroperator.com/#office",
+          "name": "Java Volcano Tour Operator office",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jl. Khairil Anwar No.102 A",
+            "addressLocality": "Bondowoso",
+            "addressRegion": "Jawa Timur",
+            "postalCode": "68214",
+            "addressCountry": "ID"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -7.9151,
+            "longitude": 113.8232
+          }
+        },
         "subjectOf": [
           {
             "@type": "NewsArticle",
