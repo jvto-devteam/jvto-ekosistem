@@ -1326,7 +1326,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -1724,7 +1724,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -1911,7 +1911,7 @@
         "name": "Toriq",
         "tags": "JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1786428330_WhatsApp Image 2026-08-11 at 12.29.25.jpeg",
-        "recap_this_month_escort": 2
+        "recap_this_month_escort": 1
       }
     ],
     "guides": [
@@ -2308,7 +2308,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -2501,7 +2501,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -2852,7 +2852,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -3245,7 +3245,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       },
       {
         "id": 73,
@@ -3399,7 +3399,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -3817,7 +3817,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -4490,7 +4490,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -4567,11 +4567,11 @@
       "days": "Mon - Thu"
     },
     "pickup": {
-      "meeting_point": "",
+      "meeting_point": "Surabaya Train Station",
       "meeting_point_arrival": null,
-      "meeting_point_value": null,
-      "pickup_time": "07:00",
-      "text": "  "
+      "meeting_point_value": "Logawa 248C",
+      "pickup_time": "14:00",
+      "text": "Surabaya Train Station (Logawa 248C)"
     },
     "dropoff": {
       "drop_point": "Others",
@@ -5063,7 +5063,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -5176,7 +5176,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [],
@@ -5532,7 +5532,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -5809,7 +5809,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -5969,7 +5969,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -6850,7 +6850,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -7713,7 +7713,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -8234,7 +8234,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -8960,7 +8960,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -9329,7 +9329,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -11108,7 +11108,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [],
@@ -12185,11 +12185,11 @@
     ],
     "drivers": [
       {
-        "id": 81,
-        "name": "Romi",
-        "tags": "JVTO,KLOOK",
-        "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1777815953_Screenshot 2026-05-03 at 20.45.21.png",
-        "recap_this_month_escort": 2
+        "id": 9,
+        "name": "GARAGE",
+        "tags": "TWT,JVTO,KLOOK",
+        "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -12401,7 +12401,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -12915,7 +12915,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -14231,11 +14231,11 @@
       "days": "Thu - Sat"
     },
     "pickup": {
-      "meeting_point": "",
+      "meeting_point": "Surabaya Hotel",
       "meeting_point_arrival": null,
-      "meeting_point_value": null,
-      "pickup_time": "07:00",
-      "text": "  "
+      "meeting_point_value": "Le Royal Benson Apartment at Supermal Pakuwon",
+      "pickup_time": "10:00",
+      "text": "Surabaya Hotel  Le Royal Benson Apartment at Supermal Pakuwon"
     },
     "dropoff": {
       "drop_point": "Bali Hotel",
@@ -14305,14 +14305,14 @@
         ]
       }
     ],
-    "tshirtSize": "",
+    "tshirtSize": "M x 1, L x 1",
     "tshirtRaw": {
       "xss": 0,
       "xxs": 0,
       "xs": 0,
       "s": 0,
-      "m": 0,
-      "l": 0,
+      "m": 1,
+      "l": 1,
       "xl": 0,
       "xxl": 0,
       "xxxl": 0
@@ -15676,13 +15676,13 @@
         ]
       },
       "expense": {
-        "total": 10569500,
-        "crew_expense": "10299500.00",
+        "total": 10237501,
+        "crew_expense": "9967501.00",
         "debt_expense": "270000.00",
         "expenseLink": "/finance/expense-manager/3674/edit",
         "target": "_blank"
       },
-      "profit": 1595500
+      "profit": 1927499
     },
     "paymentHistory": [],
     "notes": ""
@@ -16266,7 +16266,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -16452,7 +16452,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -17197,7 +17197,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -17342,8 +17342,8 @@
     "is_shuttle": "NO",
     "at_ijen": null,
     "financial": {
-      "payment": 1120000,
-      "balance": 4480000,
+      "payment": 5600000,
+      "balance": 0,
       "paymentMethod": null,
       "paymentMethodLink": "https://checkout.xendit.co/web/6a85660b965f2db2d9b61234",
       "invoice": {
@@ -17359,7 +17359,7 @@
         "expenseLink": "/finance/expense-manager/3700/edit",
         "target": "_blank"
       },
-      "profit": 770000
+      "profit": -2590000
     },
     "paymentHistory": [
       {
@@ -17372,6 +17372,17 @@
         "receipt": "RCP/068/08/26/1",
         "reference": "https://checkout.xendit.co/web/6a6ccb4041e74279110cef57",
         "date": "31 Jul 26 23:23"
+      },
+      {
+        "id": 870,
+        "booking_id": 3700,
+        "nominal": 4480000,
+        "paymentMethodId": 3,
+        "paymentMethod": "Debit/Credit Card",
+        "description": "Payment (Paid in Full)",
+        "receipt": "RCP/068/08/26/2",
+        "reference": "https://checkout.xendit.co/web/6a85660b965f2db2d9b61234",
+        "date": "21 Aug 26 06:34"
       }
     ],
     "notes": ""
@@ -18304,7 +18315,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [],
@@ -18407,7 +18418,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -18818,7 +18829,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -19005,7 +19016,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -19188,14 +19199,14 @@
         ]
       }
     ],
-    "tshirtSize": "",
+    "tshirtSize": "L x 3",
     "tshirtRaw": {
       "xss": 0,
       "xxs": 0,
       "xs": 0,
       "s": 0,
       "m": 0,
-      "l": 0,
+      "l": 3,
       "xl": 0,
       "xxl": 0,
       "xxxl": 0
@@ -19205,10 +19216,10 @@
     ],
     "drivers": [
       {
-        "id": 83,
-        "name": "Toriq",
+        "id": 81,
+        "name": "Romi",
         "tags": "JVTO,KLOOK",
-        "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1786428330_WhatsApp Image 2026-08-11 at 12.29.25.jpeg",
+        "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1777815953_Screenshot 2026-05-03 at 20.45.21.png",
         "recap_this_month_escort": 2
       }
     ],
@@ -19607,7 +19618,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -19636,13 +19647,13 @@
         ]
       },
       "expense": {
-        "total": 7669500,
-        "crew_expense": "7399500.00",
+        "total": 7699500,
+        "crew_expense": "7429500.00",
         "debt_expense": "270000.00",
         "expenseLink": "/finance/expense-manager/3718/edit",
         "target": "_blank"
       },
-      "profit": 330500
+      "profit": 300500
     },
     "paymentHistory": [
       {
@@ -20792,14 +20803,14 @@
         ]
       }
     ],
-    "tshirtSize": "",
+    "tshirtSize": "L x 2",
     "tshirtRaw": {
       "xss": 0,
       "xxs": 0,
       "xs": 0,
       "s": 0,
       "m": 0,
-      "l": 0,
+      "l": 2,
       "xl": 0,
       "xxl": 0,
       "xxxl": 0
@@ -22378,7 +22389,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 31
+        "recap_this_month_escort": 32
       }
     ],
     "guides": [
@@ -24154,10 +24165,10 @@
     "guestDetails": {
       "id": 4108,
       "name": "Sophia Xu",
-      "phone": "+1-2102885989",
+      "phone": "+12102885989",
       "email": "sophiahxu@gmail.com",
-      "country_id": null,
-      "country": null,
+      "country_id": 232,
+      "country": "United States",
       "trip_media": null
     },
     "total_pax": 2,
@@ -24173,24 +24184,24 @@
       "days": "Sun - Tue"
     },
     "pickup": {
-      "meeting_point": "Others",
-      "meeting_point_arrival": null,
-      "meeting_point_value": "",
-      "pickup_time": "07:00",
-      "text": ""
+      "meeting_point": "Surabaya Airport",
+      "meeting_point_arrival": "Terminal 2",
+      "meeting_point_value": "SQ922",
+      "pickup_time": "09:10",
+      "text": "Surabaya Airport Terminal 2 SQ922"
     },
     "dropoff": {
-      "drop_point": "Others",
-      "drop_point_arrival": null,
-      "drop_point_value": "Surabaya airport - QZ326",
-      "drop_time": "07:00",
-      "text": "Surabaya airport - QZ326"
+      "drop_point": "Surabaya Airport",
+      "drop_point_arrival": "Terminal 2",
+      "drop_point_value": "QZ326",
+      "drop_time": "17:45",
+      "text": "Surabaya Airport Terminal 2 QZ326"
     },
     "itinerary": [
       {
         "day": 1,
         "date": "20 Sep 2026",
-        "itinerary": "A warm welcome to Surabaya",
+        "itinerary": "Surabaya Airport - Bondowoso",
         "activity": "Surabaya",
         "destination_id": 4,
         "destination": "Surabaya"
@@ -24198,7 +24209,7 @@
       {
         "day": 2,
         "date": "21 Sep 2026",
-        "itinerary": "First stop: Ijen Crater",
+        "itinerary": "Ijen Crater - Bromo Area",
         "activity": "Ijen Crater Hike",
         "destination_id": 2,
         "destination": "Mount Ijen"
@@ -24206,8 +24217,8 @@
       {
         "day": 3,
         "date": "22 Sep 2026",
-        "itinerary": "From the Majestic Bromo Sunrise to the Hidden Madakaripura Waterfall",
-        "activity": "Bromo Sunrise Tour, Madakaripura Warterfall Tour",
+        "itinerary": "Bromo Sunrise - Surabaya Airport",
+        "activity": "Bromo Sunrise Tour",
         "destination_id": 1,
         "destination": "Mount Bromo"
       }
@@ -24271,13 +24282,158 @@
       "paymentMethodLink": null,
       "invoice": {
         "total": 6200000,
-        "invoiceLink": []
+        "invoiceLink": [
+          "https://new-backoffice.javavolcano-touroperator.com/preview-file?title=Invoice Sophia Xu&url=https://new-backoffice.javavolcano-touroperator.com/assets/customer-document/1787245998.pdf"
+        ]
       },
       "expense": {
         "total": 5015000,
-        "crew_expense": "5015000.00",
-        "debt_expense": "0.00",
+        "crew_expense": "1300000.00",
+        "debt_expense": "3715000.00",
         "expenseLink": "/finance/expense-manager/3774/edit",
+        "target": "_blank"
+      },
+      "profit": 1185000
+    },
+    "paymentHistory": [],
+    "notes": "Skip Mada to catch flight"
+  },
+  {
+    "booking_id": 3776,
+    "id": "KLOOK-3776",
+    "orderChannel": "KLOOK",
+    "guest_id": 4110,
+    "guest": "Elena Serrano Sanchez",
+    "customer_portal": "https://javavolcano-touroperator.com/my-booking/c9d6ac9d62f2bdea0c900f9fe0747918",
+    "guestDetails": {
+      "id": 4110,
+      "name": "Elena Serrano Sanchez",
+      "phone": "+34677209126",
+      "email": "eserrano1993@hotmail.com",
+      "country_id": 205,
+      "country": "Spain (España)",
+      "trip_media": null
+    },
+    "total_pax": 2,
+    "duration": "3D 2N",
+    "package_id": 82,
+    "package": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+    "booking_date": "20 Aug 2026",
+    "date": {
+      "start_ymd": "2026-09-02",
+      "end_ymd": "2026-09-04",
+      "start": "02 Sep 26",
+      "end": "04 Sep 26",
+      "days": "Wed - Fri"
+    },
+    "pickup": {
+      "meeting_point": "Surabaya Train Station",
+      "meeting_point_arrival": "Gubeng Station",
+      "meeting_point_value": "Sancaka 84",
+      "pickup_time": "10:45",
+      "text": "Surabaya Train Station Gubeng Station Sancaka 84"
+    },
+    "dropoff": {
+      "drop_point": "Others",
+      "drop_point_arrival": null,
+      "drop_point_value": "",
+      "drop_time": "07:00",
+      "text": ""
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "02 Sep 2026",
+        "itinerary": "Surabaya City - Bondowoso",
+        "activity": "Surabaya",
+        "destination_id": 4,
+        "destination": "Surabaya"
+      },
+      {
+        "day": 2,
+        "date": "03 Sep 2026",
+        "itinerary": "Ijen Crater - Bromo Area",
+        "activity": "Ijen Crater Hike",
+        "destination_id": 2,
+        "destination": "Mount Ijen"
+      },
+      {
+        "day": 3,
+        "date": "04 Sep 2026",
+        "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Hotel",
+        "activity": "Bromo Sunrise Tour, Madakaripura Warterfall Tour",
+        "destination_id": 1,
+        "destination": "Mount Bromo"
+      }
+    ],
+    "hotels": [
+      {
+        "day": 1,
+        "checkIn": "02 Sep 2026",
+        "hotelId": 1,
+        "hotel": "Baratha Hotel and Resto",
+        "rooms": [
+          {
+            "roomId": 9,
+            "roomName": "Deluxe Double",
+            "quantity": 1
+          }
+        ],
+        "meals": [
+          "Breakfast",
+          "Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "checkIn": "03 Sep 2026",
+        "hotelId": 11,
+        "hotel": "Joglo Kecombrang Bromo",
+        "rooms": [
+          {
+            "roomId": 24,
+            "roomName": "Double",
+            "quantity": 1
+          }
+        ],
+        "meals": [
+          "Breakfast"
+        ]
+      }
+    ],
+    "tshirtSize": "",
+    "tshirtRaw": {
+      "xss": 0,
+      "xxs": 0,
+      "xs": 0,
+      "s": 0,
+      "m": 0,
+      "l": 0,
+      "xl": 0,
+      "xxl": 0,
+      "xxxl": 0
+    },
+    "vehicles": [],
+    "drivers": [],
+    "guides": [],
+    "is_shuttle": "NO",
+    "at_ijen": "03 Sep 26",
+    "financial": {
+      "payment": 0,
+      "balance": 6200000,
+      "paymentMethod": null,
+      "paymentMethodLink": null,
+      "invoice": {
+        "total": 6200000,
+        "invoiceLink": [
+          "https://new-backoffice.javavolcano-touroperator.com/preview-file?title=Invoice Elena Serrano Sanchez&url=https://new-backoffice.javavolcano-touroperator.com/assets/customer-document/1787246481.pdf"
+        ]
+      },
+      "expense": {
+        "total": 5015000,
+        "crew_expense": "1300000.00",
+        "debt_expense": "3715000.00",
+        "expenseLink": "/finance/expense-manager/3776/edit",
         "target": "_blank"
       },
       "profit": 1185000

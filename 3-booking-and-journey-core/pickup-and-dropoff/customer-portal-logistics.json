@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-booking/customer-portal-logistics-v1",
-  "generated_at": "2026-08-20T06:47:53.598Z",
+  "generated_at": "2026-08-21T02:15:50.262Z",
   "privacy": "Logistics values are operational booking fields. Customer identity and portal access slugs are excluded.",
-  "record_count": 136,
+  "record_count": 137,
   "records": [
     {
       "booking_id": 1566,
@@ -372,8 +372,8 @@
       "travel_date_end": "2026-09-17",
       "total_pax": 2,
       "logistics": {
-        "pickup": "  ",
-        "pickup_time": null,
+        "pickup": "Surabaya Train Station (Logawa 248C)",
+        "pickup_time": "14:00:00",
         "drop": "Ubud",
         "drop_time": "15:00:00",
         "special_requirements_present": false
@@ -1182,8 +1182,8 @@
       "travel_date_end": "2026-09-05",
       "total_pax": 2,
       "logistics": {
-        "pickup": "  ",
-        "pickup_time": null,
+        "pickup": "Surabaya Hotel  Le Royal Benson Apartment at Supermal Pakuwon",
+        "pickup_time": "10:00:00",
         "drop": "Bali Hotel  Padangbai",
         "drop_time": "17:00:00",
         "special_requirements_present": false
@@ -2037,9 +2037,24 @@
       "travel_date_end": "2026-09-22",
       "total_pax": 2,
       "logistics": {
-        "pickup": "",
-        "pickup_time": null,
-        "drop": "Surabaya airport - QZ326",
+        "pickup": "Surabaya Airport Terminal 2 SQ922",
+        "pickup_time": "09:10:00",
+        "drop": "Surabaya Airport Terminal 2 QZ326",
+        "drop_time": "17:45:00",
+        "special_requirements_present": false
+      }
+    },
+    {
+      "booking_id": 3776,
+      "booking_ref": "JVTO-3776",
+      "status": "booked",
+      "travel_date_start": "2026-09-02",
+      "travel_date_end": "2026-09-04",
+      "total_pax": 2,
+      "logistics": {
+        "pickup": "Surabaya Train Station Gubeng Station Sancaka 84",
+        "pickup_time": "10:45:00",
+        "drop": "",
         "drop_time": null,
         "special_requirements_present": false
       }

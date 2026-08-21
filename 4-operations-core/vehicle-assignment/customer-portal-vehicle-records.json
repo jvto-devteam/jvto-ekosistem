@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto-operations/customer-portal-vehicle-records-v1",
-  "generated_at": "2026-08-20T06:47:53.604Z",
-  "record_count": 136,
+  "generated_at": "2026-08-21T02:15:50.267Z",
+  "record_count": 137,
   "records": [
     {
       "booking_id": 1566,
@@ -1908,6 +1908,20 @@
     {
       "booking_id": 3774,
       "booking_ref": "JVTO-3774",
+      "package_name": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+      "total_pax": 2,
+      "vehicles": [
+        {
+          "name": "MPV",
+          "capacity": "1 - 3 pax",
+          "banner_present": true,
+          "interior_image_count": 7
+        }
+      ]
+    },
+    {
+      "booking_id": 3776,
+      "booking_ref": "JVTO-3776",
       "package_name": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
       "total_pax": 2,
       "vehicles": [

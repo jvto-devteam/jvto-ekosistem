@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-operations/customer-portal-crew-records-v1",
-  "generated_at": "2026-08-20T06:47:53.603Z",
+  "generated_at": "2026-08-21T02:15:50.266Z",
   "privacy": "Crew names and public-facing roles/photos-present flags are retained; crew phone numbers are not present in the source portal payload and are not stored.",
-  "record_count": 136,
+  "record_count": 137,
   "records": [
     {
       "booking_id": 1566,
@@ -1135,14 +1135,7 @@
             "photo_present": true
           }
         ],
-        "drivers": [
-          {
-            "id": 81,
-            "name": "Romi",
-            "role": "Driver",
-            "photo_present": true
-          }
-        ]
+        "drivers": []
       }
     },
     {
@@ -1761,8 +1754,8 @@
         ],
         "drivers": [
           {
-            "id": 83,
-            "name": "Toriq",
+            "id": 81,
+            "name": "Romi",
             "role": "Driver",
             "photo_present": true
           }
@@ -2201,6 +2194,16 @@
       "booking_ref": "JVTO-3774",
       "package_name": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
       "travel_date_start": "2026-09-20",
+      "crews": {
+        "guides": [],
+        "drivers": []
+      }
+    },
+    {
+      "booking_id": 3776,
+      "booking_ref": "JVTO-3776",
+      "package_name": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+      "travel_date_start": "2026-09-02",
       "crews": {
         "guides": [],
         "drivers": []
