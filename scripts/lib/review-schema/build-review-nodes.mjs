@@ -88,10 +88,32 @@ export function buildHubReviewNodes(reviews, { baseUrl = BASE_URL } = {}) {
     },
     reviewBody: review.review,
     datePublished: review.date,
-    ...(review.url || review.urlReference ? { url: review.url || review.urlReference } : {}),
+    ...(publicReviewUrl(review) ? { url: publicReviewUrl(review) } : {}),
     itemReviewed: { "@id": ORG_ID },
     publisher: platformPublisherNode(review.platform, pageUrl),
   }));
+}
+
+/**
+ * The review's URL, but only when a stranger can actually open it.
+ *
+ * 152 of the 217 records carry a business.google.com/n/<account>/reviews/<id>
+ * link. That is the merchant console: it 302s to a Google Business support
+ * article for anyone who is not signed in as the account owner. Publishing it
+ * as a Review node's `url` claims "here is the source, go check" while handing
+ * the reader a door they cannot open — worse for trust than publishing no link
+ * at all, because it looks like verifiability until you click.
+ *
+ * So merchant-console links are dropped from the emitted schema. The record
+ * keeps them (they identify the review inside the owner's console, and the
+ * daily sync dedupes on urlReference), and `publisher` still attributes the
+ * platform. Restore the field the moment a public permalink exists.
+ */
+function publicReviewUrl(review) {
+  const candidate = review.url || review.urlReference || "";
+  if (!/^https?:\/\//i.test(candidate)) return null;
+  if (candidate.includes("business.google.com")) return null;
+  return candidate;
 }
 
 function packageUrlFor(slug, { baseUrl = BASE_URL } = {}) {

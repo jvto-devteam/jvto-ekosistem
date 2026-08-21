@@ -67,7 +67,15 @@ const noStarReview = { ...trustpilotReview, id: 997, star: null };
   });
   assert.equal(google.reviewBody, googleReview.review);
   assert.equal(google.datePublished, "2026-07-12");
-  assert.equal(google.url, googleReview.url, "url must win over urlReference when both are present");
+  // A merchant-console link must never be emitted as the review's source: it
+  // 302s to a Google support article for anyone who is not the account owner,
+  // so publishing it claims verifiability the reader cannot exercise. The
+  // record keeps the link; the schema does not carry it.
+  assert.equal(
+    "url" in google,
+    false,
+    "business.google.com console links must be omitted from the emitted node",
+  );
   assert.deepEqual(google.itemReviewed, { "@id": ORG_ID });
   assert.equal(google.publisher["@type"], "Organization");
   assert.equal(google.publisher.name, "Google");
