@@ -1,12 +1,12 @@
 {
-  "_comment": "Flat content blob (no route/page) for the shared TourRequirements component, rendered inline on tour package detail pages (/tours/from-bali/[slug], /tours/from-surabaya/[slug]) whenever pkg.route includes \"Ijen Crater\". Read directly via src/lib/ecosystemContent/ijenCraterRequirements.ts — same local-read + HTTP-fallback convention as review-platforms.json / trust-claims.json in this directory. This was the last 100%-hardcoded editorial fragment in jvto-web with no prior live source; content below was copied verbatim from src/components/website/TourRequirements.tsx during migration (2026-08-19) and has no separate historical source-of-truth to cross-check against.",
+  "_comment": "Flat content blob (no route/page) for the shared TourRequirements component, rendered inline on tour package detail pages (/tours/from-bali/[slug], /tours/from-surabaya/[slug]) whenever pkg.route includes \"Ijen Crater\". Read directly via src/lib/ecosystemContent/ijenCraterRequirements.ts — same local-read + HTTP-fallback convention as review-platforms.json / trust-claims.json in this directory. This was the last 100%-hardcoded editorial fragment in jvto-web with no prior live source; content below was copied verbatim from src/components/website/TourRequirements.tsx during migration (2026-08-19) and has no separate historical source-of-truth to cross-check against. | 2026-08-21: added pageContent.authoritySource — the Ministry of Forestry portal that actually states the health-certificate rule, including the 3-day validity window the site had never published, and the current ticket URL. The previously cited tiket.bbksdajatim.org is dead.",
   "sourceComponent": "src/components/website/TourRequirements.tsx",
-  "lastReviewed": "2026-08-19",
+  "lastReviewed": "2026-08-21",
   "owner": "operations",
   "reviewStatus": "migrated-from-jvto-web-inline-hardcode",
   "pageContent": {
     "heading": "Mandatory Requirements: Ijen Crater Tour",
-    "intro": "To ensure safety and compliance with 2024/2025 BKSDA regulations, please review the requirements below.",
+    "intro": "To ensure safety and compliance with the access rules published by the Ministry of Forestry for TWA Kawah Ijen, please review the requirements below.",
     "tableHeaders": {
       "attribute": "Attribute (Category)",
       "value": "Value (Requirement)"
@@ -15,7 +15,7 @@
       {
         "category": "Entry Document",
         "valueStrong": "Health Certificate (Surat Sehat)",
-        "note": "Must state \"Fit for hiking/physical activity\". Provided by JVTO."
+        "note": "Must state \"Fit for hiking/physical activity\" and be issued no more than 3 days before the visit date. Provided by JVTO."
       },
       {
         "category": "Safety Gear",
@@ -38,21 +38,55 @@
       {
         "question": "Do I really need a health certificate for Ijen?",
         "answerSegments": [
-          { "text": "Yes, it is " },
-          { "text": "absolutely mandatory", "strong": true },
-          { "text": ". You cannot purchase an entrance ticket without showing a valid health certificate obtained from a clinic or hospital on the " },
-          { "text": "same day of the hike", "strong": true },
-          { "text": "." }
+          {
+            "text": "Yes, it is "
+          },
+          {
+            "text": "absolutely mandatory",
+            "strong": true
+          },
+          {
+            "text": ". You cannot purchase an entrance ticket without showing a valid health certificate obtained from a clinic or hospital on the "
+          },
+          {
+            "text": "same day of the hike",
+            "strong": true
+          },
+          {
+            "text": "."
+          }
         ]
       },
       {
         "question": "Can children hike Ijen Crater?",
         "answerSegments": [
-          { "text": "No. Children under " },
-          { "text": "10 years old", "strong": true },
-          { "text": " are strictly prohibited by BKSDA regulations due to safety concerns, especially related to sulfur gas exposure." }
+          {
+            "text": "No. Children under "
+          },
+          {
+            "text": "10 years old",
+            "strong": true
+          },
+          {
+            "text": " are strictly prohibited by BKSDA regulations due to safety concerns, especially related to sulfur gas exposure."
+          }
         ]
       }
-    ]
+    ],
+    "authoritySource": {
+      "name": "Ayo ke Taman Nasional — TWA Kawah Ijen (Ministry of Forestry)",
+      "url": "https://ayoketamannasional.kehutanan.go.id/en/taman-wisata-alam/kawah-ijen",
+      "ticketUrl": "https://ayoketamannasional.kehutanan.go.id/en/pesan-tiket/kawah-ijen",
+      "verifiedOn": "2026-08-21",
+      "statedRequirements": [
+        "Visitors must be in good physical and mental condition.",
+        "Visitors are required to bring and show a valid health certificate issued no more than 3 days before the visit date.",
+        "Visitors with a history of heart disease, asthma, respiratory infections, or breathing disorders are not recommended to hike.",
+        "Please ensure booking data matches official identification documents (ID Card/Passport).",
+        "Visitors are required to use personal safety equipment such as anti-slip shoes, warm jackets, and masks."
+      ],
+      "ticketPolicy": "Purchased tickets are non-cancelable, non-reschedulable, and non-refundable under any circumstances.",
+      "note": "Quoted verbatim from the official portal's Hiking Requirements and Ticket Policy panels. This is the authority for the health-certificate requirement: SE.1658/K2/BIDTEK.1/KSA/9/2024 reopens the crater and names 'protokol kesehatan yang berlaku' but does not state the certificate rule itself. Supersedes tiket.bbksdajatim.org, which no longer resolves."
+    }
   }
 }

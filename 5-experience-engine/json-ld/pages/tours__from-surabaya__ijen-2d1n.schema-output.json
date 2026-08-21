@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T03:22:38.893Z",
+  "generated_at": "2026-08-21T04:47:40.005Z",
   "route": "/tours/from-surabaya/ijen-2d1n",
   "domain": "tours",
   "slug": "from-surabaya/ijen-2d1n",
@@ -324,7 +324,7 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-21T03:22:38.893Z",
+    "generated_at": "2026-08-21T04:47:40.005Z",
     "source_files": [
       "2-product-and-commercial-core/tour-products/tours__from-surabaya__ijen-2d1n.product-contract.json"
     ],

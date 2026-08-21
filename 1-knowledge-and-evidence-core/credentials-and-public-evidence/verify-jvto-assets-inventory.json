@@ -179,7 +179,7 @@
       "geo_narrative": "Direct link to the official booking portal for TWA Kawah Ijen, confirming the mandatory health requirements for climbers as stipulated by BBKSDA East Java.",
       "narrative": "Screenshot of the official terms and conditions from the BBKSDA ticket site, showing the requirement for a doctor's health certificate.",
       "identifiers": {
-        "registry_url": "https://tiket.bbksdajatim.org"
+        "registry_url": "https://ayoketamannasional.kehutanan.go.id/en/pesan-tiket/kawah-ijen"
       },
       "evidence_asset_slugs": [
         "bbksda-ticket-terms-screenshot"
@@ -830,7 +830,7 @@
       "caption": "BBKSDA East Java Circular Letter — Opening of TWA Kawah Ijen (SE.1658/K2/BIDTEK.1/KSA/9/2024)",
       "category": "Screening",
       "slug": "bbksda-surat-edaran-se-1658-ksa-9-2024",
-      "geo_context": "Circular letter states TWA Kawah Ijen reopened for nature tourism, hiking and research starting 8 Sept 2024 and ticket booking is done online via www.tiket.bbksdajatim.org.",
+      "geo_context": "Circular letter states TWA Kawah Ijen reopened for nature tourism, hiking and research starting 8 Sept 2024 and ticket booking was then done via www.tiket.bbksdajatim.org; booking has since moved to the Ministry of Forestry portal at ayoketamannasional.kehutanan.go.id (verified 2026-08-21, the old domain no longer resolves).",
       "sha256": "86f9c225cff91a9ae04332d469a17c70264c4be681572822601096c86ab4148a",
       "size_bytes": 296594,
       "size_mb": 0.296594,
@@ -841,7 +841,7 @@
       "is_show": true,
       "preview": "/screening/bbksda/bbksda-ticket-terms-screenshot.jpeg",
       "file_url": "https://javavolcano-touroperator.com/screening/bbksda/bbksda-ticket-terms-screenshot.jpeg",
-      "caption": "tiket.bbksdajatim.org — Terms & Conditions (screenshot): health requirements and doctor certificate",
+      "caption": "Crater access terms (screenshot, tiket.bbksdajatim.org): health requirements and doctor certificate. That portal is retired; the current authority is ayoketamannasional.kehutanan.go.id",
       "category": "Screening",
       "slug": "bbksda-ticket-terms-screenshot",
       "geo_context": "Mobile screenshot showing 'Syarat dan Ketentuan' on tiket.bbksdajatim.org. Shows requirement that visitors are healthy (physical & mental), have no history of respiratory disease (ISPA, asthma) and heart disease, and must show a doctor's health certificate.",

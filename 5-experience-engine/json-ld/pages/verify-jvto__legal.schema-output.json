@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T03:22:38.754Z",
+  "generated_at": "2026-08-21T04:47:39.924Z",
   "route": "/verify-jvto/legal",
   "domain": "verify-jvto",
   "slug": "legal",
@@ -74,7 +74,7 @@
               "@type": "GovernmentOrganization",
               "name": "Balai Besar KSDA Jawa Timur (BBKSDA Jawa Timur)",
               "sameAs": [
-                "https://bbksdajatim.org/"
+                "https://ayoketamannasional.kehutanan.go.id/en/taman-wisata-alam/kawah-ijen"
               ]
             },
             "description": "Ijen volcano guide association; members receive annual BBKSDA safety training on volcanic gas protocols."

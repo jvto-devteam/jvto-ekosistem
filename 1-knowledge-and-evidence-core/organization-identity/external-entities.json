@@ -180,7 +180,7 @@
       "schemaType": "GovernmentOrganization",
       "id": "https://javavolcano-touroperator.com/entity/#org-bbksda-jatim",
       "sameAs": [
-        "https://bbksdajatim.org/"
+        "https://ayoketamannasional.kehutanan.go.id/en/taman-wisata-alam/kawah-ijen"
       ],
       "role": [
         "regulator",
@@ -188,7 +188,7 @@
       ],
       "definedOn": "/verify-jvto/legal",
       "evidenceStatus": "verified",
-      "sourceNote": "Regulator of TWA Ijen and issuer of SE.1658/K2/BIDTEK.1/KSA/9/2024, the regulation behind the mandatory health screening. It existed only as a fragment of the string 'HPWKI — supervised by BBKSDA Jawa Timur' and had no node of its own, despite being JVTO's most load-bearing authority asset. No sameAs in the repo yet. Defined on /verify-jvto/legal rather than the health-screening page: it is reached only through HPWKI's regulator relation, and defining it on a page that never names it left a dangling @id. No Wikidata entry found for this regional conservation unit as of 2026-08-19 (a technical implementation unit under Ditjen KSDAE, not independently notable) — left unassigned rather than guessed. Official site verified live, matches URL already used elsewhere in this repo (buildVerifySchemas.ts references).",
+      "sourceNote": "Regulator of TWA Ijen and issuer of SE.1658/K2/BIDTEK.1/KSA/9/2024, the regulation behind the mandatory health screening. It existed only as a fragment of the string 'HPWKI — supervised by BBKSDA Jawa Timur' and had no node of its own, despite being JVTO's most load-bearing authority asset. No sameAs in the repo yet. Defined on /verify-jvto/legal rather than the health-screening page: it is reached only through HPWKI's regulator relation, and defining it on a page that never names it left a dangling @id. No Wikidata entry found for this regional conservation unit as of 2026-08-19 (a technical implementation unit under Ditjen KSDAE, not independently notable) — left unassigned rather than guessed. Official site verified live, matches URL already used elsewhere in this repo (buildVerifySchemas.ts references). Updated 2026-08-21: the previously listed https://bbksdajatim.org no longer resolves (nor does tiket.bbksdajatim.org, the ticket portal the 2024 circular names), while an unrelated control URL returns 200 — so the failure is real, not a bot block. Replaced with the Ministry of Forestry's TWA Kawah Ijen page, which is live and is where the crater access rules and ticketing now sit.",
       "description": "Indonesian Ministry of Environment body responsible for Ijen Crater nature reserve management."
     },
     {
