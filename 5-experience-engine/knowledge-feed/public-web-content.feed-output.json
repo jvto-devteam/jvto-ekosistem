@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/knowledge-feed/v1",
   "output_type": "public_web_content_feed",
-  "generated_at": "2026-08-21T02:35:59.111Z",
+  "generated_at": "2026-08-21T02:59:51.042Z",
   "record_count": 52,
   "records": [
     {
@@ -63,7 +63,7 @@
       "summary": "Everything you need to know before hiking Kawah Ijen — blue fire timing, health requirements, safety zones, and what to expect from a police-led private tour.",
       "status": "published",
       "owner": "content",
-      "lastReviewed": "2026-06-11",
+      "lastReviewed": "2026-08-21",
       "outputTargets": [],
       "sourceFiles": [
         "src/data/blog/2026-06-11-kawah-ijen-guide.md (jvto-web, pre-migration)"
