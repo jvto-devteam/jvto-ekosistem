@@ -14,17 +14,27 @@
  * ambiguity: if a machine re-checks weekly and writes the date it ran, the
  * date means something again.
  *
+ * Covers two sets: credentials that publish a documentUrl + sha256, and every
+ * entry in the assets inventory. The inventory was NOT covered by the first
+ * version, which still stamped all 44 entries — a date asserting a check that
+ * never ran. Thirteen of them turned out to hold hashes that no longer matched
+ * their file.
+ *
  * What "verified" means here, stated plainly so the date is not overclaimed:
- * the bytes served at documentUrl still hash to the value published beside it.
+ * the bytes served still hash to the value published beside them.
  * That proves the file has not been swapped or altered since it was recorded.
  * It does NOT prove the NIB is still active, the SIP still valid, or the SPRIN
  * still in force — those are registry questions no hash can answer.
  *
- *   node scripts/verify-evidence-hashes.mjs           # check only
- *   node scripts/verify-evidence-hashes.mjs --write   # check and stamp dates
+ *   node scripts/verify-evidence-hashes.mjs             # check only
+ *   node scripts/verify-evidence-hashes.mjs --write     # stamp what verified
+ *   node scripts/verify-evidence-hashes.mjs --write --restamp
+ *       also records current hashes for inventory files that changed. Use only
+ *       after confirming the change was legitimate — a mismatch can equally
+ *       mean a document was altered.
  */
 import { createHash } from "node:crypto";
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 
@@ -32,6 +42,8 @@ const ROOT = process.cwd();
 const WEB_PUBLIC = path.resolve(ROOT, "..", "jvto-web", "public");
 const SITE = "https://javavolcano-touroperator.com";
 const WRITE = process.argv.includes("--write");
+// Records current hashes for inventory entries whose file legitimately changed.
+const RESTAMP = process.argv.includes("--restamp");
 const TODAY = new Date().toISOString().slice(0, 10);
 
 const INVENTORY =
@@ -69,9 +81,35 @@ async function hashLocal(relative) {
   }
 }
 
+/**
+ * Fall back to hashing what the site actually serves.
+ *
+ * Some evidence lives only on the server — the KTA card scans under /uploads/
+ * are served 200 but are not committed to jvto-web. Without this they came back
+ * "unresolved" and silently kept whatever date they already had, which is the
+ * same overclaiming this script exists to stop, just quieter. Hashing the served
+ * bytes is also the stronger check: it is what a reader downloads.
+ */
+async function hashServed(relative) {
+  try {
+    const response = await fetch(`${SITE}/${relative}`, { redirect: "follow" });
+    if (!response.ok) return null;
+    const buf = Buffer.from(await response.arrayBuffer());
+    return createHash("sha256").update(buf).digest("hex");
+  } catch {
+    return null;
+  }
+}
+
+/** Local first (fast, offline-capable), then the live URL. */
+async function hashAsset(relative) {
+  return (await hashLocal(relative)) ?? (await hashServed(relative));
+}
+
 async function main() {
   let ok = 0;
   const mismatched = [];
+  const assetMismatches = [];
   const unreachable = [];
 
   for (const source of CREDENTIAL_SOURCES) {
@@ -107,6 +145,59 @@ async function main() {
     process.exit(1);
   }
 
+  // ── assets_inventory ────────────────────────────────────────────────────
+  // Checked separately because these entries carry `filename` + `preview`
+  // rather than a documentUrl. They were NOT verified by the first version of
+  // this script, which still stamped all 44 of them — a date asserting a check
+  // that never ran, which is the exact failure this script exists to prevent.
+  // Two files (the surat sehat specimen and its preview) had been replaced
+  // since the inventory was written and their recorded hashes were stale.
+  const inventoryPath = path.join(ROOT, INVENTORY);
+  let inventory = null;
+  const assetResults = new Map(); // filename -> "ok" | "mismatch" | "missing"
+  try {
+    inventory = JSON.parse(await readFile(inventoryPath, "utf8"));
+  } catch (error) {
+    console.error(`Could not read the inventory: ${error.message}`);
+    process.exit(1);
+  }
+
+  for (const asset of inventory.assets_inventory ?? []) {
+    if (!asset.sha256) continue;
+    const relative = String(asset.preview ?? "").replace(/^\/+/, "");
+    if (!relative) {
+      assetResults.set(asset.filename, "missing");
+      continue;
+    }
+    const actual = await hashAsset(relative);
+    if (actual === null) {
+      assetResults.set(asset.filename, "missing");
+    } else if (actual.toLowerCase() === String(asset.sha256).toLowerCase()) {
+      assetResults.set(asset.filename, "ok");
+    } else {
+      assetResults.set(asset.filename, "mismatch");
+      assetMismatches.push(
+        `${asset.filename}\n      recorded ${String(asset.sha256).toLowerCase()}\n      actual   ${actual}`,
+      );
+    }
+  }
+
+  const assetOk = [...assetResults.values()].filter((v) => v === "ok").length;
+  const assetMissing = [...assetResults.values()].filter((v) => v === "missing").length;
+  console.log(`  inventory verified   : ${assetOk}`);
+  console.log(`  inventory mismatched : ${assetMismatches.length}`);
+  console.log(`  inventory unresolved : ${assetMissing}`);
+  for (const failure of assetMismatches) console.error(`    ! ${failure}`);
+
+  if (assetMismatches.length && !RESTAMP) {
+    console.error(
+      "\nInventory hashes do not match the files on disk. Re-run with --restamp to\n" +
+      "record the current hashes, but only after confirming the files changed for a\n" +
+      "legitimate reason — a mismatch can also mean a document was altered.",
+    );
+    process.exit(1);
+  }
+
   if (!WRITE) {
     console.log("\n(dry run — pass --write to stamp last_verified_iso)");
     return;
@@ -114,20 +205,43 @@ async function main() {
 
   // Only reached when every document still hashes to its published value, so
   // stamping the date asserts something that was actually re-established.
-  const inventoryPath = path.join(ROOT, INVENTORY);
   try {
-    const raw = await readFile(inventoryPath, "utf8");
-    const inventory = JSON.parse(raw);
     let stamped = 0;
+    let restamped = 0;
     for (const asset of inventory.assets_inventory ?? []) {
-      if (asset.sha256) {
+      if (!asset.sha256) continue;
+      const result = assetResults.get(asset.filename);
+      if (result === "ok") {
+        // Only a file that actually re-hashed to its recorded value gets a date.
         asset.last_verified_iso = TODAY;
         stamped += 1;
+      } else if (result === "mismatch" && RESTAMP) {
+        const relative = String(asset.preview ?? "").replace(/^\/+/, "");
+        const actual = await hashAsset(relative);
+        if (actual) {
+          asset.sha256 = actual.toUpperCase();
+          try {
+            const { size } = await stat(path.join(WEB_PUBLIC, relative));
+            asset.size_bytes = size;
+            asset.size_mb = Number((size / 1048576).toFixed(6));
+          } catch {
+            // Server-only asset: keep the recorded size rather than guessing.
+          }
+          asset.last_verified_iso = TODAY;
+          restamped += 1;
+        }
+      } else {
+        // Leave the old date alone. An unverified asset must not inherit today's.
+        delete asset.last_hash_verification;
       }
     }
     inventory.last_hash_verification = TODAY;
     await writeFile(inventoryPath, `${JSON.stringify(inventory, null, 2)}\n`, "utf8");
-    console.log(`\nStamped last_verified_iso = ${TODAY} on ${stamped} inventory asset(s).`);
+    console.log(
+      `\nStamped ${stamped} verified asset(s)` +
+        (restamped ? `, recorded new hashes for ${restamped} changed file(s)` : "") +
+        `. Unverified assets keep their previous date.`,
+    );
   } catch (error) {
     console.error(`Could not update the inventory: ${error.message}`);
     process.exit(1);

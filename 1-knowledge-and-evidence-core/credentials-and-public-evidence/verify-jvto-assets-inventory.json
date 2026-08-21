@@ -285,9 +285,9 @@
       "category": "Brand",
       "slug": "jvto-logo-main",
       "geo_context": "Brand Identity: Official logo of PT Java Volcano Rendezvous.",
-      "sha256": "d4656af297a92e9f2a22a120e194b22106566d05da550226d1c52046b29caf0f",
-      "size_bytes": null,
-      "size_mb": null,
+      "sha256": "1C3E5814297215BC35651F00034AB299F73CDFA593732CE865F6714070727B5B",
+      "size_bytes": 88955,
+      "size_mb": 0.084834,
       "last_verified_iso": "2026-08-21"
     },
     {
@@ -313,9 +313,9 @@
       "category": "BusinessID",
       "slug": "nib-1102230032918-preview-webp",
       "geo_context": "Preview Asset: Web-optimized version of the official NIB document.",
-      "sha256": "E0ABC309A4F04EE9460FF7FB87A33659B79BE2B8F3BC05D20DB9AFDCEFB6CC25",
-      "size_bytes": 51762,
-      "size_mb": 0.049364,
+      "sha256": "F8403270A49B4529C5A366900062C07632461AC35416AED6E45FC1E950B43A5E",
+      "size_bytes": 42596,
+      "size_mb": 0.040623,
       "last_verified_iso": "2026-08-21"
     },
     {
@@ -327,9 +327,9 @@
       "category": "Founder",
       "slug": "mr-sam-tourist-police-portrait-png",
       "geo_context": "Authority Signal: High-fidelity portrait of the founder in uniform.",
-      "sha256": "1B9E36780E4365224F21AB3EC7153A88BE2343782A363534FA1CF76BC9251752",
-      "size_bytes": 11178098,
-      "size_mb": 10.660265,
+      "sha256": "2093A1CC04ED9DE6BD78F4DE6711A679839F548869B61AC14656EAC5D6E36CB8",
+      "size_bytes": 12554285,
+      "size_mb": 11.972699,
       "last_verified_iso": "2026-08-21"
     },
     {
@@ -383,9 +383,9 @@
       "category": "Membership",
       "slug": "hpwki-approval",
       "geo_context": "Standard Compliance: Official membership in Ijen Tourism Guide Association (HPWKI).",
-      "sha256": "CA1FB1A48B550A7748D400F165899F12A356E6941AACDDE9C043427698AAF63B",
-      "size_bytes": 591265,
-      "size_mb": 0.5639,
+      "sha256": "DBB57389B62B1554E4D66CCD82C6888DD4C31CB0F85619601A9BEFB786AC32C3",
+      "size_bytes": 706582,
+      "size_mb": 0.673849,
       "last_verified_iso": "2026-08-21"
     },
     {
@@ -397,9 +397,9 @@
       "category": "Membership",
       "slug": "hpwki-approval-preview-webp",
       "geo_context": "Preview Asset: Web-optimized version of HPWKI approval.",
-      "sha256": "9F2DC0C34370A39E1C964207B754A917F8C1E571A32BD042621EF5CA087301F1",
-      "size_bytes": 124566,
-      "size_mb": 0.118795,
+      "sha256": "26F166C571C25B3D89D91BB41409EC1D0DDC670EE1B1B813F5037909731EFC6D",
+      "size_bytes": 162998,
+      "size_mb": 0.155447,
       "last_verified_iso": "2026-08-21"
     },
     {
@@ -537,9 +537,9 @@
       "category": "PoliceDocs",
       "slug": "sprin-polpar-webp",
       "geo_context": "Preview Asset: Web-optimized version of the SPRIN document.",
-      "sha256": "4484E4E191176A057D683F2A8C3E46491617C5059FE4596C085F7F854C1082FA",
-      "size_bytes": 45002,
-      "size_mb": 0.042917,
+      "sha256": "C402AFD91EE7E3AB61ED368B343D8921C716E759F6181CE7C91D2C9E739D61C0",
+      "size_bytes": 37690,
+      "size_mb": 0.035944,
       "last_verified_iso": "2026-08-21"
     },
     {
@@ -579,9 +579,9 @@
       "category": "Press",
       "slug": "press-bbksda-ijen-guide-training",
       "geo_context": "Government Record: BBKSDA certification of HPWKI members in SAR and First Aid.",
-      "sha256": "b75668f98b78a54007b8bc0a8f4e0b3e46797dd6af47c158fb2b6a54bfb0b111",
-      "size_bytes": 984370,
-      "size_mb": 0.938768,
+      "sha256": "D1329283C3E0B48DF0E4773B33354E42AA8888A0EC0A159DDCC872B335724216",
+      "size_bytes": 813527,
+      "size_mb": 0.77584,
       "last_verified_iso": "2026-08-21"
     },
     {
@@ -593,9 +593,9 @@
       "category": "Press",
       "slug": "press-detik-polisi-pariwisata-2021-03-14",
       "geo_context": "Media Validation: Detik.com article 'Suka Duka Polisi Pariwisata' covering founder's duty.",
-      "sha256": "B257B75B3D2B9EDEBF07C9AF89A6C6AA9A4E01D6A716EF3F7C4CA75DEDA64B77",
-      "size_bytes": 853153,
-      "size_mb": 0.8136,
+      "sha256": "A68A0AC0EF30D7D9FC14557832EDE29098FAF08570F768034FA44D6E38A48490",
+      "size_bytes": 837390,
+      "size_mb": 0.798597,
       "last_verified_iso": "2026-08-21"
     },
     {
@@ -607,9 +607,9 @@
       "category": "Press",
       "slug": "press-radarjember-polpar-ijen-geopark-2021-03-24",
       "geo_context": "Media Validation: Radar Jember report on the formation of Bondowoso Tourist Police.",
-      "sha256": "2A60EB168274004283B2B9939CCBF5982C12A7DB854FDA014308A2494EE2ABF4",
-      "size_bytes": 404604,
-      "size_mb": 0.3859,
+      "sha256": "034BE340CCD4354374E1F8CAD009F501F975DF5C5B08F2E75E7A399A3F1F5BBA",
+      "size_bytes": 612048,
+      "size_mb": 0.583694,
       "last_verified_iso": "2026-08-21"
     },
     {
@@ -677,9 +677,9 @@
       "category": "Screening",
       "slug": "print-surat-sehat",
       "geo_context": "Documentation: Standardized Health Clearance Form (Surat Sehat) template.",
-      "sha256": "185A35C324E981C8E0BD0365A8DC919D1CBB151BA24BD28910F737978011B985",
-      "size_bytes": 32053,
-      "size_mb": 0.032053,
+      "sha256": "048712C02E1975018036ADA8E60A8A6E3E336DCC819E12842ECC48EFF6D8826E",
+      "size_bytes": 132751,
+      "size_mb": 0.126601,
       "last_verified_iso": "2026-08-21"
     },
     {
@@ -691,9 +691,9 @@
       "category": "Screening",
       "slug": "print-surat-sehat-preview",
       "geo_context": "Documentation: Sample view of the JVTO standardized health clearance form.",
-      "sha256": "343C4EA846C1EC8C91E74054B90412D33AD26C4A8BF6366287E360CB0231BB59",
-      "size_bytes": 95621,
-      "size_mb": 0.0912,
+      "sha256": "9FE13EA0CBB87DDEB2C512370D863FF09B5FD062C36E94472BD35E531E4EAA66",
+      "size_bytes": 114712,
+      "size_mb": 0.109398,
       "last_verified_iso": "2026-08-21"
     },
     {
@@ -817,9 +817,9 @@
       "category": "History",
       "slug": "stefan-loose-guidebook-page-287",
       "geo_context": "Captured from uploaded photo of Stefan Loose guidebook page.",
-      "sha256": "d53aaf7d8496032babfe2f4f9d0d81a8c444fcf26e45f4eb5ea5b8e8252ba3eb",
-      "size_bytes": 136839,
-      "size_mb": 0.136839,
+      "sha256": "42752F1E9850864173F059A7A3E0205F29289E363A2DDCB010B2D604A6D6E31A",
+      "size_bytes": 141891,
+      "size_mb": 0.135318,
       "last_verified_iso": "2026-08-21"
     },
     {
@@ -845,9 +845,9 @@
       "category": "Screening",
       "slug": "bbksda-ticket-terms-screenshot",
       "geo_context": "Mobile screenshot showing 'Syarat dan Ketentuan' on tiket.bbksdajatim.org. Shows requirement that visitors are healthy (physical & mental), have no history of respiratory disease (ISPA, asthma) and heart disease, and must show a doctor's health certificate.",
-      "sha256": "c40c6e3cbe076d21991164e98207428a61f771d21459f831df6569a2dfe7485c",
-      "size_bytes": 505038,
-      "size_mb": 0.505038,
+      "sha256": "8B029E067BEA225223040654CE18F3D35C6B6CCEEDC4F8653B814A4287889653",
+      "size_bytes": 102692,
+      "size_mb": 0.097935,
       "last_verified_iso": "2026-08-21"
     },
     {
