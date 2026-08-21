@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-20T08:23:19.292Z",
+  "generated_at": "2026-08-21T00:24:29.236Z",
   "route": "/why-jvto",
   "domain": "why-jvto",
   "slug": "index",
@@ -101,7 +101,7 @@
             "heading": "Six differentiators,",
             "heading_accent": "each verifiable.",
             "lede_text": "Not marketing language — every one is backed by a credential you can check. Tap a pillar to see what proves it.",
-            "media_tag": "Ditpamobvit · operational authority",
+            "media_tag": "POLPAR Bondowoso · operational authority",
             "badge_title": "Official Safety Authority",
             "badge_sub": "Active Tourist Police officer",
             "blocks": [
@@ -118,7 +118,7 @@
                     "key": "police-led",
                     "label": "Police-led",
                     "title": "Police-Led Safety Authority",
-                    "text": "Our founder is an active officer in Ditpamobvit — the directorate securing vital objects including Ijen Crater. No other East Java operator is led by an active Tourist Police officer.",
+                    "text": "Our founder is an active Tourist Police (POLPAR) officer for Bondowoso, the regency that holds the Kawah Ijen access route. No other East Java operator is led by an active Tourist Police officer.",
                     "cred": "Proof · SPRIN documents + independent press"
                   },
                   {
@@ -139,8 +139,8 @@
                     "key": "screening",
                     "label": "Ijen screening",
                     "title": "Ijen Health-Screening",
-                    "text": "Mandatory for every guest under BBKSDA SE.1658/KSA.9/2024 — we coordinate a BSrE-signed surat sehat through an SIP-licensed doctor, checked at the crater gate.",
-                    "cred": "Proof · BBKSDA SE.1658/KSA.9/2024"
+                    "text": "Mandatory for every guest under BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024 — we coordinate a BSrE-signed surat sehat through an SIP-licensed doctor, checked at the crater gate.",
+                    "cred": "Proof · BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024"
                   },
                   {
                     "key": "licenses",

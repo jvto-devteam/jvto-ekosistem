@@ -31,7 +31,20 @@
     },
     {
       "type": "AHU",
-      "value": "AHU-0023020"
+      "value": "AHU-0010187.AH.01.01.TAHUN 2023",
+      "dateIssued": "2023-02-08",
+      "description": "Menkumham decree approving the legal entity PT Java Volcano Rendezvous, read verbatim from legal/AHU-PTJVR.pdf. Replaces 'AHU-0023020' (corrected 2026-08-21): that string was never an AHU number — it was a truncated fragment of the SABH registration number 4023020635102174 printed in the same decree, first committed as literal 'AHU-0023020...' with the note 'Truncated in source dataset; replace with full AHU number if available'. The ellipsis and the note were dropped later, promoting the fragment to look like an identifier."
+    },
+    {
+      "type": "AHU (Daftar Perseroan)",
+      "value": "AHU-0026835.AH.01.11.TAHUN 2023",
+      "dateIssued": "2023-02-08",
+      "description": "Company-register entry recorded on the same decree."
+    },
+    {
+      "type": "SABH Registration Number",
+      "value": "4023020635102174",
+      "description": "Nomor Pendaftaran in the decree; also the kode parameter of the ahu.go.id verification QR."
     }
   ],
   "logo": "https://javavolcano-touroperator.com/assets/img/jvto-color.png",
@@ -63,14 +76,46 @@
       "sha256": "27252d512ddfa74de22a3e3ec10aa3dd40ef88da3eb57349fcd2137411551ee3",
       "documentUrl": "https://javavolcano-touroperator.com/legal/TDUP-1102230032918.pdf",
       "credentialCategory": "Indonesian Tourism Business Licence",
-      "recognizedBy": "Kementerian Pariwisata dan Ekonomi Kreatif"
+      "recognizedBy": "Kementerian Pariwisata dan Ekonomi Kreatif",
+      "_comment": "The TDUP carries the same number as the NIB because Indonesia's OSS system issues the sectoral tourism licence against the business's NIB — this is normal OSS behaviour, not a duplicated identifier. Noted 2026-08-21 so the two credentials sharing a number does not read as an error."
     },
     {
-      "name": "HPWKI Membership (Himpunan Pelaku Wisata Khusus Ijen)",
+      "name": "HPWKI — Supervisory Board member (Pengawas · Anggota), held by founder Agung Sambuko",
       "sha256": "ca1fb1a48b550a7748d400f165899f12a356e6941aacdde9c043427698aaf63b",
       "documentUrl": "https://javavolcano-touroperator.com/legal/HPWKI-approval.pdf",
-      "credentialCategory": "Volcanic Tourism Association — BBKSDA supervised",
-      "recognizedBy": "HPWKI — supervised by BBKSDA Jawa Timur"
+      "credentialCategory": "Himpunan Pelaku Wisata Khusus Ijen — Ijen special-tourism association, supervised by BBKSDA Jawa Timur",
+      "recognizedBy": "Kementerian Hukum dan HAM RI",
+      "_comment": "Corrected 2026-08-21 against the document itself. The PDF is Menkumham decree AHU-0001072.AH.01.07.TAHUN 2024 establishing HPWKI as a legal entity; its annex lists AGUNG SAMBUKO as PENGAWAS · ANGGOTA (supervisory board member). So the credential is a named position held by the founder, not a corporate membership held by PT Java Volcano Rendezvous, and AHU-0001072 is HPWKI's own legal-entity number, not a JVTO membership number. A supervisory seat outranks 'member', so stating it accurately is stronger, not weaker."
+    },
+    {
+      "name": "Menkumham decree — legal entity approval, PT Java Volcano Rendezvous",
+      "identifierValue": "AHU-0010187.AH.01.01.TAHUN 2023",
+      "dateIssued": "2023-02-08",
+      "sha256": "957312ca258206b36cd2594546964029f1d5ffc442e855976a125ca0f3a659bd",
+      "documentUrl": "https://javavolcano-touroperator.com/legal/AHU-PTJVR.pdf",
+      "credentialCategory": "Indonesian legal-entity establishment decree",
+      "recognizedBy": "Kementerian Hukum dan HAM RI",
+      "_comment": "Added 2026-08-21. The document was already public and hashed in the manifest but had never been declared as a credential, so the strongest corporate document JVTO holds was absent from the proof surface."
+    },
+    {
+      "name": "Surat Izin Praktik (SIP) — dr. Ahmad Irwandanu, Ijen pre-ascent screening physician",
+      "identifierValue": "503.446/664/DRU/4/430.9.13/2026",
+      "dateIssued": "2026-01-06",
+      "sha256": "82f2535b87066fef23cf3012ed3bc1cb18c124e03045ab544067e51d78ac80aa",
+      "documentUrl": "https://javavolcano-touroperator.com/screening/SIP_DOKTER_AHMAD_IRWANDANU_2026.pdf",
+      "credentialCategory": "Indonesian medical practice licence (Permenkes 2052/Menkes/Per/X/2011)",
+      "recognizedBy": "DPMPTSP dan Tenaga Kerja Kabupaten Bondowoso",
+      "_comment": "Added 2026-08-21. Licence of the physician who signs the Ijen health certificates; STR QN00001073380217 valid to 2031-01-06, electronically signed via BSrE. Live and public since before this date but never declared."
+    },
+    {
+      "name": "BBKSDA Jawa Timur circular — TWA Kawah Ijen access regime",
+      "identifierValue": "SE.1658/K2/BIDTEK.1/KSA/9/2024",
+      "dateIssued": "2024-09-06",
+      "sha256": "86f9c225cff91a9ae04332d469a17c70264c4be681572822601096c86ab4148a",
+      "documentUrl": "https://javavolcano-touroperator.com/screening/bbksda/05012024_Edaran_Pembukaan_TWA_Kawah_Ijen.pdf",
+      "credentialCategory": "Conservation-authority circular — regulates access to the Ijen crater area; not a permit issued to JVTO",
+      "recognizedBy": "BBKSDA Jawa Timur",
+      "_comment": "Added 2026-08-21 with the full circular number. The number published until now, 'SE.1658/K2/BIDTEK.1/KSA/9/2024', was missing the K2/BIDTEK.1 segment and could not be matched against the document. Scope note: this circular reopens TWA Kawah Ijen from 2024-09-08 and names basic climbing safety gear plus 'protokol kesehatan yang berlaku'; it does not itself state the health-certificate requirement. The document establishing that requirement is being supplied separately by the owner and will be published and hashed here."
     }
   ],
   "award": [

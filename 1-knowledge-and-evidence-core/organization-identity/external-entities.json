@@ -1,275 +1,318 @@
 {
-    "schema_version": "jvto/source/external-entities/v1",
-    "lastReviewed": "2026-08-16",
-    "owner": "knowledge",
-    "idBase": "https://javavolcano-touroperator.com/entity",
-    "note": "Registry of third-party organizations JVTO refers to. The @id base is the JVTO domain on purpose: the @id identifies *JVTO's reference to* the entity, not the entity itself. Ownership is asserted through sameAs. Never add a sameAs URL without verifying it — leave it empty and mark evidenceStatus 'candidate' instead. A node with an @id and no sameAs is still far better than an anonymous node, because the @id is what consolidates the entity across pages. A description field was added 2026-08-19 for records where jvto-web externalEntities.ts had one (hpwki, bbksda-jatim) — leave absent elsewhere rather than fabricating.",
-    "records": [
-        {
-            "key": "hpwki",
-            "canonicalName": "Himpunan Pelaku Wisata Khusus Ijen (HPWKI)",
-            "aliases": [
-                "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)",
-                "HPWKI — supervised by BBKSDA Jawa Timur",
-                "HPWKI"
-            ],
-            "schemaType": "Organization",
-            "id": "https://javavolcano-touroperator.com/entity/#org-hpwki",
-            "sameAs": [
-                "https://ahu.go.id/sabh/perkumpulan/qrcode/?kode=NjAyNDAxMjczNTEwMTM2MV8wXzA3IEZlYnJ1YXJpIDIwMjRfMjcgSmFudWFyeSAyMDI0"
-            ],
-            "role": [
-                "memberOf",
-                "credentialIssuer"
-            ],
-            "regulator": "bbksda-jatim",
-            "definedOn": "/verify-jvto/legal",
-            "evidenceStatus": "verified",
-            "sourceNote": "AHU registration QR verified in organization.json memberOf. Previously emitted under two different names — 'HPWKI (Himpunan Pelaku Wisata Khusus Ijen)' in memberOf and 'HPWKI — supervised by BBKSDA Jawa Timur' in recognizedBy — which fragmented one organisation into two anonymous nodes. The supervision fact is now a relation to #org-bbksda-jatim, not part of the name.",
-            "description": "Ijen volcano guide association supervised by BBKSDA Jawa Timur (Ministry of Environment). Members receive annual training on volcanic gas protocols and evacuation procedures."
-        },
-        {
-            "key": "indecon",
-            "canonicalName": "Indonesian Ecotourism Network (INDECON)",
-            "aliases": [
-                "INDECON (Indonesian Ecotourism Network)",
-                "INDECON"
-            ],
-            "schemaType": "Organization",
-            "id": "https://javavolcano-touroperator.com/entity/#org-indecon",
-            "sameAs": [
-                "https://www.indecon.id/spotlight-networks/java-volcano-tour-operator"
-            ],
-            "role": [
-                "memberOf"
-            ],
-            "definedOn": "/verify-jvto/legal",
-            "evidenceStatus": "verified",
-            "sourceNote": "Listing page verified in organization.json memberOf. Network membership, not a licence."
-        },
-        {
-            "key": "isic",
-            "canonicalName": "International Student Identity Card (ISIC)",
-            "aliases": [
-                "ISIC (International Student Identity Card)",
-                "ISIC"
-            ],
-            "schemaType": "Organization",
-            "id": "https://javavolcano-touroperator.com/entity/#org-isic",
-            "sameAs": [
-                "https://www.isic.org/discounts/?providerId=259268"
-            ],
-            "role": [
-                "memberOf"
-            ],
-            "definedOn": "/verify-jvto/legal",
-            "evidenceStatus": "verified",
-            "sourceNote": "Registered provider ID 259268, verified in organization.json memberOf."
-        },
-        {
-            "key": "detikcom",
-            "canonicalName": "Detik.com",
-            "aliases": [
-                "Detik.com",
-                "detik.com",
-                "Detikcom"
-            ],
-            "schemaType": "Organization",
-            "id": "https://javavolcano-touroperator.com/entity/#org-detikcom",
-            "sameAs": [
-                "https://www.wikidata.org/wiki/Q12481355",
-                "https://www.detik.com/"
-            ],
-            "role": [
-                "publisher"
-            ],
-            "definedOn": "/verify-jvto/press-recognition",
-            "evidenceStatus": "verified",
-            "sourceNote": "Publisher of articles d-5262697 and d-5492690. No sameAs in the repo. Owner to supply the official site and, if one exists, the Wikidata entry — do not guess a Q-ID. Wikidata Q12481355 verified 2026-08-19: label \"detik.com\", description \"online news and article website based in Indonesia\", inception 1998, owned by Trans Corp — matches this org exactly."
-        },
-        {
-            "key": "radar-jember",
-            "canonicalName": "Radar Jember / Jawa Pos",
-            "aliases": [
-                "Radar Jember / Jawa Pos",
-                "Radar Jember",
-                "Jawa Pos"
-            ],
-            "schemaType": "Organization",
-            "id": "https://javavolcano-touroperator.com/entity/#org-radar-jember",
-            "sameAs": [
-                "https://radarjember.jawapos.com/"
-            ],
-            "role": [
-                "publisher"
-            ],
-            "definedOn": "/verify-jvto/press-recognition",
-            "evidenceStatus": "verified",
-            "sourceNote": "Publisher of the Polpar formation article. No sameAs in the repo. Owner to confirm whether the canonical entity is Radar Jember or its parent Jawa Pos before adding one. No standalone Wikidata entry found for Radar Jember as of 2026-08-19 (search only surfaced Radar Bandung, a different Jawa Pos Group title) — left unassigned rather than guessed. Official site verified live."
-        },
-        {
-            "key": "dumont",
-            "canonicalName": "DuMont Reiseverlag",
-            "aliases": [
-                "DuMont Reiseverlag",
-                "DuMont"
-            ],
-            "schemaType": "Organization",
-            "id": "https://javavolcano-touroperator.com/entity/#org-dumont",
-            "sameAs": [
-                "https://www.dumontreise.de/",
-                "https://www.mairdumont.com"
-            ],
-            "role": [
-                "publisher"
-            ],
-            "definedOn": "/verify-jvto/press-recognition",
-            "evidenceStatus": "verified",
-            "sourceNote": "Publisher of Stefan Loose Reiseführer Indonesien. No sameAs in the repo. A German publisher of this size likely has a Wikidata entry — owner to verify rather than guess. Wikidata Q1262296 (\"DuMont Buchverlag\") checked 2026-08-19 and rejected: it is the parent general-book publisher (Cologne, est. 1956), a distinct entity from DuMont Reiseverlag (the travel-guide imprint, absorbed into MairDumont in 2004) that published the Stefan Loose guide. Left Wikidata unassigned per the no-guessing rule; official DuMont Reise site used instead. jvto-web/src/lib/schemas/externalEntities.ts independently used https://www.mairdumont.com as its sameAs (2026-08-19 reconciliation) — added alongside rather than replacing dumontreise.de, since both are legitimate URLs for the same publisher (mairdumont.com is the parent corporate site, dumontreise.de is the consumer-facing DuMont Reise brand site) and neither is wrong."
-        },
-        {
-            "key": "bkpm",
-            "canonicalName": "Kementerian Investasi / BKPM Indonesia",
-            "aliases": [
-                "Kementerian Investasi / BKPM Indonesia",
-                "BKPM",
-                "Kementerian Investasi"
-            ],
-            "schemaType": "GovernmentOrganization",
-            "id": "https://javavolcano-touroperator.com/entity/#org-bkpm",
-            "sameAs": [
-                "https://www.wikidata.org/wiki/Q106616407",
-                "https://www.bkpm.go.id/"
-            ],
-            "role": [
-                "credentialIssuer"
-            ],
-            "definedOn": "/verify-jvto/legal",
-            "evidenceStatus": "verified",
-            "sourceNote": "Issuer of NIB 1102230032918. No sameAs in the repo. Owner to supply the official ministry domain. Wikidata Q106616407 verified 2026-08-19: \"Ministry of Investment and Downstream Industry\" — current legal name of BKPM (renamed under the Prabowo administration, Oct 2024). Matches."
-        },
-        {
-            "key": "kemenparekraf",
-            "canonicalName": "Kementerian Pariwisata dan Ekonomi Kreatif",
-            "aliases": [
-                "Kementerian Pariwisata dan Ekonomi Kreatif",
-                "Kemenparekraf"
-            ],
-            "schemaType": "GovernmentOrganization",
-            "id": "https://javavolcano-touroperator.com/entity/#org-kemenparekraf",
-            "sameAs": [
-                "https://www.wikidata.org/wiki/Q13092668",
-                "https://www.kemenparekraf.go.id/"
-            ],
-            "role": [
-                "credentialIssuer"
-            ],
-            "definedOn": "/verify-jvto/legal",
-            "evidenceStatus": "verified",
-            "sourceNote": "Issuer of the TDUP, dated 2023-02-11. No sameAs in the repo. Owner to supply the official ministry domain. Wikidata Q13092668 verified 2026-08-19: \"Ministry of Tourism\", aka \"Ministry of Tourism and Creative Economy of Indonesia\" since the 19 May 2021 restructure — matches this org."
-        },
-        {
-            "key": "bbksda-jatim",
-            "canonicalName": "Balai Besar KSDA Jawa Timur (BBKSDA Jawa Timur)",
-            "aliases": [
-                "BBKSDA Jawa Timur",
-                "BBKSDA Jatim",
-                "BBKSDA"
-            ],
-            "schemaType": "GovernmentOrganization",
-            "id": "https://javavolcano-touroperator.com/entity/#org-bbksda-jatim",
-            "sameAs": [
-                "https://bbksdajatim.org/"
-            ],
-            "role": [
-                "regulator",
-                "supervisor"
-            ],
-            "definedOn": "/verify-jvto/legal",
-            "evidenceStatus": "verified",
-            "sourceNote": "Regulator of TWA Ijen and issuer of SE.1658/KSA.9/2024, the regulation behind the mandatory health screening. It existed only as a fragment of the string 'HPWKI — supervised by BBKSDA Jawa Timur' and had no node of its own, despite being JVTO's most load-bearing authority asset. No sameAs in the repo yet. Defined on /verify-jvto/legal rather than the health-screening page: it is reached only through HPWKI's regulator relation, and defining it on a page that never names it left a dangling @id. No Wikidata entry found for this regional conservation unit as of 2026-08-19 (a technical implementation unit under Ditjen KSDAE, not independently notable) — left unassigned rather than guessed. Official site verified live, matches URL already used elsewhere in this repo (buildVerifySchemas.ts references).",
-            "description": "Indonesian Ministry of Environment body responsible for Ijen Crater nature reserve management."
-        },
-        {
-            "key": "ditpamobvit",
-            "canonicalName": "Direktorat Pengamanan Objek Vital (Ditpamobvit) — Indonesian National Police",
-            "aliases": [
-                "Direktorat Pengamanan Objek Vital (Ditpamobvit) — Indonesian National Police",
-                "Ditpamobvit",
-                "Direktorat Pengamanan Objek Vital"
-            ],
-            "schemaType": "GovernmentOrganization",
-            "id": "https://javavolcano-touroperator.com/entity/#org-ditpamobvit",
-            "sameAs": [
-                "https://polri.go.id"
-            ],
-            "role": [
-                "credentialIssuer",
-                "regulator"
-            ],
-            "definedOn": "/verify-jvto/police-safety",
-            "evidenceStatus": "verified",
-            "sourceNote": "Provider of the founder's Tourist Police commission, rendered in the GovernmentService node's provider slot. Not among the nine entities the specification listed, but found by the same audit: it was the last Organization-class node still emitting without an @id. Its URL was already present in police-authority source data."
-        },
-        {
-            "key": "polri",
-            "canonicalName": "Indonesian National Police (POLRI)",
-            "aliases": [
-                "Indonesian National Police (POLRI)",
-                "POLRI",
-                "Kepolisian Negara Republik Indonesia"
-            ],
-            "schemaType": "GovernmentOrganization",
-            "id": "https://javavolcano-touroperator.com/entity/#org-polri",
-            "sameAs": [
-                "https://polri.go.id"
-            ],
-            "role": [
-                "regulator"
-            ],
-            "definedOn": "/verify-jvto",
-            "evidenceStatus": "verified",
-            "sourceNote": "Migrated verbatim from jvto-web src/lib/schemas/externalEntities.ts (2026-08-19 reconciliation) — the founder's employing institution (Ditpamobvit/Tourist Police)."
-        },
-        {
-            "key": "kemenkes",
-            "canonicalName": "Kementerian Kesehatan Republik Indonesia (Ministry of Health)",
-            "aliases": [
-                "Kementerian Kesehatan Republik Indonesia (Ministry of Health)",
-                "Kemenkes",
-                "Ministry of Health"
-            ],
-            "schemaType": "GovernmentOrganization",
-            "id": "https://javavolcano-touroperator.com/entity/#org-kemenkes",
-            "sameAs": [
-                "https://kemkes.go.id"
-            ],
-            "role": [
-                "regulator"
-            ],
-            "definedOn": "/verify-jvto",
-            "evidenceStatus": "verified",
-            "sourceNote": "Migrated verbatim from jvto-web src/lib/schemas/externalEntities.ts (2026-08-19 reconciliation) — regulator for the Ijen health-screening physician credential chain."
-        },
-        {
-            "key": "kki",
-            "canonicalName": "Konsil Kedokteran Indonesia (Indonesian Medical Council)",
-            "aliases": [
-                "Konsil Kedokteran Indonesia (Indonesian Medical Council)",
-                "KKI",
-                "Indonesian Medical Council"
-            ],
-            "schemaType": "GovernmentOrganization",
-            "id": "https://javavolcano-touroperator.com/entity/#org-kki",
-            "sameAs": [
-                "https://kki.go.id"
-            ],
-            "role": [
-                "regulator"
-            ],
-            "definedOn": "/verify-jvto",
-            "evidenceStatus": "verified",
-            "sourceNote": "Migrated verbatim from jvto-web src/lib/schemas/externalEntities.ts (2026-08-19 reconciliation) — medical-council regulator for the Ijen health-screening physician credential chain."
-        }
-    ]
+  "schema_version": "jvto/source/external-entities/v1",
+  "lastReviewed": "2026-08-16",
+  "owner": "knowledge",
+  "idBase": "https://javavolcano-touroperator.com/entity",
+  "note": "Registry of third-party organizations JVTO refers to. The @id base is the JVTO domain on purpose: the @id identifies *JVTO's reference to* the entity, not the entity itself. Ownership is asserted through sameAs. Never add a sameAs URL without verifying it — leave it empty and mark evidenceStatus 'candidate' instead. A node with an @id and no sameAs is still far better than an anonymous node, because the @id is what consolidates the entity across pages. A description field was added 2026-08-19 for records where jvto-web externalEntities.ts had one (hpwki, bbksda-jatim) — leave absent elsewhere rather than fabricating.",
+  "records": [
+    {
+      "key": "hpwki",
+      "canonicalName": "Himpunan Pelaku Wisata Khusus Ijen (HPWKI)",
+      "aliases": [
+        "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)",
+        "HPWKI — supervised by BBKSDA Jawa Timur",
+        "HPWKI"
+      ],
+      "schemaType": "Organization",
+      "id": "https://javavolcano-touroperator.com/entity/#org-hpwki",
+      "sameAs": [
+        "https://ahu.go.id/sabh/perkumpulan/qrcode/?kode=NjAyNDAxMjczNTEwMTM2MV8wXzA3IEZlYnJ1YXJpIDIwMjRfMjcgSmFudWFyeSAyMDI0"
+      ],
+      "role": [
+        "memberOf",
+        "credentialIssuer"
+      ],
+      "regulator": "bbksda-jatim",
+      "definedOn": "/verify-jvto/legal",
+      "evidenceStatus": "verified",
+      "sourceNote": "AHU registration QR verified in organization.json memberOf. Previously emitted under two different names — 'HPWKI (Himpunan Pelaku Wisata Khusus Ijen)' in memberOf and 'HPWKI — supervised by BBKSDA Jawa Timur' in recognizedBy — which fragmented one organisation into two anonymous nodes. The supervision fact is now a relation to #org-bbksda-jatim, not part of the name.",
+      "description": "Ijen volcano guide association supervised by BBKSDA Jawa Timur (Ministry of Environment). Members receive annual training on volcanic gas protocols and evacuation procedures."
+    },
+    {
+      "key": "indecon",
+      "canonicalName": "Indonesian Ecotourism Network (INDECON)",
+      "aliases": [
+        "INDECON (Indonesian Ecotourism Network)",
+        "INDECON"
+      ],
+      "schemaType": "Organization",
+      "id": "https://javavolcano-touroperator.com/entity/#org-indecon",
+      "sameAs": [
+        "https://www.indecon.id/spotlight-networks/java-volcano-tour-operator"
+      ],
+      "role": [
+        "memberOf"
+      ],
+      "definedOn": "/verify-jvto/legal",
+      "evidenceStatus": "verified",
+      "sourceNote": "Listing page verified in organization.json memberOf. Network membership, not a licence."
+    },
+    {
+      "key": "isic",
+      "canonicalName": "International Student Identity Card (ISIC)",
+      "aliases": [
+        "ISIC (International Student Identity Card)",
+        "ISIC"
+      ],
+      "schemaType": "Organization",
+      "id": "https://javavolcano-touroperator.com/entity/#org-isic",
+      "sameAs": [
+        "https://www.isic.org/discounts/?providerId=259268"
+      ],
+      "role": [
+        "memberOf"
+      ],
+      "definedOn": "/verify-jvto/legal",
+      "evidenceStatus": "verified",
+      "sourceNote": "Registered provider ID 259268, verified in organization.json memberOf."
+    },
+    {
+      "key": "detikcom",
+      "canonicalName": "Detik.com",
+      "aliases": [
+        "Detik.com",
+        "detik.com",
+        "Detikcom"
+      ],
+      "schemaType": "Organization",
+      "id": "https://javavolcano-touroperator.com/entity/#org-detikcom",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q12481355",
+        "https://www.detik.com/"
+      ],
+      "role": [
+        "publisher"
+      ],
+      "definedOn": "/verify-jvto/press-recognition",
+      "evidenceStatus": "verified",
+      "sourceNote": "Publisher of articles d-5262697 and d-5492690. No sameAs in the repo. Owner to supply the official site and, if one exists, the Wikidata entry — do not guess a Q-ID. Wikidata Q12481355 verified 2026-08-19: label \"detik.com\", description \"online news and article website based in Indonesia\", inception 1998, owned by Trans Corp — matches this org exactly."
+    },
+    {
+      "key": "radar-jember",
+      "canonicalName": "Radar Jember / Jawa Pos",
+      "aliases": [
+        "Radar Jember / Jawa Pos",
+        "Radar Jember",
+        "Jawa Pos"
+      ],
+      "schemaType": "Organization",
+      "id": "https://javavolcano-touroperator.com/entity/#org-radar-jember",
+      "sameAs": [
+        "https://radarjember.jawapos.com/"
+      ],
+      "role": [
+        "publisher"
+      ],
+      "definedOn": "/verify-jvto/press-recognition",
+      "evidenceStatus": "verified",
+      "sourceNote": "Publisher of the Polpar formation article. No sameAs in the repo. Owner to confirm whether the canonical entity is Radar Jember or its parent Jawa Pos before adding one. No standalone Wikidata entry found for Radar Jember as of 2026-08-19 (search only surfaced Radar Bandung, a different Jawa Pos Group title) — left unassigned rather than guessed. Official site verified live."
+    },
+    {
+      "key": "dumont",
+      "canonicalName": "DuMont Reiseverlag",
+      "aliases": [
+        "DuMont Reiseverlag",
+        "DuMont"
+      ],
+      "schemaType": "Organization",
+      "id": "https://javavolcano-touroperator.com/entity/#org-dumont",
+      "sameAs": [
+        "https://www.dumontreise.de/",
+        "https://www.mairdumont.com"
+      ],
+      "role": [
+        "publisher"
+      ],
+      "definedOn": "/verify-jvto/press-recognition",
+      "evidenceStatus": "verified",
+      "sourceNote": "Publisher of Stefan Loose Reiseführer Indonesien. No sameAs in the repo. A German publisher of this size likely has a Wikidata entry — owner to verify rather than guess. Wikidata Q1262296 (\"DuMont Buchverlag\") checked 2026-08-19 and rejected: it is the parent general-book publisher (Cologne, est. 1956), a distinct entity from DuMont Reiseverlag (the travel-guide imprint, absorbed into MairDumont in 2004) that published the Stefan Loose guide. Left Wikidata unassigned per the no-guessing rule; official DuMont Reise site used instead. jvto-web/src/lib/schemas/externalEntities.ts independently used https://www.mairdumont.com as its sameAs (2026-08-19 reconciliation) — added alongside rather than replacing dumontreise.de, since both are legitimate URLs for the same publisher (mairdumont.com is the parent corporate site, dumontreise.de is the consumer-facing DuMont Reise brand site) and neither is wrong."
+    },
+    {
+      "key": "bkpm",
+      "canonicalName": "Kementerian Investasi / BKPM Indonesia",
+      "aliases": [
+        "Kementerian Investasi / BKPM Indonesia",
+        "BKPM",
+        "Kementerian Investasi"
+      ],
+      "schemaType": "GovernmentOrganization",
+      "id": "https://javavolcano-touroperator.com/entity/#org-bkpm",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q106616407",
+        "https://www.bkpm.go.id/"
+      ],
+      "role": [
+        "credentialIssuer"
+      ],
+      "definedOn": "/verify-jvto/legal",
+      "evidenceStatus": "verified",
+      "sourceNote": "Issuer of NIB 1102230032918. No sameAs in the repo. Owner to supply the official ministry domain. Wikidata Q106616407 verified 2026-08-19: \"Ministry of Investment and Downstream Industry\" — current legal name of BKPM (renamed under the Prabowo administration, Oct 2024). Matches."
+    },
+    {
+      "key": "kemenparekraf",
+      "canonicalName": "Kementerian Pariwisata dan Ekonomi Kreatif",
+      "aliases": [
+        "Kementerian Pariwisata dan Ekonomi Kreatif",
+        "Kemenparekraf"
+      ],
+      "schemaType": "GovernmentOrganization",
+      "id": "https://javavolcano-touroperator.com/entity/#org-kemenparekraf",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q13092668",
+        "https://www.kemenparekraf.go.id/"
+      ],
+      "role": [
+        "credentialIssuer"
+      ],
+      "definedOn": "/verify-jvto/legal",
+      "evidenceStatus": "verified",
+      "sourceNote": "Issuer of the TDUP, dated 2023-02-11. No sameAs in the repo. Owner to supply the official ministry domain. Wikidata Q13092668 verified 2026-08-19: \"Ministry of Tourism\", aka \"Ministry of Tourism and Creative Economy of Indonesia\" since the 19 May 2021 restructure — matches this org."
+    },
+    {
+      "key": "bbksda-jatim",
+      "canonicalName": "Balai Besar KSDA Jawa Timur (BBKSDA Jawa Timur)",
+      "aliases": [
+        "Balai Besar KSDA Jawa Timur",
+        "BBKSDA Jawa Timur",
+        "BBKSDA Jatim",
+        "BBKSDA"
+      ],
+      "schemaType": "GovernmentOrganization",
+      "id": "https://javavolcano-touroperator.com/entity/#org-bbksda-jatim",
+      "sameAs": [
+        "https://bbksdajatim.org/"
+      ],
+      "role": [
+        "regulator",
+        "supervisor"
+      ],
+      "definedOn": "/verify-jvto/legal",
+      "evidenceStatus": "verified",
+      "sourceNote": "Regulator of TWA Ijen and issuer of SE.1658/K2/BIDTEK.1/KSA/9/2024, the regulation behind the mandatory health screening. It existed only as a fragment of the string 'HPWKI — supervised by BBKSDA Jawa Timur' and had no node of its own, despite being JVTO's most load-bearing authority asset. No sameAs in the repo yet. Defined on /verify-jvto/legal rather than the health-screening page: it is reached only through HPWKI's regulator relation, and defining it on a page that never names it left a dangling @id. No Wikidata entry found for this regional conservation unit as of 2026-08-19 (a technical implementation unit under Ditjen KSDAE, not independently notable) — left unassigned rather than guessed. Official site verified live, matches URL already used elsewhere in this repo (buildVerifySchemas.ts references).",
+      "description": "Indonesian Ministry of Environment body responsible for Ijen Crater nature reserve management."
+    },
+    {
+      "key": "polpar-bondowoso",
+      "canonicalName": "Polisi Pariwisata (POLPAR) Bondowoso — Polres Bondowoso, Indonesian National Police",
+      "aliases": [
+        "Polisi Pariwisata (POLPAR) Bondowoso — Polres Bondowoso, Indonesian National Police",
+        "POLPAR Bondowoso"
+      ],
+      "schemaType": "GovernmentOrganization",
+      "id": "https://javavolcano-touroperator.com/entity/#org-polpar-bondowoso",
+      "sameAs": [
+        "https://polri.go.id"
+      ],
+      "role": [
+        "credentialIssuer",
+        "regulator"
+      ],
+      "definedOn": "/verify-jvto/police-safety",
+      "evidenceStatus": "verified",
+      "sourceNote": "Provider of the founder's Tourist Police commission, rendered in the GovernmentService node's provider slot. Not among the nine entities the specification listed, but found by the same audit: it was the last Organization-class node still emitting without an @id. Its URL was already present in police-authority source data. Corrected 2026-08-21: this record was keyed 'ditpamobvit' and named 'Direktorat Pengamanan Objek Vital (Ditpamobvit)'. Sprin/4954/XI/2020 appoints the founder Polisi Pariwisata Bondowoso via Polres Bondowoso; 'Ditpamobvit' (a Polda-level directorate) appears in none of the 14 archive PDFs. The only 'Pamobvit' in the archive belongs to a different officer on the same order. The old alias was removed rather than kept for matching, because it names an institution this credential never came from."
+    },
+    {
+      "key": "polri",
+      "canonicalName": "Indonesian National Police (POLRI)",
+      "aliases": [
+        "Indonesian National Police (POLRI)",
+        "POLRI",
+        "Kepolisian Negara Republik Indonesia"
+      ],
+      "schemaType": "GovernmentOrganization",
+      "id": "https://javavolcano-touroperator.com/entity/#org-polri",
+      "sameAs": [
+        "https://polri.go.id"
+      ],
+      "role": [
+        "regulator"
+      ],
+      "definedOn": "/verify-jvto",
+      "evidenceStatus": "verified",
+      "sourceNote": "Migrated verbatim from jvto-web src/lib/schemas/externalEntities.ts (2026-08-19 reconciliation) — the founder's employing institution (Polres Bondowoso / Tourist Police)."
+    },
+    {
+      "key": "kemenkes",
+      "canonicalName": "Kementerian Kesehatan Republik Indonesia (Ministry of Health)",
+      "aliases": [
+        "Kementerian Kesehatan Republik Indonesia (Ministry of Health)",
+        "Kemenkes",
+        "Ministry of Health"
+      ],
+      "schemaType": "GovernmentOrganization",
+      "id": "https://javavolcano-touroperator.com/entity/#org-kemenkes",
+      "sameAs": [
+        "https://kemkes.go.id"
+      ],
+      "role": [
+        "regulator"
+      ],
+      "definedOn": "/verify-jvto",
+      "evidenceStatus": "verified",
+      "sourceNote": "Migrated verbatim from jvto-web src/lib/schemas/externalEntities.ts (2026-08-19 reconciliation) — regulator for the Ijen health-screening physician credential chain."
+    },
+    {
+      "key": "kki",
+      "canonicalName": "Konsil Kedokteran Indonesia (Indonesian Medical Council)",
+      "aliases": [
+        "Konsil Kedokteran Indonesia (Indonesian Medical Council)",
+        "KKI",
+        "Indonesian Medical Council"
+      ],
+      "schemaType": "GovernmentOrganization",
+      "id": "https://javavolcano-touroperator.com/entity/#org-kki",
+      "sameAs": [
+        "https://kki.go.id"
+      ],
+      "role": [
+        "regulator"
+      ],
+      "definedOn": "/verify-jvto",
+      "evidenceStatus": "verified",
+      "sourceNote": "Migrated verbatim from jvto-web src/lib/schemas/externalEntities.ts (2026-08-19 reconciliation) — medical-council regulator for the Ijen health-screening physician credential chain."
+    },
+    {
+      "key": "kemenkumham",
+      "canonicalName": "Kementerian Hukum dan Hak Asasi Manusia Republik Indonesia",
+      "aliases": [
+        "Kementerian Hukum dan HAM RI",
+        "Kementerian Hukum dan HAM",
+        "Kementerian Hukum dan Hak Asasi Manusia Republik Indonesia",
+        "Menkumham",
+        "Ministry of Law and Human Rights"
+      ],
+      "schemaType": "GovernmentOrganization",
+      "id": "https://javavolcano-touroperator.com/entity/#org-kemenkumham",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q12507528",
+        "https://ahu.go.id"
+      ],
+      "role": [
+        "credentialIssuer"
+      ],
+      "definedOn": "/verify-jvto/legal",
+      "evidenceStatus": "verified",
+      "sourceNote": "Added 2026-08-21. Issuer of two decrees JVTO publishes: AHU-0010187.AH.01.01.TAHUN 2023 (legal-entity approval for PT Java Volcano Rendezvous) and AHU-0001072.AH.01.07.TAHUN 2024 (establishing HPWKI, whose annex records the founder as supervisory-board member). Both signed by Dirjen Administrasi Hukum Umum Cahyo Rahadian Muzhar. Wikidata Q12507528 verified 2026-08-21: 'Ministry of Law and Human Rights (Indonesia)' — matches the issuing ministry named on both decrees.",
+      "description": "Indonesian ministry whose Directorate General of General Legal Administration (AHU) approves the establishment of legal entities."
+    },
+    {
+      "key": "dpmptsp-bondowoso",
+      "canonicalName": "Dinas Penanaman Modal, PTSP dan Tenaga Kerja Kabupaten Bondowoso",
+      "aliases": [
+        "DPMPTSP dan Tenaga Kerja Kabupaten Bondowoso",
+        "DPMPTSP Bondowoso",
+        "Dinas Penanaman Modal, PTSP dan Tenaga Kerja Kabupaten Bondowoso"
+      ],
+      "schemaType": "GovernmentOrganization",
+      "id": "https://javavolcano-touroperator.com/entity/#org-dpmptsp-bondowoso",
+      "sameAs": [],
+      "role": [
+        "credentialIssuer"
+      ],
+      "definedOn": "/verify-jvto/legal",
+      "evidenceStatus": "candidate",
+      "sourceNote": "Added 2026-08-21. Issuer of SIP 503.446/664/DRU/4/430.9.13/2026, the practice licence of dr. Ahmad Irwandanu, who signs the Ijen pre-ascent health certificates; signed by its head Dr. Hari Cahyono, ST.MM. No official domain confirmed and no Wikidata entry found for this district-level agency — sameAs left empty and evidenceStatus set to 'candidate' rather than guessing a URL.",
+      "description": "District government agency of Bondowoso Regency for investment, one-stop licensing services, and labour."
+    }
+  ]
 }

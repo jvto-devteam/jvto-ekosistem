@@ -112,7 +112,7 @@
     "Complete health screening as required by JVTO safety protocols",
     "Avoid visiting during high wind or rain which can concentrate toxic gases",
     "Sulfur miners have right of way on the trail — yield and do not photograph them without asking",
-    "Health certificate with QR code is mandatory — no valid cert, no crater entry (BBKSDA SE.1658/KSA.9/2024)"
+    "Health certificate with QR code is mandatory — no valid cert, no crater entry (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024)"
   ],
   "risk_factors": [
     {
@@ -3657,7 +3657,7 @@
     {
       "icon": "shield",
       "title": "Police-led",
-      "desc": "Founder Mr. Sam (Bripka Agung Sambuko) is an active Ditpamobvit officer. Route decisions answer to police protocol, not marketing metrics.",
+      "desc": "Founder Mr. Sam (Bripka Agung Sambuko) is an active Tourist Police (POLPAR) officer for Bondowoso. Route decisions answer to police protocol, not marketing metrics.",
       "meta": "Authority"
     },
     {
@@ -3688,7 +3688,7 @@
   ],
   "health_certificate_coordination": {
     "heading": "Health Certificate Coordination",
-    "paragraph": "Ijen crater access can require a recent health certificate when BBKSDA SE.1658/KSA.9/2024 thresholds apply. JVTO coordinates the clinic workflow via Dr. Ahmad Irwandanu (SIP-licensed, Kemenkes RI) — the certificate carries a QR code verified at the crater access gate.",
+    "paragraph": "Ijen crater access can require a recent health certificate when BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024 thresholds apply. JVTO coordinates the clinic workflow via Dr. Ahmad Irwandanu (SIP-licensed, Kemenkes RI) — the certificate carries a QR code verified at the crater access gate.",
     "linkHref": "/travel-guide/ijen-health-screening",
     "linkLabel": "How Ijen Health Screening Works →"
   },
@@ -3698,7 +3698,7 @@
       "Ijen Crater",
       "Kawah Ijen Volcano"
     ],
-    "description": "Active stratovolcano at 2,386 m with the world's largest acidic crater lake and the pre-dawn blue fire phenomenon. Night hike from Paltuding trailhead (~3 km). BBKSDA East Java regulatory authority. Health-certificate coordination is mandatory for every guest under BBKSDA SE.1658/KSA.9/2024.",
+    "description": "Active stratovolcano at 2,386 m with the world's largest acidic crater lake and the pre-dawn blue fire phenomenon. Night hike from Paltuding trailhead (~3 km). BBKSDA East Java regulatory authority. Health-certificate coordination is mandatory for every guest under BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024.",
     "additional_props": [
       {
         "name": "Crater rim elevation",
@@ -3729,7 +3729,7 @@
       },
       {
         "name": "Health certificate",
-        "value": "Mandatory for every guest before crater entry (BBKSDA SE.1658/KSA.9/2024)"
+        "value": "Mandatory for every guest before crater entry (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024)"
       },
       {
         "name": "Best time to visit",

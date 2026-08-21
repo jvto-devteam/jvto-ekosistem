@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-20T08:23:19.292Z",
+  "generated_at": "2026-08-21T00:24:29.236Z",
   "route": "/markets/malaysia",
   "domain": "markets",
   "slug": "malaysia",
@@ -145,17 +145,80 @@
           },
           {
             "@type": "EducationalOccupationalCredential",
-            "name": "HPWKI Membership (Himpunan Pelaku Wisata Khusus Ijen)",
-            "credentialCategory": "Volcanic Tourism Association — BBKSDA supervised",
+            "name": "HPWKI — Supervisory Board member (Pengawas · Anggota), held by founder Agung Sambuko",
+            "credentialCategory": "Himpunan Pelaku Wisata Khusus Ijen — Ijen special-tourism association, supervised by BBKSDA Jawa Timur",
             "url": "https://javavolcano-touroperator.com/legal/HPWKI-approval.pdf",
             "recognizedBy": {
-              "@id": "https://javavolcano-touroperator.com/entity/#org-hpwki"
+              "@id": "https://javavolcano-touroperator.com/entity/#org-kemenkumham"
             },
             "additionalProperty": {
               "@type": "PropertyValue",
               "propertyID": "SHA-256",
-              "name": "HPWKI Membership (Himpunan Pelaku Wisata Khusus Ijen) document SHA-256",
+              "name": "HPWKI — Supervisory Board member (Pengawas · Anggota), held by founder Agung Sambuko document SHA-256",
               "value": "ca1fb1a48b550a7748d400f165899f12a356e6941aacdde9c043427698aaf63b"
+            }
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Menkumham decree — legal entity approval, PT Java Volcano Rendezvous",
+            "credentialCategory": "Indonesian legal-entity establishment decree",
+            "dateIssued": "2023-02-08",
+            "url": "https://javavolcano-touroperator.com/legal/AHU-PTJVR.pdf",
+            "recognizedBy": {
+              "@id": "https://javavolcano-touroperator.com/entity/#org-kemenkumham"
+            },
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "Menkumham",
+              "value": "AHU-0010187.AH.01.01.TAHUN 2023"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID": "SHA-256",
+              "name": "Menkumham decree — legal entity approval, PT Java Volcano Rendezvous document SHA-256",
+              "value": "957312ca258206b36cd2594546964029f1d5ffc442e855976a125ca0f3a659bd"
+            }
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Surat Izin Praktik (SIP) — dr. Ahmad Irwandanu, Ijen pre-ascent screening physician",
+            "credentialCategory": "Indonesian medical practice licence (Permenkes 2052/Menkes/Per/X/2011)",
+            "dateIssued": "2026-01-06",
+            "url": "https://javavolcano-touroperator.com/screening/SIP_DOKTER_AHMAD_IRWANDANU_2026.pdf",
+            "recognizedBy": {
+              "@id": "https://javavolcano-touroperator.com/entity/#org-dpmptsp-bondowoso"
+            },
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "Surat",
+              "value": "503.446/664/DRU/4/430.9.13/2026"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID": "SHA-256",
+              "name": "Surat Izin Praktik (SIP) — dr. Ahmad Irwandanu, Ijen pre-ascent screening physician document SHA-256",
+              "value": "82f2535b87066fef23cf3012ed3bc1cb18c124e03045ab544067e51d78ac80aa"
+            }
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "BBKSDA Jawa Timur circular — TWA Kawah Ijen access regime",
+            "credentialCategory": "Conservation-authority circular — regulates access to the Ijen crater area; not a permit issued to JVTO",
+            "dateIssued": "2024-09-06",
+            "url": "https://javavolcano-touroperator.com/screening/bbksda/05012024_Edaran_Pembukaan_TWA_Kawah_Ijen.pdf",
+            "recognizedBy": {
+              "@id": "https://javavolcano-touroperator.com/entity/#org-bbksda-jatim"
+            },
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "BBKSDA",
+              "value": "SE.1658/K2/BIDTEK.1/KSA/9/2024"
+            },
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "propertyID": "SHA-256",
+              "name": "BBKSDA Jawa Timur circular — TWA Kawah Ijen access regime document SHA-256",
+              "value": "86f9c225cff91a9ae04332d469a17c70264c4be681572822601096c86ab4148a"
             }
           }
         ]

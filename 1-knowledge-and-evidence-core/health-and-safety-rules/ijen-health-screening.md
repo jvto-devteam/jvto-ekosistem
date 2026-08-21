@@ -15,9 +15,9 @@ summary: "The mandatory Ijen health screening: real checks at your hotel, a BSrE
 
 ## What the Access Rule Is
 
-BBKSDA Jawa Timur — the government conservation agency responsible for the Kawah Ijen Natural Tourism Park — issued Surat Edaran SE.1658/KSA.9/2024 establishing health-certificate requirements for Ijen crater zone access.
+BBKSDA Jawa Timur — the government conservation agency responsible for the Kawah Ijen Natural Tourism Park — issued Surat Edaran SE.1658/K2/BIDTEK.1/KSA/9/2024 establishing health-certificate requirements for Ijen crater zone access.
 
-**A health certificate is mandatory for every guest before Kawah Ijen crater entry, per BBKSDA SE.1658/KSA.9/2024.** JVTO coordinates the mandatory clinic workflow under this regulation.
+**A health certificate is mandatory for every guest before Kawah Ijen crater entry, per BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024.** JVTO coordinates the mandatory clinic workflow under this regulation.
 
 The certificate requirement is regulatory, set by BBKSDA East Java. It is not unilaterally imposed by JVTO — BBKSDA sets the rule; JVTO coordinates the workflow so every crater-zone guest can satisfy it. At the crater access gate, checkpoint staff check the certificate. No valid health certificate means no crater-zone access.
 

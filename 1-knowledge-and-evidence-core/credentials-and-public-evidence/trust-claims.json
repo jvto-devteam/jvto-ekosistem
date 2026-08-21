@@ -13,7 +13,7 @@
           "id": "E001",
           "type": "jvto_verified_internal",
           "source_file": "wiki/people/agung-sambuko.md",
-          "description": "Founder is active Tourist Police officer (Ditpamobvit)",
+          "description": "Founder is active Tourist Police officer (POLPAR Bondowoso)",
           "proof_ids": [
             "sprin-polpar",
             "sprin-wal-travel-2024-02-12"
@@ -144,7 +144,7 @@
           "id": "E006",
           "type": "official_authority",
           "source_file": "wiki/credentials/medical-screening.md",
-          "description": "BBKSDA SE.1658/KSA.9/2024 — regulatory basis for health screening",
+          "description": "BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024 — regulatory basis for health screening",
           "proof_ids": [
             "bbksda-surat-edaran-se-1658-ksa-9-2024",
             "bbksda-ticket-terms-screenshot"
@@ -173,9 +173,9 @@
         }
       ],
       "narrative": {
-        "ai_snippet": "JVTO includes the mandatory Ijen health screening on itineraries that include Mount Ijen — a health certificate is required for every guest before crater entry (BBKSDA SE.1658/KSA.9/2024), documented in the Travel Guide.",
+        "ai_snippet": "JVTO includes the mandatory Ijen health screening on itineraries that include Mount Ijen — a health certificate is required for every guest before crater entry (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024), documented in the Travel Guide.",
         "short": "A health certificate is mandatory for every Ijen guest — screening included and coordinated by JVTO. Real screening, clear rules.",
-        "cs_reply": "If your itinerary includes Ijen, we'll guide you through the mandatory health screening — a certificate is required for every guest before crater entry (BBKSDA SE.1658/KSA.9/2024). It's a safety step before the hike — not a formality."
+        "cs_reply": "If your itinerary includes Ijen, we'll guide you through the mandatory health screening — a certificate is required for every guest before crater entry (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024). It's a safety step before the hike — not a formality."
       },
       "decisions": [],
       "tags": [
@@ -456,7 +456,7 @@
     },
     {
       "topic": "health-screening",
-      "tldr": "JVTO includes the mandatory Ijen health screening on itineraries that include Mount Ijen — a health certificate is required for every guest before crater entry (BBKSDA SE.1658/KSA.9/2024), documented in the Travel Guide.",
+      "tldr": "JVTO includes the mandatory Ijen health screening on itineraries that include Mount Ijen — a health certificate is required for every guest before crater entry (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024), documented in the Travel Guide.",
       "claim_ids": [
         "C4"
       ],

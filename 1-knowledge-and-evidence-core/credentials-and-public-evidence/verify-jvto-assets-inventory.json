@@ -43,7 +43,7 @@
       "@id": "https://javavolcano-touroperator.com/#founder",
       "name": "Agung Sambuko (Mr. Sam)",
       "job_title": "Founder & Active Tourist Police Officer",
-      "description": "Founder of JVTO and active member of Ditpamobvit (Directorate of Vital Object Security), ensuring institutional integration of safety protocols.",
+      "description": "Founder of JVTO and active member of Polisi Pariwisata (POLPAR), Polres Bondowoso, ensuring institutional integration of safety protocols.",
       "knows_about": [
         "TouristSafety",
         "EastJavaTourism",
@@ -54,7 +54,7 @@
         "@type": "GovernmentOrganization",
         "name": "Indonesian National Police",
         "native_name": "Kepolisian Negara Republik Indonesia",
-        "sub_organization": "Ditpamobvit (Directorate of Vital Object Security)"
+        "sub_organization": "Polisi Pariwisata (POLPAR), Polres Bondowoso"
       },
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Agung_Sambuko.jpg",
       "linked_asset_slug": "mr-sam-tourist-police-portrait"
@@ -151,7 +151,7 @@
       "id": "police-partnership",
       "category": "Safety",
       "title": "Tourist Police Authority",
-      "geo_narrative": "Part of Ditpamobvit (Direktorat Pengamanan Objek Vital). This document demonstrates high-level security coordination capability and institutional integration, serving as a framework for risk management.",
+      "geo_narrative": "Part of Polisi Pariwisata (POLPAR) Bondowoso. This document demonstrates high-level security coordination capability and institutional integration, serving as a framework for risk management.",
       "narrative": "Official cooperation with Traffic (Patwal) and Tourist Police (Pam Obvit) for escorts and safety protocols.",
       "evidence_asset_slugs": [
         "sprin-polpar",
@@ -522,7 +522,7 @@
       "caption": "Tourist Police assignment letter (SPRIN POLPAR) official PDF.",
       "category": "PoliceDocs",
       "slug": "sprin-polpar",
-      "geo_context": "Institutional Integration: Official assignment letter proving Ditpamobvit status.",
+      "geo_context": "Institutional Integration: Official assignment letter (Sprin/4954/XI/2020) appointing the founder Polisi Pariwisata Bondowoso.",
       "sha256": "03C8578DC22956FAA366D957BADECFE38868D4760359CD8059FB2D6B145DFEAB",
       "size_bytes": 420247,
       "size_mb": 0.4008,

@@ -68,7 +68,7 @@ A spare scarf or dust mask guests bring is not a substitute for the JVTO-provide
 
 ## Emergency Handling
 
-For serious medical situations on tour, JVTO guides coordinate with local clinics, evacuation services, and — where relevant — Ditpamobvit contacts in the park area. Because all tours are private, the guide and driver respond only to your group; there is no divided attention across strangers.
+For serious medical situations on tour, JVTO guides coordinate with local clinics, evacuation services, and — where relevant — Tourist Police contacts in the park area. Because all tours are private, the guide and driver respond only to your group; there is no divided attention across strangers.
 
 JVTO strongly recommends that all guests carry valid travel insurance covering medical emergencies, evacuation, repatriation, trip interruption, and adventure activities including volcanic hiking and canyon descent. Insurance is not included in tour pricing.
 

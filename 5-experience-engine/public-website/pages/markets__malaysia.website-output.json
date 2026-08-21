@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-20T08:23:19.292Z",
+  "generated_at": "2026-08-21T00:24:29.236Z",
   "route": "/markets/malaysia",
   "domain": "markets",
   "slug": "malaysia",
@@ -103,7 +103,7 @@
           "Accommodation with breakfast on all overnight routes.",
           "Private Bromo 4WD jeep when Bromo is included.",
           "Gas mask and trekking poles for Ijen routes.",
-          "Ijen health-certificate coordination — mandatory for every guest (BBKSDA SE.1658/KSA.9/2024).",
+          "Ijen health-certificate coordination — mandatory for every guest (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024).",
           "Java–Bali ferry ticket when a Bali crossing is part of the itinerary.",
           "Daily bottled mineral water in the vehicle, and an official e-voucher / invoice PDF after payment."
         ],
@@ -133,7 +133,7 @@
           },
           {
             "signal": "Founder",
-            "detail": "Bripka Agung Sambuko, active Tourist Police officer (Ditpamobvit)"
+            "detail": "Bripka Agung Sambuko, active Tourist Police officer (POLPAR Bondowoso)"
           },
           {
             "signal": "Reviews",

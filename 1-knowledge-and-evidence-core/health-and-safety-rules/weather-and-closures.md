@@ -39,7 +39,7 @@ Ijen is monitored by BBKSDA East Java (bbksdajatim.org) and the Indonesian volca
 
 **Blue Fire visibility**: Blue Fire is a natural phenomenon subject to weather and gas activity. It is visible pre-dawn in suitable conditions at the crater floor. JVTO designs Ijen itineraries around a midnight departure to maximise the viewing window — but we cannot promise natural phenomena. Cloud cover, gas venting direction, and wind conditions are outside our control.
 
-**Health certificate — mandatory**: A recent local health certificate is mandatory for every guest before Kawah Ijen crater entry, per BBKSDA SE.1658/KSA.9/2024 (cited as supporting authority). JVTO coordinates the mandatory clinic workflow before the hike. No valid health certificate means no crater-zone access — this is a BBKSDA checkpoint requirement, not a JVTO policy.
+**Health certificate — mandatory**: A recent local health certificate is mandatory for every guest before Kawah Ijen crater entry, per BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024 (cited as supporting authority). JVTO coordinates the mandatory clinic workflow before the hike. No valid health certificate means no crater-zone access — this is a BBKSDA checkpoint requirement, not a JVTO policy.
 
 **Best season for Ijen**: Dry season, April–October. Crater rim temperatures run 10–15°C (50–59°F) at the midnight departure window.
 

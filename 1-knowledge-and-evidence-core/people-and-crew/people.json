@@ -22,7 +22,7 @@
       "Founder",
       "Active Tourist Police Officer"
     ],
-    "background": "Active Indonesian Tourist Police officer (Direktorat Pengamanan Objek Vital — Ditpamobvit, East Java) and founder of PT Java Volcano Rendezvous; JVTO's operations and safety model is built around this role.",
+    "background": "Active Indonesian Tourist Police officer (Polisi Pariwisata (POLPAR) Bondowoso, East Java) and founder of PT Java Volcano Rendezvous; JVTO's operations and safety model is built around this role.",
     "memberOf": "HPWKI (Himpunan Pelaku Wisata Khusus Ijen)",
     "image": [
       {
@@ -43,7 +43,7 @@
       "Mount Bromo Tourist Access Management",
       "Indonesian Tourist Police Protocols",
       "HPWKI Volcanic Safety Standards",
-      "SE.1658/KSA.9/2024 — Ijen Health Certificate Regulation"
+      "SE.1658/K2/BIDTEK.1/KSA/9/2024 — Ijen Health Certificate Regulation"
     ],
     "hasCredential": [
       {
@@ -54,9 +54,9 @@
         "recognizedBy": "Indonesian National Police (POLRI)"
       },
       {
-        "name": "SPRIN WAL-TRAVEL (Active Travel Order, February 2024)",
+        "name": "SPRIN WAL-TRAVEL — traffic-escort order Sprin/70/II/HUK.6.6./2024, 12 February 2024",
         "dateIssued": "2024-02-12",
-        "credentialCategory": "Law Enforcement — Active Travel Authorization",
+        "credentialCategory": "Law Enforcement — single-route traffic escort, Satlantas Polres Bondowoso",
         "sha256": "179b061eae558943fdccc51d2ea3c8233a704b61f03ca3d212433f3e8d6f3bd3",
         "documentUrl": "https://javavolcano-touroperator.com/legal/SPRIN-WAL-TRAVEL-2024-02-12.webp",
         "recognizedBy": "Indonesian National Police (POLRI)"
@@ -104,7 +104,7 @@
       "addressLocality": "Bondowoso",
       "addressRegion": "Jawa Timur",
       "addressCountry": "ID",
-      "description": "Ministry of Health-licensed clinic coordinating Ijen health screening for JVTO guests. Issues health certificates compliant with BBKSDA SE.1658/KSA.9/2024."
+      "description": "Ministry of Health-licensed clinic coordinating Ijen health screening for JVTO guests. Issues health certificates compliant with BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024."
     },
     "hasCredential": [
       {
