@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T01:00:06.642Z",
+  "generated_at": "2026-08-21T02:03:17.083Z",
   "route": "/travel-guide/faq",
   "domain": "travel-guide",
   "slug": "faq",
@@ -55,8 +55,7 @@
           "https://www.indecon.id/spotlight-networks/java-volcano-tour-operator",
           "https://ahu.go.id/sabh/perseroan/qrcode/?kode=NDAyMzAyMDYzNTEwMjE3NF8yXzA4IEZlYnJ1YXJpIDIwMjNfMDggRmVicnVhcmkgMjAyMw==",
           "https://www.facebook.com/javavolcanotours/",
-          "https://www.instagram.com/javavolcanotouroperator/",
-          "https://twitter.com/jvto_tours"
+          "https://www.instagram.com/javavolcanotouroperator/"
         ],
         "award": [
           "Booking.com Guest Review Award 2015 — Ijen Bondowoso Homestay (Score 9.4/10)",

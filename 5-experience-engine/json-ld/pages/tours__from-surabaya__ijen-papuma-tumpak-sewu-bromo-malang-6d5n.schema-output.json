@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T01:00:06.713Z",
+  "generated_at": "2026-08-21T02:03:17.180Z",
   "route": "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-malang-6d5n",
   "domain": "tours",
   "slug": "from-surabaya/ijen-papuma-tumpak-sewu-bromo-malang-6d5n",
@@ -679,7 +679,7 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-21T01:00:06.713Z",
+    "generated_at": "2026-08-21T02:03:17.180Z",
     "source_files": [
       "2-product-and-commercial-core/tour-products/tours__from-surabaya__ijen-papuma-tumpak-sewu-bromo-malang-6d5n.product-contract.json"
     ],
