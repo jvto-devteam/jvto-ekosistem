@@ -90,7 +90,7 @@
       "sipIssuer": "DPMPTSP Kabupaten Bondowoso",
       "str": "QN00001073380217",
       "strValidTo": "2031-01-06",
-      "facility": "Klinik Bakti Husada, Bondowoso, Jawa Timur",
+      "facility": "Guest's hotel in Bondowoso, Jawa Timur — currently Baratha Hotel and Riverside Homestay",
       "verifiableVia": "Kemenkes SatuSehat / KKI (publicly checkable)",
       "verificationUrls": [
         "https://satusehat.kemkes.go.id/sdmk/nakes/QN00001073380217",
@@ -99,7 +99,7 @@
       "lastVerified": "2026-08-01"
     },
     "clinic": {
-      "name": "Klinik Bakti Husada",
+      "name": "Baratha Hotel / Riverside Homestay, Bondowoso",
       "medicalSpecialty": "General Practice",
       "addressLocality": "Bondowoso",
       "addressRegion": "Jawa Timur",

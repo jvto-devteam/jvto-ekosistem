@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-21T06:46:59.333Z",
+  "generated_at": "2026-08-21T07:46:59.611Z",
   "route": "/verify-jvto/police-safety",
   "domain": "verify-jvto",
   "slug": "police-safety",
@@ -236,14 +236,14 @@
               "text": " is issued and scanned at the BBKSDA access gate. Screening can be done at "
             },
             {
-              "text": "Klinik Bakti Husada",
+              "text": "the guest's hotel in Bondowoso",
               "strong": true
             },
             {
               "text": " (Bondowoso), "
             },
             {
-              "text": "Puskesmas Licin",
+              "text": "Riverside Homestay, Bondowoso",
               "strong": true
             },
             {

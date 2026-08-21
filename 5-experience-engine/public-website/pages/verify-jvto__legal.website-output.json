@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-21T06:46:59.333Z",
+  "generated_at": "2026-08-21T07:46:59.611Z",
   "route": "/verify-jvto/legal",
   "domain": "verify-jvto",
   "slug": "legal",
@@ -72,7 +72,7 @@
             "blocks": [
               {
                 "type": "markdown",
-                "body_md": "JVTO's legal credentials extend into operational health compliance. Under BBKSDA regulation SE.1658/K2/BIDTEK.1/KSA/9/2024, every visitor ascending Kawah Ijen must present a health certificate from a licensed clinic. JVTO coordinates this directly, end to end, with verifiable government-licensed parties:\n\n- **Regulation issuer — BBKSDA Jawa Timur.** Balai Besar Konservasi Sumber Daya Alam, the Ministry of Environment body managing the Ijen Crater nature reserve. It issued SE.1658/K2/BIDTEK.1/KSA/9/2024, the supporting authority for the mandatory pre-climb health certificate.\n- **JVTO coordination — Klinik Bakti Husada, Bondowoso.** A Ministry-of-Health-licensed clinic. Screening is conducted at the guest's hotel before the guide briefing and checks SpO₂ and blood pressure before ascent. The certificate is issued as a BSrE (Balai Sertifikasi Elektronik / BSSN) electronically-signed document — a legally valid e-signature under UU ITE, traceable to the doctor's SIP.\n- **Licensed physician — Dr. Ahmad Irwandanu.** SIP (Surat Izin Praktik) and KKI (Konsil Kedokteran Indonesia) registered; STR QN00001073380217 valid to 2031-01-06, independently verifiable via the national health registry at satusehat.kemkes.go.id.\n\nA valid certificate is checked at the crater gate (a BBKSDA requirement): no valid health certificate, no crater access. Full guest-facing detail is on the [Ijen health screening guide](/travel-guide/ijen-health-screening)."
+                "body_md": "JVTO's legal credentials extend into operational health compliance. Under BBKSDA regulation SE.1658/K2/BIDTEK.1/KSA/9/2024, every visitor ascending Kawah Ijen must present a health certificate from a licensed clinic. JVTO coordinates this directly, end to end, with verifiable government-licensed parties:\n\n- **Regulation issuer — BBKSDA Jawa Timur.** Balai Besar Konservasi Sumber Daya Alam, the Ministry of Environment body managing the Ijen Crater nature reserve. It issued SE.1658/K2/BIDTEK.1/KSA/9/2024, the supporting authority for the mandatory pre-climb health certificate.\n- **JVTO coordination — at the guest's hotel in Bondowoso.** Currently Baratha Hotel and Riverside Homestay. A licensed physician attends the property; screening is conducted at the hotel before the guide briefing and checks SpO₂ and blood pressure before ascent. The certificate is issued as a BSrE (Balai Sertifikasi Elektronik / BSSN) electronically-signed document — a legally valid e-signature under UU ITE, traceable to the doctor's SIP.\n- **Licensed physician — Dr. Ahmad Irwandanu.** SIP (Surat Izin Praktik) and KKI (Konsil Kedokteran Indonesia) registered; STR QN00001073380217 valid to 2031-01-06, independently verifiable via the national health registry at satusehat.kemkes.go.id.\n\nA valid certificate is checked at the crater gate (a BBKSDA requirement): no valid health certificate, no crater access. Full guest-facing detail is on the [Ijen health screening guide](/travel-guide/ijen-health-screening)."
               }
             ]
           }
@@ -383,7 +383,7 @@
           },
           {
             "question": "How does the medical screening partnership prove regulatory compliance?",
-            "answer": "BBKSDA Jawa Timur regulation SE.1658/K2/BIDTEK.1/KSA/9/2024 is the supporting authority requiring Ijen visitors to present a clinic-issued health certificate. JVTO's coordination with Dr. Ahmad Irwandanu (SIP verifiable on satusehat.kemkes.go.id) at Klinik Bakti Husada — itself a Ministry-of-Health-licensed clinic — proves the regulatory chain operates end-to-end with verifiable, government-licensed parties."
+            "answer": "BBKSDA Jawa Timur regulation SE.1658/K2/BIDTEK.1/KSA/9/2024 is the supporting authority requiring Ijen visitors to present a clinic-issued health certificate. JVTO's coordination with Dr. Ahmad Irwandanu (SIP verifiable on satusehat.kemkes.go.id), who conducts the screening at the guest's hotel in Bondowoso, proves the regulatory chain operates end-to-end with verifiable, government-licensed parties."
           },
           {
             "question": "Are JVTO guides legally licensed to lead Ijen tours?",

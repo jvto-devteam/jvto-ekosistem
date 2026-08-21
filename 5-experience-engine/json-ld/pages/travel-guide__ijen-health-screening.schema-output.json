@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T06:46:59.333Z",
+  "generated_at": "2026-08-21T07:46:59.611Z",
   "route": "/travel-guide/ijen-health-screening",
   "domain": "travel-guide",
   "slug": "ijen-health-screening",
@@ -228,7 +228,7 @@
           "WebPage"
         ],
         "name": "Ijen Health Certificate — Real Checks, Digital Proof",
-        "description": "Ijen health certificate is mandatory under BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024. JVTO arranges hotel-based screening, vitals check & BSrE-signed certificate.",
+        "description": "Ijen health certificate is mandatory under BBKSDA SE.35/K2/BIDTEK.1/KSA/1/2024. JVTO arranges hotel-based screening, vitals check & BSrE-signed certificate.",
         "url": "https://javavolcano-touroperator.com/travel-guide/ijen-health-screening",
         "isPartOf": {
           "@id": "https://javavolcano-touroperator.com/#organization"

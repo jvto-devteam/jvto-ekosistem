@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T06:46:59.333Z",
+  "generated_at": "2026-08-21T07:46:59.611Z",
   "route": "/verify-jvto/legal",
   "domain": "verify-jvto",
   "slug": "legal",
@@ -303,7 +303,7 @@
             "name": "How does the medical screening partnership prove regulatory compliance?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "BBKSDA Jawa Timur regulation SE.1658/K2/BIDTEK.1/KSA/9/2024 is the supporting authority requiring Ijen visitors to present a clinic-issued health certificate. JVTO's coordination with Dr. Ahmad Irwandanu (SIP verifiable on satusehat.kemkes.go.id) at Klinik Bakti Husada — itself a Ministry-of-Health-licensed clinic — proves the regulatory chain operates end-to-end with verifiable, government-licensed parties."
+              "text": "BBKSDA Jawa Timur regulation SE.1658/K2/BIDTEK.1/KSA/9/2024 is the supporting authority requiring Ijen visitors to present a clinic-issued health certificate. JVTO's coordination with Dr. Ahmad Irwandanu (SIP verifiable on satusehat.kemkes.go.id), who conducts the screening at the guest's hotel in Bondowoso, proves the regulatory chain operates end-to-end with verifiable, government-licensed parties."
             }
           },
           {

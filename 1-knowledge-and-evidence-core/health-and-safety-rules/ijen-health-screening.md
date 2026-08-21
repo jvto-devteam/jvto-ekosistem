@@ -17,7 +17,7 @@ summary: "The mandatory Ijen health screening: real checks at your hotel, a BSrE
 
 BBKSDA Jawa Timur — the government conservation agency responsible for the Kawah Ijen Natural Tourism Park — issued Surat Edaran SE.1658/K2/BIDTEK.1/KSA/9/2024 establishing health-certificate requirements for Ijen crater zone access.
 
-**A health certificate is mandatory for every guest before Kawah Ijen crater entry, per BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024.** JVTO coordinates the mandatory clinic workflow under this regulation.
+**A health certificate is mandatory for every guest before Kawah Ijen crater entry, per BBKSDA SE.35/K2/BIDTEK.1/KSA/1/2024.** JVTO coordinates the mandatory clinic workflow under this regulation.
 
 The certificate requirement is regulatory, set by BBKSDA East Java. It is not unilaterally imposed by JVTO — BBKSDA sets the rule; JVTO coordinates the workflow so every crater-zone guest can satisfy it. At the crater access gate, checkpoint staff check the certificate. No valid health certificate means no crater-zone access.
 
@@ -77,8 +77,8 @@ Screening can be arranged at three locations depending on your itinerary:
 
 | Facility | Location | Type |
 |---|---|---|
-| **Klinik Bakti Husada** | Bondowoso | Certified medical clinic (Kemenkes RI) — physical clinic |
-| **Puskesmas Licin** | Banyuwangi | Government health centre (Dinkes Banyuwangi) |
+| **Baratha Hotel** | Bondowoso | Partner property — physician attends the hotel |
+| **Riverside Homestay** | Bondowoso | Partner property — physician attends the hotel |
 | **Hotel / JVTO office session** | Your accommodation | Mobile session by Dr. Irwandanu before departure |
 
 ---

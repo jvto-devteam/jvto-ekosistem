@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/knowledge-feed/v1",
   "output_type": "public_web_content_feed",
-  "generated_at": "2026-08-21T06:46:59.333Z",
+  "generated_at": "2026-08-21T07:46:59.611Z",
   "record_count": 51,
   "records": [
     {
@@ -404,7 +404,7 @@
       "slug": "ijen-health-screening",
       "title": "Ijen Health Certificate — Real Checks, Digital Proof",
       "summary": "The mandatory Ijen health screening: real checks at your hotel, a BSrE-signed digital certificate, checked at the crater access gate.",
-      "answerFirst": "Before Kawah Ijen crater entry, every guest needs a doctor-issued health certificate under BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024. JVTO coordinates a real hotel-based screening with vitals checks and a BSrE-signed digital certificate. If a guest is not cleared, only that guest's climb is cancelled and safe-zone alternatives apply.",
+      "answerFirst": "Before Kawah Ijen crater entry, every guest needs a doctor-issued health certificate under BBKSDA SE.35/K2/BIDTEK.1/KSA/1/2024. JVTO coordinates a real hotel-based screening with vitals checks and a BSrE-signed digital certificate. If a guest is not cleared, only that guest's climb is cancelled and safe-zone alternatives apply.",
       "status": "published",
       "owner": "operations",
       "lastReviewed": "2026-08-04",

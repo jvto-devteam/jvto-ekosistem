@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-21T06:46:59.333Z",
+  "generated_at": "2026-08-21T07:46:59.611Z",
   "route": "/why-jvto",
   "domain": "why-jvto",
   "slug": "index",
@@ -139,7 +139,7 @@
                     "key": "screening",
                     "label": "Ijen screening",
                     "title": "Ijen Health-Screening",
-                    "text": "Mandatory for every guest under BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024 — we coordinate a BSrE-signed surat sehat through an SIP-licensed doctor, checked at the crater gate.",
+                    "text": "Mandatory for every guest under BBKSDA SE.35/K2/BIDTEK.1/KSA/1/2024 — we coordinate a BSrE-signed surat sehat through an SIP-licensed doctor, checked at the crater gate.",
                     "cred": "Proof · BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024"
                   },
                   {
