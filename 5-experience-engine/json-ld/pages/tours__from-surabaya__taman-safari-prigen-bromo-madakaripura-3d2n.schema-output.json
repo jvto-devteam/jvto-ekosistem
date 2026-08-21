@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T00:24:29.310Z",
+  "generated_at": "2026-08-21T01:00:06.713Z",
   "route": "/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n",
   "domain": "tours",
   "slug": "from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n",
@@ -443,7 +443,7 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-21T00:24:29.310Z",
+    "generated_at": "2026-08-21T01:00:06.713Z",
     "source_files": [
       "2-product-and-commercial-core/tour-products/tours__from-surabaya__taman-safari-prigen-bromo-madakaripura-3d2n.product-contract.json"
     ],

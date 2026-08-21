@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T00:24:29.236Z",
+  "generated_at": "2026-08-21T01:00:06.642Z",
   "route": "/policy/inclusions-exclusions",
   "domain": "policy",
   "slug": "inclusions-exclusions",
@@ -155,7 +155,7 @@
               "@type": "PropertyValue",
               "propertyID": "SHA-256",
               "name": "HPWKI — Supervisory Board member (Pengawas · Anggota), held by founder Agung Sambuko document SHA-256",
-              "value": "ca1fb1a48b550a7748d400f165899f12a356e6941aacdde9c043427698aaf63b"
+              "value": "dbb57389b62b1554e4d66ccd82c6888dd4c31cb0f85619601a9befb786ac32c3"
             }
           },
           {
