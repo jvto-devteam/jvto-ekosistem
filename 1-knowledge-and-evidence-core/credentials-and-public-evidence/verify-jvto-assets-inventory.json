@@ -677,9 +677,9 @@
       "category": "Screening",
       "slug": "print-surat-sehat",
       "geo_context": "Documentation: Standardized Health Clearance Form (Surat Sehat) template.",
-      "sha256": "048712C02E1975018036ADA8E60A8A6E3E336DCC819E12842ECC48EFF6D8826E",
-      "size_bytes": 132751,
-      "size_mb": 0.126601,
+      "sha256": "837246D569BD3DCED780B9392B768109191F92A07267AB1B0EDD72B5360B8351",
+      "size_bytes": 112792,
+      "size_mb": 0.107567,
       "last_verified_iso": "2026-08-21"
     },
     {
@@ -691,9 +691,9 @@
       "category": "Screening",
       "slug": "print-surat-sehat-preview",
       "geo_context": "Documentation: Sample view of the JVTO standardized health clearance form.",
-      "sha256": "9FE13EA0CBB87DDEB2C512370D863FF09B5FD062C36E94472BD35E531E4EAA66",
-      "size_bytes": 114712,
-      "size_mb": 0.109398,
+      "sha256": "2EF9D8A386C87852C7F1D06BCEFE28F49F8FA6007DA2D9964539D6BCDAB0CD36",
+      "size_bytes": 198552,
+      "size_mb": 0.189354,
       "last_verified_iso": "2026-08-21"
     },
     {
