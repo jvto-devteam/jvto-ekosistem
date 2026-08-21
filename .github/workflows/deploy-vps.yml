@@ -341,6 +341,30 @@ jobs:
             pm2 save
           "
 
+      # jvto-web re-renders pages against this server the moment it is told to
+      # revalidate. `pm2 reload` returns before the app is actually listening,
+      # so the old order — restart, then immediately revalidate — pointed
+      # jvto-web at a server still coming up. On 2026-08-21 that took all 11
+      # crew pages to 404: the failed render was cached as notFound() and,
+      # because those routes ARE in the revalidation set, every subsequent
+      # ekosistem deploy re-triggered the same race instead of healing it.
+      # Do not tell a consumer to refresh until we are genuinely serving.
+      - name: Wait until the content API is actually serving
+        run: |
+          set -euo pipefail
+          PROBE="https://ekosistem.javavolcano-touroperator.com/api/file?path=1-knowledge-and-evidence-core/people-and-crew/people.json"
+          for attempt in $(seq 1 30); do
+            code="$(curl -s -o /dev/null -w '%{http_code}' --max-time 10 "$PROBE" || echo 000)"
+            if [ "$code" = "200" ]; then
+              echo "Content API healthy after ${attempt} attempt(s)."
+              exit 0
+            fi
+            echo "attempt ${attempt}: HTTP ${code}; waiting..."
+            sleep 5
+          done
+          echo "Content API did not return 200 within 150s — refusing to trigger revalidation against a server that is not serving."
+          exit 1
+
       - name: Revalidate jvto-web ecosystem cache
         env:
           JVTO_WEB_REVALIDATE_URL: ${{ secrets.JVTO_WEB_REVALIDATE_URL }}
