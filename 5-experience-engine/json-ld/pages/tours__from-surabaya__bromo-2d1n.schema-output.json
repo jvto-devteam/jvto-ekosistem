@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T02:33:31.212Z",
+  "generated_at": "2026-08-21T02:35:59.202Z",
   "route": "/tours/from-surabaya/bromo-2d1n",
   "domain": "tours",
   "slug": "from-surabaya/bromo-2d1n",
@@ -347,7 +347,7 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-21T02:33:31.212Z",
+    "generated_at": "2026-08-21T02:35:59.202Z",
     "source_files": [
       "2-product-and-commercial-core/tour-products/tours__from-surabaya__bromo-2d1n.product-contract.json"
     ],

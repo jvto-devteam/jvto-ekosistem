@@ -1,0 +1,73 @@
+name: Verify Evidence Hashes
+
+# Re-hashes every published evidence document weekly and stamps the date it
+# was checked.
+#
+# Why weekly and why automated: on 2026-08-20 the commercial layer was
+# refreshing daily while /verify-jvto read "Last audit 2026-05-12" and the
+# oldest asset date was 2025-12-02 — on pages whose entire premise is that
+# the verification is current. From outside there is no way to tell "not
+# verified since May" apart from "verified constantly, date never updated",
+# so an auditor has to assume the worse reading. A machine that re-checks on
+# a schedule and writes the date it ran removes that ambiguity, and turns the
+# date from a liability into the point.
+#
+# Scope, stated so the stamped date is not read as more than it is: this
+# proves the served bytes still hash to the published value, i.e. no document
+# was swapped or altered. It does not prove the NIB is still active or the
+# SPRIN still in force — registry questions no hash can answer.
+
+on:
+  schedule:
+    - cron: '0 2 * * 1' # Mondays 02:00 UTC = 09:00 WIB
+  workflow_dispatch:
+
+concurrency:
+  group: evidence-hash-verification
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    name: Re-hash published evidence and stamp the date
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout ekosistem
+        uses: actions/checkout@v4
+
+      # The documents live in the sibling repo's public/ directory; the
+      # verifier hashes them on disk rather than over HTTP so a CDN cannot
+      # mask a changed file.
+      - name: Checkout jvto-web (documents under public/)
+        uses: actions/checkout@v4
+        with:
+          repository: jvto-devteam/jvto-web
+          ref: live
+          path: ../jvto-web
+          token: ${{ secrets.JVTO_WEB_READ_TOKEN || github.token }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Verify and stamp
+        run: node scripts/verify-evidence-hashes.mjs --write
+
+      - name: Commit if the stamp changed
+        run: |
+          set -euo pipefail
+          if git status --porcelain -- \
+            1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-assets-inventory.json \
+            | grep -q .; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add 1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-assets-inventory.json
+            git commit -m "chore(evidence): weekly hash verification $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No date change; nothing to commit."
+          fi
