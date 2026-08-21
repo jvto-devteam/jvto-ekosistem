@@ -1,5 +1,5 @@
 {
-  "_comment": "Source of authorship: llm-wiki wiki/trust/*.md, compiled via llm-wiki's trust-bundle compiler. This file is the point jvto-web reads from — update here after re-running the llm-wiki compiler, do not point jvto-web at llm-wiki directly.",
+  "_comment": "Source of authorship: llm-wiki wiki/trust/*.md, compiled via llm-wiki's trust-bundle compiler. This file is the point jvto-web reads from — update here after re-running the llm-wiki compiler, do not point jvto-web at llm-wiki directly. | 2026-08-21: two entries typed 'ai_generated' (E017, E018) were moved out of evidence[] into derived_artifacts[]. Neither is primary evidence — both are documents assembled ON TOP of real proof, and each already carried proof_ids pointing at the actual exhibits (SPRIN, NIB, TDUP, press). Keeping them inside evidence[] while publishing only a count meant a reader saw 'Evidence: 5' with no way to know one of the five was a generated artifact. derived_artifacts is the honest category: a derived document is not primary evidence whatever tool assembled it. Owner decision (Q8): do not surface the words 'AI-assisted' publicly — reclassification satisfies that without hiding anything, because the underlying proof_ids are the evidence and they remain.",
   "claims": [
     {
       "id": "C1",
@@ -49,17 +49,6 @@
             "press-ksdae-ijen-rijik",
             "press-bbksda-jatim-closure"
           ]
-        },
-        {
-          "id": "E018",
-          "type": "ai_generated",
-          "source_file": "wiki/sources/ijen-safety-protocol.md",
-          "description": "Structured safety protocol — SAR procedures, Lamborghini evacuation, risk flag system, Sengkan Gandrung braking zone, Green Briefings, PVMBG 500m exclusion zone",
-          "proof_ids": [
-            "sprin-polpar",
-            "press-bbksda-jatim-closure",
-            "press-tirto-pendaki-hilang"
-          ]
         }
       ],
       "narrative": {
@@ -72,6 +61,20 @@
         "police-led",
         "safety",
         "trust-signal"
+      ],
+      "derived_artifacts": [
+        {
+          "id": "E018",
+          "kind": "safety_protocol",
+          "title": "Ijen safety protocol — structured operational document",
+          "description": "Structured safety protocol — SAR procedures, Lamborghini evacuation, risk flag system, Sengkan Gandrung braking zone, Green Briefings, PVMBG 500m exclusion zone",
+          "source_file": "wiki/sources/ijen-safety-protocol.md",
+          "built_from": [
+            "sprin-polpar",
+            "press-bbksda-jatim-closure",
+            "press-tirto-pendaki-hilang"
+          ]
+        }
       ]
     },
     {
@@ -86,7 +89,7 @@
           "id": "E004",
           "type": "structured_dataset",
           "source_file": "wiki/products/packages-overview.md",
-          "description": "All 22 packages are private (dedicated vehicle + crew)",
+          "description": "All {PACKAGE_COUNT} packages are private (dedicated vehicle + crew)",
           "proof_ids": [
             "nib-1102230032918",
             "tdup-1102230032918"
@@ -192,7 +195,7 @@
       "canonical_text": "JVTO organizes trust signals as a verification layer: clear claims, context, and evidence links — not just marketing statements.",
       "domain": "credentials",
       "category": "trust-signal",
-      "last_verified": "2026-05-26",
+      "last_verified": "2026-08-21",
       "evidence": [
         {
           "id": "E008",
@@ -206,15 +209,30 @@
           ]
         },
         {
-          "id": "E017",
-          "type": "ai_generated",
-          "source_file": "wiki/sources/jvto-verification-dossier.md",
-          "description": "14-page visual dossier consolidating all 9 claims with verified document exhibits. Customer-facing trust artifact. SHA-256 anchored.",
+          "id": "E019",
+          "type": "official_authority",
+          "source_file": "public/legal/AHU-PTJVR.pdf",
+          "description": "Menkumham decree AHU-0010187.AH.01.01.TAHUN 2023 approving PT Java Volcano Rendezvous as a legal entity, with register entry AHU-0026835. Published with SHA-256.",
           "proof_ids": [
-            "nib-1102230032918",
-            "tdup-1102230032918",
-            "sprin-polpar",
-            "sprin-wal-travel-2024-02-12"
+            "ahu-0010187-ptjvr"
+          ]
+        },
+        {
+          "id": "E020",
+          "type": "official_authority",
+          "source_file": "public/screening/SIP_DOKTER_AHMAD_IRWANDANU_2026.pdf",
+          "description": "Practice licence (SIP 503.446/664/DRU/4/430.9.13/2026) of the physician who signs the Ijen health certificates, issued by DPMPTSP Bondowoso, BSrE-signed, STR valid to 2031. Published with SHA-256.",
+          "proof_ids": [
+            "sip-ahmad-irwandanu-2026"
+          ]
+        },
+        {
+          "id": "E021",
+          "type": "official_authority",
+          "source_file": "public/screening/bbksda/05012024_Edaran_Pembukaan_TWA_Kawah_Ijen.pdf",
+          "description": "BBKSDA Jawa Timur circular SE.1658/K2/BIDTEK.1/KSA/9/2024 governing access to TWA Kawah Ijen. A regulation JVTO operates under, not a permit issued to JVTO. Published with SHA-256.",
+          "proof_ids": [
+            "bbksda-se-1658-2024"
           ]
         }
       ],
@@ -227,6 +245,21 @@
       "tags": [
         "credential-verification",
         "trust-signal"
+      ],
+      "derived_artifacts": [
+        {
+          "id": "E017",
+          "kind": "verification_dossier",
+          "title": "JVTO verification dossier — 14-page visual consolidation",
+          "description": "14-page visual dossier consolidating all 9 claims with verified document exhibits. Customer-facing trust artifact. SHA-256 anchored.",
+          "source_file": "wiki/sources/jvto-verification-dossier.md",
+          "built_from": [
+            "nib-1102230032918",
+            "tdup-1102230032918",
+            "sprin-polpar",
+            "sprin-wal-travel-2024-02-12"
+          ]
+        }
       ]
     },
     {
@@ -250,7 +283,7 @@
           "id": "E010",
           "type": "customer_review",
           "source_file": "wiki/reviews/google-tripadvisor-2026.md",
-          "description": "Google Maps 4.9/5 (123 reviews), TripAdvisor 4.95/5 (21 reviews)",
+          "description": "Google Maps {GOOGLE_RATING}/5 ({GOOGLE_REVIEW_COUNT} reviews), TripAdvisor {TRIPADVISOR_RATING}/5 ({TRIPADVISOR_COUNT} reviews)",
           "proof_ids": [
             "google-maps-live-cid",
             "tripadvisor-live-profile"
