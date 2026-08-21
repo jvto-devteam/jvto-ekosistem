@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto/output/knowledge-feed/v1",
   "output_type": "public_web_content_feed",
-  "generated_at": "2026-08-21T06:22:36.410Z",
-  "record_count": 52,
+  "generated_at": "2026-08-21T06:46:59.333Z",
+  "record_count": 51,
   "records": [
     {
       "route": "/",
@@ -557,24 +557,6 @@
         "1-knowledge-and-evidence-core/health-and-safety-rules/weather-and-closures.md",
         "1-knowledge-and-evidence-core/faqs/travel-guide-weather-and-closures.json",
         "5-experience-engine/seo-metadata/page-metadata-index.json"
-      ]
-    },
-    {
-      "route": "/trust",
-      "domain": "trust",
-      "slug": "index",
-      "title": "Trust Bundle.",
-      "summary": "Single-page index of JVTO's verifiable trust claims, evidence registry, and structured AEO/GEO signals. Compiled from the JVTO knowledge wiki.",
-      "status": "published",
-      "owner": "editorial",
-      "lastReviewed": "2026-08-18",
-      "outputTargets": [
-        "public_website",
-        "json_ld",
-        "knowledge_feed"
-      ],
-      "sourceFiles": [
-        "jvto-web:src/app/(website)/trust/page.tsx (fallbackSeo constant)"
       ]
     },
     {

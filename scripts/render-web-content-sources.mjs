@@ -20,7 +20,6 @@ const SOURCE_DIRS = [
   "1-knowledge-and-evidence-core/contact",
   "1-knowledge-and-evidence-core/isic",
   "1-knowledge-and-evidence-core/tours",
-  "1-knowledge-and-evidence-core/trust",
   "1-knowledge-and-evidence-core/home"
 ];
 let peopleCache = null;

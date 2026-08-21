@@ -167,8 +167,11 @@ jobs:
             (r) => !reviewRouteRe.test(r.route) && !pdpRouteRe.test(r.route),
           );
 
-          if (contentRoutes.length !== 52) {
-            throw new Error(`Expected 52 live-aligned CMS routes, got ${contentRoutes.length}`);
+          // 51 since 2026-08-21: /trust was retired (owner decision). It restated
+          // /verify-jvto's claims and evidence on a second surface that had to be
+          // kept in sync, and had gone 84 days without an inbound link.
+          if (contentRoutes.length !== 51) {
+            throw new Error(`Expected 51 live-aligned CMS routes, got ${contentRoutes.length}`);
           }
 
           const reviews = JSON.parse(
