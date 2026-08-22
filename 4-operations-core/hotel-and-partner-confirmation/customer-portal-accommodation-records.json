@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto-operations/customer-portal-accommodations-v1",
-  "generated_at": "2026-08-21T02:15:50.265Z",
-  "record_count": 137,
+  "generated_at": "2026-08-22T02:06:54.361Z",
+  "record_count": 140,
   "records": [
     {
       "booking_id": 1566,
@@ -3123,6 +3123,72 @@
           "day": 2,
           "name": "Joglo Kecombrang Bromo",
           "rooms": "Double (1)",
+          "banner_present": true
+        }
+      ]
+    },
+    {
+      "booking_id": 3777,
+      "booking_ref": "JVTO-3777",
+      "package_name": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "travel_date_start": "2026-08-22",
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Joglo Kecombrang Bromo",
+          "rooms": "Double (2)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Baratha Hotel and Resto",
+          "rooms": "Deluxe Double (2)",
+          "banner_present": true
+        }
+      ]
+    },
+    {
+      "booking_id": 3784,
+      "booking_ref": "JVTO-3784",
+      "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+      "travel_date_start": "2026-08-23",
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Riverside Homestay",
+          "rooms": "Platinum Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Doho Homestay",
+          "rooms": "Deluxe Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 3,
+          "name": "Joglo Kecombrang Bromo",
+          "rooms": "Double (1)",
+          "banner_present": true
+        }
+      ]
+    },
+    {
+      "booking_id": 3789,
+      "booking_ref": "JVTO-3789",
+      "package_name": "3 Day Ijen, Bromo & Madakaripura Waterfall Journey from Bali to Surabaya",
+      "travel_date_start": "2026-08-29",
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Luminor Hotel",
+          "rooms": "Deluxe Twin (1), Extra Bed (1)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Joglo Kecombrang Bromo",
+          "rooms": "Family (1)",
           "banner_present": true
         }
       ]

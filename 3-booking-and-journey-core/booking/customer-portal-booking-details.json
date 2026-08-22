@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-booking/customer-portal-booking-details-v1",
-  "generated_at": "2026-08-21T02:15:50.261Z",
+  "generated_at": "2026-08-22T02:06:54.356Z",
   "privacy": "No customer names, contact details, portal slugs, payment links, media links, payment references, or uploaded proof URLs are stored.",
-  "record_count": 137,
+  "record_count": 140,
   "records": [
     {
       "booking_id": 1566,
@@ -5049,8 +5049,8 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
-        "m": 0,
+        "s": 1,
+        "m": 1,
         "l": 0,
         "xl": 0,
         "xxl": 0
@@ -6805,6 +6805,155 @@
         "pending_upload_proof": false,
         "uploaded_payment_proof_present": false,
         "payment_history": []
+      }
+    },
+    {
+      "booking_id": 3777,
+      "booking_ref": "JVTO-3777",
+      "booking_code": "JVR/092/08/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "product": {
+        "package_name": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
+        "duration": "3D 2N",
+        "travel_date_start": "2026-08-22",
+        "travel_date_end": "2026-08-24",
+        "total_pax": 4
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 4,
+        "xl": 0,
+        "xxl": 0
+      },
+      "addons": [],
+      "finance": {
+        "grand_total": 12200000,
+        "total_addons": 0,
+        "dp_amount": 12200000,
+        "balance": 0,
+        "paid_amount": 12200000,
+        "due_date": "2026-08-21 00:00:00",
+        "initial_payment_method": "pay later",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": true,
+        "uploaded_payment_proof_present": true,
+        "payment_history": [
+          {
+            "id": 872,
+            "nominal": 12200000,
+            "description": "Down Payment (Full Payment)",
+            "method": "Bank Transfer",
+            "created_at": "2026-08-21 14:24:00",
+            "reference_present": true
+          }
+        ]
+      }
+    },
+    {
+      "booking_id": 3784,
+      "booking_ref": "JVTO-3784",
+      "booking_code": "JVR/093/08/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "product": {
+        "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
+        "duration": "4D 3N",
+        "travel_date_start": "2026-08-23",
+        "travel_date_end": "2026-08-26",
+        "total_pax": 2
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 1,
+        "m": 0,
+        "l": 0,
+        "xl": 1,
+        "xxl": 0
+      },
+      "addons": [
+        {
+          "id": 770,
+          "name": "Madakaripura Waterfall",
+          "qty": 2,
+          "price": 200000,
+          "subtotal": 400000
+        }
+      ],
+      "finance": {
+        "grand_total": 9500000,
+        "total_addons": 400000,
+        "dp_amount": 9500000,
+        "balance": 0,
+        "paid_amount": 9500000,
+        "due_date": "2026-08-22 00:00:00",
+        "initial_payment_method": "pay later",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": true,
+        "uploaded_payment_proof_present": true,
+        "payment_history": [
+          {
+            "id": 873,
+            "nominal": 9500000,
+            "description": "Down Payment (Full Payment)",
+            "method": "Bank Transfer",
+            "created_at": "2026-08-21 15:42:15",
+            "reference_present": true
+          }
+        ]
+      }
+    },
+    {
+      "booking_id": 3789,
+      "booking_ref": "JVTO-3789",
+      "booking_code": "JVR/098/08/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "product": {
+        "package_name": "3 Day Ijen, Bromo & Madakaripura Waterfall Journey from Bali to Surabaya",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-bali/ijen-bromo-madakaripura-3d2n",
+        "duration": "3D 2N",
+        "travel_date_start": "2026-08-29",
+        "travel_date_end": "2026-08-31",
+        "total_pax": 3
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "addons": [],
+      "finance": {
+        "grand_total": 11400000,
+        "total_addons": 0,
+        "dp_amount": 11400000,
+        "balance": 0,
+        "paid_amount": 11400000,
+        "due_date": "2026-08-22 00:00:00",
+        "initial_payment_method": "cc",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": [
+          {
+            "id": 874,
+            "nominal": 11400000,
+            "description": "Down Payment (Full Payment)",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-21 23:41:12",
+            "reference_present": true
+          }
+        ]
       }
     }
   ]

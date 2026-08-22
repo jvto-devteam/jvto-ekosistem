@@ -28,8 +28,8 @@
       "media_link": "https://drive.google.com/drive/folders/19NgU0J3hzVKKrf0JwtFs6q5tQHUXLvtL",
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
-        "m": 0,
+        "s": 1,
+        "m": 1,
         "l": 0,
         "xl": 0,
         "xxl": 0
@@ -37,17 +37,17 @@
       "crews": {
         "guides": [
           {
-            "id": 2,
-            "name": "Juan",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1698673228_PHOTO JUAN.png",
-            "role": "Ijen Guide"
+            "id": 46,
+            "name": "Fauzi",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528816_FAUZI.JPG",
+            "role": "Escort Guide"
           }
         ],
         "drivers": [
           {
-            "id": 7,
-            "name": "Fredi",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528837_FREDI.JPG",
+            "id": 73,
+            "name": "Joyo",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
             "role": "Driver"
           }
         ]

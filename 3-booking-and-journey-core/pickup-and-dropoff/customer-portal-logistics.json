@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-booking/customer-portal-logistics-v1",
-  "generated_at": "2026-08-21T02:15:50.262Z",
+  "generated_at": "2026-08-22T02:06:54.358Z",
   "privacy": "Logistics values are operational booking fields. Customer identity and portal access slugs are excluded.",
-  "record_count": 137,
+  "record_count": 140,
   "records": [
     {
       "booking_id": 1566,
@@ -1737,8 +1737,8 @@
       "travel_date_end": "2026-08-25",
       "total_pax": 2,
       "logistics": {
-        "pickup": "  ",
-        "pickup_time": null,
+        "pickup": "Surabaya Airport Terminal 1 IP-204",
+        "pickup_time": "12:15:00",
         "drop": "  ",
         "drop_time": null,
         "special_requirements_present": false
@@ -2055,6 +2055,51 @@
         "pickup": "Surabaya Train Station Gubeng Station Sancaka 84",
         "pickup_time": "10:45:00",
         "drop": "",
+        "drop_time": null,
+        "special_requirements_present": false
+      }
+    },
+    {
+      "booking_id": 3777,
+      "booking_ref": "JVTO-3777",
+      "status": "booked",
+      "travel_date_start": "2026-08-22",
+      "travel_date_end": "2026-08-24",
+      "total_pax": 4,
+      "logistics": {
+        "pickup": "Bungurasih",
+        "pickup_time": "09:00:00",
+        "drop": "Ketapang Port",
+        "drop_time": "10:00:00",
+        "special_requirements_present": false
+      }
+    },
+    {
+      "booking_id": 3784,
+      "booking_ref": "JVTO-3784",
+      "status": "booked",
+      "travel_date_start": "2026-08-23",
+      "travel_date_end": "2026-08-26",
+      "total_pax": 2,
+      "logistics": {
+        "pickup": "Surabaya Hotel  choice city hotel BG Junction",
+        "pickup_time": "11:00:00",
+        "drop": "  ",
+        "drop_time": null,
+        "special_requirements_present": false
+      }
+    },
+    {
+      "booking_id": 3789,
+      "booking_ref": "JVTO-3789",
+      "status": "booked",
+      "travel_date_start": "2026-08-29",
+      "travel_date_end": "2026-08-31",
+      "total_pax": 3,
+      "logistics": {
+        "pickup": "Bali Hotel  ",
+        "pickup_time": "10:00:00",
+        "drop": "  ",
         "drop_time": null,
         "special_requirements_present": false
       }
