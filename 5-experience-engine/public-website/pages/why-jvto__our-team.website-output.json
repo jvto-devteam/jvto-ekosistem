@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-22T04:56:18.830Z",
+  "generated_at": "2026-08-22T22:35:40.128Z",
   "route": "/why-jvto/our-team",
   "domain": "why-jvto",
   "slug": "our-team",
@@ -244,7 +244,7 @@
             "blocks": [
               {
                 "type": "markdown",
-                "body_md": "Many trips run smoother with a clear pairing: one person focuses on driving and timing, another focuses on guest flow and guiding.\n\nThis is not about luxury. It’s about reducing mistakes when routes are long and schedules are tight.\n\n- Driver: safe driving, timing, road conditions, vehicle readiness.\n- Escort guide: guest briefings, translations, pace, logistics coordination.\n- Local volcano guide (when required): site rules, on-trail guidance."
+                "body_md": "Many trips run smoother with a clear pairing: one person focuses on driving and timing, another focuses on guest flow and guiding.\n\nThis is not about luxury. It’s about reducing mistakes when routes are long and schedules are tight.\n\n- Driver: safe driving, timing, road conditions, vehicle readiness.\n- Escort guide: guest briefings, translations, pace, logistics coordination.\n- Volcano guide (on Ijen routes): site rules, on-trail guidance, safety protocols."
               }
             ]
           },

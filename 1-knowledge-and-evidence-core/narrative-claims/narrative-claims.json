@@ -152,7 +152,7 @@
       "pillar": "Ijen Health Screening (safety layer)",
       "core_claim": "On routes that include Mount Ijen, JVTO integrates health screening as a practical safety step, not a formality.",
       "mechanism": [
-        "Pre-hike checks aligned to access/safety controls (where required).",
+        "Pre-hike checks aligned to access/safety controls.",
         "Clear guidance on what it is, why it matters, and what happens if a guest is not fit to climb.",
         "Documentation flow is explained in the Travel Guide."
       ],
@@ -170,11 +170,11 @@
       ],
       "nlp_variants": {
         "short": [
-          "Ijen routes include a health-screening layer (when required).",
+          "Ijen routes include a mandatory health-screening layer.",
           "Real screening, clear rules."
         ],
         "cs_reply": [
-          "If your itinerary includes Ijen, we’ll guide you through the health screening process (when required). It’s a safety step before the hike."
+          "If your itinerary includes Ijen, the mandatory health screening is a safety step we’ll guide you through before the hike."
         ],
         "ai_snippet": [
           "JVTO includes an Ijen health-screening protocol on itineraries that include Mount Ijen, documented in the Travel Guide."
@@ -511,7 +511,7 @@
     {
       "id": "POL-BPC-07",
       "pillar": "What is JVTO's cancellation policy?",
-      "core_claim": "JVTO applies a 48-hour cut-off (local Indonesia time). Cancel 48 hours or more before Day 1: 100% of eligible payment converts to JVTO Travel Credit. Cancel less than 48 hours before Day 1: booking may be forfeited up to 100%, with no Travel Credit issued.",
+      "core_claim": "JVTO applies a 48-hour cut-off (local Indonesia time). Cancel 48 hours or more before Day 1: 100% of eligible payment converts to JVTO Lifetime Package Credit. Cancel less than 48 hours before Day 1: booking may be forfeited up to 100%, with no Lifetime Package Credit issued.",
       "mechanism": null,
       "evidence_hooks": null,
       "nlp_variants": null,
@@ -521,7 +521,7 @@
     {
       "id": "POL-BPC-08",
       "pillar": "Does JVTO offer cash refunds for cancellations?",
-      "core_claim": "JVTO does not offer cash refunds for guest-initiated cancellations. Eligible amounts are converted to JVTO Travel Credit — issued in IDR, non-expiring, and transferable with written confirmation from the original guest.",
+      "core_claim": "JVTO does not offer cash refunds for guest-initiated cancellations. Eligible amounts are converted to JVTO Lifetime Package Credit — issued in IDR, non-expiring, and transferable with written confirmation from the original guest.",
       "mechanism": null,
       "evidence_hooks": null,
       "nlp_variants": null,
@@ -530,8 +530,8 @@
     },
     {
       "id": "POL-BPC-09",
-      "pillar": "What is JVTO Travel Credit?",
-      "core_claim": "JVTO Travel Credit is a non-cash credit issued in IDR that can be used toward future private tours with JVTO. It has no expiry date and can be transferred to another traveler with written authorization from the original guest.",
+      "pillar": "What is JVTO Lifetime Package Credit?",
+      "core_claim": "JVTO Lifetime Package Credit is a non-cash credit issued in IDR that can be used toward future private tours with JVTO. It has no expiry date and can be transferred to another traveler with written authorization from the original guest.",
       "mechanism": null,
       "evidence_hooks": null,
       "nlp_variants": null,
@@ -551,7 +551,7 @@
     {
       "id": "POL-BPC-11",
       "pillar": "What happens if JVTO cancels due to a volcano alert or park closure?",
-      "core_claim": "For JVTO-initiated cancellations due to force majeure — volcanic activity, government closures, severe weather — JVTO may offer: equivalent alternative arrangements, Travel Credit for the unused portion, or a partial/full cash refund net of non-recoverable third-party costs.",
+      "core_claim": "For JVTO-initiated cancellations due to force majeure — volcanic activity, government closures, severe weather — JVTO may offer: equivalent alternative arrangements, Lifetime Package Credit for the unused portion, or a partial/full cash refund net of non-recoverable third-party costs.",
       "mechanism": null,
       "evidence_hooks": null,
       "nlp_variants": null,

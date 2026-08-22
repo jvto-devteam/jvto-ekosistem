@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-22T04:56:18.830Z",
+  "generated_at": "2026-08-22T22:35:40.128Z",
   "route": "/",
   "domain": "home",
   "slug": "index",
@@ -132,7 +132,7 @@
         "pageContent": {
           "schemaFacts": {
             "serviceNode": {
-              "description": "Standardized private operations for active-volcano environments, with disciplined risk protocols, own crew execution (not outsourced), and pre-ascent health screening for Mount Ijen when applicable."
+              "description": "Standardized private operations for active-volcano environments, with disciplined risk protocols, own crew execution (not outsourced), and mandatory pre-ascent health screening for Mount Ijen."
             },
             "healthApp": {
               "name": "Mount Ijen Digital Health Screening",
@@ -167,7 +167,7 @@
           },
           {
             "question": "What happens if weather or volcanic conditions change the plan?",
-            "answer": "Safety comes first. If access conditions change, JVTO uses an alternative-route approach and communicates clearly. Force-majeure closures are handled under our travel-credit policy: 100% Travel Credit (non-expiring, transferable, IDR-denominated, no rebooking fee)."
+            "answer": "Safety comes first. If access conditions change, JVTO uses an alternative-route approach and communicates clearly. Force-majeure closures are handled under our travel-credit policy: 100% Lifetime Package Credit (non-expiring, transferable, IDR-denominated, no rebooking fee)."
           },
           {
             "question": "How can I verify JVTO before booking?",
@@ -179,7 +179,7 @@
           },
           {
             "question": "How do you ensure safety at Ijen Crater?",
-            "answer": "Safety is our core product. When BBKSDA access rules require it (SE.1658/K2/BIDTEK.1/KSA/9/2024), JVTO coordinates the health certificate process (surat sehat) with licensed medical partners. We provide professional-grade gas masks and a team trained in volcanic risk management. Our founder's background in the Tourist Police means our safety protocols are not just 'guidelines' — they are police-standard procedures."
+            "answer": "Safety is our core product. Under BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024, JVTO coordinates the mandatory health certificate process (surat sehat) with licensed medical partners. We provide professional-grade gas masks and a team trained in volcanic risk management. Our founder's background in the Tourist Police means our safety protocols are not just 'guidelines' — they are police-standard procedures."
           },
           {
             "question": "Are your tours truly private?",
@@ -187,7 +187,7 @@
           },
           {
             "question": "What happens if my trip is cancelled?",
-            "answer": "We maintain a transparent cancellation policy. Cancellations made ≥48 hours before Day 1 receive 100% Travel Credit — non-expiring, transferable to any traveler, denominated in IDR, with no rebooking fee. Our legal registration ensures you have recourse that 'freelance' guides cannot offer."
+            "answer": "We maintain a transparent cancellation policy. Cancellations made ≥48 hours before Day 1 receive 100% Lifetime Package Credit — non-expiring, transferable to any traveler, denominated in IDR, with no rebooking fee. Our legal registration ensures you have recourse that 'freelance' guides cannot offer."
           }
         ]
       }

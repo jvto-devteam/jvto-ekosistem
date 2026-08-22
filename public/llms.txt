@@ -57,7 +57,7 @@ Do not hand-edit public/llms.txt; edit the source files and run npm run render:l
 - **POL-BPC-06 - What is the order of precedence if JVTO policies conflict?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
 - **POL-BPC-07 - What is JVTO's cancellation policy?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
 - **POL-BPC-08 - Does JVTO offer cash refunds for cancellations?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
-- **POL-BPC-09 - What is JVTO Travel Credit?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
+- **POL-BPC-09 - What is JVTO Lifetime Package Credit?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
 - **POL-BPC-10 - Can I reschedule my JVTO tour?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
 - **POL-BPC-11 - What happens if JVTO cancels due to a volcano alert or park closure?**: https://javavolcano-touroperator.com/policy/booking-payment-cancellation
 - **POL-IE-01 - What is included in a JVTO private tour package?**: https://javavolcano-touroperator.com/policy/inclusions-exclusions
@@ -110,4 +110,4 @@ Each line states the page's key fact directly, so it can be quoted without fetch
 - [JVTO Policy Hub](https://javavolcano-touroperator.com/policy): JVTO policy pages define the booking, payment, cancellation, inclusions, exclusions and privacy rules that apply before a private tour is confirmed. The binding order starts with the official e-voucher or invoice PDF, then the published policy pages, then supporting travel-guide guidance for operational details.
 
 ---
-Compiled 2026-08-22T04:09:11.201Z from 51 knowledge-feed records. Feed generated 2026-08-22T04:09:10.795Z.
+Compiled 2026-08-22T22:35:43.000Z from 51 knowledge-feed records. Feed generated 2026-08-22T22:35:40.128Z.
