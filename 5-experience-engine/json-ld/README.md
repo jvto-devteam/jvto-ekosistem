@@ -10,27 +10,18 @@ Rules:
   `scripts/render-web-content-sources.mjs`), not hand-edited;
 - `schema-types-index.json` is manually maintained — no generator script
   writes to it;
-- **`AggregateRating`, `Review`, `TouristTrip`, and `Offer` schema.org types
-  are intentionally never emitted here.** This is a deliberate design
-  decision, not an unimplemented feature or a gap — see the `knownOmissions`
-  field in `schema-types-index.json` and the comment block in
-  `scripts/render-web-content-sources.mjs` for the full rationale;
-- the live rating is rendered directly by jvto-web, which reads
-  `1-knowledge-and-evidence-core/credentials-and-public-evidence/review-platforms.json`
-  as its single source of truth (`getPublicAggregateRating()` →
-  `getEcosystemReviewProfiles()`), independent of this folder's build output;
-- per-review `Review` nodes are the same story: jvto-web renders them live
-  (`buildIndividualReviewSchemas()`) reading directly from
-  `1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json`,
-  which is appended to daily by `sync-google-reviews.yml` — a static copy
-  here would go stale the same way a static rating would;
-- `TouristTrip`/`Offer` on the 17 tour package PDPs (`/tours/from-bali/*`,
-  `/tours/from-surabaya/*`) are the same story again: this folder only
-  covers hub routes, not individual PDPs, and jvto-web renders those nodes
-  live reading directly from
-  `2-product-and-commercial-core/tour-products/<slug>.product-contract.json`;
-- do not add `AggregateRating`/`Review`/`TouristTrip`/`Offer` nodes here to
-  "fix" the absence described above — that would create a second, competing
-  source and reintroduce the exact drift problem the current design was
-  built to end (see owner decision 2026-08-15 referenced in
-  `render-web-content-sources.mjs`).
+- `AggregateRating` is emitted inline on Organization nodes by
+  `scripts/lib/build-organization.mjs`. Its only source is the `Google Maps`
+  profile in
+  `1-knowledge-and-evidence-core/credentials-and-public-evidence/review-platforms.json`;
+  ratings from other platforms are never blended into the public figure;
+- `Review` nodes are emitted for the reviews hub and review-detail graphs by
+  `scripts/generate-review-schema.mjs`, sourced from
+  `1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json`;
+- `TouristTrip`/`Offer` nodes are emitted on the 17 tour package PDPs
+  (`/tours/from-bali/*`, `/tours/from-surabaya/*`) by
+  `scripts/generate-tourist-trip-schema.mjs`;
+- `schema-types-index.json` records prior capability changes in
+  `knownOmissions`; its `AggregateRating`, `Review`, and
+  `TouristTrip_and_Offer` entries are marked `REVERSED` and describe the
+  active generators.
