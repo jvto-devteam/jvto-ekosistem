@@ -3,7 +3,6 @@
   "lastReviewed": "2026-08-20",
   "owner": "organization-identity",
   "reviewStatus": "migrated-from-jvto-web-entityGraph",
-
   "organizationReference": {
     "_comment": "ORGANIZATION_SCHEMA in entityGraph.ts is reference-only — zero live consumers (live's real Organization node is DB-driven via getOrganizationProfile/buildOrganizationJsonLd). Migrated for parity anyway since it's an explicit entityGraph.ts export. slogan/award already match organization-identity/organization.json verbatim; description is new (not present in organization.json).",
     "slogan": "Private volcano tours with police-led safety. Ijen, Bromo, Tumpak Sewu.",
@@ -13,7 +12,6 @@
       "Stefan Loose Reiseführer Indonesien — Editorial Feature (4th Edition, 2018)"
     ]
   },
-
   "founder": {
     "imageCaptions": {
       "portrait": "Agung Sambuko, Founder of Java Volcano Tour Operator",
@@ -45,34 +43,32 @@
       }
     }
   },
-
   "doctor": {
     "jobTitle": "Licensed General Practitioner",
     "clinic": {
       "name": "Baratha Hotel / Riverside Homestay, Bondowoso",
       "medicalSpecialty": "General Practice",
-      "description": "Ministry of Health-licensed clinic coordinating Ijen health screening for JVTO guests. Issues health certificates compliant with BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024."
+      "description": "Screening venue, not a clinic: the physician attends the guest's hotel in Bondowoso (Baratha Hotel, Riverside Homestay). Certificates issued there meet the BBKSDA health-certificate requirement for Kawah Ijen (SE.1658/K2/BIDTEK.1/KSA/9/2024)."
     },
     "hasCredential": {
       "sip": {
         "name": "SIP (Surat Izin Praktik) — Medical Practice Licence",
         "credentialCategory": "Indonesian Medical Practice Licence",
-        "description": "Publicly verifiable at satusehat.kemkes.go.id — the Indonesian national health registry."
+        "description": "SIP 503.446/664/DRU/4/430.9.13/2026, issued in Bondowoso on 6 January 2026 by Dinas Penanaman Modal, PTSP dan Tenaga Kerja Kabupaten Bondowoso under Permenkes 2052/Menkes/Per/X/2011. Practice of record: Praktik Mandiri dr. Ahmad Irwandanu, Pujer, Bondowoso."
       },
       "kki": {
         "name": "KKI Registration (Konsil Kedokteran Indonesia)",
-        "credentialCategory": "Indonesian Medical Council Registration"
+        "credentialCategory": "Indonesian Medical Council Registration",
+        "description": "STR QN00001073380217, valid to 6 January 2031. Issued through Konsil Kedokteran Indonesia and verifiable in the Kemenkes SATUSEHAT health-workforce registry."
       }
     }
   },
-
   "bbksdaRegulation": {
     "name": "Ijen Crater Access — Health Certificate Requirement",
     "description": "Under SE.1658/K2/BIDTEK.1/KSA/9/2024 issued by BBKSDA Jawa Timur, visitors to Kawah Ijen must present a health certificate from a licensed clinic confirming blood pressure and oxygen saturation readings are within safe limits.",
     "serviceOutputName": "Health Certificate for Ijen Crater Access (Surat Keterangan Sehat)",
     "areaServedName": "Kawah Ijen (Ijen Crater)"
   },
-
   "definedTerms": {
     "NIB": {
       "name": "NIB (Nomor Induk Berusaha)",
@@ -137,7 +133,6 @@
       "termSetName": "JVTO Operational Policy Pack v5"
     }
   },
-
   "javaIslandPlace": {
     "description": "Java is an island in Indonesia — the world's most populous island, home to Jakarta, Surabaya, Mount Bromo, and Kawah Ijen. Distinct from Java the programming language."
   }
