@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-22T00:59:01.220Z",
+  "generated_at": "2026-08-22T01:16:52.194Z",
   "route": "/why-jvto/our-team/joyo",
   "domain": "why-jvto",
   "slug": "our-team/joyo",
@@ -369,6 +369,23 @@
             },
             "datePublished": "2025-12-31",
             "reviewBody": "We had a very professional organised tour with the team at JV. Our tour guide Gufron - was super friendly and made sure all our needs were taken care off...his knowledge of the area was also great. Our drive Joyo knows how to get from A to B in the fastest time possible! We did the 5/6 night tour but in hindsight the 4/5 night tour would have given us all the highlights of the region. I would use this company again - they are very professional and their online dashboard gives you all the information you need.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/276#crew-joyo",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/276",
+            "author": {
+              "@type": "Person",
+              "name": "Tobias W."
+            },
+            "datePublished": "2025-09-16",
+            "reviewBody": "We can only praise the JVTO team, and above all our guide Rendi and our driver Joyo, in the highest terms. We came across JVTO by chance, and looking back, we are incredibly grateful.",
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",

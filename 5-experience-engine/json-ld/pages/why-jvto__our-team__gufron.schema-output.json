@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-22T00:59:01.220Z",
+  "generated_at": "2026-08-22T01:16:52.194Z",
   "route": "/why-jvto/our-team/gufron",
   "domain": "why-jvto",
   "slug": "our-team/gufron",
@@ -412,6 +412,40 @@
           },
           {
             "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/268#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/268",
+            "author": {
+              "@type": "Person",
+              "name": "Alydies Yue"
+            },
+            "datePublished": "2025-10-27",
+            "reviewBody": "We joined the 3D2N Mount Bromo, Madakaripura Waterfall, and Ijen Crater Tour and had an awesome time!\\n\\nThe tour was really well organized, with hikes spaced out just right so we had enough rest. There was also plenty of time to check out each spot. The food and accommodation were way better than we expected.\\n\\nBig thanks to our guide Gufron—he's super friendly and fun to hang out with. His briefings (and pretty drawing) before each hike were professional, and he looked after us the whole trip. He also knows all the best spots for photos! Our driver Fredi was always on time. The whole crew made the trip amazing and totally unforgettable.\\n\\nWe highly recommend this tour!\\n10/10!!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/274#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/274",
+            "author": {
+              "@type": "Person",
+              "name": "Nina nguyen"
+            },
+            "datePublished": "2025-10-12",
+            "reviewBody": "I recently joined a tour to East Java with JVTO, and it was absolutely incredible! Our guide, Gufron, and driver, Holili, made the entire trip so comfortable and safe.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
             "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/169#crew-gufron",
             "url": "https://javavolcano-touroperator.com/why-jvto/reviews/169",
             "author": {
@@ -471,6 +505,23 @@
             },
             "datePublished": "2025-08-28",
             "reviewBody": "We had the best experience with Gufron as our guide for Mount Bromo and Mount Ijen! He was absolutely exceptional – always smiling, funny, and full of positive energy, yet never intrusive and always respectful of our space. He made the whole trip smooth, enjoyable, and memorable. We couldn't have asked for a better guide and we highly recommend him to anyone visiting Bromo and Ijen!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/301#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/301",
+            "author": {
+              "@type": "Person",
+              "name": "fedenmark"
+            },
+            "datePublished": "2025-07-28",
+            "reviewBody": "Beautiful tour to explore the wonders of East Java. Among the different operators I chose Java Volcano Tour Operator and we really enjoyed it. Excellent guide Gufran and driver Johan. Excellent hotels included in the tour price.",
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",
@@ -556,6 +607,23 @@
             },
             "datePublished": "2025-05-15",
             "reviewBody": "We had a fantastic tour experience with Gufron as our guide and Joyo as our driver. Gufron was incredibly knowledgeable and friendly throughout the entire trip, making every stop more meaningful with his insights and stories. Very accommodating to our hiking pace, allowing us to enjoy the journey without feeling rushed. He also gave us excellent food recommendations that allowed us to enjoy authentic local flavors!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/289#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/289",
+            "author": {
+              "@type": "Person",
+              "name": "Basia DM"
+            },
+            "datePublished": "2025-05-13",
+            "reviewBody": "Great experience! Thank you JVTO, and thank you Gufron! Best guide! East Java is wonderful and the experience - unforgettable!",
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",

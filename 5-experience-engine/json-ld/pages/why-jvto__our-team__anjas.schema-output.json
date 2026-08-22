@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-22T00:59:01.220Z",
+  "generated_at": "2026-08-22T01:16:52.194Z",
   "route": "/why-jvto/our-team/anjas",
   "domain": "why-jvto",
   "slug": "our-team/anjas",
@@ -386,6 +386,23 @@
             },
             "datePublished": "2025-12-30",
             "reviewBody": "What an unbelievable experience I don't think there is a better tour guide anywhere than Anjas the personal touch he provides and the knowledge he as over everywhere we went will put this company head and shoulders above the rest.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/269#crew-anjas",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/269",
+            "author": {
+              "@type": "Person",
+              "name": "Andrés"
+            },
+            "datePublished": "2025-10-15",
+            "reviewBody": "Incredible experience! We did 4D3N and they delivered on everything that was promised. We found this tour company very honest compared to others because you know the hotels that you'll go to (which are great btw).\\nOur driver, Yandi, was always very kind and attentive. He never rushed us, letting us take our time to rest, while always staying on schedule. He also brought us to have lunch and dinner in very nice restaurants with very reasonable prices. And he even secured us some great spots to see the sunrise in Bromo. Most importantly, mainly thanks to him, we were literally one of the first to reach Tumpak Sewu, Bromo and Ijen, so we could enjoy them without big crowds. Big thanks to Anjas too for being a super nice guide and helping us a lot in Ijen!\\nYou should really consider this tour company if you wanna visit these amazing natural treasures in East Java!",
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",

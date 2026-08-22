@@ -290,7 +290,8 @@
       "packageName": null,
       "crewCodes": [
         "taufik",
-        "fauzi"
+        "fauzi",
+        "fredi"
       ]
     },
     {
@@ -336,7 +337,8 @@
       "packageSlug": null,
       "packageName": null,
       "crewCodes": [
-        "fauzi"
+        "fauzi",
+        "fredi"
       ]
     },
     {
@@ -541,7 +543,8 @@
       "packageSlug": null,
       "packageName": null,
       "crewCodes": [
-        "fauzi"
+        "fauzi",
+        "fredi"
       ]
     },
     {
@@ -703,7 +706,9 @@
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqkwaETf-7_7DYK0lSG_ZzUBiHhjjCcOq_dqEYui-YWZI1q5nsW8VLfOgTbM07-IWZ54SUycOA",
       "packageSlug": null,
       "packageName": null,
-      "crewCodes": []
+      "crewCodes": [
+        "yandi"
+      ]
     },
     {
       "id": 92,
@@ -810,7 +815,9 @@
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqlP1anjVCUq8KvkI1lr7ui1koJWWWq3uoOB18PCl_QmJYYIa8xpAMG_FtSgZJmYLsYXVXLugw",
       "packageSlug": null,
       "packageName": null,
-      "crewCodes": []
+      "crewCodes": [
+        "fredi"
+      ]
     },
     {
       "id": 96,
@@ -916,7 +923,8 @@
       "packageSlug": null,
       "packageName": null,
       "crewCodes": [
-        "fauzi"
+        "fauzi",
+        "fredi"
       ]
     },
     {
@@ -1554,7 +1562,8 @@
       "packageSlug": null,
       "packageName": null,
       "crewCodes": [
-        "fauzi"
+        "fauzi",
+        "fredi"
       ]
     },
     {
@@ -2077,7 +2086,10 @@
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqmRvqRRYxZUOJwxyoU_qNM0C2cm5blq6n0r4pXEhrm4rMG_qtLIXht1hqd5MHkn71T6dGvimg",
       "packageSlug": null,
       "packageName": null,
-      "crewCodes": []
+      "crewCodes": [
+        "fauzi",
+        "fredi"
+      ]
     },
     {
       "id": 138,
@@ -2561,7 +2573,8 @@
       "packageSlug": "tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
       "packageName": "3 Day Bromo, Madakaripura & Ijen Overland from Surabaya to Bali",
       "crewCodes": [
-        "boy"
+        "boy",
+        "fredi"
       ]
     },
     {
@@ -3855,7 +3868,8 @@
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
       "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
       "crewCodes": [
-        "rendi"
+        "rendi",
+        "fredi"
       ]
     },
     {
@@ -3928,7 +3942,9 @@
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqk0R80GN73CWZG_-aPubsD2UBZVrNGl2jNL-QwtzOUV2IjLjCCd835Ri4mx4SnxAIqLkq2V2g",
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
       "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "fredi"
+      ]
     },
     {
       "id": 213,
@@ -4102,7 +4118,9 @@
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqmDdTBbuT3eZLYs2mYy-qS7iLeSWj4vHfw4oIrfu5Nx67fZcNQkcdvJNouj5LZa3uQwp8aN",
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-4d3n",
       "packageName": "4 Day Ijen, Bromo & Madakaripura Waterfall Expedition from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "rendi"
+      ]
     },
     {
       "id": 220,
@@ -4322,7 +4340,9 @@
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqnFRU2TEECy4yDDeSE9wuUp9TXmVvb3OLYLqDo6Zygrv6LvLFk403W0tE_60RAeBO5Nt4mn",
       "packageSlug": "tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n",
       "packageName": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Nature Trip from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "fredi"
+      ]
     },
     {
       "id": 227,
@@ -4412,7 +4432,9 @@
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqlOILEA1UZta7qhkwbfQUKOYdSumaroF4LAyAs-04oSgKyfM0k2PudAnTWUDSV9hEyYRf7ODQ",
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
       "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "rendi"
+      ]
     },
     {
       "id": 230,
@@ -4633,7 +4655,9 @@
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqkg4ZV2zdu4t22XrOfvlBdUkqGxwMVI7skxfLAKp9ZrGhbARyNMBJtxp6zEGV2jEhAJzEHR",
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
       "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "taufik"
+      ]
     },
     {
       "id": 241,
@@ -4848,7 +4872,9 @@
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqnYhYFeyarl9laOZkP9u-SZ96_n3q6mS93oa1S8G3XUOpBDkLs-2Uag8XDzMJlyvrpVXux97w",
       "packageSlug": "tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
       "packageName": "3 Day Bromo, Madakaripura & Ijen Overland from Surabaya to Bali",
-      "crewCodes": []
+      "crewCodes": [
+        "taufik"
+      ]
     },
     {
       "id": 253,
@@ -4932,7 +4958,9 @@
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqmyDDO4-xf4sBugGgCXTwcDWdDsaoWUL0UDcbRFmycz1vqsPqhpiAUoBVCCDaWK-GjgBfxsjQ",
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
       "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "fredi"
+      ]
     },
     {
       "id": 268,
@@ -4976,7 +5004,10 @@
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqksgKgOGgsuDD6EuH77VFW-zV-yxVpK_8tUDFC2uDBgXp5skQYBis2Oy3afXhw55byhJnuRHw",
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
       "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "gufron",
+        "fredi"
+      ]
     },
     {
       "id": 269,
@@ -4990,7 +5021,10 @@
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqnThWlyF0CQyjdfPfwkjoDPvZLWV4KmkRZxHxOk1dWT25zqSUJS09nVCI8bgHbPSM_Wo873OQ",
       "packageSlug": "tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
       "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "anjas",
+        "yandi"
+      ]
     },
     {
       "id": 270,
@@ -5004,7 +5038,9 @@
       "urlReference": null,
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
       "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "yandi"
+      ]
     },
     {
       "id": 271,
@@ -5018,7 +5054,10 @@
       "urlReference": null,
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
       "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "fredi",
+        "rendi"
+      ]
     },
     {
       "id": 272,
@@ -5060,7 +5099,10 @@
       "urlReference": null,
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
       "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "gufron",
+        "holili"
+      ]
     },
     {
       "id": 275,
@@ -5088,7 +5130,10 @@
       "urlReference": null,
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
       "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "rendi",
+        "joyo"
+      ]
     },
     {
       "id": 277,
@@ -5102,7 +5147,9 @@
       "urlReference": null,
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
       "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "yandi"
+      ]
     },
     {
       "id": 278,
@@ -5172,7 +5219,10 @@
       "urlReference": null,
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
       "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "yandi",
+        "kiki"
+      ]
     },
     {
       "id": 283,
@@ -5200,7 +5250,9 @@
       "urlReference": null,
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
       "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "fredi"
+      ]
     },
     {
       "id": 285,
@@ -5214,7 +5266,9 @@
       "urlReference": null,
       "packageSlug": "tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
       "packageName": "3 Day Bromo, Madakaripura & Ijen Overland from Surabaya to Bali",
-      "crewCodes": []
+      "crewCodes": [
+        "fredi"
+      ]
     },
     {
       "id": 286,
@@ -5270,7 +5324,9 @@
       "urlReference": null,
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
       "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "gufron"
+      ]
     },
     {
       "id": 290,
@@ -5438,7 +5494,9 @@
       "urlReference": null,
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-4d3n",
       "packageName": "4 Day Ijen, Bromo & Madakaripura Waterfall Expedition from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "gufron"
+      ]
     },
     {
       "id": 302,
@@ -5452,7 +5510,9 @@
       "urlReference": null,
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
       "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "fauzi"
+      ]
     },
     {
       "id": 303,
@@ -5522,7 +5582,9 @@
       "urlReference": null,
       "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
       "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "kiki"
+      ]
     },
     {
       "id": 308,
@@ -5550,7 +5612,9 @@
       "urlReference": null,
       "packageSlug": "tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n",
       "packageName": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Nature Trip from Surabaya",
-      "crewCodes": []
+      "crewCodes": [
+        "yandi"
+      ]
     },
     {
       "id": 310,

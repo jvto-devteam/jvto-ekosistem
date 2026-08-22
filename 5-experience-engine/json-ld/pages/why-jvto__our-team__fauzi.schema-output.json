@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-22T00:59:01.220Z",
+  "generated_at": "2026-08-22T01:16:52.194Z",
   "route": "/why-jvto/our-team/fauzi",
   "domain": "why-jvto",
   "slug": "our-team/fauzi",
@@ -344,6 +344,23 @@
           },
           {
             "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/137#crew-fauzi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/137",
+            "author": {
+              "@type": "Person",
+              "name": "Bouilhol Franck"
+            },
+            "datePublished": "2026-08-12",
+            "reviewBody": "Hello,\n\nI just wanted to thank you for organizing these three days at Bromo and Ijen. It was an unforgettable experience that truly felt like a dream, thanks to Fauzy and Fredy. It was absolutely incredible.\n\nA huge thank you to both of them—they already know how grateful we are—and to you as well.\n\nThanks again!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
             "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/127#crew-fauzi",
             "url": "https://javavolcano-touroperator.com/why-jvto/reviews/127",
             "author": {
@@ -488,6 +505,23 @@
             },
             "datePublished": "2025-07-05",
             "reviewBody": "The tour was perfect!! Yandi is very caring and helpful, he always keep us informed so that we won't get lost on the schedule and basically he arranged things perfectly for us! For the ijen tour, that was marvellous! Fauzi took good cares of me n my friend throughout the whole trip. The route was not easy but Fauzi kept cheering us up and eventually we got to see the blue fire!! Highly appreciated both their hardwork and also the team, that's a really great experience 👍 highly recommended",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/302#crew-fauzi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/302",
+            "author": {
+              "@type": "Person",
+              "name": "reza"
+            },
+            "datePublished": "2024-01-26",
+            "reviewBody": "Fauzi from Java Volcano made our ijen Sunrise 1 Day Tour memorable. Quick but worth every moment. Recommend this tour operator!",
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",

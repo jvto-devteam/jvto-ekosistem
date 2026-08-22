@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-22T00:59:01.220Z",
+  "generated_at": "2026-08-22T01:16:52.194Z",
   "route": "/why-jvto/our-team/kiki",
   "domain": "why-jvto",
   "slug": "our-team/kiki",
@@ -531,6 +531,23 @@
           },
           {
             "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/282#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/282",
+            "author": {
+              "@type": "Person",
+              "name": "Alicia"
+            },
+            "datePublished": "2025-07-24",
+            "reviewBody": "We really loved and were very satisfied with this trip. Throughout the journey, we were well taken care of by Yandi and Kiki, who gave us many helpful suggestions.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
             "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/203#crew-kiki",
             "url": "https://javavolcano-touroperator.com/why-jvto/reviews/203",
             "author": {
@@ -573,6 +590,23 @@
             },
             "datePublished": "2024-01-17",
             "reviewBody": "A very nice experience. Sam's company is very professional. Every things is well arranged and staff are nice and helpful. Provide us a very remarkable 3D2N volcano experience.\\n\\nOur guide Kiki is have very good English and provide good guidance and briefing to us. We have a very safe ijen night walk.\\n\\nOur diver Fredi is a very nice and caring person. He be with us for whole 3 Day and give us a very comfortable and safe trip.\\n\\nThanks Java Volcano Tour Operator!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/307#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/307",
+            "author": {
+              "@type": "Person",
+              "name": "Анна З"
+            },
+            "datePublished": "2023-03-06",
+            "reviewBody": "It was an amazing journey. The organizer provides excellent hotels and we traveled in a comfortable car. Our guide Kiki is the best, he told us a lot of interesting things and was sensitive to our desires. Thanks a lot!",
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",

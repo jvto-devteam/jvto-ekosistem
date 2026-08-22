@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-22T00:59:01.220Z",
+  "generated_at": "2026-08-22T01:16:52.194Z",
   "route": "/why-jvto/our-team/holili",
   "domain": "why-jvto",
   "slug": "our-team/holili",
@@ -403,6 +403,23 @@
             },
             "datePublished": "2026-02-28",
             "reviewBody": "Son geniales\r\nSúper contentos de nuestros guías taufik y holili. Nos han ayudado en todo momento y nos han acompañado en todo. Son geniales y nos hemos reído mucho con ellos. Os aconsejamos a esta pareja de guías para vuestro viaje . Hacen que te sientas muy bien .\r\nOs esperamos en España taufik y holili 😉",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/274#crew-holili",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/274",
+            "author": {
+              "@type": "Person",
+              "name": "Nina nguyen"
+            },
+            "datePublished": "2025-10-12",
+            "reviewBody": "I recently joined a tour to East Java with JVTO, and it was absolutely incredible! Our guide, Gufron, and driver, Holili, made the entire trip so comfortable and safe.",
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",

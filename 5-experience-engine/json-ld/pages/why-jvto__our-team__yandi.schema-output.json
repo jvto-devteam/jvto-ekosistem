@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-22T00:59:01.220Z",
+  "generated_at": "2026-08-22T01:16:52.194Z",
   "route": "/why-jvto/our-team/yandi",
   "domain": "why-jvto",
   "slug": "our-team/yandi",
@@ -327,6 +327,23 @@
         "review": [
           {
             "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/91#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/91",
+            "author": {
+              "@type": "Person",
+              "name": "Clemenzia Tortomano"
+            },
+            "datePublished": "2026-05-30",
+            "reviewBody": "(Translated by Google) We had a wonderful experience! Our driver, Yendi, was always super responsive to our requests and is reliable. It's a challenging tour, but definitely recommended. Water was always available, and we would have appreciated some snacks/fruit or a second breakfast upon returning from the Ijen trek (especially since the takeaway breakfast was very meager: just a toast and a bottle of water). Dinner could also have been more filling, especially since it was delicious.\nThank you for everything!\n\n(Original)\nAbbiamo avuto una bellissima esperienza! Il nostro autista Yendi è stato sempre super disponibile alla nostre richieste ed è un autista affidabile. È un tour impegnativo ma indubbiamente raccomandabile. L' acqua era sempre disponibile e avremmo gradito anche qualche snak/frutta o una seconda colazione al rientro dal trekking Ijen (anche perchè la colazione take away era molto misera: solo un tost e una bittiglietta d'acqua) così come la cena potrebbe essere più abbondante, anche perchè era buonissima.\nGrazie di tutto!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
             "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/68#crew-yandi",
             "url": "https://javavolcano-touroperator.com/why-jvto/reviews/68",
             "author": {
@@ -412,6 +429,40 @@
           },
           {
             "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/270#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/270",
+            "author": {
+              "@type": "Person",
+              "name": "Sisca"
+            },
+            "datePublished": "2025-12-26",
+            "reviewBody": "JVTO takes pride in assuring their customers by giving them prompt prior information and were quick to answer any questions we had. The driver Yandi and guide Boy, who were assigned to us, were great.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/269#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/269",
+            "author": {
+              "@type": "Person",
+              "name": "Andrés"
+            },
+            "datePublished": "2025-10-15",
+            "reviewBody": "Incredible experience! We did 4D3N and they delivered on everything that was promised. We found this tour company very honest compared to others because you know the hotels that you'll go to (which are great btw).\\nOur driver, Yandi, was always very kind and attentive. He never rushed us, letting us take our time to rest, while always staying on schedule. He also brought us to have lunch and dinner in very nice restaurants with very reasonable prices. And he even secured us some great spots to see the sunrise in Bromo. Most importantly, mainly thanks to him, we were literally one of the first to reach Tumpak Sewu, Bromo and Ijen, so we could enjoy them without big crowds. Big thanks to Anjas too for being a super nice guide and helping us a lot in Ijen!\\nYou should really consider this tour company if you wanna visit these amazing natural treasures in East Java!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
             "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/173#crew-yandi",
             "url": "https://javavolcano-touroperator.com/why-jvto/reviews/173",
             "author": {
@@ -429,6 +480,23 @@
           },
           {
             "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/277#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/277",
+            "author": {
+              "@type": "Person",
+              "name": "Divya_ Stri"
+            },
+            "datePublished": "2025-09-14",
+            "reviewBody": "Our driver Yandi was really reliable and friendly. He briefed us on what to expect for the day and was really helpful throughout our trip.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
             "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/186#crew-yandi",
             "url": "https://javavolcano-touroperator.com/why-jvto/reviews/186",
             "author": {
@@ -437,6 +505,23 @@
             },
             "datePublished": "2025-07-24",
             "reviewBody": "We really loved and were very satisfied with this trip. Throughout the journey, we were well taken care of by Yandi and Kiki, who gave us many helpful suggestions for our itinerary. At Madakaripura, our guide Alim helped us take lots of great photos and videos, which made us really happy.\\n\\nAlthough the weather at Mount Ijen wasn't ideal, the views at Bromo were absolutely stunning, and the waterfall was also incredibly impressive.\\n\\nWe're truly grateful to JVTO for arranging and preparing this trip for us. It was a wonderful and fun experience, and one we'll remember for a long time.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/282#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/282",
+            "author": {
+              "@type": "Person",
+              "name": "Alicia"
+            },
+            "datePublished": "2025-07-24",
+            "reviewBody": "We really loved and were very satisfied with this trip. Throughout the journey, we were well taken care of by Yandi and Kiki, who gave us many helpful suggestions.",
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",
@@ -522,6 +607,23 @@
             },
             "datePublished": "2023-12-29",
             "reviewBody": "Yandi and Dosi made our 5 Days 4 Nights tour to Ijen, Papuma, Tumpak Sewu, Bromo, and Surabaya truly enjoyable. Highly recommend their services!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/309#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/309",
+            "author": {
+              "@type": "Person",
+              "name": "Frank Zhang"
+            },
+            "datePublished": "2022-11-10",
+            "reviewBody": "One of the best tours I have been on so far, the itinerary was very well planned - the hikes paced out perfectly to ensure enough rest, time allocated in each attraction is also sufficient to really explore, the hotels & food are amazing, way beyond our expectations. Besides the great itinerary, the guides (Juan & Yandi) are amazing at bringing us around, extremely friendly and fun to be around. Lastly, Sam who helped to organise the tour is extremely helpful at solving all our needs pre, during and after the entire tour. Would highly recommend this tour package - 10/10!!!",
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",

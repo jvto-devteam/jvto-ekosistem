@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-22T00:59:01.220Z",
+  "generated_at": "2026-08-22T01:16:52.194Z",
   "route": "/why-jvto/our-team/taufik",
   "domain": "why-jvto",
   "slug": "our-team/taufik",
@@ -412,6 +412,23 @@
           },
           {
             "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/240#crew-taufik",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/240",
+            "author": {
+              "@type": "Person",
+              "name": "irfan anaqi"
+            },
+            "datePublished": "2024-02-11",
+            "reviewBody": "We chose Java Volcano Tour for trip to Dieng Wonosobo. Eventhough it was a long drive, the places we went were breathtaking. The guide, Mas Opik, was friendly and well versed in history.  Our driver Mas Edy was very skilled and accomodative. We will keep Java Volcano Tour Operators in mind for our next trip to Jogja. Highly recommended.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
             "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/243#crew-taufik",
             "url": "https://javavolcano-touroperator.com/why-jvto/reviews/243",
             "author": {
@@ -420,6 +437,23 @@
             },
             "datePublished": "2024-01-25",
             "reviewBody": "Amazing 4-day journey to Ijen, Papuma, Tumpak Sewu, and Bromo. Taufik, our guide, was knowledgeable and made the trip enjoyable. The waterfalls at Tumpak Sewu were breathtaking. Loved it!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/252#crew-taufik",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/252",
+            "author": {
+              "@type": "Person",
+              "name": "clara rigal"
+            },
+            "datePublished": "2022-08-10",
+            "reviewBody": "Thanks to the tour and their amazing team (Dosi & Tufik), we went to Bromo and Ijen Volcano. They were very professional and so friendly. We booked the tour only one day in advance and everything was ready when we arrived at Surabaya train station. Dosi drove very safely to the different places and Tufik came with us at the top of the volcano, knowing the best spots and avoiding crowd. They answer to all our needs and we are very thankful, especially for the very good price. They made this adventure so special.",
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",
