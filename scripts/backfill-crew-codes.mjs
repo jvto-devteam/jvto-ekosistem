@@ -54,9 +54,23 @@ async function buildCrewMatcher() {
 
   // Only crew still on the published roster. A name that no longer belongs to
   // anyone must not be guessed onto a review.
-  const codeByLowerName = new Map(
-    (people.crew?.roster ?? []).map((c) => [c.name.toLowerCase(), c.code]),
-  );
+  // Index the roster under every form a rule might name it. The roster carries
+  // "Boy (Ahboy)" while the alias rule says "Boy", so an exact-name lookup
+  // silently dropped ALL of Boy's aliases and no review naming him could ever
+  // be attributed by this matcher. A skipped rule looks identical to a rule for
+  // departed crew, which is why it went unnoticed.
+  const codeByLowerName = new Map();
+  for (const member of people.crew?.roster ?? []) {
+    const name = String(member.name ?? "");
+    const forms = new Set([
+      name.toLowerCase(),
+      name.replace(/\s*\([^)]*\)\s*/g, " ").trim().toLowerCase(), // "Boy (Ahboy)" -> "boy"
+      String(member.code ?? "").toLowerCase(),
+    ]);
+    for (const form of forms) {
+      if (form) codeByLowerName.set(form, member.code);
+    }
+  }
 
   const rules = [];
   for (const rule of aliasDoc.aliasRules ?? []) {

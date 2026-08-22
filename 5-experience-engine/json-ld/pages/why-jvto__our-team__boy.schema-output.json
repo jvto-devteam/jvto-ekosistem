@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-22T01:16:52.194Z",
+  "generated_at": "2026-08-22T01:25:01.794Z",
   "route": "/why-jvto/our-team/boy",
   "domain": "why-jvto",
   "slug": "our-team/boy",
@@ -344,6 +344,23 @@
           },
           {
             "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/139#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/139",
+            "author": {
+              "@type": "Person",
+              "name": "Cristian Cartofeanu"
+            },
+            "datePublished": "2026-08-17",
+            "reviewBody": "Great service, we always felt safe, they where always on time. We had great time! Totally recommend!\n\nOur guid name was Ahboy, we really liked him. He was ensuring we have all we need, we dont forget or lose anything and fully enjoyed the trip.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
             "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/82#crew-boy",
             "url": "https://javavolcano-touroperator.com/why-jvto/reviews/82",
             "author": {
@@ -429,6 +446,57 @@
           },
           {
             "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/270#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/270",
+            "author": {
+              "@type": "Person",
+              "name": "Sisca"
+            },
+            "datePublished": "2025-12-26",
+            "reviewBody": "JVTO takes pride in assuring their customers by giving them prompt prior information and were quick to answer any questions we had. The driver Yandi and guide Boy, who were assigned to us, were great.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/272#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/272",
+            "author": {
+              "@type": "Person",
+              "name": "Jason Li"
+            },
+            "datePublished": "2025-10-18",
+            "reviewBody": "Ahboy was a phenomenal Ijen guide from start to end. Not only was he incredibly knowledgeable and went out of his way to make sure everything we needed was sorted out (safety, logistics, equipment).",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/273#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/273",
+            "author": {
+              "@type": "Person",
+              "name": "ella ryan"
+            },
+            "datePublished": "2025-10-17",
+            "reviewBody": "Visiting Mount Ijen was such a beautiful experience. We had a great time with our guide Ahboy he was so fun and helpful!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
             "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/168#crew-boy",
             "url": "https://javavolcano-touroperator.com/why-jvto/reviews/168",
             "author": {
@@ -497,6 +565,40 @@
           },
           {
             "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/278#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/278",
+            "author": {
+              "@type": "Person",
+              "name": "Olivia McGhie"
+            },
+            "datePublished": "2025-08-15",
+            "reviewBody": "Our driver Goyo and Guide Ehboy were fantastic! We had such an incredible experience on the tour around East Java.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/279#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/279",
+            "author": {
+              "@type": "Person",
+              "name": "Luke Chatwin"
+            },
+            "datePublished": "2025-08-15",
+            "reviewBody": "Guide Ehboy and driver Goyo were great! Had an amazing tour and enjoyed each bit of it. Would definitely recommend for anyone considering a trip.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
             "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/188#crew-boy",
             "url": "https://javavolcano-touroperator.com/why-jvto/reviews/188",
             "author": {
@@ -522,6 +624,40 @@
             },
             "datePublished": "2025-07-07",
             "reviewBody": "Everything was a breeze, we were picked up at the airport and dropped off at our intended destination. Our guide and driver, Johan, is clearly experienced, and his hard work and efforts are admirable and appreciated. Our guide at Ijen, Boy, also strived to make us feel at ease and looked out for us. Overall, the trip was definitely memorable and made significantly easier by JVTO.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/287#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/287",
+            "author": {
+              "@type": "Person",
+              "name": "Eileen Chua"
+            },
+            "datePublished": "2025-05-31",
+            "reviewBody": "The overall experience was great. Guide Ahboy is efficient and takes the extra miles to ensure the tour goes smoothly. Driver Joy is very experienced.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/212#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/212",
+            "author": {
+              "@type": "Person",
+              "name": "faurooniy ahamed"
+            },
+            "datePublished": "2025-02-25",
+            "reviewBody": "My journey to Surabaya was indeed an unforgettable one. I had two main guides (Freddie and Ah Boi). Both of them were very nice, knowledgeable and most importantly they ensured my safety was taken care off. Every where I went, they ensured what I want to do was tick off the list. They were friendly as well. I highly recommend them as your guides if you were to travel to Surabaya. They made my memories an unforgettable one in Surabaya. Thank you both of you :)",
             "reviewRating": {
               "@type": "Rating",
               "ratingValue": "5",

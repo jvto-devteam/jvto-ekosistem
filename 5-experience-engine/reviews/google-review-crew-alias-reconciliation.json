@@ -37,8 +37,11 @@
         "Ahboy",
         "Ah Boy",
         "Ah Boi",
-        "Ahboi"
-      ]
+        "Ahboi",
+        "Ehboy",
+        "Oboy"
+      ],
+      "aliasNote": "Added 2026-08-22 from the published corpus, each verified in context rather than assumed: 'Goyo' appears only as \"driver Goyo\" (twice, same trip, paired with the guide), 'Ehboy' only as \"Guide Ehboy\", 'Oboy' as the person being recommended by name. Not added: 'Joy'. Review #287 reads \"Driver Joy is very experienced\" and is almost certainly Joyo, but 'Joy' is an ordinary English word and a blanket alias would mis-attribute any review calling the trip a joy. That one needs a human decision, not a rule."
     },
     {
       "crewId": "75",
@@ -118,8 +121,10 @@
       "crewType": "driver",
       "status": "active",
       "aliases": [
-        "Joyo"
-      ]
+        "Joyo",
+        "Goyo"
+      ],
+      "aliasNote": "Added 2026-08-22 from the published corpus, each verified in context rather than assumed: 'Goyo' appears only as \"driver Goyo\" (twice, same trip, paired with the guide), 'Ehboy' only as \"Guide Ehboy\", 'Oboy' as the person being recommended by name. Not added: 'Joy'. Review #287 reads \"Driver Joy is very experienced\" and is almost certainly Joyo, but 'Joy' is an ordinary English word and a blanket alias would mis-attribute any review calling the trip a joy. That one needs a human decision, not a rule."
     },
     {
       "crewId": "2",
