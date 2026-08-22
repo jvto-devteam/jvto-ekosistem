@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T09:05:32.678Z",
+  "generated_at": "2026-08-22T00:59:01.317Z",
   "route": "/tours/from-bali/bromo-ijen-3d2n",
   "domain": "tours",
   "slug": "from-bali/bromo-ijen-3d2n",
@@ -472,7 +472,7 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-21T09:05:32.678Z",
+    "generated_at": "2026-08-22T00:59:01.317Z",
     "source_files": [
       "2-product-and-commercial-core/tour-products/tours__from-bali__bromo-ijen-3d2n.product-contract.json"
     ],

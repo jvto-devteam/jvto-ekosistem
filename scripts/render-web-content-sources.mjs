@@ -28,6 +28,23 @@ function routeToOutputBase(route) {
   return route.split("/").filter(Boolean).join("__") || "home";
 }
 
+let reviewsCache = null;
+/** The published review corpus, read once per render. */
+async function loadPublishedReviews() {
+  if (!reviewsCache) {
+    try {
+      const raw = await readFile(
+        path.join(ROOT, "1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json"),
+        "utf8",
+      );
+      reviewsCache = JSON.parse(raw).reviews ?? [];
+    } catch {
+      reviewsCache = [];
+    }
+  }
+  return reviewsCache;
+}
+
 async function loadPeople() {
   if (!peopleCache) {
     peopleCache = JSON.parse(
@@ -191,7 +208,13 @@ async function buildSchemaOutput(source) {
       const candidateSlug = person.id || person.slug || person.code;
       return candidateSlug === teamMatch[1];
     });
-    const personNode = buildPersonNode(record, pageUrl, externalEntities, source.route);
+    const personNode = buildPersonNode(
+      record,
+      pageUrl,
+      externalEntities,
+      source.route,
+      await loadPublishedReviews(),
+    );
     if (personNode) nodes.push(personNode);
   }
 

@@ -218,6 +218,12 @@ async function main() {
       photos: serializeMedia(r),
       url: r.reviewReplyUrl ?? null,
       urlReference: r.name,
+      // The Google Business Profile API does not report which package a guest
+      // booked, and inferring it from review text would be invented attribution.
+      // Left null deliberately — but note the cost: /api/reviews-xml is a Google
+      // product-review feed and filters on packageSlug, so reviews synced here
+      // never reach it. Only 7 of 58 reviews dated 2026 carry a package.
+      // Filling this needs booking records or a human, not a heuristic.
       packageSlug: null,
       packageName: null,
       crewCodes,

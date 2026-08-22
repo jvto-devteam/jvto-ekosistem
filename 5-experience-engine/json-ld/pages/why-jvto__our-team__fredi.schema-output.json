@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T09:05:32.492Z",
+  "generated_at": "2026-08-22T00:59:01.220Z",
   "route": "/why-jvto/our-team/fredi",
   "domain": "why-jvto",
   "slug": "our-team/fredi",
@@ -321,6 +321,161 @@
               "@type": "PropertyValue",
               "propertyID": "KTA",
               "value": "KTA-D-2024-005"
+            }
+          }
+        ],
+        "review": [
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/132#crew-fredi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/132",
+            "author": {
+              "@type": "Person",
+              "name": "Sonia Lin"
+            },
+            "datePublished": "2026-08-02",
+            "reviewBody": "What an incredible 4-day adventure exploring some of East Java’s most spectacular destinations! From the volcanic landscapes of Ijen to the breathtaking Tumpak Sewu waterfall and the unforgettable sunrise at Mount Bromo, every day brought a new and amazing experience.\nA special thanks to our driver, Fredi, for his exceptional driving skills and for taking such good care of us throughout the trip. He was always friendly, helpful, and had a smile on his face. His positive attitude made the journey even more enjoyable! Highly recommended!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/112#crew-fredi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/112",
+            "author": {
+              "@type": "Person",
+              "name": "Yip Chuiyee"
+            },
+            "datePublished": "2025-12-30",
+            "reviewBody": "Rendi and Fredi (the guide and the driver) are very kind and helpful. Rendi is an excellent photographer who took a lot of great photos of us. The trip was well-organised, and flexible with our requests. However, considering the price of the tour, we expected a better quality of accommodations.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/178#crew-fredi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/178",
+            "author": {
+              "@type": "Person",
+              "name": "Marine Netter"
+            },
+            "datePublished": "2025-08-27",
+            "reviewBody": "(Translated by Google) We took the 3D/2N package to do Kawah Ijen and Bromo with a pick-up in Bali and a drop-off in Surabaya and we are delighted with this excursion. JVTO is a very professional agency with a good customer interface on the website to communicate information in real time. And we were very well accompanied by our guides and drivers Rendi and Fredi who answered all our questions, gave us visibility on the schedule, had in mind the perfect timing to arrive at the sites and start the hikes to avoid the crowds, and they knew all the good photo spots. They made these excursions on Kawah Ijen and Bromo an unforgettable moment! We warmly thank them as well as the entire JVTO team\\n\\n(Original)\\nNous avons pris le package 3D/2N pour faire le Kawah Ijen et le Bromo avec un pick up à Bali et une dépose à Surabaya et nous sortons enchantés de cette excursion. JVTO est une agence très professionnelle avec une bonne interface client sur le site web pour communiquer les informations en temps réel. Et nous avons été très bien accompagnés par nos guides et chauffeurs Rendi et Fredi qui ont répondu à toutes nos questions, nous donnaient de la visibilité sur le planning, avaient en tête le timing parfait pour arriver sur les sites et commencer les randonnées pour éviter la foule, et ils connaissaient tous les bons spots photos. Ils ont fait de ces excursions sur le Kawah Ijen et le Bromo un moment inoubliable ! Nous les remercions chaleureusement ainsi que toute l’équipe JVTO",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/189#crew-fredi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/189",
+            "author": {
+              "@type": "Person",
+              "name": "Pablo Rodríguez Toledano"
+            },
+            "datePublished": "2025-07-18",
+            "reviewBody": "(Translated by Google) Fredi and Gufron are the best drivers and guides, respectively. Both were very entertaining, helpful, and extremely professional.\\n\\nBoth the experience at Mount Bromo and the waterfall, as well as the excursion to Ijen Volcano, were spectacular and highly recommended.\\n\\nThe meals and accommodations were also excellent.\\n\\nOverall, I highly recommend the experience with this agency, and if it's with Fredi and Gufron, even better.\\n\\n(Original)\\nFredi and Gufron son los mejores conductor y guia, respectivamente. Ambos han sido muy divertidos, serviciales y grandes profesionales.\\n\\nTanto la experiencia en el Monte Bromo y la cascada como la excursión al Volcán Ijen han sido espectaculares, sin duda muy recomendables.\\n\\nLas comidas y los alojamientos también han estado a la misma altura, sobresaliente.\\n\\nEn general, recomiendo bastante la experiencia con esta agencia, y si es con Fredi and Gufron, mejor.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/203#crew-fredi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/203",
+            "author": {
+              "@type": "Person",
+              "name": "ash_ash"
+            },
+            "datePublished": "2025-05-13",
+            "reviewBody": "Big shoutout to our tour guides and driver, Fredi, Kiki and Sulis. They were incredibly professional, knowledgeable and friendly. Loved how organised the itinerary was and really appreciated the daily reminders and briefing by the guides the day before. Also, thanks for making sure we have great pictures for the socials! Highly recommended !!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/239#crew-fredi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/239",
+            "author": {
+              "@type": "Person",
+              "name": "Zohar Kritzer"
+            },
+            "datePublished": "2024-02-24",
+            "reviewBody": "Everything was very good for this tour and we had wonderful sunrises. Our driver/tour guide Fredi was attentive but spoke very little English and drove a little too fast. Anjas was a fantastic guide for the Ijen hike and spoke great english. The jeep tour for Mt Bromi was great.\\nWe gave it a 4 because the Grand Whiz hotel  room needs renovation and our bathroom leaked water all night. We would suggest checking the room first because many people complain on the reviews.\\n\\nWe booked on Klook. Would recommend this tour operater.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "4",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/244#crew-fredi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/244",
+            "author": {
+              "@type": "Person",
+              "name": "Nawwab Syarif"
+            },
+            "datePublished": "2024-01-25",
+            "reviewBody": "Recently did the 3-day tour to Ijen and Bromo. Fredi, our guide, was knowledgeable and made the trip enjoyable. The blue flames at Ijen were mesmerizing. A great escape for nature lovers",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/245#crew-fredi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/245",
+            "author": {
+              "@type": "Person",
+              "name": "Ahmad Rohman"
+            },
+            "datePublished": "2024-01-25",
+            "reviewBody": "Memorable 4-day journey exploring Ijen, Papuma, Tumpak Sewu, and Bromo. Fredi, our guide, was friendly and accommodating. Each destination had its own charm. Highly recommended!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/246#crew-fredi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/246",
+            "author": {
+              "@type": "Person",
+              "name": "Sherry Law"
+            },
+            "datePublished": "2024-01-17",
+            "reviewBody": "A very nice experience. Sam's company is very professional. Every things is well arranged and staff are nice and helpful. Provide us a very remarkable 3D2N volcano experience.\\n\\nOur guide Kiki is have very good English and provide good guidance and briefing to us. We have a very safe ijen night walk.\\n\\nOur diver Fredi is a very nice and caring person. He be with us for whole 3 Day and give us a very comfortable and safe trip.\\n\\nThanks Java Volcano Tour Operator!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
             }
           }
         ]

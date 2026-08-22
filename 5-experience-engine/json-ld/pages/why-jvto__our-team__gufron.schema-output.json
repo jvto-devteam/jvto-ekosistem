@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T09:05:32.492Z",
+  "generated_at": "2026-08-22T00:59:01.220Z",
   "route": "/why-jvto/our-team/gufron",
   "domain": "why-jvto",
   "slug": "our-team/gufron",
@@ -321,6 +321,297 @@
               "@type": "PropertyValue",
               "propertyID": "KTA",
               "value": "KTA-G-2024-001"
+            }
+          }
+        ],
+        "review": [
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/134#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/134",
+            "author": {
+              "@type": "Person",
+              "name": "Giorgos Rogakos"
+            },
+            "datePublished": "2026-08-04",
+            "reviewBody": "We just ended our 4D 3N tour! All the people from JVTO we came in touch were very helpful but especially our guide Gufron was exceptional! He was very easy to communicate, he was super funny, he knew every good spot in the visited places and made us feel comfortable in every situation! And all of them in a very professional way! Highly recommended",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/88#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/88",
+            "author": {
+              "@type": "Person",
+              "name": "Logan Shay"
+            },
+            "datePublished": "2026-06-05",
+            "reviewBody": "It was a safe and fun trip all around! Gufron and Joyo were both amazing and helpful. They were both great people to commit with. I also like that Gufron explained each trek before we did it, which helped us be prepared. Great for foreigners and people wanting a safe trip!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/90#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/90",
+            "author": {
+              "@type": "Person",
+              "name": "Antoine Grislain"
+            },
+            "datePublished": "2026-06-04",
+            "reviewBody": "(Translated by Google) The tour was great! Even though Bromo was closed, we were taken to Semeru. Our guide, Gufron, was fantastic!\n\n(Original)\nLe tour était très bien! Même si Bromo était fermé, on nous a amené à Semeru. Notre guide Gufron était vraiment top!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/102#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/102",
+            "author": {
+              "@type": "Person",
+              "name": "Mark"
+            },
+            "datePublished": "2026-04-17",
+            "reviewBody": "Loved the tour and our guide Gufron was friendly and accommodating, making sure no one fell behind during the hikes and always checking in with us to make sure we are doing ok. He even went out of his way to talk and learn about each of us personally which is something I appreciate.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/111#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/111",
+            "author": {
+              "@type": "Person",
+              "name": "senthan balachandiran"
+            },
+            "datePublished": "2025-12-31",
+            "reviewBody": "We had a very professional organised tour with the team at JV. Our tour guide Gufron - was super friendly and made sure all our needs were taken care off...his knowledge of the area was also great. Our drive Joyo knows how to get from A to B in the fastest time possible! We did the 5/6 night tour but in hindsight the 4/5 night tour would have given us all the highlights of the region. I would use this company again - they are very professional and their online dashboard gives you all the information you need.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/169#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/169",
+            "author": {
+              "@type": "Person",
+              "name": "Remy H"
+            },
+            "datePublished": "2025-10-03",
+            "reviewBody": "Me and my girlfriend had an amazing trip over here. We did the 3D2N Ijen + Bromo tour and everything was well arranged. Special thanks to the guide Gufron, who made this trip special ❤️",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/172#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/172",
+            "author": {
+              "@type": "Person",
+              "name": "Joshua Ang"
+            },
+            "datePublished": "2025-09-15",
+            "reviewBody": "⭐⭐⭐⭐⭐\\nWe had an incredible 3D2N tour of Surabaya, Mount Bromo, and Mount Ijen, thanks to our amazing guides, Gufron, Fauzi, and Pras! They took fantastic care of us, ensuring every detail was perfect. Their knowledge, enthusiasm, and professionalism made the trip unforgettable—from the breathtaking Bromo sunrise to the stunning Ijen crater. They kept us safe, comfortable, and entertained with their insights and warm hospitality. Highly recommend this team for anyone exploring this area! Thank you for an awesome adventure!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/173#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/173",
+            "author": {
+              "@type": "Person",
+              "name": "Divya_ Stri"
+            },
+            "datePublished": "2025-09-15",
+            "reviewBody": "Our driver Yandi was really reliable and friendly. He briefed us on what to expect for the day and was really helpful throughout our trip. Our guide for Mount Ijen was Gufron and he was really encouraging throughout the hike and helpful. He guided us well and was really friendly too. would recommend this tour to family and friends in the future!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/177#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/177",
+            "author": {
+              "@type": "Person",
+              "name": "Sofiane"
+            },
+            "datePublished": "2025-08-28",
+            "reviewBody": "We had the best experience with Gufron as our guide for Mount Bromo and Mount Ijen! He was absolutely exceptional – always smiling, funny, and full of positive energy, yet never intrusive and always respectful of our space. He made the whole trip smooth, enjoyable, and memorable. We couldn't have asked for a better guide and we highly recommend him to anyone visiting Bromo and Ijen!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/189#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/189",
+            "author": {
+              "@type": "Person",
+              "name": "Pablo Rodríguez Toledano"
+            },
+            "datePublished": "2025-07-18",
+            "reviewBody": "(Translated by Google) Fredi and Gufron are the best drivers and guides, respectively. Both were very entertaining, helpful, and extremely professional.\\n\\nBoth the experience at Mount Bromo and the waterfall, as well as the excursion to Ijen Volcano, were spectacular and highly recommended.\\n\\nThe meals and accommodations were also excellent.\\n\\nOverall, I highly recommend the experience with this agency, and if it's with Fredi and Gufron, even better.\\n\\n(Original)\\nFredi and Gufron son los mejores conductor y guia, respectivamente. Ambos han sido muy divertidos, serviciales y grandes profesionales.\\n\\nTanto la experiencia en el Monte Bromo y la cascada como la excursión al Volcán Ijen han sido espectaculares, sin duda muy recomendables.\\n\\nLas comidas y los alojamientos también han estado a la misma altura, sobresaliente.\\n\\nEn general, recomiendo bastante la experiencia con esta agencia, y si es con Fredi and Gufron, mejor.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/190#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/190",
+            "author": {
+              "@type": "Person",
+              "name": "Ryan Chan"
+            },
+            "datePublished": "2025-07-07",
+            "reviewBody": "Overall, a great experience! We booked the 4D3N Ijen, Papuma, Tumpak Sewu & Bromo tour (with the Madakaripura Waterfall add-on). Our guide, Gufron, was fun, communicative, and always willing to share interesting facts—plus, we bonded over our shared taste in music, which made the trip even more memorable. The driver was also great and drove very steadily, so we always felt safe.\\n\\nThe itinerary is quite packed and can be tiring, but every attraction is absolutely worth it. Just a small tip: make sure to bring a good pair of hiking shoes for Ijen! Highly recommended!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/195#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/195",
+            "author": {
+              "@type": "Person",
+              "name": "Adrián Martínez"
+            },
+            "datePublished": "2025-06-20",
+            "reviewBody": "(Translated by Google) The Madakaripura-Bromo-Ijen tour was excellent. It was very well organized, and you were accompanied from the time you were picked up at the airport until you were dropped off at your next destination three days later. Our guide, Gufron, was excellent—very respectful, friendly, and always willing to help you get your best photo. Our driver, Mr. Joyo, is a great driver; always with a smile on his face, he'll ensure you arrive first at your destination. It's said he was a former Formula 1 driver. In short, if you visit Indonesia, I recommend contacting him.\\n\\n(Original)\\nEl tour de Madakaripura-Bromo-Ijen fue excelente. Está muy bien organizado y estás acompañado desde que te recogen en el aeropuerto hasta que 3 días más tarde te dejan en tu siguiente destino. Nuestro guía Gufron fue excelente, muy respetuoso, simpático y siempre dispuesto a que consigas tu mejor fotografía. El chófer Mr Joyo es un gran conductor, siempre con una sonrisa en la cara hará que llegues el primero a tu destino, se comenta que anteriormente fue piloto de fórmula 1. En definitiva, si visitas Indonesia te recomiendo que les contactes.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/199#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/199",
+            "author": {
+              "@type": "Person",
+              "name": "Teoh Tsyr Xiang"
+            },
+            "datePublished": "2025-05-25",
+            "reviewBody": "TQ JVTO for the heart warming hospitality and superb tour arrangement. Despite the rainy weather we still had a great and wonderful time in surabaya ! Thank you our guide Gufron and Driver Holili, wonderful people, they made sure we were safe and all our needs met, and they waited patiently for us to finish massage before sending us back to our hotel !",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/201#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/201",
+            "author": {
+              "@type": "Person",
+              "name": "Regina Wong"
+            },
+            "datePublished": "2025-05-15",
+            "reviewBody": "We had a fantastic tour experience with Gufron as our guide and Joyo as our driver. Gufron was incredibly knowledgeable and friendly throughout the entire trip, making every stop more meaningful with his insights and stories. Very accommodating to our hiking pace, allowing us to enjoy the journey without feeling rushed. He also gave us excellent food recommendations that allowed us to enjoy authentic local flavors!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/205#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/205",
+            "author": {
+              "@type": "Person",
+              "name": "Basia Dmochowska"
+            },
+            "datePublished": "2025-05-07",
+            "reviewBody": "Great trip to  East Java! Fully recommended! Great communication before and during the trip! Everything according to the plan, exceptionally dedicated team! A lot of fun! Great adventure! Exceptional guide - Gufron - and a great driver - Cahya - thank you for the amazing expericnce!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/217#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/217",
+            "author": {
+              "@type": "Person",
+              "name": "Tammy Fransli"
+            },
+            "datePublished": "2024-08-16",
+            "reviewBody": "We had a fantastic trip to Bromo and Tumpak Sewu with JVTO and Gufron as our tour guide. We were picked up on time from the airport and was ferried to all the location in comfort. The whole tour is also accommodating and flexible - when we need to stop for break/quick snack purchase - it was always being accommodated\\n\\nThe operator responses for every questions and queries was also very fast and fantastic. when there was an issue (eg: the Ijen closure), the operators assisted in offering alternatives.\\n\\nDefinitely highly recommended!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/242#crew-gufron",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/242",
+            "author": {
+              "@type": "Person",
+              "name": "Reza Mustofa A"
+            },
+            "datePublished": "2024-01-25",
+            "reviewBody": "Memorable 4-day journey exploring Ijen, Papuma, Tumpak Sewu, and Bromo. Gufron, our guide, was fantastic. The landscapes and waterfalls were stunning. Highly recommended for adventure seekers!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
             }
           }
         ]

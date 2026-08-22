@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T09:05:32.492Z",
+  "generated_at": "2026-08-22T00:59:01.220Z",
   "route": "/why-jvto/our-team/kiki",
   "domain": "why-jvto",
   "slug": "our-team/kiki",
@@ -321,6 +321,263 @@
               "@type": "PropertyValue",
               "propertyID": "KTA",
               "value": "KTA-G-2024-008"
+            }
+          }
+        ],
+        "review": [
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/81#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/81",
+            "author": {
+              "@type": "Person",
+              "name": "Estera Herman"
+            },
+            "datePublished": "2026-06-28",
+            "reviewBody": "I did the 3-Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya, and it was honestly one of the best experiences of my life!\n\nA huge thank you to our amazing tour guide Kiki and our driver Holili. They made the whole trip so easy, stress-free, and truly unforgettable. They were professional, friendly, and always made sure everything ran smoothly.\n\nEvery single stop was incredible, and the views were beyond anything I can describe. From the blue fire at Ijen to the sunrise over Bromo and the stunning Madakaripura Waterfall, every moment was absolutely perfect.\n\nI highly, highly recommend this tour to anyone visiting East Java. It was an experience I’ll never forget!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/97#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/97",
+            "author": {
+              "@type": "Person",
+              "name": "Yu Qing Yan"
+            },
+            "datePublished": "2026-05-11",
+            "reviewBody": "Just had an amazing time at Ijen, Tumpak Sewu, and Bromo with Mas Kiki- incredible guide, we got a lot of pictures at the best spots!!!! Everything doesn’t feel rushed, very structured too! Our group had the most amazing time with his friendliness, humour, and flexibility.\n\nWe had a little hiccup with our first driver and had to change to a different driver midway, but thruought the whole journey, the tour operator was very helpful and quick in responses. We really appreciate it!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/101#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/101",
+            "author": {
+              "@type": "Person",
+              "name": "waraporn arssanawitaya"
+            },
+            "datePublished": "2026-04-17",
+            "reviewBody": "I’m truly impressed with this trip! Everything was beyond expectations.\n\nOur driver, Ahriela, was very polite, punctual, and took great care of us throughout the journey. He was also fun to talk to, which made the experience even more enjoyable.\n\nOur guide, Kiki, is an amazing photographer — every shot turned out beautifully! And the local guide at Tumpak Sewu waterfall was extremely professional, making us feel safe and well taken care of at all times.\n\nThis trip was full of happiness, fun, and unforgettable moments. Highly recommended!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/72#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/72",
+            "author": {
+              "@type": "Person",
+              "name": "Choa Jared "
+            },
+            "datePublished": "2026-03-03",
+            "reviewBody": "kiki and nur was both fantastic at their job",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/73#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/73",
+            "author": {
+              "@type": "Person",
+              "name": "Tan Yong Xue Jayden"
+            },
+            "datePublished": "2026-03-03",
+            "reviewBody": "Our tour guide (KiKi) and driver (Nur) was amazing. Communication was easy, instructions were clear, and they made the experience fun and safe. Kiki also took amazing photos for us. 100% recommend",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/104#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/104",
+            "author": {
+              "@type": "Person",
+              "name": "馮立俞"
+            },
+            "datePublished": "2026-02-06",
+            "reviewBody": "(Translated by Google) Kiki offers the best guide service. It went all beyond expectation. He's friendly, helpful, and a super good filmer.\n\nYusuf is super fast, the ride was smooth. Recommended for anyone considering a trip to Ijen and Bromo.\n\nKiki and Yusuf provided a fantastic experience; their three-day itinerary and resourcefulness far exceeded expectations.\n\n(Original)\nKiki offers the best guide service.\nIt went all beyond expectation.\nHe’s friendly, helpful, and a super good at filming.\n\nYusuf is super fast, the ride was smooth.\nRecommend to any one considering trip to Ijen and Bromo.\n\nKiki導遊和Yusuf 司機帶來的體驗太棒了，三天的行程及應變遠超乎想像",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/105#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/105",
+            "author": {
+              "@type": "Person",
+              "name": "劉芳詠"
+            },
+            "datePublished": "2026-02-06",
+            "reviewBody": "Kiki is the best tour ever and also Yusul is the best driver.I have lot of fun  time I like this so much ~",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/106#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/106",
+            "author": {
+              "@type": "Person",
+              "name": "歐湲"
+            },
+            "datePublished": "2026-02-06",
+            "reviewBody": "Kiki is awesome! He’s the best tour guide I’ve ever had. He was super thoughtful throughout the whole trip and always paid attention to every little detail. On top of that, he’s a really professional photographer! Yusuf is the best driver I’ve ever met. This was such an amazing trip!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/107#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/107",
+            "author": {
+              "@type": "Person",
+              "name": "林芷柔"
+            },
+            "datePublished": "2026-02-06",
+            "reviewBody": "Awesome three days！\nKiki is the best guide and Yusuf excellent driving skills😊😊",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/108#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/108",
+            "author": {
+              "@type": "Person",
+              "name": "Destiny Chou"
+            },
+            "datePublished": "2026-02-06",
+            "reviewBody": "I think Kiki is the best guide and Yusuf is good at driving.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/174#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/174",
+            "author": {
+              "@type": "Person",
+              "name": "Rodrigo Movilla"
+            },
+            "datePublished": "2025-09-08",
+            "reviewBody": "(Translated by Google) Completely delighted, Kiki and Dika were super friendly and attentive at all times!\\n\\n(Original)\\nCompletamente encantado, kiki y dika fueron super amables y estuvieron atentos en todo momento!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/186#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/186",
+            "author": {
+              "@type": "Person",
+              "name": "Alicia"
+            },
+            "datePublished": "2025-07-24",
+            "reviewBody": "We really loved and were very satisfied with this trip. Throughout the journey, we were well taken care of by Yandi and Kiki, who gave us many helpful suggestions for our itinerary. At Madakaripura, our guide Alim helped us take lots of great photos and videos, which made us really happy.\\n\\nAlthough the weather at Mount Ijen wasn't ideal, the views at Bromo were absolutely stunning, and the waterfall was also incredibly impressive.\\n\\nWe're truly grateful to JVTO for arranging and preparing this trip for us. It was a wonderful and fun experience, and one we'll remember for a long time.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/203#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/203",
+            "author": {
+              "@type": "Person",
+              "name": "ash_ash"
+            },
+            "datePublished": "2025-05-13",
+            "reviewBody": "Big shoutout to our tour guides and driver, Fredi, Kiki and Sulis. They were incredibly professional, knowledgeable and friendly. Loved how organised the itinerary was and really appreciated the daily reminders and briefing by the guides the day before. Also, thanks for making sure we have great pictures for the socials! Highly recommended !!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/227#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/227",
+            "author": {
+              "@type": "Person",
+              "name": "Joel Koh"
+            },
+            "datePublished": "2024-07-08",
+            "reviewBody": "Really great tour with an amazing guide (Kiki) who went out of his way to make sure we had an amazing experience. Beautiful sights!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/246#crew-kiki",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/246",
+            "author": {
+              "@type": "Person",
+              "name": "Sherry Law"
+            },
+            "datePublished": "2024-01-17",
+            "reviewBody": "A very nice experience. Sam's company is very professional. Every things is well arranged and staff are nice and helpful. Provide us a very remarkable 3D2N volcano experience.\\n\\nOur guide Kiki is have very good English and provide good guidance and briefing to us. We have a very safe ijen night walk.\\n\\nOur diver Fredi is a very nice and caring person. He be with us for whole 3 Day and give us a very comfortable and safe trip.\\n\\nThanks Java Volcano Tour Operator!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
             }
           }
         ]

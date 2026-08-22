@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T09:05:32.492Z",
+  "generated_at": "2026-08-22T00:59:01.220Z",
   "route": "/travel-guide/ijen-health-screening",
   "domain": "travel-guide",
   "slug": "ijen-health-screening",
@@ -303,7 +303,7 @@
             "name": "Is Ijen health screening mandatory?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A pre-hike health screening is included in your package and is mandatory for every guest before Kawah Ijen crater entry (supported by BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024). It is conducted at your hotel before the guide briefing."
+              "text": "A pre-hike health screening is included in your package and is mandatory for every guest before Kawah Ijen crater entry (BBKSDA SE.35/K2/BIDTEK.1/KSA/1/2024). It is conducted at your hotel before the guide briefing."
             }
           },
           {

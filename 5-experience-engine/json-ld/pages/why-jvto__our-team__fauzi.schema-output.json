@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T09:05:32.492Z",
+  "generated_at": "2026-08-22T00:59:01.220Z",
   "route": "/why-jvto/our-team/fauzi",
   "domain": "why-jvto",
   "slug": "our-team/fauzi",
@@ -321,6 +321,178 @@
               "@type": "PropertyValue",
               "propertyID": "KTA",
               "value": "KTA-G-2024-010"
+            }
+          }
+        ],
+        "review": [
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/138#crew-fauzi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/138",
+            "author": {
+              "@type": "Person",
+              "name": "Flore Sabbah"
+            },
+            "datePublished": "2026-08-15",
+            "reviewBody": "(Translated by Google) Absolutely fantastic!!! We did the 3-day, 2-night tour to see Bromo, Kawah Ijen, and the Madakaripura waterfalls. The trip was organized down to the smallest detail, and we loved our 3 days. Everything is arranged so you can fully enjoy yourself while staying safe. Our guide Fauzi and our driver Lily were truly wonderful!! I highly recommend it!\n\n(Original)\nJuste génial!!! Nous avons fait le tour 3 jours 2 nuits pour faire Bromo, Kawah Ijen et les cascades de Madakaripura. Le séjour a été organisé jusqu’aux petits détails, nous avons adoré nos 3 jours. Tout est organisé pour qu’on profite à fond tout en restant en sécurité. Notre guide Fauzi et notre chauffeur Lily étaient vraiment merveilleux!!  Je ne peux que recommander !",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/127#crew-fauzi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/127",
+            "author": {
+              "@type": "Person",
+              "name": "Tam"
+            },
+            "datePublished": "2026-07-22",
+            "reviewBody": "We had an absolutely amazing experience on our 3-night, 4-day East Java tour! We chose this company because we wanted a slower pace compared to the usual 2-night, 3-day itinerary, as well as more flexibility and it was honestly perfect.\n\nFrom start to finish, we didn’t have to worry about a single thing. The accommodations were lovely, the food we had was great, and we felt completely safe throughout the entire trip. The tour was truly tailored around us, which made the whole experience feel personal.\n\nOur guides, Fauzi and Freddie, made the tour truly unforgettable. They were positive, happy, caring and funny, and genuinely cared about how we were feeling throughout the trip. They went above and beyond to make sure we were comfortable and enjoying every moment.\n\nWe are so glad we chose this company and would highly recommend them to anyone looking for an unforgettable East Java experience. Thank you so much for everything - we will always remember this trip fondly, and we wish you and your company all the success in the future! 🙏✨",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/78#crew-fauzi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/78",
+            "author": {
+              "@type": "Person",
+              "name": "HuiYuan Yeoh"
+            },
+            "datePublished": "2026-07-12",
+            "reviewBody": "Booked the 4d3n tour to Tumpak Sewu, Mt Bromo and Kawah Ijen from the JVTO website. A really memorable trip with spectacular views, well organised itinerary, decent accommodations and the best tour guides. We always arrived early at the waterfall and mountains to avoid the crowds which is a huge plus point.\n\nSpecial thanks to Fauzi for taking good care of us the entire trip. He was friendly, hilarious and easy going where we vibed really well with him over common interests and jokes which made the experience even special. He knows all the good picture spots, takes amazing photos and helps us with anything. He was our guide for Tumpak Sewu and Mt Bromo, we always felt safe and never had to worry about anything under his care.\n\nOur driver, Fredy, was always punctual and is also very chill. Although the drives to each destination are long (avg 3-4 hours) each day, his smooth driving makes it comfortable and we slept like a baby during those journeys!\n\nTaufik, our guide at Kawah Ijen was really friendly and professional . He matches our hiking pace and always checked on us. Although we couldn’t head down to see the blue fire, he lit a small flame for us to see which was really nice.\n\nOverall verdict: I highly recommend this tour company if you want a worry-free and unforgettable trip visiting East Java. They always prioritise safety and all the guides and drivers have incredible hospitality and great attitude. Truly a well-organised and fulfilling adventure!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/79#crew-fauzi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/79",
+            "author": {
+              "@type": "Person",
+              "name": "n iffah"
+            },
+            "datePublished": "2026-07-12",
+            "reviewBody": "We booked a package with JVTO via Klook for our 3D2N adventure trip. Shoutout to Freddie and Fauzi for always accommodating to us; from entertaining our nonsense/requests and also for always making us break into laughter with their fresh set of jokes. We are really grateful and thankful to have them as our guide and driver. They make this trip a really stress- free, enjoyable and a memorable one. We would like to also express our biggest appreciation for always being patient with us especially during the hike. May God bless yall!🤍",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/85#crew-fauzi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/85",
+            "author": {
+              "@type": "Person",
+              "name": "Dawid Ziemba"
+            },
+            "datePublished": "2026-06-15",
+            "reviewBody": "I got Fauzi as a guide and a Freddy as a driver. Both of them were the best i can even imagine😍\nWe had very good time together, fauzi was taking a lot of picture of us and recommend us only the best things.\nWe didn't had any problems with them.\nHospitality at its finest, a lot of smiles and the best time guaranteed!\nIf you will got them on your trip, you will be in the best hands!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/98#crew-fauzi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/98",
+            "author": {
+              "@type": "Person",
+              "name": "marie becquet"
+            },
+            "datePublished": "2026-05-03",
+            "reviewBody": "(Translated by Google) We spent four incredible days with our guide Fauzi and our driver Holili.\n\nAn intense but exceptional trip from beginning to end.\n\nFauzi is a remarkable guide: always attentive, very pleasant, and constantly searching for the best spots to avoid the crowds (the spots are very popular). We had some great conversations with him, and he truly took care of us throughout the entire trip.\n\nHolili, for his part, is an excellent driver, always punctual and smiling, who drove us safely to each stop along the way.\n\nThanks to them, we were able to relax and enjoy ourselves for four days and had an unforgettable experience. A truly fantastic trip.\n\n(Original)\nNous avons passé 4 jours incroyables avec notre guide Fauzi et notre chauffeur Holili.\nUn séjour intense, mais exceptionnel du début à la fin.\n\nFauzi est un guide remarquable : toujours attentif, très agréable, et constamment à la recherche des meilleurs spots pour éviter la foule ( il y a beaucoup de monde sur les spots). Nous avons eu de super échanges avec lui et il a vraiment pris soin de nous tout au long du voyage.\n\nHolili, de son côté, est un excellent chauffeur, toujours ponctuel et souriant, qui nous a conduits en toute sécurité vers chaque étape du parcours.\n\nGrâce à eux, nous nous sommes laissés porter pendant 4 jours et avons vécu une expérience inoubliable.\nUn séjour vraiment au top.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/99#crew-fauzi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/99",
+            "author": {
+              "@type": "Person",
+              "name": "Яна Мисюченко"
+            },
+            "datePublished": "2026-04-24",
+            "reviewBody": "It was an incredible experience. The organization was excellent. Our guide was Fauzi, and our driver was Fredy. Huge thanks to them for their professional approach, smiles, easygoing attitude, and for making everything so comfortable!\n\nI forgot my earphones in the car, and Fauzi and Fredy went out of their way to help me and send them back via J&T Express. Such incredible kindness!\n\nIf I could give 100 out of 5, I absolutely would. Definitely recommended!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/110#crew-fauzi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/110",
+            "author": {
+              "@type": "Person",
+              "name": "Michael Lee"
+            },
+            "datePublished": "2026-01-09",
+            "reviewBody": "I just finished the solo trip to Bromo and Ijen with Java Volcano Tour Operator. It was amazing to see both volcanoes so close up. For anyone worried about the hike up Ijen, it’s really not that difficult if you exercise regularly.The scenery was simply majestic, but the team is what made it so good.\n\nBig thanks to Edi, Fauzi, Sulis, and other members of the tour team for organizing such a unique experience. I will certainly find them again next time I'm in Indonesia.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/172#crew-fauzi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/172",
+            "author": {
+              "@type": "Person",
+              "name": "Joshua Ang"
+            },
+            "datePublished": "2025-09-15",
+            "reviewBody": "⭐⭐⭐⭐⭐\\nWe had an incredible 3D2N tour of Surabaya, Mount Bromo, and Mount Ijen, thanks to our amazing guides, Gufron, Fauzi, and Pras! They took fantastic care of us, ensuring every detail was perfect. Their knowledge, enthusiasm, and professionalism made the trip unforgettable—from the breathtaking Bromo sunrise to the stunning Ijen crater. They kept us safe, comfortable, and entertained with their insights and warm hospitality. Highly recommend this team for anyone exploring this area! Thank you for an awesome adventure!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/192#crew-fauzi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/192",
+            "author": {
+              "@type": "Person",
+              "name": "nicole ng"
+            },
+            "datePublished": "2025-07-05",
+            "reviewBody": "The tour was perfect!! Yandi is very caring and helpful, he always keep us informed so that we won't get lost on the schedule and basically he arranged things perfectly for us! For the ijen tour, that was marvellous! Fauzi took good cares of me n my friend throughout the whole trip. The route was not easy but Fauzi kept cheering us up and eventually we got to see the blue fire!! Highly appreciated both their hardwork and also the team, that's a really great experience 👍 highly recommended",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
             }
           }
         ]

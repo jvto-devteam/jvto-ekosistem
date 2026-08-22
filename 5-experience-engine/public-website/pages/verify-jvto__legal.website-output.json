@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-21T09:05:32.492Z",
+  "generated_at": "2026-08-22T00:59:01.220Z",
   "route": "/verify-jvto/legal",
   "domain": "verify-jvto",
   "slug": "legal",
@@ -313,36 +313,43 @@
             {
               "asset": "NIB 1102230032918",
               "hash": "fa20dde31bb75e46b061ed14cc6d003f6960c02a9a82c20d8603b0cbf6f7b1b7",
+              "documentPath": "/legal/NIB-1102230032918.pdf",
               "imagePath": "/legal/NIB-1102230032918-preview.png"
             },
             {
               "asset": "TDUP 1102230032918",
               "hash": "27252d512ddfa74de22a3e3ec10aa3dd40ef88da3eb57349fcd2137411551ee3",
+              "documentPath": "/legal/TDUP-1102230032918.pdf",
               "imagePath": "/legal/TDUP-1102230032918-preview.png"
             },
             {
               "asset": "HPWKI Approval",
               "hash": "dbb57389b62b1554e4d66ccd82c6888dd4c31cb0f85619601a9befb786ac32c3",
+              "documentPath": "/legal/HPWKI-approval.pdf",
               "imagePath": "/legal/HPWKI-approval-preview.png"
             },
             {
               "asset": "SPRIN POLPAR",
               "hash": "03c8578dc22956faa366d957badecfe38868d4760359cd8059fb2d6b145dfeab",
+              "documentPath": "/legal/SPRIN-POLPAR.pdf",
               "imagePath": "/legal/SPRIN-POLPAR.png"
             },
             {
               "asset": "SPRIN WAL TRAVEL 2024-02-12",
               "hash": "179b061eae558943fdccc51d2ea3c8233a704b61f03ca3d212433f3e8d6f3bd3",
+              "documentPath": "/legal/SPRIN-WAL-TRAVEL-2024-02-12.pdf",
               "imagePath": "/legal/SPRIN-WAL-TRAVEL-2024-02-12.png"
             },
             {
               "asset": "Press — Detik.com 2021-03-14",
-              "hash": "b257b75b3d2b9edebf07c9af89a6c6aa9a4e01d6a716ef3f7c4ca75deda64b77",
+              "hash": "a68a0ac0ef30d7d9fc14557832ede29098faf08570f768034fa44d6e38a48490",
+              "documentPath": "/press/screencapture-news-detik-berita-jawa-timur-d-5492690-suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin-2026-01-14-02_48_41.png",
               "imagePath": "/press/screencapture-news-detik-berita-jawa-timur-d-5492690-suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin-2026-01-14-02_48_41.png"
             },
             {
               "asset": "Press — Radar Jember 2021-03-24",
-              "hash": "2a60eb168274004283b2b9939ccbf5982c12a7db854fda014308a2494ee2abf4",
+              "hash": "034be340ccd4354374e1f8cad009f501f975df5c5b08f2e75e7a399a3f1f5bba",
+              "documentPath": "/press/screenshot-radarjember.jawapos.com-polpar-dibentuk-untuk-mendukung-ijen-geopark.png",
               "imagePath": "/press/screenshot-radarjember.jawapos.com-polpar-dibentuk-untuk-mendukung-ijen-geopark.png"
             }
           ],

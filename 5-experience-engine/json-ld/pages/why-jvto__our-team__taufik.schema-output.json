@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T09:05:32.492Z",
+  "generated_at": "2026-08-22T00:59:01.220Z",
   "route": "/why-jvto/our-team/taufik",
   "domain": "why-jvto",
   "slug": "our-team/taufik",
@@ -321,6 +321,110 @@
               "@type": "PropertyValue",
               "propertyID": "KTA",
               "value": "KTA-G-2024-007"
+            }
+          }
+        ],
+        "review": [
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/78#crew-taufik",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/78",
+            "author": {
+              "@type": "Person",
+              "name": "HuiYuan Yeoh"
+            },
+            "datePublished": "2026-07-12",
+            "reviewBody": "Booked the 4d3n tour to Tumpak Sewu, Mt Bromo and Kawah Ijen from the JVTO website. A really memorable trip with spectacular views, well organised itinerary, decent accommodations and the best tour guides. We always arrived early at the waterfall and mountains to avoid the crowds which is a huge plus point.\n\nSpecial thanks to Fauzi for taking good care of us the entire trip. He was friendly, hilarious and easy going where we vibed really well with him over common interests and jokes which made the experience even special. He knows all the good picture spots, takes amazing photos and helps us with anything. He was our guide for Tumpak Sewu and Mt Bromo, we always felt safe and never had to worry about anything under his care.\n\nOur driver, Fredy, was always punctual and is also very chill. Although the drives to each destination are long (avg 3-4 hours) each day, his smooth driving makes it comfortable and we slept like a baby during those journeys!\n\nTaufik, our guide at Kawah Ijen was really friendly and professional . He matches our hiking pace and always checked on us. Although we couldn’t head down to see the blue fire, he lit a small flame for us to see which was really nice.\n\nOverall verdict: I highly recommend this tour company if you want a worry-free and unforgettable trip visiting East Java. They always prioritise safety and all the guides and drivers have incredible hospitality and great attitude. Truly a well-organised and fulfilling adventure!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/71#crew-taufik",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/71",
+            "author": {
+              "@type": "Person",
+              "name": "Cristina Martinez blanco"
+            },
+            "datePublished": "2026-02-28",
+            "reviewBody": "Son geniales\r\nSúper contentos de nuestros guías taufik y holili. Nos han ayudado en todo momento y nos han acompañado en todo. Son geniales y nos hemos reído mucho con ellos. Os aconsejamos a esta pareja de guías para vuestro viaje . Hacen que te sientas muy bien .\r\nOs esperamos en España taufik y holili 😉",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/213#crew-taufik",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/213",
+            "author": {
+              "@type": "Person",
+              "name": "Haikang Tan"
+            },
+            "datePublished": "2024-12-27",
+            "reviewBody": "Our family of four did the 3D2N Ijen, Bromo and Madakaripura Waterfalls. We were guided by experienced guide and driver who were friendly and warm.\\nWe were well taken care of throughout. Big thanks to our guide Taufik and driver Johan.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/215#crew-taufik",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/215",
+            "author": {
+              "@type": "Person",
+              "name": "Echuen Na"
+            },
+            "datePublished": "2024-09-24",
+            "reviewBody": "Enjoyed 4 days 3 nights private group tour to Ijen and Mount Bromo!\\n\\nKudos to our tour guide Taufik who's friendly and did well to cater to our needs throughout the trip.\\n\\nWould also like to thank driver Nanang who drove us to every destination safe and sound :)",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/236#crew-taufik",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/236",
+            "author": {
+              "@type": "Person",
+              "name": "Desiree Lim"
+            },
+            "datePublished": "2024-04-28",
+            "reviewBody": "Views of Ijen and Bromo are spectacular. Tour guide Taufik is humorous and very patient. He is so experienced and gives very good estimations of timings such that we caught all the pretty sceneries at the exact right timings. He also helps us along the way on the more difficult treks. Best tour guide! Driver Johan drives smoothly and fast. Your operator also replies very promptly. Good tour! Will recommend!! :)",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/243#crew-taufik",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/243",
+            "author": {
+              "@type": "Person",
+              "name": "N2 Crew"
+            },
+            "datePublished": "2024-01-25",
+            "reviewBody": "Amazing 4-day journey to Ijen, Papuma, Tumpak Sewu, and Bromo. Taufik, our guide, was knowledgeable and made the trip enjoyable. The waterfalls at Tumpak Sewu were breathtaking. Loved it!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
             }
           }
         ]

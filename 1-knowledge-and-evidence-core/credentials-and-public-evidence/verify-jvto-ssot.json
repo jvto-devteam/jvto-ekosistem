@@ -36,7 +36,8 @@
       "caption": "Website Hero Image.",
       "preview": "/assets/img/hero/home.webp",
       "category": "Brand",
-      "is_show": false
+      "is_show": false,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "jvto-logo-main",
@@ -44,7 +45,8 @@
       "caption": "JVTO Official Logo.",
       "preview": "/assets/img/jvto-logo.png",
       "category": "Brand",
-      "is_show": false
+      "is_show": false,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "nib-1102230032918",
@@ -52,7 +54,8 @@
       "caption": "Business Identification Number (NIB) 1102230032918 official registration.",
       "preview": "/legal/NIB-1102230032918.pdf",
       "category": "BusinessID",
-      "is_show": false
+      "is_show": false,
+      "evidenceClass": "official_authority"
     },
     {
       "slug": "nib-1102230032918-preview-webp",
@@ -60,7 +63,8 @@
       "caption": "NIB 1102230032918 preview image (WebP).",
       "preview": "/legal/NIB-1102230032918-preview.webp",
       "category": "BusinessID",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "official_authority"
     },
     {
       "slug": "mr-sam-tourist-police-portrait-png",
@@ -68,7 +72,8 @@
       "caption": "Active Tourist Police leadership behind every JVTO trip.",
       "preview": "/founder/mr-sam-tourist-police-portrait.png",
       "category": "Founder",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "stefan-loose-ijen-bondowoso-page",
@@ -76,7 +81,8 @@
       "caption": "Early third-party mention in a European travel guide.",
       "preview": "/history/stefan-loose-ijen-bondowoso-page.png",
       "category": "History",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "reputable_media"
     },
     {
       "slug": "tdup-1102230032918",
@@ -84,7 +90,8 @@
       "caption": "Tourism Business Licence (TDUP) official registration document.",
       "preview": "/legal/TDUP-1102230032918.pdf",
       "category": "License",
-      "is_show": false
+      "is_show": false,
+      "evidenceClass": "official_authority"
     },
     {
       "slug": "tdup-1102230032918-preview-webp",
@@ -92,7 +99,8 @@
       "caption": "TDUP licence preview image (WebP).",
       "preview": "/legal/TDUP-1102230032918-preview.webp",
       "category": "License",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "official_authority"
     },
     {
       "slug": "hpwki-approval",
@@ -100,7 +108,8 @@
       "caption": "HPWKI membership approval letter (official PDF).",
       "preview": "/legal/HPWKI-approval.pdf",
       "category": "Membership",
-      "is_show": false
+      "is_show": false,
+      "evidenceClass": "official_authority"
     },
     {
       "slug": "hpwki-approval-preview-webp",
@@ -108,7 +117,8 @@
       "caption": "HPWKI approval letter preview image (WebP).",
       "preview": "/legal/HPWKI-approval-preview.webp",
       "category": "Membership",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "official_authority"
     },
     {
       "slug": "baratha-hotel-departure-team",
@@ -116,7 +126,8 @@
       "caption": "Pre-ascent lineup at Baratha Hotel with Tourist Police support.",
       "preview": "/ops/baratha-hotel-departure-team.jpg",
       "category": "OpsPhoto",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "group-at-jvto-office",
@@ -124,7 +135,8 @@
       "caption": "International group visiting JVTO Bondowoso operations office.",
       "preview": "/ops/group-at-jvto-office.jpg",
       "category": "OpsPhoto",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "guest-welcome-evening",
@@ -132,7 +144,8 @@
       "caption": "Evening welcome with guests at JVTO office.",
       "preview": "/ops/guest-welcome-evening.png",
       "category": "OpsPhoto",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "ijen-geopark-briefing",
@@ -140,7 +153,8 @@
       "caption": "Tourist Police briefing at Ijen Geopark Information Center with local miners present.",
       "preview": "/ops/ijen-geopark-briefing.png",
       "category": "OpsPhoto",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "office-photo",
@@ -148,7 +162,8 @@
       "caption": "JVTO Bondowoso operations office.",
       "preview": "/legal/office-photo.jpg",
       "category": "OpsPhoto",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "police-escort-arrival-day",
@@ -156,7 +171,8 @@
       "caption": "Traffic Police escorted arrival at the hotel in Bondowoso group photo with the patrol car.",
       "preview": "/ops/jvto-police-escort-arrival-hotel-bondowoso-day.jpg",
       "category": "OpsPhoto",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "police-escort-arrival-night",
@@ -164,7 +180,8 @@
       "caption": "Arriving in Bondowoso with a Traffic Police escort group photo at the hotel after the journey.",
       "preview": "/ops/jvto-police-escort-arrival-hotel-bondowoso-night.jpg",
       "category": "OpsPhoto",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "police-vehicle-support",
@@ -172,7 +189,8 @@
       "caption": "Police support vehicle and group prior to departure.",
       "preview": "/ops/police-vehicle-support.jpg",
       "category": "OpsPhoto",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "sprin-polpar",
@@ -180,7 +198,8 @@
       "caption": "Tourist Police assignment letter (SPRIN POLPAR) official PDF.",
       "preview": "/legal/SPRIN-POLPAR.pdf",
       "category": "PoliceDocs",
-      "is_show": false
+      "is_show": false,
+      "evidenceClass": "official_authority"
     },
     {
       "slug": "sprin-polpar-webp",
@@ -188,7 +207,8 @@
       "caption": "Tourist Police assignment letter (SPRIN POLPAR) preview image.",
       "preview": "/legal/SPRIN-POLPAR.webp",
       "category": "PoliceDocs",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "official_authority"
     },
     {
       "slug": "sprin-wal-travel-2024-02-12",
@@ -196,7 +216,8 @@
       "caption": "Police travel order (SPRIN WAL-TRAVEL), 12 Feb 2024 official PDF.",
       "preview": "/legal/SPRIN-WAL-TRAVEL-2024-02-12.pdf",
       "category": "PoliceDocs",
-      "is_show": false
+      "is_show": false,
+      "evidenceClass": "official_authority"
     },
     {
       "slug": "sprin-wal-travel-2024-02-12-webp",
@@ -204,7 +225,8 @@
       "caption": "Police travel order (SPRIN WAL-TRAVEL), 12 Feb 2024 preview image.",
       "preview": "/legal/SPRIN-WAL-TRAVEL-2024-02-12.webp",
       "category": "PoliceDocs",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "official_authority"
     },
     {
       "slug": "press-bbksda-ijen-guide-training",
@@ -212,7 +234,8 @@
       "caption": "BBKSDA Jatim official training article: HPWKI members participate in Ijen guide safety training (SAR & emergency first aid).",
       "preview": "/press/screenshot-bbksda-pelatihan-pemandu-kawah-ijen.png",
       "category": "Press",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "reputable_media"
     },
     {
       "slug": "press-detik-polisi-pariwisata-2021-03-14",
@@ -220,7 +243,8 @@
       "caption": "Press mention screenshot (Detik.com) with founder name variant in Tourist Police context.",
       "preview": "/press/screencapture-news-detik-berita-jawa-timur-d-5492690-suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin-2026-01-14-02_48_41.png",
       "category": "Press",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "reputable_media"
     },
     {
       "slug": "press-radarjember-polpar-ijen-geopark-2021-03-24",
@@ -228,7 +252,8 @@
       "caption": "Press mention screenshot (Radar Jember) about Tourist Police formation for Ijen Geopark.",
       "preview": "/press/screenshot-radarjember.jawapos.com-polpar-dibentuk-untuk-mendukung-ijen-geopark.png",
       "category": "Press",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "reputable_media"
     },
     {
       "slug": "ijen-screening-hotel-01",
@@ -236,7 +261,8 @@
       "caption": "Pre-ascent health screening at partner hotel.",
       "preview": "/screening/ijen-screening-hotel-01.jpeg",
       "category": "Screening",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "ijen-screening-hotel-02",
@@ -244,7 +270,8 @@
       "caption": "Vitals taken and logged before night ascent.",
       "preview": "/screening/ijen-screening-hotel-02.jpg",
       "category": "Screening",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "jvto-office-screening-1",
@@ -252,7 +279,8 @@
       "caption": "Digitally recorded, signed clearance issuance.",
       "preview": "/screening/jvto-office-screening-1.JPG",
       "category": "Screening",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "jvto-office-screening-2",
@@ -260,7 +288,8 @@
       "caption": "Screening can be done at hotel or office.",
       "preview": "/screening/jvto-office-screening-2.jpg",
       "category": "Screening",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "print-surat-sehat",
@@ -268,7 +297,8 @@
       "caption": "Health clearance (surat sehat) printable PDF.",
       "preview": "/screening/Print_Surat_Sehat_2026.pdf",
       "category": "Screening",
-      "is_show": false
+      "is_show": false,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "print-surat-sehat-preview",
@@ -276,7 +306,8 @@
       "caption": "Sample printout of health clearance (surat sehat) preview image.",
       "preview": "/screening/print-surat-sehat-preview-2026.png",
       "category": "Screening",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "kta-anjas",
@@ -284,7 +315,8 @@
       "caption": "Official Ijen climbing license for Anjas.",
       "preview": "/uploads/1771428583288-513992233-kta_anjas.jpg",
       "category": "Credentials",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "official_authority"
     },
     {
       "slug": "kta-gufron",
@@ -292,7 +324,8 @@
       "caption": "Official Ijen climbing license for Gufron.",
       "preview": "/uploads/1771428741674-842615436-kta_gufron.jpg",
       "category": "Credentials",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "official_authority"
     },
     {
       "slug": "kta-kiki",
@@ -300,7 +333,8 @@
       "caption": "Official Ijen climbing license for Kiki.",
       "preview": "/uploads/1771428489070-55145932-kta_kiki.jpg",
       "category": "Credentials",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "official_authority"
     },
     {
       "slug": "kta-rendi",
@@ -308,7 +342,8 @@
       "caption": "Official Ijen climbing license for Rendi.",
       "preview": "/uploads/1771428760524-516116110-kta_rendi.jpg",
       "category": "Credentials",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "official_authority"
     },
     {
       "slug": "kta-taufik",
@@ -316,7 +351,8 @@
       "caption": "Official Ijen climbing license for Taufik.",
       "preview": "/uploads/1771428704448-911506028-kta_taufik.jpg",
       "category": "Credentials",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "official_authority"
     },
     {
       "slug": "founder-with-guests-stefan-loose",
@@ -324,7 +360,8 @@
       "caption": "Founder with Guests Holding Stefan Loose Guidebook (Homestad Era)",
       "preview": "/history/guest-visit-ijen-bondowoso-homestay-stefan-loose-inspired.jpg",
       "category": "History",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "booking-2015-shipping-label",
@@ -332,7 +369,8 @@
       "caption": "Booking.com Guest Review Award 2015 — Shipping Label (box)",
       "preview": "/history/booking-2015-shipping-label.jpg",
       "category": "History",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "booking-2015-plaque",
@@ -340,7 +378,8 @@
       "caption": "Booking.com Guest Review Award 2015 — Plaque + Award Letter",
       "preview": "/history/booking-2015-plaque.jpg",
       "category": "History",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "stefan-loose-guidebook-page-287",
@@ -348,7 +387,8 @@
       "caption": "Stefan Loose Reiseführer Indonesien, Ost-JAVA | Ijen-Massiv, page 287.",
       "preview": "/history/stefan_loose_crop_enh.jpg",
       "category": "History",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "reputable_media"
     },
     {
       "slug": "bbksda-surat-edaran-se-1658-ksa-9-2024",
@@ -356,7 +396,8 @@
       "caption": "BBKSDA East Java Circular Letter — Opening of TWA Kawah Ijen (SE.1658/K2/BIDTEK.1/KSA/9/2024)",
       "preview": "/screening/bbksda/05012024_Edaran_Pembukaan_TWA_Kawah_Ijen.pdf",
       "category": "Screening",
-      "is_show": false
+      "is_show": false,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "bbksda-ticket-terms-screenshot",
@@ -364,7 +405,8 @@
       "caption": "Crater access terms (screenshot, tiket.bbksdajatim.org): health requirements and doctor certificate. That portal is retired; the current authority is ayoketamannasional.kehutanan.go.id",
       "preview": "/screening/bbksda/bbksda-ticket-terms-screenshot.jpeg",
       "category": "Screening",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "official_authority"
     },
     {
       "slug": "sip-dr-ahmad-irwandanu-2026",
@@ -372,7 +414,8 @@
       "caption": "Surat Izin Praktik (SIP) — dr. Ahmad Irwandanu (Bondowoso)",
       "preview": "/screening/SIP_DOKTER_AHMAD_IRWANDANU_2026.pdf",
       "category": "Screening",
-      "is_show": false
+      "is_show": false,
+      "evidenceClass": "operational_record"
     },
     {
       "slug": "screenshot-sip-dr-ahmad-irwandanu-2026",
@@ -380,7 +423,8 @@
       "caption": "Surat Izin Praktik (SIP) — dr. Ahmad Irwandanu (Bondowoso)",
       "preview": "/screening/SCREENSHOT_SIP_DOKTER_AHMAD_IRWANDANU_2026.png",
       "category": "Screening",
-      "is_show": true
+      "is_show": true,
+      "evidenceClass": "official_authority"
     }
   ],
   "source_trace": {

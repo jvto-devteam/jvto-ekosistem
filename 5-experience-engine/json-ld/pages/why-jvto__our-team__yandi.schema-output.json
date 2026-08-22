@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T09:05:32.492Z",
+  "generated_at": "2026-08-22T00:59:01.220Z",
   "route": "/why-jvto/our-team/yandi",
   "domain": "why-jvto",
   "slug": "our-team/yandi",
@@ -321,6 +321,212 @@
               "@type": "PropertyValue",
               "propertyID": "KTA",
               "value": "KTA-D-2024-003"
+            }
+          }
+        ],
+        "review": [
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/68#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/68",
+            "author": {
+              "@type": "Person",
+              "name": "JzB Bro"
+            },
+            "datePublished": "2026-02-26",
+            "reviewBody": "We have such a wonderful moments\r\nEven in the bad weather ,anyway we can enjoy the trip. All The guides are very kindness, friendly and sincerely especially Yandi and Rendi , two thumbs up!!!!!!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/69#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/69",
+            "author": {
+              "@type": "Person",
+              "name": "Chaiwut"
+            },
+            "datePublished": "2026-02-26",
+            "reviewBody": "Rendi&yandi good guide\r\nRendi&yandi good guide",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/70#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/70",
+            "author": {
+              "@type": "Person",
+              "name": "Pat"
+            },
+            "datePublished": "2026-02-26",
+            "reviewBody": "It was a very fun trip\r\nIt was a very fun trip. The driver, Yandi, took great care of us the whole time and brought us everywhere we wanted to go. The guides, Rendi and Yandi, communicated well in English and helped take really great photos. If you’re planning to travel to Surabaya, I highly recommend this place.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/65#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/65",
+            "author": {
+              "@type": "Person",
+              "name": "Patarachai Sereerat"
+            },
+            "datePublished": "2026-01-18",
+            "reviewBody": "Amazing trip\r\nHad an amazing trip visiting Bromo, Ijen Crater, and Tumpak Sewu Waterfall! Everything was well organized and the price was really good. The staff were super kind and helpful — special thanks to Yandi (our driver who’s been staying with us the whole trip) and Boy (our guide to Ijen crater). They were so friendly and shared lots of useful info. Even though we had to wake up in the middle of the night, it was totally worth it! Highly recommended",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/109#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/109",
+            "author": {
+              "@type": "Person",
+              "name": "Patarachai Sereerat"
+            },
+            "datePublished": "2026-01-18",
+            "reviewBody": "Had an amazing trip visiting Bromo, Ijen Crater, and Tumpak Sewu Waterfall! Everything was well organized and the price was really good. The staff were super kind and helpful — special thanks to Yandi (our driver who’s been staying with us the whole trip) and Boy (our guide to Ijen crater). They were so friendly and shared lots of useful info. Even though we had to wake up in the middle of the night, it was totally worth it! Highly recommended",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/173#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/173",
+            "author": {
+              "@type": "Person",
+              "name": "Divya_ Stri"
+            },
+            "datePublished": "2025-09-15",
+            "reviewBody": "Our driver Yandi was really reliable and friendly. He briefed us on what to expect for the day and was really helpful throughout our trip. Our guide for Mount Ijen was Gufron and he was really encouraging throughout the hike and helpful. He guided us well and was really friendly too. would recommend this tour to family and friends in the future!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/186#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/186",
+            "author": {
+              "@type": "Person",
+              "name": "Alicia"
+            },
+            "datePublished": "2025-07-24",
+            "reviewBody": "We really loved and were very satisfied with this trip. Throughout the journey, we were well taken care of by Yandi and Kiki, who gave us many helpful suggestions for our itinerary. At Madakaripura, our guide Alim helped us take lots of great photos and videos, which made us really happy.\\n\\nAlthough the weather at Mount Ijen wasn't ideal, the views at Bromo were absolutely stunning, and the waterfall was also incredibly impressive.\\n\\nWe're truly grateful to JVTO for arranging and preparing this trip for us. It was a wonderful and fun experience, and one we'll remember for a long time.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/192#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/192",
+            "author": {
+              "@type": "Person",
+              "name": "nicole ng"
+            },
+            "datePublished": "2025-07-05",
+            "reviewBody": "The tour was perfect!! Yandi is very caring and helpful, he always keep us informed so that we won't get lost on the schedule and basically he arranged things perfectly for us! For the ijen tour, that was marvellous! Fauzi took good cares of me n my friend throughout the whole trip. The route was not easy but Fauzi kept cheering us up and eventually we got to see the blue fire!! Highly appreciated both their hardwork and also the team, that's a really great experience 👍 highly recommended",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/207#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/207",
+            "author": {
+              "@type": "Person",
+              "name": "Noelia Carrasco"
+            },
+            "datePublished": "2025-04-29",
+            "reviewBody": "We did 4D3N from Bali to Surabaya visiting Mount Ijen, Bromo, Tumpak Sewu and Madakaripura Waterfall and we cannot be so grateful!\\n\\nEverything went perfect, and our driver Yandi help us with everything! The local guides were also amazing! And the hotels perfect!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/222#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/222",
+            "author": {
+              "@type": "Person",
+              "name": "Jun Yuan T"
+            },
+            "datePublished": "2024-08-03",
+            "reviewBody": "Yandi has been super friendly and ensuring our safety during our entire trip. Took great care of us and always being on time for all the activities listed in the itinerary 👍🏻👍🏻👍🏻\\n\\nThank you so much to the team for making the experience a memorable one\\n\\nWe will definitely recommend to our friends and families!!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/247#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/247",
+            "author": {
+              "@type": "Person",
+              "name": "Amanda Oktaviani"
+            },
+            "datePublished": "2024-01-16",
+            "reviewBody": "\"Recently did the 3-day tour to Ijen and Bromo. Yandi, our guide, was fantastic. He made sure we didn't miss any highlights and shared interesting facts. The sunrise at Bromo was breathtaking!\"",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/250#crew-yandi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/250",
+            "author": {
+              "@type": "Person",
+              "name": "brylee catline"
+            },
+            "datePublished": "2023-12-29",
+            "reviewBody": "Yandi and Dosi made our 5 Days 4 Nights tour to Ijen, Papuma, Tumpak Sewu, Bromo, and Surabaya truly enjoyable. Highly recommend their services!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
             }
           }
         ]

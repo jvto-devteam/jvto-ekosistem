@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T09:05:32.492Z",
+  "generated_at": "2026-08-22T00:59:01.220Z",
   "route": "/why-jvto/our-team/rendi",
   "domain": "why-jvto",
   "slug": "our-team/rendi",
@@ -321,6 +321,297 @@
               "@type": "PropertyValue",
               "propertyID": "KTA",
               "value": "KTA-G-2024-002"
+            }
+          }
+        ],
+        "review": [
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/135#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/135",
+            "author": {
+              "@type": "Person",
+              "name": "Alessandra Pacini"
+            },
+            "datePublished": "2026-08-05",
+            "reviewBody": "It was an absolutely amazing experience! We did the 3-day tour from Surabaya to Ijen, Bromo, and the Madakaripura waterfalls. Enchanting places that we were able to enjoy even more thanks to the excellent organization and the great care of our guide, Rendi, and our attentive driver.\nThe timing and organization were truly top-notch. Everything was organized perfectly.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/75#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/75",
+            "author": {
+              "@type": "Person",
+              "name": "Nina Kliem"
+            },
+            "datePublished": "2026-03-03",
+            "reviewBody": "We did the 3D2N Bromo and Mount Ijen tour. It was organised very well and our tourguide Rendi as well as our driver Holili were super kind and helpful! Great experience :) the accommodations were very nice as well.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/68#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/68",
+            "author": {
+              "@type": "Person",
+              "name": "JzB Bro"
+            },
+            "datePublished": "2026-02-26",
+            "reviewBody": "We have such a wonderful moments\r\nEven in the bad weather ,anyway we can enjoy the trip. All The guides are very kindness, friendly and sincerely especially Yandi and Rendi , two thumbs up!!!!!!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/69#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/69",
+            "author": {
+              "@type": "Person",
+              "name": "Chaiwut"
+            },
+            "datePublished": "2026-02-26",
+            "reviewBody": "Rendi&yandi good guide\r\nRendi&yandi good guide",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/70#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/70",
+            "author": {
+              "@type": "Person",
+              "name": "Pat"
+            },
+            "datePublished": "2026-02-26",
+            "reviewBody": "It was a very fun trip\r\nIt was a very fun trip. The driver, Yandi, took great care of us the whole time and brought us everywhere we wanted to go. The guides, Rendi and Yandi, communicated well in English and helped take really great photos. If you’re planning to travel to Surabaya, I highly recommend this place.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/112#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/112",
+            "author": {
+              "@type": "Person",
+              "name": "Yip Chuiyee"
+            },
+            "datePublished": "2025-12-30",
+            "reviewBody": "Rendi and Fredi (the guide and the driver) are very kind and helpful. Rendi is an excellent photographer who took a lot of great photos of us. The trip was well-organised, and flexible with our requests. However, considering the price of the tour, we expected a better quality of accommodations.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/166#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/166",
+            "author": {
+              "@type": "Person",
+              "name": "samia amrani"
+            },
+            "datePublished": "2025-10-14",
+            "reviewBody": "It was the best experience ever!! Our driver Pras and guide Rendi were the best, great people, super professionals and thoughtful, they took care of every detail and made us feel super safe and good.\\nI recommended it 100%",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/178#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/178",
+            "author": {
+              "@type": "Person",
+              "name": "Marine Netter"
+            },
+            "datePublished": "2025-08-27",
+            "reviewBody": "(Translated by Google) We took the 3D/2N package to do Kawah Ijen and Bromo with a pick-up in Bali and a drop-off in Surabaya and we are delighted with this excursion. JVTO is a very professional agency with a good customer interface on the website to communicate information in real time. And we were very well accompanied by our guides and drivers Rendi and Fredi who answered all our questions, gave us visibility on the schedule, had in mind the perfect timing to arrive at the sites and start the hikes to avoid the crowds, and they knew all the good photo spots. They made these excursions on Kawah Ijen and Bromo an unforgettable moment! We warmly thank them as well as the entire JVTO team\\n\\n(Original)\\nNous avons pris le package 3D/2N pour faire le Kawah Ijen et le Bromo avec un pick up à Bali et une dépose à Surabaya et nous sortons enchantés de cette excursion. JVTO est une agence très professionnelle avec une bonne interface client sur le site web pour communiquer les informations en temps réel. Et nous avons été très bien accompagnés par nos guides et chauffeurs Rendi et Fredi qui ont répondu à toutes nos questions, nous donnaient de la visibilité sur le planning, avaient en tête le timing parfait pour arriver sur les sites et commencer les randonnées pour éviter la foule, et ils connaissaient tous les bons spots photos. Ils ont fait de ces excursions sur le Kawah Ijen et le Bromo un moment inoubliable ! Nous les remercions chaleureusement ainsi que toute l’équipe JVTO",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/181#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/181",
+            "author": {
+              "@type": "Person",
+              "name": "Wing Shan Lui"
+            },
+            "datePublished": "2025-08-03",
+            "reviewBody": "The 4D3N volcano trip is really worth going!!\\n\\nWe joined the tour from 31/7 to 3/8. We have had a great trip with our driver, Dika, he was being very helpful and caring, sharing things about Indonesia with us, taking us to different local and good restaurants, and also taking good care of us. He also provided flexibility for us to decide our schedules, I highly appreciate his professionalism!!\\n\\nBesides, for the Ijen tour, our guide, Rendi, also helped us a lot, he kept asking about our condition when we went up the mountain so that we were able to rest at any time. When we went down the steep crater, he held our hands to prevent us from falling. I like his energy that makes our journey so happy and memorable!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/115#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/115",
+            "author": {
+              "@type": "Person",
+              "name": "bin"
+            },
+            "datePublished": "2025-08-02",
+            "reviewBody": "We joined the Bromo–Ijen–Sewu trip with JVTO, and we were lucky to have Rendi and Anjas as our tour guides. They were absolutely amazing! Both of them were clear with their instructions, helpful throughout the journey, and brought such good vibes to the whole experience.\n\nThey provided strong emotional support and knew exactly how to connect with our young team. Always friendly, patient, and cheerful, they made a physically demanding trip feel a lot more enjoyable.\n\nIf we get the chance to travel with JVTO again, we truly hope Renji and Anjas will be our guides once more. Highly recommended!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/182#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/182",
+            "author": {
+              "@type": "Person",
+              "name": "Yoon jk"
+            },
+            "datePublished": "2025-08-02",
+            "reviewBody": "We had a wonderful trip! Mr. Yusuf (the driver) was so kind and patient, always helping us find the right spots and restaurants. He helped us take pictures. Mr. Rendi made our first day really fun and enjoyable. Everyone we met along the way was lovely and supportive. Truly grateful for the experiences — highly recommended! and might come back to Bromo!!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/185#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/185",
+            "author": {
+              "@type": "Person",
+              "name": "Huier Ng"
+            },
+            "datePublished": "2025-07-27",
+            "reviewBody": "One of my best trip ever! Everything was so good, the stays are nice even tho just slept for few hours\\n\\nThank you so much for Anjas and Rendi for taking good care of us , they are professional and knowledgeable. we had so much fun during this trip!\\n\\none disappointed things about the hotel we stay at Bromo, don't have water heater :(",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/198#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/198",
+            "author": {
+              "@type": "Person",
+              "name": "JunYoung Lee"
+            },
+            "datePublished": "2025-05-26",
+            "reviewBody": "We had a wonderful trip, made even better by the people who took care of us throughout the journey. Our driver, Johan, was incredibly nice and made the rides smooth and comfortable. Our guide, Rendi, was extremely competent! Professional, knowledgeable, and always ready to answer our questions with a smile.\\n\\nDespite the weather not being on our side (Rendi said it was one of the worst he's seen), the team ensured that we were well taken care of at every step. Their level of preparation, professionalism, and friendliness truly stood out and made the experience enjoyable regardless of the conditions. Highly recommend this team for anyone looking for a reliable and pleasant tour experience!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/202#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/202",
+            "author": {
+              "@type": "Person",
+              "name": "Michelle Jeon"
+            },
+            "datePublished": "2025-05-14",
+            "reviewBody": "We had the best time on our 3D2N Java to Bali trip with JVTO. Rendi was a wonderful guide, super funny, punctual, knowledgeable and he takes the best photos! He answered all of our questions and gave us fun facts throughout the tour. He also speaks good English which made it easy to communicate. He introduced us to a lot of his guide friends, making for a very warm and welcoming atmosphere.\\n\\nAll our concerns were quickly and easily resolved. Our driver Didin was also very kind. My friends and I had a lot of fun thanks to the team. I would highly recommend Java Volcano Tour Operator.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/209#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/209",
+            "author": {
+              "@type": "Person",
+              "name": "Pooja prakash"
+            },
+            "datePublished": "2025-04-05",
+            "reviewBody": "I am glad I chose Java volcano tour operator. Your service is spectacular. Right from communication to providing on time service, it has been amazing over all. Now to specify the members of your team… Freddie was the first one to meet in Surabaya hotel, he is a very punctual sweet and friendly person who is always on time no matter what time of the day. Exceptional driving skills.\\nNext we met Rendi for the ijen trek… again a very polite, punctual and well informed person. Kept us accompanied and encouraged us through out the trek. We had the time of our life these 2 days capturing memories for a lifetime. Every other person we encountered from your team for the jeep, cab and boat were all well coordinated and made us feel safe. Thank you once again for making it the best trip ever. I will highly recommend",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/214#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/214",
+            "author": {
+              "@type": "Person",
+              "name": "Jesus Palma"
+            },
+            "datePublished": "2024-11-12",
+            "reviewBody": "(Translated by Google) We did the 3d/2n tour from Surabaya to Bali. Our guide Rendi and our driver Johan made the tour unbeatable. Attentive from the first moment to our needs, explaining all kinds of curiosities and recommending the best restaurants and typical dishes of the areas we visited. JVTO also provided us with the transfer to our hotel in Bali after finishing the excursion to Ijén.\\n\\n(Original)\\nHicimos el tour 3d/2n desde Surabaya hasta Bali. Nuestro guía Rendi y nuestro conductor Johan hicieron el tour inmejorable. Atentos desde el primer momento a nuestras necesidades, explicándonos todo tipo de curiosidades y recomendándonos los mejores restaurantes y platos típicos de las zonas que visitamos. JVTO también nos proporcionó el transfer a nuestro hotel de Bali tras acabar la excursión a Ijén.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/223#crew-rendi",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/223",
+            "author": {
+              "@type": "Person",
+              "name": "Jolene Kek"
+            },
+            "datePublished": "2024-07-26",
+            "reviewBody": "We had an incredible journey with JVTO during our recent trip to Tempak Sewu Waterfall and Mount Bromo! From the moment we embarked, everything was meticulously planned and executed flawlessly. Our tour guide, Rendi, and driver, Gean, were exceptional. They were not only proficient in English but also engaged us in enriching conversations throughout the trip.\\nInitially, our itinerary included a visit to Mount Ijen. However, due to increased volcanic activity, JVTO swiftly offered us alternative destinations. We opted to explore Tempak Sewu Waterfall, and it turned out to be a breathtaking experience that exceeded our expectations.\\n\\nOverall, our experience with JVTO was outstanding, and we wholeheartedly recommend their services to fellow travelers. We're already looking forward to booking another tour with JVTO in the future, particularly to visit Mount Ijen once conditions allow.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
             }
           }
         ]

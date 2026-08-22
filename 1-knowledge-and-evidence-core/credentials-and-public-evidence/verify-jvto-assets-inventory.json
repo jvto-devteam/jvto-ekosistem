@@ -274,7 +274,8 @@
       "sha256": "2dc90147fd9d35a1ac134865d5c2743c89a2cf13abf2917eda327c962d45cde0",
       "size_bytes": null,
       "size_mb": null,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "jvto-logo.png",
@@ -288,7 +289,8 @@
       "sha256": "1C3E5814297215BC35651F00034AB299F73CDFA593732CE865F6714070727B5B",
       "size_bytes": 88955,
       "size_mb": 0.084834,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "NIB-1102230032918.pdf",
@@ -302,7 +304,8 @@
       "sha256": "FA20DDE31BB75E46B061ED14CC6D003F6960C02A9A82C20D8603B0CBF6F7B1B7",
       "size_bytes": 775447,
       "size_mb": 0.7395,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     },
     {
       "filename": "NIB-1102230032918-preview.webp",
@@ -316,7 +319,8 @@
       "sha256": "F8403270A49B4529C5A366900062C07632461AC35416AED6E45FC1E950B43A5E",
       "size_bytes": 42596,
       "size_mb": 0.040623,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     },
     {
       "filename": "mr-sam-tourist-police-portrait.png",
@@ -330,7 +334,8 @@
       "sha256": "2093A1CC04ED9DE6BD78F4DE6711A679839F548869B61AC14656EAC5D6E36CB8",
       "size_bytes": 12554285,
       "size_mb": 11.972699,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "stefan-loose-ijen-bondowoso-page.png",
@@ -344,7 +349,8 @@
       "sha256": "ECD5B591D3BA1B01341DCF75925A8E072DFF53C1097111E99033BB1AC4F71E22",
       "size_bytes": 3354101,
       "size_mb": 3.1987,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "reputable_media"
     },
     {
       "filename": "TDUP-1102230032918.pdf",
@@ -358,7 +364,8 @@
       "sha256": "27252D512DDFA74DE22A3E3EC10AA3DD40EF88DA3EB57349FCD2137411551EE3",
       "size_bytes": 278637,
       "size_mb": 0.2657,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     },
     {
       "filename": "TDUP-1102230032918-preview.webp",
@@ -372,7 +379,8 @@
       "sha256": "FA13B599A3CB5F1D31819B5ACC3AC670ECA5F22C5B5DEE719D45289D593178E6",
       "size_bytes": 96006,
       "size_mb": 0.091558,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     },
     {
       "filename": "HPWKI-approval.pdf",
@@ -386,7 +394,8 @@
       "sha256": "DBB57389B62B1554E4D66CCD82C6888DD4C31CB0F85619601A9BEFB786AC32C3",
       "size_bytes": 706582,
       "size_mb": 0.673849,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     },
     {
       "filename": "HPWKI-approval-preview.webp",
@@ -400,7 +409,8 @@
       "sha256": "26F166C571C25B3D89D91BB41409EC1D0DDC670EE1B1B813F5037909731EFC6D",
       "size_bytes": 162998,
       "size_mb": 0.155447,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     },
     {
       "filename": "baratha-hotel-departure-team.jpg",
@@ -414,7 +424,8 @@
       "sha256": "E06195BA5D396ADB1A66191F9F677B4F954B9BCFCBE5D114C27192852D0ACD2E",
       "size_bytes": 229640,
       "size_mb": 0.218947,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "group-at-jvto-office.jpg",
@@ -428,7 +439,8 @@
       "sha256": "E0CCA429BDA5E4F49B17878800C0328828C4BAC74C039044BBE2C6D4A7A4D838",
       "size_bytes": 132498,
       "size_mb": 0.126308,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "guest-welcome-evening.png",
@@ -442,7 +454,8 @@
       "sha256": "5B3E7EED6DC2E2334FBB9F0BC112BBF9B30B8E6C3AC41A13836881D82C829925",
       "size_bytes": 1491416,
       "size_mb": 1.422247,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "ijen-geopark-briefing.png",
@@ -456,7 +469,8 @@
       "sha256": "72EB0D8F1629F2B97CBB8DC77535396EA15A260033DF52CB93BD96E33E2E86C3",
       "size_bytes": 1807019,
       "size_mb": 1.723731,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "office-photo.jpg",
@@ -470,7 +484,8 @@
       "sha256": "7850E39F80A5A42243982A33FC027E1D38F33BD28F7CDA56FC2E243790340A0F",
       "size_bytes": 755370,
       "size_mb": 0.7204,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "jvto-police-escort-arrival-hotel-bondowoso-day.jpg",
@@ -484,7 +499,8 @@
       "sha256": "54CFC8C8D144EA7FD7ECE5301A2E51B584BCE237A6F4D5523CB5242C0C0CECF5",
       "size_bytes": 936766,
       "size_mb": 0.8934,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "jvto-police-escort-arrival-hotel-bondowoso-night.jpg",
@@ -498,7 +514,8 @@
       "sha256": "5068DA0CC718B43880C54077819C72BF6BCE1C8E024A7E4B34B89E6A287BFA89",
       "size_bytes": 535850,
       "size_mb": 0.53585,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "police-vehicle-support.jpg",
@@ -512,7 +529,8 @@
       "sha256": "475DDAE5F4C646F8200491DF7C67E17A6A14C28A67842F91E831512C98D62B30",
       "size_bytes": 641401,
       "size_mb": 0.6117,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "SPRIN-POLPAR.pdf",
@@ -526,7 +544,8 @@
       "sha256": "03C8578DC22956FAA366D957BADECFE38868D4760359CD8059FB2D6B145DFEAB",
       "size_bytes": 420247,
       "size_mb": 0.4008,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     },
     {
       "filename": "SPRIN-POLPAR.webp",
@@ -540,7 +559,8 @@
       "sha256": "C402AFD91EE7E3AB61ED368B343D8921C716E759F6181CE7C91D2C9E739D61C0",
       "size_bytes": 37690,
       "size_mb": 0.035944,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     },
     {
       "filename": "SPRIN-WAL-TRAVEL-2024-02-12.pdf",
@@ -554,7 +574,8 @@
       "sha256": "179B061EAE558943FDCCC51D2EA3C8233A704B61F03CA3D212433F3E8D6F3BD3",
       "size_bytes": 199164,
       "size_mb": 0.1899,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     },
     {
       "filename": "SPRIN-WAL-TRAVEL-2024-02-12.webp",
@@ -568,7 +589,8 @@
       "sha256": "8B65A41B4897E011A8F8623AD11FD2FCA8D7EC46DCB34C5944AAB7D747A792C7",
       "size_bytes": 42908,
       "size_mb": 0.04092,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     },
     {
       "filename": "screenshot-bbksda-pelatihan-pemandu-kawah-ijen.png",
@@ -582,7 +604,8 @@
       "sha256": "D1329283C3E0B48DF0E4773B33354E42AA8888A0EC0A159DDCC872B335724216",
       "size_bytes": 813527,
       "size_mb": 0.77584,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "reputable_media"
     },
     {
       "filename": "screencapture-news-detik-berita-jawa-timur-d-5492690-suka-duka-polisi-pariwisata-bondowoso-tegakkan-prokes-sambil-lawan-dingin-2026-01-14-02_48_41.png",
@@ -596,7 +619,8 @@
       "sha256": "A68A0AC0EF30D7D9FC14557832EDE29098FAF08570F768034FA44D6E38A48490",
       "size_bytes": 837390,
       "size_mb": 0.798597,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "reputable_media"
     },
     {
       "filename": "screenshot-radarjember.jawapos.com-polpar-dibentuk-untuk-mendukung-ijen-geopark.png",
@@ -610,7 +634,8 @@
       "sha256": "034BE340CCD4354374E1F8CAD009F501F975DF5C5B08F2E75E7A399A3F1F5BBA",
       "size_bytes": 612048,
       "size_mb": 0.583694,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "reputable_media"
     },
     {
       "filename": "ijen-screening-hotel-01.jpeg",
@@ -624,7 +649,8 @@
       "sha256": "C52194BB0DB9C5ADA6F22660A954ACB03071925EA364B5E5B0C5E8EB919EBB77",
       "size_bytes": 212986,
       "size_mb": 0.2031,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "ijen-screening-hotel-02.jpg",
@@ -638,7 +664,8 @@
       "sha256": "E86A1E7D9D3E797F1D2D2EA0B2732103C9D980356BFB474BF16584772580EEEC",
       "size_bytes": 139109,
       "size_mb": 0.139109,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "jvto-office-screening-1.JPG",
@@ -652,7 +679,8 @@
       "sha256": "70370B0D85E0B5D0D92E317FD0F4D6880DA6ACBDF4A04EFB5C20C4E2EAC05E18",
       "size_bytes": 1070965,
       "size_mb": 1.0214,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "jvto-office-screening-2.jpg",
@@ -666,7 +694,8 @@
       "sha256": "5F298BD424B765E96A424BE5F6AA016F59A82C2E675AFACC547F2EC692D33BD9",
       "size_bytes": 534942,
       "size_mb": 0.534942,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "Print_Surat_Sehat_2026.pdf",
@@ -680,7 +709,8 @@
       "sha256": "837246D569BD3DCED780B9392B768109191F92A07267AB1B0EDD72B5360B8351",
       "size_bytes": 112792,
       "size_mb": 0.107567,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "print-surat-sehat-preview-2026.png",
@@ -694,7 +724,8 @@
       "sha256": "2EF9D8A386C87852C7F1D06BCEFE28F49F8FA6007DA2D9964539D6BCDAB0CD36",
       "size_bytes": 198552,
       "size_mb": 0.189354,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "1771428583288-513992233-kta_anjas.jpg",
@@ -708,7 +739,8 @@
       "sha256": "8f34a7ad62425dfa0e591d7cfcddcafae9e444dbc80ac3f3518247203837df72",
       "size_bytes": null,
       "size_mb": null,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     },
     {
       "filename": "1771428741674-842615436-kta_gufron.jpg",
@@ -722,7 +754,8 @@
       "sha256": "27216033236df1302abf9765ab080d0280f3dff9e96dd301e3f486aa38bb20ab",
       "size_bytes": null,
       "size_mb": null,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     },
     {
       "filename": "1771428489070-55145932-kta_kiki.jpg",
@@ -736,7 +769,8 @@
       "sha256": "bd11ae0f0d15257bae7334496396fb69f5401c80d4fd7fc5139e4992c4df44cb",
       "size_bytes": null,
       "size_mb": null,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     },
     {
       "filename": "1771428760524-516116110-kta_rendi.jpg",
@@ -750,7 +784,8 @@
       "sha256": "1f96683542bc9929e88dfc693c5f27597f18058b657cdfa482a4a91b5cf5cbb7",
       "size_bytes": null,
       "size_mb": null,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     },
     {
       "filename": "1771428704448-911506028-kta_taufik.jpg",
@@ -764,7 +799,8 @@
       "sha256": "90d5fc704e68421ef63fe278346702a796985af72fc3a5804976a0f0f66f1290",
       "size_bytes": null,
       "size_mb": null,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     },
     {
       "filename": "guest-visit-ijen-bondowoso-homestay-stefan-loose-inspired.jpg",
@@ -778,7 +814,8 @@
       "sha256": "41DCDCD2E08778B0212C1B7006455B5B1B2D66282DEFCDE813F0A3EA96407FBC",
       "size_bytes": 218839,
       "size_mb": 0.218839,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "booking-2015-shipping-label.jpg",
@@ -792,7 +829,8 @@
       "sha256": "4eec3756b0f4afef8ea799ad08d1b2f098f75eba2eba45e8519ced3b64594549",
       "size_bytes": 321695,
       "size_mb": 0.321695,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "booking-2015-plaque.jpg",
@@ -806,7 +844,8 @@
       "sha256": "08ce8e519b936df53d8dc2b4b98df06604eca9d8d633a6f5e1b8709022a13c9b",
       "size_bytes": 332183,
       "size_mb": 0.332183,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "stefan_loose_crop_enh.jpg",
@@ -820,7 +859,8 @@
       "sha256": "42752F1E9850864173F059A7A3E0205F29289E363A2DDCB010B2D604A6D6E31A",
       "size_bytes": 141891,
       "size_mb": 0.135318,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "reputable_media"
     },
     {
       "filename": "05012024_Edaran_Pembukaan_TWA_Kawah_Ijen.pdf",
@@ -834,7 +874,8 @@
       "sha256": "86f9c225cff91a9ae04332d469a17c70264c4be681572822601096c86ab4148a",
       "size_bytes": 296594,
       "size_mb": 0.296594,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "bbksda-ticket-terms-screenshot.jpeg",
@@ -848,7 +889,8 @@
       "sha256": "8B029E067BEA225223040654CE18F3D35C6B6CCEEDC4F8653B814A4287889653",
       "size_bytes": 102692,
       "size_mb": 0.097935,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     },
     {
       "filename": "SIP_DOKTER_AHMAD_IRWANDANU_2026.pdf",
@@ -862,7 +904,8 @@
       "sha256": "82f2535b87066fef23cf3012ed3bc1cb18c124e03045ab544067e51d78ac80aa",
       "size_bytes": 409950,
       "size_mb": 0.40995,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "operational_record"
     },
     {
       "filename": "SCREENSHOT_SIP_DOKTER_AHMAD_IRWANDANU_2026.png",
@@ -876,7 +919,8 @@
       "sha256": "492ab5b8b6a9ac709132723c900e4bcf1e904038a8bec9fc3b97e8eb3ef02533",
       "size_bytes": 526792,
       "size_mb": 0.50239,
-      "last_verified_iso": "2026-08-21"
+      "last_verified_iso": "2026-08-21",
+      "evidenceClass": "official_authority"
     }
   ],
   "_migration_note": "Migrated 2026-08-19 from jvto-web/src/lib/Master_Dataset_JVTO.SSOT.v3.0.json (a pre-migration Prisma-era snapshot file previously imported directly into verify-jvto/page.tsx) as part of the single-content-source consolidation. Same structure (organization_profile, verification_credentials, assets_inventory) 1:1, nothing rewritten. See also verify-jvto-ssot.json (presentation-layer reconciliation metadata for the same documents) and verify-jvto-pages/ (rendered article bodies) in this same directory.",

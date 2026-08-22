@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T09:05:32.492Z",
+  "generated_at": "2026-08-22T00:59:01.220Z",
   "route": "/why-jvto/our-team/boy",
   "domain": "why-jvto",
   "slug": "our-team/boy",
@@ -321,6 +321,229 @@
               "@type": "PropertyValue",
               "propertyID": "KTA",
               "value": "KTA-G-2024-004"
+            }
+          }
+        ],
+        "review": [
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/140#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/140",
+            "author": {
+              "@type": "Person",
+              "name": "Noah"
+            },
+            "datePublished": "2026-08-18",
+            "reviewBody": "We had a wonderful 4D3N trip and visited spectacular places in East Java. Ijen, Tumpak Sewu, Papuma Beach and Bromo offered improbable views and impressions.\nIt is definitely worth making this trip. A special thanks goes to our guide Boy and our driver Joyo who took care of us so attentively and patiently the whole time and to the office wich made a really spontaneous change of plans possible. Very flexible, uncomplicated and friendly.\nWe felt well looked after all the time, Boy answered all our questions and took great care of everything. Joyo took us safely from A to B managing the crazy traffic all over Java with ease and herby allowing us to catch up on some sleep.\nThe office responded to questions within a few minutes. There was complete around-the-clock care. From the pick-up in Bali to the ferry ride to Java, through all hikes up to the drop off in Surabaya at our hotel, there was always someone at our side.\nSpontaneous stops on the journey were always possible. We had a good and safe feeling all the time.\nThe whole trip was described in a completely transparent way in advance. You know the timing and the accommodations - like promised on the website no surprises or hidden costs.\nWe can recommend Java Volcano Tour Operator to everyone looking for a great trip seeing what Java has got to offer.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/82#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/82",
+            "author": {
+              "@type": "Person",
+              "name": "koh zhixuan"
+            },
+            "datePublished": "2026-06-22",
+            "reviewBody": "Our tour guide (ah boy) and driver were amazing throughout the 3D2N trip. Responsible and made everything smooth. Definitely recommend",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/92#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/92",
+            "author": {
+              "@type": "Person",
+              "name": "abdallah boumsidia"
+            },
+            "datePublished": "2026-05-28",
+            "reviewBody": "A great experience with Boy and Holili, they are very professional and friendly!\nThe itinerary was full of great adventures and we had a lot of fun.\nThank you !",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/66#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/66",
+            "author": {
+              "@type": "Person",
+              "name": "Evan"
+            },
+            "datePublished": "2026-01-22",
+            "reviewBody": "Ahboy was an amazing guide.\r\nAhboy was an amazing guide- knowledgeable, caring and fun. Wr're so glad he showed us ljen.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/65#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/65",
+            "author": {
+              "@type": "Person",
+              "name": "Patarachai Sereerat"
+            },
+            "datePublished": "2026-01-18",
+            "reviewBody": "Amazing trip\r\nHad an amazing trip visiting Bromo, Ijen Crater, and Tumpak Sewu Waterfall! Everything was well organized and the price was really good. The staff were super kind and helpful — special thanks to Yandi (our driver who’s been staying with us the whole trip) and Boy (our guide to Ijen crater). They were so friendly and shared lots of useful info. Even though we had to wake up in the middle of the night, it was totally worth it! Highly recommended",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/109#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/109",
+            "author": {
+              "@type": "Person",
+              "name": "Patarachai Sereerat"
+            },
+            "datePublished": "2026-01-18",
+            "reviewBody": "Had an amazing trip visiting Bromo, Ijen Crater, and Tumpak Sewu Waterfall! Everything was well organized and the price was really good. The staff were super kind and helpful — special thanks to Yandi (our driver who’s been staying with us the whole trip) and Boy (our guide to Ijen crater). They were so friendly and shared lots of useful info. Even though we had to wake up in the middle of the night, it was totally worth it! Highly recommended",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/168#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/168",
+            "author": {
+              "@type": "Person",
+              "name": "Veronica Ramos"
+            },
+            "datePublished": "2025-10-03",
+            "reviewBody": "(Translated by Google) We did the 3D/2N Bromo-ijen-Madakaripura tour with them, and the experience couldn't have been better.\\n\\nWe looked at several options and decided on this one because the accommodations were better and included more meals, for a super reasonable price. As for the tour, they all offer practically the same things...\\n\\nI'm giving them 5 stars because I can't give them more.\\n\\nThe organization of the entire tour is excellent, even though we booked with very little notice. Even before leaving Spain, the contact has been continuous, and from the minute we set foot in the airport, they have been attentive to us (and our belongings) at all times.\\n\\nThe tour is intense, but it's so worth it. I hope to keep it in my memory forever.\\nTransfers to the airport, train, etc. Meals, accommodation, guide, driver, tickets...\\nIt's perfectly designed so that all you have to worry about is enjoying it.\\n\\nOur guide, Ahboy, made a tremendous effort with us since we barely spoke English, but he made sure we understood each other perfectly. He was attentive, helpful, funny, a top-notch photographer, and a true professional.\\n\\nAnd our driver, Holili, made sure we were the first to arrive wherever we went, driving carefully and with a constant smile on his face.\\n\\nThank you so much to the whole team!\\n\\nThe experience was truly a 10!\\n\\n(Original)\\nHicimos con ellos el tour de 3D/2N de Bromo-ijen-Madakaripura, y la experiencia no ha podido ser mejor.\\n\\nMiramos bastantes opciones, y nos decidimos por esta porque los alojamientos eran mejores e incluía más comidas, por un precio súper razonable, en cuanto al recorrido todas ofrecen prácticamente lo mismo…\\n\\nLes pongo 5 estrellas por que no puedo darles más\\n\\nLa organización de todo el tour es buenísima, y eso que nosotros contratamos con muy poquito tiempo de antelación, pero desde antes de salir de Espańa el contacto ha sido continuo, y desde el minuto 1 que pusimos un pie en el aeropuerto han estado pendientes de nosotros (y nuestras pertenencias) en todo momento.\\n\\nEl Tour es  intenso, pero merece muchísimo la pena. Espero tenerlo en mi retina para siempre\\nTraslados al aeropuerto, tren, etc. Comidas, alojamiento, guía, chofer, entradas…\\nEstá perfectamente pensado para que solo te tengas que preocupar de disfrutarlo.\\n\\nNuestro guía Ahboy ha hecho un tremendo sobre esfuerzo con nosotros puesto que apenas hablamos inglés, pero él ha conseguido que nos entendamos perfectamente, atento, servicial, gracioso, un fotógrafo de primera en definitiva, un grandísimo profesional.\\n\\nY nuestro chofer Holili se ha preocupado en todo momento en que fuésemos los primeros en llegar a cualquier parte, prudente al volante y con una sonrisa continua en su cara.\\n\\nMuchísimas gracias a todo el equipo!\\n\\nDe verdad que la experiencia ha sido de 10!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/114#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/114",
+            "author": {
+              "@type": "Person",
+              "name": "KX han"
+            },
+            "datePublished": "2025-10-01",
+            "reviewBody": "The tour operator was reliable and responsive, as was our driver. However, we had a really negative experience with our guide Boy on the first two days. Prior to departing from Singapore, the operator said that hiking poles would be provided and we didn’t need to bring ours. On the morning of the hike when we were finally at the lodge, Boy said that the hiking poles were broken and that we’d have to hike without them. This was despite him claiming the night before that he was going to prepare our hiking equipment. During the hike, he also accidentally revealed that he actually went to a night market the evening before instead, and kept saying he was feeling sleepy because of that. Don’t think that’s very professional nor safe.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "4",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/171#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/171",
+            "author": {
+              "@type": "Person",
+              "name": "K E"
+            },
+            "datePublished": "2025-09-19",
+            "reviewBody": "(Translated by Google) I participated in a tour of Java's Mount Ijen Volcano, Mount Bromo, and Madakaripura Waterfall. The comprehensive outdoor plan included airport transfers, meals, accommodation, and a guide. Our accommodation, Riverside Homestay, even had a pool, making for a truly enjoyable stay. The tour features a highly efficient and reliable system, with the driver and guide contacting each other in advance and accompanied by photos. Both our driver, Freddy, and the mountain guide boy were cheerful and helpful, helping with photography and accommodating even the smallest of requests. Each of the three tourist sites was truly worthy of being called the main event. With some motorbike travel and river fording, the tour was packed with extraordinary experiences. There were also opportunities to sample local fruit, and the opportunity to ride a horse for just 3,000 yen—exceptional experiences unimaginable in Japan. The only thing I noticed was that the accommodation on the second day was a little noisy. Furthermore, the roads are narrow in all locations, and Mount Bromo in particular is filled with jeeps, making it difficult for beginners to stop or make U-turns. For this reason, we recommend hiring a guide. Considering accommodation, meals, transportation, photography assistance, etc., the service is exceptionally good for this price, so we highly recommend it.\\nIn particular, the driving involved a six-hour round trip from the airport, as well as nighttime transportation and guiding, so we were grateful to Freddie, who accompanied us with a smile until the very end despite the hard work.\\n\\n(Original)\\nジャワ島のイジェン火山、ブロモ山、マダカリプラの滝をめぐるツアーに参加しました。空港からの送迎、食事、宿泊、ガイドの総合的なアウトドアプランに加え、宿泊先のリバーサイドホームステイはプールもあり、快適な時間を過ごすことができました。ツアーではあらかじめ写真付きの運転手とガイドの連絡があり、完成度が高い安心できる仕組みが採用されています。運転手のフレディも山岳ガイドのボーイも明るく親切で、写真撮影への協力や、ちょっとした要望にも応えていただくことができました。３つの観光地は全てがメインイベントというに相応しいレベルの内容です。バイクでの移動が一部あったり、川の徒渉があったり、非日常感は満載です。\\n現地の果実が食べれるタイミングがあったり、たった３０００円程度で馬に乗れたり、日本では考えられない破格の体験も可能です。\\n１点気になったところは、２日目の宿が唯一音が煩いところはありました。\\n尚、どの場所も道が狭く、特にブロモ山はジープが大量に止まっていて停車やUターンは素人には無理です。そのためガイドをつけることを推奨します。宿泊、食事、送迎、撮影補助等を考慮すると、この値段のサービスは破格なため、おすすめします。\\n特に運転については６時間の空港付近からの往復に加え、夜間からの送迎やガイドもあるので、重労働にもかかわらず最後まで笑顔で付き合ってくれたフレディには感謝しています。",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/62#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/62",
+            "author": {
+              "@type": "Person",
+              "name": "Megane"
+            },
+            "datePublished": "2025-08-20",
+            "reviewBody": "On a vécu une superbe expérience avec Oboy qui nous a guidé tout le long du voyage. L'expérience était vraiment top! Je recommande Oboy, qui a vraiment été au petit soin pour nous.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/188#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/188",
+            "author": {
+              "@type": "Person",
+              "name": "Sylvie Nicolas"
+            },
+            "datePublished": "2025-07-24",
+            "reviewBody": "(Translated by Google) Everything was perfect! Boy and Holili's team were attentive. They were exactly what we could hope for in a guide and driver for this whole trip. Also, the tour was exactly what we had booked!\\n\\n(Original)\\nTout était parfait! L'équipe de Boy et Holili était attentionnée.  Ils étaient exactement ce que nous pouvons espérer d'un guide et chauffeurs pour ce tout.  Aussi, le tour correspondait exactement à ce que nous avions réservé!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/191#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/191",
+            "author": {
+              "@type": "Person",
+              "name": "JX"
+            },
+            "datePublished": "2025-07-07",
+            "reviewBody": "Everything was a breeze, we were picked up at the airport and dropped off at our intended destination. Our guide and driver, Johan, is clearly experienced, and his hard work and efforts are admirable and appreciated. Our guide at Ijen, Boy, also strived to make us feel at ease and looked out for us. Overall, the trip was definitely memorable and made significantly easier by JVTO.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/220#crew-boy",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/220",
+            "author": {
+              "@type": "Person",
+              "name": "Mélanie Dos Santos"
+            },
+            "datePublished": "2024-08-09",
+            "reviewBody": "Amazing trip for 4D3N to see the beauty of East Java !\\nWe had fun and will keep great memories of those few days 😊\\nSpecial thanks to our guide Ahboy for making us discover indonesian songs during our long car drives 🎶\\nThank you JVTO !!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
             }
           }
         ]

@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T09:05:32.492Z",
+  "generated_at": "2026-08-22T00:59:01.220Z",
   "route": "/why-jvto/our-team/joyo",
   "domain": "why-jvto",
   "slug": "our-team/joyo",
@@ -321,6 +321,93 @@
               "@type": "PropertyValue",
               "propertyID": "KTA",
               "value": "KTA-D-2024-011"
+            }
+          }
+        ],
+        "review": [
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/140#crew-joyo",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/140",
+            "author": {
+              "@type": "Person",
+              "name": "Noah"
+            },
+            "datePublished": "2026-08-18",
+            "reviewBody": "We had a wonderful 4D3N trip and visited spectacular places in East Java. Ijen, Tumpak Sewu, Papuma Beach and Bromo offered improbable views and impressions.\nIt is definitely worth making this trip. A special thanks goes to our guide Boy and our driver Joyo who took care of us so attentively and patiently the whole time and to the office wich made a really spontaneous change of plans possible. Very flexible, uncomplicated and friendly.\nWe felt well looked after all the time, Boy answered all our questions and took great care of everything. Joyo took us safely from A to B managing the crazy traffic all over Java with ease and herby allowing us to catch up on some sleep.\nThe office responded to questions within a few minutes. There was complete around-the-clock care. From the pick-up in Bali to the ferry ride to Java, through all hikes up to the drop off in Surabaya at our hotel, there was always someone at our side.\nSpontaneous stops on the journey were always possible. We had a good and safe feeling all the time.\nThe whole trip was described in a completely transparent way in advance. You know the timing and the accommodations - like promised on the website no surprises or hidden costs.\nWe can recommend Java Volcano Tour Operator to everyone looking for a great trip seeing what Java has got to offer.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/88#crew-joyo",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/88",
+            "author": {
+              "@type": "Person",
+              "name": "Logan Shay"
+            },
+            "datePublished": "2026-06-05",
+            "reviewBody": "It was a safe and fun trip all around! Gufron and Joyo were both amazing and helpful. They were both great people to commit with. I also like that Gufron explained each trek before we did it, which helped us be prepared. Great for foreigners and people wanting a safe trip!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/111#crew-joyo",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/111",
+            "author": {
+              "@type": "Person",
+              "name": "senthan balachandiran"
+            },
+            "datePublished": "2025-12-31",
+            "reviewBody": "We had a very professional organised tour with the team at JV. Our tour guide Gufron - was super friendly and made sure all our needs were taken care off...his knowledge of the area was also great. Our drive Joyo knows how to get from A to B in the fastest time possible! We did the 5/6 night tour but in hindsight the 4/5 night tour would have given us all the highlights of the region. I would use this company again - they are very professional and their online dashboard gives you all the information you need.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/195#crew-joyo",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/195",
+            "author": {
+              "@type": "Person",
+              "name": "Adrián Martínez"
+            },
+            "datePublished": "2025-06-20",
+            "reviewBody": "(Translated by Google) The Madakaripura-Bromo-Ijen tour was excellent. It was very well organized, and you were accompanied from the time you were picked up at the airport until you were dropped off at your next destination three days later. Our guide, Gufron, was excellent—very respectful, friendly, and always willing to help you get your best photo. Our driver, Mr. Joyo, is a great driver; always with a smile on his face, he'll ensure you arrive first at your destination. It's said he was a former Formula 1 driver. In short, if you visit Indonesia, I recommend contacting him.\\n\\n(Original)\\nEl tour de Madakaripura-Bromo-Ijen fue excelente. Está muy bien organizado y estás acompañado desde que te recogen en el aeropuerto hasta que 3 días más tarde te dejan en tu siguiente destino. Nuestro guía Gufron fue excelente, muy respetuoso, simpático y siempre dispuesto a que consigas tu mejor fotografía. El chófer Mr Joyo es un gran conductor, siempre con una sonrisa en la cara hará que llegues el primero a tu destino, se comenta que anteriormente fue piloto de fórmula 1. En definitiva, si visitas Indonesia te recomiendo que les contactes.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/201#crew-joyo",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/201",
+            "author": {
+              "@type": "Person",
+              "name": "Regina Wong"
+            },
+            "datePublished": "2025-05-15",
+            "reviewBody": "We had a fantastic tour experience with Gufron as our guide and Joyo as our driver. Gufron was incredibly knowledgeable and friendly throughout the entire trip, making every stop more meaningful with his insights and stories. Very accommodating to our hiking pace, allowing us to enjoy the journey without feeling rushed. He also gave us excellent food recommendations that allowed us to enjoy authentic local flavors!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
             }
           }
         ]

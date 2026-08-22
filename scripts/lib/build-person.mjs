@@ -82,7 +82,39 @@ function subjectToSchema(subject) {
   };
 }
 
-export function buildPersonNode(record, pageUrl, registry, route) {
+/**
+ * Guest reviews that name this person, as Review nodes on the Person.
+ *
+ * The crew pages render these quotes for readers, but the graph carried only
+ * the Person — so the most-praised asset on the site was invisible to anything
+ * reading structured data. jvto-web tried attaching them to a runtime
+ * ProfilePage, which was correctly dropped: this file already emits a
+ * ProfilePage on #webpage, and a second one is a duplicate singleton. They
+ * belong on the Person node instead, which is the thing being reviewed.
+ */
+function crewReviewNodes(code, reviews, baseUrl) {
+  if (!code || !Array.isArray(reviews)) return [];
+  return reviews
+    .filter((r) => Array.isArray(r.crewCodes) && r.crewCodes.includes(code))
+    .filter((r) => typeof r.review === "string" && r.review.trim())
+    .sort((a, b) => String(b.date).localeCompare(String(a.date)))
+    .map((r) => ({
+      "@type": "Review",
+      "@id": `${baseUrl}/why-jvto/reviews/${r.id}#crew-${code}`,
+      url: `${baseUrl}/why-jvto/reviews/${r.id}`,
+      author: { "@type": "Person", name: r.customerName },
+      datePublished: String(r.date).slice(0, 10),
+      reviewBody: r.review,
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: String(r.star ?? 5),
+        bestRating: "5",
+        worstRating: "1",
+      },
+    }));
+}
+
+export function buildPersonNode(record, pageUrl, registry, route, reviews) {
   if (!record) return null;
 
   const explicitCredentials = (record.hasCredential ?? []).map((c) => credentialToSchema(c, registry, route));
@@ -109,6 +141,14 @@ export function buildPersonNode(record, pageUrl, registry, route) {
     ...(record.sameAs?.length ? { sameAs: record.sameAs } : {}),
     ...(record.knowsAbout?.length ? { knowsAbout: record.knowsAbout } : {}),
     ...(credentials.length ? { hasCredential: credentials } : {}),
+    ...(() => {
+      const nodes = crewReviewNodes(
+        record.code,
+        reviews,
+        "https://javavolcano-touroperator.com",
+      );
+      return nodes.length ? { review: nodes } : {};
+    })(),
     ...(record.subjectOf?.length ? { subjectOf: record.subjectOf.map(subjectToSchema) } : {}),
   };
 }

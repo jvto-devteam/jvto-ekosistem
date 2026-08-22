@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T09:05:32.492Z",
+  "generated_at": "2026-08-22T00:59:01.220Z",
   "route": "/why-jvto/our-team/holili",
   "domain": "why-jvto",
   "slug": "our-team/holili",
@@ -321,6 +321,144 @@
               "@type": "PropertyValue",
               "propertyID": "KTA",
               "value": "KTA-D-2024-009"
+            }
+          }
+        ],
+        "review": [
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/81#crew-holili",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/81",
+            "author": {
+              "@type": "Person",
+              "name": "Estera Herman"
+            },
+            "datePublished": "2026-06-28",
+            "reviewBody": "I did the 3-Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya, and it was honestly one of the best experiences of my life!\n\nA huge thank you to our amazing tour guide Kiki and our driver Holili. They made the whole trip so easy, stress-free, and truly unforgettable. They were professional, friendly, and always made sure everything ran smoothly.\n\nEvery single stop was incredible, and the views were beyond anything I can describe. From the blue fire at Ijen to the sunrise over Bromo and the stunning Madakaripura Waterfall, every moment was absolutely perfect.\n\nI highly, highly recommend this tour to anyone visiting East Java. It was an experience I’ll never forget!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/92#crew-holili",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/92",
+            "author": {
+              "@type": "Person",
+              "name": "abdallah boumsidia"
+            },
+            "datePublished": "2026-05-28",
+            "reviewBody": "A great experience with Boy and Holili, they are very professional and friendly!\nThe itinerary was full of great adventures and we had a lot of fun.\nThank you !",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/98#crew-holili",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/98",
+            "author": {
+              "@type": "Person",
+              "name": "marie becquet"
+            },
+            "datePublished": "2026-05-03",
+            "reviewBody": "(Translated by Google) We spent four incredible days with our guide Fauzi and our driver Holili.\n\nAn intense but exceptional trip from beginning to end.\n\nFauzi is a remarkable guide: always attentive, very pleasant, and constantly searching for the best spots to avoid the crowds (the spots are very popular). We had some great conversations with him, and he truly took care of us throughout the entire trip.\n\nHolili, for his part, is an excellent driver, always punctual and smiling, who drove us safely to each stop along the way.\n\nThanks to them, we were able to relax and enjoy ourselves for four days and had an unforgettable experience. A truly fantastic trip.\n\n(Original)\nNous avons passé 4 jours incroyables avec notre guide Fauzi et notre chauffeur Holili.\nUn séjour intense, mais exceptionnel du début à la fin.\n\nFauzi est un guide remarquable : toujours attentif, très agréable, et constamment à la recherche des meilleurs spots pour éviter la foule ( il y a beaucoup de monde sur les spots). Nous avons eu de super échanges avec lui et il a vraiment pris soin de nous tout au long du voyage.\n\nHolili, de son côté, est un excellent chauffeur, toujours ponctuel et souriant, qui nous a conduits en toute sécurité vers chaque étape du parcours.\n\nGrâce à eux, nous nous sommes laissés porter pendant 4 jours et avons vécu une expérience inoubliable.\nUn séjour vraiment au top.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/75#crew-holili",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/75",
+            "author": {
+              "@type": "Person",
+              "name": "Nina Kliem"
+            },
+            "datePublished": "2026-03-03",
+            "reviewBody": "We did the 3D2N Bromo and Mount Ijen tour. It was organised very well and our tourguide Rendi as well as our driver Holili were super kind and helpful! Great experience :) the accommodations were very nice as well.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/71#crew-holili",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/71",
+            "author": {
+              "@type": "Person",
+              "name": "Cristina Martinez blanco"
+            },
+            "datePublished": "2026-02-28",
+            "reviewBody": "Son geniales\r\nSúper contentos de nuestros guías taufik y holili. Nos han ayudado en todo momento y nos han acompañado en todo. Son geniales y nos hemos reído mucho con ellos. Os aconsejamos a esta pareja de guías para vuestro viaje . Hacen que te sientas muy bien .\r\nOs esperamos en España taufik y holili 😉",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/168#crew-holili",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/168",
+            "author": {
+              "@type": "Person",
+              "name": "Veronica Ramos"
+            },
+            "datePublished": "2025-10-03",
+            "reviewBody": "(Translated by Google) We did the 3D/2N Bromo-ijen-Madakaripura tour with them, and the experience couldn't have been better.\\n\\nWe looked at several options and decided on this one because the accommodations were better and included more meals, for a super reasonable price. As for the tour, they all offer practically the same things...\\n\\nI'm giving them 5 stars because I can't give them more.\\n\\nThe organization of the entire tour is excellent, even though we booked with very little notice. Even before leaving Spain, the contact has been continuous, and from the minute we set foot in the airport, they have been attentive to us (and our belongings) at all times.\\n\\nThe tour is intense, but it's so worth it. I hope to keep it in my memory forever.\\nTransfers to the airport, train, etc. Meals, accommodation, guide, driver, tickets...\\nIt's perfectly designed so that all you have to worry about is enjoying it.\\n\\nOur guide, Ahboy, made a tremendous effort with us since we barely spoke English, but he made sure we understood each other perfectly. He was attentive, helpful, funny, a top-notch photographer, and a true professional.\\n\\nAnd our driver, Holili, made sure we were the first to arrive wherever we went, driving carefully and with a constant smile on his face.\\n\\nThank you so much to the whole team!\\n\\nThe experience was truly a 10!\\n\\n(Original)\\nHicimos con ellos el tour de 3D/2N de Bromo-ijen-Madakaripura, y la experiencia no ha podido ser mejor.\\n\\nMiramos bastantes opciones, y nos decidimos por esta porque los alojamientos eran mejores e incluía más comidas, por un precio súper razonable, en cuanto al recorrido todas ofrecen prácticamente lo mismo…\\n\\nLes pongo 5 estrellas por que no puedo darles más\\n\\nLa organización de todo el tour es buenísima, y eso que nosotros contratamos con muy poquito tiempo de antelación, pero desde antes de salir de Espańa el contacto ha sido continuo, y desde el minuto 1 que pusimos un pie en el aeropuerto han estado pendientes de nosotros (y nuestras pertenencias) en todo momento.\\n\\nEl Tour es  intenso, pero merece muchísimo la pena. Espero tenerlo en mi retina para siempre\\nTraslados al aeropuerto, tren, etc. Comidas, alojamiento, guía, chofer, entradas…\\nEstá perfectamente pensado para que solo te tengas que preocupar de disfrutarlo.\\n\\nNuestro guía Ahboy ha hecho un tremendo sobre esfuerzo con nosotros puesto que apenas hablamos inglés, pero él ha conseguido que nos entendamos perfectamente, atento, servicial, gracioso, un fotógrafo de primera en definitiva, un grandísimo profesional.\\n\\nY nuestro chofer Holili se ha preocupado en todo momento en que fuésemos los primeros en llegar a cualquier parte, prudente al volante y con una sonrisa continua en su cara.\\n\\nMuchísimas gracias a todo el equipo!\\n\\nDe verdad que la experiencia ha sido de 10!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/188#crew-holili",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/188",
+            "author": {
+              "@type": "Person",
+              "name": "Sylvie Nicolas"
+            },
+            "datePublished": "2025-07-24",
+            "reviewBody": "(Translated by Google) Everything was perfect! Boy and Holili's team were attentive. They were exactly what we could hope for in a guide and driver for this whole trip. Also, the tour was exactly what we had booked!\\n\\n(Original)\\nTout était parfait! L'équipe de Boy et Holili était attentionnée.  Ils étaient exactement ce que nous pouvons espérer d'un guide et chauffeurs pour ce tout.  Aussi, le tour correspondait exactement à ce que nous avions réservé!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/199#crew-holili",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/199",
+            "author": {
+              "@type": "Person",
+              "name": "Teoh Tsyr Xiang"
+            },
+            "datePublished": "2025-05-25",
+            "reviewBody": "TQ JVTO for the heart warming hospitality and superb tour arrangement. Despite the rainy weather we still had a great and wonderful time in surabaya ! Thank you our guide Gufron and Driver Holili, wonderful people, they made sure we were safe and all our needs met, and they waited patiently for us to finish massage before sending us back to our hotel !",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
             }
           }
         ]

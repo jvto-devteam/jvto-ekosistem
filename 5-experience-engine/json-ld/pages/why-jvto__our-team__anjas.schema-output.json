@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-21T09:05:32.492Z",
+  "generated_at": "2026-08-22T00:59:01.220Z",
   "route": "/why-jvto/our-team/anjas",
   "domain": "why-jvto",
   "slug": "our-team/anjas",
@@ -321,6 +321,178 @@
               "@type": "PropertyValue",
               "propertyID": "KTA",
               "value": "KTA-G-2024-006"
+            }
+          }
+        ],
+        "review": [
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/133#crew-anjas",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/133",
+            "author": {
+              "@type": "Person",
+              "name": "antoine panier"
+            },
+            "datePublished": "2026-08-05",
+            "reviewBody": "(Translated by Google) We booked our three-day trip through the agency: a visit to Temack Sewu, Bromo, and then Ijen. Everything went perfectly. I highly recommend requesting Anjas as your guide. He's fantastic. He did everything he could to make our trip as unforgettable as possible.\n\n(Original)\nNous sommes passé par l’agence pour organiser 3 jours : visite de temack sewu, Bromo puis Ijen. Tous s’est très bien passé. Je vous recommande de demander Anjas comme guide. Il est formidable. Il a tout fait pour que notre voyage soit le plus inoubliable possible.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/87#crew-anjas",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/87",
+            "author": {
+              "@type": "Person",
+              "name": "maritha koo"
+            },
+            "datePublished": "2026-06-05",
+            "reviewBody": "It was truly amazing to experience the majestic beauty of Mount Bromo, Mount Ijen, and Madakaripura Waterfall. Despite waking up very early for two consecutive days, it was absolutely worth it. From hiking and sunrise viewing to jeep rides, pony rides, photography, and even hearing the rumbling of Mount Bromo, every moment was unforgettable.\n\nA big thank you to Java Volcano Tour Operator for the excellent arrangements. Special thanks to Anjas, Izu, Andy, and the entire team for their professionalism and hospitality. Thank you for creating such wonderful memories. Highly recommended!👍",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/93#crew-anjas",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/93",
+            "author": {
+              "@type": "Person",
+              "name": "Milo Parrott"
+            },
+            "datePublished": "2026-05-22",
+            "reviewBody": "Best tour of my life. Stunningly beautiful nature and super well coordinated by our tour guide Anjas. Also helped that he was really funny!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/64#crew-anjas",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/64",
+            "author": {
+              "@type": "Person",
+              "name": "John Joyce"
+            },
+            "datePublished": "2025-12-30",
+            "reviewBody": "What an unbelievable experience I don't think there is a better tour guide anywhere than Anjas the personal touch he provides and the knowledge he as over everywhere we went will put this company head and shoulders above the rest.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/115#crew-anjas",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/115",
+            "author": {
+              "@type": "Person",
+              "name": "bin"
+            },
+            "datePublished": "2025-08-02",
+            "reviewBody": "We joined the Bromo–Ijen–Sewu trip with JVTO, and we were lucky to have Rendi and Anjas as our tour guides. They were absolutely amazing! Both of them were clear with their instructions, helpful throughout the journey, and brought such good vibes to the whole experience.\n\nThey provided strong emotional support and knew exactly how to connect with our young team. Always friendly, patient, and cheerful, they made a physically demanding trip feel a lot more enjoyable.\n\nIf we get the chance to travel with JVTO again, we truly hope Renji and Anjas will be our guides once more. Highly recommended!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/185#crew-anjas",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/185",
+            "author": {
+              "@type": "Person",
+              "name": "Huier Ng"
+            },
+            "datePublished": "2025-07-27",
+            "reviewBody": "One of my best trip ever! Everything was so good, the stays are nice even tho just slept for few hours\\n\\nThank you so much for Anjas and Rendi for taking good care of us , they are professional and knowledgeable. we had so much fun during this trip!\\n\\none disappointed things about the hotel we stay at Bromo, don't have water heater :(",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/193#crew-anjas",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/193",
+            "author": {
+              "@type": "Person",
+              "name": "Jeffrey Man"
+            },
+            "datePublished": "2025-07-04",
+            "reviewBody": "We joined the volcano tour and had an amazing experience! Our guide, Anjas, was incredibly professional, knowledgeable, and made the whole trip smooth and enjoyable. He also has a great eye for photography and helped us capture some truly stunning photos along the way. Highly recommended for anyone looking for an unforgettable and well-organized adventure!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/228#crew-anjas",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/228",
+            "author": {
+              "@type": "Person",
+              "name": "Xinyi Lim"
+            },
+            "datePublished": "2024-07-03",
+            "reviewBody": "We did the 4d3n East Java tour for 11pax! The founder, Sam, was professional and understanding as we had last minute changes due to emergency situation. Communication from pre-trip to actual trip itself was very smooth. Our tour guide Anjas, and our driver Johan were professional, fun and took great care of us :) It was a hassle-free trip for such a big group and definitely value for money. Highly recommend Java Volcano Tour Operator!",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/238#crew-anjas",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/238",
+            "author": {
+              "@type": "Person",
+              "name": "wang zhe"
+            },
+            "datePublished": "2024-02-24",
+            "reviewBody": "Had an excellent 4D3N ijen-sewu-bromo trip with tour guide Anjas. He spoke decent English and we could understand each others' jokes, he was also creative at taking fun photos, all these created a lot of fun for the journey.\\n\\nThe trip was indeed tiring as there were lots of night activities but he took great care of us and recommended genuinely decent restaurants (not those kind of fake recommendation and taking commission) along the way. We managed to have a whole roast duck after 2 days of ayam goreng haha.\\n\\nAnjas was the highlight for the trip and it was certainly worth meeting this handsome young man",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/239#crew-anjas",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/239",
+            "author": {
+              "@type": "Person",
+              "name": "Zohar Kritzer"
+            },
+            "datePublished": "2024-02-24",
+            "reviewBody": "Everything was very good for this tour and we had wonderful sunrises. Our driver/tour guide Fredi was attentive but spoke very little English and drove a little too fast. Anjas was a fantastic guide for the Ijen hike and spoke great english. The jeep tour for Mt Bromi was great.\\nWe gave it a 4 because the Grand Whiz hotel  room needs renovation and our bathroom leaked water all night. We would suggest checking the room first because many people complain on the reviews.\\n\\nWe booked on Klook. Would recommend this tour operater.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "4",
+              "bestRating": "5",
+              "worstRating": "1"
             }
           }
         ]
