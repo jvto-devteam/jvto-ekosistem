@@ -26,7 +26,20 @@
       "definedOn": "/verify-jvto/legal",
       "evidenceStatus": "verified",
       "sourceNote": "AHU registration QR verified in organization.json memberOf. Previously emitted under two different names — 'HPWKI (Himpunan Pelaku Wisata Khusus Ijen)' in memberOf and 'HPWKI — supervised by BBKSDA Jawa Timur' in recognizedBy — which fragmented one organisation into two anonymous nodes. The supervision fact is now a relation to #org-bbksda-jatim, not part of the name.",
-      "description": "Ijen volcano guide association supervised by BBKSDA Jawa Timur (Ministry of Environment). Members receive annual training on volcanic gas protocols and evacuation procedures."
+      "description": "Ijen volcano guide association supervised by BBKSDA Jawa Timur (Ministry of Environment). Members receive annual training on volcanic gas protocols and evacuation procedures.",
+      "legalRegistration": {
+        "registeredBy": "kemenkumham",
+        "legalName": "Himpunan Pelaku Wisata Khusus Ijen",
+        "decreeNumber": "AHU-0001072.AH.01.07.TAHUN 2024",
+        "registrationNumber": "6024012735101361",
+        "decisionDate": "2024-01-27",
+        "decisionPlace": "Jakarta",
+        "seat": "Kabupaten Bondowoso",
+        "foundingDeed": "Akta Notaris No. 60, 17 November 2023, Merryl Heidar Karennina, S.H., M.Kn.",
+        "documentUrl": "https://javavolcano-touroperator.com/legal/HPWKI-approval.pdf",
+        "sha256": "dbb57389b62b1554e4d66ccd82c6888dd4c31cb0f85619601a9befb786ac32c3",
+        "sourceNote": "Read from the published decree on 2026-08-22; the file hashes to the sha256 recorded here, and its registration number matches the one encoded in the AHU/SABH verification QR already held in sameAs. HPWKI is a badan hukum perkumpulan, not an informal grouping."
+      }
     },
     {
       "key": "indecon",
