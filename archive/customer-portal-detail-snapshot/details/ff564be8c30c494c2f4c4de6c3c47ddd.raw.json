@@ -115,12 +115,12 @@
         "grand_total": 7640000,
         "total_addons": 500000,
         "dp_amount": 1528000,
-        "balance": 6112000,
-        "paid_amount": 1528000,
+        "balance": 0,
+        "paid_amount": 7640000,
         "due_date": "2026-06-14 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": "cc",
-        "payment_link": "https://checkout.xendit.co/web/6a2d7e9cb64553476902acd7",
+        "payment_link": "https://checkout.xendit.co/web/6a895a93165cd119ce787c9b",
         "pending_upload_proof": false,
         "uploaded_payment_proof": null,
         "payment_history": [
@@ -131,6 +131,22 @@
             "reference": "https://checkout.xendit.co/web/6a2d7dd7b64553476902a4d4",
             "method": "Debit/Credit Card",
             "created_at": "2026-06-13 22:59:24"
+          },
+          {
+            "id": 875,
+            "nominal": 5612000,
+            "description": "Payment (Paid in Full)",
+            "reference": "https://checkout.xendit.co/web/6a895a93165cd119ce787c9b",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-22 15:35:23"
+          },
+          {
+            "id": 876,
+            "nominal": 500000,
+            "description": "Payment Add On",
+            "reference": "https://checkout.xendit.co/web/6a895a93165cd119ce787c9b",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-22 15:35:27"
           }
         ]
       },

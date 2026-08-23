@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-operations/customer-portal-crew-records-v1",
-  "generated_at": "2026-08-22T02:06:54.362Z",
+  "generated_at": "2026-08-23T02:16:13.870Z",
   "privacy": "Crew names and public-facing roles/photos-present flags are retained; crew phone numbers are not present in the source portal payload and are not stored.",
-  "record_count": 140,
+  "record_count": 141,
   "records": [
     {
       "booking_id": 1566,
@@ -2244,6 +2244,16 @@
             "photo_present": true
           }
         ],
+        "drivers": []
+      }
+    },
+    {
+      "booking_id": 3792,
+      "booking_ref": "JVTO-3792",
+      "package_name": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+      "travel_date_start": "2026-09-07",
+      "crews": {
+        "guides": [],
         "drivers": []
       }
     }

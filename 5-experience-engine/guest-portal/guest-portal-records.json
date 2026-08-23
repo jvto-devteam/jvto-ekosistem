@@ -4910,14 +4910,14 @@
       ],
       "payment": {
         "invoiceTotal": 7640000,
-        "paid": 1528000,
-        "balance": 6112000
+        "paid": 7640000,
+        "balance": 0
       },
       "readiness": {
         "hasPickup": true,
         "hasDropoff": false,
         "hasHotels": true,
-        "balanceStatus": "balance_due"
+        "balanceStatus": "settled"
       }
     },
     {
@@ -12963,14 +12963,14 @@
       ],
       "payment": {
         "invoiceTotal": 9900000,
-        "paid": 1900000,
-        "balance": 8000000
+        "paid": 9900000,
+        "balance": 0
       },
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
         "hasHotels": true,
-        "balanceStatus": "balance_due"
+        "balanceStatus": "settled"
       }
     },
     {
@@ -17824,10 +17824,10 @@
       "pickup": {
         "meetingPoint": "Bali Hotel",
         "arrival": null,
-        "value": "",
+        "value": "The Nest Hostel, Jalan Nelayan No. 8A Canggu, Kuta Utara, Kabupaten Badung Bali 80361",
         "time": "10:00",
-        "text": "Bali Hotel  ",
-        "complete": false
+        "text": "Bali Hotel  The Nest Hostel, Jalan Nelayan No. 8A Canggu, Kuta Utara, Kabupaten Badung Bali 80361",
+        "complete": true
       },
       "dropoff": {
         "dropPoint": "",
@@ -17925,10 +17925,125 @@
         "balance": 0
       },
       "readiness": {
-        "hasPickup": false,
+        "hasPickup": true,
         "hasDropoff": false,
         "hasHotels": true,
         "balanceStatus": "settled"
+      }
+    },
+    {
+      "bookingId": 3792,
+      "bookingCode": "KLOOK-3792",
+      "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+      "tripDate": {
+        "start_ymd": "2026-09-07",
+        "end_ymd": "2026-09-09",
+        "start": "07 Sep 26",
+        "end": "09 Sep 26",
+        "days": "Mon - Wed"
+      },
+      "pickup": {
+        "meetingPoint": "Surabaya Hotel",
+        "arrival": null,
+        "value": "Aria Centra Hotel Surabaya",
+        "time": "11:00",
+        "text": "Surabaya Hotel  Aria Centra Hotel Surabaya",
+        "complete": true
+      },
+      "dropoff": {
+        "dropPoint": "Surabaya Hotel",
+        "arrival": null,
+        "value": "",
+        "time": "07:00",
+        "text": "Surabaya Hotel  ",
+        "complete": false
+      },
+      "itinerary": [
+        {
+          "day": 1,
+          "date": "07 Sep 2026",
+          "itinerary": "Surabaya Hotel - Bondowoso",
+          "activity": "Surabaya",
+          "destination_id": 4,
+          "destination": "Surabaya"
+        },
+        {
+          "day": 2,
+          "date": "08 Sep 2026",
+          "itinerary": "Ijen Crater - Bromo Area",
+          "activity": "Ijen Crater Hike",
+          "destination_id": 2,
+          "destination": "Mount Ijen"
+        },
+        {
+          "day": 3,
+          "date": "09 Sep 2026",
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Hotel",
+          "activity": "Bromo Sunrise Tour, Madakaripura Warterfall Tour",
+          "destination_id": 1,
+          "destination": "Mount Bromo"
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "07 Sep 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 43,
+              "roomName": "Apartment",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "08 Sep 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 109,
+              "roomName": "Family",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "tshirt": {
+        "text": "",
+        "sizes": {
+          "xss": 0,
+          "xxs": 0,
+          "xs": 0,
+          "s": 0,
+          "m": 0,
+          "l": 0,
+          "xl": 0,
+          "xxl": 0,
+          "xxxl": 0
+        }
+      },
+      "vehicles": [],
+      "payment": {
+        "invoiceTotal": 7740000,
+        "paid": 0,
+        "balance": 7740000
+      },
+      "readiness": {
+        "hasPickup": true,
+        "hasDropoff": false,
+        "hasHotels": true,
+        "balanceStatus": "balance_due"
       }
     }
   ]
