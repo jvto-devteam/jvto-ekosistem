@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-booking/customer-portal-logistics-v1",
-  "generated_at": "2026-08-22T02:06:54.358Z",
+  "generated_at": "2026-08-23T02:16:13.865Z",
   "privacy": "Logistics values are operational booking fields. Customer identity and portal access slugs are excluded.",
-  "record_count": 140,
+  "record_count": 141,
   "records": [
     {
       "booking_id": 1566,
@@ -2097,9 +2097,24 @@
       "travel_date_end": "2026-08-31",
       "total_pax": 3,
       "logistics": {
-        "pickup": "Bali Hotel  ",
+        "pickup": "Bali Hotel  The Nest Hostel, Jalan Nelayan No. 8A Canggu, Kuta Utara, Kabupaten Badung Bali 80361",
         "pickup_time": "10:00:00",
         "drop": "  ",
+        "drop_time": null,
+        "special_requirements_present": false
+      }
+    },
+    {
+      "booking_id": 3792,
+      "booking_ref": "JVTO-3792",
+      "status": "booked",
+      "travel_date_start": "2026-09-07",
+      "travel_date_end": "2026-09-09",
+      "total_pax": 3,
+      "logistics": {
+        "pickup": "Surabaya Hotel  Aria Centra Hotel Surabaya",
+        "pickup_time": "11:00:00",
+        "drop": "Surabaya Hotel  ",
         "drop_time": null,
         "special_requirements_present": false
       }

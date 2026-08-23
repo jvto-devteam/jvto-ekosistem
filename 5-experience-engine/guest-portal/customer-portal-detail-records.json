@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-experience-output/customer-portal-detail-records-v1",
-  "generated_at": "2026-08-22T02:06:54.363Z",
+  "generated_at": "2026-08-23T02:16:13.875Z",
   "source": "legacy customer portal details, sanitized from /bookings/details/{portal_slug}?json=true",
-  "record_count": 140,
+  "record_count": 141,
   "records": [
     {
       "booking_id": 1566,
@@ -5775,8 +5775,8 @@
         "grand_total": 7640000,
         "total_addons": 500000,
         "dp_amount": 1528000,
-        "balance": 6112000,
-        "paid_amount": 1528000,
+        "balance": 0,
+        "paid_amount": 7640000,
         "due_date": "2026-06-14 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": "cc",
@@ -5790,6 +5790,22 @@
             "description": "Down Payment",
             "method": "Debit/Credit Card",
             "created_at": "2026-06-13 22:59:24",
+            "reference_present": true
+          },
+          {
+            "id": 875,
+            "nominal": 5612000,
+            "description": "Payment (Paid in Full)",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-22 15:35:23",
+            "reference_present": true
+          },
+          {
+            "id": 876,
+            "nominal": 500000,
+            "description": "Payment Add On",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-22 15:35:27",
             "reference_present": true
           }
         ]
@@ -15035,12 +15051,12 @@
         "grand_total": 9900000,
         "total_addons": 800000,
         "dp_amount": 1900000,
-        "balance": 8000000,
-        "paid_amount": 1900000,
+        "balance": 0,
+        "paid_amount": 9900000,
         "due_date": "2026-08-02 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
-        "payment_link_present": false,
+        "payment_link_present": true,
         "pending_upload_proof": false,
         "uploaded_payment_proof_present": false,
         "payment_history": [
@@ -15050,6 +15066,22 @@
             "description": "Down Payment",
             "method": "Debit/Credit Card",
             "created_at": "2026-08-01 22:21:28",
+            "reference_present": true
+          },
+          {
+            "id": 877,
+            "nominal": 7200000,
+            "description": "Payment (Paid in Full)",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-22 17:24:28",
+            "reference_present": true
+          },
+          {
+            "id": 878,
+            "nominal": 800000,
+            "description": "Payment Add On",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-22 17:24:33",
             "reference_present": true
           }
         ]
@@ -20653,7 +20685,7 @@
         "total_pax": 3
       },
       "logistics": {
-        "pickup": "Bali Hotel  ",
+        "pickup": "Bali Hotel  The Nest Hostel, Jalan Nelayan No. 8A Canggu, Kuta Utara, Kabupaten Badung Bali 80361",
         "pickup_time": "10:00:00",
         "drop": "  ",
         "drop_time": null,
@@ -20743,6 +20775,131 @@
             "reference_present": true
           }
         ]
+      },
+      "portal_content": {
+        "faq_categories": [
+          "Pre-Tour Information",
+          "During Tour Information",
+          "Activity-Based Information"
+        ],
+        "packing_categories": [
+          "Travel Documents",
+          "Clothing for Varied Climates",
+          "Footwear Essentials",
+          "Health & Safety Priorities",
+          "Must-Have Gear",
+          "Photography Gear",
+          "New Medical Check-Up Requirement",
+          "Personal Expenses"
+        ],
+        "essential_checklist": [
+          {
+            "item": "Valid passport with 6+ months validity",
+            "checked": false
+          },
+          {
+            "item": "Travel insurance purchased",
+            "checked": false
+          },
+          {
+            "item": "Warm clothing for mountain weather (2-5°C)",
+            "checked": false
+          }
+        ],
+        "media_link_present": false
+      }
+    },
+    {
+      "booking_id": 3792,
+      "booking_ref": "JVTO-3792",
+      "booking_code": "JVR/063/09/26",
+      "channel": "KLOOK",
+      "status": "booked",
+      "portal_record_id": "portal_abb4ac4882cb8f88",
+      "privacy": "Customer name, customer id, portal slug, payment links, uploaded proofs, media URLs, and payment references are excluded from this active file. Exception: the free-text itinerary activity field (itinerary_days[].activity_text) is operational text entered by ops staff and may contain coordination details such as passenger names or flight numbers/times; unlike the structured fields, it is not guaranteed to be PII-free.",
+      "product": {
+        "package_name": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
+        "package_link": "https://klook.com/activity/99790-3-day-mount-bromo-sunrise-ijen-madakaripura-trekking-trip-surabaya/",
+        "duration": "3D 2N",
+        "travel_date_start": "2026-09-07",
+        "travel_date_end": "2026-09-09",
+        "total_pax": 3
+      },
+      "logistics": {
+        "pickup": "Surabaya Hotel  Aria Centra Hotel Surabaya",
+        "pickup_time": "11:00:00",
+        "drop": "Surabaya Hotel  ",
+        "drop_time": null,
+        "special_requirements_present": false
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "itinerary_days": [
+        {
+          "day": 1,
+          "title": "Day 1",
+          "itinerary": "Surabaya Hotel - Bondowoso",
+          "activity_text": "Pick up from Surabaya Hotel - Transfer to hotel in Bondowoso City - Check in - Dinner - Take a rest"
+        },
+        {
+          "day": 2,
+          "title": "Day 2",
+          "itinerary": "Ijen Crater - Bromo Area",
+          "activity_text": "Depart from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - Transfer to hotel in Bromo area - Check in - Take a rest."
+        },
+        {
+          "day": 3,
+          "title": "Day 3",
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Hotel",
+          "activity_text": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim- Whispering Sands) - Breakfast and Shower - check out - continue to Madakaripura waterfall - drop to hotel. End of program"
+        }
+      ],
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Baratha Hotel and Resto",
+          "rooms": "Apartment (1)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Joglo Kecombrang Bromo",
+          "rooms": "Family (1)",
+          "banner_present": true
+        }
+      ],
+      "addons": [],
+      "crews": {
+        "guides": [],
+        "drivers": []
+      },
+      "vehicles": [
+        {
+          "name": "MPV",
+          "capacity": "1 - 3 pax",
+          "banner_present": true,
+          "interior_image_count": 7
+        }
+      ],
+      "finance": {
+        "grand_total": 7740000,
+        "total_addons": 0,
+        "dp_amount": 0,
+        "balance": 7740000,
+        "paid_amount": 0,
+        "due_date": "1970-01-01 00:00:00",
+        "initial_payment_method": "pay later",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": []
       },
       "portal_content": {
         "faq_categories": [

@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-22T22:35:40.300Z",
+  "generated_at": "2026-08-23T05:57:11.630Z",
   "route": "/tours/from-bali/ijen-bromo-madakaripura-3d2n",
   "domain": "tours",
   "slug": "from-bali/ijen-bromo-madakaripura-3d2n",
@@ -455,7 +455,7 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-22T22:35:40.300Z",
+    "generated_at": "2026-08-23T05:57:11.630Z",
     "source_files": [
       "2-product-and-commercial-core/tour-products/tours__from-bali__ijen-bromo-madakaripura-3d2n.product-contract.json"
     ],

@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-22T22:35:40.412Z",
+  "generated_at": "2026-08-23T05:57:11.793Z",
   "route": "/why-jvto/reviews",
   "domain": "why-jvto",
   "slug": "reviews",
@@ -43,7 +43,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": 4.9,
-          "reviewCount": 152,
+          "reviewCount": 153,
           "bestRating": 5
         },
         "sameAs": [
@@ -5253,6 +5253,30 @@
           "@id": "https://javavolcano-touroperator.com/why-jvto/reviews#platform-tripadvisor",
           "@type": "Organization",
           "name": "TripAdvisor"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/#review-322",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Connor McKee"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "My friend and I had an amazing experience with JVTO. Our guide, Juan, was very knowledgeable and also a lot of fun. His English was excellent, and was extremely helpful.\n\nHolly, our driver, was also fantastic, very friendly and great sense of humor. The volcano excursions and the great accommodations were impressive and definitely worth it, but the trip was truly unforgettable thanks to Juan and Holly.",
+        "datePublished": "2026-08-22",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/why-jvto/reviews#platform-google",
+          "@type": "Organization",
+          "name": "Google"
         }
       }
     ]
