@@ -5,7 +5,7 @@ import path from "node:path";
 // sync_contract.required_files in the upstream manifest. The five unmanaged
 // JSON files that sit in the same directory are absent by design — see
 // UNMANAGED_FILES in gate.mjs.
-export const BUNDLE_FILES = [
+const BUNDLE_FILES = [
   "_manifest.json",
   "claims.json",
   "faq.json",
@@ -15,7 +15,7 @@ export const BUNDLE_FILES = [
   "schema/tourist-trip.json",
 ];
 
-export const BUNDLE_SUBPATH = path.join("output", "website", "trust-bundle");
+const BUNDLE_SUBPATH = path.join("output", "website", "trust-bundle");
 
 /**
  * Where the upstream checkout lives. LLM_WIKI_PATH matches the convention
@@ -28,7 +28,7 @@ export function resolveLlmWikiRoot(explicit) {
   return path.join(process.cwd(), "..", "llm-wiki");
 }
 
-export function bundleDir(llmWikiRoot) {
+function bundleDir(llmWikiRoot) {
   return path.join(resolveLlmWikiRoot(llmWikiRoot), BUNDLE_SUBPATH);
 }
 

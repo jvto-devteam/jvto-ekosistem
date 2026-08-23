@@ -6,7 +6,7 @@ import { mapEvidenceEntry, findUnmappedCollisions } from "../evidence-map.mjs";
  * already published, so they hold their downstream value and the sync reports
  * the conflict instead of resolving it.
  */
-export const FROZEN_FIELDS = Object.freeze([
+const FROZEN_FIELDS = Object.freeze([
   {
     key: "legal_incorporation_year",
     claimId: "C8",

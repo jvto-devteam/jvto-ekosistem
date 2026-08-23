@@ -1,11 +1,11 @@
 import { createHash } from "node:crypto";
 
-export const SCHEMA_VERSION = "trust-bundle/v1.0";
-export const VALIDATION_RULES = ["F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8"];
+const SCHEMA_VERSION = "trust-bundle/v1.0";
+const VALIDATION_RULES = ["F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8"];
 
 // A drop this large means the upstream compiler lost inputs, not that JVTO
 // retired claims. Same guard class as MASS_REMOVAL_THRESHOLD in sync-booking-data.mjs.
-export const MASS_REMOVAL_THRESHOLD = 0.3;
+const MASS_REMOVAL_THRESHOLD = 0.3;
 
 // Files the manifest lists under unmanaged_files: co-located in the bundle
 // directory but written by no script and covered by neither the F1-F8
