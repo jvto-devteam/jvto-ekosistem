@@ -11,18 +11,8 @@ import { generateCustomerPortalCrewRecords } from "./lib/booking-sync/generators
 import { generateCustomerPortalVehicleRecords } from "./lib/booking-sync/generators/customer-portal-vehicle-records.mjs";
 import { generateCustomerPortalDetailRecords } from "./lib/booking-sync/generators/customer-portal-detail-records.mjs";
 import { generateCustomerPortalFaqPackingFeed } from "./lib/booking-sync/generators/customer-portal-faq-packing-feed.mjs";
-import { loadLlmWikiContext } from "./lib/llm-wiki-sync/generators/context.mjs";
-import { generateTrustClaims } from "./lib/llm-wiki-sync/generators/trust-claims.mjs";
-import { generatePeople } from "./lib/llm-wiki-sync/generators/people.mjs";
-import { generatePolicies } from "./lib/llm-wiki-sync/generators/policies.mjs";
-import { generateDestinations } from "./lib/llm-wiki-sync/generators/destinations.mjs";
-import { generateProducts } from "./lib/llm-wiki-sync/generators/products.mjs";
-import { generateOperational } from "./lib/llm-wiki-sync/generators/operational.mjs";
-import { generateAeoSnippets } from "./lib/llm-wiki-sync/generators/aeo-snippets.mjs";
-import { generateFaq } from "./lib/llm-wiki-sync/generators/faq.mjs";
 
 export const GENERATORS = [
-  // Booking sync generators
   { outputPath: "3-booking-and-journey-core/booking/booking-records.json", generate: generateBookingRecords },
   { outputPath: "5-experience-engine/guest-portal/guest-portal-records.json", generate: generateGuestPortalRecords },
   { outputPath: "3-booking-and-journey-core/booking/customer-portal-booking-details.json", generate: generateCustomerPortalBookingDetails },
@@ -33,39 +23,12 @@ export const GENERATORS = [
   { outputPath: "4-operations-core/vehicle-assignment/customer-portal-vehicle-records.json", generate: generateCustomerPortalVehicleRecords },
   { outputPath: "5-experience-engine/guest-portal/customer-portal-detail-records.json", generate: generateCustomerPortalDetailRecords },
   { outputPath: "5-experience-engine/knowledge-feed/customer-portal-faq-packing-feed.json", generate: generateCustomerPortalFaqPackingFeed },
-  // LLM-wiki sync generators
-  { outputPath: "1-knowledge-and-evidence-core/trust-claims/trust-claims.json", generate: generateTrustClaims, contextLoader: loadLlmWikiContext },
-  { outputPath: "1-knowledge-and-evidence-core/people/people.json", generate: generatePeople, contextLoader: loadLlmWikiContext },
-  { outputPath: "1-knowledge-and-evidence-core/policies/policies.json", generate: generatePolicies, contextLoader: loadLlmWikiContext },
-  { outputPath: "1-knowledge-and-evidence-core/destinations/destinations.json", generate: generateDestinations, contextLoader: loadLlmWikiContext },
-  { outputPath: "1-knowledge-and-evidence-core/products/products.json", generate: generateProducts, contextLoader: loadLlmWikiContext },
-  { outputPath: "1-knowledge-and-evidence-core/operational/operational.json", generate: generateOperational, contextLoader: loadLlmWikiContext },
-  { outputPath: "1-knowledge-and-evidence-core/aeo-snippets/aeo-snippets.json", generate: generateAeoSnippets, contextLoader: loadLlmWikiContext },
-  { outputPath: "1-knowledge-and-evidence-core/faqs/faq.json", generate: generateFaq, contextLoader: loadLlmWikiContext },
 ];
 
 export async function runGenerators({ archiveRoot = process.cwd() } = {}) {
-  const bookingSyncContext = await loadGeneratorContext({ archiveRoot });
-  const contexts = { default: bookingSyncContext };
-
+  const context = await loadGeneratorContext({ archiveRoot });
   const written = [];
-  for (const { outputPath, generate, contextLoader } of GENERATORS) {
-    let context = contexts.default;
-
-    // Load context for llm-wiki generators if needed
-    if (contextLoader && !contexts.llmWiki) {
-      try {
-        contexts.llmWiki = await contextLoader({ archiveRoot });
-      } catch (err) {
-        console.warn(`Skipping llm-wiki generators: ${err.message}`);
-        continue;
-      }
-    }
-
-    if (contextLoader) {
-      context = contexts.llmWiki;
-    }
-
+  for (const { outputPath, generate } of GENERATORS) {
     const content = generate(context);
     const fullPath = path.join(archiveRoot, outputPath);
     await mkdir(path.dirname(fullPath), { recursive: true });

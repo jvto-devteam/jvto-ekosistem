@@ -1,0 +1,78 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Safety-Led Operations",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Safety-led planning. Clear boundaries. Plan B when conditions change."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Private Tours (Execution Control)",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Private tours only. Your own vehicle. Your own pace (within safety limits). No mixed groups by default."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "All-Inclusive Clarity",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All-inclusive by default. Clear inclusions. Fewer surprise costs. Transparent pricing, written rules."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ijen Health-Screening Coordination",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A health certificate is mandatory for every Ijen guest — screening by SIP-licensed Dr. Ahmad Irwandanu (STR publicly verifiable via Kemenkes / KKI), included and done at your hotel before the briefing. The surat sehat is BSrE electronically-signed and traceable to that named doctor — a real, tamper-evident, accountable certificate rather than a self-issued form."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Proof-First Trust (Verification Layer)",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Proof you can verify — licenses, partners, press, and documented references. Trust stack, not slogans."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Reviews Registry (Independent Validation)",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reviews as a registry, not a quote wall. Check patterns across platforms."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Our Team (Personality Economy + Operational Credibility)",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Meet the people behind your trip — with proof from reviews. Team profiles linked to real guest language."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Partners as Context (HPWKI / INDECON / ISIC)",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Partners for context: competence, sustainability, and verification. Not logos — real functions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Press & Recognition (Third-Party Context)",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Press and recognition, explained with context. Third-party references you can evaluate."
+      }
+    }
+  ]
+}

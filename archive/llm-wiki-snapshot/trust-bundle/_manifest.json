@@ -1,0 +1,84 @@
+{
+  "schema_version": "trust-bundle/v1.0",
+  "generated_by": "scripts/compile_trust.py",
+  "compiled_at": "2026-08-22T22:02:40+00:00",
+  "compiler_version": "1.0.0",
+  "inputs": {
+    "claims": 9,
+    "evidence": 31,
+    "entities": 50,
+    "decisions": 5,
+    "narratives": 9
+  },
+  "outputs": {
+    "claims": 9,
+    "schema_files": 3,
+    "faq_items": 9,
+    "aeo_snippets": 9
+  },
+  "validation": {
+    "F1": "pass",
+    "F2": "pass",
+    "F3": "pass",
+    "F4": "pass",
+    "F5": "pass",
+    "F6": "pass",
+    "F7": "pass",
+    "F8": "pass"
+  },
+  "input_hashes": {
+    "claim-registry.yml": "sha256:6a5e2552a305f456",
+    "evidence-registry.yml": "sha256:8b41e7f8e98bfe66",
+    "entity-registry.yml": "sha256:06563cfb8625fed9",
+    "decision-registry.yml": "sha256:e1a7fe5fd325890e",
+    "conflict-log.md": "sha256:176dbbd2d1958602",
+    "aeo-claims.md": "sha256:5fefc7ca4554be08"
+  },
+  "artifacts": [
+    "claims.json",
+    "faq.json",
+    "aeo-snippets.json",
+    "schema/organization.json",
+    "schema/faq-page.json",
+    "schema/tourist-trip.json"
+  ],
+  "unmanaged_files": {
+    "note": "Co-located in this directory but written by no script and not covered by the F1-F8 validation or the hashes above. Do not treat them as compiler output.",
+    "files": [
+      "destinations.json",
+      "operational.json",
+      "people.json",
+      "policies.json",
+      "products.json",
+      "extended-bundle-receipt.md"
+    ]
+  },
+  "sync_contract": {
+    "recommended_consumers": [
+      "jvto-web",
+      "jvto-ekosistem"
+    ],
+    "source_path": "output/website/trust-bundle/",
+    "targets": {
+      "jvto-web": "src/data/trust-bundle/",
+      "jvto-ekosistem": "archive/llm-wiki-snapshot/trust-bundle/"
+    },
+    "required_gate": {
+      "schema_version": "trust-bundle/v1.0",
+      "clean": true
+    },
+    "required_files": [
+      "claims.json",
+      "faq.json",
+      "aeo-snippets.json",
+      "schema/organization.json",
+      "schema/faq-page.json",
+      "schema/tourist-trip.json",
+      "_manifest.json"
+    ],
+    "consumer_entrypoint": "claims.json",
+    "validation_block": "validation",
+    "failure_rule": "Refuse sync if schema_version mismatches, clean is not true, any required file is missing, or any rule in the validation block is not 'pass'."
+  },
+  "clean": true
+}

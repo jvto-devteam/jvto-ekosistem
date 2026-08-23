@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "question": "Safety-Led Operations",
+      "answer": "Safety-led planning. Clear boundaries. Plan B when conditions change.",
+      "source_claim_id": "C1",
+      "target_pages": [
+        "output/website/pages/verify-jvto/"
+      ]
+    },
+    {
+      "question": "Private Tours (Execution Control)",
+      "answer": "Private tours only. Your own vehicle. Your own pace (within safety limits). No mixed groups by default.",
+      "source_claim_id": "C2",
+      "target_pages": [
+        "output/website/pages/tours/"
+      ]
+    },
+    {
+      "question": "All-Inclusive Clarity",
+      "answer": "All-inclusive by default. Clear inclusions. Fewer surprise costs. Transparent pricing, written rules.",
+      "source_claim_id": "C3",
+      "target_pages": [
+        "output/website/pages/tours/"
+      ]
+    },
+    {
+      "question": "Ijen Health-Screening Coordination",
+      "answer": "A health certificate is mandatory for every Ijen guest — screening by SIP-licensed Dr. Ahmad Irwandanu (STR publicly verifiable via Kemenkes / KKI), included and done at your hotel before the briefing. The surat sehat is BSrE electronically-signed and traceable to that named doctor — a real, tamper-evident, accountable certificate rather than a self-issued form.",
+      "source_claim_id": "C4",
+      "target_pages": [
+        "output/website/pages/travel-guide/"
+      ]
+    },
+    {
+      "question": "Proof-First Trust (Verification Layer)",
+      "answer": "Proof you can verify — licenses, partners, press, and documented references. Trust stack, not slogans.",
+      "source_claim_id": "C5",
+      "target_pages": [
+        "output/website/pages/verify-jvto/"
+      ]
+    },
+    {
+      "question": "Reviews Registry (Independent Validation)",
+      "answer": "Reviews as a registry, not a quote wall. Check patterns across platforms.",
+      "source_claim_id": "C6",
+      "target_pages": [
+        "output/website/pages/verify-jvto/",
+        "output/website/faq/"
+      ]
+    },
+    {
+      "question": "Our Team (Personality Economy + Operational Credibility)",
+      "answer": "Meet the people behind your trip — with proof from reviews. Team profiles linked to real guest language.",
+      "source_claim_id": "C7",
+      "target_pages": [
+        "output/website/pages/team/"
+      ]
+    },
+    {
+      "question": "Partners as Context (HPWKI / INDECON / ISIC)",
+      "answer": "Partners for context: competence, sustainability, and verification. Not logos — real functions.",
+      "source_claim_id": "C8",
+      "target_pages": [
+        "output/website/pages/verify-jvto/"
+      ]
+    },
+    {
+      "question": "Press & Recognition (Third-Party Context)",
+      "answer": "Press and recognition, explained with context. Third-party references you can evaluate.",
+      "source_claim_id": "C9",
+      "target_pages": [
+        "output/website/pages/verify-jvto/"
+      ]
+    }
+  ]
+}

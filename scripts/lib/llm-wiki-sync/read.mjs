@@ -1,61 +1,75 @@
-import { readFile } from "node:fs/promises";
+import { readFile, access } from "node:fs/promises";
 import path from "node:path";
 
+// Bundle-relative path of every file this sync is allowed to touch. Mirrors
+// sync_contract.required_files in the upstream manifest. The five unmanaged
+// JSON files that sit in the same directory are absent by design — see
+// UNMANAGED_FILES in gate.mjs.
+export const BUNDLE_FILES = [
+  "_manifest.json",
+  "claims.json",
+  "faq.json",
+  "aeo-snippets.json",
+  "schema/organization.json",
+  "schema/faq-page.json",
+  "schema/tourist-trip.json",
+];
+
+export const BUNDLE_SUBPATH = path.join("output", "website", "trust-bundle");
+
 /**
- * Read the manifest.json from the trust-bundle output directory.
+ * Where the upstream checkout lives. LLM_WIKI_PATH matches the convention
+ * jvto-web's sync-trust-bundle.mjs already uses; the sibling fallback is what
+ * the GitHub workflow produces when it checks llm-wiki out at `../llm-wiki`.
  */
+export function resolveLlmWikiRoot(explicit) {
+  if (explicit) return explicit;
+  if (process.env.LLM_WIKI_PATH) return process.env.LLM_WIKI_PATH;
+  return path.join(process.cwd(), "..", "llm-wiki");
+}
+
+export function bundleDir(llmWikiRoot) {
+  return path.join(resolveLlmWikiRoot(llmWikiRoot), BUNDLE_SUBPATH);
+}
+
 export async function readManifest(llmWikiRoot) {
-  const manifestPath = path.join(llmWikiRoot, "output/website/trust-bundle/_manifest.json");
-  const content = await readFile(manifestPath, "utf8");
-  return JSON.parse(content);
+  const file = path.join(bundleDir(llmWikiRoot), "_manifest.json");
+  try {
+    return JSON.parse(await readFile(file, "utf8"));
+  } catch (err) {
+    if (err.code === "ENOENT") return null;
+    throw err;
+  }
 }
 
 /**
- * Read the entire trust-bundle from llm-wiki output.
- * Returns an object containing all bundle files.
+ * Which of the contract's required files actually exist. The gate turns a
+ * missing entry into a refusal; discovering it here keeps gate.mjs pure.
  */
-export async function readBundle(llmWikiRoot) {
-  const bundleDir = path.join(llmWikiRoot, "output/website/trust-bundle");
-
-  const files = {
-    manifest: null,
-    claims: null,
-    people: null,
-    policies: null,
-    destinations: null,
-    products: null,
-    operational: null,
-    aeoSnippets: null,
-    faq: null,
-  };
-
-  // Read all the key bundle files
-  const fileMap = {
-    manifest: "_manifest.json",
-    claims: "claims.json",
-    people: "people.json",
-    policies: "policies.json",
-    destinations: "destinations.json",
-    products: "products.json",
-    operational: "operational.json",
-    aeoSnippets: "aeo-snippets.json",
-    faq: "faq.json",
-  };
-
-  for (const [key, filename] of Object.entries(fileMap)) {
-    const filePath = path.join(bundleDir, filename);
+export async function listPresentFiles(llmWikiRoot) {
+  const dir = bundleDir(llmWikiRoot);
+  const present = [];
+  for (const rel of BUNDLE_FILES) {
     try {
-      const content = await readFile(filePath, "utf8");
-      files[key] = JSON.parse(content);
-    } catch (err) {
-      if (err.code === "ENOENT") {
-        // File doesn't exist, which is OK for some optional files
-        files[key] = null;
-      } else {
-        throw err;
-      }
+      await access(path.join(dir, rel));
+      present.push(rel);
+    } catch {
+      // absent — the gate reports it
     }
   }
+  return present;
+}
 
+/**
+ * Read the managed bundle. Every file is mandatory by the time this runs: the
+ * gate has already refused a bundle with anything missing, so a read failure
+ * here is a real error and must not be swallowed into a null.
+ */
+export async function readBundle(llmWikiRoot) {
+  const dir = bundleDir(llmWikiRoot);
+  const files = {};
+  for (const rel of BUNDLE_FILES) {
+    files[rel] = await readFile(path.join(dir, rel), "utf8");
+  }
   return files;
 }

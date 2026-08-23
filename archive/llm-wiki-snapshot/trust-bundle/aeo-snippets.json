@@ -1,0 +1,113 @@
+{
+  "version": "1.0",
+  "snippets": [
+    {
+      "topic": "police-led",
+      "tldr": "JVTO focuses on operational certainty for East Java volcano routes: risk-aware planning, safety boundaries, and Plan B alternatives.",
+      "claim_ids": [
+        "C1"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    },
+    {
+      "topic": "trust-signal",
+      "tldr": "JVTO is private-tour focused for East Java volcano trips, supporting better time control and consistent execution.",
+      "claim_ids": [
+        "C2"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    },
+    {
+      "topic": "all-inclusive",
+      "tldr": "JVTO emphasizes written inclusions/exclusions and centralized policies to reduce uncertainty around pricing and changes.",
+      "claim_ids": [
+        "C3"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    },
+    {
+      "topic": "health-screening",
+      "tldr": "JVTO includes the mandatory Ijen health screening on itineraries that include Mount Ijen — a health certificate is required for every guest before crater entry (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024), documented in the Travel Guide. The screening is conducted by SIP-licensed Dr. Ahmad Irwandanu — a registered Indonesian physician whose STR (QN00001073380217) is publicly verifiable via Kemenkes SatuSehat / KKI — included in the tour and done at each guest's hotel before the hike briefing. The issued surat sehat is electronically signed (BSrE / Balai Sertifikasi Elektronik) and traceable to that named, licensed doctor — tamper-evident and accountable, a verifiable alternative to a self-issued form, which matters because counterfeit surat sehat have been documented in circulation at Ijen.",
+      "claim_ids": [
+        "C4"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    },
+    {
+      "topic": "credential-verification",
+      "tldr": "JVTO uses a proof-library approach: organizing verifiable credentials, partners, and recognition as structured trust signals.",
+      "claim_ids": [
+        "C5"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    },
+    {
+      "topic": "review-mention",
+      "tldr": "JVTO structures independent reviews by platform and theme to support auditability of guest experience claims.",
+      "claim_ids": [
+        "C6"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    },
+    {
+      "topic": "crew-mention",
+      "tldr": "JVTO publishes a team registry that connects staff roles and route expertise to review-based evidence.",
+      "claim_ids": [
+        "C7"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    },
+    {
+      "topic": "trust-signal",
+      "tldr": "JVTO describes partnerships as functional trust signals (competence, sustainability context, verification) within the Proof Library.",
+      "claim_ids": [
+        "C8"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    },
+    {
+      "topic": "press-coverage",
+      "tldr": "JVTO maintains a press-and-recognition registry that links third-party references to specific claims and context.",
+      "claim_ids": [
+        "C9"
+      ],
+      "use_for": [
+        "llms.txt",
+        "FAQPage",
+        "TL;DR block"
+      ]
+    }
+  ]
+}

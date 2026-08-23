@@ -1,5 +1,6 @@
 {
-  "_comment": "Source of authorship: llm-wiki wiki/trust/*.md, compiled via llm-wiki's trust-bundle compiler. This file is the point jvto-web reads from — update here after re-running the llm-wiki compiler, do not point jvto-web at llm-wiki directly. | 2026-08-21: two entries typed 'ai_generated' (E017, E018) were moved out of evidence[] into derived_artifacts[]. Neither is primary evidence — both are documents assembled ON TOP of real proof, and each already carried proof_ids pointing at the actual exhibits (SPRIN, NIB, TDUP, press). Keeping them inside evidence[] while publishing only a count meant a reader saw 'Evidence: 5' with no way to know one of the five was a generated artifact. derived_artifacts is the honest category: a derived document is not primary evidence whatever tool assembled it. Owner decision (Q8): do not surface the words 'AI-assisted' publicly — reclassification satisfies that without hiding anything, because the underlying proof_ids are the evidence and they remain.",
+  "version": "1.0",
+  "compiled_at": "2026-08-22T22:02:40+00:00",
   "claims": [
     {
       "id": "C1",
@@ -54,10 +55,9 @@
       "derived_artifacts": [
         {
           "id": "E018",
-          "kind": "safety_protocol",
-          "title": "Ijen safety protocol — structured operational document",
-          "description": "Structured safety protocol — SAR procedures, Lamborghini evacuation, risk flag system, Sengkan Gandrung braking zone, Green Briefings, PVMBG 500m exclusion zone",
+          "type": "ai_generated",
           "source_file": "wiki/sources/ijen-safety-protocol.md",
+          "description": "Structured safety protocol — SAR procedures, Lamborghini evacuation, risk flag system, Sengkan Gandrung braking zone, Green Briefings, PVMBG 500m exclusion zone",
           "built_from": [
             "sprin-polpar",
             "press-bbksda-jatim-closure",
@@ -102,13 +102,14 @@
           "id": "E004",
           "type": "structured_dataset",
           "source_file": "wiki/products/packages-overview.md",
-          "description": "All {PACKAGE_COUNT} packages are private (dedicated vehicle + crew)",
+          "description": "All 22 packages are private (dedicated vehicle + crew)",
           "proof_ids": [
             "nib-1102230032918",
             "tdup-1102230032918"
           ]
         }
       ],
+      "derived_artifacts": [],
       "narrative": {
         "ai_snippet": "JVTO is private-tour focused for East Java volcano trips, supporting better time control and consistent execution.",
         "short": "Private tours only. Your own vehicle. Your own pace (within safety limits). No mixed groups by default.",
@@ -137,6 +138,7 @@
           ]
         }
       ],
+      "derived_artifacts": [],
       "narrative": {
         "ai_snippet": "JVTO emphasizes written inclusions/exclusions and centralized policies to reduce uncertainty around pricing and changes.",
         "short": "All-inclusive by default. Clear inclusions. Fewer surprise costs. Transparent pricing, written rules.",
@@ -157,7 +159,7 @@
       "last_verified": "2026-08-01",
       "evidence": [
         {
-          "id": "E023",
+          "id": "E020",
           "type": "reputable_media",
           "source_file": "wiki/credentials/surat-sehat.md",
           "description": "Historical press evidence — 'Pengunjung Kawah Ijen Wajib Bawa Surat Keterangan Sehat' (TIMES Indonesia, 2024-01-05). The instrument it reports is BBKSDA circular SE.35/K2/BIDTEK.1/KSA/1/2024; corroborated independently by E030 (detikJatim) and E031 (Liputan6).",
@@ -215,7 +217,7 @@
           ]
         },
         {
-          "id": "E022",
+          "id": "E019",
           "type": "jvto_verified_internal",
           "source_file": "wiki/credentials/surat-sehat.md",
           "description": "Sample JVTO health-screening certificate (surat keterangan sehat / FORMULIR SKRINING KESEHATAN) — a bilingual ID/EN Health Screening Form recording guest vitals (blood pressure, SpO2) and the fitness result. Bears a BSSN/BSrE (Balai Sertifikasi Elektronik) certified electronic signature — banner 'DOKUMEN INI DITANDATANGANI SECARA ELEKTRONIK ... diterbitkan oleh Balai Sertifikasi Elektronik' — issued under SIP-licensed medical supervision (see E007). Directly evidences the per-certificate electronic-signature format (upgrades the prior 'corroborated' status). Representative sample received 2026-08-01; the guest PII in the stored document is not reproduced in any published/derived text. Physical document on file: raw/evidence/credentials/surat-sehat-sample.pdf (sha256 d10b9f8a0837cc30992d9d5d0cf8f4cb40c909d5df56869615d4967d4ad04c27).",
@@ -224,6 +226,7 @@
           ]
         }
       ],
+      "derived_artifacts": [],
       "narrative": {
         "ai_snippet": "JVTO includes the mandatory Ijen health screening on itineraries that include Mount Ijen — a health certificate is required for every guest before crater entry (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024), documented in the Travel Guide. The screening is conducted by SIP-licensed Dr. Ahmad Irwandanu — a registered Indonesian physician whose STR (QN00001073380217) is publicly verifiable via Kemenkes SatuSehat / KKI — included in the tour and done at each guest's hotel before the hike briefing. The issued surat sehat is electronically signed (BSrE / Balai Sertifikasi Elektronik) and traceable to that named, licensed doctor — tamper-evident and accountable, a verifiable alternative to a self-issued form, which matters because counterfeit surat sehat have been documented in circulation at Ijen.",
         "short": "A health certificate is mandatory for every Ijen guest — screening by SIP-licensed Dr. Ahmad Irwandanu (STR publicly verifiable via Kemenkes / KKI), included and done at your hotel before the briefing. The surat sehat is BSrE electronically-signed and traceable to that named doctor — a real, tamper-evident, accountable certificate rather than a self-issued form.",
@@ -271,7 +274,7 @@
           ]
         },
         {
-          "id": "E019",
+          "id": "E027",
           "type": "official_authority",
           "source_file": "wiki/credentials/legal-licenses.md",
           "description": "Menkumham decree AHU-0010187.AH.01.01.TAHUN 2023 approving PT Java Volcano Rendezvous as a legal entity, register entry AHU-0026835. Published at public/legal/AHU-PTJVR.pdf with a SHA-256 anchor, so the served bytes can be checked against the published hash by anyone.",
@@ -280,7 +283,7 @@
           ]
         },
         {
-          "id": "E020",
+          "id": "E028",
           "type": "official_authority",
           "source_file": "wiki/people/dr-ahmad-irwandanu.md",
           "description": "Practice licence (SIP 503.446/664/DRU/4/430.9.13/2026) of the physician who signs the Ijen health certificates — issued by DPMPTSP Bondowoso, BSrE-signed, STR valid to 2031-01-06 — published at public/screening/SIP_DOKTER_AHMAD_IRWANDANU_2026.pdf with a SHA-256 anchor. E007 records the same licence as a document held on file; this entry records that it is publicly downloadable and hash-verifiable.",
@@ -289,7 +292,7 @@
           ]
         },
         {
-          "id": "E021",
+          "id": "E029",
           "type": "official_authority",
           "source_file": "wiki/credentials/permit-requirements.md",
           "description": "BBKSDA Jawa Timur circular SE.1658/K2/BIDTEK.1/KSA/9/2024, \"Pembukaan Kawasan Taman Wisata Alam (TWA) Kawah Ijen\", issued at Sidoarjo 2024-09-06 and signed by the Kepala Balai Besar. It reopens TWA Kawah Ijen from 2024-09-08 for nature tourism, hiking and research, lifting the closure imposed on 2024-07-12 by SE.1289/K2/BIDTEK.1/KSA/07/2024. Its conditions are: follow the applicable SOP, prepare basic climbing safety equipment (torch, mask, cold-weather clothing), follow \"protokol kesehatan yang berlaku\", and book entry tickets online via tiket.bbksdajatim.org. Published with a SHA-256 anchor.",
@@ -301,10 +304,9 @@
       "derived_artifacts": [
         {
           "id": "E017",
-          "kind": "verification_dossier",
-          "title": "JVTO verification dossier — 14-page visual consolidation",
-          "description": "14-page visual dossier consolidating all 9 claims with verified document exhibits. Customer-facing trust artifact. SHA-256 anchored.",
+          "type": "ai_generated",
           "source_file": "wiki/sources/jvto-verification-dossier.md",
+          "description": "14-page visual dossier consolidating all 9 claims with verified document exhibits. Customer-facing trust artifact. SHA-256 anchored.",
           "built_from": [
             "nib-1102230032918",
             "tdup-1102230032918",
@@ -365,6 +367,7 @@
           ]
         }
       ],
+      "derived_artifacts": [],
       "narrative": {
         "ai_snippet": "JVTO structures independent reviews by platform and theme to support auditability of guest experience claims.",
         "short": "Reviews as a registry, not a quote wall. Check patterns across platforms.",
@@ -398,6 +401,7 @@
           ]
         }
       ],
+      "derived_artifacts": [],
       "narrative": {
         "ai_snippet": "JVTO publishes a team registry that connects staff roles and route expertise to review-based evidence.",
         "short": "Meet the people behind your trip — with proof from reviews. Team profiles linked to real guest language.",
@@ -438,6 +442,7 @@
           ]
         }
       ],
+      "derived_artifacts": [],
       "narrative": {
         "ai_snippet": "JVTO describes partnerships as functional trust signals (competence, sustainability context, verification) within the Proof Library.",
         "short": "Partners for context: competence, sustainability, and verification. Not logos — real functions.",
@@ -449,7 +454,7 @@
           "topic": "founding_year_canonical",
           "final_value": {
             "marketing_founding_year": 2015,
-            "legal_incorporation_year": 2016,
+            "legal_incorporation_year": null,
             "tdup_issued_year": 2023
           },
           "decided_at": "2026-08-03"
@@ -489,6 +494,7 @@
           ]
         }
       ],
+      "derived_artifacts": [],
       "narrative": {
         "ai_snippet": "JVTO maintains a press-and-recognition registry that links third-party references to specific claims and context.",
         "short": "Press and recognition, explained with context. Third-party references you can evaluate.",
@@ -522,191 +528,6 @@
       "tags": [
         "press-coverage",
         "trust-signal"
-      ]
-    }
-  ],
-  "aeoSnippets": [
-    {
-      "topic": "police-led",
-      "tldr": "JVTO focuses on operational certainty for East Java volcano routes: risk-aware planning, safety boundaries, and Plan B alternatives.",
-      "claim_ids": [
-        "C1"
-      ],
-      "use_for": [
-        "llms.txt",
-        "FAQPage",
-        "TL;DR block"
-      ]
-    },
-    {
-      "topic": "trust-signal",
-      "tldr": "JVTO is private-tour focused for East Java volcano trips, supporting better time control and consistent execution.",
-      "claim_ids": [
-        "C2"
-      ],
-      "use_for": [
-        "llms.txt",
-        "FAQPage",
-        "TL;DR block"
-      ]
-    },
-    {
-      "topic": "all-inclusive",
-      "tldr": "JVTO emphasizes written inclusions/exclusions and centralized policies to reduce uncertainty around pricing and changes.",
-      "claim_ids": [
-        "C3"
-      ],
-      "use_for": [
-        "llms.txt",
-        "FAQPage",
-        "TL;DR block"
-      ]
-    },
-    {
-      "topic": "health-screening",
-      "tldr": "JVTO includes the mandatory Ijen health screening on itineraries that include Mount Ijen — a health certificate is required for every guest before crater entry (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024), documented in the Travel Guide. The screening is conducted by SIP-licensed Dr. Ahmad Irwandanu — a registered Indonesian physician whose STR (QN00001073380217) is publicly verifiable via Kemenkes SatuSehat / KKI — included in the tour and done at each guest's hotel before the hike briefing. The issued surat sehat is electronically signed (BSrE / Balai Sertifikasi Elektronik) and traceable to that named, licensed doctor — tamper-evident and accountable, a verifiable alternative to a self-issued form, which matters because counterfeit surat sehat have been documented in circulation at Ijen.",
-      "claim_ids": [
-        "C4"
-      ],
-      "use_for": [
-        "llms.txt",
-        "FAQPage",
-        "TL;DR block"
-      ]
-    },
-    {
-      "topic": "credential-verification",
-      "tldr": "JVTO uses a proof-library approach: organizing verifiable credentials, partners, and recognition as structured trust signals.",
-      "claim_ids": [
-        "C5"
-      ],
-      "use_for": [
-        "llms.txt",
-        "FAQPage",
-        "TL;DR block"
-      ]
-    },
-    {
-      "topic": "review-mention",
-      "tldr": "JVTO structures independent reviews by platform and theme to support auditability of guest experience claims.",
-      "claim_ids": [
-        "C6"
-      ],
-      "use_for": [
-        "llms.txt",
-        "FAQPage",
-        "TL;DR block"
-      ]
-    },
-    {
-      "topic": "crew-mention",
-      "tldr": "JVTO publishes a team registry that connects staff roles and route expertise to review-based evidence.",
-      "claim_ids": [
-        "C7"
-      ],
-      "use_for": [
-        "llms.txt",
-        "FAQPage",
-        "TL;DR block"
-      ]
-    },
-    {
-      "topic": "trust-signal",
-      "tldr": "JVTO describes partnerships as functional trust signals (competence, sustainability context, verification) within the Proof Library.",
-      "claim_ids": [
-        "C8"
-      ],
-      "use_for": [
-        "llms.txt",
-        "FAQPage",
-        "TL;DR block"
-      ]
-    },
-    {
-      "topic": "press-coverage",
-      "tldr": "JVTO maintains a press-and-recognition registry that links third-party references to specific claims and context.",
-      "claim_ids": [
-        "C9"
-      ],
-      "use_for": [
-        "llms.txt",
-        "FAQPage",
-        "TL;DR block"
-      ]
-    }
-  ],
-  "faq": [
-    {
-      "question": "Safety-Led Operations",
-      "answer": "Safety-led planning. Clear boundaries. Plan B when conditions change.",
-      "source_claim_id": "C1",
-      "target_pages": [
-        "output/website/pages/verify-jvto/"
-      ]
-    },
-    {
-      "question": "Private Tours (Execution Control)",
-      "answer": "Private tours only. Your own vehicle. Your own pace (within safety limits). No mixed groups by default.",
-      "source_claim_id": "C2",
-      "target_pages": [
-        "output/website/pages/tours/"
-      ]
-    },
-    {
-      "question": "All-Inclusive Clarity",
-      "answer": "All-inclusive by default. Clear inclusions. Fewer surprise costs. Transparent pricing, written rules.",
-      "source_claim_id": "C3",
-      "target_pages": [
-        "output/website/pages/tours/"
-      ]
-    },
-    {
-      "question": "Ijen Health-Screening Coordination",
-      "answer": "A health certificate is mandatory for every Ijen guest — screening by SIP-licensed Dr. Ahmad Irwandanu (STR publicly verifiable via Kemenkes / KKI), included and done at your hotel before the briefing. The surat sehat is BSrE electronically-signed and traceable to that named doctor — a real, tamper-evident, accountable certificate rather than a self-issued form.",
-      "source_claim_id": "C4",
-      "target_pages": [
-        "output/website/pages/travel-guide/"
-      ]
-    },
-    {
-      "question": "Proof-First Trust (Verification Layer)",
-      "answer": "Proof you can verify — licenses, partners, press, and documented references. Trust stack, not slogans.",
-      "source_claim_id": "C5",
-      "target_pages": [
-        "output/website/pages/verify-jvto/"
-      ]
-    },
-    {
-      "question": "Reviews Registry (Independent Validation)",
-      "answer": "Reviews as a registry, not a quote wall. Check patterns across platforms.",
-      "source_claim_id": "C6",
-      "target_pages": [
-        "output/website/pages/verify-jvto/",
-        "output/website/faq/"
-      ]
-    },
-    {
-      "question": "Our Team (Personality Economy + Operational Credibility)",
-      "answer": "Meet the people behind your trip — with proof from reviews. Team profiles linked to real guest language.",
-      "source_claim_id": "C7",
-      "target_pages": [
-        "output/website/pages/team/"
-      ]
-    },
-    {
-      "question": "Partners as Context (HPWKI / INDECON / ISIC)",
-      "answer": "Partners for context: competence, sustainability, and verification. Not logos — real functions.",
-      "source_claim_id": "C8",
-      "target_pages": [
-        "output/website/pages/verify-jvto/"
-      ]
-    },
-    {
-      "question": "Press & Recognition (Third-Party Context)",
-      "answer": "Press and recognition, explained with context. Third-party references you can evaluate.",
-      "source_claim_id": "C9",
-      "target_pages": [
-        "output/website/pages/verify-jvto/"
       ]
     }
   ]
