@@ -1,7 +1,7 @@
 # jvto-ekosistem — working notes
 
-Conventions and traps in this repo. Every entry below cost a real mistake or a
-real debugging session; read it before writing code here.
+Conventions and traps in this repo. Every entry below was paid for by a real
+mistake or a real debugging session; read it before writing code here.
 
 ## Content pipeline
 
