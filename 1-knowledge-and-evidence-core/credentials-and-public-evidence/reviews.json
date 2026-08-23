@@ -1,7 +1,7 @@
 {
   "_comment": "Individual guest reviews (Google, Trustpilot, TripAdvisor). id is preserved EXACTLY from the historical Prisma reviews.id this data was migrated from on 2026-08-19 (one-time export — 217 rows, script not retained since it was a single-use migration aid; see git history of this file for the commit that added it) — jvto-web's /why-jvto/reviews/{id} route and the #review-{id} JSON-LD @id both bake this integer into public, possibly-indexed URLs, so it must never be renumbered. nextId tracks the next integer to assign to a newly-synced Google review; Trustpilot/TripAdvisor have no automated sync (none existed before this migration either) and are updated manually here going forward, same as before.",
-  "nextId": 322,
-  "lastSynced": "2026-08-19",
+  "nextId": 323,
+  "lastSynced": "2026-08-23",
   "googleSync": "Automated daily via .github/workflows/sync-google-reviews.yml (Phase 2, ekosistem-side)",
   "reviews": [
     {
@@ -5798,6 +5798,42 @@
       "urlReference": null,
       "packageSlug": "tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
       "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+      "crewCodes": []
+    },
+    {
+      "id": 322,
+      "platform": "Google",
+      "customerName": "Connor McKee",
+      "date": "2026-08-22",
+      "star": 5,
+      "review": "My friend and I had an amazing experience with JVTO. Our guide, Juan, was very knowledgeable and also a lot of fun. His English was excellent, and was extremely helpful.\n\nHolly, our driver, was also fantastic, very friendly and great sense of humor. The volcano excursions and the great accommodations were impressive and definitely worth it, but the trip was truly unforgettable thanks to Juan and Holly.",
+      "photos": {
+        "source": "Google Business Profile reviewMediaItems",
+        "syncedAt": "2026-08-23T02:25:23.576Z",
+        "count": 2,
+        "items": [
+          {
+            "id": "AbFvOqnREUxbxwvu0XF9dIuWrGIIFDbPzV2jo4jAx9RehSQ-QUv3r6HkQ5t8NdNr5DgCb36FxxoG0w-1",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNJhzEvvmDz223yFhZ4p62zvl3pQCTfuO4rys8x4RGRjiD5N5ieTHo-91PPWLTm87qAjL13yRs74RdOVgJ2QoPZetJ5XEqIXuQ7uFyi1WJYS65qIGp5KOTPKCW1nAgTsG2DEmvF7WE2SMA=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqnREUxbxwvu0XF9dIuWrGIIFDbPzV2jo4jAx9RehSQ-QUv3r6HkQ5t8NdNr5DgCb36FxxoG0w-2",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmO_3-Tnb58R34cfDJnahldhpPnu6bFfd3FlbkU82xJcGDKdkfrErjjl-B00xhi6317sF85o0KX_TjDLpOZptXCMzihrTIF95k0BqwM4LUAd3cZqfSoGNQkcz9vQYb8HbBM8MbAh7oNaboje=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          }
+        ]
+      },
+      "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT25STGN6ZEVUekJJWTJSRE1IRnRSMVZtUldOb1dYYxAB",
+      "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqnREUxbxwvu0XF9dIuWrGIIFDbPzV2jo4jAx9RehSQ-QUv3r6HkQ5t8NdNr5DgCb36FxxoG0w",
+      "packageSlug": null,
+      "packageName": null,
       "crewCodes": []
     }
   ]
