@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-08-23T00:41:33.365Z",
+  "schemaVersion": "trust-bundle/v1.0",
+  "clean": true,
+  "compiledAt": "2026-08-22T22:02:40+00:00",
+  "fingerprint": "7685bc236969b03eb1124b675fb9d4d0bbcc9786aae1c87a28668f7ca0be97be",
+  "previousFingerprint": null,
+  "changed": true,
+  "claimCount": 9,
+  "previousClaimCount": 0,
+  "syncedFiles": [
+    "_manifest.json",
+    "claims.json",
+    "faq.json",
+    "aeo-snippets.json",
+    "schema/organization.json",
+    "schema/faq-page.json",
+    "schema/tourist-trip.json"
+  ],
+  "written": [
+    "1-knowledge-and-evidence-core/credentials-and-public-evidence/trust-claims.json"
+  ]
+}

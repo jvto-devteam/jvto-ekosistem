@@ -1,0 +1,24 @@
+{
+  "_comment": "Fields where upstream and downstream disagree and the sync deliberately keeps the downstream value. Owner decision 2026-08-23. Resolving one of these means editing the downstream file and removing its entry from FROZEN_FIELDS in scripts/lib/llm-wiki-sync/generators/trust-claims.mjs.",
+  "generatedAt": "2026-08-23T00:41:33.365Z",
+  "conflicts": [
+    {
+      "key": "package_count_token",
+      "claimId": "C2",
+      "field": "description",
+      "downstreamValue": "All {PACKAGE_COUNT} packages are private (dedicated vehicle + crew)",
+      "upstreamValue": "All 22 packages are private (dedicated vehicle + crew)",
+      "resolution": "kept downstream value",
+      "reason": "Downstream stores the {PACKAGE_COUNT} token, upstream a literal count. This repo has no interpolation step, so changing it alters published copy either way."
+    },
+    {
+      "key": "legal_incorporation_year",
+      "claimId": "C8",
+      "field": "legal_incorporation_year",
+      "downstreamValue": 2016,
+      "upstreamValue": null,
+      "resolution": "kept downstream value",
+      "reason": "Downstream asserts 2016 on three published pages (verify-jvto, history-artifacts, legal); upstream DEC-002 now carries null. Adopting upstream would retract a published legal claim."
+    }
+  ]
+}

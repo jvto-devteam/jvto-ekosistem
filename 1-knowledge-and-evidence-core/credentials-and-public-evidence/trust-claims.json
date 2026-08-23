@@ -51,17 +51,6 @@
           ]
         }
       ],
-      "narrative": {
-        "ai_snippet": "JVTO focuses on operational certainty for East Java volcano routes: risk-aware planning, safety boundaries, and Plan B alternatives.",
-        "short": "Safety-led planning. Clear boundaries. Plan B when conditions change.",
-        "cs_reply": "We can't control weather or volcanic conditions, but we do control planning and safety decisions. If conditions change, we use Plan B options to keep your trip safe and worthwhile."
-      },
-      "decisions": [],
-      "tags": [
-        "police-led",
-        "safety",
-        "trust-signal"
-      ],
       "derived_artifacts": [
         {
           "id": "E018",
@@ -75,6 +64,30 @@
             "press-tirto-pendaki-hilang"
           ]
         }
+      ],
+      "narrative": {
+        "ai_snippet": "JVTO focuses on operational certainty for East Java volcano routes: risk-aware planning, safety boundaries, and Plan B alternatives.",
+        "short": "Safety-led planning. Clear boundaries. Plan B when conditions change.",
+        "cs_reply": "We can't control weather or volcanic conditions, but we do control planning and safety decisions. If conditions change, we use Plan B options to keep your trip safe and worthwhile."
+      },
+      "decisions": [
+        {
+          "decision_id": "DEC-005",
+          "topic": "founder_police_unit",
+          "final_value": {
+            "unit": "Polisi Pariwisata (POLPAR) Bondowoso",
+            "parent_command": "Polres Bondowoso",
+            "assignment_order": "Sprin/4954/XI/2020",
+            "rank": "Bripka",
+            "superseded_unit": "Ditpamobvit (Direktorat Pengamanan Objek Vital)"
+          },
+          "decided_at": "2026-08-22"
+        }
+      ],
+      "tags": [
+        "police-led",
+        "safety",
+        "trust-signal"
       ]
     },
     {
@@ -83,7 +96,7 @@
       "canonical_text": "JVTO runs private tours by default so timing, pacing, and safety decisions stay consistent for your group.",
       "domain": "products",
       "category": "tour-package",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-08-22",
       "evidence": [
         {
           "id": "E004",
@@ -112,7 +125,7 @@
       "canonical_text": "JVTO uses an all-inclusive structure by default to reduce surprise costs and mid-trip negotiation.",
       "domain": "products",
       "category": "tour-package",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-08-22",
       "evidence": [
         {
           "id": "E005",
@@ -141,13 +154,40 @@
       "canonical_text": "On routes that include Mount Ijen, JVTO integrates health screening as a practical safety step, not a formality.",
       "domain": "credentials",
       "category": "medical-protocol",
-      "last_verified": "2026-05-26",
+      "last_verified": "2026-08-01",
       "evidence": [
+        {
+          "id": "E023",
+          "type": "reputable_media",
+          "source_file": "wiki/credentials/surat-sehat.md",
+          "description": "Historical press evidence — 'Pengunjung Kawah Ijen Wajib Bawa Surat Keterangan Sehat' (TIMES Indonesia, 2024-01-05). The instrument it reports is BBKSDA circular SE.35/K2/BIDTEK.1/KSA/1/2024; corroborated independently by E030 (detikJatim) and E031 (Liputan6).",
+          "proof_ids": [
+            "press-times-ijen-suket-wajib-2024-01-05"
+          ]
+        },
+        {
+          "id": "E030",
+          "type": "reputable_media",
+          "source_file": "wiki/credentials/surat-sehat.md",
+          "description": "Press evidence naming the instrument — 'Mau Wisata ke Ijen Banyuwangi? Simak 6 Syarat Ini' (detikJatim, 2024-01-05). Publishes the six TWA Kawah Ijen visitor requirements verbatim and attributes them to BBKSDA circular SE.35/K2/BIDTEK.1/KSA/1/2024. Quotes Dwi Putro Sugiarto, Kepala Seksi Konservasi BKSDA Wilayah V Banyuwangi.",
+          "proof_ids": [
+            "press-detikjatim-ijen-6-syarat-2024-01-05"
+          ]
+        },
+        {
+          "id": "E031",
+          "type": "reputable_media",
+          "source_file": "wiki/credentials/surat-sehat.md",
+          "description": "Press evidence — 'Kawah Ijen Kembali Dibuka untuk Wisatawan Usai Ditutup Tiga Hari' (Liputan6, 2024-01-06). Independently cites the same circular, SE.35/K2/BIDTEK.1/KSA/1/2024, on the reopening after a three-day closure. Quotes Sigit Hariwibowo, Kepala Pos TWA Kawah Ijen.",
+          "proof_ids": [
+            "press-liputan6-ijen-dibuka-6-syarat-2024-01-06"
+          ]
+        },
         {
           "id": "E006",
           "type": "official_authority",
           "source_file": "wiki/credentials/medical-screening.md",
-          "description": "BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024 — regulatory basis for health screening",
+          "description": "BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024 — supporting authority for the Ijen health screening, not its source. The circular reopened TWA Kawah Ijen on 2024-09-08 and requires visitors to follow the applicable SOP (basic climbing safety equipment — torch, mask, cold-weather clothing), to follow \"protokol kesehatan yang berlaku\", and to book entry tickets online via tiket.bbksdajatim.org. It does not itself state the health-certificate requirement — the protocol it defers to is the one SE.35/K2/BIDTEK.1/KSA/1/2024 introduced on 2024-01-06. Cite E020/E030/E031 for the requirement itself, and this entry for the circular that keeps it in force.",
           "proof_ids": [
             "bbksda-surat-edaran-se-1658-ksa-9-2024",
             "bbksda-ticket-terms-screenshot"
@@ -157,7 +197,7 @@
           "id": "E007",
           "type": "official_authority",
           "source_file": "wiki/people/dr-ahmad-irwandanu.md",
-          "description": "Dr. Irwandanu SIP — Kemenkes/KKI verifiable medical license",
+          "description": "Dr. Ahmad Irwandanu SIP (Surat Izin Praktik) Dokter Umum No. 503.446/664/DRU/4/430.9.13/2026, issued by DPMPTSP Kabupaten Bondowoso 2026-01-06 (Permenkes 2052/2011); STR QN00001073380217 valid to 2031-01-06. BSrE-certified electronic document (UU ITE 2008 Pasal 5 ayat 1). Physical document on file: raw/evidence/credentials/sip-dr-ahmad-irwandanu-2026.pdf (sha256 82f2535b87066fef23cf3012ed3bc1cb18c124e03045ab544067e51d78ac80aa). STR/KKI publicly verifiable.",
           "proof_ids": [
             "sip-dr-ahmad-irwandanu-2026"
           ]
@@ -173,14 +213,36 @@
             "press-cnn-indonesia-hutan-mati",
             "press-tirto-pendaki-hilang"
           ]
+        },
+        {
+          "id": "E022",
+          "type": "jvto_verified_internal",
+          "source_file": "wiki/credentials/surat-sehat.md",
+          "description": "Sample JVTO health-screening certificate (surat keterangan sehat / FORMULIR SKRINING KESEHATAN) — a bilingual ID/EN Health Screening Form recording guest vitals (blood pressure, SpO2) and the fitness result. Bears a BSSN/BSrE (Balai Sertifikasi Elektronik) certified electronic signature — banner 'DOKUMEN INI DITANDATANGANI SECARA ELEKTRONIK ... diterbitkan oleh Balai Sertifikasi Elektronik' — issued under SIP-licensed medical supervision (see E007). Directly evidences the per-certificate electronic-signature format (upgrades the prior 'corroborated' status). Representative sample received 2026-08-01; the guest PII in the stored document is not reproduced in any published/derived text. Physical document on file: raw/evidence/credentials/surat-sehat-sample.pdf (sha256 d10b9f8a0837cc30992d9d5d0cf8f4cb40c909d5df56869615d4967d4ad04c27).",
+          "proof_ids": [
+            "surat-sehat-sample"
+          ]
         }
       ],
       "narrative": {
-        "ai_snippet": "JVTO includes the mandatory Ijen health screening on itineraries that include Mount Ijen — a health certificate is required for every guest before crater entry (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024), documented in the Travel Guide.",
-        "short": "A health certificate is mandatory for every Ijen guest — screening included and coordinated by JVTO. Real screening, clear rules.",
-        "cs_reply": "If your itinerary includes Ijen, we'll guide you through the mandatory health screening — a certificate is required for every guest before crater entry (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024). It's a safety step before the hike — not a formality."
+        "ai_snippet": "JVTO includes the mandatory Ijen health screening on itineraries that include Mount Ijen — a health certificate is required for every guest before crater entry (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024), documented in the Travel Guide. The screening is conducted by SIP-licensed Dr. Ahmad Irwandanu — a registered Indonesian physician whose STR (QN00001073380217) is publicly verifiable via Kemenkes SatuSehat / KKI — included in the tour and done at each guest's hotel before the hike briefing. The issued surat sehat is electronically signed (BSrE / Balai Sertifikasi Elektronik) and traceable to that named, licensed doctor — tamper-evident and accountable, a verifiable alternative to a self-issued form, which matters because counterfeit surat sehat have been documented in circulation at Ijen.",
+        "short": "A health certificate is mandatory for every Ijen guest — screening by SIP-licensed Dr. Ahmad Irwandanu (STR publicly verifiable via Kemenkes / KKI), included and done at your hotel before the briefing. The surat sehat is BSrE electronically-signed and traceable to that named doctor — a real, tamper-evident, accountable certificate rather than a self-issued form.",
+        "cs_reply": "If your itinerary includes Ijen, we'll guide you through the mandatory health screening — a certificate is required for every guest before crater entry (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024). It's included in your tour and we do it at your hotel before the guide briefing, with SIP-licensed Dr. Ahmad Irwandanu (a registered physician whose STR is publicly checkable on Kemenkes SatuSehat / KKI). The surat sehat is electronically signed (BSrE) and traceable to that named doctor, so it's a real, tamper-evident, accountable certificate rather than a self-issued form. A safety step before the hike, not a formality."
       },
-      "decisions": [],
+      "decisions": [
+        {
+          "decision_id": "DEC-004",
+          "topic": "bbksda_circular_reference_number",
+          "final_value": {
+            "canonical_number": "SE.1658/K2/BIDTEK.1/KSA/9/2024",
+            "superseded_number": "SE.1658/KSA.9/2024",
+            "governs": "Reopening of TWA Kawah Ijen from 2024-09-08, and the access conditions that follow from it (SOP, basic climbing safety equipment, compliance with the applicable health protocol, online ticketing).",
+            "role_for_health_screening": "supporting authority, not the source",
+            "health_certificate_requirement_source": "BBKSDA SE.35/K2/BIDTEK.1/KSA/1/2024, in force since 2024-01-06 — see E020, E030, E031."
+          },
+          "decided_at": "2026-08-22"
+        }
+      ],
       "tags": [
         "health-screening",
         "bbksda",
@@ -195,7 +257,7 @@
       "canonical_text": "JVTO organizes trust signals as a verification layer: clear claims, context, and evidence links — not just marketing statements.",
       "domain": "credentials",
       "category": "trust-signal",
-      "last_verified": "2026-08-21",
+      "last_verified": "2026-08-22",
       "evidence": [
         {
           "id": "E008",
@@ -211,8 +273,8 @@
         {
           "id": "E019",
           "type": "official_authority",
-          "source_file": "public/legal/AHU-PTJVR.pdf",
-          "description": "Menkumham decree AHU-0010187.AH.01.01.TAHUN 2023 approving PT Java Volcano Rendezvous as a legal entity, with register entry AHU-0026835. Published with SHA-256.",
+          "source_file": "wiki/credentials/legal-licenses.md",
+          "description": "Menkumham decree AHU-0010187.AH.01.01.TAHUN 2023 approving PT Java Volcano Rendezvous as a legal entity, register entry AHU-0026835. Published at public/legal/AHU-PTJVR.pdf with a SHA-256 anchor, so the served bytes can be checked against the published hash by anyone.",
           "proof_ids": [
             "ahu-0010187-ptjvr"
           ]
@@ -220,31 +282,21 @@
         {
           "id": "E020",
           "type": "official_authority",
-          "source_file": "public/screening/SIP_DOKTER_AHMAD_IRWANDANU_2026.pdf",
-          "description": "Practice licence (SIP 503.446/664/DRU/4/430.9.13/2026) of the physician who signs the Ijen health certificates, issued by DPMPTSP Bondowoso, BSrE-signed, STR valid to 2031. Published with SHA-256.",
+          "source_file": "wiki/people/dr-ahmad-irwandanu.md",
+          "description": "Practice licence (SIP 503.446/664/DRU/4/430.9.13/2026) of the physician who signs the Ijen health certificates — issued by DPMPTSP Bondowoso, BSrE-signed, STR valid to 2031-01-06 — published at public/screening/SIP_DOKTER_AHMAD_IRWANDANU_2026.pdf with a SHA-256 anchor. E007 records the same licence as a document held on file; this entry records that it is publicly downloadable and hash-verifiable.",
           "proof_ids": [
-            "sip-ahmad-irwandanu-2026"
+            "sip-dr-ahmad-irwandanu-2026"
           ]
         },
         {
           "id": "E021",
           "type": "official_authority",
-          "source_file": "public/screening/bbksda/05012024_Edaran_Pembukaan_TWA_Kawah_Ijen.pdf",
-          "description": "BBKSDA Jawa Timur circular SE.1658/K2/BIDTEK.1/KSA/9/2024 governing access to TWA Kawah Ijen. A regulation JVTO operates under, not a permit issued to JVTO. Published with SHA-256.",
+          "source_file": "wiki/credentials/permit-requirements.md",
+          "description": "BBKSDA Jawa Timur circular SE.1658/K2/BIDTEK.1/KSA/9/2024, \"Pembukaan Kawasan Taman Wisata Alam (TWA) Kawah Ijen\", issued at Sidoarjo 2024-09-06 and signed by the Kepala Balai Besar. It reopens TWA Kawah Ijen from 2024-09-08 for nature tourism, hiking and research, lifting the closure imposed on 2024-07-12 by SE.1289/K2/BIDTEK.1/KSA/07/2024. Its conditions are: follow the applicable SOP, prepare basic climbing safety equipment (torch, mask, cold-weather clothing), follow \"protokol kesehatan yang berlaku\", and book entry tickets online via tiket.bbksdajatim.org. Published with a SHA-256 anchor.",
           "proof_ids": [
-            "bbksda-se-1658-2024"
+            "bbksda-surat-edaran-se-1658-ksa-9-2024"
           ]
         }
-      ],
-      "narrative": {
-        "ai_snippet": "JVTO uses a proof-library approach: organizing verifiable credentials, partners, and recognition as structured trust signals.",
-        "short": "Proof you can verify — licenses, partners, press, and documented references. Trust stack, not slogans.",
-        "cs_reply": "If you want to verify us, start at /verify-jvto. It's organized so you can check credentials, partners, and references quickly."
-      },
-      "decisions": [],
-      "tags": [
-        "credential-verification",
-        "trust-signal"
       ],
       "derived_artifacts": [
         {
@@ -260,6 +312,29 @@
             "sprin-wal-travel-2024-02-12"
           ]
         }
+      ],
+      "narrative": {
+        "ai_snippet": "JVTO uses a proof-library approach: organizing verifiable credentials, partners, and recognition as structured trust signals.",
+        "short": "Proof you can verify — licenses, partners, press, and documented references. Trust stack, not slogans.",
+        "cs_reply": "If you want to verify us, start at /verify-jvto. It's organized so you can check credentials, partners, and references quickly."
+      },
+      "decisions": [
+        {
+          "decision_id": "DEC-005",
+          "topic": "founder_police_unit",
+          "final_value": {
+            "unit": "Polisi Pariwisata (POLPAR) Bondowoso",
+            "parent_command": "Polres Bondowoso",
+            "assignment_order": "Sprin/4954/XI/2020",
+            "rank": "Bripka",
+            "superseded_unit": "Ditpamobvit (Direktorat Pengamanan Objek Vital)"
+          },
+          "decided_at": "2026-08-22"
+        }
+      ],
+      "tags": [
+        "credential-verification",
+        "trust-signal"
       ]
     },
     {
@@ -268,7 +343,7 @@
       "canonical_text": "JVTO treats reviews as a registry: grouped by platform and theme, so guests can validate patterns instead of reading random quotes.",
       "domain": "reviews",
       "category": "review-compilation",
-      "last_verified": "2026-05-18",
+      "last_verified": "2026-08-22",
       "evidence": [
         {
           "id": "E009",
@@ -283,7 +358,7 @@
           "id": "E010",
           "type": "customer_review",
           "source_file": "wiki/reviews/google-tripadvisor-2026.md",
-          "description": "Google Maps {GOOGLE_RATING}/5 ({GOOGLE_REVIEW_COUNT} reviews), TripAdvisor {TRIPADVISOR_RATING}/5 ({TRIPADVISOR_COUNT} reviews)",
+          "description": "Google Maps 4.9/5 (123 reviews), TripAdvisor 4.95/5 (21 reviews)",
           "proof_ids": [
             "google-maps-live-cid",
             "tripadvisor-live-profile"
@@ -340,7 +415,7 @@
       "canonical_text": "JVTO partnerships are explained by function: competence context (HPWKI), sustainability context (INDECON), and verification logic (ISIC).",
       "domain": "credentials",
       "category": "trust-signal",
-      "last_verified": "2026-05-16",
+      "last_verified": "2026-08-22",
       "evidence": [
         {
           "id": "E012",
@@ -377,7 +452,7 @@
             "legal_incorporation_year": 2016,
             "tdup_issued_year": 2023
           },
-          "decided_at": "2026-05-28"
+          "decided_at": "2026-08-03"
         },
         {
           "decision_id": "DEC-003",
@@ -401,7 +476,7 @@
       "canonical_text": "JVTO lists press and recognition with context so guests can evaluate third-party references, not just branding claims.",
       "domain": "credentials",
       "category": "trust-signal",
-      "last_verified": "2026-05-16",
+      "last_verified": "2026-08-22",
       "evidence": [
         {
           "id": "E014",
@@ -489,7 +564,7 @@
     },
     {
       "topic": "health-screening",
-      "tldr": "JVTO includes the mandatory Ijen health screening on itineraries that include Mount Ijen — a health certificate is required for every guest before crater entry (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024), documented in the Travel Guide.",
+      "tldr": "JVTO includes the mandatory Ijen health screening on itineraries that include Mount Ijen — a health certificate is required for every guest before crater entry (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024), documented in the Travel Guide. The screening is conducted by SIP-licensed Dr. Ahmad Irwandanu — a registered Indonesian physician whose STR (QN00001073380217) is publicly verifiable via Kemenkes SatuSehat / KKI — included in the tour and done at each guest's hotel before the hike briefing. The issued surat sehat is electronically signed (BSrE / Balai Sertifikasi Elektronik) and traceable to that named, licensed doctor — tamper-evident and accountable, a verifiable alternative to a self-issued form, which matters because counterfeit surat sehat have been documented in circulation at Ijen.",
       "claim_ids": [
         "C4"
       ],
@@ -587,7 +662,7 @@
     },
     {
       "question": "Ijen Health-Screening Coordination",
-      "answer": "A health certificate is mandatory for every Ijen guest — screening included and coordinated by JVTO. Real screening, clear rules.",
+      "answer": "A health certificate is mandatory for every Ijen guest — screening by SIP-licensed Dr. Ahmad Irwandanu (STR publicly verifiable via Kemenkes / KKI), included and done at your hotel before the briefing. The surat sehat is BSrE electronically-signed and traceable to that named doctor — a real, tamper-evident, accountable certificate rather than a self-issued form.",
       "source_claim_id": "C4",
       "target_pages": [
         "output/website/pages/travel-guide/"

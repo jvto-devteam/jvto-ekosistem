@@ -1,0 +1,98 @@
+name: Sync Knowledge from llm-wiki
+
+# One-way, gated, idempotent sync of the upstream trust bundle.
+#
+# Scope is the six files the upstream manifest lists as compiler artifacts.
+# The five JSON files it lists under `unmanaged_files` — people, policies,
+# destinations, products, operational — are never read, so this job cannot
+# touch people.json and cannot lose the publicFieldAllowlist, reviewCorrelation
+# or crew.unpublished blocks that live only downstream.
+#
+# The sync refuses rather than degrades: a bad schema_version, clean:false, a
+# failing F1-F8 validation rule, a missing required file, or a collapsed claim
+# count all abort before anything is written. Change detection ignores the
+# manifest's compiled_at, which upstream restamps on every compile, so an
+# unchanged bundle produces no commit.
+
+on:
+  repository_dispatch:
+    # Sent by llm-wiki/.github/workflows/ci.yml on every push to master that
+    # passes validation. That sender warns and skips until the secret
+    # JVTO_EKOSISTEM_DISPATCH_TOKEN is set in llm-wiki, so the schedule below
+    # is the working path until then.
+    types: [llm-wiki-master-updated]
+  schedule:
+    - cron: '0 3 * * *'     # 10:00 WIB daily — safety net for repository_dispatch
+  workflow_dispatch:
+
+concurrency:
+  group: llm-wiki-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Gate, sync, and commit upstream knowledge
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # llm-wiki is public, so github.token is enough. The sync resolves the
+      # bundle from LLM_WIKI_PATH, falling back to this sibling path.
+      - name: Checkout llm-wiki (upstream trust bundle)
+        uses: actions/checkout@v4
+        with:
+          repository: sambuko82/llm-wiki
+          ref: master
+          path: ../llm-wiki
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # No npm ci: these scripts run on stock Node with zero dependencies,
+      # matching sync-booking-data.yml.
+      - name: Run llm-wiki-sync tests
+        run: npm run test:llm-wiki-sync
+
+      - name: Run llm-wiki sync
+        run: npm run sync:llm-wiki
+
+      - name: Validate schema
+        run: npm run validate:schema
+
+      # Surfaces frozen-field divergences in the run log so a conflict the sync
+      # deliberately did not resolve cannot sit unnoticed in the archive.
+      - name: Report frozen-field conflicts
+        run: |
+          set -euo pipefail
+          if [ -f archive/llm-wiki-snapshot/conflicts.json ]; then
+            node -e '
+              const { conflicts } = require("./archive/llm-wiki-snapshot/conflicts.json");
+              if (!conflicts.length) { console.log("No frozen-field conflicts."); process.exit(0); }
+              console.log(`${conflicts.length} field(s) held at the downstream value:`);
+              for (const c of conflicts) {
+                console.log(`  ${c.claimId}.${c.field}: downstream ${JSON.stringify(c.downstreamValue)} vs upstream ${JSON.stringify(c.upstreamValue)}`);
+                console.log(`    ${c.reason}`);
+              }
+            '
+          fi
+
+      - name: Commit and push if changed
+        run: |
+          set -euo pipefail
+          git config user.name "jvto-ekosistem-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if [ -n "$(git status --porcelain -- archive/llm-wiki-snapshot 1-knowledge-and-evidence-core/credentials-and-public-evidence/trust-claims.json)" ]; then
+            git add archive/llm-wiki-snapshot 1-knowledge-and-evidence-core/credentials-and-public-evidence/trust-claims.json
+            git commit -m "chore(llm-wiki-sync): sync upstream trust bundle $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git pull --rebase --autostash
+            git push
+          else
+            echo "No changes to commit."
+          fi

@@ -33,6 +33,15 @@ on:
       # only appears in a diff when a route's real title/schemaTypes/pages entry
       # actually changes — exactly the case this gate must still catch.
       - '5-experience-engine/manifests/route-output-index.json'
+      # The llm-wiki sync commits a raw upstream snapshot plus the composed
+      # trust-claims.json nightly. Neither is read by render-web-content-sources
+      # nor shipped to the VPS, so a sync commit has nothing to deploy — but
+      # without these two entries it would trigger a full deploy (npm ci,
+      # cms:audit, Tina build, full rsync) able to cancel a legitimate in-flight
+      # deploy via concurrency:cancel-in-progress. Same class of fix as the PDP
+      # schema-output case above.
+      - 'archive/llm-wiki-snapshot/**'
+      - '1-knowledge-and-evidence-core/credentials-and-public-evidence/trust-claims.json'
   workflow_dispatch:
 
 concurrency:
@@ -86,6 +95,14 @@ jobs:
                 "")
                   ;;
                 1-knowledge-and-evidence-core/travel-guide/*.source.json|1-knowledge-and-evidence-core/why-jvto/*.source.json|1-knowledge-and-evidence-core/policies/*.source.json|1-knowledge-and-evidence-core/markets/*.source.json|1-knowledge-and-evidence-core/blog/*.source.json|1-knowledge-and-evidence-core/credentials-and-public-evidence/verify-jvto-pages/*.source.json|1-knowledge-and-evidence-core/destinations/*.source.json|1-knowledge-and-evidence-core/contact/*.source.json|1-knowledge-and-evidence-core/isic/*.source.json|1-knowledge-and-evidence-core/tours/*.source.json|1-knowledge-and-evidence-core/home/*.source.json|5-experience-engine/public-website/*|5-experience-engine/public-website/**|5-experience-engine/json-ld/*|5-experience-engine/json-ld/**|5-experience-engine/manifests/*|5-experience-engine/knowledge-feed/*)
+                  ;;
+                # llm-wiki sync output. Mirrors the paths-ignore entries above:
+                # neither the raw upstream snapshot nor the composed
+                # trust-claims.json is read by the render pipeline or shipped to
+                # the VPS, so a sync commit that reaches this classifier (via a
+                # manual dispatch, or bundled with a real change) must not on its
+                # own escalate to a full deploy.
+                archive/llm-wiki-snapshot/*|archive/llm-wiki-snapshot/**|1-knowledge-and-evidence-core/credentials-and-public-evidence/trust-claims.json)
                   ;;
                 *)
                   FULL_DEPLOY=true

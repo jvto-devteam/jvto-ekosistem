@@ -1,0 +1,32 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristTrip",
+    "name": "Kawah Ijen",
+    "url": "https://javavolcano-touroperator.com/destinations/ijen-crater"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristTrip",
+    "name": "Mount Bromo",
+    "url": "https://javavolcano-touroperator.com/destinations/mount-bromo"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristTrip",
+    "name": "Tumpak Sewu",
+    "url": "https://javavolcano-touroperator.com/destinations/tumpak-sewu-waterfall"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristTrip",
+    "name": "Madakaripura",
+    "url": "https://javavolcano-touroperator.com/destinations/madakaripura-waterfall"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristTrip",
+    "name": "Papuma Beach",
+    "url": "https://javavolcano-touroperator.com/destinations/papuma-beach"
+  }
+]

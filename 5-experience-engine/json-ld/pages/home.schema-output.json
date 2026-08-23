@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-22T04:56:18.830Z",
+  "generated_at": "2026-08-23T05:57:11.221Z",
   "route": "/",
   "domain": "home",
   "slug": "index",
@@ -43,7 +43,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": 4.9,
-          "reviewCount": 152,
+          "reviewCount": 153,
           "bestRating": 5
         },
         "sameAs": [
@@ -327,7 +327,7 @@
             "name": "What happens if weather or volcanic conditions change the plan?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Safety comes first. If access conditions change, JVTO uses an alternative-route approach and communicates clearly. Force-majeure closures are handled under our travel-credit policy: 100% Travel Credit (non-expiring, transferable, IDR-denominated, no rebooking fee)."
+              "text": "Safety comes first. If access conditions change, JVTO uses an alternative-route approach and communicates clearly. Force-majeure closures are handled under our travel-credit policy: 100% Lifetime Package Credit (non-expiring, transferable, IDR-denominated, no rebooking fee)."
             }
           },
           {
@@ -351,7 +351,7 @@
             "name": "How do you ensure safety at Ijen Crater?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Safety is our core product. When BBKSDA access rules require it (SE.1658/K2/BIDTEK.1/KSA/9/2024), JVTO coordinates the health certificate process (surat sehat) with licensed medical partners. We provide professional-grade gas masks and a team trained in volcanic risk management. Our founder's background in the Tourist Police means our safety protocols are not just 'guidelines' — they are police-standard procedures."
+              "text": "Safety is our core product. Under BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024, JVTO coordinates the mandatory health certificate process (surat sehat) with licensed medical partners. We provide professional-grade gas masks and a team trained in volcanic risk management. Our founder's background in the Tourist Police means our safety protocols are not just 'guidelines' — they are police-standard procedures."
             }
           },
           {
@@ -367,7 +367,7 @@
             "name": "What happens if my trip is cancelled?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We maintain a transparent cancellation policy. Cancellations made ≥48 hours before Day 1 receive 100% Travel Credit — non-expiring, transferable to any traveler, denominated in IDR, with no rebooking fee. Our legal registration ensures you have recourse that 'freelance' guides cannot offer."
+              "text": "We maintain a transparent cancellation policy. Cancellations made ≥48 hours before Day 1 receive 100% Lifetime Package Credit — non-expiring, transferable to any traveler, denominated in IDR, with no rebooking fee. Our legal registration ensures you have recourse that 'freelance' guides cannot offer."
             }
           }
         ]

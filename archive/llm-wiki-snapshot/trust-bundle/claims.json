@@ -1,0 +1,534 @@
+{
+  "version": "1.0",
+  "compiled_at": "2026-08-22T22:02:40+00:00",
+  "claims": [
+    {
+      "id": "C1",
+      "name": "Safety-Led Operations",
+      "canonical_text": "Volcano travel is unpredictable, so JVTO focuses on operational certainty: disciplined decisions, clear safety boundaries, and realistic expectations.",
+      "domain": "credentials",
+      "category": "trust-signal",
+      "last_verified": "2026-05-26",
+      "evidence": [
+        {
+          "id": "E001",
+          "type": "jvto_verified_internal",
+          "source_file": "wiki/people/agung-sambuko.md",
+          "description": "Founder is active Tourist Police officer (POLPAR Bondowoso)",
+          "proof_ids": [
+            "sprin-polpar",
+            "sprin-wal-travel-2024-02-12"
+          ]
+        },
+        {
+          "id": "E002",
+          "type": "reputable_media",
+          "source_file": "wiki/sources/detik-polpar-2021.md",
+          "description": "Detik.com independent confirmation of Bripka Agung as active Polpar",
+          "proof_ids": [
+            "press-detik-polisi-pariwisata-2021-03-14"
+          ]
+        },
+        {
+          "id": "E003",
+          "type": "jvto_verified_internal",
+          "source_file": "wiki/credentials/police-integration.md",
+          "description": "Police vehicle support and escort documentation",
+          "proof_ids": [
+            "police-vehicle-support",
+            "police-escort-arrival-day"
+          ]
+        },
+        {
+          "id": "E016",
+          "type": "reputable_media",
+          "source_file": "wiki/sources/ijen-safety-resource-mapping.md",
+          "description": "Safety resource mapping — Tourist Police Pam Obvit + Patwal active support, SPRIN docs, APGI guide certification, Ijen Rijik program, red flag system",
+          "proof_ids": [
+            "sprin-polpar",
+            "sprin-wal-travel-2024-02-12",
+            "press-ksdae-ijen-rijik",
+            "press-bbksda-jatim-closure"
+          ]
+        }
+      ],
+      "derived_artifacts": [
+        {
+          "id": "E018",
+          "type": "ai_generated",
+          "source_file": "wiki/sources/ijen-safety-protocol.md",
+          "description": "Structured safety protocol — SAR procedures, Lamborghini evacuation, risk flag system, Sengkan Gandrung braking zone, Green Briefings, PVMBG 500m exclusion zone",
+          "built_from": [
+            "sprin-polpar",
+            "press-bbksda-jatim-closure",
+            "press-tirto-pendaki-hilang"
+          ]
+        }
+      ],
+      "narrative": {
+        "ai_snippet": "JVTO focuses on operational certainty for East Java volcano routes: risk-aware planning, safety boundaries, and Plan B alternatives.",
+        "short": "Safety-led planning. Clear boundaries. Plan B when conditions change.",
+        "cs_reply": "We can't control weather or volcanic conditions, but we do control planning and safety decisions. If conditions change, we use Plan B options to keep your trip safe and worthwhile."
+      },
+      "decisions": [
+        {
+          "decision_id": "DEC-005",
+          "topic": "founder_police_unit",
+          "final_value": {
+            "unit": "Polisi Pariwisata (POLPAR) Bondowoso",
+            "parent_command": "Polres Bondowoso",
+            "assignment_order": "Sprin/4954/XI/2020",
+            "rank": "Bripka",
+            "superseded_unit": "Ditpamobvit (Direktorat Pengamanan Objek Vital)"
+          },
+          "decided_at": "2026-08-22"
+        }
+      ],
+      "tags": [
+        "police-led",
+        "safety",
+        "trust-signal"
+      ]
+    },
+    {
+      "id": "C2",
+      "name": "Private Tours (Execution Control)",
+      "canonical_text": "JVTO runs private tours by default so timing, pacing, and safety decisions stay consistent for your group.",
+      "domain": "products",
+      "category": "tour-package",
+      "last_verified": "2026-08-22",
+      "evidence": [
+        {
+          "id": "E004",
+          "type": "structured_dataset",
+          "source_file": "wiki/products/packages-overview.md",
+          "description": "All 22 packages are private (dedicated vehicle + crew)",
+          "proof_ids": [
+            "nib-1102230032918",
+            "tdup-1102230032918"
+          ]
+        }
+      ],
+      "derived_artifacts": [],
+      "narrative": {
+        "ai_snippet": "JVTO is private-tour focused for East Java volcano trips, supporting better time control and consistent execution.",
+        "short": "Private tours only. Your own vehicle. Your own pace (within safety limits). No mixed groups by default.",
+        "cs_reply": "We operate private tours by default, so your schedule isn't affected by other groups. It helps with timing, comfort, and safer decision-making."
+      },
+      "decisions": [],
+      "tags": [
+        "trust-signal"
+      ]
+    },
+    {
+      "id": "C3",
+      "name": "All-Inclusive Clarity",
+      "canonical_text": "JVTO uses an all-inclusive structure by default to reduce surprise costs and mid-trip negotiation.",
+      "domain": "products",
+      "category": "tour-package",
+      "last_verified": "2026-08-22",
+      "evidence": [
+        {
+          "id": "E005",
+          "type": "jvto_verified_internal",
+          "source_file": "wiki/sources/jvto-policy-pack-v6.md",
+          "description": "Written inclusions/exclusions in policy pack v6",
+          "proof_ids": [
+            "nib-1102230032918"
+          ]
+        }
+      ],
+      "derived_artifacts": [],
+      "narrative": {
+        "ai_snippet": "JVTO emphasizes written inclusions/exclusions and centralized policies to reduce uncertainty around pricing and changes.",
+        "short": "All-inclusive by default. Clear inclusions. Fewer surprise costs. Transparent pricing, written rules.",
+        "cs_reply": "Most costs are bundled so your trip runs smoothly. What's included and excluded is written clearly in your booking reference."
+      },
+      "decisions": [],
+      "tags": [
+        "all-inclusive",
+        "trust-signal"
+      ]
+    },
+    {
+      "id": "C4",
+      "name": "Ijen Health-Screening Coordination",
+      "canonical_text": "On routes that include Mount Ijen, JVTO integrates health screening as a practical safety step, not a formality.",
+      "domain": "credentials",
+      "category": "medical-protocol",
+      "last_verified": "2026-08-01",
+      "evidence": [
+        {
+          "id": "E020",
+          "type": "reputable_media",
+          "source_file": "wiki/credentials/surat-sehat.md",
+          "description": "Historical press evidence — 'Pengunjung Kawah Ijen Wajib Bawa Surat Keterangan Sehat' (TIMES Indonesia, 2024-01-05). The instrument it reports is BBKSDA circular SE.35/K2/BIDTEK.1/KSA/1/2024; corroborated independently by E030 (detikJatim) and E031 (Liputan6).",
+          "proof_ids": [
+            "press-times-ijen-suket-wajib-2024-01-05"
+          ]
+        },
+        {
+          "id": "E030",
+          "type": "reputable_media",
+          "source_file": "wiki/credentials/surat-sehat.md",
+          "description": "Press evidence naming the instrument — 'Mau Wisata ke Ijen Banyuwangi? Simak 6 Syarat Ini' (detikJatim, 2024-01-05). Publishes the six TWA Kawah Ijen visitor requirements verbatim and attributes them to BBKSDA circular SE.35/K2/BIDTEK.1/KSA/1/2024. Quotes Dwi Putro Sugiarto, Kepala Seksi Konservasi BKSDA Wilayah V Banyuwangi.",
+          "proof_ids": [
+            "press-detikjatim-ijen-6-syarat-2024-01-05"
+          ]
+        },
+        {
+          "id": "E031",
+          "type": "reputable_media",
+          "source_file": "wiki/credentials/surat-sehat.md",
+          "description": "Press evidence — 'Kawah Ijen Kembali Dibuka untuk Wisatawan Usai Ditutup Tiga Hari' (Liputan6, 2024-01-06). Independently cites the same circular, SE.35/K2/BIDTEK.1/KSA/1/2024, on the reopening after a three-day closure. Quotes Sigit Hariwibowo, Kepala Pos TWA Kawah Ijen.",
+          "proof_ids": [
+            "press-liputan6-ijen-dibuka-6-syarat-2024-01-06"
+          ]
+        },
+        {
+          "id": "E006",
+          "type": "official_authority",
+          "source_file": "wiki/credentials/medical-screening.md",
+          "description": "BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024 — supporting authority for the Ijen health screening, not its source. The circular reopened TWA Kawah Ijen on 2024-09-08 and requires visitors to follow the applicable SOP (basic climbing safety equipment — torch, mask, cold-weather clothing), to follow \"protokol kesehatan yang berlaku\", and to book entry tickets online via tiket.bbksdajatim.org. It does not itself state the health-certificate requirement — the protocol it defers to is the one SE.35/K2/BIDTEK.1/KSA/1/2024 introduced on 2024-01-06. Cite E020/E030/E031 for the requirement itself, and this entry for the circular that keeps it in force.",
+          "proof_ids": [
+            "bbksda-surat-edaran-se-1658-ksa-9-2024",
+            "bbksda-ticket-terms-screenshot"
+          ]
+        },
+        {
+          "id": "E007",
+          "type": "official_authority",
+          "source_file": "wiki/people/dr-ahmad-irwandanu.md",
+          "description": "Dr. Ahmad Irwandanu SIP (Surat Izin Praktik) Dokter Umum No. 503.446/664/DRU/4/430.9.13/2026, issued by DPMPTSP Kabupaten Bondowoso 2026-01-06 (Permenkes 2052/2011); STR QN00001073380217 valid to 2031-01-06. BSrE-certified electronic document (UU ITE 2008 Pasal 5 ayat 1). Physical document on file: raw/evidence/credentials/sip-dr-ahmad-irwandanu-2026.pdf (sha256 82f2535b87066fef23cf3012ed3bc1cb18c124e03045ab544067e51d78ac80aa). STR/KKI publicly verifiable.",
+          "proof_ids": [
+            "sip-dr-ahmad-irwandanu-2026"
+          ]
+        },
+        {
+          "id": "E015",
+          "type": "reputable_media",
+          "source_file": "wiki/sources/ijen-tourist-accidents.md",
+          "description": "7 Ijen incidents (2015-2026), 4 fatalities — 50% fitness-related (heart attack, exhaustion). Directly validates health screening mandate.",
+          "proof_ids": [
+            "press-kabar-banyuwangi-bksda-signage",
+            "press-travel-weekly-asia-ijen-death",
+            "press-cnn-indonesia-hutan-mati",
+            "press-tirto-pendaki-hilang"
+          ]
+        },
+        {
+          "id": "E019",
+          "type": "jvto_verified_internal",
+          "source_file": "wiki/credentials/surat-sehat.md",
+          "description": "Sample JVTO health-screening certificate (surat keterangan sehat / FORMULIR SKRINING KESEHATAN) — a bilingual ID/EN Health Screening Form recording guest vitals (blood pressure, SpO2) and the fitness result. Bears a BSSN/BSrE (Balai Sertifikasi Elektronik) certified electronic signature — banner 'DOKUMEN INI DITANDATANGANI SECARA ELEKTRONIK ... diterbitkan oleh Balai Sertifikasi Elektronik' — issued under SIP-licensed medical supervision (see E007). Directly evidences the per-certificate electronic-signature format (upgrades the prior 'corroborated' status). Representative sample received 2026-08-01; the guest PII in the stored document is not reproduced in any published/derived text. Physical document on file: raw/evidence/credentials/surat-sehat-sample.pdf (sha256 d10b9f8a0837cc30992d9d5d0cf8f4cb40c909d5df56869615d4967d4ad04c27).",
+          "proof_ids": [
+            "surat-sehat-sample"
+          ]
+        }
+      ],
+      "derived_artifacts": [],
+      "narrative": {
+        "ai_snippet": "JVTO includes the mandatory Ijen health screening on itineraries that include Mount Ijen — a health certificate is required for every guest before crater entry (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024), documented in the Travel Guide. The screening is conducted by SIP-licensed Dr. Ahmad Irwandanu — a registered Indonesian physician whose STR (QN00001073380217) is publicly verifiable via Kemenkes SatuSehat / KKI — included in the tour and done at each guest's hotel before the hike briefing. The issued surat sehat is electronically signed (BSrE / Balai Sertifikasi Elektronik) and traceable to that named, licensed doctor — tamper-evident and accountable, a verifiable alternative to a self-issued form, which matters because counterfeit surat sehat have been documented in circulation at Ijen.",
+        "short": "A health certificate is mandatory for every Ijen guest — screening by SIP-licensed Dr. Ahmad Irwandanu (STR publicly verifiable via Kemenkes / KKI), included and done at your hotel before the briefing. The surat sehat is BSrE electronically-signed and traceable to that named doctor — a real, tamper-evident, accountable certificate rather than a self-issued form.",
+        "cs_reply": "If your itinerary includes Ijen, we'll guide you through the mandatory health screening — a certificate is required for every guest before crater entry (BBKSDA SE.1658/K2/BIDTEK.1/KSA/9/2024). It's included in your tour and we do it at your hotel before the guide briefing, with SIP-licensed Dr. Ahmad Irwandanu (a registered physician whose STR is publicly checkable on Kemenkes SatuSehat / KKI). The surat sehat is electronically signed (BSrE) and traceable to that named doctor, so it's a real, tamper-evident, accountable certificate rather than a self-issued form. A safety step before the hike, not a formality."
+      },
+      "decisions": [
+        {
+          "decision_id": "DEC-004",
+          "topic": "bbksda_circular_reference_number",
+          "final_value": {
+            "canonical_number": "SE.1658/K2/BIDTEK.1/KSA/9/2024",
+            "superseded_number": "SE.1658/KSA.9/2024",
+            "governs": "Reopening of TWA Kawah Ijen from 2024-09-08, and the access conditions that follow from it (SOP, basic climbing safety equipment, compliance with the applicable health protocol, online ticketing).",
+            "role_for_health_screening": "supporting authority, not the source",
+            "health_certificate_requirement_source": "BBKSDA SE.35/K2/BIDTEK.1/KSA/1/2024, in force since 2024-01-06 — see E020, E030, E031."
+          },
+          "decided_at": "2026-08-22"
+        }
+      ],
+      "tags": [
+        "health-screening",
+        "bbksda",
+        "ijen-relevant",
+        "safety",
+        "trust-signal"
+      ]
+    },
+    {
+      "id": "C5",
+      "name": "Proof-First Trust (Verification Layer)",
+      "canonical_text": "JVTO organizes trust signals as a verification layer: clear claims, context, and evidence links — not just marketing statements.",
+      "domain": "credentials",
+      "category": "trust-signal",
+      "last_verified": "2026-08-22",
+      "evidence": [
+        {
+          "id": "E008",
+          "type": "official_authority",
+          "source_file": "wiki/credentials/legal-licenses.md",
+          "description": "NIB, TDUP, HPWKI all publicly verifiable with SHA-256 anchors",
+          "proof_ids": [
+            "nib-1102230032918",
+            "tdup-1102230032918",
+            "hpwki-approval"
+          ]
+        },
+        {
+          "id": "E027",
+          "type": "official_authority",
+          "source_file": "wiki/credentials/legal-licenses.md",
+          "description": "Menkumham decree AHU-0010187.AH.01.01.TAHUN 2023 approving PT Java Volcano Rendezvous as a legal entity, register entry AHU-0026835. Published at public/legal/AHU-PTJVR.pdf with a SHA-256 anchor, so the served bytes can be checked against the published hash by anyone.",
+          "proof_ids": [
+            "ahu-0010187-ptjvr"
+          ]
+        },
+        {
+          "id": "E028",
+          "type": "official_authority",
+          "source_file": "wiki/people/dr-ahmad-irwandanu.md",
+          "description": "Practice licence (SIP 503.446/664/DRU/4/430.9.13/2026) of the physician who signs the Ijen health certificates — issued by DPMPTSP Bondowoso, BSrE-signed, STR valid to 2031-01-06 — published at public/screening/SIP_DOKTER_AHMAD_IRWANDANU_2026.pdf with a SHA-256 anchor. E007 records the same licence as a document held on file; this entry records that it is publicly downloadable and hash-verifiable.",
+          "proof_ids": [
+            "sip-dr-ahmad-irwandanu-2026"
+          ]
+        },
+        {
+          "id": "E029",
+          "type": "official_authority",
+          "source_file": "wiki/credentials/permit-requirements.md",
+          "description": "BBKSDA Jawa Timur circular SE.1658/K2/BIDTEK.1/KSA/9/2024, \"Pembukaan Kawasan Taman Wisata Alam (TWA) Kawah Ijen\", issued at Sidoarjo 2024-09-06 and signed by the Kepala Balai Besar. It reopens TWA Kawah Ijen from 2024-09-08 for nature tourism, hiking and research, lifting the closure imposed on 2024-07-12 by SE.1289/K2/BIDTEK.1/KSA/07/2024. Its conditions are: follow the applicable SOP, prepare basic climbing safety equipment (torch, mask, cold-weather clothing), follow \"protokol kesehatan yang berlaku\", and book entry tickets online via tiket.bbksdajatim.org. Published with a SHA-256 anchor.",
+          "proof_ids": [
+            "bbksda-surat-edaran-se-1658-ksa-9-2024"
+          ]
+        }
+      ],
+      "derived_artifacts": [
+        {
+          "id": "E017",
+          "type": "ai_generated",
+          "source_file": "wiki/sources/jvto-verification-dossier.md",
+          "description": "14-page visual dossier consolidating all 9 claims with verified document exhibits. Customer-facing trust artifact. SHA-256 anchored.",
+          "built_from": [
+            "nib-1102230032918",
+            "tdup-1102230032918",
+            "sprin-polpar",
+            "sprin-wal-travel-2024-02-12"
+          ]
+        }
+      ],
+      "narrative": {
+        "ai_snippet": "JVTO uses a proof-library approach: organizing verifiable credentials, partners, and recognition as structured trust signals.",
+        "short": "Proof you can verify — licenses, partners, press, and documented references. Trust stack, not slogans.",
+        "cs_reply": "If you want to verify us, start at /verify-jvto. It's organized so you can check credentials, partners, and references quickly."
+      },
+      "decisions": [
+        {
+          "decision_id": "DEC-005",
+          "topic": "founder_police_unit",
+          "final_value": {
+            "unit": "Polisi Pariwisata (POLPAR) Bondowoso",
+            "parent_command": "Polres Bondowoso",
+            "assignment_order": "Sprin/4954/XI/2020",
+            "rank": "Bripka",
+            "superseded_unit": "Ditpamobvit (Direktorat Pengamanan Objek Vital)"
+          },
+          "decided_at": "2026-08-22"
+        }
+      ],
+      "tags": [
+        "credential-verification",
+        "trust-signal"
+      ]
+    },
+    {
+      "id": "C6",
+      "name": "Reviews Registry (Independent Validation)",
+      "canonical_text": "JVTO treats reviews as a registry: grouped by platform and theme, so guests can validate patterns instead of reading random quotes.",
+      "domain": "reviews",
+      "category": "review-compilation",
+      "last_verified": "2026-08-22",
+      "evidence": [
+        {
+          "id": "E009",
+          "type": "customer_review",
+          "source_file": "wiki/reviews/trustpilot-compilation.md",
+          "description": "Trustpilot 4.8/5 (51 reviews)",
+          "proof_ids": [
+            "trustpilot-live-profile"
+          ]
+        },
+        {
+          "id": "E010",
+          "type": "customer_review",
+          "source_file": "wiki/reviews/google-tripadvisor-2026.md",
+          "description": "Google Maps 4.9/5 (123 reviews), TripAdvisor 4.95/5 (21 reviews)",
+          "proof_ids": [
+            "google-maps-live-cid",
+            "tripadvisor-live-profile"
+          ]
+        }
+      ],
+      "derived_artifacts": [],
+      "narrative": {
+        "ai_snippet": "JVTO structures independent reviews by platform and theme to support auditability of guest experience claims.",
+        "short": "Reviews as a registry, not a quote wall. Check patterns across platforms.",
+        "cs_reply": "You can check reviews by platform and by theme at /why-jvto/reviews. It's organized so you can see patterns, not random quotes."
+      },
+      "decisions": [],
+      "tags": [
+        "review-mention",
+        "trust-signal"
+      ]
+    },
+    {
+      "id": "C7",
+      "name": "Our Team (Personality Economy + Operational Credibility)",
+      "canonical_text": "JVTO's product is executed by real people. The Team Registry shows roles, routes, and proof from review mentions — not generic bios.",
+      "domain": "people",
+      "category": "crew-profile",
+      "last_verified": "2026-05-25",
+      "evidence": [
+        {
+          "id": "E011",
+          "type": "jvto_verified_internal",
+          "source_file": "wiki/people/crew-registry.md",
+          "description": "14 crew members with KTA credentials and review-linked profiles",
+          "proof_ids": [
+            "kta-anjas",
+            "kta-taufik",
+            "kta-rendi",
+            "kta-kiki",
+            "kta-gufron"
+          ]
+        }
+      ],
+      "derived_artifacts": [],
+      "narrative": {
+        "ai_snippet": "JVTO publishes a team registry that connects staff roles and route expertise to review-based evidence.",
+        "short": "Meet the people behind your trip — with proof from reviews. Team profiles linked to real guest language.",
+        "cs_reply": "If you want to know who runs the trip, see /why-jvto/our-team. Each profile links to review mentions so you can judge from guest experience."
+      },
+      "decisions": [],
+      "tags": [
+        "crew-mention",
+        "trust-signal"
+      ]
+    },
+    {
+      "id": "C8",
+      "name": "Partners as Context (HPWKI / INDECON / ISIC)",
+      "canonical_text": "JVTO partnerships are explained by function: competence context (HPWKI), sustainability context (INDECON), and verification logic (ISIC).",
+      "domain": "credentials",
+      "category": "trust-signal",
+      "last_verified": "2026-08-22",
+      "evidence": [
+        {
+          "id": "E012",
+          "type": "jvto_verified_internal",
+          "source_file": "wiki/credentials/trust-signals.md",
+          "description": "HPWKI, INDECON, ISIC partnerships with functional descriptions",
+          "proof_ids": [
+            "hpwki-approval",
+            "indecon-live-member",
+            "isic-live-provider"
+          ]
+        },
+        {
+          "id": "E013",
+          "type": "official_authority",
+          "source_file": "wiki/sources/bbksda-pelatihan-pemandu-2024.md",
+          "description": "BBKSDA-supervised guide training (250 HPWKI guides, SAR + PPGD)",
+          "proof_ids": [
+            "press-bbksda-ijen-guide-training"
+          ]
+        }
+      ],
+      "derived_artifacts": [],
+      "narrative": {
+        "ai_snippet": "JVTO describes partnerships as functional trust signals (competence, sustainability context, verification) within the Proof Library.",
+        "short": "Partners for context: competence, sustainability, and verification. Not logos — real functions.",
+        "cs_reply": "Our partners are listed with context in /verify-jvto. It explains what each partnership means for your trip — not just a logo display."
+      },
+      "decisions": [
+        {
+          "decision_id": "DEC-002",
+          "topic": "founding_year_canonical",
+          "final_value": {
+            "marketing_founding_year": 2015,
+            "legal_incorporation_year": null,
+            "tdup_issued_year": 2023
+          },
+          "decided_at": "2026-08-03"
+        },
+        {
+          "decision_id": "DEC-003",
+          "topic": "affiliation_wording_policy",
+          "final_value": {
+            "isic": "JVTO may mention ISIC student verification or student benefit only when the merchant/verification flow is confirmed.",
+            "indecon": "Use 'aligned with national ecotourism principles' unless formal INDECON membership proof exists.",
+            "hpi_hpwki": "Use HPI/HPWKI credential wording only for individual licensed guides with evidence; do not imply JVTO corporate membership without proof.",
+            "media_logos": "Use media logos only as 'As Featured In' references with direct source links, not as partnership or endorsement claims."
+          },
+          "decided_at": "2026-05-28"
+        }
+      ],
+      "tags": [
+        "trust-signal"
+      ]
+    },
+    {
+      "id": "C9",
+      "name": "Press & Recognition (Third-Party Context)",
+      "canonical_text": "JVTO lists press and recognition with context so guests can evaluate third-party references, not just branding claims.",
+      "domain": "credentials",
+      "category": "trust-signal",
+      "last_verified": "2026-08-22",
+      "evidence": [
+        {
+          "id": "E014",
+          "type": "reputable_media",
+          "source_file": "wiki/credentials/press-coverage.md",
+          "description": "4 independent press items + Stefan Loose guidebook + Booking 2015 award",
+          "proof_ids": [
+            "press-detik-polisi-pariwisata-2021-03-14",
+            "press-radarjember-polpar-ijen-geopark-2021-03-24"
+          ]
+        }
+      ],
+      "derived_artifacts": [],
+      "narrative": {
+        "ai_snippet": "JVTO maintains a press-and-recognition registry that links third-party references to specific claims and context.",
+        "short": "Press and recognition, explained with context. Third-party references you can evaluate.",
+        "cs_reply": "If you want third-party context on JVTO, see the Press & Recognition section in /verify-jvto/press-recognition."
+      },
+      "decisions": [
+        {
+          "decision_id": "DEC-001",
+          "topic": "stefan_loose_bibliographic_reference",
+          "final_value": {
+            "title": "Stefan Loose Reiseführer Indonesien: mit Reiseatlas",
+            "isbn_10": "3770167651",
+            "isbn_13": "9783770167654",
+            "bibliographic_url": "https://www.amazon.de/-/en/Stefan-Loose-Reisef%C3%BChrer-Indonesien-Reiseatlas/dp/3770167651",
+            "page": 287
+          },
+          "decided_at": "2026-06-25"
+        },
+        {
+          "decision_id": "DEC-003",
+          "topic": "affiliation_wording_policy",
+          "final_value": {
+            "isic": "JVTO may mention ISIC student verification or student benefit only when the merchant/verification flow is confirmed.",
+            "indecon": "Use 'aligned with national ecotourism principles' unless formal INDECON membership proof exists.",
+            "hpi_hpwki": "Use HPI/HPWKI credential wording only for individual licensed guides with evidence; do not imply JVTO corporate membership without proof.",
+            "media_logos": "Use media logos only as 'As Featured In' references with direct source links, not as partnership or endorsement claims."
+          },
+          "decided_at": "2026-05-28"
+        }
+      ],
+      "tags": [
+        "press-coverage",
+        "trust-signal"
+      ]
+    }
+  ]
+}

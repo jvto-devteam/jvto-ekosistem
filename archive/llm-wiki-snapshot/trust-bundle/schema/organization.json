@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  "name": "Java Volcano Tour Operator",
+  "legalName": "PT Java Volcano Rendezvous",
+  "url": "https://javavolcano-touroperator.com",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "NIB",
+      "value": "1102230032918"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "TDUP",
+      "value": "1102230032918"
+    }
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Agung Sambuko",
+    "jobTitle": "Tourist Police Officer"
+  }
+}

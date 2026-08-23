@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-22T04:56:18.830Z",
+  "generated_at": "2026-08-23T05:57:11.221Z",
   "route": "/policy/privacy",
   "domain": "policy",
   "slug": "privacy",
@@ -43,7 +43,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": 4.9,
-          "reviewCount": 152,
+          "reviewCount": 153,
           "bestRating": 5
         },
         "sameAs": [
