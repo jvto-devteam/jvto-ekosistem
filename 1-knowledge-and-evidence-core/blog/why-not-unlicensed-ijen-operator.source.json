@@ -18,14 +18,19 @@
     "status": "published",
     "owner": "content",
     "lastReviewed": "2026-05-27",
-    "schemaTypes": ["Article"],
-    "summary": "The four categories of risk travelers accept when booking Mount Ijen through an unlicensed operator — safety, legal, financial, and regulatory — plus a concrete verification checklist."
+    "schemaTypes": [
+      "Article"
+    ],
+    "summary": "The four categories of risk travelers accept when booking Mount Ijen through an unlicensed operator — safety, legal, financial, and regulatory — plus a concrete verification checklist.",
+    "answerFirst": "An unlicensed operator changes your legal recourse, not the volcano. Indonesian police charged a Banyuwangi travel-agency owner with fraud after roughly 18 travellers each paid about IDR 10 million for tours that never ran. A licensed operator carries an NIB, a TDUP and a traceable registered address you can check before paying anything."
   },
   "seo": {
     "title": "Why Not an Unlicensed Ijen Operator | JVTO Field Notes",
     "description": "The volcano is the same. Everything around it — your legal recourse, the safety chain, the regulatory framework that protects you — is not.",
     "canonicalRoute": "/blog/why-not-unlicensed-ijen-operator",
-    "schemaTypes": ["Article"]
+    "schemaTypes": [
+      "Article"
+    ]
   },
   "content": {
     "format": "structured-sections",
@@ -93,16 +98,30 @@
           "titleSuffix": " Ijen operator.",
           "lede": "The volcano is the same. Everything around it — your legal recourse, the safety chain, the regulatory framework that protects you — is not.",
           "metaBlock": [
-            { "label": "Reading time", "value": "6 min" },
-            { "label": "Author", "value": "JVTO ops team" },
-            { "label": "Updated", "value": "27 May 2026" },
-            { "label": "Topic", "value": "Kawah Ijen" }
+            {
+              "label": "Reading time",
+              "value": "6 min"
+            },
+            {
+              "label": "Author",
+              "value": "JVTO ops team"
+            },
+            {
+              "label": "Updated",
+              "value": "27 May 2026"
+            },
+            {
+              "label": "Topic",
+              "value": "Kawah Ijen"
+            }
           ]
         },
         "article": {
           "kicker": "Kawah Ijen · 6 min read · 27 May 2026",
           "openingLede": [
-            { "text": "The first time you land in Surabaya or arrive at the Banyuwangi ferry port, the offers come fast. Drivers with cardboard signs, hotel front-desk staff with \"a friend who can take you,\" WhatsApp groups full of \"best price guaranteed.\" The advertised number is always lower than the licensed operator's quote. Same volcano. Same blue fire. Same sunrise." }
+            {
+              "text": "The first time you land in Surabaya or arrive at the Banyuwangi ferry port, the offers come fast. Drivers with cardboard signs, hotel front-desk staff with \"a friend who can take you,\" WhatsApp groups full of \"best price guaranteed.\" The advertised number is always lower than the licensed operator's quote. Same volcano. Same blue fire. Same sunrise."
+            }
           ],
           "followUp": "It is not the same.",
           "intro": "What changes when you book Mount Ijen through an unlicensed operator is not the volcano. It is everything around the volcano: the legal recourse you have if something goes wrong, the safety chain behind the people guiding you up the trail, and the regulatory framework that protects you from a market full of operators who can disappear the day after you pay.",
@@ -114,9 +133,16 @@
           "risk1": {
             "heading": "1. Safety risk",
             "p1": [
-              { "text": "Mount Ijen is a " },
-              { "text": "2,386-meter active volcano", "strong": true },
-              { "text": " with a sulfur lake at its crater. Sulfur dioxide and hydrogen sulfide are released continuously from the crater floor. The hike is steep, the descent is in pre-dawn darkness, and the air at the rim can change from breathable to dangerous within minutes when the wind shifts." }
+              {
+                "text": "Mount Ijen is a "
+              },
+              {
+                "text": "2,386-meter active volcano",
+                "strong": true
+              },
+              {
+                "text": " with a sulfur lake at its crater. Sulfur dioxide and hydrogen sulfide are released continuously from the crater floor. The hike is steep, the descent is in pre-dawn darkness, and the air at the rim can change from breathable to dangerous within minutes when the wind shifts."
+              }
             ],
             "p2": "A licensed operator's guides are trained for this. Membership in HPWKI — the AHU-registered Ijen Specialist Tourism Association — requires completion of BBKSDA-supervised training in search and rescue, first aid, and disaster mitigation. This training was independently documented by BBKSDA Jawa Timur in their 2024 guide training report.",
             "p3": "An unlicensed driver who picks you up at your hotel has none of that. He may be a kind person. He may have driven the route a hundred times. But when conditions change at the rim and a decision has to be made about whether to descend into the crater or turn back, you want that decision made by someone whose training is in safety protocol, not in repeat customers.",
@@ -125,11 +151,23 @@
           "risk2": {
             "heading": "2. Legal risk",
             "p1": [
-              { "text": "Indonesian tourism operators are required to hold a " },
-              { "text": "NIB", "strong": true },
-              { "text": " (Nomor Induk Berusaha — Business Registration Number) issued through the OSS portal, and a " },
-              { "text": "TDUP", "strong": true },
-              { "text": " (Tanda Daftar Usaha Pariwisata — Tourism Business License). These are not paperwork formalities. They establish the operator as a legal entity with a registered office, a tax identity, and a documented chain of responsibility." }
+              {
+                "text": "Indonesian tourism operators are required to hold a "
+              },
+              {
+                "text": "NIB",
+                "strong": true
+              },
+              {
+                "text": " (Nomor Induk Berusaha — Business Registration Number) issued through the OSS portal, and a "
+              },
+              {
+                "text": "TDUP",
+                "strong": true
+              },
+              {
+                "text": " (Tanda Daftar Usaha Pariwisata — Tourism Business License). These are not paperwork formalities. They establish the operator as a legal entity with a registered office, a tax identity, and a documented chain of responsibility."
+              }
             ],
             "p2": "If your transport breaks down at 3 a.m. on the road from Bondowoso to Paltuding, a licensed operator's WhatsApp number is connected to a physical office and a registered business. An unlicensed driver's WhatsApp number is a SIM card. The Indonesian Tourist Police can intervene on behalf of a registered operator's customer. They cannot easily intervene when no contract, no receipt, and no licensed party exists.",
             "p3": "This is not theoretical. East Java has documented incidents of foreign travelers stranded by unlicensed operators mid-trip — the operator stops responding, the deposit is gone, the local police have nothing to investigate because no business was ever registered. The difference between a frustrating story and a recoverable situation is whether there is a licensed business in the chain."
@@ -139,10 +177,22 @@
             "p1": "Unlicensed operators often quote a low headline price and add costs on the road: entrance fees you thought were included, jeep rentals at Mount Bromo that suddenly appear, gas mask rental \"from the cooperative,\" tips for guides who were supposed to already be paid. The total is rarely lower than a licensed all-inclusive package once these additions are summed.",
             "p2": "A licensed operator publishes inclusions and exclusions in writing. JVTO, for example, publishes a clear policy pack covering booking, payment, and cancellation rules.",
             "dataBox": [
-              { "label": "3-Day Ijen–Bromo · 2 pax", "value": "IDR 3,570,000 / person" },
-              { "label": "Cancellation", "value": "100% Lifetime Package Credit" },
-              { "label": "Includes", "value": "All entrance fees · gas masks · 4WD jeep · accommodation + breakfast · private transport · guide & driver" },
-              { "label": "Credit window", "value": "≥ 48 hrs before Day 1 · no expiry · transferable" }
+              {
+                "label": "3-Day Ijen–Bromo · 2 pax",
+                "value": "IDR 3,570,000 / person"
+              },
+              {
+                "label": "Cancellation",
+                "value": "100% Lifetime Package Credit"
+              },
+              {
+                "label": "Includes",
+                "value": "All entrance fees · gas masks · 4WD jeep · accommodation + breakfast · private transport · guide & driver"
+              },
+              {
+                "label": "Credit window",
+                "value": "≥ 48 hrs before Day 1 · no expiry · transferable"
+              }
             ],
             "p3": "The price covers what the document says, and the document is enforceable. Unlicensed operators publish nothing, and recover deposits at their discretion."
           },
@@ -156,38 +206,98 @@
           "checklistHeading": "What \"licensed\" actually means — a concrete checklist",
           "checklistIntro": "Before booking any East Java volcano tour operator — including JVTO — ask for the following. Any legitimate operator will provide them on request.",
           "checklist": [
-            { "title": "NIB number", "desc": "A 13-digit number. Ask for the document, not just the number. Verifiable through the OSS portal at oss.go.id." },
-            { "title": "TDUP issuance date and number", "desc": "The Tourism License is issued by the local Dinas Pariwisata. Should be a recent document if the operator is currently active." },
-            { "title": "HPWKI membership", "desc": "Ask which guide association the operator works through. For Ijen, the canonical association is HPWKI, registered AHU-0001072.AH.01.07.TAHUN 2024. AHU verification is publicly available." },
-            { "title": "Named licensed physician for Ijen screening", "desc": "If the route involves the BBKSDA-coordinated health-screening workflow, ask for the physician's name and STR number. Indonesian physician licenses are verifiable through the Kemenkes SatuSehat SDMK registry." },
-            { "title": "Written inclusions, exclusions & cancellation policy", "desc": "If the operator cannot send a written policy pack, the operator does not have one." },
-            { "title": "Independent reviews off platforms they control", "desc": "Trustpilot, Google Maps, TripAdvisor, GetYourGuide. Repeated specific crew names across years suggest a stable, credentialed team rather than rotating freelance drivers." },
-            { "title": "A physical office address", "desc": "Ask for it. Look it up on Google Maps. A real address with a real building is the cheapest signal to verify and one of the hardest to fake." }
+            {
+              "title": "NIB number",
+              "desc": "A 13-digit number. Ask for the document, not just the number. Verifiable through the OSS portal at oss.go.id."
+            },
+            {
+              "title": "TDUP issuance date and number",
+              "desc": "The Tourism License is issued by the local Dinas Pariwisata. Should be a recent document if the operator is currently active."
+            },
+            {
+              "title": "HPWKI membership",
+              "desc": "Ask which guide association the operator works through. For Ijen, the canonical association is HPWKI, registered AHU-0001072.AH.01.07.TAHUN 2024. AHU verification is publicly available."
+            },
+            {
+              "title": "Named licensed physician for Ijen screening",
+              "desc": "If the route involves the BBKSDA-coordinated health-screening workflow, ask for the physician's name and STR number. Indonesian physician licenses are verifiable through the Kemenkes SatuSehat SDMK registry."
+            },
+            {
+              "title": "Written inclusions, exclusions & cancellation policy",
+              "desc": "If the operator cannot send a written policy pack, the operator does not have one."
+            },
+            {
+              "title": "Independent reviews off platforms they control",
+              "desc": "Trustpilot, Google Maps, TripAdvisor, GetYourGuide. Repeated specific crew names across years suggest a stable, credentialed team rather than rotating freelance drivers."
+            },
+            {
+              "title": "A physical office address",
+              "desc": "Ask for it. Look it up on Google Maps. A real address with a real building is the cheapest signal to verify and one of the hardest to fake."
+            }
           ],
           "jvtoHeading": "Why JVTO specifically",
           "jvtoIntro": "We do not market on price. East Java has plenty of operators who will be cheaper than us. What we offer is a verification stack that competitors cannot match easily:",
           "jvtoList": [
-            { "strong": "Registered Indonesian limited company.", "text": " PT Java Volcano Rendezvous, NIB 1102230032918, TDUP issued 2023-02-11, with a physical office at Jl. Khairil Anwar No.102 A, Bondowoso — the same address where the predecessor Ijen Bondowoso Homestay earned a Booking.com Guest Review Award (9.4/10) in 2015." },
-            { "strong": "Tourist Police founder.", "text": " Bripka Agung Sambuko is an active officer of the Indonesian Tourist Police (POLPAR) for Bondowoso, East Java. Press coverage by Detik.com and Radar Jember; SPRIN documents are SHA-256 anchored on our verification page." },
-            { "strong": "14 KTA-credentialed crew.", "text": " Seven guides and seven drivers (2024 issuance), with HPWKI-trained Ijen specialists, named across {TOTAL_REVIEW_COUNT} independent reviews: Google ({GOOGLE_REVIEW_COUNT}, {GOOGLE_RATING}/5), Trustpilot ({TRUSTPILOT_COUNT}, {TRUSTPILOT_RATING}/5), TripAdvisor ({TRIPADVISOR_COUNT}, {TRIPADVISOR_RATING}/5)." },
-            { "strong": "Coordinated Ijen health screening.", "text": " Supervised by Dr. Ahmad Irwandanu (STR verifiable through Kemenkes) for every guest under BBKSDA SE.35/K2/BIDTEK.1/KSA/1/2024." },
-            { "strong": "Editorial recognition.", "text": " Stefan Loose Reiseführer Indonesien (4th Edition, 2018) lists the founder on page 287 — an editorial reference, not a paid placement." }
+            {
+              "strong": "Registered Indonesian limited company.",
+              "text": " PT Java Volcano Rendezvous, NIB 1102230032918, TDUP issued 2023-02-11, with a physical office at Jl. Khairil Anwar No.102 A, Bondowoso — the same address where the predecessor Ijen Bondowoso Homestay earned a Booking.com Guest Review Award (9.4/10) in 2015."
+            },
+            {
+              "strong": "Tourist Police founder.",
+              "text": " Bripka Agung Sambuko is an active officer of the Indonesian Tourist Police (POLPAR) for Bondowoso, East Java. Press coverage by Detik.com and Radar Jember; SPRIN documents are SHA-256 anchored on our verification page."
+            },
+            {
+              "strong": "14 KTA-credentialed crew.",
+              "text": " Seven guides and seven drivers (2024 issuance), with HPWKI-trained Ijen specialists, named across {TOTAL_REVIEW_COUNT} independent reviews: Google ({GOOGLE_REVIEW_COUNT}, {GOOGLE_RATING}/5), Trustpilot ({TRUSTPILOT_COUNT}, {TRUSTPILOT_RATING}/5), TripAdvisor ({TRIPADVISOR_COUNT}, {TRIPADVISOR_RATING}/5)."
+            },
+            {
+              "strong": "Coordinated Ijen health screening.",
+              "text": " Supervised by Dr. Ahmad Irwandanu (STR verifiable through Kemenkes) for every guest under BBKSDA SE.35/K2/BIDTEK.1/KSA/1/2024."
+            },
+            {
+              "strong": "Editorial recognition.",
+              "text": " Stefan Loose Reiseführer Indonesien (4th Edition, 2018) lists the founder on page 287 — an editorial reference, not a paid placement."
+            }
           ],
           "verifyOutro": [
-            { "text": "You can verify all of these claims on our " },
-            { "text": "Verify JVTO page", "href": "/verify-jvto" },
-            { "text": ". Every credential links to a public registry. The verification system is designed so a skeptical traveler can audit the entire trust chain in about ten minutes." }
+            {
+              "text": "You can verify all of these claims on our "
+            },
+            {
+              "text": "Verify JVTO page",
+              "href": "/verify-jvto"
+            },
+            {
+              "text": ". Every credential links to a public registry. The verification system is designed so a skeptical traveler can audit the entire trust chain in about ten minutes."
+            }
           ],
           "finalHeading": "Final thought",
           "finalText": "The Mount Ijen experience is one of the most striking volcanic landscapes accessible to international travelers in Southeast Asia. It deserves a tour operator who treats it as a safety-critical activity, not as an inexpensive logistics exercise. Whether you book with us or with another licensed operator, please book with one who can answer the seven questions above without hesitation.",
           "footer": [
-            { "text": "Browse licensed JVTO Ijen packages " },
-            { "text": "from Surabaya", "href": "/tours/from-surabaya" },
-            { "text": " or " },
-            { "text": "from Bali", "href": "/tours/from-bali" },
-            { "text": ", or read our " },
-            { "text": "full Verify JVTO trust documentation", "href": "/verify-jvto" },
-            { "text": " before deciding." }
+            {
+              "text": "Browse licensed JVTO Ijen packages "
+            },
+            {
+              "text": "from Surabaya",
+              "href": "/tours/from-surabaya"
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "from Bali",
+              "href": "/tours/from-bali"
+            },
+            {
+              "text": ", or read our "
+            },
+            {
+              "text": "full Verify JVTO trust documentation",
+              "href": "/verify-jvto"
+            },
+            {
+              "text": " before deciding."
+            }
           ]
         },
         "cta": {
@@ -197,7 +307,11 @@
       }
     }
   },
-  "output_targets": ["public_website", "json_ld", "knowledge_feed"],
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
   "source_trace": {
     "generated_at": "2026-08-20T00:00:00.000Z",
     "source_files": [

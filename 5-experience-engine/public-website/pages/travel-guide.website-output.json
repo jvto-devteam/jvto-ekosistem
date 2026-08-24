@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-24T08:21:17.408Z",
   "route": "/travel-guide",
   "domain": "travel-guide",
   "slug": "index",
@@ -17,6 +17,7 @@
   "page": {
     "title": "Travel Guide – Safety, Health & Practical Information",
     "summary": "Hub for JVTO travel guidance: booking, safety, health screening, packing, weather and closures.",
+    "answerFirst": "JVTO's travel guide covers the rules that govern an East Java volcano trip: the health certificate required before Ijen crater entry, the first-Friday Rijik closure in force since March 2019, police escort for groups of about 18 or more, weather and volcanic closures, packing and fitness, and per-site logistics. Every regulatory claim names its issuing authority.",
     "owner": "operations",
     "lastReviewed": "2026-08-15",
     "content": {

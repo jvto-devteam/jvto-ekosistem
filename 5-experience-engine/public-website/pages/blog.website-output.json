@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-24T08:21:17.408Z",
   "route": "/blog",
   "domain": "blog",
   "slug": "index",
@@ -17,6 +17,7 @@
   "page": {
     "title": "Insights & Explainers",
     "summary": "",
+    "answerFirst": "JVTO publishes three explainers written from operating experience rather than search demand: what the Kawah Ijen hike actually involves, why BBKSDA Jawa Timur requires a health certificate before crater entry and who issues it, and the four risk categories of booking an unlicensed operator in East Java.",
     "owner": "editorial",
     "lastReviewed": "2026-08-18",
     "content": {

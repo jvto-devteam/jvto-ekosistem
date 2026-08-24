@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-24T08:21:17.408Z",
   "route": "/blog/2026-06-11-kawah-ijen-guide",
   "domain": "blog",
   "slug": "kawah-ijen-guide",
@@ -17,6 +17,7 @@
   "page": {
     "title": "Your Complete Kawah Ijen Guide: Blue Fire, Health & Safety",
     "summary": "",
+    "answerFirst": "Kawah Ijen sits at 2,386 m in Banyuwangi and holds the world's largest acidic crater lake. The blue fire is visible only before dawn, on a night ascent from the Paltuding trailhead covering about 3 km in 90 minutes. BBKSDA Jawa Timur requires a health certificate before crater entry, and gas conditions can close the crater floor at short notice.",
     "owner": "content",
     "lastReviewed": "2026-08-21",
     "tags": [

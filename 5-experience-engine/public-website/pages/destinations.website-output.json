@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-24T08:21:17.408Z",
   "route": "/destinations",
   "domain": "destinations",
   "slug": "index",
@@ -17,7 +17,7 @@
   "page": {
     "title": "East Java Destinations",
     "summary": "The five East Java sites on JVTO's private circuit — volcano craters, canyon waterfalls, and a coastal headland.",
-    "answerFirst": "Every site on JVTO's East Java circuit — volcano craters, canyon waterfalls, a coastal headland — is reached by dedicated private vehicle, with BBKSDA park clearance already in hand.",
+    "answerFirst": "JVTO's East Java circuit covers five sites: Kawah Ijen at 2,386 m, Mount Bromo at 2,329 m inside the Tengger Caldera, Tumpak Sewu, Madakaripura and Papuma Beach. Each is reached by dedicated private vehicle with BBKSDA park clearance already held, and every itinerary is scheduled around the first-Friday Rijik closure at Ijen.",
     "owner": "editorial",
     "lastReviewed": "2026-08-06",
     "content": {

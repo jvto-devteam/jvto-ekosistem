@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-24T08:21:17.408Z",
   "route": "/blog/why-not-unlicensed-ijen-operator",
   "domain": "blog",
   "slug": "why-not-unlicensed-ijen-operator",
@@ -17,6 +17,7 @@
   "page": {
     "title": "Why not an unlicensed Ijen operator.",
     "summary": "The four categories of risk travelers accept when booking Mount Ijen through an unlicensed operator — safety, legal, financial, and regulatory — plus a concrete verification checklist.",
+    "answerFirst": "An unlicensed operator changes your legal recourse, not the volcano. Indonesian police charged a Banyuwangi travel-agency owner with fraud after roughly 18 travellers each paid about IDR 10 million for tours that never ran. A licensed operator carries an NIB, a TDUP and a traceable registered address you can check before paying anything.",
     "owner": "content",
     "lastReviewed": "2026-05-27",
     "content": {

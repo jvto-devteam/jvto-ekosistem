@@ -17,13 +17,16 @@
     "section": "blog",
     "status": "published",
     "owner": "editorial",
-    "lastReviewed": "2026-08-18"
+    "lastReviewed": "2026-08-18",
+    "answerFirst": "JVTO publishes three explainers written from operating experience rather than search demand: what the Kawah Ijen hike actually involves, why BBKSDA Jawa Timur requires a health certificate before crater entry and who issues it, and the four risk categories of booking an unlicensed operator in East Java."
   },
   "seo": {
     "title": "Insights | JVTO's Blog on Safety, Planning & Community",
     "description": "Explore our articles on choosing a legal operator, understanding Ijen health screening, and maximizing your East Java trip. Expert advice from a police-led team.",
     "canonicalRoute": "/blog",
-    "schemaTypes": ["WebPage"]
+    "schemaTypes": [
+      "WebPage"
+    ]
   },
   "content": {
     "format": "json",
@@ -36,7 +39,11 @@
       "reviewStatus": "migrated-from-jvto-web-inline-fallback"
     }
   },
-  "output_targets": ["public_website", "json_ld", "knowledge_feed"],
+  "output_targets": [
+    "public_website",
+    "json_ld",
+    "knowledge_feed"
+  ],
   "source_trace": {
     "generated_at": "2026-08-18T00:00:00.000Z",
     "source_files": [

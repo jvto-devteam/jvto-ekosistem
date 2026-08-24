@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-24T08:21:17.408Z",
   "route": "/markets/malaysia",
   "domain": "markets",
   "slug": "malaysia",
@@ -17,6 +17,7 @@
   "page": {
     "title": "Bromo & Ijen Tours for Malaysia Travelers | Private East Java Volcano Tours | JVTO",
     "summary": "Geographic landing page for Malaysia travelers: entry routing (Bali vs Surabaya), comparable packages, logistics, trust signals, and reviews.",
+    "answerFirst": "Malaysia travellers join JVTO's East Java circuit from Surabaya or Bali. Every tour is private with no shared groups, quoted and paid in IDR. JVTO is PT Java Volcano Rendezvous, NIB 1102230032918, TDUP issued 2023-02-11 — documents published here for checking, alongside {GOOGLE_REVIEW_COUNT} Google reviews rated {GOOGLE_RATING}/5.",
     "owner": "growth",
     "lastReviewed": "2026-08-15",
     "content": {

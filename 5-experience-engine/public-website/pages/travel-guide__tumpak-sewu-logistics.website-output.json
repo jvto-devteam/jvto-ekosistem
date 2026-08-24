@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-24T08:21:17.408Z",
   "route": "/travel-guide/tumpak-sewu-logistics",
   "domain": "travel-guide",
   "slug": "tumpak-sewu-logistics",
@@ -18,6 +18,7 @@
   "page": {
     "title": "Tumpak Sewu Logistics",
     "summary": "Tumpak Sewu canyon descent logistics: trail sequence, wet-rock safety, best season, monsoon warnings, and essential equipment.",
+    "answerFirst": "The Tumpak Sewu descent is a 2 km moderate trek: 10 minutes to the rim viewpoint, then about 90 minutes down through wet stone, spray and river crossings. JVTO allows 2-3 hours on site. When rainfall makes the canyon floor unsafe, guides cancel the descent and substitute Goa Tetes or reschedule.",
     "owner": "operations",
     "lastReviewed": "2026-08-12",
     "content": {

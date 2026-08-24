@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-24T08:21:17.408Z",
   "route": "/blog/2026-06-11-ijen-medical-checkup-requirement",
   "domain": "blog",
   "slug": "ijen-medical-checkup-requirement",
@@ -17,6 +17,7 @@
   "page": {
     "title": "Why Ijen Trekking Requires a Medical Checkup — And What Actually Happens",
     "summary": "",
+    "answerFirst": "Every Kawah Ijen visitor needs a health certificate before entering the crater zone, under BBKSDA Jawa Timur rules. JVTO coordinates the screening at the guest's hotel in Bondowoso with dr. Ahmad Irwandanu, practice licence SIP 503.446/664/DRU/4/430.9.13/2026. The certificate is BSrE-signed and checked at the access gate.",
     "owner": "content",
     "lastReviewed": "2026-06-11",
     "tags": [
