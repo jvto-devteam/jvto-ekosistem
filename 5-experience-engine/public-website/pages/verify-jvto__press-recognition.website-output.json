@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-24T04:11:34.877Z",
   "route": "/verify-jvto/press-recognition",
   "domain": "verify-jvto",
   "slug": "press-recognition",
@@ -17,6 +17,7 @@
   "page": {
     "title": "JVTO Press & Media Recognition",
     "summary": "Third-party editorial coverage of JVTO: the Stefan Loose guidebook citation, Detik.com and Radar Jember articles, and the 2015 Booking.com award.",
+    "answerFirst": "Three independent sources confirm JVTO's identity: a Detik.com article of 14 March 2021 naming Bripka Agung Sambuko as a Bondowoso Tourist Police officer, the Stefan Loose Reiseführer Indonesien guidebook published by DuMont Reiseverlag in its 4th edition of 2018, and a Booking.com Guest Review Award 2015 scored 9.4 out of 10.",
     "owner": "editorial",
     "lastReviewed": "2026-08-06",
     "content": {

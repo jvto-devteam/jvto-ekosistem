@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-24T04:11:34.877Z",
   "route": "/verify-jvto",
   "domain": "verify-jvto",
   "slug": "verify-jvto",
@@ -17,6 +17,7 @@
   "page": {
     "title": "Verify JVTO: A Proof Library You Can Check",
     "summary": "The evidence locker for PT Java Volcano Rendezvous — legal, police-authority, press, and history documents, each checkable against an independent source.",
+    "answerFirst": "JVTO publishes 12 official authority documents, 5 independent press references and 17 operational records, each anchored to a SHA-256 hash that is re-verified weekly. The legal entity is PT Java Volcano Rendezvous, NIB 1102230032918, with TDUP issued 2023-02-11. Every claim here can be checked against an Indonesian government registry before you book.",
     "owner": "legal",
     "lastReviewed": "2026-08-06",
     "content": {

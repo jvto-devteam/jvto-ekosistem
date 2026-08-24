@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-24T04:11:34.877Z",
   "route": "/verify-jvto/legal",
   "domain": "verify-jvto",
   "slug": "legal",
@@ -17,6 +17,7 @@
   "page": {
     "title": "JVTO Legal Licenses & Verifiable Credentials",
     "summary": "PT Java Volcano Rendezvous's business registration, tourism licence, and association membership — each checkable on an independent government registry.",
+    "answerFirst": "PT Java Volcano Rendezvous holds NIB 1102230032918, a TDUP tourism business licence issued 2023-02-11, and Menkumham establishment decree AHU-0010187.AH.01.01.TAHUN 2023. Tax registration is NPWP 62.802.938.1-656.000. Every document on this page is published with its SHA-256 hash and can be verified independently at oss.go.id and ahu.go.id.",
     "owner": "legal",
     "lastReviewed": "2026-08-06",
     "content": {

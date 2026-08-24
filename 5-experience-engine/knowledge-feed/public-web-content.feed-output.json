@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/knowledge-feed/v1",
   "output_type": "public_web_content_feed",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-24T04:11:34.877Z",
   "record_count": 51,
   "records": [
     {
@@ -565,6 +565,7 @@
       "slug": "verify-jvto",
       "title": "Verify JVTO: A Proof Library You Can Check",
       "summary": "The evidence locker for PT Java Volcano Rendezvous — legal, police-authority, press, and history documents, each checkable against an independent source.",
+      "answerFirst": "JVTO publishes 12 official authority documents, 5 independent press references and 17 operational records, each anchored to a SHA-256 hash that is re-verified weekly. The legal entity is PT Java Volcano Rendezvous, NIB 1102230032918, with TDUP issued 2023-02-11. Every claim here can be checked against an Indonesian government registry before you book.",
       "status": "published",
       "owner": "legal",
       "lastReviewed": "2026-08-06",
@@ -584,6 +585,7 @@
       "slug": "history-artifacts",
       "title": "History Artifacts: Documented Origins Since 2015",
       "summary": "An artifact-anchored timeline of JVTO's continuity — same address, same founder, same operation — from the 2015 guesthouse era to today.",
+      "answerFirst": "JVTO has operated from the same Bondowoso address under the same founder since 2015, starting as Ijen Bondowoso Homestay and formalising as PT Java Volcano Rendezvous with TDUP issued 2023-02-11. The artifacts published here include the 2015 Booking.com award plaque and dated shipping labels from the guesthouse era.",
       "status": "published",
       "owner": "editorial",
       "lastReviewed": "2026-08-06",
@@ -603,6 +605,7 @@
       "slug": "legal",
       "title": "JVTO Legal Licenses & Verifiable Credentials",
       "summary": "PT Java Volcano Rendezvous's business registration, tourism licence, and association membership — each checkable on an independent government registry.",
+      "answerFirst": "PT Java Volcano Rendezvous holds NIB 1102230032918, a TDUP tourism business licence issued 2023-02-11, and Menkumham establishment decree AHU-0010187.AH.01.01.TAHUN 2023. Tax registration is NPWP 62.802.938.1-656.000. Every document on this page is published with its SHA-256 hash and can be verified independently at oss.go.id and ahu.go.id.",
       "status": "published",
       "owner": "legal",
       "lastReviewed": "2026-08-06",
@@ -622,6 +625,7 @@
       "slug": "police-safety",
       "title": "JVTO Police Integration & Safety Authority",
       "summary": "The founder's active Tourist Police commission — assignment orders, rank, and independent press confirmation — and what police-standard discipline means for your tour.",
+      "answerFirst": "JVTO's founder, Bripka Agung Sambuko, is a serving Tourist Police (POLPAR) officer at Polres Bondowoso, assigned under SPRIN POLPAR. A separate order, Sprin/70/II/HUK.6.6./2024 dated 12 February 2024, covers single-route traffic escort by Satlantas Polres Bondowoso. Both are published with SHA-256 hashes. Escort is requested per trip and approval is not guaranteed.",
       "status": "published",
       "owner": "legal",
       "lastReviewed": "2026-08-07",
@@ -642,6 +646,7 @@
       "slug": "press-recognition",
       "title": "JVTO Press & Media Recognition",
       "summary": "Third-party editorial coverage of JVTO: the Stefan Loose guidebook citation, Detik.com and Radar Jember articles, and the 2015 Booking.com award.",
+      "answerFirst": "Three independent sources confirm JVTO's identity: a Detik.com article of 14 March 2021 naming Bripka Agung Sambuko as a Bondowoso Tourist Police officer, the Stefan Loose Reiseführer Indonesien guidebook published by DuMont Reiseverlag in its 4th edition of 2018, and a Booking.com Guest Review Award 2015 scored 9.4 out of 10.",
       "status": "published",
       "owner": "editorial",
       "lastReviewed": "2026-08-06",

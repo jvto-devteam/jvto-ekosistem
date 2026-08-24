@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-24T04:11:34.877Z",
   "route": "/verify-jvto/history-artifacts",
   "domain": "verify-jvto",
   "slug": "history-artifacts",
@@ -17,6 +17,7 @@
   "page": {
     "title": "History Artifacts: Documented Origins Since 2015",
     "summary": "An artifact-anchored timeline of JVTO's continuity — same address, same founder, same operation — from the 2015 guesthouse era to today.",
+    "answerFirst": "JVTO has operated from the same Bondowoso address under the same founder since 2015, starting as Ijen Bondowoso Homestay and formalising as PT Java Volcano Rendezvous with TDUP issued 2023-02-11. The artifacts published here include the 2015 Booking.com award plaque and dated shipping labels from the guesthouse era.",
     "owner": "editorial",
     "lastReviewed": "2026-08-06",
     "content": {

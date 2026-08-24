@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-24T04:11:34.877Z",
   "route": "/verify-jvto/police-safety",
   "domain": "verify-jvto",
   "slug": "police-safety",
@@ -17,6 +17,7 @@
   "page": {
     "title": "JVTO Police Integration & Safety Authority",
     "summary": "The founder's active Tourist Police commission — assignment orders, rank, and independent press confirmation — and what police-standard discipline means for your tour.",
+    "answerFirst": "JVTO's founder, Bripka Agung Sambuko, is a serving Tourist Police (POLPAR) officer at Polres Bondowoso, assigned under SPRIN POLPAR. A separate order, Sprin/70/II/HUK.6.6./2024 dated 12 February 2024, covers single-route traffic escort by Satlantas Polres Bondowoso. Both are published with SHA-256 hashes. Escort is requested per trip and approval is not guaranteed.",
     "owner": "legal",
     "lastReviewed": "2026-08-07",
     "content": {
