@@ -22,7 +22,8 @@
       "WebPage"
     ],
     "faqKey": "why-jvto-reviews",
-    "summary": "Verified guest reviews across Trustpilot, Google Maps, and TripAdvisor with canonical counts."
+    "summary": "Verified guest reviews across Trustpilot, Google Maps, and TripAdvisor with canonical counts.",
+    "answerFirst": "JVTO's reviews sit on platforms JVTO cannot edit or delete: Google Maps {GOOGLE_RATING}/5 from {GOOGLE_REVIEW_COUNT} reviews, Trustpilot {TRUSTPILOT_RATING}/5 from {TRUSTPILOT_COUNT}, and Tripadvisor {TRIPADVISOR_RATING}/5 from {TRIPADVISOR_COUNT}. Each review has its own permalink here, and any review naming a crew member is linked from that person's profile page."
   },
   "seo": {
     "title": "Guest Reviews – Independent Voices on JVTO Tours | JVTO",

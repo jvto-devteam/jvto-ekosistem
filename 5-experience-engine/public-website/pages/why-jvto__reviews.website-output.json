@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-24T04:30:40.580Z",
   "route": "/why-jvto/reviews",
   "domain": "why-jvto",
   "slug": "reviews",
@@ -17,6 +17,7 @@
   "page": {
     "title": "Guest Voices: Real Experiences, Independently Verified",
     "summary": "Verified guest reviews across Trustpilot, Google Maps, and TripAdvisor with canonical counts.",
+    "answerFirst": "JVTO's reviews sit on platforms JVTO cannot edit or delete: Google Maps {GOOGLE_RATING}/5 from {GOOGLE_REVIEW_COUNT} reviews, Trustpilot {TRUSTPILOT_RATING}/5 from {TRUSTPILOT_COUNT}, and Tripadvisor {TRIPADVISOR_RATING}/5 from {TRIPADVISOR_COUNT}. Each review has its own permalink here, and any review naming a crew member is linked from that person's profile page.",
     "owner": "company",
     "lastReviewed": "2026-08-04",
     "content": {
