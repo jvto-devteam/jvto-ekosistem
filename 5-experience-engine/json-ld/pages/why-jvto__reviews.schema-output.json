@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-23T05:57:11.793Z",
+  "generated_at": "2026-08-24T02:24:22.800Z",
   "route": "/why-jvto/reviews",
   "domain": "why-jvto",
   "slug": "reviews",
@@ -43,7 +43,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": 4.9,
-          "reviewCount": 153,
+          "reviewCount": 155,
           "bestRating": 5
         },
         "sameAs": [
