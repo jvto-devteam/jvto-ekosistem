@@ -1,31 +1,31 @@
 {
-  "slug": "1c40065c65a1d74580393f8153d1959b",
-  "url": "https://legacy.javavolcano-touroperator.com/bookings/details/1c40065c65a1d74580393f8153d1959b?json=true",
+  "slug": "0e976e3e69d6669206fc084a0becce1d",
+  "url": "https://legacy.javavolcano-touroperator.com/bookings/details/0e976e3e69d6669206fc084a0becce1d?json=true",
   "statusCode": 200,
   "ok": true,
   "json": {
     "success": true,
     "booking": {
-      "id": 3721,
-      "booking_code": "JVR/077/08/26",
-      "booking_id": "JVTO-3721",
-      "url": "1c40065c65a1d74580393f8153d1959b",
+      "id": 3796,
+      "booking_code": "JVR/065/09/26",
+      "booking_id": "JVTO-3796",
+      "url": "0e976e3e69d6669206fc084a0becce1d",
       "status": "booked",
-      "customer_id": 4063,
-      "customer_name": "Yau Ho Yin Jessie",
-      "package_name": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
-      "channel": "KLOOK",
-      "package_link": "https://klook.com/activity/99790-3-day-mount-bromo-sunrise-ijen-madakaripura-trekking-trip-surabaya/",
+      "customer_id": 4088,
+      "customer_name": "Dalal alduwairi",
+      "package_name": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "channel": "JVTO",
+      "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
       "duration": "3D 2N",
-      "travel_date_start": "2026-08-30",
-      "travel_date_end": "2026-09-01",
-      "total_pax": 2,
-      "pickup": "Surabaya Hotel  JW Marriott Surabaya",
-      "pickup_time": "11:00:00",
-      "drop": "",
-      "drop_time": null,
+      "travel_date_start": "2026-09-27",
+      "travel_date_end": "2026-09-29",
+      "total_pax": 3,
+      "pickup": "  ",
+      "pickup_time": null,
+      "drop": "Ketapang port",
+      "drop_time": "10:00:00",
       "special_requirements": null,
-      "media_link": "https://drive.google.com/drive/folders/1KCldZcdrnEGLzyVUnzLj0yIn-2UK8XAb",
+      "media_link": null,
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -36,14 +36,7 @@
       },
       "crews": {
         "guides": [],
-        "drivers": [
-          {
-            "id": 1,
-            "name": "Yandi",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528930_YANDI.JPG",
-            "role": "Driver"
-          }
-        ]
+        "drivers": []
       },
       "vehicle_specs": [
         {
@@ -65,55 +58,72 @@
         {
           "day": 1,
           "title": "Day 1",
-          "itinerary": "Surabaya Hotel - Bondowoso",
-          "activity": "Pick up from Surabaya Hotel - Transfer to hotel in Bondowoso City - Check in - Dinner - Take a rest"
+          "itinerary": "Surabaya Airport - Bromo Area",
+          "activity": "Your Bromo and Ijen adventure begins as we greet you at Surabaya Airport, with an early pick-up (best before noon). From there, we’ll embark on a 3-hour scenic drive to the iconic Cemoro Lawang, the gateway to the Bromo Area. Along the way, enjoy the changing landscapes of East Java as we make our way to the hotel. Upon arrival at your hotel, Joglo Kecombrang Bromo, you’ll have time to rest and take in the quiet beauty of the surroundings. Prepare for the exciting days ahead as you settle in for a peaceful evening."
         },
         {
           "day": 2,
           "title": "Day 2",
-          "itinerary": "Ijen Crater - Bromo Area",
-          "activity": "Depart from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - Transfer to hotel in Bromo area  - Check in - Take a rest."
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Bondowoso",
+          "activity": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim- Whispering Sands) - Breakfast and Shower - check out - continue to Madakaripura waterfall - Transfer to hotel in Bondowoso City - Check in - Dinner - Take a rest"
         },
         {
           "day": 3,
           "title": "Day 3",
-          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Hotel",
-          "activity": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim- Whispering Sands) - Breakfast and Shower - check out - continue to Madakaripura waterfall - drop to hotel. End of program"
+          "itinerary": "Ijen Crater - Ketapang - Bali",
+          "activity": "Depart from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - check out hotel - depart to Ketapang - take ferry to Gilimanuk Harbour - End Program."
         }
       ],
       "accommodations": [
         {
           "day": 1,
-          "name": "Baratha Hotel and Resto",
-          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/1722672641_Baratha-Hotel-Resto-Bondowoso-Exterior.jfif",
-          "rooms": "Deluxe Double (1)"
+          "name": "Jiwa Jawa Bromo",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/",
+          "rooms": ""
         },
         {
           "day": 2,
-          "name": "Joglo Kecombrang Bromo",
-          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/kecombrang.jpg",
-          "rooms": "Double (1)"
+          "name": "Bobocabin Ijen",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/1787495535_20084130-2584479febdd6ca5f5605537e4a9605b.webp",
+          "rooms": "By client (1)"
         }
       ],
-      "addons": [],
+      "addons": [
+        {
+          "id": 775,
+          "name": "Refund Hotel",
+          "qty": 1,
+          "price": -1512000,
+          "subtotal": -1512000
+        }
+      ],
       "finance": {
-        "grand_total": 6200000,
-        "total_addons": 0,
-        "dp_amount": 0,
-        "balance": 6200000,
-        "paid_amount": 0,
-        "due_date": "1970-01-01 00:00:00",
-        "initial_payment_method": "pay later",
+        "grand_total": 8313000,
+        "total_addons": -1512000,
+        "dp_amount": 1965000,
+        "balance": 6348000,
+        "paid_amount": 1965000,
+        "due_date": "2026-08-24 00:00:00",
+        "initial_payment_method": "cc",
         "balance_payment_method": null,
         "payment_link": null,
         "pending_upload_proof": false,
         "uploaded_payment_proof": null,
-        "payment_history": []
+        "payment_history": [
+          {
+            "id": 881,
+            "nominal": 1965000,
+            "description": "Down Payment",
+            "reference": "https://checkout.xendit.co/web/6a8aaec5a4ef18302b08f3f2",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-23 15:28:58"
+          }
+        ]
       },
       "faq": {
         "Pre-Tour Information": {
           "What is included and NOT included in my tour package?": "Included: Private AC transport, English-speaking guide, hotel accommodation with breakfast, all entrance fees in the itinerary, 4x4 Jeep for Bromo, mineral water, and some meals as specified. Not Included: Flights, travel insurance, most dinners and some lunches, tips, and optional activities like horse riding at Bromo (IDR 250,000-350,000). Please check the \"Booking & Financials\" tab for specifics.",
-          "What mandatory requirements do I need for Ijen trekking?": "A doctor\\'s health certificate is required by Ijen authorities. Our team will help you get this locally for a small fee (approx. IDR 30,000-50,000). You just need to bring your passport for the check-up.",
+          "What mandatory requirements do I need for Ijen trekking?": "A doctor's health certificate is required by Ijen authorities and this is included on your trip. You just need to bring your passport for the check-up.",
           "What kind of clothing and footwear should I pack?": "Pack warm layers (thermal jacket, hat, gloves) for Bromo and Ijen, where temperatures can drop to 2-5°C. Sturdy hiking boots are essential. For waterfalls, bring quick-dry clothes and water shoes/sandals with good grip."
         },
         "During Tour Information": {

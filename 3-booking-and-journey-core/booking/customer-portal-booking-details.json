@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-booking/customer-portal-booking-details-v1",
-  "generated_at": "2026-08-23T02:16:13.863Z",
+  "generated_at": "2026-08-24T02:15:07.492Z",
   "privacy": "No customer names, contact details, portal slugs, payment links, media links, payment references, or uploaded proof URLs are stored.",
-  "record_count": 141,
+  "record_count": 146,
   "records": [
     {
       "booking_id": 1566,
@@ -7024,6 +7024,256 @@
         "pending_upload_proof": false,
         "uploaded_payment_proof_present": false,
         "payment_history": []
+      }
+    },
+    {
+      "booking_id": 3793,
+      "booking_ref": "JVTO-3793",
+      "booking_code": "JVR/005/09/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "product": {
+        "package_name": "3 Days 2 Nights Package",
+        "package_link": "https://javavolcano-touroperator.com/",
+        "duration": "3D 2N",
+        "travel_date_start": "2026-09-24",
+        "travel_date_end": "2026-09-26",
+        "total_pax": 6
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 2,
+        "l": 1,
+        "xl": 2,
+        "xxl": 1
+      },
+      "addons": [],
+      "finance": {
+        "grand_total": 17506000,
+        "total_addons": 0,
+        "dp_amount": 0,
+        "balance": 17506000,
+        "paid_amount": 0,
+        "due_date": "1970-01-01 00:00:00",
+        "initial_payment_method": "pay later",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": []
+      }
+    },
+    {
+      "booking_id": 3794,
+      "booking_ref": "JVTO-3794",
+      "booking_code": "JVR/099/08/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "product": {
+        "package_name": "3 Day Bromo & Ijen Volcano Discovery from Bali",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n",
+        "duration": "3D 2N",
+        "travel_date_start": "2026-08-31",
+        "travel_date_end": "2026-09-02",
+        "total_pax": 2
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "addons": [
+        {
+          "id": 772,
+          "name": "TRANSPORT TO KUTA",
+          "qty": 1,
+          "price": 600000,
+          "subtotal": 600000
+        }
+      ],
+      "finance": {
+        "grand_total": 8700000,
+        "total_addons": 600000,
+        "dp_amount": 8700000,
+        "balance": 0,
+        "paid_amount": 8700000,
+        "due_date": "2026-08-24 00:00:00",
+        "initial_payment_method": "cc",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": [
+          {
+            "id": 879,
+            "nominal": 8700000,
+            "description": "Down Payment (Full Payment)",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-23 13:29:13",
+            "reference_present": true
+          }
+        ]
+      }
+    },
+    {
+      "booking_id": 3795,
+      "booking_ref": "JVTO-3795",
+      "booking_code": "JVR/064/09/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "product": {
+        "package_name": "2 Day Bromo Sunrise Adventure from Surabaya",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-2d1n",
+        "duration": "2D 1N",
+        "travel_date_start": "2026-09-12",
+        "travel_date_end": "2026-09-13",
+        "total_pax": 5
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "addons": [
+        {
+          "id": 773,
+          "name": "Refund Bromo Hotel",
+          "qty": 1,
+          "price": -1700000,
+          "subtotal": -1700000
+        }
+      ],
+      "finance": {
+        "grand_total": 10050000,
+        "total_addons": -1700000,
+        "dp_amount": 2350000,
+        "balance": 7700000,
+        "paid_amount": 2350000,
+        "due_date": "2026-08-24 00:00:00",
+        "initial_payment_method": "cc",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": [
+          {
+            "id": 880,
+            "nominal": 2350000,
+            "description": "Down Payment",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-23 15:05:42",
+            "reference_present": true
+          }
+        ]
+      }
+    },
+    {
+      "booking_id": 3796,
+      "booking_ref": "JVTO-3796",
+      "booking_code": "JVR/065/09/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "product": {
+        "package_name": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
+        "duration": "3D 2N",
+        "travel_date_start": "2026-09-27",
+        "travel_date_end": "2026-09-29",
+        "total_pax": 3
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "addons": [
+        {
+          "id": 775,
+          "name": "Refund Hotel",
+          "qty": 1,
+          "price": -1512000,
+          "subtotal": -1512000
+        }
+      ],
+      "finance": {
+        "grand_total": 8313000,
+        "total_addons": -1512000,
+        "dp_amount": 1965000,
+        "balance": 6348000,
+        "paid_amount": 1965000,
+        "due_date": "2026-08-24 00:00:00",
+        "initial_payment_method": "cc",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": [
+          {
+            "id": 881,
+            "nominal": 1965000,
+            "description": "Down Payment",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-23 15:28:58",
+            "reference_present": true
+          }
+        ]
+      }
+    },
+    {
+      "booking_id": 3797,
+      "booking_ref": "JVTO-3797",
+      "booking_code": "JVR/066/09/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "product": {
+        "package_name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
+        "duration": "3D 2N",
+        "travel_date_start": "2026-09-16",
+        "travel_date_end": "2026-09-18",
+        "total_pax": 2
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "addons": [],
+      "finance": {
+        "grand_total": 7140000,
+        "total_addons": 0,
+        "dp_amount": 1428000,
+        "balance": 5712000,
+        "paid_amount": 1428000,
+        "due_date": "2026-08-24 00:00:00",
+        "initial_payment_method": "cc",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": [
+          {
+            "id": 882,
+            "nominal": 1428000,
+            "description": "Down Payment",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-23 17:13:17",
+            "reference_present": true
+          }
+        ]
       }
     }
   ]

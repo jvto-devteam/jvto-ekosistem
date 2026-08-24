@@ -975,7 +975,7 @@
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
         "recap_this_month_escort": 0,
-        "recap_this_month_ijen": 18
+        "recap_this_month_ijen": 19
       }
     ],
     "is_shuttle": "NO",
@@ -1127,7 +1127,7 @@
         "name": "Holili",
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1698676624_HOLILI PHOTO.png",
-        "recap_this_month_escort": 7
+        "recap_this_month_escort": 8
       }
     ],
     "guides": [
@@ -1336,7 +1336,7 @@
         "type": "Escort",
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528916_TAUFIK.JPG",
-        "recap_this_month_escort": 5,
+        "recap_this_month_escort": 6,
         "recap_this_month_ijen": 2
       },
       {
@@ -2511,7 +2511,7 @@
         "type": "Escort",
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528916_TAUFIK.JPG",
-        "recap_this_month_escort": 5,
+        "recap_this_month_escort": 6,
         "recap_this_month_ijen": 2
       }
     ],
@@ -2872,7 +2872,7 @@
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
         "recap_this_month_escort": 0,
-        "recap_this_month_ijen": 18
+        "recap_this_month_ijen": 19
       }
     ],
     "is_shuttle": "NO",
@@ -3272,7 +3272,7 @@
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
         "recap_this_month_escort": 0,
-        "recap_this_month_ijen": 18
+        "recap_this_month_ijen": 19
       }
     ],
     "is_shuttle": "NO",
@@ -3827,7 +3827,7 @@
         "type": "Escort",
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528916_TAUFIK.JPG",
-        "recap_this_month_escort": 5,
+        "recap_this_month_escort": 6,
         "recap_this_month_ijen": 2
       }
     ],
@@ -4028,7 +4028,7 @@
         "name": "Holili",
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1698676624_HOLILI PHOTO.png",
-        "recap_this_month_escort": 7
+        "recap_this_month_escort": 8
       }
     ],
     "guides": [
@@ -4039,7 +4039,7 @@
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528674_GUFRO.jpeg",
         "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "recap_this_month_ijen": 2
       }
     ],
     "is_shuttle": "NO",
@@ -4501,7 +4501,7 @@
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528674_GUFRO.jpeg",
         "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "recap_this_month_ijen": 2
       }
     ],
     "is_shuttle": "YES",
@@ -5065,7 +5065,7 @@
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
         "recap_this_month_escort": 0,
-        "recap_this_month_ijen": 18
+        "recap_this_month_ijen": 19
       }
     ],
     "is_shuttle": "NO",
@@ -5082,13 +5082,13 @@
         ]
       },
       "expense": {
-        "total": 6468000,
+        "total": 6268000,
         "crew_expense": "1258000.00",
-        "debt_expense": "5210000.00",
+        "debt_expense": "5010000.00",
         "expenseLink": "/finance/expense-manager/3425/edit",
         "target": "_blank"
       },
-      "profit": 657000
+      "profit": 857000
     },
     "paymentHistory": [],
     "notes": "Driver: Egy\n- Guide ijen: Andi"
@@ -5970,7 +5970,7 @@
         "type": "Escort",
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528916_TAUFIK.JPG",
-        "recap_this_month_escort": 5,
+        "recap_this_month_escort": 6,
         "recap_this_month_ijen": 2
       },
       {
@@ -7027,7 +7027,7 @@
         "name": "Holili",
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1698676624_HOLILI PHOTO.png",
-        "recap_this_month_escort": 7
+        "recap_this_month_escort": 8
       }
     ],
     "guides": [
@@ -7037,7 +7037,7 @@
         "type": "Escort",
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528916_TAUFIK.JPG",
-        "recap_this_month_escort": 5,
+        "recap_this_month_escort": 6,
         "recap_this_month_ijen": 2
       }
     ],
@@ -7099,7 +7099,7 @@
         "date": "22 Aug 26 15:35"
       }
     ],
-    "notes": ""
+    "notes": "Langsung nyambung Rohit Sobhani, jemput ketapang 31 Agustus"
   },
   {
     "booking_id": 3494,
@@ -7754,13 +7754,13 @@
         ]
       },
       "expense": {
-        "total": 7320000,
+        "total": 6770000,
         "crew_expense": "990000.00",
-        "debt_expense": "6330000.00",
+        "debt_expense": "5780000.00",
         "expenseLink": "/finance/expense-manager/3508/edit",
         "target": "_blank"
       },
-      "profit": 2484000
+      "profit": 3034000
     },
     "paymentHistory": [],
     "notes": "- Driver: Dodik"
@@ -8275,13 +8275,13 @@
         ]
       },
       "expense": {
-        "total": 12515000,
-        "crew_expense": "12155000.00",
+        "total": 12605000,
+        "crew_expense": "12245000.00",
         "debt_expense": "360000.00",
         "expenseLink": "/finance/expense-manager/3515/edit",
         "target": "_blank"
       },
-      "profit": 2160000
+      "profit": 2070000
     },
     "paymentHistory": [],
     "notes": ""
@@ -8992,7 +8992,7 @@
         "type": "Ijen",
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528916_TAUFIK.JPG",
-        "recap_this_month_escort": 5,
+        "recap_this_month_escort": 6,
         "recap_this_month_ijen": 2
       }
     ],
@@ -9180,7 +9180,7 @@
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
         "recap_this_month_escort": 0,
-        "recap_this_month_ijen": 18
+        "recap_this_month_ijen": 19
       }
     ],
     "is_shuttle": "NO",
@@ -9568,13 +9568,13 @@
         ]
       },
       "expense": {
-        "total": 5135000,
+        "total": 4835000,
         "crew_expense": "770000.00",
-        "debt_expense": "2115000.00",
+        "debt_expense": "1815000.00",
         "expenseLink": "/finance/expense-manager/3563/edit",
         "target": "_blank"
       },
-      "profit": 1065000
+      "profit": 1365000
     },
     "paymentHistory": [],
     "notes": ""
@@ -9865,7 +9865,7 @@
         "name": "Holili",
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1698676624_HOLILI PHOTO.png",
-        "recap_this_month_escort": 7
+        "recap_this_month_escort": 8
       }
     ],
     "guides": [
@@ -9876,7 +9876,7 @@
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528674_GUFRO.jpeg",
         "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "recap_this_month_ijen": 2
       }
     ],
     "is_shuttle": "NO",
@@ -10076,7 +10076,7 @@
         "name": "Holili",
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1698676624_HOLILI PHOTO.png",
-        "recap_this_month_escort": 7
+        "recap_this_month_escort": 8
       }
     ],
     "guides": [
@@ -10087,7 +10087,7 @@
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528674_GUFRO.jpeg",
         "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "recap_this_month_ijen": 2
       }
     ],
     "is_shuttle": "NO",
@@ -10105,13 +10105,13 @@
         ]
       },
       "expense": {
-        "total": 7383000,
-        "crew_expense": "6113000.00",
+        "total": 7133000,
+        "crew_expense": "5863000.00",
         "debt_expense": "270000.00",
         "expenseLink": "/finance/expense-manager/3572/edit",
         "target": "_blank"
       },
-      "profit": 1717000
+      "profit": 1967000
     },
     "paymentHistory": [
       {
@@ -11019,7 +11019,7 @@
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
         "recap_this_month_escort": 0,
-        "recap_this_month_ijen": 18
+        "recap_this_month_ijen": 19
       }
     ],
     "is_shuttle": "NO",
@@ -11036,13 +11036,13 @@
         ]
       },
       "expense": {
-        "total": 5135000,
+        "total": 4935000,
         "crew_expense": "770000.00",
-        "debt_expense": "4365000.00",
+        "debt_expense": "4165000.00",
         "expenseLink": "/finance/expense-manager/3595/edit",
         "target": "_blank"
       },
-      "profit": 1065000
+      "profit": 1265000
     },
     "paymentHistory": [],
     "notes": "Guide ijen: -"
@@ -11872,7 +11872,7 @@
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528674_GUFRO.jpeg",
         "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "recap_this_month_ijen": 2
       }
     ],
     "is_shuttle": "NO",
@@ -12434,7 +12434,7 @@
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
         "recap_this_month_escort": 0,
-        "recap_this_month_ijen": 18
+        "recap_this_month_ijen": 19
       }
     ],
     "is_shuttle": "YES",
@@ -12597,7 +12597,7 @@
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
         "recap_this_month_escort": 0,
-        "recap_this_month_ijen": 18
+        "recap_this_month_ijen": 19
       }
     ],
     "is_shuttle": "NO",
@@ -14530,7 +14530,7 @@
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
         "recap_this_month_escort": 0,
-        "recap_this_month_ijen": 18
+        "recap_this_month_ijen": 19
       }
     ],
     "is_shuttle": "NO",
@@ -14717,7 +14717,7 @@
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
         "recap_this_month_escort": 0,
-        "recap_this_month_ijen": 18
+        "recap_this_month_ijen": 19
       }
     ],
     "is_shuttle": "NO",
@@ -15232,13 +15232,13 @@
         ]
       },
       "expense": {
-        "total": 5727500,
-        "crew_expense": "5457500.00",
+        "total": 5477500,
+        "crew_expense": "5207500.00",
         "debt_expense": "270000.00",
         "expenseLink": "/finance/expense-manager/3671/edit",
         "target": "_blank"
       },
-      "profit": -5727500
+      "profit": -5477500
     },
     "paymentHistory": [
       {
@@ -15430,13 +15430,13 @@
         ]
       },
       "expense": {
-        "total": 7518000,
-        "crew_expense": "7248000.00",
+        "total": 7318000,
+        "crew_expense": "7048000.00",
         "debt_expense": "270000.00",
         "expenseLink": "/finance/expense-manager/3672/edit",
         "target": "_blank"
       },
-      "profit": -5558000
+      "profit": -5358000
     },
     "paymentHistory": [
       {
@@ -15661,7 +15661,7 @@
         "name": "Holili",
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1698676624_HOLILI PHOTO.png",
-        "recap_this_month_escort": 7
+        "recap_this_month_escort": 8
       }
     ],
     "guides": [
@@ -15865,7 +15865,7 @@
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
         "recap_this_month_escort": 0,
-        "recap_this_month_ijen": 18
+        "recap_this_month_ijen": 19
       }
     ],
     "is_shuttle": "NO",
@@ -16476,7 +16476,7 @@
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
         "recap_this_month_escort": 0,
-        "recap_this_month_ijen": 18
+        "recap_this_month_ijen": 19
       }
     ],
     "is_shuttle": "NO",
@@ -16680,13 +16680,13 @@
         ]
       },
       "expense": {
-        "total": 5705000,
+        "total": 5505000,
         "crew_expense": "2990000.00",
-        "debt_expense": "2715000.00",
+        "debt_expense": "2515000.00",
         "expenseLink": "/finance/expense-manager/3687/edit",
         "target": "_blank"
       },
-      "profit": 1795000
+      "profit": 1995000
     },
     "paymentHistory": [],
     "notes": ""
@@ -18875,7 +18875,7 @@
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
         "recap_this_month_escort": 0,
-        "recap_this_month_ijen": 18
+        "recap_this_month_ijen": 19
       }
     ],
     "is_shuttle": "NO",
@@ -19463,7 +19463,7 @@
         "type": "Ijen",
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528916_TAUFIK.JPG",
-        "recap_this_month_escort": 5,
+        "recap_this_month_escort": 6,
         "recap_this_month_ijen": 2
       }
     ],
@@ -19990,13 +19990,13 @@
     ],
     "guides": [
       {
-        "id": 39,
-        "name": "Gufron",
+        "id": 56,
+        "name": "Local Ijen",
         "type": "Ijen",
-        "tags": "JVTO,KLOOK,TWT",
-        "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528674_GUFRO.jpeg",
-        "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "tags": "TWT,JVTO,KLOOK",
+        "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
+        "recap_this_month_escort": 0,
+        "recap_this_month_ijen": 19
       }
     ],
     "is_shuttle": "NO",
@@ -20022,7 +20022,7 @@
       "profit": 1115000
     },
     "paymentHistory": [],
-    "notes": ""
+    "notes": "Guide ijen: Andi"
   },
   {
     "booking_id": 3722,
@@ -20709,7 +20709,7 @@
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
         "recap_this_month_escort": 0,
-        "recap_this_month_ijen": 18
+        "recap_this_month_ijen": 19
       }
     ],
     "is_shuttle": "NO",
@@ -20870,7 +20870,7 @@
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528674_GUFRO.jpeg",
         "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "recap_this_month_ijen": 2
       }
     ],
     "is_shuttle": "NO",
@@ -21080,7 +21080,7 @@
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528674_GUFRO.jpeg",
         "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "recap_this_month_ijen": 2
       }
     ],
     "is_shuttle": "NO",
@@ -21097,13 +21097,13 @@
         ]
       },
       "expense": {
-        "total": 9096000,
+        "total": 8646000,
         "crew_expense": "1866000.00",
-        "debt_expense": "7230000.00",
+        "debt_expense": "6780000.00",
         "expenseLink": "/finance/expense-manager/3735/edit",
         "target": "_blank"
       },
-      "profit": 4664000
+      "profit": 5114000
     },
     "paymentHistory": [],
     "notes": ""
@@ -21428,13 +21428,13 @@
         ]
       },
       "expense": {
-        "total": 7209500,
-        "crew_expense": "7014500.00",
+        "total": 7134500,
+        "crew_expense": "6939500.00",
         "debt_expense": "195000.00",
         "expenseLink": "/finance/expense-manager/3742/edit",
         "target": "_blank"
       },
-      "profit": -7209500
+      "profit": -7134500
     },
     "paymentHistory": [
       {
@@ -22258,7 +22258,7 @@
         "type": "Ijen",
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528916_TAUFIK.JPG",
-        "recap_this_month_escort": 5,
+        "recap_this_month_escort": 6,
         "recap_this_month_ijen": 2
       }
     ],
@@ -22435,7 +22435,7 @@
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528674_GUFRO.jpeg",
         "recap_this_month_escort": 6,
-        "recap_this_month_ijen": 3
+        "recap_this_month_ijen": 2
       }
     ],
     "is_shuttle": "NO",
@@ -22800,7 +22800,7 @@
         "name": "Holili",
         "tags": "JVTO,KLOOK,TWT",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1698676624_HOLILI PHOTO.png",
-        "recap_this_month_escort": 7
+        "recap_this_month_escort": 8
       }
     ],
     "guides": [
@@ -24856,7 +24856,7 @@
       "email": "alexander.beuselinck@icloud.com",
       "country_id": 21,
       "country": "Belgium (België)",
-      "trip_media": null
+      "trip_media": "https://drive.google.com/drive/folders/1I0qIZRkCyTCrVB8w645MWv5wUM9qISeJ"
     },
     "total_pax": 3,
     "duration": "3D 2N",
@@ -25162,6 +25162,749 @@
       "profit": 1995000
     },
     "paymentHistory": [],
+    "notes": null
+  },
+  {
+    "booking_id": 3793,
+    "id": "TWT-3793",
+    "orderChannel": "TWT",
+    "guest_id": 4121,
+    "guest": "Alex Chang Chinchao",
+    "customer_portal": "https://javavolcano-touroperator.com/my-booking/4c8435b3fae2e93933e363fe59cdc672",
+    "guestDetails": {
+      "id": 4121,
+      "name": "Alex Chang Chinchao",
+      "phone": null,
+      "email": null,
+      "country_id": null,
+      "country": null,
+      "trip_media": null
+    },
+    "total_pax": 6,
+    "duration": "3D 2N",
+    "package_id": null,
+    "package": "3D 2N Package",
+    "booking_date": "23 Aug 2026",
+    "date": {
+      "start_ymd": "2026-09-24",
+      "end_ymd": "2026-09-26",
+      "start": "24 Sep 26",
+      "end": "26 Sep 26",
+      "days": "Thu - Sat"
+    },
+    "pickup": {
+      "meeting_point": "Surabaya Airport",
+      "meeting_point_arrival": "Terminal 2",
+      "meeting_point_value": "CX629",
+      "pickup_time": "18:15",
+      "text": "Surabaya Airport Terminal 2 CX629"
+    },
+    "dropoff": {
+      "drop_point": "Others",
+      "drop_point_arrival": null,
+      "drop_point_value": "Gilimanuk Harbour",
+      "drop_time": "12:00",
+      "text": "Gilimanuk Harbour"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "24 Sep 2026",
+        "itinerary": "Surabaya Airport - Bromo Area",
+        "activity": "Surabaya",
+        "destination_id": 4,
+        "destination": "Surabaya"
+      },
+      {
+        "day": 2,
+        "date": "25 Sep 2026",
+        "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Bondowoso",
+        "activity": "Bromo Sunrise Tour, Madakaripura Warterfall Tour",
+        "destination_id": 1,
+        "destination": "Mount Bromo"
+      },
+      {
+        "day": 3,
+        "date": "26 Sep 2026",
+        "itinerary": "Ijen Crater - Ketapang - Bali",
+        "activity": "Ijen Crater Hike",
+        "destination_id": 2,
+        "destination": "Mount Ijen"
+      }
+    ],
+    "hotels": [
+      {
+        "day": 1,
+        "checkIn": "24 Sep 2026",
+        "hotelId": 12,
+        "hotel": "Bromo Terrace",
+        "rooms": [
+          {
+            "roomId": 38,
+            "roomName": "Twin",
+            "quantity": 3
+          }
+        ],
+        "meals": [
+          "Breakfast"
+        ]
+      },
+      {
+        "day": 2,
+        "checkIn": "25 Sep 2026",
+        "hotelId": 34,
+        "hotel": "Riverside Homestay",
+        "rooms": [
+          {
+            "roomId": 178,
+            "roomName": "Emerald Twin",
+            "quantity": 3
+          }
+        ],
+        "meals": [
+          "Breakfast",
+          "Dinner"
+        ]
+      }
+    ],
+    "tshirtSize": "M x 2, L x 1, XL x 2, XXL x 1",
+    "tshirtRaw": {
+      "xss": 0,
+      "xxs": 0,
+      "xs": 0,
+      "s": 0,
+      "m": 2,
+      "l": 1,
+      "xl": 2,
+      "xxl": 1,
+      "xxxl": 0
+    },
+    "vehicles": [],
+    "drivers": [],
+    "guides": [],
+    "is_shuttle": "NO",
+    "at_ijen": "26 Sep 26",
+    "financial": {
+      "payment": 0,
+      "balance": 17506000,
+      "paymentMethod": null,
+      "paymentMethodLink": null,
+      "invoice": {
+        "total": 17506000,
+        "invoiceLink": [
+          "https://new-backoffice.javavolcano-touroperator.com/preview-file?title=Invoice Alex Chang Chinchao&url=https://new-backoffice.javavolcano-touroperator.com/assets/customer-document/1787499576.pdf"
+        ]
+      },
+      "expense": {
+        "total": 0,
+        "crew_expense": "0.00",
+        "debt_expense": "0.00",
+        "expenseLink": "/finance/expense-manager/3793/edit",
+        "target": "_blank"
+      },
+      "profit": 17506000
+    },
+    "paymentHistory": [],
+    "notes": null
+  },
+  {
+    "booking_id": 3794,
+    "id": "JVTO-3794",
+    "orderChannel": "JVTO",
+    "guest_id": 4122,
+    "guest": "Rohit Sobhani",
+    "customer_portal": "https://javavolcano-touroperator.com/my-booking/9071ec8e94849fdf08817580f92d649c",
+    "guestDetails": {
+      "id": 4122,
+      "name": "Rohit Sobhani",
+      "phone": "+971559397007",
+      "email": "rohitsobhani@gmail.com",
+      "country_id": 230,
+      "country": "United Arab Emirates (‫الإمارات العربية المتحدة‬‎)",
+      "trip_media": "https://drive.google.com/drive/folders/1lmSycTEf9R37ZozEMm7CquAh--BenQ-2"
+    },
+    "total_pax": 2,
+    "duration": "3D 2N",
+    "package_id": 80,
+    "package": "3 Day Bromo & Ijen Volcano Discovery from Bali",
+    "booking_date": "23 Aug 2026",
+    "date": {
+      "start_ymd": "2026-08-31",
+      "end_ymd": "2026-09-02",
+      "start": "31 Aug 26",
+      "end": "02 Sep 26",
+      "days": "Mon - Wed"
+    },
+    "pickup": {
+      "meeting_point": "Bali Hotel",
+      "meeting_point_arrival": null,
+      "meeting_point_value": "https://maps.app.goo.gl/mAjTbbhhc6RnhHB37",
+      "pickup_time": "07:00",
+      "text": "Bali Hotel  https://maps.app.goo.gl/mAjTbbhhc6RnhHB37"
+    },
+    "dropoff": {
+      "drop_point": "Bali Hotel",
+      "drop_point_arrival": null,
+      "drop_point_value": "Akhyana Village",
+      "drop_time": "17:00",
+      "text": "Bali Hotel  Akhyana Village"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "31 Aug 2026",
+        "itinerary": "Bali - Bromo Area",
+        "activity": "Bali",
+        "destination_id": 3,
+        "destination": "Bali"
+      },
+      {
+        "day": 2,
+        "date": "01 Sep 2026",
+        "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Bondowoso",
+        "activity": "Bromo Sunrise Tour, Madakaripura Warterfall Tour",
+        "destination_id": 1,
+        "destination": "Mount Bromo"
+      },
+      {
+        "day": 3,
+        "date": "02 Sep 2026",
+        "itinerary": "Ijen Crater - Bali",
+        "activity": "Ijen Crater Hike",
+        "destination_id": 2,
+        "destination": "Mount Ijen"
+      }
+    ],
+    "hotels": [
+      {
+        "day": 1,
+        "checkIn": "31 Aug 2026",
+        "hotelId": 11,
+        "hotel": "Joglo Kecombrang Bromo",
+        "rooms": [
+          {
+            "roomId": 24,
+            "roomName": "Double",
+            "quantity": 1
+          }
+        ],
+        "meals": [
+          "Breakfast"
+        ]
+      },
+      {
+        "day": 2,
+        "checkIn": "01 Sep 2026",
+        "hotelId": 34,
+        "hotel": "Riverside Homestay",
+        "rooms": [
+          {
+            "roomId": 118,
+            "roomName": "Deluxe Twin",
+            "quantity": 1
+          }
+        ],
+        "meals": [
+          "Breakfast",
+          "Dinner"
+        ]
+      }
+    ],
+    "tshirtSize": "",
+    "tshirtRaw": {
+      "xss": 0,
+      "xxs": 0,
+      "xs": 0,
+      "s": 0,
+      "m": 0,
+      "l": 0,
+      "xl": 0,
+      "xxl": 0,
+      "xxxl": 0
+    },
+    "vehicles": [
+      "Daihatsu Sigra"
+    ],
+    "drivers": [
+      {
+        "id": 28,
+        "name": "Holili",
+        "tags": "JVTO,KLOOK,TWT",
+        "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1698676624_HOLILI PHOTO.png",
+        "recap_this_month_escort": 8
+      }
+    ],
+    "guides": [
+      {
+        "id": 4,
+        "name": "Taufik",
+        "type": "Escort",
+        "tags": "JVTO,KLOOK,TWT",
+        "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528916_TAUFIK.JPG",
+        "recap_this_month_escort": 6,
+        "recap_this_month_ijen": 2
+      }
+    ],
+    "is_shuttle": "NO",
+    "at_ijen": "02 Sep 26",
+    "financial": {
+      "payment": 8700000,
+      "balance": 0,
+      "paymentMethod": null,
+      "paymentMethodLink": null,
+      "invoice": {
+        "total": 8700000,
+        "invoiceLink": [
+          "https://legacy.javavolcano-touroperator.com/backoffice/invoice/view-invoice/3794",
+          "https://legacy.javavolcano-touroperator.com/backoffice/invoice/view-invoice/3794?addon=true"
+        ]
+      },
+      "expense": {
+        "total": 6479500,
+        "crew_expense": "6209500.00",
+        "debt_expense": "270000.00",
+        "expenseLink": "/finance/expense-manager/3794/edit",
+        "target": "_blank"
+      },
+      "profit": -6479500
+    },
+    "paymentHistory": [
+      {
+        "id": 879,
+        "booking_id": 3794,
+        "nominal": 8700000,
+        "paymentMethodId": 3,
+        "paymentMethod": "Debit/Credit Card",
+        "description": "Down Payment (Full Payment)",
+        "receipt": "RCP/099/08/26/1",
+        "reference": "https://checkout.xendit.co/web/6a8a91fa2d6d1f4e2b7bda79",
+        "date": "23 Aug 26 13:29"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "booking_id": 3795,
+    "id": "JVTO-3795",
+    "orderChannel": "JVTO",
+    "guest_id": 4123,
+    "guest": "Sachiko Shimoike",
+    "customer_portal": "https://javavolcano-touroperator.com/my-booking/f514f724143d7437e8aeca1a9bbc100d",
+    "guestDetails": {
+      "id": 4123,
+      "name": "Sachiko Shimoike",
+      "phone": "+6581803139",
+      "email": "sachikoseet@gmail.com",
+      "country_id": 196,
+      "country": "Singapore",
+      "trip_media": null
+    },
+    "total_pax": 5,
+    "duration": "2D 1N",
+    "package_id": 48,
+    "package": "2 Day Bromo Sunrise Adventure from Surabaya",
+    "booking_date": "23 Aug 2026",
+    "date": {
+      "start_ymd": "2026-09-12",
+      "end_ymd": "2026-09-13",
+      "start": "12 Sep 26",
+      "end": "13 Sep 26",
+      "days": "Sat - Sun"
+    },
+    "pickup": {
+      "meeting_point": "Surabaya Airport",
+      "meeting_point_arrival": "Terminal 2",
+      "meeting_point_value": "TR296",
+      "pickup_time": "09:50",
+      "text": "Surabaya Airport Terminal 2 TR296"
+    },
+    "dropoff": {
+      "drop_point": "Surabaya Hotel",
+      "drop_point_arrival": null,
+      "drop_point_value": "Sheraton Surabaya Hotel & Towers.",
+      "drop_time": "15:00",
+      "text": "Surabaya Hotel  Sheraton Surabaya Hotel & Towers."
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "12 Sep 2026",
+        "itinerary": "Surabaya Airport - Madakaripura - Bromo Area",
+        "activity": "Surabaya",
+        "destination_id": 4,
+        "destination": "Surabaya"
+      },
+      {
+        "day": 2,
+        "date": "13 Sep 2026",
+        "itinerary": "Bromo Sunrise - Surabaya Hotel",
+        "activity": "Bromo Sunrise Tour",
+        "destination_id": 1,
+        "destination": "Mount Bromo"
+      }
+    ],
+    "hotels": [
+      {
+        "day": 1,
+        "checkIn": "12 Sep 2026",
+        "hotelId": 60,
+        "hotel": "Manis Ae Cabin & Resto Bromo",
+        "rooms": [],
+        "meals": []
+      }
+    ],
+    "tshirtSize": "",
+    "tshirtRaw": {
+      "xss": 0,
+      "xxs": 0,
+      "xs": 0,
+      "s": 0,
+      "m": 0,
+      "l": 0,
+      "xl": 0,
+      "xxl": 0,
+      "xxxl": 0
+    },
+    "vehicles": [],
+    "drivers": [],
+    "guides": [],
+    "is_shuttle": "NO",
+    "at_ijen": null,
+    "financial": {
+      "payment": 2350000,
+      "balance": 7700000,
+      "paymentMethod": null,
+      "paymentMethodLink": null,
+      "invoice": {
+        "total": 10050000,
+        "invoiceLink": [
+          "https://legacy.javavolcano-touroperator.com/backoffice/invoice/view-invoice/3795",
+          "https://legacy.javavolcano-touroperator.com/backoffice/invoice/view-invoice/3795?addon=true"
+        ]
+      },
+      "expense": {
+        "total": 5180000,
+        "crew_expense": "4800000.00",
+        "debt_expense": "380000.00",
+        "expenseLink": "/finance/expense-manager/3795/edit",
+        "target": "_blank"
+      },
+      "profit": 2520000
+    },
+    "paymentHistory": [
+      {
+        "id": 880,
+        "booking_id": 3795,
+        "nominal": 2350000,
+        "paymentMethodId": 3,
+        "paymentMethod": "Debit/Credit Card",
+        "description": "Down Payment",
+        "receipt": "RCP/064/09/26/1",
+        "reference": "https://checkout.xendit.co/web/6a8aa8fe2d6d1f4e2b7cd00c",
+        "date": "23 Aug 26 15:05"
+      }
+    ],
+    "notes": "Hotel Manis Ae by customer"
+  },
+  {
+    "booking_id": 3796,
+    "id": "JVTO-3796",
+    "orderChannel": "JVTO",
+    "guest_id": 4088,
+    "guest": "Dalal alduwairi",
+    "customer_portal": "https://javavolcano-touroperator.com/my-booking/0e976e3e69d6669206fc084a0becce1d",
+    "guestDetails": {
+      "id": 4088,
+      "name": "Dalal alduwairi",
+      "phone": "+96599558289",
+      "email": "dalal.alduwairi@hotmail.com",
+      "country_id": 116,
+      "country": "Kuwait (‫الكويت‬‎)",
+      "trip_media": null
+    },
+    "total_pax": 3,
+    "duration": "3D 2N",
+    "package_id": 28,
+    "package": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+    "booking_date": "23 Aug 2026",
+    "date": {
+      "start_ymd": "2026-09-27",
+      "end_ymd": "2026-09-29",
+      "start": "27 Sep 26",
+      "end": "29 Sep 26",
+      "days": "Sun - Tue"
+    },
+    "pickup": {
+      "meeting_point": "",
+      "meeting_point_arrival": null,
+      "meeting_point_value": null,
+      "pickup_time": "07:00",
+      "text": "  "
+    },
+    "dropoff": {
+      "drop_point": "Others",
+      "drop_point_arrival": null,
+      "drop_point_value": "Ketapang port",
+      "drop_time": "10:00",
+      "text": "Ketapang port"
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "27 Sep 2026",
+        "itinerary": "Surabaya Airport - Bromo Area",
+        "activity": "Surabaya",
+        "destination_id": 4,
+        "destination": "Surabaya"
+      },
+      {
+        "day": 2,
+        "date": "28 Sep 2026",
+        "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Bondowoso",
+        "activity": "Bromo Sunrise Tour, Madakaripura Warterfall Tour",
+        "destination_id": 1,
+        "destination": "Mount Bromo"
+      },
+      {
+        "day": 3,
+        "date": "29 Sep 2026",
+        "itinerary": "Ijen Crater - Ketapang - Bali",
+        "activity": "Ijen Crater Hike",
+        "destination_id": 2,
+        "destination": "Mount Ijen"
+      }
+    ],
+    "hotels": [
+      {
+        "day": 1,
+        "checkIn": "27 Sep 2026",
+        "hotelId": 17,
+        "hotel": "Jiwa Jawa Bromo",
+        "rooms": [],
+        "meals": []
+      },
+      {
+        "day": 2,
+        "checkIn": "28 Sep 2026",
+        "hotelId": 72,
+        "hotel": "Bobocabin Ijen",
+        "rooms": [
+          {
+            "roomId": 274,
+            "roomName": "By client",
+            "quantity": 1
+          }
+        ],
+        "meals": []
+      }
+    ],
+    "tshirtSize": "",
+    "tshirtRaw": {
+      "xss": 0,
+      "xxs": 0,
+      "xs": 0,
+      "s": 0,
+      "m": 0,
+      "l": 0,
+      "xl": 0,
+      "xxl": 0,
+      "xxxl": 0
+    },
+    "vehicles": [],
+    "drivers": [],
+    "guides": [],
+    "is_shuttle": "NO",
+    "at_ijen": "29 Sep 26",
+    "financial": {
+      "payment": 1965000,
+      "balance": 6348000,
+      "paymentMethod": null,
+      "paymentMethodLink": null,
+      "invoice": {
+        "total": 8313000,
+        "invoiceLink": [
+          "https://legacy.javavolcano-touroperator.com/backoffice/invoice/view-invoice/3796",
+          "https://legacy.javavolcano-touroperator.com/backoffice/invoice/view-invoice/3796?addon=true"
+        ]
+      },
+      "expense": {
+        "total": 4645000,
+        "crew_expense": "4200000.00",
+        "debt_expense": "445000.00",
+        "expenseLink": "/finance/expense-manager/3796/edit",
+        "target": "_blank"
+      },
+      "profit": 1703000
+    },
+    "paymentHistory": [
+      {
+        "id": 881,
+        "booking_id": 3796,
+        "nominal": 1965000,
+        "paymentMethodId": 3,
+        "paymentMethod": "Debit/Credit Card",
+        "description": "Down Payment",
+        "receipt": "RCP/065/09/26/1",
+        "reference": "https://checkout.xendit.co/web/6a8aaec5a4ef18302b08f3f2",
+        "date": "23 Aug 26 15:28"
+      }
+    ],
+    "notes": "Hotel by client"
+  },
+  {
+    "booking_id": 3797,
+    "id": "JVTO-3797",
+    "orderChannel": "JVTO",
+    "guest_id": 4124,
+    "guest": "Mireina Ramona Damiana Eugenia",
+    "customer_portal": "https://javavolcano-touroperator.com/my-booking/d4d7d6373eda8d5919f15fad2f94cb4f",
+    "guestDetails": {
+      "id": 4124,
+      "name": "Mireina Ramona Damiana Eugenia",
+      "phone": "+31624938501",
+      "email": "mireina.3107@gmail.com",
+      "country_id": 153,
+      "country": "Netherlands (Nederland)",
+      "trip_media": null
+    },
+    "total_pax": 2,
+    "duration": "3D 2N",
+    "package_id": 29,
+    "package": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+    "booking_date": "23 Aug 2026",
+    "date": {
+      "start_ymd": "2026-09-16",
+      "end_ymd": "2026-09-18",
+      "start": "16 Sep 26",
+      "end": "18 Sep 26",
+      "days": "Wed - Fri"
+    },
+    "pickup": {
+      "meeting_point": "",
+      "meeting_point_arrival": null,
+      "meeting_point_value": null,
+      "pickup_time": "07:00",
+      "text": "  "
+    },
+    "dropoff": {
+      "drop_point": "",
+      "drop_point_arrival": null,
+      "drop_point_value": null,
+      "drop_time": "07:00",
+      "text": "  "
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "16 Sep 2026",
+        "itinerary": "Surabaya Airport - Bondowoso",
+        "activity": "Surabaya",
+        "destination_id": 4,
+        "destination": "Surabaya"
+      },
+      {
+        "day": 2,
+        "date": "17 Sep 2026",
+        "itinerary": "Ijen Crater - Bromo Area",
+        "activity": "Ijen Crater Hike",
+        "destination_id": 2,
+        "destination": "Mount Ijen"
+      },
+      {
+        "day": 3,
+        "date": "18 Sep 2026",
+        "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Airport",
+        "activity": "Bromo Sunrise Tour, Madakaripura Warterfall Tour",
+        "destination_id": 1,
+        "destination": "Mount Bromo"
+      }
+    ],
+    "hotels": [
+      {
+        "day": 1,
+        "checkIn": "16 Sep 2026",
+        "hotelId": 34,
+        "hotel": "Riverside Homestay",
+        "rooms": [
+          {
+            "roomId": 84,
+            "roomName": "Deluxe Double",
+            "quantity": 1
+          }
+        ],
+        "meals": [
+          "Breakfast",
+          "Lunch",
+          "Dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "checkIn": "17 Sep 2026",
+        "hotelId": 11,
+        "hotel": "Joglo Kecombrang Bromo",
+        "rooms": [
+          {
+            "roomId": 24,
+            "roomName": "Double",
+            "quantity": 1
+          }
+        ],
+        "meals": [
+          "Breakfast"
+        ]
+      }
+    ],
+    "tshirtSize": "",
+    "tshirtRaw": {
+      "xss": 0,
+      "xxs": 0,
+      "xs": 0,
+      "s": 0,
+      "m": 0,
+      "l": 0,
+      "xl": 0,
+      "xxl": 0,
+      "xxxl": 0
+    },
+    "vehicles": [],
+    "drivers": [],
+    "guides": [],
+    "is_shuttle": "NO",
+    "at_ijen": "17 Sep 26",
+    "financial": {
+      "payment": 1428000,
+      "balance": 5712000,
+      "paymentMethod": null,
+      "paymentMethodLink": null,
+      "invoice": {
+        "total": 7140000,
+        "invoiceLink": [
+          "https://legacy.javavolcano-touroperator.com/backoffice/invoice/view-invoice/3797"
+        ]
+      },
+      "expense": {
+        "total": 5582500,
+        "crew_expense": "5272500.00",
+        "debt_expense": "310000.00",
+        "expenseLink": "/finance/expense-manager/3797/edit",
+        "target": "_blank"
+      },
+      "profit": 129500
+    },
+    "paymentHistory": [
+      {
+        "id": 882,
+        "booking_id": 3797,
+        "nominal": 1428000,
+        "paymentMethodId": 3,
+        "paymentMethod": "Debit/Credit Card",
+        "description": "Down Payment",
+        "receipt": "RCP/066/09/26/1",
+        "reference": "https://checkout.xendit.co/web/6a8ac7578b7c9cef821f8fa1",
+        "date": "23 Aug 26 17:13"
+      }
+    ],
     "notes": null
   }
 ]

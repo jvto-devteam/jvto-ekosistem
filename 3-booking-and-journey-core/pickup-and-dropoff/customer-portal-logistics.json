@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-booking/customer-portal-logistics-v1",
-  "generated_at": "2026-08-23T02:16:13.865Z",
+  "generated_at": "2026-08-24T02:15:07.493Z",
   "privacy": "Logistics values are operational booking fields. Customer identity and portal access slugs are excluded.",
-  "record_count": 141,
+  "record_count": 146,
   "records": [
     {
       "booking_id": 1566,
@@ -2115,6 +2115,81 @@
         "pickup": "Surabaya Hotel  Aria Centra Hotel Surabaya",
         "pickup_time": "11:00:00",
         "drop": "Surabaya Hotel  ",
+        "drop_time": null,
+        "special_requirements_present": false
+      }
+    },
+    {
+      "booking_id": 3793,
+      "booking_ref": "JVTO-3793",
+      "status": "booked",
+      "travel_date_start": "2026-09-24",
+      "travel_date_end": "2026-09-26",
+      "total_pax": 6,
+      "logistics": {
+        "pickup": "Surabaya Airport Terminal 2 CX629",
+        "pickup_time": "18:15:00",
+        "drop": "Gilimanuk Harbour",
+        "drop_time": "12:00:00",
+        "special_requirements_present": false
+      }
+    },
+    {
+      "booking_id": 3794,
+      "booking_ref": "JVTO-3794",
+      "status": "booked",
+      "travel_date_start": "2026-08-31",
+      "travel_date_end": "2026-09-02",
+      "total_pax": 2,
+      "logistics": {
+        "pickup": "Bali Hotel  https://maps.app.goo.gl/mAjTbbhhc6RnhHB37",
+        "pickup_time": "07:00:00",
+        "drop": "Bali Hotel  Akhyana Village",
+        "drop_time": "17:00:00",
+        "special_requirements_present": false
+      }
+    },
+    {
+      "booking_id": 3795,
+      "booking_ref": "JVTO-3795",
+      "status": "booked",
+      "travel_date_start": "2026-09-12",
+      "travel_date_end": "2026-09-13",
+      "total_pax": 5,
+      "logistics": {
+        "pickup": "Surabaya Airport Terminal 2 TR296",
+        "pickup_time": "09:50:00",
+        "drop": "Surabaya Hotel  Sheraton Surabaya Hotel & Towers.",
+        "drop_time": "15:00:00",
+        "special_requirements_present": false
+      }
+    },
+    {
+      "booking_id": 3796,
+      "booking_ref": "JVTO-3796",
+      "status": "booked",
+      "travel_date_start": "2026-09-27",
+      "travel_date_end": "2026-09-29",
+      "total_pax": 3,
+      "logistics": {
+        "pickup": "  ",
+        "pickup_time": null,
+        "drop": "Ketapang port",
+        "drop_time": "10:00:00",
+        "special_requirements_present": false
+      }
+    },
+    {
+      "booking_id": 3797,
+      "booking_ref": "JVTO-3797",
+      "status": "booked",
+      "travel_date_start": "2026-09-16",
+      "travel_date_end": "2026-09-18",
+      "total_pax": 2,
+      "logistics": {
+        "pickup": "  ",
+        "pickup_time": null,
+        "drop": "  ",
         "drop_time": null,
         "special_requirements_present": false
       }

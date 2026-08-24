@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto-product/customer-portal-itinerary-records-v1",
-  "generated_at": "2026-08-23T02:16:13.866Z",
-  "record_count": 141,
+  "generated_at": "2026-08-24T02:15:07.494Z",
+  "record_count": 146,
   "records": [
     {
       "booking_id": 1566,
@@ -4062,6 +4062,130 @@
           "title": "Day 3",
           "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Hotel",
           "activity_text": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim- Whispering Sands) - Breakfast and Shower - check out - continue to Madakaripura waterfall - drop to hotel. End of program"
+        }
+      ]
+    },
+    {
+      "booking_id": 3793,
+      "booking_ref": "JVTO-3793",
+      "package_name": "3 Days 2 Nights Package",
+      "duration": "3D 2N",
+      "itinerary_days": [
+        {
+          "day": 1,
+          "title": "Day 1",
+          "itinerary": "Surabaya Airport - Bromo Area",
+          "activity_text": "Pick up from Surabaya airport - transfer to hotel\nFlight details: CX629 (1430hr HKG - 1815hr SUB)"
+        },
+        {
+          "day": 2,
+          "title": "Day 2",
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Bondowoso",
+          "activity_text": "2.30am to Mt. Bromo by private jeep (stargazing, sunrise, crater rim, whispering sands) - back to hotel for breakfast & shower - 12pm check out - Madakaripura Falls* - transfer to hotel\n*May skipped if too tired/ bad weather (Refund IDR90k/pax + IDR100k guide fares)"
+        },
+        {
+          "day": 3,
+          "title": "Day 3",
+          "itinerary": "Ijen Crater - Ketapang - Bali",
+          "activity_text": "12am Check out to Ijen - 2am start hiking - 7am descend - 8am coffee break & Indomee - To Ketapang jetty to take ferry (accompanied by tour guide) - arrive Gilimanuk Harbour around Bali time 12pm"
+        }
+      ]
+    },
+    {
+      "booking_id": 3794,
+      "booking_ref": "JVTO-3794",
+      "package_name": "3 Day Bromo & Ijen Volcano Discovery from Bali",
+      "duration": "3D 2N",
+      "itinerary_days": [
+        {
+          "day": 1,
+          "title": "Day 1",
+          "itinerary": "Bali - Bromo Area",
+          "activity_text": "Your tour begins with a pick-up at I Gusti Ngurah Rai International Airport (DPS) in Bali or from your hotel (preferably before 9:00 AM local time). You will be transferred for approximately 4 hours to Gilimanuk Port for your ferry crossing to Java (Ketapang Port). The ferry crossing will take around an hour, and if the weather is clear, you can enjoy views of Mount Agung in Bali and Mount Raung in Java from the ferry. Upon arrival at Ketapang Port, continue your journey with a 4-hour drive to your hotel in the Bromo area. Check in, relax, and rest before your next adventure"
+        },
+        {
+          "day": 2,
+          "title": "Day 2",
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Bondowoso",
+          "activity_text": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim- Whispering Sands) - Breakfast and Shower - check out - continue to Madakaripura waterfall - Transfer to hotel in Bondowoso City - Check in - Dinner - Take a rest"
+        },
+        {
+          "day": 3,
+          "title": "Day 3",
+          "itinerary": "Ijen Crater - Bali",
+          "activity_text": "Your Ijen adventure begins at midnight with a 90-minute drive from the hotel to the Ijen Ranger Post (Paltuding). Upon arrival, begin the trek to Ijen Crater, which will take approximately 1 to 1.5 hours. At the crater rim, be mesmerized by the gigantic turquoise sulfuric crater lake, one of the most unique sights in Java. While at the crater, you'll have the chance to observe the world’s toughest sulfur miners who brave toxic fumes and hazardous terrain to carry 70kg sacks of sulfur. This is a truly humbling experience that reveals the hardships faced by these workers. After watching the breathtaking sunrise and exploring the crater, return to the parking area for a brief break and enjoy a cup of Arabica coffee. Finally, we will transfer you to Ketapang Harbour to take the ferry back to Bali, bringing your volcanic adventure to a close. End of the program."
+        }
+      ]
+    },
+    {
+      "booking_id": 3795,
+      "booking_ref": "JVTO-3795",
+      "package_name": "2 Day Bromo Sunrise Adventure from Surabaya",
+      "duration": "2D 1N",
+      "itinerary_days": [
+        {
+          "day": 1,
+          "title": "Day 1",
+          "itinerary": "Surabaya Airport - Madakaripura - Bromo Area",
+          "activity_text": "Pick up from airport - Explore Madakaripura Waterfall - Transfer to hotel in Bromo area - Check in - Take a rest."
+        },
+        {
+          "day": 2,
+          "title": "Day 2",
+          "itinerary": "Bromo Sunrise - Surabaya Hotel",
+          "activity_text": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim - Whispering Sands) - Breakfast and Shower - check out - drop to hotel. End of program"
+        }
+      ]
+    },
+    {
+      "booking_id": 3796,
+      "booking_ref": "JVTO-3796",
+      "package_name": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "duration": "3D 2N",
+      "itinerary_days": [
+        {
+          "day": 1,
+          "title": "Day 1",
+          "itinerary": "Surabaya Airport - Bromo Area",
+          "activity_text": "Your Bromo and Ijen adventure begins as we greet you at Surabaya Airport, with an early pick-up (best before noon). From there, we’ll embark on a 3-hour scenic drive to the iconic Cemoro Lawang, the gateway to the Bromo Area. Along the way, enjoy the changing landscapes of East Java as we make our way to the hotel. Upon arrival at your hotel, Joglo Kecombrang Bromo, you’ll have time to rest and take in the quiet beauty of the surroundings. Prepare for the exciting days ahead as you settle in for a peaceful evening."
+        },
+        {
+          "day": 2,
+          "title": "Day 2",
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Bondowoso",
+          "activity_text": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim- Whispering Sands) - Breakfast and Shower - check out - continue to Madakaripura waterfall - Transfer to hotel in Bondowoso City - Check in - Dinner - Take a rest"
+        },
+        {
+          "day": 3,
+          "title": "Day 3",
+          "itinerary": "Ijen Crater - Ketapang - Bali",
+          "activity_text": "Depart from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - check out hotel - depart to Ketapang - take ferry to Gilimanuk Harbour - End Program."
+        }
+      ]
+    },
+    {
+      "booking_id": 3797,
+      "booking_ref": "JVTO-3797",
+      "package_name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+      "duration": "3D 2N",
+      "itinerary_days": [
+        {
+          "day": 1,
+          "title": "Day 1",
+          "itinerary": "Surabaya Airport - Bondowoso",
+          "activity_text": "Pickup from Surabaya Airport upon your arrival (it will be better before 12 PM). Then, transfer to your hotel in Bondowoso (approximately 5 hours drive), including a stop at a local restaurant along the way for lunch (on your own expense)."
+        },
+        {
+          "day": 2,
+          "title": "Day 2",
+          "itinerary": "Ijen Crater - Bromo Area",
+          "activity_text": "Depart from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - Transfer to hotel in Bromo area - Check in - Take a rest."
+        },
+        {
+          "day": 3,
+          "title": "Day 3",
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Airport",
+          "activity_text": "Our adventure begins at 2:00 AM, as we head out to witness the dazzling Milky Way and the unforgettable sunrise over Mount Bromo. The caldera’s flat sea of volcanic sand gives way to the striking silhouettes of Mount Batok, the smoking Mount Bromo, and in the distance, the majestic Mount Semeru—the tallest and most active volcano in Java. After soaking in the sunrise, we’ll ride across the iconic Sand Sea in a 4WD to Poten, a serene Tenggerese Hindu temple at the base of Mount Bromo. From here, you can either trek 3 km or opt for a pony ride to reach the foot of Mount Bromo. A short climb up 253 steps will bring you to the crater rim, where you’ll stand in awe of the volcano’s raw power and beauty. Next, we drive an hour to the stunning Madakaripura Waterfall. A short 30-minute trek, guided by a local expert, leads us to this enchanting natural wonder hidden amidst towering cliffs. Don’t forget your slippers—you’ll be wading through shallow streams! After the waterfall, we’ll begin the scenic 4-hour journey back to your hotel or the airport in Surabaya, marking the end of our unforgettable program. (Please note: Ensure your flight departs after 7 PM on day 3.)"
         }
       ]
     }
