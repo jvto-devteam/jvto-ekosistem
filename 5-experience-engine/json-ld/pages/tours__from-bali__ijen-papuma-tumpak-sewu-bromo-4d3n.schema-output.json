@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-24T02:15:07.511Z",
+  "generated_at": "2026-08-25T02:10:00.232Z",
   "route": "/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
   "domain": "tours",
   "slug": "from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
@@ -535,7 +535,7 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-24T02:15:07.511Z",
+    "generated_at": "2026-08-25T02:10:00.232Z",
     "source_files": [
       "2-product-and-commercial-core/tour-products/tours__from-bali__ijen-papuma-tumpak-sewu-bromo-4d3n.product-contract.json"
     ],

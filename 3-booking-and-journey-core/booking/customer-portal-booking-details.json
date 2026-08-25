@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-booking/customer-portal-booking-details-v1",
-  "generated_at": "2026-08-24T02:15:07.492Z",
+  "generated_at": "2026-08-25T02:10:00.212Z",
   "privacy": "No customer names, contact details, portal slugs, payment links, media links, payment references, or uploaded proof URLs are stored.",
   "record_count": 146,
   "records": [
@@ -5610,44 +5610,6 @@
       }
     },
     {
-      "booking_id": 3721,
-      "booking_ref": "JVTO-3721",
-      "booking_code": "JVR/077/08/26",
-      "channel": "KLOOK",
-      "status": "booked",
-      "product": {
-        "package_name": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
-        "package_link": "https://klook.com/activity/99790-3-day-mount-bromo-sunrise-ijen-madakaripura-trekking-trip-surabaya/",
-        "duration": "3D 2N",
-        "travel_date_start": "2026-08-30",
-        "travel_date_end": "2026-09-01",
-        "total_pax": 2
-      },
-      "tshirt_sizes": {
-        "xs": 0,
-        "s": 0,
-        "m": 0,
-        "l": 0,
-        "xl": 0,
-        "xxl": 0
-      },
-      "addons": [],
-      "finance": {
-        "grand_total": 6200000,
-        "total_addons": 0,
-        "dp_amount": 0,
-        "balance": 6200000,
-        "paid_amount": 0,
-        "due_date": "1970-01-01 00:00:00",
-        "initial_payment_method": "pay later",
-        "balance_payment_method": null,
-        "payment_link_present": false,
-        "pending_upload_proof": false,
-        "uploaded_payment_proof_present": false,
-        "payment_history": []
-      }
-    },
-    {
       "booking_id": 3722,
       "booking_ref": "JVTO-3722",
       "booking_code": "JVR/046/09/26",
@@ -5663,9 +5625,9 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
+        "s": 1,
         "m": 0,
-        "l": 0,
+        "l": 1,
         "xl": 0,
         "xxl": 0
       },
@@ -6959,7 +6921,7 @@
         "xs": 0,
         "s": 0,
         "m": 0,
-        "l": 0,
+        "l": 3,
         "xl": 0,
         "xxl": 0
       },
@@ -7081,8 +7043,8 @@
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 0,
-        "l": 0,
+        "m": 1,
+        "l": 1,
         "xl": 0,
         "xxl": 0
       },
@@ -7245,8 +7207,8 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
-        "m": 0,
+        "s": 1,
+        "m": 1,
         "l": 0,
         "xl": 0,
         "xxl": 0
@@ -7271,6 +7233,61 @@
             "description": "Down Payment",
             "method": "Debit/Credit Card",
             "created_at": "2026-08-23 17:13:17",
+            "reference_present": true
+          }
+        ]
+      }
+    },
+    {
+      "booking_id": 3798,
+      "booking_ref": "JVTO-3798",
+      "booking_code": "JVR/100/08/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "product": {
+        "package_name": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+        "duration": "4D 3N",
+        "travel_date_start": "2026-08-25",
+        "travel_date_end": "2026-08-28",
+        "total_pax": 2
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 1,
+        "l": 0,
+        "xl": 1,
+        "xxl": 0
+      },
+      "addons": [
+        {
+          "id": 777,
+          "name": "DENPASAR KOTA",
+          "qty": 1,
+          "price": 900000,
+          "subtotal": 900000
+        }
+      ],
+      "finance": {
+        "grand_total": 10000000,
+        "total_addons": 900000,
+        "dp_amount": 10000000,
+        "balance": 0,
+        "paid_amount": 10000000,
+        "due_date": "2026-08-24 00:00:00",
+        "initial_payment_method": "pay later",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": true,
+        "uploaded_payment_proof_present": true,
+        "payment_history": [
+          {
+            "id": 884,
+            "nominal": 10000000,
+            "description": "Down Payment (Full Payment)",
+            "method": "Bank Transfer",
+            "created_at": "2026-08-24 11:00:55",
             "reference_present": true
           }
         ]

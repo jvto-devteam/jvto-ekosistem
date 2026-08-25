@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-product/customer-portal-itinerary-records-v1",
-  "generated_at": "2026-08-24T02:15:07.494Z",
+  "generated_at": "2026-08-25T02:10:00.214Z",
   "record_count": 146,
   "records": [
     {
@@ -3164,32 +3164,6 @@
       ]
     },
     {
-      "booking_id": 3721,
-      "booking_ref": "JVTO-3721",
-      "package_name": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
-      "duration": "3D 2N",
-      "itinerary_days": [
-        {
-          "day": 1,
-          "title": "Day 1",
-          "itinerary": "Surabaya Hotel - Bondowoso",
-          "activity_text": "Pick up from Surabaya Hotel - Transfer to hotel in Bondowoso City - Check in - Dinner - Take a rest"
-        },
-        {
-          "day": 2,
-          "title": "Day 2",
-          "itinerary": "Ijen Crater - Bromo Area",
-          "activity_text": "Depart from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - Transfer to hotel in Bromo area - Check in - Take a rest."
-        },
-        {
-          "day": 3,
-          "title": "Day 3",
-          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Hotel",
-          "activity_text": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim- Whispering Sands) - Breakfast and Shower - check out - continue to Madakaripura waterfall - drop to hotel. End of program"
-        }
-      ]
-    },
-    {
       "booking_id": 3722,
       "booking_ref": "JVTO-3722",
       "package_name": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Discovery from Bali to Surabaya",
@@ -4186,6 +4160,38 @@
           "title": "Day 3",
           "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Airport",
           "activity_text": "Our adventure begins at 2:00 AM, as we head out to witness the dazzling Milky Way and the unforgettable sunrise over Mount Bromo. The caldera’s flat sea of volcanic sand gives way to the striking silhouettes of Mount Batok, the smoking Mount Bromo, and in the distance, the majestic Mount Semeru—the tallest and most active volcano in Java. After soaking in the sunrise, we’ll ride across the iconic Sand Sea in a 4WD to Poten, a serene Tenggerese Hindu temple at the base of Mount Bromo. From here, you can either trek 3 km or opt for a pony ride to reach the foot of Mount Bromo. A short climb up 253 steps will bring you to the crater rim, where you’ll stand in awe of the volcano’s raw power and beauty. Next, we drive an hour to the stunning Madakaripura Waterfall. A short 30-minute trek, guided by a local expert, leads us to this enchanting natural wonder hidden amidst towering cliffs. Don’t forget your slippers—you’ll be wading through shallow streams! After the waterfall, we’ll begin the scenic 4-hour journey back to your hotel or the airport in Surabaya, marking the end of our unforgettable program. (Please note: Ensure your flight departs after 7 PM on day 3.)"
+        }
+      ]
+    },
+    {
+      "booking_id": 3798,
+      "booking_ref": "JVTO-3798",
+      "package_name": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "duration": "4D 3N",
+      "itinerary_days": [
+        {
+          "day": 1,
+          "title": "Day 1",
+          "itinerary": "Surabaya Airport - Lumajang",
+          "activity_text": "Your adventure begins with a pickup at Surabaya Airport (ideally before 12 PM). Afterward, you’ll be transferred to Lumajang (Tumpak Sewu area), which takes approximately 4 hours, with a stop at a local restaurant for lunch (at your own expense). Upon arrival in Lumajang, check into your hotel and enjoy free time to explore or relax."
+        },
+        {
+          "day": 2,
+          "title": "Day 2",
+          "itinerary": "Tumpak Sewu - Bromo Area",
+          "activity_text": "Your day begins with breakfast from hotel and start to exploring Tumpak Sewu Waterfall, one of the most stunning waterfalls in Java. Known for its unique curtain-like water flow and multiple smaller falls, Tumpak Sewu’s beauty will take your breath away. The trek to the waterfall involves following a river up the canyon and crossing the river at one point (make sure to wear proper trekking shoes). After enjoying the waterfall, take time to relax and have lunch. You’ll then continue the journey to Cemoro Lawang, near Mount Bromo, with a drive of approximately 4 hours. Upon arrival, check in to your hotel and relax overnight in preparation for the next day's adventure."
+        },
+        {
+          "day": 3,
+          "title": "Day 3",
+          "itinerary": "Bromo Sunrise - Bondowoso",
+          "activity_text": "Start the day early at 2:00 AM to prepare for Mount Bromo stargazing and the Milky Way view. After witnessing the stunning night sky, enjoy the famous sunrise over the Bromo landscape, with views of Mount Batok, Mount Bromo, and Gunung Semeru. Following the sunrise, take a 4WD ride across the Sand Sea to Poten, a Hindu temple. From there, you can either take a 3 km hike or a pony ride to the base of Mount Bromo to get close-up views of the crater. After exploring Mount Bromo, continue to the Whispering Sands for more scenic views. Return to your hotel for breakfast, shower, and checkout. Afterward, you'll be transferred to a hotel in Bondowoso, with a 3-hour drive and a stop for lunch at a local restaurant (at your own expense). Upon arrival, check into your hotel and enjoy a relaxing evening."
+        },
+        {
+          "day": 4,
+          "title": "Day 4",
+          "itinerary": "Ijen Crater - Bali",
+          "activity_text": "Start at 12:00 AM, checking out from your hotel and driving to the Paltuding trailhead for Ijen Crater (about 90 minutes). From there, trek approximately 1-1.5 hours to the crater rim, where you’ll witness the spectacular turquoise sulfuric crater lake. You’ll also have the chance to observe sulfur miners carrying heavy loads of sulfur despite the harsh conditions. Enjoy the sunrise at the crater before heading back down. After Ijen Crater, drive to Ketapang Harbor and take the ferry to Bali (about 1.5 hours). Your adventure concludes upon arrival in Bali."
         }
       ]
     }

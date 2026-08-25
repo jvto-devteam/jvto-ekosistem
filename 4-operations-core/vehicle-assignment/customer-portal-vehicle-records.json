@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-operations/customer-portal-vehicle-records-v1",
-  "generated_at": "2026-08-24T02:15:07.498Z",
+  "generated_at": "2026-08-25T02:10:00.218Z",
   "record_count": 146,
   "records": [
     {
@@ -1556,20 +1556,6 @@
       ]
     },
     {
-      "booking_id": 3721,
-      "booking_ref": "JVTO-3721",
-      "package_name": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
-      "total_pax": 2,
-      "vehicles": [
-        {
-          "name": "MPV",
-          "capacity": "1 - 3 pax",
-          "banner_present": true,
-          "interior_image_count": 7
-        }
-      ]
-    },
-    {
       "booking_id": 3722,
       "booking_ref": "JVTO-3722",
       "package_name": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Discovery from Bali to Surabaya",
@@ -2049,6 +2035,20 @@
       "booking_id": 3797,
       "booking_ref": "JVTO-3797",
       "package_name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
+      "total_pax": 2,
+      "vehicles": [
+        {
+          "name": "MPV",
+          "capacity": "1 - 3 pax",
+          "banner_present": true,
+          "interior_image_count": 7
+        }
+      ]
+    },
+    {
+      "booking_id": 3798,
+      "booking_ref": "JVTO-3798",
+      "package_name": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
       "total_pax": 2,
       "vehicles": [
         {

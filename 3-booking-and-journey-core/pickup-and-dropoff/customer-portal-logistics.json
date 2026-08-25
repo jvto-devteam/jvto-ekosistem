@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-booking/customer-portal-logistics-v1",
-  "generated_at": "2026-08-24T02:15:07.493Z",
+  "generated_at": "2026-08-25T02:10:00.213Z",
   "privacy": "Logistics values are operational booking fields. Customer identity and portal access slugs are excluded.",
   "record_count": 146,
   "records": [
@@ -837,8 +837,8 @@
       "travel_date_end": "2026-08-28",
       "total_pax": 2,
       "logistics": {
-        "pickup": "Surabaya Hotel (BEST WESTERN DE PAPILIO SURABAYA)",
-        "pickup_time": "09:00:00",
+        "pickup": "Surabaya Hotel  BEST WESTERN DE PAPILIO SURABAYA",
+        "pickup_time": "11:00:00",
         "drop": "Surabaya Hotel (Wyndham Surabaya City Centre)",
         "drop_time": "18:00:00",
         "special_requirements_present": false
@@ -1655,21 +1655,6 @@
       }
     },
     {
-      "booking_id": 3721,
-      "booking_ref": "JVTO-3721",
-      "status": "booked",
-      "travel_date_start": "2026-08-30",
-      "travel_date_end": "2026-09-01",
-      "total_pax": 2,
-      "logistics": {
-        "pickup": "Surabaya Hotel  JW Marriott Surabaya",
-        "pickup_time": "11:00:00",
-        "drop": "",
-        "drop_time": null,
-        "special_requirements_present": false
-      }
-    },
-    {
       "booking_id": 3722,
       "booking_ref": "JVTO-3722",
       "status": "booked",
@@ -2189,6 +2174,21 @@
       "logistics": {
         "pickup": "  ",
         "pickup_time": null,
+        "drop": "  ",
+        "drop_time": null,
+        "special_requirements_present": false
+      }
+    },
+    {
+      "booking_id": 3798,
+      "booking_ref": "JVTO-3798",
+      "status": "booked",
+      "travel_date_start": "2026-08-25",
+      "travel_date_end": "2026-08-28",
+      "total_pax": 2,
+      "logistics": {
+        "pickup": "Surabaya Hotel  sunflower hotel syariah",
+        "pickup_time": "11:00:00",
         "drop": "  ",
         "drop_time": null,
         "special_requirements_present": false

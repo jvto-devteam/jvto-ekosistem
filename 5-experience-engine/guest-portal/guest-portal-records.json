@@ -7178,8 +7178,8 @@
         "meetingPoint": "Surabaya Hotel",
         "arrival": null,
         "value": "BEST WESTERN DE PAPILIO SURABAYA",
-        "time": "09:00",
-        "text": "Surabaya Hotel (BEST WESTERN DE PAPILIO SURABAYA)",
+        "time": "11:00",
+        "text": "Surabaya Hotel  BEST WESTERN DE PAPILIO SURABAYA",
         "complete": true
       },
       "dropoff": {
@@ -12118,7 +12118,7 @@
         }
       },
       "vehicles": [
-        "Avanza Boy"
+        "Avanza Hendra"
       ],
       "payment": {
         "invoiceTotal": 8839000,
@@ -14065,123 +14065,6 @@
       }
     },
     {
-      "bookingId": 3721,
-      "bookingCode": "KLOOK-3721",
-      "packageName": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
-      "tripDate": {
-        "start_ymd": "2026-08-30",
-        "end_ymd": "2026-09-01",
-        "start": "30 Aug 26",
-        "end": "01 Sep 26",
-        "days": "Sun - Tue"
-      },
-      "pickup": {
-        "meetingPoint": "Surabaya Hotel",
-        "arrival": null,
-        "value": "JW Marriott Surabaya",
-        "time": "11:00",
-        "text": "Surabaya Hotel  JW Marriott Surabaya",
-        "complete": true
-      },
-      "dropoff": {
-        "dropPoint": "Others",
-        "arrival": null,
-        "value": "",
-        "time": "07:00",
-        "text": "",
-        "complete": false
-      },
-      "itinerary": [
-        {
-          "day": 1,
-          "date": "30 Aug 2026",
-          "itinerary": "Surabaya Hotel - Bondowoso",
-          "activity": "Surabaya",
-          "destination_id": 4,
-          "destination": "Surabaya"
-        },
-        {
-          "day": 2,
-          "date": "31 Aug 2026",
-          "itinerary": "Ijen Crater - Bromo Area",
-          "activity": "Ijen Crater Hike",
-          "destination_id": 2,
-          "destination": "Mount Ijen"
-        },
-        {
-          "day": 3,
-          "date": "01 Sep 2026",
-          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Hotel",
-          "activity": "Bromo Sunrise Tour, Madakaripura Warterfall Tour",
-          "destination_id": 1,
-          "destination": "Mount Bromo"
-        }
-      ],
-      "hotels": [
-        {
-          "day": 1,
-          "checkIn": "30 Aug 2026",
-          "hotelId": 1,
-          "hotel": "Baratha Hotel and Resto",
-          "rooms": [
-            {
-              "roomId": 9,
-              "roomName": "Deluxe Double",
-              "quantity": 1
-            }
-          ],
-          "meals": [
-            "Breakfast",
-            "Dinner"
-          ]
-        },
-        {
-          "day": 2,
-          "checkIn": "31 Aug 2026",
-          "hotelId": 11,
-          "hotel": "Joglo Kecombrang Bromo",
-          "rooms": [
-            {
-              "roomId": 24,
-              "roomName": "Double",
-              "quantity": 1
-            }
-          ],
-          "meals": [
-            "Breakfast"
-          ]
-        }
-      ],
-      "tshirt": {
-        "text": "",
-        "sizes": {
-          "xss": 0,
-          "xxs": 0,
-          "xs": 0,
-          "s": 0,
-          "m": 0,
-          "l": 0,
-          "xl": 0,
-          "xxl": 0,
-          "xxxl": 0
-        }
-      },
-      "vehicles": [
-        "Avanza Yus"
-      ],
-      "payment": {
-        "invoiceTotal": 6200000,
-        "paid": 0,
-        "balance": 6200000
-      },
-      "readiness": {
-        "hasPickup": true,
-        "hasDropoff": false,
-        "hasHotels": true,
-        "balanceStatus": "balance_due"
-      }
-    },
-    {
       "bookingId": 3722,
       "bookingCode": "JVTO-3722",
       "packageName": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Discovery from Bali to Surabaya",
@@ -14317,14 +14200,14 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "S x 1, L x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
-          "s": 0,
+          "s": 1,
           "m": 0,
-          "l": 0,
+          "l": 1,
           "xl": 0,
           "xxl": 0,
           "xxxl": 0
@@ -17903,21 +17786,21 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "L x 3",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
           "s": 0,
           "m": 0,
-          "l": 0,
+          "l": 3,
           "xl": 0,
           "xxl": 0,
           "xxxl": 0
         }
       },
       "vehicles": [
-        "Avanza Yus 2"
+        "Avanza Boy"
       ],
       "payment": {
         "invoiceTotal": 11400000,
@@ -18250,14 +18133,14 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "M x 1, L x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
           "s": 0,
-          "m": 0,
-          "l": 0,
+          "m": 1,
+          "l": 1,
           "xl": 0,
           "xxl": 0,
           "xxxl": 0
@@ -18554,13 +18437,13 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "S x 1, M x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
-          "s": 0,
-          "m": 0,
+          "s": 1,
+          "m": 1,
           "l": 0,
           "xl": 0,
           "xxl": 0,
@@ -18578,6 +18461,147 @@
         "hasDropoff": false,
         "hasHotels": true,
         "balanceStatus": "balance_due"
+      }
+    },
+    {
+      "bookingId": 3798,
+      "bookingCode": "JVTO-3798",
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "tripDate": {
+        "start_ymd": "2026-08-25",
+        "end_ymd": "2026-08-28",
+        "start": "25 Aug 26",
+        "end": "28 Aug 26",
+        "days": "Tue - Fri"
+      },
+      "pickup": {
+        "meetingPoint": "Surabaya Hotel",
+        "arrival": null,
+        "value": "sunflower hotel syariah",
+        "time": "11:00",
+        "text": "Surabaya Hotel  sunflower hotel syariah",
+        "complete": true
+      },
+      "dropoff": {
+        "dropPoint": "",
+        "arrival": null,
+        "value": null,
+        "time": "07:00",
+        "text": "  ",
+        "complete": false
+      },
+      "itinerary": [
+        {
+          "day": 1,
+          "date": "25 Aug 2026",
+          "itinerary": "Surabaya Airport - Lumajang",
+          "activity": "Surabaya",
+          "destination_id": 4,
+          "destination": "Surabaya"
+        },
+        {
+          "day": 2,
+          "date": "26 Aug 2026",
+          "itinerary": "Tumpak Sewu - Bromo Area",
+          "activity": "Tumpak Sewu Waterfall Tour",
+          "destination_id": 7,
+          "destination": "Tumpak Sewu Waterfall"
+        },
+        {
+          "day": 3,
+          "date": "27 Aug 2026",
+          "itinerary": "Bromo Sunrise - Bondowoso",
+          "activity": "Bromo Sunrise Tour",
+          "destination_id": 1,
+          "destination": "Mount Bromo"
+        },
+        {
+          "day": 4,
+          "date": "28 Aug 2026",
+          "itinerary": "Ijen Crater - Bali",
+          "activity": "Ijen Crater Hike",
+          "destination_id": 2,
+          "destination": "Mount Ijen"
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "25 Aug 2026",
+          "hotelId": 38,
+          "hotel": "Artha Cottage",
+          "rooms": [
+            {
+              "roomId": 77,
+              "roomName": "Twin",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "26 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "27 Aug 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "tshirt": {
+        "text": "M x 1, XL x 1",
+        "sizes": {
+          "xss": 0,
+          "xxs": 0,
+          "xs": 0,
+          "s": 0,
+          "m": 1,
+          "l": 0,
+          "xl": 1,
+          "xxl": 0,
+          "xxxl": 0
+        }
+      },
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "payment": {
+        "invoiceTotal": 10000000,
+        "paid": 10000000,
+        "balance": 0
+      },
+      "readiness": {
+        "hasPickup": true,
+        "hasDropoff": false,
+        "hasHotels": true,
+        "balanceStatus": "settled"
       }
     }
   ]
