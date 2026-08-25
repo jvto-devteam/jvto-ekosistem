@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-24T02:24:22.800Z",
+  "generated_at": "2026-08-25T02:19:54.069Z",
   "route": "/why-jvto/reviews",
   "domain": "why-jvto",
   "slug": "reviews",
@@ -43,7 +43,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": 4.9,
-          "reviewCount": 155,
+          "reviewCount": 156,
           "bestRating": 5
         },
         "sameAs": [
@@ -5270,6 +5270,78 @@
         },
         "reviewBody": "My friend and I had an amazing experience with JVTO. Our guide, Juan, was very knowledgeable and also a lot of fun. His English was excellent, and was extremely helpful.\n\nHolly, our driver, was also fantastic, very friendly and great sense of humor. The volcano excursions and the great accommodations were impressive and definitely worth it, but the trip was truly unforgettable thanks to Juan and Holly.",
         "datePublished": "2026-08-22",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/why-jvto/reviews#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/#review-323",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "maximilien francois"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Amazing world class trip ! Amazing organization! Our guide Kiki and driver Deri were amazing and so helpful!\nI would recommend 100% to everyone",
+        "datePublished": "2026-08-24",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/why-jvto/reviews#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/#review-324",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Mario Aibino"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "(Translated by Google) Excellent tour, perfectly organized. Very attentive to customer requests. We were a group of four; they picked us up at the Surabaya airport and dropped us off at a smaller airport at the end of the tour, as per our request. Anjas guided us and explained everything. The only downside is the overcrowding of tourists, which is obviously not the agency's fault; in fact, Anjas recommended different times to avoid the chaos.\n\n(Original)\nOttimo tour, organizzato alla perfezione. Molto attenti alle richieste dei clienti. Noi eravamo un gruppo di 4 persone, ci hanno prelevato all’aeroporto di Surabaya e lasciato alla fine del tour in un aeroporto minore, come da nostra richiesta. Siamo stati seguiti da Anjas che ci guidava e illustrava il tutto. Unica nota dolente è il sovraffollamento di turisti, naturalmente non dipende dall’agenzia, anzi Anjas consigliava orari differenti per evitare il caos.",
+        "datePublished": "2026-08-24",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/why-jvto/reviews#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/#review-325",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Arnando Pakpahan"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "JVTO made my trip a very memorable trip. Both the guide (Taufik) and the driver (Fredi) were very warm and kind, easy to engage in conversation and know what they are doing. Not to mention they are very flexible and adaptable as well when the situation calls for it. They also made the trip very safe and being a local guide, they know the tricks and tips to avoid crowd and get the best shots / locations. Overall I really did enjoy this trip and I would definitely recommend them to everyone if they ever visit.",
+        "datePublished": "2026-08-24",
         "itemReviewed": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         },
