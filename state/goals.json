@@ -85,28 +85,16 @@
       "evidence": "credentials.json carries it with evidenceStatus media_sourced and no documentUrl or sha256. If the copy found is a scan, publish it as-is and hash that file rather than retyping it. If its number or date differs from what is cited in 12+ places, raise it before publishing."
     },
     {
-      "id": "tours-per-origin-package-count",
-      "title": "tours/from-surabaya.source.json writes '13 private itineraries' as a literal",
-      "status": "open",
-      "evidence": "check-answer-first reports it. {PACKAGE_COUNT} is the catalogue total (17), not the per-origin count, so it is the wrong token. Needs per-origin tokens in jvto-web/src/lib/publicContent/liveNumbers.ts."
-    },
-    {
-      "id": "validate-review-pages-unwired",
-      "title": "jvto-web's validate:review-pages is defined but no workflow runs it",
-      "status": "open",
-      "evidence": "Reported by check-script-wiring. Either wire it into a workflow or record here why it is deliberately manual."
-    },
-    {
       "id": "branch-protection-live",
       "title": "Verify branch protection on jvto-web's live branch",
-      "status": "open — only the owner can check",
-      "evidence": "GitHub Settings. Carried from the 2026-08-20 handoff audit."
+      "status": "open — verified, needs a decision",
+      "evidence": "Checked via the API on 2026-08-26: protection IS enabled on live, but only force-push is blocked. No required pull-request review and no required status check. Now that CI is green again, CI could be made a required check — that changes how the team merges, so it is the owner's call, not a silent settings change."
     },
     {
       "id": "validate-routes-registry-gone",
       "title": "jvto-web's `validate routes` has validated nothing since 2026-08-15",
-      "status": "open — restore the registry or retire the check",
-      "evidence": "src/lib/registry/pages.ts was deleted in 3925805f, a dead-code sweep; nothing under src/ imports it any more. The check reconciled that registry against the filesystem router, next.config redirects and middleware redirectMap/goneUrls. It now skips loudly instead of crashing with ENOENT, but the redirect coverage it also provided is unreplaced."
+      "status": "open — reduced, still a decision",
+      "evidence": "The redirect-vs-filesystem half was restored and runs: 207 redirect and gone sources reconciled against 41 static routes, verified against a deliberately broken redirect. What remains dark are the canonical and duplicate-intent checks, which need src/lib/registry/pages.ts. Restore the registry or retire those two checks deliberately."
     },
     {
       "id": "pdp-reviews-twelve-packages-unattributed",
