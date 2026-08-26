@@ -25,7 +25,7 @@
       "drop": "Surabaya Hotel (Swiss-Belinn Airport Surabaya)",
       "drop_time": "15:00:00",
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/1sRHCJYmxug318NAOipkHgw-j3vJ2i82S",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -35,8 +35,22 @@
         "xxl": 0
       },
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 4,
+            "name": "Taufik",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528916_TAUFIK.JPG",
+            "role": "Escort Guide"
+          }
+        ],
+        "drivers": [
+          {
+            "id": 75,
+            "name": "Didin",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528640_Adim 2.jpeg",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {

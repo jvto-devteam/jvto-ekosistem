@@ -25,7 +25,7 @@
       "drop": "",
       "drop_time": "18:00:00",
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/1uyWtTK__tokWY0p-vImdeWesMYRhHUTo",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -36,7 +36,14 @@
       },
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 62,
+            "name": "Yusuf",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1723647328_WhatsApp Image 2024-08-14 at 20.45.38.jpeg",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {

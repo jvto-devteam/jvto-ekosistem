@@ -25,7 +25,7 @@
       "drop": "Bali Hotel  Uluwatu Desa, Jalan Batu Nunggalan, 80361 Uluwatu",
       "drop_time": "17:00:00",
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/1a1l7D9S0L7BuU4smtOlIg8jVgPs7_R0u",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -35,7 +35,14 @@
         "xxl": 0
       },
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 4,
+            "name": "Taufik",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528916_TAUFIK.JPG",
+            "role": "Escort Guide"
+          }
+        ],
         "drivers": []
       },
       "vehicle_specs": [

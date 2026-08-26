@@ -25,7 +25,7 @@
       "drop": "Surabaya Hotel  Premier Place Surabya Airport",
       "drop_time": "16:00:00",
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/158tKtZhocAaj0-fZu-17Z--vrAnp0WEg",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -36,7 +36,14 @@
       },
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 82,
+            "name": "Egy",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1786426817_WhatsApp Image 2026-08-11 at 12.29.25.jpeg",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {

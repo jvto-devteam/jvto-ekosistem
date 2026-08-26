@@ -25,7 +25,7 @@
       "drop": "Surabaya Hotel  Swiss-Belinn Tunjungan Surabaya",
       "drop_time": "16:00:00",
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/1_Q_k9DT17LUpfcZQISfMWNYqn08pOKPH",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -36,7 +36,14 @@
       },
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 83,
+            "name": "Toriq",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1786428330_WhatsApp Image 2026-08-11 at 12.29.25.jpeg",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {

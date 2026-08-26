@@ -25,7 +25,7 @@
       "drop": "Surabaya Hotel  Ascott Waterplace Surabaya",
       "drop_time": "18:00:00",
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/1hBajm2-DnwBuW5QjVcN6X__gyNQzHEzx",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -36,7 +36,14 @@
       },
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 79,
+            "name": "Edi",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1774711959_bus-driver-wand-icon-isolated-600nw-2600303135.webp",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {

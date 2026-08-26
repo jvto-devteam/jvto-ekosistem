@@ -35,7 +35,14 @@
         "xxl": 1
       },
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 39,
+            "name": "Gufron",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528674_GUFRO.jpeg",
+            "role": "Escort Guide"
+          }
+        ],
         "drivers": []
       },
       "vehicle_specs": [

@@ -25,7 +25,7 @@
       "drop": "Bali Hotel  Padangbay",
       "drop_time": "18:00:00",
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/185AsE1Lc7KcYsExKBSMHXdSFCveh7BAS",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -35,7 +35,14 @@
         "xxl": 0
       },
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 4,
+            "name": "Taufik",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528916_TAUFIK.JPG",
+            "role": "Escort Guide"
+          }
+        ],
         "drivers": []
       },
       "vehicle_specs": [

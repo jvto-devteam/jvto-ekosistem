@@ -25,7 +25,7 @@
       "drop": "Surabaya Hotel  Movenpick Surabaya City",
       "drop_time": "15:00:00",
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/11nZN8O4cdQbiwZgsIXuWN6mWwEngf2hg",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -36,7 +36,14 @@
       },
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 7,
+            "name": "Fredi",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528837_FREDI.JPG",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {

@@ -35,7 +35,14 @@
         "xxl": 1
       },
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 3,
+            "name": "Anjas",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528725_ANJAS.JPG",
+            "role": "Escort Guide"
+          }
+        ],
         "drivers": []
       },
       "vehicle_specs": [

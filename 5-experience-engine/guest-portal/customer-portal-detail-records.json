@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-experience-output/customer-portal-detail-records-v1",
-  "generated_at": "2026-08-25T02:10:00.218Z",
+  "generated_at": "2026-08-26T10:51:00.092Z",
   "source": "legacy customer portal details, sanitized from /bookings/details/{portal_slug}?json=true",
-  "record_count": 146,
+  "record_count": 148,
   "records": [
     {
       "booking_id": 1566,
@@ -610,7 +610,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 17,
+            "name": "Kiki",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": []
       },
       "vehicles": [
@@ -1241,7 +1248,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 1,
+            "name": "Yandi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -1295,7 +1309,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -2145,7 +2159,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 62,
+            "name": "Yusuf",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -2199,7 +2220,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -2442,7 +2463,14 @@
         }
       ],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 39,
+            "name": "Gufron",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": []
       },
       "vehicles": [
@@ -2506,7 +2534,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -2846,7 +2874,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 62,
+            "name": "Yusuf",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -2900,7 +2935,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -2979,7 +3014,14 @@
       ],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 7,
+            "name": "Fredi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -3042,7 +3084,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -3476,7 +3518,14 @@
         }
       ],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 68,
+            "name": "Boy",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": []
       },
       "vehicles": [
@@ -3556,7 +3605,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -3802,8 +3851,22 @@
         }
       ],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 3,
+            "name": "Anjas",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 28,
+            "name": "Holili",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -3866,7 +3929,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -4379,8 +4442,22 @@
         }
       ],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 3,
+            "name": "Anjas",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 28,
+            "name": "Holili",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -4459,7 +4536,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -4723,12 +4800,6 @@
             "id": 3,
             "name": "Anjas",
             "role": "Escort Guide",
-            "photo_present": true
-          },
-          {
-            "id": 13,
-            "name": "Rendi",
-            "role": "Ijen Guide",
             "photo_present": true
           }
         ],
@@ -5175,8 +5246,22 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 46,
+            "name": "Fauzi",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 73,
+            "name": "Joyo",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -5239,7 +5324,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -5309,8 +5394,22 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 39,
+            "name": "Gufron",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 75,
+            "name": "Didin",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -5373,7 +5472,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -5455,8 +5554,22 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 39,
+            "name": "Gufron",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 28,
+            "name": "Holili",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -5519,7 +5632,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -5923,7 +6036,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 82,
+            "name": "Egy",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -5977,7 +6097,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -6060,7 +6180,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 81,
+            "name": "Romi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -6114,7 +6241,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -6197,7 +6324,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 7,
+            "name": "Fredi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -6251,7 +6385,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -6616,7 +6750,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 4,
+            "name": "Taufik",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": []
       },
       "vehicles": [
@@ -6680,7 +6821,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -6898,7 +7039,14 @@
       ],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 7,
+            "name": "Fredi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -6961,7 +7109,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -7031,7 +7179,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 68,
+            "name": "Boy",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": []
       },
       "vehicles": [
@@ -7103,7 +7258,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -7186,7 +7341,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 7,
+            "name": "Fredi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -7240,7 +7402,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -7339,12 +7501,6 @@
             "id": 17,
             "name": "Kiki",
             "role": "Escort Guide",
-            "photo_present": true
-          },
-          {
-            "id": 4,
-            "name": "Taufik",
-            "role": "Ijen Guide",
             "photo_present": true
           }
         ],
@@ -8716,8 +8872,22 @@
         }
       ],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 3,
+            "name": "Anjas",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 28,
+            "name": "Holili",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -8796,7 +8966,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -8894,7 +9064,14 @@
       ],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 1,
+            "name": "Yandi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -8957,7 +9134,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -9293,7 +9470,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 1,
+            "name": "Yandi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -9356,7 +9540,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -9946,8 +10130,22 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 4,
+            "name": "Taufik",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 75,
+            "name": "Didin",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -10010,7 +10208,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -10525,8 +10723,22 @@
         }
       ],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 2,
+            "name": "Juan",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 73,
+            "name": "Joyo",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -10589,7 +10801,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -10835,8 +11047,22 @@
         }
       ],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 13,
+            "name": "Rendi",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 73,
+            "name": "Joyo",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -10899,7 +11125,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -10992,7 +11218,14 @@
       ],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 1,
+            "name": "Yandi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -11055,7 +11288,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -11125,7 +11358,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 46,
+            "name": "Fauzi",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": []
       },
       "vehicles": [
@@ -11180,7 +11420,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -11442,8 +11682,22 @@
         }
       ],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 2,
+            "name": "Juan",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 73,
+            "name": "Joyo",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -11506,7 +11760,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -11577,7 +11831,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 7,
+            "name": "Fredi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -11640,7 +11901,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -11902,8 +12163,22 @@
         }
       ],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 4,
+            "name": "Taufik",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 28,
+            "name": "Holili",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -11966,7 +12241,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -12337,7 +12612,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 7,
+            "name": "Fredi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -12391,7 +12673,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -12474,7 +12756,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 80,
+            "name": "Sahril",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -12528,7 +12817,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -13310,8 +13599,22 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 13,
+            "name": "Rendi",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 75,
+            "name": "Didin",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -14294,8 +14597,8 @@
         "guides": [],
         "drivers": [
           {
-            "id": 80,
-            "name": "Sahril",
+            "id": 79,
+            "name": "Edi",
             "role": "Driver",
             "photo_present": true
           }
@@ -14440,7 +14743,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 13,
+            "name": "Rendi",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": []
       },
       "vehicles": [
@@ -14512,7 +14822,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -14595,7 +14905,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 1,
+            "name": "Yandi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -14649,7 +14966,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -14720,7 +15037,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 1,
+            "name": "Yandi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -14791,7 +15115,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -14862,7 +15186,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 62,
+            "name": "Yusuf",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -14925,7 +15256,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -15403,7 +15734,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 79,
+            "name": "Edi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -15457,7 +15795,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -15528,7 +15866,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 7,
+            "name": "Fredi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -15582,7 +15927,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -16414,8 +16759,22 @@
         }
       ],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 68,
+            "name": "Boy",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 73,
+            "name": "Joyo",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -16478,7 +16837,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -16572,7 +16931,7 @@
       ],
       "addons": [
         {
-          "id": 741,
+          "id": 780,
           "name": "Madakaripura Waterfall",
           "qty": 2,
           "price": 200000,
@@ -16580,8 +16939,22 @@
         }
       ],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 17,
+            "name": "Kiki",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 73,
+            "name": "Joyo",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -16644,7 +17017,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -16727,7 +17100,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 82,
+            "name": "Egy",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -16781,7 +17161,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -16851,7 +17231,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 2,
+            "name": "Juan",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": []
       },
       "vehicles": [
@@ -16923,7 +17310,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -17457,7 +17844,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 79,
+            "name": "Edi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -17511,7 +17905,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -17749,8 +18143,22 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 13,
+            "name": "Rendi",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 75,
+            "name": "Didin",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -17764,12 +18172,12 @@
         "grand_total": 9100000,
         "total_addons": 0,
         "dp_amount": 2030000,
-        "balance": 7070000,
-        "paid_amount": 2030000,
+        "balance": 0,
+        "paid_amount": 9100000,
         "due_date": "2026-08-09 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
-        "payment_link_present": false,
+        "payment_link_present": true,
         "pending_upload_proof": false,
         "uploaded_payment_proof_present": false,
         "payment_history": [
@@ -17779,6 +18187,14 @@
             "description": "Down Payment",
             "method": "Debit/Credit Card",
             "created_at": "2026-08-08 20:14:02",
+            "reference_present": true
+          },
+          {
+            "id": 888,
+            "nominal": 7070000,
+            "description": "Payment (Paid in Full)",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-26 15:36:44",
             "reference_present": true
           }
         ]
@@ -17813,7 +18229,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -17884,7 +18300,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 62,
+            "name": "Yusuf",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -17938,7 +18361,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -18009,7 +18432,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 7,
+            "name": "Fredi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -18072,7 +18502,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -18154,8 +18584,22 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 3,
+            "name": "Anjas",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 28,
+            "name": "Holili",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -18915,8 +19359,22 @@
         }
       ],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 17,
+            "name": "Kiki",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 28,
+            "name": "Holili",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -18979,7 +19437,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -19057,7 +19515,14 @@
         }
       ],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 4,
+            "name": "Taufik",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": []
       },
       "vehicles": [
@@ -19121,7 +19586,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -19204,7 +19669,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 83,
+            "name": "Toriq",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -19258,7 +19730,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -19340,7 +19812,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 39,
+            "name": "Gufron",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": []
       },
       "vehicles": [
@@ -19478,7 +19957,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 62,
+            "name": "Yusuf",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -19532,7 +20018,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -19629,7 +20115,14 @@
         }
       ],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 4,
+            "name": "Taufik",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": []
       },
       "vehicles": [
@@ -19693,7 +20186,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -19772,7 +20265,14 @@
       ],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 1,
+            "name": "Yandi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -19835,7 +20335,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -20038,7 +20538,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 1,
+            "name": "Yandi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -20092,7 +20599,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -20163,7 +20670,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 80,
+            "name": "Sahril",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -20217,7 +20731,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -20738,7 +21252,14 @@
       "addons": [],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 83,
+            "name": "Toriq",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -20792,7 +21313,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -20862,7 +21383,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 3,
+            "name": "Anjas",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": []
       },
       "vehicles": [
@@ -21139,7 +21667,14 @@
         }
       ],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 46,
+            "name": "Fauzi",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": []
       },
       "vehicles": [
@@ -21203,7 +21738,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -21282,7 +21817,14 @@
       ],
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 1,
+            "name": "Yandi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -21345,7 +21887,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -21415,7 +21957,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 17,
+            "name": "Kiki",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": []
       },
       "vehicles": [
@@ -21479,7 +22028,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -21648,6 +22197,326 @@
           }
         ],
         "media_link_present": true
+      }
+    },
+    {
+      "booking_id": 3801,
+      "booking_ref": "JVTO-3801",
+      "booking_code": "JVR/067/09/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "portal_record_id": "portal_619b6b04ef9dcd63",
+      "privacy": "Customer name, customer id, portal slug, payment links, uploaded proofs, media URLs, and payment references are excluded from this active file. Exception: the free-text itinerary activity field (itinerary_days[].activity_text) is operational text entered by ops staff and may contain coordination details such as passenger names or flight numbers/times; unlike the structured fields, it is not guaranteed to be PII-free.",
+      "product": {
+        "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
+        "duration": "4D 3N",
+        "travel_date_start": "2026-09-21",
+        "travel_date_end": "2026-09-24",
+        "total_pax": 2
+      },
+      "logistics": {
+        "pickup": "Surabaya Airport Terminal 2 TR296",
+        "pickup_time": "09:50:00",
+        "drop": "Surabaya Train Station Gubeng Station ",
+        "drop_time": "16:00:00",
+        "special_requirements_present": false
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "itinerary_days": [
+        {
+          "day": 1,
+          "title": "Day 1",
+          "itinerary": "Surabaya Airport - Bondowoso",
+          "activity_text": "Your exciting Bromo and Ijen adventure begins with a warm welcome at Surabaya Airport. We’ll pick you up (best before noon) and start our scenic 5-hour drive to Bondowoso. Along the way, we’ll stop at a local restaurant in Probolinggo for lunch at your own expense. Enjoy the changing landscapes as you make your way towards Bondowoso. After arriving at hotel in Bondowoso, take some time to relax and settle in. Enjoy a delicious dinner and rest up for the next day’s adventure."
+        },
+        {
+          "day": 2,
+          "title": "Day 2",
+          "itinerary": "Ijen Crater - Papuma Beach Sunset",
+          "activity_text": "Your day starts early at midnight with a drive to Paltuding, the base of Ijen Crater. After about 1.5 hours on the road, you’ll begin your 1-1.5 hour trek to the crater rim. Upon reaching the rim, you’ll be greeted by the breathtaking sight of the 200-meter deep turquoise sulfuric lake, set against a dramatic volcanic landscape. Witness the extraordinary work of sulfur miners who carry heavy loads through hazardous terrain and toxic fumes. After enjoying the sunrise at Ijen Crater, we stop at the Malabar Coffee Plantation for a refreshing coffee break and snacks. Then, we return to your hotel in Bondowoso for a shower and check-out before heading to the next destination. In the afternoon, we journey to Jember City, where you’ll check in at Doho Homestay. After a brief rest, we set off for Papuma Beach, a one-hour drive away. Be mesmerized by the stunning sunset views over the sea, offering the perfect end to a day filled with natural wonders."
+        },
+        {
+          "day": 3,
+          "title": "Day 3",
+          "itinerary": "Tumpak Sewu - Bromo Area",
+          "activity_text": "Our journey begins early at 4:00 AM as we check out and head to Tumpak Sewu Waterfall, one of the most beautiful waterfalls in Java. Known for its unique half-circle formation, the waterfall consists of multiple mini-waterfalls cascading from a height of around 300 meters. A short, adventurous trek takes you across rocks and streams to reach the waterfall, so be sure to bring appropriate trekking sandals or shoes. After exploring the falls and perhaps even enjoying a natural water spa, we will have lunch before continuing our journey to the Bromo area. The drive will take approximately 4 hours, bringing you closer to the iconic Bromo Volcano."
+        },
+        {
+          "day": 4,
+          "title": "Day 4",
+          "itinerary": "Bromo Sunrise - Surabaya City",
+          "activity_text": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim - Whispering Sands) - Breakfast and Shower - check out - transfer to Surabaya Gubeng train station - end program."
+        }
+      ],
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Riverside Homestay",
+          "rooms": "Deluxe Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Doho Homestay",
+          "rooms": "Executive Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 3,
+          "name": "Joglo Kecombrang Bromo",
+          "rooms": "Double (1)",
+          "banner_present": true
+        }
+      ],
+      "addons": [],
+      "crews": {
+        "guides": [
+          {
+            "id": 68,
+            "name": "Boy",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 73,
+            "name": "Joyo",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
+      },
+      "vehicles": [
+        {
+          "name": "MPV",
+          "capacity": "1 - 3 pax",
+          "banner_present": true,
+          "interior_image_count": 7
+        }
+      ],
+      "finance": {
+        "grand_total": 9100000,
+        "total_addons": 0,
+        "dp_amount": 1820000,
+        "balance": 7280000,
+        "paid_amount": 1820000,
+        "due_date": "2026-08-27 00:00:00",
+        "initial_payment_method": "cc",
+        "balance_payment_method": "cc",
+        "payment_link_present": true,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": [
+          {
+            "id": 886,
+            "nominal": 1820000,
+            "description": "Down Payment",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-26 00:36:18",
+            "reference_present": true
+          }
+        ]
+      },
+      "portal_content": {
+        "faq_categories": [
+          "Pre-Tour Information",
+          "During Tour Information",
+          "Activity-Based Information"
+        ],
+        "packing_categories": [
+          "Travel Documents",
+          "Clothing for Varied Climates",
+          "Footwear Essentials",
+          "Health & Safety Priorities",
+          "Must-Have Gear",
+          "Photography Gear",
+          "New Medical Check-Up Requirement",
+          "Personal Expenses"
+        ],
+        "essential_checklist": [
+          {
+            "item": "Valid passport with 6+ months validity",
+            "checked": false
+          },
+          {
+            "item": "Travel insurance purchased",
+            "checked": false
+          },
+          {
+            "item": "Warm clothing for mountain weather (2-5°C)",
+            "checked": false
+          }
+        ],
+        "media_link_present": true
+      }
+    },
+    {
+      "booking_id": 3802,
+      "booking_ref": "JVTO-3802",
+      "booking_code": "JVR/068/09/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "portal_record_id": "portal_c6a5f464f293394e",
+      "privacy": "Customer name, customer id, portal slug, payment links, uploaded proofs, media URLs, and payment references are excluded from this active file. Exception: the free-text itinerary activity field (itinerary_days[].activity_text) is operational text entered by ops staff and may contain coordination details such as passenger names or flight numbers/times; unlike the structured fields, it is not guaranteed to be PII-free.",
+      "product": {
+        "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
+        "duration": "4D 3N",
+        "travel_date_start": "2026-09-14",
+        "travel_date_end": "2026-09-17",
+        "total_pax": 2
+      },
+      "logistics": {
+        "pickup": null,
+        "pickup_time": null,
+        "drop": null,
+        "drop_time": null,
+        "special_requirements_present": false
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "itinerary_days": [
+        {
+          "day": 1,
+          "title": "Day 1",
+          "itinerary": "Bali to Banyuwangi - Arrival and Transfer",
+          "activity_text": "Your adventure begins with a pickup at I Gusti Ngurah Rai International Airport, Bali (DPS) (ideally before 10 AM), or from your hotel in Bali. You will be transferred on a scenic 4-hour drive to Gilimanuk Port, where you'll take a ferry crossing to Ketapang Port in Java (approximately 1 hour). If the weather is clear, enjoy views of Mount Agung in Bali and Mount Raung in Java during the ferry ride. After arriving at Ketapang Port, you’ll continue your journey to your hotel in Banyuwangi for check-in and relaxation."
+        },
+        {
+          "day": 2,
+          "title": "Day 2",
+          "itinerary": "Ijen Crater - Jember - Papuma Beach Sunset",
+          "activity_text": "At 12:00 AM, check out from your hotel and drive to Paltuding, the base area of Ijen Crater (about 1.5 hours). Begin your trek to the crater rim (approximately 1–1.5 hours). At the rim, you’ll witness the stunning turquoise sulfuric crater lake and the impressive crater. You’ll also see the hardworking sulfur miners carry heavy loads of sulfur through the hazardous terrain.After the Ijen Crater adventure, we will stop for coffee and snacks at Malabar Coffee before continuing our journey to a local restaurant in Bondowoso City for lunch.In the afternoon, continue the journey to Jember City and check in to your hotel. At 3:00 PM, head to Papuma Beach (approximately 1 hour) to enjoy stunning sunset views over the sea. Afterward, return to your hotel and relax for the evening."
+        },
+        {
+          "day": 3,
+          "title": "Day 3",
+          "itinerary": "Tumpak Sewu Waterfall to Bromo",
+          "activity_text": "At 4:00 AM, check out from your hotel and drive to Tumpak Sewu Waterfall, known for its magnificent curtain-like water flow. The waterfall is surrounded by smaller cascades, creating a breathtaking sight. To reach the waterfall, follow the river up the canyon, and be prepared to cross the river (wear proper trekking sandals or shoes). Enjoy the waterfall and its natural water spa.After the waterfall adventure and a lunch break, continue your journey to the Bromo area (approximately 4 hours). Upon arrival, check into your hotel and relax overnight in preparation for the Bromo sunrise tour tomorrow."
+        },
+        {
+          "day": 4,
+          "title": "Day 4",
+          "itinerary": "Mount Bromo Stargazing and Sunrise - Transfer to Surabaya",
+          "activity_text": "At 2:00 AM, prepare for the Mount Bromo Stargazing and Milky Way view. After experiencing the stunning night sky, continue to enjoy the sunrise over the Bromo landscape. See the majestic Mount Batok, Mount Bromo, and the mighty Gunung Semeru, the highest volcano in Java.After the sunrise, take a thrilling 4WD or motorcycle ride over the Sand Sea to Poten, a Hindu temple beside Mount Bromo. From Poten, you can either hike 3 km or take a pony ride to the base of Mount Bromo. Climb the 253 steps to the crater rim for an up-close view of the volcano.After exploring Mount Bromo, return to your hotel for breakfast and checkout. Then, embark on your journey back to Surabaya (approximately 4 hours). You can be dropped off at Surabaya Airport, Train Station, or your hotel in Surabaya. We recommend booking a flight after 7:00 PM to allow for the travel time."
+        }
+      ],
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Luminor Hotel",
+          "rooms": "Deluxe Twin (1)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Doho Homestay",
+          "rooms": "Deluxe Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 3,
+          "name": "Joglo Kecombrang Bromo",
+          "rooms": "Double (1)",
+          "banner_present": true
+        }
+      ],
+      "addons": [],
+      "crews": {
+        "guides": [
+          {
+            "id": 46,
+            "name": "Fauzi",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 75,
+            "name": "Didin",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
+      },
+      "vehicles": [
+        {
+          "name": "MPV",
+          "capacity": "1 - 3 pax",
+          "banner_present": true,
+          "interior_image_count": 7
+        }
+      ],
+      "finance": {
+        "grand_total": 9800000,
+        "total_addons": 0,
+        "dp_amount": 1960000,
+        "balance": 7840000,
+        "paid_amount": 1960000,
+        "due_date": "2026-08-27 01:58:47",
+        "initial_payment_method": "cc",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": [
+          {
+            "id": 887,
+            "nominal": 1960000,
+            "description": "Down Payment",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-26 02:00:54",
+            "reference_present": true
+          }
+        ]
+      },
+      "portal_content": {
+        "faq_categories": [
+          "Pre-Tour Information",
+          "During Tour Information",
+          "Activity-Based Information"
+        ],
+        "packing_categories": [
+          "Travel Documents",
+          "Clothing for Varied Climates",
+          "Footwear Essentials",
+          "Health & Safety Priorities",
+          "Must-Have Gear",
+          "Photography Gear",
+          "New Medical Check-Up Requirement",
+          "Personal Expenses"
+        ],
+        "essential_checklist": [
+          {
+            "item": "Valid passport with 6+ months validity",
+            "checked": false
+          },
+          {
+            "item": "Travel insurance purchased",
+            "checked": false
+          },
+          {
+            "item": "Warm clothing for mountain weather (2-5°C)",
+            "checked": false
+          }
+        ],
+        "media_link_present": false
       }
     }
   ]

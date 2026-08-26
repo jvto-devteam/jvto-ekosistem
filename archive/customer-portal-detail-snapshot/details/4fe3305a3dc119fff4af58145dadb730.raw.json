@@ -25,7 +25,7 @@
       "drop": null,
       "drop_time": null,
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/191IhxcLvCkdhfthczA8lgTNQKO0rLBVI",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -35,7 +35,14 @@
         "xxl": 0
       },
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 13,
+            "name": "Rendi",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528903_RENDI.JPG",
+            "role": "Escort Guide"
+          }
+        ],
         "drivers": []
       },
       "vehicle_specs": [

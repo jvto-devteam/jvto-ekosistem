@@ -25,7 +25,7 @@
       "drop": "  ",
       "drop_time": null,
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/1yLxb7C4xWwtefgZOEweoR6WBv3UN4Cwu",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -35,7 +35,14 @@
         "xxl": 0
       },
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 2,
+            "name": "Juan",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1698673228_PHOTO JUAN.png",
+            "role": "Escort Guide"
+          }
+        ],
         "drivers": []
       },
       "vehicle_specs": [

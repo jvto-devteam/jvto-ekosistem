@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-26T10:14:23.940Z",
+  "generated_at": "2026-08-26T10:51:00.109Z",
   "route": "/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
   "domain": "tours",
   "slug": "from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
@@ -102,43 +102,7 @@
             "name": "Internal Package ID",
             "value": "package-SUB-4D3N-003"
           }
-        ],
-        "review": [
-          {
-            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-133"
-          },
-          {
-            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-131"
-          },
-          {
-            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-132"
-          },
-          {
-            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-78"
-          },
-          {
-            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-89"
-          },
-          {
-            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-95"
-          },
-          {
-            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-97"
-          },
-          {
-            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-109"
-          },
-          {
-            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-115"
-          }
-        ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5",
-          "reviewCount": 9,
-          "bestRating": "5",
-          "worstRating": "1"
-        }
+        ]
       },
       {
         "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#day-1",
@@ -537,230 +501,13 @@
             "url": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n"
           }
         ]
-      },
-      {
-        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-133",
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "antoine panier"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "reviewBody": "(Translated by Google) We booked our three-day trip through the agency: a visit to Temack Sewu, Bromo, and then Ijen. Everything went perfectly. I highly recommend requesting Anjas as your guide. He's fantastic. He did everything he could to make our trip as unforgettable as possible.\n\n(Original)\nNous sommes passé par l’agence pour organiser 3 jours : visite de temack sewu, Bromo puis Ijen. Tous s’est très bien passé. Je vous recommande de demander Anjas comme guide. Il est formidable. Il a tout fait pour que notre voyage soit le plus inoubliable possible.",
-        "datePublished": "2026-08-05",
-        "itemReviewed": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#tour"
-        },
-        "publisher": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#platform-google",
-          "@type": "Organization",
-          "name": "Google"
-        }
-      },
-      {
-        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-131",
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Sean O Brien"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "reviewBody": "Great experience with this company, did a 4D3N tumpak sewu, bromo, ijen, madakaripura waterfall tour, was an easy booking process with a well done website, fair price, nice accomodation options with upgrades if desired, nice spacious car for the 4 days, Yusuf was a great driver and was very friendly and helpful, well organised guides for the hikes and seamless 4 days, guides highly recommend to anyone!",
-        "datePublished": "2026-08-02",
-        "itemReviewed": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#tour"
-        },
-        "publisher": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#platform-google",
-          "@type": "Organization",
-          "name": "Google"
-        }
-      },
-      {
-        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-132",
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Sonia Lin"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "reviewBody": "What an incredible 4-day adventure exploring some of East Java’s most spectacular destinations! From the volcanic landscapes of Ijen to the breathtaking Tumpak Sewu waterfall and the unforgettable sunrise at Mount Bromo, every day brought a new and amazing experience.\nA special thanks to our driver, Fredi, for his exceptional driving skills and for taking such good care of us throughout the trip. He was always friendly, helpful, and had a smile on his face. His positive attitude made the journey even more enjoyable! Highly recommended!",
-        "datePublished": "2026-08-02",
-        "itemReviewed": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#tour"
-        },
-        "publisher": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#platform-google",
-          "@type": "Organization",
-          "name": "Google"
-        }
-      },
-      {
-        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-78",
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "HuiYuan Yeoh"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "reviewBody": "Booked the 4d3n tour to Tumpak Sewu, Mt Bromo and Kawah Ijen from the JVTO website. A really memorable trip with spectacular views, well organised itinerary, decent accommodations and the best tour guides. We always arrived early at the waterfall and mountains to avoid the crowds which is a huge plus point.\n\nSpecial thanks to Fauzi for taking good care of us the entire trip. He was friendly, hilarious and easy going where we vibed really well with him over common interests and jokes which made the experience even special. He knows all the good picture spots, takes amazing photos and helps us with anything. He was our guide for Tumpak Sewu and Mt Bromo, we always felt safe and never had to worry about anything under his care.\n\nOur driver, Fredy, was always punctual and is also very chill. Although the drives to each destination are long (avg 3-4 hours) each day, his smooth driving makes it comfortable and we slept like a baby during those journeys!\n\nTaufik, our guide at Kawah Ijen was really friendly and professional . He matches our hiking pace and always checked on us. Although we couldn’t head down to see the blue fire, he lit a small flame for us to see which was really nice.\n\nOverall verdict: I highly recommend this tour company if you want a worry-free and unforgettable trip visiting East Java. They always prioritise safety and all the guides and drivers have incredible hospitality and great attitude. Truly a well-organised and fulfilling adventure!",
-        "datePublished": "2026-07-12",
-        "itemReviewed": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#tour"
-        },
-        "publisher": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#platform-google",
-          "@type": "Organization",
-          "name": "Google"
-        }
-      },
-      {
-        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-89",
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Koyel Das"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "reviewBody": "\"My Java trip was an unforgettable adventure and one of the highlights of my Indonesia journey. Visiting Ijen Crater was a unique experience, with stunning views of the crater lake and the famous blue flames. The hike was challenging but well worth the effort.\nTumpak Sewu Waterfall was absolutely breathtaking and lived up to its reputation as one of the most beautiful waterfalls in Indonesia. The scenery was spectacular, and the viewpoint offered incredible photo opportunities.\nThe sunrise at Mount Bromo was magical. Watching the sun rise over the volcanic landscape was an experience I will never forget. The views from the viewpoint and the walk across the sea of sand were amazing.\nA special thanks to our travel guide, Dinca, who was professional, friendly, and very knowledgeable throughout the trip. Dinca ensured everything was well organized, shared interesting local insights, and made the journey smooth and enjoyable. His support and attention to detail greatly enhanced our experience.\nI highly recommend this Java itinerary to anyone looking for adventure, natural beauty, and unforgettable landscapes. It was a perfect combination of hiking, sightseeing, and cultural experiences.\"\n\nGuide: Dinca – Highly recommended for a hassle-free and memorable Java adventure.",
-        "datePublished": "2026-06-05",
-        "itemReviewed": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#tour"
-        },
-        "publisher": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#platform-google",
-          "@type": "Organization",
-          "name": "Google"
-        }
-      },
-      {
-        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-95",
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Rebecca Tsai"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "reviewBody": "We joined the 4D3N East Java volcano tour with Java Volcano Tour Operator (JVTO) from April 30 to May 3, 2026, and it was truly an unforgettable experience.\n\nOur driver Fredy was friendly, professional, and very attentive throughout the trip. He safely drove us across East Java and even brought us to a perfect sunrise spot at Bromo.\n\nAt Tumpak Sewu, our guide Fusuli was amazing. He carefully guided us through slippery trails, river crossings, and climbing sections while also taking incredible photos and videos for us along the way. At the end, he shared all the edited photos and videos, which left us with wonderful memories of the trip.\n\nFor Ijen, our guide Juan was also kind and professional. Even though the blue fire was closed during our visit, we still enjoyed the beautiful crater lake and sunrise. We also had many enjoyable conversations about Indonesian culture during the hike.\n\nFrom the beginning of the tour until our arrival in Bali, everything was smooth, well organized, and thoughtfully arranged.\n\nWe are very happy we chose JVTO and would highly recommend them to anyone planning an East Java volcano adventure.",
-        "datePublished": "2026-05-18",
-        "itemReviewed": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#tour"
-        },
-        "publisher": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#platform-google",
-          "@type": "Organization",
-          "name": "Google"
-        }
-      },
-      {
-        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-97",
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Yu Qing Yan"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "reviewBody": "Just had an amazing time at Ijen, Tumpak Sewu, and Bromo with Mas Kiki- incredible guide, we got a lot of pictures at the best spots!!!! Everything doesn’t feel rushed, very structured too! Our group had the most amazing time with his friendliness, humour, and flexibility.\n\nWe had a little hiccup with our first driver and had to change to a different driver midway, but thruought the whole journey, the tour operator was very helpful and quick in responses. We really appreciate it!",
-        "datePublished": "2026-05-11",
-        "itemReviewed": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#tour"
-        },
-        "publisher": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#platform-google",
-          "@type": "Organization",
-          "name": "Google"
-        }
-      },
-      {
-        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-109",
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Patarachai Sereerat"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "reviewBody": "Had an amazing trip visiting Bromo, Ijen Crater, and Tumpak Sewu Waterfall! Everything was well organized and the price was really good. The staff were super kind and helpful — special thanks to Yandi (our driver who’s been staying with us the whole trip) and Boy (our guide to Ijen crater). They were so friendly and shared lots of useful info. Even though we had to wake up in the middle of the night, it was totally worth it! Highly recommended",
-        "datePublished": "2026-01-18",
-        "itemReviewed": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#tour"
-        },
-        "publisher": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#platform-google",
-          "@type": "Organization",
-          "name": "Google"
-        }
-      },
-      {
-        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#review-115",
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "bin"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "reviewBody": "We joined the Bromo–Ijen–Sewu trip with JVTO, and we were lucky to have Rendi and Anjas as our tour guides. They were absolutely amazing! Both of them were clear with their instructions, helpful throughout the journey, and brought such good vibes to the whole experience.\n\nThey provided strong emotional support and knew exactly how to connect with our young team. Always friendly, patient, and cheerful, they made a physically demanding trip feel a lot more enjoyable.\n\nIf we get the chance to travel with JVTO again, we truly hope Renji and Anjas will be our guides once more. Highly recommended!",
-        "datePublished": "2025-08-02",
-        "itemReviewed": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#tour"
-        },
-        "publisher": {
-          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n#platform-google",
-          "@type": "Organization",
-          "name": "Google"
-        }
       }
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-25T02:10:00.232Z",
+    "generated_at": "2026-08-26T10:51:00.109Z",
     "source_files": [
-      "2-product-and-commercial-core/tour-products/tours__from-surabaya__tumpak-sewu-bromo-ijen-4d3n.product-contract.json",
-      "1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json"
+      "2-product-and-commercial-core/tour-products/tours__from-surabaya__tumpak-sewu-bromo-ijen-4d3n.product-contract.json"
     ],
     "confidence": "verified",
     "migration_note": "TouristTrip + Offer/AggregateOffer relocated from jvto-web's inline per-page builder (tours/from-bali/[slug]/page.tsx and tours/from-surabaya/[slug]/page.tsx) to ekosistem, consistent with every other JSON-LD node in this pipeline (design spec 2026-08-20-ekosistem-schema-rendering-consolidation-design.md, Bagian 3). WebPage, BreadcrumbList, Product, and the DefinedTerm mentions/subjectOf augmentation stay local to jvto-web — out of scope for this generator."

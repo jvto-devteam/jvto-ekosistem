@@ -35,8 +35,22 @@
         "xxl": 1
       },
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 13,
+            "name": "Rendi",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528903_RENDI.JPG",
+            "role": "Escort Guide"
+          }
+        ],
+        "drivers": [
+          {
+            "id": 75,
+            "name": "Didin",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528640_Adim 2.jpeg",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {

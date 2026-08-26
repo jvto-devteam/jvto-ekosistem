@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto-product/customer-portal-itinerary-records-v1",
-  "generated_at": "2026-08-25T02:10:00.214Z",
-  "record_count": 146,
+  "generated_at": "2026-08-26T10:51:00.087Z",
+  "record_count": 148,
   "records": [
     {
       "booking_id": 1566,
@@ -4192,6 +4192,70 @@
           "title": "Day 4",
           "itinerary": "Ijen Crater - Bali",
           "activity_text": "Start at 12:00 AM, checking out from your hotel and driving to the Paltuding trailhead for Ijen Crater (about 90 minutes). From there, trek approximately 1-1.5 hours to the crater rim, where you’ll witness the spectacular turquoise sulfuric crater lake. You’ll also have the chance to observe sulfur miners carrying heavy loads of sulfur despite the harsh conditions. Enjoy the sunrise at the crater before heading back down. After Ijen Crater, drive to Ketapang Harbor and take the ferry to Bali (about 1.5 hours). Your adventure concludes upon arrival in Bali."
+        }
+      ]
+    },
+    {
+      "booking_id": 3801,
+      "booking_ref": "JVTO-3801",
+      "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+      "duration": "4D 3N",
+      "itinerary_days": [
+        {
+          "day": 1,
+          "title": "Day 1",
+          "itinerary": "Surabaya Airport - Bondowoso",
+          "activity_text": "Your exciting Bromo and Ijen adventure begins with a warm welcome at Surabaya Airport. We’ll pick you up (best before noon) and start our scenic 5-hour drive to Bondowoso. Along the way, we’ll stop at a local restaurant in Probolinggo for lunch at your own expense. Enjoy the changing landscapes as you make your way towards Bondowoso. After arriving at hotel in Bondowoso, take some time to relax and settle in. Enjoy a delicious dinner and rest up for the next day’s adventure."
+        },
+        {
+          "day": 2,
+          "title": "Day 2",
+          "itinerary": "Ijen Crater - Papuma Beach Sunset",
+          "activity_text": "Your day starts early at midnight with a drive to Paltuding, the base of Ijen Crater. After about 1.5 hours on the road, you’ll begin your 1-1.5 hour trek to the crater rim. Upon reaching the rim, you’ll be greeted by the breathtaking sight of the 200-meter deep turquoise sulfuric lake, set against a dramatic volcanic landscape. Witness the extraordinary work of sulfur miners who carry heavy loads through hazardous terrain and toxic fumes. After enjoying the sunrise at Ijen Crater, we stop at the Malabar Coffee Plantation for a refreshing coffee break and snacks. Then, we return to your hotel in Bondowoso for a shower and check-out before heading to the next destination. In the afternoon, we journey to Jember City, where you’ll check in at Doho Homestay. After a brief rest, we set off for Papuma Beach, a one-hour drive away. Be mesmerized by the stunning sunset views over the sea, offering the perfect end to a day filled with natural wonders."
+        },
+        {
+          "day": 3,
+          "title": "Day 3",
+          "itinerary": "Tumpak Sewu - Bromo Area",
+          "activity_text": "Our journey begins early at 4:00 AM as we check out and head to Tumpak Sewu Waterfall, one of the most beautiful waterfalls in Java. Known for its unique half-circle formation, the waterfall consists of multiple mini-waterfalls cascading from a height of around 300 meters. A short, adventurous trek takes you across rocks and streams to reach the waterfall, so be sure to bring appropriate trekking sandals or shoes. After exploring the falls and perhaps even enjoying a natural water spa, we will have lunch before continuing our journey to the Bromo area. The drive will take approximately 4 hours, bringing you closer to the iconic Bromo Volcano."
+        },
+        {
+          "day": 4,
+          "title": "Day 4",
+          "itinerary": "Bromo Sunrise - Surabaya City",
+          "activity_text": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim - Whispering Sands) - Breakfast and Shower - check out - transfer to Surabaya Gubeng train station - end program."
+        }
+      ]
+    },
+    {
+      "booking_id": 3802,
+      "booking_ref": "JVTO-3802",
+      "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+      "duration": "4D 3N",
+      "itinerary_days": [
+        {
+          "day": 1,
+          "title": "Day 1",
+          "itinerary": "Bali to Banyuwangi - Arrival and Transfer",
+          "activity_text": "Your adventure begins with a pickup at I Gusti Ngurah Rai International Airport, Bali (DPS) (ideally before 10 AM), or from your hotel in Bali. You will be transferred on a scenic 4-hour drive to Gilimanuk Port, where you'll take a ferry crossing to Ketapang Port in Java (approximately 1 hour). If the weather is clear, enjoy views of Mount Agung in Bali and Mount Raung in Java during the ferry ride. After arriving at Ketapang Port, you’ll continue your journey to your hotel in Banyuwangi for check-in and relaxation."
+        },
+        {
+          "day": 2,
+          "title": "Day 2",
+          "itinerary": "Ijen Crater - Jember - Papuma Beach Sunset",
+          "activity_text": "At 12:00 AM, check out from your hotel and drive to Paltuding, the base area of Ijen Crater (about 1.5 hours). Begin your trek to the crater rim (approximately 1–1.5 hours). At the rim, you’ll witness the stunning turquoise sulfuric crater lake and the impressive crater. You’ll also see the hardworking sulfur miners carry heavy loads of sulfur through the hazardous terrain.After the Ijen Crater adventure, we will stop for coffee and snacks at Malabar Coffee before continuing our journey to a local restaurant in Bondowoso City for lunch.In the afternoon, continue the journey to Jember City and check in to your hotel. At 3:00 PM, head to Papuma Beach (approximately 1 hour) to enjoy stunning sunset views over the sea. Afterward, return to your hotel and relax for the evening."
+        },
+        {
+          "day": 3,
+          "title": "Day 3",
+          "itinerary": "Tumpak Sewu Waterfall to Bromo",
+          "activity_text": "At 4:00 AM, check out from your hotel and drive to Tumpak Sewu Waterfall, known for its magnificent curtain-like water flow. The waterfall is surrounded by smaller cascades, creating a breathtaking sight. To reach the waterfall, follow the river up the canyon, and be prepared to cross the river (wear proper trekking sandals or shoes). Enjoy the waterfall and its natural water spa.After the waterfall adventure and a lunch break, continue your journey to the Bromo area (approximately 4 hours). Upon arrival, check into your hotel and relax overnight in preparation for the Bromo sunrise tour tomorrow."
+        },
+        {
+          "day": 4,
+          "title": "Day 4",
+          "itinerary": "Mount Bromo Stargazing and Sunrise - Transfer to Surabaya",
+          "activity_text": "At 2:00 AM, prepare for the Mount Bromo Stargazing and Milky Way view. After experiencing the stunning night sky, continue to enjoy the sunrise over the Bromo landscape. See the majestic Mount Batok, Mount Bromo, and the mighty Gunung Semeru, the highest volcano in Java.After the sunrise, take a thrilling 4WD or motorcycle ride over the Sand Sea to Poten, a Hindu temple beside Mount Bromo. From Poten, you can either hike 3 km or take a pony ride to the base of Mount Bromo. Climb the 253 steps to the crater rim for an up-close view of the volcano.After exploring Mount Bromo, return to your hotel for breakfast and checkout. Then, embark on your journey back to Surabaya (approximately 4 hours). You can be dropped off at Surabaya Airport, Train Station, or your hotel in Surabaya. We recommend booking a flight after 7:00 PM to allow for the travel time."
         }
       ]
     }

@@ -25,7 +25,7 @@
       "drop": "  ",
       "drop_time": null,
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/11EMwPpBnjJ4WJh_sPL7faCX2HbrrBy0U",
       "tshirt_sizes": {
         "xs": 0,
         "s": 1,
@@ -35,7 +35,14 @@
         "xxl": 0
       },
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 17,
+            "name": "Kiki",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528887_KIKI.JPG",
+            "role": "Escort Guide"
+          }
+        ],
         "drivers": []
       },
       "vehicle_specs": [

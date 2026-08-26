@@ -25,7 +25,7 @@
       "drop": "泗水機場",
       "drop_time": null,
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/1-K-YBcYevF-AWD9MJgCrBjECUSkYSZ2-",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -36,7 +36,14 @@
       },
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 82,
+            "name": "Egy",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1786426817_WhatsApp Image 2026-08-11 at 12.29.25.jpeg",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {

@@ -25,7 +25,7 @@
       "drop": "  ",
       "drop_time": null,
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/1lGnbiodNusRxWa4R2F4cPFCRIZwNUqGX",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -35,8 +35,22 @@
         "xxl": 0
       },
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 13,
+            "name": "Rendi",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528903_RENDI.JPG",
+            "role": "Escort Guide"
+          }
+        ],
+        "drivers": [
+          {
+            "id": 75,
+            "name": "Didin",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528640_Adim 2.jpeg",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {
@@ -105,12 +119,12 @@
         "grand_total": 9100000,
         "total_addons": 0,
         "dp_amount": 2030000,
-        "balance": 7070000,
-        "paid_amount": 2030000,
+        "balance": 0,
+        "paid_amount": 9100000,
         "due_date": "2026-08-09 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
-        "payment_link": null,
+        "payment_link": "https://checkout.xendit.co/web/6a8d4f0e8b7c9cef8236dbff",
         "pending_upload_proof": false,
         "uploaded_payment_proof": null,
         "payment_history": [
@@ -121,6 +135,14 @@
             "reference": "https://checkout.xendit.co/web/6a772acd05eca6c3174eb199",
             "method": "Debit/Credit Card",
             "created_at": "2026-08-08 20:14:02"
+          },
+          {
+            "id": 888,
+            "nominal": 7070000,
+            "description": "Payment (Paid in Full)",
+            "reference": "https://checkout.xendit.co/web/6a8d4f0e8b7c9cef8236dbff",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-26 15:36:44"
           }
         ]
       },

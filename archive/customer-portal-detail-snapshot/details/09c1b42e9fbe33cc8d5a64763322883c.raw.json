@@ -25,7 +25,7 @@
       "drop": "",
       "drop_time": null,
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/1CmdNSJhiOi9Iix3wYDmnNwP1Pc9sGkBV",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -36,7 +36,14 @@
       },
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 81,
+            "name": "Romi",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1777815953_Screenshot 2026-05-03 at 20.45.21.png",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {

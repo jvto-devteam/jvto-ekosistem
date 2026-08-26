@@ -25,7 +25,7 @@
       "drop": "Surabaya Hotel  Sheraton Surabaya Hotel & Towers.",
       "drop_time": "15:00:00",
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/1_voD8Cc7rK7agDsSmOdjyiH2Y9me4TDi",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -35,7 +35,14 @@
         "xxl": 0
       },
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 46,
+            "name": "Fauzi",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528816_FAUZI.JPG",
+            "role": "Escort Guide"
+          }
+        ],
         "drivers": []
       },
       "vehicle_specs": [

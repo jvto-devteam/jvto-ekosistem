@@ -25,7 +25,7 @@
       "drop": "  ",
       "drop_time": null,
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/1OJw1_sCgyHCaav-9crlj0m81DQvTBJVG",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -35,8 +35,22 @@
         "xxl": 0
       },
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 39,
+            "name": "Gufron",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528674_GUFRO.jpeg",
+            "role": "Escort Guide"
+          }
+        ],
+        "drivers": [
+          {
+            "id": 75,
+            "name": "Didin",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528640_Adim 2.jpeg",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {

@@ -25,7 +25,7 @@
       "drop": "Surabaya Hotel (Ikiru to Live： Jl. Ngagel Jaya Selatan III No.3 009, RT.009/RW.03, Pucang Sewu, Kec. Gubeng, Surabaya, Jawa Timur 60283, Indonesia)",
       "drop_time": "18:00:00",
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/1KBRymx4NWTioYEkD2FROHRld7aOq85v-",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -36,7 +36,14 @@
       },
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 62,
+            "name": "Yusuf",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1723647328_WhatsApp Image 2024-08-14 at 20.45.38.jpeg",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {

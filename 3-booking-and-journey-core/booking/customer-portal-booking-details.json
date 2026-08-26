@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-booking/customer-portal-booking-details-v1",
-  "generated_at": "2026-08-25T02:10:00.212Z",
+  "generated_at": "2026-08-26T10:51:00.085Z",
   "privacy": "No customer names, contact details, portal slugs, payment links, media links, payment references, or uploaded proof URLs are stored.",
-  "record_count": 146,
+  "record_count": 148,
   "records": [
     {
       "booking_id": 1566,
@@ -5633,7 +5633,7 @@
       },
       "addons": [
         {
-          "id": 741,
+          "id": 780,
           "name": "Madakaripura Waterfall",
           "qty": 2,
           "price": 200000,
@@ -6008,12 +6008,12 @@
         "grand_total": 9100000,
         "total_addons": 0,
         "dp_amount": 2030000,
-        "balance": 7070000,
-        "paid_amount": 2030000,
+        "balance": 0,
+        "paid_amount": 9100000,
         "due_date": "2026-08-09 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
-        "payment_link_present": false,
+        "payment_link_present": true,
         "pending_upload_proof": false,
         "uploaded_payment_proof_present": false,
         "payment_history": [
@@ -6023,6 +6023,14 @@
             "description": "Down Payment",
             "method": "Debit/Credit Card",
             "created_at": "2026-08-08 20:14:02",
+            "reference_present": true
+          },
+          {
+            "id": 888,
+            "nominal": 7070000,
+            "description": "Payment (Paid in Full)",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-26 15:36:44",
             "reference_present": true
           }
         ]
@@ -7288,6 +7296,100 @@
             "description": "Down Payment (Full Payment)",
             "method": "Bank Transfer",
             "created_at": "2026-08-24 11:00:55",
+            "reference_present": true
+          }
+        ]
+      }
+    },
+    {
+      "booking_id": 3801,
+      "booking_ref": "JVTO-3801",
+      "booking_code": "JVR/067/09/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "product": {
+        "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
+        "duration": "4D 3N",
+        "travel_date_start": "2026-09-21",
+        "travel_date_end": "2026-09-24",
+        "total_pax": 2
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "addons": [],
+      "finance": {
+        "grand_total": 9100000,
+        "total_addons": 0,
+        "dp_amount": 1820000,
+        "balance": 7280000,
+        "paid_amount": 1820000,
+        "due_date": "2026-08-27 00:00:00",
+        "initial_payment_method": "cc",
+        "balance_payment_method": "cc",
+        "payment_link_present": true,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": [
+          {
+            "id": 886,
+            "nominal": 1820000,
+            "description": "Down Payment",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-26 00:36:18",
+            "reference_present": true
+          }
+        ]
+      }
+    },
+    {
+      "booking_id": 3802,
+      "booking_ref": "JVTO-3802",
+      "booking_code": "JVR/068/09/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "product": {
+        "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
+        "duration": "4D 3N",
+        "travel_date_start": "2026-09-14",
+        "travel_date_end": "2026-09-17",
+        "total_pax": 2
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "addons": [],
+      "finance": {
+        "grand_total": 9800000,
+        "total_addons": 0,
+        "dp_amount": 1960000,
+        "balance": 7840000,
+        "paid_amount": 1960000,
+        "due_date": "2026-08-27 01:58:47",
+        "initial_payment_method": "cc",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": [
+          {
+            "id": 887,
+            "nominal": 1960000,
+            "description": "Down Payment",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-26 02:00:54",
             "reference_present": true
           }
         ]

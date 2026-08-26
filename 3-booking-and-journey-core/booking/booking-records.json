@@ -668,7 +668,7 @@
           "id": 79,
           "name": "Edi",
           "tags": "JVTO,KLOOK",
-          "monthlyEscortCount": 4
+          "monthlyEscortCount": 5
         }
       ],
       "guides": [
@@ -847,7 +847,7 @@
           "id": 80,
           "name": "Sahril",
           "tags": "JVTO,KLOOK",
-          "monthlyEscortCount": 4
+          "monthlyEscortCount": 3
         }
       ],
       "guides": [
@@ -4219,7 +4219,7 @@
           "id": 79,
           "name": "Edi",
           "tags": "JVTO,KLOOK",
-          "monthlyEscortCount": 4
+          "monthlyEscortCount": 5
         }
       ],
       "guides": [
@@ -6435,7 +6435,7 @@
           "id": 79,
           "name": "Edi",
           "tags": "JVTO,KLOOK",
-          "monthlyEscortCount": 4
+          "monthlyEscortCount": 5
         }
       ],
       "guides": [
@@ -9328,7 +9328,7 @@
           "id": 80,
           "name": "Sahril",
           "tags": "JVTO,KLOOK",
-          "monthlyEscortCount": 4
+          "monthlyEscortCount": 3
         }
       ],
       "guides": [
@@ -10380,7 +10380,7 @@
           "id": 79,
           "name": "Edi",
           "tags": "JVTO,KLOOK",
-          "monthlyEscortCount": 4
+          "monthlyEscortCount": 5
         }
       ],
       "guides": [
@@ -12560,10 +12560,10 @@
       ],
       "drivers": [
         {
-          "id": 80,
-          "name": "Sahril",
+          "id": 79,
+          "name": "Edi",
           "tags": "JVTO,KLOOK",
-          "monthlyEscortCount": 4
+          "monthlyEscortCount": 5
         }
       ],
       "guides": [],
@@ -13506,7 +13506,7 @@
         }
       },
       "vehicles": [
-        "Avanza Hendra"
+        "Avanza Didin"
       ],
       "drivers": [
         {
@@ -13870,7 +13870,7 @@
           "id": 80,
           "name": "Sahril",
           "tags": "JVTO,KLOOK",
-          "monthlyEscortCount": 4
+          "monthlyEscortCount": 3
         }
       ],
       "guides": [],
@@ -14272,14 +14272,6 @@
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 5,
           "monthlyIjenCount": 4
-        },
-        {
-          "id": 13,
-          "name": "Rendi",
-          "role": "Ijen",
-          "tags": "JVTO,KLOOK,TWT",
-          "monthlyEscortCount": 6,
-          "monthlyIjenCount": 1
         }
       ],
       "isShuttle": "YES",
@@ -14504,14 +14496,6 @@
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 6,
           "monthlyIjenCount": 3
-        },
-        {
-          "id": 4,
-          "name": "Taufik",
-          "role": "Ijen",
-          "tags": "JVTO,KLOOK,TWT",
-          "monthlyEscortCount": 6,
-          "monthlyIjenCount": 2
         }
       ],
       "isShuttle": "YES",
@@ -14810,8 +14794,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 62,
+          "name": "Yusuf",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 5
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "02 Sep 26",
@@ -14830,8 +14823,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -14970,8 +14963,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Boy"
+      ],
+      "drivers": [
+        {
+          "id": 7,
+          "name": "Fredi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 8
+        }
+      ],
       "guides": [],
       "isShuttle": "YES",
       "ijenDate": "02 Sep 26",
@@ -14990,8 +14992,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -15130,8 +15132,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 1,
+          "name": "Yandi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 9
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "02 Sep 26",
@@ -15150,8 +15161,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -15258,9 +15269,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Avanza Yus"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 14
+        }
+      ],
+      "guides": [
+        {
+          "id": 2,
+          "name": "Juan",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 3,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "03 Sep 26",
       "customer": {
@@ -15295,9 +15324,9 @@
       "readiness": {
         "hasPickup": false,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": true,
@@ -15436,9 +15465,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Avanza Didin"
+      ],
+      "drivers": [
+        {
+          "id": 75,
+          "name": "Didin",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5
+        }
+      ],
+      "guides": [
+        {
+          "id": 13,
+          "name": "Rendi",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "02 Sep 26",
       "customer": {
@@ -15447,9 +15494,9 @@
         "country": "Germany (Deutschland)"
       },
       "payment": {
-        "paid": 2030000,
+        "paid": 9100000,
         "invoiceTotal": 9100000,
-        "balance": 7070000,
+        "balance": 0,
         "paymentMethod": null,
         "history": [
           {
@@ -15459,19 +15506,27 @@
             "method": "Debit/Credit Card",
             "description": "Down Payment",
             "date": "08 Aug 26 20:14"
+          },
+          {
+            "id": 888,
+            "amount": 7070000,
+            "methodId": 3,
+            "method": "Debit/Credit Card",
+            "description": "Payment (Paid in Full)",
+            "date": "26 Aug 26 15:36"
           }
         ]
       },
       "readiness": {
         "hasPickup": false,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
-        "balanceStatus": "balance_due"
+        "balanceStatus": "settled"
       }
     },
     {
@@ -15586,9 +15641,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Hiace Commuter"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 14
+        }
+      ],
+      "guides": [
+        {
+          "id": 46,
+          "name": "Fauzi",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "03 Sep 26",
       "customer": {
@@ -15606,9 +15679,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
         "hasNotes": false,
@@ -15750,9 +15823,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Hiace Premio"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 14
+        }
+      ],
+      "guides": [
+        {
+          "id": 39,
+          "name": "Gufron",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": null,
       "customer": {
@@ -15770,9 +15861,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
         "hasNotes": false,
@@ -15886,8 +15977,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 80,
+          "name": "Sahril",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 2
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "03 Sep 26",
@@ -15906,8 +16006,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -16022,9 +16122,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Daihatsu Sigra"
+      ],
+      "drivers": [
+        {
+          "id": 28,
+          "name": "Holili",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 7
+        }
+      ],
+      "guides": [
+        {
+          "id": 4,
+          "name": "Taufik",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "05 Sep 26",
       "customer": {
@@ -16051,9 +16169,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -16167,8 +16285,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 79,
+          "name": "Edi",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 2
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "05 Sep 26",
@@ -16187,8 +16314,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -16327,8 +16454,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Boy"
+      ],
+      "drivers": [
+        {
+          "id": 7,
+          "name": "Fredi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 8
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "06 Sep 26",
@@ -16347,8 +16483,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -16484,8 +16620,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 1,
+          "name": "Yandi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 9
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "08 Sep 26",
@@ -16513,8 +16658,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": true,
@@ -16676,10 +16821,28 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
-      "isShuttle": "NO",
+      "vehicles": [
+        "Toyota Calya"
+      ],
+      "drivers": [
+        {
+          "id": 73,
+          "name": "Joyo",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 7
+        }
+      ],
+      "guides": [
+        {
+          "id": 17,
+          "name": "Kiki",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
+      "isShuttle": "YES",
       "ijenDate": "06 Sep 26",
       "customer": {
         "guestId": 4064,
@@ -16705,9 +16868,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -16850,9 +17013,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Avanza Yus"
+      ],
+      "drivers": [
+        {
+          "id": 28,
+          "name": "Holili",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 7
+        }
+      ],
+      "guides": [
+        {
+          "id": 3,
+          "name": "Anjas",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "09 Sep 26",
       "customer": {
@@ -16895,9 +17076,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -17011,9 +17192,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Daihatsu Sigra"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 14
+        }
+      ],
+      "guides": [
+        {
+          "id": 68,
+          "name": "Boy",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "09 Sep 26",
       "customer": {
@@ -17048,12 +17247,12 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
-        "hasNotes": false,
+        "hasNotes": true,
         "balanceStatus": "settled"
       }
     },
@@ -17164,9 +17363,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Avanza Yus 2"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 14
+        }
+      ],
+      "guides": [
+        {
+          "id": 4,
+          "name": "Taufik",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "09 Sep 26",
       "customer": {
@@ -17193,12 +17410,12 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
-        "hasNotes": false,
+        "hasNotes": true,
         "balanceStatus": "balance_due"
       }
     },
@@ -17333,8 +17550,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 62,
+          "name": "Yusuf",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 5
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "08 Sep 26",
@@ -17353,8 +17579,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -17469,8 +17695,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 83,
+          "name": "Toriq",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 2
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "08 Sep 26",
@@ -17489,8 +17724,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -17678,9 +17913,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Avanza Didin"
+      ],
+      "drivers": [
+        {
+          "id": 75,
+          "name": "Didin",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5
+        }
+      ],
+      "guides": [
+        {
+          "id": 13,
+          "name": "Rendi",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "YES",
       "ijenDate": "12 Sep 26",
       "customer": {
@@ -17698,9 +17951,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
         "hasNotes": true,
@@ -17814,9 +18067,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Toyota Calya"
+      ],
+      "drivers": [
+        {
+          "id": 73,
+          "name": "Joyo",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 7
+        }
+      ],
+      "guides": [
+        {
+          "id": 46,
+          "name": "Fauzi",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "11 Sep 26",
       "customer": {
@@ -17843,9 +18114,9 @@
       "readiness": {
         "hasPickup": false,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -17983,8 +18254,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 82,
+          "name": "Egy",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 2
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "10 Sep 26",
@@ -18003,8 +18283,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -18120,8 +18400,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Boy"
+      ],
+      "drivers": [
+        {
+          "id": 7,
+          "name": "Fredi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 8
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "10 Sep 26",
@@ -18149,8 +18438,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": true,
@@ -18314,9 +18603,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Daihatsu Sigra"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 14
+        }
+      ],
+      "guides": [
+        {
+          "id": 68,
+          "name": "Boy",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "11 Sep 26",
       "customer": {
@@ -18359,9 +18666,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -18500,9 +18807,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Avanza Yus"
+      ],
+      "drivers": [
+        {
+          "id": 28,
+          "name": "Holili",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 7
+        }
+      ],
+      "guides": [
+        {
+          "id": 3,
+          "name": "Anjas",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "11 Sep 26",
       "customer": {
@@ -18545,9 +18870,9 @@
       "readiness": {
         "hasPickup": false,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -18686,9 +19011,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Avanza Yus 2"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 14
+        }
+      ],
+      "guides": [
+        {
+          "id": 4,
+          "name": "Taufik",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "11 Sep 26",
       "customer": {
@@ -18715,9 +19058,9 @@
       "readiness": {
         "hasPickup": false,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -18831,8 +19174,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 1,
+          "name": "Yandi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 9
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "12 Sep 26",
@@ -18868,8 +19220,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": true,
@@ -19039,9 +19391,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Hiace Premio"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 14
+        }
+      ],
+      "guides": [
+        {
+          "id": 17,
+          "name": "Kiki",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "YES",
       "ijenDate": "15 Sep 26",
       "customer": {
@@ -19059,9 +19429,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
         "hasNotes": false,
@@ -19175,8 +19545,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Boy"
+      ],
+      "drivers": [
+        {
+          "id": 7,
+          "name": "Fredi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 8
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "13 Sep 26",
@@ -19195,8 +19574,8 @@
       "readiness": {
         "hasPickup": false,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -19278,9 +19657,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Hiace Commuter"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 14
+        }
+      ],
+      "guides": [
+        {
+          "id": 46,
+          "name": "Fauzi",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": null,
       "customer": {
@@ -19307,9 +19704,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": true,
@@ -19423,9 +19820,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Hiace Commuter"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 14
+        }
+      ],
+      "guides": [
+        {
+          "id": 39,
+          "name": "Gufron",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "15 Sep 26",
       "customer": {
@@ -19452,9 +19867,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": true,
@@ -19592,9 +20007,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 73,
+          "name": "Joyo",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 7
+        }
+      ],
+      "guides": [
+        {
+          "id": 13,
+          "name": "Rendi",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "16 Sep 26",
       "customer": {
@@ -19621,9 +20054,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -19761,8 +20194,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Innova Reborn"
+      ],
+      "drivers": [
+        {
+          "id": 83,
+          "name": "Toriq",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 2
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "14 Sep 26",
@@ -19781,8 +20223,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -19921,9 +20363,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Avanza Yus"
+      ],
+      "drivers": [
+        {
+          "id": 28,
+          "name": "Holili",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 7
+        }
+      ],
+      "guides": [
+        {
+          "id": 3,
+          "name": "Anjas",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "17 Sep 26",
       "customer": {
@@ -19950,9 +20410,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -20065,8 +20525,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Innova Zenix"
+      ],
+      "drivers": [
+        {
+          "id": 1,
+          "name": "Yandi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 9
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": null,
@@ -20094,8 +20563,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": true,
@@ -20210,8 +20679,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 62,
+          "name": "Yusuf",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 5
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "16 Sep 26",
@@ -20239,8 +20717,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": true,
@@ -20379,9 +20857,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Avanza Yus 2"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 14
+        }
+      ],
+      "guides": [
+        {
+          "id": 4,
+          "name": "Taufik",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "17 Sep 26",
       "customer": {
@@ -20408,9 +20904,195 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
+        "hasHotels": true,
+        "hasPaymentHistory": true,
+        "hasNotes": true,
+        "balanceStatus": "balance_due"
+      }
+    },
+    {
+      "bookingId": 3802,
+      "bookingCode": "JVTO-3802",
+      "orderChannel": "JVTO",
+      "packageId": 54,
+      "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+      "duration": "4D 3N",
+      "totalPax": 2,
+      "bookingDate": "26 Aug 2026",
+      "tripDate": {
+        "start_ymd": "2026-09-14",
+        "end_ymd": "2026-09-17",
+        "start": "14 Sep 26",
+        "end": "17 Sep 26",
+        "days": "Mon - Thu"
+      },
+      "pickup": {
+        "meetingPoint": null,
+        "arrival": null,
+        "value": null,
+        "time": "07:00",
+        "text": null,
+        "complete": false
+      },
+      "dropoff": {
+        "dropPoint": null,
+        "arrival": null,
+        "value": null,
+        "time": "07:00",
+        "text": null,
+        "complete": false
+      },
+      "itinerary": [
+        {
+          "day": 1,
+          "date": "14 Sep 2026",
+          "itinerary": "Bali to Banyuwangi - Arrival and Transfer",
+          "activity": "Bali",
+          "destination_id": 3,
+          "destination": "Bali"
+        },
+        {
+          "day": 2,
+          "date": "15 Sep 2026",
+          "itinerary": "Ijen Crater - Jember - Papuma Beach Sunset",
+          "activity": "Ijen Crater Hike",
+          "destination_id": 2,
+          "destination": "Mount Ijen"
+        },
+        {
+          "day": 3,
+          "date": "16 Sep 2026",
+          "itinerary": "Tumpak Sewu Waterfall to Bromo",
+          "activity": "Tumpak Sewu Waterfall Tour",
+          "destination_id": 7,
+          "destination": "Tumpak Sewu Waterfall"
+        },
+        {
+          "day": 4,
+          "date": "17 Sep 2026",
+          "itinerary": "Mount Bromo Stargazing and Sunrise - Transfer to Surabaya",
+          "activity": "Bromo Sunrise Tour",
+          "destination_id": 1,
+          "destination": "Mount Bromo"
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "14 Sep 2026",
+          "hotelId": 32,
+          "hotel": "Luminor Hotel",
+          "rooms": [
+            {
+              "roomId": 185,
+              "roomName": "Deluxe Twin",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "15 Sep 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "16 Sep 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "tshirt": {
+        "text": "",
+        "sizes": {
+          "xss": 0,
+          "xxs": 0,
+          "xs": 0,
+          "s": 0,
+          "m": 0,
+          "l": 0,
+          "xl": 0,
+          "xxl": 0,
+          "xxxl": 0
+        }
+      },
+      "vehicles": [
+        "Avanza Didin"
+      ],
+      "drivers": [
+        {
+          "id": 75,
+          "name": "Didin",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5
+        }
+      ],
+      "guides": [
+        {
+          "id": 46,
+          "name": "Fauzi",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
+      "isShuttle": "NO",
+      "ijenDate": "15 Sep 26",
+      "customer": {
+        "guestId": 4128,
+        "countryId": null,
+        "country": null
+      },
+      "payment": {
+        "paid": 1960000,
+        "invoiceTotal": 9800000,
+        "balance": 7840000,
+        "paymentMethod": null,
+        "history": [
+          {
+            "id": 887,
+            "amount": 1960000,
+            "methodId": 3,
+            "method": "Debit/Credit Card",
+            "description": "Down Payment",
+            "date": "26 Aug 26 02:00"
+          }
+        ]
+      },
+      "readiness": {
+        "hasPickup": false,
+        "hasDropoff": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -20524,8 +21206,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Boy"
+      ],
+      "drivers": [
+        {
+          "id": 7,
+          "name": "Fredi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 8
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "17 Sep 26",
@@ -20553,8 +21244,8 @@
       "readiness": {
         "hasPickup": false,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": true,
@@ -20693,8 +21384,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 80,
+          "name": "Sahril",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 2
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "17 Sep 26",
@@ -20713,8 +21413,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -20853,8 +21553,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 79,
+          "name": "Edi",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 2
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "17 Sep 26",
@@ -20873,8 +21582,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -20990,9 +21699,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Daihatsu Sigra"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 14
+        }
+      ],
+      "guides": [
+        {
+          "id": 17,
+          "name": "Kiki",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "17 Sep 26",
       "customer": {
@@ -21019,12 +21746,12 @@
       "readiness": {
         "hasPickup": false,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
-        "hasNotes": false,
+        "hasNotes": true,
         "balanceStatus": "balance_due"
       }
     },
@@ -21130,8 +21857,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 1,
+          "name": "Yandi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 9
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "18 Sep 26",
@@ -21159,8 +21895,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": true,
@@ -21275,9 +22011,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Toyota Calya"
+      ],
+      "drivers": [
+        {
+          "id": 73,
+          "name": "Joyo",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 7
+        }
+      ],
+      "guides": [
+        {
+          "id": 2,
+          "name": "Juan",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 3,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "19 Sep 26",
       "customer": {
@@ -21304,9 +22058,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -21420,9 +22174,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Avanza Yus 2"
+      ],
+      "drivers": [
+        {
+          "id": 75,
+          "name": "Didin",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5
+        }
+      ],
+      "guides": [
+        {
+          "id": 39,
+          "name": "Gufron",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "20 Sep 26",
       "customer": {
@@ -21449,9 +22221,9 @@
       "readiness": {
         "hasPickup": false,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -21589,8 +22361,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Boy"
+      ],
+      "drivers": [
+        {
+          "id": 7,
+          "name": "Fredi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 8
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "19 Sep 26",
@@ -21609,8 +22390,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -21751,9 +22532,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Avanza Yus"
+      ],
+      "drivers": [
+        {
+          "id": 28,
+          "name": "Holili",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 7
+        }
+      ],
+      "guides": [
+        {
+          "id": 3,
+          "name": "Anjas",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "YES",
       "ijenDate": "20 Sep 26",
       "customer": {
@@ -21771,9 +22570,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
         "hasNotes": false,
@@ -21887,8 +22686,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 62,
+          "name": "Yusuf",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 5
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "21 Sep 26",
@@ -21907,8 +22715,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -22023,8 +22831,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 1,
+          "name": "Yandi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 9
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "21 Sep 26",
@@ -22043,8 +22860,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -22183,8 +23000,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Innova Reborn"
+      ],
+      "drivers": [
+        {
+          "id": 82,
+          "name": "Egy",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 2
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "22 Sep 26",
@@ -22203,11 +23029,199 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
+        "hasNotes": false,
+        "balanceStatus": "balance_due"
+      }
+    },
+    {
+      "bookingId": 3801,
+      "bookingCode": "JVTO-3801",
+      "orderChannel": "JVTO",
+      "packageId": 33,
+      "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+      "duration": "4D 3N",
+      "totalPax": 2,
+      "bookingDate": "26 Aug 2026",
+      "tripDate": {
+        "start_ymd": "2026-09-21",
+        "end_ymd": "2026-09-24",
+        "start": "21 Sep 26",
+        "end": "24 Sep 26",
+        "days": "Mon - Thu"
+      },
+      "pickup": {
+        "meetingPoint": "Surabaya Airport",
+        "arrival": "Terminal 2",
+        "value": "TR296",
+        "time": "09:50",
+        "text": "Surabaya Airport Terminal 2 TR296",
+        "complete": true
+      },
+      "dropoff": {
+        "dropPoint": "Surabaya Train Station",
+        "arrival": "Gubeng Station",
+        "value": "",
+        "time": "16:00",
+        "text": "Surabaya Train Station Gubeng Station ",
+        "complete": true
+      },
+      "itinerary": [
+        {
+          "day": 1,
+          "date": "21 Sep 2026",
+          "itinerary": "Surabaya Airport - Bondowoso",
+          "activity": "Surabaya",
+          "destination_id": 4,
+          "destination": "Surabaya"
+        },
+        {
+          "day": 2,
+          "date": "22 Sep 2026",
+          "itinerary": "Ijen Crater - Papuma Beach Sunset",
+          "activity": "Ijen Crater Hike",
+          "destination_id": 2,
+          "destination": "Mount Ijen"
+        },
+        {
+          "day": 3,
+          "date": "23 Sep 2026",
+          "itinerary": "Tumpak Sewu - Bromo Area",
+          "activity": "Tumpak Sewu Waterfall Tour",
+          "destination_id": 7,
+          "destination": "Tumpak Sewu Waterfall"
+        },
+        {
+          "day": 4,
+          "date": "24 Sep 2026",
+          "itinerary": "Bromo Sunrise - Surabaya City",
+          "activity": "Bromo Sunrise Tour",
+          "destination_id": 1,
+          "destination": "Mount Bromo"
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "21 Sep 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Lunch",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "22 Sep 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 165,
+              "roomName": "Executive Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "23 Sep 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "tshirt": {
+        "text": "",
+        "sizes": {
+          "xss": 0,
+          "xxs": 0,
+          "xs": 0,
+          "s": 0,
+          "m": 0,
+          "l": 0,
+          "xl": 0,
+          "xxl": 0,
+          "xxxl": 0
+        }
+      },
+      "vehicles": [
+        "Toyota Calya"
+      ],
+      "drivers": [
+        {
+          "id": 73,
+          "name": "Joyo",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 7
+        }
+      ],
+      "guides": [
+        {
+          "id": 68,
+          "name": "Boy",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
+      "isShuttle": "NO",
+      "ijenDate": "22 Sep 26",
+      "customer": {
+        "guestId": 4127,
+        "countryId": 109,
+        "country": "Japan (日本)"
+      },
+      "payment": {
+        "paid": 1820000,
+        "invoiceTotal": 9100000,
+        "balance": 7280000,
+        "paymentMethod": "cc",
+        "history": [
+          {
+            "id": 886,
+            "amount": 1820000,
+            "methodId": 3,
+            "method": "Debit/Credit Card",
+            "description": "Down Payment",
+            "date": "26 Aug 26 00:36"
+          }
+        ]
+      },
+      "readiness": {
+        "hasPickup": true,
+        "hasDropoff": true,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
+        "hasHotels": true,
+        "hasPaymentHistory": true,
         "hasNotes": false,
         "balanceStatus": "balance_due"
       }
@@ -22320,8 +23334,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Boy"
+      ],
+      "drivers": [
+        {
+          "id": 7,
+          "name": "Fredi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 8
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "23 Sep 26",
@@ -22349,8 +23372,8 @@
       "readiness": {
         "hasPickup": false,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": true,
@@ -22489,9 +23512,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Daihatsu Sigra"
+      ],
+      "drivers": [
+        {
+          "id": 28,
+          "name": "Holili",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 7
+        }
+      ],
+      "guides": [
+        {
+          "id": 17,
+          "name": "Kiki",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "25 Sep 26",
       "customer": {
@@ -22518,9 +23559,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -22658,8 +23699,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 1,
+          "name": "Yandi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 9
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "24 Sep 26",
@@ -22678,8 +23728,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -22817,9 +23867,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Avanza Yus"
+      ],
+      "drivers": [
+        {
+          "id": 75,
+          "name": "Didin",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5
+        }
+      ],
+      "guides": [
+        {
+          "id": 4,
+          "name": "Taufik",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "24 Sep 26",
       "customer": {
@@ -22846,9 +23914,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -22912,8 +23980,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 62,
+          "name": "Yusuf",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 5
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": null,
@@ -22932,8 +24009,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": false,
         "hasPaymentHistory": false,
@@ -23072,8 +24149,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "drivers": [
+        {
+          "id": 81,
+          "name": "Romi",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 1
+        }
+      ],
       "guides": [],
       "isShuttle": "YES",
       "ijenDate": "25 Sep 26",
@@ -23092,8 +24178,8 @@
       "readiness": {
         "hasPickup": false,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -23208,9 +24294,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Hiace Premio"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 14
+        }
+      ],
+      "guides": [
+        {
+          "id": 3,
+          "name": "Anjas",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "26 Sep 26",
       "customer": {
@@ -23228,9 +24332,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
         "hasNotes": false,
@@ -23344,9 +24448,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Toyota Calya"
+      ],
+      "drivers": [
+        {
+          "id": 73,
+          "name": "Joyo",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 7
+        }
+      ],
+      "guides": [
+        {
+          "id": 68,
+          "name": "Boy",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "27 Sep 26",
       "customer": {
@@ -23373,9 +24495,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -23512,9 +24634,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Avanza Yus 2"
+      ],
+      "drivers": [
+        {
+          "id": 28,
+          "name": "Holili",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 7
+        }
+      ],
+      "guides": [
+        {
+          "id": 39,
+          "name": "Gufron",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "27 Sep 26",
       "customer": {
@@ -23541,9 +24681,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -23661,8 +24801,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Avanza Boy"
+      ],
+      "drivers": [
+        {
+          "id": 7,
+          "name": "Fredi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 8
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": null,
@@ -23690,8 +24839,8 @@
       "readiness": {
         "hasPickup": false,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": true,
@@ -23806,9 +24955,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Daihatsu Sigra"
+      ],
+      "drivers": [
+        {
+          "id": 9,
+          "name": "GARAGE",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 14
+        }
+      ],
+      "guides": [
+        {
+          "id": 13,
+          "name": "Rendi",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "28 Sep 26",
       "customer": {
@@ -23843,12 +25010,12 @@
       "readiness": {
         "hasPickup": false,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
-        "hasNotes": false,
+        "hasNotes": true,
         "balanceStatus": "balance_due"
       }
     },
@@ -23948,8 +25115,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 1,
+          "name": "Yandi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 9
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "29 Sep 26",
@@ -23977,8 +25153,8 @@
       "readiness": {
         "hasPickup": false,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": true,
@@ -24093,9 +25269,27 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
+      "vehicles": [
+        "Toyota Calya"
+      ],
+      "drivers": [
+        {
+          "id": 73,
+          "name": "Joyo",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 7
+        }
+      ],
+      "guides": [
+        {
+          "id": 2,
+          "name": "Juan",
+          "role": "Escort",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 3,
+          "monthlyIjenCount": 0
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "30 Sep 26",
       "customer": {
@@ -24122,9 +25316,9 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
+        "hasVehicle": true,
+        "hasDriver": true,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": true,
@@ -24237,8 +25431,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Ertiga"
+      ],
+      "drivers": [
+        {
+          "id": 1,
+          "name": "Yandi",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 9
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": "01 Oct 26",
@@ -24266,8 +25469,8 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": true,
         "hasPaymentHistory": true,

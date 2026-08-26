@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto-operations/customer-portal-accommodations-v1",
-  "generated_at": "2026-08-25T02:10:00.216Z",
-  "record_count": 146,
+  "generated_at": "2026-08-26T10:51:00.089Z",
+  "record_count": 148,
   "records": [
     {
       "booking_id": 1566,
@@ -3309,6 +3309,58 @@
           "day": 3,
           "name": "Riverside Homestay",
           "rooms": "Deluxe Double (1)",
+          "banner_present": true
+        }
+      ]
+    },
+    {
+      "booking_id": 3801,
+      "booking_ref": "JVTO-3801",
+      "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Journey from Surabaya",
+      "travel_date_start": "2026-09-21",
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Riverside Homestay",
+          "rooms": "Deluxe Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Doho Homestay",
+          "rooms": "Executive Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 3,
+          "name": "Joglo Kecombrang Bromo",
+          "rooms": "Double (1)",
+          "banner_present": true
+        }
+      ]
+    },
+    {
+      "booking_id": 3802,
+      "booking_ref": "JVTO-3802",
+      "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+      "travel_date_start": "2026-09-14",
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Luminor Hotel",
+          "rooms": "Deluxe Twin (1)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Doho Homestay",
+          "rooms": "Deluxe Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 3,
+          "name": "Joglo Kecombrang Bromo",
+          "rooms": "Double (1)",
           "banner_present": true
         }
       ]

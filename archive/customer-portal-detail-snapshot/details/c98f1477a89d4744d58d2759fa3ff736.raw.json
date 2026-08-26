@@ -25,7 +25,7 @@
       "drop": "Bali Hotel  Sideman",
       "drop_time": "21:00:00",
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/1C0OiGlkuQDKvHemMPtqx7GM0U0sMDSXi",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -36,7 +36,14 @@
       },
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 1,
+            "name": "Yandi",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528930_YANDI.JPG",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {
