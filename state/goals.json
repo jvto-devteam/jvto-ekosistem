@@ -88,6 +88,13 @@
       "decision": "A review may be attributed to a product by reading the review text, but only when exactly one product fits, and the record must say so via packageAttribution.",
       "why": "Twelve products showed no reviews while 71 reviews sat unattributed, and many of those name their itinerary outright. Matching against each product's itinerary, name and paid add-ons placed 19 of them and filled five empty products. The provenance field exists so a later reader can tell a deduction from an observation — a review states which tour someone took, and a derived slug is our reading of it, not their statement.",
       "note": "Order of mention was rejected as evidence. Two Surabaya 3D2N products differ in nothing but the order their names list the same three destinations, and guests list by impression. Five reviews that only order could separate were left unattributed rather than assigned on that basis."
+    },
+    {
+      "id": "per-tour-aggregate-rating",
+      "date": "2026-08-26",
+      "decision": "A tour page's aggregateRating is computed from that tour's own reviews, and is omitted entirely when it has none.",
+      "why": "Every tour page emitted a Product node reading `pkg.aggregateRating?.ratingValue || googleStats.rating`. The contracts all ship ratingValue 0, which is falsy, so all seventeen tours published the company-wide '4.9 from 156' as their own — including the seven with no reviews at all, while the Organization node on the same page carried those same 156 correctly. The value is now derived in scripts/lib/review-schema/build-review-nodes.mjs from the Review nodes each tour publishes, and jvto-web lifts it off the #tour node by @id.",
+      "note": "The count is over every attributed review, not the 20 the page quotes: PDP_REVIEW_CAP limits what is quoted, not what is counted. An empty set yields no rating rather than zero — 'ratingValue: 0' claims guests rated the tour zero out of five. /api/product/[slug] still returns the company figure as a product rating; it has no callers and its header documents that as deliberate, so it was left for the owner."
     }
   ],
   "backlog": [
