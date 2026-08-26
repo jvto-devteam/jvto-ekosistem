@@ -2324,7 +2324,7 @@
   "meta_title_override": "Madakaripura Waterfall — Tour, Canyon Hike, Tips | JVTO",
   "meta_description_override": "Private Madakaripura waterfall tour from Surabaya — canyon hike, river crossing, all-inclusive crew. No shared groups. Tourist Police-led. 4.8★ Trustpilot.",
   "hub_region": "Probolinggo",
-  "hub_elevation_label": "~100 m",
+  "hub_elevation_label": "200 m",
   "hub_difficulty_label": "Tallest in Java · Easy–Moderate",
   "hub_chips": [
     "Tallest waterfall in Java",
@@ -2333,7 +2333,7 @@
     "Gajah Mada heritage"
   ],
   "hero_meta_override": {
-    "elevation": "~100 m waterfall",
+    "elevation": "200 m waterfall",
     "viewpoint": "Horseshoe basin",
     "fromSurabaya": "~3 hours",
     "difficulty": "Easy to Moderate"
@@ -2392,5 +2392,6 @@
     ],
     "description": "Java's tallest waterfall in a narrow canyon gorge in Probolinggo. A 45-minute river-crossing trek through the gorge leads to the main fall. Guests get wet — rain poncho recommended."
   },
-  "answerFirst": "Madakaripura is a canyon waterfall in Brantas Gorge, Lumbang, Probolinggo, about 3 hours from Surabaya and held to be the final meditation site of Majapahit's Gajah Mada. The horseshoe basin is reached on a guided walk of 1.5–2 hours through shallow water. Entry costs IDR 15,000–25,000. Dry season runs May–October."
+  "answerFirst": "Madakaripura is a 200 m canyon waterfall in Brantas Gorge, Lumbang, Probolinggo, the tallest on Java and held to be the final meditation site of Majapahit's Gajah Mada. The horseshoe basin is reached on a guided walk of 1.5-2 hours through shallow water. Entry costs IDR 15,000-25,000. Dry season runs May-October.",
+  "_height_note": "Waterfall height is 200 m — consistent across display_height_m, summary and independent tourism references, which also rank it the tallest on Java. hero_meta_override previously read '~100 m waterfall' and was wrong. The ~620-1000 m figures that circulate describe the site's elevation above sea level (see altitude), not the drop."
 }
