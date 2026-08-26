@@ -1,28 +1,52 @@
 {
   "_comment": "Project state for the JVTO content ecosystem. Read at session start by jvto-ops (scripts/session-brief.mjs) and by checkers that would otherwise freeze a policy constant in their own source. Shape is documented in the plugin at docs/goals-schema.md. Edit this file; do not duplicate its facts into a checker.",
   "updated": "2026-08-26",
-
   "baseline": {
     "measuredAt": "2026-08-24",
     "tool": "jvto-web/scripts/audit-answer-structure.py",
     "note": "Measured against the live site over all 291 sitemap routes. The auditor does not strip <header> (on most routes here that element is the page hero) and does not treat low fact density on crew pages as a defect (those pages are built from verbatim guest reviews).",
     "byPageType": {
-      "homepage": { "density": 0.52, "threeNumbersInFirst120": "1/1" },
-      "destination": { "density": 0.48, "threeNumbersInFirst120": "6/6" },
-      "travel-guide": { "density": 0.23, "threeNumbersInFirst120": "4/12" },
-      "pdp": { "density": 0.6, "threeNumbersInFirst120": "17/17" },
-      "trust": { "density": 0.88, "threeNumbersInFirst120": "4/5" },
-      "why-jvto": { "density": 0.52, "threeNumbersInFirst120": "1/6" },
-      "crew": { "density": 0.09, "threeNumbersInFirst120": "11/11" },
-      "blog": { "density": 0.43, "threeNumbersInFirst120": "2/4" },
-      "policy": { "density": 0.26, "threeNumbersInFirst120": "0/4" }
+      "homepage": {
+        "density": 0.52,
+        "threeNumbersInFirst120": "1/1"
+      },
+      "destination": {
+        "density": 0.48,
+        "threeNumbersInFirst120": "6/6"
+      },
+      "travel-guide": {
+        "density": 0.23,
+        "threeNumbersInFirst120": "4/12"
+      },
+      "pdp": {
+        "density": 0.6,
+        "threeNumbersInFirst120": "17/17"
+      },
+      "trust": {
+        "density": 0.88,
+        "threeNumbersInFirst120": "4/5"
+      },
+      "why-jvto": {
+        "density": 0.52,
+        "threeNumbersInFirst120": "1/6"
+      },
+      "crew": {
+        "density": 0.09,
+        "threeNumbersInFirst120": "11/11"
+      },
+      "blog": {
+        "density": 0.43,
+        "threeNumbersInFirst120": "2/4"
+      },
+      "policy": {
+        "density": 0.26,
+        "threeNumbersInFirst120": "0/4"
+      }
     }
   },
-
   "policies": {
     "contentSignal": "search=yes,ai-train=yes,use=reference"
   },
-
   "decisions": [
     {
       "id": "content-signal-ai-train",
@@ -46,7 +70,6 @@
       "why": "Its skills document internal deploy protocols, infrastructure paths and incident history. Publishing is a separate, reversible owner decision."
     }
   ],
-
   "backlog": [
     {
       "id": "P0-3",
@@ -95,6 +118,12 @@
       "title": "Verify branch protection on jvto-web's live branch",
       "status": "open — only the owner can check",
       "evidence": "GitHub Settings. Carried from the 2026-08-20 handoff audit."
+    },
+    {
+      "id": "validate-routes-registry-gone",
+      "title": "jvto-web's `validate routes` has validated nothing since 2026-08-15",
+      "status": "open — restore the registry or retire the check",
+      "evidence": "src/lib/registry/pages.ts was deleted in 3925805f, a dead-code sweep; nothing under src/ imports it any more. The check reconciled that registry against the filesystem router, next.config redirects and middleware redirectMap/goneUrls. It now skips loudly instead of crashing with ENOENT, but the redirect coverage it also provided is unreplaced."
     }
   ]
 }
