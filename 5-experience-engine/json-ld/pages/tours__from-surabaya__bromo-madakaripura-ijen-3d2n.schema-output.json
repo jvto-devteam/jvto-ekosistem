@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-25T02:10:00.232Z",
+  "generated_at": "2026-08-26T07:30:49.797Z",
   "route": "/tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
   "domain": "tours",
   "slug": "from-surabaya/bromo-madakaripura-ijen-3d2n",
@@ -90,6 +90,53 @@
             "@type": "PropertyValue",
             "name": "Internal Package ID",
             "value": "package-SUB-3D2N-003"
+          }
+        ],
+        "review": [
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-71"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-169"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-171"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-172"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-173"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-174"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-187"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-285"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-202"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-214"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-252"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-253"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-254"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-256"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-257"
           }
         ]
       },
@@ -451,13 +498,376 @@
             "url": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n"
           }
         ]
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-71",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Cristina Martinez blanco"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Son geniales\r\nSúper contentos de nuestros guías taufik y holili. Nos han ayudado en todo momento y nos han acompañado en todo. Son geniales y nos hemos reído mucho con ellos. Os aconsejamos a esta pareja de guías para vuestro viaje . Hacen que te sientas muy bien .\r\nOs esperamos en España taufik y holili 😉",
+        "datePublished": "2026-02-28",
+        "url": "https://www.trustpilot.com/reviews/69a24941cc513f6ba5e049b5",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#platform-trustpilot",
+          "@type": "Organization",
+          "name": "Trustpilot"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-169",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Remy H"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Me and my girlfriend had an amazing trip over here. We did the 3D2N Ijen + Bromo tour and everything was well arranged. Special thanks to the guide Gufron, who made this trip special ❤️",
+        "datePublished": "2025-10-03",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-171",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "K E"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "(Translated by Google) I participated in a tour of Java's Mount Ijen Volcano, Mount Bromo, and Madakaripura Waterfall. The comprehensive outdoor plan included airport transfers, meals, accommodation, and a guide. Our accommodation, Riverside Homestay, even had a pool, making for a truly enjoyable stay. The tour features a highly efficient and reliable system, with the driver and guide contacting each other in advance and accompanied by photos. Both our driver, Freddy, and the mountain guide boy were cheerful and helpful, helping with photography and accommodating even the smallest of requests. Each of the three tourist sites was truly worthy of being called the main event. With some motorbike travel and river fording, the tour was packed with extraordinary experiences. There were also opportunities to sample local fruit, and the opportunity to ride a horse for just 3,000 yen—exceptional experiences unimaginable in Japan. The only thing I noticed was that the accommodation on the second day was a little noisy. Furthermore, the roads are narrow in all locations, and Mount Bromo in particular is filled with jeeps, making it difficult for beginners to stop or make U-turns. For this reason, we recommend hiring a guide. Considering accommodation, meals, transportation, photography assistance, etc., the service is exceptionally good for this price, so we highly recommend it.\\nIn particular, the driving involved a six-hour round trip from the airport, as well as nighttime transportation and guiding, so we were grateful to Freddie, who accompanied us with a smile until the very end despite the hard work.\\n\\n(Original)\\nジャワ島のイジェン火山、ブロモ山、マダカリプラの滝をめぐるツアーに参加しました。空港からの送迎、食事、宿泊、ガイドの総合的なアウトドアプランに加え、宿泊先のリバーサイドホームステイはプールもあり、快適な時間を過ごすことができました。ツアーではあらかじめ写真付きの運転手とガイドの連絡があり、完成度が高い安心できる仕組みが採用されています。運転手のフレディも山岳ガイドのボーイも明るく親切で、写真撮影への協力や、ちょっとした要望にも応えていただくことができました。３つの観光地は全てがメインイベントというに相応しいレベルの内容です。バイクでの移動が一部あったり、川の徒渉があったり、非日常感は満載です。\\n現地の果実が食べれるタイミングがあったり、たった３０００円程度で馬に乗れたり、日本では考えられない破格の体験も可能です。\\n１点気になったところは、２日目の宿が唯一音が煩いところはありました。\\n尚、どの場所も道が狭く、特にブロモ山はジープが大量に止まっていて停車やUターンは素人には無理です。そのためガイドをつけることを推奨します。宿泊、食事、送迎、撮影補助等を考慮すると、この値段のサービスは破格なため、おすすめします。\\n特に運転については６時間の空港付近からの往復に加え、夜間からの送迎やガイドもあるので、重労働にもかかわらず最後まで笑顔で付き合ってくれたフレディには感謝しています。",
+        "datePublished": "2025-09-19",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-172",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Joshua Ang"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "⭐⭐⭐⭐⭐\\nWe had an incredible 3D2N tour of Surabaya, Mount Bromo, and Mount Ijen, thanks to our amazing guides, Gufron, Fauzi, and Pras! They took fantastic care of us, ensuring every detail was perfect. Their knowledge, enthusiasm, and professionalism made the trip unforgettable—from the breathtaking Bromo sunrise to the stunning Ijen crater. They kept us safe, comfortable, and entertained with their insights and warm hospitality. Highly recommend this team for anyone exploring this area! Thank you for an awesome adventure!",
+        "datePublished": "2025-09-15",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-173",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Divya_ Stri"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Our driver Yandi was really reliable and friendly. He briefed us on what to expect for the day and was really helpful throughout our trip. Our guide for Mount Ijen was Gufron and he was really encouraging throughout the hike and helpful. He guided us well and was really friendly too. would recommend this tour to family and friends in the future!",
+        "datePublished": "2025-09-15",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-174",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Rodrigo Movilla"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "(Translated by Google) Completely delighted, Kiki and Dika were super friendly and attentive at all times!\\n\\n(Original)\\nCompletamente encantado, kiki y dika fueron super amables y estuvieron atentos en todo momento!",
+        "datePublished": "2025-09-08",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-187",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "filwyn Ma"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "We were happy to join this tour, especially with Pras as our guide and driver. His driving was exceptional—safe, reliable, and always punctual. Despite a tight schedule that often required starting at midnight or early morning, Pras went above and beyond to ensure our comfort, accommodating our requests and making thoughtful arrangements. His cheerful and kind demeanor, combined with excellent English and communication skills, made interactions with local providers seamless. Pras enriched our experience with valuable local insights, ensuring everything ran smoothly. He's the best guide I've ever had, and I truly hope to travel with him again in Indonesia.",
+        "datePublished": "2025-07-24",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-285",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Rai Y"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Overall we are very happy with the service given by the local guide! Freddy our guide and driver was excellent in taking care of us.",
+        "datePublished": "2025-06-22",
+        "url": "https://www.trustpilot.com/reviews/6857c2bef34bcf699479ec09",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#platform-trustpilot",
+          "@type": "Organization",
+          "name": "Trustpilot"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-202",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Michelle Jeon"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "We had the best time on our 3D2N Java to Bali trip with JVTO. Rendi was a wonderful guide, super funny, punctual, knowledgeable and he takes the best photos! He answered all of our questions and gave us fun facts throughout the tour. He also speaks good English which made it easy to communicate. He introduced us to a lot of his guide friends, making for a very warm and welcoming atmosphere.\\n\\nAll our concerns were quickly and easily resolved. Our driver Didin was also very kind. My friends and I had a lot of fun thanks to the team. I would highly recommend Java Volcano Tour Operator.",
+        "datePublished": "2025-05-14",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-214",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Jesus Palma"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "(Translated by Google) We did the 3d/2n tour from Surabaya to Bali. Our guide Rendi and our driver Johan made the tour unbeatable. Attentive from the first moment to our needs, explaining all kinds of curiosities and recommending the best restaurants and typical dishes of the areas we visited. JVTO also provided us with the transfer to our hotel in Bali after finishing the excursion to Ijén.\\n\\n(Original)\\nHicimos el tour 3d/2n desde Surabaya hasta Bali. Nuestro guía Rendi y nuestro conductor Johan hicieron el tour inmejorable. Atentos desde el primer momento a nuestras necesidades, explicándonos todo tipo de curiosidades y recomendándonos los mejores restaurantes y platos típicos de las zonas que visitamos. JVTO también nos proporcionó el transfer a nuestro hotel de Bali tras acabar la excursión a Ijén.",
+        "datePublished": "2024-11-12",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-252",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "clara rigal"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Thanks to the tour and their amazing team (Dosi & Tufik), we went to Bromo and Ijen Volcano. They were very professional and so friendly. We booked the tour only one day in advance and everything was ready when we arrived at Surabaya train station. Dosi drove very safely to the different places and Tufik came with us at the top of the volcano, knowing the best spots and avoiding crowd. They answer to all our needs and we are very thankful, especially for the very good price. They made this adventure so special.",
+        "datePublished": "2022-08-10",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-253",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "navrellio sevrimastya"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Nice Place",
+        "datePublished": "2022-05-13",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-254",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Gabriella AF"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Trusted corp",
+        "datePublished": "2022-05-13",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-256",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Permata Intan"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "(Translated by Google) Trusted partner\\n\\n(Original)\\nMitra terpercaya",
+        "datePublished": "2022-05-13",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-257",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "sitaakunyoyon 2021"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "(Translated by Google) Trusted and professional\\n\\n(Original)\\nTerpercaya dan profesional",
+        "datePublished": "2022-05-13",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
       }
     ]
   },
   "source_trace": {
     "generated_at": "2026-08-25T02:10:00.232Z",
     "source_files": [
-      "2-product-and-commercial-core/tour-products/tours__from-surabaya__bromo-madakaripura-ijen-3d2n.product-contract.json"
+      "2-product-and-commercial-core/tour-products/tours__from-surabaya__bromo-madakaripura-ijen-3d2n.product-contract.json",
+      "1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json"
     ],
     "confidence": "verified",
     "migration_note": "TouristTrip + Offer/AggregateOffer relocated from jvto-web's inline per-page builder (tours/from-bali/[slug]/page.tsx and tours/from-surabaya/[slug]/page.tsx) to ekosistem, consistent with every other JSON-LD node in this pipeline (design spec 2026-08-20-ekosistem-schema-rendering-consolidation-design.md, Bagian 3). WebPage, BreadcrumbList, Product, and the DefinedTerm mentions/subjectOf augmentation stay local to jvto-web — out of scope for this generator."

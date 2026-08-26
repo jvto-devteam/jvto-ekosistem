@@ -95,6 +95,45 @@ export function buildHubReviewNodes(reviews, { baseUrl = BASE_URL } = {}) {
 }
 
 /**
+ * `Review` nodes for one tour package's PDP, attached to that page's Product node.
+ *
+ * Reviews carry a `packageSlug` naming the route they were left for. 150 of the 221
+ * records have one, covering five packages; the other twelve PDPs have no attributed
+ * review and get no Review nodes. Inventing an association would be worse than an
+ * empty page — a review says which tour someone took, and that is not a detail to
+ * approximate.
+ *
+ * Same eligibility filter and node shape as the hub builder, with one difference that
+ * matters: `itemReviewed` points at the package's TouristTrip node rather than the
+ * Organization, so a machine reading the page learns what was reviewed, not merely
+ * who by.
+ */
+export function buildPdpReviewNodes(reviews, route, { baseUrl = BASE_URL } = {}) {
+  const slug = String(route ?? "").replace(/^\/+/, "");
+  if (!slug) return [];
+  const pageUrl = `${baseUrl}/${slug}`;
+  return reviews
+    .filter((review) => String(review.packageSlug ?? "").replace(/^\/+/, "") === slug)
+    .filter(isHubEligible)
+    .map((review) => ({
+      "@id": `${pageUrl}#review-${review.id}`,
+      "@type": "Review",
+      author: { "@type": "Person", name: review.customerName },
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: String(review.star),
+        bestRating: "5",
+        worstRating: "1",
+      },
+      reviewBody: review.review,
+      datePublished: review.date,
+      ...(publicReviewUrl(review) ? { url: publicReviewUrl(review) } : {}),
+      itemReviewed: { "@id": `${pageUrl}#tour` },
+      publisher: platformPublisherNode(review.platform, pageUrl),
+    }));
+}
+
+/**
  * The review's URL, but only when a stranger can actually open it.
  *
  * 152 of the 217 records carry a business.google.com/n/<account>/reviews/<id>

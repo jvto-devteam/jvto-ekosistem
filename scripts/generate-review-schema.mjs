@@ -1,8 +1,9 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { buildLeanOrganizationReference } from "./lib/build-organization.mjs";
 import { composeGraph } from "./lib/schema-contract.mjs";
 import {
+  buildPdpReviewNodes,
   BASE_URL,
   HUB_ROUTE,
   buildHubReviewNodes,
@@ -130,6 +131,92 @@ async function updateRouteIndex(reviewEntries) {
   await writeJson(ROUTE_INDEX_PATH, { generated_at: GENERATED_AT, routes });
 }
 
+
+/** PDP schema-output files, the same pattern generate-tourist-trip-schema.mjs uses. */
+const PDP_FILE_PATTERN = /^tours__(from-bali|from-surabaya)__.+\.schema-output\.json$/;
+
+/**
+ * How many Review nodes one PDP may carry.
+ *
+ * One package has 87 attributed reviews. Emitting all of them puts roughly 26KB of
+ * JSON-LD on a single page for well past the point where another quotation adds
+ * anything. Twenty, newest first, keeps the quotations that matter and the page
+ * light — and the generator prints how many were available for each route, so the
+ * cap is a stated number rather than a silent truncation.
+ */
+const PDP_REVIEW_CAP = 20;
+
+/**
+ * Attaches each package's own reviews to its TouristTrip node.
+ *
+ * Reviews carry a packageSlug naming the route they were left for; 150 of 221 records
+ * have one, covering five packages. The remaining twelve PDPs get nothing, which is
+ * the honest outcome — a review states which tour someone actually took.
+ *
+ * Idempotent in the same way updateHub is: existing Review nodes and any prior
+ * `review` array on the Product are dropped before rebuilding, so running this
+ * without a preceding render never accumulates or freezes stale quotations.
+ */
+async function updatePdpReviews(reviews) {
+  const dir = path.join(ROOT, PAGES_DIR);
+  let files;
+  try {
+    files = (await readdir(dir)).filter((f) => PDP_FILE_PATTERN.test(f)).sort();
+  } catch {
+    return { routes: 0, nodes: 0, perRoute: {} };
+  }
+
+  let routes = 0;
+  let nodes = 0;
+  const perRoute = {};
+
+  for (const file of files) {
+    const rel = `${PAGES_DIR}/${file}`;
+    const doc = await readJsonIfExists(ROOT, rel, null);
+    const route = doc?.route;
+    if (!doc || typeof route !== "string") continue;
+
+    const all = buildPdpReviewNodes(reviews, route, { baseUrl: BASE_URL });
+    const kept = [...all]
+      .sort((a, b) => String(b.datePublished ?? "").localeCompare(String(a.datePublished ?? "")))
+      .slice(0, PDP_REVIEW_CAP);
+
+    const graph = (doc.json_ld?.["@graph"] ?? []).filter((node) => node["@type"] !== "Review");
+    // ekosistem names the package node #tour (TouristTrip). jvto-web builds a
+    // separate #product node for the same package at render time; referencing
+    // that from here would not resolve inside this file, which validate-schema
+    // checks one file at a time.
+    const productId = `${BASE_URL}${route}#tour`;
+    let touched = false;
+    for (const node of graph) {
+      if (node["@id"] !== productId) continue;
+      delete node.review;
+      if (kept.length) node.review = kept.map((n) => ({ "@id": n["@id"] }));
+      touched = true;
+    }
+    if (!touched) continue;
+
+    doc.json_ld = composeGraph([...graph, ...kept]);
+    doc.generated_at = GENERATED_AT;
+    const existing = doc.source_trace?.source_files ?? [];
+    doc.source_trace = {
+      ...doc.source_trace,
+      source_files: existing.includes(REVIEWS_SOURCE_PATH)
+        ? existing
+        : [...existing, REVIEWS_SOURCE_PATH],
+    };
+    await writeJson(rel, doc);
+
+    if (kept.length) {
+      routes += 1;
+      nodes += kept.length;
+      perRoute[route] = all.length > kept.length ? `${kept.length} of ${all.length}` : `${kept.length}`;
+    }
+  }
+
+  return { routes, nodes, perRoute };
+}
+
 async function main() {
   await mkdir(path.join(ROOT, PAGES_DIR), { recursive: true });
 
@@ -137,6 +224,7 @@ async function main() {
   const reviews = Array.isArray(reviewsFile.reviews) ? reviewsFile.reviews : [];
 
   const hubReviewNodeCount = await updateHub(reviews);
+  const pdp = await updatePdpReviews(reviews);
 
   const reviewEntries = [];
   for (const review of reviews) {
@@ -151,6 +239,9 @@ async function main() {
         generatedAt: GENERATED_AT,
         reviewRecordCount: reviews.length,
         hubReviewNodeCount,
+        pdpRoutesWithReviews: pdp.routes,
+        pdpReviewNodes: pdp.nodes,
+        pdpPerRoute: pdp.perRoute,
         detailFilesWritten: reviewEntries.length,
       },
       null,

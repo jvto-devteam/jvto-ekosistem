@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-25T02:10:00.232Z",
+  "generated_at": "2026-08-26T07:30:49.797Z",
   "route": "/tours/from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n",
   "domain": "tours",
   "slug": "from-surabaya/taman-safari-prigen-bromo-madakaripura-3d2n",
@@ -445,7 +445,8 @@
   "source_trace": {
     "generated_at": "2026-08-25T02:10:00.232Z",
     "source_files": [
-      "2-product-and-commercial-core/tour-products/tours__from-surabaya__taman-safari-prigen-bromo-madakaripura-3d2n.product-contract.json"
+      "2-product-and-commercial-core/tour-products/tours__from-surabaya__taman-safari-prigen-bromo-madakaripura-3d2n.product-contract.json",
+      "1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json"
     ],
     "confidence": "verified",
     "migration_note": "TouristTrip + Offer/AggregateOffer relocated from jvto-web's inline per-page builder (tours/from-bali/[slug]/page.tsx and tours/from-surabaya/[slug]/page.tsx) to ekosistem, consistent with every other JSON-LD node in this pipeline (design spec 2026-08-20-ekosistem-schema-rendering-consolidation-design.md, Bagian 3). WebPage, BreadcrumbList, Product, and the DefinedTerm mentions/subjectOf augmentation stay local to jvto-web — out of scope for this generator."

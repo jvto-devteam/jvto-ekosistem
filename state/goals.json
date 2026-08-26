@@ -79,10 +79,10 @@
   ],
   "backlog": [
     {
-      "id": "P0-3",
-      "title": "Review nodes on the 17 tour package pages",
+      "id": "graph-inline-duplicates-remaining",
+      "title": "Four inline nodes still duplicate a registry entry on the live site",
       "status": "open",
-      "evidence": "0 of 17 tour pages emit a Review node; crew pages emit 11 of 11. The quotes shown on package pages come from a third-party Trustpilot embed on 19 tour pages, not from the ekosistem review corpus, so they are not tied as Review nodes to the crew and package they name. Material is ready: 218 reviews, 171 already carrying crew attribution."
+      "evidence": "check-graph-integrity --live went from 118 findings to 4 once the rule was narrowed to entity types and POLPAR, Kemenparekraf, POLRI, Detik.com and one DuMont were referenced by @id. Remaining: one more POLRI and one more DuMont inline, a Person named Gufron with no @id beside the node at /why-jvto/our-team/gufron, and that node's id disagreeing with the crew page's /why-jvto/our-team/gufron#person — two ids for one person. Also two bare page URLs (/destinations/ijen-crater, /destinations/mount-bromo) used as @id targets under about, isPartOf and spatialCoverage where the pages define #attraction instead."
     },
     {
       "id": "se-35-document",
@@ -109,12 +109,6 @@
       "evidence": "Reported by check-script-wiring. Either wire it into a workflow or record here why it is deliberately manual."
     },
     {
-      "id": "live-graph-check-unscheduled",
-      "title": "check-graph-integrity --live runs on no schedule",
-      "status": "open",
-      "evidence": "The offline scan exempts @id values jvto-web builds at render time, listed in the plugin's consumer-defined-ids.json. Only --live sees the merged graph and would catch an exemption that has outlived its reason. Nothing runs it."
-    },
-    {
       "id": "branch-protection-live",
       "title": "Verify branch protection on jvto-web's live branch",
       "status": "open — only the owner can check",
@@ -125,6 +119,12 @@
       "title": "jvto-web's `validate routes` has validated nothing since 2026-08-15",
       "status": "open — restore the registry or retire the check",
       "evidence": "src/lib/registry/pages.ts was deleted in 3925805f, a dead-code sweep; nothing under src/ imports it any more. The check reconciled that registry against the filesystem router, next.config redirects and middleware redirectMap/goneUrls. It now skips loudly instead of crashing with ENOENT, but the redirect coverage it also provided is unreplaced."
+    },
+    {
+      "id": "pdp-reviews-twelve-packages-unattributed",
+      "title": "Twelve tour packages have no attributed reviews",
+      "status": "open — data, not code",
+      "evidence": "150 of 221 reviews carry a packageSlug, covering five packages. Those five now emit Review nodes on their PDP, capped at 20 newest each with the available count reported. The other twelve get none, which is correct: a review states which tour someone took and that is not a detail to approximate. Closing the gap means attributing reviews at capture time, not in schema."
     }
   ]
 }

@@ -1,0 +1,34 @@
+name: Graph integrity (live)
+
+# The offline scan exempts @id values jvto-web builds at render time — the
+# founder Person node and the per-package #webpage nodes — listed in the
+# jvto-ops plugin's scripts/consumer-defined-ids.json. Only --live sees the
+# merged graph both repos actually produce, so it is the only mode that can
+# notice an exemption whose reason has expired, or a dangling reference that
+# the offline scan was told to forgive.
+#
+# Nothing ran it before this workflow existed. An exemption nobody re-verifies
+# is documentation, not a check.
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'   # Mondays 03:00 UTC
+  workflow_dispatch:
+
+jobs:
+  live-graph:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout jvto-ops (the checker)
+        uses: actions/checkout@v4
+        with:
+          repository: jvto-devteam/jvto-ops
+          path: jvto-ops
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Scan the live merged graph
+        working-directory: jvto-ops
+        run: node scripts/check-graph-integrity.mjs --live
