@@ -68,6 +68,13 @@
       "date": "2026-08-26",
       "decision": "jvto-devteam/jvto-ops is private.",
       "why": "Its skills document internal deploy protocols, infrastructure paths and incident history. Publishing is a separate, reversible owner decision."
+    },
+    {
+      "id": "madakaripura-height",
+      "date": "2026-08-26",
+      "decision": "Madakaripura waterfall height is 200 m.",
+      "why": "The repo carried 200 in display_height_m and the summary against '~100 m' in hero_meta_override and hub_elevation_label, plus two duplicates in jvto-web fallbacks. 200 m agrees with independent tourism references that also rank it the tallest waterfall on Java, which the site's own chips already claimed. The ~620-1000 m figures in circulation are the site's elevation above sea level, not the drop — altitude 620 keeps that separate.",
+      "note": "Recorded here rather than in the destination content file: an internal maintenance note placed there was serialized into the page payload and shipped to the browser."
     }
   ],
   "backlog": [
@@ -76,12 +83,6 @@
       "title": "Review nodes on the 17 tour package pages",
       "status": "open",
       "evidence": "0 of 17 tour pages emit a Review node; crew pages emit 11 of 11. The quotes shown on package pages come from a third-party Trustpilot embed on 19 tour pages, not from the ekosistem review corpus, so they are not tied as Review nodes to the crew and package they name. Material is ready: 218 reviews, 171 already carrying crew attribution."
-    },
-    {
-      "id": "madakaripura-height",
-      "title": "Madakaripura waterfall height disagrees across four places",
-      "status": "open — needs an owner decision, not a fix",
-      "evidence": "destination-knowledge/madakaripura-waterfall.content.json says display_height_m 200 and summary '200-meter'; hero_meta_override says '~100 m waterfall'; jvto-web DestinationDetailView.tsx FALLBACK_HERO_META duplicates '~100 m waterfall'. The answer block for that page deliberately omits the height until this is settled."
     },
     {
       "id": "se-35-document",
