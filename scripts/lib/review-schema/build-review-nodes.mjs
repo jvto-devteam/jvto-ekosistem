@@ -210,3 +210,42 @@ export function buildReviewDetailProductNode(review, { baseUrl = BASE_URL } = {}
     },
   };
 }
+
+/**
+ * The `aggregateRating` for a package's own TouristTrip node, computed from the
+ * Review nodes that same package publishes.
+ *
+ * Every product contract carries `aggregateRating: {ratingValue: 0, reviewCount: 0}`
+ * and nothing ever filled it, so no tour page has ever shown a star rating — not
+ * even the one with 89 attributed reviews. The value has to be derived here rather
+ * than stored in the contract: the review set changes whenever a review is synced
+ * or attributed, and a hand-maintained copy in seventeen contracts would be stale
+ * the day after it was written.
+ *
+ * Takes the emitted nodes, not the raw records, so the average is over exactly the
+ * reviews the page publishes — a rating whose arithmetic a reader cannot reproduce
+ * from what is on the page is worse than no rating. Pass every node for the route,
+ * NOT the capped slice: `reviewCount` states how many reviews the average covers,
+ * which is all of them, while `review[]` shows the newest PDP_REVIEW_CAP of them.
+ *
+ * Returns null for an empty set. A `ratingValue: 0` on a product nobody has
+ * reviewed is not a neutral placeholder — it is a claim that guests rated this
+ * tour zero out of five.
+ */
+export function buildAggregateRating(nodes) {
+  if (!Array.isArray(nodes) || nodes.length === 0) return null;
+  const stars = nodes
+    .map((node) => Number(node?.reviewRating?.ratingValue))
+    .filter((value) => Number.isFinite(value));
+  if (stars.length === 0) return null;
+  const mean = stars.reduce((sum, value) => sum + value, 0) / stars.length;
+  return {
+    "@type": "AggregateRating",
+    // One decimal, and no trailing ".0" — a clean 5 publishes as "5", matching
+    // how the individual ratingValues above are written.
+    ratingValue: String(Number(mean.toFixed(1))),
+    reviewCount: stars.length,
+    bestRating: "5",
+    worstRating: "1",
+  };
+}

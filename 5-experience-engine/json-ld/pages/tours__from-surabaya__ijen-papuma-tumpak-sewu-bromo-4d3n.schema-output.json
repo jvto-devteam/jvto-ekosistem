@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-26T09:27:29.932Z",
+  "generated_at": "2026-08-26T10:14:23.940Z",
   "route": "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
   "domain": "tours",
   "slug": "from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
@@ -163,7 +163,14 @@
           {
             "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n#review-233"
           }
-        ]
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": 28,
+          "bestRating": "5",
+          "worstRating": "1"
+        }
       },
       {
         "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n#day-1",

@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import {
+  buildAggregateRating,
   buildHubReviewNodes,
   buildReviewDetailProductNode,
   isValidStar,
@@ -204,6 +205,42 @@ const noStarReview = { ...trustpilotReview, id: 997, star: null };
   assert.equal(isValidStar("5"), false, "non-number must be invalid even if numeric-looking");
   assert.equal(isValidStar(null), false);
   assert.equal(isValidStar(undefined), false);
+}
+
+// --- buildAggregateRating: derived from the nodes the page publishes, so a reader
+// can reproduce the average from the quotations in front of them ---
+{
+  const rated = (star) => ({ reviewRating: { "@type": "Rating", ratingValue: String(star) } });
+
+  const mixed = buildAggregateRating([rated(5), rated(5), rated(4)]);
+  assert.equal(mixed.ratingValue, "4.7", "mean of 5,5,4 rounds to one decimal");
+  assert.equal(mixed.reviewCount, 3);
+  assert.equal(mixed.bestRating, "5");
+  assert.equal(mixed.worstRating, "1");
+  assert.equal(mixed["@type"], "AggregateRating");
+
+  assert.equal(
+    buildAggregateRating([rated(5), rated(5)]).ratingValue,
+    "5",
+    "a clean 5 must not publish as '5.0' — the individual ratingValues are written '5'",
+  );
+
+  assert.equal(
+    buildAggregateRating([]),
+    null,
+    "no reviews means no rating; ratingValue 0 would claim guests rated the tour zero",
+  );
+  assert.equal(buildAggregateRating(undefined), null);
+  assert.equal(
+    buildAggregateRating([{ reviewRating: { ratingValue: "not a number" } }]),
+    null,
+    "a set with no parseable star yields no aggregate rather than NaN",
+  );
+
+  // The generator passes every node for the route, not the capped slice, so
+  // reviewCount states how many reviews the average actually covers.
+  const many = buildAggregateRating(Array.from({ length: 89 }, () => rated(5)));
+  assert.equal(many.reviewCount, 89, "count is over the whole attributed set, not PDP_REVIEW_CAP");
 }
 
 console.log("build-review-nodes.test.mjs: all assertions passed");

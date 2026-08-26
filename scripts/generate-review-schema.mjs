@@ -3,6 +3,7 @@ import path from "node:path";
 import { buildLeanOrganizationReference } from "./lib/build-organization.mjs";
 import { composeGraph } from "./lib/schema-contract.mjs";
 import {
+  buildAggregateRating,
   buildPdpReviewNodes,
   BASE_URL,
   HUB_ROUTE,
@@ -149,9 +150,15 @@ const PDP_REVIEW_CAP = 20;
 /**
  * Attaches each package's own reviews to its TouristTrip node.
  *
- * Reviews carry a packageSlug naming the route they were left for; 150 of 221 records
- * have one, covering five packages. The remaining twelve PDPs get nothing, which is
- * the honest outcome — a review states which tour someone actually took.
+ * Reviews carry a packageSlug naming the route they were left for; 169 of 221 records
+ * have one, covering ten of the seventeen packages. Nineteen of those slugs were
+ * derived from the review text on 2026-08-26 and say so in the record — see
+ * docs/review-package-attribution.md. The remaining seven PDPs get nothing, which is
+ * the honest outcome — a review states which tour someone actually took, and 47 of
+ * the 52 still-unattributed reviews name no destination at all.
+ *
+ * Each route that has reviews also gets an aggregateRating derived from them, so the
+ * average a reader sees is arithmetic over the quotations on that same page.
  *
  * Idempotent in the same way updateHub is: existing Review nodes and any prior
  * `review` array on the Product are dropped before rebuilding, so running this
@@ -191,7 +198,13 @@ async function updatePdpReviews(reviews) {
     for (const node of graph) {
       if (node["@id"] !== productId) continue;
       delete node.review;
-      if (kept.length) node.review = kept.map((n) => ({ "@id": n["@id"] }));
+      delete node.aggregateRating;
+      if (kept.length) {
+        node.review = kept.map((n) => ({ "@id": n["@id"] }));
+        // Over `all`, not `kept`: the cap limits what is quoted, not what is counted.
+        const aggregate = buildAggregateRating(all);
+        if (aggregate) node.aggregateRating = aggregate;
+      }
       touched = true;
     }
     if (!touched) continue;
