@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-26T07:30:49.797Z",
+  "generated_at": "2026-08-26T09:27:29.932Z",
   "route": "/tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
   "domain": "tours",
   "slug": "from-surabaya/bromo-madakaripura-ijen-3d2n",
@@ -93,6 +93,9 @@
           }
         ],
         "review": [
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-84"
+          },
           {
             "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-71"
           },
@@ -498,6 +501,30 @@
             "url": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n"
           }
         ]
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-84",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Cindy Su"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "We like 3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour. Romy is a good driver who served us very well. The tour guide in the waterfall helped us to take many excellent pictures. The tour guide in Ijen is also good. Thank you so much.",
+        "datePublished": "2026-06-16",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
       },
       {
         "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n#review-71",

@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-26T07:30:49.797Z",
+  "generated_at": "2026-08-26T09:27:29.932Z",
   "route": "/tours/from-surabaya/bromo-1d1n",
   "domain": "tours",
   "slug": "from-surabaya/bromo-1d1n",
@@ -71,6 +71,11 @@
             "@type": "PropertyValue",
             "name": "Internal Package ID",
             "value": "1D1N"
+          }
+        ],
+        "review": [
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-1d1n#review-90"
           }
         ]
       },
@@ -248,6 +253,30 @@
             "url": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-1d1n"
           }
         ]
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-1d1n#review-90",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Antoine Grislain"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "(Translated by Google) The tour was great! Even though Bromo was closed, we were taken to Semeru. Our guide, Gufron, was fantastic!\n\n(Original)\nLe tour était très bien! Même si Bromo était fermé, on nous a amené à Semeru. Notre guide Gufron était vraiment top!",
+        "datePublished": "2026-06-04",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-1d1n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-1d1n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
       }
     ]
   },

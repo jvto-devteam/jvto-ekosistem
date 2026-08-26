@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-26T07:30:49.797Z",
+  "generated_at": "2026-08-26T09:27:29.932Z",
   "route": "/why-jvto/reviews/137",
   "domain": "why-jvto",
   "slug": "reviews/137",
@@ -21,11 +21,11 @@
       {
         "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/137#product",
         "@type": "Product",
-        "name": "Java Volcano Tour Package",
+        "name": "3 Day Bromo & Ijen Volcano Discovery from Bali",
         "brand": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         },
-        "url": "https://javavolcano-touroperator.com/tours",
+        "url": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n",
         "review": {
           "@type": "Review",
           "@id": "https://javavolcano-touroperator.com/#review-137",
@@ -54,7 +54,7 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-26T07:30:49.797Z",
+    "generated_at": "2026-08-26T09:27:29.932Z",
     "source_files": [
       "1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json"
     ],

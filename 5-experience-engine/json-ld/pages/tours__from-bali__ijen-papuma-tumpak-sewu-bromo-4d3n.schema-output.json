@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-26T07:30:49.797Z",
+  "generated_at": "2026-08-26T09:27:29.932Z",
   "route": "/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
   "domain": "tours",
   "slug": "from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
@@ -101,6 +101,11 @@
             "@type": "PropertyValue",
             "name": "Internal Package ID",
             "value": "package-BALI-4D3N-001"
+          }
+        ],
+        "review": [
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n#review-140"
           }
         ]
       },
@@ -531,6 +536,30 @@
             "url": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n"
           }
         ]
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n#review-140",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Noah"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "We had a wonderful 4D3N trip and visited spectacular places in East Java. Ijen, Tumpak Sewu, Papuma Beach and Bromo offered improbable views and impressions.\nIt is definitely worth making this trip. A special thanks goes to our guide Boy and our driver Joyo who took care of us so attentively and patiently the whole time and to the office wich made a really spontaneous change of plans possible. Very flexible, uncomplicated and friendly.\nWe felt well looked after all the time, Boy answered all our questions and took great care of everything. Joyo took us safely from A to B managing the crazy traffic all over Java with ease and herby allowing us to catch up on some sleep.\nThe office responded to questions within a few minutes. There was complete around-the-clock care. From the pick-up in Bali to the ferry ride to Java, through all hikes up to the drop off in Surabaya at our hotel, there was always someone at our side.\nSpontaneous stops on the journey were always possible. We had a good and safe feeling all the time.\nThe whole trip was described in a completely transparent way in advance. You know the timing and the accommodations - like promised on the website no surprises or hidden costs.\nWe can recommend Java Volcano Tour Operator to everyone looking for a great trip seeing what Java has got to offer.",
+        "datePublished": "2026-08-18",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
       }
     ]
   },

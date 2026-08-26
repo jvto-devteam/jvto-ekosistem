@@ -81,6 +81,13 @@
       "date": "2026-08-26",
       "decision": "The canonical and duplicate-intent checks in `npm run validate routes` are retired, not restored.",
       "why": "src/lib/registry/pages.ts was deleted on 2026-08-15 in 3925805f and nothing under src/ has imported it since. The redirect-vs-filesystem reconciliation, which never needed the registry, stays: 207 redirect and gone sources against 41 static routes, verified against a deliberately broken redirect."
+    },
+    {
+      "id": "review-package-attribution-by-inference",
+      "date": "2026-08-26",
+      "decision": "A review may be attributed to a product by reading the review text, but only when exactly one product fits, and the record must say so via packageAttribution.",
+      "why": "Twelve products showed no reviews while 71 reviews sat unattributed, and many of those name their itinerary outright. Matching against each product's itinerary, name and paid add-ons placed 19 of them and filled five empty products. The provenance field exists so a later reader can tell a deduction from an observation — a review states which tour someone took, and a derived slug is our reading of it, not their statement.",
+      "note": "Order of mention was rejected as evidence. Two Surabaya 3D2N products differ in nothing but the order their names list the same three destinations, and guests list by impression. Five reviews that only order could separate were left unattributed rather than assigned on that basis."
     }
   ],
   "backlog": [
@@ -92,9 +99,9 @@
     },
     {
       "id": "pdp-reviews-twelve-packages-unattributed",
-      "title": "Twelve tour packages have no attributed reviews",
-      "status": "open — data, not code",
-      "evidence": "150 of 221 reviews carry a packageSlug, covering five packages. Those five now emit Review nodes on their PDP, capped at 20 newest each with the available count reported. The other twelve get none, which is correct: a review states which tour someone took and that is not a detail to approximate. Closing the gap means attributing reviews at capture time, not in schema."
+      "title": "Seven tour packages have no attributed reviews",
+      "status": "open — data, not code; the inferable share has been worked",
+      "evidence": "169 of 221 reviews now carry a packageSlug, covering ten of seventeen products. 19 of those were derived from the review text on 2026-08-26 and carry a packageAttribution object recording the method, the confidence and the evidence; the rest came with the booking. Rules and rejected cases are in docs/review-package-attribution.md. The remaining 52 unattributed reviews cannot be placed: 47 name no destination at all, and 5 name a combination more than one product covers. Closing the last seven means capturing the package at review time."
     }
   ]
 }

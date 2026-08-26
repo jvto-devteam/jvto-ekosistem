@@ -1,5 +1,5 @@
 {
-  "_comment": "Individual guest reviews (Google, Trustpilot, TripAdvisor). id is preserved EXACTLY from the historical Prisma reviews.id this data was migrated from on 2026-08-19 (one-time export — 217 rows, script not retained since it was a single-use migration aid; see git history of this file for the commit that added it) — jvto-web's /why-jvto/reviews/{id} route and the #review-{id} JSON-LD @id both bake this integer into public, possibly-indexed URLs, so it must never be renumbered. nextId tracks the next integer to assign to a newly-synced Google review; Trustpilot/TripAdvisor have no automated sync (none existed before this migration either) and are updated manually here going forward, same as before.",
+  "_comment": "Individual guest reviews (Google, Trustpilot, TripAdvisor). id is preserved EXACTLY from the historical Prisma reviews.id this data was migrated from on 2026-08-19 (one-time export — 217 rows, script not retained since it was a single-use migration aid; see git history of this file for the commit that added it) — jvto-web's /why-jvto/reviews/{id} route and the #review-{id} JSON-LD @id both bake this integer into public, possibly-indexed URLs, so it must never be renumbered. nextId tracks the next integer to assign to a newly-synced Google review; Trustpilot/TripAdvisor have no automated sync (none existed before this migration either) and are updated manually here going forward, same as before. packageAttribution marks the 19 records whose packageSlug was DERIVED from the review text (destinations named, trip length, pick-up/drop-off city, matched against each product's itinerary, name and paid add-ons) rather than captured with the booking. Absence of the field means the slug came with the record. Reviews that name no destination, or whose named combination fits more than one product, were deliberately left unattributed — see docs/review-package-attribution.md.",
   "nextId": 326,
   "lastSynced": "2026-08-25",
   "googleSync": "Automated daily via .github/workflows/sync-google-reviews.yml (Phase 2, ekosistem-side)",
@@ -207,12 +207,18 @@
       "photos": null,
       "url": "https://www.trustpilot.com/reviews/69a667490e3161f72307f0f1",
       "urlReference": "https://www.trustpilot.com/reviews/69a667490e3161f72307f0f1",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-bali/bromo-ijen-3d2n",
+      "packageName": "3 Day Bromo & Ijen Volcano Discovery from Bali",
       "crewCodes": [
         "rendi",
         "holili"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "medium",
+        "basis": "named destinations match the product name exactly; review states 3 days; destinations named: Bromo, Ijen",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 78,
@@ -286,13 +292,19 @@
       },
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pBM1duTXdZWHBsWmxCd1NYVXhiVU5UWDNWVVYyYxAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqnUdmA7ymsrqQGtcBXoYCWU4ZFbwbLW9Rq2NPfHhR2WgV_PEqz53OxDuk3qaxD2brkuWYz2vQ",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
       "crewCodes": [
         "taufik",
         "fauzi",
         "fredi"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "high",
+        "basis": "named destinations match the itinerary exactly; review states 4 days; destinations named: Tumpak Sewu, Bromo, Ijen",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 79,
@@ -451,12 +463,18 @@
       "photos": null,
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xGNWVHVllkbVl6TkZaeFlpMVVXbFpTWkU5VGMwRRAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqko33hQa0CMagUpvg-PJLrqsUap8iDEQI7NGXL2jGVccEWkDFMEZW85Ha5ifkXuHQR-DOAPJg",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
+      "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
       "crewCodes": [
         "kiki",
         "holili"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "high",
+        "basis": "named destinations match the itinerary exactly; review states 3 days; pick-up in Surabaya; destinations named: Ijen, Bromo, Madakaripura",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 82,
@@ -512,9 +530,15 @@
       "photos": null,
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xFelgyeEJTRVZoYkVjMk5rNTVaRkl3VGxkVlVsRRAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqkFfxzTBBgQU0LVbgvBptp_Us7QhwQ6ti3TlrZrq0zug3Y_spHikwJI66X1dReH8AfiQCSgfw",
-      "packageSlug": null,
-      "packageName": null,
-      "crewCodes": []
+      "packageSlug": "tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
+      "packageName": "3 Day Bromo, Madakaripura & Ijen Overland from Surabaya to Bali",
+      "crewCodes": [],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "high",
+        "basis": "named destinations match the itinerary exactly; review states 3 days; destinations named: Bromo, Madakaripura, Ijen",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 85,
@@ -674,9 +698,15 @@
       "photos": null,
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT210NE0zQXdNMmRpVjBWcGNHZzVPRFowYUVSNlpFRRAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqn3KyGKmeAuZB9RwJNw7xbYM4WHTrMsmd4iFtJMejAxz489FTEbjB9ReAzz_olSMP6atMT_mQ",
-      "packageSlug": null,
-      "packageName": null,
-      "crewCodes": []
+      "packageSlug": "tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "crewCodes": [],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "high",
+        "basis": "named destinations match the itinerary exactly; destinations named: Ijen, Tumpak Sewu, Bromo",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 90,
@@ -688,11 +718,17 @@
       "photos": null,
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xoR09HUkdkSGM0TXkxWmJXOXZMVVJ5U21wVE1FRRAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqmQM13ZE4kzCOk72ZzCTfXBHwAV6iaqYOjjI7uTddXNVIHIVk9ysF8A1Q5N6_Qo5kVIucBU-g",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-surabaya/bromo-1d1n",
+      "packageName": "1 Day Bromo Midnight Experience from Surabaya",
       "crewCodes": [
         "gufron"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "medium",
+        "basis": "named destinations match the itinerary exactly; destinations named: Bromo",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 91,
@@ -704,11 +740,17 @@
       "photos": null,
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pOU1UwZHlha3hYV25odWJVMDRTRkJLWTFKb1FrRRAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqkwaETf-7_7DYK0lSG_ZzUBiHhjjCcOq_dqEYui-YWZI1q5nsW8VLfOgTbM07-IWZ54SUycOA",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-surabaya/ijen-2d1n",
+      "packageName": "2 Day Kawah Ijen Expedition from Surabaya",
       "crewCodes": [
         "yandi"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "medium",
+        "basis": "named destinations match the itinerary exactly; destinations named: Ijen",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 92,
@@ -813,11 +855,17 @@
       },
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT25SU1dFdExVRGh6YlZKMFJrOWpVR1J3ZHpVeWRFRRAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqlP1anjVCUq8KvkI1lr7ui1koJWWWq3uoOB18PCl_QmJYYIa8xpAMG_FtSgZJmYLsYXVXLugw",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
       "crewCodes": [
         "fredi"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "high",
+        "basis": "named destinations match the itinerary exactly; review states 4 days; destinations named: Bromo, Tumpak Sewu, Ijen",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 96,
@@ -887,11 +935,17 @@
       },
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pWSE9YUk9WR2hYT1RJelVYa3lSMTgxVFY5YVgzYxAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqlP_BhxsOg9uIIUOtX2bxfsKY0wy9vE1Sb9qDiffMRtv2DsV_B7psluq0pAJHTfKz0zU-visA",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
       "crewCodes": [
         "kiki"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "high",
+        "basis": "named destinations match the itinerary exactly; destinations named: Ijen, Tumpak Sewu, Bromo",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 98,
@@ -997,12 +1051,18 @@
       "photos": null,
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tsNGNGaENWRlJZYjNKT1ZraEhObVJ6YjBwMlVIYxAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqkwLoenKBYLWrH6_nvypD9h4jWz9ORmW3cGoyeiH_ixYRNRJPp7-wlzvvtEu2sMRV_KFgSPTg",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-bali/bromo-ijen-3d2n",
+      "packageName": "3 Day Bromo & Ijen Volcano Discovery from Bali",
       "crewCodes": [
         "yusuf",
         "kiki"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "medium",
+        "basis": "named destinations match the product name exactly; review states 3 days; destinations named: Ijen, Bromo",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 105,
@@ -1081,12 +1141,18 @@
       "photos": null,
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pWNmEyVkdaRlE0U2pka09GRmZiM2xFUTNKcVgzYxAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqlkGwACYLohA0FNDxoBg9jxBbZXLdvs4_CPEy0cYKTGAEKwzRCJdJGkbujFLTVgIK1abbXWsA",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
       "crewCodes": [
         "yandi",
         "boy"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "high",
+        "basis": "named destinations match the itinerary exactly; destinations named: Bromo, Ijen, Tumpak Sewu",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 110,
@@ -1152,11 +1218,17 @@
       },
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tsTmVsOVlVR3QyVTI1bWVFVlZZMFpuYlRkelVuYxAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqmyehvInugGBIvh6ZromKC8l37TeYu7LFId7w6aP2frOqrxQ8GUNtxk2OCXXYzOJIpcxK18-A",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-bali/bromo-ijen-3d2n",
+      "packageName": "3 Day Bromo & Ijen Volcano Discovery from Bali",
       "crewCodes": [
         "fauzi"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "medium",
+        "basis": "named destinations match the product name exactly; destinations named: Bromo, Ijen",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 111,
@@ -1276,12 +1348,18 @@
       },
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2t0d1oxaHhWWFozYVV4S2JubEJVelI1VjJ0YVdsRRAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqmRxJWq6fx1XVGf4wyg-uYYFkuK2rsfZVngsKBwh2k9K4A0frQgLs9VP7htr0roroOvvBik2g",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
       "crewCodes": [
         "anjas",
         "rendi"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "high",
+        "basis": "named destinations match the itinerary exactly; destinations named: Bromo, Ijen, Tumpak Sewu",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 116,
@@ -1844,11 +1922,17 @@
       },
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT21jeE5Wa3hXa053WTBRMGVXdG9Wa2N3U25wZllYYxAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqlsivFVXifI5EgNAemJVzRdOcp94VKeUj5RmXzDAHFqo_kjtwvrFHvc-uGmZBfo-rCzkZoXPg",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
       "crewCodes": [
         "yusuf"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "high",
+        "basis": "named destinations match the itinerary plus the Madakaripura Waterfall add-on this product sells; review states 4 days; destinations named: Tumpak Sewu, Bromo, Ijen, Madakaripura",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 132,
@@ -1922,11 +2006,17 @@
       },
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pscGEzUk9aMmRrYUVKUFkwNUNiRVZYUTFwR2FsRRAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOql_LR2QppQ6JVwby4F6p6sNH2-iQiu3SC5ozBSQSbNLbqJPEjF8NpHylNWRo1DztbTCKRsqlA",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
       "crewCodes": [
         "fredi"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "high",
+        "basis": "named destinations match the itinerary exactly; review states 4 days; destinations named: Ijen, Tumpak Sewu, Bromo",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 133,
@@ -1984,11 +2074,17 @@
       },
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xsamEyNU1UalEzWmpkWlJtSlZPR0ZTUVhWUVJrRRAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqnVWYGn_YBKBlxuRRV034iTbqw78KvqM8z3N-wjPz6yC0NuRPvtSAnN5tPkf-BB3g4AhUUlDQ",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
       "crewCodes": [
         "anjas"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "medium",
+        "basis": "named destinations match the itinerary exactly; review states 3 days (one off the contract length; no product of the stated length covers this combination); destinations named: Tumpak Sewu, Bromo, Ijen",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 134,
@@ -2016,11 +2112,17 @@
       "photos": null,
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tSVlVISjVkMjV3U0dGSFdHWk5UVzVJWVZOT1MzYxAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqlvrUMBjN9aQ1PSoGdZQjfR7wk7VHe6ZpZtsSNl77G-D1Rjtr9dEuzwZN0J5n5qG6bTwhaEsw",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-surabaya/ijen-bromo-madakaripura-3d2n",
+      "packageName": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
       "crewCodes": [
         "rendi"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "high",
+        "basis": "named destinations match the itinerary exactly; review states 3 days; pick-up in Surabaya; destinations named: Ijen, Bromo, Madakaripura",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 136,
@@ -2084,12 +2186,18 @@
       },
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT21WVWVqUlFWbEJ2ZDBWSFQzVlVjWE5oTVdkdVRWRRAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqmRvqRRYxZUOJwxyoU_qNM0C2cm5blq6n0r4pXEhrm4rMG_qtLIXht1hqd5MHkn71T6dGvimg",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-bali/bromo-ijen-3d2n",
+      "packageName": "3 Day Bromo & Ijen Volcano Discovery from Bali",
       "crewCodes": [
         "fauzi",
         "fredi"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "medium",
+        "basis": "named destinations match the product name exactly; review states 3 days; destinations named: Bromo, Ijen",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 138,
@@ -2193,12 +2301,18 @@
       },
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2paNVFVRkVRa3BsVmpJMlJtRndlVnBtTjBsbGRFRRAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqkavqbvZ2SKTdphz52puLpAF0fMUhWBMViXHsYg_trccdAiqGth4t4JBk5Bm_WU4SwhUChrbw",
-      "packageSlug": null,
-      "packageName": null,
+      "packageSlug": "tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
+      "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
       "crewCodes": [
         "joyo",
         "boy"
-      ]
+      ],
+      "packageAttribution": {
+        "method": "inferred-from-review-text",
+        "confidence": "high",
+        "basis": "named destinations match the itinerary exactly; review states 4 days; pick-up in Bali; drop-off in Surabaya; destinations named: Ijen, Tumpak Sewu, Papuma Beach, Bromo",
+        "inferredOn": "2026-08-26"
+      }
     },
     {
       "id": 166,
