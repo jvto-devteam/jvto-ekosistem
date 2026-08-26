@@ -1,7 +1,7 @@
 # Java Volcano Tour Operator (JVTO)
 > Machine-readable entity dossier for LLM crawlers. Private volcano tours in East Java, Indonesia - Bromo, Ijen, and Tumpak Sewu.
 
-Auto-generated from JVTO Operating Ecosystem (compiler render-llms-txt v1.2.0, compiled 2026-08-23).
+Auto-generated from JVTO Operating Ecosystem (compiler render-llms-txt v1.2.0, compiled 2026-08-26).
 Source: jvto-ekosistem SSOT (organization identity, narrative claims, public evidence, knowledge feed).
 Content-Signal: search=yes,ai-train=yes,use=reference
 Do not hand-edit public/llms.txt; edit the source files and run npm run render:llms.
@@ -32,10 +32,10 @@ Do not hand-edit public/llms.txt; edit the source files and run npm run render:l
 - **Surat Izin Praktik (SIP) — dr. Ahmad Irwandanu, Ijen pre-ascent screening physician** (503.446/664/DRU/4/430.9.13/2026): Indonesian medical practice licence (Permenkes 2052/Menkes/Per/X/2011); STR QN00001073380217 valid to 2031-01-06, BSrE-signed; recognized by DPMPTSP dan Tenaga Kerja Kabupaten Bondowoso; document https://javavolcano-touroperator.com/screening/SIP_DOKTER_AHMAD_IRWANDANU_2026.pdf; SHA-256 82f2535b87066fef23cf3012ed3bc1cb18c124e03045ab544067e51d78ac80aa
 - **NPWP — Indonesian tax registration, PT Java Volcano Rendezvous** (62.802.938.1-656.000): Indonesian taxpayer registration number (NPWP16: 0628029381656000), KPP Pratama Situbondo; recognized by Direktorat Jenderal Pajak; document https://javavolcano-touroperator.com/legal/NPWP.pdf; SHA-256 9c00d04a1e16802fbb9ec4a29f8181d7e20980c6bcfd94242df5bc42805f3232
 
-## Public Review Aggregate (2026-08-23)
-- **Aggregate rating**: 4.9 / 5 from 153 Google Maps reviews (verified 2026-08-23). This is the single public aggregate; the per-platform figures below are not blended into one average.
+## Public Review Aggregate (2026-08-25)
+- **Aggregate rating**: 4.9 / 5 from 156 Google Maps reviews (verified 2026-08-25). This is the single public aggregate; the per-platform figures below are not blended into one average.
 - **Trustpilot**: 4.8 / 5, 51 reviews, verified 2026-05-09. https://trustpilot.com/review/javavolcano-touroperator.com
-- **Google Maps**: 4.9 / 5, 153 reviews, verified 2026-08-23. https://www.google.com/maps?cid=1266403973589689021
+- **Google Maps**: 4.9 / 5, 156 reviews, verified 2026-08-25. https://www.google.com/maps?cid=1266403973589689021
 - **TripAdvisor**: 4.95 / 5, 21 reviews, verified 2026-04-22. https://www.tripadvisor.com/Attraction_Review-g297715-d19983165-Reviews-Java_Volcano_Tour_Operator-Surabaya_East_Java_Java.html
 - **GetYourGuide**: rating not asserted, review count not asserted. https://www.getyourguide.com/java-volcano-tour-operator-s260697/
 
@@ -68,7 +68,7 @@ Do not hand-edit public/llms.txt; edit the source files and run npm run render:l
 - **POL-IE-06 - What is not included in a JVTO tour by default?**: https://javavolcano-touroperator.com/policy/inclusions-exclusions
 
 ## Fact-Dense Homepage Answer
-- Private volcano tours from Surabaya & Bali. Tourist Police-led. No shared groups. 4.9/5 from 153 Google reviews. NIB 1102230032918. From IDR 1M/pax.
+- Private volcano tours from Surabaya & Bali. Tourist Police-led. No shared groups. 4.9/5 from 156 Google reviews. NIB 1102230032918. From IDR 1M/pax.
 
 ## Third-Party Recognition
 Independent references to JVTO or its founder. None operator-produced; each has a page-level evidence record.
@@ -101,13 +101,13 @@ Guides and drivers are named individually because guests name them. Mention coun
 
 ## Priority Pages
 Each line states the page's key fact directly, so it can be quoted without fetching the page.
-- [Why Travel with Java Volcano Tour Operator (JVTO)](https://javavolcano-touroperator.com/why-jvto): JVTO is a registered Indonesian tour operator for private Bromo, Ijen, Tumpak Sewu and Papuma routes from Surabaya or Bali. The model is Tourist Police-led, NIB 1102230032918, 100% private, all-inclusive, and backed by published policies, crew profiles, reviews and verification pages.
-- [Verify JVTO: A Proof Library You Can Check](https://javavolcano-touroperator.com/verify-jvto): The evidence locker for PT Java Volcano Rendezvous — legal, police-authority, press, and history documents, each checkable against an independent...
+- [Why Travel with Java Volcano Tour Operator (JVTO)](https://javavolcano-touroperator.com/why-jvto): JVTO is PT Java Volcano Rendezvous, a registered Indonesian tour operator running private Bromo, Ijen, Tumpak Sewu and Papuma routes from Surabaya or Bali since 2015. NIB 1102230032918, TDUP issued 2023-02-11. Every tour is 100% private with no shared groups, and the founder is a serving Tourist Police officer.
+- [Verify JVTO: A Proof Library You Can Check](https://javavolcano-touroperator.com/verify-jvto): JVTO publishes 12 official authority documents, 5 independent press references and 17 operational records, each anchored to a SHA-256 hash that is re-verified weekly. The legal entity is PT Java Volcano Rendezvous, NIB 1102230032918, with TDUP issued 2023-02-11. Every claim here can be checked against an Indonesian government registry before you book.
 - [Ijen Health Certificate — Real Checks, Digital Proof](https://javavolcano-touroperator.com/travel-guide/ijen-health-screening): Before Kawah Ijen crater entry, every guest needs a doctor-issued health certificate under BBKSDA SE.35/K2/BIDTEK.1/KSA/1/2024. JVTO coordinates a real hotel-based screening with vitals checks and a BSrE-signed digital certificate. If a guest is not cleared, only that guest's climb is cancelled and safe-zone alternatives apply.
 - [Ijen Rijik: The Monthly Closure Day at Kawah Ijen](https://javavolcano-touroperator.com/travel-guide/rijik-monthly-closure): Kawah Ijen closes to all visitors on the first Friday of every month for Rijik, a scheduled conservation cleanup running since March 2019. Park staff and volunteers typically remove an estimated 100-150 kg of waste. JVTO checks this calendar before confirming Ijen-inclusive itineraries and schedules around it.
 - [Booking Information – How JVTO Private Tours Work](https://javavolcano-touroperator.com/travel-guide/booking-information): JVTO bookings happen only on javavolcano-touroperator.com, in five steps: choose route and dates, review price and add-ons, accept terms and pay a 20% deposit (up to 100% if Day 1 is within 14 days), then receive your Official E-Voucher PDF. Full legal terms: /policy/booking-payment-cancellation.
-- [Traffic Police Escort for Tourist Groups in East Java](https://javavolcano-touroperator.com/travel-guide/police-escort-for-groups): For tourist groups, usually around 18 guests or more, JVTO can request an official traffic police escort through the relevant Ditlantas unit. It is a formal approval process, not a guaranteed add-on. When approved, the escort supports road coordination on selected East Java segments.
-- [JVTO Policy Hub](https://javavolcano-touroperator.com/policy): JVTO policy pages define the booking, payment, cancellation, inclusions, exclusions and privacy rules that apply before a private tour is confirmed. The binding order starts with the official e-voucher or invoice PDF, then the published policy pages, then supporting travel-guide guidance for operational details.
+- [Traffic Police Escort for Tourist Groups in East Java](https://javavolcano-touroperator.com/travel-guide/police-escort-for-groups): For groups of about 18 guests or more, JVTO can request an official traffic police escort through the relevant Ditlantas unit. It is a formal approval process, not a guaranteed add-on: approval rests with Ditlantas. JVTO holds one such order on file, Sprin/70/II/HUK.6.6./2024 of 12 February 2024, issued by Satlantas Polres Bondowoso.
+- [JVTO Policy Hub](https://javavolcano-touroperator.com/policy): JVTO's four policy pages define the booking, payment, cancellation, inclusions, exclusions and privacy rules that bind before a private tour is confirmed. All four are version 5, dated 2026-01-17, issued by PT Java Volcano Rendezvous. The binding order runs from the official e-voucher or invoice PDF, to these pages, then to travel-guide guidance.
 
 ---
-Compiled 2026-08-23T05:57:12.165Z from 51 knowledge-feed records. Feed generated 2026-08-23T05:57:11.221Z.
+Compiled 2026-08-26T22:32:22.869Z from 51 knowledge-feed records. Feed generated 2026-08-26T22:32:22.423Z.
