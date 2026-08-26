@@ -15,3 +15,6 @@ tmp-live-audit/
 .superpowers/
 .firecrawl/
 llm-wiki-upstream/
+
+# jvto-web checked out here by verify-evidence-hashes.yml (see that workflow)
+.jvto-web/

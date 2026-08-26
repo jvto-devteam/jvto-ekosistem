@@ -39,7 +39,15 @@ import path from "node:path";
 import process from "node:process";
 
 const ROOT = process.cwd();
-const WEB_PUBLIC = path.resolve(ROOT, "..", "jvto-web", "public");
+// Where jvto-web is checked out. Locally that is the sibling directory; in CI it
+// cannot be, because actions/checkout refuses any `path` outside $GITHUB_WORKSPACE
+// ("Repository path ... is not under ...", which is how the weekly job died on
+// 2026-08-24). The workflow checks jvto-web out into a subdirectory instead and
+// points this at it via JVTO_WEB_PATH.
+const WEB_ROOT = process.env.JVTO_WEB_PATH
+  ? path.resolve(ROOT, process.env.JVTO_WEB_PATH)
+  : path.resolve(ROOT, "..", "jvto-web");
+const WEB_PUBLIC = path.join(WEB_ROOT, "public");
 const SITE = "https://javavolcano-touroperator.com";
 const WRITE = process.argv.includes("--write");
 // Records current hashes for inventory entries whose file legitimately changed.
@@ -133,6 +141,22 @@ async function main() {
     }
   }
 
+  // The documents live in jvto-web. If that checkout is not where we expect,
+  // every hash below reports "not found", `verified` lands on 0, and the run
+  // used to exit 0 anyway — so `--write` would stamp last_verified_iso to today
+  // having verified nothing. That is the precise failure this script exists to
+  // prevent, so refuse before reaching the counters.
+  try {
+    await stat(WEB_PUBLIC);
+  } catch {
+    console.error(
+      `jvto-web is not at ${WEB_PUBLIC}.\n` +
+        `Set JVTO_WEB_PATH to the checkout (CI does: JVTO_WEB_PATH=.jvto-web), ` +
+        `or clone jvto-web beside this repo. Refusing to report on documents it cannot read.`,
+    );
+    process.exit(1);
+  }
+
   console.log(`Evidence hash check ${TODAY}`);
   console.log(`  verified   : ${ok}`);
   console.log(`  mismatched : ${mismatched.length}`);
@@ -142,6 +166,18 @@ async function main() {
 
   if (mismatched.length) {
     console.error("\nA published hash no longer matches its file. Do not stamp dates until this is explained.");
+    process.exit(1);
+  }
+
+  // An unreachable document was printed but never failed the run. A documentUrl
+  // this repo publishes and no file behind it is a 404 for every reader who
+  // clicks "see the document" — the same broken promise as a wrong hash, and it
+  // must not be stamped as verified either.
+  if (unreachable.length) {
+    console.error(
+      `\n${unreachable.length} published document(s) have no file behind them. ` +
+        `Either the file moved in jvto-web or the documentUrl is wrong; fix one of the two before stamping.`,
+    );
     process.exit(1);
   }
 

@@ -41,12 +41,15 @@ jobs:
       # The documents live in the sibling repo's public/ directory; the
       # verifier hashes them on disk rather than over HTTP so a CDN cannot
       # mask a changed file.
+      # Into a subdirectory of the workspace, NOT ../jvto-web: actions/checkout
+      # rejects any path outside $GITHUB_WORKSPACE, and this job failed on
+      # exactly that every time it fired. The verifier finds it via JVTO_WEB_PATH.
       - name: Checkout jvto-web (documents under public/)
         uses: actions/checkout@v4
         with:
           repository: jvto-devteam/jvto-web
           ref: live
-          path: ../jvto-web
+          path: .jvto-web
           token: ${{ secrets.JVTO_WEB_READ_TOKEN || github.token }}
 
       - name: Setup Node
@@ -55,6 +58,8 @@ jobs:
           node-version: 20
 
       - name: Verify and stamp
+        env:
+          JVTO_WEB_PATH: .jvto-web
         run: node scripts/verify-evidence-hashes.mjs --write
 
       - name: Commit if the stamp changed
