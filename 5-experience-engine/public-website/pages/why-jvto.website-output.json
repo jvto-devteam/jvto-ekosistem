@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-26T08:06:38.789Z",
   "route": "/why-jvto",
   "domain": "why-jvto",
   "slug": "index",
@@ -17,7 +17,7 @@
   "page": {
     "title": "Why Travel with Java Volcano Tour Operator (JVTO)",
     "summary": "Why travelers choose JVTO: police-led safety, verifiable credentials, private-only tours, and documented history.",
-    "answerFirst": "JVTO is a registered Indonesian tour operator for private Bromo, Ijen, Tumpak Sewu and Papuma routes from Surabaya or Bali. The model is Tourist Police-led, NIB 1102230032918, 100% private, all-inclusive, and backed by published policies, crew profiles, reviews and verification pages.",
+    "answerFirst": "JVTO is PT Java Volcano Rendezvous, a registered Indonesian tour operator running private Bromo, Ijen, Tumpak Sewu and Papuma routes from Surabaya or Bali since 2015. NIB 1102230032918, TDUP issued 2023-02-11. Every tour is 100% private with no shared groups, and the founder is a serving Tourist Police officer.",
     "owner": "company",
     "lastReviewed": "2026-08-04",
     "content": {

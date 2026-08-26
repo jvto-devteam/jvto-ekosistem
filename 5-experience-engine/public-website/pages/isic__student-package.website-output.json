@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-24T08:21:17.408Z",
+  "generated_at": "2026-08-26T08:06:38.789Z",
   "route": "/isic/student-package",
   "domain": "isic",
   "slug": "student-package",
@@ -17,7 +17,7 @@
   "page": {
     "title": "Explore Java's Volcanoes with ISIC Benefits",
     "summary": "",
-    "answerFirst": "JVTO offers ISIC cardholders a student pricing structure on its private East Java volcano tours, redeemable with a valid ISIC card. It is built for students travelling in small groups and is not a stripped-down product: the tour stays strictly private with no mixed groups, and the same inclusions and safety rules apply.",
+    "answerFirst": "JVTO is a listed ISIC discount provider, id 259268, offering cardholders student pricing across the same {PACKAGE_COUNT} private itineraries it has run from Surabaya and Bali since 2015. A valid ISIC card is required. It is not a stripped-down product: the tour stays 100% private with no mixed groups, under the same written inclusions and safety rules.",
     "owner": "editorial",
     "lastReviewed": "2026-08-18",
     "content": {

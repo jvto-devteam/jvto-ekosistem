@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-26T08:06:38.789Z",
   "route": "/policy/inclusions-exclusions",
   "domain": "policy",
   "slug": "inclusions-exclusions",
@@ -17,7 +17,7 @@
   "page": {
     "title": "JVTO Inclusions & Exclusions Policy",
     "summary": "What is included vs not included in JVTO private tour packages, under the 'Write-it-to-bind-it' principle.",
-    "answerFirst": "JVTO's Inclusions & Exclusions Policy runs on a 'Write-it-to-Bind-it' rule: only items listed on your package page and Official E-Voucher/Invoice (PDF) are contractually binding — informal discussion during booking is not. Current version 2026-01-17 (v5), issued by PT Java Volcano Rendezvous.",
+    "answerFirst": "JVTO's Inclusions & Exclusions Policy runs on a write-it-to-bind-it rule: only items listed on your package page and on the official e-voucher or invoice PDF are contractually binding, and an informal discussion during booking is not. Version 5, dated 2026-01-17, issued by PT Java Volcano Rendezvous, NIB 1102230032918.",
     "owner": "legal",
     "lastReviewed": "2026-08-04",
     "content": {

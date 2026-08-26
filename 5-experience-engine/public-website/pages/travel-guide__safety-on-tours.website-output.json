@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-26T08:06:38.789Z",
   "route": "/travel-guide/safety-on-tours",
   "domain": "travel-guide",
   "slug": "safety-on-tours",
@@ -17,7 +17,7 @@
   "page": {
     "title": "Safety on JVTO Tours",
     "summary": "How JVTO plans for safety on private volcano tours and what guests should know.",
-    "answerFirst": "JVTO's safety approach is written policy, not marketing: founder Agung Sambuko is a Tourist Police officer first, tour operator second, and every tour runs a documented Plan-B framework for volcanic closures plus a mandatory pre-hike safety briefing — guests are prepared for real conditions, not shielded from them.",
+    "answerFirst": "JVTO's safety approach is written policy, not marketing. Founder Agung Sambuko is a serving Tourist Police officer assigned under SPRIN POLPAR at Polres Bondowoso. Every tour runs a documented Plan-B framework for volcanic closures and a mandatory pre-hike briefing, and the Ijen health certificate required by BBKSDA Jawa Timur is coordinated before the climb.",
     "owner": "operations",
     "lastReviewed": "2026-08-04",
     "content": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-24T08:21:17.408Z",
+  "generated_at": "2026-08-26T08:06:38.789Z",
   "route": "/tours/from-bali",
   "domain": "tours",
   "slug": "from-bali",
@@ -17,7 +17,7 @@
   "page": {
     "title": "Private East Java Volcano Tours from Bali",
     "summary": "",
-    "answerFirst": "JVTO runs four private itineraries from Bali, from 3D2N Bromo and Ijen to a 5D4N Ijen, Papuma, Tumpak Sewu and Bromo circuit. The Bali-Java ferry crossing is included. Every tour is private with no shared groups, and park entrance fees, accommodation and the Ijen health screening are covered where the route requires them.",
+    "answerFirst": "JVTO runs {PACKAGE_COUNT_BALI} private itineraries from Bali, from 3D2N Bromo and Ijen to a 5D4N Ijen, Papuma, Tumpak Sewu and Bromo circuit. The Bali-Java ferry crossing is included, and Ijen sits about 5 hours from the port. Park fees, accommodation and the Ijen health certificate required under BBKSDA Jawa Timur rules are covered where the route needs them.",
     "owner": "editorial",
     "lastReviewed": "2026-08-18",
     "content": {

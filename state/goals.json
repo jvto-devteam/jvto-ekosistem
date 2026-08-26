@@ -61,7 +61,7 @@
       "date": "2026-08-26",
       "decision": "check-answer-first reports the three-fact rule as a warning, not an error. Word count (40-60) and volatile numbers written as literals stay errors.",
       "why": "The rule fires on 25 of 56 live blocks. It runs from a per-edit hook, and a checker that fires on 40% of a corpus gets muted. Word count and literals are objective; the fact list is a heuristic that was widened twice during the plugin build.",
-      "openQuestion": "Owner may reverse this and treat fact count as an error, but the 25 flagged blocks need work first."
+      "openQuestion": "Resolved in practice: all 56 blocks now pass. The rule stayed a warning, but the 22 it flagged were fixed rather than tolerated — and 13 of the 25 original findings turned out to be the checker undercounting categories the spec names (recurring periods, attributed person names, and any number with a unit rather than a unit from a hardcoded list of six)."
     },
     {
       "id": "jvto-ops-repo-visibility",
@@ -79,12 +79,6 @@
   ],
   "backlog": [
     {
-      "id": "graph-inline-duplicates-remaining",
-      "title": "Four inline nodes still duplicate a registry entry on the live site",
-      "status": "open",
-      "evidence": "check-graph-integrity --live went from 118 findings to 4 once the rule was narrowed to entity types and POLPAR, Kemenparekraf, POLRI, Detik.com and one DuMont were referenced by @id. Remaining: one more POLRI and one more DuMont inline, a Person named Gufron with no @id beside the node at /why-jvto/our-team/gufron, and that node's id disagreeing with the crew page's /why-jvto/our-team/gufron#person — two ids for one person. Also two bare page URLs (/destinations/ijen-crater, /destinations/mount-bromo) used as @id targets under about, isPartOf and spatialCoverage where the pages define #attraction instead."
-    },
-    {
       "id": "se-35-document",
       "title": "BBKSDA circular SE.35/K2/BIDTEK.1/KSA/1/2024 is cited but not held",
       "status": "open — waiting on the document",
@@ -95,12 +89,6 @@
       "title": "tours/from-surabaya.source.json writes '13 private itineraries' as a literal",
       "status": "open",
       "evidence": "check-answer-first reports it. {PACKAGE_COUNT} is the catalogue total (17), not the per-origin count, so it is the wrong token. Needs per-origin tokens in jvto-web/src/lib/publicContent/liveNumbers.ts."
-    },
-    {
-      "id": "answer-first-fact-count-warnings",
-      "title": "25 answer blocks carry fewer than three quantified facts",
-      "status": "open",
-      "evidence": "Warnings, not errors, per the severity decision above. Worst cases are policy and ISIC hub pages: isic/student-package.source.json has zero quantified facts."
     },
     {
       "id": "validate-review-pages-unwired",

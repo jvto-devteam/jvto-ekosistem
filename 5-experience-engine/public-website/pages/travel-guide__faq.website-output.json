@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-26T08:06:38.789Z",
   "route": "/travel-guide/faq",
   "domain": "travel-guide",
   "slug": "faq",
@@ -18,7 +18,7 @@
   "page": {
     "title": "Frequently Asked Questions",
     "summary": "Frequently asked questions about JVTO private Bromo, Ijen, and Tumpak Sewu tours — booking, payments, safety, health screening, weather, luggage, groups, and support.",
-    "answerFirst": "JVTO tours are 100% private — no shared \"seat in coach\" bookings; your vehicle, driver, and guide serve your party only. This page answers the most common questions on booking, payments, safety, health screening, weather, luggage, and group logistics, each linked to the full policy or guide page for detail.",
+    "answerFirst": "JVTO tours are 100% private: no shared seat-in-coach bookings, and your vehicle, driver and guide serve your party alone. This page answers the questions asked most often about booking, payment, the Ijen health certificate required under BBKSDA rules, weather closures, luggage and groups of about 18 or more, each linked to the binding policy page.",
     "owner": "editorial",
     "lastReviewed": "2026-08-06",
     "content": {
