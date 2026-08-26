@@ -27,7 +27,8 @@
     {
       "type": "TDUP",
       "value": "1102230032918",
-      "dateIssued": "2023-02-11"
+      "dateIssued": "2023-02-11",
+      "note": "Shares its value with the NIB by design, not by error: under Indonesia's OSS regime the TDUP is issued against the business's existing NIB rather than carrying a separate number. Both documents are published under verify-jvto and show the same figure. jvto-web's check:fact-drift warns about the collision; this note is the answer."
     },
     {
       "type": "AHU",

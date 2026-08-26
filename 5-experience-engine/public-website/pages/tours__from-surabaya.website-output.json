@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-24T08:21:17.408Z",
+  "generated_at": "2026-08-26T06:38:18.830Z",
   "route": "/tours/from-surabaya",
   "domain": "tours",
   "slug": "from-surabaya",
@@ -17,7 +17,7 @@
   "page": {
     "title": "Private Volcano Tours from Surabaya",
     "summary": "",
-    "answerFirst": "JVTO runs 13 private itineraries from Surabaya, from a 1D1N Bromo sunrise to a 6D5N Ijen, Papuma, Tumpak Sewu, Bromo and Malang circuit. Bromo is about 3 hours from Juanda Airport and Ijen about 5. Every tour is private, with park fees, accommodation and Ijen health screening included where the route requires them.",
+    "answerFirst": "JVTO runs {PACKAGE_COUNT_SURABAYA} private itineraries from Surabaya, from a 1D1N Bromo sunrise to a 6D5N Ijen, Papuma, Tumpak Sewu, Bromo and Malang circuit. Bromo is about 3 hours from Juanda Airport and Ijen about 5. Every tour is private, with park fees, accommodation and Ijen health screening included where the route requires them.",
     "owner": "editorial",
     "lastReviewed": "2026-08-18",
     "content": {

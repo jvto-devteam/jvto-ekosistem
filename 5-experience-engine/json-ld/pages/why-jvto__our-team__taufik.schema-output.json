@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-26T06:38:18.830Z",
   "route": "/why-jvto/our-team/taufik",
   "domain": "why-jvto",
   "slug": "our-team/taufik",
@@ -43,7 +43,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": 4.9,
-          "reviewCount": 153,
+          "reviewCount": 156,
           "bestRating": 5
         },
         "sameAs": [
@@ -325,6 +325,23 @@
           }
         ],
         "review": [
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/325#crew-taufik",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/325",
+            "author": {
+              "@type": "Person",
+              "name": "Arnando Pakpahan"
+            },
+            "datePublished": "2026-08-24",
+            "reviewBody": "JVTO made my trip a very memorable trip. Both the guide (Taufik) and the driver (Fredi) were very warm and kind, easy to engage in conversation and know what they are doing. Not to mention they are very flexible and adaptable as well when the situation calls for it. They also made the trip very safe and being a local guide, they know the tricks and tips to avoid crowd and get the best shots / locations. Overall I really did enjoy this trip and I would definitely recommend them to everyone if they ever visit.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
           {
             "@type": "Review",
             "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/78#crew-taufik",

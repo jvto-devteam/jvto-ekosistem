@@ -1,0 +1,100 @@
+{
+  "_comment": "Project state for the JVTO content ecosystem. Read at session start by jvto-ops (scripts/session-brief.mjs) and by checkers that would otherwise freeze a policy constant in their own source. Shape is documented in the plugin at docs/goals-schema.md. Edit this file; do not duplicate its facts into a checker.",
+  "updated": "2026-08-26",
+
+  "baseline": {
+    "measuredAt": "2026-08-24",
+    "tool": "jvto-web/scripts/audit-answer-structure.py",
+    "note": "Measured against the live site over all 291 sitemap routes. The auditor does not strip <header> (on most routes here that element is the page hero) and does not treat low fact density on crew pages as a defect (those pages are built from verbatim guest reviews).",
+    "byPageType": {
+      "homepage": { "density": 0.52, "threeNumbersInFirst120": "1/1" },
+      "destination": { "density": 0.48, "threeNumbersInFirst120": "6/6" },
+      "travel-guide": { "density": 0.23, "threeNumbersInFirst120": "4/12" },
+      "pdp": { "density": 0.6, "threeNumbersInFirst120": "17/17" },
+      "trust": { "density": 0.88, "threeNumbersInFirst120": "4/5" },
+      "why-jvto": { "density": 0.52, "threeNumbersInFirst120": "1/6" },
+      "crew": { "density": 0.09, "threeNumbersInFirst120": "11/11" },
+      "blog": { "density": 0.43, "threeNumbersInFirst120": "2/4" },
+      "policy": { "density": 0.26, "threeNumbersInFirst120": "0/4" }
+    }
+  },
+
+  "policies": {
+    "contentSignal": "search=yes,ai-train=yes,use=reference"
+  },
+
+  "decisions": [
+    {
+      "id": "content-signal-ai-train",
+      "date": "2026-08-18",
+      "decision": "Content-Signal is search=yes,ai-train=yes,use=reference",
+      "why": "robots.ts already allowed every AI-training crawler and AEO/GEO visibility is a stated goal of this site; the header said ai-train=no and contradicted it.",
+      "commit": "904e8219",
+      "note": "jvto-web/scripts/audit-generative-visibility.mjs froze ai-train=no in its own source and reported eleven false failures for eight days. It now reads policies.contentSignal from this file. A checker that freezes a policy is a checker that will contradict its owner."
+    },
+    {
+      "id": "answer-first-fact-count-severity",
+      "date": "2026-08-26",
+      "decision": "check-answer-first reports the three-fact rule as a warning, not an error. Word count (40-60) and volatile numbers written as literals stay errors.",
+      "why": "The rule fires on 25 of 56 live blocks. It runs from a per-edit hook, and a checker that fires on 40% of a corpus gets muted. Word count and literals are objective; the fact list is a heuristic that was widened twice during the plugin build.",
+      "openQuestion": "Owner may reverse this and treat fact count as an error, but the 25 flagged blocks need work first."
+    },
+    {
+      "id": "jvto-ops-repo-visibility",
+      "date": "2026-08-26",
+      "decision": "jvto-devteam/jvto-ops is private.",
+      "why": "Its skills document internal deploy protocols, infrastructure paths and incident history. Publishing is a separate, reversible owner decision."
+    }
+  ],
+
+  "backlog": [
+    {
+      "id": "P0-3",
+      "title": "Review nodes on the 17 tour package pages",
+      "status": "open",
+      "evidence": "0 of 17 tour pages emit a Review node; crew pages emit 11 of 11. The quotes shown on package pages come from a third-party Trustpilot embed on 19 tour pages, not from the ekosistem review corpus, so they are not tied as Review nodes to the crew and package they name. Material is ready: 218 reviews, 171 already carrying crew attribution."
+    },
+    {
+      "id": "madakaripura-height",
+      "title": "Madakaripura waterfall height disagrees across four places",
+      "status": "open — needs an owner decision, not a fix",
+      "evidence": "destination-knowledge/madakaripura-waterfall.content.json says display_height_m 200 and summary '200-meter'; hero_meta_override says '~100 m waterfall'; jvto-web DestinationDetailView.tsx FALLBACK_HERO_META duplicates '~100 m waterfall'. The answer block for that page deliberately omits the height until this is settled."
+    },
+    {
+      "id": "se-35-document",
+      "title": "BBKSDA circular SE.35/K2/BIDTEK.1/KSA/1/2024 is cited but not held",
+      "status": "open — waiting on the document",
+      "evidence": "credentials.json carries it with evidenceStatus media_sourced and no documentUrl or sha256. If the copy found is a scan, publish it as-is and hash that file rather than retyping it. If its number or date differs from what is cited in 12+ places, raise it before publishing."
+    },
+    {
+      "id": "tours-per-origin-package-count",
+      "title": "tours/from-surabaya.source.json writes '13 private itineraries' as a literal",
+      "status": "open",
+      "evidence": "check-answer-first reports it. {PACKAGE_COUNT} is the catalogue total (17), not the per-origin count, so it is the wrong token. Needs per-origin tokens in jvto-web/src/lib/publicContent/liveNumbers.ts."
+    },
+    {
+      "id": "answer-first-fact-count-warnings",
+      "title": "25 answer blocks carry fewer than three quantified facts",
+      "status": "open",
+      "evidence": "Warnings, not errors, per the severity decision above. Worst cases are policy and ISIC hub pages: isic/student-package.source.json has zero quantified facts."
+    },
+    {
+      "id": "validate-review-pages-unwired",
+      "title": "jvto-web's validate:review-pages is defined but no workflow runs it",
+      "status": "open",
+      "evidence": "Reported by check-script-wiring. Either wire it into a workflow or record here why it is deliberately manual."
+    },
+    {
+      "id": "live-graph-check-unscheduled",
+      "title": "check-graph-integrity --live runs on no schedule",
+      "status": "open",
+      "evidence": "The offline scan exempts @id values jvto-web builds at render time, listed in the plugin's consumer-defined-ids.json. Only --live sees the merged graph and would catch an exemption that has outlived its reason. Nothing runs it."
+    },
+    {
+      "id": "branch-protection-live",
+      "title": "Verify branch protection on jvto-web's live branch",
+      "status": "open — only the owner can check",
+      "evidence": "GitHub Settings. Carried from the 2026-08-20 handoff audit."
+    }
+  ]
+}

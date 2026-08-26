@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-23T05:57:11.221Z",
+  "generated_at": "2026-08-26T06:38:18.830Z",
   "route": "/why-jvto/our-team/anjas",
   "domain": "why-jvto",
   "slug": "our-team/anjas",
@@ -43,7 +43,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": 4.9,
-          "reviewCount": 153,
+          "reviewCount": 156,
           "bestRating": 5
         },
         "sameAs": [
@@ -325,6 +325,23 @@
           }
         ],
         "review": [
+          {
+            "@type": "Review",
+            "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/324#crew-anjas",
+            "url": "https://javavolcano-touroperator.com/why-jvto/reviews/324",
+            "author": {
+              "@type": "Person",
+              "name": "Mario Aibino"
+            },
+            "datePublished": "2026-08-24",
+            "reviewBody": "(Translated by Google) Excellent tour, perfectly organized. Very attentive to customer requests. We were a group of four; they picked us up at the Surabaya airport and dropped us off at a smaller airport at the end of the tour, as per our request. Anjas guided us and explained everything. The only downside is the overcrowding of tourists, which is obviously not the agency's fault; in fact, Anjas recommended different times to avoid the chaos.\n\n(Original)\nOttimo tour, organizzato alla perfezione. Molto attenti alle richieste dei clienti. Noi eravamo un gruppo di 4 persone, ci hanno prelevato all’aeroporto di Surabaya e lasciato alla fine del tour in un aeroporto minore, come da nostra richiesta. Siamo stati seguiti da Anjas che ci guidava e illustrava il tutto. Unica nota dolente è il sovraffollamento di turisti, naturalmente non dipende dall’agenzia, anzi Anjas consigliava orari differenti per evitare il caos.",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
           {
             "@type": "Review",
             "@id": "https://javavolcano-touroperator.com/why-jvto/reviews/133#crew-anjas",
