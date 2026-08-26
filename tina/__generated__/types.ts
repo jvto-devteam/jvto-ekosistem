@@ -7,13 +7,12 @@
     })
     return str
   }
-  export type Maybe<T> = T | null;
-export type InputMaybe<T> = Maybe<T>;
-export type Exact<T extends { [key: string]: unknown }> = { [K in keyof T]: T[K] };
-export type MakeOptional<T, K extends keyof T> = Omit<T, K> & { [SubKey in K]?: Maybe<T[SubKey]> };
-export type MakeMaybe<T, K extends keyof T> = Omit<T, K> & { [SubKey in K]: Maybe<T[SubKey]> };
-export type MakeEmpty<T extends { [key: string]: unknown }, K extends keyof T> = { [_ in K]?: never };
+  /** Internal type. DO NOT USE DIRECTLY. */
+type Exact<T extends { [key: string]: unknown }> = { [K in keyof T]: T[K] };
+/** Internal type. DO NOT USE DIRECTLY. */
 export type Incremental<T> = T | { [P in keyof T]?: P extends ' $fragmentName' | '__typename' ? T[P] : never };
+export type Maybe<T> = T | null;
+export type InputMaybe<T> = Maybe<T>;
 /** All built-in and custom scalars, mapped to their actual values */
 export type Scalars = {
   ID: { input: string; output: string; }
@@ -1641,68 +1640,496 @@ export type PolicyPageMutation = {
   source_trace?: InputMaybe<PolicyPageSource_TraceMutation>;
 };
 
-export type TravelGuidePagePartsFragment = { __typename: 'TravelGuidePage', schema_version?: string | null, source_type?: string | null, domain: string, slug: string, route: string, output_targets?: Array<string | null> | null, meta?: { __typename: 'TravelGuidePageMeta', route?: string | null, title?: string | null, browserTitle?: string | null, description?: string | null, section?: string | null, status?: string | null, owner?: string | null, lastReviewed?: string | null, schemaTypes?: Array<string | null> | null, faqKey?: string | null, summary?: string | null } | null, seo?: { __typename: 'TravelGuidePageSeo', title?: string | null, description?: string | null, canonicalRoute?: string | null, schemaTypes?: Array<string | null> | null } | null, content?: { __typename: 'TravelGuidePageContent', format?: string | null, payload?: { __typename: 'TravelGuidePageContentPayload', body_md?: string | null, lede?: Array<string | null> | null, intro?: string | null, readingTime?: string | null, hero?: { __typename: 'TravelGuidePageContentPayloadHero', eyebrow?: string | null, meta?: string | null, heading?: string | null, lede?: string | null } | null, quickFacts?: Array<{ __typename: 'TravelGuidePageContentPayloadQuickFacts', key?: string | null, label?: string | null, value?: string | null } | null> | null, temperatureContext?: Array<{ __typename: 'TravelGuidePageContentPayloadTemperatureContext', key?: string | null, label?: string | null, value?: string | null } | null> | null, related?: Array<{ __typename: 'TravelGuidePageContentPayloadRelated', label?: string | null, href?: string | null } | null> | null, sections?: Array<{ __typename: 'TravelGuidePageContentPayloadSections', id?: string | null, title?: string | null, sub?: string | null, body_md?: string | null, body_text?: string | null, lede_text?: string | null, heading?: string | null, heading_accent?: string | null, heading_template?: string | null, eyebrow?: string | null, eyebrow_pill?: string | null, eyebrow_meta?: string | null, eyebrow_num?: string | null, eyebrow_label?: string | null, media_tag?: string | null, badge_title?: string | null, badge_sub?: string | null, quote?: string | null, quote_attribution?: string | null, article_url?: string | null, article_date?: string | null, sha256_short?: string | null, footer_note?: string | null, footer_identity?: string | null, blocks?: Array<{ __typename: 'TravelGuidePageContentPayloadSectionsBlocks', type?: string | null, role?: string | null, body_md?: string | null, src?: string | null, alt?: string | null, columns?: number | null } | null> | null } | null> | null } | null } | null, faq?: { __typename: 'TravelGuidePageFaq', key?: string | null, payload?: { __typename: 'TravelGuidePageFaqPayload', key?: string | null, lastReviewed?: string | null, owner?: string | null, reviewStatus?: string | null, items?: Array<{ __typename: 'TravelGuidePageFaqPayloadItems', question?: string | null, answer?: string | null } | null> | null } | null } | null, source_trace?: { __typename: 'TravelGuidePageSource_trace', generated_at?: string | null, source_files?: Array<string | null> | null, migration_note?: string | null } | null };
+export type StringFilter = {
+  startsWith?: string | null | undefined;
+  eq?: string | null | undefined;
+  exists?: boolean | null | undefined;
+  in?: Array<string | null | undefined> | null | undefined;
+};
 
-export type WhyJvtoPagePartsFragment = { __typename: 'WhyJvtoPage', schema_version?: string | null, source_type?: string | null, domain: string, slug: string, route: string, output_targets?: Array<string | null> | null, meta?: { __typename: 'WhyJvtoPageMeta', route?: string | null, title?: string | null, browserTitle?: string | null, description?: string | null, section?: string | null, status?: string | null, owner?: string | null, lastReviewed?: string | null, schemaTypes?: Array<string | null> | null, faqKey?: string | null, summary?: string | null } | null, seo?: { __typename: 'WhyJvtoPageSeo', title?: string | null, description?: string | null, canonicalRoute?: string | null, schemaTypes?: Array<string | null> | null } | null, content?: { __typename: 'WhyJvtoPageContent', format?: string | null, payload?: { __typename: 'WhyJvtoPageContentPayload', body_md?: string | null, lede?: Array<string | null> | null, intro?: string | null, readingTime?: string | null, hero?: { __typename: 'WhyJvtoPageContentPayloadHero', eyebrow?: string | null, meta?: string | null, heading?: string | null, lede?: string | null } | null, quickFacts?: Array<{ __typename: 'WhyJvtoPageContentPayloadQuickFacts', key?: string | null, label?: string | null, value?: string | null } | null> | null, temperatureContext?: Array<{ __typename: 'WhyJvtoPageContentPayloadTemperatureContext', key?: string | null, label?: string | null, value?: string | null } | null> | null, related?: Array<{ __typename: 'WhyJvtoPageContentPayloadRelated', label?: string | null, href?: string | null } | null> | null, sections?: Array<{ __typename: 'WhyJvtoPageContentPayloadSections', id?: string | null, title?: string | null, sub?: string | null, body_md?: string | null, body_text?: string | null, lede_text?: string | null, heading?: string | null, heading_accent?: string | null, heading_template?: string | null, eyebrow?: string | null, eyebrow_pill?: string | null, eyebrow_meta?: string | null, eyebrow_num?: string | null, eyebrow_label?: string | null, media_tag?: string | null, badge_title?: string | null, badge_sub?: string | null, quote?: string | null, quote_attribution?: string | null, article_url?: string | null, article_date?: string | null, sha256_short?: string | null, footer_note?: string | null, footer_identity?: string | null, blocks?: Array<{ __typename: 'WhyJvtoPageContentPayloadSectionsBlocks', type?: string | null, role?: string | null, body_md?: string | null, src?: string | null, alt?: string | null, columns?: number | null } | null> | null } | null> | null } | null } | null, faq?: { __typename: 'WhyJvtoPageFaq', key?: string | null, payload?: { __typename: 'WhyJvtoPageFaqPayload', key?: string | null, lastReviewed?: string | null, owner?: string | null, reviewStatus?: string | null, items?: Array<{ __typename: 'WhyJvtoPageFaqPayloadItems', question?: string | null, answer?: string | null } | null> | null } | null } | null, source_trace?: { __typename: 'WhyJvtoPageSource_trace', generated_at?: string | null, source_files?: Array<string | null> | null, migration_note?: string | null } | null };
+export type TravelGuidePageMetaFilter = {
+  route?: StringFilter | null | undefined;
+  title?: StringFilter | null | undefined;
+  browserTitle?: StringFilter | null | undefined;
+  description?: StringFilter | null | undefined;
+  section?: StringFilter | null | undefined;
+  status?: StringFilter | null | undefined;
+  owner?: StringFilter | null | undefined;
+  lastReviewed?: StringFilter | null | undefined;
+  schemaTypes?: StringFilter | null | undefined;
+  faqKey?: StringFilter | null | undefined;
+  summary?: StringFilter | null | undefined;
+};
 
-export type PolicyPagePartsFragment = { __typename: 'PolicyPage', schema_version?: string | null, source_type?: string | null, domain: string, slug: string, route: string, output_targets?: Array<string | null> | null, meta?: { __typename: 'PolicyPageMeta', route?: string | null, title?: string | null, browserTitle?: string | null, description?: string | null, section?: string | null, status?: string | null, owner?: string | null, lastReviewed?: string | null, schemaTypes?: Array<string | null> | null, faqKey?: string | null, summary?: string | null } | null, seo?: { __typename: 'PolicyPageSeo', title?: string | null, description?: string | null, canonicalRoute?: string | null, schemaTypes?: Array<string | null> | null } | null, content?: { __typename: 'PolicyPageContent', format?: string | null, payload?: { __typename: 'PolicyPageContentPayload', body_md?: string | null, lede?: Array<string | null> | null, intro?: string | null, readingTime?: string | null, hero?: { __typename: 'PolicyPageContentPayloadHero', eyebrow?: string | null, meta?: string | null, heading?: string | null, lede?: string | null } | null, quickFacts?: Array<{ __typename: 'PolicyPageContentPayloadQuickFacts', key?: string | null, label?: string | null, value?: string | null } | null> | null, temperatureContext?: Array<{ __typename: 'PolicyPageContentPayloadTemperatureContext', key?: string | null, label?: string | null, value?: string | null } | null> | null, related?: Array<{ __typename: 'PolicyPageContentPayloadRelated', label?: string | null, href?: string | null } | null> | null, sections?: Array<{ __typename: 'PolicyPageContentPayloadSections', id?: string | null, title?: string | null, sub?: string | null, body_md?: string | null, body_text?: string | null, lede_text?: string | null, heading?: string | null, heading_accent?: string | null, heading_template?: string | null, eyebrow?: string | null, eyebrow_pill?: string | null, eyebrow_meta?: string | null, eyebrow_num?: string | null, eyebrow_label?: string | null, media_tag?: string | null, badge_title?: string | null, badge_sub?: string | null, quote?: string | null, quote_attribution?: string | null, article_url?: string | null, article_date?: string | null, sha256_short?: string | null, footer_note?: string | null, footer_identity?: string | null, blocks?: Array<{ __typename: 'PolicyPageContentPayloadSectionsBlocks', type?: string | null, role?: string | null, body_md?: string | null, src?: string | null, alt?: string | null, columns?: number | null } | null> | null } | null> | null } | null } | null, faq?: { __typename: 'PolicyPageFaq', key?: string | null, payload?: { __typename: 'PolicyPageFaqPayload', key?: string | null, lastReviewed?: string | null, owner?: string | null, reviewStatus?: string | null, items?: Array<{ __typename: 'PolicyPageFaqPayloadItems', question?: string | null, answer?: string | null } | null> | null } | null } | null, source_trace?: { __typename: 'PolicyPageSource_trace', generated_at?: string | null, source_files?: Array<string | null> | null, migration_note?: string | null } | null };
+export type TravelGuidePageSeoFilter = {
+  title?: StringFilter | null | undefined;
+  description?: StringFilter | null | undefined;
+  canonicalRoute?: StringFilter | null | undefined;
+  schemaTypes?: StringFilter | null | undefined;
+};
+
+export type TravelGuidePageContentPayloadHeroFilter = {
+  eyebrow?: StringFilter | null | undefined;
+  meta?: StringFilter | null | undefined;
+  heading?: StringFilter | null | undefined;
+  lede?: StringFilter | null | undefined;
+};
+
+export type TravelGuidePageContentPayloadQuickFactsFilter = {
+  key?: StringFilter | null | undefined;
+  label?: StringFilter | null | undefined;
+  value?: StringFilter | null | undefined;
+};
+
+export type TravelGuidePageContentPayloadTemperatureContextFilter = {
+  key?: StringFilter | null | undefined;
+  label?: StringFilter | null | undefined;
+  value?: StringFilter | null | undefined;
+};
+
+export type TravelGuidePageContentPayloadRelatedFilter = {
+  label?: StringFilter | null | undefined;
+  href?: StringFilter | null | undefined;
+};
+
+export type NumberFilter = {
+  lt?: number | null | undefined;
+  lte?: number | null | undefined;
+  gte?: number | null | undefined;
+  gt?: number | null | undefined;
+  eq?: number | null | undefined;
+  exists?: boolean | null | undefined;
+  in?: Array<number | null | undefined> | null | undefined;
+};
+
+export type TravelGuidePageContentPayloadSectionsBlocksFilter = {
+  type?: StringFilter | null | undefined;
+  role?: StringFilter | null | undefined;
+  body_md?: StringFilter | null | undefined;
+  src?: StringFilter | null | undefined;
+  alt?: StringFilter | null | undefined;
+  columns?: NumberFilter | null | undefined;
+};
+
+export type TravelGuidePageContentPayloadSectionsFilter = {
+  id?: StringFilter | null | undefined;
+  title?: StringFilter | null | undefined;
+  sub?: StringFilter | null | undefined;
+  body_md?: StringFilter | null | undefined;
+  body_text?: StringFilter | null | undefined;
+  lede_text?: StringFilter | null | undefined;
+  heading?: StringFilter | null | undefined;
+  heading_accent?: StringFilter | null | undefined;
+  heading_template?: StringFilter | null | undefined;
+  eyebrow?: StringFilter | null | undefined;
+  eyebrow_pill?: StringFilter | null | undefined;
+  eyebrow_meta?: StringFilter | null | undefined;
+  eyebrow_num?: StringFilter | null | undefined;
+  eyebrow_label?: StringFilter | null | undefined;
+  media_tag?: StringFilter | null | undefined;
+  badge_title?: StringFilter | null | undefined;
+  badge_sub?: StringFilter | null | undefined;
+  quote?: StringFilter | null | undefined;
+  quote_attribution?: StringFilter | null | undefined;
+  article_url?: StringFilter | null | undefined;
+  article_date?: StringFilter | null | undefined;
+  sha256_short?: StringFilter | null | undefined;
+  footer_note?: StringFilter | null | undefined;
+  footer_identity?: StringFilter | null | undefined;
+  blocks?: TravelGuidePageContentPayloadSectionsBlocksFilter | null | undefined;
+};
+
+export type TravelGuidePageContentPayloadFilter = {
+  body_md?: StringFilter | null | undefined;
+  lede?: StringFilter | null | undefined;
+  intro?: StringFilter | null | undefined;
+  readingTime?: StringFilter | null | undefined;
+  hero?: TravelGuidePageContentPayloadHeroFilter | null | undefined;
+  quickFacts?: TravelGuidePageContentPayloadQuickFactsFilter | null | undefined;
+  temperatureContext?: TravelGuidePageContentPayloadTemperatureContextFilter | null | undefined;
+  related?: TravelGuidePageContentPayloadRelatedFilter | null | undefined;
+  sections?: TravelGuidePageContentPayloadSectionsFilter | null | undefined;
+};
+
+export type TravelGuidePageContentFilter = {
+  format?: StringFilter | null | undefined;
+  payload?: TravelGuidePageContentPayloadFilter | null | undefined;
+};
+
+export type TravelGuidePageFaqPayloadItemsFilter = {
+  question?: StringFilter | null | undefined;
+  answer?: StringFilter | null | undefined;
+};
+
+export type TravelGuidePageFaqPayloadFilter = {
+  key?: StringFilter | null | undefined;
+  items?: TravelGuidePageFaqPayloadItemsFilter | null | undefined;
+  lastReviewed?: StringFilter | null | undefined;
+  owner?: StringFilter | null | undefined;
+  reviewStatus?: StringFilter | null | undefined;
+};
+
+export type TravelGuidePageFaqFilter = {
+  key?: StringFilter | null | undefined;
+  payload?: TravelGuidePageFaqPayloadFilter | null | undefined;
+};
+
+export type TravelGuidePageSource_TraceFilter = {
+  generated_at?: StringFilter | null | undefined;
+  source_files?: StringFilter | null | undefined;
+  migration_note?: StringFilter | null | undefined;
+};
+
+export type TravelGuidePageFilter = {
+  schema_version?: StringFilter | null | undefined;
+  source_type?: StringFilter | null | undefined;
+  domain?: StringFilter | null | undefined;
+  slug?: StringFilter | null | undefined;
+  route?: StringFilter | null | undefined;
+  meta?: TravelGuidePageMetaFilter | null | undefined;
+  seo?: TravelGuidePageSeoFilter | null | undefined;
+  content?: TravelGuidePageContentFilter | null | undefined;
+  faq?: TravelGuidePageFaqFilter | null | undefined;
+  output_targets?: StringFilter | null | undefined;
+  source_trace?: TravelGuidePageSource_TraceFilter | null | undefined;
+};
+
+export type WhyJvtoPageMetaFilter = {
+  route?: StringFilter | null | undefined;
+  title?: StringFilter | null | undefined;
+  browserTitle?: StringFilter | null | undefined;
+  description?: StringFilter | null | undefined;
+  section?: StringFilter | null | undefined;
+  status?: StringFilter | null | undefined;
+  owner?: StringFilter | null | undefined;
+  lastReviewed?: StringFilter | null | undefined;
+  schemaTypes?: StringFilter | null | undefined;
+  faqKey?: StringFilter | null | undefined;
+  summary?: StringFilter | null | undefined;
+};
+
+export type WhyJvtoPageSeoFilter = {
+  title?: StringFilter | null | undefined;
+  description?: StringFilter | null | undefined;
+  canonicalRoute?: StringFilter | null | undefined;
+  schemaTypes?: StringFilter | null | undefined;
+};
+
+export type WhyJvtoPageContentPayloadHeroFilter = {
+  eyebrow?: StringFilter | null | undefined;
+  meta?: StringFilter | null | undefined;
+  heading?: StringFilter | null | undefined;
+  lede?: StringFilter | null | undefined;
+};
+
+export type WhyJvtoPageContentPayloadQuickFactsFilter = {
+  key?: StringFilter | null | undefined;
+  label?: StringFilter | null | undefined;
+  value?: StringFilter | null | undefined;
+};
+
+export type WhyJvtoPageContentPayloadTemperatureContextFilter = {
+  key?: StringFilter | null | undefined;
+  label?: StringFilter | null | undefined;
+  value?: StringFilter | null | undefined;
+};
+
+export type WhyJvtoPageContentPayloadRelatedFilter = {
+  label?: StringFilter | null | undefined;
+  href?: StringFilter | null | undefined;
+};
+
+export type WhyJvtoPageContentPayloadSectionsBlocksFilter = {
+  type?: StringFilter | null | undefined;
+  role?: StringFilter | null | undefined;
+  body_md?: StringFilter | null | undefined;
+  src?: StringFilter | null | undefined;
+  alt?: StringFilter | null | undefined;
+  columns?: NumberFilter | null | undefined;
+};
+
+export type WhyJvtoPageContentPayloadSectionsFilter = {
+  id?: StringFilter | null | undefined;
+  title?: StringFilter | null | undefined;
+  sub?: StringFilter | null | undefined;
+  body_md?: StringFilter | null | undefined;
+  body_text?: StringFilter | null | undefined;
+  lede_text?: StringFilter | null | undefined;
+  heading?: StringFilter | null | undefined;
+  heading_accent?: StringFilter | null | undefined;
+  heading_template?: StringFilter | null | undefined;
+  eyebrow?: StringFilter | null | undefined;
+  eyebrow_pill?: StringFilter | null | undefined;
+  eyebrow_meta?: StringFilter | null | undefined;
+  eyebrow_num?: StringFilter | null | undefined;
+  eyebrow_label?: StringFilter | null | undefined;
+  media_tag?: StringFilter | null | undefined;
+  badge_title?: StringFilter | null | undefined;
+  badge_sub?: StringFilter | null | undefined;
+  quote?: StringFilter | null | undefined;
+  quote_attribution?: StringFilter | null | undefined;
+  article_url?: StringFilter | null | undefined;
+  article_date?: StringFilter | null | undefined;
+  sha256_short?: StringFilter | null | undefined;
+  footer_note?: StringFilter | null | undefined;
+  footer_identity?: StringFilter | null | undefined;
+  blocks?: WhyJvtoPageContentPayloadSectionsBlocksFilter | null | undefined;
+};
+
+export type WhyJvtoPageContentPayloadFilter = {
+  body_md?: StringFilter | null | undefined;
+  lede?: StringFilter | null | undefined;
+  intro?: StringFilter | null | undefined;
+  readingTime?: StringFilter | null | undefined;
+  hero?: WhyJvtoPageContentPayloadHeroFilter | null | undefined;
+  quickFacts?: WhyJvtoPageContentPayloadQuickFactsFilter | null | undefined;
+  temperatureContext?: WhyJvtoPageContentPayloadTemperatureContextFilter | null | undefined;
+  related?: WhyJvtoPageContentPayloadRelatedFilter | null | undefined;
+  sections?: WhyJvtoPageContentPayloadSectionsFilter | null | undefined;
+};
+
+export type WhyJvtoPageContentFilter = {
+  format?: StringFilter | null | undefined;
+  payload?: WhyJvtoPageContentPayloadFilter | null | undefined;
+};
+
+export type WhyJvtoPageFaqPayloadItemsFilter = {
+  question?: StringFilter | null | undefined;
+  answer?: StringFilter | null | undefined;
+};
+
+export type WhyJvtoPageFaqPayloadFilter = {
+  key?: StringFilter | null | undefined;
+  items?: WhyJvtoPageFaqPayloadItemsFilter | null | undefined;
+  lastReviewed?: StringFilter | null | undefined;
+  owner?: StringFilter | null | undefined;
+  reviewStatus?: StringFilter | null | undefined;
+};
+
+export type WhyJvtoPageFaqFilter = {
+  key?: StringFilter | null | undefined;
+  payload?: WhyJvtoPageFaqPayloadFilter | null | undefined;
+};
+
+export type WhyJvtoPageSource_TraceFilter = {
+  generated_at?: StringFilter | null | undefined;
+  source_files?: StringFilter | null | undefined;
+  migration_note?: StringFilter | null | undefined;
+};
+
+export type WhyJvtoPageFilter = {
+  schema_version?: StringFilter | null | undefined;
+  source_type?: StringFilter | null | undefined;
+  domain?: StringFilter | null | undefined;
+  slug?: StringFilter | null | undefined;
+  route?: StringFilter | null | undefined;
+  meta?: WhyJvtoPageMetaFilter | null | undefined;
+  seo?: WhyJvtoPageSeoFilter | null | undefined;
+  content?: WhyJvtoPageContentFilter | null | undefined;
+  faq?: WhyJvtoPageFaqFilter | null | undefined;
+  output_targets?: StringFilter | null | undefined;
+  source_trace?: WhyJvtoPageSource_TraceFilter | null | undefined;
+};
+
+export type PolicyPageMetaFilter = {
+  route?: StringFilter | null | undefined;
+  title?: StringFilter | null | undefined;
+  browserTitle?: StringFilter | null | undefined;
+  description?: StringFilter | null | undefined;
+  section?: StringFilter | null | undefined;
+  status?: StringFilter | null | undefined;
+  owner?: StringFilter | null | undefined;
+  lastReviewed?: StringFilter | null | undefined;
+  schemaTypes?: StringFilter | null | undefined;
+  faqKey?: StringFilter | null | undefined;
+  summary?: StringFilter | null | undefined;
+};
+
+export type PolicyPageSeoFilter = {
+  title?: StringFilter | null | undefined;
+  description?: StringFilter | null | undefined;
+  canonicalRoute?: StringFilter | null | undefined;
+  schemaTypes?: StringFilter | null | undefined;
+};
+
+export type PolicyPageContentPayloadHeroFilter = {
+  eyebrow?: StringFilter | null | undefined;
+  meta?: StringFilter | null | undefined;
+  heading?: StringFilter | null | undefined;
+  lede?: StringFilter | null | undefined;
+};
+
+export type PolicyPageContentPayloadQuickFactsFilter = {
+  key?: StringFilter | null | undefined;
+  label?: StringFilter | null | undefined;
+  value?: StringFilter | null | undefined;
+};
+
+export type PolicyPageContentPayloadTemperatureContextFilter = {
+  key?: StringFilter | null | undefined;
+  label?: StringFilter | null | undefined;
+  value?: StringFilter | null | undefined;
+};
+
+export type PolicyPageContentPayloadRelatedFilter = {
+  label?: StringFilter | null | undefined;
+  href?: StringFilter | null | undefined;
+};
+
+export type PolicyPageContentPayloadSectionsBlocksFilter = {
+  type?: StringFilter | null | undefined;
+  role?: StringFilter | null | undefined;
+  body_md?: StringFilter | null | undefined;
+  src?: StringFilter | null | undefined;
+  alt?: StringFilter | null | undefined;
+  columns?: NumberFilter | null | undefined;
+};
+
+export type PolicyPageContentPayloadSectionsFilter = {
+  id?: StringFilter | null | undefined;
+  title?: StringFilter | null | undefined;
+  sub?: StringFilter | null | undefined;
+  body_md?: StringFilter | null | undefined;
+  body_text?: StringFilter | null | undefined;
+  lede_text?: StringFilter | null | undefined;
+  heading?: StringFilter | null | undefined;
+  heading_accent?: StringFilter | null | undefined;
+  heading_template?: StringFilter | null | undefined;
+  eyebrow?: StringFilter | null | undefined;
+  eyebrow_pill?: StringFilter | null | undefined;
+  eyebrow_meta?: StringFilter | null | undefined;
+  eyebrow_num?: StringFilter | null | undefined;
+  eyebrow_label?: StringFilter | null | undefined;
+  media_tag?: StringFilter | null | undefined;
+  badge_title?: StringFilter | null | undefined;
+  badge_sub?: StringFilter | null | undefined;
+  quote?: StringFilter | null | undefined;
+  quote_attribution?: StringFilter | null | undefined;
+  article_url?: StringFilter | null | undefined;
+  article_date?: StringFilter | null | undefined;
+  sha256_short?: StringFilter | null | undefined;
+  footer_note?: StringFilter | null | undefined;
+  footer_identity?: StringFilter | null | undefined;
+  blocks?: PolicyPageContentPayloadSectionsBlocksFilter | null | undefined;
+};
+
+export type PolicyPageContentPayloadFilter = {
+  body_md?: StringFilter | null | undefined;
+  lede?: StringFilter | null | undefined;
+  intro?: StringFilter | null | undefined;
+  readingTime?: StringFilter | null | undefined;
+  hero?: PolicyPageContentPayloadHeroFilter | null | undefined;
+  quickFacts?: PolicyPageContentPayloadQuickFactsFilter | null | undefined;
+  temperatureContext?: PolicyPageContentPayloadTemperatureContextFilter | null | undefined;
+  related?: PolicyPageContentPayloadRelatedFilter | null | undefined;
+  sections?: PolicyPageContentPayloadSectionsFilter | null | undefined;
+};
+
+export type PolicyPageContentFilter = {
+  format?: StringFilter | null | undefined;
+  payload?: PolicyPageContentPayloadFilter | null | undefined;
+};
+
+export type PolicyPageFaqPayloadItemsFilter = {
+  question?: StringFilter | null | undefined;
+  answer?: StringFilter | null | undefined;
+};
+
+export type PolicyPageFaqPayloadFilter = {
+  key?: StringFilter | null | undefined;
+  items?: PolicyPageFaqPayloadItemsFilter | null | undefined;
+  lastReviewed?: StringFilter | null | undefined;
+  owner?: StringFilter | null | undefined;
+  reviewStatus?: StringFilter | null | undefined;
+};
+
+export type PolicyPageFaqFilter = {
+  key?: StringFilter | null | undefined;
+  payload?: PolicyPageFaqPayloadFilter | null | undefined;
+};
+
+export type PolicyPageSource_TraceFilter = {
+  generated_at?: StringFilter | null | undefined;
+  source_files?: StringFilter | null | undefined;
+  migration_note?: StringFilter | null | undefined;
+};
+
+export type PolicyPageFilter = {
+  schema_version?: StringFilter | null | undefined;
+  source_type?: StringFilter | null | undefined;
+  domain?: StringFilter | null | undefined;
+  slug?: StringFilter | null | undefined;
+  route?: StringFilter | null | undefined;
+  meta?: PolicyPageMetaFilter | null | undefined;
+  seo?: PolicyPageSeoFilter | null | undefined;
+  content?: PolicyPageContentFilter | null | undefined;
+  faq?: PolicyPageFaqFilter | null | undefined;
+  output_targets?: StringFilter | null | undefined;
+  source_trace?: PolicyPageSource_TraceFilter | null | undefined;
+};
+
+export type TravelGuidePagePartsFragment = { __typename: 'TravelGuidePage', schema_version: string | null, source_type: string | null, domain: string, slug: string, route: string, output_targets: Array<string | null> | null, meta: { __typename: 'TravelGuidePageMeta', route: string | null, title: string | null, browserTitle: string | null, description: string | null, section: string | null, status: string | null, owner: string | null, lastReviewed: string | null, schemaTypes: Array<string | null> | null, faqKey: string | null, summary: string | null } | null, seo: { __typename: 'TravelGuidePageSeo', title: string | null, description: string | null, canonicalRoute: string | null, schemaTypes: Array<string | null> | null } | null, content: { __typename: 'TravelGuidePageContent', format: string | null, payload: { __typename: 'TravelGuidePageContentPayload', body_md: string | null, lede: Array<string | null> | null, intro: string | null, readingTime: string | null, hero: { __typename: 'TravelGuidePageContentPayloadHero', eyebrow: string | null, meta: string | null, heading: string | null, lede: string | null } | null, quickFacts: Array<{ __typename: 'TravelGuidePageContentPayloadQuickFacts', key: string | null, label: string | null, value: string | null } | null> | null, temperatureContext: Array<{ __typename: 'TravelGuidePageContentPayloadTemperatureContext', key: string | null, label: string | null, value: string | null } | null> | null, related: Array<{ __typename: 'TravelGuidePageContentPayloadRelated', label: string | null, href: string | null } | null> | null, sections: Array<{ __typename: 'TravelGuidePageContentPayloadSections', id: string | null, title: string | null, sub: string | null, body_md: string | null, body_text: string | null, lede_text: string | null, heading: string | null, heading_accent: string | null, heading_template: string | null, eyebrow: string | null, eyebrow_pill: string | null, eyebrow_meta: string | null, eyebrow_num: string | null, eyebrow_label: string | null, media_tag: string | null, badge_title: string | null, badge_sub: string | null, quote: string | null, quote_attribution: string | null, article_url: string | null, article_date: string | null, sha256_short: string | null, footer_note: string | null, footer_identity: string | null, blocks: Array<{ __typename: 'TravelGuidePageContentPayloadSectionsBlocks', type: string | null, role: string | null, body_md: string | null, src: string | null, alt: string | null, columns: number | null } | null> | null } | null> | null } | null } | null, faq: { __typename: 'TravelGuidePageFaq', key: string | null, payload: { __typename: 'TravelGuidePageFaqPayload', key: string | null, lastReviewed: string | null, owner: string | null, reviewStatus: string | null, items: Array<{ __typename: 'TravelGuidePageFaqPayloadItems', question: string | null, answer: string | null } | null> | null } | null } | null, source_trace: { __typename: 'TravelGuidePageSource_trace', generated_at: string | null, source_files: Array<string | null> | null, migration_note: string | null } | null };
+
+export type WhyJvtoPagePartsFragment = { __typename: 'WhyJvtoPage', schema_version: string | null, source_type: string | null, domain: string, slug: string, route: string, output_targets: Array<string | null> | null, meta: { __typename: 'WhyJvtoPageMeta', route: string | null, title: string | null, browserTitle: string | null, description: string | null, section: string | null, status: string | null, owner: string | null, lastReviewed: string | null, schemaTypes: Array<string | null> | null, faqKey: string | null, summary: string | null } | null, seo: { __typename: 'WhyJvtoPageSeo', title: string | null, description: string | null, canonicalRoute: string | null, schemaTypes: Array<string | null> | null } | null, content: { __typename: 'WhyJvtoPageContent', format: string | null, payload: { __typename: 'WhyJvtoPageContentPayload', body_md: string | null, lede: Array<string | null> | null, intro: string | null, readingTime: string | null, hero: { __typename: 'WhyJvtoPageContentPayloadHero', eyebrow: string | null, meta: string | null, heading: string | null, lede: string | null } | null, quickFacts: Array<{ __typename: 'WhyJvtoPageContentPayloadQuickFacts', key: string | null, label: string | null, value: string | null } | null> | null, temperatureContext: Array<{ __typename: 'WhyJvtoPageContentPayloadTemperatureContext', key: string | null, label: string | null, value: string | null } | null> | null, related: Array<{ __typename: 'WhyJvtoPageContentPayloadRelated', label: string | null, href: string | null } | null> | null, sections: Array<{ __typename: 'WhyJvtoPageContentPayloadSections', id: string | null, title: string | null, sub: string | null, body_md: string | null, body_text: string | null, lede_text: string | null, heading: string | null, heading_accent: string | null, heading_template: string | null, eyebrow: string | null, eyebrow_pill: string | null, eyebrow_meta: string | null, eyebrow_num: string | null, eyebrow_label: string | null, media_tag: string | null, badge_title: string | null, badge_sub: string | null, quote: string | null, quote_attribution: string | null, article_url: string | null, article_date: string | null, sha256_short: string | null, footer_note: string | null, footer_identity: string | null, blocks: Array<{ __typename: 'WhyJvtoPageContentPayloadSectionsBlocks', type: string | null, role: string | null, body_md: string | null, src: string | null, alt: string | null, columns: number | null } | null> | null } | null> | null } | null } | null, faq: { __typename: 'WhyJvtoPageFaq', key: string | null, payload: { __typename: 'WhyJvtoPageFaqPayload', key: string | null, lastReviewed: string | null, owner: string | null, reviewStatus: string | null, items: Array<{ __typename: 'WhyJvtoPageFaqPayloadItems', question: string | null, answer: string | null } | null> | null } | null } | null, source_trace: { __typename: 'WhyJvtoPageSource_trace', generated_at: string | null, source_files: Array<string | null> | null, migration_note: string | null } | null };
+
+export type PolicyPagePartsFragment = { __typename: 'PolicyPage', schema_version: string | null, source_type: string | null, domain: string, slug: string, route: string, output_targets: Array<string | null> | null, meta: { __typename: 'PolicyPageMeta', route: string | null, title: string | null, browserTitle: string | null, description: string | null, section: string | null, status: string | null, owner: string | null, lastReviewed: string | null, schemaTypes: Array<string | null> | null, faqKey: string | null, summary: string | null } | null, seo: { __typename: 'PolicyPageSeo', title: string | null, description: string | null, canonicalRoute: string | null, schemaTypes: Array<string | null> | null } | null, content: { __typename: 'PolicyPageContent', format: string | null, payload: { __typename: 'PolicyPageContentPayload', body_md: string | null, lede: Array<string | null> | null, intro: string | null, readingTime: string | null, hero: { __typename: 'PolicyPageContentPayloadHero', eyebrow: string | null, meta: string | null, heading: string | null, lede: string | null } | null, quickFacts: Array<{ __typename: 'PolicyPageContentPayloadQuickFacts', key: string | null, label: string | null, value: string | null } | null> | null, temperatureContext: Array<{ __typename: 'PolicyPageContentPayloadTemperatureContext', key: string | null, label: string | null, value: string | null } | null> | null, related: Array<{ __typename: 'PolicyPageContentPayloadRelated', label: string | null, href: string | null } | null> | null, sections: Array<{ __typename: 'PolicyPageContentPayloadSections', id: string | null, title: string | null, sub: string | null, body_md: string | null, body_text: string | null, lede_text: string | null, heading: string | null, heading_accent: string | null, heading_template: string | null, eyebrow: string | null, eyebrow_pill: string | null, eyebrow_meta: string | null, eyebrow_num: string | null, eyebrow_label: string | null, media_tag: string | null, badge_title: string | null, badge_sub: string | null, quote: string | null, quote_attribution: string | null, article_url: string | null, article_date: string | null, sha256_short: string | null, footer_note: string | null, footer_identity: string | null, blocks: Array<{ __typename: 'PolicyPageContentPayloadSectionsBlocks', type: string | null, role: string | null, body_md: string | null, src: string | null, alt: string | null, columns: number | null } | null> | null } | null> | null } | null } | null, faq: { __typename: 'PolicyPageFaq', key: string | null, payload: { __typename: 'PolicyPageFaqPayload', key: string | null, lastReviewed: string | null, owner: string | null, reviewStatus: string | null, items: Array<{ __typename: 'PolicyPageFaqPayloadItems', question: string | null, answer: string | null } | null> | null } | null } | null, source_trace: { __typename: 'PolicyPageSource_trace', generated_at: string | null, source_files: Array<string | null> | null, migration_note: string | null } | null };
 
 export type TravelGuidePageQueryVariables = Exact<{
-  relativePath: Scalars['String']['input'];
+  relativePath: string;
 }>;
 
 
-export type TravelGuidePageQuery = { __typename?: 'Query', travelGuidePage: { __typename: 'TravelGuidePage', id: string, schema_version?: string | null, source_type?: string | null, domain: string, slug: string, route: string, output_targets?: Array<string | null> | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, meta?: { __typename: 'TravelGuidePageMeta', route?: string | null, title?: string | null, browserTitle?: string | null, description?: string | null, section?: string | null, status?: string | null, owner?: string | null, lastReviewed?: string | null, schemaTypes?: Array<string | null> | null, faqKey?: string | null, summary?: string | null } | null, seo?: { __typename: 'TravelGuidePageSeo', title?: string | null, description?: string | null, canonicalRoute?: string | null, schemaTypes?: Array<string | null> | null } | null, content?: { __typename: 'TravelGuidePageContent', format?: string | null, payload?: { __typename: 'TravelGuidePageContentPayload', body_md?: string | null, lede?: Array<string | null> | null, intro?: string | null, readingTime?: string | null, hero?: { __typename: 'TravelGuidePageContentPayloadHero', eyebrow?: string | null, meta?: string | null, heading?: string | null, lede?: string | null } | null, quickFacts?: Array<{ __typename: 'TravelGuidePageContentPayloadQuickFacts', key?: string | null, label?: string | null, value?: string | null } | null> | null, temperatureContext?: Array<{ __typename: 'TravelGuidePageContentPayloadTemperatureContext', key?: string | null, label?: string | null, value?: string | null } | null> | null, related?: Array<{ __typename: 'TravelGuidePageContentPayloadRelated', label?: string | null, href?: string | null } | null> | null, sections?: Array<{ __typename: 'TravelGuidePageContentPayloadSections', id?: string | null, title?: string | null, sub?: string | null, body_md?: string | null, body_text?: string | null, lede_text?: string | null, heading?: string | null, heading_accent?: string | null, heading_template?: string | null, eyebrow?: string | null, eyebrow_pill?: string | null, eyebrow_meta?: string | null, eyebrow_num?: string | null, eyebrow_label?: string | null, media_tag?: string | null, badge_title?: string | null, badge_sub?: string | null, quote?: string | null, quote_attribution?: string | null, article_url?: string | null, article_date?: string | null, sha256_short?: string | null, footer_note?: string | null, footer_identity?: string | null, blocks?: Array<{ __typename: 'TravelGuidePageContentPayloadSectionsBlocks', type?: string | null, role?: string | null, body_md?: string | null, src?: string | null, alt?: string | null, columns?: number | null } | null> | null } | null> | null } | null } | null, faq?: { __typename: 'TravelGuidePageFaq', key?: string | null, payload?: { __typename: 'TravelGuidePageFaqPayload', key?: string | null, lastReviewed?: string | null, owner?: string | null, reviewStatus?: string | null, items?: Array<{ __typename: 'TravelGuidePageFaqPayloadItems', question?: string | null, answer?: string | null } | null> | null } | null } | null, source_trace?: { __typename: 'TravelGuidePageSource_trace', generated_at?: string | null, source_files?: Array<string | null> | null, migration_note?: string | null } | null } };
+export type TravelGuidePageQuery = { travelGuidePage: { __typename: 'TravelGuidePage', id: string, schema_version: string | null, source_type: string | null, domain: string, slug: string, route: string, output_targets: Array<string | null> | null, _sys: { filename: string, basename: string, hasReferences: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, meta: { __typename: 'TravelGuidePageMeta', route: string | null, title: string | null, browserTitle: string | null, description: string | null, section: string | null, status: string | null, owner: string | null, lastReviewed: string | null, schemaTypes: Array<string | null> | null, faqKey: string | null, summary: string | null } | null, seo: { __typename: 'TravelGuidePageSeo', title: string | null, description: string | null, canonicalRoute: string | null, schemaTypes: Array<string | null> | null } | null, content: { __typename: 'TravelGuidePageContent', format: string | null, payload: { __typename: 'TravelGuidePageContentPayload', body_md: string | null, lede: Array<string | null> | null, intro: string | null, readingTime: string | null, hero: { __typename: 'TravelGuidePageContentPayloadHero', eyebrow: string | null, meta: string | null, heading: string | null, lede: string | null } | null, quickFacts: Array<{ __typename: 'TravelGuidePageContentPayloadQuickFacts', key: string | null, label: string | null, value: string | null } | null> | null, temperatureContext: Array<{ __typename: 'TravelGuidePageContentPayloadTemperatureContext', key: string | null, label: string | null, value: string | null } | null> | null, related: Array<{ __typename: 'TravelGuidePageContentPayloadRelated', label: string | null, href: string | null } | null> | null, sections: Array<{ __typename: 'TravelGuidePageContentPayloadSections', id: string | null, title: string | null, sub: string | null, body_md: string | null, body_text: string | null, lede_text: string | null, heading: string | null, heading_accent: string | null, heading_template: string | null, eyebrow: string | null, eyebrow_pill: string | null, eyebrow_meta: string | null, eyebrow_num: string | null, eyebrow_label: string | null, media_tag: string | null, badge_title: string | null, badge_sub: string | null, quote: string | null, quote_attribution: string | null, article_url: string | null, article_date: string | null, sha256_short: string | null, footer_note: string | null, footer_identity: string | null, blocks: Array<{ __typename: 'TravelGuidePageContentPayloadSectionsBlocks', type: string | null, role: string | null, body_md: string | null, src: string | null, alt: string | null, columns: number | null } | null> | null } | null> | null } | null } | null, faq: { __typename: 'TravelGuidePageFaq', key: string | null, payload: { __typename: 'TravelGuidePageFaqPayload', key: string | null, lastReviewed: string | null, owner: string | null, reviewStatus: string | null, items: Array<{ __typename: 'TravelGuidePageFaqPayloadItems', question: string | null, answer: string | null } | null> | null } | null } | null, source_trace: { __typename: 'TravelGuidePageSource_trace', generated_at: string | null, source_files: Array<string | null> | null, migration_note: string | null } | null } };
 
 export type TravelGuidePageConnectionQueryVariables = Exact<{
-  before?: InputMaybe<Scalars['String']['input']>;
-  after?: InputMaybe<Scalars['String']['input']>;
-  first?: InputMaybe<Scalars['Float']['input']>;
-  last?: InputMaybe<Scalars['Float']['input']>;
-  sort?: InputMaybe<Scalars['String']['input']>;
-  filter?: InputMaybe<TravelGuidePageFilter>;
+  before?: string | null | undefined;
+  after?: string | null | undefined;
+  first?: number | null | undefined;
+  last?: number | null | undefined;
+  sort?: string | null | undefined;
+  filter?: TravelGuidePageFilter | null | undefined;
 }>;
 
 
-export type TravelGuidePageConnectionQuery = { __typename?: 'Query', travelGuidePageConnection: { __typename?: 'TravelGuidePageConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'TravelGuidePageConnectionEdges', cursor: string, node?: { __typename: 'TravelGuidePage', id: string, schema_version?: string | null, source_type?: string | null, domain: string, slug: string, route: string, output_targets?: Array<string | null> | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, meta?: { __typename: 'TravelGuidePageMeta', route?: string | null, title?: string | null, browserTitle?: string | null, description?: string | null, section?: string | null, status?: string | null, owner?: string | null, lastReviewed?: string | null, schemaTypes?: Array<string | null> | null, faqKey?: string | null, summary?: string | null } | null, seo?: { __typename: 'TravelGuidePageSeo', title?: string | null, description?: string | null, canonicalRoute?: string | null, schemaTypes?: Array<string | null> | null } | null, content?: { __typename: 'TravelGuidePageContent', format?: string | null, payload?: { __typename: 'TravelGuidePageContentPayload', body_md?: string | null, lede?: Array<string | null> | null, intro?: string | null, readingTime?: string | null, hero?: { __typename: 'TravelGuidePageContentPayloadHero', eyebrow?: string | null, meta?: string | null, heading?: string | null, lede?: string | null } | null, quickFacts?: Array<{ __typename: 'TravelGuidePageContentPayloadQuickFacts', key?: string | null, label?: string | null, value?: string | null } | null> | null, temperatureContext?: Array<{ __typename: 'TravelGuidePageContentPayloadTemperatureContext', key?: string | null, label?: string | null, value?: string | null } | null> | null, related?: Array<{ __typename: 'TravelGuidePageContentPayloadRelated', label?: string | null, href?: string | null } | null> | null, sections?: Array<{ __typename: 'TravelGuidePageContentPayloadSections', id?: string | null, title?: string | null, sub?: string | null, body_md?: string | null, body_text?: string | null, lede_text?: string | null, heading?: string | null, heading_accent?: string | null, heading_template?: string | null, eyebrow?: string | null, eyebrow_pill?: string | null, eyebrow_meta?: string | null, eyebrow_num?: string | null, eyebrow_label?: string | null, media_tag?: string | null, badge_title?: string | null, badge_sub?: string | null, quote?: string | null, quote_attribution?: string | null, article_url?: string | null, article_date?: string | null, sha256_short?: string | null, footer_note?: string | null, footer_identity?: string | null, blocks?: Array<{ __typename: 'TravelGuidePageContentPayloadSectionsBlocks', type?: string | null, role?: string | null, body_md?: string | null, src?: string | null, alt?: string | null, columns?: number | null } | null> | null } | null> | null } | null } | null, faq?: { __typename: 'TravelGuidePageFaq', key?: string | null, payload?: { __typename: 'TravelGuidePageFaqPayload', key?: string | null, lastReviewed?: string | null, owner?: string | null, reviewStatus?: string | null, items?: Array<{ __typename: 'TravelGuidePageFaqPayloadItems', question?: string | null, answer?: string | null } | null> | null } | null } | null, source_trace?: { __typename: 'TravelGuidePageSource_trace', generated_at?: string | null, source_files?: Array<string | null> | null, migration_note?: string | null } | null } | null } | null> | null } };
+export type TravelGuidePageConnectionQuery = { travelGuidePageConnection: { totalCount: number, pageInfo: { hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges: Array<{ cursor: string, node: { __typename: 'TravelGuidePage', id: string, schema_version: string | null, source_type: string | null, domain: string, slug: string, route: string, output_targets: Array<string | null> | null, _sys: { filename: string, basename: string, hasReferences: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, meta: { __typename: 'TravelGuidePageMeta', route: string | null, title: string | null, browserTitle: string | null, description: string | null, section: string | null, status: string | null, owner: string | null, lastReviewed: string | null, schemaTypes: Array<string | null> | null, faqKey: string | null, summary: string | null } | null, seo: { __typename: 'TravelGuidePageSeo', title: string | null, description: string | null, canonicalRoute: string | null, schemaTypes: Array<string | null> | null } | null, content: { __typename: 'TravelGuidePageContent', format: string | null, payload: { __typename: 'TravelGuidePageContentPayload', body_md: string | null, lede: Array<string | null> | null, intro: string | null, readingTime: string | null, hero: { __typename: 'TravelGuidePageContentPayloadHero', eyebrow: string | null, meta: string | null, heading: string | null, lede: string | null } | null, quickFacts: Array<{ __typename: 'TravelGuidePageContentPayloadQuickFacts', key: string | null, label: string | null, value: string | null } | null> | null, temperatureContext: Array<{ __typename: 'TravelGuidePageContentPayloadTemperatureContext', key: string | null, label: string | null, value: string | null } | null> | null, related: Array<{ __typename: 'TravelGuidePageContentPayloadRelated', label: string | null, href: string | null } | null> | null, sections: Array<{ __typename: 'TravelGuidePageContentPayloadSections', id: string | null, title: string | null, sub: string | null, body_md: string | null, body_text: string | null, lede_text: string | null, heading: string | null, heading_accent: string | null, heading_template: string | null, eyebrow: string | null, eyebrow_pill: string | null, eyebrow_meta: string | null, eyebrow_num: string | null, eyebrow_label: string | null, media_tag: string | null, badge_title: string | null, badge_sub: string | null, quote: string | null, quote_attribution: string | null, article_url: string | null, article_date: string | null, sha256_short: string | null, footer_note: string | null, footer_identity: string | null, blocks: Array<{ __typename: 'TravelGuidePageContentPayloadSectionsBlocks', type: string | null, role: string | null, body_md: string | null, src: string | null, alt: string | null, columns: number | null } | null> | null } | null> | null } | null } | null, faq: { __typename: 'TravelGuidePageFaq', key: string | null, payload: { __typename: 'TravelGuidePageFaqPayload', key: string | null, lastReviewed: string | null, owner: string | null, reviewStatus: string | null, items: Array<{ __typename: 'TravelGuidePageFaqPayloadItems', question: string | null, answer: string | null } | null> | null } | null } | null, source_trace: { __typename: 'TravelGuidePageSource_trace', generated_at: string | null, source_files: Array<string | null> | null, migration_note: string | null } | null } | null } | null> | null } };
 
 export type WhyJvtoPageQueryVariables = Exact<{
-  relativePath: Scalars['String']['input'];
+  relativePath: string;
 }>;
 
 
-export type WhyJvtoPageQuery = { __typename?: 'Query', whyJvtoPage: { __typename: 'WhyJvtoPage', id: string, schema_version?: string | null, source_type?: string | null, domain: string, slug: string, route: string, output_targets?: Array<string | null> | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, meta?: { __typename: 'WhyJvtoPageMeta', route?: string | null, title?: string | null, browserTitle?: string | null, description?: string | null, section?: string | null, status?: string | null, owner?: string | null, lastReviewed?: string | null, schemaTypes?: Array<string | null> | null, faqKey?: string | null, summary?: string | null } | null, seo?: { __typename: 'WhyJvtoPageSeo', title?: string | null, description?: string | null, canonicalRoute?: string | null, schemaTypes?: Array<string | null> | null } | null, content?: { __typename: 'WhyJvtoPageContent', format?: string | null, payload?: { __typename: 'WhyJvtoPageContentPayload', body_md?: string | null, lede?: Array<string | null> | null, intro?: string | null, readingTime?: string | null, hero?: { __typename: 'WhyJvtoPageContentPayloadHero', eyebrow?: string | null, meta?: string | null, heading?: string | null, lede?: string | null } | null, quickFacts?: Array<{ __typename: 'WhyJvtoPageContentPayloadQuickFacts', key?: string | null, label?: string | null, value?: string | null } | null> | null, temperatureContext?: Array<{ __typename: 'WhyJvtoPageContentPayloadTemperatureContext', key?: string | null, label?: string | null, value?: string | null } | null> | null, related?: Array<{ __typename: 'WhyJvtoPageContentPayloadRelated', label?: string | null, href?: string | null } | null> | null, sections?: Array<{ __typename: 'WhyJvtoPageContentPayloadSections', id?: string | null, title?: string | null, sub?: string | null, body_md?: string | null, body_text?: string | null, lede_text?: string | null, heading?: string | null, heading_accent?: string | null, heading_template?: string | null, eyebrow?: string | null, eyebrow_pill?: string | null, eyebrow_meta?: string | null, eyebrow_num?: string | null, eyebrow_label?: string | null, media_tag?: string | null, badge_title?: string | null, badge_sub?: string | null, quote?: string | null, quote_attribution?: string | null, article_url?: string | null, article_date?: string | null, sha256_short?: string | null, footer_note?: string | null, footer_identity?: string | null, blocks?: Array<{ __typename: 'WhyJvtoPageContentPayloadSectionsBlocks', type?: string | null, role?: string | null, body_md?: string | null, src?: string | null, alt?: string | null, columns?: number | null } | null> | null } | null> | null } | null } | null, faq?: { __typename: 'WhyJvtoPageFaq', key?: string | null, payload?: { __typename: 'WhyJvtoPageFaqPayload', key?: string | null, lastReviewed?: string | null, owner?: string | null, reviewStatus?: string | null, items?: Array<{ __typename: 'WhyJvtoPageFaqPayloadItems', question?: string | null, answer?: string | null } | null> | null } | null } | null, source_trace?: { __typename: 'WhyJvtoPageSource_trace', generated_at?: string | null, source_files?: Array<string | null> | null, migration_note?: string | null } | null } };
+export type WhyJvtoPageQuery = { whyJvtoPage: { __typename: 'WhyJvtoPage', id: string, schema_version: string | null, source_type: string | null, domain: string, slug: string, route: string, output_targets: Array<string | null> | null, _sys: { filename: string, basename: string, hasReferences: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, meta: { __typename: 'WhyJvtoPageMeta', route: string | null, title: string | null, browserTitle: string | null, description: string | null, section: string | null, status: string | null, owner: string | null, lastReviewed: string | null, schemaTypes: Array<string | null> | null, faqKey: string | null, summary: string | null } | null, seo: { __typename: 'WhyJvtoPageSeo', title: string | null, description: string | null, canonicalRoute: string | null, schemaTypes: Array<string | null> | null } | null, content: { __typename: 'WhyJvtoPageContent', format: string | null, payload: { __typename: 'WhyJvtoPageContentPayload', body_md: string | null, lede: Array<string | null> | null, intro: string | null, readingTime: string | null, hero: { __typename: 'WhyJvtoPageContentPayloadHero', eyebrow: string | null, meta: string | null, heading: string | null, lede: string | null } | null, quickFacts: Array<{ __typename: 'WhyJvtoPageContentPayloadQuickFacts', key: string | null, label: string | null, value: string | null } | null> | null, temperatureContext: Array<{ __typename: 'WhyJvtoPageContentPayloadTemperatureContext', key: string | null, label: string | null, value: string | null } | null> | null, related: Array<{ __typename: 'WhyJvtoPageContentPayloadRelated', label: string | null, href: string | null } | null> | null, sections: Array<{ __typename: 'WhyJvtoPageContentPayloadSections', id: string | null, title: string | null, sub: string | null, body_md: string | null, body_text: string | null, lede_text: string | null, heading: string | null, heading_accent: string | null, heading_template: string | null, eyebrow: string | null, eyebrow_pill: string | null, eyebrow_meta: string | null, eyebrow_num: string | null, eyebrow_label: string | null, media_tag: string | null, badge_title: string | null, badge_sub: string | null, quote: string | null, quote_attribution: string | null, article_url: string | null, article_date: string | null, sha256_short: string | null, footer_note: string | null, footer_identity: string | null, blocks: Array<{ __typename: 'WhyJvtoPageContentPayloadSectionsBlocks', type: string | null, role: string | null, body_md: string | null, src: string | null, alt: string | null, columns: number | null } | null> | null } | null> | null } | null } | null, faq: { __typename: 'WhyJvtoPageFaq', key: string | null, payload: { __typename: 'WhyJvtoPageFaqPayload', key: string | null, lastReviewed: string | null, owner: string | null, reviewStatus: string | null, items: Array<{ __typename: 'WhyJvtoPageFaqPayloadItems', question: string | null, answer: string | null } | null> | null } | null } | null, source_trace: { __typename: 'WhyJvtoPageSource_trace', generated_at: string | null, source_files: Array<string | null> | null, migration_note: string | null } | null } };
 
 export type WhyJvtoPageConnectionQueryVariables = Exact<{
-  before?: InputMaybe<Scalars['String']['input']>;
-  after?: InputMaybe<Scalars['String']['input']>;
-  first?: InputMaybe<Scalars['Float']['input']>;
-  last?: InputMaybe<Scalars['Float']['input']>;
-  sort?: InputMaybe<Scalars['String']['input']>;
-  filter?: InputMaybe<WhyJvtoPageFilter>;
+  before?: string | null | undefined;
+  after?: string | null | undefined;
+  first?: number | null | undefined;
+  last?: number | null | undefined;
+  sort?: string | null | undefined;
+  filter?: WhyJvtoPageFilter | null | undefined;
 }>;
 
 
-export type WhyJvtoPageConnectionQuery = { __typename?: 'Query', whyJvtoPageConnection: { __typename?: 'WhyJvtoPageConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'WhyJvtoPageConnectionEdges', cursor: string, node?: { __typename: 'WhyJvtoPage', id: string, schema_version?: string | null, source_type?: string | null, domain: string, slug: string, route: string, output_targets?: Array<string | null> | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, meta?: { __typename: 'WhyJvtoPageMeta', route?: string | null, title?: string | null, browserTitle?: string | null, description?: string | null, section?: string | null, status?: string | null, owner?: string | null, lastReviewed?: string | null, schemaTypes?: Array<string | null> | null, faqKey?: string | null, summary?: string | null } | null, seo?: { __typename: 'WhyJvtoPageSeo', title?: string | null, description?: string | null, canonicalRoute?: string | null, schemaTypes?: Array<string | null> | null } | null, content?: { __typename: 'WhyJvtoPageContent', format?: string | null, payload?: { __typename: 'WhyJvtoPageContentPayload', body_md?: string | null, lede?: Array<string | null> | null, intro?: string | null, readingTime?: string | null, hero?: { __typename: 'WhyJvtoPageContentPayloadHero', eyebrow?: string | null, meta?: string | null, heading?: string | null, lede?: string | null } | null, quickFacts?: Array<{ __typename: 'WhyJvtoPageContentPayloadQuickFacts', key?: string | null, label?: string | null, value?: string | null } | null> | null, temperatureContext?: Array<{ __typename: 'WhyJvtoPageContentPayloadTemperatureContext', key?: string | null, label?: string | null, value?: string | null } | null> | null, related?: Array<{ __typename: 'WhyJvtoPageContentPayloadRelated', label?: string | null, href?: string | null } | null> | null, sections?: Array<{ __typename: 'WhyJvtoPageContentPayloadSections', id?: string | null, title?: string | null, sub?: string | null, body_md?: string | null, body_text?: string | null, lede_text?: string | null, heading?: string | null, heading_accent?: string | null, heading_template?: string | null, eyebrow?: string | null, eyebrow_pill?: string | null, eyebrow_meta?: string | null, eyebrow_num?: string | null, eyebrow_label?: string | null, media_tag?: string | null, badge_title?: string | null, badge_sub?: string | null, quote?: string | null, quote_attribution?: string | null, article_url?: string | null, article_date?: string | null, sha256_short?: string | null, footer_note?: string | null, footer_identity?: string | null, blocks?: Array<{ __typename: 'WhyJvtoPageContentPayloadSectionsBlocks', type?: string | null, role?: string | null, body_md?: string | null, src?: string | null, alt?: string | null, columns?: number | null } | null> | null } | null> | null } | null } | null, faq?: { __typename: 'WhyJvtoPageFaq', key?: string | null, payload?: { __typename: 'WhyJvtoPageFaqPayload', key?: string | null, lastReviewed?: string | null, owner?: string | null, reviewStatus?: string | null, items?: Array<{ __typename: 'WhyJvtoPageFaqPayloadItems', question?: string | null, answer?: string | null } | null> | null } | null } | null, source_trace?: { __typename: 'WhyJvtoPageSource_trace', generated_at?: string | null, source_files?: Array<string | null> | null, migration_note?: string | null } | null } | null } | null> | null } };
+export type WhyJvtoPageConnectionQuery = { whyJvtoPageConnection: { totalCount: number, pageInfo: { hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges: Array<{ cursor: string, node: { __typename: 'WhyJvtoPage', id: string, schema_version: string | null, source_type: string | null, domain: string, slug: string, route: string, output_targets: Array<string | null> | null, _sys: { filename: string, basename: string, hasReferences: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, meta: { __typename: 'WhyJvtoPageMeta', route: string | null, title: string | null, browserTitle: string | null, description: string | null, section: string | null, status: string | null, owner: string | null, lastReviewed: string | null, schemaTypes: Array<string | null> | null, faqKey: string | null, summary: string | null } | null, seo: { __typename: 'WhyJvtoPageSeo', title: string | null, description: string | null, canonicalRoute: string | null, schemaTypes: Array<string | null> | null } | null, content: { __typename: 'WhyJvtoPageContent', format: string | null, payload: { __typename: 'WhyJvtoPageContentPayload', body_md: string | null, lede: Array<string | null> | null, intro: string | null, readingTime: string | null, hero: { __typename: 'WhyJvtoPageContentPayloadHero', eyebrow: string | null, meta: string | null, heading: string | null, lede: string | null } | null, quickFacts: Array<{ __typename: 'WhyJvtoPageContentPayloadQuickFacts', key: string | null, label: string | null, value: string | null } | null> | null, temperatureContext: Array<{ __typename: 'WhyJvtoPageContentPayloadTemperatureContext', key: string | null, label: string | null, value: string | null } | null> | null, related: Array<{ __typename: 'WhyJvtoPageContentPayloadRelated', label: string | null, href: string | null } | null> | null, sections: Array<{ __typename: 'WhyJvtoPageContentPayloadSections', id: string | null, title: string | null, sub: string | null, body_md: string | null, body_text: string | null, lede_text: string | null, heading: string | null, heading_accent: string | null, heading_template: string | null, eyebrow: string | null, eyebrow_pill: string | null, eyebrow_meta: string | null, eyebrow_num: string | null, eyebrow_label: string | null, media_tag: string | null, badge_title: string | null, badge_sub: string | null, quote: string | null, quote_attribution: string | null, article_url: string | null, article_date: string | null, sha256_short: string | null, footer_note: string | null, footer_identity: string | null, blocks: Array<{ __typename: 'WhyJvtoPageContentPayloadSectionsBlocks', type: string | null, role: string | null, body_md: string | null, src: string | null, alt: string | null, columns: number | null } | null> | null } | null> | null } | null } | null, faq: { __typename: 'WhyJvtoPageFaq', key: string | null, payload: { __typename: 'WhyJvtoPageFaqPayload', key: string | null, lastReviewed: string | null, owner: string | null, reviewStatus: string | null, items: Array<{ __typename: 'WhyJvtoPageFaqPayloadItems', question: string | null, answer: string | null } | null> | null } | null } | null, source_trace: { __typename: 'WhyJvtoPageSource_trace', generated_at: string | null, source_files: Array<string | null> | null, migration_note: string | null } | null } | null } | null> | null } };
 
 export type PolicyPageQueryVariables = Exact<{
-  relativePath: Scalars['String']['input'];
+  relativePath: string;
 }>;
 
 
-export type PolicyPageQuery = { __typename?: 'Query', policyPage: { __typename: 'PolicyPage', id: string, schema_version?: string | null, source_type?: string | null, domain: string, slug: string, route: string, output_targets?: Array<string | null> | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, meta?: { __typename: 'PolicyPageMeta', route?: string | null, title?: string | null, browserTitle?: string | null, description?: string | null, section?: string | null, status?: string | null, owner?: string | null, lastReviewed?: string | null, schemaTypes?: Array<string | null> | null, faqKey?: string | null, summary?: string | null } | null, seo?: { __typename: 'PolicyPageSeo', title?: string | null, description?: string | null, canonicalRoute?: string | null, schemaTypes?: Array<string | null> | null } | null, content?: { __typename: 'PolicyPageContent', format?: string | null, payload?: { __typename: 'PolicyPageContentPayload', body_md?: string | null, lede?: Array<string | null> | null, intro?: string | null, readingTime?: string | null, hero?: { __typename: 'PolicyPageContentPayloadHero', eyebrow?: string | null, meta?: string | null, heading?: string | null, lede?: string | null } | null, quickFacts?: Array<{ __typename: 'PolicyPageContentPayloadQuickFacts', key?: string | null, label?: string | null, value?: string | null } | null> | null, temperatureContext?: Array<{ __typename: 'PolicyPageContentPayloadTemperatureContext', key?: string | null, label?: string | null, value?: string | null } | null> | null, related?: Array<{ __typename: 'PolicyPageContentPayloadRelated', label?: string | null, href?: string | null } | null> | null, sections?: Array<{ __typename: 'PolicyPageContentPayloadSections', id?: string | null, title?: string | null, sub?: string | null, body_md?: string | null, body_text?: string | null, lede_text?: string | null, heading?: string | null, heading_accent?: string | null, heading_template?: string | null, eyebrow?: string | null, eyebrow_pill?: string | null, eyebrow_meta?: string | null, eyebrow_num?: string | null, eyebrow_label?: string | null, media_tag?: string | null, badge_title?: string | null, badge_sub?: string | null, quote?: string | null, quote_attribution?: string | null, article_url?: string | null, article_date?: string | null, sha256_short?: string | null, footer_note?: string | null, footer_identity?: string | null, blocks?: Array<{ __typename: 'PolicyPageContentPayloadSectionsBlocks', type?: string | null, role?: string | null, body_md?: string | null, src?: string | null, alt?: string | null, columns?: number | null } | null> | null } | null> | null } | null } | null, faq?: { __typename: 'PolicyPageFaq', key?: string | null, payload?: { __typename: 'PolicyPageFaqPayload', key?: string | null, lastReviewed?: string | null, owner?: string | null, reviewStatus?: string | null, items?: Array<{ __typename: 'PolicyPageFaqPayloadItems', question?: string | null, answer?: string | null } | null> | null } | null } | null, source_trace?: { __typename: 'PolicyPageSource_trace', generated_at?: string | null, source_files?: Array<string | null> | null, migration_note?: string | null } | null } };
+export type PolicyPageQuery = { policyPage: { __typename: 'PolicyPage', id: string, schema_version: string | null, source_type: string | null, domain: string, slug: string, route: string, output_targets: Array<string | null> | null, _sys: { filename: string, basename: string, hasReferences: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, meta: { __typename: 'PolicyPageMeta', route: string | null, title: string | null, browserTitle: string | null, description: string | null, section: string | null, status: string | null, owner: string | null, lastReviewed: string | null, schemaTypes: Array<string | null> | null, faqKey: string | null, summary: string | null } | null, seo: { __typename: 'PolicyPageSeo', title: string | null, description: string | null, canonicalRoute: string | null, schemaTypes: Array<string | null> | null } | null, content: { __typename: 'PolicyPageContent', format: string | null, payload: { __typename: 'PolicyPageContentPayload', body_md: string | null, lede: Array<string | null> | null, intro: string | null, readingTime: string | null, hero: { __typename: 'PolicyPageContentPayloadHero', eyebrow: string | null, meta: string | null, heading: string | null, lede: string | null } | null, quickFacts: Array<{ __typename: 'PolicyPageContentPayloadQuickFacts', key: string | null, label: string | null, value: string | null } | null> | null, temperatureContext: Array<{ __typename: 'PolicyPageContentPayloadTemperatureContext', key: string | null, label: string | null, value: string | null } | null> | null, related: Array<{ __typename: 'PolicyPageContentPayloadRelated', label: string | null, href: string | null } | null> | null, sections: Array<{ __typename: 'PolicyPageContentPayloadSections', id: string | null, title: string | null, sub: string | null, body_md: string | null, body_text: string | null, lede_text: string | null, heading: string | null, heading_accent: string | null, heading_template: string | null, eyebrow: string | null, eyebrow_pill: string | null, eyebrow_meta: string | null, eyebrow_num: string | null, eyebrow_label: string | null, media_tag: string | null, badge_title: string | null, badge_sub: string | null, quote: string | null, quote_attribution: string | null, article_url: string | null, article_date: string | null, sha256_short: string | null, footer_note: string | null, footer_identity: string | null, blocks: Array<{ __typename: 'PolicyPageContentPayloadSectionsBlocks', type: string | null, role: string | null, body_md: string | null, src: string | null, alt: string | null, columns: number | null } | null> | null } | null> | null } | null } | null, faq: { __typename: 'PolicyPageFaq', key: string | null, payload: { __typename: 'PolicyPageFaqPayload', key: string | null, lastReviewed: string | null, owner: string | null, reviewStatus: string | null, items: Array<{ __typename: 'PolicyPageFaqPayloadItems', question: string | null, answer: string | null } | null> | null } | null } | null, source_trace: { __typename: 'PolicyPageSource_trace', generated_at: string | null, source_files: Array<string | null> | null, migration_note: string | null } | null } };
 
 export type PolicyPageConnectionQueryVariables = Exact<{
-  before?: InputMaybe<Scalars['String']['input']>;
-  after?: InputMaybe<Scalars['String']['input']>;
-  first?: InputMaybe<Scalars['Float']['input']>;
-  last?: InputMaybe<Scalars['Float']['input']>;
-  sort?: InputMaybe<Scalars['String']['input']>;
-  filter?: InputMaybe<PolicyPageFilter>;
+  before?: string | null | undefined;
+  after?: string | null | undefined;
+  first?: number | null | undefined;
+  last?: number | null | undefined;
+  sort?: string | null | undefined;
+  filter?: PolicyPageFilter | null | undefined;
 }>;
 
 
-export type PolicyPageConnectionQuery = { __typename?: 'Query', policyPageConnection: { __typename?: 'PolicyPageConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'PolicyPageConnectionEdges', cursor: string, node?: { __typename: 'PolicyPage', id: string, schema_version?: string | null, source_type?: string | null, domain: string, slug: string, route: string, output_targets?: Array<string | null> | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, meta?: { __typename: 'PolicyPageMeta', route?: string | null, title?: string | null, browserTitle?: string | null, description?: string | null, section?: string | null, status?: string | null, owner?: string | null, lastReviewed?: string | null, schemaTypes?: Array<string | null> | null, faqKey?: string | null, summary?: string | null } | null, seo?: { __typename: 'PolicyPageSeo', title?: string | null, description?: string | null, canonicalRoute?: string | null, schemaTypes?: Array<string | null> | null } | null, content?: { __typename: 'PolicyPageContent', format?: string | null, payload?: { __typename: 'PolicyPageContentPayload', body_md?: string | null, lede?: Array<string | null> | null, intro?: string | null, readingTime?: string | null, hero?: { __typename: 'PolicyPageContentPayloadHero', eyebrow?: string | null, meta?: string | null, heading?: string | null, lede?: string | null } | null, quickFacts?: Array<{ __typename: 'PolicyPageContentPayloadQuickFacts', key?: string | null, label?: string | null, value?: string | null } | null> | null, temperatureContext?: Array<{ __typename: 'PolicyPageContentPayloadTemperatureContext', key?: string | null, label?: string | null, value?: string | null } | null> | null, related?: Array<{ __typename: 'PolicyPageContentPayloadRelated', label?: string | null, href?: string | null } | null> | null, sections?: Array<{ __typename: 'PolicyPageContentPayloadSections', id?: string | null, title?: string | null, sub?: string | null, body_md?: string | null, body_text?: string | null, lede_text?: string | null, heading?: string | null, heading_accent?: string | null, heading_template?: string | null, eyebrow?: string | null, eyebrow_pill?: string | null, eyebrow_meta?: string | null, eyebrow_num?: string | null, eyebrow_label?: string | null, media_tag?: string | null, badge_title?: string | null, badge_sub?: string | null, quote?: string | null, quote_attribution?: string | null, article_url?: string | null, article_date?: string | null, sha256_short?: string | null, footer_note?: string | null, footer_identity?: string | null, blocks?: Array<{ __typename: 'PolicyPageContentPayloadSectionsBlocks', type?: string | null, role?: string | null, body_md?: string | null, src?: string | null, alt?: string | null, columns?: number | null } | null> | null } | null> | null } | null } | null, faq?: { __typename: 'PolicyPageFaq', key?: string | null, payload?: { __typename: 'PolicyPageFaqPayload', key?: string | null, lastReviewed?: string | null, owner?: string | null, reviewStatus?: string | null, items?: Array<{ __typename: 'PolicyPageFaqPayloadItems', question?: string | null, answer?: string | null } | null> | null } | null } | null, source_trace?: { __typename: 'PolicyPageSource_trace', generated_at?: string | null, source_files?: Array<string | null> | null, migration_note?: string | null } | null } | null } | null> | null } };
+export type PolicyPageConnectionQuery = { policyPageConnection: { totalCount: number, pageInfo: { hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges: Array<{ cursor: string, node: { __typename: 'PolicyPage', id: string, schema_version: string | null, source_type: string | null, domain: string, slug: string, route: string, output_targets: Array<string | null> | null, _sys: { filename: string, basename: string, hasReferences: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, meta: { __typename: 'PolicyPageMeta', route: string | null, title: string | null, browserTitle: string | null, description: string | null, section: string | null, status: string | null, owner: string | null, lastReviewed: string | null, schemaTypes: Array<string | null> | null, faqKey: string | null, summary: string | null } | null, seo: { __typename: 'PolicyPageSeo', title: string | null, description: string | null, canonicalRoute: string | null, schemaTypes: Array<string | null> | null } | null, content: { __typename: 'PolicyPageContent', format: string | null, payload: { __typename: 'PolicyPageContentPayload', body_md: string | null, lede: Array<string | null> | null, intro: string | null, readingTime: string | null, hero: { __typename: 'PolicyPageContentPayloadHero', eyebrow: string | null, meta: string | null, heading: string | null, lede: string | null } | null, quickFacts: Array<{ __typename: 'PolicyPageContentPayloadQuickFacts', key: string | null, label: string | null, value: string | null } | null> | null, temperatureContext: Array<{ __typename: 'PolicyPageContentPayloadTemperatureContext', key: string | null, label: string | null, value: string | null } | null> | null, related: Array<{ __typename: 'PolicyPageContentPayloadRelated', label: string | null, href: string | null } | null> | null, sections: Array<{ __typename: 'PolicyPageContentPayloadSections', id: string | null, title: string | null, sub: string | null, body_md: string | null, body_text: string | null, lede_text: string | null, heading: string | null, heading_accent: string | null, heading_template: string | null, eyebrow: string | null, eyebrow_pill: string | null, eyebrow_meta: string | null, eyebrow_num: string | null, eyebrow_label: string | null, media_tag: string | null, badge_title: string | null, badge_sub: string | null, quote: string | null, quote_attribution: string | null, article_url: string | null, article_date: string | null, sha256_short: string | null, footer_note: string | null, footer_identity: string | null, blocks: Array<{ __typename: 'PolicyPageContentPayloadSectionsBlocks', type: string | null, role: string | null, body_md: string | null, src: string | null, alt: string | null, columns: number | null } | null> | null } | null> | null } | null } | null, faq: { __typename: 'PolicyPageFaq', key: string | null, payload: { __typename: 'PolicyPageFaqPayload', key: string | null, lastReviewed: string | null, owner: string | null, reviewStatus: string | null, items: Array<{ __typename: 'PolicyPageFaqPayloadItems', question: string | null, answer: string | null } | null> | null } | null } | null, source_trace: { __typename: 'PolicyPageSource_trace', generated_at: string | null, source_files: Array<string | null> | null, migration_note: string | null } | null } | null } | null> | null } };
 
 export const TravelGuidePagePartsFragmentDoc = gql`
     fragment TravelGuidePageParts on TravelGuidePage {
@@ -2330,5 +2757,7 @@ export const queries = (
   const requester = generateRequester(client)
   return getSdk(requester)
 }
+
+export type { Exact };
 
   
