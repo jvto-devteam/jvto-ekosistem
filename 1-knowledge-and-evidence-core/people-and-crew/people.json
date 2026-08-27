@@ -110,8 +110,9 @@
       {
         "name": "SIP (Surat Izin Praktik) — Medical Practice Licence",
         "credentialCategory": "Indonesian Medical Practice Licence",
+        "identifier": "503.446/664/DRU/4/430.9.13/2026",
         "verifyUrl": "https://satusehat.kemkes.go.id/sdmk/nakes/QN00001073380217",
-        "recognizedBy": "Kementerian Kesehatan Republik Indonesia (Ministry of Health)"
+        "recognizedBy": "DPMPTSP dan Tenaga Kerja Kabupaten Bondowoso"
       },
       {
         "name": "KKI Registration (Konsil Kedokteran Indonesia)",
