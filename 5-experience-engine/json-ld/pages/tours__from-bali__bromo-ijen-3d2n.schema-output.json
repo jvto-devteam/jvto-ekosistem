@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-26T10:51:00.109Z",
+  "generated_at": "2026-08-27T01:02:40.005Z",
   "route": "/tours/from-bali/bromo-ijen-3d2n",
   "domain": "tours",
   "slug": "from-bali/bromo-ijen-3d2n",
@@ -88,7 +88,28 @@
             "name": "Internal Package ID",
             "value": "package-BALI-3D2N-001"
           }
-        ]
+        ],
+        "review": [
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#review-137"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#review-75"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#review-104"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#review-110"
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": 4,
+          "bestRating": "5",
+          "worstRating": "1"
+        }
       },
       {
         "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#day-1",
@@ -468,13 +489,111 @@
             "url": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n"
           }
         ]
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#review-137",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Bouilhol Franck"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Hello,\n\nI just wanted to thank you for organizing these three days at Bromo and Ijen. It was an unforgettable experience that truly felt like a dream, thanks to Fauzy and Fredy. It was absolutely incredible.\n\nA huge thank you to both of them—they already know how grateful we are—and to you as well.\n\nThanks again!",
+        "datePublished": "2026-08-12",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#review-75",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Nina Kliem"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "We did the 3D2N Bromo and Mount Ijen tour. It was organised very well and our tourguide Rendi as well as our driver Holili were super kind and helpful! Great experience :) the accommodations were very nice as well.",
+        "datePublished": "2026-03-03",
+        "url": "https://www.trustpilot.com/reviews/69a667490e3161f72307f0f1",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#platform-trustpilot",
+          "@type": "Organization",
+          "name": "Trustpilot"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#review-104",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "馮立俞"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "(Translated by Google) Kiki offers the best guide service. It went all beyond expectation. He's friendly, helpful, and a super good filmer.\n\nYusuf is super fast, the ride was smooth. Recommended for anyone considering a trip to Ijen and Bromo.\n\nKiki and Yusuf provided a fantastic experience; their three-day itinerary and resourcefulness far exceeded expectations.\n\n(Original)\nKiki offers the best guide service.\nIt went all beyond expectation.\nHe’s friendly, helpful, and a super good at filming.\n\nYusuf is super fast, the ride was smooth.\nRecommend to any one considering trip to Ijen and Bromo.\n\nKiki導遊和Yusuf 司機帶來的體驗太棒了，三天的行程及應變遠超乎想像",
+        "datePublished": "2026-02-06",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#review-110",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Michael Lee"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "I just finished the solo trip to Bromo and Ijen with Java Volcano Tour Operator. It was amazing to see both volcanoes so close up. For anyone worried about the hike up Ijen, it’s really not that difficult if you exercise regularly.The scenery was simply majestic, but the team is what made it so good.\n\nBig thanks to Edi, Fauzi, Sulis, and other members of the tour team for organizing such a unique experience. I will certainly find them again next time I'm in Indonesia.",
+        "datePublished": "2026-01-09",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
       }
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-26T10:51:00.109Z",
+    "generated_at": "2026-08-27T01:02:39.930Z",
     "source_files": [
-      "2-product-and-commercial-core/tour-products/tours__from-bali__bromo-ijen-3d2n.product-contract.json"
+      "2-product-and-commercial-core/tour-products/tours__from-bali__bromo-ijen-3d2n.product-contract.json",
+      "1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json"
     ],
     "confidence": "verified",
     "migration_note": "TouristTrip + Offer/AggregateOffer relocated from jvto-web's inline per-page builder (tours/from-bali/[slug]/page.tsx and tours/from-surabaya/[slug]/page.tsx) to ekosistem, consistent with every other JSON-LD node in this pipeline (design spec 2026-08-20-ekosistem-schema-rendering-consolidation-design.md, Bagian 3). WebPage, BreadcrumbList, Product, and the DefinedTerm mentions/subjectOf augmentation stay local to jvto-web — out of scope for this generator."

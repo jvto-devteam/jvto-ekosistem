@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto/source/external-entities/v1",
-  "lastReviewed": "2026-08-16",
+  "lastReviewed": "2026-08-27",
   "owner": "knowledge",
   "idBase": "https://javavolcano-touroperator.com/entity",
   "note": "Registry of third-party organizations JVTO refers to. The @id base is the JVTO domain on purpose: the @id identifies *JVTO's reference to* the entity, not the entity itself. Ownership is asserted through sameAs. Never add a sameAs URL without verifying it — leave it empty and mark evidenceStatus 'candidate' instead. A node with an @id and no sameAs is still far better than an anonymous node, because the @id is what consolidates the entity across pages. A description field was added 2026-08-19 for records where jvto-web externalEntities.ts had one (hpwki, bbksda-jatim) — leave absent elsewhere rather than fabricating.",
@@ -175,11 +175,11 @@
         "https://www.kemenparekraf.go.id/"
       ],
       "role": [
-        "credentialIssuer"
+        "sectorRegulator"
       ],
       "definedOn": "/verify-jvto/legal",
       "evidenceStatus": "verified",
-      "sourceNote": "Issuer of the TDUP, dated 2023-02-11. No sameAs in the repo. Owner to supply the official ministry domain. Wikidata Q13092668 verified 2026-08-19: \"Ministry of Tourism\", aka \"Ministry of Tourism and Creative Economy of Indonesia\" since the 19 May 2021 restructure — matches this org."
+      "sourceNote": "Regulator of the tourism sector. NOT the issuer of JVTO's TDUP, despite being recorded that way here until 2026-08-27: Kemenparekraf appears nowhere on the licence, which is issued by Lembaga OSS on behalf of the Bupati of Kabupaten Bondowoso. Same regulator/issuer confusion as the SIP, where Kemenkes is the regulation-maker and DPMPTSP Bondowoso the issuer. Wikidata Q13092668 verified 2026-08-19: \"Ministry of Tourism\", aka \"Ministry of Tourism and Creative Economy of Indonesia\" since the 19 May 2021 restructure — matches this org."
     },
     {
       "key": "bbksda-jatim",
@@ -326,6 +326,27 @@
       "evidenceStatus": "candidate",
       "sourceNote": "Added 2026-08-21. Issuer of SIP 503.446/664/DRU/4/430.9.13/2026, the practice licence of dr. Ahmad Irwandanu, who signs the Ijen pre-ascent health certificates; signed by its head Dr. Hari Cahyono, ST.MM. No official domain confirmed and no Wikidata entry found for this district-level agency — sameAs left empty and evidenceStatus set to 'candidate' rather than guessing a URL.",
       "description": "District government agency of Bondowoso Regency for investment, one-stop licensing services, and labour."
+    },
+    {
+      "key": "oss-indonesia",
+      "canonicalName": "OSS Indonesia (Online Single Submission)",
+      "aliases": [
+        "OSS Indonesia (Online Single Submission)",
+        "Lembaga OSS",
+        "OSS",
+        "OSS RBA"
+      ],
+      "schemaType": "GovernmentOrganization",
+      "id": "https://javavolcano-touroperator.com/entity/#org-oss-indonesia",
+      "sameAs": [
+        "https://oss.go.id"
+      ],
+      "role": [
+        "credentialIssuer"
+      ],
+      "definedOn": "/verify-jvto/legal",
+      "evidenceStatus": "verified",
+      "sourceNote": "Issuer of both the NIB and the TDUP, 1102230032918. Read from the documents: the TDUP states \"untuk dan atas nama Menteri, Pimpinan Lembaga, Gubernur, Bupati/Walikota, Lembaga OSS menerbitkan Izin Usaha Tanda Daftar Usaha Pariwisata\" under PP 24/2018, and its annex names the authorising official (Pejabat Berwenang) as the Bupati of Kabupaten Bondowoso. The NIB states \"Pemerintah Republik Indonesia menerbitkan Nomor Induk Berusaha\" under Perppu 2/2022. sameAs https://oss.go.id verified 2026-08-27: HTTP 200, title \"OSS RBA - Sistem Perizinan Berusaha Terintegrasi Secara Elektronik\", the same system PP 24/2018 names on the licence. No Wikidata id — none was verified, so none is asserted."
     }
   ]
 }

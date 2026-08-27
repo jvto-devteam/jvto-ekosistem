@@ -1,7 +1,7 @@
 # Java Volcano Tour Operator (JVTO)
 > Machine-readable entity dossier for LLM crawlers. Private volcano tours in East Java, Indonesia - Bromo, Ijen, and Tumpak Sewu.
 
-Auto-generated from JVTO Operating Ecosystem (compiler render-llms-txt v1.2.0, compiled 2026-08-26).
+Auto-generated from JVTO Operating Ecosystem (compiler render-llms-txt v1.2.0, compiled 2026-08-27).
 Source: jvto-ekosistem SSOT (organization identity, narrative claims, public evidence, knowledge feed).
 Content-Signal: search=yes,ai-train=yes,use=reference
 Do not hand-edit public/llms.txt; edit the source files and run npm run render:llms.
@@ -22,7 +22,7 @@ Do not hand-edit public/llms.txt; edit the source files and run npm run render:l
 - **AHU (Daftar Perseroan)**: AHU-0026835.AH.01.11.TAHUN 2023, issued 2023-02-08
 - **SABH Registration Number**: 4023020635102174
 - **NIB (Nomor Induk Berusaha)** (1102230032918): Indonesian Business Registration; recognized by Kementerian Investasi / BKPM Indonesia; document https://javavolcano-touroperator.com/legal/NIB-1102230032918.pdf; SHA-256 fa20dde31bb75e46b061ed14cc6d003f6960c02a9a82c20d8603b0cbf6f7b1b7
-- **TDUP (Tanda Daftar Usaha Pariwisata)** (1102230032918): Indonesian Tourism Business Licence; recognized by Kementerian Pariwisata dan Ekonomi Kreatif; document https://javavolcano-touroperator.com/legal/TDUP-1102230032918.pdf; SHA-256 27252d512ddfa74de22a3e3ec10aa3dd40ef88da3eb57349fcd2137411551ee3
+- **TDUP (Tanda Daftar Usaha Pariwisata)** (1102230032918): Indonesian Tourism Business Licence Issued by Lembaga OSS for and on behalf of the authorising official named on the licence, the Bupati of Kabupaten Bondowoso, under PP 24/2018. Kemenparekraf regulates the tourism sector but does not appear on this document.; recognized by OSS Indonesia (Online Single Submission); document https://javavolcano-touroperator.com/legal/TDUP-1102230032918.pdf; SHA-256 27252d512ddfa74de22a3e3ec10aa3dd40ef88da3eb57349fcd2137411551ee3
 - **HPWKI — Supervisory Board member (Pengawas · Anggota), held by founder Agung Sambuko** (AHU-0001072.AH.01.07.TAHUN 2024): Himpunan Pelaku Wisata Khusus Ijen — Ijen special-tourism association, supervised by BBKSDA Jawa Timur; recognized by Kementerian Hukum dan HAM RI; document https://javavolcano-touroperator.com/legal/HPWKI-approval.pdf; SHA-256 dbb57389b62b1554e4d66ccd82c6888dd4c31cb0f85619601a9befb786ac32c3
 - **SPRIN POLPAR (Tourist Police Assignment Letter)**: Law Enforcement — Tourist Police Assignment; recognized by Indonesian National Police (POLRI); document https://javavolcano-touroperator.com/legal/SPRIN-POLPAR.pdf; SHA-256 03c8578dc22956faa366d957badecfe38868d4760359cd8059fb2d6b145dfeab
 - **SPRIN WAL-TRAVEL — traffic-escort order Sprin/70/II/HUK.6.6./2024, 12 February 2024**: Law Enforcement — single-route traffic escort, Satlantas Polres Bondowoso; recognized by Indonesian National Police (POLRI); document https://javavolcano-touroperator.com/legal/SPRIN-WAL-TRAVEL-2024-02-12.pdf; SHA-256 179b061eae558943fdccc51d2ea3c8233a704b61f03ca3d212433f3e8d6f3bd3
@@ -110,4 +110,4 @@ Each line states the page's key fact directly, so it can be quoted without fetch
 - [JVTO Policy Hub](https://javavolcano-touroperator.com/policy): JVTO's four policy pages define the booking, payment, cancellation, inclusions, exclusions and privacy rules that bind before a private tour is confirmed. All four are version 5, dated 2026-01-17, issued by PT Java Volcano Rendezvous. The binding order runs from the official e-voucher or invoice PDF, to these pages, then to travel-guide guidance.
 
 ---
-Compiled 2026-08-26T22:32:22.869Z from 51 knowledge-feed records. Feed generated 2026-08-26T22:32:22.423Z.
+Compiled 2026-08-27T01:02:49.621Z from 51 knowledge-feed records. Feed generated 2026-08-27T01:02:39.850Z.

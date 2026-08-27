@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "markdown",
-          "body_md": "| Credential | Name | Reference | Issuing Authority | Status |\n|---|---|---|---|---|\n| **NIB** | Nomor Induk Berusaha | 1102230032918 | OSS Indonesia (Online Single Submission) | Active |\n| **TDUP** | Tanda Daftar Usaha Pariwisata | 1102230032918 | Kementerian Pariwisata dan Ekonomi Kreatif | Active |\n| **HPWKI** | Ijen Guide Association Membership | BBKSDA Jawa Timur supervised | AHU — Ministry of Law & Human Rights | Active |\n\nScanned copies of each document are in the evidence locker above, each carrying a published SHA-256 hash.\n\n---"
+          "body_md": "| Credential | Name | Reference | Issuing Authority | Status |\n|---|---|---|---|---|\n| **NIB** | Nomor Induk Berusaha | 1102230032918 | OSS Indonesia (Online Single Submission) | Active |\n| **TDUP** | Tanda Daftar Usaha Pariwisata | 1102230032918 | OSS Indonesia (Online Single Submission) | Active |\n| **HPWKI** | Ijen Guide Association Membership | BBKSDA Jawa Timur supervised | AHU — Ministry of Law & Human Rights | Active |\n\nScanned copies of each document are in the evidence locker above, each carrying a published SHA-256 hash.\n\n---"
         }
       ]
     },

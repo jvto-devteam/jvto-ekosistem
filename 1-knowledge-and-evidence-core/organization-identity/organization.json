@@ -76,7 +76,7 @@
       "sha256": "27252d512ddfa74de22a3e3ec10aa3dd40ef88da3eb57349fcd2137411551ee3",
       "documentUrl": "https://javavolcano-touroperator.com/legal/TDUP-1102230032918.pdf",
       "credentialCategory": "Indonesian Tourism Business Licence",
-      "recognizedBy": "Kementerian Pariwisata dan Ekonomi Kreatif",
+      "recognizedBy": "OSS Indonesia (Online Single Submission)",
       "_comment": "The TDUP carries the same number as the NIB because Indonesia's OSS system issues the sectoral tourism licence against the business's NIB — this is normal OSS behaviour, not a duplicated identifier. Noted 2026-08-21 so the two credentials sharing a number does not read as an error."
     },
     {

@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/public-website-page/v1",
   "output_type": "public_website_page",
-  "generated_at": "2026-08-24T04:11:34.877Z",
+  "generated_at": "2026-08-27T01:02:39.850Z",
   "route": "/verify-jvto/legal",
   "domain": "verify-jvto",
   "slug": "legal",
@@ -33,7 +33,7 @@
             "blocks": [
               {
                 "type": "markdown",
-                "body_md": "| Credential | Name | Reference | Issuing Authority | Status |\n|---|---|---|---|---|\n| **NIB** | Nomor Induk Berusaha | 1102230032918 | OSS Indonesia (Online Single Submission) | Active |\n| **TDUP** | Tanda Daftar Usaha Pariwisata | 1102230032918 | Kementerian Pariwisata dan Ekonomi Kreatif | Active |\n| **HPWKI** | Ijen Guide Association Membership | BBKSDA Jawa Timur supervised | AHU — Ministry of Law & Human Rights | Active |\n\nScanned copies of each document are in the evidence locker above, each carrying a published SHA-256 hash.\n\n---"
+                "body_md": "| Credential | Name | Reference | Issuing Authority | Status |\n|---|---|---|---|---|\n| **NIB** | Nomor Induk Berusaha | 1102230032918 | OSS Indonesia (Online Single Submission) | Active |\n| **TDUP** | Tanda Daftar Usaha Pariwisata | 1102230032918 | OSS Indonesia (Online Single Submission) | Active |\n| **HPWKI** | Ijen Guide Association Membership | BBKSDA Jawa Timur supervised | AHU — Ministry of Law & Human Rights | Active |\n\nScanned copies of each document are in the evidence locker above, each carrying a published SHA-256 hash.\n\n---"
               }
             ]
           },
@@ -365,7 +365,8 @@
               "name": "JVTO TDUP Document (Tanda Daftar Usaha Pariwisata)",
               "url": "https://javavolcano-touroperator.com/legal/TDUP-1102230032918.pdf",
               "dateCreated": "2023-02-11",
-              "publisherName": "Kementerian Pariwisata dan Ekonomi Kreatif"
+              "publisherName": "OSS Indonesia (Online Single Submission)",
+              "publisherUrl": "https://oss.go.id"
             },
             "hpwkiDocument": {
               "name": "JVTO HPWKI Approval Document (Himpunan Pelaku Wisata Khusus Ijen)",

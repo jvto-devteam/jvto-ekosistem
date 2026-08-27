@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-26T10:51:00.109Z",
+  "generated_at": "2026-08-27T01:02:40.005Z",
   "route": "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n",
   "domain": "tours",
   "slug": "from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n",
@@ -111,7 +111,31 @@
             "name": "Internal Package ID",
             "value": "package-SUB-5D4N-001"
           }
-        ]
+        ],
+        "review": [
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#review-167"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#review-226"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#review-250"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#review-308"
+          },
+          {
+            "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#review-309"
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": 5,
+          "bestRating": "5",
+          "worstRating": "1"
+        }
       },
       {
         "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#day-1",
@@ -579,13 +603,134 @@
             "url": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n"
           }
         ]
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#review-167",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "建中（漁人）"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "(Translated by Google) I was delighted to participate in the meticulously planned 9-day, 8-night itinerary by JVTO Java Volcano Tours. From the initial itinerary consultation, to the professional guide's explanations, to the impeccable transportation and accommodation arrangements, to the breathtaking volcanic landscapes, every detail showcased the team's dedication and professionalism.\\nThis trip left us with unforgettable and wonderful memories.\\n\\n(Original)\\n非常開心參加由 JVTO爪哇火山旅遊公司為我們精心規劃的行程。這趟旅程是9天8夜的客製化行程。由最初的行程溝通，到專業的導覽解說、再來完善的交通、住宿安排，到震撼人心的火山景觀，每一個細節都展現出團隊的用心與專業。\\n這次旅程留下難以忘懷的美好回憶。",
+        "datePublished": "2025-10-13",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#review-226",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Chrystal Tan"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Trip of a Lifetime: East Java Adventure\\n\\nOur recent journey through East Java with JVTO was nothing short of extraordinary. We took the 5D4N package and over the course of several days, we explored some of the region's most iconic destinations, including Tumpak Sewu Waterfall, Mount Bromo, and Mount Ijen.\\n\\nOverall Experience:\\nEverything is prepared and well-planned for the entire trip. All detailed information is written on the website and you will easily have a worry - free journey.\\nTheir passion for East Java was infectious, and their attention to detail ensured that every aspect of our trip was smooth and enjoyable. From arranging comfortable accommodations to recommending local delicacies, JVTO went above and beyond to make this trip unforgettable.\\n\\nConclusion:\\nWe cannot recommend JVTO highly enough for anyone planning to explore East Java. Their expertise, professionalism, and genuine enthusiasm for sharing the wonders of their homeland made our journey an absolute delight.\\n\\nThank you, Freddy and Juan , for an incredible adventure that exceeded all expectations.\\nWe look forward to our next exploration with you!\\n\\nFinal Thoughts:\\nIf you're looking for a memorable tour experience that goes beyond the typical sights, JVTO is the perfect choice.\\nThank you, JVTO for an unforgettable day!",
+        "datePublished": "2024-07-12",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#review-250",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "brylee catline"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Yandi and Dosi made our 5 Days 4 Nights tour to Ijen, Papuma, Tumpak Sewu, Bromo, and Surabaya truly enjoyable. Highly recommend their services!",
+        "datePublished": "2023-12-29",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#review-308",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Mia S"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "5 days of Java packed wirh vulcanos and adventure. Best Team and awsome scenery. We were oicked up at the airport and taken on a big adventur Tour. With a nice driver and a perfekt Guide. They took us to a waterfall and up to two beautiful vulcanos. It was marvelous.",
+        "datePublished": "2022-11-20",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#platform-tripadvisor",
+          "@type": "Organization",
+          "name": "TripAdvisor"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#review-309",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Frank Zhang"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "One of the best tours I have been on so far, the itinerary was very well planned - the hikes paced out perfectly to ensure enough rest, time allocated in each attraction is also sufficient to really explore, the hotels & food are amazing, way beyond our expectations. Besides the great itinerary, the guides (Juan & Yandi) are amazing at bringing us around, extremely friendly and fun to be around. Lastly, Sam who helped to organise the tour is extremely helpful at solving all our needs pre, during and after the entire tour. Would highly recommend this tour package - 10/10!!!",
+        "datePublished": "2022-11-10",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#tour"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-5d4n#platform-tripadvisor",
+          "@type": "Organization",
+          "name": "TripAdvisor"
+        }
       }
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-26T10:51:00.109Z",
+    "generated_at": "2026-08-27T01:02:39.930Z",
     "source_files": [
-      "2-product-and-commercial-core/tour-products/tours__from-surabaya__ijen-papuma-tumpak-sewu-bromo-5d4n.product-contract.json"
+      "2-product-and-commercial-core/tour-products/tours__from-surabaya__ijen-papuma-tumpak-sewu-bromo-5d4n.product-contract.json",
+      "1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json"
     ],
     "confidence": "verified",
     "migration_note": "TouristTrip + Offer/AggregateOffer relocated from jvto-web's inline per-page builder (tours/from-bali/[slug]/page.tsx and tours/from-surabaya/[slug]/page.tsx) to ekosistem, consistent with every other JSON-LD node in this pipeline (design spec 2026-08-20-ekosistem-schema-rendering-consolidation-design.md, Bagian 3). WebPage, BreadcrumbList, Product, and the DefinedTerm mentions/subjectOf augmentation stay local to jvto-web — out of scope for this generator."

@@ -78,7 +78,7 @@
     },
     "TDUP": {
       "name": "TDUP (Tanda Daftar Usaha Pariwisata)",
-      "description": "Tourism Business Registration Certificate. The mandatory operating licence for tour operators in Indonesia, issued by the Kementerian Pariwisata dan Ekonomi Kreatif via OSS. JVTO TDUP issued 2023-02-11.",
+      "description": "Tourism Business Registration Certificate. The mandatory operating licence for tour operators in Indonesia, issued through Lembaga OSS on behalf of the Bupati of Kabupaten Bondowoso, the authorising official named on the licence. JVTO TDUP issued 2023-02-11.",
       "termSetName": "Indonesian Tourism Licensing System",
       "termSetUrl": "https://oss.go.id"
     },
