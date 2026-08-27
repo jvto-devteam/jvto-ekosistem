@@ -124,6 +124,12 @@
       "title": "Seven tour packages have no attributed reviews",
       "status": "open — data, not code; the inferable share has been worked",
       "evidence": "169 of 221 reviews now carry a packageSlug, covering ten of seventeen products. 19 of those were derived from the review text on 2026-08-26 and carry a packageAttribution object recording the method, the confidence and the evidence; the rest came with the booking. Rules and rejected cases are in docs/review-package-attribution.md. The remaining 52 unattributed reviews cannot be placed: 47 name no destination at all, and 5 name a combination more than one product covers. Closing the last seven means capturing the package at review time."
+    },
+    {
+      "id": "sip-document-personal-data",
+      "title": "The published SIP carries the physician's home address, birth date and photograph",
+      "status": "open — needs an owner decision, deliberately not actioned",
+      "evidence": "/screening/SIP_DOKTER_AHMAD_IRWANDANU_2026.pdf and its derivative /screening/SCREENSHOT_SIP_DOKTER_AHMAD_IRWANDANU_2026.png are both public and both carry, for a third party rather than the site owner: Tempat/Tanggal lahir; Alamat, a residential address at RT/RW granularity; a passport-style photograph; and the signing official's NIP, which encodes his own birth date. Found 2026-08-27 by rendering the PDF to an image — the document extracts zero text, so every text-based scan over it returns a false all-clear.\n\nWhat must NOT be touched, because it is the evidence: the SIP number, the STR number and its validity, the physician's name, the practice address, the issuing office and the electronic-signature block.\n\nWhy this was not actioned: the pii skill states the redact/keep line is not automatable — over-redacting a public document number destroys evidence, under-redacting leaks personal data. Redaction also changes the file, so its published SHA-256 anchor must be recomputed, and both the PDF and the screenshot have to be done together or the derivative keeps leaking what the primary no longer shows.\n\nChecked and clean: /screening/Print_Surat_Sehat_2026.pdf is a watermarked SPECIMEN naming 'John Doe' — no real guest data. The other eight credential documents show no NIK, no phone number and no residential address. The HPWKI and AHU decrees carry officials' signatures and NIPs in their official capacity, which is normal for a Menkumham decree and is a separate judgment from the SIP."
     }
   ]
 }
