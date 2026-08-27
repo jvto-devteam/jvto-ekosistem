@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-27T01:02:40.005Z",
+  "generated_at": "2026-08-27T07:22:09.310Z",
   "route": "/tours/from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
   "domain": "tours",
   "slug": "from-surabaya/ijen-papuma-tumpak-sewu-bromo-4d3n",
@@ -199,7 +199,7 @@
                 "@type": "TouristAttraction",
                 "name": "Lunch at Local Restaurant",
                 "description": "Stop at a local restaurant for lunch (cost not included). This is the planned meal break during the transfer, allowing time to order food and rest briefly before continuing to Bondowoso.",
-                "url": "https://javavolcano-touroperator.com/destinations/local-restaurant"
+                "url": "https://javavolcano-touroperator.com/destinations/rm-handayani-wisata-paiton"
               }
             },
             {
@@ -1092,7 +1092,7 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-08-27T01:02:39.930Z",
+    "generated_at": "2026-08-27T07:21:07.399Z",
     "source_files": [
       "2-product-and-commercial-core/tour-products/tours__from-surabaya__ijen-papuma-tumpak-sewu-bromo-4d3n.product-contract.json",
       "1-knowledge-and-evidence-core/credentials-and-public-evidence/reviews.json"

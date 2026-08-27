@@ -245,7 +245,7 @@
           "name": "Surabaya to Bondowoso Transfer",
           "description": "Pickup by our team at your location in Surabaya. After meeting at the confirmed pick-up point, begin the overland transfer toward Bondowoso (Ijen area) as scheduled in the route plan.",
           "fromLocation": "Surabaya City",
-          "toLocation": "Local Restaurant",
+          "toLocation": "RM Handayani - Wisata Paiton",
           "timeWindow": "11:00",
           "durationMinutes": 150
         },
@@ -253,7 +253,7 @@
           "type": "TouristAttractionVisit",
           "name": "Lunch at Local Restaurant",
           "description": "Stop at a local restaurant for lunch (cost not included). This is the planned meal break during the transfer, allowing time to order food and rest briefly before continuing to Bondowoso.",
-          "location": "Local Restaurant",
+          "location": "RM Handayani - Wisata Paiton",
           "timeWindow": "13:30",
           "durationMinutes": 60
         },
@@ -261,7 +261,7 @@
           "type": "TravelAction",
           "name": "Local Restaurant to Bondowoso Transfer",
           "description": "Continue the overland journey from the restaurant toward Bondowoso, arriving in time for hotel check-in.",
-          "fromLocation": "Local Restaurant",
+          "fromLocation": "RM Handayani - Wisata Paiton",
           "toLocation": "Bondowoso Hotel",
           "timeWindow": "14:30",
           "durationMinutes": 90
