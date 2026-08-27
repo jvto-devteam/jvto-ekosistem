@@ -100,9 +100,16 @@
     {
       "id": "answer-first-uplift-measured",
       "date": "2026-08-27",
-      "decision": "The answer-first work is measurable on the live site: travel-guide, why-jvto and policy all rose; the homepage regressed and is the one page type to fix.",
+      "decision": "The answer-first work is measurable on the live site: travel-guide, why-jvto and policy all rose. The homepage reads lower by design, not by regression.",
       "why": "First comparison against the 2026-08-24 baseline taken with the same tool and the same median aggregation. travel-guide 0.23 -> 0.27 and 4/12 -> 5/12 pages carrying three numbers; why-jvto 0.52 -> 0.54 and 1/6 -> 2/6; policy 0.26 -> 0.40 and 0/4 -> 1/4; crew 0.09 -> 0.10. destination, trust and blog are flat; pdp 0.60 -> 0.59 is noise.",
-      "note": "The homepage moved the wrong way: density 0.52 -> 0.42 and it dropped from 1/1 to 0/1 on the three-numbers rule. A manual read of its first 120 words confirms the tool — the only number there is the licence 1102230032918. Validated against a known-answer page before the comparison was trusted, per the measure skill's second rule."
+      "note": "Homepage density 0.52 -> 0.42 and 1/1 -> 0/1 on the three-numbers rule. A manual read confirms the tool — the only number in its first 120 words is the licence 1102230032918. That is the owner's intent: see homepage-answer-block below. Do not treat this page type's score as a defect in any later comparison."
+    },
+    {
+      "id": "homepage-answer-block",
+      "date": "2026-08-27",
+      "decision": "The homepage renders no answer-first block. The hero stays a positioning line.",
+      "why": "Owner decision — the block was removed from the hero deliberately. The entity answer still lives in 1-knowledge-and-evidence-core/home/index.source.json and flows to home.website-output.json and the knowledge feed, so machine consumers still get it; only the rendered hero omits it.",
+      "note": "Recorded because the measurement argues the other way and will keep arguing it. On 2026-08-27 the live audit flagged the homepage as the one page type moving backwards, the block was re-added on that evidence alone, and it was reverted the same day. A number is not a mandate: check-answer-first reads the SOURCE and calls this page clean either way, because the source block is correct and 55 words — the checker was never in conflict with this decision, only the live density score is. Hero.tsx carries a DO-NOT-RE-ADD comment at the exact spot."
     }
   ],
   "backlog": [
