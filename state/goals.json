@@ -1,25 +1,26 @@
 {
   "_comment": "Project state for the JVTO content ecosystem. Read at session start by jvto-ops (scripts/session-brief.mjs) and by checkers that would otherwise freeze a policy constant in their own source. Shape is documented in the plugin at docs/goals-schema.md. Edit this file; do not duplicate its facts into a checker.",
-  "updated": "2026-08-26",
+  "updated": "2026-08-27",
   "baseline": {
-    "measuredAt": "2026-08-24",
+    "measuredAt": "2026-08-27",
     "tool": "jvto-web/scripts/audit-answer-structure.py",
-    "note": "Measured against the live site over all 291 sitemap routes. The auditor does not strip <header> (on most routes here that element is the page hero) and does not treat low fact density on crew pages as a defect (those pages are built from verbatim guest reviews).",
+    "note": "Median density per page type over all 295 live sitemap routes, and how many pages of each type carry three or more numbers in their first 120 words. The auditor does not strip <header> (on most routes here that element is the page hero) and does not treat low fact density on crew pages as a defect (those pages are built from verbatim guest reviews). Aggregation is MEDIAN, not mean — a later baseline taken with mean-of-pages would read ~0.1 higher on several types and would not be comparable to this one.",
+    "reproducible": "Yes, as of this measurement. The tool advertised a plain run as 'fetch + measure' but had no fetch step at all and died with FileNotFoundError on any machine that had not populated .answer-audit/html some other way; whatever produced the 2026-08-24 numbers was never committed. The fetch was added on 2026-08-27 and reads the live sitemap, so the set measured is the set published.",
     "byPageType": {
       "homepage": {
-        "density": 0.52,
-        "threeNumbersInFirst120": "1/1"
+        "density": 0.42,
+        "threeNumbersInFirst120": "0/1"
       },
       "destination": {
         "density": 0.48,
         "threeNumbersInFirst120": "6/6"
       },
       "travel-guide": {
-        "density": 0.23,
-        "threeNumbersInFirst120": "4/12"
+        "density": 0.27,
+        "threeNumbersInFirst120": "5/12"
       },
       "pdp": {
-        "density": 0.6,
+        "density": 0.59,
         "threeNumbersInFirst120": "17/17"
       },
       "trust": {
@@ -27,11 +28,11 @@
         "threeNumbersInFirst120": "4/5"
       },
       "why-jvto": {
-        "density": 0.52,
-        "threeNumbersInFirst120": "1/6"
+        "density": 0.54,
+        "threeNumbersInFirst120": "2/6"
       },
       "crew": {
-        "density": 0.09,
+        "density": 0.1,
         "threeNumbersInFirst120": "11/11"
       },
       "blog": {
@@ -39,8 +40,8 @@
         "threeNumbersInFirst120": "2/4"
       },
       "policy": {
-        "density": 0.26,
-        "threeNumbersInFirst120": "0/4"
+        "density": 0.4,
+        "threeNumbersInFirst120": "1/4"
       }
     }
   },
@@ -95,6 +96,13 @@
       "decision": "A tour page's aggregateRating is computed from that tour's own reviews, and is omitted entirely when it has none.",
       "why": "Every tour page emitted a Product node reading `pkg.aggregateRating?.ratingValue || googleStats.rating`. The contracts all ship ratingValue 0, which is falsy, so all seventeen tours published the company-wide '4.9 from 156' as their own — including the seven with no reviews at all, while the Organization node on the same page carried those same 156 correctly. The value is now derived in scripts/lib/review-schema/build-review-nodes.mjs from the Review nodes each tour publishes, and jvto-web lifts it off the #tour node by @id.",
       "note": "The count is over every attributed review, not the 20 the page quotes: PDP_REVIEW_CAP limits what is quoted, not what is counted. An empty set yields no rating rather than zero — 'ratingValue: 0' claims guests rated the tour zero out of five. /api/product/[slug] still returns the company figure as a product rating; it has no callers and its header documents that as deliberate, so it was left for the owner."
+    },
+    {
+      "id": "answer-first-uplift-measured",
+      "date": "2026-08-27",
+      "decision": "The answer-first work is measurable on the live site: travel-guide, why-jvto and policy all rose; the homepage regressed and is the one page type to fix.",
+      "why": "First comparison against the 2026-08-24 baseline taken with the same tool and the same median aggregation. travel-guide 0.23 -> 0.27 and 4/12 -> 5/12 pages carrying three numbers; why-jvto 0.52 -> 0.54 and 1/6 -> 2/6; policy 0.26 -> 0.40 and 0/4 -> 1/4; crew 0.09 -> 0.10. destination, trust and blog are flat; pdp 0.60 -> 0.59 is noise.",
+      "note": "The homepage moved the wrong way: density 0.52 -> 0.42 and it dropped from 1/1 to 0/1 on the three-numbers rule. A manual read of its first 120 words confirms the tool — the only number there is the licence 1102230032918. Validated against a known-answer page before the comparison was trusted, per the measure skill's second rule."
     }
   ],
   "backlog": [
