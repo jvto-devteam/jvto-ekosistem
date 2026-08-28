@@ -1,0 +1,671 @@
+{
+  "id": "location_index",
+  "label": "Route stop coordinates and photos, as held in jvto-cms",
+  "status": "active",
+  "confidence": "verified",
+  "source_trace": [
+    {
+      "source": "jvto-cms",
+      "ref": "postgres: locations, route_details, destination_assets, assets",
+      "field": "name,type,latitude,longitude,featured_image",
+      "confidence": "verified"
+    }
+  ],
+  "note": "Joins to the itinerary files by activity fromLocation/toLocation/location, which carry the same strings as locations.name. Exported from the CMS database, not hand-authored: edit the CMS and re-export rather than editing here.",
+  "generated_at": "2026-08-28",
+  "stop_count": 42,
+  "with_coordinates": 38,
+  "with_image": 21,
+  "nodes": [
+    {
+      "location_id": 53,
+      "name": "Accommodation",
+      "type": "hotel",
+      "lat": null,
+      "lng": null,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "BROMO-MADAKARIPURA-BONDOWOSO",
+        "BROMO-MADAKARIPURA-KETAPANG",
+        "BROMO-MADAKARIPURA-LUMAJANG",
+        "BROMO-MADAKARIPURA-MALANG",
+        "BROMO-SUB-FINISH",
+        "SUB-AIRPORT",
+        "SUB-CITYTOUR",
+        "SUB-SAFARI-BROMO",
+        "TUMPAKSEWU-BONDOWOSO"
+      ]
+    },
+    {
+      "location_id": 44,
+      "name": "Apple Picking Agrotourism",
+      "type": "landmark",
+      "lat": -7.8607,
+      "lng": 112.5195,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "MLG-CITYTOUR"
+      ]
+    },
+    {
+      "location_id": 35,
+      "name": "Bali Hotel",
+      "type": "city",
+      "lat": -8.727787,
+      "lng": 115.17325,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "BALI-BANYUWANGI",
+        "BALI-BONDOWOSO",
+        "BALI-BROMO",
+        "BWI-BALI-TRANSFER",
+        "IJEN-BALI"
+      ]
+    },
+    {
+      "location_id": 46,
+      "name": "Bangsring Underwater",
+      "type": "landmark",
+      "lat": -8.064187,
+      "lng": 114.41785,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "BWI-BANGSRING-TOUR"
+      ]
+    },
+    {
+      "location_id": 29,
+      "name": "Banyuwangi City",
+      "type": "city",
+      "lat": -8.218824,
+      "lng": 114.36915,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "BALI-BANYUWANGI",
+        "BWI-BALI-TRANSFER"
+      ]
+    },
+    {
+      "location_id": 30,
+      "name": "Banyuwangi Hotel",
+      "type": "city",
+      "lat": -8.218824,
+      "lng": 114.36915,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "BALI-BANYUWANGI",
+        "BWI-BALI-TRANSFER",
+        "BWI-BANGSRING-TOUR",
+        "SUB-BANYUWANGI"
+      ]
+    },
+    {
+      "location_id": 48,
+      "name": "Batu City",
+      "type": "city",
+      "lat": -7.873082,
+      "lng": 112.52883,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "MLG-CITYTOUR",
+        "MLG-SUB-FINISH"
+      ]
+    },
+    {
+      "location_id": 8,
+      "name": "Bondowoso City",
+      "type": "city",
+      "lat": -7.911725,
+      "lng": 113.82174,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "BALI-BONDOWOSO",
+        "BROMO-MADAKARIPURA-BONDOWOSO",
+        "IJEN-BROMO-TRANSFER",
+        "IJEN-PAPUMA-JEMBER",
+        "MLG-TUMPAKSEWU-BONDOWOSO",
+        "TUMPAKSEWU-BONDOWOSO"
+      ]
+    },
+    {
+      "location_id": 9,
+      "name": "Bondowoso Hotel",
+      "type": "city",
+      "lat": -7.911725,
+      "lng": 113.82174,
+      "image": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp",
+      "image_source": "locations.featured_image",
+      "used_by_routes": [
+        "BALI-BONDOWOSO",
+        "BROMO-BONDOWOSO",
+        "BROMO-MADAKARIPURA-BONDOWOSO",
+        "IJEN-BALI",
+        "IJEN-BROMO-TRANSFER",
+        "IJEN-PAPUMA-JEMBER",
+        "IJEN-SURABAYA",
+        "MLG-TUMPAKSEWU-BONDOWOSO",
+        "SUB-BONDOWOSO",
+        "TUMPAKSEWU-BONDOWOSO"
+      ]
+    },
+    {
+      "location_id": 21,
+      "name": "Bromo Area",
+      "type": "destination",
+      "lat": -7.918183,
+      "lng": 113.02834,
+      "image": "https://javavolcano-touroperator.com/uploads/location_bromo_area.webp",
+      "image_source": "locations.featured_image",
+      "used_by_routes": [
+        "BROMO-BONDOWOSO",
+        "BROMO-KETAPANG",
+        "BROMO-LUMAJANG",
+        "BROMO-MALANG",
+        "BROMO-SUB-FINISH",
+        "IJEN-BROMO-TRANSFER",
+        "JEMBER-LUMAJANG",
+        "MLG-BROMO",
+        "MLG-TUMPAKSEWU-BROMO",
+        "SUB-BROMO-MIDNIGHT",
+        "SUB-SAFARI-BROMO",
+        "TUMPAKSEWU-BROMO"
+      ]
+    },
+    {
+      "location_id": 22,
+      "name": "Bromo Hotel",
+      "type": "destination",
+      "lat": -7.918183,
+      "lng": 113.02834,
+      "image": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp",
+      "image_source": "locations.featured_image",
+      "used_by_routes": [
+        "BALI-BROMO",
+        "BROMO-BONDOWOSO",
+        "BROMO-KETAPANG",
+        "BROMO-LUMAJANG",
+        "BROMO-MADAKARIPURA-BONDOWOSO",
+        "BROMO-MADAKARIPURA-KETAPANG",
+        "BROMO-MADAKARIPURA-LUMAJANG",
+        "BROMO-MADAKARIPURA-MALANG",
+        "BROMO-MADAKARIPURA-SUB",
+        "BROMO-MALANG",
+        "BROMO-SUB-FINISH",
+        "IJEN-BROMO-TRANSFER",
+        "MLG-BROMO",
+        "MLG-TUMPAKSEWU-BROMO",
+        "SUB-BROMO-TRANSFER",
+        "SUB-SAFARI-BROMO",
+        "TUMPAKSEWU-BROMO"
+      ]
+    },
+    {
+      "location_id": 37,
+      "name": "Bromo Kingkong Hill",
+      "type": "landmark",
+      "lat": -7.942,
+      "lng": 112.953,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "SUB-BROMO-MIDNIGHT"
+      ]
+    },
+    {
+      "location_id": 40,
+      "name": "Cheng Ho Mosque",
+      "type": "landmark",
+      "lat": -7.2648,
+      "lng": 112.7378,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "SUB-CITYTOUR"
+      ]
+    },
+    {
+      "location_id": 47,
+      "name": "Coffee & Cocoa Technopark",
+      "type": "landmark",
+      "lat": -8.1435,
+      "lng": 113.6817,
+      "image": "https://javavolcano-touroperator.com/uploads/location_coffee_cocoa_technopark.webp",
+      "image_source": "locations.featured_image",
+      "used_by_routes": [
+        "JEMBER COCOAPARK TOUR"
+      ]
+    },
+    {
+      "location_id": 34,
+      "name": "Gilimanuk Harbour",
+      "type": "harbour",
+      "lat": -8.170173,
+      "lng": 114.43565,
+      "image": "https://javavolcano-touroperator.com/uploads/location_gilimanuk_harbour.webp",
+      "image_source": "locations.featured_image",
+      "used_by_routes": [
+        "BALI-BANYUWANGI",
+        "BALI-BONDOWOSO",
+        "BALI-BROMO",
+        "BWI-BALI-TRANSFER",
+        "IJEN-BALI"
+      ]
+    },
+    {
+      "location_id": 41,
+      "name": "Heroes Monument & Museum November 10",
+      "type": "landmark",
+      "lat": -7.2455,
+      "lng": 112.7378,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "SUB-CITYTOUR"
+      ]
+    },
+    {
+      "location_id": 39,
+      "name": "House of Sampoerna",
+      "type": "landmark",
+      "lat": -7.2296,
+      "lng": 112.7367,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "SUB-CITYTOUR"
+      ]
+    },
+    {
+      "location_id": 12,
+      "name": "Ijen Area",
+      "type": "destination",
+      "lat": -8.058,
+      "lng": 114.242,
+      "image": "https://javavolcano-touroperator.com/uploads/1764649921055-338810628-1687447803_whatsapp_image_2019-05-12_at_4.46.53_pm.jpeg",
+      "image_source": "destination_assets",
+      "used_by_routes": [
+        "IJEN-BALI",
+        "IJEN-BROMO-TRANSFER",
+        "IJEN-LUMAJANG",
+        "IJEN-PAPUMA-JEMBER",
+        "IJEN-SURABAYA"
+      ]
+    },
+    {
+      "location_id": 13,
+      "name": "Jember City",
+      "type": "city",
+      "lat": -8.172329,
+      "lng": 113.69943,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "IJEN-PAPUMA-JEMBER",
+        "JEMBER COCOAPARK TOUR",
+        "JEMBER-PAPUMA-TOUR"
+      ]
+    },
+    {
+      "location_id": 14,
+      "name": "Jember Hotel",
+      "type": "city",
+      "lat": -8.172329,
+      "lng": 113.69943,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "IJEN-PAPUMA-JEMBER",
+        "JEMBER COCOAPARK TOUR",
+        "JEMBER-LUMAJANG",
+        "JEMBER-PAPUMA-TOUR"
+      ]
+    },
+    {
+      "location_id": 42,
+      "name": "Jodipan Colorful Village",
+      "type": "landmark",
+      "lat": -7.988872,
+      "lng": 112.638794,
+      "image": "https://javavolcano-touroperator.com/uploads/location_jodipan_colorful_village.webp",
+      "image_source": "locations.featured_image",
+      "used_by_routes": [
+        "MLG-CITYTOUR"
+      ]
+    },
+    {
+      "location_id": 33,
+      "name": "Ketapang Harbour",
+      "type": "harbour",
+      "lat": -8.1518,
+      "lng": 114.3859,
+      "image": "https://javavolcano-touroperator.com/uploads/location_ketapang_harbour.webp",
+      "image_source": "locations.featured_image",
+      "used_by_routes": [
+        "BALI-BANYUWANGI",
+        "BALI-BONDOWOSO",
+        "BALI-BROMO",
+        "BROMO-KETAPANG",
+        "BROMO-MADAKARIPURA-KETAPANG",
+        "BWI-BALI-TRANSFER",
+        "IJEN-BALI"
+      ]
+    },
+    {
+      "location_id": 52,
+      "name": "Local Clinic",
+      "type": "clinic",
+      "lat": null,
+      "lng": null,
+      "image": "https://javavolcano-touroperator.com/uploads/location_ijen_health_screening.webp",
+      "image_source": "locations.featured_image",
+      "used_by_routes": [
+        "BALI-BANYUWANGI"
+      ]
+    },
+    {
+      "location_id": 50,
+      "name": "Local Restaurant",
+      "type": "restaurant",
+      "lat": null,
+      "lng": null,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "BROMO-MADAKARIPURA-KETAPANG",
+        "BROMO-MADAKARIPURA-LUMAJANG",
+        "IJEN-BROMO-TRANSFER",
+        "IJEN-LUMAJANG",
+        "IJEN-PAPUMA-JEMBER",
+        "SUB-BANYUWANGI",
+        "SUB-BROMO-MIDNIGHT",
+        "SUB-BROMO-TRANSFER",
+        "SUB-CITYTOUR",
+        "SUB-MALANG",
+        "SUB-SAFARI-BROMO",
+        "TUMPAKSEWU-BROMO"
+      ]
+    },
+    {
+      "location_id": 49,
+      "name": "Lumajang City",
+      "type": "city",
+      "lat": -8.133125,
+      "lng": 113.22257,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "BROMO-LUMAJANG"
+      ]
+    },
+    {
+      "location_id": 26,
+      "name": "Madakaripura Waterfall",
+      "type": "destination",
+      "lat": -7.933,
+      "lng": 113.008,
+      "image": "https://javavolcano-touroperator.com/uploads/1764650020192-295296217-madakaripura1.jpg",
+      "image_source": "destination_assets",
+      "used_by_routes": [
+        "BROMO-MADAKARIPURA-BONDOWOSO",
+        "BROMO-MADAKARIPURA-KETAPANG",
+        "BROMO-MADAKARIPURA-LUMAJANG",
+        "BROMO-MADAKARIPURA-MALANG",
+        "BROMO-MADAKARIPURA-SUB"
+      ]
+    },
+    {
+      "location_id": 27,
+      "name": "Malang City",
+      "type": "city",
+      "lat": -7.976468,
+      "lng": 112.62813,
+      "image": "https://javavolcano-touroperator.com/uploads/1764650260256-879736859-1687331560_santera_2.jpg",
+      "image_source": "destination_assets",
+      "used_by_routes": [
+        "BROMO-MADAKARIPURA-MALANG",
+        "BROMO-MALANG",
+        "MLG-TUMPAKSEWU-BONDOWOSO",
+        "TUMPAKSEWU-MALANG"
+      ]
+    },
+    {
+      "location_id": 57,
+      "name": "Malang Hotel",
+      "type": "hotel",
+      "lat": -7.976468,
+      "lng": 112.62813,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "BROMO-MADAKARIPURA-MALANG",
+        "BROMO-MALANG",
+        "MLG-BROMO",
+        "MLG-CITYTOUR",
+        "MLG-CITYTOUR-LUMAJANG",
+        "MLG-SUB-FINISH",
+        "MLG-TUMPAKSEWU-BROMO",
+        "SUB-MALANG",
+        "TUMPAKSEWU-MALANG"
+      ]
+    },
+    {
+      "location_id": 15,
+      "name": "Papuma Beach",
+      "type": "destination",
+      "lat": -8.4725,
+      "lng": 113.4562,
+      "image": "https://javavolcano-touroperator.com/uploads/1764650056490-963808584-papuma1.jpg",
+      "image_source": "destination_assets",
+      "used_by_routes": [
+        "IJEN-PAPUMA-JEMBER",
+        "JEMBER-PAPUMA-TOUR"
+      ]
+    },
+    {
+      "location_id": 54,
+      "name": "Prigen Safari Park",
+      "type": "destination",
+      "lat": -7.6975,
+      "lng": 112.6349,
+      "image": "https://javavolcano-touroperator.com/uploads/1764650246285-383381838-1736406701_baobab4.jpg",
+      "image_source": "destination_assets",
+      "used_by_routes": [
+        "SUB-SAFARI-BROMO"
+      ]
+    },
+    {
+      "location_id": 59,
+      "name": "RM Handayani - Wisata Paiton",
+      "type": "restaurant",
+      "lat": -7.718039,
+      "lng": 113.537009,
+      "image": "https://javavolcano-touroperator.com/uploads/location_rm_handayani.webp",
+      "image_source": "locations.featured_image",
+      "used_by_routes": [
+        "SUB-BONDOWOSO"
+      ]
+    },
+    {
+      "location_id": 45,
+      "name": "San Terra De Laponte",
+      "type": "landmark",
+      "lat": -7.8731,
+      "lng": 112.5288,
+      "image": "https://javavolcano-touroperator.com/uploads/location_san_terra_de_laponte.webp",
+      "image_source": "locations.featured_image",
+      "used_by_routes": [
+        "MLG-CITYTOUR"
+      ]
+    },
+    {
+      "location_id": 55,
+      "name": "Sea of Sand & Bromo Crater",
+      "type": "destination",
+      "lat": -7.942,
+      "lng": 112.953,
+      "image": "https://javavolcano-touroperator.com/uploads/1764649856442-820608003-bromo-new.jpg",
+      "image_source": "destination_assets",
+      "used_by_routes": [
+        "BROMO-BONDOWOSO",
+        "BROMO-KETAPANG",
+        "BROMO-LUMAJANG",
+        "BROMO-MADAKARIPURA-BONDOWOSO",
+        "BROMO-MADAKARIPURA-KETAPANG",
+        "BROMO-MADAKARIPURA-LUMAJANG",
+        "BROMO-MADAKARIPURA-MALANG",
+        "BROMO-MADAKARIPURA-SUB",
+        "BROMO-MALANG",
+        "BROMO-SUB-FINISH",
+        "SUB-BROMO-MIDNIGHT"
+      ]
+    },
+    {
+      "location_id": 2,
+      "name": "Surabaya Airport",
+      "type": "airport",
+      "lat": -7.3798,
+      "lng": 112.7869,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "SUB-AIRPORT"
+      ]
+    },
+    {
+      "location_id": 1,
+      "name": "Surabaya City",
+      "type": "city",
+      "lat": -7.262669,
+      "lng": 112.740746,
+      "image": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp",
+      "image_source": "locations.featured_image",
+      "used_by_routes": [
+        "BROMO-MADAKARIPURA-SUB",
+        "BROMO-SUB-FINISH",
+        "IJEN-SURABAYA",
+        "MLG-SUB-FINISH",
+        "SUB-BANYUWANGI",
+        "SUB-BONDOWOSO",
+        "SUB-BROMO-MIDNIGHT",
+        "SUB-BROMO-TRANSFER",
+        "SUB-LUMAJANG",
+        "SUB-MALANG",
+        "TUMPAKSEWU-SURABAYA"
+      ]
+    },
+    {
+      "location_id": 4,
+      "name": "Surabaya Hotel",
+      "type": "city",
+      "lat": -7.262669,
+      "lng": 112.740746,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "IJEN-SURABAYA",
+        "SUB-CITYTOUR",
+        "SUB-SAFARI-BROMO",
+        "TUMPAKSEWU-SURABAYA"
+      ]
+    },
+    {
+      "location_id": 38,
+      "name": "Suramadu Bridge",
+      "type": "landmark",
+      "lat": -7.2119,
+      "lng": 112.7828,
+      "image": "https://javavolcano-touroperator.com/uploads/location_suramadu_bridge.webp",
+      "image_source": "locations.featured_image",
+      "used_by_routes": [
+        "SUB-CITYTOUR"
+      ]
+    },
+    {
+      "location_id": 43,
+      "name": "Taman Langit & Goa Pinus",
+      "type": "landmark",
+      "lat": -7.8283,
+      "lng": 112.5445,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "MLG-CITYTOUR"
+      ]
+    },
+    {
+      "location_id": 51,
+      "name": "Transit Stop",
+      "type": "transit",
+      "lat": null,
+      "lng": null,
+      "image": null,
+      "image_source": null,
+      "used_by_routes": [
+        "BALI-BROMO",
+        "BROMO-BONDOWOSO",
+        "SUB-BROMO-MIDNIGHT"
+      ]
+    },
+    {
+      "location_id": 17,
+      "name": "Tumpak Sewu Area",
+      "type": "destination",
+      "lat": -8.230531,
+      "lng": 112.92016,
+      "image": "https://javavolcano-touroperator.com/uploads/location_tumpak_sewu_area.webp",
+      "image_source": "locations.featured_image",
+      "used_by_routes": [
+        "BROMO-MADAKARIPURA-LUMAJANG",
+        "JEMBER-LUMAJANG",
+        "MLG-CITYTOUR-LUMAJANG",
+        "MLG-TUMPAKSEWU-BONDOWOSO",
+        "MLG-TUMPAKSEWU-BROMO",
+        "SUB-LUMAJANG",
+        "TUMPAKSEWU-BONDOWOSO",
+        "TUMPAKSEWU-BROMO",
+        "TUMPAKSEWU-MALANG",
+        "TUMPAKSEWU-SURABAYA"
+      ]
+    },
+    {
+      "location_id": 18,
+      "name": "Tumpak Sewu Hotel",
+      "type": "hotel",
+      "lat": -8.227,
+      "lng": 112.915,
+      "image": "https://javavolcano-touroperator.com/uploads/1764650032945-926940542-tumpak-sewu1.jpg",
+      "image_source": "destination_assets",
+      "used_by_routes": [
+        "BROMO-LUMAJANG",
+        "BROMO-MADAKARIPURA-LUMAJANG",
+        "IJEN-LUMAJANG",
+        "MLG-CITYTOUR-LUMAJANG",
+        "SUB-LUMAJANG"
+      ]
+    },
+    {
+      "location_id": 56,
+      "name": "Tumpak Sewu Waterfall",
+      "type": "destination",
+      "lat": -8.227,
+      "lng": 112.915,
+      "image": "https://javavolcano-touroperator.com/uploads/1764650032945-926940542-tumpak-sewu1.jpg",
+      "image_source": "destination_assets",
+      "used_by_routes": [
+        "JEMBER-LUMAJANG",
+        "TUMPAKSEWU-BONDOWOSO",
+        "TUMPAKSEWU-BROMO",
+        "TUMPAKSEWU-MALANG",
+        "TUMPAKSEWU-SURABAYA"
+      ]
+    }
+  ]
+}
