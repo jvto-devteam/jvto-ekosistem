@@ -20,10 +20,10 @@
       "travel_date_start": "2026-09-14",
       "travel_date_end": "2026-09-17",
       "total_pax": 2,
-      "pickup": null,
-      "pickup_time": null,
-      "drop": null,
-      "drop_time": null,
+      "pickup": "Bali Hotel  ",
+      "pickup_time": "10:00:00",
+      "drop": "Surabaya Airport  ",
+      "drop_time": "17:00:00",
       "special_requirements": null,
       "media_link": null,
       "tshirt_sizes": {
@@ -72,56 +72,64 @@
         {
           "day": 1,
           "title": "Day 1",
-          "itinerary": "Bali to Banyuwangi - Arrival and Transfer",
+          "itinerary": "Bali - Banyuwangi",
           "activity": "Your adventure begins with a pickup at I Gusti Ngurah Rai International Airport, Bali (DPS) (ideally before 10 AM), or from your hotel in Bali. You will be transferred on a scenic 4-hour drive to Gilimanuk Port, where you'll take a ferry crossing to Ketapang Port in Java (approximately 1 hour). If the weather is clear, enjoy views of Mount Agung in Bali and Mount Raung in Java during the ferry ride. After arriving at Ketapang Port, you’ll continue your journey to your hotel in Banyuwangi for check-in and relaxation."
         },
         {
           "day": 2,
           "title": "Day 2",
-          "itinerary": "Ijen Crater - Jember - Papuma Beach Sunset",
-          "activity": "At 12:00 AM, check out from your hotel and drive to Paltuding, the base area of Ijen Crater (about 1.5 hours). Begin your trek to the crater rim (approximately 1–1.5 hours). At the rim, you’ll witness the stunning turquoise sulfuric crater lake and the impressive crater. You’ll also see the hardworking sulfur miners carry heavy loads of sulfur through the hazardous terrain.After the Ijen Crater adventure, we will stop for coffee and snacks at Malabar Coffee before continuing our journey to a local restaurant in Bondowoso City for lunch.In the afternoon, continue the journey to Jember City and check in to your hotel. At 3:00 PM, head to Papuma Beach (approximately 1 hour) to enjoy stunning sunset views over the sea. Afterward, return to your hotel and relax for the evening."
+          "itinerary": "Ijen Crater - Lumajang",
+          "activity": "Depart from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - Transfer to hotel at Tumpak Sewu Area - Check In - Take a rest"
         },
         {
           "day": 3,
           "title": "Day 3",
-          "itinerary": "Tumpak Sewu Waterfall to Bromo",
+          "itinerary": "Tumpak Sewu - Bromo Area",
           "activity": "At 4:00 AM, check out from your hotel and drive to Tumpak Sewu Waterfall, known for its magnificent curtain-like water flow. The waterfall is surrounded by smaller cascades, creating a breathtaking sight. To reach the waterfall, follow the river up the canyon, and be prepared to cross the river (wear proper trekking sandals or shoes). Enjoy the waterfall and its natural water spa.After the waterfall adventure and a lunch break, continue your journey to the Bromo area (approximately 4 hours). Upon arrival, check into your hotel and relax overnight in preparation for the Bromo sunrise tour tomorrow."
         },
         {
           "day": 4,
           "title": "Day 4",
-          "itinerary": "Mount Bromo Stargazing and Sunrise - Transfer to Surabaya",
+          "itinerary": "Bromo Sunrise - Surabaya Airport",
           "activity": "At 2:00 AM, prepare for the Mount Bromo Stargazing and Milky Way view. After experiencing the stunning night sky, continue to enjoy the sunrise over the Bromo landscape. See the majestic Mount Batok, Mount Bromo, and the mighty Gunung Semeru, the highest volcano in Java.After the sunrise, take a thrilling 4WD or motorcycle ride over the Sand Sea to Poten, a Hindu temple beside Mount Bromo. From Poten, you can either hike 3 km or take a pony ride to the base of Mount Bromo. Climb the 253 steps to the crater rim for an up-close view of the volcano.After exploring Mount Bromo, return to your hotel for breakfast and checkout. Then, embark on your journey back to Surabaya (approximately 4 hours). You can be dropped off at Surabaya Airport, Train Station, or your hotel in Surabaya. We recommend booking a flight after 7:00 PM to allow for the travel time."
         }
       ],
       "accommodations": [
         {
           "day": 1,
-          "name": "Luminor Hotel",
-          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/luminor-bwi.jpeg",
-          "rooms": "Deluxe Twin (1)"
+          "name": "Ijen Resort and Villas",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/1779630636_126287641.jpg",
+          "rooms": "By Client (1)"
         },
         {
           "day": 2,
-          "name": "Doho Homestay",
-          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/1722678237_getlstd-property-photo.jpg",
+          "name": "Artha Cottage",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/artha-cottages.webp",
           "rooms": "Deluxe Double (1)"
         },
         {
           "day": 3,
-          "name": "Joglo Kecombrang Bromo",
-          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/kecombrang.jpg",
+          "name": "ARTOTEL Cabin Bromo",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/",
           "rooms": "Double (1)"
         }
       ],
-      "addons": [],
+      "addons": [
+        {
+          "id": 781,
+          "name": "Refund Hotel",
+          "qty": 1,
+          "price": -1530000,
+          "subtotal": -1530000
+        }
+      ],
       "finance": {
-        "grand_total": 9800000,
-        "total_addons": 0,
+        "grand_total": 8270000,
+        "total_addons": -1530000,
         "dp_amount": 1960000,
-        "balance": 7840000,
+        "balance": 6310000,
         "paid_amount": 1960000,
-        "due_date": "2026-08-27 01:58:47",
+        "due_date": "2026-08-27 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
         "payment_link": null,

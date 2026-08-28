@@ -20,18 +20,18 @@
       "travel_date_start": "2026-09-06",
       "travel_date_end": "2026-09-09",
       "total_pax": 3,
-      "pickup": "Surabaya Airport (MH871)",
-      "pickup_time": "10:00:00",
+      "pickup": "Surabaya Airport Terminal 2 MH871",
+      "pickup_time": "09:10:00",
       "drop": "Anja Jimabaran (Bali Hotel)",
       "drop_time": "12:30:00",
       "special_requirements": null,
       "media_link": "https://drive.google.com/drive/folders/1LI5QPdbP0I7sP9iV6YqusTBjvPVNzp0j",
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
+        "s": 2,
         "m": 0,
         "l": 0,
-        "xl": 0,
+        "xl": 1,
         "xxl": 0
       },
       "crews": {

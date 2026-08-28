@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-booking/customer-portal-logistics-v1",
-  "generated_at": "2026-08-26T10:51:00.086Z",
+  "generated_at": "2026-08-28T12:18:46.147Z",
   "privacy": "Logistics values are operational booking fields. Customer identity and portal access slugs are excluded.",
-  "record_count": 148,
+  "record_count": 151,
   "records": [
     {
       "booking_id": 1566,
@@ -522,8 +522,8 @@
       "travel_date_end": "2026-09-20",
       "total_pax": 2,
       "logistics": {
-        "pickup": "  ",
-        "pickup_time": null,
+        "pickup": "Surabaya Train Station Gubeng Station Sancaka 82",
+        "pickup_time": "15:32:00",
         "drop": "  ",
         "drop_time": null,
         "special_requirements_present": false
@@ -567,8 +567,8 @@
       "travel_date_end": "2026-08-31",
       "total_pax": 2,
       "logistics": {
-        "pickup": "Surabaya Airport Terminal 1 JT805",
-        "pickup_time": "10:35:00",
+        "pickup": "Surabaya Airport Terminal 1 QG718",
+        "pickup_time": "10:55:00",
         "drop": "  ",
         "drop_time": null,
         "special_requirements_present": false
@@ -657,8 +657,8 @@
       "travel_date_end": "2026-09-13",
       "total_pax": 2,
       "logistics": {
-        "pickup": "  ",
-        "pickup_time": null,
+        "pickup": "Surabaya Hotel  Swiss-Belinn Airport Surabaya",
+        "pickup_time": "11:00:00",
         "drop": "  ",
         "drop_time": null,
         "special_requirements_present": false
@@ -687,10 +687,10 @@
       "travel_date_end": "2026-09-28",
       "total_pax": 3,
       "logistics": {
-        "pickup": "  ",
-        "pickup_time": null,
-        "drop": "  ",
-        "drop_time": null,
+        "pickup": "Surabaya Hotel  Grand Whiz Hotel Praxis Surabaya",
+        "pickup_time": "11:00:00",
+        "drop": "Surabaya Airport Terminal 1 JT 910",
+        "drop_time": "17:05:00",
         "special_requirements_present": false
       }
     },
@@ -702,8 +702,8 @@
       "travel_date_end": "2026-09-09",
       "total_pax": 2,
       "logistics": {
-        "pickup": "Surabaya Hotel (Bumi Surabaya City Hotel)",
-        "pickup_time": "08:00:00",
+        "pickup": "Surabaya Hotel  Bumi Surabaya City Hotel",
+        "pickup_time": "10:00:00",
         "drop": "Surabaya Hotel (Bingin Family Bungalow, Uluwatu)",
         "drop_time": "20:00:00",
         "special_requirements_present": false
@@ -867,8 +867,8 @@
       "travel_date_end": "2026-09-09",
       "total_pax": 3,
       "logistics": {
-        "pickup": "Surabaya Airport (MH871)",
-        "pickup_time": "10:00:00",
+        "pickup": "Surabaya Airport Terminal 2 MH871",
+        "pickup_time": "09:10:00",
         "drop": "Anja Jimabaran (Bali Hotel)",
         "drop_time": "12:30:00",
         "special_requirements_present": false
@@ -1392,8 +1392,8 @@
       "travel_date_end": "2026-09-01",
       "total_pax": 2,
       "logistics": {
-        "pickup": "Surabaya Airport Terminal 2 OD352",
-        "pickup_time": "10:55:00",
+        "pickup": "Surabaya Airport Terminal 2 QZ 321",
+        "pickup_time": "12:50:00",
         "drop": "Surabaya Airport Terminal 2 QZ322",
         "drop_time": "08:15:00",
         "special_requirements_present": false
@@ -1662,7 +1662,7 @@
       "travel_date_end": "2026-09-09",
       "total_pax": 2,
       "logistics": {
-        "pickup": "Bali Hotel  ",
+        "pickup": "Bali Hotel  Jas Green Villas and Spa",
         "pickup_time": "10:00:00",
         "drop": "  ",
         "drop_time": null,
@@ -1692,8 +1692,8 @@
       "travel_date_end": "2026-09-03",
       "total_pax": 2,
       "logistics": {
-        "pickup": "  ",
-        "pickup_time": null,
+        "pickup": "Surabaya Airport Terminal 1 JT919",
+        "pickup_time": "13:55:00",
         "drop": "  ",
         "drop_time": null,
         "special_requirements_present": false
@@ -1782,8 +1782,8 @@
       "travel_date_end": "2026-09-04",
       "total_pax": 2,
       "logistics": {
-        "pickup": "  ",
-        "pickup_time": null,
+        "pickup": "Surabaya Hotel  The Win Hotel Surabaya",
+        "pickup_time": "11:00:00",
         "drop": "  ",
         "drop_time": null,
         "special_requirements_present": false
@@ -2217,9 +2217,54 @@
       "travel_date_end": "2026-09-17",
       "total_pax": 2,
       "logistics": {
-        "pickup": null,
+        "pickup": "Bali Hotel  ",
+        "pickup_time": "10:00:00",
+        "drop": "Surabaya Airport  ",
+        "drop_time": "17:00:00",
+        "special_requirements_present": false
+      }
+    },
+    {
+      "booking_id": 3804,
+      "booking_ref": "JVTO-3804",
+      "status": "booked",
+      "travel_date_start": "2026-09-14",
+      "travel_date_end": "2026-09-17",
+      "total_pax": 2,
+      "logistics": {
+        "pickup": "Surabaya Hotel  Surabaya River View Hotel",
+        "pickup_time": "11:00:00",
+        "drop": "",
+        "drop_time": null,
+        "special_requirements_present": false
+      }
+    },
+    {
+      "booking_id": 3806,
+      "booking_ref": "JVTO-3806",
+      "status": "booked",
+      "travel_date_start": "2026-09-10",
+      "travel_date_end": "2026-09-13",
+      "total_pax": 2,
+      "logistics": {
+        "pickup": "Bali Hotel  ",
+        "pickup_time": "07:00:00",
+        "drop": "  ",
+        "drop_time": null,
+        "special_requirements_present": false
+      }
+    },
+    {
+      "booking_id": 3808,
+      "booking_ref": "JVTO-3808",
+      "status": "booked",
+      "travel_date_start": "2026-08-30",
+      "travel_date_end": "2026-09-02",
+      "total_pax": 3,
+      "logistics": {
+        "pickup": "  ",
         "pickup_time": null,
-        "drop": null,
+        "drop": "  ",
         "drop_time": null,
         "special_requirements_present": false
       }

@@ -3776,7 +3776,7 @@
         }
       },
       "vehicles": [
-        "Avanza Yus"
+        "Avanza Sub"
       ],
       "payment": {
         "invoiceTotal": 9500000,
@@ -4454,12 +4454,12 @@
         "days": "Fri - Sun"
       },
       "pickup": {
-        "meetingPoint": "",
-        "arrival": null,
-        "value": null,
-        "time": "07:00",
-        "text": "  ",
-        "complete": false
+        "meetingPoint": "Surabaya Train Station",
+        "arrival": "Gubeng Station",
+        "value": "Sancaka 82",
+        "time": "15:32",
+        "text": "Surabaya Train Station Gubeng Station Sancaka 82",
+        "complete": true
       },
       "dropoff": {
         "dropPoint": "",
@@ -4553,7 +4553,7 @@
         "balance": 5712000
       },
       "readiness": {
-        "hasPickup": false,
+        "hasPickup": true,
         "hasDropoff": false,
         "hasHotels": true,
         "balanceStatus": "balance_due"
@@ -4841,9 +4841,9 @@
       "pickup": {
         "meetingPoint": "Surabaya Airport",
         "arrival": "Terminal 1",
-        "value": "JT805",
-        "time": "10:35",
-        "text": "Surabaya Airport Terminal 1 JT805",
+        "value": "QG718",
+        "time": "10:55",
+        "text": "Surabaya Airport Terminal 1 QG718",
         "complete": true
       },
       "dropoff": {
@@ -5629,12 +5629,12 @@
         "days": "Thu - Sun"
       },
       "pickup": {
-        "meetingPoint": "",
+        "meetingPoint": "Surabaya Hotel",
         "arrival": null,
-        "value": null,
-        "time": "07:00",
-        "text": "  ",
-        "complete": false
+        "value": "Swiss-Belinn Airport Surabaya",
+        "time": "11:00",
+        "text": "Surabaya Hotel  Swiss-Belinn Airport Surabaya",
+        "complete": true
       },
       "dropoff": {
         "dropPoint": "",
@@ -5731,14 +5731,14 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "S x 1, L x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
-          "s": 0,
+          "s": 1,
           "m": 0,
-          "l": 0,
+          "l": 1,
           "xl": 0,
           "xxl": 0,
           "xxxl": 0
@@ -5753,7 +5753,7 @@
         "balance": 7280000
       },
       "readiness": {
-        "hasPickup": false,
+        "hasPickup": true,
         "hasDropoff": false,
         "hasHotels": true,
         "balanceStatus": "balance_due"
@@ -5887,20 +5887,20 @@
         "days": "Sat - Mon"
       },
       "pickup": {
-        "meetingPoint": "",
+        "meetingPoint": "Surabaya Hotel",
         "arrival": null,
-        "value": null,
-        "time": "07:00",
-        "text": "  ",
-        "complete": false
+        "value": "Grand Whiz Hotel Praxis Surabaya",
+        "time": "11:00",
+        "text": "Surabaya Hotel  Grand Whiz Hotel Praxis Surabaya",
+        "complete": true
       },
       "dropoff": {
-        "dropPoint": "",
-        "arrival": null,
-        "value": null,
-        "time": "07:00",
-        "text": "  ",
-        "complete": false
+        "dropPoint": "Surabaya Airport",
+        "arrival": "Terminal 1",
+        "value": "JT 910",
+        "time": "17:05",
+        "text": "Surabaya Airport Terminal 1 JT 910",
+        "complete": true
       },
       "itinerary": [
         {
@@ -5968,13 +5968,13 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "XS x 1, M x 2",
         "sizes": {
           "xss": 0,
           "xxs": 0,
-          "xs": 0,
+          "xs": 1,
           "s": 0,
-          "m": 0,
+          "m": 2,
           "l": 0,
           "xl": 0,
           "xxl": 0,
@@ -5990,8 +5990,8 @@
         "balance": 11975000
       },
       "readiness": {
-        "hasPickup": false,
-        "hasDropoff": false,
+        "hasPickup": true,
+        "hasDropoff": true,
         "hasHotels": true,
         "balanceStatus": "balance_due"
       }
@@ -6011,8 +6011,8 @@
         "meetingPoint": "Surabaya Hotel",
         "arrival": null,
         "value": "Bumi Surabaya City Hotel",
-        "time": "08:00",
-        "text": "Surabaya Hotel (Bumi Surabaya City Hotel)",
+        "time": "10:00",
+        "text": "Surabaya Hotel  Bumi Surabaya City Hotel",
         "complete": true
       },
       "dropoff": {
@@ -7472,10 +7472,10 @@
       },
       "pickup": {
         "meetingPoint": "Surabaya Airport",
-        "arrival": null,
+        "arrival": "Terminal 2",
         "value": "MH871",
-        "time": "10:00",
-        "text": "Surabaya Airport (MH871)",
+        "time": "09:10",
+        "text": "Surabaya Airport Terminal 2 MH871",
         "complete": true
       },
       "dropoff": {
@@ -7577,15 +7577,15 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "S x 2, XL x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
-          "s": 0,
+          "s": 2,
           "m": 0,
           "l": 0,
-          "xl": 0,
+          "xl": 1,
           "xxl": 0,
           "xxxl": 0
         }
@@ -7715,13 +7715,13 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "M x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
           "s": 0,
-          "m": 0,
+          "m": 1,
           "l": 0,
           "xl": 0,
           "xxl": 0,
@@ -8015,14 +8015,14 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "S x 1, L x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
-          "s": 0,
+          "s": 1,
           "m": 0,
-          "l": 0,
+          "l": 1,
           "xl": 0,
           "xxl": 0,
           "xxxl": 0
@@ -8033,14 +8033,14 @@
       ],
       "payment": {
         "invoiceTotal": 11800000,
-        "paid": 2360000,
-        "balance": 9440000
+        "paid": 11800000,
+        "balance": 0
       },
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
         "hasHotels": true,
-        "balanceStatus": "balance_due"
+        "balanceStatus": "settled"
       }
     },
     {
@@ -9036,15 +9036,15 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "M x 1, XL x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
           "s": 0,
-          "m": 0,
+          "m": 1,
           "l": 0,
-          "xl": 0,
+          "xl": 1,
           "xxl": 0,
           "xxxl": 0
         }
@@ -9294,14 +9294,14 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "L x 2",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
           "s": 0,
           "m": 0,
-          "l": 0,
+          "l": 2,
           "xl": 0,
           "xxl": 0,
           "xxxl": 0
@@ -9406,15 +9406,15 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "S x 1, XL x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
-          "s": 0,
+          "s": 1,
           "m": 0,
           "l": 0,
-          "xl": 0,
+          "xl": 1,
           "xxl": 0,
           "xxxl": 0
         }
@@ -9786,14 +9786,14 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "S x 1, L x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
-          "s": 0,
+          "s": 1,
           "m": 0,
-          "l": 0,
+          "l": 1,
           "xl": 0,
           "xxl": 0,
           "xxxl": 0
@@ -10180,14 +10180,14 @@
       ],
       "payment": {
         "invoiceTotal": 8190000,
-        "paid": 1638000,
-        "balance": 6552000
+        "paid": 8190000,
+        "balance": 0
       },
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
         "hasHotels": true,
-        "balanceStatus": "balance_due"
+        "balanceStatus": "settled"
       }
     },
     {
@@ -10599,7 +10599,7 @@
         }
       },
       "vehicles": [
-        "Avanza Boy"
+        "Avanza Sub"
       ],
       "payment": {
         "invoiceTotal": 7500000,
@@ -12070,9 +12070,9 @@
       "pickup": {
         "meetingPoint": "Surabaya Airport",
         "arrival": "Terminal 2",
-        "value": "OD352",
-        "time": "10:55",
-        "text": "Surabaya Airport Terminal 2 OD352",
+        "value": "QZ 321",
+        "time": "12:50",
+        "text": "Surabaya Airport Terminal 2 QZ 321",
         "complete": true
       },
       "dropoff": {
@@ -12503,13 +12503,13 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "M x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
           "s": 0,
-          "m": 0,
+          "m": 1,
           "l": 0,
           "xl": 0,
           "xxl": 0,
@@ -14116,14 +14116,14 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "S x 1, L x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
-          "s": 0,
+          "s": 1,
           "m": 0,
-          "l": 0,
+          "l": 1,
           "xl": 0,
           "xxl": 0,
           "xxxl": 0
@@ -14158,10 +14158,10 @@
       "pickup": {
         "meetingPoint": "Bali Hotel",
         "arrival": null,
-        "value": "",
+        "value": "Jas Green Villas and Spa",
         "time": "10:00",
-        "text": "Bali Hotel  ",
-        "complete": false
+        "text": "Bali Hotel  Jas Green Villas and Spa",
+        "complete": true
       },
       "dropoff": {
         "dropPoint": "",
@@ -14302,7 +14302,7 @@
         "balance": 9040000
       },
       "readiness": {
-        "hasPickup": false,
+        "hasPickup": true,
         "hasDropoff": false,
         "hasHotels": true,
         "balanceStatus": "balance_due"
@@ -14461,12 +14461,12 @@
         "days": "Tue - Thu"
       },
       "pickup": {
-        "meetingPoint": "",
-        "arrival": null,
-        "value": null,
-        "time": "07:00",
-        "text": "  ",
-        "complete": false
+        "meetingPoint": "Surabaya Airport",
+        "arrival": "Terminal 1",
+        "value": "JT919",
+        "time": "13:55",
+        "text": "Surabaya Airport Terminal 1 JT919",
+        "complete": true
       },
       "dropoff": {
         "dropPoint": "",
@@ -14530,14 +14530,14 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "S x 1, L x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
-          "s": 0,
+          "s": 1,
           "m": 0,
-          "l": 0,
+          "l": 1,
           "xl": 0,
           "xxl": 0,
           "xxxl": 0
@@ -14552,7 +14552,7 @@
         "balance": 0
       },
       "readiness": {
-        "hasPickup": false,
+        "hasPickup": true,
         "hasDropoff": false,
         "hasHotels": true,
         "balanceStatus": "settled"
@@ -15227,12 +15227,12 @@
         "days": "Tue - Fri"
       },
       "pickup": {
-        "meetingPoint": "",
+        "meetingPoint": "Surabaya Hotel",
         "arrival": null,
-        "value": null,
-        "time": "07:00",
-        "text": "  ",
-        "complete": false
+        "value": "The Win Hotel Surabaya ",
+        "time": "11:00",
+        "text": "Surabaya Hotel  The Win Hotel Surabaya",
+        "complete": true
       },
       "dropoff": {
         "dropPoint": "",
@@ -15351,7 +15351,7 @@
         "balance": 0
       },
       "readiness": {
-        "hasPickup": false,
+        "hasPickup": true,
         "hasDropoff": false,
         "hasHotels": true,
         "balanceStatus": "settled"
@@ -17169,12 +17169,12 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "S x 2",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
-          "s": 0,
+          "s": 2,
           "m": 0,
           "l": 0,
           "xl": 0,
@@ -18882,26 +18882,26 @@
         "days": "Mon - Thu"
       },
       "pickup": {
-        "meetingPoint": null,
+        "meetingPoint": "Bali Hotel",
         "arrival": null,
-        "value": null,
-        "time": "07:00",
-        "text": null,
+        "value": "",
+        "time": "10:00",
+        "text": "Bali Hotel  ",
         "complete": false
       },
       "dropoff": {
-        "dropPoint": null,
-        "arrival": null,
-        "value": null,
-        "time": "07:00",
-        "text": null,
+        "dropPoint": "Surabaya Airport",
+        "arrival": "",
+        "value": "",
+        "time": "17:00",
+        "text": "Surabaya Airport  ",
         "complete": false
       },
       "itinerary": [
         {
           "day": 1,
           "date": "14 Sep 2026",
-          "itinerary": "Bali to Banyuwangi - Arrival and Transfer",
+          "itinerary": "Bali - Banyuwangi",
           "activity": "Bali",
           "destination_id": 3,
           "destination": "Bali"
@@ -18909,7 +18909,7 @@
         {
           "day": 2,
           "date": "15 Sep 2026",
-          "itinerary": "Ijen Crater - Jember - Papuma Beach Sunset",
+          "itinerary": "Ijen Crater - Lumajang",
           "activity": "Ijen Crater Hike",
           "destination_id": 2,
           "destination": "Mount Ijen"
@@ -18917,7 +18917,7 @@
         {
           "day": 3,
           "date": "16 Sep 2026",
-          "itinerary": "Tumpak Sewu Waterfall to Bromo",
+          "itinerary": "Tumpak Sewu - Bromo Area",
           "activity": "Tumpak Sewu Waterfall Tour",
           "destination_id": 7,
           "destination": "Tumpak Sewu Waterfall"
@@ -18925,7 +18925,7 @@
         {
           "day": 4,
           "date": "17 Sep 2026",
-          "itinerary": "Mount Bromo Stargazing and Sunrise - Transfer to Surabaya",
+          "itinerary": "Bromo Sunrise - Surabaya Airport",
           "activity": "Bromo Sunrise Tour",
           "destination_id": 1,
           "destination": "Mount Bromo"
@@ -18935,17 +18935,152 @@
         {
           "day": 1,
           "checkIn": "14 Sep 2026",
-          "hotelId": 32,
-          "hotel": "Luminor Hotel",
+          "hotelId": 69,
+          "hotel": "Ijen Resort and Villas",
           "rooms": [
             {
-              "roomId": 185,
-              "roomName": "Deluxe Twin",
+              "roomId": 268,
+              "roomName": "By Client",
+              "quantity": 1
+            }
+          ],
+          "meals": []
+        },
+        {
+          "day": 2,
+          "checkIn": "15 Sep 2026",
+          "hotelId": 38,
+          "hotel": "Artha Cottage",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": []
+        },
+        {
+          "day": 3,
+          "checkIn": "16 Sep 2026",
+          "hotelId": 50,
+          "hotel": "ARTOTEL Cabin Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": []
+        }
+      ],
+      "tshirt": {
+        "text": "",
+        "sizes": {
+          "xss": 0,
+          "xxs": 0,
+          "xs": 0,
+          "s": 0,
+          "m": 0,
+          "l": 0,
+          "xl": 0,
+          "xxl": 0,
+          "xxxl": 0
+        }
+      },
+      "vehicles": [
+        "Avanza Didin"
+      ],
+      "payment": {
+        "invoiceTotal": 8270000,
+        "paid": 1960000,
+        "balance": 6310000
+      },
+      "readiness": {
+        "hasPickup": false,
+        "hasDropoff": false,
+        "hasHotels": true,
+        "balanceStatus": "balance_due"
+      }
+    },
+    {
+      "bookingId": 3804,
+      "bookingCode": "KLOOK-3804",
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "tripDate": {
+        "start_ymd": "2026-09-14",
+        "end_ymd": "2026-09-17",
+        "start": "14 Sep 26",
+        "end": "17 Sep 26",
+        "days": "Mon - Thu"
+      },
+      "pickup": {
+        "meetingPoint": "Surabaya Hotel",
+        "arrival": null,
+        "value": "Surabaya River View Hotel",
+        "time": "11:00",
+        "text": "Surabaya Hotel  Surabaya River View Hotel",
+        "complete": true
+      },
+      "dropoff": {
+        "dropPoint": "Others",
+        "arrival": null,
+        "value": "",
+        "time": "07:00",
+        "text": "",
+        "complete": false
+      },
+      "itinerary": [
+        {
+          "day": 1,
+          "date": "14 Sep 2026",
+          "itinerary": "Surabaya Hotel - Bondowoso",
+          "activity": "Surabaya",
+          "destination_id": 4,
+          "destination": "Surabaya"
+        },
+        {
+          "day": 2,
+          "date": "15 Sep 2026",
+          "itinerary": "Ijen Crater - Papuma Beach Sunset",
+          "activity": "Ijen Crater Hike",
+          "destination_id": 2,
+          "destination": "Mount Ijen"
+        },
+        {
+          "day": 3,
+          "date": "16 Sep 2026",
+          "itinerary": "Tumpak Sewu - Bromo Area",
+          "activity": "Tumpak Sewu Waterfall Tour",
+          "destination_id": 7,
+          "destination": "Tumpak Sewu Waterfall"
+        },
+        {
+          "day": 4,
+          "date": "17 Sep 2026",
+          "itinerary": "Bromo Sunrise - Surabaya Hotel",
+          "activity": "Bromo Sunrise Tour",
+          "destination_id": 1,
+          "destination": "Mount Bromo"
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "14 Sep 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
               "quantity": 1
             }
           ],
           "meals": [
-            "Breakfast"
+            "Breakfast",
+            "Dinner"
           ]
         },
         {
@@ -18996,18 +19131,309 @@
         }
       },
       "vehicles": [
-        "Avanza Didin"
+        "Avanza Sub"
       ],
       "payment": {
-        "invoiceTotal": 9800000,
-        "paid": 1960000,
-        "balance": 7840000
+        "invoiceTotal": 7500000,
+        "paid": 0,
+        "balance": 7500000
+      },
+      "readiness": {
+        "hasPickup": true,
+        "hasDropoff": false,
+        "hasHotels": true,
+        "balanceStatus": "balance_due"
+      }
+    },
+    {
+      "bookingId": 3806,
+      "bookingCode": "JVTO-3806",
+      "packageName": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+      "tripDate": {
+        "start_ymd": "2026-09-10",
+        "end_ymd": "2026-09-13",
+        "start": "10 Sep 26",
+        "end": "13 Sep 26",
+        "days": "Thu - Sun"
+      },
+      "pickup": {
+        "meetingPoint": "Bali Hotel",
+        "arrival": null,
+        "value": "",
+        "time": "07:00",
+        "text": "Bali Hotel  ",
+        "complete": false
+      },
+      "dropoff": {
+        "dropPoint": "",
+        "arrival": null,
+        "value": null,
+        "time": "07:00",
+        "text": "  ",
+        "complete": false
+      },
+      "itinerary": [
+        {
+          "day": 1,
+          "date": "10 Sep 2026",
+          "itinerary": "Bali - Banyuwangi",
+          "activity": "Bali",
+          "destination_id": 3,
+          "destination": "Bali"
+        },
+        {
+          "day": 2,
+          "date": "11 Sep 2026",
+          "itinerary": "Ijen Crater - Papuma Beach Sunset",
+          "activity": "Ijen Crater Hike",
+          "destination_id": 2,
+          "destination": "Mount Ijen"
+        },
+        {
+          "day": 3,
+          "date": "12 Sep 2026",
+          "itinerary": "Tumpak Sewu - Bromo Area",
+          "activity": "Tumpak Sewu Waterfall Tour",
+          "destination_id": 7,
+          "destination": "Tumpak Sewu Waterfall"
+        },
+        {
+          "day": 4,
+          "date": "13 Sep 2026",
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Hotel",
+          "activity": "Bromo Sunrise Tour, Madakaripura Warterfall Tour",
+          "destination_id": 1,
+          "destination": "Mount Bromo"
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "10 Sep 2026",
+          "hotelId": 32,
+          "hotel": "Luminor Hotel",
+          "rooms": [
+            {
+              "roomId": 107,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "11 Sep 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 165,
+              "roomName": "Executive Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "12 Sep 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "tshirt": {
+        "text": "",
+        "sizes": {
+          "xss": 0,
+          "xxs": 0,
+          "xs": 0,
+          "s": 0,
+          "m": 0,
+          "l": 0,
+          "xl": 0,
+          "xxl": 0,
+          "xxxl": 0
+        }
+      },
+      "vehicles": [
+        "Avanza Yus"
+      ],
+      "payment": {
+        "invoiceTotal": 10200000,
+        "paid": 2040000,
+        "balance": 8160000
       },
       "readiness": {
         "hasPickup": false,
         "hasDropoff": false,
         "hasHotels": true,
         "balanceStatus": "balance_due"
+      }
+    },
+    {
+      "bookingId": 3808,
+      "bookingCode": "JVTO-3808",
+      "packageName": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "tripDate": {
+        "start_ymd": "2026-08-30",
+        "end_ymd": "2026-09-02",
+        "start": "30 Aug 26",
+        "end": "02 Sep 26",
+        "days": "Sun - Wed"
+      },
+      "pickup": {
+        "meetingPoint": "",
+        "arrival": null,
+        "value": null,
+        "time": "07:00",
+        "text": "  ",
+        "complete": false
+      },
+      "dropoff": {
+        "dropPoint": "",
+        "arrival": null,
+        "value": null,
+        "time": "07:00",
+        "text": "  ",
+        "complete": false
+      },
+      "itinerary": [
+        {
+          "day": 1,
+          "date": "30 Aug 2026",
+          "itinerary": "Surabaya Airport - Lumajang",
+          "activity": "Surabaya",
+          "destination_id": 4,
+          "destination": "Surabaya"
+        },
+        {
+          "day": 2,
+          "date": "31 Aug 2026",
+          "itinerary": "Tumpak Sewu - Bromo Area",
+          "activity": "Tumpak Sewu Waterfall Tour",
+          "destination_id": 7,
+          "destination": "Tumpak Sewu Waterfall"
+        },
+        {
+          "day": 3,
+          "date": "01 Sep 2026",
+          "itinerary": "Bromo Sunrise - Bondowoso",
+          "activity": "Bromo Sunrise Tour",
+          "destination_id": 1,
+          "destination": "Mount Bromo"
+        },
+        {
+          "day": 4,
+          "date": "02 Sep 2026",
+          "itinerary": "Ijen Crater - Ketapang - Bali",
+          "activity": "Ijen Crater Hike",
+          "destination_id": 2,
+          "destination": "Mount Ijen"
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "30 Aug 2026",
+          "hotelId": 38,
+          "hotel": "Artha Cottage",
+          "rooms": [
+            {
+              "roomId": 77,
+              "roomName": "Twin",
+              "quantity": 1
+            },
+            {
+              "roomId": 187,
+              "roomName": "Extra Bed",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "31 Aug 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 109,
+              "roomName": "Family",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "01 Sep 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 88,
+              "roomName": "Platinum Double",
+              "quantity": 1
+            },
+            {
+              "roomId": 95,
+              "roomName": "Extra Bed",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "tshirt": {
+        "text": "",
+        "sizes": {
+          "xss": 0,
+          "xxs": 0,
+          "xs": 0,
+          "s": 0,
+          "m": 0,
+          "l": 0,
+          "xl": 0,
+          "xxl": 0,
+          "xxxl": 0
+        }
+      },
+      "vehicles": [
+        "Avanza Sub"
+      ],
+      "payment": {
+        "invoiceTotal": 13050000,
+        "paid": 13050000,
+        "balance": 0
+      },
+      "readiness": {
+        "hasPickup": false,
+        "hasDropoff": false,
+        "hasHotels": true,
+        "balanceStatus": "settled"
       }
     }
   ]

@@ -29,13 +29,20 @@
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 0,
+        "m": 1,
         "l": 0,
         "xl": 0,
         "xxl": 0
       },
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 2,
+            "name": "Juan",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1698673228_PHOTO JUAN.png",
+            "role": "Ijen Guide"
+          }
+        ],
         "drivers": [
           {
             "id": 1,

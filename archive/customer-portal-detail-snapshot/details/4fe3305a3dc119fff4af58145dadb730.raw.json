@@ -29,7 +29,7 @@
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 0,
+        "m": 1,
         "l": 0,
         "xl": 0,
         "xxl": 0
@@ -43,7 +43,14 @@
             "role": "Escort Guide"
           }
         ],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 85,
+            "name": "Indra",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1787878702_zamroni Medium.jpeg",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {

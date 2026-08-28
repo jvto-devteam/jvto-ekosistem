@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto-operations/customer-portal-vehicle-records-v1",
-  "generated_at": "2026-08-26T10:51:00.091Z",
-  "record_count": 148,
+  "generated_at": "2026-08-28T12:18:46.153Z",
+  "record_count": 151,
   "records": [
     {
       "booking_id": 1566,
@@ -2078,6 +2078,48 @@
       "booking_ref": "JVTO-3802",
       "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
       "total_pax": 2,
+      "vehicles": [
+        {
+          "name": "MPV",
+          "capacity": "1 - 3 pax",
+          "banner_present": true,
+          "interior_image_count": 7
+        }
+      ]
+    },
+    {
+      "booking_id": 3804,
+      "booking_ref": "JVTO-3804",
+      "package_name": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "total_pax": 2,
+      "vehicles": [
+        {
+          "name": "MPV",
+          "capacity": "1 - 3 pax",
+          "banner_present": true,
+          "interior_image_count": 7
+        }
+      ]
+    },
+    {
+      "booking_id": 3806,
+      "booking_ref": "JVTO-3806",
+      "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+      "total_pax": 2,
+      "vehicles": [
+        {
+          "name": "MPV",
+          "capacity": "1 - 3 pax",
+          "banner_present": true,
+          "interior_image_count": 7
+        }
+      ]
+    },
+    {
+      "booking_id": 3808,
+      "booking_ref": "JVTO-3808",
+      "package_name": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "total_pax": 3,
       "vehicles": [
         {
           "name": "MPV",

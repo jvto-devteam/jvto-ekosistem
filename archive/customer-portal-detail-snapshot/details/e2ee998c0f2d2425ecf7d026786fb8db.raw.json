@@ -20,17 +20,17 @@
       "travel_date_start": "2026-09-01",
       "travel_date_end": "2026-09-03",
       "total_pax": 2,
-      "pickup": "  ",
-      "pickup_time": null,
+      "pickup": "Surabaya Airport Terminal 1 JT919",
+      "pickup_time": "13:55:00",
       "drop": "  ",
       "drop_time": null,
       "special_requirements": null,
       "media_link": "https://drive.google.com/drive/folders/1yLxb7C4xWwtefgZOEweoR6WBv3UN4Cwu",
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
+        "s": 1,
         "m": 0,
-        "l": 0,
+        "l": 1,
         "xl": 0,
         "xxl": 0
       },
@@ -43,7 +43,14 @@
             "role": "Escort Guide"
           }
         ],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 85,
+            "name": "Indra",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1787878702_zamroni Medium.jpeg",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {

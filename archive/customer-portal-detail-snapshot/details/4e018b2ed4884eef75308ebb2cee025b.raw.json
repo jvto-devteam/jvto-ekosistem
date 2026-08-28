@@ -1,31 +1,31 @@
 {
-  "slug": "72a0d71108c121b84be37f65dda19eed",
-  "url": "https://legacy.javavolcano-touroperator.com/bookings/details/72a0d71108c121b84be37f65dda19eed?json=true",
+  "slug": "4e018b2ed4884eef75308ebb2cee025b",
+  "url": "https://legacy.javavolcano-touroperator.com/bookings/details/4e018b2ed4884eef75308ebb2cee025b?json=true",
   "statusCode": 200,
   "ok": true,
   "json": {
     "success": true,
     "booking": {
-      "id": 3470,
-      "booking_code": "JVR/010/09/26",
-      "booking_id": "JVTO-3470",
-      "url": "72a0d71108c121b84be37f65dda19eed",
+      "id": 3808,
+      "booking_code": "JVR/102/08/26",
+      "booking_id": "JVTO-3808",
+      "url": "4e018b2ed4884eef75308ebb2cee025b",
       "status": "booked",
-      "customer_id": 3826,
-      "customer_name": "Enrique Benítez",
-      "package_name": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "customer_id": 4133,
+      "customer_name": "Wout Van Snick",
+      "package_name": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
       "channel": "JVTO",
-      "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
-      "duration": "3D 2N",
-      "travel_date_start": "2026-09-18",
-      "travel_date_end": "2026-09-20",
-      "total_pax": 2,
-      "pickup": "Surabaya Train Station Gubeng Station Sancaka 82",
-      "pickup_time": "15:32:00",
+      "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+      "duration": "4D 3N",
+      "travel_date_start": "2026-08-30",
+      "travel_date_end": "2026-09-02",
+      "total_pax": 3,
+      "pickup": "  ",
+      "pickup_time": null,
       "drop": "  ",
       "drop_time": null,
       "special_requirements": null,
-      "media_link": "https://drive.google.com/drive/folders/1OJw1_sCgyHCaav-9crlj0m81DQvTBJVG",
+      "media_link": null,
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -35,19 +35,12 @@
         "xxl": 0
       },
       "crews": {
-        "guides": [
-          {
-            "id": 39,
-            "name": "Gufron",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528674_GUFRO.jpeg",
-            "role": "Escort Guide"
-          }
-        ],
+        "guides": [],
         "drivers": [
           {
-            "id": 75,
-            "name": "Didin",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528640_Adim 2.jpeg",
+            "id": 82,
+            "name": "Egy",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1786426817_WhatsApp Image 2026-08-11 at 12.29.25.jpeg",
             "role": "Driver"
           }
         ]
@@ -72,18 +65,24 @@
         {
           "day": 1,
           "title": "Day 1",
-          "itinerary": "Surabaya Airport - Madakaripura - Bromo Area",
-          "activity": "Pick up from airport - Explore Madakaripura Waterfall - Transfer to hotel in Bromo area  - Check in - Take a rest."
+          "itinerary": "Surabaya Airport - Lumajang",
+          "activity": "Pick up from airport - Transfer to hotel at Tumpak Sewu Area - Check In - Take a rest"
         },
         {
           "day": 2,
           "title": "Day 2",
-          "itinerary": "Bromo Sunrise - Bondowoso",
-          "activity": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim - Whispering Sands) - Breakfast and Shower - check out - Transfer to hotel in Bondowoso City - Check in - Dinner - Take a rest"
+          "itinerary": "Tumpak Sewu - Bromo Area",
+          "activity": "Check out and depart to Tumpak Sewu - explore Tumpak Sewu (Around 5hours) - Shower and Lunch - Transfer to hotel in Bromo area  - Check in - Take a rest."
         },
         {
           "day": 3,
           "title": "Day 3",
+          "itinerary": "Bromo Sunrise - Bondowoso",
+          "activity": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim - Whispering Sands) - Breakfast and Shower - check out - Transfer to hotel in Bondowoso City - Check in - Dinner - Take a rest"
+        },
+        {
+          "day": 4,
+          "title": "Day 4",
           "itinerary": "Ijen Crater - Ketapang - Bali",
           "activity": "Check out from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - Depart to Ketapang - take ferry to Gilimanuk Harbour - End Program."
         }
@@ -91,38 +90,44 @@
       "accommodations": [
         {
           "day": 1,
-          "name": "Joglo Kecombrang Bromo",
-          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/kecombrang.jpg",
-          "rooms": "Double (1)"
+          "name": "Artha Cottage",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/artha-cottages.webp",
+          "rooms": "Twin (1), Extra Bed (1)"
         },
         {
           "day": 2,
+          "name": "Joglo Kecombrang Bromo",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/kecombrang.jpg",
+          "rooms": "Family (1)"
+        },
+        {
+          "day": 3,
           "name": "Riverside Homestay",
           "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/riverside.png",
-          "rooms": "Deluxe Double (1)"
+          "rooms": "Platinum Double (1), Extra Bed (1)"
         }
       ],
       "addons": [],
       "finance": {
-        "grand_total": 7140000,
+        "grand_total": 13050000,
         "total_addons": 0,
-        "dp_amount": 1428000,
-        "balance": 5712000,
-        "paid_amount": 1428000,
-        "due_date": "2026-06-09 00:00:00",
-        "initial_payment_method": "cc",
+        "dp_amount": 13050000,
+        "balance": 0,
+        "paid_amount": 13050000,
+        "due_date": "2026-08-29 00:00:00",
+        "initial_payment_method": "pay later",
         "balance_payment_method": null,
         "payment_link": null,
-        "pending_upload_proof": false,
-        "uploaded_payment_proof": null,
+        "pending_upload_proof": true,
+        "uploaded_payment_proof": "https://legacy.javavolcano-touroperator.com/uploads/payments/proof_3808_1787898801.pdf",
         "payment_history": [
           {
-            "id": 674,
-            "nominal": 1428000,
-            "description": "Down Payment",
-            "reference": "https://checkout.xendit.co/web/6a2633d85db54415649a32a7",
-            "method": "Debit/Credit Card",
-            "created_at": "2026-06-08 10:18:11"
+            "id": 894,
+            "nominal": 13050000,
+            "description": "Down Payment (Full Payment)",
+            "reference": "https://javavolcano-touroperator.com/my-booking/4e018b2ed4884eef75308ebb2cee025b/bank-transfer",
+            "method": "Bank Transfer",
+            "created_at": "2026-08-28 14:37:54"
           }
         ]
       },

@@ -43,7 +43,14 @@
             "role": "Escort Guide"
           }
         ],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 85,
+            "name": "Indra",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1787878702_zamroni Medium.jpeg",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {

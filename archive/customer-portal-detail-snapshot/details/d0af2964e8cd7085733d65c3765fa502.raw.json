@@ -28,9 +28,9 @@
       "media_link": "https://drive.google.com/drive/folders/1q6oQ_caRTHRVo7IGl5C7y1HutupYun3l",
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
+        "s": 1,
         "m": 0,
-        "l": 0,
+        "l": 1,
         "xl": 0,
         "xxl": 0
       },
@@ -100,12 +100,12 @@
         "grand_total": 11800000,
         "total_addons": 0,
         "dp_amount": 2360000,
-        "balance": 9440000,
-        "paid_amount": 2360000,
+        "balance": 0,
+        "paid_amount": 11800000,
         "due_date": "2026-07-18 00:00:00",
         "initial_payment_method": "pay later",
-        "balance_payment_method": null,
-        "payment_link": null,
+        "balance_payment_method": "cc",
+        "payment_link": "https://checkout.xendit.co/web/6a905a0ac3ff966d642420db",
         "pending_upload_proof": false,
         "uploaded_payment_proof": null,
         "payment_history": [
@@ -116,6 +116,14 @@
             "reference": "https://xen.to/A5g50O0r",
             "method": "Debit/Credit Card",
             "created_at": "2026-07-15 16:44:17"
+          },
+          {
+            "id": 892,
+            "nominal": 9440000,
+            "description": "Payment (Paid in Full)",
+            "reference": "https://checkout.xendit.co/web/6a905a0ac3ff966d642420db",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-28 02:13:29"
           }
         ]
       },

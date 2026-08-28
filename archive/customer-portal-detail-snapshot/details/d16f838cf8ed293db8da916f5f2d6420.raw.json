@@ -41,6 +41,12 @@
             "name": "Gufron",
             "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528674_GUFRO.jpeg",
             "role": "Escort Guide"
+          },
+          {
+            "id": 17,
+            "name": "Kiki",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528887_KIKI.JPG",
+            "role": "Ijen Guide"
           }
         ],
         "drivers": []

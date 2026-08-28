@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-booking/customer-portal-booking-details-v1",
-  "generated_at": "2026-08-26T10:51:00.085Z",
+  "generated_at": "2026-08-28T12:18:46.146Z",
   "privacy": "No customer names, contact details, portal slugs, payment links, media links, payment references, or uploaded proof URLs are stored.",
-  "record_count": 148,
+  "record_count": 151,
   "records": [
     {
       "booking_id": 1566,
@@ -2242,9 +2242,9 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
+        "s": 1,
         "m": 0,
-        "l": 0,
+        "l": 1,
         "xl": 0,
         "xxl": 0
       },
@@ -2326,9 +2326,9 @@
         "total_pax": 3
       },
       "tshirt_sizes": {
-        "xs": 0,
+        "xs": 1,
         "s": 0,
-        "m": 0,
+        "m": 2,
         "l": 0,
         "xl": 0,
         "xxl": 0
@@ -2907,10 +2907,10 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
+        "s": 2,
         "m": 0,
         "l": 0,
-        "xl": 0,
+        "xl": 1,
         "xxl": 0
       },
       "addons": [
@@ -2986,7 +2986,7 @@
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 0,
+        "m": 1,
         "l": 0,
         "xl": 0,
         "xxl": 0
@@ -3156,9 +3156,9 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
+        "s": 1,
         "m": 0,
-        "l": 0,
+        "l": 1,
         "xl": 0,
         "xxl": 0
       },
@@ -3167,12 +3167,12 @@
         "grand_total": 11800000,
         "total_addons": 0,
         "dp_amount": 2360000,
-        "balance": 9440000,
-        "paid_amount": 2360000,
+        "balance": 0,
+        "paid_amount": 11800000,
         "due_date": "2026-07-18 00:00:00",
         "initial_payment_method": "pay later",
-        "balance_payment_method": null,
-        "payment_link_present": false,
+        "balance_payment_method": "cc",
+        "payment_link_present": true,
         "pending_upload_proof": false,
         "uploaded_payment_proof_present": false,
         "payment_history": [
@@ -3182,6 +3182,14 @@
             "description": "20% Deposit",
             "method": "Debit/Credit Card",
             "created_at": "2026-07-15 16:44:17",
+            "reference_present": true
+          },
+          {
+            "id": 892,
+            "nominal": 9440000,
+            "description": "Payment (Paid in Full)",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-28 02:13:29",
             "reference_present": true
           }
         ]
@@ -3575,9 +3583,9 @@
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 0,
+        "m": 1,
         "l": 0,
-        "xl": 0,
+        "xl": 1,
         "xxl": 0
       },
       "addons": [
@@ -3693,7 +3701,7 @@
         "xs": 0,
         "s": 0,
         "m": 0,
-        "l": 0,
+        "l": 2,
         "xl": 0,
         "xxl": 0
       },
@@ -3746,10 +3754,10 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
+        "s": 1,
         "m": 0,
         "l": 0,
-        "xl": 0,
+        "xl": 1,
         "xxl": 0
       },
       "addons": [
@@ -3924,9 +3932,9 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
+        "s": 1,
         "m": 0,
-        "l": 0,
+        "l": 1,
         "xl": 0,
         "xxl": 0
       },
@@ -4116,12 +4124,12 @@
         "grand_total": 8190000,
         "total_addons": 1050000,
         "dp_amount": 1638000,
-        "balance": 6552000,
-        "paid_amount": 1638000,
+        "balance": 0,
+        "paid_amount": 8190000,
         "due_date": "2026-07-26 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": "cash",
-        "payment_link_present": false,
+        "payment_link_present": true,
         "pending_upload_proof": false,
         "uploaded_payment_proof_present": false,
         "payment_history": [
@@ -4131,6 +4139,22 @@
             "description": "Down Payment",
             "method": "Debit/Credit Card",
             "created_at": "2026-07-25 07:54:04",
+            "reference_present": true
+          },
+          {
+            "id": 890,
+            "nominal": 5502000,
+            "description": "Payment (Paid in Full)",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-27 20:49:07",
+            "reference_present": true
+          },
+          {
+            "id": 891,
+            "nominal": 1050000,
+            "description": "Payment Add On",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-27 20:49:16",
             "reference_present": true
           }
         ]
@@ -4871,7 +4895,7 @@
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 0,
+        "m": 1,
         "l": 0,
         "xl": 0,
         "xxl": 0
@@ -5570,9 +5594,9 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
+        "s": 1,
         "m": 0,
-        "l": 0,
+        "l": 1,
         "xl": 0,
         "xxl": 0
       },
@@ -5718,9 +5742,9 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
+        "s": 1,
         "m": 0,
-        "l": 0,
+        "l": 1,
         "xl": 0,
         "xxl": 0
       },
@@ -6656,7 +6680,7 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
+        "s": 2,
         "m": 0,
         "l": 0,
         "xl": 0,
@@ -7370,14 +7394,22 @@
         "xl": 0,
         "xxl": 0
       },
-      "addons": [],
+      "addons": [
+        {
+          "id": 781,
+          "name": "Refund Hotel",
+          "qty": 1,
+          "price": -1530000,
+          "subtotal": -1530000
+        }
+      ],
       "finance": {
-        "grand_total": 9800000,
-        "total_addons": 0,
+        "grand_total": 8270000,
+        "total_addons": -1530000,
         "dp_amount": 1960000,
-        "balance": 7840000,
+        "balance": 6310000,
         "paid_amount": 1960000,
-        "due_date": "2026-08-27 01:58:47",
+        "due_date": "2026-08-27 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
         "payment_link_present": false,
@@ -7390,6 +7422,146 @@
             "description": "Down Payment",
             "method": "Debit/Credit Card",
             "created_at": "2026-08-26 02:00:54",
+            "reference_present": true
+          }
+        ]
+      }
+    },
+    {
+      "booking_id": 3804,
+      "booking_ref": "JVTO-3804",
+      "booking_code": "JVR/069/09/26",
+      "channel": "KLOOK",
+      "status": "booked",
+      "product": {
+        "package_name": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+        "package_link": "https://klook.com/activity/99790-3-day-mount-bromo-sunrise-ijen-madakaripura-trekking-trip-surabaya/",
+        "duration": "4D 3N",
+        "travel_date_start": "2026-09-14",
+        "travel_date_end": "2026-09-17",
+        "total_pax": 2
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "addons": [],
+      "finance": {
+        "grand_total": 7500000,
+        "total_addons": 0,
+        "dp_amount": 0,
+        "balance": 7500000,
+        "paid_amount": 0,
+        "due_date": "1970-01-01 00:00:00",
+        "initial_payment_method": "pay later",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": []
+      }
+    },
+    {
+      "booking_id": 3806,
+      "booking_ref": "JVTO-3806",
+      "booking_code": "JVR/070/09/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "product": {
+        "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
+        "duration": "4D 3N",
+        "travel_date_start": "2026-09-10",
+        "travel_date_end": "2026-09-13",
+        "total_pax": 2
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "addons": [
+        {
+          "id": 783,
+          "name": "Madakaripura Waterfall",
+          "qty": 2,
+          "price": 200000,
+          "subtotal": 400000
+        }
+      ],
+      "finance": {
+        "grand_total": 10200000,
+        "total_addons": 400000,
+        "dp_amount": 2040000,
+        "balance": 8160000,
+        "paid_amount": 2040000,
+        "due_date": "2026-08-28 00:00:00",
+        "initial_payment_method": "cc",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": [
+          {
+            "id": 889,
+            "nominal": 2040000,
+            "description": "Down Payment",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-27 16:25:43",
+            "reference_present": true
+          }
+        ]
+      }
+    },
+    {
+      "booking_id": 3808,
+      "booking_ref": "JVTO-3808",
+      "booking_code": "JVR/102/08/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "product": {
+        "package_name": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+        "duration": "4D 3N",
+        "travel_date_start": "2026-08-30",
+        "travel_date_end": "2026-09-02",
+        "total_pax": 3
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "addons": [],
+      "finance": {
+        "grand_total": 13050000,
+        "total_addons": 0,
+        "dp_amount": 13050000,
+        "balance": 0,
+        "paid_amount": 13050000,
+        "due_date": "2026-08-29 00:00:00",
+        "initial_payment_method": "pay later",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": true,
+        "uploaded_payment_proof_present": true,
+        "payment_history": [
+          {
+            "id": 894,
+            "nominal": 13050000,
+            "description": "Down Payment (Full Payment)",
+            "method": "Bank Transfer",
+            "created_at": "2026-08-28 14:37:54",
             "reference_present": true
           }
         ]

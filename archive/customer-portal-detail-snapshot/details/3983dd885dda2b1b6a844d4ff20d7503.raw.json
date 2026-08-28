@@ -35,7 +35,14 @@
         "xxl": 0
       },
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 17,
+            "name": "Kiki",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528887_KIKI.JPG",
+            "role": "Ijen Guide"
+          }
+        ],
         "drivers": [
           {
             "id": 82,

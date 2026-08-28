@@ -35,7 +35,14 @@
         "xxl": 0
       },
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 68,
+            "name": "Boy",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528760_BOY.JPG",
+            "role": "Ijen Guide"
+          }
+        ],
         "drivers": [
           {
             "id": 80,

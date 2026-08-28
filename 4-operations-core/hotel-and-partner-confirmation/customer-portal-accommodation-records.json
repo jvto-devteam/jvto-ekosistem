@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto-operations/customer-portal-accommodations-v1",
-  "generated_at": "2026-08-26T10:51:00.089Z",
-  "record_count": 148,
+  "generated_at": "2026-08-28T12:18:46.151Z",
+  "record_count": 151,
   "records": [
     {
       "booking_id": 1566,
@@ -3347,8 +3347,34 @@
       "accommodations": [
         {
           "day": 1,
-          "name": "Luminor Hotel",
-          "rooms": "Deluxe Twin (1)",
+          "name": "Ijen Resort and Villas",
+          "rooms": "By Client (1)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Artha Cottage",
+          "rooms": "Deluxe Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 3,
+          "name": "ARTOTEL Cabin Bromo",
+          "rooms": "Double (1)",
+          "banner_present": true
+        }
+      ]
+    },
+    {
+      "booking_id": 3804,
+      "booking_ref": "JVTO-3804",
+      "package_name": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "travel_date_start": "2026-09-14",
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Baratha Hotel and Resto",
+          "rooms": "Deluxe Double (1)",
           "banner_present": true
         },
         {
@@ -3361,6 +3387,58 @@
           "day": 3,
           "name": "Joglo Kecombrang Bromo",
           "rooms": "Double (1)",
+          "banner_present": true
+        }
+      ]
+    },
+    {
+      "booking_id": 3806,
+      "booking_ref": "JVTO-3806",
+      "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+      "travel_date_start": "2026-09-10",
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Luminor Hotel",
+          "rooms": "Deluxe Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Doho Homestay",
+          "rooms": "Executive Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 3,
+          "name": "Joglo Kecombrang Bromo",
+          "rooms": "Double (1)",
+          "banner_present": true
+        }
+      ]
+    },
+    {
+      "booking_id": 3808,
+      "booking_ref": "JVTO-3808",
+      "package_name": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "travel_date_start": "2026-08-30",
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Artha Cottage",
+          "rooms": "Twin (1), Extra Bed (1)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Joglo Kecombrang Bromo",
+          "rooms": "Family (1)",
+          "banner_present": true
+        },
+        {
+          "day": 3,
+          "name": "Riverside Homestay",
+          "rooms": "Platinum Double (1), Extra Bed (1)",
           "banner_present": true
         }
       ]
