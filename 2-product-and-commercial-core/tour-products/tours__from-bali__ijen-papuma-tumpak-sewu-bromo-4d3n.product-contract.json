@@ -268,7 +268,8 @@
           "fromLocation": "Bali Hotel",
           "toLocation": "Gilimanuk Harbour",
           "timeWindow": "10:00",
-          "durationMinutes": 240
+          "durationMinutes": 240,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_gilimanuk_harbour.webp"
         },
         {
           "type": "TravelAction",
@@ -277,7 +278,8 @@
           "fromLocation": "Gilimanuk Harbour",
           "toLocation": "Ketapang Harbour",
           "timeWindow": "14:00",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_ketapang_harbour.webp"
         },
         {
           "type": "TravelAction",
@@ -302,7 +304,8 @@
           "description": "A health screening will be conducted by medical personnel at a local clinic. This is a quick procedure to check vital signs as a prerequisite for climbing Ijen, completed as a short scheduled stop before the evening program.",
           "location": "Local Clinic",
           "timeWindow": "14:30",
-          "durationMinutes": 15
+          "durationMinutes": 15,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_ijen_health_screening.webp"
         },
         {
           "type": "TouristAttractionVisit",
@@ -332,7 +335,8 @@
           "description": "Take the Ijen tour. This block represents completing the scheduled Ijen program for the day, finished in full before the onward travel sequence to Jember and Papuma Beach.",
           "location": "Ijen Area",
           "timeWindow": "00:00",
-          "durationMinutes": 540
+          "durationMinutes": 540,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649921055-338810628-1687447803_whatsapp_image_2019-05-12_at_4.46.53_pm.jpeg"
         },
         {
           "type": "TravelAction",
@@ -341,7 +345,8 @@
           "fromLocation": "Ijen Area",
           "toLocation": "Bondowoso Hotel",
           "timeWindow": "09:00",
-          "durationMinutes": 180
+          "durationMinutes": 180,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
         },
         {
           "type": "CheckOutAction",
@@ -349,7 +354,8 @@
           "description": "Check out hotels in the Ijen area. This is the departure step from the Ijen-area accommodation after completing the Ijen tour block, transitioning to lunch and onward travel.",
           "location": "Bondowoso Hotel",
           "timeWindow": "12:00",
-          "durationMinutes": 10
+          "durationMinutes": 10,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
         },
         {
           "type": "TouristAttractionVisit",
@@ -383,7 +389,8 @@
           "fromLocation": "Jember Hotel",
           "toLocation": "Papuma Beach",
           "timeWindow": "14:30",
-          "durationMinutes": 90
+          "durationMinutes": 90,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650056490-963808584-papuma1.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -391,7 +398,8 @@
           "description": "Enjoying the sunset. This is the dedicated time window at Papuma Beach to relax, take photos, and experience the late-day atmosphere during sunset hour.",
           "location": "Papuma Beach",
           "timeWindow": "17:00",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650056490-963808584-papuma1.jpg"
         },
         {
           "type": "TravelAction",
@@ -431,7 +439,8 @@
           "fromLocation": "Jember Hotel",
           "toLocation": "Tumpak Sewu Area",
           "timeWindow": "03:30",
-          "durationMinutes": 180
+          "durationMinutes": 180,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_tumpak_sewu_area.webp"
         },
         {
           "type": "TouristAttractionVisit",
@@ -439,7 +448,8 @@
           "description": "Arrive at the Tumpak Sewu area (Lumajang), and explore Tumpak Sewu Waterfall. Use this activity block for the on-site waterfall experience in the Tumpak Sewu area, following the planned visit duration for exploration and viewing as scheduled.",
           "location": "Tumpak Sewu Waterfall",
           "timeWindow": "06:30",
-          "durationMinutes": 240
+          "durationMinutes": 240,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650032945-926940542-tumpak-sewu1.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -447,7 +457,8 @@
           "description": "Finish explore Tumpak Sewu and having lunch at local warung in Tumpak Sewu area",
           "location": "Tumpak Sewu Area",
           "timeWindow": "12:00",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_tumpak_sewu_area.webp"
         },
         {
           "type": "TravelAction",
@@ -456,7 +467,8 @@
           "fromLocation": "Tumpak Sewu Area",
           "toLocation": "Bromo Area",
           "timeWindow": "13:00",
-          "durationMinutes": 180
+          "durationMinutes": 180,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_bromo_area.webp"
         }
       ],
       "mealsPlan": {
@@ -478,7 +490,8 @@
           "description": "Starting the Bromo Jeep tour. Begin the sunrise tour sequence by Jeep in the Mount Bromo area, following the planned route flow for the morning program.",
           "location": "Sea of Sand & Bromo Crater",
           "timeWindow": "02:00",
-          "durationMinutes": 420
+          "durationMinutes": 420,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649856442-820608003-bromo-new.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -486,7 +499,8 @@
           "description": "Back to the hotel for breakfast. Return from the Bromo morning program to the hotel and take a short breakfast break before check-out and departure.",
           "location": "Bromo Hotel",
           "timeWindow": "09:00",
-          "durationMinutes": 30
+          "durationMinutes": 30,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
         },
         {
           "type": "CheckOutAction",
@@ -494,7 +508,8 @@
           "description": "Check-out from the hotel. Complete the hotel check-out process and prepare for the overland transfer to Surabaya.",
           "location": "Bromo Hotel",
           "timeWindow": "12:00",
-          "durationMinutes": 10
+          "durationMinutes": 10,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
         },
         {
           "type": "TravelAction",
@@ -503,7 +518,8 @@
           "fromLocation": "Bromo Area",
           "toLocation": "Surabaya City",
           "timeWindow": "12:00",
-          "durationMinutes": 180
+          "durationMinutes": 180,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp"
         },
         {
           "type": "TravelAction",

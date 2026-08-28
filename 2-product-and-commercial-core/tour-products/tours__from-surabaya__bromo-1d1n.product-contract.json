@@ -240,7 +240,8 @@
           "description": "Explore the Sea of Sand and continue to the Bromo crater area. This segment covers moving through the Sea of Sand zone and completing the approach to the crater, including the climb up to the crater viewpoint/rim area as stated in the route plan.",
           "location": "Sea of Sand & Bromo Crater",
           "timeWindow": "07:00",
-          "durationMinutes": 120
+          "durationMinutes": 120,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649856442-820608003-bromo-new.jpg"
         },
         {
           "type": "TravelAction",
@@ -266,7 +267,8 @@
           "fromLocation": "Bromo Area",
           "toLocation": "Surabaya City",
           "timeWindow": "10:30",
-          "durationMinutes": 240
+          "durationMinutes": 240,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp"
         },
         {
           "type": "TravelAction",
@@ -275,7 +277,8 @@
           "fromLocation": "Surabaya City",
           "toLocation": "Surabaya City",
           "timeWindow": "14:30",
-          "durationMinutes": 30
+          "durationMinutes": 30,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp"
         }
       ],
       "mealsPlan": {

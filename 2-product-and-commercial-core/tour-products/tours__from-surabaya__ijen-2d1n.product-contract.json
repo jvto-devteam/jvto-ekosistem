@@ -227,7 +227,8 @@
           "fromLocation": "Surabaya City",
           "toLocation": "RM Handayani - Wisata Paiton",
           "timeWindow": "11:00",
-          "durationMinutes": 150
+          "durationMinutes": 150,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_rm_handayani.webp"
         },
         {
           "type": "TouristAttractionVisit",
@@ -235,7 +236,8 @@
           "description": "Stop at a local restaurant for lunch (cost not included). This is the planned meal break during the transfer, allowing time to order food and rest briefly before continuing to Bondowoso.",
           "location": "RM Handayani - Wisata Paiton",
           "timeWindow": "13:30",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_rm_handayani.webp"
         },
         {
           "type": "TravelAction",
@@ -244,7 +246,8 @@
           "fromLocation": "RM Handayani - Wisata Paiton",
           "toLocation": "Bondowoso Hotel",
           "timeWindow": "14:30",
-          "durationMinutes": 90
+          "durationMinutes": 90,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
         },
         {
           "type": "CheckInAction",
@@ -252,7 +255,8 @@
           "description": "Arrive in Bondowoso and complete the hotel check-in process. This step covers arrival at the accommodation and the basic check-in procedure so you can settle in after the transfer.",
           "location": "Bondowoso Hotel",
           "timeWindow": "16:00",
-          "durationMinutes": 10
+          "durationMinutes": 10,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
         },
         {
           "type": "TouristAttractionVisit",
@@ -260,7 +264,8 @@
           "description": "A health screening will be conducted by medical personnel directly at your hotel. This is a scheduled screening session as listed in the itinerary to complete the required check before the Ijen-area program.",
           "location": "Bondowoso Hotel",
           "timeWindow": "17:00",
-          "durationMinutes": 90
+          "durationMinutes": 90,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
         },
         {
           "type": "TouristAttractionVisit",
@@ -268,7 +273,8 @@
           "description": "Dinner is served at the accommodation or a nearby restaurant (included). This is the planned dinner time after the transfer and screening, scheduled as an included meal for the day.",
           "location": "Bondowoso Hotel",
           "timeWindow": "18:30",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
         }
       ],
       "mealsPlan": {
@@ -290,7 +296,8 @@
           "description": "Short break after Ijen Hike. Take a short recovery break in the Ijen area after the hike, allowing time to rest briefly and prepare for the return logistics.",
           "location": "Ijen Area",
           "timeWindow": "08:00",
-          "durationMinutes": 30
+          "durationMinutes": 30,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649921055-338810628-1687447803_whatsapp_image_2019-05-12_at_4.46.53_pm.jpeg"
         },
         {
           "type": "TravelAction",
@@ -299,7 +306,8 @@
           "fromLocation": "Ijen Area",
           "toLocation": "Bondowoso Hotel",
           "timeWindow": "09:00",
-          "durationMinutes": 90
+          "durationMinutes": 90,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
         },
         {
           "type": "TouristAttractionVisit",
@@ -307,7 +315,8 @@
           "description": "Having lunch at the hotel. Use this planned meal break at the hotel restaurant as scheduled, allowing time to sit down and eat before continuing the remaining transfer segment.",
           "location": "Bondowoso Hotel",
           "timeWindow": "12:00",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
         },
         {
           "type": "TravelAction",
@@ -316,7 +325,8 @@
           "fromLocation": "Bondowoso Hotel",
           "toLocation": "Surabaya City",
           "timeWindow": "13:00",
-          "durationMinutes": 300
+          "durationMinutes": 300,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp"
         },
         {
           "type": "TravelAction",

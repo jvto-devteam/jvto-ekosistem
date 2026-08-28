@@ -25,7 +25,8 @@
           "fromLocation": "Surabaya City",
           "toLocation": "Tumpak Sewu Area",
           "timeWindow": "12:00",
-          "durationMinutes": 210
+          "durationMinutes": 210,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_tumpak_sewu_area.webp"
         },
         {
           "type": "CheckInAction",
@@ -33,7 +34,8 @@
           "description": "Arrive at the Tumpak Sewu area and check in at the homestay/cottage. This is the scheduled arrival and check-in process so you can settle at the accommodation near the Tumpak Sewu area.",
           "location": "Tumpak Sewu Hotel",
           "timeWindow": "15:30",
-          "durationMinutes": 30
+          "durationMinutes": 30,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650032945-926940542-tumpak-sewu1.jpg"
         }
       ],
       "mealsPlan": {
@@ -55,7 +57,8 @@
           "description": "Starting the Tumpak Sewu trekking. Begin the scheduled trekking session at Tumpak Sewu Waterfall, following the planned route on-site to experience the waterfall area during the allocated activity block.",
           "location": "Tumpak Sewu Waterfall",
           "timeWindow": "07:30",
-          "durationMinutes": 240
+          "durationMinutes": 240,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650032945-926940542-tumpak-sewu1.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -72,7 +75,8 @@
           "fromLocation": "Tumpak Sewu Area",
           "toLocation": "Bromo Area",
           "timeWindow": "12:30",
-          "durationMinutes": 270
+          "durationMinutes": 270,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_bromo_area.webp"
         },
         {
           "type": "CheckInAction",
@@ -80,7 +84,8 @@
           "description": "Arrive at Bromo area and check-in hotel. Reach the Bromo area and complete hotel check-in, concluding the day’s relocation and preparing for the next morning’s Bromo program.",
           "location": "Bromo Hotel",
           "timeWindow": "16:30",
-          "durationMinutes": 10
+          "durationMinutes": 10,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
         }
       ],
       "mealsPlan": {
@@ -102,7 +107,8 @@
           "description": "Starting the Bromo Jeep tour. Begin the sunrise tour sequence by Jeep in the Mount Bromo area, following the planned route flow for the morning program.",
           "location": "Sea of Sand & Bromo Crater",
           "timeWindow": "02:00",
-          "durationMinutes": 420
+          "durationMinutes": 420,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649856442-820608003-bromo-new.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -110,7 +116,8 @@
           "description": "Back to the hotel for breakfast. Return from the Bromo morning program to the hotel and take a short breakfast break before check-out and departure.",
           "location": "Bromo Hotel",
           "timeWindow": "09:00",
-          "durationMinutes": 30
+          "durationMinutes": 30,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
         },
         {
           "type": "CheckOutAction",
@@ -118,7 +125,8 @@
           "description": "Check-out from the hotel. Complete the hotel check-out process and prepare for the overland transfer to Surabaya.",
           "location": "Bromo Hotel",
           "timeWindow": "12:00",
-          "durationMinutes": 10
+          "durationMinutes": 10,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
         },
         {
           "type": "TravelAction",
@@ -127,7 +135,8 @@
           "fromLocation": "Bromo Area",
           "toLocation": "Surabaya City",
           "timeWindow": "12:00",
-          "durationMinutes": 180
+          "durationMinutes": 180,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp"
         },
         {
           "type": "TravelAction",

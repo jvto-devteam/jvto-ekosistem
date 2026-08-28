@@ -34,7 +34,8 @@
           "fromLocation": "Surabaya Hotel",
           "toLocation": "Prigen Safari Park",
           "timeWindow": "09:00",
-          "durationMinutes": 90
+          "durationMinutes": 90,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650246285-383381838-1736406701_baobab4.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -42,7 +43,8 @@
           "description": "Arrive at Prigen Safari Park and start the Safari Adventure. This is the main safari visit window, allocated for entering the park and following the planned safari activities during your time on-site.",
           "location": "Prigen Safari Park",
           "timeWindow": "10:30",
-          "durationMinutes": 150
+          "durationMinutes": 150,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650246285-383381838-1736406701_baobab4.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -59,7 +61,8 @@
           "fromLocation": "Prigen Safari Park",
           "toLocation": "Bromo Area",
           "timeWindow": "15:00",
-          "durationMinutes": 120
+          "durationMinutes": 120,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_bromo_area.webp"
         },
         {
           "type": "CheckInAction",
@@ -67,7 +70,8 @@
           "description": "Arrive in the Bromo area and check in at the hotel. This is the scheduled arrival and check-in process at your accommodation in the Bromo area after the transfer.",
           "location": "Bromo Hotel",
           "timeWindow": "17:00",
-          "durationMinutes": 30
+          "durationMinutes": 30,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
         }
       ],
       "mealsPlan": {
@@ -98,7 +102,8 @@
           "fromLocation": "Surabaya Hotel",
           "toLocation": "Prigen Safari Park",
           "timeWindow": "09:00",
-          "durationMinutes": 90
+          "durationMinutes": 90,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650246285-383381838-1736406701_baobab4.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -106,7 +111,8 @@
           "description": "Arrive at Prigen Safari Park and start the Safari Adventure. This is the main safari visit window, allocated for entering the park and following the planned safari activities during your time on-site.",
           "location": "Prigen Safari Park",
           "timeWindow": "10:30",
-          "durationMinutes": 150
+          "durationMinutes": 150,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650246285-383381838-1736406701_baobab4.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -123,7 +129,8 @@
           "fromLocation": "Prigen Safari Park",
           "toLocation": "Bromo Area",
           "timeWindow": "15:00",
-          "durationMinutes": 120
+          "durationMinutes": 120,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_bromo_area.webp"
         },
         {
           "type": "CheckInAction",
@@ -131,7 +138,8 @@
           "description": "Arrive in the Bromo area and check in at the hotel. This is the scheduled arrival and check-in process at your accommodation in the Bromo area after the transfer.",
           "location": "Bromo Hotel",
           "timeWindow": "17:00",
-          "durationMinutes": 30
+          "durationMinutes": 30,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
         }
       ],
       "mealsPlan": {
@@ -153,7 +161,8 @@
           "description": "Starting the Bromo Jeep tour. Begin the scheduled Mount Bromo sunrise tour sequence by Jeep, completing the morning program within the allocated time block.",
           "location": "Sea of Sand & Bromo Crater",
           "timeWindow": "02:30",
-          "durationMinutes": 390
+          "durationMinutes": 390,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649856442-820608003-bromo-new.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -161,7 +170,8 @@
           "description": "Back to the hotel for breakfast. Return to the Bromo hotel after the morning Jeep tour and take a short breakfast break before the mid-day transition.",
           "location": "Bromo Hotel",
           "timeWindow": "09:00",
-          "durationMinutes": 30
+          "durationMinutes": 30,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
         },
         {
           "type": "CheckOutAction",
@@ -169,7 +179,8 @@
           "description": "Check-out, travel to Madakaripura. Complete hotel check-out and begin the transfer toward Madakaripura Waterfall to continue the day’s itinerary sequence.",
           "location": "Bromo Hotel",
           "timeWindow": "11:00",
-          "durationMinutes": 10
+          "durationMinutes": 10,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
         },
         {
           "type": "TravelAction",
@@ -178,7 +189,8 @@
           "fromLocation": "Bromo Hotel",
           "toLocation": "Madakaripura Waterfall",
           "timeWindow": "11:10",
-          "durationMinutes": 20
+          "durationMinutes": 20,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650020192-295296217-madakaripura1.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -186,7 +198,8 @@
           "description": "Arrive at Madakaripura and start trekking. This is the main on-site activity window at Madakaripura Waterfall, dedicated to the trek segment as listed in the schedule.",
           "location": "Madakaripura Waterfall",
           "timeWindow": "11:30",
-          "durationMinutes": 180
+          "durationMinutes": 180,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650020192-295296217-madakaripura1.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -194,7 +207,8 @@
           "description": "After trekking, have lunch (fees not included). This is the planned meal break after the Madakaripura trekking segment, with dining costs handled personally.",
           "location": "Madakaripura Waterfall",
           "timeWindow": "13:30",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650020192-295296217-madakaripura1.jpg"
         },
         {
           "type": "TravelAction",
@@ -203,7 +217,8 @@
           "fromLocation": "Madakaripura Waterfall",
           "toLocation": "Surabaya City",
           "timeWindow": "14:30",
-          "durationMinutes": 120
+          "durationMinutes": 120,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp"
         },
         {
           "type": "TravelAction",
@@ -212,7 +227,8 @@
           "fromLocation": "Surabaya City",
           "toLocation": "Surabaya City",
           "timeWindow": "16:30",
-          "durationMinutes": 0
+          "durationMinutes": 0,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp"
         }
       ],
       "mealsPlan": {

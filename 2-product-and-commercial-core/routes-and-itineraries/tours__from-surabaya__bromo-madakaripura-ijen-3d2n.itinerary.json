@@ -43,7 +43,8 @@
           "fromLocation": "Local Restaurant",
           "toLocation": "Bromo Hotel",
           "timeWindow": "13:30",
-          "durationMinutes": 150
+          "durationMinutes": 150,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
         },
         {
           "type": "CheckInAction",
@@ -51,7 +52,8 @@
           "description": "Arrive at the Mount Bromo area and complete hotel check-in. This step covers arrival at your accommodation in the Bromo area and settling in for the next part of the program.",
           "location": "Bromo Hotel",
           "timeWindow": "16:00",
-          "durationMinutes": 10
+          "durationMinutes": 10,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
         }
       ],
       "mealsPlan": {
@@ -73,7 +75,8 @@
           "description": "Starting the Bromo Jeep tour. Begin the scheduled early-morning Jeep-based Bromo sunrise program, following the Mount Bromo touring sequence within the allocated time block.",
           "location": "Sea of Sand & Bromo Crater",
           "timeWindow": "02:00",
-          "durationMinutes": 390
+          "durationMinutes": 390,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649856442-820608003-bromo-new.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -90,7 +93,8 @@
           "fromLocation": "Bromo Hotel",
           "toLocation": "Madakaripura Waterfall",
           "timeWindow": "11:00",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650020192-295296217-madakaripura1.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -98,7 +102,8 @@
           "description": "Arrive at Madakaripura and start trekking. Arrive at the Madakaripura area and begin the scheduled trekking session, using the full activity block for the on-site waterfall exploration as planned.",
           "location": "Madakaripura Waterfall",
           "timeWindow": "12:00",
-          "durationMinutes": 180
+          "durationMinutes": 180,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650020192-295296217-madakaripura1.jpg"
         },
         {
           "type": "TravelAction",
@@ -107,7 +112,8 @@
           "fromLocation": "Madakaripura Waterfall",
           "toLocation": "Madakaripura Waterfall",
           "timeWindow": "15:00",
-          "durationMinutes": 0
+          "durationMinutes": 0,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650020192-295296217-madakaripura1.jpg"
         },
         {
           "type": "TravelAction",
@@ -124,7 +130,8 @@
           "description": "Arrive in Bondowoso, check-in hotel. Reach Bondowoso and complete the hotel check-in process after the long day, ensuring you are settled before the evening prerequisite procedures.",
           "location": "Bondowoso Hotel",
           "timeWindow": "18:00",
-          "durationMinutes": 10
+          "durationMinutes": 10,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
         },
         {
           "type": "TouristAttractionVisit",
@@ -132,7 +139,8 @@
           "description": "A health screening will be conducted by medical personnel directly at your hotel. This is a brief vital-signs check scheduled as a prerequisite before the Ijen climbing program.",
           "location": "Bondowoso Hotel",
           "timeWindow": "18:30",
-          "durationMinutes": 15
+          "durationMinutes": 15,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
         },
         {
           "type": "TouristAttractionVisit",
@@ -163,7 +171,8 @@
           "fromLocation": "Bondowoso Hotel",
           "toLocation": "Ijen Area",
           "timeWindow": "00:00",
-          "durationMinutes": 120
+          "durationMinutes": 120,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649921055-338810628-1687447803_whatsapp_image_2019-05-12_at_4.46.53_pm.jpeg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -171,7 +180,8 @@
           "description": "Begin the hike from Paltuding Base Camp toward the Ijen viewpoint. Spend time at the upper viewing area for sunrise, the blue crater lake view, and the surrounding mountain scenery when weather, visibility, and official access conditions allow. Afterwards, descend along the designated trail and return to Paltuding Base Camp.",
           "location": "Ijen Area",
           "timeWindow": "02:00",
-          "durationMinutes": 360
+          "durationMinutes": 360,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649921055-338810628-1687447803_whatsapp_image_2019-05-12_at_4.46.53_pm.jpeg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -179,7 +189,8 @@
           "description": "Begin the descent from the upper Ijen viewing area and follow the designated trail back to Paltuding Base Camp. The descent includes sufficient time for a steady walking pace and short stops along the route.",
           "location": "Ijen Area",
           "timeWindow": "06:30",
-          "durationMinutes": 90
+          "durationMinutes": 90,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649921055-338810628-1687447803_whatsapp_image_2019-05-12_at_4.46.53_pm.jpeg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -187,7 +198,8 @@
           "description": "Short break after Ijen Hike. Use this short recovery window in the Ijen area to rest briefly after the hike, reorganize personal items, and prepare for the onward transfer to the harbor.",
           "location": "Ijen Area",
           "timeWindow": "08:00",
-          "durationMinutes": 30
+          "durationMinutes": 30,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649921055-338810628-1687447803_whatsapp_image_2019-05-12_at_4.46.53_pm.jpeg"
         },
         {
           "type": "TravelAction",
@@ -196,7 +208,8 @@
           "fromLocation": "Ijen Area",
           "toLocation": "Ketapang Harbour",
           "timeWindow": "09:00",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_ketapang_harbour.webp"
         },
         {
           "type": "TravelAction",
@@ -205,7 +218,8 @@
           "fromLocation": "Ketapang Harbour",
           "toLocation": "Gilimanuk Harbour",
           "timeWindow": "10:00",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_gilimanuk_harbour.webp"
         },
         {
           "type": "TravelAction",

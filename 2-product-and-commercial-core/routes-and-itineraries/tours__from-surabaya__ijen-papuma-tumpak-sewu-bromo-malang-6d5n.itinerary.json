@@ -27,7 +27,8 @@
           "fromLocation": "Surabaya City",
           "toLocation": "RM Handayani - Wisata Paiton",
           "timeWindow": "11:00",
-          "durationMinutes": 150
+          "durationMinutes": 150,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_rm_handayani.webp"
         },
         {
           "type": "TouristAttractionVisit",
@@ -35,7 +36,8 @@
           "description": "Stop at a local restaurant for lunch (cost not included). This is the planned meal break during the transfer, allowing time to order food and rest briefly before continuing to Bondowoso.",
           "location": "RM Handayani - Wisata Paiton",
           "timeWindow": "13:30",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_rm_handayani.webp"
         },
         {
           "type": "TravelAction",
@@ -44,7 +46,8 @@
           "fromLocation": "RM Handayani - Wisata Paiton",
           "toLocation": "Bondowoso Hotel",
           "timeWindow": "14:30",
-          "durationMinutes": 90
+          "durationMinutes": 90,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
         },
         {
           "type": "CheckInAction",
@@ -52,7 +55,8 @@
           "description": "Arrive in Bondowoso and complete the hotel check-in process. This step covers arrival at the accommodation and the basic check-in procedure so you can settle in after the transfer.",
           "location": "Bondowoso Hotel",
           "timeWindow": "16:00",
-          "durationMinutes": 10
+          "durationMinutes": 10,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
         },
         {
           "type": "TouristAttractionVisit",
@@ -60,7 +64,8 @@
           "description": "A health screening will be conducted by medical personnel directly at your hotel. This is a scheduled screening session as listed in the itinerary to complete the required check before the Ijen-area program.",
           "location": "Bondowoso Hotel",
           "timeWindow": "17:00",
-          "durationMinutes": 90
+          "durationMinutes": 90,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
         },
         {
           "type": "TouristAttractionVisit",
@@ -68,7 +73,8 @@
           "description": "Dinner is served at the accommodation or a nearby restaurant (included). This is the planned dinner time after the transfer and screening, scheduled as an included meal for the day.",
           "location": "Bondowoso Hotel",
           "timeWindow": "18:30",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
         }
       ],
       "mealsPlan": {
@@ -90,7 +96,8 @@
           "description": "Take the Ijen tour. This block represents completing the scheduled Ijen program for the day, finished in full before the onward travel sequence to Jember and Papuma Beach.",
           "location": "Ijen Area",
           "timeWindow": "00:00",
-          "durationMinutes": 540
+          "durationMinutes": 540,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649921055-338810628-1687447803_whatsapp_image_2019-05-12_at_4.46.53_pm.jpeg"
         },
         {
           "type": "TravelAction",
@@ -99,7 +106,8 @@
           "fromLocation": "Ijen Area",
           "toLocation": "Bondowoso Hotel",
           "timeWindow": "09:00",
-          "durationMinutes": 180
+          "durationMinutes": 180,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
         },
         {
           "type": "CheckOutAction",
@@ -107,7 +115,8 @@
           "description": "Check out hotels in the Ijen area. This is the departure step from the Ijen-area accommodation after completing the Ijen tour block, transitioning to lunch and onward travel.",
           "location": "Bondowoso Hotel",
           "timeWindow": "12:00",
-          "durationMinutes": 10
+          "durationMinutes": 10,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
         },
         {
           "type": "TouristAttractionVisit",
@@ -141,7 +150,8 @@
           "fromLocation": "Jember Hotel",
           "toLocation": "Papuma Beach",
           "timeWindow": "14:30",
-          "durationMinutes": 90
+          "durationMinutes": 90,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650056490-963808584-papuma1.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -149,7 +159,8 @@
           "description": "Enjoying the sunset. This is the dedicated time window at Papuma Beach to relax, take photos, and experience the late-day atmosphere during sunset hour.",
           "location": "Papuma Beach",
           "timeWindow": "17:00",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650056490-963808584-papuma1.jpg"
         },
         {
           "type": "TravelAction",
@@ -189,7 +200,8 @@
           "fromLocation": "Jember Hotel",
           "toLocation": "Tumpak Sewu Area",
           "timeWindow": "03:30",
-          "durationMinutes": 180
+          "durationMinutes": 180,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_tumpak_sewu_area.webp"
         },
         {
           "type": "TouristAttractionVisit",
@@ -197,7 +209,8 @@
           "description": "Arrive at the Tumpak Sewu area (Lumajang), and explore Tumpak Sewu Waterfall. Use this activity block for the on-site waterfall experience in the Tumpak Sewu area, following the planned visit duration for exploration and viewing as scheduled.",
           "location": "Tumpak Sewu Waterfall",
           "timeWindow": "06:30",
-          "durationMinutes": 240
+          "durationMinutes": 240,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650032945-926940542-tumpak-sewu1.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -205,7 +218,8 @@
           "description": "Finish explore Tumpak Sewu and having lunch at local warung in Tumpak Sewu area",
           "location": "Tumpak Sewu Area",
           "timeWindow": "12:00",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_tumpak_sewu_area.webp"
         },
         {
           "type": "TravelAction",
@@ -214,7 +228,8 @@
           "fromLocation": "Tumpak Sewu Area",
           "toLocation": "Bromo Area",
           "timeWindow": "13:00",
-          "durationMinutes": 180
+          "durationMinutes": 180,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_bromo_area.webp"
         }
       ],
       "mealsPlan": {
@@ -236,7 +251,8 @@
           "description": "Starting the Bromo Jeep tour. Begin the early-morning Jeep-based Bromo sunrise program, completing the Mount Bromo touring block as scheduled before continuing onward later in the day.",
           "location": "Sea of Sand & Bromo Crater",
           "timeWindow": "02:00",
-          "durationMinutes": 420
+          "durationMinutes": 420,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649856442-820608003-bromo-new.jpg"
         },
         {
           "type": "TouristAttractionVisit",
@@ -244,7 +260,8 @@
           "description": "Back to the hotel for breakfast. Return to the Bromo hotel after the morning program for breakfast and a short rest before check-out and departure to Malang.",
           "location": "Bromo Hotel",
           "timeWindow": "09:00",
-          "durationMinutes": 30
+          "durationMinutes": 30,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
         },
         {
           "type": "CheckOutAction",
@@ -252,7 +269,8 @@
           "description": "Check-out hotel. Complete the hotel check-out and prepare for the transfer from the Bromo area to the Malang area.",
           "location": "Bromo Hotel",
           "timeWindow": "12:00",
-          "durationMinutes": 30
+          "durationMinutes": 30,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
         },
         {
           "type": "TravelAction",
@@ -261,7 +279,8 @@
           "fromLocation": "Bromo Area",
           "toLocation": "Malang City",
           "timeWindow": "12:00",
-          "durationMinutes": 150
+          "durationMinutes": 150,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650260256-879736859-1687331560_santera_2.jpg"
         },
         {
           "type": "CheckInAction",
@@ -300,7 +319,8 @@
           "fromLocation": "Malang Hotel",
           "toLocation": "Jodipan Colorful Village",
           "timeWindow": "09:00",
-          "durationMinutes": 30
+          "durationMinutes": 30,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_jodipan_colorful_village.webp"
         },
         {
           "type": "TouristAttractionVisit",
@@ -308,7 +328,8 @@
           "description": "Visiting Jodipan Colorful Village. Arrive at the village area and spend the allotted time walking through the colorful neighborhood setting, focusing on the scheduled visit and photo opportunities during this stop.",
           "location": "Jodipan Colorful Village",
           "timeWindow": "09:30",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_jodipan_colorful_village.webp"
         },
         {
           "type": "TouristAttractionVisit",
@@ -316,7 +337,8 @@
           "description": "Exploring San Terra De Laponte. Use this visit block to explore the attraction area as scheduled, following the on-site flow for sightseeing and taking photos within the allocated time window.",
           "location": "San Terra De Laponte",
           "timeWindow": "11:00",
-          "durationMinutes": 120
+          "durationMinutes": 120,
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_san_terra_de_laponte.webp"
         },
         {
           "type": "TouristAttractionVisit",
