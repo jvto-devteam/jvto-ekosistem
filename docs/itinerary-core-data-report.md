@@ -62,8 +62,60 @@ Snapshot lengkap disimpan di:
 ## Data Yang Tidak Dimasukkan Ke Folder Aktif
 
 - `21-package-expense-map.json`: ditahan karena masuk area expense/internal cost calibration, sesuai keputusan sebelumnya bahwa internal expense dikerjakan nanti.
+- `agent-contract/` (10 file): sengaja tetap di arsip saja. Lihat bagian **Agent Contract** di bawah.
 - `exports/*/sample-*.json`: disimpan di arsip saja karena masih berupa sample output, bukan data operasional final.
 - `schema-inventory.json`, `source-inventory.json`, `extraction-manifest.json`, dan file report/gap teknis: disimpan di arsip karena lebih berfungsi sebagai metadata/pemeriksaan, bukan konten domain utama.
+
+## Agent Contract
+
+`generated/itinerary-intelligence/agent-contract/` di jvto-itinerary-core berisi 10 file
+berskema `agent-contract-v1`: README, `manifest.json`, dan 8 dataset yang diindeks
+manifest. Ini **proyeksi agent-safe** — subset
+minimal yang dibutuhkan runtime untuk routing dan guardrail, sudah dibersihkan dari
+seluruh field biaya, rate vendor, margin, identitas crew, dan PII.
+
+| File | Menjawab |
+|---|---|
+| `manifest.json` | Indeks + guarantees. Entry point; jangan hardcode daftar file. |
+| `standard-route-truth.json` | Route truth kanonik 16 paket, tiap field diklasifikasi kekuatan buktinya. |
+| `package-operational-composition.json` | Leg/destinasi/staging/endpoint penyusun tiap paket. |
+| `package-customization-boundaries.json` | Standard vs handoff; kelayakan instant-book. |
+| `route-validation-rules.json` | Kapan runtime tidak boleh menjawab "bisa" tanpa cek kelayakan. |
+| `pickup-dropoff-requirements.json` | Pertanyaan minimum yang wajib ditanyakan per titik jemput/antar. |
+| `destination-operational-overlays.json` | Data destinasi menjadi pemicu operasional. |
+| `staging-logic.json` | Alasan menginap dekat Bromo/Ijen/Tumpak Sewu (tanpa tarif). |
+| `operational-readiness.json` | Status tiap dataset, agar data seed/inferred tidak diperlakukan sebagai final. |
+
+### Kepemilikan dan konsumen
+
+- **Owner: `jvto-itinerary-core`.** Dihasilkan `scripts/build-agent-contract.mjs`;
+  README-nya menyatakan *read-only, jangan diedit tangan, regenerate dari sumber*.
+- **Konsumen: `jvto-whatsapp-agent-runtime`.** Runtime menyematkannya lewat
+  `config/upstreams.yaml` → `itinerary_core.agent_contract_root`, di-pin ke release
+  itinerary-core, lalu di-*vendor* ke agent-catalog rilisnya sendiri.
+  `config/data-ownership.yaml` menetapkan itinerary-core sebagai owner
+  `operational_feasibility`.
+
+**Runtime tidak membaca dari repo ini.** Karena itu agent-contract sengaja tidak
+dipromosikan ke folder aktif: menyalinnya ke sini hanya menghasilkan duplikat tanpa
+pembaca, sekaligus menjadikan ekosistem sumber kebenaran ketiga untuk data yang
+generatornya tidak ada di sini.
+
+### Salinan di repo ini
+
+Mirror read-only, byte-identical saat diaudit 2026-08-28:
+
+```
+archive/itinerary-intelligence-snapshot/generated/itinerary-intelligence/agent-contract/
+```
+
+Snapshot titik-waktu, bukan sumber kebenaran. Untuk data terkini baca release
+jvto-itinerary-core. Jika mirror ini perlu di-refresh, salin ulang dari sana —
+jangan mengedit isinya di tempat.
+
+Catatan: README di arsip mendahului koreksi 2026-08-28 di repo asal (dua nama flag
+yang tidak pernah ada di generator, dan bagian "Known gap" yang bertentangan dengan
+datanya sendiri). File JSON-nya tidak terpengaruh.
 
 ## Catatan Kebersihan Data
 
