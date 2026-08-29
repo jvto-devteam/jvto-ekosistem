@@ -28,7 +28,11 @@
           "toLocation": "RM Handayani - Wisata Paiton",
           "timeWindow": "11:00",
           "durationMinutes": 150,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_rm_handayani.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_rm_handayani.webp",
+          "locationGeo": {
+            "lat": -7.718039,
+            "lng": 113.537009
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -37,7 +41,11 @@
           "location": "RM Handayani - Wisata Paiton",
           "timeWindow": "13:30",
           "durationMinutes": 60,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_rm_handayani.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_rm_handayani.webp",
+          "locationGeo": {
+            "lat": -7.718039,
+            "lng": 113.537009
+          }
         },
         {
           "type": "TravelAction",
@@ -47,7 +55,11 @@
           "toLocation": "Bondowoso Hotel",
           "timeWindow": "14:30",
           "durationMinutes": 90,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp",
+          "locationGeo": {
+            "lat": -7.911725,
+            "lng": 113.82174
+          }
         },
         {
           "type": "CheckInAction",
@@ -56,7 +68,11 @@
           "location": "Bondowoso Hotel",
           "timeWindow": "16:00",
           "durationMinutes": 10,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp",
+          "locationGeo": {
+            "lat": -7.911725,
+            "lng": 113.82174
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -65,7 +81,11 @@
           "location": "Bondowoso Hotel",
           "timeWindow": "17:00",
           "durationMinutes": 90,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp",
+          "locationGeo": {
+            "lat": -7.911725,
+            "lng": 113.82174
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -74,7 +94,11 @@
           "location": "Bondowoso Hotel",
           "timeWindow": "18:30",
           "durationMinutes": 60,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp",
+          "locationGeo": {
+            "lat": -7.911725,
+            "lng": 113.82174
+          }
         }
       ],
       "mealsPlan": {
@@ -97,7 +121,11 @@
           "location": "Ijen Area",
           "timeWindow": "00:00",
           "durationMinutes": 540,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649921055-338810628-1687447803_whatsapp_image_2019-05-12_at_4.46.53_pm.jpeg"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649921055-338810628-1687447803_whatsapp_image_2019-05-12_at_4.46.53_pm.jpeg",
+          "locationGeo": {
+            "lat": -8.058,
+            "lng": 114.242
+          }
         },
         {
           "type": "TravelAction",
@@ -107,7 +135,11 @@
           "toLocation": "Bondowoso Hotel",
           "timeWindow": "09:00",
           "durationMinutes": 180,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp",
+          "locationGeo": {
+            "lat": -7.911725,
+            "lng": 113.82174
+          }
         },
         {
           "type": "CheckOutAction",
@@ -116,7 +148,11 @@
           "location": "Bondowoso Hotel",
           "timeWindow": "12:00",
           "durationMinutes": 10,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp",
+          "locationGeo": {
+            "lat": -7.911725,
+            "lng": 113.82174
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -133,7 +169,11 @@
           "fromLocation": "Bondowoso City",
           "toLocation": "Jember City",
           "timeWindow": "13:00",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationGeo": {
+            "lat": -8.172329,
+            "lng": 113.69943
+          }
         },
         {
           "type": "CheckInAction",
@@ -141,7 +181,11 @@
           "description": "Arrive in Jember, check-in, then head straight to Papuma Beach. This step covers arriving at the Jember hotel, completing check-in efficiently, and continuing onward to the beach for the late-afternoon program.",
           "location": "Jember Hotel",
           "timeWindow": "14:00",
-          "durationMinutes": 30
+          "durationMinutes": 30,
+          "locationGeo": {
+            "lat": -8.172329,
+            "lng": 113.69943
+          }
         },
         {
           "type": "TravelAction",
@@ -151,7 +195,11 @@
           "toLocation": "Papuma Beach",
           "timeWindow": "14:30",
           "durationMinutes": 90,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650056490-963808584-papuma1.jpg"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650056490-963808584-papuma1.jpg",
+          "locationGeo": {
+            "lat": -8.4725,
+            "lng": 113.4562
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -160,7 +208,11 @@
           "location": "Papuma Beach",
           "timeWindow": "17:00",
           "durationMinutes": 60,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650056490-963808584-papuma1.jpg"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650056490-963808584-papuma1.jpg",
+          "locationGeo": {
+            "lat": -8.4725,
+            "lng": 113.4562
+          }
         },
         {
           "type": "TravelAction",
@@ -169,7 +221,11 @@
           "fromLocation": "Papuma Beach",
           "toLocation": "Jember Hotel",
           "timeWindow": "18:00",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationGeo": {
+            "lat": -8.172329,
+            "lng": 113.69943
+          }
         }
       ],
       "mealsPlan": {
@@ -191,7 +247,11 @@
           "description": "Check out hotel. Complete the standard hotel check-out process in Jember, confirm departure readiness, and prepare for the early transfer toward the early Tumpak Sewu (Lumajang) area.",
           "location": "Jember Hotel",
           "timeWindow": "03:30",
-          "durationMinutes": 10
+          "durationMinutes": 10,
+          "locationGeo": {
+            "lat": -8.172329,
+            "lng": 113.69943
+          }
         },
         {
           "type": "TravelAction",
@@ -201,7 +261,11 @@
           "toLocation": "Tumpak Sewu Area",
           "timeWindow": "03:30",
           "durationMinutes": 180,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_tumpak_sewu_area.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_tumpak_sewu_area.webp",
+          "locationGeo": {
+            "lat": -8.230531,
+            "lng": 112.92016
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -210,7 +274,11 @@
           "location": "Tumpak Sewu Waterfall",
           "timeWindow": "06:30",
           "durationMinutes": 240,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650032945-926940542-tumpak-sewu1.jpg"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650032945-926940542-tumpak-sewu1.jpg",
+          "locationGeo": {
+            "lat": -8.227,
+            "lng": 112.915
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -219,7 +287,11 @@
           "location": "Tumpak Sewu Area",
           "timeWindow": "12:00",
           "durationMinutes": 60,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_tumpak_sewu_area.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_tumpak_sewu_area.webp",
+          "locationGeo": {
+            "lat": -8.230531,
+            "lng": 112.92016
+          }
         },
         {
           "type": "TravelAction",
@@ -229,7 +301,11 @@
           "toLocation": "Bromo Area",
           "timeWindow": "13:00",
           "durationMinutes": 180,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_bromo_area.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_bromo_area.webp",
+          "locationGeo": {
+            "lat": -7.918183,
+            "lng": 113.02834
+          }
         }
       ],
       "mealsPlan": {
@@ -252,7 +328,11 @@
           "location": "Sea of Sand & Bromo Crater",
           "timeWindow": "02:00",
           "durationMinutes": 420,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649856442-820608003-bromo-new.jpg"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649856442-820608003-bromo-new.jpg",
+          "locationGeo": {
+            "lat": -7.942,
+            "lng": 112.953
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -261,7 +341,11 @@
           "location": "Bromo Hotel",
           "timeWindow": "09:00",
           "durationMinutes": 30,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp",
+          "locationGeo": {
+            "lat": -7.918183,
+            "lng": 113.02834
+          }
         },
         {
           "type": "CheckOutAction",
@@ -270,7 +354,11 @@
           "location": "Bromo Hotel",
           "timeWindow": "12:00",
           "durationMinutes": 30,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp",
+          "locationGeo": {
+            "lat": -7.918183,
+            "lng": 113.02834
+          }
         },
         {
           "type": "TravelAction",
@@ -280,7 +368,11 @@
           "toLocation": "Malang City",
           "timeWindow": "12:00",
           "durationMinutes": 150,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650260256-879736859-1687331560_santera_2.jpg"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650260256-879736859-1687331560_santera_2.jpg",
+          "locationGeo": {
+            "lat": -7.976468,
+            "lng": 112.62813
+          }
         },
         {
           "type": "CheckInAction",
@@ -288,7 +380,11 @@
           "description": "Arrive in Malang, check-in hotel. Reach Malang and complete the hotel check-in process, concluding the day’s relocation after the Bromo sunrise program.",
           "location": "Malang Hotel",
           "timeWindow": "14:30",
-          "durationMinutes": 10
+          "durationMinutes": 10,
+          "locationGeo": {
+            "lat": -7.976468,
+            "lng": 112.62813
+          }
         }
       ],
       "mealsPlan": {
@@ -310,7 +406,11 @@
           "description": "Breakfast at your hotel. Start the day with breakfast at the accommodation, allowing time to prepare for the scheduled city tour departure.",
           "location": "Malang Hotel",
           "timeWindow": "08:00",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationGeo": {
+            "lat": -7.976468,
+            "lng": 112.62813
+          }
         },
         {
           "type": "TravelAction",
@@ -320,7 +420,11 @@
           "toLocation": "Jodipan Colorful Village",
           "timeWindow": "09:00",
           "durationMinutes": 30,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_jodipan_colorful_village.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_jodipan_colorful_village.webp",
+          "locationGeo": {
+            "lat": -7.988872,
+            "lng": 112.638794
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -329,7 +433,11 @@
           "location": "Jodipan Colorful Village",
           "timeWindow": "09:30",
           "durationMinutes": 60,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_jodipan_colorful_village.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_jodipan_colorful_village.webp",
+          "locationGeo": {
+            "lat": -7.988872,
+            "lng": 112.638794
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -338,7 +446,11 @@
           "location": "San Terra De Laponte",
           "timeWindow": "11:00",
           "durationMinutes": 120,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_san_terra_de_laponte.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_san_terra_de_laponte.webp",
+          "locationGeo": {
+            "lat": -7.8731,
+            "lng": 112.5288
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -346,7 +458,11 @@
           "description": "Lunch in Batu (cost not included). Take the planned meal break in Batu, with time allocated to choose food and rest briefly before continuing the afternoon stops.",
           "location": "Batu City",
           "timeWindow": "13:00",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationGeo": {
+            "lat": -7.873082,
+            "lng": 112.52883
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -354,7 +470,11 @@
           "description": "Take photos at Taman Langit & Goa Pinus. This segment is dedicated to visiting both photo-focused spots as listed, using the scheduled duration to explore viewpoints and complete the planned photo session.",
           "location": "Taman Langit & Goa Pinus",
           "timeWindow": "14:00",
-          "durationMinutes": 90
+          "durationMinutes": 90,
+          "locationGeo": {
+            "lat": -7.8283,
+            "lng": 112.5445
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -362,7 +482,11 @@
           "description": "Visiting Apple Picking Agrotourism. Use this stop to experience the apple-picking agrotourism visit as scheduled, including time for the on-site activity flow within the allotted duration.",
           "location": "Apple Picking Agrotourism",
           "timeWindow": "16:00",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationGeo": {
+            "lat": -7.8607,
+            "lng": 112.5195
+          }
         },
         {
           "type": "TravelAction",
@@ -371,7 +495,11 @@
           "fromLocation": "Batu City",
           "toLocation": "Malang Hotel",
           "timeWindow": "17:00",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationGeo": {
+            "lat": -7.976468,
+            "lng": 112.62813
+          }
         }
       ],
       "mealsPlan": {
@@ -402,7 +530,11 @@
           "fromLocation": "Accommodation",
           "toLocation": "Surabaya Airport",
           "timeWindow": "09:00",
-          "durationMinutes": 60
+          "durationMinutes": 60,
+          "locationGeo": {
+            "lat": -7.3798,
+            "lng": 112.7869
+          }
         }
       ],
       "mealsPlan": {

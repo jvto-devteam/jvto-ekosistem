@@ -228,7 +228,11 @@
           "toLocation": "RM Handayani - Wisata Paiton",
           "timeWindow": "11:00",
           "durationMinutes": 150,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_rm_handayani.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_rm_handayani.webp",
+          "locationGeo": {
+            "lat": -7.718039,
+            "lng": 113.537009
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -237,7 +241,11 @@
           "location": "RM Handayani - Wisata Paiton",
           "timeWindow": "13:30",
           "durationMinutes": 60,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_rm_handayani.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_rm_handayani.webp",
+          "locationGeo": {
+            "lat": -7.718039,
+            "lng": 113.537009
+          }
         },
         {
           "type": "TravelAction",
@@ -247,7 +255,11 @@
           "toLocation": "Bondowoso Hotel",
           "timeWindow": "14:30",
           "durationMinutes": 90,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp",
+          "locationGeo": {
+            "lat": -7.911725,
+            "lng": 113.82174
+          }
         },
         {
           "type": "CheckInAction",
@@ -256,7 +268,11 @@
           "location": "Bondowoso Hotel",
           "timeWindow": "16:00",
           "durationMinutes": 10,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp",
+          "locationGeo": {
+            "lat": -7.911725,
+            "lng": 113.82174
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -265,7 +281,11 @@
           "location": "Bondowoso Hotel",
           "timeWindow": "17:00",
           "durationMinutes": 90,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp",
+          "locationGeo": {
+            "lat": -7.911725,
+            "lng": 113.82174
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -274,7 +294,11 @@
           "location": "Bondowoso Hotel",
           "timeWindow": "18:30",
           "durationMinutes": 60,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp",
+          "locationGeo": {
+            "lat": -7.911725,
+            "lng": 113.82174
+          }
         }
       ],
       "mealsPlan": {
@@ -297,7 +321,11 @@
           "location": "Ijen Area",
           "timeWindow": "08:00",
           "durationMinutes": 30,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649921055-338810628-1687447803_whatsapp_image_2019-05-12_at_4.46.53_pm.jpeg"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649921055-338810628-1687447803_whatsapp_image_2019-05-12_at_4.46.53_pm.jpeg",
+          "locationGeo": {
+            "lat": -8.058,
+            "lng": 114.242
+          }
         },
         {
           "type": "TravelAction",
@@ -307,7 +335,11 @@
           "toLocation": "Bondowoso Hotel",
           "timeWindow": "09:00",
           "durationMinutes": 90,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp",
+          "locationGeo": {
+            "lat": -7.911725,
+            "lng": 113.82174
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -316,7 +348,11 @@
           "location": "Bondowoso Hotel",
           "timeWindow": "12:00",
           "durationMinutes": 60,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_riverside_homestay.webp",
+          "locationGeo": {
+            "lat": -7.911725,
+            "lng": 113.82174
+          }
         },
         {
           "type": "TravelAction",
@@ -326,7 +362,11 @@
           "toLocation": "Surabaya City",
           "timeWindow": "13:00",
           "durationMinutes": 300,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp",
+          "locationGeo": {
+            "lat": -7.262669,
+            "lng": 112.740746
+          }
         },
         {
           "type": "TravelAction",
@@ -335,7 +375,11 @@
           "fromLocation": "Surabaya City",
           "toLocation": "Surabaya Hotel",
           "timeWindow": "16:00",
-          "durationMinutes": 30
+          "durationMinutes": 30,
+          "locationGeo": {
+            "lat": -7.262669,
+            "lng": 112.740746
+          }
         }
       ],
       "mealsPlan": {

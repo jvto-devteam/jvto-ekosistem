@@ -232,7 +232,11 @@
           "description": "Witness the sunrise from the viewpoint area. This is the dedicated time window for sunrise viewing, taking photos, and enjoying the changing light across the landscape from the designated Bromo viewpoint.",
           "location": "Bromo Kingkong Hill",
           "timeWindow": "05:30",
-          "durationMinutes": 210
+          "durationMinutes": 210,
+          "locationGeo": {
+            "lat": -7.942,
+            "lng": 112.953
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -241,7 +245,11 @@
           "location": "Sea of Sand & Bromo Crater",
           "timeWindow": "07:00",
           "durationMinutes": 120,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649856442-820608003-bromo-new.jpg"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649856442-820608003-bromo-new.jpg",
+          "locationGeo": {
+            "lat": -7.942,
+            "lng": 112.953
+          }
         },
         {
           "type": "TravelAction",
@@ -268,7 +276,11 @@
           "toLocation": "Surabaya City",
           "timeWindow": "10:30",
           "durationMinutes": 240,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp",
+          "locationGeo": {
+            "lat": -7.262669,
+            "lng": 112.740746
+          }
         },
         {
           "type": "TravelAction",
@@ -278,7 +290,11 @@
           "toLocation": "Surabaya City",
           "timeWindow": "14:30",
           "durationMinutes": 30,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp",
+          "locationGeo": {
+            "lat": -7.262669,
+            "lng": 112.740746
+          }
         }
       ],
       "mealsPlan": {

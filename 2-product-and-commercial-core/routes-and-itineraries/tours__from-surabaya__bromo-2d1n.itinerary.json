@@ -43,7 +43,11 @@
           "toLocation": "Bromo Hotel",
           "timeWindow": "13:30",
           "durationMinutes": 150,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp",
+          "locationGeo": {
+            "lat": -7.918183,
+            "lng": 113.02834
+          }
         },
         {
           "type": "CheckInAction",
@@ -52,7 +56,11 @@
           "location": "Bromo Hotel",
           "timeWindow": "16:00",
           "durationMinutes": 10,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp",
+          "locationGeo": {
+            "lat": -7.918183,
+            "lng": 113.02834
+          }
         }
       ],
       "mealsPlan": {
@@ -75,7 +83,11 @@
           "location": "Sea of Sand & Bromo Crater",
           "timeWindow": "02:30",
           "durationMinutes": 390,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649856442-820608003-bromo-new.jpg"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764649856442-820608003-bromo-new.jpg",
+          "locationGeo": {
+            "lat": -7.942,
+            "lng": 112.953
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -84,7 +96,11 @@
           "location": "Bromo Hotel",
           "timeWindow": "09:00",
           "durationMinutes": 30,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp",
+          "locationGeo": {
+            "lat": -7.918183,
+            "lng": 113.02834
+          }
         },
         {
           "type": "CheckOutAction",
@@ -93,7 +109,11 @@
           "location": "Bromo Hotel",
           "timeWindow": "11:00",
           "durationMinutes": 10,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_joglo_kecombrang.webp",
+          "locationGeo": {
+            "lat": -7.918183,
+            "lng": 113.02834
+          }
         },
         {
           "type": "TravelAction",
@@ -103,7 +123,11 @@
           "toLocation": "Madakaripura Waterfall",
           "timeWindow": "11:10",
           "durationMinutes": 20,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650020192-295296217-madakaripura1.jpg"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650020192-295296217-madakaripura1.jpg",
+          "locationGeo": {
+            "lat": -7.933,
+            "lng": 113.008
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -112,7 +136,11 @@
           "location": "Madakaripura Waterfall",
           "timeWindow": "11:30",
           "durationMinutes": 180,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650020192-295296217-madakaripura1.jpg"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650020192-295296217-madakaripura1.jpg",
+          "locationGeo": {
+            "lat": -7.933,
+            "lng": 113.008
+          }
         },
         {
           "type": "TouristAttractionVisit",
@@ -121,7 +149,11 @@
           "location": "Madakaripura Waterfall",
           "timeWindow": "13:30",
           "durationMinutes": 60,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650020192-295296217-madakaripura1.jpg"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/1764650020192-295296217-madakaripura1.jpg",
+          "locationGeo": {
+            "lat": -7.933,
+            "lng": 113.008
+          }
         },
         {
           "type": "TravelAction",
@@ -131,7 +163,11 @@
           "toLocation": "Surabaya City",
           "timeWindow": "14:30",
           "durationMinutes": 120,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp",
+          "locationGeo": {
+            "lat": -7.262669,
+            "lng": 112.740746
+          }
         },
         {
           "type": "TravelAction",
@@ -141,7 +177,11 @@
           "toLocation": "Surabaya City",
           "timeWindow": "16:30",
           "durationMinutes": 0,
-          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp"
+          "locationImage": "https://javavolcano-touroperator.com/uploads/location_surabaya_city.webp",
+          "locationGeo": {
+            "lat": -7.262669,
+            "lng": 112.740746
+          }
         }
       ],
       "mealsPlan": {
