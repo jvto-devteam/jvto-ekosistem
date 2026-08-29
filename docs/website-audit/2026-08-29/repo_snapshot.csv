@@ -1,0 +1,3 @@
+repository,branch,commit_sha,commit_date,tree_sha,notes
+jvto-devteam/jvto-web,live,e06b35951c612be5356b23f42965e233abe5cf34,2026-08-29T05:07:46Z,2fe905855cd1771de13e75766ead75c3dfe5d000,latest production snapshot from GitHub API
+jvto-devteam/jvto-ekosistem,main,928e684abab268345a5bae5d6a803af22c2a7d7e,2026-08-29T07:46:18Z,f291a26a471aff1ebac31855018084e8388e8f2e,latest canonical content snapshot from GitHub API

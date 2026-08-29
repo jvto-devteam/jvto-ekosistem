@@ -1,0 +1,19 @@
+url_group,url_pattern,template_file,data_loader,metadata_function,render_component,notes
+home,/,src/app/(website)/page.tsx,getEcosystemPageSeo,generateMetadata,HomePage,root home page
+home,/tours,src/app/(website)/tours/page.tsx,getEcosystemPackagesList,generateMetadata,ToursIndex,tours index route
+home,/travel-guide,src/app/(website)/travel-guide/page.tsx,getEcosystemWebsitePage,generateMetadata,TravelGuidePage,travel guide overview
+home,/why-jvto,src/app/(website)/why-jvto/page.tsx,getEcosystemWebsitePage,generateMetadata,WhyJVTOPage,why jvto overview
+home,/verify-jvto,src/app/(website)/verify-jvto/page.tsx,getEcosystemWebsitePage,generateMetadata,VerifyJVTOPage,verify overview
+home,/policy,src/app/(website)/policy/page.tsx,getEcosystemWebsitePage,generateMetadata,PolicyPage,policy hub
+home,/destinations,src/app/(website)/destinations/page.tsx,getEcosystemDestinationsList,generateMetadata,DestinationsHub,destination hub
+home,/blog,src/app/(website)/blog/page.tsx,getEcosystemBlogPosts,generateMetadata,BlogPage,blog index
+home,/tours/from-surabaya,src/app/(website)/tours/from-surabaya/page.tsx,getEcosystemPackagesList,generateMetadata,ToursFromSurabayaPage,from-surabaya hub
+home,/tours/from-bali,src/app/(website)/tours/from-bali/page.tsx,getEcosystemPackagesList,generateMetadata,ToursFromBaliPage,from-bali hub
+tours/from-surabaya-detail,/tours/from-surabaya/{slug},src/app/(website)/tours/from-surabaya/[slug]/page.tsx,getEcosystemTourPackageDetail,generateMetadata,TourDetail,route owner for all Surabaya package detail pages
+tours/from-bali-detail,/tours/from-bali/{slug},src/app/(website)/tours/from-bali/[slug]/page.tsx,getEcosystemTourPackageDetail,generateMetadata,TourDetail,route owner for all Bali package detail pages
+travel-guide/detail,/travel-guide/{slug},src/app/(website)/travel-guide/EcosystemTravelGuidePage.tsx,getEcosystemWebsitePage,generateMetadata,TravelGuideDetail,route owner for guide pages
+why-jvto,/why-jvto/{slug},src/app/(website)/why-jvto/[slug]/page.tsx,getEcosystemPageSeo,generateMetadata,WhyJVTOPage,why-jvto detail route
+verify-jvto/detail,/verify-jvto/{slug},src/app/(website)/verify-jvto/[slug]/page.tsx,getEcosystemWebsitePage,generateMetadata,VerifyJVTOPage,verify detail route
+policy/detail,/policy/{slug},src/app/(website)/policy/[slug]/page.tsx,getEcosystemWebsitePage,generateMetadata,PolicyDetail,policy detail route
+destinations/detail,/destinations/{slug},src/app/(website)/destinations/[slug]/page.tsx,getEcosystemDestinationDetail,generateMetadata,DestinationDetail,destination detail route
+blog/detail,/blog/{slug},src/app/(website)/blog/[slug]/page.tsx,getEcosystemBlogPosts,generateMetadata,BlogPostDetail,blog detail route
