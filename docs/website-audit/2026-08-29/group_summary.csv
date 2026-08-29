@@ -1,0 +1,13 @@
+group,url_count,ok_200,non_200,missing_title,missing_meta_description,missing_canonical,h1_zero,h1_multiple,missing_og_image,missing_twitter_image,missing_json_ld
+home,1,0,0,0,0,0,0,0,0,0,0
+tours,1,0,0,0,0,0,0,0,0,0,0
+tours/from-surabaya,1,0,0,0,0,0,0,0,0,0,0
+tours/from-bali,1,0,0,0,0,0,0,0,0,0,0
+tours/from-surabaya-detail,13,0,0,0,0,0,0,0,0,0,0
+tours/from-bali-detail,4,0,0,0,0,0,0,0,0,0,0
+travel-guide/detail,1,0,0,0,0,0,0,0,0,0,0
+why-jvto,1,0,0,0,0,0,0,0,0,0,0
+verify-jvto/detail,1,0,0,0,0,0,0,0,0,0,0
+policy/detail,1,0,0,0,0,0,0,0,0,0,0
+destinations/detail,1,0,0,0,0,0,0,0,0,0,0
+blog/detail,1,0,0,0,0,0,0,0,0,0,0
