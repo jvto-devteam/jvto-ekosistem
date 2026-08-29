@@ -18,7 +18,7 @@
       "confidence": "verified"
     }
   ],
-  "note": "Self-contained: a consumer needs this file and a Mapbox token, nothing else. Regenerate from the CMS when a route, a coordinate, or a photo changes.",
+  "note": "Self-contained: a consumer needs this file and a Mapbox token, nothing else. Regenerate with `npm run export:ekosistem` in jvto-cms when a route, a coordinate, or a photo changes.",
   "usage": {
     "token_env": "NEXT_PUBLIC_MAPBOX_TOKEN",
     "draw": "Render routes[].geometry as a LineString source; split at current progress to colour travelled vs remaining.",
@@ -88,8 +88,6 @@
   "stop_count": 169,
   "stops_with_photo": 117,
   "stops_off_route": 7,
-  "legs_requested": 128,
-  "legs_without_a_road_route": 0,
   "routes": [
     {
       "code": "BALI-BANYUWANGI",
@@ -100,6 +98,14 @@
       "distance_km": 189.6,
       "stops_dropped_for_missing_coordinates": [
         "Local Clinic"
+      ],
+      "waypoint_signature": "35@-8.727787,115.17325|34@-8.170173,114.43565|33@-8.1518,114.3859|30@-8.218824,114.36915|29@-8.218824,114.36915",
+      "leg_cumulative_km": [
+        0,
+        172.3733,
+        181.2115,
+        189.598,
+        189.598
       ],
       "stops": [
         {
@@ -729,6 +735,14 @@
       "renderable": true,
       "distance_km": 303.1,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "35@-8.727787,115.17325|34@-8.170173,114.43565|33@-8.1518,114.3859|8@-7.911725,113.82174|9@-7.911725,113.82174",
+      "leg_cumulative_km": [
+        0,
+        172.3733,
+        181.2115,
+        303.148,
+        303.148
+      ],
       "stops": [
         {
           "location_id": 35,
@@ -2097,6 +2111,13 @@
       "distance_km": 403.8,
       "stops_dropped_for_missing_coordinates": [
         "Transit Stop"
+      ],
+      "waypoint_signature": "35@-8.727787,115.17325|34@-8.170173,114.43565|33@-8.1518,114.3859|22@-7.918183,113.02834",
+      "leg_cumulative_km": [
+        0,
+        172.3733,
+        181.2115,
+        403.7964
       ],
       "stops": [
         {
@@ -4204,6 +4225,13 @@
       "stops_dropped_for_missing_coordinates": [
         "Transit Stop"
       ],
+      "waypoint_signature": "55@-7.942,112.953|22@-7.918183,113.02834|21@-7.918183,113.02834|9@-7.911725,113.82174",
+      "leg_cumulative_km": [
+        0,
+        12.9651,
+        12.9651,
+        163.2093
+      ],
       "stops": [
         {
           "location_id": 55,
@@ -5844,6 +5872,13 @@
       "renderable": true,
       "distance_km": 234.5,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "55@-7.942,112.953|22@-7.918183,113.02834|21@-7.918183,113.02834|33@-8.1518,114.3859",
+      "leg_cumulative_km": [
+        0,
+        12.9651,
+        12.9651,
+        234.5309
+      ],
       "stops": [
         {
           "location_id": 55,
@@ -7763,6 +7798,14 @@
       "renderable": true,
       "distance_km": 144.2,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "55@-7.942,112.953|22@-7.918183,113.02834|21@-7.918183,113.02834|49@-8.133125,113.22257|18@-8.227,112.915",
+      "leg_cumulative_km": [
+        0,
+        12.9651,
+        12.9651,
+        89.1019,
+        144.1875
+      ],
       "stops": [
         {
           "location_id": 55,
@@ -9591,6 +9634,14 @@
       "distance_km": 171.6,
       "stops_dropped_for_missing_coordinates": [
         "Accommodation"
+      ],
+      "waypoint_signature": "55@-7.942,112.953|22@-7.918183,113.02834|26@-7.933,113.008|8@-7.911725,113.82174|9@-7.911725,113.82174",
+      "leg_cumulative_km": [
+        0,
+        12.9651,
+        17.1469,
+        171.5728,
+        171.5728
       ],
       "stops": [
         {
@@ -11521,6 +11572,13 @@
       "stops_dropped_for_missing_coordinates": [
         "Accommodation",
         "Local Restaurant"
+      ],
+      "waypoint_signature": "55@-7.942,112.953|22@-7.918183,113.02834|26@-7.933,113.008|33@-8.1518,114.3859",
+      "leg_cumulative_km": [
+        0,
+        12.9651,
+        17.1469,
+        242.8944
       ],
       "stops": [
         {
@@ -13728,6 +13786,14 @@
       "stops_dropped_for_missing_coordinates": [
         "Accommodation",
         "Local Restaurant"
+      ],
+      "waypoint_signature": "55@-7.942,112.953|22@-7.918183,113.02834|26@-7.933,113.008|17@-8.230531,112.92016|18@-8.227,112.915",
+      "leg_cumulative_km": [
+        0,
+        12.9651,
+        17.1469,
+        113.2062,
+        115.0045
       ],
       "stops": [
         {
@@ -16350,6 +16416,14 @@
       "stops_dropped_for_missing_coordinates": [
         "Accommodation"
       ],
+      "waypoint_signature": "55@-7.942,112.953|22@-7.918183,113.02834|26@-7.933,113.008|27@-7.976468,112.62813|57@-7.976468,112.62813",
+      "leg_cumulative_km": [
+        0,
+        12.9651,
+        17.1469,
+        145.7668,
+        145.7668
+      ],
       "stops": [
         {
           "location_id": 55,
@@ -18005,6 +18079,13 @@
       "renderable": true,
       "distance_km": 137.1,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "55@-7.942,112.953|22@-7.918183,113.02834|26@-7.933,113.008|1@-7.262669,112.740746",
+      "leg_cumulative_km": [
+        0,
+        12.9651,
+        17.1469,
+        137.1356
+      ],
       "stops": [
         {
           "location_id": 55,
@@ -19609,6 +19690,14 @@
       "renderable": true,
       "distance_km": 137.4,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "55@-7.942,112.953|22@-7.918183,113.02834|21@-7.918183,113.02834|27@-7.976468,112.62813|57@-7.976468,112.62813",
+      "leg_cumulative_km": [
+        0,
+        12.9651,
+        12.9651,
+        137.4033,
+        137.4033
+      ],
       "stops": [
         {
           "location_id": 55,
@@ -20990,6 +21079,13 @@
       "stops_dropped_for_missing_coordinates": [
         "Accommodation"
       ],
+      "waypoint_signature": "55@-7.942,112.953|22@-7.918183,113.02834|21@-7.918183,113.02834|1@-7.262669,112.740746",
+      "leg_cumulative_km": [
+        0,
+        12.9651,
+        12.9651,
+        128.7721
+      ],
       "stops": [
         {
           "location_id": 55,
@@ -22302,6 +22398,14 @@
       "renderable": true,
       "distance_km": 191.5,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "30@-8.218824,114.36915|29@-8.218824,114.36915|33@-8.1518,114.3859|34@-8.170173,114.43565|35@-8.727787,115.17325",
+      "leg_cumulative_km": [
+        0,
+        0,
+        9.4413,
+        18.2323,
+        191.4759
+      ],
       "stops": [
         {
           "location_id": 30,
@@ -22957,6 +23061,12 @@
       "renderable": true,
       "distance_km": 39.3,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "30@-8.218824,114.36915|46@-8.064187,114.41785|30@-8.218824,114.36915",
+      "leg_cumulative_km": [
+        0,
+        20.1633,
+        39.2763
+      ],
       "stops": [
         {
           "location_id": 30,
@@ -23384,6 +23494,14 @@
       "renderable": true,
       "distance_km": 286.9,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "9@-7.911725,113.82174|12@-8.058,114.242|33@-8.1518,114.3859|34@-8.170173,114.43565|35@-8.727787,115.17325",
+      "leg_cumulative_km": [
+        0,
+        65.3348,
+        104.8839,
+        113.6749,
+        286.9185
+      ],
       "stops": [
         {
           "location_id": 9,
@@ -25501,6 +25619,14 @@
       "distance_km": 196.9,
       "stops_dropped_for_missing_coordinates": [
         "Local Restaurant"
+      ],
+      "waypoint_signature": "12@-8.058,114.242|9@-7.911725,113.82174|8@-7.911725,113.82174|21@-7.918183,113.02834|22@-7.918183,113.02834",
+      "leg_cumulative_km": [
+        0,
+        66.031,
+        66.031,
+        196.8515,
+        196.8515
       ],
       "stops": [
         {
@@ -27699,6 +27825,11 @@
       "distance_km": 251.3,
       "stops_dropped_for_missing_coordinates": [
         "Local Restaurant"
+      ],
+      "waypoint_signature": "12@-8.058,114.242|18@-8.227,112.915",
+      "leg_cumulative_km": [
+        0,
+        251.2587
       ],
       "stops": [
         {
@@ -30539,6 +30670,16 @@
       "stops_dropped_for_missing_coordinates": [
         "Local Restaurant"
       ],
+      "waypoint_signature": "12@-8.058,114.242|9@-7.911725,113.82174|8@-7.911725,113.82174|13@-8.172329,113.69943|14@-8.172329,113.69943|15@-8.4725,113.4562|14@-8.172329,113.69943",
+      "leg_cumulative_km": [
+        0,
+        66.031,
+        66.031,
+        104.8008,
+        104.8008,
+        145.0797,
+        185.3944
+      ],
       "stops": [
         {
           "location_id": 12,
@@ -30587,7 +30728,7 @@
               "travel": false
             }
           ],
-          "progress": 0.35616
+          "progress": 0.35617
         },
         {
           "location_id": 8,
@@ -30607,7 +30748,7 @@
               "travel": true
             }
           ],
-          "progress": 0.35616
+          "progress": 0.35617
         },
         {
           "location_id": 13,
@@ -32227,6 +32368,13 @@
       "renderable": true,
       "distance_km": 266.2,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "12@-8.058,114.242|9@-7.911725,113.82174|1@-7.262669,112.740746|4@-7.262669,112.740746",
+      "leg_cumulative_km": [
+        0,
+        66.031,
+        266.1508,
+        266.1508
+      ],
       "stops": [
         {
           "location_id": 12,
@@ -34623,6 +34771,12 @@
       "renderable": true,
       "distance_km": 11.1,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "14@-8.172329,113.69943|47@-8.1435,113.6817|13@-8.172329,113.69943",
+      "leg_cumulative_km": [
+        0,
+        6.1154,
+        11.1116
+      ],
       "stops": [
         {
           "location_id": 14,
@@ -34686,7 +34840,7 @@
               "travel": true
             }
           ],
-          "progress": 0.55037
+          "progress": 0.55036
         },
         {
           "location_id": 13,
@@ -34822,6 +34976,14 @@
       "renderable": true,
       "distance_km": 208.5,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "14@-8.172329,113.69943|17@-8.230531,112.92016|56@-8.227,112.915|17@-8.230531,112.92016|21@-7.918183,113.02834",
+      "leg_cumulative_km": [
+        0,
+        113.025,
+        114.8233,
+        116.6216,
+        208.4992
+      ],
       "stops": [
         {
           "location_id": 14,
@@ -38048,6 +38210,12 @@
       "renderable": true,
       "distance_km": 80.6,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "14@-8.172329,113.69943|15@-8.4725,113.4562|13@-8.172329,113.69943",
+      "leg_cumulative_km": [
+        0,
+        40.2788,
+        80.5936
+      ],
       "stops": [
         {
           "location_id": 14,
@@ -38504,6 +38672,12 @@
       "renderable": true,
       "distance_km": 124.5,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "57@-7.976468,112.62813|21@-7.918183,113.02834|22@-7.918183,113.02834",
+      "leg_cumulative_km": [
+        0,
+        124.5172,
+        124.5172
+      ],
       "stops": [
         {
           "location_id": 57,
@@ -39543,6 +39717,17 @@
       "renderable": true,
       "distance_km": 57.5,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "57@-7.976468,112.62813|42@-7.988872,112.638794|45@-7.8731,112.5288|48@-7.873082,112.52883|43@-7.8283,112.5445|44@-7.8607,112.5195|48@-7.873082,112.52883|57@-7.976468,112.62813",
+      "leg_cumulative_km": [
+        0,
+        2.6582,
+        24.2204,
+        24.2204,
+        31.0973,
+        37.1105,
+        39.8241,
+        57.5148
+      ],
       "stops": [
         {
           "location_id": 57,
@@ -39670,7 +39855,7 @@
               "travel": false
             }
           ],
-          "progress": 0.64524
+          "progress": 0.64523
         },
         {
           "location_id": 48,
@@ -39690,7 +39875,7 @@
               "travel": true
             }
           ],
-          "progress": 0.69242
+          "progress": 0.69241
         },
         {
           "location_id": 57,
@@ -40274,6 +40459,12 @@
       "renderable": true,
       "distance_km": 67.7,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "57@-7.976468,112.62813|17@-8.230531,112.92016|18@-8.227,112.915",
+      "leg_cumulative_km": [
+        0,
+        65.8956,
+        67.694
+      ],
       "stops": [
         {
           "location_id": 57,
@@ -41421,6 +41612,12 @@
       "renderable": true,
       "distance_km": 122.3,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "57@-7.976468,112.62813|48@-7.873082,112.52883|1@-7.262669,112.740746",
+      "leg_cumulative_km": [
+        0,
+        19.1905,
+        122.2802
+      ],
       "stops": [
         {
           "location_id": 57,
@@ -42317,6 +42514,13 @@
       "renderable": true,
       "distance_km": 215.7,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "27@-7.976468,112.62813|17@-8.230531,112.92016|8@-7.911725,113.82174|9@-7.911725,113.82174",
+      "leg_cumulative_km": [
+        0,
+        65.8956,
+        215.6765,
+        215.6765
+      ],
       "stops": [
         {
           "location_id": 27,
@@ -44716,6 +44920,13 @@
       "renderable": true,
       "distance_km": 157.8,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "57@-7.976468,112.62813|17@-8.230531,112.92016|21@-7.918183,113.02834|22@-7.918183,113.02834",
+      "leg_cumulative_km": [
+        0,
+        65.8956,
+        157.7732,
+        157.7732
+      ],
       "stops": [
         {
           "location_id": 57,
@@ -47746,6 +47957,11 @@
       "stops_dropped_for_missing_coordinates": [
         "Local Restaurant"
       ],
+      "waypoint_signature": "1@-7.262669,112.740746|30@-8.218824,114.36915",
+      "leg_cumulative_km": [
+        0,
+        300.6907
+      ],
       "stops": [
         {
           "location_id": 1,
@@ -49594,6 +49810,12 @@
       "renderable": true,
       "distance_km": 222.2,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "1@-7.262669,112.740746|59@-7.718039,113.537009|9@-7.911725,113.82174",
+      "leg_cumulative_km": [
+        0,
+        148.5129,
+        222.2392
+      ],
       "stops": [
         {
           "location_id": 1,
@@ -51160,6 +51382,14 @@
       "stops_dropped_for_missing_coordinates": [
         "Transit Stop",
         "Local Restaurant"
+      ],
+      "waypoint_signature": "1@-7.262669,112.740746|37@-7.942,112.953|55@-7.942,112.953|21@-7.918183,113.02834|1@-7.262669,112.740746",
+      "leg_cumulative_km": [
+        0,
+        131.5386,
+        132.0577,
+        145.5171,
+        261.3241
       ],
       "stops": [
         {
@@ -53711,6 +53941,11 @@
       "stops_dropped_for_missing_coordinates": [
         "Local Restaurant"
       ],
+      "waypoint_signature": "1@-7.262669,112.740746|22@-7.918183,113.02834",
+      "leg_cumulative_km": [
+        0,
+        117.473
+      ],
       "stops": [
         {
           "location_id": 1,
@@ -54674,6 +54909,15 @@
         "Accommodation",
         "Local Restaurant"
       ],
+      "waypoint_signature": "4@-7.262669,112.740746|41@-7.2455,112.7378|39@-7.2296,112.7367|40@-7.2648,112.7378|38@-7.2119,112.7828|4@-7.262669,112.740746",
+      "leg_cumulative_km": [
+        0,
+        2.5006,
+        5.4991,
+        11.5599,
+        24.3929,
+        34.3215
+      ],
       "stops": [
         {
           "location_id": 4,
@@ -55153,6 +55397,12 @@
       "renderable": true,
       "distance_km": 162.3,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "1@-7.262669,112.740746|17@-8.230531,112.92016|18@-8.227,112.915",
+      "leg_cumulative_km": [
+        0,
+        160.4552,
+        162.2536
+      ],
       "stops": [
         {
           "location_id": 1,
@@ -56890,6 +57140,11 @@
       "stops_dropped_for_missing_coordinates": [
         "Local Restaurant"
       ],
+      "waypoint_signature": "1@-7.262669,112.740746|57@-7.976468,112.62813",
+      "leg_cumulative_km": [
+        0,
+        96.2407
+      ],
       "stops": [
         {
           "location_id": 1,
@@ -57548,6 +57803,13 @@
       "stops_dropped_for_missing_coordinates": [
         "Accommodation",
         "Local Restaurant"
+      ],
+      "waypoint_signature": "4@-7.262669,112.740746|54@-7.6975,112.6349|21@-7.918183,113.02834|22@-7.918183,113.02834",
+      "leg_cumulative_km": [
+        0,
+        65.235,
+        158.531,
+        158.531
       ],
       "stops": [
         {
@@ -58989,6 +59251,13 @@
       "stops_dropped_for_missing_coordinates": [
         "Accommodation"
       ],
+      "waypoint_signature": "56@-8.227,112.915|17@-8.230531,112.92016|8@-7.911725,113.82174|9@-7.911725,113.82174",
+      "leg_cumulative_km": [
+        0,
+        1.7983,
+        151.5792,
+        151.5792
+      ],
       "stops": [
         {
           "location_id": 56,
@@ -60413,6 +60682,13 @@
       "distance_km": 93.7,
       "stops_dropped_for_missing_coordinates": [
         "Local Restaurant"
+      ],
+      "waypoint_signature": "56@-8.227,112.915|17@-8.230531,112.92016|21@-7.918183,113.02834|22@-7.918183,113.02834",
+      "leg_cumulative_km": [
+        0,
+        1.7983,
+        93.6759,
+        93.6759
       ],
       "stops": [
         {
@@ -62465,6 +62741,13 @@
       "renderable": true,
       "distance_km": 67.7,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "56@-8.227,112.915|17@-8.230531,112.92016|27@-7.976468,112.62813|57@-7.976468,112.62813",
+      "leg_cumulative_km": [
+        0,
+        1.7983,
+        67.6558,
+        67.6558
+      ],
       "stops": [
         {
           "location_id": 56,
@@ -63652,6 +63935,13 @@
       "renderable": true,
       "distance_km": 160.3,
       "stops_dropped_for_missing_coordinates": [],
+      "waypoint_signature": "56@-8.227,112.915|17@-8.230531,112.92016|1@-7.262669,112.740746|4@-7.262669,112.740746",
+      "leg_cumulative_km": [
+        0,
+        1.7983,
+        160.2818,
+        160.2818
+      ],
       "stops": [
         {
           "location_id": 56,
