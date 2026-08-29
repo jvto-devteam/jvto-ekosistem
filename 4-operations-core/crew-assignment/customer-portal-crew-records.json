@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-operations/customer-portal-crew-records-v1",
-  "generated_at": "2026-08-28T12:18:46.152Z",
+  "generated_at": "2026-08-29T07:29:26.314Z",
   "privacy": "Crew names and public-facing roles/photos-present flags are retained; crew phone numbers are not present in the source portal payload and are not stored.",
   "record_count": 151,
   "records": [
@@ -163,7 +163,14 @@
       "package_name": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
       "travel_date_start": "2026-09-23",
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 46,
+            "name": "Fauzi",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 1,
@@ -395,7 +402,14 @@
       "package_name": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
       "travel_date_start": "2026-09-15",
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 39,
+            "name": "Gufron",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 7,
@@ -803,7 +817,14 @@
       "package_name": "4D3N Mount Bromo, Ijen Crater & Surabaya Night Market from Surabaya",
       "travel_date_start": "2026-09-24",
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 46,
+            "name": "Fauzi",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 81,
@@ -820,7 +841,14 @@
       "package_name": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
       "travel_date_start": "2026-09-18",
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 46,
+            "name": "Fauzi",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 7,
@@ -982,12 +1010,6 @@
             "id": 17,
             "name": "Kiki",
             "role": "Escort Guide",
-            "photo_present": true
-          },
-          {
-            "id": 68,
-            "name": "Boy",
-            "role": "Ijen Guide",
             "photo_present": true
           }
         ],
@@ -1482,7 +1504,14 @@
       "package_name": "3 Day Ijen, Bromo & Madakaripura Waterfall Journey from Bali to Surabaya",
       "travel_date_start": "2026-09-17",
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 13,
+            "name": "Rendi",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 1,
@@ -1564,7 +1593,14 @@
       "package_name": "3 Day Ijen, Bromo & Madakaripura Waterfall Discovery from Surabaya",
       "travel_date_start": "2026-09-22",
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 2,
+            "name": "Juan",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 7,
@@ -1680,7 +1716,14 @@
       "package_name": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
       "travel_date_start": "2026-09-16",
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 13,
+            "name": "Rendi",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 80,
@@ -2008,7 +2051,14 @@
       "package_name": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
       "travel_date_start": "2026-09-14",
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 68,
+            "name": "Boy",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 62,
@@ -2078,8 +2128,8 @@
       "crews": {
         "guides": [
           {
-            "id": 13,
-            "name": "Rendi",
+            "id": 68,
+            "name": "Boy",
             "role": "Ijen Guide",
             "photo_present": true
           }
@@ -2264,7 +2314,14 @@
       "package_name": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
       "travel_date_start": "2026-09-21",
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 46,
+            "name": "Fauzi",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 82,
@@ -2370,7 +2427,14 @@
       "package_name": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
       "travel_date_start": "2026-09-16",
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 68,
+            "name": "Boy",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 79,
@@ -2435,7 +2499,14 @@
       "package_name": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
       "travel_date_start": "2026-09-20",
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 3,
+            "name": "Anjas",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 62,
@@ -2712,7 +2783,14 @@
       "package_name": "3 Day Bromo & Ijen Volcano Discovery from Bali",
       "travel_date_start": "2026-09-30",
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 17,
+            "name": "Kiki",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 1,
@@ -2746,7 +2824,14 @@
       "package_name": "3D2N Mount Bromo, Madakaripura Waterfall & Ijen Crater Tour from Surabaya",
       "travel_date_start": "2026-09-20",
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 4,
+            "name": "Taufik",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 1,
@@ -2927,7 +3012,14 @@
       "package_name": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
       "travel_date_start": "2026-09-27",
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 3,
+            "name": "Anjas",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 1,
@@ -3033,7 +3125,14 @@
       "package_name": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
       "travel_date_start": "2026-09-14",
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 2,
+            "name": "Juan",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 82,

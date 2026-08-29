@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-experience-output/customer-portal-detail-records-v1",
-  "generated_at": "2026-08-28T12:18:46.153Z",
+  "generated_at": "2026-08-29T07:29:26.315Z",
   "source": "legacy customer portal details, sanitized from /bookings/details/{portal_slug}?json=true",
   "record_count": 151,
   "records": [
@@ -1247,7 +1247,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 46,
+            "name": "Fauzi",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 1,
@@ -2962,8 +2969,8 @@
         "total_pax": 2
       },
       "logistics": {
-        "pickup": "  ",
-        "pickup_time": null,
+        "pickup": "Surabaya Hotel  Harris Hotel Gubeng",
+        "pickup_time": "11:00:00",
         "drop": "  ",
         "drop_time": null,
         "special_requirements_present": false
@@ -2971,9 +2978,9 @@
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 0,
+        "m": 1,
         "l": 0,
-        "xl": 0,
+        "xl": 1,
         "xxl": 0
       },
       "itinerary_days": [
@@ -3020,7 +3027,14 @@
         }
       ],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 39,
+            "name": "Gufron",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 7,
@@ -4385,8 +4399,8 @@
         "total_pax": 2
       },
       "logistics": {
-        "pickup": "  ",
-        "pickup_time": null,
+        "pickup": "Surabaya Hotel  Movenpick Surabaya City",
+        "pickup_time": "11:00:00",
         "drop": "  ",
         "drop_time": null,
         "special_requirements_present": false
@@ -5365,8 +5379,8 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
-        "m": 0,
+        "s": 1,
+        "m": 1,
         "l": 0,
         "xl": 0,
         "xxl": 0
@@ -6199,7 +6213,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 46,
+            "name": "Fauzi",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 81,
@@ -6343,7 +6364,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 46,
+            "name": "Fauzi",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 7,
@@ -7535,12 +7563,6 @@
             "id": 17,
             "name": "Kiki",
             "role": "Escort Guide",
-            "photo_present": true
-          },
-          {
-            "id": 68,
-            "name": "Boy",
-            "role": "Ijen Guide",
             "photo_present": true
           }
         ],
@@ -11272,7 +11294,14 @@
         }
       ],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 13,
+            "name": "Rendi",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 1,
@@ -11885,7 +11914,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 2,
+            "name": "Juan",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 7,
@@ -12826,7 +12862,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 13,
+            "name": "Rendi",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 80,
@@ -13701,7 +13744,7 @@
         "dp_amount": 2478000,
         "balance": 12390000,
         "paid_amount": 0,
-        "due_date": null,
+        "due_date": "1970-01-01 00:00:00",
         "initial_payment_method": "pay later",
         "balance_payment_method": null,
         "payment_link_present": false,
@@ -15270,7 +15313,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 68,
+            "name": "Boy",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 62,
@@ -15820,8 +15870,8 @@
       "crews": {
         "guides": [
           {
-            "id": 13,
-            "name": "Rendi",
+            "id": 68,
+            "name": "Boy",
             "role": "Ijen Guide",
             "photo_present": true
           }
@@ -17198,7 +17248,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 46,
+            "name": "Fauzi",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 82,
@@ -17949,7 +18006,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 68,
+            "name": "Boy",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 79,
@@ -18405,7 +18469,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 3,
+            "name": "Anjas",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 62,
@@ -20166,8 +20237,8 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
-        "m": 0,
+        "s": 1,
+        "m": 1,
         "l": 0,
         "xl": 0,
         "xxl": 0
@@ -20391,7 +20462,14 @@
         }
       ],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 17,
+            "name": "Kiki",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 1,
@@ -20664,7 +20742,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 4,
+            "name": "Taufik",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 1,
@@ -21957,7 +22042,14 @@
         }
       ],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 3,
+            "name": "Anjas",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 1,
@@ -22517,7 +22609,7 @@
         "total_pax": 2
       },
       "logistics": {
-        "pickup": "Bali Hotel  ",
+        "pickup": "Bali Hotel  Casa Da Maria, Uluwatu",
         "pickup_time": "10:00:00",
         "drop": "Surabaya Airport  ",
         "drop_time": "17:00:00",
@@ -22525,9 +22617,9 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
+        "s": 1,
         "m": 0,
-        "l": 0,
+        "l": 1,
         "xl": 0,
         "xxl": 0
       },
@@ -22747,7 +22839,14 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 2,
+            "name": "Juan",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
         "drivers": [
           {
             "id": 82,
@@ -22997,8 +23096,8 @@
         "total_pax": 3
       },
       "logistics": {
-        "pickup": "  ",
-        "pickup_time": null,
+        "pickup": "Surabaya Hotel  Ikiru to Live Guesthouse",
+        "pickup_time": "11:00:00",
         "drop": "  ",
         "drop_time": null,
         "special_requirements_present": false
@@ -23130,7 +23229,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     }
   ]

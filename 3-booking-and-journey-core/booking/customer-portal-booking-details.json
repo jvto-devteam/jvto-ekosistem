@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-booking/customer-portal-booking-details-v1",
-  "generated_at": "2026-08-28T12:18:46.146Z",
+  "generated_at": "2026-08-29T07:29:26.308Z",
   "privacy": "No customer names, contact details, portal slugs, payment links, media links, payment references, or uploaded proof URLs are stored.",
   "record_count": 151,
   "records": [
@@ -983,9 +983,9 @@
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 0,
+        "m": 1,
         "l": 0,
-        "xl": 0,
+        "xl": 1,
         "xxl": 0
       },
       "addons": [
@@ -1832,8 +1832,8 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
-        "m": 0,
+        "s": 1,
+        "m": 1,
         "l": 0,
         "xl": 0,
         "xxl": 0
@@ -4560,7 +4560,7 @@
         "dp_amount": 2478000,
         "balance": 12390000,
         "paid_amount": 0,
-        "due_date": null,
+        "due_date": "1970-01-01 00:00:00",
         "initial_payment_method": "pay later",
         "balance_payment_method": null,
         "payment_link_present": false,
@@ -6618,8 +6618,8 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
-        "m": 0,
+        "s": 1,
+        "m": 1,
         "l": 0,
         "xl": 0,
         "xxl": 0
@@ -7388,9 +7388,9 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
+        "s": 1,
         "m": 0,
-        "l": 0,
+        "l": 1,
         "xl": 0,
         "xxl": 0
       },

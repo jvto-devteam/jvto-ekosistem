@@ -20,8 +20,8 @@
       "travel_date_start": "2026-09-15",
       "travel_date_end": "2026-09-17",
       "total_pax": 2,
-      "pickup": "  ",
-      "pickup_time": null,
+      "pickup": "Surabaya Hotel  Harris Hotel Gubeng",
+      "pickup_time": "11:00:00",
       "drop": "  ",
       "drop_time": null,
       "special_requirements": null,
@@ -29,13 +29,20 @@
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 0,
+        "m": 1,
         "l": 0,
-        "xl": 0,
+        "xl": 1,
         "xxl": 0
       },
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 39,
+            "name": "Gufron",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528674_GUFRO.jpeg",
+            "role": "Ijen Guide"
+          }
+        ],
         "drivers": [
           {
             "id": 7,

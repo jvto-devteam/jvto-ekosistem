@@ -14342,12 +14342,12 @@
         "days": "Sun - Wed"
       },
       "pickup": {
-        "meetingPoint": "",
+        "meetingPoint": "Surabaya Hotel",
         "arrival": null,
-        "value": null,
-        "time": "07:00",
-        "text": "  ",
-        "complete": false
+        "value": "Ikiru to Live Guesthouse",
+        "time": "11:00",
+        "text": "Surabaya Hotel  Ikiru to Live Guesthouse",
+        "complete": true
       },
       "dropoff": {
         "dropPoint": "",
@@ -14511,7 +14511,7 @@
         ]
       },
       "readiness": {
-        "hasPickup": false,
+        "hasPickup": true,
         "hasDropoff": false,
         "hasVehicle": true,
         "hasDriver": true,
@@ -14720,12 +14720,12 @@
           "monthlyIjenCount": 4
         },
         {
-          "id": 68,
-          "name": "Boy",
+          "id": 56,
+          "name": "Local Ijen",
           "role": "Ijen",
-          "tags": "JVTO,KLOOK,TWT",
-          "monthlyEscortCount": 7,
-          "monthlyIjenCount": 3
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 19
         }
       ],
       "isShuttle": "YES",
@@ -15042,7 +15042,7 @@
           "role": "Ijen",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 3
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -15220,7 +15220,7 @@
           "role": "Ijen",
           "tags": "TWT,JVTO,KLOOK",
           "monthlyEscortCount": 0,
-          "monthlyIjenCount": 5
+          "monthlyIjenCount": 7
         }
       ],
       "isShuttle": "YES",
@@ -15398,7 +15398,7 @@
           "role": "Ijen",
           "tags": "TWT,JVTO,KLOOK",
           "monthlyEscortCount": 0,
-          "monthlyIjenCount": 5
+          "monthlyIjenCount": 7
         }
       ],
       "isShuttle": "NO",
@@ -15544,7 +15544,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 3,
-          "monthlyIjenCount": 3
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -15740,7 +15740,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 1
+          "monthlyIjenCount": 2
         }
       ],
       "isShuttle": "NO",
@@ -15916,7 +15916,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 1
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -16098,7 +16098,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 2
+          "monthlyIjenCount": 3
         }
       ],
       "isShuttle": "NO",
@@ -16252,7 +16252,7 @@
           "role": "Ijen",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 3
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -16406,7 +16406,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 5,
-          "monthlyIjenCount": 0
+          "monthlyIjenCount": 1
         }
       ],
       "isShuttle": "NO",
@@ -16580,12 +16580,12 @@
       ],
       "guides": [
         {
-          "id": 13,
-          "name": "Rendi",
+          "id": 68,
+          "name": "Boy",
           "role": "Ijen",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 1
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -16763,7 +16763,7 @@
           "role": "Ijen",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 1
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -16938,7 +16938,7 @@
           "role": "Ijen",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 3,
-          "monthlyIjenCount": 3
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -17340,7 +17340,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 5,
-          "monthlyIjenCount": 0
+          "monthlyIjenCount": 2
         }
       ],
       "isShuttle": "NO",
@@ -17519,7 +17519,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 3
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -17690,7 +17690,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 5,
-          "monthlyIjenCount": 0
+          "monthlyIjenCount": 1
         }
       ],
       "isShuttle": "NO",
@@ -17877,7 +17877,7 @@
           "role": "Ijen",
           "tags": "TWT,JVTO,KLOOK",
           "monthlyEscortCount": 0,
-          "monthlyIjenCount": 5
+          "monthlyIjenCount": 7
         }
       ],
       "isShuttle": "NO",
@@ -18031,7 +18031,7 @@
           "role": "Ijen",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 2
+          "monthlyIjenCount": 3
         }
       ],
       "isShuttle": "NO",
@@ -18258,7 +18258,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 1
+          "monthlyIjenCount": 2
         }
       ],
       "isShuttle": "YES",
@@ -18412,7 +18412,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 1
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -18754,7 +18754,7 @@
           "role": "Ijen",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 3,
-          "monthlyIjenCount": 3
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -18966,7 +18966,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 3
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -19037,12 +19037,12 @@
         "days": "Thu - Sun"
       },
       "pickup": {
-        "meetingPoint": "",
+        "meetingPoint": "Surabaya Hotel",
         "arrival": null,
-        "value": null,
-        "time": "07:00",
-        "text": "  ",
-        "complete": false
+        "value": "Movenpick Surabaya City",
+        "time": "11:00",
+        "text": "Surabaya Hotel  Movenpick Surabaya City",
+        "complete": true
       },
       "dropoff": {
         "dropPoint": "",
@@ -19213,7 +19213,7 @@
         ]
       },
       "readiness": {
-        "hasPickup": false,
+        "hasPickup": true,
         "hasDropoff": false,
         "hasVehicle": true,
         "hasDriver": true,
@@ -19374,7 +19374,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 5,
-          "monthlyIjenCount": 0
+          "monthlyIjenCount": 1
         }
       ],
       "isShuttle": "NO",
@@ -19537,7 +19537,7 @@
           "role": "Ijen",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 2
+          "monthlyIjenCount": 3
         }
       ],
       "isShuttle": "NO",
@@ -19731,7 +19731,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 5,
-          "monthlyIjenCount": 0
+          "monthlyIjenCount": 2
         }
       ],
       "isShuttle": "NO",
@@ -20103,7 +20103,7 @@
           "role": "Ijen",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 3,
-          "monthlyIjenCount": 3
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -20224,7 +20224,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 1
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -20387,7 +20387,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 2
+          "monthlyIjenCount": 3
         }
       ],
       "isShuttle": "NO",
@@ -20574,7 +20574,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 1
+          "monthlyIjenCount": 2
         }
       ],
       "isShuttle": "NO",
@@ -20754,7 +20754,16 @@
           "monthlyEscortCount": 2
         }
       ],
-      "guides": [],
+      "guides": [
+        {
+          "id": 56,
+          "name": "Local Ijen",
+          "role": "Ijen",
+          "tags": "TWT,JVTO,KLOOK",
+          "monthlyEscortCount": 0,
+          "monthlyIjenCount": 7
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "14 Sep 26",
       "customer": {
@@ -20774,10 +20783,10 @@
         "hasDropoff": true,
         "hasVehicle": true,
         "hasDriver": true,
-        "hasGuide": false,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
-        "hasNotes": false,
+        "hasNotes": true,
         "balanceStatus": "balance_due"
       }
     },
@@ -20930,7 +20939,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 5,
-          "monthlyIjenCount": 0
+          "monthlyIjenCount": 2
         }
       ],
       "isShuttle": "NO",
@@ -21247,7 +21256,16 @@
           "monthlyEscortCount": 5
         }
       ],
-      "guides": [],
+      "guides": [
+        {
+          "id": 68,
+          "name": "Boy",
+          "role": "Ijen",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 5
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "16 Sep 26",
       "customer": {
@@ -21276,7 +21294,7 @@
         "hasDropoff": true,
         "hasVehicle": true,
         "hasDriver": true,
-        "hasGuide": false,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -21401,13 +21419,13 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "S x 1, M x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
-          "s": 0,
-          "m": 0,
+          "s": 1,
+          "m": 1,
           "l": 0,
           "xl": 0,
           "xxl": 0,
@@ -21432,7 +21450,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 5,
-          "monthlyIjenCount": 0
+          "monthlyIjenCount": 1
         }
       ],
       "isShuttle": "NO",
@@ -21489,9 +21507,9 @@
       "pickup": {
         "meetingPoint": "Bali Hotel",
         "arrival": null,
-        "value": "",
+        "value": "Casa Da Maria, Uluwatu",
         "time": "10:00",
-        "text": "Bali Hotel  ",
+        "text": "Bali Hotel  Casa Da Maria, Uluwatu",
         "complete": true
       },
       "dropoff": {
@@ -21581,14 +21599,14 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "S x 1, L x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
-          "s": 0,
+          "s": 1,
           "m": 0,
-          "l": 0,
+          "l": 1,
           "xl": 0,
           "xxl": 0,
           "xxxl": 0
@@ -21612,7 +21630,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 1
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -21792,7 +21810,16 @@
           "monthlyEscortCount": 3
         }
       ],
-      "guides": [],
+      "guides": [
+        {
+          "id": 2,
+          "name": "Juan",
+          "role": "Ijen",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 3,
+          "monthlyIjenCount": 5
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "15 Sep 26",
       "customer": {
@@ -21812,7 +21839,7 @@
         "hasDropoff": false,
         "hasVehicle": true,
         "hasDriver": true,
-        "hasGuide": false,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
         "hasNotes": false,
@@ -21836,12 +21863,12 @@
         "days": "Tue - Thu"
       },
       "pickup": {
-        "meetingPoint": "",
+        "meetingPoint": "Surabaya Hotel",
         "arrival": null,
-        "value": null,
-        "time": "07:00",
-        "text": "  ",
-        "complete": false
+        "value": "Harris Hotel Gubeng",
+        "time": "11:00",
+        "text": "Surabaya Hotel  Harris Hotel Gubeng",
+        "complete": true
       },
       "dropoff": {
         "dropPoint": "",
@@ -21913,15 +21940,15 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "M x 1, XL x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
           "s": 0,
-          "m": 0,
+          "m": 1,
           "l": 0,
-          "xl": 0,
+          "xl": 1,
           "xxl": 0,
           "xxxl": 0
         }
@@ -21937,7 +21964,16 @@
           "monthlyEscortCount": 7
         }
       ],
-      "guides": [],
+      "guides": [
+        {
+          "id": 39,
+          "name": "Gufron",
+          "role": "Ijen",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 3
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "17 Sep 26",
       "customer": {
@@ -21962,11 +21998,11 @@
         ]
       },
       "readiness": {
-        "hasPickup": false,
+        "hasPickup": true,
         "hasDropoff": false,
         "hasVehicle": true,
         "hasDriver": true,
-        "hasGuide": false,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -22115,7 +22151,16 @@
           "monthlyEscortCount": 2
         }
       ],
-      "guides": [],
+      "guides": [
+        {
+          "id": 13,
+          "name": "Rendi",
+          "role": "Ijen",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 2
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "17 Sep 26",
       "customer": {
@@ -22135,7 +22180,7 @@
         "hasDropoff": false,
         "hasVehicle": true,
         "hasDriver": true,
-        "hasGuide": false,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
         "hasNotes": false,
@@ -22284,7 +22329,16 @@
           "monthlyEscortCount": 2
         }
       ],
-      "guides": [],
+      "guides": [
+        {
+          "id": 68,
+          "name": "Boy",
+          "role": "Ijen",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 5
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "17 Sep 26",
       "customer": {
@@ -22304,7 +22358,7 @@
         "hasDropoff": false,
         "hasVehicle": true,
         "hasDriver": true,
-        "hasGuide": false,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
         "hasNotes": false,
@@ -22588,7 +22642,16 @@
           "monthlyEscortCount": 9
         }
       ],
-      "guides": [],
+      "guides": [
+        {
+          "id": 13,
+          "name": "Rendi",
+          "role": "Ijen",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 2
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "18 Sep 26",
       "customer": {
@@ -22617,7 +22680,7 @@
         "hasDropoff": true,
         "hasVehicle": true,
         "hasDriver": true,
-        "hasGuide": false,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": true,
@@ -22749,7 +22812,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 3,
-          "monthlyIjenCount": 3
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -22881,13 +22944,13 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "S x 1, M x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
-          "s": 0,
-          "m": 0,
+          "s": 1,
+          "m": 1,
           "l": 0,
           "xl": 0,
           "xxl": 0,
@@ -22912,7 +22975,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 2
+          "monthlyIjenCount": 3
         }
       ],
       "isShuttle": "NO",
@@ -23092,7 +23155,16 @@
           "monthlyEscortCount": 7
         }
       ],
-      "guides": [],
+      "guides": [
+        {
+          "id": 46,
+          "name": "Fauzi",
+          "role": "Ijen",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 5
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "19 Sep 26",
       "customer": {
@@ -23112,7 +23184,7 @@
         "hasDropoff": false,
         "hasVehicle": true,
         "hasDriver": true,
-        "hasGuide": false,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
         "hasNotes": false,
@@ -23270,7 +23342,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 5,
-          "monthlyIjenCount": 0
+          "monthlyIjenCount": 2
         }
       ],
       "isShuttle": "YES",
@@ -23417,7 +23489,16 @@
           "monthlyEscortCount": 5
         }
       ],
-      "guides": [],
+      "guides": [
+        {
+          "id": 3,
+          "name": "Anjas",
+          "role": "Ijen",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 2
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "21 Sep 26",
       "customer": {
@@ -23437,7 +23518,7 @@
         "hasDropoff": false,
         "hasVehicle": true,
         "hasDriver": true,
-        "hasGuide": false,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
         "hasNotes": false,
@@ -23562,7 +23643,16 @@
           "monthlyEscortCount": 9
         }
       ],
-      "guides": [],
+      "guides": [
+        {
+          "id": 4,
+          "name": "Taufik",
+          "role": "Ijen",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 1
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "21 Sep 26",
       "customer": {
@@ -23582,7 +23672,7 @@
         "hasDropoff": true,
         "hasVehicle": true,
         "hasDriver": true,
-        "hasGuide": false,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
         "hasNotes": true,
@@ -23731,7 +23821,16 @@
           "monthlyEscortCount": 3
         }
       ],
-      "guides": [],
+      "guides": [
+        {
+          "id": 46,
+          "name": "Fauzi",
+          "role": "Ijen",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 5
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "22 Sep 26",
       "customer": {
@@ -23751,7 +23850,7 @@
         "hasDropoff": true,
         "hasVehicle": true,
         "hasDriver": true,
-        "hasGuide": false,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
         "hasNotes": false,
@@ -23908,7 +24007,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 3
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -24065,7 +24164,16 @@
           "monthlyEscortCount": 7
         }
       ],
-      "guides": [],
+      "guides": [
+        {
+          "id": 2,
+          "name": "Juan",
+          "role": "Ijen",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 3,
+          "monthlyIjenCount": 5
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "23 Sep 26",
       "customer": {
@@ -24094,7 +24202,7 @@
         "hasDropoff": false,
         "hasVehicle": true,
         "hasDriver": true,
-        "hasGuide": false,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
@@ -24430,7 +24538,16 @@
           "monthlyEscortCount": 9
         }
       ],
-      "guides": [],
+      "guides": [
+        {
+          "id": 46,
+          "name": "Fauzi",
+          "role": "Ijen",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 5
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "24 Sep 26",
       "customer": {
@@ -24450,7 +24567,7 @@
         "hasDropoff": true,
         "hasVehicle": true,
         "hasDriver": true,
-        "hasGuide": false,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
         "hasNotes": false,
@@ -24605,7 +24722,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 5,
-          "monthlyIjenCount": 0
+          "monthlyIjenCount": 1
         }
       ],
       "isShuttle": "NO",
@@ -24880,7 +24997,16 @@
           "monthlyEscortCount": 1
         }
       ],
-      "guides": [],
+      "guides": [
+        {
+          "id": 46,
+          "name": "Fauzi",
+          "role": "Ijen",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 5
+        }
+      ],
       "isShuttle": "YES",
       "ijenDate": "25 Sep 26",
       "customer": {
@@ -24900,7 +25026,7 @@
         "hasDropoff": false,
         "hasVehicle": true,
         "hasDriver": true,
-        "hasGuide": false,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
         "hasNotes": false,
@@ -25032,7 +25158,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 5,
-          "monthlyIjenCount": 0
+          "monthlyIjenCount": 2
         }
       ],
       "isShuttle": "NO",
@@ -25186,7 +25312,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 3
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -25372,7 +25498,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 2
+          "monthlyIjenCount": 3
         }
       ],
       "isShuttle": "NO",
@@ -25693,7 +25819,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 1
+          "monthlyIjenCount": 2
         }
       ],
       "isShuttle": "NO",
@@ -25846,7 +25972,16 @@
           "monthlyEscortCount": 9
         }
       ],
-      "guides": [],
+      "guides": [
+        {
+          "id": 3,
+          "name": "Anjas",
+          "role": "Ijen",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 5,
+          "monthlyIjenCount": 2
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "29 Sep 26",
       "customer": {
@@ -25875,7 +26010,7 @@
         "hasDropoff": true,
         "hasVehicle": true,
         "hasDriver": true,
-        "hasGuide": false,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": true,
@@ -26007,7 +26142,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 3,
-          "monthlyIjenCount": 3
+          "monthlyIjenCount": 5
         }
       ],
       "isShuttle": "NO",
@@ -26162,7 +26297,16 @@
           "monthlyEscortCount": 9
         }
       ],
-      "guides": [],
+      "guides": [
+        {
+          "id": 17,
+          "name": "Kiki",
+          "role": "Ijen",
+          "tags": "JVTO,KLOOK,TWT",
+          "monthlyEscortCount": 4,
+          "monthlyIjenCount": 2
+        }
+      ],
       "isShuttle": "NO",
       "ijenDate": "01 Oct 26",
       "customer": {
@@ -26191,7 +26335,7 @@
         "hasDropoff": true,
         "hasVehicle": true,
         "hasDriver": true,
-        "hasGuide": false,
+        "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
