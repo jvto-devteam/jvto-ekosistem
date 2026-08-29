@@ -1,0 +1,14 @@
+url,group,template_file,@type,@id,mainEntity,breadcrumb,isPartOf,about,mentions,owner_status,status
+/,home,src/app/(website)/page.tsx,,,,,,,,,pending
+/tours,tours,src/app/(website)/tours/page.tsx,,,,,,,,,pending
+/tours/from-surabaya,tours/from-surabaya,src/app/(website)/tours/from-surabaya/page.tsx,,,,,,,,,pending
+/tours/from-bali,tours/from-bali,src/app/(website)/tours/from-bali/page.tsx,,,,,,,,,pending
+/tours/from-surabaya/bromo-1d1n,tours/from-surabaya-detail,src/app/(website)/tours/from-surabaya/[slug]/page.tsx,,,,,,,,,pending
+/tours/from-surabaya/bromo-2d1n,tours/from-surabaya-detail,src/app/(website)/tours/from-surabaya/[slug]/page.tsx,,,,,,,,,pending
+/tours/from-bali/bromo-ijen-3d2n,tours/from-bali-detail,src/app/(website)/tours/from-bali/[slug]/page.tsx,,,,,,,,,pending
+/travel-guide,travel-guide/detail,src/app/(website)/travel-guide/EcosystemTravelGuidePage.tsx,,,,,,,,,pending
+/why-jvto,why-jvto,src/app/(website)/why-jvto/[slug]/page.tsx,,,,,,,,,pending
+/verify-jvto,verify-jvto/detail,src/app/(website)/verify-jvto/[slug]/page.tsx,,,,,,,,,pending
+/policy,policy/detail,src/app/(website)/policy/[slug]/page.tsx,,,,,,,,,pending
+/destinations,destinations/detail,src/app/(website)/destinations/[slug]/page.tsx,,,,,,,,,pending
+/blog,blog/detail,src/app/(website)/blog/[slug]/page.tsx,,,,,,,,,pending
