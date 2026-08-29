@@ -7,6 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT = path.resolve(__dirname, '..');
 const INVENTORY_PATH = path.join(ROOT, 'docs', 'website-audit', '2026-08-29', 'url_inventory.csv');
+const TEMPLATE_MAP_PATH = path.join(ROOT, 'docs', 'website-audit', '2026-08-29', 'template_ownership_map.csv');
 const OUTPUT_PATH = path.join(ROOT, 'docs', 'website-audit', '2026-08-29', 'live_html_url_audit.csv');
 const SUMMARY_PATH = path.join(ROOT, 'docs', 'website-audit', '2026-08-29', 'group_summary.csv');
 const BASE_URL = 'https://javavolcano-touroperator.com';
@@ -35,6 +36,35 @@ function readCsvRows(filePath) {
 
 function normalizeField(value) {
   return String(value ?? '').trim();
+}
+
+function splitPath(pathname) {
+  return normalizeField(pathname).split('/').filter(Boolean);
+}
+
+function patternMatchesPath(urlPattern, pathSegments) {
+  const patternSegments = splitPath(urlPattern);
+  if (patternSegments.length !== pathSegments.length) return false;
+  return patternSegments.every((segment, index) => {
+    if (segment.startsWith('{') && segment.endsWith('}')) {
+      return pathSegments[index].length > 0;
+    }
+    return segment === pathSegments[index];
+  });
+}
+
+function resolveTemplateFile(templateMapRows, pathname) {
+  const pathSegments = splitPath(pathname);
+  const matches = templateMapRows.filter((row) => patternMatchesPath(row.url_pattern, pathSegments));
+  if (matches.length === 0) return '';
+  if (matches.length > 1) {
+    console.warn(
+      `[audit:website-live] ambiguous template match for ${pathname || '/'}: ${matches
+        .map((row) => row.url_pattern)
+        .join(', ')}`,
+    );
+  }
+  return matches[0].template_file;
 }
 
 function getTagValue(html, regex) {
@@ -187,11 +217,13 @@ function buildSummary(rows) {
 
 async function main() {
   const inventory = readCsvRows(INVENTORY_PATH);
+  const templateMapRows = readCsvRows(TEMPLATE_MAP_PATH);
   const outputRows = [];
 
   for (const entry of inventory) {
     const rawUrl = normalizeField(entry.url);
     const url = rawUrl.startsWith('http') ? rawUrl : `${BASE_URL}${rawUrl.startsWith('/') ? rawUrl : `/${rawUrl}`}`;
+    const templateFile = resolveTemplateFile(templateMapRows, entry.pathname || rawUrl);
 
     const result = await fetchPage(url);
     const html = result.text || '';
@@ -210,7 +242,7 @@ async function main() {
     outputRows.push({
       url: rawUrl,
       group: normalizeField(entry.group),
-      template_file: '',
+      template_file: templateFile,
       http_status: String(result.status),
       final_url: result.finalUrl || url,
       title: title || '',

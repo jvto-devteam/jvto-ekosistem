@@ -1,3 +1,8 @@
+{
+  "name": "jvto-ekosistem",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
     "start": "node server.mjs",
     "cms:dev": "tinacms dev -c \"npm run start\"",
@@ -26,3 +31,19 @@
     "build:registry": "npm run generate:registry && npm run validate:registry",
     "audit:website-live": "node scripts/live-html-audit.mjs"
   },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@tinacms/cli": "^2.6.1",
+    "tinacms": "^3.12.1"
+  },
+  "devDependencies": {
+    "chokidar": "^5.0.0",
+    "concurrently": "^10.0.4"
+  },
+  "overrides": {
+    "react-router": "^7.18.0",
+    "react-router-dom": "^7.18.0"
+  }
+}
