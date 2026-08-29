@@ -1,3 +1,8 @@
+{
+  "name": "jvto-ekosistem",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
     "start": "node server.mjs",
     "cms:dev": "tinacms dev -c \"npm run start\"",
@@ -15,9 +20,9 @@
     "sync:google-reviews:dry-run": "node scripts/sync-google-reviews.mjs --dry-run",
     "sync:llm-wiki": "node scripts/sync-knowledge-from-llm-wiki.mjs",
     "sync:llm-wiki:dry-run": "node scripts/sync-knowledge-from-llm-wiki.mjs --dry-run",
-    "test:booking-sync": "node scripts/test/booking-sync/manifest.test.mjs && node scripts/test/booking-sync/fetch.test.mjs && node scripts/test/booking-sync/sync-booking-data.test.mjs && node scripts/test/booking-sync/manifest-validate.test.mjs",
-    "test:llm-wiki-sync": "node scripts/test/llm-wiki-sync/gate.test.mjs && node scripts/test/llm-wiki-sync/evidence-map.test.mjs && node scripts/test/llm-wiki-sync/trust-claims.test.mjs && node scripts/test/llm-wiki-sync/knowledge-capture.test.mjs",
-    "test:schema": "node scripts/test/schema-contract.test.mjs && node scripts/test/validate-schema.test.mjs && node scripts/test/build-organization.test.mjs && node scripts/test/schema-types-indexed.test.mjs",
+    "test:booking-sync": "node scripts/test/booking-sync/manifest.test.mjs && node scripts/test/booking-sync/fetch.test.mjs && node scripts/test/booking-sync/sync-booking-data.test.mjs && node scripts/test/booking-sync/run-generators.test.mjs && node scripts/test/booking-sync/generators/context.test.mjs && node scripts/test/booking-sync/generators/booking-records.test.mjs && node scripts/test/booking-sync/generators/guest-portal-records.test.mjs && node scripts/test/booking-sync/generators/customer-portal-booking-details.test.mjs && node scripts/test/booking-sync/generators/customer-portal-logistics.test.mjs && node scripts/test/booking-sync/generators/customer-portal-itinerary-records.test.mjs && node scripts/test/booking-sync/generators/customer-portal-accommodation-records.test.mjs && node scripts/test/booking-sync/generators/customer-portal-crew-records.test.mjs && node scripts/test/booking-sync/generators/customer-portal-vehicle-records.test.mjs && node scripts/test/booking-sync/generators/customer-portal-detail-records.test.mjs && node scripts/test/booking-sync/generators/customer-portal-faq-packing-feed.test.mjs",
+    "test:llm-wiki-sync": "node scripts/test/llm-wiki-sync/gate.test.mjs && node scripts/test/llm-wiki-sync/evidence-map.test.mjs && node scripts/test/llm-wiki-sync/trust-claims.test.mjs && node scripts/test/llm-wiki-sync/sync.test.mjs && node scripts/test/llm-wiki-sync/anti-regression.test.mjs",
+    "test:schema": "node scripts/test/schema-contract.test.mjs && node scripts/test/validate-schema.test.mjs && node scripts/test/build-organization.test.mjs && node scripts/test/build-tourist-trip.test.mjs && node scripts/test/generate-tourist-trip-schema.test.mjs && node scripts/test/hash-extension-pairing.test.mjs && node scripts/test/schema-types-index.test.mjs",
     "test:review-schema": "node scripts/test/review-schema/build-review-nodes.test.mjs",
     "watch:web-content": "node scripts/watch-web-content-sources.mjs",
     "verify:evidence-hashes": "node scripts/verify-evidence-hashes.mjs",
@@ -26,3 +31,19 @@
     "build:registry": "npm run generate:registry && npm run validate:registry",
     "audit:website-live": "node scripts/live-html-audit.mjs"
   },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@tinacms/cli": "^2.6.1",
+    "tinacms": "^3.12.1"
+  },
+  "devDependencies": {
+    "chokidar": "^5.0.0",
+    "concurrently": "^10.0.4"
+  },
+  "overrides": {
+    "react-router": "^7.18.0",
+    "react-router-dom": "^7.18.0"
+  }
+}
