@@ -1,7 +1,7 @@
 {
   "_comment": "Individual guest reviews (Google, Trustpilot, TripAdvisor). id is preserved EXACTLY from the historical Prisma reviews.id this data was migrated from on 2026-08-19 (one-time export — 217 rows, script not retained since it was a single-use migration aid; see git history of this file for the commit that added it) — jvto-web's /why-jvto/reviews/{id} route and the #review-{id} JSON-LD @id both bake this integer into public, possibly-indexed URLs, so it must never be renumbered. nextId tracks the next integer to assign to a newly-synced Google review; Trustpilot/TripAdvisor have no automated sync (none existed before this migration either) and are updated manually here going forward, same as before. packageAttribution marks the 19 records whose packageSlug was DERIVED from the review text (destinations named, trip length, pick-up/drop-off city, matched against each product's itinerary, name and paid add-ons) rather than captured with the booking. Absence of the field means the slug came with the record. Reviews that name no destination, or whose named combination fits more than one product, were deliberately left unattributed — see docs/review-package-attribution.md.",
-  "nextId": 326,
-  "lastSynced": "2026-08-25",
+  "nextId": 327,
+  "lastSynced": "2026-08-29",
   "googleSync": "Automated daily via .github/workflows/sync-google-reviews.yml (Phase 2, ekosistem-side)",
   "reviews": [
     {
@@ -6000,6 +6000,186 @@
         "taufik",
         "fredi"
       ]
+    },
+    {
+      "id": 326,
+      "platform": "Google",
+      "customerName": "Larenz Chui",
+      "date": "2026-08-29",
+      "star": 5,
+      "review": "Amazing trip to Mount Bromo and Ijen!!! The scenes felt so AI!\n\nOur guides Sahril and Juan were so friendly, helpful, chatty! They also take photos and videos for you! Be prepared to sleep alot on the move! Driving skills are tops so dun have to worry.\n\nWe went to see Mount Semeru an active volcano. Then Tumpat Sewu waterfall which was gorgeous as well!\n\nFood was ok, spicy and savoury.",
+      "photos": {
+        "source": "Google Business Profile reviewMediaItems",
+        "syncedAt": "2026-08-29T07:46:17.849Z",
+        "count": 20,
+        "items": [
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-1",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPDqcvf43ELCTfAEx-yqLUd17iIPdxUGOslClY7e6HvwkdJPNOqE9nml7u-cM0G-S-f95XRPD6fvfg6Zx7UZnze0EvvtmoFFY-e2u9kEtghfo50q0vYlIMPsIj-wInigvPKnMyLqGUGoDbL=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-2",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmM68qISdmoKGIxHiGd4knV6qBhr-yq5QBrGvYab6Bn7x0NsKE-7Twp7d-m0Cvj_b5a0BdIeUHhmsSDgemYJuKHRYl0rnU9C9I44JXB2DZrIYXV4oA6yXzgrfRtYCpNQu3cgewElcXrjQvIr=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-3",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOwn7jHZttRn9Iyam1qt5k_WLRbXoCbZJkOPGuyrnAb9avz6xgPuf_wZQLUaT4tF4UsqTfOQA3nx1wzIaHvz_oFh52lDeLRXyVasjQLaF0wjtJa2IEM5abDfe6WgXg1Me1XU0MjVIIB6khg=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-4",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmM3BKMbgZwYZev3I7ZwF-g_H9N1wbaK8N9TePFrqp4oweoEbqCZjJV3dHN0WuLcy4IorOvqAcJJIyou0B4S5dOwZA23yWbf7SnIBj3haRH4YRkgrUFkHdaHB37vYCmdh45L4z4d2TMbeH4=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-5",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmM1IRSG5ZbLyewhLJ4dQcwbCX4vN_C-6fyyZw3BWZiSVuXnvrldQljHiP-V6ZPR1gN0GO8L0epp1umnTyumFVmUJavaNIYKXzfHSBU6UCPM1VJ-HyNIHcgFeS58rhC2nDqHWQVFtMpHPS7K=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-6",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmM0APVS-SE208GdvGV6qZ8J5lSpOLwpFlMOYTWSifU3_DzdPWeXr7X3fd67SRkAfbpoXCLCVF_W97vo3CUujGcMvwYJeZdHUaqynTSQyyS7JKEaYj1aVFYPtxqFySY-VgY0Qpdxv2UmeYY1=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-7",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOCzcmypoUQ2f-ZGjcs5jQsliBsDwdhjn78hvb1A3auYzPTEr6_BV6Y7weNotyepos9vlgo3z9zFAQCWEdJ6r5DN71__xvUq1mW4ZxSMjN82ZnS30Rr4DCpFhukuD-U4s8NGgHY42gclQc=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-8",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMKRj8V9MWq2AH2-R3kq-sgu59ZTjVVJFhp34OKEatTU9wKHW4ZnTCK7R655oFbf2VOMGnTRuWHeE4S1zY7xtAGdCqltzDIfFqMqZxfx10UtFOyMHr-YB2MqFGHHWkZ8wI4_r-P1eJfXMU=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-9",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPX-YcKkXMDemOmkagBvm9RUjfXDaYmuiV-FN36jfxWmZefm4nyYgMBS7fHAjJzfNyTG_DNT5KQkCotSIyQtzuFH-vpwc3ud0iFckaIyDGxYi6jj2rXmwR56QokZsF7XKNkwbrkaQvVuokJ=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-10",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmM6DD-T2V1l5-5qxNrJO4u_yLX5YKy4Kej664ainZw8ZVbTFLRlOwT9KqXF0yfphF5xuf9JSWDfPFWC1oJ3pj1onlxKd5OMBuHGdORkOJtKBhzsxaDLjeuc4b26YF9WQQdRBCQIxnyQzZc=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-11",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNHcECrTorFgkMwDift-G8Px1KkGKZZzXBCsQ1uG6SRM_rdHW-kVmmvgCgqYi5hk0DVxE4OC4GQ5_PdtRAa9rDfxKuzQ3WYxksDZRaXP37x3--FYjhH_oDjgIRm4hRHqi6AqEwm5-Nviwk=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-12",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmM9nRGqBRLsrA-wiXkvMX_-UqgRXJ-nMJKzg06vwhz1nz7oOloNarokNxPrvsGJc-NxZY4QpssqppKV-7deifOL_WbcCUyRE1emFlbYf3b5hNVHNSRLQpojkMmll6RkxPwoMEVn9832byo=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-13",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOwzhbBGi64KKQcc-lLZoCyiyuSlu6Yv3OhxUVdrJGmC6OJRqj3lqwz-e8DzZ4SJ75Tiqo6r4HFlXF66QIyVAmHazOpotHpiD4fAU41kYDJUpfdaSZaVne46F7_C_SqrYhIo09kRo3O-_mX=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-14",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPZoZS-otLH0TiSuW8G9qQBVHdQUcahM5NzVP9t4bI552mmWau6MYOWx0Ox6O934sTIPay_QlVhZNfODf5OcbVrDGQ9IvZjWxwos4Erxnpu3Jffzt_Z8qCaSWYbh36cpELuPUMVv63tdcM=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-15",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPHrBNMcxnojP_XwgnW9WELxnrWeNNXPZZMiEpSZeQBnxNHNtiHgNVIghb8cwKThdQbckN3qJbP6cqiBZLYvpii9bmBi0sfRgi4GFWD2lmabW9eCrx_q-spQ6mOH5s6S7hmf3G_BpHm7yIf=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-16",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMaLBuYg253IQdsMrwSGVq4pnTvNI2BTMG8Z7q6c0mLoSt0eoBN4cpfwXZep-CzuxGh2cBh4lx8LrwRERMIcLZSaDun30y-bvE9v51tfhugrP3F_gkn1cWwnxwWZBFB1v7QQm1VuSFfih4=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-17",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmP4WtzNN7xCgLiTvWZxfr_v2MHdua2D32n5RZ5QTMD-gD3aGdnVedQqO3K4yssGjQARHpUK9AA5ExlLTJ1qBP33N7zZoAYOehbvENgcHo2qhjIIU2_EwswqATmmqbCuXsabvxWwG9QNXeOj=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-18",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPTkQbJzdstf7C-SICuozEMLJO8GUrEE1pD_qiLTZuj_5c3GqyBDLSOtCgPfx94vxl32UD9waoHhajaKJxbKpk-Z8sMlfvWrpgxqmNK7u14C_PFC2MayXWBeKzFnXCXG5ApN4C02FIOO0CO=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-19",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOB-mhxvpbyO1KLjrBjIVJe28ROHmF2Mn9fU_dvvR_Xw20jJrgDCuaAaxI_VD9QJlnHsuQe8d6WZpXEqJaK-Ot2x8wxgfLD0Nk9zC02TjoNAMWVoyX-a49LPznDLLnYBS6JgsNgXr0nQZg=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA-20",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOTb7dSMeW0kHdy_hJB7E_yMuFXVoXYkYynhKf8-1v1hrOWvLllbr4EijttAeqaFaO-LQ-6CxXUbDlVqrXif1P-hL4DU1aUpXdyjR8kDr7x61u8uuUA6Jl1E6j8Kfeh6oyi5gyApina2a5K=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          }
+        ]
+      },
+      "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tkdWJ6Z3lUbk52ZFZKNFRGUm1ja2hSYm1WcFdVRRAB",
+      "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA",
+      "packageSlug": null,
+      "packageName": null,
+      "crewCodes": []
     }
   ]
 }

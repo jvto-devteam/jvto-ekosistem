@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-27T01:02:40.005Z",
+  "generated_at": "2026-08-29T07:46:18.381Z",
   "route": "/why-jvto/reviews",
   "domain": "why-jvto",
   "slug": "reviews",
@@ -43,7 +43,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": 4.9,
-          "reviewCount": 156,
+          "reviewCount": 157,
           "bestRating": 5
         },
         "sameAs": [
@@ -5342,6 +5342,30 @@
         },
         "reviewBody": "JVTO made my trip a very memorable trip. Both the guide (Taufik) and the driver (Fredi) were very warm and kind, easy to engage in conversation and know what they are doing. Not to mention they are very flexible and adaptable as well when the situation calls for it. They also made the trip very safe and being a local guide, they know the tricks and tips to avoid crowd and get the best shots / locations. Overall I really did enjoy this trip and I would definitely recommend them to everyone if they ever visit.",
         "datePublished": "2026-08-24",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/why-jvto/reviews#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/#review-326",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Larenz Chui"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Amazing trip to Mount Bromo and Ijen!!! The scenes felt so AI!\n\nOur guides Sahril and Juan were so friendly, helpful, chatty! They also take photos and videos for you! Be prepared to sleep alot on the move! Driving skills are tops so dun have to worry.\n\nWe went to see Mount Semeru an active volcano. Then Tumpat Sewu waterfall which was gorgeous as well!\n\nFood was ok, spicy and savoury.",
+        "datePublished": "2026-08-29",
         "itemReviewed": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         },
