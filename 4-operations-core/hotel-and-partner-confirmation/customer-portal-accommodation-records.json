@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto-operations/customer-portal-accommodations-v1",
-  "generated_at": "2026-08-29T07:29:26.313Z",
-  "record_count": 151,
+  "generated_at": "2026-08-30T05:58:13.026Z",
+  "record_count": 154,
   "records": [
     {
       "booking_id": 1566,
@@ -3439,6 +3439,84 @@
           "day": 3,
           "name": "Riverside Homestay",
           "rooms": "Platinum Double (1), Extra Bed (1)",
+          "banner_present": true
+        }
+      ]
+    },
+    {
+      "booking_id": 3811,
+      "booking_ref": "JVTO-3811",
+      "package_name": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "travel_date_start": "2026-09-13",
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Artha Cottage",
+          "rooms": "Twin (1)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Joglo Kecombrang Bromo",
+          "rooms": "Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 3,
+          "name": "Riverside Homestay",
+          "rooms": "Executive Double (1)",
+          "banner_present": true
+        }
+      ]
+    },
+    {
+      "booking_id": 3812,
+      "booking_ref": "JVTO-3812",
+      "package_name": "3 Day Bromo & Ijen Volcano Discovery from Bali",
+      "travel_date_start": "2026-08-30",
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Joglo Kecombrang Bromo",
+          "rooms": "Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Riverside Homestay",
+          "rooms": "Deluxe Double (1)",
+          "banner_present": true
+        }
+      ]
+    },
+    {
+      "booking_id": 3813,
+      "booking_ref": "JVTO-3813",
+      "package_name": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Discovery from Bali to Surabaya",
+      "travel_date_start": "2026-09-09",
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Luminor Hotel",
+          "rooms": "Deluxe Double (3)",
+          "banner_present": true
+        },
+        {
+          "day": 4,
+          "name": "Holiday Inn Express Surabaya Centerpoint, an IHG Hotel",
+          "rooms": "Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Artha Cottage",
+          "rooms": "Twin (1), Double (2)",
+          "banner_present": true
+        },
+        {
+          "day": 3,
+          "name": "Manis Ae Cabin & Resto Bromo",
+          "rooms": "Single Cabin Double - Weekday (3)",
           "banner_present": true
         }
       ]

@@ -139,7 +139,7 @@
         "due_date": "2026-07-08 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
-        "payment_link": null,
+        "payment_link": "https://checkout.xendit.co/web/6a92950b61a1ae3ecd083849",
         "pending_upload_proof": false,
         "uploaded_payment_proof": null,
         "payment_history": [

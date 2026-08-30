@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-operations/customer-portal-crew-records-v1",
-  "generated_at": "2026-08-29T07:29:26.314Z",
+  "generated_at": "2026-08-30T05:58:13.027Z",
   "privacy": "Crew names and public-facing roles/photos-present flags are retained; crew phone numbers are not present in the source portal payload and are not stored.",
-  "record_count": 151,
+  "record_count": 154,
   "records": [
     {
       "booking_id": 1566,
@@ -2027,14 +2027,7 @@
       "package_name": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
       "travel_date_start": "2026-09-10",
       "crews": {
-        "guides": [
-          {
-            "id": 39,
-            "name": "Gufron",
-            "role": "Ijen Guide",
-            "photo_present": true
-          }
-        ],
+        "guides": [],
         "drivers": [
           {
             "id": 1,
@@ -3182,6 +3175,71 @@
             "photo_present": true
           }
         ]
+      }
+    },
+    {
+      "booking_id": 3811,
+      "booking_ref": "JVTO-3811",
+      "package_name": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+      "travel_date_start": "2026-09-13",
+      "crews": {
+        "guides": [
+          {
+            "id": 2,
+            "name": "Juan",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 84,
+            "name": "Zamroni",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
+      }
+    },
+    {
+      "booking_id": 3812,
+      "booking_ref": "JVTO-3812",
+      "package_name": "3 Day Bromo & Ijen Volcano Discovery from Bali",
+      "travel_date_start": "2026-08-30",
+      "crews": {
+        "guides": [
+          {
+            "id": 39,
+            "name": "Gufron",
+            "role": "Ijen Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 81,
+            "name": "Romi",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
+      }
+    },
+    {
+      "booking_id": 3813,
+      "booking_ref": "JVTO-3813",
+      "package_name": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Discovery from Bali to Surabaya",
+      "travel_date_start": "2026-09-09",
+      "crews": {
+        "guides": [
+          {
+            "id": 39,
+            "name": "Gufron",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": []
       }
     }
   ]

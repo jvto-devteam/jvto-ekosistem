@@ -1,46 +1,53 @@
 {
-  "slug": "6b8777dfd2e61cfd59a73b1d71bf0de8",
-  "url": "https://legacy.javavolcano-touroperator.com/bookings/details/6b8777dfd2e61cfd59a73b1d71bf0de8?json=true",
+  "slug": "3dcf81fabfef9074de6c4d69ce09d37d",
+  "url": "https://legacy.javavolcano-touroperator.com/bookings/details/3dcf81fabfef9074de6c4d69ce09d37d?json=true",
   "statusCode": 200,
   "ok": true,
   "json": {
     "success": true,
     "booking": {
-      "id": 3706,
-      "booking_code": "JVR/041/09/26",
-      "booking_id": "JVTO-3706",
-      "url": "6b8777dfd2e61cfd59a73b1d71bf0de8",
+      "id": 3811,
+      "booking_code": "JVR/071/09/26",
+      "booking_id": "JVTO-3811",
+      "url": "3dcf81fabfef9074de6c4d69ce09d37d",
       "status": "booked",
-      "customer_id": 4048,
-      "customer_name": "Julia Möbus",
-      "package_name": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "customer_id": 4136,
+      "customer_name": "Guenievre Marie Mabille de Poncheville",
+      "package_name": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
       "channel": "JVTO",
-      "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
-      "duration": "3D 2N",
-      "travel_date_start": "2026-09-10",
-      "travel_date_end": "2026-09-12",
-      "total_pax": 3,
-      "pickup": "Shanaya Resort Malang",
-      "pickup_time": "12:00:00",
-      "drop": "Ketapang",
+      "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+      "duration": "4D 3N",
+      "travel_date_start": "2026-09-13",
+      "travel_date_end": "2026-09-16",
+      "total_pax": 2,
+      "pickup": "  ",
+      "pickup_time": null,
+      "drop": "Ketapang port",
       "drop_time": "10:00:00",
       "special_requirements": null,
-      "media_link": "https://drive.google.com/drive/folders/1iZQdYGPL_ucynkwccQkkVRTYSLG9_Gkx",
+      "media_link": null,
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 2,
+        "m": 0,
         "l": 0,
-        "xl": 1,
+        "xl": 0,
         "xxl": 0
       },
       "crews": {
-        "guides": [],
+        "guides": [
+          {
+            "id": 2,
+            "name": "Juan",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1698673228_PHOTO JUAN.png",
+            "role": "Ijen Guide"
+          }
+        ],
         "drivers": [
           {
-            "id": 1,
-            "name": "Yandi",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528930_YANDI.JPG",
+            "id": 84,
+            "name": "Zamroni",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1786428769_zamroni Medium.jpeg",
             "role": "Driver"
           }
         ]
@@ -65,65 +72,77 @@
         {
           "day": 1,
           "title": "Day 1",
-          "itinerary": "Surabaya Hotel - Madakaripura - Bromo Area",
-          "activity": "Pick up from Shanaya Resort Malang Hotel - Explore Madakaripura Waterfall - Transfer to hotel in Bromo area  - Check in - Take a rest."
+          "itinerary": "Surabaya Airport - Lumajang",
+          "activity": "Your adventure begins with a pickup at Surabaya Airport (ideally before 12 PM). Afterward, you’ll be transferred to Lumajang (Tumpak Sewu area), which takes approximately 4 hours, with a stop at a local restaurant for lunch (at your own expense). Upon arrival in Lumajang, check into your hotel and enjoy free time to explore or relax."
         },
         {
           "day": 2,
           "title": "Day 2",
-          "itinerary": "Bromo Sunrise - Bondowoso",
-          "activity": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim - Whispering Sands) - Breakfast and Shower - check out - Transfer to hotel in Bondowoso City - Check in - Dinner - Take a rest"
+          "itinerary": "Tumpak Sewu - Bromo Area",
+          "activity": "Your day begins with breakfast from hotel and start to exploring Tumpak Sewu Waterfall, one of the most stunning waterfalls in Java. Known for its unique curtain-like water flow and multiple smaller falls, Tumpak Sewu’s beauty will take your breath away. The trek to the waterfall involves following a river up the canyon and crossing the river at one point (make sure to wear proper trekking shoes). After enjoying the waterfall, take time to relax and have lunch. You’ll then continue the journey to Cemoro Lawang, near Mount Bromo, with a drive of approximately 4 hours. Upon arrival, check in to your hotel and relax overnight in preparation for the next day's adventure."
         },
         {
           "day": 3,
           "title": "Day 3",
-          "itinerary": "Ijen Crater - Ketapang - Bali",
-          "activity": "Check out from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - Depart to Ketapang - take ferry to Gilimanuk Harbour - End Program."
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Bondowoso",
+          "activity": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim- Whispering Sands) - Breakfast and Shower - check out - continue to Madakaripura waterfall - Transfer to hotel in Bondowoso City - Check in - Dinner - Take a rest"
+        },
+        {
+          "day": 4,
+          "title": "Day 4",
+          "itinerary": "Ijen Crater - Bali",
+          "activity": "Start at 12:00 AM, checking out from your hotel and driving to the Paltuding trailhead for Ijen Crater (about 90 minutes). From there, trek approximately 1-1.5 hours to the crater rim, where you’ll witness the spectacular turquoise sulfuric crater lake. You’ll also have the chance to observe sulfur miners carrying heavy loads of sulfur despite the harsh conditions. Enjoy the sunrise at the crater before heading back down. After Ijen Crater, drive to Ketapang Harbor and take the ferry to Bali (about 1.5 hours). Your adventure concludes upon arrival in Bali."
         }
       ],
       "accommodations": [
         {
           "day": 1,
-          "name": "Joglo Kecombrang Bromo",
-          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/kecombrang.jpg",
-          "rooms": "Family (1)"
+          "name": "Artha Cottage",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/artha-cottages.webp",
+          "rooms": "Twin (1)"
         },
         {
           "day": 2,
+          "name": "Joglo Kecombrang Bromo",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/kecombrang.jpg",
+          "rooms": "Double (1)"
+        },
+        {
+          "day": 3,
           "name": "Riverside Homestay",
           "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/riverside.png",
-          "rooms": "Family (1)"
+          "rooms": "Executive Double (1)"
         }
       ],
-      "addons": [],
+      "addons": [
+        {
+          "id": 790,
+          "name": "Madakaripura Waterfall",
+          "qty": 2,
+          "price": 200000,
+          "subtotal": 400000
+        }
+      ],
       "finance": {
-        "grand_total": 9825000,
-        "total_addons": 0,
-        "dp_amount": 1965000,
-        "balance": 0,
-        "paid_amount": 9825000,
-        "due_date": "2026-08-02 00:00:00",
+        "grand_total": 9500000,
+        "total_addons": 400000,
+        "dp_amount": 1900000,
+        "balance": 7600000,
+        "paid_amount": 1900000,
+        "due_date": "2026-08-30 00:00:00",
         "initial_payment_method": "cc",
-        "balance_payment_method": "cc",
-        "payment_link": "https://checkout.xendit.co/web/6a6dd4ce3422bc8ab5db7191",
+        "balance_payment_method": null,
+        "payment_link": null,
         "pending_upload_proof": false,
         "uploaded_payment_proof": null,
         "payment_history": [
           {
-            "id": 817,
-            "nominal": 1965000,
+            "id": 896,
+            "nominal": 1900000,
             "description": "Down Payment",
-            "reference": "https://checkout.xendit.co/web/6a6dd37b41e7427911188743",
+            "reference": "https://checkout.xendit.co/web/6a9283af9172ce3f2383762d",
             "method": "Debit/Credit Card",
-            "created_at": "2026-08-01 18:09:24"
-          },
-          {
-            "id": 818,
-            "nominal": 7860000,
-            "description": "Payment (Paid in Full)",
-            "reference": "https://checkout.xendit.co/web/6a6dd4ce3422bc8ab5db7191",
-            "method": "Debit/Credit Card",
-            "created_at": "2026-08-01 18:14:22"
+            "created_at": "2026-08-29 15:35:38"
           }
         ]
       },

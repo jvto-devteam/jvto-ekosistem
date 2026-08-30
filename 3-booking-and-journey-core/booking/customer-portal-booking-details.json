@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-booking/customer-portal-booking-details-v1",
-  "generated_at": "2026-08-29T07:29:26.308Z",
+  "generated_at": "2026-08-30T05:58:13.020Z",
   "privacy": "No customer names, contact details, portal slugs, payment links, media links, payment references, or uploaded proof URLs are stored.",
-  "record_count": 151,
+  "record_count": 154,
   "records": [
     {
       "booking_id": 1566,
@@ -3016,7 +3016,7 @@
         "due_date": "2026-07-08 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
-        "payment_link_present": false,
+        "payment_link_present": true,
         "pending_upload_proof": false,
         "uploaded_payment_proof_present": false,
         "payment_history": [
@@ -5673,7 +5673,7 @@
         "due_date": "2026-08-06 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
-        "payment_link_present": false,
+        "payment_link_present": true,
         "pending_upload_proof": false,
         "uploaded_payment_proof_present": false,
         "payment_history": [
@@ -6644,12 +6644,12 @@
         "grand_total": 11850000,
         "total_addons": 2750000,
         "dp_amount": 2030000,
-        "balance": 9820000,
-        "paid_amount": 2030000,
+        "balance": 0,
+        "paid_amount": 11850000,
         "due_date": "2026-08-17 00:00:00",
         "initial_payment_method": "cc",
-        "balance_payment_method": null,
-        "payment_link_present": false,
+        "balance_payment_method": "cc",
+        "payment_link_present": true,
         "pending_upload_proof": false,
         "uploaded_payment_proof_present": false,
         "payment_history": [
@@ -6659,6 +6659,22 @@
             "description": "Down Payment",
             "method": "Debit/Credit Card",
             "created_at": "2026-08-16 18:31:47",
+            "reference_present": true
+          },
+          {
+            "id": 898,
+            "nominal": 7070000,
+            "description": "Payment (Paid in Full)",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-30 12:41:36",
+            "reference_present": true
+          },
+          {
+            "id": 899,
+            "nominal": 2750000,
+            "description": "Payment Add On",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-30 12:41:40",
             "reference_present": true
           }
         ]
@@ -7537,8 +7553,8 @@
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 0,
-        "l": 0,
+        "m": 1,
+        "l": 2,
         "xl": 0,
         "xxl": 0
       },
@@ -7562,6 +7578,178 @@
             "description": "Down Payment (Full Payment)",
             "method": "Bank Transfer",
             "created_at": "2026-08-28 14:37:54",
+            "reference_present": true
+          }
+        ]
+      }
+    },
+    {
+      "booking_id": 3811,
+      "booking_ref": "JVTO-3811",
+      "booking_code": "JVR/071/09/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "product": {
+        "package_name": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/tumpak-sewu-bromo-ijen-4d3n",
+        "duration": "4D 3N",
+        "travel_date_start": "2026-09-13",
+        "travel_date_end": "2026-09-16",
+        "total_pax": 2
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "addons": [
+        {
+          "id": 790,
+          "name": "Madakaripura Waterfall",
+          "qty": 2,
+          "price": 200000,
+          "subtotal": 400000
+        }
+      ],
+      "finance": {
+        "grand_total": 9500000,
+        "total_addons": 400000,
+        "dp_amount": 1900000,
+        "balance": 7600000,
+        "paid_amount": 1900000,
+        "due_date": "2026-08-30 00:00:00",
+        "initial_payment_method": "cc",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": [
+          {
+            "id": 896,
+            "nominal": 1900000,
+            "description": "Down Payment",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-29 15:35:38",
+            "reference_present": true
+          }
+        ]
+      }
+    },
+    {
+      "booking_id": 3812,
+      "booking_ref": "JVTO-3812",
+      "booking_code": "JVR/103/08/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "product": {
+        "package_name": "3 Day Bromo & Ijen Volcano Discovery from Bali",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-bali/bromo-ijen-3d2n",
+        "duration": "3D 2N",
+        "travel_date_start": "2026-08-30",
+        "travel_date_end": "2026-09-01",
+        "total_pax": 2
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 1,
+        "l": 1,
+        "xl": 0,
+        "xxl": 0
+      },
+      "addons": [
+        {
+          "id": 786,
+          "name": "CANGGU",
+          "qty": 1,
+          "price": 900000,
+          "subtotal": 900000
+        }
+      ],
+      "finance": {
+        "grand_total": 9000000,
+        "total_addons": 900000,
+        "dp_amount": 9000000,
+        "balance": 0,
+        "paid_amount": 9000000,
+        "due_date": "2026-08-30 00:00:00",
+        "initial_payment_method": "pay later",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": [
+          {
+            "id": 895,
+            "nominal": 9000000,
+            "description": "Down Payment (Full Payment)",
+            "method": "Bank Transfer",
+            "created_at": "2026-08-29 15:18:47",
+            "reference_present": true
+          }
+        ]
+      }
+    },
+    {
+      "booking_id": 3813,
+      "booking_ref": "JVTO-3813",
+      "booking_code": "JVR/072/09/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "product": {
+        "package_name": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Discovery from Bali to Surabaya",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n",
+        "duration": "5D 4N",
+        "travel_date_start": "2026-09-09",
+        "travel_date_end": "2026-09-13",
+        "total_pax": 5
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "addons": [
+        {
+          "id": 788,
+          "name": "Madakaripura Waterfall",
+          "qty": 5,
+          "price": 200000,
+          "subtotal": 1000000
+        },
+        {
+          "id": 789,
+          "name": "Upgrade Accommodation",
+          "qty": 1,
+          "price": 2850000,
+          "subtotal": 2850000
+        }
+      ],
+      "finance": {
+        "grand_total": 28600000,
+        "total_addons": 3850000,
+        "dp_amount": 28600000,
+        "balance": 0,
+        "paid_amount": 28600000,
+        "due_date": "2026-08-30 00:00:00",
+        "initial_payment_method": "cc",
+        "balance_payment_method": "wise",
+        "payment_link_present": false,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": [
+          {
+            "id": 897,
+            "nominal": 25750000,
+            "description": "Down Payment (Full Payment)",
+            "method": "Bank Transfer",
+            "created_at": "2026-08-29 17:24:33",
             "reference_present": true
           }
         ]

@@ -1,63 +1,57 @@
 {
-  "slug": "6b8777dfd2e61cfd59a73b1d71bf0de8",
-  "url": "https://legacy.javavolcano-touroperator.com/bookings/details/6b8777dfd2e61cfd59a73b1d71bf0de8?json=true",
+  "slug": "d0e2991cec0c6fcc6998268891f3b6ef",
+  "url": "https://legacy.javavolcano-touroperator.com/bookings/details/d0e2991cec0c6fcc6998268891f3b6ef?json=true",
   "statusCode": 200,
   "ok": true,
   "json": {
     "success": true,
     "booking": {
-      "id": 3706,
-      "booking_code": "JVR/041/09/26",
-      "booking_id": "JVTO-3706",
-      "url": "6b8777dfd2e61cfd59a73b1d71bf0de8",
+      "id": 3813,
+      "booking_code": "JVR/072/09/26",
+      "booking_id": "JVTO-3813",
+      "url": "d0e2991cec0c6fcc6998268891f3b6ef",
       "status": "booked",
-      "customer_id": 4048,
-      "customer_name": "Julia Möbus",
-      "package_name": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "customer_id": 4138,
+      "customer_name": "Shay Faibish Haliva",
+      "package_name": "5 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Discovery from Bali to Surabaya",
       "channel": "JVTO",
-      "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
-      "duration": "3D 2N",
-      "travel_date_start": "2026-09-10",
-      "travel_date_end": "2026-09-12",
-      "total_pax": 3,
-      "pickup": "Shanaya Resort Malang",
-      "pickup_time": "12:00:00",
-      "drop": "Ketapang",
-      "drop_time": "10:00:00",
+      "package_link": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-5d4n",
+      "duration": "5D 4N",
+      "travel_date_start": "2026-09-09",
+      "travel_date_end": "2026-09-13",
+      "total_pax": 5,
+      "pickup": "Bali Hotel  ",
+      "pickup_time": "10:00:00",
+      "drop": "Surabaya Airport Terminal 2 ",
+      "drop_time": "12:30:00",
       "special_requirements": null,
-      "media_link": "https://drive.google.com/drive/folders/1iZQdYGPL_ucynkwccQkkVRTYSLG9_Gkx",
+      "media_link": null,
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 2,
+        "m": 0,
         "l": 0,
-        "xl": 1,
+        "xl": 0,
         "xxl": 0
       },
       "crews": {
-        "guides": [],
-        "drivers": [
+        "guides": [
           {
-            "id": 1,
-            "name": "Yandi",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528930_YANDI.JPG",
-            "role": "Driver"
+            "id": 39,
+            "name": "Gufron",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528674_GUFRO.jpeg",
+            "role": "Escort Guide"
           }
-        ]
+        ],
+        "drivers": []
       },
       "vehicle_specs": [
         {
-          "name": "MPV",
-          "capacity": "1 - 3 pax",
-          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/cars/avanza.png",
+          "name": "Hiace Commuter",
+          "capacity": "4 - 0 pax",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/cars/hiace.png",
           "interior": [
-            "https://legacy.javavolcano-touroperator.com/assets/img/cars/avanza1.png",
-            "https://legacy.javavolcano-touroperator.com/assets/img/cars/avanza2.jpg",
-            "https://legacy.javavolcano-touroperator.com/assets/img/cars/avanza3.jpg",
-            "https://legacy.javavolcano-touroperator.com/assets/img/cars/avanza4.jpg",
-            "https://legacy.javavolcano-touroperator.com/assets/img/cars/avanza4.jpg",
-            "https://legacy.javavolcano-touroperator.com/assets/img/cars/avanza5.jpg",
-            "https://legacy.javavolcano-touroperator.com/assets/img/cars/avanza6.jpg"
+            "https://legacy.javavolcano-touroperator.com/assets/img/cars/interior-hiace.webp"
           ]
         }
       ],
@@ -65,65 +59,96 @@
         {
           "day": 1,
           "title": "Day 1",
-          "itinerary": "Surabaya Hotel - Madakaripura - Bromo Area",
-          "activity": "Pick up from Shanaya Resort Malang Hotel - Explore Madakaripura Waterfall - Transfer to hotel in Bromo area  - Check in - Take a rest."
+          "itinerary": "Bali - Banyuwangi",
+          "activity": "The tour begins with a pickup from your hotel in Bali. It’s recommended to start before 10 AM Bali local time. From there, enjoy a 4-hour scenic drive to Gilimanuk Port for a ferry crossing to Java (Ketapang Port). The crossing takes about an hour, with views of Mount Agung in Bali and Mount Raung in Java (weather permitting). Upon arrival at Ketapang Port, you’ll be transferred directly to your hotel in Banyuwangi."
         },
         {
           "day": 2,
           "title": "Day 2",
-          "itinerary": "Bromo Sunrise - Bondowoso",
-          "activity": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim - Whispering Sands) - Breakfast and Shower - check out - Transfer to hotel in Bondowoso City - Check in - Dinner - Take a rest"
+          "itinerary": "Ijen Crater - Lumajang",
+          "activity": "Depart from hotel at 12.30 AM - depart to Mount Ijen - start hiking - coffee break - Transfer to hotel at Tumpak Sewu Area - Check In - Take a rest"
         },
         {
           "day": 3,
           "title": "Day 3",
-          "itinerary": "Ijen Crater - Ketapang - Bali",
-          "activity": "Check out from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - Depart to Ketapang - take ferry to Gilimanuk Harbour - End Program."
+          "itinerary": "Tumpak Sewu - Bromo Area",
+          "activity": "Start early at 4 AM and check out from your hotel. Travel to Tumpak Sewu Waterfall, often regarded as the most beautiful waterfall in Java. Its unique formation resembles a curtain of water cascading from 300-meter-high cliffs. Trek through the canyon, following the river and crossing it at one point to fully experience the falls. Trekking sandals or shoes are highly recommended. After enjoying the waterfall and a water spa, have lunch before driving approximately 4 hours to your hotel in the Bromo area. Check in and rest for the next day’s adventure."
+        },
+        {
+          "day": 4,
+          "title": "Day 4",
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya City",
+          "activity": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim- Whispering Sands) - Breakfast and Shower - check out - continue to Madakaripura waterfall - to the next hotel."
+        },
+        {
+          "day": 5,
+          "title": "Day 5",
+          "itinerary": "Hotel - Surabaya Airport",
+          "activity": "After breakfast at your hotel, you’ll be transferred to Juanda International Airport for your flight back home, marking the end of your East Java expedition."
         }
       ],
       "accommodations": [
         {
           "day": 1,
-          "name": "Joglo Kecombrang Bromo",
-          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/kecombrang.jpg",
-          "rooms": "Family (1)"
+          "name": "Luminor Hotel",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/luminor-bwi.jpeg",
+          "rooms": "Deluxe Double (3)"
+        },
+        {
+          "day": 4,
+          "name": "Holiday Inn Express Surabaya Centerpoint, an IHG Hotel",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/holiday-inn.jfif",
+          "rooms": "Double (1)"
         },
         {
           "day": 2,
-          "name": "Riverside Homestay",
-          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/riverside.png",
-          "rooms": "Family (1)"
+          "name": "Artha Cottage",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/artha-cottages.webp",
+          "rooms": "Twin (1), Double (2)"
+        },
+        {
+          "day": 3,
+          "name": "Manis Ae Cabin & Resto Bromo",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/1728394039_2024-05-05.jpg",
+          "rooms": "Single Cabin Double - Weekday (3)"
         }
       ],
-      "addons": [],
+      "addons": [
+        {
+          "id": 788,
+          "name": "Madakaripura Waterfall",
+          "qty": 5,
+          "price": 200000,
+          "subtotal": 1000000
+        },
+        {
+          "id": 789,
+          "name": "Upgrade Accommodation",
+          "qty": 1,
+          "price": 2850000,
+          "subtotal": 2850000
+        }
+      ],
       "finance": {
-        "grand_total": 9825000,
-        "total_addons": 0,
-        "dp_amount": 1965000,
+        "grand_total": 28600000,
+        "total_addons": 3850000,
+        "dp_amount": 28600000,
         "balance": 0,
-        "paid_amount": 9825000,
-        "due_date": "2026-08-02 00:00:00",
+        "paid_amount": 28600000,
+        "due_date": "2026-08-30 00:00:00",
         "initial_payment_method": "cc",
-        "balance_payment_method": "cc",
-        "payment_link": "https://checkout.xendit.co/web/6a6dd4ce3422bc8ab5db7191",
+        "balance_payment_method": "wise",
+        "payment_link": null,
         "pending_upload_proof": false,
         "uploaded_payment_proof": null,
         "payment_history": [
           {
-            "id": 817,
-            "nominal": 1965000,
-            "description": "Down Payment",
-            "reference": "https://checkout.xendit.co/web/6a6dd37b41e7427911188743",
-            "method": "Debit/Credit Card",
-            "created_at": "2026-08-01 18:09:24"
-          },
-          {
-            "id": 818,
-            "nominal": 7860000,
-            "description": "Payment (Paid in Full)",
-            "reference": "https://checkout.xendit.co/web/6a6dd4ce3422bc8ab5db7191",
-            "method": "Debit/Credit Card",
-            "created_at": "2026-08-01 18:14:22"
+            "id": 897,
+            "nominal": 25750000,
+            "description": "Down Payment (Full Payment)",
+            "reference": "https://checkout.xendit.co/web/6a929cce61a1ae3ecd08a9e7",
+            "method": "Bank Transfer",
+            "created_at": "2026-08-29 17:24:33"
           }
         ]
       },
