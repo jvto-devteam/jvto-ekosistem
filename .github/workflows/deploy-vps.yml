@@ -413,7 +413,7 @@ jobs:
             }
           }
 
-          process.stdout.write(JSON.stringify({ routes: [...routes] }));
+          process.stdout.write(JSON.stringify({ routes: [...routes].sort() }));
           NODE
 
           http_status="$(curl -sS -o /tmp/jvto-web-revalidate-response.json -w '%{http_code}' \
