@@ -13,6 +13,7 @@ import { generateTouristTripSchemaOutputs } from "./generate-tourist-trip-schema
 // upstream (auth change, filter regression, partial outage) than reality.
 const MASS_REMOVAL_THRESHOLD = 0.3;
 const DETAIL_FILE_SUFFIX = ".raw.json";
+const DETAIL_FETCH_CONCURRENCY = 5;
 
 function currentAndNextMonth(now) {
   const year = now.getUTCFullYear();
@@ -31,6 +32,22 @@ async function readJsonIfExists(filePath, fallback) {
     if (err.code === "ENOENT") return fallback;
     throw err;
   }
+}
+
+async function mapWithConcurrency(items, worker, limit = 4) {
+  if (!items.length) return [];
+  const results = new Array(items.length);
+  let nextIndex = 0;
+
+  const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
+    while (nextIndex < items.length) {
+      const currentIndex = nextIndex++;
+      results[currentIndex] = await worker(items[currentIndex], currentIndex);
+    }
+  });
+
+  await Promise.all(workers);
+  return results;
 }
 
 export async function runSync({
@@ -103,19 +120,27 @@ export async function runSync({
     );
   }
 
-  const detailResults = [];
-  const failedDetailBookingIds = [];
-  const failedDetailSlugs = [];
-  for (const bookingId of [...diff.added, ...diff.updated]) {
-    const slug = diff.manifest[bookingId].slug;
-    if (!slug) continue;
-    const detail = await fetchCustomerPortalDetail(slug);
-    detailResults.push(detail);
-    if (!detail.ok) {
-      failedDetailBookingIds.push(bookingId);
-      failedDetailSlugs.push(slug);
-    }
-  }
+  const detailEntries = await mapWithConcurrency(
+    [...diff.added, ...diff.updated],
+    async (bookingId) => {
+      const slug = diff.manifest[bookingId]?.slug;
+      if (!slug) return null;
+      const detail = await fetchCustomerPortalDetail(slug);
+      return { bookingId, slug, detail };
+    },
+    DETAIL_FETCH_CONCURRENCY,
+  );
+
+  const detailResults = detailEntries
+    .filter(Boolean)
+    .map((entry) => entry.detail);
+
+  const failedDetailBookingIds = detailEntries
+    .filter((entry) => entry && !entry.detail.ok)
+    .map((entry) => entry.bookingId);
+  const failedDetailSlugs = detailEntries
+    .filter((entry) => entry && !entry.detail.ok)
+    .map((entry) => entry.slug);
 
   const report = {
     generatedAt: now.toISOString(),
@@ -186,9 +211,10 @@ export async function runSync({
   await writeFile(path.join(overviewDir, "sync-manifest.json"), JSON.stringify(persistedManifest, null, 2) + "\n");
   await writeFile(path.join(overviewDir, "sync-report.json"), JSON.stringify(report, null, 2) + "\n");
 
+  const detailBySlug = new Map(detailResults.map((detail) => [detail.slug, detail]));
   const manifestEntries = [...diff.added, ...diff.updated, ...diff.unchanged].map((bookingId) => {
     const slug = diff.manifest[bookingId].slug;
-    const fresh = detailResults.find((d) => d.slug === slug);
+    const fresh = detailBySlug.get(slug);
     if (fresh) {
       return { slug: fresh.slug, url: fresh.url, statusCode: fresh.statusCode, ok: fresh.ok, error: fresh.error };
     }
@@ -229,3 +255,4 @@ if (isMainModule) {
     );
   }
 }
+
