@@ -22,28 +22,10 @@ const SOURCE_DIRS = [
   "1-knowledge-and-evidence-core/tours",
   "1-knowledge-and-evidence-core/home"
 ];
-const RENDER_CONCURRENCY = 4;
 let peopleCache = null;
-let externalEntitiesCache = null;
 
 function routeToOutputBase(route) {
   return route.split("/").filter(Boolean).join("__") || "home";
-}
-
-async function mapWithConcurrency(items, worker, limit = 4) {
-  if (!items.length) return [];
-  const results = new Array(items.length);
-  let nextIndex = 0;
-
-  const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
-    while (nextIndex < items.length) {
-      const currentIndex = nextIndex++;
-      results[currentIndex] = await worker(items[currentIndex], currentIndex);
-    }
-  });
-
-  await Promise.all(workers);
-  return results;
 }
 
 let reviewsCache = null;
@@ -61,13 +43,6 @@ async function loadPublishedReviews() {
     }
   }
   return reviewsCache;
-}
-
-async function loadExternalEntitiesOnce() {
-  if (!externalEntitiesCache) {
-    externalEntitiesCache = await loadExternalEntities(ROOT);
-  }
-  return externalEntitiesCache;
 }
 
 async function loadPeople() {
@@ -191,7 +166,7 @@ async function buildSchemaOutput(source) {
   const pageUrl = `https://javavolcano-touroperator.com${source.route}`;
   const nodes = [];
 
-  const externalEntities = await loadExternalEntitiesOnce();
+  const externalEntities = await loadExternalEntities(ROOT);
   const orgNode = await buildOrganizationNode(ROOT, source.route);
   nodes.push(orgNode);
 
@@ -274,58 +249,47 @@ function buildFeedRecord(source) {
   };
 }
 
-async function processSourceFile(sourceFile) {
-  const source = await readJson(sourceFile);
-  const base = routeToOutputBase(source.route);
-  const websiteOutputPath = `5-experience-engine/public-website/pages/${base}.website-output.json`;
-  const schemaOutputPath = `5-experience-engine/json-ld/pages/${base}.schema-output.json`;
-  const websiteOutput = buildWebsiteOutput(source);
-  const schemaOutput = await buildSchemaOutput(source);
-
-  await writeFile(path.join(ROOT, websiteOutputPath), `${JSON.stringify(websiteOutput, null, 2)}\n`);
-  await writeFile(path.join(ROOT, schemaOutputPath), `${JSON.stringify(schemaOutput, null, 2)}\n`);
-
-  return {
-    source,
-    routeIndexEntry: {
-      route: source.route,
-      domain: source.domain,
-      slug: source.slug,
-      websiteOutput: websiteOutputPath,
-      schemaOutput: schemaOutputPath
-    },
-    sourceOutputMapEntry: {
-      source: sourceFile,
-      outputs: [
-        websiteOutputPath,
-        schemaOutputPath,
-        "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
-      ]
-    },
-    feedRecord: buildFeedRecord(source)
-  };
-}
-
 async function main() {
   const sourceFiles = (await Promise.all(SOURCE_DIRS.map(listSourceFiles))).flat().sort();
-  const processed = await mapWithConcurrency(sourceFiles, processSourceFile, RENDER_CONCURRENCY);
   const sources = [];
-  const routeIndex = [];
-  const sourceOutputMap = [];
-  const feedRecords = [];
-
-  for (const item of processed) {
-    sources.push(item.source);
-    routeIndex.push(item.routeIndexEntry);
-    sourceOutputMap.push(item.sourceOutputMapEntry);
-    feedRecords.push(item.feedRecord);
-  }
 
   await cleanGeneratedOutputs();
   await mkdir(path.join(ROOT, "5-experience-engine/public-website/pages"), { recursive: true });
   await mkdir(path.join(ROOT, "5-experience-engine/json-ld/pages"), { recursive: true });
   await mkdir(path.join(ROOT, "5-experience-engine/knowledge-feed"), { recursive: true });
   await mkdir(path.join(ROOT, "5-experience-engine/manifests"), { recursive: true });
+
+  const routeIndex = [];
+  const sourceOutputMap = [];
+  const feedRecords = [];
+
+  for (const sourceFile of sourceFiles) {
+    const source = await readJson(sourceFile);
+    sources.push(source);
+    const base = routeToOutputBase(source.route);
+    const websiteOutputPath = `5-experience-engine/public-website/pages/${base}.website-output.json`;
+    const schemaOutputPath = `5-experience-engine/json-ld/pages/${base}.schema-output.json`;
+
+    await writeFile(path.join(ROOT, websiteOutputPath), `${JSON.stringify(buildWebsiteOutput(source), null, 2)}\n`);
+    await writeFile(path.join(ROOT, schemaOutputPath), `${JSON.stringify(await buildSchemaOutput(source), null, 2)}\n`);
+
+    routeIndex.push({
+      route: source.route,
+      domain: source.domain,
+      slug: source.slug,
+      websiteOutput: websiteOutputPath,
+      schemaOutput: schemaOutputPath
+    });
+    sourceOutputMap.push({
+      source: sourceFile,
+      outputs: [
+        websiteOutputPath,
+        schemaOutputPath,
+        "5-experience-engine/knowledge-feed/public-web-content.feed-output.json"
+      ]
+    });
+    feedRecords.push(buildFeedRecord(source));
+  }
 
   const feed = {
     schema_version: "jvto/output/knowledge-feed/v1",
@@ -364,4 +328,3 @@ main().catch((error) => {
   console.error(error);
   process.exit(1);
 });
-
