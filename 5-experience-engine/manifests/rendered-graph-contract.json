@@ -1,0 +1,1579 @@
+{
+  "schema_version": "jvto/contract/rendered-graph/v1",
+  "generated_at": "2026-08-30T00:00:00Z",
+  "status": "active",
+  "derived_from": {
+    "evidence": "jvto-web/docs/audit/baseline-2026-08-30/live_html_url_audit.csv",
+    "urls_observed": 296,
+    "method": "requiredNodes = (irisan @type jangkar di semua halaman group) UNION (lapisan intent) MINUS forbiddenNodes. Tipe anak struktural dikecualikan dari requiredNodes dan divalidasi lewat induknya.",
+    "companion_artifacts": [
+      "jvto-web/docs/audit/baseline-2026-08-30/schema_contract_check.csv",
+      "jvto-web/docs/audit/baseline-2026-08-30/conflict_register.csv",
+      "jvto-web/docs/audit/baseline-2026-08-30/handoff_register.csv"
+    ]
+  },
+  "globalRules": {
+    "idMustBeAbsolute": true,
+    "allNodesRequireId": [
+      "AboutPage",
+      "AggregateOffer",
+      "AggregateRating",
+      "Article",
+      "Award",
+      "BlogPosting",
+      "Book",
+      "BreadcrumbList",
+      "CheckAction",
+      "CollectionPage",
+      "DefinedTerm",
+      "DefinedTermSet",
+      "DigitalDocument",
+      "EducationalOccupationalCredential",
+      "FAQPage",
+      "GovernmentOrganization",
+      "GovernmentService",
+      "HowTo",
+      "ItemList",
+      "Legislation",
+      "MedicalBusiness",
+      "NewsArticle",
+      "Organization,TravelAgency,LocalBusiness",
+      "Person",
+      "Physician",
+      "Place",
+      "Product",
+      "ProfilePage",
+      "Report",
+      "ReserveAction",
+      "Review",
+      "Service",
+      "SpecialAnnouncement",
+      "TouristAttraction",
+      "TouristTrip",
+      "WebApplication",
+      "WebPage",
+      "WebPage,Article",
+      "WebSite"
+    ],
+    "checkDepth": "recursive",
+    "entityIdentity": {
+      "Person:crew": "{origin}/why-jvto/our-team/{slug}#person",
+      "Review": "{origin}/why-jvto/reviews/{id}#review",
+      "Organization:jvto": "{origin}/#organization"
+    },
+    "questionSemantics": {
+      "Question.name": "harus diakhiri '?' atau klausa interogatif"
+    },
+    "urlLivenessRequired": [
+      "TouristAttraction",
+      "Product",
+      "Place"
+    ],
+    "canonicalDestinations": [
+      "mount-bromo",
+      "ijen-crater",
+      "tumpak-sewu-waterfall",
+      "madakaripura-waterfall",
+      "papuma-beach",
+      "bangsring-underwater",
+      "taman-safari-prigen"
+    ],
+    "foundingDate": {
+      "value": "2015",
+      "authority": "1-knowledge-and-evidence-core/organization-identity/organization.json",
+      "note": "owner decision 2026-08-03 & dikonfirmasi ulang 2026-08-30. PT incorporation 2016-01-01 dan TDUP 2023-02-11 adalah fakta legal terpisah, bukan foundingDate."
+    },
+    "transportIntegrity": {
+      "rule": "loader fallback tidak boleh gagal senyap",
+      "note": "readLocal() gagal -> getOutput() null -> notFound() terpanggang ke cache ISR. Insiden 2026-08-21: 11 halaman crew 404 permanen. Ref handoff T001."
+    },
+    "singletonExemptions": {
+      "TouristTrip": "node hari (#day-N) sah berulang sebagai subTrip dari node tur induk — bukan pelanggaran singleton"
+    },
+    "aggregateRating": {
+      "rule": "aggregateRating halaman tur dihitung dari review tur itu sendiri, dan dihilangkan sepenuhnya bila tur itu belum punya review",
+      "decisionRef": "per-tour-aggregate-rating"
+    },
+    "contentSignal": {
+      "value": "search=yes,ai-train=yes,use=reference",
+      "decisionRef": "content-signal-ai-train"
+    },
+    "retiredRules": [
+      {
+        "rule": "canonical & duplicate-intent checks di `npm run validate routes`",
+        "status": "retired",
+        "decisionRef": "validate-routes-registry",
+        "note": "src/lib/registry/pages.ts dihapus 3925805f (2026-08-15). Jangan dihidupkan kembali."
+      },
+      {
+        "rule": "notice jembatan Madakaripura",
+        "status": "retired",
+        "date": "2026-08-30",
+        "note": "Pemilik menyatakan jembatan sudah efektif dibuka. Tidak ada catatan kerusakan di SSOT maupun git history. Fakta basi, bukan notice yang hilang."
+      }
+    ]
+  },
+  "baselineViolations": {
+    "generated_from": "produksi 2026-08-30",
+    "count": 14,
+    "items": [
+      {
+        "group": "destinations",
+        "rule": "requiredNode_absent",
+        "type": "WebPage",
+        "routes_affected": 1,
+        "sample": [
+          "/destinations"
+        ]
+      },
+      {
+        "group": "entity",
+        "rule": "requiredNode_absent",
+        "type": "BreadcrumbList",
+        "routes_affected": 1,
+        "sample": [
+          "/entity"
+        ]
+      },
+      {
+        "group": "entity",
+        "rule": "requiredNode_absent",
+        "type": "Organization,TravelAgency,LocalBusiness",
+        "routes_affected": 1,
+        "sample": [
+          "/entity"
+        ]
+      },
+      {
+        "group": "entity",
+        "rule": "requiredNode_absent",
+        "type": "WebPage",
+        "routes_affected": 1,
+        "sample": [
+          "/entity"
+        ]
+      },
+      {
+        "group": "entity",
+        "rule": "requiredNode_absent",
+        "type": "WebSite",
+        "routes_affected": 1,
+        "sample": [
+          "/entity"
+        ]
+      },
+      {
+        "group": "policy",
+        "rule": "requiredNode_absent",
+        "type": "WebPage",
+        "routes_affected": 1,
+        "sample": [
+          "/policy"
+        ]
+      },
+      {
+        "group": "tours",
+        "rule": "requiredNode_absent",
+        "type": "WebPage",
+        "routes_affected": 1,
+        "sample": [
+          "/tours"
+        ]
+      },
+      {
+        "group": "travel-guide",
+        "rule": "requiredNode_absent",
+        "type": "WebPage",
+        "routes_affected": 1,
+        "sample": [
+          "/travel-guide"
+        ]
+      },
+      {
+        "group": "travel-guide/detail",
+        "rule": "requiredNode_absent",
+        "type": "WebPage",
+        "routes_affected": 2,
+        "sample": [
+          "/travel-guide/tumpak-sewu-logistics",
+          "/travel-guide/mount-bromo-logistics"
+        ]
+      },
+      {
+        "group": "why-jvto/reviews-detail",
+        "rule": "requiredNode_absent",
+        "type": "BreadcrumbList",
+        "routes_affected": 222,
+        "sample": [
+          "/why-jvto/reviews/62",
+          "/why-jvto/reviews/63",
+          "/why-jvto/reviews/64"
+        ]
+      },
+      {
+        "group": "why-jvto/reviews-detail",
+        "rule": "forbiddenNode_present",
+        "type": "Product",
+        "routes_affected": 222,
+        "sample": [
+          "/why-jvto/reviews/62",
+          "/why-jvto/reviews/63",
+          "/why-jvto/reviews/64"
+        ]
+      },
+      {
+        "group": "destinations/detail",
+        "rule": "singleton_duplicated",
+        "type": "WebPage",
+        "routes_affected": 1,
+        "sample": [
+          "/destinations/ijen-crater"
+        ]
+      },
+      {
+        "group": "policy/detail",
+        "rule": "singleton_duplicated",
+        "type": "WebPage",
+        "routes_affected": 3,
+        "sample": [
+          "/policy/booking-payment-cancellation",
+          "/policy/privacy",
+          "/policy/inclusions-exclusions"
+        ]
+      },
+      {
+        "group": "verify-jvto",
+        "rule": "singleton_duplicated",
+        "type": "WebPage",
+        "routes_affected": 1,
+        "sample": [
+          "/verify-jvto"
+        ]
+      }
+    ]
+  },
+  "routeGroups": {
+    "blog": {
+      "match": "^/blog$",
+      "routeCount": 1,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList"
+        ]
+      }
+    },
+    "blog/detail": {
+      "match": "^/blog/[^/]+$",
+      "routeCount": 3,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "Article",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "BlogPosting",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList"
+        ]
+      }
+    },
+    "contact": {
+      "match": "^/contact$",
+      "routeCount": 1,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList"
+        ]
+      }
+    },
+    "destinations": {
+      "match": "^/destinations$",
+      "routeCount": 1,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "CollectionPage",
+          "owner": "web",
+          "id": "{route}#collectionpage"
+        },
+        {
+          "type": "ItemList",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "Place",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "TouristAttraction",
+          "owner": "ekosistem",
+          "id": "{origin}/destinations/{slug}#attraction"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList",
+          "CollectionPage"
+        ],
+        "urlLivenessRequired": [
+          "TouristAttraction"
+        ]
+      }
+    },
+    "destinations/detail": {
+      "match": "^/destinations/[^/]+$",
+      "routeCount": 5,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "ItemList",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "TouristAttraction",
+          "owner": "ekosistem",
+          "id": "{origin}/destinations/{slug}#attraction"
+        },
+        {
+          "type": "TouristTrip",
+          "owner": "ekosistem",
+          "id": "{route}#tour"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList"
+        ],
+        "urlLivenessRequired": [
+          "TouristAttraction"
+        ]
+      }
+    },
+    "entity": {
+      "match": "^/entity$",
+      "routeCount": 1,
+      "requiredNodes": [
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "CollectionPage",
+          "owner": "web",
+          "id": "{route}#collectionpage"
+        },
+        {
+          "type": "DigitalDocument",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "GovernmentOrganization",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "Place",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList",
+          "CollectionPage"
+        ]
+      }
+    },
+    "home": {
+      "match": "^/$",
+      "routeCount": 1,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "Book",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "DefinedTerm",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "DefinedTermSet",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "DigitalDocument",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "EducationalOccupationalCredential",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "FAQPage",
+          "owner": "web",
+          "id": "{route}#faq"
+        },
+        {
+          "type": "GovernmentOrganization",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "GovernmentService",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "MedicalBusiness",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "NewsArticle",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "Person",
+          "owner": "ekosistem",
+          "id": "{origin}/why-jvto/our-team/{slug}#person"
+        },
+        {
+          "type": "Physician",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Place",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Service",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "WebApplication",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "exemptions": [
+          {
+            "rule": "uiParityRequired",
+            "type": "FAQPage",
+            "decisionRef": "homepage-answer-block",
+            "date": "2026-08-27",
+            "reason": "Hero homepage sengaja tidak merender answer block. Jawaban entitas tetap mengalir ke home.website-output.json dan knowledge feed. Keputusan ini secara eksplisit memperingatkan agar tidak dibalik oleh pengukuran."
+          }
+        ]
+      }
+    },
+    "isic/detail": {
+      "match": "^/isic/[^/]+$",
+      "routeCount": 1,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "ItemList",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList"
+        ]
+      }
+    },
+    "markets/detail": {
+      "match": "^/markets/[^/]+$",
+      "routeCount": 2,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "FAQPage",
+          "owner": "web",
+          "id": "{route}#faq"
+        },
+        {
+          "type": "ItemList",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "Place",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "TouristTrip",
+          "owner": "ekosistem",
+          "id": "{route}#tour"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "uiParityRequired": [
+          {
+            "type": "FAQPage",
+            "field": "mainEntity[].name",
+            "mustAppearInRenderedText": true
+          }
+        ]
+      }
+    },
+    "policy": {
+      "match": "^/policy$",
+      "routeCount": 1,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "CollectionPage",
+          "owner": "web",
+          "id": "{route}#collectionpage"
+        },
+        {
+          "type": "ItemList",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList",
+          "CollectionPage"
+        ]
+      }
+    },
+    "policy/detail": {
+      "match": "^/policy/[^/]+$",
+      "routeCount": 3,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList"
+        ]
+      }
+    },
+    "tours": {
+      "match": "^/tours$",
+      "routeCount": 1,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "CollectionPage",
+          "owner": "web",
+          "id": "{route}#collectionpage"
+        },
+        {
+          "type": "FAQPage",
+          "owner": "web",
+          "id": "{route}#faq"
+        },
+        {
+          "type": "ItemList",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList",
+          "FAQPage",
+          "CollectionPage"
+        ],
+        "uiParityRequired": [
+          {
+            "type": "FAQPage",
+            "field": "mainEntity[].name",
+            "mustAppearInRenderedText": true
+          }
+        ]
+      }
+    },
+    "tours/detail": {
+      "match": "^/tours/(from-surabaya|from-bali)/[^/]+$",
+      "routeCount": 17,
+      "requiredNodes": [
+        {
+          "type": "AggregateOffer",
+          "owner": "ekosistem",
+          "id": "{route}#aggregateOffer"
+        },
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "FAQPage",
+          "owner": "web",
+          "id": "{route}#faq"
+        },
+        {
+          "type": "ItemList",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "Place",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Product",
+          "owner": "ekosistem",
+          "id": "{route}#product"
+        },
+        {
+          "type": "ReserveAction",
+          "owner": "web"
+        },
+        {
+          "type": "TouristAttraction",
+          "owner": "ekosistem",
+          "id": "{origin}/destinations/{slug}#attraction"
+        },
+        {
+          "type": "TouristTrip",
+          "owner": "ekosistem",
+          "id": "{route}#tour"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList",
+          "FAQPage",
+          "Product",
+          "AggregateOffer"
+        ],
+        "uiParityRequired": [
+          {
+            "type": "FAQPage",
+            "field": "mainEntity[].name",
+            "mustAppearInRenderedText": true
+          }
+        ],
+        "urlLivenessRequired": [
+          "TouristAttraction",
+          "Product"
+        ]
+      }
+    },
+    "tours/origin-hub": {
+      "match": "^/tours/(from-surabaya|from-bali)$",
+      "routeCount": 2,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "CollectionPage",
+          "owner": "web",
+          "id": "{route}#collectionpage"
+        },
+        {
+          "type": "FAQPage",
+          "owner": "web",
+          "id": "{route}#faq"
+        },
+        {
+          "type": "ItemList",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "Place",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList",
+          "FAQPage",
+          "CollectionPage"
+        ],
+        "uiParityRequired": [
+          {
+            "type": "FAQPage",
+            "field": "mainEntity[].name",
+            "mustAppearInRenderedText": true
+          }
+        ]
+      }
+    },
+    "travel-guide": {
+      "match": "^/travel-guide$",
+      "routeCount": 1,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "CollectionPage",
+          "owner": "web",
+          "id": "{route}#collectionpage"
+        },
+        {
+          "type": "FAQPage",
+          "owner": "web",
+          "id": "{route}#faq"
+        },
+        {
+          "type": "ItemList",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList",
+          "FAQPage",
+          "CollectionPage"
+        ],
+        "uiParityRequired": [
+          {
+            "type": "FAQPage",
+            "field": "mainEntity[].name",
+            "mustAppearInRenderedText": true
+          }
+        ]
+      }
+    },
+    "travel-guide/detail": {
+      "match": "^/travel-guide/[^/]+$",
+      "routeCount": 11,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList"
+        ]
+      }
+    },
+    "verify-jvto": {
+      "match": "^/verify-jvto$",
+      "routeCount": 1,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "Book",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "CheckAction",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "CollectionPage",
+          "owner": "web",
+          "id": "{route}#collectionpage"
+        },
+        {
+          "type": "DigitalDocument",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "EducationalOccupationalCredential",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "FAQPage",
+          "owner": "web",
+          "id": "{route}#faq"
+        },
+        {
+          "type": "GovernmentOrganization",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "HowTo",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Legislation",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "MedicalBusiness",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "NewsArticle",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "Person",
+          "owner": "ekosistem",
+          "id": "{origin}/why-jvto/our-team/{slug}#person"
+        },
+        {
+          "type": "Physician",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Place",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList",
+          "FAQPage",
+          "CollectionPage"
+        ],
+        "uiParityRequired": [
+          {
+            "type": "FAQPage",
+            "field": "mainEntity[].name",
+            "mustAppearInRenderedText": true
+          }
+        ]
+      }
+    },
+    "verify-jvto/detail": {
+      "match": "^/verify-jvto/[^/]+$",
+      "routeCount": 4,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "DigitalDocument",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "FAQPage",
+          "owner": "web",
+          "id": "{route}#faq"
+        },
+        {
+          "type": "ItemList",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "uiParityRequired": [
+          {
+            "type": "FAQPage",
+            "field": "mainEntity[].name",
+            "mustAppearInRenderedText": true
+          }
+        ]
+      }
+    },
+    "why-jvto": {
+      "match": "^/why-jvto$",
+      "routeCount": 1,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "FAQPage",
+          "owner": "web",
+          "id": "{route}#faq"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "uiParityRequired": [
+          {
+            "type": "FAQPage",
+            "field": "mainEntity[].name",
+            "mustAppearInRenderedText": true
+          }
+        ]
+      }
+    },
+    "why-jvto/crew-detail": {
+      "match": "^/why-jvto/our-team/[^/]+$",
+      "routeCount": 11,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "EducationalOccupationalCredential",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "Person",
+          "owner": "ekosistem",
+          "id": "{origin}/why-jvto/our-team/{slug}#person"
+        },
+        {
+          "type": "ProfilePage",
+          "owner": "web",
+          "id": "{route}#profilepage"
+        },
+        {
+          "type": "Review",
+          "owner": "ekosistem",
+          "id": "{origin}/why-jvto/reviews/{id}#review"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "BreadcrumbList",
+          "ProfilePage"
+        ]
+      }
+    },
+    "why-jvto/detail": {
+      "match": "^/why-jvto/[^/]+$",
+      "routeCount": 5,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "FAQPage",
+          "owner": "web",
+          "id": "{route}#faq"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "uiParityRequired": [
+          {
+            "type": "FAQPage",
+            "field": "mainEntity[].name",
+            "mustAppearInRenderedText": true
+          }
+        ]
+      }
+    },
+    "why-jvto/reviews-detail": {
+      "match": "^/why-jvto/reviews/\\d+$",
+      "routeCount": 222,
+      "requiredNodes": [
+        {
+          "type": "AggregateRating",
+          "owner": "ekosistem",
+          "id": "{route}#aggregaterating"
+        },
+        {
+          "type": "BreadcrumbList",
+          "owner": "web",
+          "id": "{route}#breadcrumb"
+        },
+        {
+          "type": "Organization",
+          "owner": "ekosistem"
+        },
+        {
+          "type": "Organization,TravelAgency,LocalBusiness",
+          "owner": "web",
+          "id": "{origin}/#organization"
+        },
+        {
+          "type": "Person",
+          "owner": "ekosistem",
+          "id": "{origin}/why-jvto/our-team/{slug}#person"
+        },
+        {
+          "type": "Review",
+          "owner": "ekosistem",
+          "id": "{origin}/why-jvto/reviews/{id}#review"
+        },
+        {
+          "type": "WebPage",
+          "owner": "web",
+          "id": "{route}#webpage"
+        },
+        {
+          "type": "WebSite",
+          "owner": "web",
+          "id": "{origin}/#website"
+        }
+      ],
+      "rules": {
+        "singletonTypes": [
+          "WebSite",
+          "WebPage",
+          "BreadcrumbList"
+        ],
+        "forbiddenNodes": [
+          "Product"
+        ]
+      }
+    }
+  },
+  "governance": {
+    "source": "state/goals.json",
+    "rule": "Setiap rule di kontrak ini yang bertentangan dengan sebuah decision di state/goals.json BATAL. Gerbang tidak boleh membalik keputusan pemilik yang tercatat.",
+    "decisionsHonored": [
+      "homepage-answer-block",
+      "per-tour-aggregate-rating",
+      "validate-routes-registry",
+      "content-signal-ai-train",
+      "madakaripura-height",
+      "answer-first-fact-count-severity"
+    ]
+  },
+  "scopeBoundary": {
+    "coveredByThisGate": [
+      "graf JSON-LD terender per route",
+      "kehadiran/larangan node",
+      "pola @id & identitas entitas",
+      "singleton",
+      "parity FAQ vs teks terender",
+      "liveness URL node"
+    ],
+    "notCoveredByThisGate": [
+      {
+        "area": "aset non-HTML (PDF/PNG) yang ditautkan halaman live",
+        "ref": "D21 — SIP dokter, P0",
+        "why": "gerbang membaca HTML; PDF tanpa lapisan teks tembus dari semua checker berbasis teks",
+        "needs": "mekanisme terpisah: inventaris aset + tinjauan manusia"
+      },
+      {
+        "area": "keamanan transport & paparan host ekosistem",
+        "ref": "D10, D22, D23",
+        "why": "soal auth/rate-limit/kopling path, bukan soal isi graf",
+        "needs": "hardening server.mjs — handoff T001"
+      }
+    ]
+  }
+}
