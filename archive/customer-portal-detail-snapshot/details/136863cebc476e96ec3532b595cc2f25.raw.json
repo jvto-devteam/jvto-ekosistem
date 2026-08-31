@@ -139,11 +139,11 @@
         "grand_total": 11300000,
         "total_addons": 400000,
         "dp_amount": 2260000,
-        "balance": 9040000,
-        "paid_amount": 2260000,
+        "balance": 0,
+        "paid_amount": 11300000,
         "due_date": "2026-08-06 00:00:00",
         "initial_payment_method": "cc",
-        "balance_payment_method": null,
+        "balance_payment_method": "wise",
         "payment_link": "https://checkout.xendit.co/web/6a92950d2d93dba6830e8aba",
         "pending_upload_proof": false,
         "uploaded_payment_proof": null,
@@ -155,6 +155,22 @@
             "reference": "https://checkout.xendit.co/web/6a730c57e2c2ed0ac427372f",
             "method": "Bank Transfer",
             "created_at": "2026-08-05 21:40:04"
+          },
+          {
+            "id": 902,
+            "nominal": 8640000,
+            "description": "Full payment",
+            "reference": "https://prnt.sc/vvUlRn66jRda",
+            "method": "WISE",
+            "created_at": "2026-08-30 22:30:09"
+          },
+          {
+            "id": 903,
+            "nominal": 400000,
+            "description": "Payment Add On",
+            "reference": "https://prnt.sc/vvUlRn66jRda",
+            "method": "WISE",
+            "created_at": "2026-08-30 22:30:26"
           }
         ]
       },

@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-operations/customer-portal-accommodations-v1",
-  "generated_at": "2026-08-30T05:58:13.026Z",
+  "generated_at": "2026-08-31T06:19:21.624Z",
   "record_count": 154,
   "records": [
     {
@@ -2048,8 +2048,8 @@
         },
         {
           "day": 5,
-          "name": "Harris Hotel Satelit",
-          "rooms": "Twin Room (1)",
+          "name": "Hotel Platinum Tunjungan Surabaya",
+          "rooms": "",
           "banner_present": true
         }
       ]

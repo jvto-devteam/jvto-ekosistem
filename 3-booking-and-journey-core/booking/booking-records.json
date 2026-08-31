@@ -15432,16 +15432,16 @@
         "meetingPoint": "Surabaya Airport",
         "arrival": "Terminal 2",
         "value": "TR296",
-        "time": "09:50",
-        "text": "Surabaya Airport Terminal 2 TR296",
+        "time": "10:10",
+        "text": "Surabaya Airport (TR296)",
         "complete": true
       },
       "dropoff": {
         "dropPoint": "Surabaya Airport",
         "arrival": "Terminal 2",
         "value": "TR267",
-        "time": "17:50",
-        "text": "Surabaya Airport Terminal 2 TR267",
+        "time": "17:00",
+        "text": "Surabaya Airport (TR267)",
         "complete": true
       },
       "itinerary": [
@@ -16069,7 +16069,7 @@
           "id": 9,
           "name": "GARAGE",
           "tags": "TWT,JVTO,KLOOK",
-          "monthlyEscortCount": 10
+          "monthlyEscortCount": 9
         }
       ],
       "guides": [
@@ -16244,16 +16244,9 @@
         }
       },
       "vehicles": [
-        "Hiace Premio"
+        "Innova Reborn"
       ],
-      "drivers": [
-        {
-          "id": 9,
-          "name": "GARAGE",
-          "tags": "TWT,JVTO,KLOOK",
-          "monthlyEscortCount": 10
-        }
-      ],
+      "drivers": [],
       "guides": [
         {
           "id": 39,
@@ -16282,7 +16275,7 @@
         "hasPickup": true,
         "hasDropoff": true,
         "hasVehicle": true,
-        "hasDriver": true,
+        "hasDriver": false,
         "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
@@ -16405,7 +16398,7 @@
           "id": 80,
           "name": "Sahril",
           "tags": "JVTO,KLOOK",
-          "monthlyEscortCount": 2
+          "monthlyEscortCount": 1
         }
       ],
       "guides": [
@@ -17112,9 +17105,9 @@
         "country": "Spain (España)"
       },
       "payment": {
-        "paid": 1610000,
+        "paid": 7648000,
         "invoiceTotal": 7648000,
-        "balance": 6038000,
+        "balance": 0,
         "paymentMethod": null,
         "history": [
           {
@@ -17124,6 +17117,22 @@
             "method": "Debit/Credit Card",
             "description": "Down Payment",
             "date": "07 Jul 26 17:58"
+          },
+          {
+            "id": 900,
+            "amount": 6440000,
+            "methodId": 3,
+            "method": "Debit/Credit Card",
+            "description": "Payment (Paid in Full)",
+            "date": "30 Aug 26 16:47"
+          },
+          {
+            "id": 901,
+            "amount": -402000,
+            "methodId": 3,
+            "method": "Debit/Credit Card",
+            "description": "Payment Add On",
+            "date": "30 Aug 26 16:47"
           }
         ]
       },
@@ -17136,7 +17145,7 @@
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": true,
-        "balanceStatus": "balance_due"
+        "balanceStatus": "settled"
       }
     },
     {
@@ -17322,10 +17331,10 @@
         "country": "Netherlands (Nederland)"
       },
       "payment": {
-        "paid": 2260000,
+        "paid": 11300000,
         "invoiceTotal": 11300000,
-        "balance": 9040000,
-        "paymentMethod": null,
+        "balance": 0,
+        "paymentMethod": "wise",
         "history": [
           {
             "id": 831,
@@ -17334,6 +17343,22 @@
             "method": "Bank Transfer",
             "description": "Down Payment",
             "date": "05 Aug 26 21:40"
+          },
+          {
+            "id": 902,
+            "amount": 8640000,
+            "methodId": 5,
+            "method": "WISE",
+            "description": "Full payment",
+            "date": "30 Aug 26 22:30"
+          },
+          {
+            "id": 903,
+            "amount": 400000,
+            "methodId": 5,
+            "method": "WISE",
+            "description": "Payment Add On",
+            "date": "30 Aug 26 22:30"
           }
         ]
       },
@@ -17346,7 +17371,7 @@
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
-        "balanceStatus": "balance_due"
+        "balanceStatus": "settled"
       }
     },
     {
@@ -17672,7 +17697,7 @@
           "id": 9,
           "name": "GARAGE",
           "tags": "TWT,JVTO,KLOOK",
-          "monthlyEscortCount": 10
+          "monthlyEscortCount": 9
         }
       ],
       "guides": [
@@ -18375,15 +18400,9 @@
         {
           "day": 5,
           "checkIn": "12 Sep 2026",
-          "hotelId": 56,
-          "hotel": "Harris Hotel Satelit",
-          "rooms": [
-            {
-              "roomId": 190,
-              "roomName": "Twin Room",
-              "quantity": 1
-            }
-          ],
+          "hotelId": 73,
+          "hotel": "Hotel Platinum Tunjungan Surabaya",
+          "rooms": [],
           "meals": [
             "Breakfast"
           ]
@@ -19122,7 +19141,7 @@
           "id": 9,
           "name": "GARAGE",
           "tags": "TWT,JVTO,KLOOK",
-          "monthlyEscortCount": 10
+          "monthlyEscortCount": 9
         }
       ],
       "guides": [
@@ -19334,7 +19353,7 @@
           "id": 9,
           "name": "GARAGE",
           "tags": "TWT,JVTO,KLOOK",
-          "monthlyEscortCount": 10
+          "monthlyEscortCount": 9
         }
       ],
       "guides": [
@@ -20078,13 +20097,13 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "S x 1, M x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
-          "s": 0,
-          "m": 0,
+          "s": 1,
+          "m": 1,
           "l": 0,
           "xl": 0,
           "xxl": 0,
@@ -20317,7 +20336,7 @@
           "id": 9,
           "name": "GARAGE",
           "tags": "TWT,JVTO,KLOOK",
-          "monthlyEscortCount": 10
+          "monthlyEscortCount": 9
         }
       ],
       "guides": [
@@ -20339,8 +20358,8 @@
       },
       "payment": {
         "paid": 0,
-        "invoiceTotal": 25781000,
-        "balance": 25781000,
+        "invoiceTotal": 26581000,
+        "balance": 26581000,
         "paymentMethod": null,
         "history": []
       },
@@ -20373,12 +20392,12 @@
         "days": "Sat - Mon"
       },
       "pickup": {
-        "meetingPoint": "",
+        "meetingPoint": "Surabaya Hotel",
         "arrival": null,
-        "value": null,
-        "time": "12:00",
-        "text": "  ",
-        "complete": false
+        "value": "Surabaya River View Hotel",
+        "time": "11:00",
+        "text": "Surabaya Hotel  Surabaya River View Hotel",
+        "complete": true
       },
       "dropoff": {
         "dropPoint": "",
@@ -20499,14 +20518,14 @@
         "history": []
       },
       "readiness": {
-        "hasPickup": false,
+        "hasPickup": true,
         "hasDropoff": false,
         "hasVehicle": true,
         "hasDriver": true,
         "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
-        "hasNotes": false,
+        "hasNotes": true,
         "balanceStatus": "balance_due"
       }
     },
@@ -20571,15 +20590,15 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "M x 1, L x 1, XL x 3",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
           "s": 0,
-          "m": 0,
-          "l": 0,
-          "xl": 0,
+          "m": 1,
+          "l": 1,
+          "xl": 3,
           "xxl": 0,
           "xxxl": 0
         }
@@ -20592,7 +20611,7 @@
           "id": 9,
           "name": "GARAGE",
           "tags": "TWT,JVTO,KLOOK",
-          "monthlyEscortCount": 10
+          "monthlyEscortCount": 9
         }
       ],
       "guides": [
@@ -20755,7 +20774,7 @@
           "id": 9,
           "name": "GARAGE",
           "tags": "TWT,JVTO,KLOOK",
-          "monthlyEscortCount": 10
+          "monthlyEscortCount": 9
         }
       ],
       "guides": [
@@ -21286,13 +21305,13 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "M x 2",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
           "s": 0,
-          "m": 0,
+          "m": 2,
           "l": 0,
           "xl": 0,
           "xxl": 0,
@@ -22089,7 +22108,7 @@
         "meetingPoint": "Bali Hotel",
         "arrival": null,
         "value": "Casa Da Maria, Uluwatu",
-        "time": "10:00",
+        "time": "09:00",
         "text": "Bali Hotel  Casa Da Maria, Uluwatu",
         "complete": true
       },
@@ -22726,8 +22745,8 @@
       ],
       "drivers": [
         {
-          "id": 80,
-          "name": "Sahril",
+          "id": 81,
+          "name": "Romi",
           "tags": "JVTO,KLOOK",
           "monthlyEscortCount": 2
         }
@@ -23062,7 +23081,7 @@
           "id": 9,
           "name": "GARAGE",
           "tags": "TWT,JVTO,KLOOK",
-          "monthlyEscortCount": 10
+          "monthlyEscortCount": 9
         }
       ],
       "guides": [
@@ -24557,13 +24576,13 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "M x 2",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
           "s": 0,
-          "m": 0,
+          "m": 2,
           "l": 0,
           "xl": 0,
           "xxl": 0,
@@ -25151,7 +25170,7 @@
         "hasGuide": true,
         "hasHotels": true,
         "hasPaymentHistory": false,
-        "hasNotes": false,
+        "hasNotes": true,
         "balanceStatus": "balance_due"
       }
     },
@@ -25575,7 +25594,7 @@
           "id": 81,
           "name": "Romi",
           "tags": "JVTO,KLOOK",
-          "monthlyEscortCount": 1
+          "monthlyEscortCount": 2
         }
       ],
       "guides": [
@@ -25729,7 +25748,7 @@
           "id": 9,
           "name": "GARAGE",
           "tags": "TWT,JVTO,KLOOK",
-          "monthlyEscortCount": 10
+          "monthlyEscortCount": 9
         }
       ],
       "guides": [
@@ -26292,12 +26311,12 @@
         "days": "Sat - Mon"
       },
       "pickup": {
-        "meetingPoint": null,
-        "arrival": null,
-        "value": null,
-        "time": "07:00",
-        "text": null,
-        "complete": false
+        "meetingPoint": "Surabaya Airport",
+        "arrival": "Terminal 2",
+        "value": "qz 321",
+        "time": "10:45",
+        "text": "Surabaya Airport Terminal 2 qz 321",
+        "complete": true
       },
       "dropoff": {
         "dropPoint": null,
@@ -26435,7 +26454,7 @@
         ]
       },
       "readiness": {
-        "hasPickup": false,
+        "hasPickup": true,
         "hasDropoff": false,
         "hasVehicle": true,
         "hasDriver": true,

@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-booking/customer-portal-logistics-v1",
-  "generated_at": "2026-08-30T05:58:13.022Z",
+  "generated_at": "2026-08-31T06:19:21.620Z",
   "privacy": "Logistics values are operational booking fields. Customer identity and portal access slugs are excluded.",
   "record_count": 154,
   "records": [
@@ -1437,8 +1437,8 @@
       "travel_date_end": "2026-09-28",
       "total_pax": 1,
       "logistics": {
-        "pickup": null,
-        "pickup_time": null,
+        "pickup": "Surabaya Airport Terminal 2 qz 321",
+        "pickup_time": "10:45:00",
         "drop": null,
         "drop_time": null,
         "special_requirements_present": false
@@ -1452,10 +1452,10 @@
       "travel_date_end": "2026-09-04",
       "total_pax": 2,
       "logistics": {
-        "pickup": "Surabaya Airport Terminal 2 TR296",
-        "pickup_time": "09:50:00",
-        "drop": "Surabaya Airport Terminal 2 TR267",
-        "drop_time": "17:50:00",
+        "pickup": "Surabaya Airport (TR296)",
+        "pickup_time": "10:10:00",
+        "drop": "Surabaya Airport (TR267)",
+        "drop_time": "17:00:00",
         "special_requirements_present": false
       }
     },
@@ -1557,8 +1557,8 @@
       "travel_date_end": "2026-09-14",
       "total_pax": 2,
       "logistics": {
-        "pickup": "  ",
-        "pickup_time": "12:00:00",
+        "pickup": "Surabaya Hotel  Surabaya River View Hotel",
+        "pickup_time": "11:00:00",
         "drop": "  ",
         "drop_time": null,
         "special_requirements_present": false
@@ -2218,7 +2218,7 @@
       "total_pax": 2,
       "logistics": {
         "pickup": "Bali Hotel  Casa Da Maria, Uluwatu",
-        "pickup_time": "10:00:00",
+        "pickup_time": "09:00:00",
         "drop": "Surabaya Airport  ",
         "drop_time": "17:00:00",
         "special_requirements_present": false

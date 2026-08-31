@@ -837,7 +837,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 10
+        "recap_this_month_escort": 9
       }
     ],
     "guides": [
@@ -855,23 +855,23 @@
     "at_ijen": "15 Sep 26",
     "financial": {
       "payment": 0,
-      "balance": 25781000,
+      "balance": 26581000,
       "paymentMethod": null,
       "paymentMethodLink": null,
       "invoice": {
-        "total": 25781000,
+        "total": 26581000,
         "invoiceLink": [
           "https://new-backoffice.javavolcano-touroperator.com/preview-file?title=Invoice Gan Miki&url=https://new-backoffice.javavolcano-touroperator.com/assets/customer-document/1770725470.pdf"
         ]
       },
       "expense": {
-        "total": 0,
-        "crew_expense": "0.00",
-        "debt_expense": "0.00",
+        "total": 23127500,
+        "crew_expense": "22317500.00",
+        "debt_expense": "810000.00",
         "expenseLink": "/finance/expense-manager/1622/edit",
         "target": "_blank"
       },
-      "profit": 25781000
+      "profit": 3453500
     },
     "readiness": {
       "hasPickup": true,
@@ -1714,11 +1714,11 @@
       "hasGuide": true,
       "hasHotels": true,
       "hasPaymentHistory": false,
-      "hasNotes": false,
+      "hasNotes": true,
       "balanceStatus": "outstanding"
     },
     "paymentHistory": [],
-    "notes": ""
+    "notes": "- Penging confirmation Itinerary;\n- Follow up final itinerary"
   },
   {
     "booking_id": 3211,
@@ -3316,7 +3316,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 10
+        "recap_this_month_escort": 9
       }
     ],
     "guides": [
@@ -3869,13 +3869,13 @@
         ]
       },
       "expense": {
-        "total": 2600000,
-        "crew_expense": "920000.00",
-        "debt_expense": "1680000.00",
+        "total": 2430000,
+        "crew_expense": "400000.00",
+        "debt_expense": "2030000.00",
         "expenseLink": "/finance/expense-manager/3371/edit",
         "target": "_blank"
       },
-      "profit": 1000000
+      "profit": 1170000
     },
     "readiness": {
       "hasPickup": true,
@@ -4661,7 +4661,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 10
+        "recap_this_month_escort": 9
       }
     ],
     "guides": [
@@ -8012,13 +8012,13 @@
         ]
       },
       "expense": {
-        "total": 6513000,
-        "crew_expense": "2318000.00",
-        "debt_expense": "4195000.00",
+        "total": 6373000,
+        "crew_expense": "1258000.00",
+        "debt_expense": "5115000.00",
         "expenseLink": "/finance/expense-manager/3494/edit",
         "target": "_blank"
       },
-      "profit": 987000
+      "profit": 1127000
     },
     "readiness": {
       "hasPickup": true,
@@ -8184,7 +8184,7 @@
         "name": "Romi",
         "tags": "JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1777815953_Screenshot 2026-05-03 at 20.45.21.png",
-        "recap_this_month_escort": 1
+        "recap_this_month_escort": 2
       }
     ],
     "guides": [
@@ -8212,13 +8212,13 @@
         ]
       },
       "expense": {
-        "total": 6595000,
-        "crew_expense": "2400000.00",
-        "debt_expense": "4195000.00",
+        "total": 5905000,
+        "crew_expense": "1540000.00",
+        "debt_expense": "4365000.00",
         "expenseLink": "/finance/expense-manager/3496/edit",
         "target": "_blank"
       },
-      "profit": 905000
+      "profit": 1595000
     },
     "readiness": {
       "hasPickup": true,
@@ -8412,13 +8412,13 @@
         ]
       },
       "expense": {
-        "total": 7567000,
-        "crew_expense": "2642000.00",
-        "debt_expense": "4925000.00",
+        "total": 7267000,
+        "crew_expense": "3482000.00",
+        "debt_expense": "3785000.00",
         "expenseLink": "/finance/expense-manager/3498/edit",
         "target": "_blank"
       },
-      "profit": 2753000
+      "profit": 3053000
     },
     "readiness": {
       "hasPickup": true,
@@ -9499,7 +9499,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 10
+        "recap_this_month_escort": 9
       }
     ],
     "guides": [
@@ -9527,13 +9527,13 @@
         ]
       },
       "expense": {
-        "total": 5452500,
-        "crew_expense": "5142500.00",
-        "debt_expense": "310000.00",
+        "total": 5479500,
+        "crew_expense": "5209500.00",
+        "debt_expense": "270000.00",
         "expenseLink": "/finance/expense-manager/3536/edit",
         "target": "_blank"
       },
-      "profit": 1687500
+      "profit": 1660500
     },
     "readiness": {
       "hasPickup": true,
@@ -9570,7 +9570,7 @@
         "date": "22 Jun 26 23:47"
       }
     ],
-    "notes": "Cari driver bws\nDriver: Yon"
+    "notes": "Driver: Yon\nTagihkan transport bali: 1.000.000 by cash"
   },
   {
     "booking_id": 3546,
@@ -9750,13 +9750,13 @@
         ]
       },
       "expense": {
-        "total": 6513000,
-        "crew_expense": "2318000.00",
-        "debt_expense": "4195000.00",
+        "total": 6273000,
+        "crew_expense": "3158000.00",
+        "debt_expense": "3115000.00",
         "expenseLink": "/finance/expense-manager/3546/edit",
         "target": "_blank"
       },
-      "profit": 987000
+      "profit": 1227000
     },
     "readiness": {
       "hasPickup": true,
@@ -11794,13 +11794,13 @@
         ]
       },
       "expense": {
-        "total": 7830000,
-        "crew_expense": "7385000.00",
-        "debt_expense": "445000.00",
+        "total": 9273000,
+        "crew_expense": "8868000.00",
+        "debt_expense": "405000.00",
         "expenseLink": "/finance/expense-manager/3578/edit",
         "target": "_blank"
       },
-      "profit": 6770000
+      "profit": 5327000
     },
     "readiness": {
       "hasPickup": true,
@@ -12014,8 +12014,8 @@
     "is_shuttle": "NO",
     "at_ijen": "08 Sep 26",
     "financial": {
-      "payment": 1610000,
-      "balance": 6038000,
+      "payment": 7648000,
+      "balance": 0,
       "paymentMethod": null,
       "paymentMethodLink": "https://checkout.xendit.co/web/6a92950b61a1ae3ecd083849",
       "invoice": {
@@ -12026,13 +12026,13 @@
         ]
       },
       "expense": {
-        "total": 5932500,
-        "crew_expense": "5797500.00",
+        "total": 5812500,
+        "crew_expense": "5677500.00",
         "debt_expense": "135000.00",
         "expenseLink": "/finance/expense-manager/3589/edit",
         "target": "_blank"
       },
-      "profit": 1715500
+      "profit": 1835500
     },
     "readiness": {
       "hasPickup": true,
@@ -12043,7 +12043,7 @@
       "hasHotels": true,
       "hasPaymentHistory": true,
       "hasNotes": true,
-      "balanceStatus": "outstanding"
+      "balanceStatus": "settled"
     },
     "paymentHistory": [
       {
@@ -12056,6 +12056,28 @@
         "receipt": "RCP/023/09/26/1",
         "reference": "https://checkout.xendit.co/web/6a4cdb003b89307eb08b937b",
         "date": "07 Jul 26 17:58"
+      },
+      {
+        "id": 900,
+        "booking_id": 3589,
+        "nominal": 6440000,
+        "paymentMethodId": 3,
+        "paymentMethod": "Debit/Credit Card",
+        "description": "Payment (Paid in Full)",
+        "receipt": "RCP/023/09/26/2",
+        "reference": "https://checkout.xendit.co/web/6a92950b61a1ae3ecd083849",
+        "date": "30 Aug 26 16:47"
+      },
+      {
+        "id": 901,
+        "booking_id": 3589,
+        "nominal": -402000,
+        "paymentMethodId": 3,
+        "paymentMethod": "Debit/Credit Card",
+        "description": "Payment Add On",
+        "receipt": "RCP/023/09/26/3",
+        "reference": "https://checkout.xendit.co/web/6a92950b61a1ae3ecd083849",
+        "date": "30 Aug 26 16:47"
       }
     ],
     "notes": "- Ijen hotel: Lintang Luku (by client)\n- Drop at Lintang Luku after Ijen\n- Strict Vegetarian\n- Refund budget hotel Ijen & dinner"
@@ -14901,7 +14923,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 10
+        "recap_this_month_escort": 9
       }
     ],
     "guides": [
@@ -15954,13 +15976,13 @@
         ]
       },
       "expense": {
-        "total": 5452500,
-        "crew_expense": "5452500.00",
-        "debt_expense": "0.00",
+        "total": 6329500,
+        "crew_expense": "6059500.00",
+        "debt_expense": "270000.00",
         "expenseLink": "/finance/expense-manager/3655/edit",
         "target": "_blank"
       },
-      "profit": 2737500
+      "profit": 1860500
     },
     "readiness": {
       "hasPickup": true,
@@ -16756,10 +16778,10 @@
     ],
     "drivers": [
       {
-        "id": 80,
-        "name": "Sahril",
+        "id": 81,
+        "name": "Romi",
         "tags": "JVTO,KLOOK",
-        "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1777815704_Screenshot 2026-05-03 at 20.41.15.png",
+        "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1777815953_Screenshot 2026-05-03 at 20.45.21.png",
         "recap_this_month_escort": 2
       }
     ],
@@ -16788,13 +16810,13 @@
         ]
       },
       "expense": {
-        "total": 6513000,
-        "crew_expense": "2318000.00",
-        "debt_expense": "4195000.00",
+        "total": 6373000,
+        "crew_expense": "1258000.00",
+        "debt_expense": "5115000.00",
         "expenseLink": "/finance/expense-manager/3670/edit",
         "target": "_blank"
       },
-      "profit": 987000
+      "profit": 1127000
     },
     "readiness": {
       "hasPickup": true,
@@ -17886,15 +17908,9 @@
       {
         "day": 5,
         "checkIn": "12 Sep 2026",
-        "hotelId": 56,
-        "hotel": "Harris Hotel Satelit",
-        "rooms": [
-          {
-            "roomId": 190,
-            "roomName": "Twin Room",
-            "quantity": 1
-          }
-        ],
+        "hotelId": 73,
+        "hotel": "Hotel Platinum Tunjungan Surabaya",
+        "rooms": [],
         "meals": [
           "Breakfast"
         ]
@@ -17949,13 +17965,13 @@
         ]
       },
       "expense": {
-        "total": 0,
-        "crew_expense": "0.00",
-        "debt_expense": "0.00",
+        "total": 10817500,
+        "crew_expense": "10547500.00",
+        "debt_expense": "270000.00",
         "expenseLink": "/finance/expense-manager/3678/edit",
         "target": "_blank"
       },
-      "profit": 12390000
+      "profit": 1572500
     },
     "readiness": {
       "hasPickup": true,
@@ -17969,7 +17985,7 @@
       "balanceStatus": "outstanding"
     },
     "paymentHistory": [],
-    "notes": "For Malang, they would like to visit Museum Angkut (tickets by themselves)\nSkip Apple garden\nKeep Taman Langit, Goa Pinus and santerra, the budget i allowed as per original idr150k, should be more than enough.\nThe last 3 nights of the trip , the customers will book their own hotel in surabaya\nbut we need to arrange their airport shuttle from their hotel."
+    "notes": "For Malang, they would like to visit Museum Angkut (tickets by themselves)\nSkip Apple garden\nKeep Taman Langit, Goa Pinus and santerra, the budget i allowed as per original idr150k, should be more than enough.\nThe last 3 nights of the trip , the customers will book their own hotel in surabaya\nbut we need to arrange their airport shuttle from their hotel.\n\n- Surabaya hotel: Hotel Platinum Tunjungan Surabaya\n\n- Shuttle on 15 Sept"
   },
   {
     "booking_id": 3679,
@@ -19338,11 +19354,11 @@
       "days": "Sat - Mon"
     },
     "pickup": {
-      "meeting_point": null,
-      "meeting_point_arrival": null,
-      "meeting_point_value": null,
-      "pickup_time": "07:00",
-      "text": null
+      "meeting_point": "Surabaya Airport",
+      "meeting_point_arrival": "Terminal 2",
+      "meeting_point_value": "qz 321",
+      "pickup_time": "10:45",
+      "text": "Surabaya Airport Terminal 2 qz 321"
     },
     "dropoff": {
       "drop_point": null,
@@ -19470,7 +19486,7 @@
       "profit": 1322500
     },
     "readiness": {
-      "hasPickup": false,
+      "hasPickup": true,
       "hasDropoff": false,
       "hasVehicle": true,
       "hasDriver": true,
@@ -19540,15 +19556,15 @@
       "meeting_point": "Surabaya Airport",
       "meeting_point_arrival": "Terminal 2",
       "meeting_point_value": "TR296",
-      "pickup_time": "09:50",
-      "text": "Surabaya Airport Terminal 2 TR296"
+      "pickup_time": "10:10",
+      "text": "Surabaya Airport (TR296)"
     },
     "dropoff": {
       "drop_point": "Surabaya Airport",
       "drop_point_arrival": "Terminal 2",
       "drop_point_value": "TR267",
-      "drop_time": "17:50",
-      "text": "Surabaya Airport Terminal 2 TR267"
+      "drop_time": "17:00",
+      "text": "Surabaya Airport (TR267)"
     },
     "itinerary": [
       {
@@ -20736,13 +20752,13 @@
         ]
       },
       "expense": {
-        "total": 5015000,
-        "crew_expense": "2445000.00",
-        "debt_expense": "2570000.00",
+        "total": 5135000,
+        "crew_expense": "770000.00",
+        "debt_expense": "4365000.00",
         "expenseLink": "/finance/expense-manager/3712/edit",
         "target": "_blank"
       },
-      "profit": 1185000
+      "profit": 1065000
     },
     "readiness": {
       "hasPickup": true,
@@ -20789,11 +20805,11 @@
       "days": "Sat - Mon"
     },
     "pickup": {
-      "meeting_point": "",
+      "meeting_point": "Surabaya Hotel",
       "meeting_point_arrival": null,
-      "meeting_point_value": null,
-      "pickup_time": "12:00",
-      "text": "  "
+      "meeting_point_value": "Surabaya River View Hotel",
+      "pickup_time": "11:00",
+      "text": "Surabaya Hotel  Surabaya River View Hotel"
     },
     "dropoff": {
       "drop_point": "",
@@ -20912,13 +20928,13 @@
         ]
       },
       "expense": {
-        "total": 5015000,
-        "crew_expense": "5015000.00",
-        "debt_expense": "0.00",
+        "total": 5085000,
+        "crew_expense": "2220000.00",
+        "debt_expense": "2865000.00",
         "expenseLink": "/finance/expense-manager/3713/edit",
         "target": "_blank"
       },
-      "profit": 1585000
+      "profit": 1515000
     },
     "readiness": {
       "hasPickup": true,
@@ -20928,11 +20944,11 @@
       "hasGuide": true,
       "hasHotels": true,
       "hasPaymentHistory": false,
-      "hasNotes": false,
+      "hasNotes": true,
       "balanceStatus": "outstanding"
     },
     "paymentHistory": [],
-    "notes": ""
+    "notes": "Channel: GetYourGuide"
   },
   {
     "booking_id": 3714,
@@ -22293,9 +22309,9 @@
     "is_shuttle": "YES",
     "at_ijen": "06 Sep 26",
     "financial": {
-      "payment": 2260000,
-      "balance": 9040000,
-      "paymentMethod": null,
+      "payment": 11300000,
+      "balance": 0,
+      "paymentMethod": "wise",
       "paymentMethodLink": "https://checkout.xendit.co/web/6a92950d2d93dba6830e8aba",
       "invoice": {
         "total": 11300000,
@@ -22305,13 +22321,13 @@
         ]
       },
       "expense": {
-        "total": 8103000,
-        "crew_expense": "7793000.00",
-        "debt_expense": "310000.00",
+        "total": 8568000,
+        "crew_expense": "8298000.00",
+        "debt_expense": "270000.00",
         "expenseLink": "/finance/expense-manager/3722/edit",
         "target": "_blank"
       },
-      "profit": 3197000
+      "profit": 2732000
     },
     "readiness": {
       "hasPickup": true,
@@ -22322,7 +22338,7 @@
       "hasHotels": true,
       "hasPaymentHistory": true,
       "hasNotes": false,
-      "balanceStatus": "outstanding"
+      "balanceStatus": "settled"
     },
     "paymentHistory": [
       {
@@ -22335,6 +22351,28 @@
         "receipt": "RCP/046/09/26/1",
         "reference": "https://checkout.xendit.co/web/6a730c57e2c2ed0ac427372f",
         "date": "05 Aug 26 21:40"
+      },
+      {
+        "id": 902,
+        "booking_id": 3722,
+        "nominal": 8640000,
+        "paymentMethodId": 5,
+        "paymentMethod": "WISE",
+        "description": "Full payment",
+        "receipt": "RCP/046/09/26/2",
+        "reference": "https://prnt.sc/vvUlRn66jRda",
+        "date": "30 Aug 26 22:30"
+      },
+      {
+        "id": 903,
+        "booking_id": 3722,
+        "nominal": 400000,
+        "paymentMethodId": 5,
+        "paymentMethod": "WISE",
+        "description": "Payment Add On",
+        "receipt": "RCP/046/09/26/3",
+        "reference": "https://prnt.sc/vvUlRn66jRda",
+        "date": "30 Aug 26 22:30"
       }
     ],
     "notes": ""
@@ -22515,13 +22553,13 @@
         "invoiceLink": []
       },
       "expense": {
-        "total": 11236000,
-        "crew_expense": "2886000.00",
-        "debt_expense": "8350000.00",
+        "total": 9096000,
+        "crew_expense": "1866000.00",
+        "debt_expense": "7230000.00",
         "expenseLink": "/finance/expense-manager/3726/edit",
         "target": "_blank"
       },
-      "profit": 2524000
+      "profit": 4664000
     },
     "readiness": {
       "hasPickup": true,
@@ -23503,13 +23541,13 @@
         ]
       },
       "expense": {
-        "total": 6513000,
-        "crew_expense": "2318000.00",
-        "debt_expense": "4195000.00",
+        "total": 6373000,
+        "crew_expense": "1258000.00",
+        "debt_expense": "5115000.00",
         "expenseLink": "/finance/expense-manager/3740/edit",
         "target": "_blank"
       },
-      "profit": 987000
+      "profit": 1127000
     },
     "readiness": {
       "hasPickup": true,
@@ -24092,13 +24130,13 @@
         ]
       },
       "expense": {
-        "total": 5015000,
-        "crew_expense": "1300000.00",
-        "debt_expense": "3715000.00",
+        "total": 5135000,
+        "crew_expense": "770000.00",
+        "debt_expense": "4365000.00",
         "expenseLink": "/finance/expense-manager/3745/edit",
         "target": "_blank"
       },
-      "profit": 1185000
+      "profit": 1065000
     },
     "readiness": {
       "hasPickup": true,
@@ -24483,13 +24521,13 @@
         ]
       },
       "expense": {
-        "total": 0,
-        "crew_expense": "0.00",
-        "debt_expense": "0.00",
+        "total": 6946500,
+        "crew_expense": "6811500.00",
+        "debt_expense": "135000.00",
         "expenseLink": "/finance/expense-manager/3749/edit",
         "target": "_blank"
       },
-      "profit": 7889000
+      "profit": 942500
     },
     "readiness": {
       "hasPickup": true,
@@ -25677,13 +25715,13 @@
         ]
       },
       "expense": {
-        "total": 5210000,
-        "crew_expense": "4900000.00",
-        "debt_expense": "310000.00",
+        "total": 7122000,
+        "crew_expense": "6852000.00",
+        "debt_expense": "270000.00",
         "expenseLink": "/finance/expense-manager/3757/edit",
         "target": "_blank"
       },
-      "profit": 3890000
+      "profit": 1978000
     },
     "readiness": {
       "hasPickup": true,
@@ -25889,13 +25927,13 @@
         ]
       },
       "expense": {
-        "total": 11236000,
-        "crew_expense": "2886000.00",
-        "debt_expense": "8350000.00",
+        "total": 9096000,
+        "crew_expense": "1866000.00",
+        "debt_expense": "7230000.00",
         "expenseLink": "/finance/expense-manager/3759/edit",
         "target": "_blank"
       },
-      "profit": 2524000
+      "profit": 4664000
     },
     "readiness": {
       "hasPickup": true,
@@ -26057,17 +26095,9 @@
       "xxxl": 0
     },
     "vehicles": [
-      "Hiace Premio"
+      "Innova Reborn"
     ],
-    "drivers": [
-      {
-        "id": 9,
-        "name": "GARAGE",
-        "tags": "TWT,JVTO,KLOOK",
-        "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 10
-      }
-    ],
+    "drivers": [],
     "guides": [
       {
         "id": 39,
@@ -26093,19 +26123,19 @@
         ]
       },
       "expense": {
-        "total": 0,
-        "crew_expense": "0.00",
-        "debt_expense": "0.00",
+        "total": 8930000,
+        "crew_expense": "8690000.00",
+        "debt_expense": "240000.00",
         "expenseLink": "/finance/expense-manager/3761/edit",
         "target": "_blank"
       },
-      "profit": 9722000
+      "profit": 792000
     },
     "readiness": {
       "hasPickup": true,
       "hasDropoff": true,
       "hasVehicle": true,
-      "hasDriver": true,
+      "hasDriver": false,
       "hasGuide": true,
       "hasHotels": true,
       "hasPaymentHistory": false,
@@ -26293,13 +26323,13 @@
         ]
       },
       "expense": {
-        "total": 6513000,
-        "crew_expense": "2318000.00",
-        "debt_expense": "4195000.00",
+        "total": 6373000,
+        "crew_expense": "1258000.00",
+        "debt_expense": "5115000.00",
         "expenseLink": "/finance/expense-manager/3763/edit",
         "target": "_blank"
       },
-      "profit": 987000
+      "profit": 1127000
     },
     "readiness": {
       "hasPickup": true,
@@ -27068,13 +27098,13 @@
         ]
       },
       "expense": {
-        "total": 5015000,
-        "crew_expense": "1300000.00",
-        "debt_expense": "3715000.00",
+        "total": 5085000,
+        "crew_expense": "2970000.00",
+        "debt_expense": "2115000.00",
         "expenseLink": "/finance/expense-manager/3774/edit",
         "target": "_blank"
       },
-      "profit": 1185000
+      "profit": 1115000
     },
     "readiness": {
       "hasPickup": true,
@@ -27216,7 +27246,7 @@
         "name": "Sahril",
         "tags": "JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1777815704_Screenshot 2026-05-03 at 20.41.15.png",
-        "recap_this_month_escort": 2
+        "recap_this_month_escort": 1
       }
     ],
     "guides": [
@@ -27244,13 +27274,13 @@
         ]
       },
       "expense": {
-        "total": 5015000,
-        "crew_expense": "1300000.00",
-        "debt_expense": "3715000.00",
+        "total": 5135000,
+        "crew_expense": "770000.00",
+        "debt_expense": "4365000.00",
         "expenseLink": "/finance/expense-manager/3776/edit",
         "target": "_blank"
       },
-      "profit": 1185000
+      "profit": 1065000
     },
     "readiness": {
       "hasPickup": true,
@@ -28014,13 +28044,13 @@
         ]
       },
       "expense": {
-        "total": 5745000,
-        "crew_expense": "1300000.00",
-        "debt_expense": "4445000.00",
+        "total": 5895000,
+        "crew_expense": "860000.00",
+        "debt_expense": "5035000.00",
         "expenseLink": "/finance/expense-manager/3792/edit",
         "target": "_blank"
       },
-      "profit": 1995000
+      "profit": 1845000
     },
     "readiness": {
       "hasPickup": true,
@@ -28162,7 +28192,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 10
+        "recap_this_month_escort": 9
       }
     ],
     "guides": [
@@ -28190,13 +28220,13 @@
         ]
       },
       "expense": {
-        "total": 0,
-        "crew_expense": "0.00",
-        "debt_expense": "0.00",
+        "total": 15053500,
+        "crew_expense": "14243500.00",
+        "debt_expense": "810000.00",
         "expenseLink": "/finance/expense-manager/3793/edit",
         "target": "_blank"
       },
-      "profit": 17506000
+      "profit": 2452500
     },
     "readiness": {
       "hasPickup": true,
@@ -28473,15 +28503,15 @@
         "meals": []
       }
     ],
-    "tshirtSize": "",
+    "tshirtSize": "M x 1, L x 1, XL x 3",
     "tshirtRaw": {
       "xss": 0,
       "xxs": 0,
       "xs": 0,
       "s": 0,
-      "m": 0,
-      "l": 0,
-      "xl": 0,
+      "m": 1,
+      "l": 1,
+      "xl": 3,
       "xxl": 0,
       "xxxl": 0
     },
@@ -28494,7 +28524,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 10
+        "recap_this_month_escort": 9
       }
     ],
     "guides": [
@@ -28862,7 +28892,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 10
+        "recap_this_month_escort": 9
       }
     ],
     "guides": [
@@ -29267,13 +29297,13 @@
         ]
       }
     ],
-    "tshirtSize": "",
+    "tshirtSize": "M x 2",
     "tshirtRaw": {
       "xss": 0,
       "xxs": 0,
       "xs": 0,
       "s": 0,
-      "m": 0,
+      "m": 2,
       "l": 0,
       "xl": 0,
       "xxl": 0,
@@ -29384,7 +29414,7 @@
       "meeting_point": "Bali Hotel",
       "meeting_point_arrival": null,
       "meeting_point_value": "Casa Da Maria, Uluwatu",
-      "pickup_time": "10:00",
+      "pickup_time": "09:00",
       "text": "Bali Hotel  Casa Da Maria, Uluwatu"
     },
     "dropoff": {
@@ -29734,13 +29764,13 @@
         ]
       },
       "expense": {
-        "total": 6513000,
-        "crew_expense": "2318000.00",
-        "debt_expense": "4195000.00",
+        "total": 6373000,
+        "crew_expense": "1258000.00",
+        "debt_expense": "5115000.00",
         "expenseLink": "/finance/expense-manager/3804/edit",
         "target": "_blank"
       },
-      "profit": 987000
+      "profit": 1127000
     },
     "readiness": {
       "hasPickup": true,
@@ -29884,13 +29914,13 @@
         ]
       }
     ],
-    "tshirtSize": "",
+    "tshirtSize": "S x 1, M x 1",
     "tshirtRaw": {
       "xss": 0,
       "xxs": 0,
       "xs": 0,
-      "s": 0,
-      "m": 0,
+      "s": 1,
+      "m": 1,
       "l": 0,
       "xl": 0,
       "xxl": 0,
@@ -30319,13 +30349,13 @@
         ]
       }
     ],
-    "tshirtSize": "",
+    "tshirtSize": "M x 2",
     "tshirtRaw": {
       "xss": 0,
       "xxs": 0,
       "xs": 0,
       "s": 0,
-      "m": 0,
+      "m": 2,
       "l": 0,
       "xl": 0,
       "xxl": 0,
@@ -30770,7 +30800,7 @@
         "name": "GARAGE",
         "tags": "TWT,JVTO,KLOOK",
         "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-        "recap_this_month_escort": 10
+        "recap_this_month_escort": 9
       }
     ],
     "guides": [
@@ -30831,6 +30861,6 @@
         "date": "29 Aug 26 17:24"
       }
     ],
-    "notes": "- Upgrade hotel;\n- Skip papuma langsung Artha;"
+    "notes": "- Upgrade hotel;\n- Skip papuma langsung Artha;\n- Include Goa tetes;\n- Bromo teletubbies"
   }
 ]

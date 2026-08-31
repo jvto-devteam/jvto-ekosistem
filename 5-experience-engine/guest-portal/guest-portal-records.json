@@ -561,9 +561,9 @@
         "Hiace Premio"
       ],
       "payment": {
-        "invoiceTotal": 25781000,
+        "invoiceTotal": 26581000,
         "paid": 0,
-        "balance": 25781000
+        "balance": 26581000
       },
       "readiness": {
         "hasPickup": true,
@@ -7733,14 +7733,14 @@
       ],
       "payment": {
         "invoiceTotal": 7648000,
-        "paid": 1610000,
-        "balance": 6038000
+        "paid": 7648000,
+        "balance": 0
       },
       "readiness": {
         "hasPickup": true,
         "hasDropoff": true,
         "hasHotels": true,
-        "balanceStatus": "balance_due"
+        "balanceStatus": "settled"
       }
     },
     {
@@ -11496,15 +11496,9 @@
         {
           "day": 5,
           "checkIn": "12 Sep 2026",
-          "hotelId": 56,
-          "hotel": "Harris Hotel Satelit",
-          "rooms": [
-            {
-              "roomId": 190,
-              "roomName": "Twin Room",
-              "quantity": 1
-            }
-          ],
+          "hotelId": 73,
+          "hotel": "Hotel Platinum Tunjungan Surabaya",
+          "rooms": [],
           "meals": [
             "Breakfast"
           ]
@@ -12426,12 +12420,12 @@
         "days": "Sat - Mon"
       },
       "pickup": {
-        "meetingPoint": null,
-        "arrival": null,
-        "value": null,
-        "time": "07:00",
-        "text": null,
-        "complete": false
+        "meetingPoint": "Surabaya Airport",
+        "arrival": "Terminal 2",
+        "value": "qz 321",
+        "time": "10:45",
+        "text": "Surabaya Airport Terminal 2 qz 321",
+        "complete": true
       },
       "dropoff": {
         "dropPoint": null,
@@ -12525,7 +12519,7 @@
         "balance": 5040000
       },
       "readiness": {
-        "hasPickup": false,
+        "hasPickup": true,
         "hasDropoff": false,
         "hasHotels": true,
         "balanceStatus": "balance_due"
@@ -12546,16 +12540,16 @@
         "meetingPoint": "Surabaya Airport",
         "arrival": "Terminal 2",
         "value": "TR296",
-        "time": "09:50",
-        "text": "Surabaya Airport Terminal 2 TR296",
+        "time": "10:10",
+        "text": "Surabaya Airport (TR296)",
         "complete": true
       },
       "dropoff": {
         "dropPoint": "Surabaya Airport",
         "arrival": "Terminal 2",
         "value": "TR267",
-        "time": "17:50",
-        "text": "Surabaya Airport Terminal 2 TR267",
+        "time": "17:00",
+        "text": "Surabaya Airport (TR267)",
         "complete": true
       },
       "itinerary": [
@@ -13310,12 +13304,12 @@
         "days": "Sat - Mon"
       },
       "pickup": {
-        "meetingPoint": "",
+        "meetingPoint": "Surabaya Hotel",
         "arrival": null,
-        "value": null,
-        "time": "12:00",
-        "text": "  ",
-        "complete": false
+        "value": "Surabaya River View Hotel",
+        "time": "11:00",
+        "text": "Surabaya Hotel  Surabaya River View Hotel",
+        "complete": true
       },
       "dropoff": {
         "dropPoint": "",
@@ -13409,7 +13403,7 @@
         "balance": 6600000
       },
       "readiness": {
-        "hasPickup": false,
+        "hasPickup": true,
         "hasDropoff": false,
         "hasHotels": true,
         "balanceStatus": "balance_due"
@@ -14298,14 +14292,14 @@
       ],
       "payment": {
         "invoiceTotal": 11300000,
-        "paid": 2260000,
-        "balance": 9040000
+        "paid": 11300000,
+        "balance": 0
       },
       "readiness": {
         "hasPickup": true,
         "hasDropoff": false,
         "hasHotels": true,
-        "balanceStatus": "balance_due"
+        "balanceStatus": "settled"
       }
     },
     {
@@ -16785,7 +16779,7 @@
         }
       },
       "vehicles": [
-        "Hiace Premio"
+        "Innova Reborn"
       ],
       "payment": {
         "invoiceTotal": 9722000,
@@ -18335,15 +18329,15 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "M x 1, L x 1, XL x 3",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
           "s": 0,
-          "m": 0,
-          "l": 0,
-          "xl": 0,
+          "m": 1,
+          "l": 1,
+          "xl": 3,
           "xxl": 0,
           "xxxl": 0
         }
@@ -18842,13 +18836,13 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "M x 2",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
           "s": 0,
-          "m": 0,
+          "m": 2,
           "l": 0,
           "xl": 0,
           "xxl": 0,
@@ -18885,7 +18879,7 @@
         "meetingPoint": "Bali Hotel",
         "arrival": null,
         "value": "Casa Da Maria, Uluwatu",
-        "time": "10:00",
+        "time": "09:00",
         "text": "Bali Hotel  Casa Da Maria, Uluwatu",
         "complete": true
       },
@@ -19257,13 +19251,13 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "S x 1, M x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
-          "s": 0,
-          "m": 0,
+          "s": 1,
+          "m": 1,
           "l": 0,
           "xl": 0,
           "xxl": 0,
@@ -19549,13 +19543,13 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "M x 2",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
           "s": 0,
-          "m": 0,
+          "m": 2,
           "l": 0,
           "xl": 0,
           "xxl": 0,

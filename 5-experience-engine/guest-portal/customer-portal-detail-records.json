@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-experience-output/customer-portal-detail-records-v1",
-  "generated_at": "2026-08-30T05:58:13.029Z",
+  "generated_at": "2026-08-31T06:19:21.627Z",
   "source": "legacy customer portal details, sanitized from /bookings/details/{portal_slug}?json=true",
   "record_count": 154,
   "records": [
@@ -629,10 +629,10 @@
         }
       ],
       "finance": {
-        "grand_total": 25781000,
+        "grand_total": 26581000,
         "total_addons": 0,
         "dp_amount": 0,
-        "balance": 25781000,
+        "balance": 26581000,
         "paid_amount": 0,
         "due_date": "1970-01-01 00:00:00",
         "initial_payment_method": "pay later",
@@ -9154,8 +9154,8 @@
         "grand_total": 7648000,
         "total_addons": -402000,
         "dp_amount": 1610000,
-        "balance": 6038000,
-        "paid_amount": 1610000,
+        "balance": 0,
+        "paid_amount": 7648000,
         "due_date": "2026-07-08 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
@@ -9169,6 +9169,22 @@
             "description": "Down Payment",
             "method": "Debit/Credit Card",
             "created_at": "2026-07-07 17:58:35",
+            "reference_present": true
+          },
+          {
+            "id": 900,
+            "nominal": 6440000,
+            "description": "Payment (Paid in Full)",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-30 16:47:19",
+            "reference_present": true
+          },
+          {
+            "id": 901,
+            "nominal": -402000,
+            "description": "Payment Add On",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-08-30 16:47:23",
             "reference_present": true
           }
         ]
@@ -12872,8 +12888,8 @@
         ],
         "drivers": [
           {
-            "id": 80,
-            "name": "Sahril",
+            "id": 81,
+            "name": "Romi",
             "role": "Driver",
             "photo_present": true
           }
@@ -13706,8 +13722,8 @@
         },
         {
           "day": 5,
-          "name": "Harris Hotel Satelit",
-          "rooms": "Twin Room (1)",
+          "name": "Hotel Platinum Tunjungan Surabaya",
+          "rooms": "",
           "banner_present": true
         }
       ],
@@ -14807,8 +14823,8 @@
         "total_pax": 1
       },
       "logistics": {
-        "pickup": null,
-        "pickup_time": null,
+        "pickup": "Surabaya Airport Terminal 2 qz 321",
+        "pickup_time": "10:45:00",
         "drop": null,
         "drop_time": null,
         "special_requirements_present": false
@@ -14963,10 +14979,10 @@
         "total_pax": 2
       },
       "logistics": {
-        "pickup": "Surabaya Airport Terminal 2 TR296",
-        "pickup_time": "09:50:00",
-        "drop": "Surabaya Airport Terminal 2 TR267",
-        "drop_time": "17:50:00",
+        "pickup": "Surabaya Airport (TR296)",
+        "pickup_time": "10:10:00",
+        "drop": "Surabaya Airport (TR267)",
+        "drop_time": "17:00:00",
         "special_requirements_present": false
       },
       "tshirt_sizes": {
@@ -15950,8 +15966,8 @@
         "total_pax": 2
       },
       "logistics": {
-        "pickup": "  ",
-        "pickup_time": "12:00:00",
+        "pickup": "Surabaya Hotel  Surabaya River View Hotel",
+        "pickup_time": "11:00:00",
         "drop": "  ",
         "drop_time": null,
         "special_requirements_present": false
@@ -17110,11 +17126,11 @@
         "grand_total": 11300000,
         "total_addons": 400000,
         "dp_amount": 2260000,
-        "balance": 9040000,
-        "paid_amount": 2260000,
+        "balance": 0,
+        "paid_amount": 11300000,
         "due_date": "2026-08-06 00:00:00",
         "initial_payment_method": "cc",
-        "balance_payment_method": null,
+        "balance_payment_method": "wise",
         "payment_link_present": true,
         "pending_upload_proof": false,
         "uploaded_payment_proof_present": false,
@@ -17125,6 +17141,22 @@
             "description": "Down Payment",
             "method": "Bank Transfer",
             "created_at": "2026-08-05 21:40:04",
+            "reference_present": true
+          },
+          {
+            "id": 902,
+            "nominal": 8640000,
+            "description": "Full payment",
+            "method": "WISE",
+            "created_at": "2026-08-30 22:30:09",
+            "reference_present": true
+          },
+          {
+            "id": 903,
+            "nominal": 400000,
+            "description": "Payment Add On",
+            "method": "WISE",
+            "created_at": "2026-08-30 22:30:26",
             "reference_present": true
           }
         ]
@@ -21865,9 +21897,9 @@
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 0,
-        "l": 0,
-        "xl": 0,
+        "m": 1,
+        "l": 1,
+        "xl": 3,
         "xxl": 0
       },
       "itinerary_days": [
@@ -22467,7 +22499,7 @@
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 0,
+        "m": 2,
         "l": 0,
         "xl": 0,
         "xxl": 0
@@ -22619,7 +22651,7 @@
       },
       "logistics": {
         "pickup": "Bali Hotel  Casa Da Maria, Uluwatu",
-        "pickup_time": "10:00:00",
+        "pickup_time": "09:00:00",
         "drop": "Surabaya Airport  ",
         "drop_time": "17:00:00",
         "special_requirements_present": false
@@ -22945,8 +22977,8 @@
       },
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
-        "m": 0,
+        "s": 1,
+        "m": 1,
         "l": 0,
         "xl": 0,
         "xxl": 0
@@ -23267,7 +23299,7 @@
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 0,
+        "m": 2,
         "l": 0,
         "xl": 0,
         "xxl": 0
