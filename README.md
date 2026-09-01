@@ -57,9 +57,25 @@ The current design is intentionally one-way:
 
 In other words, the effective content chain is:
 
-`llm-wiki -> jvto-ekosistem -> jvto-web`
+`llm-wiki (upstream content vault) -> jvto-ekosistem (canonical compiler and domain source) -> jvto-web (presentation layer)`
 
 This matches the architecture documented in the repo and reflects the project’s published direction: keep public facts centralized here, while the web repo remains the presentation layer and application shell.
+
+### Current status of the llm-wiki dependency
+
+The dependency is not symmetrical across both repos:
+
+- `jvto-web` no longer depends on `llm-wiki` directly. The web app reads generated ecosystem content through its own content adapters and rendering pipelines.
+- `jvto-ekosistem` still contains an active sync path from `llm-wiki` via `scripts/sync-knowledge-from-llm-wiki.mjs` and `scripts/lib/llm-wiki-sync/`.
+- That sync is valuable as an upstream ingestion and validation layer, but it is not the same as a runtime dependency for the web application itself.
+
+This means the current architecture is best described as:
+
+- `llm-wiki` = upstream source and content vault
+- `jvto-ekosistem` = canonical consolidation and enforcement layer
+- `jvto-web` = consumer of compiled ecosystem output
+
+The recommended operating stance is not to cut the dependency immediately, but to keep it as a controlled, opt-in ingestion path until the team decides the ecosystem is fully consolidated and the sync can be retired without changing downstream output. In practical terms, the safe default is to keep the sync available for manual or scheduled use while avoiding automatic dependency on it unless the content is still genuinely required.
 
 ## Why it is useful
 
@@ -188,6 +204,20 @@ npm run test:llm-wiki-sync
 npm run test:review-schema
 ```
 
+### Upstream sync status (current state)
+
+The project includes a dedicated upstream sync path for trust and knowledge bundles from `llm-wiki`, but this should be treated as a controlled integration rather than a permanent runtime requirement.
+
+```bash
+# Run the llm-wiki sync directly
+npm run sync:llm-wiki
+
+# Dry-run the sync to inspect whether upstream content changed without writing
+npm run sync:llm-wiki:dry-run
+```
+
+This sync is useful while the ecosystem is still consolidating source truth. The recommended pattern is to keep it available, validate it, and only retire it once the canonical data in `jvto-ekosistem` is fully sufficient for downstream consumers such as `jvto-web`.
+
 ## Common tasks
 
 The repository includes several project-specific workflows for rendering and sync:
@@ -216,6 +246,10 @@ npm run sync:booking:dry-run
 
 # Sync Google review data
 npm run sync:google-reviews
+
+# Optional upstream knowledge sync from llm-wiki (kept as a controlled integration)
+npm run sync:llm-wiki
+npm run sync:llm-wiki:dry-run
 ```
 
 ## Documentation and support
