@@ -10,6 +10,7 @@ This repository is not a standalone customer-facing app. It is a structured cont
 ## Table of contents
 
 - [What this project does](#what-this-project-does)
+- [Relationship with jvto-web](#relationship-with-jvto-web)
 - [Why it is useful](#why-it-is-useful)
 - [Repository structure](#repository-structure)
 - [Getting started](#getting-started)
@@ -44,6 +45,22 @@ For the repository’s architectural rationale, see:
 - [docs/architecture.md](docs/architecture.md)
 - [docs/domain-boundaries.md](docs/domain-boundaries.md)
 
+## Relationship with jvto-web
+
+This repository is meant to be the authoritative content and contract layer for the public site. The separate website application lives in [jvto-devteam/jvto-web](https://github.com/jvto-devteam/jvto-web) and consumes generated output from this repo rather than maintaining its own independent public-content source of truth.
+
+The current design is intentionally one-way:
+
+- upstream knowledge sources flow into this repository;
+- this repo compiles the canonical facts into website and schema outputs;
+- the website app reads those generated payloads and renders the browser experience.
+
+In other words, the effective content chain is:
+
+`llm-wiki -> jvto-ekosistem -> jvto-web`
+
+This matches the architecture documented in the repo and reflects the project’s published direction: keep public facts centralized here, while the web repo remains the presentation layer and application shell.
+
 ## Why it is useful
 
 This repository helps teams keep the business logic and public content aligned across multiple surfaces.
@@ -60,7 +77,7 @@ This repository helps teams keep the business logic and public content aligned a
 
 The project is designed to support consumption by systems such as:
 
-- the public website app in `jvto-devteam/jvto-web`
+- the public website application in [jvto-devteam/jvto-web](https://github.com/jvto-devteam/jvto-web), which reads generated website and schema payloads from this repo
 - SEO and structured data output
 - AI knowledge feeds and answer generation
 - booking and staff operations tooling
