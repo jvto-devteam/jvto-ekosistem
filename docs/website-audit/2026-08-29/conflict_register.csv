@@ -1,7 +1,7 @@
-issue_id,type,url_or_pattern,element,expected_owner,actual_owner,file_path,evidence,minimum_action,status
-issue-001,duplicate_owner,/tours/from-surabaya/{slug},structured-data-graph,template owner,unknown,src/app/(website)/tours/from-surabaya/[slug]/page.tsx,manual review required,confirm single owner and remove duplicate schema graph,open
-issue-002,missing_owner,/why-jvto/{slug},social metadata,template owner,unknown,src/app/(website)/why-jvto/[slug]/page.tsx,manual review required,assign owner and validate metadata contract,open
-issue-003,source_output_mismatch,/tours/from-bali/{slug},aggregateRating,ekosistem source,rendered page,src/app/(website)/tours/from-bali/[slug]/page.tsx,compare source product contract vs live HTML,confirm canonical source field and fix mismatch,open
-issue-004,template_non_uniform,/travel-guide/{slug},metadata contract,travel-guide contract,non-uniform route,src/app/(website)/travel-guide/EcosystemTravelGuidePage.tsx,manual review required,normalize metadata field usage,open
-issue-005,fallback_only,/policy/{slug},canonical metadata,source metadata,fallback path,src/app/(website)/policy/[slug]/page.tsx,manual review required,replace fallback with explicit source field,open
-issue-006,render_missing,/destinations/{slug},JSON-LD,template contract,not rendered,src/app/(website)/destinations/[slug]/page.tsx,manual review required,verify JSON-LD deployment,open
+issue_id,type,url_or_pattern,element,expected_owner,actual_owner,file_path,evidence,minimum_action,status,cross_ref_id
+issue-001,duplicate_owner,/tours/from-surabaya/{slug},structured-data-graph,template owner,unknown,src/app/(website)/tours/from-surabaya/[slug]/page.tsx,manual review required,confirm single owner and remove duplicate schema graph,open,handoff-001
+issue-002,missing_owner,/why-jvto/{slug},social metadata,template owner,unknown,src/app/(website)/why-jvto/[slug]/page.tsx,manual review required,assign owner and validate metadata contract,open,handoff-003
+issue-003,source_output_mismatch,/tours/from-bali/{slug},aggregateRating,ekosistem source,rendered page,src/app/(website)/tours/from-bali/[slug]/page.tsx,compare source product contract vs live HTML,confirm canonical source field and fix mismatch,open,handoff-002
+issue-004,template_non_uniform,/travel-guide/{slug},metadata contract,travel-guide contract,non-uniform route,src/app/(website)/travel-guide/EcosystemTravelGuidePage.tsx,manual review required,normalize metadata field usage,open,handoff-004
+issue-005,fallback_only,/policy/{slug},canonical metadata,source metadata,fallback path,src/app/(website)/policy/[slug]/page.tsx,manual review required,replace fallback with explicit source field,open,handoff-005
+issue-006,render_missing,/destinations/{slug},JSON-LD,template contract,not rendered,src/app/(website)/destinations/[slug]/page.tsx,manual review required,verify JSON-LD deployment,open,handoff-006
