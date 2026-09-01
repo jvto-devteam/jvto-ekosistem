@@ -1,7 +1,7 @@
 {
   "_comment": "Individual guest reviews (Google, Trustpilot, TripAdvisor). id is preserved EXACTLY from the historical Prisma reviews.id this data was migrated from on 2026-08-19 (one-time export — 217 rows, script not retained since it was a single-use migration aid; see git history of this file for the commit that added it) — jvto-web's /why-jvto/reviews/{id} route and the #review-{id} JSON-LD @id both bake this integer into public, possibly-indexed URLs, so it must never be renumbered. nextId tracks the next integer to assign to a newly-synced Google review; Trustpilot/TripAdvisor have no automated sync (none existed before this migration either) and are updated manually here going forward, same as before. packageAttribution marks the 19 records whose packageSlug was DERIVED from the review text (destinations named, trip length, pick-up/drop-off city, matched against each product's itinerary, name and paid add-ons) rather than captured with the booking. Absence of the field means the slug came with the record. Reviews that name no destination, or whose named combination fits more than one product, were deliberately left unattributed — see docs/review-package-attribution.md.",
-  "nextId": 327,
-  "lastSynced": "2026-08-29",
+  "nextId": 331,
+  "lastSynced": "2026-09-01",
   "googleSync": "Automated daily via .github/workflows/sync-google-reviews.yml (Phase 2, ekosistem-side)",
   "reviews": [
     {
@@ -6177,6 +6177,138 @@
       },
       "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tkdWJ6Z3lUbk52ZFZKNFRGUm1ja2hSYm1WcFdVRRAB",
       "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqmATOckfJOTEt4dakoDn0iP9NA3oJEbJvv2-2siGSCSKT_7-WbOcFzhryAS7hI2sE6zC8MpkA",
+      "packageSlug": null,
+      "packageName": null,
+      "crewCodes": []
+    },
+    {
+      "id": 327,
+      "platform": "Google",
+      "customerName": "Izzati Syakirah",
+      "date": "2026-08-31",
+      "star": 5,
+      "review": "Booked a 4D3N tour with JVTO, covering Tumpak Sewu, Mount Bromo, Madakaripura Waterfall and Ijen, and it was truly such a fun and memorable experience. Every destination was breathtaking, and although the early mornings were tough, waking up to admire the night sky and catch the sunrise was definitely worth it.\n\nA special mention to our driver, Fredi, who was an excellent and highly reliable driver. We always felt safe and comfortable with him behind the wheel, where we could even fall asleep peacefully during the long drives.\n\nAnother special mention to our guide, Juan, who was incredibly helpful and attentive to our needs. He was such a fun person to be around and was always ready to lend a hand whenever we needed one. His friendly personality definitely made the trip even more enjoyable.\n\nAll in all, the trip was filled with beautiful sights, fun experiences and unforgettable memories, made even better by having such wonderful guides accompanying us along the way. We truly had a great time and would not hesitate to book another trip with JVTO in the future.",
+      "photos": {
+        "source": "Google Business Profile reviewMediaItems",
+        "syncedAt": "2026-09-01T06:10:07.715Z",
+        "count": 3,
+        "items": [
+          {
+            "id": "AbFvOqnWk62mDw4XUVfLE9j7H-0Lr1r9P8iO-A48OHoILjCL6vS2YOEasPfpImO8Av5nUrgJbNEA-1",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMOeR3spt3QMz6aTkM1Ua6ExFFfOYRwN60IDHPWaxtWhaHO0Z5E_8WDfhBE1FL6hTm1s9EAZAxJBSrLUP5TnMr2CVuVOiykmCkByyBe3gvJzlWuVeRMvAK9FflLnq-hd18yypPCLge360MY=k-no",
+            "thumbnailLabel": "Mount Bromo view",
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqnWk62mDw4XUVfLE9j7H-0Lr1r9P8iO-A48OHoILjCL6vS2YOEasPfpImO8Av5nUrgJbNEA-2",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPmK6bGJSg51h8jZT_cewuYaH5hkGnLwnSLEWn-3MfJhkCujTAV7uN0hnkAFMM-Opd1wsjYsEePVFSwWedQ1yw1YcrXh1Exs4snq_O4xoHHsN3WbAqQY4wkThipg6EA1R5E1BsGypnnfBuv=k-no",
+            "thumbnailLabel": "Ijen Crater",
+            "videoUrl": "https://lh3.googleusercontent.com/gpms-cs-s/AFP8RcOl6se6YsP98dZu9-PhetP9STD8yhSiUCyb8lJshj-mdga27hqM6d863QiYyq18UdqDaAampThosIJ3Hi2eYivHm5H23ItAhNpBTZxQP1D4Z-eZf6-kKJji2keouW7Jtz0LINNji_ldbHMx=m18",
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqnWk62mDw4XUVfLE9j7H-0Lr1r9P8iO-A48OHoILjCL6vS2YOEasPfpImO8Av5nUrgJbNEA-3",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMiOswekKL1gvT1KNwojyIsKz70hCi-a1y8navC2eaFm8F0hNszze9uEXQRdIK66l7p-QbE4tGP-t8Ms5RjmTxcciwzFRVayt0JVJ8vcYJ-4OAMKiAmJUfAObvVFwmVl8DOso0xqeZF68_U=k-no",
+            "thumbnailLabel": "Madakaripura Waterfall",
+            "videoUrl": "https://lh3.googleusercontent.com/gpms-cs-s/AFP8RcOT-X3RLsB4bWgc3Cuk_tR7-3YLHJYzUTu0PGijfA5VNLSqhieR1KCbiUuGE9sUnKrLXrbelIKnrKL_sQ8G_poTvyQzJpWUFgNcXiUYjpvMCOmfHXhTj9xkUJ0jpaI4xE0ln7uYKoJd_3Qz=m18",
+            "source": "Google Business Profile reviewMediaItems"
+          }
+        ]
+      },
+      "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT21aRlNHVTNjbWhYU0hwd2MxTlNNM1YwWlhKaVZYYxAB",
+      "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqnWk62mDw4XUVfLE9j7H-0Lr1r9P8iO-A48OHoILjCL6vS2YOEasPfpImO8Av5nUrgJbNEA",
+      "packageSlug": null,
+      "packageName": null,
+      "crewCodes": [
+        "fredi"
+      ]
+    },
+    {
+      "id": 328,
+      "platform": "Google",
+      "customerName": "Louis Lemmens",
+      "date": "2026-08-31",
+      "star": 5,
+      "review": "Exceptional experience with Java Tour Operator! We chose the 3-day, 2-night tour, during which we visited, among other places, Mt. Ijen and Mt. Bromo. The breathtaking views and these natural wonders were an incredible experience in themselves, but the expertise of our guide, Aboy, and our driver, Ryan, made it truly unforgettable. From start to finish, you are perfectly taken care of, with attention to every little detail! It felt like we were travelling with two extra friends, except these were two friends with an incredible amount of knowledge and expertise about all the places we visited. The fact that the tours are private for your group means that everything can be tailored to your preferences, allowing you to enjoy the adventure completely worry-free. I would highly recommend!\n\nPS. The photos that Aboy takes are magnificent, as you can see below! If he ever gets tired of the mountains, there’s always a career as a professional photographer waiting for him.",
+      "photos": {
+        "source": "Google Business Profile reviewMediaItems",
+        "syncedAt": "2026-09-01T06:10:07.716Z",
+        "count": 3,
+        "items": [
+          {
+            "id": "AbFvOqm1RfqOHuTvxyNOvgSyEryhQ0kCbi0PVQG0vnY6G8E3_wUAhnhomQr_IgFm_f95x971eHlscQ-1",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOBoY6P9e2i6_XoilbSbo0xlpfdH9kZvV-jrLrboyZzOBu3kVO7XSEYDJCxeBUPrkq_SsPrDaNF5S0ule1LNRJA4g-JHuL9tfviMlBDpZqDB3qNqsD78sqOoKIcNrWD1DpG7ij4ql8Pphks=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqm1RfqOHuTvxyNOvgSyEryhQ0kCbi0PVQG0vnY6G8E3_wUAhnhomQr_IgFm_f95x971eHlscQ-2",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNaQftaBikYdDHegmQk08CyVxd-T4MuWwBu_S08yH4R11Baf7ERazwp7VnOcKvnTq61-s85zSDVJIEImZMYXybf98vbvwQ5A_Du2TSvLRZqfK_BsaIQwVCCdUzq_32bPBHwdKLagy66Mi15=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          },
+          {
+            "id": "AbFvOqm1RfqOHuTvxyNOvgSyEryhQ0kCbi0PVQG0vnY6G8E3_wUAhnhomQr_IgFm_f95x971eHlscQ-3",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPzCGq7463qWqIkU2i-SzGEemXhB86TR2NoJFFzsJg6QcW2EhgQNyaO5GkgReR9Sazl-r_4DY3I0MjWviGn9g0SVtQLGYUk_c4Fo9XtSuI71aGsRe4pgjCJND9LoQMEAOcuTCspYQm8ESvS=k-no",
+            "thumbnailLabel": null,
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          }
+        ]
+      },
+      "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2twQ1NXMU9ZVFpSTm1vdGRtcE1iVGczVlZoMlRWRRAB",
+      "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqm1RfqOHuTvxyNOvgSyEryhQ0kCbi0PVQG0vnY6G8E3_wUAhnhomQr_IgFm_f95x971eHlscQ",
+      "packageSlug": null,
+      "packageName": null,
+      "crewCodes": []
+    },
+    {
+      "id": 329,
+      "platform": "Google",
+      "customerName": "Wout Jans",
+      "date": "2026-08-31",
+      "star": 5,
+      "review": "(Translated by Google) We did the 3-day, 2-night tour and it was fantastic! Everything was well organized and our guides, Aboy and Ryan, were really great. Aboy showed us around very well, took us to the places with the best views of Ijen and Bromo, answered all our questions, and took better photos of us than most photographers would. Ryan was the driver and took us everywhere safely. I can only recommend this organization!\n\n(Original)\nWij deden de tour van 3 dagen en 2 nachten en dit was top! Alles was goed geregeld en onze gidsen, Aboy en Ryan, waren echt super. Aboy leidde ons heel goed rond, bracht ons naar de plaatsen met de beste uitzichten op Ijen en Bromo, beantwoordde al onze vragen en nam betere foto’s van ons dan de meeste fotografen zouden doen. Ryan was de chauffeur en bracht ons overal veilig heen. Ik kan deze organisatie alleen maar aanraden!",
+      "photos": null,
+      "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pnemRVTlhiMWhEV1ZsSk1rcElhazVtVDNwYVZGRRAB",
+      "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqkSaKAUwSsBP-BakNMshj2hDQYjw-WdPPnDbzGFh9AUDDFSffdYg-IdfSqw2hfVmxlMTbpqOQ",
+      "packageSlug": null,
+      "packageName": null,
+      "crewCodes": []
+    },
+    {
+      "id": 330,
+      "platform": "Google",
+      "customerName": "Alexander Beuselinck",
+      "date": "2026-08-31",
+      "star": 5,
+      "review": "Amazing 3D/2N tour with Aboy and Rian! Perfectly organised & amazing people. Saw some of the most beautiful views I have ever seen - absolutely recommend!",
+      "photos": {
+        "source": "Google Business Profile reviewMediaItems",
+        "syncedAt": "2026-09-01T06:10:07.716Z",
+        "count": 1,
+        "items": [
+          {
+            "id": "AbFvOqlB1l8gGoFI6zLC-jtCC3Wfu7cHe--btBRkQzZit2Un20hXstWmDSW0zhg3tRoGeb5wsuQ1jg-1",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmPDXiWD0ByTyP0w-heZAhYrVvScSt0DsHkrtK2nfBFUFJo90OzHB_nPG5Xlri2cAupXfIM1ZIiy8mLMGj134qRCqlU6J10ob7UlIeplAqPCqNXm0MYmRe0XF-PVcjaHCVt3N4rm8xwU7Ti0=k-no",
+            "thumbnailLabel": "Mount Bromo sunrise landscape",
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          }
+        ]
+      },
+      "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tWcU1qTlVSbWxVTmpaNWN6TnRMVTVtTTJ3ME5uYxAB",
+      "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOqlB1l8gGoFI6zLC-jtCC3Wfu7cHe--btBRkQzZit2Un20hXstWmDSW0zhg3tRoGeb5wsuQ1jg",
       "packageSlug": null,
       "packageName": null,
       "crewCodes": []

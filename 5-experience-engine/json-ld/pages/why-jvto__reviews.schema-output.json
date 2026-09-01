@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-08-29T07:46:18.381Z",
+  "generated_at": "2026-09-01T06:10:08.220Z",
   "route": "/why-jvto/reviews",
   "domain": "why-jvto",
   "slug": "reviews",
@@ -43,7 +43,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": 4.9,
-          "reviewCount": 157,
+          "reviewCount": 161,
           "bestRating": 5
         },
         "sameAs": [
@@ -5366,6 +5366,102 @@
         },
         "reviewBody": "Amazing trip to Mount Bromo and Ijen!!! The scenes felt so AI!\n\nOur guides Sahril and Juan were so friendly, helpful, chatty! They also take photos and videos for you! Be prepared to sleep alot on the move! Driving skills are tops so dun have to worry.\n\nWe went to see Mount Semeru an active volcano. Then Tumpat Sewu waterfall which was gorgeous as well!\n\nFood was ok, spicy and savoury.",
         "datePublished": "2026-08-29",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/why-jvto/reviews#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/#review-327",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Izzati Syakirah"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Booked a 4D3N tour with JVTO, covering Tumpak Sewu, Mount Bromo, Madakaripura Waterfall and Ijen, and it was truly such a fun and memorable experience. Every destination was breathtaking, and although the early mornings were tough, waking up to admire the night sky and catch the sunrise was definitely worth it.\n\nA special mention to our driver, Fredi, who was an excellent and highly reliable driver. We always felt safe and comfortable with him behind the wheel, where we could even fall asleep peacefully during the long drives.\n\nAnother special mention to our guide, Juan, who was incredibly helpful and attentive to our needs. He was such a fun person to be around and was always ready to lend a hand whenever we needed one. His friendly personality definitely made the trip even more enjoyable.\n\nAll in all, the trip was filled with beautiful sights, fun experiences and unforgettable memories, made even better by having such wonderful guides accompanying us along the way. We truly had a great time and would not hesitate to book another trip with JVTO in the future.",
+        "datePublished": "2026-08-31",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/why-jvto/reviews#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/#review-328",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Louis Lemmens"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Exceptional experience with Java Tour Operator! We chose the 3-day, 2-night tour, during which we visited, among other places, Mt. Ijen and Mt. Bromo. The breathtaking views and these natural wonders were an incredible experience in themselves, but the expertise of our guide, Aboy, and our driver, Ryan, made it truly unforgettable. From start to finish, you are perfectly taken care of, with attention to every little detail! It felt like we were travelling with two extra friends, except these were two friends with an incredible amount of knowledge and expertise about all the places we visited. The fact that the tours are private for your group means that everything can be tailored to your preferences, allowing you to enjoy the adventure completely worry-free. I would highly recommend!\n\nPS. The photos that Aboy takes are magnificent, as you can see below! If he ever gets tired of the mountains, there’s always a career as a professional photographer waiting for him.",
+        "datePublished": "2026-08-31",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/why-jvto/reviews#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/#review-329",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Wout Jans"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "(Translated by Google) We did the 3-day, 2-night tour and it was fantastic! Everything was well organized and our guides, Aboy and Ryan, were really great. Aboy showed us around very well, took us to the places with the best views of Ijen and Bromo, answered all our questions, and took better photos of us than most photographers would. Ryan was the driver and took us everywhere safely. I can only recommend this organization!\n\n(Original)\nWij deden de tour van 3 dagen en 2 nachten en dit was top! Alles was goed geregeld en onze gidsen, Aboy en Ryan, waren echt super. Aboy leidde ons heel goed rond, bracht ons naar de plaatsen met de beste uitzichten op Ijen en Bromo, beantwoordde al onze vragen en nam betere foto’s van ons dan de meeste fotografen zouden doen. Ryan was de chauffeur en bracht ons overal veilig heen. Ik kan deze organisatie alleen maar aanraden!",
+        "datePublished": "2026-08-31",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/why-jvto/reviews#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/#review-330",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Alexander Beuselinck"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Amazing 3D/2N tour with Aboy and Rian! Perfectly organised & amazing people. Saw some of the most beautiful views I have ever seen - absolutely recommend!",
+        "datePublished": "2026-08-31",
         "itemReviewed": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         },
