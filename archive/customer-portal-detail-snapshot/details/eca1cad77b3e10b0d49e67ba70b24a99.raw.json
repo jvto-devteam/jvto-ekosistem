@@ -20,8 +20,8 @@
       "travel_date_start": "2026-09-09",
       "travel_date_end": "2026-09-11",
       "total_pax": 2,
-      "pickup": "  ",
-      "pickup_time": null,
+      "pickup": "Surabaya Train Station Gubeng Station Sancaka 84",
+      "pickup_time": "10:45:00",
       "drop": "  ",
       "drop_time": null,
       "special_requirements": null,
@@ -29,8 +29,8 @@
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 0,
-        "l": 0,
+        "m": 1,
+        "l": 1,
         "xl": 0,
         "xxl": 0
       },

@@ -1,56 +1,42 @@
 {
-  "slug": "c96a430afc8aa36896e223be3ea985b5",
-  "url": "https://legacy.javavolcano-touroperator.com/bookings/details/c96a430afc8aa36896e223be3ea985b5?json=true",
+  "slug": "948681c42c48a0c6e4a554c7f897acfe",
+  "url": "https://legacy.javavolcano-touroperator.com/bookings/details/948681c42c48a0c6e4a554c7f897acfe?json=true",
   "statusCode": 200,
   "ok": true,
   "json": {
     "success": true,
     "booking": {
-      "id": 3802,
-      "booking_code": "JVR/068/09/26",
-      "booking_id": "JVTO-3802",
-      "url": "c96a430afc8aa36896e223be3ea985b5",
+      "id": 3748,
+      "booking_code": "JVR/011/10/26",
+      "booking_id": "JVTO-3748",
+      "url": "948681c42c48a0c6e4a554c7f897acfe",
       "status": "booked",
-      "customer_id": 4128,
-      "customer_name": "Sofia Delgado Chicharro",
-      "package_name": "4 Day Ijen, Papuma Beach, Tumpak Sewu & Bromo Expedition from Bali to Surabaya",
+      "customer_id": 4085,
+      "customer_name": "Francois Caprasse",
+      "package_name": "3 Day Ijen, Bromo & Madakaripura Waterfall Journey from Bali to Surabaya",
       "channel": "JVTO",
-      "package_link": "https://javavolcano-touroperator.com/tours/from-bali/ijen-papuma-tumpak-sewu-bromo-4d3n",
-      "duration": "4D 3N",
-      "travel_date_start": "2026-09-14",
-      "travel_date_end": "2026-09-17",
+      "package_link": "https://javavolcano-touroperator.com/tours/from-bali/ijen-bromo-madakaripura-3d2n",
+      "duration": "3D 2N",
+      "travel_date_start": "2026-10-08",
+      "travel_date_end": "2026-10-10",
       "total_pax": 2,
-      "pickup": "Bali Hotel  Casa Da Maria, Uluwatu",
+      "pickup": "Bali Hotel  Bambootel Sawah View",
       "pickup_time": "09:00:00",
-      "drop": "Surabaya Airport  ",
-      "drop_time": "17:00:00",
+      "drop": "  ",
+      "drop_time": null,
       "special_requirements": null,
-      "media_link": "https://drive.google.com/drive/folders/1oYv8KL_xZr29rqSy0Z8Z64I6Fdzwiu1M",
+      "media_link": null,
       "tshirt_sizes": {
         "xs": 0,
-        "s": 1,
-        "m": 0,
+        "s": 0,
+        "m": 1,
         "l": 1,
         "xl": 0,
         "xxl": 0
       },
       "crews": {
-        "guides": [
-          {
-            "id": 46,
-            "name": "Fauzi",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528816_FAUZI.JPG",
-            "role": "Escort Guide"
-          }
-        ],
-        "drivers": [
-          {
-            "id": 75,
-            "name": "Didin",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528640_Adim 2.jpeg",
-            "role": "Driver"
-          }
-        ]
+        "guides": [],
+        "drivers": []
       },
       "vehicle_specs": [
         {
@@ -73,63 +59,58 @@
           "day": 1,
           "title": "Day 1",
           "itinerary": "Bali - Banyuwangi",
-          "activity": "Your adventure begins with a pickup at I Gusti Ngurah Rai International Airport, Bali (DPS) (ideally before 10 AM), or from your hotel in Bali. You will be transferred on a scenic 4-hour drive to Gilimanuk Port, where you'll take a ferry crossing to Ketapang Port in Java (approximately 1 hour). If the weather is clear, enjoy views of Mount Agung in Bali and Mount Raung in Java during the ferry ride. After arriving at Ketapang Port, you’ll continue your journey to your hotel in Banyuwangi for check-in and relaxation."
+          "activity": "Your romantic escape begins with a pickup from your hotel in Bali at 9 AM. Afterward, enjoy a scenic 4-hour drive to Gilimanuk Port for the ferry crossing to Java (Ketapang Port). The ferry ride takes around an hour, and on clear days, you can admire views of Mount Agung in Bali and Mount Raung in Java. Upon arrival at Ketapang Port, proceed with a transfer to your hotel in Banyuwangi for check-in and rest."
         },
         {
           "day": 2,
           "title": "Day 2",
-          "itinerary": "Ijen Crater - Lumajang",
-          "activity": "Depart from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - Transfer to hotel at Tumpak Sewu Area - Check In - Take a rest"
+          "itinerary": "Ijen Crater - Bromo Area",
+          "activity": "Depart from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - Transfer to hotel in Bromo area  - Check in - Take a rest."
         },
         {
           "day": 3,
           "title": "Day 3",
-          "itinerary": "Tumpak Sewu - Bromo Area",
-          "activity": "At 4:00 AM, check out from your hotel and drive to Tumpak Sewu Waterfall, known for its magnificent curtain-like water flow. The waterfall is surrounded by smaller cascades, creating a breathtaking sight. To reach the waterfall, follow the river up the canyon, and be prepared to cross the river (wear proper trekking sandals or shoes). Enjoy the waterfall and its natural water spa.After the waterfall adventure and a lunch break, continue your journey to the Bromo area (approximately 4 hours). Upon arrival, check into your hotel and relax overnight in preparation for the Bromo sunrise tour tomorrow."
-        },
-        {
-          "day": 4,
-          "title": "Day 4",
-          "itinerary": "Bromo Sunrise - Surabaya Airport",
-          "activity": "At 2:00 AM, prepare for the Mount Bromo Stargazing and Milky Way view. After experiencing the stunning night sky, continue to enjoy the sunrise over the Bromo landscape. See the majestic Mount Batok, Mount Bromo, and the mighty Gunung Semeru, the highest volcano in Java.After the sunrise, take a thrilling 4WD or motorcycle ride over the Sand Sea to Poten, a Hindu temple beside Mount Bromo. From Poten, you can either hike 3 km or take a pony ride to the base of Mount Bromo. Climb the 253 steps to the crater rim for an up-close view of the volcano.After exploring Mount Bromo, return to your hotel for breakfast and checkout. Then, embark on your journey back to Surabaya (approximately 4 hours). You can be dropped off at Surabaya Airport, Train Station, or your hotel in Surabaya. We recommend booking a flight after 7:00 PM to allow for the travel time."
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Airport",
+          "activity": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim- Whispering Sands) - Breakfast and Shower - check out - continue to Madakaripura waterfall - Transfer to Surabaya Airport - End program"
         }
       ],
       "accommodations": [
         {
           "day": 1,
-          "name": "Ijen Resort and Villas",
-          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/1779630636_126287641.jpg",
+          "name": "Lintang Luku Tent",
+          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/1779123213_1be9ed4c-0e3f-4490-acce-2baa756c376f-1653448532481-212bc0cefdd9d8c065d1efbc7ed1b7bc.webp",
           "rooms": "By Client (1)"
         },
         {
           "day": 2,
-          "name": "Artha Cottage",
-          "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/artha-cottages.webp",
-          "rooms": "Deluxe Double (1)"
-        },
-        {
-          "day": 3,
-          "name": "ARTOTEL Cabin Bromo",
+          "name": "Jiwa Jawa Bromo",
           "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/",
           "rooms": "Double (1)"
         }
       ],
       "addons": [
         {
-          "id": 781,
-          "name": "Refund Hotel",
+          "id": 746,
+          "name": "Refund Bromo Hotel",
           "qty": 1,
-          "price": -1530000,
-          "subtotal": -1530000
+          "price": -750000,
+          "subtotal": -750000
+        },
+        {
+          "id": 747,
+          "name": "Refund Ijen Hotel",
+          "qty": 1,
+          "price": -500000,
+          "subtotal": -500000
         }
       ],
       "finance": {
-        "grand_total": 8270000,
-        "total_addons": -1530000,
-        "dp_amount": 1960000,
-        "balance": 6310000,
-        "paid_amount": 1960000,
-        "due_date": "2026-08-27 00:00:00",
+        "grand_total": 6850000,
+        "total_addons": -1250000,
+        "dp_amount": 1620000,
+        "balance": 5230000,
+        "paid_amount": 1620000,
+        "due_date": "2026-08-11 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
         "payment_link": null,
@@ -137,12 +118,12 @@
         "uploaded_payment_proof": null,
         "payment_history": [
           {
-            "id": 887,
-            "nominal": 1960000,
+            "id": 843,
+            "nominal": 1620000,
             "description": "Down Payment",
-            "reference": "https://checkout.xendit.co/web/6a8de5e7b23cefaa802707fc",
+            "reference": "https://checkout.xendit.co/web/6a78b7c7e213f68dc7476622",
             "method": "Debit/Credit Card",
-            "created_at": "2026-08-26 02:00:54"
+            "created_at": "2026-08-10 00:25:34"
           }
         ]
       },

@@ -25,7 +25,7 @@
       "drop": "Surabaya Airport Terminal 2 ",
       "drop_time": "12:30:00",
       "special_requirements": null,
-      "media_link": null,
+      "media_link": "https://drive.google.com/drive/folders/1hYr8Dk3K8l5aaj6EFD44XJ8VowQOzaWe",
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
@@ -98,7 +98,7 @@
           "day": 4,
           "name": "Holiday Inn Express Surabaya Centerpoint, an IHG Hotel",
           "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/holiday-inn.jfif",
-          "rooms": "Double (1)"
+          "rooms": "Double (3)"
         },
         {
           "day": 2,
@@ -115,14 +115,14 @@
       ],
       "addons": [
         {
-          "id": 788,
+          "id": 791,
           "name": "Madakaripura Waterfall",
           "qty": 5,
           "price": 200000,
           "subtotal": 1000000
         },
         {
-          "id": 789,
+          "id": 792,
           "name": "Upgrade Accommodation",
           "qty": 1,
           "price": 2850000,

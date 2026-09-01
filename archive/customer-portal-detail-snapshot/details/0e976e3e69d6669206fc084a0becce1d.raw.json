@@ -20,18 +20,18 @@
       "travel_date_start": "2026-09-27",
       "travel_date_end": "2026-09-29",
       "total_pax": 3,
-      "pickup": "  ",
-      "pickup_time": null,
+      "pickup": "Surabaya Airport Terminal 1 IU725",
+      "pickup_time": "19:10:00",
       "drop": "Ketapang port",
       "drop_time": "10:00:00",
       "special_requirements": null,
       "media_link": "https://drive.google.com/drive/folders/11DKV5onq-K9ciQNw5QNWaScrRAIJBxac",
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
+        "s": 1,
         "m": 0,
-        "l": 0,
-        "xl": 0,
+        "l": 1,
+        "xl": 1,
         "xxl": 0
       },
       "crews": {
