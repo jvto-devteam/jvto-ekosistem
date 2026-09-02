@@ -63,10 +63,11 @@ than `process.exit`, and end with the main-module guard.
   `path: ../sibling-repo` fails with *"Repository path ... is not under ..."*.
   Check the second repo out into a gitignored subdirectory instead and point the
   script at it via an env var.
-  Known instance still unfixed: `verify-evidence-hashes.yml` uses
-  `path: ../jvto-web`, and `scripts/verify-evidence-hashes.mjs:42` hardcodes
-  `path.resolve(ROOT, "..", "jvto-web")` — that workflow will fail the first time
-  it fires. Fixing it needs both files changed.
+  Preseden di repo ini: `verify-evidence-hashes.yml` pernah mati karena persis
+  ini. Sudah diperbaiki di `ed19f4fa` (2026-08-26) — workflow checkout ke
+  `.jvto-web` di dalam workspace dan meneruskan `JVTO_WEB_PATH`; script memakai
+  env itu dan menyisakan jalur sibling sebagai fallback lokal. Pola perbaikannya
+  di sana yang dipakai kalau kasus serupa muncul lagi. Diverifikasi 2026-09-02.
 - Sync workflows run on **stock Node with zero dependencies — no `npm ci`**.
 - **`deploy-vps.yml` needs two edits, not one**, when a job writes new paths:
   add them to `paths-ignore` **and** to the `case` allowlist in the
