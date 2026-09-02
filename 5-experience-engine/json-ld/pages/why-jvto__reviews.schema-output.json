@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-09-01T06:10:08.220Z",
+  "generated_at": "2026-09-02T05:36:19.999Z",
   "route": "/why-jvto/reviews",
   "domain": "why-jvto",
   "slug": "reviews",
@@ -43,7 +43,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": 4.9,
-          "reviewCount": 161,
+          "reviewCount": 163,
           "bestRating": 5
         },
         "sameAs": [
@@ -5462,6 +5462,54 @@
         },
         "reviewBody": "Amazing 3D/2N tour with Aboy and Rian! Perfectly organised & amazing people. Saw some of the most beautiful views I have ever seen - absolutely recommend!",
         "datePublished": "2026-08-31",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/why-jvto/reviews#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/#review-331",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "黃詩晴"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "(Translated by Google) The guide was a bit silly but very thoughtful. Accommodation and transportation were all arranged in one go! 👍\n\n(Original)\n嚮導很ㄎㄧㄤˉ但很貼心\n住宿交通一次搞定👍",
+        "datePublished": "2026-09-02",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/why-jvto/reviews#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/#review-332",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Ann"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "(Translated by Google) Incredible experience, tiring but worthwhile\n\n(Original)\n超強體驗 很累但值得",
+        "datePublished": "2026-09-02",
         "itemReviewed": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         },
