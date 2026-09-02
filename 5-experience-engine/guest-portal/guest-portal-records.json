@@ -11214,26 +11214,26 @@
         "days": "Fri - Sun"
       },
       "pickup": {
-        "meetingPoint": null,
-        "arrival": null,
-        "value": null,
-        "time": "07:00",
-        "text": null,
-        "complete": false
+        "meetingPoint": "Surabaya Airport",
+        "arrival": "Terminal 1",
+        "value": "QG726",
+        "time": "22:05",
+        "text": "Surabaya Airport Terminal 1 QG726",
+        "complete": true
       },
       "dropoff": {
-        "dropPoint": null,
-        "arrival": null,
-        "value": null,
-        "time": "07:00",
-        "text": null,
-        "complete": false
+        "dropPoint": "Surabaya Airport",
+        "arrival": "Terminal 1",
+        "value": "ID6575",
+        "time": "19:15",
+        "text": "Surabaya Airport Terminal 1 ID6575",
+        "complete": true
       },
       "itinerary": [
         {
           "day": 1,
           "date": "04 Sep 2026",
-          "itinerary": "Arrival in Surabaya & Transfer to Lumajang City",
+          "itinerary": "Surabaya Airport - Lumajang",
           "activity": "Surabaya",
           "destination_id": 4,
           "destination": "Surabaya"
@@ -11241,7 +11241,7 @@
         {
           "day": 2,
           "date": "05 Sep 2026",
-          "itinerary": "Tumpak Sewu Waterfall & Journey to Bromo",
+          "itinerary": "Tumpak Sewu - Bromo Area",
           "activity": "Tumpak Sewu Waterfall Tour",
           "destination_id": 7,
           "destination": "Tumpak Sewu Waterfall"
@@ -11249,8 +11249,8 @@
         {
           "day": 3,
           "date": "06 Sep 2026",
-          "itinerary": "Bromo Sunrise & Return to Surabaya",
-          "activity": "Bromo Sunrise Tour",
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Airport",
+          "activity": "Bromo Sunrise Tour, Madakaripura Warterfall Tour",
           "destination_id": 1,
           "destination": "Mount Bromo"
         }
@@ -11263,8 +11263,8 @@
           "hotel": "Artha Cottage",
           "rooms": [
             {
-              "roomId": 77,
-              "roomName": "Twin",
+              "roomId": 76,
+              "roomName": "Double",
               "quantity": 1
             }
           ],
@@ -11290,12 +11290,12 @@
         }
       ],
       "tshirt": {
-        "text": "XS x 1, M x 1",
+        "text": "S x 1, M x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
-          "xs": 1,
-          "s": 0,
+          "xs": 0,
+          "s": 1,
           "m": 1,
           "l": 0,
           "xl": 0,
@@ -11303,15 +11303,17 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
+      "vehicles": [
+        "Avanza Yus 2"
+      ],
       "payment": {
         "invoiceTotal": 7540000,
         "paid": 7540000,
         "balance": 0
       },
       "readiness": {
-        "hasPickup": false,
-        "hasDropoff": false,
+        "hasPickup": true,
+        "hasDropoff": true,
         "hasHotels": true,
         "balanceStatus": "settled"
       }

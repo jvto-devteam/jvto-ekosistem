@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-booking/customer-portal-logistics-v1",
-  "generated_at": "2026-09-01T05:46:59.943Z",
+  "generated_at": "2026-09-02T05:09:33.456Z",
   "privacy": "Logistics values are operational booking fields. Customer identity and portal access slugs are excluded.",
   "record_count": 87,
   "records": [
@@ -1302,10 +1302,10 @@
       "travel_date_end": "2026-09-06",
       "total_pax": 2,
       "logistics": {
-        "pickup": null,
-        "pickup_time": null,
-        "drop": null,
-        "drop_time": null,
+        "pickup": "Surabaya Airport Terminal 1 QG726",
+        "pickup_time": "22:05:00",
+        "drop": "Surabaya Airport Terminal 1 ID6575",
+        "drop_time": "19:15:00",
         "special_requirements_present": false
       }
     }

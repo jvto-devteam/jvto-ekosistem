@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-booking/customer-portal-booking-details-v1",
-  "generated_at": "2026-09-01T05:46:59.942Z",
+  "generated_at": "2026-09-02T05:09:33.455Z",
   "privacy": "No customer names, contact details, portal slugs, payment links, media links, payment references, or uploaded proof URLs are stored.",
   "record_count": 87,
   "records": [
@@ -4232,8 +4232,8 @@
         "total_pax": 2
       },
       "tshirt_sizes": {
-        "xs": 1,
-        "s": 0,
+        "xs": 0,
+        "s": 1,
         "m": 1,
         "l": 0,
         "xl": 0,
@@ -4241,7 +4241,7 @@
       },
       "addons": [
         {
-          "id": 797,
+          "id": 799,
           "name": "Madakaripura Waterfall",
           "qty": 2,
           "price": 200000,
@@ -4254,7 +4254,7 @@
         "dp_amount": 7540000,
         "balance": 0,
         "paid_amount": 7540000,
-        "due_date": "2026-09-02 10:54:24",
+        "due_date": "2026-09-02 00:00:00",
         "initial_payment_method": "pay later",
         "balance_payment_method": null,
         "payment_link_present": false,

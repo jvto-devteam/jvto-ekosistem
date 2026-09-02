@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-operations/customer-portal-accommodations-v1",
-  "generated_at": "2026-09-01T05:46:59.946Z",
+  "generated_at": "2026-09-02T05:09:33.458Z",
   "record_count": 87,
   "records": [
     {
@@ -2019,7 +2019,7 @@
         {
           "day": 1,
           "name": "Artha Cottage",
-          "rooms": "Twin (1)",
+          "rooms": "Double (1)",
           "banner_present": true
         },
         {

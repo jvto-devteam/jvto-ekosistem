@@ -1,6 +1,6 @@
 {
   "schema_version": "jvto-experience-output/customer-portal-detail-records-v1",
-  "generated_at": "2026-09-01T05:46:59.947Z",
+  "generated_at": "2026-09-02T05:09:33.460Z",
   "source": "legacy customer portal details, sanitized from /bookings/details/{portal_slug}?json=true",
   "record_count": 87,
   "records": [
@@ -5316,8 +5316,8 @@
       "crews": {
         "guides": [
           {
-            "id": 4,
-            "name": "Taufik",
+            "id": 68,
+            "name": "Boy",
             "role": "Escort Guide",
             "photo_present": true
           }
@@ -7212,8 +7212,8 @@
       "crews": {
         "guides": [
           {
-            "id": 68,
-            "name": "Boy",
+            "id": 3,
+            "name": "Anjas",
             "role": "Ijen Guide",
             "photo_present": true
           }
@@ -10723,18 +10723,11 @@
       ],
       "addons": [],
       "crews": {
-        "guides": [
-          {
-            "id": 68,
-            "name": "Boy",
-            "role": "Ijen Guide",
-            "photo_present": true
-          }
-        ],
+        "guides": [],
         "drivers": [
           {
-            "id": 80,
-            "name": "Sahril",
+            "id": 83,
+            "name": "Toriq",
             "role": "Driver",
             "photo_present": true
           }
@@ -13097,7 +13090,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     },
     {
@@ -13117,15 +13110,15 @@
         "total_pax": 2
       },
       "logistics": {
-        "pickup": null,
-        "pickup_time": null,
-        "drop": null,
-        "drop_time": null,
+        "pickup": "Surabaya Airport Terminal 1 QG726",
+        "pickup_time": "22:05:00",
+        "drop": "Surabaya Airport Terminal 1 ID6575",
+        "drop_time": "19:15:00",
         "special_requirements_present": false
       },
       "tshirt_sizes": {
-        "xs": 1,
-        "s": 0,
+        "xs": 0,
+        "s": 1,
         "m": 1,
         "l": 0,
         "xl": 0,
@@ -13135,27 +13128,27 @@
         {
           "day": 1,
           "title": "Day 1",
-          "itinerary": "Arrival in Surabaya & Transfer to Lumajang City",
-          "activity_text": "<div class=\"fw-600 mb-2\">Welcome to Surabaya & Journey to Malang</div> <div class=\"mb-3\">Your adventure begins with a pick-up from Surabaya Airport (preferably before 12:00 PM) and a scenic 3-hour drive to Lumajang City. Along the way, we will stop at a local restaurant for lunch (at your own expense). Upon arrival in Lumajang, check into your hotel, relax, and rest to prepare for the exciting days ahead.</div>"
+          "itinerary": "Surabaya Airport - Lumajang",
+          "activity_text": "Pick up from airport - Transfer to hotel at Tumpak Sewu Area - Check In - Take a rest"
         },
         {
           "day": 2,
           "title": "Day 2",
-          "itinerary": "Tumpak Sewu Waterfall & Journey to Bromo",
-          "activity_text": "<div class=\"fw-600 mb-2\">Tumpak Sewu Waterfall Adventure</div> <div class=\"mb-3\">Start the day with breakfast at the hotel, and then start to exploring Tumpak Sewu Waterfall. Known as the most beautiful waterfall in Java, Tumpak Sewu features a unique curtain-like water flow formed by multiple mini waterfalls cascading over a 300-meter-high cliff. The waterfalls form a semi-circular shape, and local legend has it that the waterfall is called \"Sewu,\" meaning \"one-thousand,\" due to the number of mini falls.</div> #next-stop# <div class=\"fw-600 mb-2\">Trekking to Tumpak Sewu & Water Spa</div> <div class=\"mb-3\">To fully appreciate the beauty of Tumpak Sewu, you will follow a trekking path up and over the rocks towards the top of the ravine, crossing the river at one point to reach Coban Sewu Waterfall. It’s recommended to wear proper trekking shoes or sandals. After spending time at the waterfall and enjoying the natural water spa, you’ll have lunch before continuing the journey to your hotel in the Bromo area, which takes approximately 4 hours by car.</div>"
+          "itinerary": "Tumpak Sewu - Bromo Area",
+          "activity_text": "Check out and depart to Tumpak Sewu - explore Tumpak Sewu (Around 5hours) - Shower and Lunch - Transfer to hotel in Bromo area - Check in - Take a rest."
         },
         {
           "day": 3,
           "title": "Day 3",
-          "itinerary": "Bromo Sunrise & Return to Surabaya",
-          "activity_text": "<div class=\"fw-600 mb-2\">Bromo Sunrise & Stargazing Adventure</div> <div class=\"mb-3\">On this final day, prepare for an unforgettable sunrise experience at Mount Bromo. At around 01:00 AM, you will begin your journey to witness the majestic night sky and the Milky Way over Bromo. After enjoying the stargazing, head to the main viewpoint to witness the sunrise over the volcanic landscape, where Mount Batok, Mount Bromo, and Gunung Semeru (Java’s highest and most active volcano) stand tall.</div> #next-stop# <div class=\"fw-600 mb-2\">Explore Mount Bromo & Crater Rim</div> <div class=\"mb-3\">Following sunrise, you will take an exciting 4WD ride or motorcycle journey across the Laotan Pasir (Sand Sea) to Poten, a Tenggerese Hindu temple at the base of Mount Bromo. From Poten, you can either take a 3km hike or opt for a pony ride to reach the base of Mount Bromo. After climbing 253 steps to the crater rim, you will be rewarded with spectacular views of the crater itself.</div> #next-stop# <div class=\"fw-600 mb-2\">Return to Surabaya</div> <div class=\"mb-3\">After enjoying the breathtaking views of Mount Bromo's crater, you will return to the hotel for breakfast and check-out. Finally, continue your journey to your hotel or Surabaya Airport, with an estimated travel time of around 4 hours. End of the program.</div>"
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Airport",
+          "activity_text": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim- Whispering Sands) - Breakfast and Shower - check out - continue to Madakaripura waterfall - Transfer to Surabaya Airport - End program"
         }
       ],
       "accommodations": [
         {
           "day": 1,
           "name": "Artha Cottage",
-          "rooms": "Twin (1)",
+          "rooms": "Double (1)",
           "banner_present": true
         },
         {
@@ -13167,7 +13160,7 @@
       ],
       "addons": [
         {
-          "id": 797,
+          "id": 799,
           "name": "Madakaripura Waterfall",
           "qty": 2,
           "price": 200000,
@@ -13175,8 +13168,22 @@
         }
       ],
       "crews": {
-        "guides": [],
-        "drivers": []
+        "guides": [
+          {
+            "id": 2,
+            "name": "Juan",
+            "role": "Escort Guide",
+            "photo_present": true
+          }
+        ],
+        "drivers": [
+          {
+            "id": 85,
+            "name": "Indra",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       },
       "vehicles": [
         {
@@ -13192,7 +13199,7 @@
         "dp_amount": 7540000,
         "balance": 0,
         "paid_amount": 7540000,
-        "due_date": "2026-09-02 10:54:24",
+        "due_date": "2026-09-02 00:00:00",
         "initial_payment_method": "pay later",
         "balance_payment_method": null,
         "payment_link_present": false,
@@ -13239,7 +13246,7 @@
             "checked": false
           }
         ],
-        "media_link_present": false
+        "media_link_present": true
       }
     }
   ]
