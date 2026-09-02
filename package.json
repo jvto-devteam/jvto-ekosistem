@@ -26,9 +26,6 @@
     "test:review-schema": "node scripts/test/review-schema/build-review-nodes.test.mjs",
     "watch:web-content": "node scripts/watch-web-content-sources.mjs",
     "verify:evidence-hashes": "node scripts/verify-evidence-hashes.mjs",
-    "generate:registry": "node scripts/generate-registry.mjs",
-    "validate:registry": "node scripts/validate.mjs",
-    "build:registry": "npm run generate:registry && npm run validate:registry",
     "audit:website-live": "node scripts/live-html-audit.mjs"
   },
   "engines": {
