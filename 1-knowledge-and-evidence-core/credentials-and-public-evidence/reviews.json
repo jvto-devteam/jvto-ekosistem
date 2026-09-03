@@ -1,7 +1,7 @@
 {
   "_comment": "Individual guest reviews (Google, Trustpilot, TripAdvisor). id is preserved EXACTLY from the historical Prisma reviews.id this data was migrated from on 2026-08-19 (one-time export — 217 rows, script not retained since it was a single-use migration aid; see git history of this file for the commit that added it) — jvto-web's /why-jvto/reviews/{id} route and the #review-{id} JSON-LD @id both bake this integer into public, possibly-indexed URLs, so it must never be renumbered. nextId tracks the next integer to assign to a newly-synced Google review; Trustpilot/TripAdvisor have no automated sync (none existed before this migration either) and are updated manually here going forward, same as before. packageAttribution marks the 19 records whose packageSlug was DERIVED from the review text (destinations named, trip length, pick-up/drop-off city, matched against each product's itinerary, name and paid add-ons) rather than captured with the booking. Absence of the field means the slug came with the record. Reviews that name no destination, or whose named combination fits more than one product, were deliberately left unattributed — see docs/review-package-attribution.md.",
-  "nextId": 333,
-  "lastSynced": "2026-09-02",
+  "nextId": 334,
+  "lastSynced": "2026-09-03",
   "googleSync": "Automated daily via .github/workflows/sync-google-reviews.yml (Phase 2, ekosistem-side)",
   "reviews": [
     {
@@ -6340,6 +6340,36 @@
       "packageSlug": null,
       "packageName": null,
       "crewCodes": []
+    },
+    {
+      "id": 333,
+      "platform": "Google",
+      "customerName": "MANDY LONG",
+      "date": "2026-09-02",
+      "star": 5,
+      "review": "Hey boy is gooooooood guide\nAnd best view",
+      "photos": {
+        "source": "Google Business Profile reviewMediaItems",
+        "syncedAt": "2026-09-03T05:36:18.707Z",
+        "count": 1,
+        "items": [
+          {
+            "id": "AbFvOql4xIvZBm77o5m5bmwRioNQBlwyyTHiGsdMk8emyH-axPp7NdwF1zZA3OSqylusCZ_TutrVnA-1",
+            "type": "photo",
+            "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOfRzTRPBZoDclkk3lBwTi5hFASl4aPs7K7ENsdtMGztY_L9VXorIK56YBA4IjAyy9ljb2Arn2ff3Xwt345HkQXEHaW3de3-QV5XxtFy_A7iv3JOHLz3Tqkgd1B4GxoEtBpsqyEkR0EV6nx=k-no",
+            "thumbnailLabel": "火山健行與日出景色",
+            "videoUrl": null,
+            "source": "Google Business Profile reviewMediaItems"
+          }
+        ]
+      },
+      "url": "https://business.google.com/n/11306571900359184784/reviews/Ci9DQUlRQUNvZENodHljRjlvT21ZNFUyNHlWRTB0Y1hSak5WaEdjRlpCUVhsc2JVRRAB",
+      "urlReference": "accounts/113259255222289357013/locations/11306571900359184784/reviews/AbFvOql4xIvZBm77o5m5bmwRioNQBlwyyTHiGsdMk8emyH-axPp7NdwF1zZA3OSqylusCZ_TutrVnA",
+      "packageSlug": null,
+      "packageName": null,
+      "crewCodes": [
+        "boy"
+      ]
     }
   ]
 }

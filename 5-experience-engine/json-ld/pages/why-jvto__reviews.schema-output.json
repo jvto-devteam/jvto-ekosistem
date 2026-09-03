@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-09-02T05:36:19.999Z",
+  "generated_at": "2026-09-03T05:36:19.068Z",
   "route": "/why-jvto/reviews",
   "domain": "why-jvto",
   "slug": "reviews",
@@ -43,7 +43,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": 4.9,
-          "reviewCount": 163,
+          "reviewCount": 164,
           "bestRating": 5
         },
         "sameAs": [
@@ -5509,6 +5509,30 @@
           "worstRating": "1"
         },
         "reviewBody": "(Translated by Google) Incredible experience, tiring but worthwhile\n\n(Original)\n超強體驗 很累但值得",
+        "datePublished": "2026-09-02",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/why-jvto/reviews#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/#review-333",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "MANDY LONG"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Hey boy is gooooooood guide\nAnd best view",
         "datePublished": "2026-09-02",
         "itemReviewed": {
           "@id": "https://javavolcano-touroperator.com/#organization"
