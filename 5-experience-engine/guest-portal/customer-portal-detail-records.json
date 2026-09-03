@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-experience-output/customer-portal-detail-records-v1",
-  "generated_at": "2026-09-02T05:09:33.460Z",
+  "generated_at": "2026-09-03T05:14:25.641Z",
   "source": "legacy customer portal details, sanitized from /bookings/details/{portal_slug}?json=true",
-  "record_count": 87,
+  "record_count": 89,
   "records": [
     {
       "booking_id": 1622,
@@ -1903,12 +1903,12 @@
         "grand_total": 7140000,
         "total_addons": 0,
         "dp_amount": 1428000,
-        "balance": 5712000,
-        "paid_amount": 1428000,
+        "balance": 0,
+        "paid_amount": 7140000,
         "due_date": "2026-06-08 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
-        "payment_link_present": false,
+        "payment_link_present": true,
         "pending_upload_proof": false,
         "uploaded_payment_proof_present": false,
         "payment_history": [
@@ -1918,6 +1918,14 @@
             "description": "Down Payment",
             "method": "Debit/Credit Card",
             "created_at": "2026-06-07 16:26:23",
+            "reference_present": true
+          },
+          {
+            "id": 910,
+            "nominal": 5712000,
+            "description": "Payment (Paid in Full)",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-09-02 23:25:46",
             "reference_present": true
           }
         ]
@@ -8776,7 +8784,7 @@
         "due_date": "2026-08-10 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": "wise",
-        "payment_link_present": false,
+        "payment_link_present": true,
         "pending_upload_proof": false,
         "uploaded_payment_proof_present": false,
         "payment_history": [
@@ -11825,7 +11833,7 @@
       },
       "logistics": {
         "pickup": "Bali Hotel  Casa Da Maria, Uluwatu",
-        "pickup_time": "09:00:00",
+        "pickup_time": "08:00:00",
         "drop": "Surabaya Airport  ",
         "drop_time": "17:00:00",
         "special_requirements_present": false
@@ -13247,6 +13255,277 @@
           }
         ],
         "media_link_present": true
+      }
+    },
+    {
+      "booking_id": 3818,
+      "booking_ref": "JVTO-3818",
+      "booking_code": "JVR/018/10/26",
+      "channel": "JVTO",
+      "status": "booked",
+      "portal_record_id": "portal_fd89e94649adff2e",
+      "privacy": "Customer name, customer id, portal slug, payment links, uploaded proofs, media URLs, and payment references are excluded from this active file. Exception: the free-text itinerary activity field (itinerary_days[].activity_text) is operational text entered by ops staff and may contain coordination details such as passenger names or flight numbers/times; unlike the structured fields, it is not guaranteed to be PII-free.",
+      "product": {
+        "package_name": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+        "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
+        "duration": "3D 2N",
+        "travel_date_start": "2026-10-28",
+        "travel_date_end": "2026-10-30",
+        "total_pax": 4
+      },
+      "logistics": {
+        "pickup": null,
+        "pickup_time": null,
+        "drop": null,
+        "drop_time": null,
+        "special_requirements_present": false
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "itinerary_days": [
+        {
+          "day": 1,
+          "title": "Day 1",
+          "itinerary": "From Surabaya to the Mystical Bromo Area",
+          "activity_text": "Your Bromo and Ijen adventure begins as we greet you at Surabaya Airport, with an early pick-up (best before noon). From there, we’ll embark on a 3-hour scenic drive to the iconic Cemoro Lawang, the gateway to the Bromo Area. Along the way, enjoy the changing landscapes of East Java as we make our way to the hotel. Upon arrival at your hotel, Joglo Kecombrang Bromo, you’ll have time to rest and take in the quiet beauty of the surroundings. Prepare for the exciting days ahead as you settle in for a peaceful evening."
+        },
+        {
+          "day": 2,
+          "title": "Day 2",
+          "itinerary": "From Bromo Sunrise to the Hidden Gems of Madakaripura",
+          "activity_text": "Our day begins in the early hours (around 1:00 AM), with a thrilling stargazing session, followed by a view of the Milky Way. As the first light of dawn breaks, witness the spectacular sunrise over the volcanic landscape of Bromo. The dormant Mount Batok, the active Mount Bromo, and the towering Mount Semeru are all part of this majestic view that stretches across the caldera. After sunrise, we continue our journey over the expansive Pasir (Sand Sea) in a 4WD, heading to the Poten Temple. From here, you can choose to either take a 3km hike or ride a pony to the base of Mount Bromo. A steep 253-step climb rewards you with a close-up view of the crater rim, where you can witness the raw power of the active volcano. We then set off for Madakaripura Waterfall, about an hour’s drive away. A short 30-minute trek through the lush greenery (wear your slippers!) will lead you to this magnificent waterfall, a stunning natural beauty nestled deep in the hills. After taking in the sight, we continue our journey to Bondowoso for an overnight stay."
+        },
+        {
+          "day": 3,
+          "title": "Day 3",
+          "itinerary": "From Ijen Crater to Bali’s Shores",
+          "activity_text": "Your day begins at midnight, as we head out from Bondowoso to Ijen. After a 90-minute drive to Paltuding, we’ll start the trek to Ijen Crater. This 1 to 1.5-hour hike leads you to the crater rim, where you’ll stand in awe of the 200-meter deep, turquoise sulfuric lake. You’ll also get to witness the grueling work of the local sulfur miners as they carry heavy sacks through toxic fumes and harsh terrain to make a living. After experiencing the crater’s sunrise view, we’ll descend and proceed to Ketapang Harbour, where you’ll board the ferry to Bali (ticket included). The journey to the island is the perfect way to conclude your Ijen adventure, as we leave Java behind and head to the tropical paradise of Bali."
+        }
+      ],
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Joglo Kecombrang Bromo",
+          "rooms": "Double (2)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Riverside Homestay",
+          "rooms": "Deluxe Double (2)",
+          "banner_present": true
+        }
+      ],
+      "addons": [],
+      "crews": {
+        "guides": [],
+        "drivers": []
+      },
+      "vehicles": [
+        {
+          "name": "Hiace Commuter",
+          "capacity": "4 - 0 pax",
+          "banner_present": true,
+          "interior_image_count": 1
+        }
+      ],
+      "finance": {
+        "grand_total": 12200000,
+        "total_addons": 0,
+        "dp_amount": 2440000,
+        "balance": 9760000,
+        "paid_amount": 2440000,
+        "due_date": "2026-09-03 14:54:52",
+        "initial_payment_method": "cc",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": [
+          {
+            "id": 909,
+            "nominal": 2440000,
+            "description": "Down Payment",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-09-02 14:56:36",
+            "reference_present": true
+          }
+        ]
+      },
+      "portal_content": {
+        "faq_categories": [
+          "Pre-Tour Information",
+          "During Tour Information",
+          "Activity-Based Information"
+        ],
+        "packing_categories": [
+          "Travel Documents",
+          "Clothing for Varied Climates",
+          "Footwear Essentials",
+          "Health & Safety Priorities",
+          "Must-Have Gear",
+          "Photography Gear",
+          "New Medical Check-Up Requirement",
+          "Personal Expenses"
+        ],
+        "essential_checklist": [
+          {
+            "item": "Valid passport with 6+ months validity",
+            "checked": false
+          },
+          {
+            "item": "Travel insurance purchased",
+            "checked": false
+          },
+          {
+            "item": "Warm clothing for mountain weather (2-5°C)",
+            "checked": false
+          }
+        ],
+        "media_link_present": false
+      }
+    },
+    {
+      "booking_id": 3820,
+      "booking_ref": "JVTO-3820",
+      "booking_code": "JVR/076/09/26",
+      "channel": "KLOOK",
+      "status": "booked",
+      "portal_record_id": "portal_9ab9baa65e2213d3",
+      "privacy": "Customer name, customer id, portal slug, payment links, uploaded proofs, media URLs, and payment references are excluded from this active file. Exception: the free-text itinerary activity field (itinerary_days[].activity_text) is operational text entered by ops staff and may contain coordination details such as passenger names or flight numbers/times; unlike the structured fields, it is not guaranteed to be PII-free.",
+      "product": {
+        "package_name": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+        "package_link": "https://klook.com/activity/99790-3-day-mount-bromo-sunrise-ijen-madakaripura-trekking-trip-surabaya/",
+        "duration": "4D 3N",
+        "travel_date_start": "2026-09-18",
+        "travel_date_end": "2026-09-21",
+        "total_pax": 2
+      },
+      "logistics": {
+        "pickup": "Surabaya Hotel (Grand Swiss-Belhotel Darmo, Surabaya)",
+        "pickup_time": "08:00:00",
+        "drop": "Sheraton Surabaya Hotel and Towers",
+        "drop_time": null,
+        "special_requirements_present": false
+      },
+      "tshirt_sizes": {
+        "xs": 0,
+        "s": 0,
+        "m": 0,
+        "l": 0,
+        "xl": 0,
+        "xxl": 0
+      },
+      "itinerary_days": [
+        {
+          "day": 1,
+          "title": "Day 1",
+          "itinerary": "Arrival in Surabaya and Journey to Bondowoso",
+          "activity_text": "<p>Arrival in Surabaya and Scenic Transfer to Bondowoso</p><p>Your exciting Bromo and Ijen adventure begins with a warm welcome at Surabaya Airport. We’ll pick you up (best before noon) and start our scenic 5-hour drive to Bondowoso. Along the way, we’ll stop at a local restaurant in Probolinggo for lunch at your own expense. Enjoy the changing landscapes as you make your way towards Bondowoso.</p><p><br></p><p>#next-stop#</p><p>Arrival at hotel</p><p>After arriving at hotel in Bondowoso, take some time to relax and settle in. Enjoy a delicious dinner and rest up for the next day’s adventure.</p>"
+        },
+        {
+          "day": 2,
+          "title": "Day 2",
+          "itinerary": "Ijen Crater Adventure and Papuma Beach Sunset",
+          "activity_text": "<p>Ijen Crater Exploration</p>"
+        },
+        {
+          "day": 3,
+          "title": "Day 3",
+          "itinerary": "Tumpak Sewu Waterfall and Journey to Bromo",
+          "activity_text": "<p>Tumpak Sewu Waterfall: The Thousand Waterfalls</p><p>Our journey begins early at 4:00 AM as we check out and head to Tumpak Sewu Waterfall, one of the most beautiful waterfalls in Java. Known for its unique half-circle formation, the waterfall consists of multiple mini-waterfalls cascading from a height of around 300 meters. A short, adventurous trek takes you across rocks and streams to reach the waterfall, so be sure to bring appropriate trekking sandals or shoes.</p><p><br></p><p>#next-stop#</p><p>Lunch and Journey to Bromo</p><p>After exploring the falls and perhaps even enjoying a natural water spa, we will have lunch before continuing our journey to the Bromo area. The drive will take approximately 4 hours, bringing you closer to the iconic Bromo Volcano.</p>"
+        },
+        {
+          "day": 4,
+          "title": "Day 4",
+          "itinerary": "Bromo Sunrise Adventure and Return to Surabaya",
+          "activity_text": "<p>Bromo Stargazing and Sunrise</p><p>Prepare for an early morning adventure starting at 2:00 AM as we set out for stargazing and a Milky Way view at Mount Bromo. As the first rays of dawn break, witness the spectacular sunrise over the Bromo landscape. The majestic views of Mount Batok, Mount Bromo, and Mount Semeru will take your breath away, as they rise from the flat volcanic sand bed of the caldera.</p><p><br></p><p>#next-stop#</p><p>Exploring the Heart of Bromo</p><p>After sunrise, we will continue our journey on a thrilling 4WD ride over the vast Sand Sea to the Poten Temple. From here, you can either take a 3km hike or a pony ride to the base of Mount Bromo, where you will ascend 253 steps to reach the crater rim and witness the raw power of the volcano up close.</p><p><br></p><p>#next-stop#</p><p>Return to Surabaya</p><p>After a morning filled with adventure, we will head back to Surabaya. Depending on your travel plans, we recommend booking a flight or train departing after 6:00 PM. End your trip with wonderful memories of East Java’s volcanic wonders.</p>"
+        }
+      ],
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Baratha Hotel and Resto",
+          "rooms": "Deluxe Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Doho Homestay",
+          "rooms": "Deluxe Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 3,
+          "name": "Joglo Kecombrang Bromo",
+          "rooms": "Double (1)",
+          "banner_present": true
+        }
+      ],
+      "addons": [],
+      "crews": {
+        "guides": [],
+        "drivers": []
+      },
+      "vehicles": [
+        {
+          "name": "MPV",
+          "capacity": "1 - 3 pax",
+          "banner_present": true,
+          "interior_image_count": 7
+        }
+      ],
+      "finance": {
+        "grand_total": 7500000,
+        "total_addons": 0,
+        "dp_amount": 0,
+        "balance": 7500000,
+        "paid_amount": 0,
+        "due_date": null,
+        "initial_payment_method": "pay later",
+        "balance_payment_method": null,
+        "payment_link_present": false,
+        "pending_upload_proof": false,
+        "uploaded_payment_proof_present": false,
+        "payment_history": []
+      },
+      "portal_content": {
+        "faq_categories": [
+          "Pre-Tour Information",
+          "During Tour Information",
+          "Activity-Based Information"
+        ],
+        "packing_categories": [
+          "Travel Documents",
+          "Clothing for Varied Climates",
+          "Footwear Essentials",
+          "Health & Safety Priorities",
+          "Must-Have Gear",
+          "Photography Gear",
+          "New Medical Check-Up Requirement",
+          "Personal Expenses"
+        ],
+        "essential_checklist": [
+          {
+            "item": "Valid passport with 6+ months validity",
+            "checked": false
+          },
+          {
+            "item": "Travel insurance purchased",
+            "checked": false
+          },
+          {
+            "item": "Warm clothing for mountain weather (2-5°C)",
+            "checked": false
+          }
+        ],
+        "media_link_present": false
       }
     }
   ]

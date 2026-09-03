@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-booking/customer-portal-logistics-v1",
-  "generated_at": "2026-09-02T05:09:33.456Z",
+  "generated_at": "2026-09-03T05:14:25.636Z",
   "privacy": "Logistics values are operational booking fields. Customer identity and portal access slugs are excluded.",
-  "record_count": 87,
+  "record_count": 89,
   "records": [
     {
       "booking_id": 1622,
@@ -1183,7 +1183,7 @@
       "total_pax": 2,
       "logistics": {
         "pickup": "Bali Hotel  Casa Da Maria, Uluwatu",
-        "pickup_time": "09:00:00",
+        "pickup_time": "08:00:00",
         "drop": "Surabaya Airport  ",
         "drop_time": "17:00:00",
         "special_requirements_present": false
@@ -1306,6 +1306,36 @@
         "pickup_time": "22:05:00",
         "drop": "Surabaya Airport Terminal 1 ID6575",
         "drop_time": "19:15:00",
+        "special_requirements_present": false
+      }
+    },
+    {
+      "booking_id": 3818,
+      "booking_ref": "JVTO-3818",
+      "status": "booked",
+      "travel_date_start": "2026-10-28",
+      "travel_date_end": "2026-10-30",
+      "total_pax": 4,
+      "logistics": {
+        "pickup": null,
+        "pickup_time": null,
+        "drop": null,
+        "drop_time": null,
+        "special_requirements_present": false
+      }
+    },
+    {
+      "booking_id": 3820,
+      "booking_ref": "JVTO-3820",
+      "status": "booked",
+      "travel_date_start": "2026-09-18",
+      "travel_date_end": "2026-09-21",
+      "total_pax": 2,
+      "logistics": {
+        "pickup": "Surabaya Hotel (Grand Swiss-Belhotel Darmo, Surabaya)",
+        "pickup_time": "08:00:00",
+        "drop": "Sheraton Surabaya Hotel and Towers",
+        "drop_time": null,
         "special_requirements_present": false
       }
     }

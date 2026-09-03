@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto-operations/customer-portal-accommodations-v1",
-  "generated_at": "2026-09-02T05:09:33.458Z",
-  "record_count": 87,
+  "generated_at": "2026-09-03T05:14:25.639Z",
+  "record_count": 89,
   "records": [
     {
       "booking_id": 1622,
@@ -2024,6 +2024,52 @@
         },
         {
           "day": 2,
+          "name": "Joglo Kecombrang Bromo",
+          "rooms": "Double (1)",
+          "banner_present": true
+        }
+      ]
+    },
+    {
+      "booking_id": 3818,
+      "booking_ref": "JVTO-3818",
+      "package_name": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "travel_date_start": "2026-10-28",
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Joglo Kecombrang Bromo",
+          "rooms": "Double (2)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Riverside Homestay",
+          "rooms": "Deluxe Double (2)",
+          "banner_present": true
+        }
+      ]
+    },
+    {
+      "booking_id": 3820,
+      "booking_ref": "JVTO-3820",
+      "package_name": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "travel_date_start": "2026-09-18",
+      "accommodations": [
+        {
+          "day": 1,
+          "name": "Baratha Hotel and Resto",
+          "rooms": "Deluxe Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 2,
+          "name": "Doho Homestay",
+          "rooms": "Deluxe Double (1)",
+          "banner_present": true
+        },
+        {
+          "day": 3,
           "name": "Joglo Kecombrang Bromo",
           "rooms": "Double (1)",
           "banner_present": true

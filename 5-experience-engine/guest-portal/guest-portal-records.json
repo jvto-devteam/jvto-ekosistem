@@ -1662,14 +1662,14 @@
       ],
       "payment": {
         "invoiceTotal": 7140000,
-        "paid": 1428000,
-        "balance": 5712000
+        "paid": 7140000,
+        "balance": 0
       },
       "readiness": {
         "hasPickup": true,
         "hasDropoff": false,
         "hasHotels": true,
-        "balanceStatus": "balance_due"
+        "balanceStatus": "settled"
       }
     },
     {
@@ -10069,7 +10069,7 @@
         "meetingPoint": "Bali Hotel",
         "arrival": null,
         "value": "Casa Da Maria, Uluwatu",
-        "time": "09:00",
+        "time": "08:00",
         "text": "Bali Hotel  Casa Da Maria, Uluwatu",
         "complete": true
       },
@@ -11316,6 +11316,260 @@
         "hasDropoff": true,
         "hasHotels": true,
         "balanceStatus": "settled"
+      }
+    },
+    {
+      "bookingId": 3818,
+      "bookingCode": "JVTO-3818",
+      "packageName": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
+      "tripDate": {
+        "start_ymd": "2026-10-28",
+        "end_ymd": "2026-10-30",
+        "start": "28 Oct 26",
+        "end": "30 Oct 26",
+        "days": "Wed - Fri"
+      },
+      "pickup": {
+        "meetingPoint": null,
+        "arrival": null,
+        "value": null,
+        "time": "07:00",
+        "text": null,
+        "complete": false
+      },
+      "dropoff": {
+        "dropPoint": null,
+        "arrival": null,
+        "value": null,
+        "time": "07:00",
+        "text": null,
+        "complete": false
+      },
+      "itinerary": [
+        {
+          "day": 1,
+          "date": "28 Oct 2026",
+          "itinerary": "From Surabaya to the Mystical Bromo Area",
+          "activity": "Surabaya",
+          "destination_id": 4,
+          "destination": "Surabaya"
+        },
+        {
+          "day": 2,
+          "date": "29 Oct 2026",
+          "itinerary": "From Bromo Sunrise to the Hidden Gems of Madakaripura",
+          "activity": "Bromo Sunrise Tour, Madakaripura Warterfall Tour",
+          "destination_id": 1,
+          "destination": "Mount Bromo"
+        },
+        {
+          "day": 3,
+          "date": "30 Oct 2026",
+          "itinerary": "From Ijen Crater to Bali’s Shores",
+          "activity": "Ijen Crater Hike",
+          "destination_id": 2,
+          "destination": "Mount Ijen"
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "28 Oct 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "29 Oct 2026",
+          "hotelId": 34,
+          "hotel": "Riverside Homestay",
+          "rooms": [
+            {
+              "roomId": 84,
+              "roomName": "Deluxe Double",
+              "quantity": 2
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        }
+      ],
+      "tshirt": {
+        "text": "",
+        "sizes": {
+          "xss": 0,
+          "xxs": 0,
+          "xs": 0,
+          "s": 0,
+          "m": 0,
+          "l": 0,
+          "xl": 0,
+          "xxl": 0,
+          "xxxl": 0
+        }
+      },
+      "vehicles": [],
+      "payment": {
+        "invoiceTotal": 12200000,
+        "paid": 2440000,
+        "balance": 9760000
+      },
+      "readiness": {
+        "hasPickup": false,
+        "hasDropoff": false,
+        "hasHotels": true,
+        "balanceStatus": "balance_due"
+      }
+    },
+    {
+      "bookingId": 3820,
+      "bookingCode": "KLOOK-3820",
+      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
+      "tripDate": {
+        "start_ymd": "2026-09-18",
+        "end_ymd": "2026-09-21",
+        "start": "18 Sep 26",
+        "end": "21 Sep 26",
+        "days": "Fri - Mon"
+      },
+      "pickup": {
+        "meetingPoint": "Surabaya Hotel",
+        "arrival": null,
+        "value": "Grand Swiss-Belhotel Darmo, Surabaya",
+        "time": "08:00",
+        "text": "Surabaya Hotel (Grand Swiss-Belhotel Darmo, Surabaya)",
+        "complete": true
+      },
+      "dropoff": {
+        "dropPoint": "Others",
+        "arrival": null,
+        "value": "Sheraton Surabaya Hotel and Towers",
+        "time": "07:00",
+        "text": "Sheraton Surabaya Hotel and Towers",
+        "complete": true
+      },
+      "itinerary": [
+        {
+          "day": 1,
+          "date": "18 Sep 2026",
+          "itinerary": "Arrival in Surabaya and Journey to Bondowoso",
+          "activity": "Surabaya",
+          "destination_id": 4,
+          "destination": "Surabaya"
+        },
+        {
+          "day": 2,
+          "date": "19 Sep 2026",
+          "itinerary": "Ijen Crater Adventure and Papuma Beach Sunset",
+          "activity": "Ijen Crater Hike",
+          "destination_id": 2,
+          "destination": "Mount Ijen"
+        },
+        {
+          "day": 3,
+          "date": "20 Sep 2026",
+          "itinerary": "Tumpak Sewu Waterfall and Journey to Bromo",
+          "activity": "Tumpak Sewu Waterfall Tour",
+          "destination_id": 7,
+          "destination": "Tumpak Sewu Waterfall"
+        },
+        {
+          "day": 4,
+          "date": "21 Sep 2026",
+          "itinerary": "Bromo Sunrise Adventure and Return to Surabaya",
+          "activity": "Bromo Sunrise Tour",
+          "destination_id": 1,
+          "destination": "Mount Bromo"
+        }
+      ],
+      "hotels": [
+        {
+          "day": 1,
+          "checkIn": "18 Sep 2026",
+          "hotelId": 1,
+          "hotel": "Baratha Hotel and Resto",
+          "rooms": [
+            {
+              "roomId": 9,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast",
+            "Dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "checkIn": "19 Sep 2026",
+          "hotelId": 33,
+          "hotel": "Doho Homestay",
+          "rooms": [
+            {
+              "roomId": 163,
+              "roomName": "Deluxe Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        },
+        {
+          "day": 3,
+          "checkIn": "20 Sep 2026",
+          "hotelId": 11,
+          "hotel": "Joglo Kecombrang Bromo",
+          "rooms": [
+            {
+              "roomId": 24,
+              "roomName": "Double",
+              "quantity": 1
+            }
+          ],
+          "meals": [
+            "Breakfast"
+          ]
+        }
+      ],
+      "tshirt": {
+        "text": "",
+        "sizes": {
+          "xss": 0,
+          "xxs": 0,
+          "xs": 0,
+          "s": 0,
+          "m": 0,
+          "l": 0,
+          "xl": 0,
+          "xxl": 0,
+          "xxxl": 0
+        }
+      },
+      "vehicles": [],
+      "payment": {
+        "invoiceTotal": 7500000,
+        "paid": 0,
+        "balance": 7500000
+      },
+      "readiness": {
+        "hasPickup": true,
+        "hasDropoff": true,
+        "hasHotels": true,
+        "balanceStatus": "balance_due"
       }
     }
   ]
