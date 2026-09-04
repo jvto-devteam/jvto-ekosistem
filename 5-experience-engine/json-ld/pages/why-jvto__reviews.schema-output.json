@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-09-03T05:36:19.068Z",
+  "generated_at": "2026-09-04T05:41:50.239Z",
   "route": "/why-jvto/reviews",
   "domain": "why-jvto",
   "slug": "reviews",
@@ -43,7 +43,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": 4.9,
-          "reviewCount": 164,
+          "reviewCount": 165,
           "bestRating": 5
         },
         "sameAs": [
@@ -5534,6 +5534,30 @@
         },
         "reviewBody": "Hey boy is gooooooood guide\nAnd best view",
         "datePublished": "2026-09-02",
+        "itemReviewed": {
+          "@id": "https://javavolcano-touroperator.com/#organization"
+        },
+        "publisher": {
+          "@id": "https://javavolcano-touroperator.com/why-jvto/reviews#platform-google",
+          "@type": "Organization",
+          "name": "Google"
+        }
+      },
+      {
+        "@id": "https://javavolcano-touroperator.com/#review-334",
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "李泽浩"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Awesome. Our guide Juan is so responsible, interesting and patient. We became good friends after the trip. The view was absolutely amazing though the schedule was quite tough. Just amazing",
+        "datePublished": "2026-09-04",
         "itemReviewed": {
           "@id": "https://javavolcano-touroperator.com/#organization"
         },
