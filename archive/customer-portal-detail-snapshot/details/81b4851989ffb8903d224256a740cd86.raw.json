@@ -28,9 +28,9 @@
       "media_link": null,
       "tshirt_sizes": {
         "xs": 0,
-        "s": 0,
-        "m": 0,
-        "l": 0,
+        "s": 3,
+        "m": 2,
+        "l": 1,
         "xl": 0,
         "xxl": 0
       },

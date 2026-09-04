@@ -1,56 +1,42 @@
 {
-  "slug": "a00b8b30cd6c2d28e55b0d8ca6531d70",
-  "url": "https://legacy.javavolcano-touroperator.com/bookings/details/a00b8b30cd6c2d28e55b0d8ca6531d70?json=true",
+  "slug": "b458f9d93778229edde02091b3c22be2",
+  "url": "https://legacy.javavolcano-touroperator.com/bookings/details/b458f9d93778229edde02091b3c22be2?json=true",
   "statusCode": 200,
   "ok": true,
   "json": {
     "success": true,
     "booking": {
-      "id": 3536,
-      "booking_code": "JVR/020/09/26",
-      "booking_id": "JVTO-3536",
-      "url": "a00b8b30cd6c2d28e55b0d8ca6531d70",
+      "id": 3826,
+      "booking_code": "JVR/019/10/26",
+      "booking_id": "JVTO-3826",
+      "url": "b458f9d93778229edde02091b3c22be2",
       "status": "booked",
-      "customer_id": 3867,
-      "customer_name": "Francisco Candeias",
+      "customer_id": 4151,
+      "customer_name": "Colin Michael Ranck",
       "package_name": "3 Day Bromo, Madakaripura Waterfall & Ijen Overland from Surabaya to Bali",
       "channel": "JVTO",
       "package_link": "https://javavolcano-touroperator.com/tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
       "duration": "3D 2N",
-      "travel_date_start": "2026-09-07",
-      "travel_date_end": "2026-09-09",
+      "travel_date_start": "2026-10-11",
+      "travel_date_end": "2026-10-13",
       "total_pax": 2,
-      "pickup": "Surabaya Hotel  Bumi Surabaya City Hotel",
-      "pickup_time": "10:00:00",
-      "drop": "Surabaya Hotel (Bingin Family Bungalow, Uluwatu)",
-      "drop_time": "20:00:00",
+      "pickup": null,
+      "pickup_time": null,
+      "drop": null,
+      "drop_time": null,
       "special_requirements": null,
-      "media_link": "https://drive.google.com/drive/folders/1lmNroumMXjqU7R40OFqyEXDCo6T4ewT4",
+      "media_link": null,
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 1,
-        "l": 1,
+        "m": 0,
+        "l": 0,
         "xl": 0,
         "xxl": 0
       },
       "crews": {
-        "guides": [
-          {
-            "id": 2,
-            "name": "Juan",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1698673228_PHOTO JUAN.png",
-            "role": "Ijen Guide"
-          }
-        ],
-        "drivers": [
-          {
-            "id": 72,
-            "name": "Dika",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/default.jpg",
-            "role": "Driver"
-          }
-        ]
+        "guides": [],
+        "drivers": []
       },
       "vehicle_specs": [
         {
@@ -72,20 +58,20 @@
         {
           "day": 1,
           "title": "Day 1",
-          "itinerary": "Surabaya Airport - Madakaripura - Bromo Area",
-          "activity": "Pick up from airport - Explore Madakaripura Waterfall - Transfer to hotel in Bromo area  - Check in - Take a rest."
+          "itinerary": "From Surabaya to the Mystical Bromo Area",
+          "activity": "Your Bromo and Ijen adventure begins as we greet you at Surabaya Airport, with an early pick-up (best before noon). From there, we’ll embark on a 3-hour scenic drive to the iconic Cemoro Lawang, the gateway to the Bromo Area. Along the way, enjoy the changing landscapes of East Java as we make our way to the hotel. Upon arrival at your hotel, Joglo Kecombrang Bromo, you’ll have time to rest and take in the quiet beauty of the surroundings. Prepare for the exciting days ahead as you settle in for a peaceful evening."
         },
         {
           "day": 2,
           "title": "Day 2",
-          "itinerary": "Bromo Sunrise - Bondowoso",
-          "activity": "Depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim - Whispering Sands) - Breakfast and Shower - check out - Transfer to hotel in Bondowoso City - Check in - Dinner - Take a rest"
+          "itinerary": "From Bromo Sunrise to the Hidden Gems of Madakaripura",
+          "activity": "Our day begins in the early hours (around 1:00 AM), with a thrilling stargazing session, followed by a view of the Milky Way. As the first light of dawn breaks, witness the spectacular sunrise over the volcanic landscape of Bromo. The dormant Mount Batok, the active Mount Bromo, and the towering Mount Semeru are all part of this majestic view that stretches across the caldera. After sunrise, we continue our journey over the expansive Pasir (Sand Sea) in a 4WD, heading to the Poten Temple. From here, you can choose to either take a 3km hike or ride a pony to the base of Mount Bromo. A steep 253-step climb rewards you with a close-up view of the crater rim, where you can witness the raw power of the active volcano. We then set off for Madakaripura Waterfall, about an hour’s drive away. A short 30-minute trek through the lush greenery (wear your slippers!) will lead you to this magnificent waterfall, a stunning natural beauty nestled deep in the hills. After taking in the sight, we continue our journey to Bondowoso for an overnight stay."
         },
         {
           "day": 3,
           "title": "Day 3",
-          "itinerary": "Ijen Crater - Ketapang - Bali",
-          "activity": "Check out from hotel at 12.00 AM - depart to Mount Ijen - start hiking - coffee break - Depart to Ketapang - take ferry to Gilimanuk Harbour - End Program."
+          "itinerary": "From Ijen Crater to Bali’s Shores",
+          "activity": "Your day begins at midnight, as we head out from Bondowoso to Ijen. After a 90-minute drive to Paltuding, we’ll start the trek to Ijen Crater. This 1 to 1.5-hour hike leads you to the crater rim, where you’ll stand in awe of the 200-meter deep, turquoise sulfuric lake. You’ll also get to witness the grueling work of the local sulfur miners as they carry heavy sacks through toxic fumes and harsh terrain to make a living. After experiencing the crater’s sunrise view, we’ll descend and proceed to Ketapang Harbour, where you’ll board the ferry to Bali (ticket included). The journey to the island is the perfect way to conclude your Ijen adventure, as we leave Java behind and head to the tropical paradise of Bali."
         }
       ],
       "accommodations": [
@@ -102,35 +88,51 @@
           "rooms": "Deluxe Double (1)"
         }
       ],
-      "addons": [],
+      "addons": [
+        {
+          "id": 807,
+          "name": "UBUD",
+          "qty": 1,
+          "price": 900000,
+          "subtotal": 900000
+        }
+      ],
       "finance": {
-        "grand_total": 7140000,
-        "total_addons": 0,
-        "dp_amount": 1428000,
+        "grand_total": 8040000,
+        "total_addons": 900000,
+        "dp_amount": 1608000,
         "balance": 0,
-        "paid_amount": 7140000,
-        "due_date": "2026-06-23 00:00:00",
+        "paid_amount": 8040000,
+        "due_date": "2026-09-05 05:20:25",
         "initial_payment_method": "cc",
         "balance_payment_method": "cc",
-        "payment_link": "https://checkout.xendit.co/web/6a3966c5eeb0ede75600d5f1",
+        "payment_link": "https://checkout.xendit.co/web/6a99f3cd5cf7430e1c9e7ae9",
         "pending_upload_proof": false,
         "uploaded_payment_proof": null,
         "payment_history": [
           {
-            "id": 702,
-            "nominal": 1428000,
+            "id": 917,
+            "nominal": 1608000,
             "description": "Down Payment",
-            "reference": "https://checkout.xendit.co/web/6a39504198772b556e6ec646",
+            "reference": "https://checkout.xendit.co/web/6a99f2a9088ba875b9f3e782",
             "method": "Debit/Credit Card",
-            "created_at": "2026-06-22 23:39:03"
+            "created_at": "2026-09-04 05:22:59"
           },
           {
-            "id": 703,
-            "nominal": 5712000,
+            "id": 918,
+            "nominal": 5532000,
             "description": "Payment (Paid in Full)",
-            "reference": "https://checkout.xendit.co/web/6a3966c5eeb0ede75600d5f1",
+            "reference": "https://checkout.xendit.co/web/6a99f3cd5cf7430e1c9e7ae9",
             "method": "Debit/Credit Card",
-            "created_at": "2026-06-22 23:47:27"
+            "created_at": "2026-09-04 05:27:33"
+          },
+          {
+            "id": 919,
+            "nominal": 900000,
+            "description": "Payment Add On",
+            "reference": "https://checkout.xendit.co/web/6a99f3cd5cf7430e1c9e7ae9",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-09-04 05:27:38"
           }
         ]
       },

@@ -20,7 +20,7 @@
       "travel_date_start": "2026-09-10",
       "travel_date_end": "2026-09-13",
       "total_pax": 2,
-      "pickup": "Bali Hotel  ",
+      "pickup": "Bali Hotel  Moonea Guesthouse by Bukit Vista",
       "pickup_time": "07:00:00",
       "drop": "  ",
       "drop_time": null,
@@ -37,20 +37,13 @@
       "crews": {
         "guides": [
           {
-            "id": 3,
-            "name": "Anjas",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528725_ANJAS.JPG",
+            "id": 68,
+            "name": "Boy",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1725528760_BOY.JPG",
             "role": "Escort Guide"
           }
         ],
-        "drivers": [
-          {
-            "id": 28,
-            "name": "Holili",
-            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1698676624_HOLILI PHOTO.png",
-            "role": "Driver"
-          }
-        ]
+        "drivers": []
       },
       "vehicle_specs": [
         {
@@ -132,7 +125,7 @@
         "due_date": "2026-08-28 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
-        "payment_link": null,
+        "payment_link": "https://checkout.xendit.co/web/6a992c91bb591f14975738c7",
         "pending_upload_proof": false,
         "uploaded_payment_proof": null,
         "payment_history": [

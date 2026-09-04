@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto/output/json-ld-page/v1",
   "output_type": "json_ld_page",
-  "generated_at": "2026-09-03T05:14:25.685Z",
+  "generated_at": "2026-09-04T05:10:50.118Z",
   "route": "/tours/from-surabaya/bromo-madakaripura-ijen-3d2n",
   "domain": "tours",
   "slug": "from-surabaya/bromo-madakaripura-ijen-3d2n",
@@ -455,7 +455,7 @@
     ]
   },
   "source_trace": {
-    "generated_at": "2026-09-03T05:14:25.685Z",
+    "generated_at": "2026-09-04T05:10:50.118Z",
     "source_files": [
       "2-product-and-commercial-core/tour-products/tours__from-surabaya__bromo-madakaripura-ijen-3d2n.product-contract.json"
     ],
