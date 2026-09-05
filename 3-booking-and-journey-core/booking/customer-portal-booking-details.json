@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-booking/customer-portal-booking-details-v1",
-  "generated_at": "2026-09-04T05:10:50.104Z",
+  "generated_at": "2026-09-05T04:59:51.695Z",
   "privacy": "No customer names, contact details, portal slugs, payment links, media links, payment references, or uploaded proof URLs are stored.",
-  "record_count": 94,
+  "record_count": 91,
   "records": [
     {
       "booking_id": 1622,
@@ -201,44 +201,6 @@
         "total_addons": 0,
         "dp_amount": 0,
         "balance": 5580000,
-        "paid_amount": 0,
-        "due_date": "1970-01-01 00:00:00",
-        "initial_payment_method": "pay later",
-        "balance_payment_method": null,
-        "payment_link_present": false,
-        "pending_upload_proof": false,
-        "uploaded_payment_proof_present": false,
-        "payment_history": []
-      }
-    },
-    {
-      "booking_id": 3371,
-      "booking_ref": "JVTO-3371",
-      "booking_code": "JVR/004/09/26",
-      "channel": "KLOOK",
-      "status": "booked",
-      "product": {
-        "package_name": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
-        "package_link": "https://klook.com/activity/99790-3-day-mount-bromo-sunrise-ijen-madakaripura-trekking-trip-surabaya/",
-        "duration": "1D 1N",
-        "travel_date_start": "2026-09-24",
-        "travel_date_end": "2026-09-24",
-        "total_pax": 3
-      },
-      "tshirt_sizes": {
-        "xs": 0,
-        "s": 0,
-        "m": 0,
-        "l": 0,
-        "xl": 0,
-        "xxl": 0
-      },
-      "addons": [],
-      "finance": {
-        "grand_total": 3600000,
-        "total_addons": 0,
-        "dp_amount": 0,
-        "balance": 3600000,
         "paid_amount": 0,
         "due_date": "1970-01-01 00:00:00",
         "initial_payment_method": "pay later",
@@ -3973,8 +3935,8 @@
         "grand_total": 10200000,
         "total_addons": 400000,
         "dp_amount": 2040000,
-        "balance": 8160000,
-        "paid_amount": 2040000,
+        "balance": 0,
+        "paid_amount": 10200000,
         "due_date": "2026-08-28 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": null,
@@ -3988,6 +3950,22 @@
             "description": "Down Payment",
             "method": "Debit/Credit Card",
             "created_at": "2026-08-27 16:25:43",
+            "reference_present": true
+          },
+          {
+            "id": 920,
+            "nominal": 7760000,
+            "description": "Payment (Paid in Full)",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-09-04 15:27:35",
+            "reference_present": true
+          },
+          {
+            "id": 921,
+            "nominal": 400000,
+            "description": "Payment Add On",
+            "method": "Debit/Credit Card",
+            "created_at": "2026-09-04 15:27:40",
             "reference_present": true
           }
         ]
@@ -4103,21 +4081,21 @@
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 0,
-        "l": 0,
-        "xl": 0,
+        "m": 1,
+        "l": 1,
+        "xl": 1,
         "xxl": 0
       },
       "addons": [
         {
-          "id": 791,
+          "id": 809,
           "name": "Madakaripura Waterfall",
           "qty": 5,
           "price": 200000,
           "subtotal": 1000000
         },
         {
-          "id": 792,
+          "id": 810,
           "name": "Upgrade Accommodation",
           "qty": 1,
           "price": 2850000,
@@ -4360,44 +4338,6 @@
       }
     },
     {
-      "booking_id": 3820,
-      "booking_ref": "JVTO-3820",
-      "booking_code": "JVR/076/09/26",
-      "channel": "KLOOK",
-      "status": "booked",
-      "product": {
-        "package_name": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
-        "package_link": "https://klook.com/activity/99790-3-day-mount-bromo-sunrise-ijen-madakaripura-trekking-trip-surabaya/",
-        "duration": "4D 3N",
-        "travel_date_start": "2026-09-18",
-        "travel_date_end": "2026-09-21",
-        "total_pax": 2
-      },
-      "tshirt_sizes": {
-        "xs": 0,
-        "s": 0,
-        "m": 0,
-        "l": 0,
-        "xl": 0,
-        "xxl": 0
-      },
-      "addons": [],
-      "finance": {
-        "grand_total": 7500000,
-        "total_addons": 0,
-        "dp_amount": 0,
-        "balance": 7500000,
-        "paid_amount": 0,
-        "due_date": "1970-01-01 00:00:00",
-        "initial_payment_method": "pay later",
-        "balance_payment_method": null,
-        "payment_link_present": false,
-        "pending_upload_proof": false,
-        "uploaded_payment_proof_present": false,
-        "payment_history": []
-      }
-    },
-    {
       "booking_id": 3821,
       "booking_ref": "JVTO-3821",
       "booking_code": "JVR/077/09/26",
@@ -4460,44 +4400,6 @@
       }
     },
     {
-      "booking_id": 3822,
-      "booking_ref": "JVTO-3822",
-      "booking_code": "JVR/078/09/26",
-      "channel": "KLOOK",
-      "status": "booked",
-      "product": {
-        "package_name": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
-        "package_link": "https://klook.com/activity/99790-3-day-mount-bromo-sunrise-ijen-madakaripura-trekking-trip-surabaya/",
-        "duration": "0D -1N",
-        "travel_date_start": "2026-09-24",
-        "travel_date_end": "2026-09-23",
-        "total_pax": 4
-      },
-      "tshirt_sizes": {
-        "xs": 0,
-        "s": 0,
-        "m": 0,
-        "l": 0,
-        "xl": 0,
-        "xxl": 0
-      },
-      "addons": [],
-      "finance": {
-        "grand_total": 4200000,
-        "total_addons": 0,
-        "dp_amount": 0,
-        "balance": 4200000,
-        "paid_amount": 0,
-        "due_date": null,
-        "initial_payment_method": "pay later",
-        "balance_payment_method": null,
-        "payment_link_present": false,
-        "pending_upload_proof": false,
-        "uploaded_payment_proof_present": false,
-        "payment_history": []
-      }
-    },
-    {
       "booking_id": 3823,
       "booking_ref": "JVTO-3823",
       "booking_code": "JVR/079/09/26",
@@ -4506,9 +4408,9 @@
       "product": {
         "package_name": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
         "package_link": "https://klook.com/activity/99790-3-day-mount-bromo-sunrise-ijen-madakaripura-trekking-trip-surabaya/",
-        "duration": "0D -1N",
+        "duration": "1D 1N",
         "travel_date_start": "2026-09-24",
-        "travel_date_end": "2026-09-23",
+        "travel_date_end": "2026-09-24",
         "total_pax": 4
       },
       "tshirt_sizes": {
@@ -4526,7 +4428,7 @@
         "dp_amount": 0,
         "balance": 4200000,
         "paid_amount": 0,
-        "due_date": null,
+        "due_date": "1970-01-01 00:00:00",
         "initial_payment_method": "pay later",
         "balance_payment_method": null,
         "payment_link_present": false,
@@ -4564,7 +4466,7 @@
         "dp_amount": 0,
         "balance": 7500000,
         "paid_amount": 0,
-        "due_date": null,
+        "due_date": "1970-01-01 00:00:00",
         "initial_payment_method": "pay later",
         "balance_payment_method": null,
         "payment_link_present": false,
@@ -4597,7 +4499,7 @@
       },
       "addons": [
         {
-          "id": 807,
+          "id": 808,
           "name": "UBUD",
           "qty": 1,
           "price": 900000,
@@ -4610,7 +4512,7 @@
         "dp_amount": 1608000,
         "balance": 0,
         "paid_amount": 8040000,
-        "due_date": "2026-09-05 05:20:25",
+        "due_date": "2026-09-05 00:00:00",
         "initial_payment_method": "cc",
         "balance_payment_method": "cc",
         "payment_link_present": true,

@@ -1,7 +1,7 @@
 {
   "schema_version": "jvto-operations/customer-portal-accommodations-v1",
-  "generated_at": "2026-09-04T05:10:50.108Z",
-  "record_count": 94,
+  "generated_at": "2026-09-05T04:59:51.699Z",
+  "record_count": 91,
   "records": [
     {
       "booking_id": 1622,
@@ -120,13 +120,6 @@
           "banner_present": true
         }
       ]
-    },
-    {
-      "booking_id": 3371,
-      "booking_ref": "JVTO-3371",
-      "package_name": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
-      "travel_date_start": "2026-09-24",
-      "accommodations": []
     },
     {
       "booking_id": 3374,
@@ -1935,25 +1928,25 @@
         {
           "day": 1,
           "name": "Luminor Hotel",
-          "rooms": "Deluxe Double (3)",
+          "rooms": "Deluxe Double (2)",
           "banner_present": true
         },
         {
           "day": 4,
           "name": "Holiday Inn Express Surabaya Centerpoint, an IHG Hotel",
-          "rooms": "Double (3)",
+          "rooms": "Double (2)",
           "banner_present": true
         },
         {
           "day": 2,
           "name": "Artha Cottage",
-          "rooms": "Twin (1), Double (2)",
+          "rooms": "Double (2)",
           "banner_present": true
         },
         {
           "day": 3,
           "name": "Manis Ae Cabin & Resto Bromo",
-          "rooms": "Single Cabin Double - Weekday (3)",
+          "rooms": "Single Cabin Double - Weekday (2)",
           "banner_present": true
         }
       ]
@@ -2051,32 +2044,6 @@
       ]
     },
     {
-      "booking_id": 3820,
-      "booking_ref": "JVTO-3820",
-      "package_name": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
-      "travel_date_start": "2026-09-18",
-      "accommodations": [
-        {
-          "day": 1,
-          "name": "Baratha Hotel and Resto",
-          "rooms": "Deluxe Double (1)",
-          "banner_present": true
-        },
-        {
-          "day": 2,
-          "name": "Doho Homestay",
-          "rooms": "Deluxe Double (1)",
-          "banner_present": true
-        },
-        {
-          "day": 3,
-          "name": "Joglo Kecombrang Bromo",
-          "rooms": "Double (1)",
-          "banner_present": true
-        }
-      ]
-    },
-    {
       "booking_id": 3821,
       "booking_ref": "JVTO-3821",
       "package_name": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
@@ -2101,13 +2068,6 @@
           "banner_present": true
         }
       ]
-    },
-    {
-      "booking_id": 3822,
-      "booking_ref": "JVTO-3822",
-      "package_name": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
-      "travel_date_start": "2026-09-24",
-      "accommodations": []
     },
     {
       "booking_id": 3823,

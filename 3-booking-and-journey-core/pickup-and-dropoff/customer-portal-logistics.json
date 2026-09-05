@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-booking/customer-portal-logistics-v1",
-  "generated_at": "2026-09-04T05:10:50.105Z",
+  "generated_at": "2026-09-05T04:59:51.697Z",
   "privacy": "Logistics values are operational booking fields. Customer identity and portal access slugs are excluded.",
-  "record_count": 94,
+  "record_count": 91,
   "records": [
     {
       "booking_id": 1622,
@@ -76,21 +76,6 @@
         "pickup_time": "11:00:00",
         "drop": "ibis",
         "drop_time": "18:00:00",
-        "special_requirements_present": false
-      }
-    },
-    {
-      "booking_id": 3371,
-      "booking_ref": "JVTO-3371",
-      "status": "booked",
-      "travel_date_start": "2026-09-24",
-      "travel_date_end": "2026-09-24",
-      "total_pax": 3,
-      "logistics": {
-        "pickup": "Surabaya Hotel  The Life Styles Hotel Surabaya",
-        "pickup_time": "00:01:00",
-        "drop": "Surabaya Hotel  The Life Styles Hotel Surabaya",
-        "drop_time": null,
         "special_requirements_present": false
       }
     },
@@ -1257,7 +1242,7 @@
       "travel_date_end": "2026-09-13",
       "total_pax": 5,
       "logistics": {
-        "pickup": "Bali Hotel  ",
+        "pickup": "Bali Hotel  Pondok Wana Ubud & Ibah Ubud",
         "pickup_time": "10:00:00",
         "drop": "Surabaya Airport Terminal 2 ",
         "drop_time": "12:30:00",
@@ -1325,21 +1310,6 @@
       }
     },
     {
-      "booking_id": 3820,
-      "booking_ref": "JVTO-3820",
-      "status": "booked",
-      "travel_date_start": "2026-09-18",
-      "travel_date_end": "2026-09-21",
-      "total_pax": 2,
-      "logistics": {
-        "pickup": "Surabaya Hotel  Grand Swiss-Belhotel Darmo, Surabaya",
-        "pickup_time": "11:00:00",
-        "drop": "Surabaya Hotel  Sheraton Surabaya Hotel and Towers",
-        "drop_time": "16:00:00",
-        "special_requirements_present": false
-      }
-    },
-    {
       "booking_id": 3821,
       "booking_ref": "JVTO-3821",
       "status": "booked",
@@ -1355,30 +1325,15 @@
       }
     },
     {
-      "booking_id": 3822,
-      "booking_ref": "JVTO-3822",
-      "status": "booked",
-      "travel_date_start": "2026-09-24",
-      "travel_date_end": "2026-09-23",
-      "total_pax": 4,
-      "logistics": {
-        "pickup": "The Life Styles Hotel Surabaya",
-        "pickup_time": null,
-        "drop": "Surabaya Hotel (The Life Styles Hotel Surabaya)",
-        "drop_time": "15:00:00",
-        "special_requirements_present": false
-      }
-    },
-    {
       "booking_id": 3823,
       "booking_ref": "JVTO-3823",
       "status": "booked",
       "travel_date_start": "2026-09-24",
-      "travel_date_end": "2026-09-23",
+      "travel_date_end": "2026-09-24",
       "total_pax": 4,
       "logistics": {
-        "pickup": "The Life Styles Hotel Surabaya",
-        "pickup_time": null,
+        "pickup": "Surabaya Hotel  The Life Styles Hotel Surabaya",
+        "pickup_time": "00:01:00",
         "drop": "",
         "drop_time": null,
         "special_requirements_present": false
@@ -1392,10 +1347,10 @@
       "travel_date_end": "2026-09-24",
       "total_pax": 2,
       "logistics": {
-        "pickup": "",
-        "pickup_time": null,
-        "drop": "Sheraton Surabaya Hotel and Towers",
-        "drop_time": null,
+        "pickup": "Surabaya Hotel  Grand Swiss-Belhotel Darmo, Surabaya",
+        "pickup_time": "11:00:00",
+        "drop": "Surabaya Hotel  Sheraton Surabaya Hotel & Towers",
+        "drop_time": "15:00:00",
         "special_requirements_present": false
       }
     },
@@ -1407,9 +1362,9 @@
       "travel_date_end": "2026-10-13",
       "total_pax": 2,
       "logistics": {
-        "pickup": null,
+        "pickup": "  ",
         "pickup_time": null,
-        "drop": null,
+        "drop": "  ",
         "drop_time": null,
         "special_requirements_present": false
       }

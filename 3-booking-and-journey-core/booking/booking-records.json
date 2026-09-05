@@ -1326,7 +1326,7 @@
           "id": 83,
           "name": "Toriq",
           "tags": "JVTO,KLOOK",
-          "monthlyEscortCount": 4
+          "monthlyEscortCount": 3
         }
       ],
       "guides": [
@@ -2968,7 +2968,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 2
+          "monthlyIjenCount": 1
         }
       ],
       "isShuttle": "NO",
@@ -3315,7 +3315,7 @@
           "id": 83,
           "name": "Toriq",
           "tags": "JVTO,KLOOK",
-          "monthlyEscortCount": 4
+          "monthlyEscortCount": 3
         }
       ],
       "guides": [
@@ -4488,9 +4488,9 @@
       "pickup": {
         "meetingPoint": "Bali Hotel",
         "arrival": null,
-        "value": "",
+        "value": "Pondok Wana Ubud & Ibah Ubud",
         "time": "10:00",
-        "text": "Bali Hotel  ",
+        "text": "Bali Hotel  Pondok Wana Ubud & Ibah Ubud",
         "complete": true
       },
       "dropoff": {
@@ -4553,7 +4553,7 @@
             {
               "roomId": 107,
               "roomName": "Deluxe Double",
-              "quantity": 3
+              "quantity": 2
             }
           ],
           "meals": [
@@ -4566,11 +4566,6 @@
           "hotelId": 38,
           "hotel": "Artha Cottage",
           "rooms": [
-            {
-              "roomId": 77,
-              "roomName": "Twin",
-              "quantity": 1
-            },
             {
               "roomId": 76,
               "roomName": "Double",
@@ -4590,7 +4585,7 @@
             {
               "roomId": 181,
               "roomName": "Single Cabin Double - Weekday",
-              "quantity": 3
+              "quantity": 2
             }
           ],
           "meals": [
@@ -4606,7 +4601,7 @@
             {
               "roomId": 29,
               "roomName": "Double",
-              "quantity": 3
+              "quantity": 2
             }
           ],
           "meals": [
@@ -4615,17 +4610,17 @@
         }
       ],
       "tshirt": {
-        "text": "",
+        "text": "M x 1, L x 1, XL x 1, XXXL x 1",
         "sizes": {
           "xss": 0,
           "xxs": 0,
           "xs": 0,
           "s": 0,
-          "m": 0,
-          "l": 0,
-          "xl": 0,
+          "m": 1,
+          "l": 1,
+          "xl": 1,
           "xxl": 0,
-          "xxxl": 0
+          "xxxl": 1
         }
       },
       "vehicles": [
@@ -5266,7 +5261,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 2
+          "monthlyIjenCount": 1
         }
       ],
       "isShuttle": "NO",
@@ -5642,9 +5637,9 @@
         "country": "Italy (Italia)"
       },
       "payment": {
-        "paid": 2040000,
+        "paid": 10200000,
         "invoiceTotal": 10200000,
-        "balance": 8160000,
+        "balance": 0,
         "paymentMethod": null,
         "history": [
           {
@@ -5654,6 +5649,22 @@
             "method": "Debit/Credit Card",
             "description": "Down Payment",
             "date": "27 Aug 26 16:25"
+          },
+          {
+            "id": 920,
+            "amount": 7760000,
+            "methodId": 3,
+            "method": "Debit/Credit Card",
+            "description": "Payment (Paid in Full)",
+            "date": "04 Sep 26 15:27"
+          },
+          {
+            "id": 921,
+            "amount": 400000,
+            "methodId": 3,
+            "method": "Debit/Credit Card",
+            "description": "Payment Add On",
+            "date": "04 Sep 26 15:27"
           }
         ]
       },
@@ -5666,7 +5677,7 @@
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
-        "balanceStatus": "balance_due"
+        "balanceStatus": "settled"
       }
     },
     {
@@ -6651,7 +6662,7 @@
           "id": 83,
           "name": "Toriq",
           "tags": "JVTO,KLOOK",
-          "monthlyEscortCount": 4
+          "monthlyEscortCount": 3
         }
       ],
       "guides": [
@@ -7537,7 +7548,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 2
+          "monthlyIjenCount": 1
         }
       ],
       "isShuttle": "NO",
@@ -9475,184 +9486,6 @@
       }
     },
     {
-      "bookingId": 3820,
-      "bookingCode": "KLOOK-3820",
-      "orderChannel": "KLOOK",
-      "packageId": 84,
-      "packageName": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
-      "duration": "4D 3N",
-      "totalPax": 2,
-      "bookingDate": "02 Sep 2026",
-      "tripDate": {
-        "start_ymd": "2026-09-18",
-        "end_ymd": "2026-09-21",
-        "start": "18 Sep 26",
-        "end": "21 Sep 26",
-        "days": "Fri - Mon"
-      },
-      "pickup": {
-        "meetingPoint": "Surabaya Hotel",
-        "arrival": null,
-        "value": "Grand Swiss-Belhotel Darmo, Surabaya",
-        "time": "11:00",
-        "text": "Surabaya Hotel  Grand Swiss-Belhotel Darmo, Surabaya",
-        "complete": true
-      },
-      "dropoff": {
-        "dropPoint": "Surabaya Hotel",
-        "arrival": null,
-        "value": "Sheraton Surabaya Hotel and Towers",
-        "time": "16:00",
-        "text": "Surabaya Hotel  Sheraton Surabaya Hotel and Towers",
-        "complete": true
-      },
-      "itinerary": [
-        {
-          "day": 1,
-          "date": "18 Sep 2026",
-          "itinerary": "Surabaya Hotel - Bondowoso",
-          "activity": "Surabaya",
-          "destination_id": 4,
-          "destination": "Surabaya"
-        },
-        {
-          "day": 2,
-          "date": "19 Sep 2026",
-          "itinerary": "Ijen Crater - Papuma Beach Sunset",
-          "activity": "Ijen Crater Hike",
-          "destination_id": 2,
-          "destination": "Mount Ijen"
-        },
-        {
-          "day": 3,
-          "date": "20 Sep 2026",
-          "itinerary": "Tumpak Sewu - Bromo Area",
-          "activity": "Tumpak Sewu Waterfall Tour",
-          "destination_id": 7,
-          "destination": "Tumpak Sewu Waterfall"
-        },
-        {
-          "day": 4,
-          "date": "21 Sep 2026",
-          "itinerary": "Bromo Sunrise - Surabaya Hotel",
-          "activity": "Bromo Sunrise Tour",
-          "destination_id": 1,
-          "destination": "Mount Bromo"
-        }
-      ],
-      "hotels": [
-        {
-          "day": 1,
-          "checkIn": "18 Sep 2026",
-          "hotelId": 1,
-          "hotel": "Baratha Hotel and Resto",
-          "rooms": [
-            {
-              "roomId": 9,
-              "roomName": "Deluxe Double",
-              "quantity": 1
-            }
-          ],
-          "meals": [
-            "Breakfast",
-            "Dinner"
-          ]
-        },
-        {
-          "day": 2,
-          "checkIn": "19 Sep 2026",
-          "hotelId": 33,
-          "hotel": "Doho Homestay",
-          "rooms": [
-            {
-              "roomId": 163,
-              "roomName": "Deluxe Double",
-              "quantity": 1
-            }
-          ],
-          "meals": [
-            "Breakfast"
-          ]
-        },
-        {
-          "day": 3,
-          "checkIn": "20 Sep 2026",
-          "hotelId": 11,
-          "hotel": "Joglo Kecombrang Bromo",
-          "rooms": [
-            {
-              "roomId": 24,
-              "roomName": "Double",
-              "quantity": 1
-            }
-          ],
-          "meals": [
-            "Breakfast"
-          ]
-        }
-      ],
-      "tshirt": {
-        "text": "",
-        "sizes": {
-          "xss": 0,
-          "xxs": 0,
-          "xs": 0,
-          "s": 0,
-          "m": 0,
-          "l": 0,
-          "xl": 0,
-          "xxl": 0,
-          "xxxl": 0
-        }
-      },
-      "vehicles": [
-        "Avanza Sub"
-      ],
-      "drivers": [
-        {
-          "id": 83,
-          "name": "Toriq",
-          "tags": "JVTO,KLOOK",
-          "monthlyEscortCount": 4
-        }
-      ],
-      "guides": [
-        {
-          "id": 4,
-          "name": "Taufik",
-          "role": "Ijen",
-          "tags": "JVTO,KLOOK,TWT",
-          "monthlyEscortCount": 4,
-          "monthlyIjenCount": 2
-        }
-      ],
-      "isShuttle": "NO",
-      "ijenDate": "19 Sep 26",
-      "customer": {
-        "guestId": 4145,
-        "countryId": 97,
-        "country": "Hong Kong (香港)"
-      },
-      "payment": {
-        "paid": 0,
-        "invoiceTotal": 7500000,
-        "balance": 7500000,
-        "paymentMethod": null,
-        "history": []
-      },
-      "readiness": {
-        "hasPickup": true,
-        "hasDropoff": true,
-        "hasVehicle": true,
-        "hasDriver": true,
-        "hasGuide": true,
-        "hasHotels": true,
-        "hasPaymentHistory": false,
-        "hasNotes": false,
-        "balanceStatus": "balance_due"
-      }
-    },
-    {
       "bookingId": 3745,
       "bookingCode": "KLOOK-3745",
       "orderChannel": "KLOOK",
@@ -9931,7 +9764,7 @@
           "role": "Ijen",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 2
+          "monthlyIjenCount": 1
         }
       ],
       "isShuttle": "NO",
@@ -10343,26 +10176,26 @@
         "days": "Mon - Thu"
       },
       "pickup": {
-        "meetingPoint": "Others",
+        "meetingPoint": "Surabaya Hotel",
         "arrival": null,
-        "value": "",
-        "time": "07:00",
-        "text": "",
-        "complete": false
+        "value": "Grand Swiss-Belhotel Darmo, Surabaya",
+        "time": "11:00",
+        "text": "Surabaya Hotel  Grand Swiss-Belhotel Darmo, Surabaya",
+        "complete": true
       },
       "dropoff": {
-        "dropPoint": "Others",
+        "dropPoint": "Surabaya Hotel",
         "arrival": null,
-        "value": "Sheraton Surabaya Hotel and Towers",
-        "time": "07:00",
-        "text": "Sheraton Surabaya Hotel and Towers",
+        "value": "Sheraton Surabaya Hotel & Towers",
+        "time": "15:00",
+        "text": "Surabaya Hotel  Sheraton Surabaya Hotel & Towers",
         "complete": true
       },
       "itinerary": [
         {
           "day": 1,
           "date": "21 Sep 2026",
-          "itinerary": "Arrival in Surabaya and Journey to Bondowoso",
+          "itinerary": "Surabaya Hotel - Bondowoso",
           "activity": "Surabaya",
           "destination_id": 4,
           "destination": "Surabaya"
@@ -10370,7 +10203,7 @@
         {
           "day": 2,
           "date": "22 Sep 2026",
-          "itinerary": "Ijen Crater Adventure and Papuma Beach Sunset",
+          "itinerary": "Ijen Crater - Papuma Beach Sunset",
           "activity": "Ijen Crater Hike",
           "destination_id": 2,
           "destination": "Mount Ijen"
@@ -10378,7 +10211,7 @@
         {
           "day": 3,
           "date": "23 Sep 2026",
-          "itinerary": "Tumpak Sewu Waterfall and Journey to Bromo",
+          "itinerary": "Tumpak Sewu - Bromo Area",
           "activity": "Tumpak Sewu Waterfall Tour",
           "destination_id": 7,
           "destination": "Tumpak Sewu Waterfall"
@@ -10386,7 +10219,7 @@
         {
           "day": 4,
           "date": "24 Sep 2026",
-          "itinerary": "Bromo Sunrise Adventure and Return to Surabaya",
+          "itinerary": "Bromo Sunrise - Surabaya Hotel",
           "activity": "Bromo Sunrise Tour",
           "destination_id": 1,
           "destination": "Mount Bromo"
@@ -10464,8 +10297,8 @@
       "ijenDate": "22 Sep 26",
       "customer": {
         "guestId": 4150,
-        "countryId": null,
-        "country": null
+        "countryId": 97,
+        "country": "Hong Kong (香港)"
       },
       "payment": {
         "paid": 0,
@@ -10475,7 +10308,7 @@
         "history": []
       },
       "readiness": {
-        "hasPickup": false,
+        "hasPickup": true,
         "hasDropoff": true,
         "hasVehicle": false,
         "hasDriver": false,
@@ -11179,7 +11012,7 @@
           "role": "Escort",
           "tags": "JVTO,KLOOK,TWT",
           "monthlyEscortCount": 4,
-          "monthlyIjenCount": 2
+          "monthlyIjenCount": 1
         }
       ],
       "isShuttle": "NO",
@@ -11214,101 +11047,6 @@
         "hasHotels": true,
         "hasPaymentHistory": true,
         "hasNotes": false,
-        "balanceStatus": "balance_due"
-      }
-    },
-    {
-      "bookingId": 3371,
-      "bookingCode": "KLOOK-3371",
-      "orderChannel": "KLOOK",
-      "packageId": 94,
-      "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
-      "duration": "1D 1N",
-      "totalPax": 3,
-      "bookingDate": "06 May 2026",
-      "tripDate": {
-        "start_ymd": "2026-09-24",
-        "end_ymd": "2026-09-24",
-        "start": "24 Sep 26",
-        "end": "24 Sep 26",
-        "days": "Thu - Thu"
-      },
-      "pickup": {
-        "meetingPoint": "Surabaya Hotel",
-        "arrival": null,
-        "value": "The Life Styles Hotel Surabaya",
-        "time": "00:01",
-        "text": "Surabaya Hotel  The Life Styles Hotel Surabaya",
-        "complete": true
-      },
-      "dropoff": {
-        "dropPoint": "Surabaya Hotel",
-        "arrival": null,
-        "value": "The Life Styles Hotel Surabaya",
-        "time": "07:00",
-        "text": "Surabaya Hotel  The Life Styles Hotel Surabaya",
-        "complete": true
-      },
-      "itinerary": [
-        {
-          "day": 1,
-          "date": "24 Sep 2026",
-          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Hotel",
-          "activity": "Bromo Sunrise Tour, Madakaripura Warterfall Tour",
-          "destination_id": 1,
-          "destination": "Mount Bromo"
-        }
-      ],
-      "hotels": [],
-      "tshirt": {
-        "text": "",
-        "sizes": {
-          "xss": 0,
-          "xxs": 0,
-          "xs": 0,
-          "s": 0,
-          "m": 0,
-          "l": 0,
-          "xl": 0,
-          "xxl": 0,
-          "xxxl": 0
-        }
-      },
-      "vehicles": [
-        "Avanza Sub"
-      ],
-      "drivers": [
-        {
-          "id": 62,
-          "name": "Yusuf",
-          "tags": "JVTO,KLOOK",
-          "monthlyEscortCount": 5
-        }
-      ],
-      "guides": [],
-      "isShuttle": "NO",
-      "ijenDate": null,
-      "customer": {
-        "guestId": 3732,
-        "countryId": 231,
-        "country": "United Kingdom"
-      },
-      "payment": {
-        "paid": 0,
-        "invoiceTotal": 3600000,
-        "balance": 3600000,
-        "paymentMethod": null,
-        "history": []
-      },
-      "readiness": {
-        "hasPickup": true,
-        "hasDropoff": true,
-        "hasVehicle": true,
-        "hasDriver": true,
-        "hasGuide": false,
-        "hasHotels": false,
-        "hasPaymentHistory": false,
-        "hasNotes": true,
         "balanceStatus": "balance_due"
       }
     },
@@ -11645,92 +11383,6 @@
       }
     },
     {
-      "bookingId": 3822,
-      "bookingCode": "KLOOK-3822",
-      "orderChannel": "KLOOK",
-      "packageId": 94,
-      "packageName": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
-      "duration": "1D 1N",
-      "totalPax": 4,
-      "bookingDate": "03 Sep 2026",
-      "tripDate": {
-        "start_ymd": "2026-09-24",
-        "end_ymd": "2026-09-23",
-        "start": "24 Sep 26",
-        "end": "23 Sep 26",
-        "days": "Thu - Wed"
-      },
-      "pickup": {
-        "meetingPoint": "Others",
-        "arrival": null,
-        "value": "The Life Styles Hotel Surabaya",
-        "time": "07:00",
-        "text": "The Life Styles Hotel Surabaya",
-        "complete": true
-      },
-      "dropoff": {
-        "dropPoint": "Surabaya Hotel",
-        "arrival": null,
-        "value": "The Life Styles Hotel Surabaya",
-        "time": "15:00",
-        "text": "Surabaya Hotel (The Life Styles Hotel Surabaya)",
-        "complete": true
-      },
-      "itinerary": [
-        {
-          "day": 1,
-          "date": "24 Sep 2026",
-          "itinerary": "Day 1: Exploration Day",
-          "activity": null,
-          "destination_id": null,
-          "destination": null
-        }
-      ],
-      "hotels": [],
-      "tshirt": {
-        "text": "",
-        "sizes": {
-          "xss": 0,
-          "xxs": 0,
-          "xs": 0,
-          "s": 0,
-          "m": 0,
-          "l": 0,
-          "xl": 0,
-          "xxl": 0,
-          "xxxl": 0
-        }
-      },
-      "vehicles": [],
-      "drivers": [],
-      "guides": [],
-      "isShuttle": "NO",
-      "ijenDate": null,
-      "customer": {
-        "guestId": 4147,
-        "countryId": null,
-        "country": null
-      },
-      "payment": {
-        "paid": 0,
-        "invoiceTotal": 4200000,
-        "balance": 4200000,
-        "paymentMethod": null,
-        "history": []
-      },
-      "readiness": {
-        "hasPickup": true,
-        "hasDropoff": true,
-        "hasVehicle": false,
-        "hasDriver": false,
-        "hasGuide": false,
-        "hasHotels": false,
-        "hasPaymentHistory": false,
-        "hasNotes": false,
-        "balanceStatus": "balance_due"
-      }
-    },
-    {
       "bookingId": 3823,
       "bookingCode": "KLOOK-3823",
       "orderChannel": "KLOOK",
@@ -11741,17 +11393,17 @@
       "bookingDate": "03 Sep 2026",
       "tripDate": {
         "start_ymd": "2026-09-24",
-        "end_ymd": "2026-09-23",
+        "end_ymd": "2026-09-24",
         "start": "24 Sep 26",
-        "end": "23 Sep 26",
-        "days": "Thu - Wed"
+        "end": "24 Sep 26",
+        "days": "Thu - Thu"
       },
       "pickup": {
-        "meetingPoint": "Others",
+        "meetingPoint": "Surabaya Hotel",
         "arrival": null,
         "value": "The Life Styles Hotel Surabaya",
-        "time": "07:00",
-        "text": "The Life Styles Hotel Surabaya",
+        "time": "00:01",
+        "text": "Surabaya Hotel  The Life Styles Hotel Surabaya",
         "complete": true
       },
       "dropoff": {
@@ -11766,10 +11418,10 @@
         {
           "day": 1,
           "date": "24 Sep 2026",
-          "itinerary": "Day 1: Exploration Day",
-          "activity": null,
-          "destination_id": null,
-          "destination": null
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Airport",
+          "activity": "Bromo Sunrise Tour, Madakaripura Warterfall Tour",
+          "destination_id": 1,
+          "destination": "Mount Bromo"
         }
       ],
       "hotels": [],
@@ -11787,15 +11439,24 @@
           "xxxl": 0
         }
       },
-      "vehicles": [],
-      "drivers": [],
+      "vehicles": [
+        "Innova Reborn"
+      ],
+      "drivers": [
+        {
+          "id": 62,
+          "name": "Yusuf",
+          "tags": "JVTO,KLOOK",
+          "monthlyEscortCount": 5
+        }
+      ],
       "guides": [],
       "isShuttle": "NO",
       "ijenDate": null,
       "customer": {
         "guestId": 4148,
-        "countryId": null,
-        "country": null
+        "countryId": 231,
+        "country": "United Kingdom"
       },
       "payment": {
         "paid": 0,
@@ -11807,12 +11468,12 @@
       "readiness": {
         "hasPickup": true,
         "hasDropoff": false,
-        "hasVehicle": false,
-        "hasDriver": false,
+        "hasVehicle": true,
+        "hasDriver": true,
         "hasGuide": false,
         "hasHotels": false,
         "hasPaymentHistory": false,
-        "hasNotes": false,
+        "hasNotes": true,
         "balanceStatus": "balance_due"
       }
     },
@@ -14173,26 +13834,26 @@
         "days": "Sun - Tue"
       },
       "pickup": {
-        "meetingPoint": null,
+        "meetingPoint": "",
         "arrival": null,
         "value": null,
         "time": "07:00",
-        "text": null,
+        "text": "  ",
         "complete": false
       },
       "dropoff": {
-        "dropPoint": null,
+        "dropPoint": "",
         "arrival": null,
         "value": null,
         "time": "07:00",
-        "text": null,
+        "text": "  ",
         "complete": false
       },
       "itinerary": [
         {
           "day": 1,
           "date": "11 Oct 2026",
-          "itinerary": "From Surabaya to the Mystical Bromo Area",
+          "itinerary": "Surabaya Airport - Madakaripura - Bromo Area",
           "activity": "Surabaya",
           "destination_id": 4,
           "destination": "Surabaya"
@@ -14200,15 +13861,15 @@
         {
           "day": 2,
           "date": "12 Oct 2026",
-          "itinerary": "From Bromo Sunrise to the Hidden Gems of Madakaripura",
-          "activity": "Bromo Sunrise Tour, Madakaripura Warterfall Tour",
+          "itinerary": "Bromo Sunrise - Bondowoso",
+          "activity": "Bromo Sunrise Tour",
           "destination_id": 1,
           "destination": "Mount Bromo"
         },
         {
           "day": 3,
           "date": "13 Oct 2026",
-          "itinerary": "From Ijen Crater to Bali’s Shores",
+          "itinerary": "Ijen Crater - Bali",
           "activity": "Ijen Crater Hike",
           "destination_id": 2,
           "destination": "Mount Ijen"
@@ -14270,8 +13931,8 @@
       "ijenDate": "13 Oct 26",
       "customer": {
         "guestId": 4151,
-        "countryId": null,
-        "country": null
+        "countryId": 232,
+        "country": "United States"
       },
       "payment": {
         "paid": 8040000,

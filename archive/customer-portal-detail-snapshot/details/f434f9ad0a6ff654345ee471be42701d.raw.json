@@ -16,12 +16,12 @@
       "package_name": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
       "channel": "KLOOK",
       "package_link": "https://klook.com/activity/99790-3-day-mount-bromo-sunrise-ijen-madakaripura-trekking-trip-surabaya/",
-      "duration": "0D -1N",
+      "duration": "1D 1N",
       "travel_date_start": "2026-09-24",
-      "travel_date_end": "2026-09-23",
+      "travel_date_end": "2026-09-24",
       "total_pax": 4,
-      "pickup": "The Life Styles Hotel Surabaya",
-      "pickup_time": null,
+      "pickup": "Surabaya Hotel  The Life Styles Hotel Surabaya",
+      "pickup_time": "00:01:00",
       "drop": "",
       "drop_time": null,
       "special_requirements": null,
@@ -36,7 +36,14 @@
       },
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 62,
+            "name": "Yusuf",
+            "photo": "https://legacy.javavolcano-touroperator.com/assets/img/guide/1723647328_WhatsApp Image 2024-08-14 at 20.45.38.jpeg",
+            "role": "Driver"
+          }
+        ]
       },
       "vehicle_specs": [
         {
@@ -52,8 +59,8 @@
         {
           "day": 1,
           "title": "Day 1",
-          "itinerary": "Day 1: Exploration Day",
-          "activity": "<p><span style=\"background-color: rgb(243, 244, 246); color: rgb(0, 0, 0);\">Your adventure begins with an early pickup from your hotel in Surabaya. Depart at midnight for a scenic journey to Mount Bromo, a drive that will take approximately 2 hours to reach the base at Cemoro Lawang. Arrive at Cemoro Lawang around 02:00 AM, where you’ll switch to a vintage 4WD Jeep for an exciting ride up to the stargazing and sunrise viewpoint at Kingkong Hill. You’ll wait for the breathtaking sunrise over the volcanic landscape, with panoramic views of Mount Bromo, Mount Batok, and Mount Semeru. Be sure to bring warm clothes as it can get chilly in the early morning hours. After the sunrise, continue the journey to the Bromo Crater. Take a walk or ride a pony through the Sand Sea to reach the crater, where you’ll be able to view the sulfurous smoke rising from the depths. Next, visit the Whispering Sand, a mysterious and scenic area that adds to the ethereal experience of Mount Bromo. Return to a local hotel in the Bromo area for breakfast at a hygienic restaurant. After breakfast, enjoy a short rest before checking out and heading back to Surabaya. After breakfast and rest, you will be transferred back to Surabaya, where the tour concludes around noon. This marks the end of your Mount Bromo Sunrise Adventure.</span></p>"
+          "itinerary": "Bromo Sunrise - Madakaripura Waterfall - Surabaya Airport",
+          "activity": "Pikcup at 12.00 AM from Surabaya to Bromo area - change vehicle to Jeep and depart at 2am by private jeep to Bromo (Sunrise - Bromo Crater Rim- Whispering Sands) - Breakfast and Shower - check out - continue to Madakaripura waterfall - Transfer to Surabaya Airport - End program"
         }
       ],
       "accommodations": [],
@@ -64,7 +71,7 @@
         "dp_amount": 0,
         "balance": 4200000,
         "paid_amount": 0,
-        "due_date": null,
+        "due_date": "1970-01-01 00:00:00",
         "initial_payment_method": "pay later",
         "balance_payment_method": null,
         "payment_link": null,

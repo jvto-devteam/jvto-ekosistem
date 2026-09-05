@@ -20,7 +20,7 @@
       "travel_date_start": "2026-09-09",
       "travel_date_end": "2026-09-13",
       "total_pax": 5,
-      "pickup": "Bali Hotel  ",
+      "pickup": "Bali Hotel  Pondok Wana Ubud & Ibah Ubud",
       "pickup_time": "10:00:00",
       "drop": "Surabaya Airport Terminal 2 ",
       "drop_time": "12:30:00",
@@ -29,9 +29,9 @@
       "tshirt_sizes": {
         "xs": 0,
         "s": 0,
-        "m": 0,
-        "l": 0,
-        "xl": 0,
+        "m": 1,
+        "l": 1,
+        "xl": 1,
         "xxl": 0
       },
       "crews": {
@@ -92,37 +92,37 @@
           "day": 1,
           "name": "Luminor Hotel",
           "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/luminor-bwi.jpeg",
-          "rooms": "Deluxe Double (3)"
+          "rooms": "Deluxe Double (2)"
         },
         {
           "day": 4,
           "name": "Holiday Inn Express Surabaya Centerpoint, an IHG Hotel",
           "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/holiday-inn.jfif",
-          "rooms": "Double (3)"
+          "rooms": "Double (2)"
         },
         {
           "day": 2,
           "name": "Artha Cottage",
           "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/artha-cottages.webp",
-          "rooms": "Twin (1), Double (2)"
+          "rooms": "Double (2)"
         },
         {
           "day": 3,
           "name": "Manis Ae Cabin & Resto Bromo",
           "banner": "https://legacy.javavolcano-touroperator.com/assets/img/hotels/1728394039_2024-05-05.jpg",
-          "rooms": "Single Cabin Double - Weekday (3)"
+          "rooms": "Single Cabin Double - Weekday (2)"
         }
       ],
       "addons": [
         {
-          "id": 791,
+          "id": 809,
           "name": "Madakaripura Waterfall",
           "qty": 5,
           "price": 200000,
           "subtotal": 1000000
         },
         {
-          "id": 792,
+          "id": 810,
           "name": "Upgrade Accommodation",
           "qty": 1,
           "price": 2850000,

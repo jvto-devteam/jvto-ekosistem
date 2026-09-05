@@ -1,8 +1,8 @@
 {
   "schema_version": "jvto-operations/customer-portal-crew-records-v1",
-  "generated_at": "2026-09-04T05:10:50.109Z",
+  "generated_at": "2026-09-05T04:59:51.703Z",
   "privacy": "Crew names and public-facing roles/photos-present flags are retained; crew phone numbers are not present in the source portal payload and are not stored.",
-  "record_count": 94,
+  "record_count": 91,
   "records": [
     {
       "booking_id": 1622,
@@ -94,23 +94,6 @@
       "crews": {
         "guides": [],
         "drivers": []
-      }
-    },
-    {
-      "booking_id": 3371,
-      "booking_ref": "JVTO-3371",
-      "package_name": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
-      "travel_date_start": "2026-09-24",
-      "crews": {
-        "guides": [],
-        "drivers": [
-          {
-            "id": 62,
-            "name": "Yusuf",
-            "role": "Driver",
-            "photo_present": true
-          }
-        ]
       }
     },
     {
@@ -1718,30 +1701,6 @@
       }
     },
     {
-      "booking_id": 3820,
-      "booking_ref": "JVTO-3820",
-      "package_name": "4D3N Ijen Crater, Papuma Beach, Tumpak Sewu Waterfal & Mount Bromo from Surabaya",
-      "travel_date_start": "2026-09-18",
-      "crews": {
-        "guides": [
-          {
-            "id": 4,
-            "name": "Taufik",
-            "role": "Ijen Guide",
-            "photo_present": true
-          }
-        ],
-        "drivers": [
-          {
-            "id": 83,
-            "name": "Toriq",
-            "role": "Driver",
-            "photo_present": true
-          }
-        ]
-      }
-    },
-    {
       "booking_id": 3821,
       "booking_ref": "JVTO-3821",
       "package_name": "4 Day Tumpak Sewu, Bromo & Ijen Adventure from Surabaya to Bali",
@@ -1759,23 +1718,20 @@
       }
     },
     {
-      "booking_id": 3822,
-      "booking_ref": "JVTO-3822",
-      "package_name": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
-      "travel_date_start": "2026-09-24",
-      "crews": {
-        "guides": [],
-        "drivers": []
-      }
-    },
-    {
       "booking_id": 3823,
       "booking_ref": "JVTO-3823",
       "package_name": "Mount Bromo Sunrise Private Tour with Photographer from Surabaya",
       "travel_date_start": "2026-09-24",
       "crews": {
         "guides": [],
-        "drivers": []
+        "drivers": [
+          {
+            "id": 62,
+            "name": "Yusuf",
+            "role": "Driver",
+            "photo_present": true
+          }
+        ]
       }
     },
     {
